@@ -50,6 +50,7 @@ exclude = [
     '^https://www\.actu-juridique\.fr/',
     '^https://www\.science\.org/',
     '^https://www\.bonjour-ratp\.fr/',
+    '^https://gijn\.org/',
     '^https://github\.com/gilet-jaune/onmanifeste.*',
     '^https://fonts\.gstatic\.com/.*'
 ]

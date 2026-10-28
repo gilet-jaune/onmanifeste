@@ -56,6 +56,19 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Guide "Agressions par l'extrême droite" (FR/EN, defensive), LICRA, SOS Racisme, SOS homophobie,
 - Kit guide: body protection (knee, elbow and wrist pads, shin guards, helmet) and a sourced warning
 - "S'informer et se former" guide (FR/EN) and "Se former & s'engager" category: ANV-COP21,
+- "Répressions et désinformation documentées" page (FR/EN): repression cases and official statements
+- Guide "Communiquer pendant une manif" (FR/EN) comparing Signal, Briar and Meshtastic (offline, hardware,
+  encryption, advantages, use cases, drawbacks) and Meshtastic in the directory.
+- "Blessé·es et mort·es en manifestation" timeline (FR/EN, `victimes.json`): deaths and serious
+  injuries by police, gendarmerie, army or far-right groups, each with sources; censuses (Basta!,
+  Désarmons-les, Mutilés pour l'exemple, Allô Place Beauvau). Only deceased or already public cases
+  are named.
+- Fixed: on mobile, timeline dates sat beside the text instead of above it.
+  later debunked (17 October 1961, Malik Oussekine, Rémi Fraisse, yellow vests LBD, Geneviève Legay,
+  Pitié-Salpêtrière, Sainte-Soline body-camera footage, Nahel), each with evidence from the sources
+  registry; `evidence` and `debunked` fields in `history.json`.
+- Ten more guided-search profiles (misinformed, creator, under pressure, older, young, disabled,
+  afraid, without a vehicle, professionals wanting to help, police officer).
   Alternatiba, Extinction Rebellion, Greenpeace local groups, LDH observatories, Amnesty training
   booklet; social media tips; shortcut and guided-search profile.
 - Central registries: `sources.json` for citations (85 sources instead of 222 copies), `res()` macro

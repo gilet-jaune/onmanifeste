@@ -26,6 +26,7 @@ Organiser, c'est déclarer, préparer la sécurité et prévoir l'après. Les ob
 - [ ] Des **street medics** et une **legal team** prévenues, avec leurs numéros diffusés aux participant·es.
 - [ ] Un **point accessible** et un contact « accessibilité » pour les personnes handicapées.
 - [ ] Un canal d'information chiffré ([Signal](../annuaire/index.md#signal)) pour les consignes en direct.
+- [ ] Des documents partagés chiffrés ({{ res("cryptpad") }}) pour les listes de contacts, le plan et la répartition des rôles, plutôt qu'un service en ligne classique.
 - [ ] Un point de **dispersion** clair et des consignes en cas de sommations ([dispersion et sommations](dispersion.md)).
 
 ## Après

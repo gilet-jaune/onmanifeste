@@ -92,8 +92,12 @@
     function matches() {
       const terms = normalize(input.value).split(/\s+/).filter(Boolean);
       return items.filter((item) => {
-        const hay = normalize(`${labelOf(item)} ${keywordsOf(item).join(' ')}`);
-        return terms.every((t) => hay.includes(t));
+        const hay = normalize(`${labelOf(item)} ${keywordsOf(item).join(' ')}`).replace(
+          /[^a-z0-9]+/g,
+          ' ',
+        );
+        // Match at word starts only ("peur" must not match "developpeur").
+        return terms.every((t) => ` ${hay}`.includes(` ${t}`));
       });
     }
 

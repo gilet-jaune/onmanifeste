@@ -1,0 +1,34 @@
+{#- Documented repression and debunked official statements, from docs/data/history.json + sources.json. -#}
+
+{%- macro proofs(e, lang) -%}
+{%- if e.evidence %}
+<p class="documented__proofs"><strong>{{ 'Preuves :' if lang == 'fr' else 'Evidence:' }}</strong>
+{%- for id in e.evidence %}{% set s = sources[id] %}{% set url = s.url[lang] if s.url is mapping else s.url %} <a href="{{ url }}" target="_blank" rel="noopener">{{ s.title[lang] or s.title.fr }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}
+</p>
+{%- endif %}
+{%- endmacro -%}
+
+{%- macro repressions(lang) -%}
+<div class="documented">
+{%- for e in events if e.evidence and e.kind != 'desinformation' %}
+  <article class="documented__item" id="repression-{{ e.date }}">
+    <h3><span class="documented__year">{{ e.date[:4] }}</span> {{ e.title }}</h3>
+    <p>{{ e.description[lang] or e.description.fr }}</p>
+    {{ proofs(e, lang) }}
+  </article>
+{%- endfor %}
+</div>
+{%- endmacro -%}
+
+{%- macro debunked(lang) -%}
+<div class="documented">
+{%- for e in events if e.debunked %}
+  <article class="documented__item documented__item--debunked" id="dementi-{{ e.date }}">
+    <h3><span class="documented__year">{{ e.date[:4] }}</span> {{ e.title }}</h3>
+    <p class="documented__claim"><strong>{{ 'Déclaré :' if lang == 'fr' else 'Claimed:' }}</strong> {{ e.debunked.claim[lang] or e.debunked.claim.fr }}</p>
+    <p class="documented__fact"><strong>{{ 'Établi :' if lang == 'fr' else 'Established:' }}</strong> {{ e.debunked.fact[lang] or e.debunked.fact.fr }}</p>
+    {{ proofs(e, lang) }}
+  </article>
+{%- endfor %}
+</div>
+{%- endmacro -%}

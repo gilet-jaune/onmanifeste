@@ -1,5 +1,5 @@
 ---
-source_commit: 11933ef072915ebe92262e83a494e29f1aaef917
+source_commit: a2d097b8af2a27abcc196d31b91029c68960eec0
 tags:
     - home
 ---
@@ -24,7 +24,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     ***
 
-    Sixteen short guides: protest safety, getting there and back, kit, first aid, custody, dispersal, filming the police, foreign nationals, high-school students, work, harassment, far-right attacks, organising, disinformation, talking to loved ones. Available offline.
+    Seventeen short guides: protest safety, getting there and back, communicating, kit, first aid, custody, dispersal, filming the police, foreign nationals, high-school students, work, harassment, far-right attacks, organising, disinformation, talking to loved ones. Available offline.
 
     [:octicons-arrow-right-24: Read the guides](guides/index.md)
 
@@ -43,6 +43,14 @@ A collaborative collection of **tools and resources for protesting in France**: 
     From the storming of the Bastille to today's movements, and what the street won: paid holidays, the vote, bills withdrawn.
 
     [:octicons-arrow-right-24: See the timeline](histoire/index.md)
+
+- **Documented repression and disinformation** [:material-file-document-alert:](repressions/index.md)
+
+    ***
+
+    Policing violence and official statements later debunked, with their evidence.
+
+    [:octicons-arrow-right-24: See the cases](repressions/index.md)
 
 - **Contributing** [:material-source-pull:](contribuer/index.md)
 

@@ -16,6 +16,10 @@
     "repression": {
       "fr": "Répression",
       "en": "Repression"
+    },
+    "desinformation": {
+      "fr": "Désinformation officielle",
+      "en": "Official disinformation"
     }
   },
   "events": [
@@ -165,6 +169,17 @@
       "description": {
         "fr": "La police réprime une manifestation pacifique d'Algérien·nes à Paris : des dizaines de morts, longtemps niés.",
         "en": "Police crack down on a peaceful march of Algerians in Paris: dozens killed, long denied."
+      },
+      "evidence": ["elysee-17-octobre-2012"],
+      "debunked": {
+        "claim": {
+          "fr": "Pendant plus de 50 ans, aucune reconnaissance officielle des morts de cette nuit.",
+          "en": "For more than 50 years, no official recognition of that night's deaths."
+        },
+        "fact": {
+          "fr": "En 2012, le président de la République reconnaît une « sanglante répression » de manifestant·es algérien·nes.",
+          "en": "In 2012, the President recognises a “bloody repression” of Algerian protesters."
+        }
       }
     },
     {
@@ -270,14 +285,15 @@
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Affaire_Malik_Oussekine",
       "description": {
-        "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; la loi est retirée.",
-        "en": "22-year-old student killed by police during protests against the Devaquet bill; the bill is withdrawn."
+        "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; la loi est retirée. Deux policiers sont condamnés à de la prison avec sursis.",
+        "en": "22-year-old student killed by police during protests against the Devaquet bill; the bill is withdrawn. Two police officers receive suspended prison sentences."
       },
       "gains": {
         "fr": "Retrait du projet de loi Devaquet sur l'université.",
         "en": "Withdrawal of the Devaquet university bill.",
         "source": "https://fr.wikipedia.org/wiki/Loi_Devaquet"
-      }
+      },
+      "evidence": ["wiki-malik-oussekine"]
     },
     {
       "date": "1995-11-24",
@@ -323,9 +339,10 @@
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
       "description": {
-        "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie au barrage de Sivens.",
-        "en": "21-year-old environmental activist killed by a gendarmerie grenade at the Sivens dam."
-      }
+        "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie au barrage de Sivens. La grenade OF-F1 est interdite en 2017 ; la Cour européenne des droits de l'homme condamne la France pour violation du droit à la vie.",
+        "en": "21-year-old environmental activist killed by a gendarmerie grenade at the Sivens dam. The OF-F1 grenade is banned in 2017; the European Court of Human Rights finds France violated his right to life."
+      },
+      "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"]
     },
     {
       "date": "2016-03-31",
@@ -357,13 +374,56 @@
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes",
       "description": {
-        "fr": "Né contre la hausse des taxes sur le carburant, le mouvement occupe les ronds-points chaque samedi ; nombreuses blessures graves par LBD et grenades.",
-        "en": "Born against fuel tax rises, the movement occupies roundabouts every Saturday; many serious injuries from LBD rounds and grenades."
+        "fr": "Né contre la hausse des taxes sur le carburant, le mouvement occupe les ronds-points chaque samedi ; nombreuses blessures graves par LBD et grenades. Plus de 13 000 tirs de LBD en quelques mois ; le Défenseur des droits demande la suspension de cette arme.",
+        "en": "Born against fuel tax rises, the movement occupies roundabouts every Saturday; many serious injuries from LBD rounds and grenades. More than 13,000 LBD shots in a few months; the Défenseur des droits calls for suspending the weapon."
       },
       "gains": {
         "fr": "Annulation de la hausse des taxes sur les carburants prévue pour 2019 et mesures sociales d'environ 10 milliards d'euros (dont hausse de la prime d'activité).",
         "en": "Planned 2019 fuel tax rise cancelled and social measures worth about €10 billion (including a higher in-work benefit).",
         "source": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation"
+      },
+      "evidence": ["publicsenat-lbd", "ddd-suspension-lbd"]
+    },
+    {
+      "date": "2019-03-23",
+      "title": "Geneviève Legay (Nice)",
+      "kind": "repression",
+      "url": "https://www.politis.fr/articles/2024/05/affaire-genevieve-legay-letat-juge-responsable/",
+      "description": {
+        "fr": "Une militante de 73 ans est grièvement blessée à la tête lors d'une charge policière. Le commissaire ayant ordonné la charge est condamné ; l'État est jugé responsable.",
+        "en": "A 73-year-old activist is seriously injured in the head during a police charge. The commissioner who ordered the charge is convicted; the State is held liable."
+      },
+      "evidence": ["legay-poussee", "legay-condamnation", "legay-etat-responsable"],
+      "debunked": {
+        "claim": {
+          "fr": "Le président de la République et le procureur affirment qu'elle n'a eu aucun contact avec les forces de l'ordre.",
+          "en": "The President and the prosecutor claim she had no contact with the police."
+        },
+        "fact": {
+          "fr": "Le procureur reconnaît ensuite qu'elle a été poussée par un policier.",
+          "en": "The prosecutor later acknowledges she was pushed by a police officer."
+        }
+      }
+    },
+    {
+      "date": "2019-05-01",
+      "title": "« Attaque » de la Pitié-Salpêtrière",
+      "kind": "desinformation",
+      "url": "https://www.allodocteurs.fr/se-soigner-hopital-non-il-ny-a-pas-eu-dattaque-de-la-pitie-salpetriere-1-27032.html",
+      "description": {
+        "fr": "Le 1er Mai, des manifestant·es entrent dans l'enceinte de l'hôpital ; le ministre de l'Intérieur parle d'une « attaque ».",
+        "en": "On May Day, protesters enter the hospital grounds; the Interior Minister speaks of an “attack”."
+      },
+      "evidence": ["pitie-allodocteurs", "pitie-publicsenat"],
+      "debunked": {
+        "claim": {
+          "fr": "Le ministre de l'Intérieur annonce que l'hôpital a été « attaqué » et son personnel agressé.",
+          "en": "The Interior Minister announces the hospital was “attacked” and its staff assaulted."
+        },
+        "fact": {
+          "fr": "Des vidéos contredisent cette version ; le ministre reconnaît qu'il n'aurait pas dû employer le mot « attaque ».",
+          "en": "Videos contradict this account; the minister acknowledges he should not have used the word “attack”."
+        }
       }
     },
     {
@@ -406,9 +466,10 @@
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/M%C3%A9gabassine",
       "description": {
-        "fr": "Manifestation contre les « méga-bassines » agricoles dans les Deux-Sèvres, marquée par des affrontements et de nombreux blessés graves.",
-        "en": "Protest against agricultural “mega-basins” in Deux-Sèvres, marked by clashes and many seriously injured people."
-      }
+        "fr": "Manifestation contre les « méga-bassines » agricoles dans les Deux-Sèvres, marquée par des affrontements et de nombreux blessés graves. Des images de caméras-piétons de gendarmes, révélées par Mediapart et Libération, montrent des tirs tendus de grenades interdits et des insultes ; une enquête administrative est ouverte.",
+        "en": "Protest against agricultural “mega-basins” in Deux-Sèvres, marked by clashes and many seriously injured people. Gendarmes' body-camera footage revealed by Mediapart and Libération shows banned direct grenade shots and insults; an administrative inquiry is opened."
+      },
+      "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"]
     },
     {
       "date": "2023-06-27",
@@ -418,6 +479,17 @@
       "description": {
         "fr": "Un adolescent de 17 ans est tué par un policier lors d'un contrôle routier à Nanterre ; plusieurs nuits de révoltes urbaines suivent.",
         "en": "A 17-year-old is killed by a police officer during a traffic stop in Nanterre; several nights of urban uprisings follow."
+      },
+      "evidence": ["nahel-proces"],
+      "debunked": {
+        "claim": {
+          "fr": "Version policière initiale : le conducteur aurait foncé sur un policier.",
+          "en": "Initial police account: the driver allegedly drove at an officer."
+        },
+        "fact": {
+          "fr": "Une vidéo amateur contredit cette version ; un procès pour meurtre est requis contre le policier auteur du tir.",
+          "en": "An amateur video contradicts this account; a murder trial is sought against the officer who fired."
+        }
       }
     },
     {

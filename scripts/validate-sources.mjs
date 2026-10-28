@@ -40,6 +40,12 @@ for (const file of walk('docs')) {
     if (!sources[id]) errors.push(`${file}: unknown source [^${id}]`);
   }
 }
+const victims = JSON.parse(readFileSync('docs/data/victimes.json', 'utf8')).victimes;
+for (const v of [...victims.victims, ...victims.censuses])
+  (v.evidence ?? []).forEach((id) => used.add(id));
+for (const e of JSON.parse(readFileSync('docs/data/history.json', 'utf8')).events) {
+  (e.evidence ?? []).forEach((id) => used.add(id));
+}
 for (const id of Object.keys(sources))
   if (!used.has(id)) warnings.push(`sources.${id}: never cited`);
 

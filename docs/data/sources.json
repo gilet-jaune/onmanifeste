@@ -111,6 +111,28 @@
         "result": "confirmed"
       }
     },
+    "amnesty-lyceens-2026": {
+      "title": {
+        "fr": "Amnesty International France — Mouvement lycéen : des mineurs face à la répression",
+        "en": "Amnesty International France — High-school movement: minors facing repression"
+      },
+      "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "amnesty-zineb-redouane": {
+      "title": {
+        "fr": "Amnesty International France — Justice pour Zineb Redouane",
+        "en": "Amnesty International France — Justice for Zineb Redouane"
+      },
+      "url": "https://www.amnesty.fr/petitions/10jps2022-redouane-zineb-france/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "anonymat": {
       "title": {
         "fr": "CMS Francis Lefebvre — Éditeurs de site internet, soignez vos mentions légales",
@@ -180,6 +202,50 @@
         "result": "confirmed"
       }
     },
+    "basta-montpellier-2026": {
+      "title": {
+        "fr": "Basta! — L'extrême droite agresse à Montpellier sous les yeux de la police",
+        "en": "Basta! — The far right attacks in Montpellier in front of the police"
+      },
+      "url": "https://basta.media/l-extreme-droite-agresse-a-montpellier-sous-les-yeux-de-la-police",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "bitchat-readme": {
+      "title": {
+        "fr": "Bitchat — Présentation (README)",
+        "en": "Bitchat — Overview (README)"
+      },
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "bitchat-whitepaper": {
+      "title": {
+        "fr": "Bitchat — Livre blanc : identité et métadonnées",
+        "en": "Bitchat — Whitepaper: identity and metadata"
+      },
+      "url": "https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "briar-how": {
+      "title": {
+        "fr": "Briar — How it works",
+        "en": "Briar — How it works"
+      },
+      "url": "https://briarproject.org/how-it-works/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "cass-2022": {
       "title": {
         "fr": "Cour de cassation, chambre criminelle, 7 novembre 2022, n° 21-83.146",
@@ -208,6 +274,17 @@
         "en": "Conseil d'État, 10 juin 2021, n° 444849 — schéma national du maintien de l'ordre"
       },
       "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cedh-remi-fraisse": {
+      "title": {
+        "fr": "Le Temps — La CEDH condamne la France pour violation du droit à la vie de Rémi Fraisse",
+        "en": "Le Temps — ECHR finds France violated Rémi Fraisse's right to life"
+      },
+      "url": "https://www.letemps.ch/monde/la-cedh-condamne-la-france-pour-violation-du-droit-a-la-vie-de-remi-fraisse",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -334,6 +411,17 @@
         "result": "confirmed"
       }
     },
+    "ddd-suspension-lbd": {
+      "title": {
+        "fr": "Tendance Ouest — Le Défenseur des droits demande la suspension des LBD",
+        "en": "Tendance Ouest — The Défenseur des droits calls for suspending LBDs"
+      },
+      "url": "https://www.tendanceouest.com/actualite-308189-le-defenseur-des-droits-demande-la-suspension-des-lanceurs-de-balles-de-defense-lbd",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "ddd-videos": {
       "title": {
         "fr": "Weka — Filmer la police : la Défenseure des droits réclame « le retrait » de l'article de loi",
@@ -389,12 +477,45 @@
         "result": "confirmed"
       }
     },
+    "eff-signal": {
+      "title": {
+        "fr": "EFF Surveillance Self-Defense — How to use Signal",
+        "en": "EFF Surveillance Self-Defense — How to use Signal"
+      },
+      "url": "https://ssd.eff.org/module/how-to-use-signal",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "elysee-17-octobre-2012": {
+      "title": {
+        "fr": "Élysée — Déclaration du président de la République sur le 17 octobre 1961 (2012)",
+        "en": "Élysée — President's statement on 17 October 1961 (2012)"
+      },
+      "url": "https://www.elysee.fr/francois-hollande/2012/10/17/declaration-de-m-francois-hollande-president-de-la-republique-en-hommage-aux-algeriens-tues-lors-de-la-manifestation-pour-le-droit-a-lindependance-du-17-octobre-1961-a-paris-le-17-octobre-2012",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "en166": {
       "title": {
         "fr": "Norme EN 166 : marquages des protections oculaires (domaine « 5 », résistance aux chocs)",
         "en": "EN 166 standard: eye protection markings (field \"5\", impact resistance)"
       },
       "url": "https://docs.rs-online.com/1627/0900766b815b40cf.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "etude-hassan-2023": {
+      "title": {
+        "fr": "Hassan et al. — More than tears: chemical agents and adverse reproductive health outcomes (Frontiers in Epidemiology, 2023)",
+        "en": "Hassan et al. — More than tears: chemical agents and adverse reproductive health outcomes (Frontiers in Epidemiology, 2023)"
+      },
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10956352/",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -571,6 +692,17 @@
         "result": "confirmed"
       }
     },
+    "lacrymos-de-sang": {
+      "title": {
+        "fr": "Lacrymos de sang — Enquête sur les effets du gaz lacrymogène sur le cycle menstruel",
+        "en": "Lacrymos de sang — Survey on tear gas effects on the menstrual cycle"
+      },
+      "url": "https://lacrymosdesang.my.canva.site/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "lcen": {
       "title": {
         "fr": "Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, article 1-1 (ex-article 6, III, 2) — Légifrance",
@@ -615,6 +747,17 @@
         "result": "confirmed"
       }
     },
+    "ldh-repression-lyceens": {
+      "title": {
+        "fr": "LDH — Violente répression du mouvement lycéen (9 octobre 2026)",
+        "en": "LDH — Violent repression of the high-school movement (9 October 2026)"
+      },
+      "url": "https://www.ldh-france.org/violente-repression-du-mouvement-lyceen/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "ldh-violences": {
       "title": {
         "fr": "LDH — Que faire face aux violences policières ? (avril 2026)",
@@ -632,6 +775,39 @@
         "en": "Legal Team Paris–IDF — La ligne antirep est ouverte"
       },
       "url": "https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "legay-condamnation": {
+      "title": {
+        "fr": "LyonMag — Affaire Geneviève Legay : le commissaire ayant ordonné la charge condamné",
+        "en": "LyonMag — Geneviève Legay case: the commissioner who ordered the charge convicted"
+      },
+      "url": "https://www.lyonmag.com/article/135007/affaire-genevieve-legay-le-commissaire-ayant-ordonne-la-charge-condamne-a-lyon",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "legay-etat-responsable": {
+      "title": {
+        "fr": "Politis — Affaire Geneviève Legay : l'État jugé responsable",
+        "en": "Politis — Geneviève Legay case: the State held liable"
+      },
+      "url": "https://www.politis.fr/articles/2024/05/affaire-genevieve-legay-letat-juge-responsable/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "legay-poussee": {
+      "title": {
+        "fr": "L'Avenir — La manifestante blessée à Nice a bien été poussée par un policier",
+        "en": "L'Avenir — The protester injured in Nice was indeed pushed by a police officer"
+      },
+      "url": "https://www.lavenir.net/actu/monde/2019/03/29/la-manifestante-septuagenaire-blessee-a-nice-a-bien-ete-poussee-par-un-policier-XPH2ATWJ4RDWBLSFBKXM5C5Z6M/",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -692,6 +868,61 @@
         "result": "confirmed"
       }
     },
+    "meshtastic-bluetooth": {
+      "title": {
+        "fr": "Meshtastic — Configuration Bluetooth (appairage et code PIN)",
+        "en": "Meshtastic — Bluetooth configuration (pairing and PIN)"
+      },
+      "url": "https://meshtastic.org/docs/configuration/radio/bluetooth/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "meshtastic-encryption": {
+      "title": {
+        "fr": "Meshtastic — Chiffrement (documentation officielle)",
+        "en": "Meshtastic — Encryption (official documentation)"
+      },
+      "url": "https://meshtastic.org/docs/overview/encryption/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "meshtastic-intro": {
+      "title": {
+        "fr": "Meshtastic — Introduction",
+        "en": "Meshtastic — Introduction"
+      },
+      "url": "https://meshtastic.org/docs/introduction/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "meshtastic-lora": {
+      "title": {
+        "fr": "Meshtastic — Configuration LoRa et régions (EU_868, temps d'émission)",
+        "en": "Meshtastic — LoRa configuration and regions (EU_868, duty cycle)"
+      },
+      "url": "https://meshtastic.org/docs/configuration/radio/lora/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "nahel-proces": {
+      "title": {
+        "fr": "Club des juristes — Mort de Nahel : procès pour meurtre requis contre le policier",
+        "en": "Club des juristes — Nahel's death: murder trial sought against the officer"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/mort-de-nahel-le-parquet-de-nanterre-a-requis-un-proces-pour-meurtre-contre-le-policier-auteur-du-tir-9597/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "outside": {
       "title": {
         "fr": "Outside — Lunettes de piscine, masques de ski, casques de vélo : la polémique autour des protections en manifestation",
@@ -714,12 +945,67 @@
         "result": "confirmed"
       }
     },
+    "pitie-allodocteurs": {
+      "title": {
+        "fr": "Allodocteurs — Non, il n'y a pas eu « d'attaque » de la Pitié-Salpêtrière",
+        "en": "Allodocteurs — No, the Pitié-Salpêtrière was not \"attacked\""
+      },
+      "url": "https://www.allodocteurs.fr/se-soigner-hopital-non-il-ny-a-pas-eu-dattaque-de-la-pitie-salpetriere-1-27032.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "pitie-publicsenat": {
+      "title": {
+        "fr": "Public Sénat — Pitié-Salpêtrière : Castaner tente de clore la polémique",
+        "en": "Public Sénat — Pitié-Salpêtrière: Castaner tries to end the controversy"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/pitie-salpetriere-castaner-tente-de-clore-la-polemique-140795",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "politis-basta-records": {
+      "title": {
+        "fr": "Politis — Morts suite à un tir policier : des chiffres records en 2021 et 2022",
+        "en": "Politis — Deaths after police shootings: record figures in 2021 and 2022"
+      },
+      "url": "https://www.politis.fr/articles/2023/06/morts-suite-a-un-tir-policier-des-chiffres-records-en-2021-et-2022/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "politis-mutiles": {
+      "title": {
+        "fr": "Politis — Les « mutilés pour l'exemple » marchent et accusent",
+        "en": "Politis — The \"mutilated as an example\" march and accuse"
+      },
+      "url": "https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "proofmode": {
       "title": {
         "fr": "ProofMode",
         "en": "ProofMode"
       },
       "url": "https://proofmode.org/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "publicsenat-lbd": {
+      "title": {
+        "fr": "Public Sénat — Gilets jaunes : plus de 13 000 tirs de LBD",
+        "en": "Public Sénat — Yellow vests: more than 13,000 LBD shots"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-plus-de-13000-tirs-de-lbd-depuis-le-debut-du-mouvement-138755",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -736,12 +1022,45 @@
         "result": "confirmed"
       }
     },
+    "reporterre-basta-2020": {
+      "title": {
+        "fr": "Reporterre — 27 personnes tuées par les forces de l'ordre en 2020, constate Basta!",
+        "en": "Reporterre — 27 people killed by police in 2020, according to Basta!"
+      },
+      "url": "https://reporterre.net/27-personnes-tuees-par-les-forces-de-l-ordre-en-2020-constate-le-site-Basta",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
     "reporterre-handicap": {
       "title": {
         "fr": "Reporterre — Manifs et handicap, le long parcours du combattant",
         "en": "Reporterre — Manifs et handicap, le long parcours du combattant"
       },
       "url": "https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sainte-soline-franceinfo": {
+      "title": {
+        "fr": "franceinfo — Tirs tendus, insultes : ce que révèlent les vidéos de Sainte-Soline",
+        "en": "franceinfo — Direct shots, insults: what the Sainte-Soline videos reveal"
+      },
+      "url": "https://www.franceinfo.fr/environnement/transition-ecologique-de-l-agriculture/megabassine/megabassine-de-sainte-soline/tirs-tendus-volontaires-insultes-ce-que-revelent-les-videos-publiees-par-mediapart-et-liberation-sur-le-comportement-des-gendarmes-a-sainte-soline_7599062.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sainte-soline-videos": {
+      "title": {
+        "fr": "Reporterre — Les vidéos des gendarmes à Sainte-Soline révélées par Mediapart et Libération",
+        "en": "Reporterre — Gendarmes' videos at Sainte-Soline revealed by Mediapart and Libération"
+      },
+      "url": "https://reporterre.net/Faut-qu-on-les-tue-les-videos-des-gendarmes-a-Sainte-Soline-revelees-par-Mediapart-et-Liberation",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -775,6 +1094,17 @@
         "en": "Signal — Blur tools"
       },
       "url": "https://signal.org/blog/blur-tools/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "signal-docs": {
+      "title": {
+        "fr": "Signal — Spécifications techniques (protocole de chiffrement)",
+        "en": "Signal — Technical specifications (encryption protocol)"
+      },
+      "url": "https://signal.org/docs/",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -929,6 +1259,83 @@
         "en": "Internet Archive — Save Page Now"
       },
       "url": "https://web.archive.org/save",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-charonne": {
+      "title": {
+        "fr": "Wikipédia — Affaire de la station de métro Charonne",
+        "en": "Wikipedia (French) — Charonne metro station affair"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Affaire_de_la_station_de_m%C3%A9tro_Charonne",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-fourmies": {
+      "title": {
+        "fr": "Wikipédia — Fusillade de Fourmies",
+        "en": "Wikipedia (French) — Fourmies shooting"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Fusillade_de_Fourmies",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-malik-oussekine": {
+      "title": {
+        "fr": "Wikipédia — Affaire Malik Oussekine",
+        "en": "Wikipedia (French) — Malik Oussekine case"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Malik_Oussekine",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-mouvement-lyceen-2026": {
+      "title": {
+        "fr": "Wikipédia — Mouvement lycéen et étudiant de 2026 en France",
+        "en": "Wikipedia (French) — 2026 high-school and student movement in France"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_lyc%C3%A9en_et_%C3%A9tudiant_de_2026_en_France",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-remi-fraisse": {
+      "title": {
+        "fr": "Wikipedia — Killing of Rémi Fraisse (interdiction de la grenade OF-F1)",
+        "en": "Wikipedia — Killing of Rémi Fraisse (OF-F1 grenade ban)"
+      },
+      "url": "https://en.wikipedia.org/wiki/Killing_of_R%C3%A9mi_Fraisse",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-steve-maia-canico": {
+      "title": {
+        "fr": "Wikipédia — Mort de Steve Maia Caniço",
+        "en": "Wikipedia (French) — Death of Steve Maia Caniço"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_Steve_Maia_Cani%C3%A7o",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wiki-zineb-redouane": {
+      "title": {
+        "fr": "Wikipédia — Mort de Zineb Redouane",
+        "en": "Wikipedia (French) — Death of Zineb Redouane"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_Zineb_Redouane",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"

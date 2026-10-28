@@ -230,6 +230,13 @@
           },
           "results": [
             {
+              "guide": "avant-de-partir",
+              "label": {
+                "fr": "Checklist avant la manif",
+                "en": "Pre-protest checklist"
+              }
+            },
+            {
               "page": "conseils",
               "anchor": {
                 "fr": "pendant-la-manifestation",
@@ -527,6 +534,15 @@
                 "fr": "Ressources « effets à long terme »",
                 "en": "Long-term effects resources"
               }
+            },
+            {
+              "resource": "etude-hassan-2023"
+            },
+            {
+              "resource": "lacrymos-de-sang"
+            },
+            {
+              "resource": "amnesty-lacrymo-dangers"
             }
           ]
         },
@@ -1061,6 +1077,26 @@
               }
             }
           ]
+        },
+        {
+          "id": "precedents",
+          "label": {
+            "fr": "connaître les précédents documentés",
+            "en": "know documented precedents"
+          },
+          "results": [
+            {
+              "page": "repressions",
+              "anchor": {
+                "fr": "repressions-documentees",
+                "en": "documented-repression"
+              },
+              "label": {
+                "fr": "Répressions documentées",
+                "en": "Documented repression"
+              }
+            }
+          ]
         }
       ]
     },
@@ -1234,20 +1270,71 @@
     {
       "id": "etranger",
       "label": {
-        "fr": "étranger·e ou sans papiers",
-        "en": "a foreign national or undocumented"
+        "fr": "étranger·e, sans papiers ou avec un titre de séjour",
+        "en": "a foreign national, undocumented or with a residence permit"
       },
       "keywords": [
         "etranger",
-        "papiers",
-        "sans papiers",
-        "titre",
-        "sejour",
+        "foreigner",
+        "irregulier",
+        "irreguliere",
+        "non francais",
+        "non francaise",
         "oqtf",
+        "papiers",
+        "permis de sejour",
         "refugie",
-        "foreigner"
+        "residence permit",
+        "sans papiers",
+        "sans titre",
+        "sejour",
+        "situation irreguliere",
+        "titre",
+        "titre de sejour"
       ],
       "needs": [
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester en limitant les risques",
+            "en": "protest while limiting the risks"
+          },
+          "results": [
+            {
+              "guide": "etrangers",
+              "anchor": {
+                "fr": "avant-la-manifestation",
+                "en": "before-the-protest"
+              },
+              "label": {
+                "fr": "Avant la manifestation",
+                "en": "Before the protest"
+              }
+            },
+            {
+              "guide": "etrangers",
+              "anchor": {
+                "fr": "les-risques-a-connaitre",
+                "en": "risks-to-know"
+              },
+              "label": {
+                "fr": "Les risques à connaître",
+                "en": "Risks to know"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "partir-sans-danger",
+                "en": "leaving-safely"
+              },
+              "label": {
+                "fr": "Partir avant la dispersion",
+                "en": "Leave before dispersal"
+              }
+            }
+          ]
+        },
         {
           "id": "risques",
           "label": {
@@ -1543,6 +1630,38 @@
                 "fr": "Préparer",
                 "en": "Prepare"
               }
+            },
+            {
+              "resource": "cryptpad"
+            }
+          ]
+        },
+        {
+          "id": "partager",
+          "label": {
+            "fr": "partager des infos de façon sécurisée",
+            "en": "share information securely"
+          },
+          "results": [
+            {
+              "resource": "cryptpad"
+            },
+            {
+              "resource": "signal"
+            },
+            {
+              "resource": "element"
+            },
+            {
+              "guide": "communiquer",
+              "anchor": {
+                "fr": "comparatif",
+                "en": "comparison"
+              },
+              "label": {
+                "fr": "Quel outil de communication choisir",
+                "en": "Which communication tool to choose"
+              }
             }
           ]
         }
@@ -1709,7 +1828,21 @@
           },
           "results": [
             {
+              "guide": "communiquer",
+              "anchor": {
+                "fr": "comparatif",
+                "en": "comparison"
+              },
+              "label": {
+                "fr": "Signal, Briar ou Meshtastic : le comparatif",
+                "en": "Signal, Briar or Meshtastic: the comparison"
+              }
+            },
+            {
               "resource": "briar"
+            },
+            {
+              "resource": "meshtastic"
             }
           ]
         },
@@ -1926,6 +2059,858 @@
                 "fr": "Suivre des comptes sur les réseaux sociaux",
                 "en": "Following accounts on social media"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mal-informe",
+      "label": {
+        "fr": "manipulé·e ou mal informé·e",
+        "en": "manipulated or misinformed"
+      },
+      "keywords": [
+        "manipule",
+        "manipulation",
+        "mal informe",
+        "desinforme",
+        "fake",
+        "complot",
+        "propagande",
+        "misinformed",
+        "manipulated"
+      ],
+      "needs": [
+        {
+          "id": "verifier",
+          "label": {
+            "fr": "vérifier ce que je lis",
+            "en": "check what I read"
+          },
+          "results": [
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "la-methode-en-4-etapes-sift",
+                "en": "the-4-step-method-sift"
+              },
+              "label": {
+                "fr": "La méthode SIFT",
+                "en": "The SIFT method"
+              }
+            },
+            {
+              "directory": {
+                "situation": "verifier"
+              },
+              "label": {
+                "fr": "Services de vérification",
+                "en": "Fact-checking services"
+              }
+            }
+          ]
+        },
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre d'où viennent les fausses infos",
+            "en": "understand where false information comes from"
+          },
+          "results": [
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "verifier-une-image-ou-une-video",
+                "en": "check-an-image-or-a-video"
+              },
+              "label": {
+                "fr": "Vérifier une image ou une vidéo",
+                "en": "Check an image or a video"
+              }
+            },
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "avant-de-partager",
+                "en": "before-sharing"
+              },
+              "label": {
+                "fr": "Avant de partager",
+                "en": "Before sharing"
+              }
+            }
+          ]
+        },
+        {
+          "id": "officiel",
+          "label": {
+            "fr": "connaître les déclarations officielles démenties",
+            "en": "know the official statements later debunked"
+          },
+          "results": [
+            {
+              "page": "repressions",
+              "anchor": {
+                "fr": "declarations-officielles-dementies",
+                "en": "official-statements-debunked"
+              },
+              "label": {
+                "fr": "Déclarations officielles démenties",
+                "en": "Official statements debunked"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "createur",
+      "label": {
+        "fr": "influenceur·se ou créateur·ice de contenu",
+        "en": "an influencer or content creator"
+      },
+      "keywords": [
+        "influenceur",
+        "influenceuse",
+        "createur",
+        "creatrice",
+        "youtubeur",
+        "streamer",
+        "tiktok",
+        "instagram",
+        "creator",
+        "influencer"
+      ],
+      "needs": [
+        {
+          "id": "publier",
+          "label": {
+            "fr": "publier sans exposer les gens",
+            "en": "publish without exposing people"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "publier-sans-exposer",
+                "en": "publish-without-exposing"
+              },
+              "label": {
+                "fr": "Publier sans exposer",
+                "en": "Publish without exposing"
+              }
+            },
+            {
+              "resource": "mat2"
+            }
+          ]
+        },
+        {
+          "id": "proteger",
+          "label": {
+            "fr": "me protéger du harcèlement",
+            "en": "protect myself from harassment"
+          },
+          "results": [
+            {
+              "guide": "violences-harcelement",
+              "anchor": {
+                "fr": "en-ligne-harcelement-et-doxxing",
+                "en": "online-harassment-and-doxxing"
+              },
+              "label": {
+                "fr": "Harcèlement et doxxing",
+                "en": "Harassment and doxxing"
+              }
+            },
+            {
+              "resource": "pharos"
+            },
+            {
+              "resource": "cnil-effacement"
+            }
+          ]
+        },
+        {
+          "id": "verifier",
+          "label": {
+            "fr": "vérifier avant de relayer",
+            "en": "check before sharing"
+          },
+          "results": [
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "avant-de-partager",
+                "en": "before-sharing"
+              },
+              "label": {
+                "fr": "Avant de partager",
+                "en": "Before sharing"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sous-pression",
+      "label": {
+        "fr": "bâillonné·e ou mis·e sous pression (censure, convocation, mise en demeure)",
+        "en": "gagged or under pressure (censorship, summons, formal notice)"
+      },
+      "keywords": [
+        "baillonne",
+        "pression",
+        "censure",
+        "convocation",
+        "convoque",
+        "audition",
+        "mise en demeure",
+        "menace",
+        "intimidation",
+        "gagged",
+        "summoned"
+      ],
+      "needs": [
+        {
+          "id": "convocation",
+          "label": {
+            "fr": "savoir quoi faire si je suis convoqué·e par la police",
+            "en": "know what to do if summoned by the police"
+          },
+          "results": [
+            {
+              "resource": "sp-audition-libre"
+            },
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "les-reflexes",
+                "en": "reflexes"
+              },
+              "label": {
+                "fr": "Les réflexes (silence, avocat·e)",
+                "en": "Reflexes (silence, lawyer)"
+              }
+            },
+            {
+              "directory": {
+                "situation": "avocat-proces"
+              },
+              "label": {
+                "fr": "Avocats et legal teams",
+                "en": "Lawyers and legal teams"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "harcele",
+          "label": {
+            "fr": "me défendre contre une campagne de harcèlement",
+            "en": "defend myself against a harassment campaign"
+          },
+          "results": [
+            {
+              "guide": "violences-harcelement",
+              "anchor": {
+                "fr": "en-ligne-harcelement-et-doxxing",
+                "en": "online-harassment-and-doxxing"
+              },
+              "label": {
+                "fr": "Harcèlement et doxxing",
+                "en": "Harassment and doxxing"
+              }
+            },
+            {
+              "resource": "pharos"
+            }
+          ]
+        },
+        {
+          "id": "soutien",
+          "label": {
+            "fr": "trouver du soutien juridique",
+            "en": "find legal support"
+          },
+          "results": [
+            {
+              "directory": {
+                "situation": "avocat-proces"
+              },
+              "label": {
+                "fr": "Avocats et caisses de solidarité",
+                "en": "Lawyers and solidarity funds"
+              }
+            },
+            {
+              "resource": "ldh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "age",
+      "label": {
+        "fr": "âgé·e",
+        "en": "older"
+      },
+      "keywords": [
+        "vieux",
+        "vieille",
+        "age",
+        "agee",
+        "senior",
+        "retraite",
+        "retraitee",
+        "older",
+        "elderly"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre",
+            "en": "understand"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "connaitre-ses-droits",
+                "en": "know-your-rights"
+              },
+              "label": {
+                "fr": "Connaître ses droits",
+                "en": "Know your rights"
+              }
+            },
+            {
+              "page": "histoire",
+              "label": {
+                "fr": "Repères historiques : ce que la rue a obtenu",
+                "en": "Historical milestones: what the street won"
+              }
+            }
+          ]
+        },
+        {
+          "id": "survivre",
+          "label": {
+            "fr": "manifester en sécurité",
+            "en": "protest safely"
+          },
+          "results": [
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "avant-de-partir",
+                "en": "before-you-go"
+              },
+              "label": {
+                "fr": "Ne jamais rester seul·e",
+                "en": "Never stay alone"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "tenue",
+                "en": "clothes"
+              },
+              "label": {
+                "fr": "Kit et tenue",
+                "en": "Kit and outfit"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "malaise-chaleur-crise-dangoisse",
+                "en": "fainting-heat-panic-attack"
+              },
+              "label": {
+                "fr": "Malaise, chaleur, crise d'angoisse",
+                "en": "Fainting, heat, panic attack"
+              }
+            },
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "repartir",
+                "en": "getting-back"
+              },
+              "label": {
+                "fr": "Partir à temps",
+                "en": "Leaving in time"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jeune",
+      "label": {
+        "fr": "jeune ou étudiant·e",
+        "en": "young or a student"
+      },
+      "keywords": ["jeune", "etudiant", "etudiante", "fac", "universite", "young", "student"],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre",
+            "en": "understand"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "connaitre-ses-droits",
+                "en": "know-your-rights"
+              },
+              "label": {
+                "fr": "Connaître ses droits",
+                "en": "Know your rights"
+              }
+            },
+            {
+              "page": "histoire",
+              "label": {
+                "fr": "Repères historiques : ce que la rue a obtenu",
+                "en": "Historical milestones: what the street won"
+              }
+            },
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "la-methode-en-4-etapes-sift",
+                "en": "the-4-step-method-sift"
+              },
+              "label": {
+                "fr": "Repérer la désinformation",
+                "en": "Spot disinformation"
+              }
+            }
+          ]
+        },
+        {
+          "id": "survivre",
+          "label": {
+            "fr": "manifester en sécurité",
+            "en": "protest safely"
+          },
+          "results": [
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "avant-de-partir",
+                "en": "before-you-go"
+              },
+              "label": {
+                "fr": "Ne jamais rester seul·e",
+                "en": "Never stay alone"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "tenue",
+                "en": "clothes"
+              },
+              "label": {
+                "fr": "Kit et tenue",
+                "en": "Kit and outfit"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "malaise-chaleur-crise-dangoisse",
+                "en": "fainting-heat-panic-attack"
+              },
+              "label": {
+                "fr": "Malaise, chaleur, crise d'angoisse",
+                "en": "Fainting, heat, panic attack"
+              }
+            },
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "repartir",
+                "en": "getting-back"
+              },
+              "label": {
+                "fr": "Partir à temps",
+                "en": "Leaving in time"
+              }
+            },
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "vos-droits-des-le-debut",
+                "en": "your-rights-from-the-start"
+              },
+              "label": {
+                "fr": "Mes droits si je suis arrêté·e",
+                "en": "My rights if arrested"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "handicap",
+      "label": {
+        "fr": "en situation de handicap",
+        "en": "disabled"
+      },
+      "keywords": [
+        "handicap",
+        "handicape",
+        "handicapee",
+        "fauteuil",
+        "pmr",
+        "malentendant",
+        "sourd",
+        "aveugle",
+        "disabled",
+        "wheelchair"
+      ],
+      "needs": [
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester",
+            "en": "protest"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "manifester-en-situation-de-handicap",
+                "en": "protesting-with-a-disability"
+              },
+              "label": {
+                "fr": "Manifester en situation de handicap",
+                "en": "Protesting with a disability"
+              }
+            },
+            {
+              "resource": "reporterre-manifs-handicap"
+            },
+            {
+              "page": "sos",
+              "label": {
+                "fr": "Urgences : 114 par SMS pour les personnes sourdes",
+                "en": "Emergencies: 114 by text for deaf people"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "peur",
+      "label": {
+        "fr": "dans la peur, mais je veux agir",
+        "en": "afraid, but I want to act"
+      },
+      "keywords": [
+        "peur",
+        "angoisse",
+        "stress",
+        "inquiet",
+        "inquiete",
+        "craintif",
+        "afraid",
+        "scared",
+        "fear"
+      ],
+      "needs": [
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester autrement (actions indirectes)",
+            "en": "protest differently (indirect action)"
+          },
+          "results": [
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Convaincre ses proches",
+                "en": "Talk to your loved ones"
+              }
+            },
+            {
+              "directory": {
+                "tags": "caisse-de-solidarite"
+              },
+              "label": {
+                "fr": "Caisses de solidarité à soutenir",
+                "en": "Solidarity funds to support"
+              }
+            },
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "se-former",
+                "en": "get-trained"
+              },
+              "label": {
+                "fr": "S'engager dans un collectif",
+                "en": "Join a group"
+              }
+            },
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "avant-de-partager",
+                "en": "before-sharing"
+              },
+              "label": {
+                "fr": "Relayer des infos fiables",
+                "en": "Share reliable information"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rassurer",
+          "label": {
+            "fr": "manifester en me sentant plus en sécurité",
+            "en": "protest feeling safer"
+          },
+          "results": [
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "avant-de-partir",
+                "en": "before-you-go"
+              },
+              "label": {
+                "fr": "Ne jamais rester seul·e",
+                "en": "Never stay alone"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "tenue",
+                "en": "clothes"
+              },
+              "label": {
+                "fr": "Kit et tenue",
+                "en": "Kit and outfit"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "malaise-chaleur-crise-dangoisse",
+                "en": "fainting-heat-panic-attack"
+              },
+              "label": {
+                "fr": "Malaise, chaleur, crise d'angoisse",
+                "en": "Fainting, heat, panic attack"
+              }
+            },
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "repartir",
+                "en": "getting-back"
+              },
+              "label": {
+                "fr": "Partir à temps",
+                "en": "Leaving in time"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sans-vehicule",
+      "label": {
+        "fr": "sans véhicule",
+        "en": "without a vehicle"
+      },
+      "keywords": ["sans voiture", "pas de voiture", "sans vehicule", "pieton", "a pied", "no car"],
+      "needs": [
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "venir manifester",
+            "en": "get to the protest"
+          },
+          "results": [
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "y-aller",
+                "en": "getting-there"
+              },
+              "label": {
+                "fr": "Transports, covoiturage, vélo, à pied",
+                "en": "Public transport, car-sharing, bike, on foot"
+              }
+            },
+            {
+              "resource": "ratp-info-trafic"
+            },
+            {
+              "resource": "organic-maps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pro-aide",
+      "label": {
+        "fr": "avocat·e, soignant·e ou développeur·se",
+        "en": "a lawyer, healthcare worker or developer"
+      },
+      "keywords": [
+        "avocat",
+        "avocate",
+        "infirmier",
+        "infirmiere",
+        "medecin",
+        "chirurgien",
+        "soignant",
+        "soignante",
+        "developpeur",
+        "developpeuse",
+        "dev",
+        "lawyer",
+        "nurse",
+        "doctor",
+        "developer"
+      ],
+      "needs": [
+        {
+          "id": "avocat",
+          "label": {
+            "fr": "aider en tant qu'avocat·e",
+            "en": "help as a lawyer"
+          },
+          "results": [
+            {
+              "directory": {
+                "tags": "antirepression"
+              },
+              "label": {
+                "fr": "Legal teams et collectifs antirépression",
+                "en": "Legal teams and anti-repression groups"
+              }
+            },
+            {
+              "resource": "ldh-observatoires"
+            }
+          ]
+        },
+        {
+          "id": "soignant",
+          "label": {
+            "fr": "aider en tant que soignant·e",
+            "en": "help as a healthcare worker"
+          },
+          "results": [
+            {
+              "resource": "medic-gestes-manif"
+            },
+            {
+              "resource": "medic-soins-post-manif"
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "gaz-lacrymogene",
+                "en": "tear-gas"
+              },
+              "label": {
+                "fr": "Gestes de premiers secours en manif",
+                "en": "First aid at protests"
+              }
+            }
+          ]
+        },
+        {
+          "id": "dev",
+          "label": {
+            "fr": "aider en tant que développeur·se",
+            "en": "help as a developer"
+          },
+          "results": [
+            {
+              "page": "contribuer",
+              "label": {
+                "fr": "Contribuer à ce site",
+                "en": "Contribute to this site"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policier",
+      "label": {
+        "fr": "policier·e ou gendarme",
+        "en": "a police officer or gendarme"
+      },
+      "keywords": ["policier", "policiere", "gendarme", "flic", "crs", "police officer"],
+      "needs": [
+        {
+          "id": "aider",
+          "label": {
+            "fr": "aider (signaler un manquement)",
+            "en": "help (report misconduct)"
+          },
+          "results": [
+            {
+              "resource": "ddd-lanceurs-alerte"
+            },
+            {
+              "resource": "defenseur-des-droits"
+            }
+          ]
+        },
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre les droits des manifestant·es",
+            "en": "understand protesters' rights"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "connaitre-ses-droits",
+                "en": "know-your-rights"
+              },
+              "label": {
+                "fr": "Connaître ses droits",
+                "en": "Know your rights"
+              }
+            },
+            {
+              "resource": "amnesty-droits-manifestation"
+            },
+            {
+              "resource": "conseil-etat-snmo-2021"
             }
           ]
         }

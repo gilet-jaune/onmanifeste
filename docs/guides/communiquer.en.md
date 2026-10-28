@@ -1,0 +1,42 @@
+---
+source_commit: b5981f1b714a64e6dd063ce83057c7c450ae91ec
+tags:
+    - guides
+    - communication
+---
+
+# Communicating at a protest
+
+On site, the mobile network often saturates, and a phone can be lost or seized. Pick the tool for the situation, and have a no-network plan B.
+
+## Comparison
+
+| Criterion | {{ res("signal") }} | {{ res("briar") }} | {{ res("meshtastic") }} | {{ res("bitchat") }} |
+| --- | --- | --- | --- | --- |
+| **Works without Internet** | No: mobile network or Wi-Fi needed | Yes, device to device over Bluetooth or local Wi-Fi[^briar-how] | Yes: the phone connects to the device over **Bluetooth** (or Wi-Fi, USB), then devices talk to each other over **LoRa radio**, without mobile network or Internet[^meshtastic-intro][^meshtastic-bluetooth] | Yes, phone to phone over Bluetooth, relayed up to 7 hops[^bitchat-readme] |
+| **Hardware** | Just the phone | Just the phone (Android)[^briar-how] | A LoRa radio device (a few tens of euros), paired with the phone over Bluetooth[^meshtastic-intro] | Just the phone (Android and iPhone)[^bitchat-readme] |
+| **Encryption** | End-to-end, with forward secrecy[^signal-docs] | End-to-end, contacts stored on the phone[^briar-how] | Direct messages encrypted; channels encrypted with a shared key. The **default** channel uses a public key: anyone can read it[^meshtastic-encryption] | Private messages encrypted (Noise protocol), but a fixed identifier and the nickname are broadcast **in clear text**[^bitchat-whitepaper] |
+| **Advantages** | Simple, widespread, calls and groups, disappearing messages[^eff-signal] | No infrastructure, no phone number to give | Range of several kilometres as a mesh, independent of cell towers[^meshtastic-intro] | No account or number; also works on iPhone[^bitchat-readme] |
+| **Use cases** | Coordination before and during the protest while the network holds; affinity groups | Nearby group, network saturated or cut | Teams spread over a large area (stewards, street medics, legal team), network cut | Fallback between Android and iPhone when the network is cut, for non-sensitive information |
+| **Drawbacks** | Depends on the mobile network; requires a phone number[^eff-signal] | Short range; Android only; you must add each other as contacts beforehand[^briar-how] | Hardware to buy and set up; short text only; packet headers unencrypted and no forward secrecy[^meshtastic-encryption]; airtime limited by regulation[^meshtastic-lora] | Recent app; anyone picking up Bluetooth can list participants and **track a phone** from place to place[^bitchat-whitepaper] |
+
+!!! tip "Our recommendation without Internet: Briar"
+
+    If the network is cut or saturated, use **Briar**, even if your group is mostly on iPhone: you only need **one Android user per group**, the **comms lead**, who centralises messages and relays them by word of mouth. Briar is end-to-end encrypted and needs no hardware or phone number.[^briar-how] Install Briar **before** the protest: once you are cut off from the mobile network, you can't download it. Keep Bitchat as a fallback: it allows a phone to be tracked.[^bitchat-whitepaper]
+
+## Good practice
+
+- [ ] **Install and test your apps before leaving**, and add your Briar contacts then: if the mobile network is cut or saturated on site, you won't be able to download anything.
+- [ ] **Signal**: turn on disappearing messages and screen lock; create separate groups per purpose.[^eff-signal]
+- [ ] **Meshtastic**: create a **private channel with its own key** and share it only with your team; don't use the default channel for anything sensitive.[^meshtastic-encryption]
+- [ ] **Meshtastic**: change the **Bluetooth pairing PIN**; on devices without a screen it defaults to **123456**, so anyone nearby could connect.[^meshtastic-bluetooth]
+- [ ] **Meshtastic**: set the region to **EU_868**; in France this band is licence-free, with limited airtime.[^meshtastic-lora]
+- [ ] **Briar**: add each other as contacts **before** the protest, while you are together.
+- [ ] **Briar**: Briar is Android-only. If your group has iPhones, pick at least one Android user as **comms lead**: the comms leads of the different groups stay in touch on Briar and relay news to their group by word of mouth.[^briar-how]
+- [ ] For all: agree on a **meeting point** in case nothing gets through ([never stay alone](ne-pas-rester-seul.md)).
+
+[:octicons-arrow-right-24: Communication tools in the directory](../annuaire/index.md?category=communication)
+
+## Sources
+
+Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.

@@ -885,13 +885,14 @@ select:focus-visible {
     left: 0.3rem;
   }
 
-  .md-typeset .timeline__event {
+  /* Same specificity as the desktop rule (ol.timeline > li), otherwise it would not apply. */
+  .md-typeset ol.timeline > li.timeline__event {
     grid-template-columns: 1fr;
     gap: 0.2rem;
     padding-left: 1.6rem;
   }
 
-  .md-typeset .timeline__event::before {
+  .md-typeset ol.timeline > li.timeline__event::before {
     left: 0;
   }
 
@@ -909,11 +910,55 @@ select:focus-visible {
    Install suggestion: small card at the bottom of the screen (docs/javascripts/pwa.js)
    Shown now and then, never over emergency pages; closing it snoozes it for 14 days.
    ========================================================================== */
-.pwa-banner {
+/* Bottom-right stack (overrides/main.html): SOS button above the install card. */
+.fab-stack {
   position: fixed;
   right: 1rem;
   bottom: 1rem;
   z-index: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.fab-stack > * {
+  pointer-events: auto;
+}
+
+/* SOS floating action button: emergency numbers one tap away on every page. */
+.sos-fab {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  min-height: 3rem;
+  padding: 0 1.1rem;
+  border: 3px solid var(--ap-vest);
+  border-radius: 1.5rem;
+  background-color: var(--ap-ink);
+  box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.35);
+  color: var(--ap-vest) !important;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.sos-fab svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentcolor;
+}
+
+.sos-fab:hover,
+.sos-fab:focus-visible {
+  outline: 3px solid var(--ap-ink);
+  outline-offset: 2px;
+  transform: scale(1.05);
+}
+
+.pwa-banner {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -984,6 +1029,7 @@ select:focus-visible {
 }
 
 @media print {
+  .fab-stack,
   .pwa-banner {
     display: none !important;
   }
@@ -1074,6 +1120,7 @@ select:focus-visible {
   color: var(--ap-ink);
 }
 
+.md-typeset .directory__card .directory__stores,
 .md-typeset .directory__card .directory__sources {
   margin: 0 0 0.4rem;
   color: var(--ap-muted);
@@ -1461,4 +1508,52 @@ select:focus-visible {
   88% {
     opacity: 1;
   }
+}
+
+/* --- Documented repression and disinformation ----------------------------- */
+.documented {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.md-typeset .documented__item {
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--ap-line);
+  border-left-width: 8px;
+  border-radius: var(--ap-radius);
+}
+
+.md-typeset .documented__item--debunked {
+  border-left-color: var(--ap-vest-deep);
+}
+
+.md-typeset .documented__item h3 {
+  margin: 0 0 0.4rem;
+}
+
+.md-typeset .documented__year {
+  margin-right: 0.4rem;
+  color: var(--ap-muted);
+}
+
+.md-typeset .documented__claim {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+  color: var(--ap-muted);
+}
+
+.md-typeset .documented__proofs {
+  font-size: 0.7rem;
+}
+
+/* --- Injured and killed timeline ------------------------------------------ */
+.md-typeset .victims__toll {
+  margin: 0.1rem 0 0.3rem;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.md-typeset .victims__censuses li {
+  margin-bottom: 0.4rem;
 }

@@ -5,6 +5,10 @@
       "fr": "Communication",
       "en": "Communication"
     },
+    "navigation": {
+      "fr": "Navigation & transports",
+      "en": "Navigation & transport"
+    },
     "securite-numerique": {
       "fr": "Sécurité numérique",
       "en": "Digital security"
@@ -181,7 +185,7 @@
         "en": "Protect my phone, messages and anonymity"
       },
       "categories": ["securite-numerique", "communication"],
-      "tags": ["anonymat", "chiffrement"]
+      "tags": ["anonymat", "chiffrement", "partage-securise"]
     },
     {
       "id": "premiere-manif",
@@ -215,6 +219,7 @@
     "ado": ["mineurs", "lyceens"],
     "agenda": ["agenda"],
     "agression": ["violences-sexistes"],
+    "alerte": ["lanceur-alerte"],
     "anonymat": ["anonymat"],
     "anonyme": ["anonymat"],
     "appeler": ["urgence"],
@@ -222,6 +227,7 @@
     "archiver": ["archivage"],
     "argent": ["caisse-de-solidarite", "frais-avocat"],
     "attroupement": ["dispersion"],
+    "audition": ["convocation"],
     "avocate": ["avocat"],
     "backup": ["sauvegarde-auto"],
     "beginner": ["essentiel"],
@@ -236,6 +242,7 @@
     "chiffre": ["chiffrement"],
     "cloud": ["sauvegarde-auto"],
     "convocation": ["proces"],
+    "convoque": ["convocation"],
     "covoiturage": ["transports"],
     "crypte": ["chiffrement"],
     "cs": ["gaz-lacrymogene"],
@@ -245,12 +252,14 @@
     "debuter": ["essentiel"],
     "declarer": ["organiser"],
     "desobeissance": ["desobeissance-civile"],
+    "document": ["documents", "partage-securise"],
     "doxing": ["cyberharcelement", "donnees-personnelles"],
     "doxxing": ["cyberharcelement", "donnees-personnelles"],
     "droit": ["droits", "juridique"],
     "drone": ["surveillance"],
     "eleve": ["lyceens", "mineurs"],
     "employeur": ["travail"],
+    "enceinte": ["cycles-menstruels"],
     "encerclement": ["dispersion"],
     "enfant": ["mineurs"],
     "engager": ["groupes-locaux", "formation"],
@@ -263,6 +272,7 @@
     "faf": ["extreme-droite"],
     "fafs": ["extreme-droite"],
     "fake": ["desinformation", "fact-checking"],
+    "fausse couche": ["cycles-menstruels"],
     "fauteuil": ["handicap"],
     "floutage": ["floutage"],
     "flouter": ["floutage"],
@@ -276,6 +286,7 @@
     "genouillere": ["premiers-secours"],
     "greenpeace": ["ecologie"],
     "greve": ["greve"],
+    "grossesse": ["cycles-menstruels"],
     "handi": ["handicap"],
     "harcelement": ["cyberharcelement", "violences-sexistes"],
     "homophobe": ["lgbtphobie"],
@@ -287,13 +298,19 @@
     "juriste": ["avocat", "juridique"],
     "lacrymo": ["gaz-lacrymogene"],
     "lacrymogene": ["gaz-lacrymogene"],
+    "lanceur": ["lanceur-alerte"],
     "loi": ["droits", "juridique"],
     "long terme": ["long-terme"],
+    "lora": ["radio"],
     "lycee": ["lyceens"],
     "lyceen": ["lyceens"],
     "lyceenne": ["lyceens"],
+    "maille": ["hors-ligne", "radio"],
     "manif": ["manifestations"],
     "medic": ["street-medics", "premiers-secours"],
+    "menstruel": ["cycles-menstruels"],
+    "mesh": ["hors-ligne", "radio"],
+    "meshtastic": ["radio"],
     "messages": ["messagerie"],
     "metro": ["transports"],
     "militer": ["groupes-locaux", "formation"],
@@ -308,7 +325,9 @@
     "oqtf": ["etrangers"],
     "oreille": ["long-terme", "premiers-secours"],
     "organiser": ["organiser"],
+    "pad": ["partage-securise"],
     "parents": ["mineurs"],
+    "partager": ["partage-securise"],
     "payer": ["frais-avocat", "caisse-de-solidarite"],
     "photo": ["photos", "filmer", "metadonnees"],
     "plainte": ["plainte"],
@@ -323,6 +342,7 @@
     "psy": ["soutien-psychologique"],
     "ptsd": ["soutien-psychologique"],
     "raciste": ["racisme"],
+    "radio": ["radio"],
     "reconnaissance faciale": ["surveillance"],
     "refugie": ["etrangers"],
     "regles": ["cycles-menstruels"],
@@ -346,6 +366,8 @@
     "sommations": ["dispersion"],
     "sos": ["urgence"],
     "stress": ["soutien-psychologique"],
+    "tableur": ["documents"],
+    "talkie": ["radio", "hors-ligne"],
     "telegram": ["messagerie", "chiffrement"],
     "telephone": ["mobile"],
     "titre de sejour": ["etrangers"],
@@ -380,6 +402,10 @@
           "url": "https://signal.org/blog/blur-tools/"
         }
       ],
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+        "ios": "https://apps.apple.com/app/id874139669"
+      },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -394,6 +420,61 @@
       "description": {
         "fr": "Messagerie pair-à-pair qui fonctionne sans Internet (Bluetooth, Wi-Fi) quand le réseau mobile est saturé.",
         "en": "Peer-to-peer messenger that works without Internet (Bluetooth, Wi-Fi) when the mobile network is saturated."
+      },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=org.briarproject.briar.android",
+        "fdroid": "https://f-droid.org/packages/org.briarproject.briar.android/"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "meshtastic",
+      "name": "Meshtastic",
+      "url": "https://meshtastic.org/",
+      "category": "communication",
+      "tags": ["messagerie", "hors-ligne", "radio", "chiffrement", "open-source"],
+      "description": {
+        "fr": "Messages texte par radio LoRa, sans réseau mobile ni Internet, via un petit boîtier relié au téléphone. Portée de plusieurs kilomètres en réseau maillé. Utilisez un canal privé : le canal par défaut est lisible par tous.",
+        "en": "Text messages over LoRa radio, without mobile network or Internet, via a small device paired with your phone. Range of several kilometres as a mesh. Use a private channel: the default one can be read by anyone."
+      },
+      "sources": [
+        {
+          "title": "Meshtastic — Chiffrement",
+          "url": "https://meshtastic.org/docs/overview/encryption/"
+        }
+      ],
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.geeksville.mesh",
+        "fdroid": "https://f-droid.org/packages/com.geeksville.mesh/",
+        "ios": "https://apps.apple.com/app/id1586432531"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "bitchat",
+      "name": "Bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "category": "communication",
+      "tags": ["messagerie", "hors-ligne", "chiffrement", "open-source", "mobile"],
+      "description": {
+        "fr": "Messagerie en réseau maillé Bluetooth entre téléphones, sans Internet ni compte, sur Android et iPhone. Expérimentale : un identifiant fixe et le pseudo sont diffusés en clair, ce qui permet de suivre un téléphone. À réserver aux infos non sensibles.",
+        "en": "Bluetooth mesh messenger between phones, with no Internet or account, on Android and iPhone. Experimental: a fixed identifier and the nickname are broadcast in clear text, which allows a phone to be tracked. Keep it for non-sensitive information."
+      },
+      "sources": [
+        {
+          "title": "Bitchat — Whitepaper (identity and metadata)",
+          "url": "https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md"
+        }
+      ],
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=com.bitchat.droid",
+        "ios": "https://apps.apple.com/app/id6748219622"
       },
       "check": {
         "date": "2026-10-28",
@@ -410,6 +491,11 @@
         "fr": "Messagerie décentralisée basée sur Matrix, adaptée aux collectifs et aux grands groupes.",
         "en": "Decentralized messenger built on Matrix, suited to collectives and large groups."
       },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=io.element.android.x",
+        "fdroid": "https://f-droid.org/packages/io.element.android.x/",
+        "ios": "https://apps.apple.com/app/id1631335820"
+      },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -424,6 +510,9 @@
       "description": {
         "fr": "Navigateur qui masque votre adresse IP en faisant transiter le trafic par le réseau Tor.",
         "en": "Browser that hides your IP address by routing traffic through the Tor network."
+      },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=org.torproject.torbrowser"
       },
       "check": {
         "date": "2026-10-28",
@@ -440,6 +529,10 @@
         "fr": "Fait passer le trafic des applications du téléphone par le réseau Tor (Android et iOS).",
         "en": "Routes your phone apps' traffic through the Tor network (Android and iOS)."
       },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=org.torproject.android",
+        "ios": "https://apps.apple.com/app/id1609461599"
+      },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -454,6 +547,11 @@
       "description": {
         "fr": "VPN payant sans compte nominatif ni e-mail, paiement possible en espèces.",
         "en": "Paid VPN with no named account or e-mail; cash payment accepted."
+      },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn",
+        "fdroid": "https://f-droid.org/packages/net.mullvad.mullvadvpn/",
+        "ios": "https://apps.apple.com/app/id1488466513"
       },
       "check": {
         "date": "2026-10-28",
@@ -575,6 +673,10 @@
         "fr": "Application (Guardian Project et WITNESS) qui ajoute à vos photos et vidéos des données de vérification (empreinte, date, appareil) pour prouver qu'elles n'ont pas été modifiées.",
         "en": "App (Guardian Project and WITNESS) that adds verification data (hash, date, device) to your photos and videos to prove they have not been altered."
       },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=org.witness.proofmode",
+        "ios": "https://apps.apple.com/app/id1526270484"
+      },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -665,6 +767,11 @@
         "fr": "Sauvegarde automatique des photos et vidéos, chiffrée de bout en bout : le fournisseur ne peut pas voir vos images.",
         "en": "Automatic photo and video backup, end-to-end encrypted: the provider cannot see your images."
       },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=io.ente.photos",
+        "fdroid": "https://f-droid.org/packages/io.ente.photos.fdroid/",
+        "ios": "https://apps.apple.com/app/id1542026904"
+      },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed"
@@ -679,6 +786,10 @@
       "description": {
         "fr": "Stockage en ligne chiffré de bout en bout, avec sauvegarde automatique des photos depuis le téléphone.",
         "en": "End-to-end encrypted cloud storage with automatic photo backup from your phone."
+      },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=me.proton.android.drive",
+        "ios": "https://apps.apple.com/app/id1509667851"
       },
       "check": {
         "date": "2026-10-28",
@@ -819,17 +930,16 @@
     {
       "id": "rajcol",
       "name": "RAJCOL — collectifs antirépression locaux",
-      "url": "https://rajcollective.noblogs.org/les-collectifs-locaux/",
+      "url": "https://rajcollective.nublogs.org/les-collectifs-locaux/",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav"],
       "description": {
-        "fr": "Réseau d'autodéfense juridique collective : liste des legal teams et collectifs antirépression par ville en France.",
-        "en": "Collective legal self-defense network: list of legal teams and anti-repression groups by city in France."
+        "fr": "Réseau d'autodéfense juridique collective : liste des legal teams et collectifs antirépression par ville en France, pour trouver celle de votre région.",
+        "en": "Collective legal self-defense network: list of legal teams and anti-repression groups by city in France, to find the one near you."
       },
       "check": {
         "date": "2026-10-28",
-        "result": "unconfirmed",
-        "note": "Page injoignable depuis nos outils de vérification ; lien trouvé via des sources secondaires."
+        "result": "confirmed"
       }
     },
     {
@@ -991,7 +1101,7 @@
     {
       "id": "legal-team-marseille",
       "name": "Legal Team Marseille",
-      "url": "https://legalteammarseille.noblogs.org/contact/",
+      "url": "https://legalteammarseille.nublogs.org/contact/",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "garde-a-vue", "marseille", "urgence"],
       "description": {
@@ -1001,7 +1111,7 @@
       "check": {
         "date": "2026-10-28",
         "result": "unconfirmed",
-        "note": "Page injoignable depuis nos outils de vérification ; lien trouvé via des sources secondaires."
+        "note": "Site migré sur nublogs.org et joignable, mais son contenu est derrière une protection anti-robots : à vérifier par une personne."
       }
     },
     {
@@ -1041,7 +1151,7 @@
       "sources": [
         {
           "title": "RAJCOL — collectifs locaux : Lille",
-          "url": "https://rajcollective.noblogs.org/les-collectifs-locaux/lille/"
+          "url": "https://rajcollective.nublogs.org/les-collectifs-locaux/lille/"
         }
       ],
       "check": {
@@ -1067,7 +1177,7 @@
     {
       "id": "legal-team-rennes",
       "name": "Legal Team Rennes",
-      "url": "https://comitezadrennes.noblogs.org/legal-team/",
+      "url": "https://comitezadrennes.nublogs.org/legal-team/",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "rennes"],
       "description": {
@@ -1077,7 +1187,7 @@
       "check": {
         "date": "2026-10-28",
         "result": "unconfirmed",
-        "note": "Page injoignable depuis nos outils de vérification ; lien trouvé via des sources secondaires."
+        "note": "Site migré sur nublogs.org et joignable, mais son contenu est derrière une protection anti-robots : à vérifier par une personne."
       }
     },
     {
@@ -1254,6 +1364,36 @@
       "description": {
         "fr": "Écoute et soutien des victimes de LGBTphobies, y compris d'agressions.",
         "en": "Listening and support for victims of anti-LGBT violence, including assaults."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-audition-libre",
+      "name": "Service-Public — Audition libre",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32124",
+      "category": "juridique",
+      "tags": ["convocation", "droits", "officiel", "avocat"],
+      "description": {
+        "fr": "Fiche officielle : vos droits si vous êtes convoqué·e par la police pour une « audition libre » (partir à tout moment, avocat·e, silence).",
+        "en": "Official page: your rights if summoned by the police for a voluntary interview (\"audition libre\": leave at any time, lawyer, silence)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ddd-lanceurs-alerte",
+      "name": "Défenseur des droits — Lanceurs d'alerte",
+      "url": "https://www.defenseurdesdroits.fr/orienter-et-proteger-les-lanceurs-dalerte-180",
+      "category": "juridique",
+      "tags": ["lanceur-alerte", "officiel", "droits"],
+      "description": {
+        "fr": "Oriente et protège les lanceurs et lanceuses d'alerte, y compris contre les représailles liées au signalement.",
+        "en": "Guides and protects whistleblowers, including against retaliation for reporting."
       },
       "check": {
         "date": "2026-10-28",
@@ -1444,6 +1584,57 @@
       }
     },
     {
+      "id": "lacrymos-de-sang",
+      "name": "Lacrymos de sang",
+      "url": "https://lacrymosdesang.my.canva.site/",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene", "cycles-menstruels", "enquete-participative"],
+      "description": {
+        "fr": "Enquête participative sur les effets du gaz lacrymogène sur le cycle menstruel : questionnaire en ligne pour témoigner et sélection de sources (études, rapports, articles). Démarche militante, pas une étude scientifique.",
+        "en": "Participatory survey on tear gas effects on the menstrual cycle: online questionnaire to share your experience and a selection of sources (studies, reports, articles). An activist project, not a scientific study."
+      },
+      "sources": [
+        {
+          "title": "Hassan et al., More than tears (Frontiers in Epidemiology, 2023)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10956352/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "etude-hassan-2023",
+      "name": "More than tears — étude sur le gaz lacrymogène et la santé reproductive (2023)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10956352/",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene", "cycles-menstruels", "etude-scientifique"],
+      "description": {
+        "fr": "Étude publiée (Frontiers in Epidemiology, 2023) sur 1 276 manifestant·es : une exposition de 5 jours ou plus est associée à 2,6 fois plus de troubles (crampes utérines, règles précoces, sensibilité des seins). En anglais.",
+        "en": "Peer-reviewed study (Frontiers in Epidemiology, 2023) of 1,276 protesters: exposure on 5+ days is associated with 2.6 times higher odds of adverse outcomes (uterine cramping, early bleeding, breast tenderness)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "amnesty-lacrymo-dangers",
+      "name": "Amnesty — Gaz lacrymogènes : quels dangers, que dit la loi ?",
+      "url": "https://www.amnesty.fr/actualites/gaz-lacrymogenes-quels-dangers-que-dit-la-loi/",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene", "droits", "association"],
+      "description": {
+        "fr": "Ce que l'on sait des dangers du gaz lacrymogène et du cadre légal de son usage.",
+        "en": "What is known about tear gas dangers and the legal framework for its use."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
       "id": "demosphere",
       "name": "Demosphere",
       "url": "https://paris.demosphere.eu/",
@@ -1462,15 +1653,16 @@
       "id": "17-octobre-gilets-jaunes",
       "name": "17 octobre — Gilets jaunes",
       "url": "https://17octobregiletjaune.net/",
-      "category": "information",
+      "category": "navigation",
       "tags": ["agenda", "carte", "manifestations", "gilets-jaunes"],
       "description": {
-        "fr": "Site de coordination des « actes » de mobilisation : carte interactive, calendrier des manifestations et visuels à partager. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail.",
-        "en": "Coordination site for the mobilization “acts”: interactive map, protest calendar and shareable visuals. Signing the call requires a name (or nickname), city and e-mail."
+        "fr": "Site de coordination des « actes » de mobilisation, avec une carte interactive des actions et un calendrier. Les visiteurs peuvent ajouter leurs actions sur la carte, sans modération annoncée : recoupez lieu et horaire avec une autre source (syndicats, collectifs locaux, presse) avant de vous déplacer. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail.",
+        "en": "Coordination site for the mobilization “acts”, with an interactive map of actions and a calendar. Visitors can add their own actions to the map, with no stated moderation: cross-check place and time with another source (unions, local groups, press) before going. Signing the call requires a name (or nickname), city and e-mail."
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "unconfirmed",
+        "note": "Carte alimentée par les visiteurs, sans modération annoncée ni mentions légales complètes : fiabilité des lieux et horaires à vérifier."
       }
     },
     {
@@ -1687,11 +1879,16 @@
       "id": "organic-maps",
       "name": "Organic Maps",
       "url": "https://organicmaps.app/fr/",
-      "category": "organisation",
+      "category": "navigation",
       "tags": ["carte", "hors-ligne", "open-source", "mobile", "essentiel"],
       "description": {
         "fr": "Cartes hors ligne sans pistage, utiles quand le réseau mobile est coupé ou saturé.",
         "en": "Offline maps without tracking, useful when the mobile network is down or saturated."
+      },
+      "stores": {
+        "android": "https://play.google.com/store/apps/details?id=app.organicmaps",
+        "fdroid": "https://f-droid.org/packages/app.organicmaps/",
+        "ios": "https://apps.apple.com/app/id1567437057"
       },
       "check": {
         "date": "2026-10-28",
@@ -1703,10 +1900,10 @@
       "name": "CryptPad",
       "url": "https://cryptpad.fr/",
       "category": "organisation",
-      "tags": ["collaboratif", "chiffrement", "open-source"],
+      "tags": ["collaboratif", "chiffrement", "open-source", "partage-securise", "documents"],
       "description": {
-        "fr": "Documents, tableurs et formulaires collaboratifs chiffrés de bout en bout.",
-        "en": "End-to-end encrypted collaborative documents, spreadsheets and forms."
+        "fr": "Documents, tableurs, formulaires et dossiers partagés, chiffrés de bout en bout : l'hébergeur ne peut pas les lire. Utilisable sans compte, idéal pour partager listes de contacts, plans ou comptes rendus au sein d'un collectif.",
+        "en": "End-to-end encrypted shared documents, spreadsheets, forms and folders: the host cannot read them. Usable without an account, ideal for sharing contact lists, plans or minutes within a group."
       },
       "check": {
         "date": "2026-10-28",
@@ -1732,7 +1929,7 @@
       "id": "ratp-info-trafic",
       "name": "RATP — Info trafic",
       "url": "https://www.bonjour-ratp.fr/fr/info-trafic/",
-      "category": "organisation",
+      "category": "navigation",
       "tags": ["transports", "ile-de-france", "agenda"],
       "description": {
         "fr": "Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.",

@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 7259a0ec0d45ba944d0eab110a254338702f80ff
 review: medical
 review_status: pending
 tags:
@@ -44,7 +44,7 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 Effects don't always stop the same evening. Keep a record and see a doctor if needed.
 
 - **Note** each exposure: date, place, duration, intensity (gas in an enclosed space, repeated firing), symptoms. This log helps the doctor and may be useful later.[^lacrymo-long]
-- **Tear gas**: cough, breathing difficulty, skin or eye irritation, headaches, digestive or **menstrual cycle** disorders lasting more than a few days → see a doctor and mention the exposure. Take particular care with asthma, pregnancy or chronic illness. The effects of repeated exposure are still poorly understood.[^lacrymo-long][^lacrymo-femmes]
+- **Tear gas**: cough, breathing difficulty, skin or eye irritation, headaches, digestive or **menstrual cycle** disorders lasting more than a few days → see a doctor and mention the exposure. Take particular care with asthma, pregnancy or chronic illness. The effects of repeated exposure are still poorly understood, but a 2023 study links several days of exposure to more cycle disorders; the participatory survey {{ res("lacrymos-de-sang") }} collects testimonies.[^lacrymo-long][^lacrymo-femmes][^etude-hassan-2023][^lacrymos-de-sang]
 - **Ears**: ringing (tinnitus), a "blocked" ear or hearing loss after an explosion → **ENT specialist or A&E within 24 hours**: early treatment improves the chances of recovery.[^acouphenes]
 - **Psychological**: nightmares, startling, avoiding places or crowds, sleep or concentration problems **more than a month** after the events → talk to a doctor. The {{ res("cn2r", "regional psychological trauma centres (Cn2r)") }} see adults and minors.[^cn2r]
 

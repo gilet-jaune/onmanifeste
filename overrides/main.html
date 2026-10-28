@@ -106,5 +106,18 @@ page.meta.review_status != 'reviewed' %}
     </div>
   </div>
 </footer>
-<aside class="pwa-banner" data-pwa-banner hidden></aside>
+{#- Bottom-right stack: SOS floating button (every page but SOS itself) above the install card. #}
+{%- set sos_en = config.theme.language == 'en' %}
+<div class="fab-stack">
+  {%- if not (page and page.url.endswith('sos/')) %}
+  <a
+    class="sos-fab"
+    href="{{ ('en/sos/' if sos_en else 'sos/') | url }}"
+    title="{{ 'Emergency numbers and legal teams' if sos_en else 'Numéros d’urgence et legal teams' }}"
+  >
+    {% include ".icons/material/phone-alert.svg" %}<span>SOS</span>
+  </a>
+  {%- endif %}
+  <aside class="pwa-banner" data-pwa-banner hidden></aside>
+</div>
 {% endblock %}

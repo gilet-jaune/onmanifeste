@@ -23,7 +23,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     ***
 
-    Seize fiches courtes : sécurité en manif, venir et repartir, kit, premiers secours, garde à vue, dispersion, filmer la police, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation, convaincre ses proches. Disponibles hors ligne.
+    Dix-sept fiches courtes : sécurité en manif, venir et repartir, communiquer, kit, premiers secours, garde à vue, dispersion, filmer la police, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation, convaincre ses proches. Disponibles hors ligne.
 
     [:octicons-arrow-right-24: Lire les guides](guides/index.md)
 
@@ -42,6 +42,14 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
     De la prise de la Bastille aux mobilisations d'aujourd'hui, et ce que la rue a obtenu : congés payés, droit de vote, lois retirées.
 
     [:octicons-arrow-right-24: Voir la frise](histoire/index.md)
+
+- **Répressions et désinformation documentées** [:material-file-document-alert:](repressions/index.md)
+
+    ***
+
+    Violences du maintien de l'ordre et déclarations officielles démenties, avec leurs preuves.
+
+    [:octicons-arrow-right-24: Voir les cas](repressions/index.md)
 
 - **Contribuer** [:material-source-pull:](contribuer/index.md)
 

@@ -150,6 +150,20 @@
               }
             }
           },
+          "stores": {
+            "type": "object",
+            "description": "Official app store pages, taken from the publisher's own download page.",
+            "additionalProperties": false,
+            "minProperties": 1,
+            "properties": {
+              "android": {
+                "type": "string",
+                "pattern": "^https://play\\.google\\.com/store/apps/details\\?id="
+              },
+              "fdroid": { "type": "string", "pattern": "^https://f-droid\\.org/packages/" },
+              "ios": { "type": "string", "pattern": "^https://apps\\.apple\\.com/" }
+            }
+          },
           "check": {
             "type": "object",
             "description": "Last human check of the link and the information.",

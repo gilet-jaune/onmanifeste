@@ -14,6 +14,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 ## Contents
 
 - [Communication](#communication)
+- [Navigation & transports](#navigation--transports)
 - [Sécurité numérique](#sécurité-numérique)
 - [Filmer & archiver](#filmer--archiver)
 - [Aide juridique](#aide-juridique)
@@ -29,7 +30,15 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 
 - [Signal](https://signal.org/fr/) - Messagerie chiffrée de bout en bout. Activer les messages éphémères et le verrouillage d'écran pour les groupes de manif. L'éditeur photo intégré permet de flouter les visages.
 - [Briar](https://briarproject.org/) - Messagerie pair-à-pair qui fonctionne sans Internet (Bluetooth, Wi-Fi) quand le réseau mobile est saturé.
+- [Meshtastic](https://meshtastic.org/) - Messages texte par radio LoRa, sans réseau mobile ni Internet, via un petit boîtier relié au téléphone. Portée de plusieurs kilomètres en réseau maillé. Utilisez un canal privé : le canal par défaut est lisible par tous.
+- [Bitchat](https://github.com/permissionlesstech/bitchat) - Messagerie en réseau maillé Bluetooth entre téléphones, sans Internet ni compte, sur Android et iPhone. Expérimentale : un identifiant fixe et le pseudo sont diffusés en clair, ce qui permet de suivre un téléphone. À réserver aux infos non sensibles.
 - [Element (Matrix)](https://element.io/) - Messagerie décentralisée basée sur Matrix, adaptée aux collectifs et aux grands groupes.
+
+## Navigation & transports
+
+- [17 octobre — Gilets jaunes](https://17octobregiletjaune.net/) - Site de coordination des « actes » de mobilisation, avec une carte interactive des actions et un calendrier. Les visiteurs peuvent ajouter leurs actions sur la carte, sans modération annoncée : recoupez lieu et horaire avec une autre source (syndicats, collectifs locaux, presse) avant de vous déplacer. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail. ⚠️ _Non confirmé._
+- [Organic Maps](https://organicmaps.app/fr/) - Cartes hors ligne sans pistage, utiles quand le réseau mobile est coupé ou saturé.
+- [RATP — Info trafic](https://www.bonjour-ratp.fr/fr/info-trafic/) - Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.
 
 ## Sécurité numérique
 
@@ -64,7 +73,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Amnesty France — mouvement lycéen](https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/) - Point d'Amnesty International sur les blocus lycéens et les droits des jeunes manifestants.
 - [Legal Team Paris–IDF](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr) - Ligne antirépression de la Coordination contre la répression et les violences policières : signaler une interpellation, être orienté vers un·e avocat·e, suivi après la garde à vue. Contact par Signal de préférence, ou stoprepression@riseup.net. Tél. : 07 52 95 71 11.
 - [Legal Team Paris–IDF — répression du mouvement lycéen](https://paris-luttes.info/etat-des-lieux-de-la-legal-team-21289?lang=fr) - Bilan de la Legal Team sur la répression des lycéen·nes et les démarches après une interpellation.
-- [RAJCOL — collectifs antirépression locaux](https://rajcollective.noblogs.org/les-collectifs-locaux/) - Réseau d'autodéfense juridique collective : liste des legal teams et collectifs antirépression par ville en France. ⚠️ _Non confirmé._
+- [RAJCOL — collectifs antirépression locaux](https://rajcollective.nublogs.org/les-collectifs-locaux/) - Réseau d'autodéfense juridique collective : liste des legal teams et collectifs antirépression par ville en France, pour trouver celle de votre région.
 - [Caisse de soutien antirépression Paris–IDF](https://www.helloasso.com/associations/collectives-solidarites/formulaires/1) - Caisse de la coordination contre la répression policière qui finance les frais d'avocat des personnes poursuivies. Pour donner ou savoir à qui s'adresser.
 - [Service-Public — Garde à vue](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837) - Fiche officielle : durée, droits (avocat, médecin, proche, interprète, silence) et déroulement de la garde à vue.
 - [Service-Public — Retenue ou garde à vue d'un mineur](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469) - Fiche officielle sur les garanties spécifiques aux mineurs : information des parents, avocat, examen médical.
@@ -75,11 +84,11 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [LDH — Filmer les forces de l'ordre (fiche)](https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf) - Fiche pratique de la Ligue des droits de l'Homme sur le droit de filmer et de diffuser des images d'interventions policières.
 - [LDH — Que faire face aux violences policières ? (2026)](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf) - Fiche pratique de la LDH (avril 2026) : démarches après des violences policières (certificat médical, plainte, signalement, témoins).
 - [IGGN — Plateforme de signalement (gendarmerie)](https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn) - Signalement en ligne du comportement d'un·e gendarme à l'Inspection générale de la gendarmerie. Un signalement n'est pas une plainte.
-- [Legal Team Marseille](https://legalteammarseille.noblogs.org/contact/) - Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. ⚠️ _Non confirmé._
+- [Legal Team Marseille](https://legalteammarseille.nublogs.org/contact/) - Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. ⚠️ _Non confirmé._
 - [Caisse de solidarité de Lyon](https://rebellyon.info/+-caissedeso-+) - Collectif antirépression lyonnais : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois. Tél. : 06 43 08 50 32.
 - [CLAJ — Collectif lillois d'autodéfense juridique](https://clajlille.wordpress.com/) - Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net. Tél. : 07 53 65 49 52.
 - [Antirep Nantes (Indymedia Nantes)](https://www.nantes.indymedia.org/about/antirep/) - Informations antirépression publiées avant chaque mobilisation à Nantes, dont les numéros des legal teams du jour : consultez la publication la plus récente.
-- [Legal Team Rennes](https://comitezadrennes.noblogs.org/legal-team/) - Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page. ⚠️ _Non confirmé._
+- [Legal Team Rennes](https://comitezadrennes.nublogs.org/legal-team/) - Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page. ⚠️ _Non confirmé._
 - [LDH — Attroupement et dispersion (fiche)](https://www.ldh-france.org/wp-content/uploads/2024/03/Attroupement-Dispersion-de-la-manifestation-oct-2023.pdf) - Fiche pratique de la LDH : ce qu'est un attroupement, comment se déroulent les sommations et ce que l'on risque à rester après.
 - [Conseil d'État — schéma de maintien de l'ordre (2021)](https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849) - Décision du 10 juin 2021 qui annule notamment l'encadrement de la technique d'encerclement (« nasse ») et des règles visant les journalistes.
 - [Service-Public — Organiser une manifestation](https://www.service-public.gouv.fr/particuliers/vosdroits/F21899) - Fiche officielle : déclaration préalable en mairie ou en préfecture, délais, informations à fournir.
@@ -92,6 +101,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [LICRA](https://www.licra.org/) - Ligue contre le racisme et l'antisémitisme : service juridique pour accompagner les victimes d'actes racistes ou antisémites.
 - [SOS Racisme](https://sos-racisme.org/) - Association de lutte contre le racisme : accompagnement des victimes de discriminations et de violences racistes.
 - [SOS homophobie](https://www.sos-homophobie.org/) - Écoute et soutien des victimes de LGBTphobies, y compris d'agressions.
+- [Service-Public — Audition libre](https://www.service-public.gouv.fr/particuliers/vosdroits/F32124) - Fiche officielle : vos droits si vous êtes convoqué·e par la police pour une « audition libre » (partir à tout moment, avocat·e, silence).
+- [Défenseur des droits — Lanceurs d'alerte](https://www.defenseurdesdroits.fr/orienter-et-proteger-les-lanceurs-dalerte-180) - Oriente et protège les lanceurs et lanceuses d'alerte, y compris contre les représailles liées au signalement.
 
 ## Santé & premiers secours
 
@@ -107,11 +118,13 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Cn2r — psychotraumatisme](https://cn2r.fr/) - Centre national de ressources et de résilience : comprendre le psychotraumatisme et trouver un centre régional de prise en charge (adultes et mineur·es).
 - [3919 — Violences Femmes Info](https://arretonslesviolences.gouv.fr/) - Écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches. Tél. : 3919.
 - [3018 — e-Enfance](https://e-enfance.org/) - Numéro national gratuit et confidentiel contre le cyberharcèlement (téléphone, chat, messagerie), aide au retrait de contenus. Tél. : 3018.
+- [Lacrymos de sang](https://lacrymosdesang.my.canva.site/) - Enquête participative sur les effets du gaz lacrymogène sur le cycle menstruel : questionnaire en ligne pour témoigner et sélection de sources (études, rapports, articles). Démarche militante, pas une étude scientifique.
+- [More than tears — étude sur le gaz lacrymogène et la santé reproductive (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10956352/) - Étude publiée (Frontiers in Epidemiology, 2023) sur 1 276 manifestant·es : une exposition de 5 jours ou plus est associée à 2,6 fois plus de troubles (crampes utérines, règles précoces, sensibilité des seins). En anglais.
+- [Amnesty — Gaz lacrymogènes : quels dangers, que dit la loi ?](https://www.amnesty.fr/actualites/gaz-lacrymogenes-quels-dangers-que-dit-la-loi/) - Ce que l'on sait des dangers du gaz lacrymogène et du cadre légal de son usage.
 
 ## Information & agenda
 
 - [Demosphere](https://paris.demosphere.eu/) - Agenda alternatif des manifestations et rassemblements (déclinaisons locales).
-- [17 octobre — Gilets jaunes](https://17octobregiletjaune.net/) - Site de coordination des « actes » de mobilisation : carte interactive, calendrier des manifestations et visuels à partager. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail.
 - [Manifs et handicap (Reporterre)](https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant) - Enquête sur les obstacles rencontrés par les personnes handicapées pour manifester et les pratiques de cortèges plus accessibles.
 - [La Horde](https://lahorde.samizdat.net/) - Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.
 
@@ -132,10 +145,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 
 ## Organisation
 
-- [Organic Maps](https://organicmaps.app/fr/) - Cartes hors ligne sans pistage, utiles quand le réseau mobile est coupé ou saturé.
-- [CryptPad](https://cryptpad.fr/) - Documents, tableurs et formulaires collaboratifs chiffrés de bout en bout.
+- [CryptPad](https://cryptpad.fr/) - Documents, tableurs, formulaires et dossiers partagés, chiffrés de bout en bout : l'hébergeur ne peut pas les lire. Utilisable sans compte, idéal pour partager listes de contacts, plans ou comptes rendus au sein d'un collectif.
 - [Framasoft](https://framasoft.org/) - Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.
-- [RATP — Info trafic](https://www.bonjour-ratp.fr/fr/info-trafic/) - Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.
 
 ## Se former & s'engager
 

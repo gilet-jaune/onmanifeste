@@ -1,5 +1,5 @@
 ---
-source_commit: af74b7e80c0f7170baf327678f759c6ebc7cab77
+source_commit: 3f2cabf9c669771713392a2b5fef3f01c917e5dc
 tags:
     - guides
     - transport
@@ -12,7 +12,7 @@ The journey matters as much as the march: plan the way there **and back**, with 
 ## Before you go
 
 - [ ] Prepare **two routes home**, on foot to stations away from the route.
-- [ ] Download an **offline map** ([Organic Maps](../annuaire/index.md#organic-maps)): the mobile network often saturates on site.
+- [ ] Download an **offline map** ([Organic Maps](../annuaire/index.md#organic-maps)): the mobile network often saturates on site. Tutorials for each app in the [pre-protest checklist](avant-de-partir.md#offline-map).
 - [ ] Check **traffic information** the same morning: stations can be closed at the prefecture's request, and the list changes until the last minute.[^ratp][^fermeture]
 - [ ] Carry a **ticket** and some cash, a charged phone and a power bank.
 - [ ] Set a **meeting point** with your group, away from the route ([never stay alone](ne-pas-rester-seul.md)).

@@ -26,6 +26,7 @@ const DIRECTORY_I18N = {
     checked: 'Vérifié le',
     checkedUnconfirmed: 'Vérification du',
     sources: 'Sources :',
+    install: 'Installer :',
     unconfirmed: 'Non confirmé',
     moreTags: (n) => `Tous les tags (${n})`,
     lessTags: 'Moins de tags',
@@ -42,11 +43,14 @@ const DIRECTORY_I18N = {
     checked: 'Checked on',
     checkedUnconfirmed: 'Check on',
     sources: 'Sources:',
+    install: 'Install:',
     unconfirmed: 'Unconfirmed',
     moreTags: (n) => `All tags (${n})`,
     lessTags: 'Fewer tags',
   },
 };
+
+const STORE_LABELS = { android: 'Google Play', fdroid: 'F-Droid', ios: 'App Store' };
 
 const TOP_TAGS = 14;
 const WEIGHTS = { name: 8, tag: 5, category: 3, description: 1 };
@@ -337,6 +341,23 @@ async function initDirectory(root) {
             { class: 'directory__phone' },
             '📞 ',
             el('a', { href: `tel:${r.phone.replace(/\s/g, '')}` }, r.phone),
+          )
+        : '',
+      r.stores
+        ? el(
+            'p',
+            { class: 'directory__stores' },
+            `${t.install} `,
+            ...Object.keys(STORE_LABELS)
+              .filter((store) => r.stores[store])
+              .flatMap((store, i) => [
+                i ? ' · ' : '',
+                el(
+                  'a',
+                  { href: r.stores[store], target: '_blank', rel: 'noopener' },
+                  STORE_LABELS[store],
+                ),
+              ]),
           )
         : '',
       r.sources?.length

@@ -54,6 +54,13 @@ for (const [word, targets] of Object.entries(data.synonyms ?? {})) {
   if (!Array.isArray(targets) || !targets.length) errors.push(`synonyms["${word}"]: needs targets`);
 }
 
+// Official store pages only (see `stores` in the schema).
+const STORES = {
+  android: 'https://play.google.com/store/apps/details?id=',
+  fdroid: 'https://f-droid.org/packages/',
+  ios: 'https://apps.apple.com/',
+};
+
 (data.resources ?? []).forEach((r, i) => {
   const at = `resources[${i}] (${r.id ?? '?'})`;
   for (const field of ['id', 'name', 'url', 'category', 'tags', 'description', 'check']) {
@@ -77,6 +84,11 @@ for (const [word, targets] of Object.entries(data.synonyms ?? {})) {
     if (!source?.title || !source?.url?.startsWith('https://')) {
       errors.push(`${at}: sources[${j}] needs a title and an https url`);
     }
+  });
+  Object.entries(r.stores ?? {}).forEach(([store, url]) => {
+    if (!STORES[store]) errors.push(`${at}: unknown store "${store}"`);
+    else if (!url?.startsWith(STORES[store]))
+      errors.push(`${at}: stores.${store} must start with ${STORES[store]}`);
   });
   if (r.check !== undefined) {
     const { date: checked, result, note } = r.check;

@@ -8,7 +8,14 @@ const { parcours } = JSON.parse(readFileSync(FILE, 'utf8'));
 const registry = JSON.parse(readFileSync('docs/data/resources.json', 'utf8'));
 const resourceIds = new Set(registry.resources.map((r) => r.id));
 const situationIds = new Set(registry.situations.map((s) => s.id));
-const PAGES = { sos: 'docs/sos/index', carte: 'docs/carte/index', conseils: 'docs/conseils/index' };
+const PAGES = {
+  sos: 'docs/sos/index',
+  carte: 'docs/carte/index',
+  conseils: 'docs/conseils/index',
+  histoire: 'docs/histoire/index',
+  contribuer: 'docs/contribuer/index',
+  repressions: 'docs/repressions/index',
+};
 
 // Same algorithm as Python-Markdown's default slugify (heading ids).
 const slug = (text) =>

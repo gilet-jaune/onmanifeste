@@ -7,15 +7,17 @@ tags:
 
 Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois le site ouvert (ou installé) sur votre téléphone.
 
+## Avant la manif
+
 <div class="grid cards" markdown="1">
 
-- **Ne jamais rester seul·e** [:material-account-group:](ne-pas-rester-seul.md)
+- **Checklist avant la manif** [:material-clipboard-check:](avant-de-partir.md)
 
     ***
 
-    Binôme, point de rendez-vous, contacts d'urgence, retour à la maison.
+    Téléphone chargé, batterie externe, applis et carte hors ligne installées, numéros sur papier.
 
-    [:octicons-arrow-right-24: Lire](ne-pas-rester-seul.md)
+    [:octicons-arrow-right-24: Lire](avant-de-partir.md)
 
 - **Kit et tenue de manif** [:material-bag-personal:](kit-manif.md)
 
@@ -33,6 +35,36 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](venir-repartir.md)
 
+- **Communiquer pendant une manif** [:material-radio-tower:](communiquer.md)
+
+    ***
+
+    Signal, Briar ou Meshtastic : quel outil selon le réseau et la situation.
+
+    [:octicons-arrow-right-24: Lire](communiquer.md)
+
+- **Ne jamais rester seul·e** [:material-account-group:](ne-pas-rester-seul.md)
+
+    ***
+
+    Binôme, point de rendez-vous, contacts d'urgence, retour à la maison.
+
+    [:octicons-arrow-right-24: Lire](ne-pas-rester-seul.md)
+
+</div>
+
+## Pendant la manif
+
+<div class="grid cards" markdown="1">
+
+- **Dispersion, sommations et nasse** [:material-run-fast:](dispersion.md)
+
+    ***
+
+    Reconnaître les sommations, partir à temps, réagir si vous êtes encerclé·e.
+
+    [:octicons-arrow-right-24: Lire](dispersion.md)
+
 - **Premiers secours** [:material-medical-bag:](premiers-secours.md)
 
     ***
@@ -40,6 +72,28 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
     Gaz lacrymogène, blessures, malaise, choc : les bons gestes.
 
     [:octicons-arrow-right-24: Lire](premiers-secours.md)
+
+- **Filmer les forces de l'ordre** [:material-video:](filmer.md)
+
+    ***
+
+    Filmer les interventions, garder la preuve, publier sans exposer, archiver.
+
+    [:octicons-arrow-right-24: Lire](filmer.md)
+
+- **Agressions par l'extrême droite** [:material-shield-alert:](extreme-droite.md)
+
+    ***
+
+    Ne pas être pris·e pour cible, réagir à une attaque, porter plainte.
+
+    [:octicons-arrow-right-24: Lire](extreme-droite.md)
+
+</div>
+
+## Après la manif
+
+<div class="grid cards" markdown="1">
 
 - **Garde à vue** [:material-scale-balance:](garde-a-vue.md)
 
@@ -49,13 +103,57 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](garde-a-vue.md)
 
-- **Filmer les forces de l'ordre** [:material-video:](filmer.md)
+- **Violences sexistes et harcèlement en ligne** [:material-hand-back-left-off:](violences-harcelement.md)
 
     ***
 
-    Filmer les interventions, garder la preuve, publier sans exposer, archiver.
+    Réagir en manif, se protéger du doxxing, numéros d'écoute.
 
-    [:octicons-arrow-right-24: Lire](filmer.md)
+    [:octicons-arrow-right-24: Lire](violences-harcelement.md)
+
+</div>
+
+## Selon votre situation
+
+<div class="grid cards" markdown="1">
+
+- **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
+
+    ***
+
+    Risques pour le séjour, droits en garde à vue, contacts utiles.
+
+    [:octicons-arrow-right-24: Lire](etrangers.md)
+
+- **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md)
+
+    ***
+
+    Ce qui est permis, les sanctions possibles, le conseil de discipline.
+
+    [:octicons-arrow-right-24: Lire](lyceens.md)
+
+- **Grève, manif et travail** [:material-briefcase:](travail.md)
+
+    ***
+
+    Droit de grève dans le privé et le public, absences, sanctions.
+
+    [:octicons-arrow-right-24: Lire](travail.md)
+
+- **Organiser une manifestation** [:material-bullhorn:](organiser.md)
+
+    ***
+
+    Déclarer, préparer la sécurité, risques pour les organisateur·ices.
+
+    [:octicons-arrow-right-24: Lire](organiser.md)
+
+</div>
+
+## S'informer et convaincre
+
+<div class="grid cards" markdown="1">
 
 - **S'informer et se former** [:material-school-outline:](s-informer-se-former.md)
 
@@ -80,62 +178,6 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
     Parler de la mobilisation sans se fâcher : écouter, raconter, proposer.
 
     [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
-
-- **Dispersion, sommations et nasse** [:material-run-fast:](dispersion.md)
-
-    ***
-
-    Reconnaître les sommations, partir à temps, réagir si vous êtes encerclé·e.
-
-    [:octicons-arrow-right-24: Lire](dispersion.md)
-
-- **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
-
-    ***
-
-    Risques pour le séjour, droits en garde à vue, contacts utiles.
-
-    [:octicons-arrow-right-24: Lire](etrangers.md)
-
-- **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md)
-
-    ***
-
-    Ce qui est permis, les sanctions possibles, le conseil de discipline.
-
-    [:octicons-arrow-right-24: Lire](lyceens.md)
-
-- **Violences sexistes et harcèlement en ligne** [:material-hand-back-left-off:](violences-harcelement.md)
-
-    ***
-
-    Réagir en manif, se protéger du doxxing, numéros d'écoute.
-
-    [:octicons-arrow-right-24: Lire](violences-harcelement.md)
-
-- **Agressions par l'extrême droite** [:material-shield-alert:](extreme-droite.md)
-
-    ***
-
-    Ne pas être pris·e pour cible, réagir à une attaque, porter plainte.
-
-    [:octicons-arrow-right-24: Lire](extreme-droite.md)
-
-- **Grève, manif et travail** [:material-briefcase:](travail.md)
-
-    ***
-
-    Droit de grève dans le privé et le public, absences, sanctions.
-
-    [:octicons-arrow-right-24: Lire](travail.md)
-
-- **Organiser une manifestation** [:material-bullhorn:](organiser.md)
-
-    ***
-
-    Déclarer, préparer la sécurité, risques pour les organisateur·ices.
-
-    [:octicons-arrow-right-24: Lire](organiser.md)
 
 </div>
 

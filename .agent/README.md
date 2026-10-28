@@ -38,10 +38,16 @@ French-first toolkit for protesting in France: a sourced directory, quick guides
   "tags": ["garde-a-vue", "urgence"],
   "description": { "fr": "…", "en": "…" },
   "sources": [{ "title": "…", "url": "https://…" }],
+  "stores": {
+    "android": "https://play.google.com/store/apps/details?id=…",
+    "fdroid": "https://f-droid.org/packages/…/",
+    "ios": "https://apps.apple.com/app/id…"
+  },
   "check": { "date": "2026-10-28", "result": "confirmed" }
 }
 ```
 
+- `stores` (optional, apps only): copy the store links from the publisher's own download page, never from a store search (look-alike apps exist).
 - `phone` only for official public lines, and never when `check.result` is `unconfirmed`.
 - `check.result: unconfirmed` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry.
 - After editing: `npm run validate:data` then `npm run readme` (the README list is generated).

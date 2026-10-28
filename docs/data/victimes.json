@@ -1,0 +1,277 @@
+{
+  "$schema": "../../schemas/victimes.schema.json",
+  "victimes": {
+    "by": {
+      "police": {
+        "fr": "Police",
+        "en": "Police"
+      },
+      "gendarmerie": {
+        "fr": "Gendarmerie",
+        "en": "Gendarmerie"
+      },
+      "armee": {
+        "fr": "Armée",
+        "en": "Army"
+      },
+      "extreme-droite": {
+        "fr": "Extrême droite",
+        "en": "Far right"
+      },
+      "bilan": {
+        "fr": "Bilan global (plusieurs causes)",
+        "en": "Overall toll (several causes)"
+      }
+    },
+    "censuses": [
+      {
+        "name": "Basta! — interventions policières mortelles",
+        "url": "https://basta.media/",
+        "description": {
+          "fr": "Base de données des personnes mortes à la suite d'une intervention des forces de l'ordre, depuis 1977.",
+          "en": "Database of people who died after a police intervention, since 1977."
+        },
+        "evidence": ["reporterre-basta-2020", "politis-basta-records"]
+      },
+      {
+        "name": "Désarmons-les",
+        "url": "https://desarmons.net/",
+        "description": {
+          "fr": "Collectif qui recense les blessures graves causées par les armes du maintien de l'ordre et accompagne les blessé·es.",
+          "en": "Collective documenting serious injuries from policing weapons and supporting the injured."
+        },
+        "evidence": []
+      },
+      {
+        "name": "Mutilés pour l'exemple",
+        "url": "https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479",
+        "description": {
+          "fr": "Collectif de personnes mutilées pendant les gilets jaunes, qui tient un décompte des mutilations.",
+          "en": "Collective of people maimed during the yellow vests movement, keeping a count of mutilations."
+        },
+        "evidence": []
+      },
+      {
+        "name": "Allô Place Beauvau (David Dufresne)",
+        "url": "https://gijn.org/2019/05/28/violences-policieres-comment-un-journaliste-freelance-a-reussi-a-briser-un-tabou-mediatique-en-france/",
+        "description": {
+          "fr": "Recensement vérifié, image par image, des violences policières pendant les gilets jaunes (2018-2020).",
+          "en": "Verified, image-by-image record of police violence during the yellow vests movement (2018-2020)."
+        },
+        "evidence": []
+      }
+    ],
+    "victims": [
+      {
+        "date": "1891-05-01",
+        "title": "Fusillade de Fourmies",
+        "place": "Fourmies (Nord)",
+        "by": "armee",
+        "toll": {
+          "fr": "9 morts",
+          "en": "9 dead"
+        },
+        "description": {
+          "fr": "La troupe tire sur une manifestation ouvrière du 1er Mai pour la journée de huit heures ; parmi les morts, des jeunes.",
+          "en": "Troops fire on a May Day workers' march for the eight-hour day; young people are among the dead."
+        },
+        "evidence": ["wiki-fourmies"]
+      },
+      {
+        "date": "1961-10-17",
+        "title": "Massacre du 17 octobre 1961",
+        "place": "Paris",
+        "by": "police",
+        "toll": {
+          "fr": "Des dizaines de morts",
+          "en": "Dozens dead"
+        },
+        "description": {
+          "fr": "La police réprime une manifestation pacifique d'Algérien·nes ; la République reconnaît en 2012 une « sanglante répression ».",
+          "en": "Police crack down on a peaceful march of Algerians; in 2012 the Republic recognises a “bloody repression”."
+        },
+        "evidence": ["elysee-17-octobre-2012"]
+      },
+      {
+        "date": "1962-02-08",
+        "title": "Métro Charonne",
+        "place": "Paris",
+        "by": "police",
+        "toll": {
+          "fr": "9 morts",
+          "en": "9 dead"
+        },
+        "description": {
+          "fr": "Des manifestant·es contre l'OAS et la guerre d'Algérie meurent écrasé·es ou frappé·es lors de la répression policière.",
+          "en": "Protesters against the OAS and the Algerian War die crushed or beaten during the police crackdown."
+        },
+        "evidence": ["wiki-charonne"]
+      },
+      {
+        "date": "1986-12-06",
+        "title": "Malik Oussekine",
+        "place": "Paris",
+        "by": "police",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; deux policiers condamnés avec sursis.",
+          "en": "22-year-old student killed by police during protests against the Devaquet bill; two officers receive suspended sentences."
+        },
+        "evidence": ["wiki-malik-oussekine"]
+      },
+      {
+        "date": "2014-10-26",
+        "title": "Rémi Fraisse",
+        "place": "Sivens (Tarn)",
+        "by": "gendarmerie",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie ; la grenade OF-F1 est interdite en 2017 et la France condamnée par la CEDH.",
+          "en": "21-year-old environmental activist killed by a gendarmerie grenade; the OF-F1 grenade is banned in 2017 and France is condemned by the ECHR."
+        },
+        "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"]
+      },
+      {
+        "date": "2018-11-17",
+        "title": "Gilets jaunes : mutilations",
+        "place": "France",
+        "by": "police",
+        "toll": {
+          "fr": "24 éborgné·es, 5 mains arrachées (2018-2019)",
+          "en": "24 lost an eye, 5 lost a hand (2018-2019)"
+        },
+        "description": {
+          "fr": "Le recensement du collectif « Mutilés pour l'exemple » compte 24 personnes ayant perdu un œil et 5 une main, principalement par des tirs de LBD et des grenades ; plus de 13 000 tirs de LBD en quelques mois.",
+          "en": "The “Mutilés pour l'exemple” collective counts 24 people who lost an eye and 5 a hand, mainly from LBD rounds and grenades; more than 13,000 LBD shots in a few months."
+        },
+        "evidence": ["politis-mutiles", "publicsenat-lbd"]
+      },
+      {
+        "date": "2018-12-02",
+        "title": "Zineb Redouane",
+        "place": "Marseille",
+        "by": "police",
+        "toll": {
+          "fr": "1 morte",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Femme de 80 ans touchée au visage par une grenade lacrymogène alors qu'elle fermait sa fenêtre, au passage d'une manifestation ; elle meurt le lendemain.",
+          "en": "80-year-old woman hit in the face by a tear-gas grenade while closing her window as a protest passed; she dies the next day."
+        },
+        "evidence": ["wiki-zineb-redouane", "amnesty-zineb-redouane"]
+      },
+      {
+        "date": "2019-03-23",
+        "title": "Geneviève Legay",
+        "place": "Nice",
+        "by": "police",
+        "toll": {
+          "fr": "1 blessée grave",
+          "en": "1 seriously injured"
+        },
+        "description": {
+          "fr": "Militante de 73 ans blessée à la tête lors d'une charge policière ; le commissaire est condamné, l'État jugé responsable.",
+          "en": "73-year-old activist injured in the head during a police charge; the commissioner is convicted, the State held liable."
+        },
+        "evidence": ["legay-poussee", "legay-condamnation"]
+      },
+      {
+        "date": "2019-06-21",
+        "title": "Steve Maia Caniço",
+        "place": "Nantes",
+        "by": "police",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Lors de la Fête de la musique, une intervention policière précède sa chute dans la Loire ; son corps est retrouvé en juillet.",
+          "en": "During the music festival, a police operation precedes his fall into the Loire; his body is found in July."
+        },
+        "evidence": ["wiki-steve-maia-canico"]
+      },
+      {
+        "date": "2023-03-25",
+        "title": "Sainte-Soline",
+        "place": "Sainte-Soline (Deux-Sèvres)",
+        "by": "gendarmerie",
+        "toll": {
+          "fr": "Nombreux blessés graves",
+          "en": "Many seriously injured"
+        },
+        "description": {
+          "fr": "Manifestation contre les méga-bassines ; des images de caméras-piétons de gendarmes montrent des tirs tendus de grenades, interdits.",
+          "en": "Protest against agricultural mega-basins; gendarmes' body-camera footage shows banned direct grenade shots."
+        },
+        "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"]
+      },
+      {
+        "date": "2026-09-21",
+        "title": "Mouvement lycéen et étudiant : bilan",
+        "place": "France",
+        "by": "bilan",
+        "toll": {
+          "fr": "Plus de 200 élèves et 147 personnels blessés ; plus de 800 policiers et gendarmes blessés (au 13 octobre)",
+          "en": "More than 200 students and 147 school staff injured; more than 800 police officers and gendarmes injured (as of 13 October)"
+        },
+        "description": {
+          "fr": "Blocus et manifestations pour plus d'enseignant·es et de moyens. Au 9 octobre, 6 877 personnes placées en garde à vue, dont 86 % de mineur·es (ministère de la Justice). L'usage des grenades assourdissantes est suspendu le 7 octobre dans le cadre de ces mobilisations.",
+          "en": "Blockades and protests for more teachers and resources. By 9 October, 6,877 people taken into custody, 86% of them minors (Ministry of Justice). Stun grenades are suspended for these protests on 7 October."
+        },
+        "evidence": ["wiki-mouvement-lyceen-2026", "amnesty-lyceens-2026"]
+      },
+      {
+        "date": "2026-10-01",
+        "title": "Lycéen éborgné à Tours",
+        "place": "Tours",
+        "by": "police",
+        "toll": {
+          "fr": "1 lycéen de 16 ans ayant perdu un œil",
+          "en": "A 16-year-old student lost an eye"
+        },
+        "description": {
+          "fr": "Touché par un tir de lanceur de balles de défense (LBD) lors d'une mobilisation lycéenne.",
+          "en": "Hit by a rubber-bullet launcher (LBD) round during a high-school protest."
+        },
+        "evidence": ["ldh-repression-lyceens"]
+      },
+      {
+        "date": "2026-10-05",
+        "title": "Lycéen mutilé à Lens",
+        "place": "Lens (Pas-de-Calais)",
+        "by": "police",
+        "toll": {
+          "fr": "1 lycéen de 15 ans ayant perdu une main",
+          "en": "A 15-year-old student lost a hand"
+        },
+        "description": {
+          "fr": "Blessé par une grenade lors d'une mobilisation lycéenne ; deux jours plus tard, l'usage des grenades assourdissantes est suspendu pour ces mobilisations.",
+          "en": "Injured by a grenade during a high-school protest; two days later, stun grenades are suspended for these protests."
+        },
+        "evidence": ["ldh-repression-lyceens", "wiki-mouvement-lyceen-2026"]
+      },
+      {
+        "date": "2026-10-24",
+        "title": "Agressions d'ultradroite en marge des manifestations",
+        "place": "Une quinzaine de villes",
+        "by": "extreme-droite",
+        "toll": {
+          "fr": "Blessé·es",
+          "en": "Injured"
+        },
+        "description": {
+          "fr": "Des groupes d'ultradroite, souvent masqués, attaquent des manifestant·es dans une quinzaine de villes.",
+          "en": "Far-right groups, often masked, attack protesters in around fifteen cities."
+        },
+        "evidence": ["franceinfo", "basta-montpellier-2026"]
+      }
+    ]
+  }
+}

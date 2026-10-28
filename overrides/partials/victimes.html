@@ -1,0 +1,30 @@
+{#- Injured and killed at or after protests, from docs/data/victimes.json + sources.json. -#}
+
+{%- macro src_link(id, lang) -%}
+{%- set s = sources[id] %}{% set url = s.url[lang] if s.url is mapping else s.url %}<a href="{{ url }}" target="_blank" rel="noopener">{{ s.title[lang] or s.title.fr }}</a>
+{%- endmacro -%}
+
+{%- macro censuses(lang) -%}
+<ul class="victims__censuses">
+{%- for c in victimes.censuses %}
+  <li><a href="{{ c.url }}" target="_blank" rel="noopener"><strong>{{ c.name }}</strong></a> — {{ c.description[lang] or c.description.fr }}{% if c.evidence %} ({% for id in c.evidence %}{{ src_link(id, lang) }}{% if not loop.last %} · {% endif %}{% endfor %}){% endif %}</li>
+{%- endfor %}
+</ul>
+{%- endmacro -%}
+
+{%- macro timeline(lang) -%}
+<ol class="timeline victims">
+{%- for v in victimes.victims %} {%- set year, month, day = v.date.split('-') %}
+  <li class="timeline__event timeline__event--{{ 'repression' if v.by != 'extreme-droite' else 'soulevement' }}" id="victime-{{ v.date }}">
+    <time class="timeline__date" datetime="{{ v.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time>
+    <div class="timeline__body">
+      <span class="timeline__kind">{{ victimes.by[v.by][lang] or victimes.by[v.by].fr }} · {{ v.place }}</span>
+      <h3 class="timeline__title">{{ v.title }}</h3>
+      <p class="victims__toll">{{ v.toll[lang] or v.toll.fr }}</p>
+      <p>{{ v.description[lang] or v.description.fr }}</p>
+      <p class="documented__proofs"><strong>{{ 'Sources :' if lang == 'fr' else 'Sources:' }}</strong> {% for id in v.evidence %}{{ src_link(id, lang) }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+    </div>
+  </li>
+{%- endfor %}
+</ol>
+{%- endmacro -%}

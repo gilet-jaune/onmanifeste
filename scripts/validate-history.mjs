@@ -5,6 +5,7 @@ const FILE = 'docs/data/history.json';
 const errors = [];
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const kinds = Object.keys(data.kinds ?? {});
+const sources = JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sources;
 
 let previous = '';
 (data.events ?? []).forEach((e, i) => {
@@ -20,6 +21,14 @@ let previous = '';
   if (e.kind && !kinds.includes(e.kind)) errors.push(`${at}: unknown kind "${e.kind}"`);
   if (e.url && !e.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (!e.description?.fr) errors.push(`${at}: missing French description`);
+  (e.evidence ?? []).forEach((id) => {
+    if (!sources[id])
+      errors.push(`${at}: unknown evidence source "${id}" (add it to docs/data/sources.json)`);
+  });
+  if (e.debunked && (!e.debunked.claim?.fr || !e.debunked.fact?.fr)) {
+    errors.push(`${at}: debunked needs claim.fr and fact.fr`);
+  }
+  if (e.debunked && !e.evidence?.length) errors.push(`${at}: debunked statements need evidence`);
   if (e.gains !== undefined) {
     if (!e.gains.fr) errors.push(`${at}: gains needs a French text`);
     if (e.gains.source && !e.gains.source.startsWith('https://'))

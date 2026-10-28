@@ -87,12 +87,23 @@ plugins:
           site_description: Useful tools and resources for protesting in France
           nav_translations:
             Accueil: Home
+            Urgence: Emergency
+            Trouver de l'aide: Find help
+            Avant la manif: Before the protest
+            Pendant la manif: During the protest
+            Après la manif: After the protest
+            Selon votre situation: Depending on your situation
+            S'informer et convaincre: Stay informed and persuade
+            Comprendre: Understand
+            Le projet: About
             Annuaire: Directory
             Je suis… et je veux…: I am… and I want to…
             Guides express: Quick guides
+            Checklist avant la manif: Pre-protest checklist
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
             Venir et repartir: Getting there and back
+            Communiquer pendant une manif: Communicating at a protest
             Premiers secours: First aid
             Garde à vue: Police custody
             Filmer les forces de l'ordre: Film the police
@@ -108,6 +119,8 @@ plugins:
             Convaincre ses proches: Talk to your loved ones
             Conseils pratiques: Practical tips
             Repères historiques: History
+            Répressions documentées: Documented repression
+            Blessé·es et mort·es: Injured and killed
             Contribuer: Contributing
             Carte de poche: Pocket card
             Mentions légales: Legal notice
@@ -118,6 +131,8 @@ plugins:
         - docs/data/history.json
         - docs/data/resources.json
         - docs/data/parcours.json
+        - docs/data/sources.json
+        - docs/data/victimes.json
 
 extra_css:
   # Self-hosted at build time by the privacy plugin.
@@ -140,32 +155,45 @@ hooks:
 
 nav:
   - Accueil: index.md
-  - SOS: sos/index.md
-  - Je suis… et je veux…: parcours/index.md
-  - Annuaire: annuaire/index.md
+  - Urgence:
+      - SOS: sos/index.md
+      - Carte de poche: carte/index.md
+  - Trouver de l'aide:
+      - Je suis… et je veux…: parcours/index.md
+      - Annuaire: annuaire/index.md
   - Guides express:
       - guides/index.md
-      - Ne jamais rester seul·e: guides/ne-pas-rester-seul.md
-      - Kit et tenue de manif: guides/kit-manif.md
-      - Venir et repartir: guides/venir-repartir.md
-      - Premiers secours: guides/premiers-secours.md
-      - Garde à vue: guides/garde-a-vue.md
-      - Filmer les forces de l'ordre: guides/filmer.md
-      - Dispersion, sommations et nasse: guides/dispersion.md
-      - Manifester sans la nationalité française: guides/etrangers.md
-      - "Lycéen·nes : blocus, absences, sanctions": guides/lyceens.md
-      - Violences sexistes et harcèlement en ligne: guides/violences-harcelement.md
-      - Agressions par l'extrême droite: guides/extreme-droite.md
-      - Grève, manif et travail: guides/travail.md
-      - Organiser une manifestation: guides/organiser.md
-      - S'informer et se former: guides/s-informer-se-former.md
-      - Éviter la désinformation: guides/desinformation.md
-      - Convaincre ses proches: guides/convaincre-ses-proches.md
-  - Conseils pratiques: conseils/index.md
-  - Repères historiques: histoire/index.md
-  - Contribuer: contribuer/index.md
-  - Carte de poche: carte/index.md
-  - Mentions légales: mentions-legales/index.md
+      - Avant la manif:
+          - Checklist avant la manif: guides/avant-de-partir.md
+          - Kit et tenue de manif: guides/kit-manif.md
+          - Venir et repartir: guides/venir-repartir.md
+          - Communiquer pendant une manif: guides/communiquer.md
+          - Ne jamais rester seul·e: guides/ne-pas-rester-seul.md
+      - Pendant la manif:
+          - Dispersion, sommations et nasse: guides/dispersion.md
+          - Premiers secours: guides/premiers-secours.md
+          - Filmer les forces de l'ordre: guides/filmer.md
+          - Agressions par l'extrême droite: guides/extreme-droite.md
+      - Après la manif:
+          - Garde à vue: guides/garde-a-vue.md
+          - Violences sexistes et harcèlement en ligne: guides/violences-harcelement.md
+      - Selon votre situation:
+          - Manifester sans la nationalité française: guides/etrangers.md
+          - "Lycéen·nes : blocus, absences, sanctions": guides/lyceens.md
+          - Grève, manif et travail: guides/travail.md
+          - Organiser une manifestation: guides/organiser.md
+      - S'informer et convaincre:
+          - S'informer et se former: guides/s-informer-se-former.md
+          - Éviter la désinformation: guides/desinformation.md
+          - Convaincre ses proches: guides/convaincre-ses-proches.md
+      - Conseils pratiques: conseils/index.md
+  - Comprendre:
+      - Repères historiques: histoire/index.md
+      - Répressions documentées: repressions/index.md
+      - Blessé·es et mort·es: victimes/index.md
+  - Le projet:
+      - Contribuer: contribuer/index.md
+      - Mentions légales: mentions-legales/index.md
 
 markdown_extensions:
   - pymdownx.superfences:

@@ -56,6 +56,27 @@
                 "description": "Source for the gains when not covered by the event url."
               }
             }
+          },
+          "evidence": {
+            "type": "array",
+            "description": "Ids from docs/data/sources.json documenting the facts (ruling, report, authenticated video, official statement).",
+            "items": {
+              "type": "string"
+            }
+          },
+          "debunked": {
+            "type": "object",
+            "description": "An official statement later contradicted by established facts.",
+            "required": ["claim", "fact"],
+            "additionalProperties": false,
+            "properties": {
+              "claim": {
+                "$ref": "resources.schema.json#/$defs/localized"
+              },
+              "fact": {
+                "$ref": "resources.schema.json#/$defs/localized"
+              }
+            }
           }
         }
       }
