@@ -21,7 +21,7 @@ Donnez **l'heure, le lieu, une description** (vêtements) de la personne interpe
 
 {{ sos.hotlines('fr') }}
 
-Pas de legal team dans votre ville ? Consultez [la liste des collectifs locaux (RAJCOL)](https://rajcollective.noblogs.org/les-collectifs-locaux/) ou l'[annuaire](../annuaire/index.md?situation=garde-a-vue).
+Pas de legal team dans votre ville ? Consultez {{ res("rajcol", "la liste des collectifs locaux (RAJCOL)") }} ou l'[annuaire](../annuaire/index.md?situation=garde-a-vue).
 
 ## En garde à vue
 

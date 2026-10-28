@@ -36,9 +36,3 @@ Méthode proposée par le chercheur Mike Caulfield.[^sift]
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^sift]: [Mike Caulfield — SIFT (The Four Moves)](https://hapgood.us/2019/06/19/sift-the-four-moves/)
-
-[^afp-factuel]: [AFP Factuel](https://factuel.afp.com/)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)

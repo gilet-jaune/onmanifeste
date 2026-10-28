@@ -5,7 +5,7 @@ tags:
 
 # Guides express
 
-Sept fiches courtes à lire avant de partir, **consultables hors ligne** une fois le site ouvert (ou installé) sur votre téléphone.
+Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois le site ouvert (ou installé) sur votre téléphone.
 
 <div class="grid cards" markdown="1">
 
@@ -24,6 +24,14 @@ Sept fiches courtes à lire avant de partir, **consultables hors ligne** une foi
     Quoi porter, quoi emporter : masque, lunettes, sérum, papiers.
 
     [:octicons-arrow-right-24: Lire](kit-manif.md)
+
+- **Venir et repartir** [:material-bicycle:](venir-repartir.md)
+
+    ***
+
+    Transports, covoiturage, vélo, à pied, et un plan de sortie.
+
+    [:octicons-arrow-right-24: Lire](venir-repartir.md)
 
 - **Premiers secours** [:material-medical-bag:](premiers-secours.md)
 
@@ -49,6 +57,14 @@ Sept fiches courtes à lire avant de partir, **consultables hors ligne** une foi
 
     [:octicons-arrow-right-24: Lire](filmer.md)
 
+- **S'informer et se former** [:material-school-outline:](s-informer-se-former.md)
+
+    ***
+
+    Formations à l'action non-violente, observatoires, sources fiables, réseaux sociaux.
+
+    [:octicons-arrow-right-24: Lire](s-informer-se-former.md)
+
 - **Éviter la désinformation** [:material-magnify-scan:](desinformation.md)
 
     ***
@@ -64,6 +80,62 @@ Sept fiches courtes à lire avant de partir, **consultables hors ligne** une foi
     Parler de la mobilisation sans se fâcher : écouter, raconter, proposer.
 
     [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
+
+- **Dispersion, sommations et nasse** [:material-run-fast:](dispersion.md)
+
+    ***
+
+    Reconnaître les sommations, partir à temps, réagir si vous êtes encerclé·e.
+
+    [:octicons-arrow-right-24: Lire](dispersion.md)
+
+- **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
+
+    ***
+
+    Risques pour le séjour, droits en garde à vue, contacts utiles.
+
+    [:octicons-arrow-right-24: Lire](etrangers.md)
+
+- **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md)
+
+    ***
+
+    Ce qui est permis, les sanctions possibles, le conseil de discipline.
+
+    [:octicons-arrow-right-24: Lire](lyceens.md)
+
+- **Violences sexistes et harcèlement en ligne** [:material-hand-back-left-off:](violences-harcelement.md)
+
+    ***
+
+    Réagir en manif, se protéger du doxxing, numéros d'écoute.
+
+    [:octicons-arrow-right-24: Lire](violences-harcelement.md)
+
+- **Agressions par l'extrême droite** [:material-shield-alert:](extreme-droite.md)
+
+    ***
+
+    Ne pas être pris·e pour cible, réagir à une attaque, porter plainte.
+
+    [:octicons-arrow-right-24: Lire](extreme-droite.md)
+
+- **Grève, manif et travail** [:material-briefcase:](travail.md)
+
+    ***
+
+    Droit de grève dans le privé et le public, absences, sanctions.
+
+    [:octicons-arrow-right-24: Lire](travail.md)
+
+- **Organiser une manifestation** [:material-bullhorn:](organiser.md)
+
+    ***
+
+    Déclarer, préparer la sécurité, risques pour les organisateur·ices.
+
+    [:octicons-arrow-right-24: Lire](organiser.md)
 
 </div>
 

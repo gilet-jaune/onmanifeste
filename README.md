@@ -2,7 +2,7 @@
 
 > Une sélection d'outils libres, de guides juridiques et de ressources pratiques pour s'informer, s'organiser et se protéger lors des manifestations en France.
 
-Une version web, optimisée pour mobile et **utilisable hors ligne**, est publiée avec GitHub Pages (lien dans la section « About » du dépôt). Elle ajoute une recherche par nom et par tag, des [guides express](docs/guides/index.md) (ne pas rester seul·e, kit, premiers secours, garde à vue, désinformation, convaincre ses proches), des conseils pratiques et des [repères historiques](docs/histoire/index.md).
+Une version web, optimisée pour mobile et **utilisable hors ligne**, est publiée avec GitHub Pages (lien dans la section « About » du dépôt). Elle ajoute une recherche par nom et par tag, des [guides express](docs/guides/index.md) (sécurité, venir et repartir, kit, premiers secours, garde à vue, dispersion, filmer la police, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation), des conseils pratiques et des [repères historiques](docs/histoire/index.md) avec ce que la rue a obtenu.
 
 <!-- prettier-ignore -->
 > [!WARNING]
@@ -21,6 +21,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Information & agenda](#information--agenda)
 - [Médias & vérification](#médias--vérification)
 - [Organisation](#organisation)
+- [Se former & s'engager](#se-former--sengager)
 - [Réseaux sociaux](#réseaux-sociaux)
 - [Contribuer](#contribuer)
 
@@ -40,6 +41,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Technopolice](https://technopolice.fr/) - Campagne de La Quadrature du Net qui documente la surveillance policière (caméras, drones, reconnaissance faciale) en France.
 - [La Quadrature du Net](https://www.laquadrature.net/) - Association de défense des libertés numériques en France.
 - [mat2](https://0xacab.org/jvoisin/mat2) - Supprime les métadonnées (position GPS, appareil, date) des photos, vidéos et documents avant de les publier.
+- [PHAROS — Signaler un contenu illicite](https://www.internet-signalement.gouv.fr/) - Plateforme officielle pour signaler un contenu illicite en ligne : menaces, appels à la violence, diffusion de données personnelles.
+- [CNIL — Droit à l'effacement](https://www.cnil.fr/fr/le-droit-leffacement-supprimer-vos-donnees-en-ligne) - Comment demander la suppression de vos données personnelles publiées en ligne (photos, adresse, informations exposées).
 
 ## Filmer & archiver
 
@@ -77,6 +80,18 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [CLAJ — Collectif lillois d'autodéfense juridique](https://clajlille.wordpress.com/) - Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net. Tél. : 07 53 65 49 52.
 - [Antirep Nantes (Indymedia Nantes)](https://www.nantes.indymedia.org/about/antirep/) - Informations antirépression publiées avant chaque mobilisation à Nantes, dont les numéros des legal teams du jour : consultez la publication la plus récente.
 - [Legal Team Rennes](https://comitezadrennes.noblogs.org/legal-team/) - Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page. ⚠️ _Non confirmé._
+- [LDH — Attroupement et dispersion (fiche)](https://www.ldh-france.org/wp-content/uploads/2024/03/Attroupement-Dispersion-de-la-manifestation-oct-2023.pdf) - Fiche pratique de la LDH : ce qu'est un attroupement, comment se déroulent les sommations et ce que l'on risque à rester après.
+- [Conseil d'État — schéma de maintien de l'ordre (2021)](https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849) - Décision du 10 juin 2021 qui annule notamment l'encadrement de la technique d'encerclement (« nasse ») et des règles visant les journalistes.
+- [Service-Public — Organiser une manifestation](https://www.service-public.gouv.fr/particuliers/vosdroits/F21899) - Fiche officielle : déclaration préalable en mairie ou en préfecture, délais, informations à fournir.
+- [Service-Public — Droit de grève (secteur privé)](https://www.service-public.gouv.fr/particuliers/vosdroits/F117) - Fiche officielle : pas de préavis dans le privé, aucune sanction pour fait de grève, retenue de salaire proportionnelle.
+- [Service-Public — Droit de grève (fonction publique)](https://www.service-public.gouv.fr/particuliers/vosdroits/F499) - Fiche officielle : préavis de 5 jours francs déposé par un syndicat, retenues sur traitement.
+- [Service-Public — Retenue pour vérification du droit au séjour](https://www.service-public.gouv.fr/particuliers/vosdroits/F31136) - Fiche officielle sur la retenue d'une personne étrangère pour vérifier son droit au séjour : durée, droits, suites possibles.
+- [La Cimade](https://www.lacimade.org/) - Association d'aide aux personnes étrangères : permanences juridiques, accompagnement face à une OQTF ou une rétention.
+- [GISTI](https://www.gisti.org/) - Groupe d'information et de soutien des immigré·es : notes juridiques et analyses sur le droit des étrangers.
+- [CIDJ — Droit de manifester des lycéens](https://www.cidj.com/s-engager/droit-de-manifester-ce-que-peuvent-faire-les-lyceens) - Ce que les lycéen·nes peuvent faire : manifester, mais pas de droit de grève ; absences non justifiées ; blocage interdit.
+- [LICRA](https://www.licra.org/) - Ligue contre le racisme et l'antisémitisme : service juridique pour accompagner les victimes d'actes racistes ou antisémites.
+- [SOS Racisme](https://sos-racisme.org/) - Association de lutte contre le racisme : accompagnement des victimes de discriminations et de violences racistes.
+- [SOS homophobie](https://www.sos-homophobie.org/) - Écoute et soutien des victimes de LGBTphobies, y compris d'agressions.
 
 ## Santé & premiers secours
 
@@ -90,12 +105,15 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Gaz lacrymogènes et santé des femmes (Allodocteurs)](https://www.allodocteurs.fr/effets-des-gaz-lacrymo-sur-la-sante-des-femmes-ce-que-lon-sait-47380.html) - Ce que l'on sait des troubles du cycle menstruel signalés après une exposition, et les questions encore ouvertes.
 - [Gaz lacrymogènes : des effets invalidants à long terme ? (Handicap.fr)](https://informations.handicap.fr/a-gaz-lacrymogenes-des-effets-invalidants-a-long-terme-39907.php) - Article sur les séquelles durables possibles et la situation des personnes déjà fragiles (asthme, maladies chroniques).
 - [Cn2r — psychotraumatisme](https://cn2r.fr/) - Centre national de ressources et de résilience : comprendre le psychotraumatisme et trouver un centre régional de prise en charge (adultes et mineur·es).
+- [3919 — Violences Femmes Info](https://arretonslesviolences.gouv.fr/) - Écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches. Tél. : 3919.
+- [3018 — e-Enfance](https://e-enfance.org/) - Numéro national gratuit et confidentiel contre le cyberharcèlement (téléphone, chat, messagerie), aide au retrait de contenus. Tél. : 3018.
 
 ## Information & agenda
 
 - [Demosphere](https://paris.demosphere.eu/) - Agenda alternatif des manifestations et rassemblements (déclinaisons locales).
 - [17 octobre — Gilets jaunes](https://17octobregiletjaune.net/) - Site de coordination des « actes » de mobilisation : carte interactive, calendrier des manifestations et visuels à partager. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail.
 - [Manifs et handicap (Reporterre)](https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant) - Enquête sur les obstacles rencontrés par les personnes handicapées pour manifester et les pratiques de cortèges plus accessibles.
+- [La Horde](https://lahorde.samizdat.net/) - Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.
 
 ## Médias & vérification
 
@@ -117,6 +135,16 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Organic Maps](https://organicmaps.app/fr/) - Cartes hors ligne sans pistage, utiles quand le réseau mobile est coupé ou saturé.
 - [CryptPad](https://cryptpad.fr/) - Documents, tableurs et formulaires collaboratifs chiffrés de bout en bout.
 - [Framasoft](https://framasoft.org/) - Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.
+- [RATP — Info trafic](https://www.bonjour-ratp.fr/fr/info-trafic/) - Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.
+
+## Se former & s'engager
+
+- [ANV-COP21 — Se former](https://anv-cop21.org/se-former/) - Formations théoriques et pratiques à l'action non-violente et à la désobéissance civile : organisation d'une action, rôles, cadre juridique, relations avec les forces de l'ordre.
+- [Alternatiba](https://alternatiba.eu/) - Mouvement pour le climat ; ses groupes locaux, avec ANV-COP21, organisent régulièrement des formations à l'action non-violente.
+- [Extinction Rebellion France](https://extinctionrebellion.fr/rejoignez-nous/) - Mouvement écologiste de désobéissance civile non-violente ; on le rejoint via un groupe local, où se tiennent accueils et formations à l'action.
+- [Greenpeace France — Groupes locaux](https://www.greenpeace.fr/groupes-locaux/) - Rejoindre l'un des groupes locaux de bénévoles et militant·es de Greenpeace en France.
+- [LDH — Observatoires des libertés publiques](https://www.ldh-france.org/wp-content/uploads/2020/10/HL190-Actualit%C3%A9-3.-Les-observatoires-citoyens-d%C3%A9crire-t%C3%A9moigner-d%C3%A9noncer.pdf) - Les observatoires citoyens de la LDH documentent les pratiques policières en manifestation ; les observateur·ices sont formé·es et identifiables (chasubles).
+- [Amnesty — Manifestation : tes droits en action](https://www.amnesty.fr/formations/manifestation-tes-droits-en-action-livret/) - Livret de formation d'Amnesty sur le droit de manifester : connaître ses droits et les faire respecter.
 
 ## Réseaux sociaux
 

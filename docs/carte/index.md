@@ -1,5 +1,6 @@
 ---
 review: juridique
+review_status: pending
 tags:
     - urgence
 hide:
@@ -58,4 +59,4 @@ Je m'éloigne face au vent, je ne frotte pas, je rince au sérum.
 
 </div>
 
-Sources : [numéros d'urgence]({{ emergency_source.url }}), [garde à vue (Service-Public)](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837), [mineurs (Service-Public)](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469), [premiers gestes (street medics)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf).
+Sources : [numéros d'urgence]({{ emergency_source.url }}), {{ res("sp-garde-a-vue", "garde à vue (Service-Public)") }}, {{ res("sp-garde-a-vue-mineur", "mineurs (Service-Public)") }}, {{ res("medic-gestes-manif", "premiers gestes (street medics)") }}.

@@ -33,6 +33,10 @@
       "fr": "Organisation",
       "en": "Organizing"
     },
+    "se-former": {
+      "fr": "Se former & s'engager",
+      "en": "Training & getting involved"
+    },
     "reseaux-sociaux": {
       "fr": "Réseaux sociaux",
       "en": "Social media"
@@ -138,12 +142,28 @@
       "tags": ["mineurs", "lyceens"]
     },
     {
+      "id": "etranger",
+      "label": {
+        "fr": "Je n'ai pas la nationalité française",
+        "en": "I am not a French national"
+      },
+      "tags": ["etrangers"]
+    },
+    {
       "id": "avocat-proces",
       "label": {
         "fr": "Trouver ou payer un avocat, préparer un procès",
         "en": "Find or pay a lawyer, prepare for trial"
       },
       "tags": ["avocat", "frais-avocat", "caisse-de-solidarite", "proces"]
+    },
+    {
+      "id": "harcelement",
+      "label": {
+        "fr": "Violences sexistes, harcèlement ou données exposées en ligne",
+        "en": "Sexist violence, harassment or personal data exposed online"
+      },
+      "tags": ["violences-sexistes", "cyberharcelement", "extreme-droite"]
     },
     {
       "id": "filmer",
@@ -172,6 +192,14 @@
       "tags": ["essentiel"]
     },
     {
+      "id": "se-former",
+      "label": {
+        "fr": "Me former, m'engager dans un collectif",
+        "en": "Get trained, join a group"
+      },
+      "categories": ["se-former"]
+    },
+    {
       "id": "verifier",
       "label": {
         "fr": "Vérifier une information",
@@ -181,48 +209,77 @@
     }
   ],
   "synonyms": {
+    "absence": ["lyceens"],
     "accessibilite": ["handicap"],
     "acouphene": ["long-terme", "premiers-secours"],
     "ado": ["mineurs", "lyceens"],
     "agenda": ["agenda"],
+    "agression": ["violences-sexistes"],
     "anonymat": ["anonymat"],
     "anonyme": ["anonymat"],
     "appeler": ["urgence"],
     "archive": ["archivage"],
     "archiver": ["archivage"],
     "argent": ["caisse-de-solidarite", "frais-avocat"],
+    "attroupement": ["dispersion"],
     "avocate": ["avocat"],
     "backup": ["sauvegarde-auto"],
+    "beginner": ["essentiel"],
+    "benevole": ["groupes-locaux"],
     "blesse": ["premiers-secours"],
     "blessure": ["premiers-secours"],
+    "blocus": ["lyceens"],
     "bluetooth": ["hors-ligne"],
     "camera": ["filmer", "surveillance"],
+    "casque": ["premiers-secours"],
     "cauchemars": ["soutien-psychologique"],
     "chiffre": ["chiffrement"],
     "cloud": ["sauvegarde-auto"],
     "convocation": ["proces"],
+    "covoiturage": ["transports"],
     "crypte": ["chiffrement"],
     "cs": ["gaz-lacrymogene"],
     "cycle": ["cycles-menstruels"],
     "debutant": ["essentiel"],
+    "debutante": ["essentiel"],
     "debuter": ["essentiel"],
+    "declarer": ["organiser"],
+    "desobeissance": ["desobeissance-civile"],
+    "doxing": ["cyberharcelement", "donnees-personnelles"],
+    "doxxing": ["cyberharcelement", "donnees-personnelles"],
     "droit": ["droits", "juridique"],
     "drone": ["surveillance"],
     "eleve": ["lyceens", "mineurs"],
+    "employeur": ["travail"],
+    "encerclement": ["dispersion"],
     "enfant": ["mineurs"],
+    "engager": ["groupes-locaux", "formation"],
     "essentiel": ["essentiel"],
+    "etranger": ["etrangers"],
+    "exclusion": ["lyceens"],
     "exif": ["metadonnees"],
     "facho": ["extreme-droite"],
     "fachos": ["extreme-droite"],
+    "faf": ["extreme-droite"],
+    "fafs": ["extreme-droite"],
     "fake": ["desinformation", "fact-checking"],
     "fauteuil": ["handicap"],
     "floutage": ["floutage"],
     "flouter": ["floutage"],
+    "fonctionnaire": ["greve"],
+    "formation": ["formation"],
+    "former": ["formation"],
     "garde a vue": ["garde-a-vue"],
     "gav": ["garde-a-vue"],
     "gaz": ["gaz-lacrymogene"],
     "gendarme": ["violences-policieres"],
+    "genouillere": ["premiers-secours"],
+    "greenpeace": ["ecologie"],
+    "greve": ["greve"],
     "handi": ["handicap"],
+    "harcelement": ["cyberharcelement", "violences-sexistes"],
+    "homophobe": ["lgbtphobie"],
+    "identitaire": ["extreme-droite"],
     "igpn": ["plainte", "violences-policieres"],
     "internet": ["hors-ligne"],
     "intox": ["desinformation", "fact-checking"],
@@ -238,47 +295,73 @@
     "manif": ["manifestations"],
     "medic": ["street-medics", "premiers-secours"],
     "messages": ["messagerie"],
+    "metro": ["transports"],
+    "militer": ["groupes-locaux", "formation"],
     "mineur": ["mineurs"],
+    "nasse": ["dispersion"],
+    "nazi": ["extreme-droite"],
+    "non violence": ["non-violence"],
+    "nonviolence": ["non-violence"],
+    "novice": ["essentiel"],
     "numero": ["urgence"],
+    "observateur": ["observatoire"],
+    "oqtf": ["etrangers"],
     "oreille": ["long-terme", "premiers-secours"],
+    "organiser": ["organiser"],
     "parents": ["mineurs"],
     "payer": ["frais-avocat", "caisse-de-solidarite"],
     "photo": ["photos", "filmer", "metadonnees"],
     "plainte": ["plainte"],
     "police": ["violences-policieres", "filmer"],
     "portable": ["mobile"],
+    "prefecture": ["organiser"],
     "premiere": ["essentiel"],
     "presse": ["presse-nationale", "journalistes"],
     "preuve": ["preuve"],
     "proces": ["proces"],
+    "protection": ["premiers-secours"],
     "psy": ["soutien-psychologique"],
     "ptsd": ["soutien-psychologique"],
+    "raciste": ["racisme"],
     "reconnaissance faciale": ["surveillance"],
+    "refugie": ["etrangers"],
     "regles": ["cycles-menstruels"],
     "reseau": ["hors-ligne"],
     "rumeur": ["desinformation", "fact-checking"],
+    "salarie": ["travail"],
+    "sans papiers": ["etrangers"],
     "sans reseau": ["hors-ligne"],
     "sauvegarde": ["sauvegarde-auto", "archivage"],
     "sauvegarder": ["archivage"],
     "sequelle": ["long-terme"],
     "sequelles": ["long-terme"],
+    "sexiste": ["violences-sexistes"],
     "signalement": ["plainte"],
     "signaler": ["plainte"],
     "smartphone": ["mobile"],
     "sms": ["messagerie"],
     "soigner": ["premiers-secours"],
     "soins": ["premiers-secours"],
+    "sommation": ["dispersion"],
+    "sommations": ["dispersion"],
     "sos": ["urgence"],
     "stress": ["soutien-psychologique"],
     "telegram": ["messagerie", "chiffrement"],
     "telephone": ["mobile"],
+    "titre de sejour": ["etrangers"],
     "tor": ["anonymat"],
+    "trajet": ["transports"],
+    "transport": ["transports"],
     "trauma": ["soutien-psychologique"],
+    "travail": ["travail"],
     "tribunal": ["proces"],
+    "ultradroite": ["extreme-droite"],
+    "velo": ["transports"],
     "video": ["filmer", "preuve"],
     "videosurveillance": ["surveillance"],
     "violence": ["violences-policieres"],
-    "whatsapp": ["messagerie", "chiffrement"]
+    "whatsapp": ["messagerie", "chiffrement"],
+    "xr": ["desobeissance-civile"]
   },
   "resources": [
     {
@@ -446,6 +529,36 @@
       "description": {
         "fr": "Supprime les métadonnées (position GPS, appareil, date) des photos, vidéos et documents avant de les publier.",
         "en": "Removes metadata (GPS location, device, date) from photos, videos and documents before publishing them."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "pharos",
+      "name": "PHAROS — Signaler un contenu illicite",
+      "url": "https://www.internet-signalement.gouv.fr/",
+      "category": "securite-numerique",
+      "tags": ["cyberharcelement", "signalement-en-ligne", "officiel"],
+      "description": {
+        "fr": "Plateforme officielle pour signaler un contenu illicite en ligne : menaces, appels à la violence, diffusion de données personnelles.",
+        "en": "Official platform to report illegal online content: threats, calls to violence, publication of personal data."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "cnil-effacement",
+      "name": "CNIL — Droit à l'effacement",
+      "url": "https://www.cnil.fr/fr/le-droit-leffacement-supprimer-vos-donnees-en-ligne",
+      "category": "securite-numerique",
+      "tags": ["cyberharcelement", "donnees-personnelles", "officiel"],
+      "description": {
+        "fr": "Comment demander la suppression de vos données personnelles publiées en ligne (photos, adresse, informations exposées).",
+        "en": "How to request removal of your personal data published online (photos, address, exposed information)."
       },
       "check": {
         "date": "2026-10-28",
@@ -968,6 +1081,186 @@
       }
     },
     {
+      "id": "ldh-dispersion",
+      "name": "LDH — Attroupement et dispersion (fiche)",
+      "url": "https://www.ldh-france.org/wp-content/uploads/2024/03/Attroupement-Dispersion-de-la-manifestation-oct-2023.pdf",
+      "category": "juridique",
+      "tags": ["dispersion", "droits", "guide"],
+      "description": {
+        "fr": "Fiche pratique de la LDH : ce qu'est un attroupement, comment se déroulent les sommations et ce que l'on risque à rester après.",
+        "en": "LDH fact sheet: what an unlawful assembly is, how dispersal warnings work and what you risk by staying."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "conseil-etat-snmo-2021",
+      "name": "Conseil d'État — schéma de maintien de l'ordre (2021)",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849",
+      "category": "juridique",
+      "tags": ["dispersion", "droits", "officiel", "journalistes"],
+      "description": {
+        "fr": "Décision du 10 juin 2021 qui annule notamment l'encadrement de la technique d'encerclement (« nasse ») et des règles visant les journalistes.",
+        "en": "Ruling of 10 June 2021 annulling, among others, the rules on encirclement (kettling) and some rules on journalists."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-organiser-manifestation",
+      "name": "Service-Public — Organiser une manifestation",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899",
+      "category": "juridique",
+      "tags": ["organiser", "droits", "officiel"],
+      "description": {
+        "fr": "Fiche officielle : déclaration préalable en mairie ou en préfecture, délais, informations à fournir.",
+        "en": "Official page: prior notification to the town hall or prefecture, deadlines, information to provide."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-greve-prive",
+      "name": "Service-Public — Droit de grève (secteur privé)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117",
+      "category": "juridique",
+      "tags": ["travail", "greve", "officiel", "droits"],
+      "description": {
+        "fr": "Fiche officielle : pas de préavis dans le privé, aucune sanction pour fait de grève, retenue de salaire proportionnelle.",
+        "en": "Official page: no notice required in the private sector, no sanction for striking, proportional pay deduction."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-greve-public",
+      "name": "Service-Public — Droit de grève (fonction publique)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F499",
+      "category": "juridique",
+      "tags": ["travail", "greve", "officiel", "droits"],
+      "description": {
+        "fr": "Fiche officielle : préavis de 5 jours francs déposé par un syndicat, retenues sur traitement.",
+        "en": "Official page: 5 clear days' notice filed by a union, pay deductions."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-retenue-sejour",
+      "name": "Service-Public — Retenue pour vérification du droit au séjour",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31136",
+      "category": "juridique",
+      "tags": ["etrangers", "droits", "officiel"],
+      "description": {
+        "fr": "Fiche officielle sur la retenue d'une personne étrangère pour vérifier son droit au séjour : durée, droits, suites possibles.",
+        "en": "Official page on holding a foreign national to check their right of residence: duration, rights, possible outcomes."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "cimade",
+      "name": "La Cimade",
+      "url": "https://www.lacimade.org/",
+      "category": "juridique",
+      "tags": ["etrangers", "association", "avocat"],
+      "description": {
+        "fr": "Association d'aide aux personnes étrangères : permanences juridiques, accompagnement face à une OQTF ou une rétention.",
+        "en": "Association supporting foreign nationals: legal help desks, support against removal orders and detention."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "gisti",
+      "name": "GISTI",
+      "url": "https://www.gisti.org/",
+      "category": "juridique",
+      "tags": ["etrangers", "association", "guide"],
+      "description": {
+        "fr": "Groupe d'information et de soutien des immigré·es : notes juridiques et analyses sur le droit des étrangers.",
+        "en": "Information and support group for migrants: legal notes and analysis on immigration law."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "cidj-lyceens-manifester",
+      "name": "CIDJ — Droit de manifester des lycéens",
+      "url": "https://www.cidj.com/s-engager/droit-de-manifester-ce-que-peuvent-faire-les-lyceens",
+      "category": "juridique",
+      "tags": ["lyceens", "mineurs", "droits", "guide"],
+      "description": {
+        "fr": "Ce que les lycéen·nes peuvent faire : manifester, mais pas de droit de grève ; absences non justifiées ; blocage interdit.",
+        "en": "What high-school students may do: protest, but no right to strike; unexcused absences; blockades not allowed."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "licra",
+      "name": "LICRA",
+      "url": "https://www.licra.org/",
+      "category": "juridique",
+      "tags": ["racisme", "extreme-droite", "plainte", "association"],
+      "description": {
+        "fr": "Ligue contre le racisme et l'antisémitisme : service juridique pour accompagner les victimes d'actes racistes ou antisémites.",
+        "en": "League against racism and antisemitism: legal service supporting victims of racist or antisemitic acts."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sos-racisme",
+      "name": "SOS Racisme",
+      "url": "https://sos-racisme.org/",
+      "category": "juridique",
+      "tags": ["racisme", "extreme-droite", "association"],
+      "description": {
+        "fr": "Association de lutte contre le racisme : accompagnement des victimes de discriminations et de violences racistes.",
+        "en": "Anti-racism association: support for victims of discrimination and racist violence."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sos-homophobie",
+      "name": "SOS homophobie",
+      "url": "https://www.sos-homophobie.org/",
+      "category": "juridique",
+      "tags": ["lgbtphobie", "extreme-droite", "soutien-psychologique", "association"],
+      "description": {
+        "fr": "Écoute et soutien des victimes de LGBTphobies, y compris d'agressions.",
+        "en": "Listening and support for victims of anti-LGBT violence, including assaults."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
       "id": "medic-gestes-manif",
       "name": "Les gestes à adopter en manif (brochure street medics)",
       "url": "https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf",
@@ -1119,6 +1412,38 @@
       }
     },
     {
+      "id": "violences-femmes-info",
+      "name": "3919 — Violences Femmes Info",
+      "url": "https://arretonslesviolences.gouv.fr/",
+      "phone": "3919",
+      "category": "sante",
+      "tags": ["violences-sexistes", "soutien-psychologique", "gratuit", "officiel"],
+      "description": {
+        "fr": "Écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches.",
+        "en": "Free anonymous 24/7 line for victims of sexist and sexual violence, including at protests, and their relatives."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "e-enfance-3018",
+      "name": "3018 — e-Enfance",
+      "url": "https://e-enfance.org/",
+      "phone": "3018",
+      "category": "sante",
+      "tags": ["cyberharcelement", "mineurs", "gratuit"],
+      "description": {
+        "fr": "Numéro national gratuit et confidentiel contre le cyberharcèlement (téléphone, chat, messagerie), aide au retrait de contenus.",
+        "en": "Free confidential national number against cyberharassment (phone, chat, messaging), help removing content."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
       "id": "demosphere",
       "name": "Demosphere",
       "url": "https://paris.demosphere.eu/",
@@ -1157,6 +1482,21 @@
       "description": {
         "fr": "Enquête sur les obstacles rencontrés par les personnes handicapées pour manifester et les pratiques de cortèges plus accessibles.",
         "en": "Report on the barriers disabled people face when protesting and practices for more accessible marches."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "la-horde",
+      "name": "La Horde",
+      "url": "https://lahorde.samizdat.net/",
+      "category": "information",
+      "tags": ["extreme-droite", "militant", "veille"],
+      "description": {
+        "fr": "Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.",
+        "en": "Antifascist activist site documenting far-right groups' activity. Committed content, not edited by a professional newsroom."
       },
       "check": {
         "date": "2026-10-28",
@@ -1382,6 +1722,129 @@
       "description": {
         "fr": "Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.",
         "en": "Free services (Framadate, Framaforms…) to organize without Big Tech."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ratp-info-trafic",
+      "name": "RATP — Info trafic",
+      "url": "https://www.bonjour-ratp.fr/fr/info-trafic/",
+      "category": "organisation",
+      "tags": ["transports", "ile-de-france", "agenda"],
+      "description": {
+        "fr": "Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.",
+        "en": "Closed stations and disruptions in the Paris region, including closures requested by the prefecture on protest days."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "anv-cop21-formations",
+      "name": "ANV-COP21 — Se former",
+      "url": "https://anv-cop21.org/se-former/",
+      "category": "se-former",
+      "tags": ["formation", "non-violence", "desobeissance-civile", "association"],
+      "description": {
+        "fr": "Formations théoriques et pratiques à l'action non-violente et à la désobéissance civile : organisation d'une action, rôles, cadre juridique, relations avec les forces de l'ordre.",
+        "en": "Theory and practice training in non-violent action and civil disobedience: organising an action, roles, legal framework, dealing with police."
+      },
+      "sources": [
+        {
+          "title": "France 3 — Se former à la désobéissance civile avec Extinction Rebellion et ANV-COP21",
+          "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/comment-je-me-suis-forme-desobeissance-civile-renverser-capitalisme-extinction-rebellion-anv-cop-21-1786251.html"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "alternatiba",
+      "name": "Alternatiba",
+      "url": "https://alternatiba.eu/",
+      "category": "se-former",
+      "tags": ["formation", "non-violence", "ecologie", "association"],
+      "description": {
+        "fr": "Mouvement pour le climat ; ses groupes locaux, avec ANV-COP21, organisent régulièrement des formations à l'action non-violente.",
+        "en": "Climate movement; its local groups, with ANV-COP21, regularly run non-violent action training."
+      },
+      "sources": [
+        {
+          "title": "Alternatiba Marseille — Désobéissance civile",
+          "url": "https://alternatibamarseille.org/desobeissance-civile"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "extinction-rebellion",
+      "name": "Extinction Rebellion France",
+      "url": "https://extinctionrebellion.fr/rejoignez-nous/",
+      "category": "se-former",
+      "tags": ["non-violence", "desobeissance-civile", "ecologie", "groupes-locaux"],
+      "description": {
+        "fr": "Mouvement écologiste de désobéissance civile non-violente ; on le rejoint via un groupe local, où se tiennent accueils et formations à l'action.",
+        "en": "Non-violent civil disobedience climate movement; you join through a local group, where welcome sessions and action training take place."
+      },
+      "sources": [
+        {
+          "title": "France 3 — Se former à la désobéissance civile avec Extinction Rebellion et ANV-COP21",
+          "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/comment-je-me-suis-forme-desobeissance-civile-renverser-capitalisme-extinction-rebellion-anv-cop-21-1786251.html"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "greenpeace-groupes-locaux",
+      "name": "Greenpeace France — Groupes locaux",
+      "url": "https://www.greenpeace.fr/groupes-locaux/",
+      "category": "se-former",
+      "tags": ["ecologie", "groupes-locaux", "association"],
+      "description": {
+        "fr": "Rejoindre l'un des groupes locaux de bénévoles et militant·es de Greenpeace en France.",
+        "en": "Join one of Greenpeace France's local volunteer and activist groups."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ldh-observatoires",
+      "name": "LDH — Observatoires des libertés publiques",
+      "url": "https://www.ldh-france.org/wp-content/uploads/2020/10/HL190-Actualit%C3%A9-3.-Les-observatoires-citoyens-d%C3%A9crire-t%C3%A9moigner-d%C3%A9noncer.pdf",
+      "category": "se-former",
+      "tags": ["observatoire", "formation", "droits", "association"],
+      "description": {
+        "fr": "Les observatoires citoyens de la LDH documentent les pratiques policières en manifestation ; les observateur·ices sont formé·es et identifiables (chasubles).",
+        "en": "LDH's citizen observatories document police practices at protests; observers are trained and identifiable (vests)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "amnesty-formation-manifestation",
+      "name": "Amnesty — Manifestation : tes droits en action",
+      "url": "https://www.amnesty.fr/formations/manifestation-tes-droits-en-action-livret/",
+      "category": "se-former",
+      "tags": ["formation", "droits", "guide", "lyceens"],
+      "description": {
+        "fr": "Livret de formation d'Amnesty sur le droit de manifester : connaître ses droits et les faire respecter.",
+        "en": "Amnesty training booklet on the right to protest: know your rights and uphold them."
       },
       "check": {
         "date": "2026-10-28",

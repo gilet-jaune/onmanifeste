@@ -80,6 +80,8 @@ async function pwaInit() {
     return;
   }
 
+  // The first takeover (first visit) must not reload the page; later ones are real updates.
+  let controlled = Boolean(navigator.serviceWorker.controller);
   const registration = await navigator.serviceWorker.register(PWA_SW_URL);
   if (!panel) return;
 
@@ -121,6 +123,10 @@ async function pwaInit() {
   // The new worker took over (after "Install update"): reload once to use the new files.
   let reloading = false;
   navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!controlled) {
+      controlled = true;
+      return;
+    }
     if (reloading) return;
     reloading = true;
     window.location.reload();
@@ -136,7 +142,9 @@ async function pwaInit() {
 // 7 days without a visit). The banner says so and offers the right install path per browser.
 
 const PWA_BANNER_KEY = 'awesome-protest:install-banner-dismissed';
-const PWA_BANNER_SNOOZE_DAYS = 30;
+const PWA_VIEWS_KEY = 'awesome-protest:page-views';
+const PWA_BANNER_SNOOZE_DAYS = 14;
+const PWA_BANNER_DELAY_MS = 30_000; // on a first page view, wait before suggesting anything
 let pwaInstallPrompt = null;
 
 const pwaIsInstalled = () =>
@@ -154,6 +162,17 @@ function pwaBannerSnoozed() {
   }
 }
 
+// Counts page views in this tab, so the card appears from the second page (or after a delay).
+function pwaPageViews() {
+  try {
+    const views = Number(sessionStorage.getItem(PWA_VIEWS_KEY) || 0) + 1;
+    sessionStorage.setItem(PWA_VIEWS_KEY, String(views));
+    return views;
+  } catch {
+    return 1;
+  }
+}
+
 function pwaHideBanner(snooze) {
   document.querySelectorAll('[data-pwa-banner]').forEach((b) => (b.hidden = true));
   if (!snooze) return;
@@ -167,7 +186,7 @@ function pwaHideBanner(snooze) {
 function pwaRenderBanner() {
   const banner = document.querySelector('[data-pwa-banner]');
   // Emergency pages (SOS, pocket card) keep the first screen for the numbers.
-  const isEmergencyPage = Boolean(document.querySelector('.sos__numbers'));
+  const isEmergencyPage = Boolean(document.querySelector('.sos__numbers, [data-parcours]'));
   if (
     !banner ||
     isEmergencyPage ||
@@ -208,15 +227,30 @@ function pwaRenderBanner() {
   }
   actions.append(pwaButton(pwaT.later, () => pwaHideBanner(true)));
 
-  banner.replaceChildren(text, actions);
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.className = 'pwa-banner__close';
+  close.setAttribute('aria-label', pwaT.later);
+  close.textContent = '×';
+  close.addEventListener('click', () => pwaHideBanner(true));
+
+  banner.setAttribute('aria-label', pwaT.install);
+  banner.replaceChildren(close, text, actions);
   banner.hidden = false;
+}
+
+// Suggest installing now and then: from the second page view, or after a while on the first one.
+function pwaScheduleBanner() {
+  if (pwaPageViews() >= 2) pwaRenderBanner();
+  else setTimeout(pwaRenderBanner, PWA_BANNER_DELAY_MS);
 }
 
 // Chrome / Edge / Android fire this when the app is installable: keep it for our own button.
 window.addEventListener('beforeinstallprompt', (event) => {
   event.preventDefault();
   pwaInstallPrompt = event;
-  pwaRenderBanner();
+  // Only refresh a card that is already shown; don't pop it up earlier than scheduled.
+  if (!document.querySelector('[data-pwa-banner]')?.hidden) pwaRenderBanner();
 });
 
 window.addEventListener('appinstalled', () => {
@@ -230,7 +264,7 @@ document.addEventListener('click', (event) => {
 });
 
 window.addEventListener('load', () => {
-  pwaRenderBanner();
+  pwaScheduleBanner();
   // Installed apps ask for persistent storage so the offline copy is not evicted.
   if (pwaIsInstalled()) navigator.storage?.persist?.();
   pwaInit().catch((err) => console.error('[pwa]', err));

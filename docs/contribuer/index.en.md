@@ -1,4 +1,5 @@
 ---
+source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
 tags:
     - contributing
 ---
@@ -44,8 +45,14 @@ Rules:
     - `result`: `confirmed` (link reachable, information accurate) or `unconfirmed` (could not be confirmed: "Unconfirmed" badge on the card, no phone number allowed).
     - `note`: required when `unconfirmed`, to explain what could not be confirmed.
 - `url` is also the **primary source** of the description. If the description states something coming from elsewhere, add `sources`: `[{ "title": "…", "url": "https://…" }]`.
-- In guides and tips, every factual or legal statement carries a footnote (`[^id]`) to its source, listed in the page's "Sources" section.
+- In guides and tips, every factual or legal statement carries a footnote (`[^id]`). Sources are centralised in `docs/data/sources.json` (FR/EN title, URL, check date): add a source once, then cite it by id from any page.
+- To mention a directory resource in a guide, use `{% raw %}{{ res("id") }}{% endraw %}` (or `{% raw %}{{ res("id", "link text") }}{% endraw %}`) instead of pasting its URL.
 - `phone` (optional): only an official public number (emergency line, helpline).
+
+## Translate and get reviewed
+
+- Each English page (`page.en.md`) records in `source_commit` the commit of the French page it translates. If the French page changes afterwards, the translation is flagged as outdated (CI, weekly report and a notice on the page). After updating a translation, set `source_commit` to the French page's latest commit (`git log -1 --format=%H -- docs/…/page.md`).
+- Legal or medical pages carry `review: juridique` or `review: medical` and `review_status: pending`. Once reviewed by a professional, switch to `review_status: reviewed` and add `reviewed_on: YYYY-MM-DD`: the "not yet reviewed" badge disappears.
 
 ## Improve search
 
@@ -57,6 +64,16 @@ Two blocks of the same file drive the directory search:
 The `essentiel` tag feeds the "It's my first protest" shortcut: keep it for a handful of must-have tools and guides.
 
 If a common search returns nothing, add a synonym rather than another tag.
+
+## Add an "I am… and I want to…" path
+
+Paths live in `docs/data/parcours.json`: each profile ("I am…") has keywords for typing and needs ("… and I want to…"). Each need lists results:
+
+- `{ "resource": "id" }`: a directory resource;
+- `{ "guide": "slug", "anchor": { "fr": "…", "en": "…" }, "label": { … } }`: a guide section;
+- `{ "page": "sos" | "carte" | "conseils", … }` or `{ "directory": { "situation": "…" }, … }`.
+
+Add `"urgent": true` to show the SOS link. `npm run validate:data` checks that every resource, situation and anchor exists, in French and English.
 
 ## Check
 

@@ -1,5 +1,6 @@
 ---
 review: medical
+review_status: pending
 tags:
     - guides
     - santé
@@ -44,39 +45,15 @@ Les effets ne s'arrêtent pas toujours le soir même. Gardez une trace et consul
 - **Notez** chaque exposition : date, lieu, durée, intensité (gaz en milieu fermé, tirs répétés), symptômes. Ce journal aide le médecin et peut servir plus tard.[^lacrymo-long]
 - **Gaz lacrymogène** : toux, gêne respiratoire, irritation de la peau ou des yeux, maux de tête, troubles digestifs ou du **cycle menstruel** qui durent plus de quelques jours → consultez en signalant l'exposition. Attention particulière en cas d'asthme, de grossesse ou de maladie chronique. Les effets d'expositions répétées sont encore mal connus.[^lacrymo-long][^lacrymo-femmes]
 - **Oreilles** : sifflements (acouphènes), oreille « bouchée » ou baisse d'audition après une explosion → **ORL ou urgences dans les 24 heures** : un traitement précoce augmente les chances de récupérer.[^acouphenes]
-- **Psychologique** : cauchemars, sursauts, évitement des lieux ou des foules, troubles du sommeil ou de la concentration **plus d'un mois** après les faits → parlez-en à un médecin. Les [centres régionaux du psychotraumatisme (Cn2r)](https://cn2r.fr/) accueillent adultes et mineur·es.[^cn2r]
+- **Psychologique** : cauchemars, sursauts, évitement des lieux ou des foules, troubles du sommeil ou de la concentration **plus d'un mois** après les faits → parlez-en à un médecin. Les {{ res("cn2r", "centres régionaux du psychotraumatisme (Cn2r)") }} accueillent adultes et mineur·es.[^cn2r]
 
 ## Après : faire constater
 
 - Faites constater toute blessure par un **médecin** (certificat avec ITT), photographiez les lésions avec une règle ou un objet pour l'échelle, gardez vêtements et projectiles.[^ldh-violences]
-- Le contrecoup psychologique est fréquent, parfois plusieurs jours après : [France Victimes](https://www.france-victimes.fr/) écoute gratuitement au **116 006**.[^france-victimes]
+- Le contrecoup psychologique est fréquent, parfois plusieurs jours après : {{ res("france-victimes", "France Victimes") }} écoute gratuitement au **116 006**.[^france-victimes]
 
 [:octicons-arrow-right-24: Ressources santé dans l'annuaire](../annuaire/index.md?situation=blesse) · [:octicons-arrow-right-24: Effets à long terme](../annuaire/index.md?tags=long-terme)
 
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^cr-etapes]: [Croix-Rouge française — Protéger, alerter, secourir](https://www.croix-rouge.fr/les-gestes-de-premiers-secours/4-etapes-pour-porter-secours)
-
-[^medic-gestes]: [Street medics — Les gestes à adopter en manif (brochure)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf)
-
-[^allodocteurs-proteger]: [Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?](https://www.allodocteurs.fr/en-manifestation-comment-se-proteger-des-gaz-lacrymo-34599.html)
-
-[^medic-soins]: [Soins post-manif (brochure)](https://www.nantes.indymedia.org/wp-content/uploads/2022/12/soins_post_manif_brochure.pdf)
-
-[^cr-hemorragie]: [Croix-Rouge française — L'hémorragie](https://www.croix-rouge.fr/les-gestes-de-premiers-secours/hemorragie)
-
-[^cr-brulure]: [Croix-Rouge française — Que faire en cas de brûlure ?](https://www.croix-rouge.fr/les-gestes-de-premiers-secours/que-faire-en-cas-de-brulure)
-
-[^lacrymo-long]: [Reporterre — Gaz lacrymogènes dangereux à long terme](https://reporterre.net/Les-gaz-lacrymogenes-dangereux-a-long-terme-Des-manifestants-temoignent)
-
-[^lacrymo-femmes]: [Allodocteurs — Effets des gaz lacrymo sur la santé des femmes](https://www.allodocteurs.fr/effets-des-gaz-lacrymo-sur-la-sante-des-femmes-ce-que-lon-sait-47380.html)
-
-[^acouphenes]: [Pourquoi Docteur — Bourdonnements d'oreille : quand consulter](https://www.pourquoidocteur.fr/Symptome/3-Bourdonnements-d-oreille-rarement-graves-les-acouphenes-vont-s-estomper/p-114-CONSULTATION-Bourdonnements-d-oreille)
-
-[^cn2r]: [Cn2r — Livret de présentation (psychotraumatisme)](https://cn2r.fr/wp-content/uploads/2024/11/Livret_Cn2r.pdf)
-
-[^ldh-violences]: [LDH — Que faire face aux violences policières ? (avril 2026)](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf)
-
-[^france-victimes]: [France Victimes — 116 006](https://www.france-victimes.fr/)

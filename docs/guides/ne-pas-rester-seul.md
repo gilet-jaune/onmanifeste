@@ -34,7 +34,3 @@ L'isolement est le premier risque en manifestation : personne pour témoigner d'
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^legal-team]: [Legal Team Paris–IDF — La ligne antirep est ouverte](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)

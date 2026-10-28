@@ -40,3 +40,4 @@ MD038: true # No spaces inside code markers
 MD039: true # No spaces inside link markers
 MD047: true # File should end with a single newline
 MD053: false # Footnote definitions referenced inside admonitions look unused to markdownlint
+MD052: false # Footnote definitions come from docs/data/sources.json at build time (checked by scripts/validate-sources.mjs)

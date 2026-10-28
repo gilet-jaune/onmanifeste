@@ -1,5 +1,7 @@
 ---
+source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
 review: juridique
+review_status: pending
 tags:
     - guides
     - equipment
@@ -28,7 +30,13 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 | Half mask with **A2P3** or **ABEK1P3** cartridges | Filter particles and vapours of tear gas (CS) | **P3** filters more than 99.95 % of fine particles; the **A/ABEK** part captures vapours. A full-face mask also protects the eyes and leaks less. [^abek] |
 | **FFP2/FFP3** mask | Particles and dust | Does **not** filter vapours: useful, but not enough against dense gas. [^abek] |
 | Earplugs | Protect hearing from explosive grenades | Foam ones, always in a pocket. |
+| Body protection: knee pads, elbow pads, wrist guards (roller type), shin guards | Cushion falls, crushes, blows and projectiles on the limbs | Wear them **under your clothes**, discreet and flexible; street medics use them too. [^se-proteger] |
+| Helmet (bike, ski) | Protect the head from falls and projectiles | The most visible item: often debated and may be confiscated at checks. [^outside] |
 | Scarf | Last resort against gas | Barely effective; no substitute for a mask. |
+
+!!! warning "Protective gear: not banned, but sometimes confiscated"
+
+    No law bans wearing protection. But during searches before marches, police have **confiscated** goggles, masks and pads, and gear found in a bag has been used as evidence to prosecute people for "taking part in a group preparing violence" (article 222-14-2 of the Criminal Code). Prefer **discreet protection under your clothes**, and carry **nothing that could pass for a weapon**.[^franceinfo-protections][^amnesty-force]
 
 !!! warning "Keep your face uncovered until you are exposed"
 
@@ -56,19 +64,3 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 ## Sources
 
 Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.
-
-[^medic-gestes]: [Street medics — Les gestes à adopter en manif (booklet)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf)
-
-[^allodocteurs-proteger]: [Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?](https://www.allodocteurs.fr/en-manifestation-comment-se-proteger-des-gaz-lacrymo-34599.html)
-
-[^abek]: [Technical sheet of an ABEK1P3 full-face mask (P3 filtration, seal)](https://medias.descours-cabaud.com/d180001/medias/docus/102/P701AS0_AIRPRO%20ABEK1P3%20%28MASQUE%20COMPLET_FT_FR_JANV%202026.pdf)
-
-[^cp-431-9-1]: [French Criminal Code, article 431-9-1 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669)
-
-[^visage-motif]: [Eurojuris — La dissimulation du visage à l'occasion de manifestations](https://www.eurojuris.fr/famille/categories/application-17442/articles/dissimulation-visage-loccasion-manifestations-sur-voie-publique-10833.htm)
-
-[^sp-controle]: [Service-Public — Contrôle d'identité](https://www.service-public.gouv.fr/particuliers/vosdroits/F1036)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)
-
-[^en166]: [EN 166 standard: eye protection markings (field "5", impact resistance)](https://docs.rs-online.com/1627/0900766b815b40cf.pdf)

@@ -1,19 +1,29 @@
-{#- Renders docs/data/history.json (loaded via macros include_yaml) as a dated timeline. -#} {%-
-macro timeline(lang) -%}
+{#- Renders docs/data/history.json (loaded via macros include_yaml): a dated timeline and the list of gains. -#}
+
+{%- macro gains_line(e, lang) -%}
+<p class="timeline__gains"><strong>{{ 'Obtenu :' if lang == 'fr' else 'Won:' }}</strong> {{ e.gains[lang] or e.gains.fr }}{% if e.gains.source %} <a href="{{ e.gains.source }}" target="_blank" rel="noopener">({{ 'source' }})</a>{% endif %}</p>
+{%- endmacro -%}
+
+{%- macro timeline(lang) -%}
 <ol class="timeline">
   {%- for e in events %} {%- set year, month, day = e.date.split('-') %}
-  <li class="timeline__event timeline__event--{{ e.kind }}">
-    <time class="timeline__date" datetime="{{ e.date }}"
-      ><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time
-    >
+  <li class="timeline__event timeline__event--{{ e.kind }}" id="evt-{{ e.date }}">
+    <time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time>
     <div class="timeline__body">
       <span class="timeline__kind">{{ kinds[e.kind][lang] or kinds[e.kind].fr }}</span>
-      <h3 class="timeline__title">
-        <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a>
-      </h3>
+      <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a></h3>
       <p>{{ e.description[lang] or e.description.fr }}</p>
+      {%- if e.gains %}{{ gains_line(e, lang) }}{% endif %}
     </div>
   </li>
   {%- endfor %}
 </ol>
+{%- endmacro -%}
+
+{%- macro gains(lang) -%}
+<ul class="gains">
+  {%- for e in events if e.gains %}
+  <li><a class="gains__year" href="#evt-{{ e.date }}">{{ e.date[:4] }}</a> <span><strong>{{ e.title }}</strong> — {{ e.gains[lang] or e.gains.fr }}</span></li>
+  {%- endfor %}
+</ul>
 {%- endmacro -%}

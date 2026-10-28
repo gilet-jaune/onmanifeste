@@ -1,5 +1,6 @@
 ---
 review: juridique
+review_status: pending
 tags:
     - guides
     - filmer
@@ -39,6 +40,7 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 - [ ] Publiez une **copie**, jamais l'original.
 - [ ] **Floutez tout ce qui rend une personne identifiable**, pas seulement les visages : tatouages, coupe ou couleur de cheveux, vêtements, sacs ou chaussures reconnaissables, badges, banderoles portant un nom, voix (coupez le son si besoin). L'outil de floutage de Signal aide pour les visages ; le reste se fait à la main.[^signal-blur][^witness-police][^eff-protest]
 - [ ] **Supprimez les métadonnées** de la copie (mat2) : elles révèlent votre position et votre appareil.[^mat2]
+- [ ] Ne publiez pas d'**informations personnelles** sur les agents (nom, adresse, famille) : les exposer à un risque est un délit, même si filmer leur intervention reste légal.[^doxxing]
 - [ ] **Archivez la publication** (la vôtre, ou une déclaration officielle) avec la Wayback Machine ou archive.today : elle restera consultable si elle est supprimée.[^wayback] N'envoyez pas de vidéo brute avec des visages sur une archive publique.
 
 ## Transmettre
@@ -52,37 +54,3 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^amnesty-filmer]: [Amnesty International France — Filmer, photographier, enregistrer les forces de l'ordre](https://www.amnesty.fr/actualites/filmer-photographier-enregistrer-les-forces-de-lordre/)
-
-[^ldh-filmer]: [LDH — Filmer les forces de l'ordre (2021)](https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf)
-
-[^ddd-videos]: [Weka — Filmer la police : la Défenseure des droits réclame « le retrait » de l'article de loi](https://www.weka.fr/actualite/?p=113457)
-
-[^witness-preuve]: [WITNESS — Video as Evidence Field Guide](https://library.witness.org/product/video-as-evidence-compiled-sections/)
-
-[^witness-police]: [WITNESS — Filming police abuse](https://blog.witness.org/2015/08/filming-police-abuse/)
-
-[^witness-metadata]: [WITNESS — Video metadata](https://library.witness.org/product/video-metadata/)
-
-[^witness-archivage]: [WITNESS — Video archiving](https://witness.org/our-work/video-archiving)
-
-[^proofmode]: [ProofMode](https://proofmode.org/)
-
-[^signal-blur]: [Signal — Blur tools](https://signal.org/blog/blur-tools/)
-
-[^mat2]: [mat2 — Metadata Anonymisation Toolkit](https://0xacab.org/jvoisin/mat2)
-
-[^wayback]: [Internet Archive — Save Page Now](https://web.archive.org/save)
-
-[^ddd]: [Défenseur des droits](https://www.defenseurdesdroits.fr/)
-
-[^icloud-cellular]: [Apple — Configuration et utilisation de Photos iCloud (données cellulaires)](https://support.apple.com/fr-afri/108782)
-
-[^google-backup]: [Aide Google Photos — Sauvegarder des photos et des vidéos (données mobiles)](https://support.google.com/photos/answer/6193313?hl=fr)
-
-[^apple-adp]: [Apple — Activer la protection avancée des données pour iCloud](https://support.apple.com/fr-fr/108756)
-
-[^icloud-security]: [Apple — Présentation de la sécurité des données iCloud](https://support.apple.com/en-us/102651)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)

@@ -38,7 +38,3 @@ On convainc rarement quelqu'un en une discussion, et presque jamais en ayant « 
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^deep-canvassing]: [Deep canvassing (Wikipedia), dont Broockman & Kalla, Science, 2016](https://en.wikipedia.org/wiki/Deep_canvassing)
-
-[^truth-sandwich]: [Truth sandwich (Wikipedia)](https://en.wikipedia.org/wiki/Truth_sandwich)

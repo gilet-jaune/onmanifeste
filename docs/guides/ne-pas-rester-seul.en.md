@@ -1,4 +1,5 @@
 ---
+source_commit: af74b7e80c0f7170baf327678f759c6ebc7cab77
 tags:
     - guides
     - safety
@@ -34,7 +35,3 @@ Isolation is the first risk at a protest: no one to witness an arrest, alert a l
 ## Sources
 
 Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.
-
-[^legal-team]: [Legal Team Paris–IDF — La ligne antirep est ouverte](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)

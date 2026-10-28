@@ -1,4 +1,5 @@
 ---
+source_commit: 11933ef072915ebe92262e83a494e29f1aaef917
 tags:
     - home
 ---
@@ -7,7 +8,7 @@ tags:
 
 A collaborative collection of **tools and resources for protesting in France**: secure communication, digital security, legal help (especially for high-school students), first aid, news and organising.
 
-[:material-phone-alert: SOS: emergency numbers and legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Printable pocket card](carte/index.md){ .md-button }
+[:material-compass: I am… and I want to…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS: emergency numbers and legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Printable pocket card](carte/index.md){ .md-button }
 
 <div class="grid cards" markdown="1">
 
@@ -23,7 +24,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     ***
 
-    Seven guides to read before you go: never stay alone, kit, first aid, custody, filming the police, disinformation, talking to loved ones. Available offline.
+    Sixteen short guides: protest safety, getting there and back, kit, first aid, custody, dispersal, filming the police, foreign nationals, high-school students, work, harassment, far-right attacks, organising, disinformation, talking to loved ones. Available offline.
 
     [:octicons-arrow-right-24: Read the guides](guides/index.md)
 
@@ -39,7 +40,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     ***
 
-    From the storming of the Bastille to today's movements: the dates that shaped the right to protest.
+    From the storming of the Bastille to today's movements, and what the street won: paid holidays, the vote, bills withdrawn.
 
     [:octicons-arrow-right-24: See the timeline](histoire/index.md)
 

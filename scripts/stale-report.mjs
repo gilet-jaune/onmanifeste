@@ -5,7 +5,16 @@ import { readFileSync, writeFileSync } from 'node:fs';
 
 const STALE_DAYS = 365;
 const out = process.argv[2] || 'stale-report.md';
-const { resources } = JSON.parse(readFileSync('docs/data/resources.json', 'utf8'));
+const registry = JSON.parse(readFileSync('docs/data/resources.json', 'utf8')).resources;
+const citations = Object.entries(
+  JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sources,
+).map(([id, s]) => ({
+  id,
+  name: `Source : ${s.title.fr}`,
+  url: typeof s.url === 'string' ? s.url : s.url.fr,
+  check: s.check,
+}));
+const resources = [...registry, ...citations];
 
 const stale = resources
   .map((r) => ({
@@ -26,7 +35,7 @@ const lines = stale.length
           `| \`${r.id}\` — ${r.name} | ${r.check.date} (${r.check.result === 'unconfirmed' ? 'non confirmée' : 'confirmée'}) | ${r.url} |`,
       ),
       '',
-      'Pour chacune : ouvrir le lien, vérifier les informations (numéro, description), puis mettre à jour `check` (`date`, `result`) dans `docs/data/resources.json`.',
+      'Pour chacune : ouvrir le lien, vérifier les informations (numéro, description), puis mettre à jour `check` (`date`, `result`) dans `docs/data/resources.json` ou `docs/data/sources.json`.',
     ]
   : [`Aucune ressource à revérifier.`];
 

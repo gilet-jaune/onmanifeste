@@ -1,0 +1,982 @@
+{
+  "$schema": "../../schemas/sources.schema.json",
+  "sources": {
+    "3018": {
+      "title": {
+        "fr": "e-Enfance — 3018",
+        "en": "e-Enfance — 3018"
+      },
+      "url": "https://e-enfance.org/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "3919": {
+      "title": {
+        "fr": "Arrêtons les violences — 3919, Violences Femmes Info",
+        "en": "Arrêtons les violences — 3919, Violences Femmes Info"
+      },
+      "url": "https://arretonslesviolences.gouv.fr/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "abek": {
+      "title": {
+        "fr": "Fiche technique d'un masque complet ABEK1P3 (filtration P3, étanchéité)",
+        "en": "Technical sheet of an ABEK1P3 full-face mask (P3 filtration, seal)"
+      },
+      "url": "https://medias.descours-cabaud.com/d180001/medias/docus/102/P701AS0_AIRPRO%20ABEK1P3%20%28MASQUE%20COMPLET_FT_FR_JANV%202026.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "aci": {
+      "title": {
+        "fr": "Cabinet ACI — Violences en réunion : aggravation et peines",
+        "en": "Cabinet ACI — Violences en réunion : aggravation et peines"
+      },
+      "url": "https://www.cabinetaci.com/violences-en-reunion-aggravation-et-peines-penales/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "acouphenes": {
+      "title": {
+        "fr": "Pourquoi Docteur — Bourdonnements d'oreille : quand consulter",
+        "en": "Pourquoi Docteur — Bourdonnements d'oreille : quand consulter"
+      },
+      "url": "https://www.pourquoidocteur.fr/Symptome/3-Bourdonnements-d-oreille-rarement-graves-les-acouphenes-vont-s-estomper/p-114-CONSULTATION-Bourdonnements-d-oreille",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "afp-factuel": {
+      "title": {
+        "fr": "AFP Factuel",
+        "en": "AFP Factuel"
+      },
+      "url": "https://factuel.afp.com/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "allodocteurs-proteger": {
+      "title": {
+        "fr": "Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?",
+        "en": "Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?"
+      },
+      "url": "https://www.allodocteurs.fr/en-manifestation-comment-se-proteger-des-gaz-lacrymo-34599.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "amnesty-droits": {
+      "title": {
+        "fr": "Amnesty International France — Nos droits en manifestation",
+        "en": "Amnesty International France — Nos droits en manifestation"
+      },
+      "url": "https://www.amnesty.fr/nos-droits-en-manifestation/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "amnesty-filmer": {
+      "title": {
+        "fr": "Amnesty International France — Filmer, photographier, enregistrer les forces de l'ordre",
+        "en": "Amnesty International France — Filmer, photographier, enregistrer les forces de l'ordre"
+      },
+      "url": "https://www.amnesty.fr/actualites/filmer-photographier-enregistrer-les-forces-de-lordre/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "amnesty-force": {
+      "title": {
+        "fr": "Amnesty International France — Usage excessif de la force lors des manifestations",
+        "en": "Amnesty International France — Usage excessif de la force lors des manifestations"
+      },
+      "url": "https://www.amnesty.fr/actualites/usage-excessif-de-la-force-lors-des-manifestations/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "anonymat": {
+      "title": {
+        "fr": "CMS Francis Lefebvre — Éditeurs de site internet, soignez vos mentions légales",
+        "en": "CMS Francis Lefebvre — Éditeurs de site internet, soignez vos mentions légales"
+      },
+      "url": "https://cms.law/fr/fra/a-la-une/editeurs-de-site-internet-soignez-vos-mentions-legales",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "anv-cop21-formations": {
+      "title": {
+        "fr": "ANV-COP21 — Se former",
+        "en": "ANV-COP21 — Training"
+      },
+      "url": "https://anv-cop21.org/se-former/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "apple-adp": {
+      "title": {
+        "fr": "Apple — Activer la protection avancée des données pour iCloud",
+        "en": "Apple — Turn on Advanced Data Protection for iCloud"
+      },
+      "url": {
+        "fr": "https://support.apple.com/fr-fr/108756",
+        "en": "https://support.apple.com/en-us/108756"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "avocat-attroupement": {
+      "title": {
+        "fr": "Me Vincent Le Junter — Délit d'attroupement et dissimulation du visage",
+        "en": "Me Vincent Le Junter — Délit d'attroupement et dissimulation du visage"
+      },
+      "url": "https://consultation.avocat.fr/blog/vincent-le-junter/article-2982117-delit-d-attroupement-et-dissimulation-du-visage.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "avocat-blocus": {
+      "title": {
+        "fr": "Me Hassan Kohen — Blocus au lycée : droits des lycéens et sanctions possibles (2026)",
+        "en": "Me Hassan Kohen — Blocus au lycée : droits des lycéens et sanctions possibles (2026)"
+      },
+      "url": "https://kohenavocats.com/blocus-lycee-droits-lyceens-sanctions-recours-2026/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "avocat-etrangers": {
+      "title": {
+        "fr": "Me Hassan Kohen — Étudiant étranger interpellé en manifestation : titre de séjour, OQTF et recours (2026)",
+        "en": "Me Hassan Kohen — Étudiant étranger interpellé en manifestation : titre de séjour, OQTF et recours (2026)"
+      },
+      "url": "https://kohenavocats.com/etudiant-etranger-interpelle-manifestation-paris-garde-vue-titre-sejour-oqtf-recours-2026/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cass-2022": {
+      "title": {
+        "fr": "Cour de cassation, chambre criminelle, 7 novembre 2022, n° 21-83.146",
+        "en": "Cour de cassation, chambre criminelle, 7 novembre 2022, n° 21-83.146"
+      },
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000046583035",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cdj-interdiction": {
+      "title": {
+        "fr": "Club des juristes — Interdictions de manifester : que risque-t-on ?",
+        "en": "Club des juristes — Interdictions de manifester : que risque-t-on ?"
+      },
+      "url": "https://www.leclubdesjuristes.com/archives-cdj/interdictions-de-manifester-des-gilets-jaunes-que-risquent-ils-en-allant-sur-les-lieux-interdits-2418/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ce-snmo": {
+      "title": {
+        "fr": "Conseil d'État, 10 juin 2021, n° 444849 — schéma national du maintien de l'ordre",
+        "en": "Conseil d'État, 10 juin 2021, n° 444849 — schéma national du maintien de l'ordre"
+      },
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cidj": {
+      "title": {
+        "fr": "CIDJ — Droit de manifester : ce que peuvent faire les lycéens",
+        "en": "CIDJ — Droit de manifester : ce que peuvent faire les lycéens"
+      },
+      "url": "https://www.cidj.com/s-engager/droit-de-manifester-ce-que-peuvent-faire-les-lyceens",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cn2r": {
+      "title": {
+        "fr": "Cn2r — Livret de présentation (psychotraumatisme)",
+        "en": "Cn2r — Presentation booklet (psychological trauma)"
+      },
+      "url": "https://cn2r.fr/wp-content/uploads/2024/11/Livret_Cn2r.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cnil": {
+      "title": {
+        "fr": "CNIL — Le droit à l'effacement : supprimer vos données en ligne",
+        "en": "CNIL — Le droit à l'effacement : supprimer vos données en ligne"
+      },
+      "url": "https://www.cnil.fr/fr/le-droit-leffacement-supprimer-vos-donnees-en-ligne",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cp-431-9-1": {
+      "title": {
+        "fr": "Code pénal, article 431-9-1 (Légifrance)",
+        "en": "French Criminal Code, article 431-9-1 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cp-434-15-2": {
+      "title": {
+        "fr": "Code pénal, article 434-15-2 (Légifrance)",
+        "en": "Code pénal, article 434-15-2 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418646",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cpp-55-1": {
+      "title": {
+        "fr": "Code de procédure pénale, article 55-1 (Légifrance)",
+        "en": "Code de procédure pénale, article 55-1 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441923",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cpp-706-56": {
+      "title": {
+        "fr": "Code de procédure pénale, article 706-56 (Légifrance)",
+        "en": "Code de procédure pénale, article 706-56 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053035",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cr-brulure": {
+      "title": {
+        "fr": "Croix-Rouge française — Que faire en cas de brûlure ?",
+        "en": "French Red Cross — Que faire en cas de brûlure ?"
+      },
+      "url": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/que-faire-en-cas-de-brulure",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cr-etapes": {
+      "title": {
+        "fr": "Croix-Rouge française — Protéger, alerter, secourir",
+        "en": "French Red Cross — Protéger, alerter, secourir"
+      },
+      "url": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/4-etapes-pour-porter-secours",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "cr-hemorragie": {
+      "title": {
+        "fr": "Croix-Rouge française — L'hémorragie",
+        "en": "French Red Cross — L'hémorragie"
+      },
+      "url": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/hemorragie",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ddd": {
+      "title": {
+        "fr": "Défenseur des droits",
+        "en": "Défenseur des droits"
+      },
+      "url": "https://www.defenseurdesdroits.fr/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ddd-videos": {
+      "title": {
+        "fr": "Weka — Filmer la police : la Défenseure des droits réclame « le retrait » de l'article de loi",
+        "en": "Weka — Filmer la police : la Défenseure des droits réclame « le retrait » de l'article de loi"
+      },
+      "url": "https://www.weka.fr/actualite/?p=113457",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "deep-canvassing": {
+      "title": {
+        "fr": "Deep canvassing (Wikipedia), dont Broockman & Kalla, Science, 2016",
+        "en": "Deep canvassing (Wikipedia), dont Broockman & Kalla, Science, 2016"
+      },
+      "url": "https://en.wikipedia.org/wiki/Deep_canvassing",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "dissolution": {
+      "title": {
+        "fr": "Public Sénat — Le GUD et trois autres groupuscules dissous par le gouvernement",
+        "en": "Public Sénat — Le GUD et trois autres groupuscules dissous par le gouvernement"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/le-gud-et-trois-autres-groupuscules-dissous-par-le-gouvernement",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "doxxing": {
+      "title": {
+        "fr": "La Grande Bibliothèque du Droit — Le doxxing (article 223-1-1 du Code pénal)",
+        "en": "La Grande Bibliothèque du Droit — Le doxxing (article 223-1-1 du Code pénal)"
+      },
+      "url": "https://lagbd.org/Le_doxxing_ou_la_diffusion_de_donnees_a_caractere_personnel_dans_le_but_de_nuire_a_une_personne",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "eff-protest": {
+      "title": {
+        "fr": "EFF Surveillance Self-Defense — Attending a protest",
+        "en": "EFF Surveillance Self-Defense — Attending a protest"
+      },
+      "url": "https://ssd.eff.org/module/attending-protest",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "en166": {
+      "title": {
+        "fr": "Norme EN 166 : marquages des protections oculaires (domaine « 5 », résistance aux chocs)",
+        "en": "EN 166 standard: eye protection markings (field \"5\", impact resistance)"
+      },
+      "url": "https://docs.rs-online.com/1627/0900766b815b40cf.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "fermeture": {
+      "title": {
+        "fr": "Le Monde du droit — La fermeture temporaire d'une station de métro pour maintien de l'ordre public est licite",
+        "en": "Le Monde du droit — La fermeture temporaire d'une station de métro pour maintien de l'ordre public est licite"
+      },
+      "url": "https://www.lemondedudroit.fr/public/282-droit-public-general/103976-fermeture-temporaire-d-une-station-de-metro-pour-maintien-de-l-ordre-public-est-licite.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "france-victimes": {
+      "title": {
+        "fr": "France Victimes — 116 006",
+        "en": "France Victimes — 116 006"
+      },
+      "url": "https://www.france-victimes.fr/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "france3-formation-desobeissance": {
+      "title": {
+        "fr": "France 3 — Se former à la désobéissance civile avec Extinction Rebellion et ANV-COP21",
+        "en": "France 3 — Training in civil disobedience with Extinction Rebellion and ANV-COP21"
+      },
+      "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/comment-je-me-suis-forme-desobeissance-civile-renverser-capitalisme-extinction-rebellion-anv-cop-21-1786251.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "franceinfo": {
+      "title": {
+        "fr": "franceinfo — Violences de l'ultradroite en marge des manifestations du 24 octobre",
+        "en": "franceinfo — Violences de l'ultradroite en marge des manifestations du 24 octobre"
+      },
+      "url": "https://www.franceinfo.fr/societe/manifestations/nice-montpellier-rouen-plusieurs-responsables-politiques-denoncent-des-violences-de-l-ultradroite-en-marge-de-manifestations-du-24-octobre_8252998.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "franceinfo-protections": {
+      "title": {
+        "fr": "franceinfo — Est-il interdit de manifester avec des lunettes de plongée et du sérum ?",
+        "en": "franceinfo — Est-il interdit de manifester avec des lunettes de plongée et du sérum ?"
+      },
+      "url": "https://www.franceinfo.fr/economie/transports/gilets-jaunes/gilets-jaunes-est-il-interdit-de-manifester-avec-des-boules-de-petanque-des-lunettes-de-plongee-et-du-serum_3093665.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "gisti": {
+      "title": {
+        "fr": "GISTI — Groupe d'information et de soutien des immigré·es",
+        "en": "GISTI — Groupe d'information et de soutien des immigré·es"
+      },
+      "url": "https://www.gisti.org/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "github-hq": {
+      "title": {
+        "fr": "GitHub — General Privacy Statement (coordonnées de GitHub, Inc.)",
+        "en": "GitHub — General Privacy Statement (coordonnées de GitHub, Inc.)"
+      },
+      "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "github-pages": {
+      "title": {
+        "fr": "GitHub Docs — What is GitHub Pages? (section « Data collection »)",
+        "en": "GitHub Docs — What is GitHub Pages? (section « Data collection »)"
+      },
+      "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "google-backup": {
+      "title": {
+        "fr": "Aide Google Photos — Sauvegarder des photos et des vidéos (données mobiles)",
+        "en": "Google Photos Help — Back up photos and videos (mobile data)"
+      },
+      "url": {
+        "fr": "https://support.google.com/photos/answer/6193313?hl=fr",
+        "en": "https://support.google.com/photos/answer/6193313?hl=en"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "icloud-cellular": {
+      "title": {
+        "fr": "Apple — Configuration et utilisation de Photos iCloud (données cellulaires)",
+        "en": "Apple — Set up and use iCloud Photos (cellular data)"
+      },
+      "url": {
+        "fr": "https://support.apple.com/fr-afri/108782",
+        "en": "https://support.apple.com/en-us/108782"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "icloud-security": {
+      "title": {
+        "fr": "Apple — Présentation de la sécurité des données iCloud",
+        "en": "Apple — iCloud data security overview"
+      },
+      "url": "https://support.apple.com/en-us/102651",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "iggn": {
+      "title": {
+        "fr": "Gendarmerie — Plateforme de signalement de l'IGGN",
+        "en": "Gendarmerie — Plateforme de signalement de l'IGGN"
+      },
+      "url": "https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "justifit": {
+      "title": {
+        "fr": "Justifit — Le racisme, circonstance aggravante des crimes et délits",
+        "en": "Justifit — Le racisme, circonstance aggravante des crimes et délits"
+      },
+      "url": "https://www.justifit.fr/b/guides/droit-penal/racisme/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "lacrymo-femmes": {
+      "title": {
+        "fr": "Allodocteurs — Effets des gaz lacrymo sur la santé des femmes",
+        "en": "Allodocteurs — Effets des gaz lacrymo sur la santé des femmes"
+      },
+      "url": "https://www.allodocteurs.fr/effets-des-gaz-lacrymo-sur-la-sante-des-femmes-ce-que-lon-sait-47380.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "lacrymo-long": {
+      "title": {
+        "fr": "Reporterre — Gaz lacrymogènes dangereux à long terme",
+        "en": "Reporterre — Gaz lacrymogènes dangereux à long terme"
+      },
+      "url": "https://reporterre.net/Les-gaz-lacrymogenes-dangereux-a-long-terme-Des-manifestants-temoignent",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "lcen": {
+      "title": {
+        "fr": "Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, article 1-1 (ex-article 6, III, 2) — Légifrance",
+        "en": "Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, article 1-1 (ex-article 6, III, 2) — Légifrance"
+      },
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ldh-dispersion": {
+      "title": {
+        "fr": "LDH — Attroupement et dispersion de la manifestation (fiche, 2023)",
+        "en": "LDH — Attroupement et dispersion de la manifestation (fiche, 2023)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2024/03/Attroupement-Dispersion-de-la-manifestation-oct-2023.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ldh-filmer": {
+      "title": {
+        "fr": "LDH — Filmer les forces de l'ordre (fiche, 2021)",
+        "en": "LDH — Filmer les forces de l'ordre (2021)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ldh-observatoires": {
+      "title": {
+        "fr": "LDH — Les observatoires citoyens : décrire, témoigner, dénoncer",
+        "en": "LDH — Citizen observatories: describe, testify, denounce"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2020/10/HL190-Actualit%C3%A9-3.-Les-observatoires-citoyens-d%C3%A9crire-t%C3%A9moigner-d%C3%A9noncer.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ldh-violences": {
+      "title": {
+        "fr": "LDH — Que faire face aux violences policières ? (avril 2026)",
+        "en": "LDH — Que faire face aux violences policières ? (April 2026)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "legal-team": {
+      "title": {
+        "fr": "Legal Team Paris–IDF — La ligne antirep est ouverte",
+        "en": "Legal Team Paris–IDF — La ligne antirep est ouverte"
+      },
+      "url": "https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "lemonde-droit-snmo": {
+      "title": {
+        "fr": "Le Monde du droit — Manifestations : annulation partielle du schéma du maintien de l'ordre",
+        "en": "Le Monde du droit — Manifestations : annulation partielle du schéma du maintien de l'ordre"
+      },
+      "url": "https://www.lemondedudroit.fr/public/282-droit-public-general/76103-manifestations-annulation-partielle-du-schema-du-maintien-de-l-ordre.html",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "lessentiel": {
+      "title": {
+        "fr": "L'essentiel — Manifestations en France : l'extrême droite s'en prend aux cortèges",
+        "en": "L'essentiel — Manifestations en France : l'extrême droite s'en prend aux cortèges"
+      },
+      "url": "https://www.lessentiel.lu/fr/story/manifestations-en-france-l-extreme-droite-cogne-la-police-accusee-de-laisser-faire-103656470",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "mat2": {
+      "title": {
+        "fr": "mat2 — Metadata Anonymisation Toolkit",
+        "en": "mat2 — Metadata Anonymisation Toolkit"
+      },
+      "url": "https://0xacab.org/jvoisin/mat2",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "medic-gestes": {
+      "title": {
+        "fr": "Street medics — Les gestes à adopter en manif (brochure)",
+        "en": "Street medics — Les gestes à adopter en manif (booklet)"
+      },
+      "url": "https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "medic-soins": {
+      "title": {
+        "fr": "Soins post-manif (brochure)",
+        "en": "Soins post-manif (booklet)"
+      },
+      "url": "https://www.nantes.indymedia.org/wp-content/uploads/2022/12/soins_post_manif_brochure.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "outside": {
+      "title": {
+        "fr": "Outside — Lunettes de piscine, masques de ski, casques de vélo : la polémique autour des protections en manifestation",
+        "en": "Outside — Lunettes de piscine, masques de ski, casques de vélo : la polémique autour des protections en manifestation"
+      },
+      "url": "https://www.outside.fr/lunettes-de-piscine-masques-de-ski-casques-de-velo-la-polemique-enfle-autour-des-protections-en-manifestation/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "pharos": {
+      "title": {
+        "fr": "PHAROS — Plateforme de signalement des contenus illicites",
+        "en": "PHAROS — Plateforme de signalement des contenus illicites"
+      },
+      "url": "https://www.internet-signalement.gouv.fr/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "proofmode": {
+      "title": {
+        "fr": "ProofMode",
+        "en": "ProofMode"
+      },
+      "url": "https://proofmode.org/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "ratp": {
+      "title": {
+        "fr": "RATP — Information trafic (fermetures de stations les jours de manifestation)",
+        "en": "RATP — Traffic information (station closures on protest days)"
+      },
+      "url": "https://www.bonjour-ratp.fr/fr/info-trafic/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "reporterre-handicap": {
+      "title": {
+        "fr": "Reporterre — Manifs et handicap, le long parcours du combattant",
+        "en": "Reporterre — Manifs et handicap, le long parcours du combattant"
+      },
+      "url": "https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "se-proteger": {
+      "title": {
+        "fr": "Mille Babords — Se protéger en manifestation (cahier, 2023)",
+        "en": "Mille Babords — Se protéger en manifestation (cahier, 2023)"
+      },
+      "url": "https://millebabords.org/IMG/pdf/se-proteger-2023-cahier.pdf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sift": {
+      "title": {
+        "fr": "Mike Caulfield — SIFT (The Four Moves)",
+        "en": "Mike Caulfield — SIFT (The Four Moves)"
+      },
+      "url": "https://hapgood.us/2019/06/19/sift-the-four-moves/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "signal-blur": {
+      "title": {
+        "fr": "Signal — Blur tools",
+        "en": "Signal — Blur tools"
+      },
+      "url": "https://signal.org/blog/blur-tools/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sm-guide": {
+      "title": {
+        "fr": "Syndicat de la magistrature — Guide du manifestant arrêté",
+        "en": "Syndicat de la magistrature — Guide du manifestant arrêté"
+      },
+      "url": "https://www.syndicat-magistrature.fr/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-aj": {
+      "title": {
+        "fr": "Service-Public — Aide juridictionnelle",
+        "en": "Service-Public — Aide juridictionnelle"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-ci": {
+      "title": {
+        "fr": "Service-Public — Comparution immédiate",
+        "en": "Service-Public — Comparution immédiate"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32129",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-controle": {
+      "title": {
+        "fr": "Service-Public — Contrôle d'identité",
+        "en": "Service-Public — Contrôle d'identité"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1036",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-gav": {
+      "title": {
+        "fr": "Service-Public — Garde à vue",
+        "en": "Service-Public — Garde à vue"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-gav-2024": {
+      "title": {
+        "fr": "Service-Public — Réforme de la garde à vue au 1er juillet 2024",
+        "en": "Service-Public — Réforme de la garde à vue au 1er juillet 2024"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17075",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-greve-prive": {
+      "title": {
+        "fr": "Service-Public — Droit de grève d'un salarié du secteur privé",
+        "en": "Service-Public — Droit de grève d'un salarié du secteur privé"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F117",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-greve-public": {
+      "title": {
+        "fr": "Service-Public — Droit de grève dans la fonction publique",
+        "en": "Service-Public — Droit de grève dans la fonction publique"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F499",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-mineur": {
+      "title": {
+        "fr": "Service-Public — Retenue ou garde à vue d'un mineur",
+        "en": "Service-Public — Retenue ou garde à vue d'un mineur"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1469",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-organiser": {
+      "title": {
+        "fr": "Service-Public — Organisation de manifestations, défilés ou rassemblements sur la voie publique",
+        "en": "Service-Public — Organisation de manifestations, défilés ou rassemblements sur la voie publique"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "sp-retenue": {
+      "title": {
+        "fr": "Service-Public — Retenue pour vérification du droit au séjour",
+        "en": "Service-Public — Retenue pour vérification du droit au séjour"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31136",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "truth-sandwich": {
+      "title": {
+        "fr": "Truth sandwich (Wikipedia)",
+        "en": "Truth sandwich (Wikipedia)"
+      },
+      "url": "https://en.wikipedia.org/wiki/Truth_sandwich",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "visage-motif": {
+      "title": {
+        "fr": "Eurojuris — La dissimulation du visage à l'occasion de manifestations",
+        "en": "Eurojuris — La dissimulation du visage à l'occasion de manifestations"
+      },
+      "url": "https://www.eurojuris.fr/famille/categories/application-17442/articles/dissimulation-visage-loccasion-manifestations-sur-voie-publique-10833.htm",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "wayback": {
+      "title": {
+        "fr": "Internet Archive — Save Page Now",
+        "en": "Internet Archive — Save Page Now"
+      },
+      "url": "https://web.archive.org/save",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "witness-archivage": {
+      "title": {
+        "fr": "WITNESS — Video archiving",
+        "en": "WITNESS — Video archiving"
+      },
+      "url": "https://witness.org/our-work/video-archiving",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "witness-metadata": {
+      "title": {
+        "fr": "WITNESS — Video metadata",
+        "en": "WITNESS — Video metadata"
+      },
+      "url": "https://library.witness.org/product/video-metadata/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "witness-police": {
+      "title": {
+        "fr": "WITNESS — Filming police abuse",
+        "en": "WITNESS — Filming police abuse"
+      },
+      "url": "https://blog.witness.org/2015/08/filming-police-abuse/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    "witness-preuve": {
+      "title": {
+        "fr": "WITNESS — Video as Evidence Field Guide",
+        "en": "WITNESS — Video as Evidence Field Guide"
+      },
+      "url": "https://library.witness.org/product/video-as-evidence-compiled-sections/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    }
+  }
+}

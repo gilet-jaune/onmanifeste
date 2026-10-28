@@ -1,0 +1,1935 @@
+{
+  "$schema": "../../schemas/parcours.schema.json",
+  "parcours": [
+    {
+      "id": "nasse",
+      "label": {
+        "fr": "encerclé·e par la police (nassé·e)",
+        "en": "kettled by the police"
+      },
+      "keywords": [
+        "nasse",
+        "nasser",
+        "encercle",
+        "encerclement",
+        "bloque",
+        "coince",
+        "kettle",
+        "kettled"
+      ],
+      "needs": [
+        {
+          "id": "sortir",
+          "label": {
+            "fr": "sortir",
+            "en": "get out"
+          },
+          "results": [
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "si-vous-etes-encerclee-nasse",
+                "en": "if-you-are-kettled"
+              },
+              "label": {
+                "fr": "Que faire dans une nasse",
+                "en": "What to do when kettled"
+              }
+            },
+            {
+              "resource": "conseil-etat-snmo-2021"
+            },
+            {
+              "resource": "ldh-dispersion"
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "partir-sans-danger",
+                "en": "leaving-safely"
+              },
+              "label": {
+                "fr": "Partir sans danger",
+                "en": "Leaving safely"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "documenter",
+          "label": {
+            "fr": "garder une trace de ce qui se passe",
+            "en": "record what is happening"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Filmer une intervention",
+                "en": "Filming an intervention"
+              }
+            },
+            {
+              "resource": "proofmode"
+            }
+          ]
+        },
+        {
+          "id": "prevenir",
+          "label": {
+            "fr": "prévenir une legal team ou un proche",
+            "en": "alert a legal team or a relative"
+          },
+          "results": [
+            {
+              "page": "sos",
+              "label": {
+                "fr": "Page SOS : numéros d'urgence et legal teams",
+                "en": "SOS page: emergency numbers and legal teams"
+              }
+            },
+            {
+              "directory": {
+                "situation": "garde-a-vue"
+              },
+              "label": {
+                "fr": "Legal teams et soutien garde à vue",
+                "en": "Legal teams and custody support"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-route",
+      "label": {
+        "fr": "en route vers la manif ou sur le retour",
+        "en": "on my way to or from the protest"
+      },
+      "keywords": [
+        "trajet",
+        "transport",
+        "metro",
+        "velo",
+        "velov",
+        "covoiturage",
+        "rentrer",
+        "retour",
+        "aller",
+        "venir",
+        "sortir",
+        "route"
+      ],
+      "needs": [
+        {
+          "id": "venir",
+          "label": {
+            "fr": "y aller sans galère",
+            "en": "get there smoothly"
+          },
+          "results": [
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "y-aller",
+                "en": "getting-there"
+              },
+              "label": {
+                "fr": "Y aller : transports, covoiturage, vélo",
+                "en": "Getting there: transport, car-sharing, bike"
+              }
+            },
+            {
+              "resource": "ratp-info-trafic"
+            },
+            {
+              "resource": "organic-maps"
+            }
+          ]
+        },
+        {
+          "id": "repartir",
+          "label": {
+            "fr": "repartir en sécurité",
+            "en": "get back safely"
+          },
+          "results": [
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "repartir",
+                "en": "getting-back"
+              },
+              "label": {
+                "fr": "Repartir",
+                "en": "Getting back"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "partir-sans-danger",
+                "en": "leaving-safely"
+              },
+              "label": {
+                "fr": "Partir sans danger",
+                "en": "Leaving safely"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "apres",
+                "en": "after"
+              },
+              "label": {
+                "fr": "Ne pas rentrer seul·e",
+                "en": "Don't go home alone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "premiere",
+      "label": {
+        "fr": "débutant·e (c'est ma première manif)",
+        "en": "a beginner (it's my first protest)"
+      },
+      "keywords": [
+        "beginner",
+        "debutant",
+        "debutante",
+        "debuter",
+        "first",
+        "first time",
+        "inexperimente",
+        "jamais",
+        "jamais manifeste",
+        "newbie",
+        "nouveau",
+        "nouvelle",
+        "novice",
+        "premiere",
+        "premiere fois",
+        "premiere manif"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre comment ça se passe",
+            "en": "understand how it works"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "pendant-la-manifestation",
+                "en": "during-the-protest"
+              },
+              "label": {
+                "fr": "Pendant la manifestation",
+                "en": "During the protest"
+              }
+            },
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "avant-de-partir",
+                "en": "before-you-go"
+              },
+              "label": {
+                "fr": "Venir et repartir",
+                "en": "Getting there and back"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "reconnaitre-les-sommations",
+                "en": "recognising-the-warnings"
+              },
+              "label": {
+                "fr": "Reconnaître les sommations et savoir partir",
+                "en": "Recognise warnings and know when to leave"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Rester en groupe",
+                "en": "Stay with your group"
+              }
+            }
+          ]
+        },
+        {
+          "id": "preparer",
+          "label": {
+            "fr": "me préparer",
+            "en": "get ready"
+          },
+          "results": [
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "tenue",
+                "en": "clothes"
+              },
+              "label": {
+                "fr": "Tenue et kit",
+                "en": "Outfit and kit"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "protection",
+                "en": "protection"
+              },
+              "label": {
+                "fr": "Protections : masque, lunettes, genouillères, protège-tibias",
+                "en": "Protection: mask, goggles, knee pads, shin guards"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "avant-de-partir",
+                "en": "before-you-go"
+              },
+              "label": {
+                "fr": "Ne pas rester seul·e",
+                "en": "Never stay alone"
+              }
+            },
+            {
+              "directory": {
+                "situation": "premiere-manif"
+              },
+              "label": {
+                "fr": "Ressources essentielles",
+                "en": "Essential resources"
+              }
+            }
+          ]
+        },
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits",
+            "en": "know my rights"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "connaitre-ses-droits",
+                "en": "know-your-rights"
+              },
+              "label": {
+                "fr": "Connaître ses droits",
+                "en": "Know your rights"
+              }
+            },
+            {
+              "resource": "amnesty-droits-manifestation"
+            }
+          ]
+        },
+        {
+          "id": "telephone",
+          "label": {
+            "fr": "protéger mon téléphone",
+            "en": "protect my phone"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "avant-la-manifestation",
+                "en": "before-the-protest"
+              },
+              "label": {
+                "fr": "Préparer son téléphone",
+                "en": "Prepare your phone"
+              }
+            },
+            {
+              "directory": {
+                "situation": "telephone"
+              },
+              "label": {
+                "fr": "Téléphone et anonymat",
+                "en": "Phone and anonymity"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sommations",
+      "label": {
+        "fr": "face à des sommations ou une dispersion",
+        "en": "facing dispersal warnings"
+      },
+      "keywords": ["sommation", "sommations", "dispersion", "disperser", "charge", "attroupement"],
+      "needs": [
+        {
+          "id": "partir",
+          "label": {
+            "fr": "partir sans être interpellé·e",
+            "en": "leave without being arrested"
+          },
+          "results": [
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "reconnaitre-les-sommations",
+                "en": "recognising-the-warnings"
+              },
+              "label": {
+                "fr": "Reconnaître les sommations",
+                "en": "Recognising the warnings"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "partir-sans-danger",
+                "en": "leaving-safely"
+              },
+              "label": {
+                "fr": "Partir sans danger",
+                "en": "Leaving safely"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "risques",
+          "label": {
+            "fr": "connaître ce que je risque",
+            "en": "know what I risk"
+          },
+          "results": [
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "ce-que-dit-la-loi",
+                "en": "what-the-law-says"
+              },
+              "label": {
+                "fr": "Ce que dit la loi",
+                "en": "What the law says"
+              }
+            },
+            {
+              "resource": "ldh-dispersion"
+            },
+            {
+              "resource": "amnesty-droits-manifestation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gaze",
+      "label": {
+        "fr": "gazé·e (gaz lacrymogène)",
+        "en": "tear-gassed"
+      },
+      "keywords": ["gaz", "gaze", "lacrymo", "lacrymogene", "yeux", "pique", "tear gas"],
+      "needs": [
+        {
+          "id": "soigner",
+          "label": {
+            "fr": "me soigner tout de suite",
+            "en": "treat myself now"
+          },
+          "results": [
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "gaz-lacrymogene",
+                "en": "tear-gas"
+              },
+              "label": {
+                "fr": "Gaz lacrymogène : les gestes tout de suite",
+                "en": "Tear gas: what to do right away"
+              }
+            },
+            {
+              "resource": "medic-gestes-manif"
+            },
+            {
+              "resource": "medic-soins-post-manif"
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "apres-suivi-a-long-terme",
+                "en": "afterwards-long-term-follow-up"
+              },
+              "label": {
+                "fr": "Quand consulter si ça persiste",
+                "en": "When to see a doctor if it persists"
+              }
+            },
+            {
+              "page": "sos",
+              "label": {
+                "fr": "Gêne respiratoire, malaise : appeler le 15 ou le 112",
+                "en": "Breathing difficulty, fainting: call 15 or 112"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "long-terme",
+          "label": {
+            "fr": "savoir si c'est grave à long terme",
+            "en": "know about long-term effects"
+          },
+          "results": [
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "apres-suivi-a-long-terme",
+                "en": "afterwards-long-term-follow-up"
+              },
+              "label": {
+                "fr": "Suivi à long terme",
+                "en": "Long-term follow-up"
+              }
+            },
+            {
+              "directory": {
+                "tags": "long-terme"
+              },
+              "label": {
+                "fr": "Ressources « effets à long terme »",
+                "en": "Long-term effects resources"
+              }
+            }
+          ]
+        },
+        {
+          "id": "proteger",
+          "label": {
+            "fr": "mieux me protéger la prochaine fois",
+            "en": "protect myself better next time"
+          },
+          "results": [
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "protection",
+                "en": "protection"
+              },
+              "label": {
+                "fr": "Masques et lunettes",
+                "en": "Masks and goggles"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blesse",
+      "label": {
+        "fr": "blessé·e",
+        "en": "injured"
+      },
+      "keywords": [
+        "blesse",
+        "blessure",
+        "saigne",
+        "sang",
+        "tete",
+        "oeil",
+        "lbd",
+        "grenade",
+        "coup",
+        "injured",
+        "hurt"
+      ],
+      "needs": [
+        {
+          "id": "soigner",
+          "label": {
+            "fr": "être soigné·e",
+            "en": "get treated"
+          },
+          "results": [
+            {
+              "page": "sos",
+              "label": {
+                "fr": "Page SOS : numéros d'urgence et legal teams",
+                "en": "SOS page: emergency numbers and legal teams"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "blessures",
+                "en": "injuries"
+              },
+              "label": {
+                "fr": "Blessures : les premiers gestes",
+                "en": "Injuries: first steps"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "constater",
+          "label": {
+            "fr": "faire constater mes blessures",
+            "en": "get my injuries documented"
+          },
+          "results": [
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "apres-faire-constater",
+                "en": "afterwards-get-it-documented"
+              },
+              "label": {
+                "fr": "Faire constater",
+                "en": "Get it documented"
+              }
+            }
+          ]
+        },
+        {
+          "id": "plainte",
+          "label": {
+            "fr": "porter plainte ou signaler",
+            "en": "file a complaint or report"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "apres-une-garde-a-vue",
+                "en": "after-custody"
+              },
+              "label": {
+                "fr": "Démarches après des violences",
+                "en": "Steps after violence"
+              }
+            },
+            {
+              "resource": "ldh-que-faire-violences"
+            },
+            {
+              "resource": "iggn-signalement"
+            },
+            {
+              "resource": "defenseur-des-droits"
+            }
+          ]
+        },
+        {
+          "id": "parler",
+          "label": {
+            "fr": "parler à quelqu'un",
+            "en": "talk to someone"
+          },
+          "results": [
+            {
+              "resource": "france-victimes"
+            },
+            {
+              "resource": "cn2r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "extreme-droite",
+      "label": {
+        "fr": "menacé·e ou agressé·e par l'extrême droite",
+        "en": "threatened or attacked by the far right"
+      },
+      "keywords": [
+        "faf",
+        "fafs",
+        "facho",
+        "fachos",
+        "extreme droite",
+        "ultradroite",
+        "nazi",
+        "identitaire",
+        "agresse",
+        "attaque",
+        "far right"
+      ],
+      "needs": [
+        {
+          "id": "proteger",
+          "label": {
+            "fr": "me mettre en sécurité maintenant",
+            "en": "get safe now"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "extreme-droite",
+              "anchor": {
+                "fr": "si-vous-etes-attaquee",
+                "en": "if-you-are-attacked"
+              },
+              "label": {
+                "fr": "Si vous êtes attaqué·e",
+                "en": "If you are attacked"
+              }
+            },
+            {
+              "page": "sos",
+              "label": {
+                "fr": "Page SOS : 17, 112, legal teams",
+                "en": "SOS page: 17, 112, legal teams"
+              }
+            }
+          ]
+        },
+        {
+          "id": "eviter",
+          "label": {
+            "fr": "éviter d'être pris·e pour cible",
+            "en": "avoid being targeted"
+          },
+          "results": [
+            {
+              "guide": "extreme-droite",
+              "anchor": {
+                "fr": "avant",
+                "en": "before"
+              },
+              "label": {
+                "fr": "Avant la manif",
+                "en": "Before the protest"
+              }
+            },
+            {
+              "guide": "extreme-droite",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Pendant",
+                "en": "During"
+              }
+            },
+            {
+              "guide": "venir-repartir",
+              "anchor": {
+                "fr": "repartir",
+                "en": "getting-back"
+              },
+              "label": {
+                "fr": "Repartir en sécurité",
+                "en": "Getting back safely"
+              }
+            }
+          ]
+        },
+        {
+          "id": "plainte",
+          "label": {
+            "fr": "porter plainte et être accompagné·e",
+            "en": "file a complaint and get support"
+          },
+          "results": [
+            {
+              "guide": "extreme-droite",
+              "anchor": {
+                "fr": "apres",
+                "en": "afterwards"
+              },
+              "label": {
+                "fr": "Après une agression",
+                "en": "After an attack"
+              }
+            },
+            {
+              "resource": "licra"
+            },
+            {
+              "resource": "sos-racisme"
+            },
+            {
+              "resource": "sos-homophobie"
+            },
+            {
+              "resource": "france-victimes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interpelle",
+      "label": {
+        "fr": "interpellé·e ou en garde à vue",
+        "en": "arrested or in custody"
+      },
+      "keywords": [
+        "garde a vue",
+        "gav",
+        "arrete",
+        "interpelle",
+        "custody",
+        "arrested",
+        "commissariat"
+      ],
+      "needs": [
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits",
+            "en": "know my rights"
+          },
+          "results": [
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "vos-droits-des-le-debut",
+                "en": "your-rights-from-the-start"
+              },
+              "label": {
+                "fr": "Vos droits dès le début",
+                "en": "Your rights from the start"
+              }
+            },
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "les-reflexes",
+                "en": "reflexes"
+              },
+              "label": {
+                "fr": "Les réflexes",
+                "en": "Reflexes"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "avocat",
+          "label": {
+            "fr": "trouver ou payer un avocat",
+            "en": "find or pay a lawyer"
+          },
+          "results": [
+            {
+              "directory": {
+                "situation": "avocat-proces"
+              },
+              "label": {
+                "fr": "Avocats, aide juridictionnelle, caisses",
+                "en": "Lawyers, legal aid, funds"
+              }
+            },
+            {
+              "resource": "sp-aide-juridictionnelle"
+            }
+          ]
+        },
+        {
+          "id": "sortie",
+          "label": {
+            "fr": "savoir quoi faire à la sortie",
+            "en": "know what to do on release"
+          },
+          "results": [
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "a-la-sortie",
+                "en": "on-release"
+              },
+              "label": {
+                "fr": "À la sortie",
+                "en": "On release"
+              }
+            },
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "apres-une-garde-a-vue",
+                "en": "after-custody"
+              },
+              "label": {
+                "fr": "Après une garde à vue",
+                "en": "After custody"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temoin-arrestation",
+      "label": {
+        "fr": "témoin d'une interpellation ou proche d'une personne arrêtée",
+        "en": "witness to an arrest or close to someone arrested"
+      },
+      "keywords": [
+        "temoin",
+        "ami",
+        "proche",
+        "copain",
+        "copine",
+        "arrete",
+        "interpelle",
+        "witness"
+      ],
+      "needs": [
+        {
+          "id": "alerter",
+          "label": {
+            "fr": "alerter une legal team",
+            "en": "alert a legal team"
+          },
+          "results": [
+            {
+              "page": "sos",
+              "label": {
+                "fr": "Page SOS : numéros d'urgence et legal teams",
+                "en": "SOS page: emergency numbers and legal teams"
+              }
+            },
+            {
+              "directory": {
+                "situation": "garde-a-vue"
+              },
+              "label": {
+                "fr": "Legal teams et soutien garde à vue",
+                "en": "Legal teams and custody support"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "filmer",
+          "label": {
+            "fr": "filmer ce qui se passe",
+            "en": "film what is happening"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Filmer une intervention",
+                "en": "Filming an intervention"
+              }
+            }
+          ]
+        },
+        {
+          "id": "accueillir",
+          "label": {
+            "fr": "l'accueillir à la sortie",
+            "en": "meet them on release"
+          },
+          "results": [
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "apres",
+                "en": "after"
+              },
+              "label": {
+                "fr": "Organiser l'accueil à la sortie",
+                "en": "Organise meeting them on release"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temoin-violence",
+      "label": {
+        "fr": "témoin de violences policières",
+        "en": "witness to police violence"
+      },
+      "keywords": [
+        "violence",
+        "violences",
+        "policiere",
+        "bavure",
+        "temoin",
+        "witness",
+        "brutality"
+      ],
+      "needs": [
+        {
+          "id": "filmer",
+          "label": {
+            "fr": "filmer et garder la preuve",
+            "en": "film and keep the evidence"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Pendant",
+                "en": "During"
+              }
+            },
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "juste-apres-garder-la-preuve",
+                "en": "right-after-keep-the-evidence"
+              },
+              "label": {
+                "fr": "Garder la preuve",
+                "en": "Keep the evidence"
+              }
+            }
+          ]
+        },
+        {
+          "id": "signaler",
+          "label": {
+            "fr": "signaler les faits",
+            "en": "report it"
+          },
+          "results": [
+            {
+              "resource": "defenseur-des-droits"
+            },
+            {
+              "resource": "iggn-signalement"
+            },
+            {
+              "resource": "ldh-que-faire-violences"
+            }
+          ]
+        },
+        {
+          "id": "publier",
+          "label": {
+            "fr": "publier sans exposer les gens",
+            "en": "publish without exposing people"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "publier-sans-exposer",
+                "en": "publish-without-exposing"
+              },
+              "label": {
+                "fr": "Publier sans exposer",
+                "en": "Publish without exposing"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "parent",
+      "label": {
+        "fr": "parent d'un·e mineur·e",
+        "en": "the parent of a minor"
+      },
+      "keywords": ["parent", "enfant", "fils", "fille", "ado", "mineur", "child"],
+      "needs": [
+        {
+          "id": "garde-a-vue",
+          "label": {
+            "fr": "savoir ce qui se passe s'il ou elle est en garde à vue",
+            "en": "know what happens if they are in custody"
+          },
+          "results": [
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "mineures",
+                "en": "minors"
+              },
+              "label": {
+                "fr": "Garde à vue des mineur·es",
+                "en": "Custody of minors"
+              }
+            },
+            {
+              "resource": "sp-garde-a-vue-mineur"
+            },
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "lyceennes-et-mineures",
+                "en": "high-school-students-and-minors"
+              },
+              "label": {
+                "fr": "Conseils pour les parents",
+                "en": "Tips for parents"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "sanctions",
+          "label": {
+            "fr": "comprendre les sanctions au lycée",
+            "en": "understand school sanctions"
+          },
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "les-sanctions-possibles",
+                "en": "possible-sanctions"
+              },
+              "label": {
+                "fr": "Les sanctions possibles",
+                "en": "Possible sanctions"
+              }
+            }
+          ]
+        },
+        {
+          "id": "avocat",
+          "label": {
+            "fr": "trouver un avocat",
+            "en": "find a lawyer"
+          },
+          "results": [
+            {
+              "directory": {
+                "situation": "parent"
+              },
+              "label": {
+                "fr": "Ressources pour les mineur·es",
+                "en": "Resources for minors"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lyceen",
+      "label": {
+        "fr": "lycéen·ne",
+        "en": "a high-school student"
+      },
+      "keywords": ["lycee", "lyceen", "lyceenne", "eleve", "blocus", "student"],
+      "needs": [
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester sans me mettre en danger",
+            "en": "protest without putting myself at risk"
+          },
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "ce-qui-est-permis-ce-qui-ne-lest-pas",
+                "en": "what-is-allowed-what-is-not"
+              },
+              "label": {
+                "fr": "Ce qui est permis",
+                "en": "What is allowed"
+              }
+            },
+            {
+              "resource": "cidj-lyceens-manifester"
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "avant-de-partir",
+                "en": "before-you-go"
+              },
+              "label": {
+                "fr": "Ne pas rester seul·e",
+                "en": "Never stay alone"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sanctions",
+          "label": {
+            "fr": "savoir ce que je risque au lycée",
+            "en": "know what I risk at school"
+          },
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "les-sanctions-possibles",
+                "en": "possible-sanctions"
+              },
+              "label": {
+                "fr": "Les sanctions possibles",
+                "en": "Possible sanctions"
+              }
+            }
+          ]
+        },
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits si je suis arrêté·e",
+            "en": "know my rights if arrested"
+          },
+          "results": [
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "mineures",
+                "en": "minors"
+              },
+              "label": {
+                "fr": "Garde à vue des mineur·es",
+                "en": "Custody of minors"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etranger",
+      "label": {
+        "fr": "étranger·e ou sans papiers",
+        "en": "a foreign national or undocumented"
+      },
+      "keywords": [
+        "etranger",
+        "papiers",
+        "sans papiers",
+        "titre",
+        "sejour",
+        "oqtf",
+        "refugie",
+        "foreigner"
+      ],
+      "needs": [
+        {
+          "id": "risques",
+          "label": {
+            "fr": "connaître les risques pour mon séjour",
+            "en": "know the risks for my residence"
+          },
+          "results": [
+            {
+              "guide": "etrangers",
+              "anchor": {
+                "fr": "les-risques-a-connaitre",
+                "en": "risks-to-know"
+              },
+              "label": {
+                "fr": "Les risques à connaître",
+                "en": "Risks to know"
+              }
+            },
+            {
+              "resource": "sp-retenue-sejour"
+            }
+          ]
+        },
+        {
+          "id": "preparer",
+          "label": {
+            "fr": "me préparer avant la manif",
+            "en": "prepare before the protest"
+          },
+          "results": [
+            {
+              "guide": "etrangers",
+              "anchor": {
+                "fr": "avant-la-manifestation",
+                "en": "before-the-protest"
+              },
+              "label": {
+                "fr": "Avant la manifestation",
+                "en": "Before the protest"
+              }
+            }
+          ]
+        },
+        {
+          "id": "aide",
+          "label": {
+            "fr": "trouver de l'aide juridique",
+            "en": "find legal help"
+          },
+          "results": [
+            {
+              "resource": "cimade"
+            },
+            {
+              "resource": "gisti"
+            },
+            {
+              "guide": "etrangers",
+              "anchor": {
+                "fr": "en-cas-dinterpellation",
+                "en": "if-you-are-arrested"
+              },
+              "label": {
+                "fr": "En cas d'interpellation",
+                "en": "If you are arrested"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agresse",
+      "label": {
+        "fr": "victime de violences sexistes ou sexuelles",
+        "en": "a victim of sexist or sexual violence"
+      },
+      "keywords": [
+        "agresse",
+        "agression",
+        "sexuel",
+        "sexiste",
+        "attouchement",
+        "harcelement",
+        "vss"
+      ],
+      "needs": [
+        {
+          "id": "parler",
+          "label": {
+            "fr": "parler à quelqu'un",
+            "en": "talk to someone"
+          },
+          "results": [
+            {
+              "resource": "violences-femmes-info"
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "plainte",
+          "label": {
+            "fr": "porter plainte",
+            "en": "file a complaint"
+          },
+          "results": [
+            {
+              "guide": "violences-harcelement",
+              "anchor": {
+                "fr": "en-manifestation",
+                "en": "at-the-protest"
+              },
+              "label": {
+                "fr": "Que faire après",
+                "en": "What to do afterwards"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "harcele",
+      "label": {
+        "fr": "harcelé·e ou exposé·e en ligne",
+        "en": "harassed or exposed online"
+      },
+      "keywords": [
+        "harcele",
+        "doxxing",
+        "doxing",
+        "en ligne",
+        "photo",
+        "reseaux",
+        "insultes",
+        "online"
+      ],
+      "needs": [
+        {
+          "id": "retirer",
+          "label": {
+            "fr": "faire retirer un contenu",
+            "en": "get content removed"
+          },
+          "results": [
+            {
+              "guide": "violences-harcelement",
+              "anchor": {
+                "fr": "en-ligne-harcelement-et-doxxing",
+                "en": "online-harassment-and-doxxing"
+              },
+              "label": {
+                "fr": "Harcèlement et doxxing",
+                "en": "Harassment and doxxing"
+              }
+            },
+            {
+              "resource": "e-enfance-3018"
+            },
+            {
+              "resource": "cnil-effacement"
+            }
+          ]
+        },
+        {
+          "id": "signaler",
+          "label": {
+            "fr": "signaler un contenu illégal",
+            "en": "report illegal content"
+          },
+          "results": [
+            {
+              "resource": "pharos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salarie",
+      "label": {
+        "fr": "salarié·e ou fonctionnaire",
+        "en": "an employee or civil servant"
+      },
+      "keywords": ["travail", "salarie", "fonctionnaire", "employeur", "greve", "job", "work"],
+      "needs": [
+        {
+          "id": "greve",
+          "label": {
+            "fr": "faire grève",
+            "en": "go on strike"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "secteur-prive",
+                "en": "private-sector"
+              },
+              "label": {
+                "fr": "Secteur privé",
+                "en": "Private sector"
+              }
+            },
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "fonction-publique",
+                "en": "public-service"
+              },
+              "label": {
+                "fr": "Fonction publique",
+                "en": "Public service"
+              }
+            }
+          ]
+        },
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester sans faire grève",
+            "en": "protest without striking"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "manifester-sans-faire-greve",
+                "en": "protesting-without-striking"
+              },
+              "label": {
+                "fr": "Manifester sans faire grève",
+                "en": "Protesting without striking"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "organisateur",
+      "label": {
+        "fr": "organisateur·ice d'une manifestation",
+        "en": "organising a protest"
+      },
+      "keywords": [
+        "organiser",
+        "organisateur",
+        "declarer",
+        "declaration",
+        "prefecture",
+        "organise"
+      ],
+      "needs": [
+        {
+          "id": "declarer",
+          "label": {
+            "fr": "déclarer la manifestation",
+            "en": "notify the protest"
+          },
+          "results": [
+            {
+              "guide": "organiser",
+              "anchor": {
+                "fr": "declarer",
+                "en": "notify"
+              },
+              "label": {
+                "fr": "Déclarer",
+                "en": "Notify"
+              }
+            },
+            {
+              "resource": "sp-organiser-manifestation"
+            }
+          ]
+        },
+        {
+          "id": "preparer",
+          "label": {
+            "fr": "préparer la sécurité",
+            "en": "prepare safety"
+          },
+          "results": [
+            {
+              "guide": "organiser",
+              "anchor": {
+                "fr": "preparer",
+                "en": "prepare"
+              },
+              "label": {
+                "fr": "Préparer",
+                "en": "Prepare"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "filmeur",
+      "label": {
+        "fr": "en train de filmer ou j'ai des vidéos",
+        "en": "filming or holding videos"
+      },
+      "keywords": ["video", "videos", "filmer", "filme", "photo", "photos", "camera", "film"],
+      "needs": [
+        {
+          "id": "preuve",
+          "label": {
+            "fr": "garder la preuve",
+            "en": "keep the evidence"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "juste-apres-garder-la-preuve",
+                "en": "right-after-keep-the-evidence"
+              },
+              "label": {
+                "fr": "Garder la preuve",
+                "en": "Keep the evidence"
+              }
+            },
+            {
+              "resource": "proofmode"
+            }
+          ]
+        },
+        {
+          "id": "publier",
+          "label": {
+            "fr": "publier sans exposer les gens",
+            "en": "publish without exposing people"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "publier-sans-exposer",
+                "en": "publish-without-exposing"
+              },
+              "label": {
+                "fr": "Publier sans exposer",
+                "en": "Publish without exposing"
+              }
+            },
+            {
+              "resource": "mat2"
+            }
+          ]
+        },
+        {
+          "id": "sauvegarder",
+          "label": {
+            "fr": "sauvegarder mes vidéos",
+            "en": "back up my videos"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "avant-sauvegarde-automatique",
+                "en": "before-automatic-backup"
+              },
+              "label": {
+                "fr": "Sauvegarde automatique",
+                "en": "Automatic backup"
+              }
+            },
+            {
+              "resource": "ente-photos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "convoque",
+      "label": {
+        "fr": "convoqué·e au tribunal",
+        "en": "summoned to court"
+      },
+      "keywords": [
+        "tribunal",
+        "proces",
+        "convoque",
+        "convocation",
+        "comparution",
+        "juge",
+        "court",
+        "trial"
+      ],
+      "needs": [
+        {
+          "id": "defendre",
+          "label": {
+            "fr": "préparer ma défense",
+            "en": "prepare my defence"
+          },
+          "results": [
+            {
+              "resource": "sp-comparution-immediate"
+            },
+            {
+              "resource": "guide-manifestant-arrete"
+            },
+            {
+              "guide": "garde-a-vue",
+              "anchor": {
+                "fr": "a-la-sortie",
+                "en": "on-release"
+              },
+              "label": {
+                "fr": "Après la garde à vue",
+                "en": "After custody"
+              }
+            }
+          ]
+        },
+        {
+          "id": "payer",
+          "label": {
+            "fr": "payer un avocat",
+            "en": "pay for a lawyer"
+          },
+          "results": [
+            {
+              "resource": "sp-aide-juridictionnelle"
+            },
+            {
+              "directory": {
+                "situation": "avocat-proces"
+              },
+              "label": {
+                "fr": "Avocats et caisses de solidarité",
+                "en": "Lawyers and solidarity funds"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sans-reseau",
+      "label": {
+        "fr": "sans réseau ni Internet",
+        "en": "without signal or Internet"
+      },
+      "keywords": ["reseau", "internet", "coupe", "signal", "offline", "hors ligne"],
+      "needs": [
+        {
+          "id": "communiquer",
+          "label": {
+            "fr": "communiquer avec mon groupe",
+            "en": "communicate with my group"
+          },
+          "results": [
+            {
+              "resource": "briar"
+            }
+          ]
+        },
+        {
+          "id": "reperer",
+          "label": {
+            "fr": "me repérer",
+            "en": "find my way"
+          },
+          "results": [
+            {
+              "resource": "organic-maps"
+            }
+          ]
+        },
+        {
+          "id": "site",
+          "label": {
+            "fr": "garder ce site sous la main",
+            "en": "keep this site at hand"
+          },
+          "results": [
+            {
+              "page": "conseils",
+              "anchor": {
+                "fr": "installer-ce-site-hors-ligne",
+                "en": "install-this-site-for-offline-use"
+              },
+              "label": {
+                "fr": "Installer ce site hors ligne",
+                "en": "Install this site offline"
+              }
+            },
+            {
+              "page": "carte",
+              "label": {
+                "fr": "Carte de poche à imprimer",
+                "en": "Printable pocket card"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "info",
+      "label": {
+        "fr": "face à une information douteuse",
+        "en": "facing dubious information"
+      },
+      "keywords": ["rumeur", "fake", "info", "intox", "verifier", "rumour"],
+      "needs": [
+        {
+          "id": "verifier",
+          "label": {
+            "fr": "la vérifier",
+            "en": "check it"
+          },
+          "results": [
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "la-methode-en-4-etapes-sift",
+                "en": "the-4-step-method-sift"
+              },
+              "label": {
+                "fr": "La méthode SIFT",
+                "en": "The SIFT method"
+              }
+            },
+            {
+              "directory": {
+                "situation": "verifier"
+              },
+              "label": {
+                "fr": "Services de vérification",
+                "en": "Fact-checking services"
+              }
+            }
+          ]
+        },
+        {
+          "id": "convaincre",
+          "label": {
+            "fr": "en parler avec mes proches",
+            "en": "talk about it with my loved ones"
+          },
+          "results": [
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Comment en parler",
+                "en": "How to talk about it"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "label": {
+        "fr": "envie de m'engager ou de me former",
+        "en": "keen to get involved or trained"
+      },
+      "keywords": [
+        "former",
+        "formation",
+        "engager",
+        "militer",
+        "benevole",
+        "rejoindre",
+        "desobeissance",
+        "non violence",
+        "xr",
+        "greenpeace",
+        "ldh",
+        "observateur",
+        "train",
+        "join"
+      ],
+      "needs": [
+        {
+          "id": "former",
+          "label": {
+            "fr": "me former à l'action non-violente",
+            "en": "get trained in non-violent action"
+          },
+          "results": [
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "se-former",
+                "en": "get-trained"
+              },
+              "label": {
+                "fr": "Se former",
+                "en": "Get trained"
+              }
+            },
+            {
+              "resource": "anv-cop21-formations"
+            },
+            {
+              "resource": "alternatiba"
+            }
+          ]
+        },
+        {
+          "id": "rejoindre",
+          "label": {
+            "fr": "rejoindre un collectif",
+            "en": "join a group"
+          },
+          "results": [
+            {
+              "resource": "extinction-rebellion"
+            },
+            {
+              "resource": "greenpeace-groupes-locaux"
+            },
+            {
+              "directory": {
+                "situation": "se-former"
+              },
+              "label": {
+                "fr": "Toutes les organisations",
+                "en": "All organisations"
+              }
+            }
+          ]
+        },
+        {
+          "id": "observer",
+          "label": {
+            "fr": "devenir observateur·ice",
+            "en": "become an observer"
+          },
+          "results": [
+            {
+              "resource": "ldh-observatoires"
+            }
+          ]
+        },
+        {
+          "id": "suivre",
+          "label": {
+            "fr": "suivre l'actualité des mobilisations",
+            "en": "follow the movements' news"
+          },
+          "results": [
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "sinformer",
+                "en": "stay-informed"
+              },
+              "label": {
+                "fr": "S'informer",
+                "en": "Stay informed"
+              }
+            },
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "suivre-des-comptes-sur-les-reseaux-sociaux",
+                "en": "following-accounts-on-social-media"
+              },
+              "label": {
+                "fr": "Suivre des comptes sur les réseaux sociaux",
+                "en": "Following accounts on social media"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ French-first toolkit for protesting in France: a sourced directory, quick guides
 | `docs/data/history.json` | Timeline events (`kinds`, `events`), rendered at build time. Schema in `schemas/history.schema.json`. |
 | `docs/guides/` | Seven quick guides (FR + EN). `review: juridique\|medical` front matter shows a "not yet reviewed" badge. |
 | `docs/annuaire/`, `docs/sos/`, `docs/carte/` | Directory, SOS page and pocket card, all rendered from the registry (`overrides/partials/*.html`). |
+| `docs/data/parcours.json`, `docs/javascripts/parcours.js` | Guided search "Je suis… / et je veux…": profiles → needs → results (guide sections, resources, pages). Validated by `scripts/validate-parcours.mjs` (anchors checked FR and EN). |
 | `docs/javascripts/directory.js` | Live search: situations, synonyms, typo tolerance, ranking, tag counts. |
 | `docs/javascripts/pwa.js`, `docs/sw.js`, `hooks/pwa.py` | Offline mode: service worker precache list and version injected at build. |
 | `hooks/csp.py`, `hooks/qrcode.py` | Per-page Content-Security-Policy (inline scripts by hash); QR code to the site for the pocket card. Hook order matters: qrcode, csp, then pwa. |

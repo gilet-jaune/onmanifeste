@@ -1,5 +1,7 @@
 ---
+source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
 review: juridique
+review_status: pending
 tags:
     - guides
     - custody
@@ -44,7 +46,7 @@ Duration: **24 hours**, renewable once (48 hours) for most offences alleged at p
 - Interviews are video-recorded.[^sp-mineur]
 - Under 13, no custody (only a strictly supervised "retenue").[^sp-mineur]
 
-[:octicons-arrow-right-24: Official page: custody of a minor (in French)](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469)
+{{ res("sp-garde-a-vue-mineur", ":octicons-arrow-right-24: Official page: custody of a minor (in French)") }}
 
 ## On release
 
@@ -58,21 +60,3 @@ Duration: **24 hours**, renewable once (48 hours) for most offences alleged at p
 ## Sources
 
 Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.
-
-[^sp-gav]: [Service-Public — Garde à vue](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837)
-
-[^sp-gav-2024]: [Service-Public — Réforme de la garde à vue au 1er juillet 2024](https://www.service-public.gouv.fr/particuliers/actualites/A17075)
-
-[^cpp-55-1]: [Code de procédure pénale, article 55-1 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441923)
-
-[^cpp-706-56]: [Code de procédure pénale, article 706-56 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053035)
-
-[^cp-434-15-2]: [Code pénal, article 434-15-2 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418646)
-
-[^cass-2022]: [Cour de cassation, chambre criminelle, 7 novembre 2022, n° 21-83.146](https://www.legifrance.gouv.fr/juri/id/JURITEXT000046583035)
-
-[^sp-mineur]: [Service-Public — Retenue ou garde à vue d'un mineur](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469)
-
-[^sp-ci]: [Service-Public — Comparution immédiate](https://www.service-public.gouv.fr/particuliers/vosdroits/F32129)
-
-[^legal-team]: [Legal Team Paris–IDF — La ligne antirep est ouverte](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr)

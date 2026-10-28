@@ -1,5 +1,6 @@
 ---
 review: juridique
+review_status: pending
 tags:
     - guides
     - équipement
@@ -28,7 +29,13 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 | Demi-masque à cartouches **A2P3** ou **ABEK1P3** | Filtrer les particules et vapeurs du gaz lacrymogène (CS) | Le **P3** filtre plus de 99,95 % des fines particules ; la partie **A/ABEK** retient les vapeurs. Un masque complet protège aussi les yeux et fuit moins. [^abek] |
 | Masque **FFP2/FFP3** | Particules et poussières | Ne filtre **pas** les vapeurs : utile, mais insuffisant contre un gaz dense. [^abek] |
 | Bouchons d'oreille | Protéger l'ouïe des grenades explosives | En mousse, toujours dans une poche. |
+| Protections du corps : genouillères, coudières, protège-poignets (type roller), protège-tibias | Amortir chutes, bousculades, coups et projectiles dans les membres | Portez-les **sous les vêtements**, discrètes et souples ; des street medics en utilisent aussi. [^se-proteger] |
+| Casque (vélo, ski) | Protéger la tête des chutes et des projectiles | Le plus visible : il fait souvent débat et peut être confisqué lors des fouilles. [^outside] |
 | Foulard | Dernier recours contre le gaz | Peu efficace ; ne remplace pas un masque. |
+
+!!! warning "Protections : pas interdites, mais parfois confisquées"
+
+    Aucun texte n'interdit de porter des protections. Mais lors de fouilles avant les cortèges, la police a déjà **confisqué** lunettes, masques et protections, et du matériel trouvé dans un sac a servi d'élément pour poursuivre des personnes pour « groupement en vue de commettre des violences » (article 222-14-2 du Code pénal). Privilégiez des protections **discrètes, sous les vêtements**, et n'ayez sur vous **rien qui puisse passer pour une arme**.[^franceinfo-protections][^amnesty-force]
 
 !!! warning "Visage découvert tant que vous n'êtes pas exposé·e"
 
@@ -56,19 +63,3 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^medic-gestes]: [Street medics — Les gestes à adopter en manif (brochure)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf)
-
-[^allodocteurs-proteger]: [Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?](https://www.allodocteurs.fr/en-manifestation-comment-se-proteger-des-gaz-lacrymo-34599.html)
-
-[^abek]: [Fiche technique d'un masque complet ABEK1P3 (filtration P3, étanchéité)](https://medias.descours-cabaud.com/d180001/medias/docus/102/P701AS0_AIRPRO%20ABEK1P3%20%28MASQUE%20COMPLET_FT_FR_JANV%202026.pdf)
-
-[^cp-431-9-1]: [Code pénal, article 431-9-1 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669)
-
-[^visage-motif]: [Eurojuris — La dissimulation du visage à l'occasion de manifestations](https://www.eurojuris.fr/famille/categories/application-17442/articles/dissimulation-visage-loccasion-manifestations-sur-voie-publique-10833.htm)
-
-[^sp-controle]: [Service-Public — Contrôle d'identité](https://www.service-public.gouv.fr/particuliers/vosdroits/F1036)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)
-
-[^en166]: [Norme EN 166 : marquages des protections oculaires (domaine « 5 », résistance aux chocs)](https://docs.rs-online.com/1627/0900766b815b40cf.pdf)

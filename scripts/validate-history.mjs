@@ -20,6 +20,11 @@ let previous = '';
   if (e.kind && !kinds.includes(e.kind)) errors.push(`${at}: unknown kind "${e.kind}"`);
   if (e.url && !e.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (!e.description?.fr) errors.push(`${at}: missing French description`);
+  if (e.gains !== undefined) {
+    if (!e.gains.fr) errors.push(`${at}: gains needs a French text`);
+    if (e.gains.source && !e.gains.source.startsWith('https://'))
+      errors.push(`${at}: gains.source must use https`);
+  }
 });
 
 if (errors.length) {

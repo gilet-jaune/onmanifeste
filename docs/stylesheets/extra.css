@@ -906,35 +906,46 @@ select:focus-visible {
 }
 
 /* ==========================================================================
-   Install banner (Material announce bar, filled by docs/javascripts/pwa.js)
+   Install suggestion: small card at the bottom of the screen (docs/javascripts/pwa.js)
+   Shown now and then, never over emergency pages; closing it snoozes it for 14 days.
    ========================================================================== */
-.md-banner {
-  background-color: var(--ap-ink);
-  color: #f2f3f4;
-  border-bottom: 3px solid var(--ap-silver);
-}
-
-/* No empty black bar when the banner is hidden (installed, snoozed, unsupported). */
-.md-banner:has([data-pwa-banner][hidden]) {
-  display: none;
-}
-
 .pwa-banner {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 5;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.5rem 1rem;
-  font-size: 0.72rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: min(24rem, calc(100vw - 2rem));
+  padding: 0.8rem 2.4rem 0.8rem 0.9rem;
+  border: 3px solid var(--ap-ink);
+  border-top: 6px solid var(--ap-silver);
+  border-radius: var(--ap-radius);
+  background: var(--ap-ink);
+  color: #f2f3f4;
+  font-size: 0.7rem;
 }
 
 .pwa-banner[hidden] {
   display: none;
 }
 
+.pwa-banner__close {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 0;
+  background: none;
+  color: #f2f3f4;
+  font-size: 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
 .pwa-banner__text {
-  flex: 1 1 24rem;
-  max-width: 48rem;
   margin: 0;
   line-height: 1.45;
 }
@@ -962,6 +973,20 @@ select:focus-visible {
   background: var(--ap-vest);
   border-color: var(--ap-vest);
   color: var(--ap-ink);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .pwa-banner {
+    right: 0.5rem;
+    bottom: 0.5rem;
+    width: calc(100vw - 1rem);
+  }
+}
+
+@media print {
+  .pwa-banner {
+    display: none !important;
+  }
 }
 
 /* --- Directory: situations, counts, highlights --------------------------- */
@@ -1261,4 +1286,179 @@ select:focus-visible {
 .md-typeset .pocket__qr img {
   flex: none;
   background: #fff;
+}
+
+/* --- Gains (history page) ------------------------------------------------- */
+.md-typeset .timeline__gains {
+  margin-top: 0.4rem;
+  padding: 0.35rem 0.6rem;
+  border-left: 4px solid var(--ap-vest-deep);
+  background: var(--md-accent-fg-color--transparent);
+  font-size: 0.75rem;
+}
+
+[dir] .md-typeset ul.gains {
+  margin-left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+[dir] .md-typeset ul.gains > li {
+  display: grid;
+  grid-template-columns: 3.4rem 1fr;
+  gap: 0.6rem;
+  margin: 0 0 0.5rem;
+}
+
+.md-typeset .gains__year {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--ap-text);
+}
+
+/* ==========================================================================
+   Guided search "Je suis… et je veux…" (docs/javascripts/parcours.js)
+   ========================================================================== */
+.md-typeset .parcours__step {
+  margin: 0.8rem 0 0.6rem;
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+
+.parcours__input {
+  width: 100%;
+  min-height: 2.8rem;
+  padding: 0.6rem 0.9rem;
+  border: 3px solid var(--ap-line);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font: inherit;
+  font-size: 1rem;
+}
+
+.parcours__choices,
+.parcours__others {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.8rem 0;
+}
+
+.parcours__choice {
+  min-height: 2.4rem;
+  padding: 0.4rem 0.9rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.parcours__choice:hover {
+  background: var(--ap-ink);
+  color: var(--ap-vest);
+}
+
+.parcours__link {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--ap-text);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.md-typeset .parcours__crumb,
+.md-typeset .parcours__status {
+  color: var(--ap-muted);
+}
+
+.md-typeset .parcours__sentence {
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.md-typeset .parcours__urgent {
+  padding: 0.6rem 0.8rem;
+  border: 3px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  font-weight: 700;
+}
+
+.md-typeset .parcours__urgent a {
+  color: var(--ap-ink);
+}
+
+.parcours__results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 0.7rem;
+}
+
+.md-typeset .parcours__result {
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--ap-line);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+}
+
+.md-typeset .parcours__result h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.05rem;
+}
+
+.md-typeset .parcours__result--guide,
+.md-typeset .parcours__result--page {
+  border-left-width: 8px;
+  border-left-color: var(--ap-vest-deep);
+}
+
+.md-typeset .parcours__call {
+  display: inline-block;
+  margin-top: 0.3rem;
+  font-weight: 700;
+}
+
+.parcours__rotator {
+  padding: 0 0.3rem;
+  border: 0;
+  border-bottom: 4px solid var(--ap-ink);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+  font: inherit;
+  cursor: pointer;
+}
+
+[data-md-color-scheme='slate'] .parcours__rotator {
+  border-bottom-color: var(--ap-silver);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .parcours__rotator {
+    animation: parcours-fade 2.5s ease-in-out infinite;
+  }
+}
+
+@keyframes parcours-fade {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  12%,
+  88% {
+    opacity: 1;
+  }
 }

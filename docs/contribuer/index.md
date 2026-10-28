@@ -44,8 +44,14 @@ Règles :
     - `result` : `confirmed` (lien joignable, informations exactes) ou `unconfirmed` (impossible à confirmer : badge « Non confirmé » sur la carte, pas de numéro de téléphone autorisé).
     - `note` : obligatoire si `unconfirmed`, pour expliquer ce qui n'a pas pu être confirmé.
 - `url` est aussi la **source principale** de la description. Si la description affirme quelque chose qui vient d'ailleurs, ajoutez `sources` : `[{ "title": "…", "url": "https://…" }]`.
-- Dans les guides et conseils, chaque information factuelle ou juridique porte une note de bas de page (`[^id]`) vers sa source, listée dans la section « Sources » de la page.
+- Dans les guides et conseils, chaque information factuelle ou juridique porte une note de bas de page (`[^id]`). Les sources sont centralisées dans `docs/data/sources.json` (titre FR/EN, URL, date de vérification) : ajoutez-y la source une seule fois, puis citez-la par son identifiant dans n'importe quelle page.
+- Pour mentionner une ressource de l'annuaire dans un guide, utilisez `{% raw %}{{ res("id") }}{% endraw %}` (ou `{% raw %}{{ res("id", "texte du lien") }}{% endraw %}`) au lieu de coller son URL.
 - `phone` (facultatif) : uniquement un numéro public officiel (ligne d'urgence, permanence).
+
+## Traduire et faire relire
+
+- Chaque page anglaise (`page.en.md`) indique dans `source_commit` le commit de la page française qu'elle traduit. Si la page française change ensuite, la traduction est signalée comme en retard (CI, rapport hebdomadaire et avertissement sur la page). Après avoir mis à jour une traduction, remplacez `source_commit` par le dernier commit de la page française (`git log -1 --format=%H -- docs/…/page.md`).
+- Les pages juridiques ou médicales portent `review: juridique` ou `review: medical` et `review_status: pending`. Après relecture par un·e professionnel·le, passez à `review_status: reviewed` et ajoutez `reviewed_on: AAAA-MM-JJ` : le badge « pas encore relu » disparaît.
 
 ## Améliorer la recherche
 
@@ -57,6 +63,16 @@ Deux blocs du même fichier règlent la recherche de l'annuaire :
 Le tag `essentiel` alimente le raccourci « C'est ma première manif » : réservez-le à une poignée d'outils et de guides indispensables.
 
 Si une recherche courante ne donne rien, ajoutez un synonyme plutôt qu'un tag de plus.
+
+## Ajouter un parcours « Je suis… et je veux… »
+
+Les parcours sont dans `docs/data/parcours.json` : chaque profil (« Je suis… ») a des mots-clés pour la saisie et des besoins (« … et je veux… »). Chaque besoin liste des résultats :
+
+- `{ "resource": "id" }` : une ressource de l'annuaire ;
+- `{ "guide": "slug", "anchor": { "fr": "…", "en": "…" }, "label": { … } }` : une section de guide ;
+- `{ "page": "sos" | "carte" | "conseils", … }` ou `{ "directory": { "situation": "…" }, … }`.
+
+Ajoutez `"urgent": true` pour afficher le lien vers la page SOS. `npm run validate:data` vérifie que chaque ressource, situation et ancre existe, en français et en anglais.
 
 ## Vérifier
 

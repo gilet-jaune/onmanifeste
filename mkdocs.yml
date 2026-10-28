@@ -88,12 +88,22 @@ plugins:
           nav_translations:
             Accueil: Home
             Annuaire: Directory
+            Je suis… et je veux…: I am… and I want to…
             Guides express: Quick guides
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
+            Venir et repartir: Getting there and back
             Premiers secours: First aid
             Garde à vue: Police custody
             Filmer les forces de l'ordre: Film the police
+            Dispersion, sommations et nasse: Dispersal, warnings and kettling
+            Manifester sans la nationalité française: Protesting without French nationality
+            "Lycéen·nes : blocus, absences, sanctions": "High-school students: blockades, absences, sanctions"
+            Violences sexistes et harcèlement en ligne: Sexist violence and online harassment
+            Agressions par l'extrême droite: Far-right attacks
+            Grève, manif et travail: Strikes, protests and work
+            Organiser une manifestation: Organising a protest
+            S'informer et se former: Stay informed, get trained
             Éviter la désinformation: Avoid disinformation
             Convaincre ses proches: Talk to your loved ones
             Conseils pratiques: Practical tips
@@ -107,6 +117,7 @@ plugins:
       include_yaml:
         - docs/data/history.json
         - docs/data/resources.json
+        - docs/data/parcours.json
 
 extra_css:
   # Self-hosted at build time by the privacy plugin.
@@ -117,8 +128,11 @@ extra_javascript:
   - javascripts/extra.js
   - javascripts/directory.js
   - javascripts/pwa.js
+  - javascripts/parcours.js
 
 hooks:
+  - hooks/sources.py
+  - hooks/translations.py
   # Order matters: the CSP is injected before the service worker hashes the final HTML.
   - hooks/qrcode.py
   - hooks/csp.py
@@ -127,14 +141,24 @@ hooks:
 nav:
   - Accueil: index.md
   - SOS: sos/index.md
+  - Je suis… et je veux…: parcours/index.md
   - Annuaire: annuaire/index.md
   - Guides express:
       - guides/index.md
       - Ne jamais rester seul·e: guides/ne-pas-rester-seul.md
       - Kit et tenue de manif: guides/kit-manif.md
+      - Venir et repartir: guides/venir-repartir.md
       - Premiers secours: guides/premiers-secours.md
       - Garde à vue: guides/garde-a-vue.md
       - Filmer les forces de l'ordre: guides/filmer.md
+      - Dispersion, sommations et nasse: guides/dispersion.md
+      - Manifester sans la nationalité française: guides/etrangers.md
+      - "Lycéen·nes : blocus, absences, sanctions": guides/lyceens.md
+      - Violences sexistes et harcèlement en ligne: guides/violences-harcelement.md
+      - Agressions par l'extrême droite: guides/extreme-droite.md
+      - Grève, manif et travail: guides/travail.md
+      - Organiser une manifestation: guides/organiser.md
+      - S'informer et se former: guides/s-informer-se-former.md
       - Éviter la désinformation: guides/desinformation.md
       - Convaincre ses proches: guides/convaincre-ses-proches.md
   - Conseils pratiques: conseils/index.md

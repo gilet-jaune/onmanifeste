@@ -1,4 +1,5 @@
 ---
+source_commit: af74b7e80c0f7170baf327678f759c6ebc7cab77
 tags:
     - guides
     - disinformation
@@ -36,9 +37,3 @@ A method proposed by researcher Mike Caulfield.[^sift]
 ## Sources
 
 Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.
-
-[^sift]: [Mike Caulfield — SIFT (The Four Moves)](https://hapgood.us/2019/06/19/sift-the-four-moves/)
-
-[^afp-factuel]: [AFP Factuel](https://factuel.afp.com/)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)

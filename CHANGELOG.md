@@ -47,6 +47,33 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Repository widget no longer calls the GitHub API from visitors' browsers.
 - QR code to the published site on the pocket card (`hooks/qrcode.py`).
 - README passes awesome-lint (checked in CI).
+- Guided search "Je suis… et je veux…" (`docs/data/parcours.json`): 19 profiles, 51 needs, each
+- Guide "Venir et repartir" (public transport, car-sharing, bike, on foot, exit plan), RATP traffic
+- Install suggestion is now a small card at the bottom of the screen, shown from the second page view
+  or after 30 seconds, closable for 14 days, never on emergency pages.
+- Fixed: the first visit no longer reloads the page when the service worker takes control.
+- "Je suis…" step shows a rotating, clickable example (paused while typing, still with reduced
+- Guide "Agressions par l'extrême droite" (FR/EN, defensive), LICRA, SOS Racisme, SOS homophobie,
+- Kit guide: body protection (knee, elbow and wrist pads, shin guards, helmet) and a sourced warning
+- "S'informer et se former" guide (FR/EN) and "Se former & s'engager" category: ANV-COP21,
+  Alternatiba, Extinction Rebellion, Greenpeace local groups, LDH observatories, Amnesty training
+  booklet; social media tips; shortcut and guided-search profile.
+- Central registries: `sources.json` for citations (85 sources instead of 222 copies), `res()` macro
+  for directory links; translation freshness tracked with `source_commit` (MDN-style) and review
+  status in front matter.
+  that protective gear can be confiscated or used as evidence (art. 222-14-2).
+  La Horde, and a guided-search profile.
+  motion).
+  resource and an "en route" path.
+  leading to guide sections, resources and shortcuts; shareable URLs, back button, offline, no-JS
+  fallback, anchors validated in both languages.
+- Six new guides (FR/EN): dispersal and kettling, protesting without French nationality, high-school
+  students, sexist violence and online harassment, strikes and work, organising a protest.
+- 13 new resources (LDH dispersal sheet, Conseil d'État 2021, Service-Public pages on organising,
+  strikes and residence checks, Cimade, GISTI, CIDJ, 3919, 3018, PHAROS, CNIL) and two new
+  situations (foreign nationals, harassment).
+- Timeline: 9 new events and a `gains` field; "Ce que la rue a obtenu" section lists what movements
+  won.
 - `check: { date, result, note }` replaces `verified` + `status` on resources.
 - Agent documentation rewritten: project map, data model, workflows (resource, guide, history event,
   maintenance issue).

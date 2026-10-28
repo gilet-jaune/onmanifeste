@@ -57,6 +57,10 @@
       "description": {
         "fr": "Les interdictions de banquets républicains déclenchent une révolution : fin de la monarchie de Juillet, suffrage universel masculin, abolition de l'esclavage.",
         "en": "Bans on republican banquets spark a revolution: end of the July Monarchy, universal male suffrage, abolition of slavery."
+      },
+      "gains": {
+        "fr": "Suffrage universel masculin et abolition de l'esclavage dans les colonies (1848).",
+        "en": "Universal male suffrage and abolition of slavery in the colonies (1848)."
       }
     },
     {
@@ -137,6 +141,10 @@
       "description": {
         "fr": "Grèves avec occupations d'usines ; les accords de Matignon obtiennent congés payés, semaine de 40 heures et conventions collectives.",
         "en": "Strikes with factory occupations; the Matignon Agreements win paid holidays, the 40-hour week and collective agreements."
+      },
+      "gains": {
+        "fr": "Congés payés, semaine de 40 heures, conventions collectives et délégués du personnel.",
+        "en": "Paid holidays, 40-hour week, collective agreements and staff representatives."
       }
     },
     {
@@ -177,6 +185,68 @@
       "description": {
         "fr": "Révolte étudiante puis grève générale de millions de salarié·es ; hausse des salaires et droits syndicaux en entreprise.",
         "en": "Student revolt, then a general strike of millions; higher wages and union rights in workplaces."
+      },
+      "gains": {
+        "fr": "Accords de Grenelle : forte hausse du salaire minimum (SMIG) ; loi de décembre 1968 reconnaissant la section syndicale d'entreprise.",
+        "en": "Grenelle agreements: sharp rise of the minimum wage (SMIG); December 1968 law recognising union branches in companies.",
+        "source": "https://fr.wikipedia.org/wiki/Accords_de_Grenelle"
+      }
+    },
+    {
+      "date": "1970-08-26",
+      "title": "Naissance du MLF",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_de_lib%C3%A9ration_des_femmes",
+      "description": {
+        "fr": "Des militantes déposent une gerbe « à la femme du soldat inconnu » à l'Arc de Triomphe : acte fondateur du Mouvement de libération des femmes.",
+        "en": "Activists lay a wreath “to the unknown soldier's wife” at the Arc de Triomphe: founding act of the Women's Liberation Movement."
+      },
+      "gains": {
+        "fr": "Mobilisations (manifeste des 343, marches) qui aboutissent à la loi Veil légalisant l'IVG en 1975.",
+        "en": "Mobilisations (Manifesto of the 343, marches) leading to the 1975 Veil law legalising abortion.",
+        "source": "https://fr.wikipedia.org/wiki/Loi_Veil"
+      }
+    },
+    {
+      "date": "1971-10-28",
+      "title": "Lutte du Larzac",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Lutte_du_Larzac",
+      "description": {
+        "fr": "Dix ans de mobilisation de paysans et de soutiens contre l'extension d'un camp militaire sur le plateau du Larzac.",
+        "en": "Ten years of mobilisation by farmers and supporters against the expansion of a military camp on the Larzac plateau."
+      },
+      "gains": {
+        "fr": "Abandon du projet d'extension en 1981.",
+        "en": "Expansion project abandoned in 1981."
+      }
+    },
+    {
+      "date": "1980-01-30",
+      "title": "Plogoff",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Projet_de_centrale_nucl%C3%A9aire_de_Plogoff",
+      "description": {
+        "fr": "Les habitant·es de Plogoff (Finistère) s'opposent pendant des mois à l'enquête publique pour une centrale nucléaire.",
+        "en": "Residents of Plogoff (Brittany) oppose for months the public inquiry into a nuclear plant."
+      },
+      "gains": {
+        "fr": "Abandon du projet de centrale en 1981.",
+        "en": "Plant project abandoned in 1981."
+      }
+    },
+    {
+      "date": "1981-04-04",
+      "title": "Première grande marche homosexuelle à Paris",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Marche_des_fiert%C3%A9s_de_Paris",
+      "description": {
+        "fr": "Marche nationale pour les droits et libertés des homosexuel·les, ancêtre de la Marche des fiertés.",
+        "en": "National march for gay and lesbian rights and freedoms, forerunner of Paris Pride."
+      },
+      "gains": {
+        "fr": "Dépénalisation complète de l'homosexualité en 1982.",
+        "en": "Full decriminalisation of homosexuality in 1982."
       }
     },
     {
@@ -187,6 +257,11 @@
       "description": {
         "fr": "Partie de Marseille, elle rassemble 100 000 personnes à Paris le 3 décembre 1983.",
         "en": "Starting in Marseille, it gathers 100,000 people in Paris on 3 December 1983."
+      },
+      "gains": {
+        "fr": "Création en 1984 de la carte de résident valable dix ans.",
+        "en": "Creation in 1984 of the ten-year resident card.",
+        "source": "https://www.jean-jaures.org/publication/des-minguettes-a-lelysee-1983-la-marche-pour-legalite-et-contre-le-racisme/"
       }
     },
     {
@@ -197,6 +272,11 @@
       "description": {
         "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; la loi est retirée.",
         "en": "22-year-old student killed by police during protests against the Devaquet bill; the bill is withdrawn."
+      },
+      "gains": {
+        "fr": "Retrait du projet de loi Devaquet sur l'université.",
+        "en": "Withdrawal of the Devaquet university bill.",
+        "source": "https://fr.wikipedia.org/wiki/Loi_Devaquet"
       }
     },
     {
@@ -207,6 +287,10 @@
       "description": {
         "fr": "Grève massive contre le plan Juppé sur la Sécurité sociale et les retraites ; la réforme des régimes spéciaux est abandonnée.",
         "en": "Massive strike against the Juppé plan on social security and pensions; the special-schemes reform is dropped."
+      },
+      "gains": {
+        "fr": "Abandon de la réforme des régimes spéciaux de retraite.",
+        "en": "Special pension schemes reform dropped."
       }
     },
     {
@@ -227,6 +311,10 @@
       "description": {
         "fr": "Lycéen·nes et étudiant·es obtiennent le retrait du contrat première embauche.",
         "en": "High-school and university students win the withdrawal of the “first job contract”."
+      },
+      "gains": {
+        "fr": "Retrait du contrat première embauche (avril 2006).",
+        "en": "Withdrawal of the “first job contract” (April 2006)."
       }
     },
     {
@@ -250,6 +338,20 @@
       }
     },
     {
+      "date": "2018-01-17",
+      "title": "Notre-Dame-des-Landes",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Projet_d%27a%C3%A9roport_du_Grand_Ouest",
+      "description": {
+        "fr": "Après des décennies d'opposition et l'occupation de la ZAD, le gouvernement renonce à l'aéroport du Grand Ouest.",
+        "en": "After decades of opposition and the occupation of the ZAD, the government drops the Grand Ouest airport."
+      },
+      "gains": {
+        "fr": "Abandon du projet d'aéroport.",
+        "en": "Airport project abandoned."
+      }
+    },
+    {
       "date": "2018-11-17",
       "title": "Gilets jaunes",
       "kind": "mouvement-social",
@@ -257,6 +359,21 @@
       "description": {
         "fr": "Né contre la hausse des taxes sur le carburant, le mouvement occupe les ronds-points chaque samedi ; nombreuses blessures graves par LBD et grenades.",
         "en": "Born against fuel tax rises, the movement occupies roundabouts every Saturday; many serious injuries from LBD rounds and grenades."
+      },
+      "gains": {
+        "fr": "Annulation de la hausse des taxes sur les carburants prévue pour 2019 et mesures sociales d'environ 10 milliards d'euros (dont hausse de la prime d'activité).",
+        "en": "Planned 2019 fuel tax rise cancelled and social measures worth about €10 billion (including a higher in-work benefit).",
+        "source": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation"
+      }
+    },
+    {
+      "date": "2019-06-21",
+      "title": "Mort de Steve Maia Caniço",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_Steve_Maia_Cani%C3%A7o",
+      "description": {
+        "fr": "À Nantes, lors de la Fête de la musique, une intervention policière précède la chute dans la Loire de Steve Maia Caniço, 24 ans ; son corps est retrouvé en juillet.",
+        "en": "In Nantes, during the music festival, a police operation precedes the fall into the Loire of Steve Maia Caniço, 24; his body is found in July."
       }
     },
     {
@@ -267,6 +384,10 @@
       "description": {
         "fr": "Mobilisation contre l'article pénalisant la diffusion d'images de policiers ; le Conseil constitutionnel le censure en 2021.",
         "en": "Protests against the article penalizing sharing images of police; the Constitutional Council strikes it down in 2021."
+      },
+      "gains": {
+        "fr": "Censure par le Conseil constitutionnel de l'article pénalisant la diffusion d'images de policiers (2021).",
+        "en": "Article penalising sharing images of police struck down by the Constitutional Council (2021)."
       }
     },
     {
@@ -277,6 +398,36 @@
       "description": {
         "fr": "Quatorze journées nationales de grève et de manifestation ; la réforme est adoptée par l'article 49.3.",
         "en": "Fourteen national days of strikes and marches; the reform is passed using article 49.3."
+      }
+    },
+    {
+      "date": "2023-03-25",
+      "title": "Sainte-Soline",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/M%C3%A9gabassine",
+      "description": {
+        "fr": "Manifestation contre les « méga-bassines » agricoles dans les Deux-Sèvres, marquée par des affrontements et de nombreux blessés graves.",
+        "en": "Protest against agricultural “mega-basins” in Deux-Sèvres, marked by clashes and many seriously injured people."
+      }
+    },
+    {
+      "date": "2023-06-27",
+      "title": "Mort de Nahel Merzouk",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_Nahel_Merzouk",
+      "description": {
+        "fr": "Un adolescent de 17 ans est tué par un policier lors d'un contrôle routier à Nanterre ; plusieurs nuits de révoltes urbaines suivent.",
+        "en": "A 17-year-old is killed by a police officer during a traffic stop in Nanterre; several nights of urban uprisings follow."
+      }
+    },
+    {
+      "date": "2024-06-15",
+      "title": "Manifestations contre l'extrême droite",
+      "kind": "mouvement-social",
+      "url": "https://en.wikipedia.org/wiki/2024_French_protests_against_the_National_Rally",
+      "description": {
+        "fr": "Après la dissolution de l'Assemblée, des centaines de milliers de personnes manifestent dans toute la France contre l'extrême droite.",
+        "en": "After the dissolution of Parliament, hundreds of thousands march across France against the far right."
       }
     },
     {

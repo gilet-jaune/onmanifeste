@@ -27,7 +27,8 @@ og_image = (config.site_url ~ "assets/social/og.png") if config.site_url else
 <meta property="og:locale" content="{{ 'en_GB' if config.theme.language == 'en' else 'fr_FR' }}" />
 <meta name="twitter:card" content="summary_large_image" />
 {% endblock %} {% block content %} {#- Review badge for pages not yet checked by a professional
-(front matter: review: juridique|medical). #} {%- if page and page.meta and page.meta.review %}
+(front matter: review: juridique|medical). #} {%- if page and page.meta and page.meta.review and
+page.meta.review_status != 'reviewed' %}
 <p class="review-badge review-badge--{{ page.meta.review }}" role="note">
   <span class="review-badge__icon" aria-hidden="true">⚠</span>
   {%- if config.theme.language == 'en' %} Not yet reviewed by {{ 'a lawyer' if page.meta.review ==
@@ -36,9 +37,7 @@ og_image = (config.site_url ~ "assets/social/og.png") if config.site_url else
   page.meta.review == 'juridique' else 'un·e soignant·e' if page.meta.review == 'medical' else 'un·e
   professionnel·le' }}. Informations sourcées, à confirmer. {%- endif %}
 </p>
-{%- endif %} {{ super() }} {% endblock %} {% block announce %}
-<div class="pwa-banner" data-pwa-banner hidden></div>
-{% endblock %} {% block footer %}
+{%- endif %} {{ super() }} {% endblock %} {% block footer %}
 <!-- Single Unified Footer to prevent duplication -->
 <footer class="md-footer">
   <div class="md-footer-meta md-typeset">
@@ -107,4 +106,5 @@ og_image = (config.site_url ~ "assets/social/og.png") if config.site_url else
     </div>
   </div>
 </footer>
+<aside class="pwa-banner" data-pwa-banner hidden></aside>
 {% endblock %}

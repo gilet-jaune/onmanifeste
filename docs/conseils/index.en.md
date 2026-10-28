@@ -1,5 +1,7 @@
 ---
+source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
 review: juridique
+review_status: pending
 tags:
     - tips
     - rights
@@ -19,13 +21,13 @@ Once visited, this site works **without a network**: in your phone's browser, ch
 
 - In France, a protest is **notified** to the authorities (no authorisation needed); taking part in a protest that was not notified is not punished, taking part in a protest **banned** by decree carries a €135 fine.[^amnesty-droits]
 - Protective gear (goggles, scarf…) is not banned, but it must not be used to **cover your face**.[^amnesty-droits][^cp-431-9-1]
-- Details (in French): [Amnesty — Nos droits en manifestation](https://www.amnesty.fr/nos-droits-en-manifestation/).
+- Details (in French): {{ res("amnesty-droits-manifestation", "Amnesty — Nos droits en manifestation") }}.
 
 ## Before the protest
 
 - Use an encrypted messenger ([Signal](https://signal.org/)) and turn on **disappearing messages** in groups.[^eff-protest]
 - Lock your phone with a **PIN** rather than fingerprint or face.[^eff-protest]
-- Download an **offline** map ([Organic Maps](https://organicmaps.app/)) and a messenger that works without a network ([Briar](https://briarproject.org/)).
+- Download an **offline** map ([Organic Maps](https://organicmaps.app/)) and a messenger that works without a network ({{ res("briar") }}).
 - Write the number of a lawyer or a relative on paper (or on your arm).
 - Tell someone your route and when you expect to be back.
 
@@ -33,7 +35,7 @@ Once visited, this site works **without a network**: in your phone's browser, ch
 
 - ID, some cash, transport card.
 - Water (to drink and to rinse), snacks, personal medication.
-- Ski goggles (rather than suction swim goggles), a filtering mask, covering clothes, closed shoes. Details: [protest kit and outfit](../guides/kit-manif.md).[^allodocteurs-proteger]
+- Ski goggles (rather than suction swim goggles), a filtering mask, discreet protection under your clothes (knee pads, shin guards), covering clothes, closed shoes. Details: [protest kit and outfit](../guides/kit-manif.md).[^allodocteurs-proteger]
 - Saline single doses, plasters, a space blanket.
 - Power bank; phone locked with a PIN and charged.
 
@@ -50,7 +52,7 @@ Once visited, this site works **without a network**: in your phone's browser, ch
 
 ### Filming the police
 
-**Always film police interventions**: it is legal, officers have no special right over their image, and the footage is often used as evidence. Before publishing, **blur the faces and any distinctive feature of protesters** (tattoos, clothes, bags) and strip the metadata ([mat2](https://0xacab.org/jvoisin/mat2)). See the [Amnesty](https://www.amnesty.fr/actualites/filmer-photographier-enregistrer-les-forces-de-lordre/) and [LDH](https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf) fact sheets (in French).[^amnesty-filmer][^ldh-filmer][^signal-blur] Full method: [film the police](../guides/filmer.md).
+**Always film police interventions**: it is legal, officers have no special right over their image, and the footage is often used as evidence. Before publishing, **blur the faces and any distinctive feature of protesters** (tattoos, clothes, bags) and strip the metadata ({{ res("mat2") }}). See the {{ res("amnesty-filmer-police", "Amnesty") }} and {{ res("ldh-filmer-police", "LDH") }} fact sheets (in French).[^amnesty-filmer][^ldh-filmer][^signal-blur] Full method: [film the police](../guides/filmer.md).
 
 - Emergency: call **112**.
 
@@ -58,20 +60,20 @@ Once visited, this site works **without a network**: in your phone's browser, ch
 
 - You have the **right to remain silent**, the right to a **lawyer**, to a **doctor** and to have **someone notified**.[^sp-gav]
 - Don't sign a statement you disagree with.
-- The Syndicat de la magistrature's [Guide du manifestant arrêté](https://www.syndicat-magistrature.fr/) (in French) details the procedure.[^sm-guide]
+- The Syndicat de la magistrature's {{ res("guide-manifestant-arrete", "Guide du manifestant arrêté") }} (in French) details the procedure.[^sm-guide]
 
 ## After custody
 
-- Contact a **legal team** or a local anti-repression collective: they refer you to lawyers used to protest cases and follow up. In the Paris region: [Legal Team Paris–IDF](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr) (**07 52 95 71 11**, Signal preferred). Elsewhere: [list of local collectives (RAJCOL)](https://rajcollective.noblogs.org/les-collectifs-locaux/).[^legal-team]
+- Contact a **legal team** or a local anti-repression collective: they refer you to lawyers used to protest cases and follow up. In the Paris region: {{ res("legal-team-paris") }} (**07 52 95 71 11**, Signal preferred). Elsewhere: {{ res("rajcol", "list of local collectives (RAJCOL)") }}.[^legal-team]
 - Quickly write down what happened (times, places, badge numbers, witnesses) and keep the documents you were given.
-- If you are summoned or tried in a [fast-track trial (comparution immédiate)](https://www.service-public.gouv.fr/particuliers/vosdroits/F32129), you can ask for more time to prepare your defence.[^sp-ci]
-- Lawyer's fees: [legal aid (aide juridictionnelle)](https://www.service-public.gouv.fr/particuliers/vosdroits/F18074) depending on your income, or anti-repression solidarity funds.[^sp-aj]
+- If you are summoned or tried in a {{ res("sp-comparution-immediate", "fast-track trial (comparution immédiate)") }}, you can ask for more time to prepare your defence.[^sp-ci]
+- Lawyer's fees: {{ res("sp-aide-juridictionnelle", "legal aid (aide juridictionnelle)") }} depending on your income, or anti-repression solidarity funds.[^sp-aj]
 - Violence or misconduct by security forces: have your injuries recorded by a doctor (certificate with ITT), gather witnesses and videos, then:[^ldh-violences]
     - **file a complaint** (police station, gendarmerie or letter to the public prosecutor);
-    - **report** the facts to the IGPN (police) or the [IGGN](https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn) (gendarmerie) — a report is **not** a complaint;[^iggn]
-    - refer the matter to the [Défenseur des droits](https://www.defenseurdesdroits.fr/).[^ddd]
-    - Step-by-step guide (in French): [LDH — Que faire face aux violences policières ?](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf)
-- Psychological after-effects are common after violence or custody. [France Victimes](https://www.france-victimes.fr/) offers free listening on **116 006**.[^france-victimes]
+    - **report** the facts to the IGPN (police) or the {{ res("iggn-signalement", "IGGN") }} (gendarmerie) — a report is **not** a complaint;[^iggn]
+    - refer the matter to the {{ res("defenseur-des-droits") }}.[^ddd]
+    - Step-by-step guide (in French): {{ res("ldh-que-faire-violences", "LDH — Que faire face aux violences policières ?") }}
+- Psychological after-effects are common after violence or custody. {{ res("france-victimes", "France Victimes") }} offers free listening on **116 006**.[^france-victimes]
 
 All these resources: [directory filtered on `soutien-gav`](../annuaire/index.md?tags=soutien-gav).
 
@@ -89,53 +91,15 @@ Custody of a minor comes with reinforced safeguards:[^sp-mineur]
 - A lawyer is mandatory for a minor: if you don't know one, a court-appointed lawyer will be assigned.[^sp-mineur]
 - After custody, keep all documents given to you and write down your child's account straight away.
 
-Useful resources: [Défenseur des droits](https://www.defenseurdesdroits.fr/) (children's rights, police ethics) and the [directory filtered on `lyceens`](../annuaire/index.md?tags=lyceens).
+Useful resources: {{ res("defenseur-des-droits") }} (children's rights, police ethics) and the [directory filtered on `lyceens`](../annuaire/index.md?tags=lyceens).
 
 ## Protesting with a disability
 
 - Ask the organisers about an **accessible section or meeting point** and an "accessibility" contact.
 - Plan accessible transport, toilets and quiet places to step back to.
 - Go with someone if possible; bring ear defenders if you are sensitive to noise.
-- Read (in French): [Manifs et handicap, le long parcours du combattant (Reporterre)](https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant).[^reporterre-handicap]
+- Read (in French): {{ res("reporterre-manifs-handicap", "Manifs et handicap, le long parcours du combattant (Reporterre)") }}.[^reporterre-handicap]
 
 ## Sources
 
 Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.
-
-[^amnesty-droits]: [Amnesty International France — Nos droits en manifestation](https://www.amnesty.fr/nos-droits-en-manifestation/)
-
-[^cp-431-9-1]: [Code pénal, article 431-9-1 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669)
-
-[^eff-protest]: [EFF Surveillance Self-Defense — Attending a protest](https://ssd.eff.org/module/attending-protest)
-
-[^allodocteurs-proteger]: [Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?](https://www.allodocteurs.fr/en-manifestation-comment-se-proteger-des-gaz-lacrymo-34599.html)
-
-[^medic-gestes]: [Street medics — Les gestes à adopter en manif (brochure)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf)
-
-[^amnesty-filmer]: [Amnesty International France — Filmer, photographier, enregistrer les forces de l'ordre](https://www.amnesty.fr/actualites/filmer-photographier-enregistrer-les-forces-de-lordre/)
-
-[^ldh-filmer]: [LDH — Filmer les forces de l'ordre (fiche, 2021)](https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf)
-
-[^signal-blur]: [Signal — Blur tools](https://signal.org/blog/blur-tools/)
-
-[^sp-gav]: [Service-Public — Garde à vue](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837)
-
-[^sm-guide]: [Syndicat de la magistrature — Guide du manifestant arrêté](https://www.syndicat-magistrature.fr/)
-
-[^legal-team]: [Legal Team Paris–IDF — La ligne antirep est ouverte](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr)
-
-[^sp-ci]: [Service-Public — Comparution immédiate](https://www.service-public.gouv.fr/particuliers/vosdroits/F32129)
-
-[^sp-aj]: [Service-Public — Aide juridictionnelle](https://www.service-public.gouv.fr/particuliers/vosdroits/F18074)
-
-[^ldh-violences]: [LDH — Que faire face aux violences policières ? (avril 2026)](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf)
-
-[^iggn]: [Gendarmerie — Plateforme de signalement de l'IGGN](https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn)
-
-[^ddd]: [Défenseur des droits](https://www.defenseurdesdroits.fr/)
-
-[^france-victimes]: [France Victimes — 116 006](https://www.france-victimes.fr/)
-
-[^sp-mineur]: [Service-Public — Retenue ou garde à vue d'un mineur](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469)
-
-[^reporterre-handicap]: [Reporterre — Manifs et handicap, le long parcours du combattant](https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant)

@@ -30,6 +30,8 @@ jobs:
     steps:
       - name: Checkout Repository 📥
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # full history: translation freshness compares commits
 
       - name: Set Up Node.js 🔧
         uses: actions/setup-node@v6

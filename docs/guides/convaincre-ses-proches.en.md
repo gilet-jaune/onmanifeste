@@ -1,4 +1,5 @@
 ---
+source_commit: af74b7e80c0f7170baf327678f759c6ebc7cab77
 tags:
     - guides
     - dialogue
@@ -38,7 +39,3 @@ You rarely change someone's mind in one conversation, and almost never by being 
 ## Sources
 
 Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.
-
-[^deep-canvassing]: [Deep canvassing (Wikipedia), dont Broockman & Kalla, Science, 2016](https://en.wikipedia.org/wiki/Deep_canvassing)
-
-[^truth-sandwich]: [Truth sandwich (Wikipedia)](https://en.wikipedia.org/wiki/Truth_sandwich)

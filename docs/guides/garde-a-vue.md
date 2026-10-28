@@ -1,5 +1,6 @@
 ---
 review: juridique
+review_status: pending
 tags:
     - guides
     - garde à vue
@@ -44,7 +45,7 @@ Durée : **24 heures**, renouvelable une fois (48 heures) pour la plupart des fa
 - Les auditions sont enregistrées en vidéo.[^sp-mineur]
 - Avant 13 ans, pas de garde à vue (seulement une retenue, très encadrée).[^sp-mineur]
 
-[:octicons-arrow-right-24: Fiche officielle : garde à vue d'un mineur](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469)
+{{ res("sp-garde-a-vue-mineur", ":octicons-arrow-right-24: Fiche officielle : garde à vue d'un mineur") }}
 
 ## À la sortie
 
@@ -58,21 +59,3 @@ Durée : **24 heures**, renouvelable une fois (48 heures) pour la plupart des fa
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
-
-[^sp-gav]: [Service-Public — Garde à vue](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837)
-
-[^sp-gav-2024]: [Service-Public — Réforme de la garde à vue au 1er juillet 2024](https://www.service-public.gouv.fr/particuliers/actualites/A17075)
-
-[^cpp-55-1]: [Code de procédure pénale, article 55-1 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441923)
-
-[^cpp-706-56]: [Code de procédure pénale, article 706-56 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053035)
-
-[^cp-434-15-2]: [Code pénal, article 434-15-2 (Légifrance)](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418646)
-
-[^cass-2022]: [Cour de cassation, chambre criminelle, 7 novembre 2022, n° 21-83.146](https://www.legifrance.gouv.fr/juri/id/JURITEXT000046583035)
-
-[^sp-mineur]: [Service-Public — Retenue ou garde à vue d'un mineur](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469)
-
-[^sp-ci]: [Service-Public — Comparution immédiate](https://www.service-public.gouv.fr/particuliers/vosdroits/F32129)
-
-[^legal-team]: [Legal Team Paris–IDF — La ligne antirep est ouverte](https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr)

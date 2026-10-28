@@ -3,7 +3,8 @@
 # =========================================================================
 # Every Monday:
 # 1. Builds the site and checks every link (lychee)
-# 2. Lists resources whose last check is older than 12 months or unconfirmed
+# 2. Lists resources and sources whose last check is older than 12 months or unconfirmed,
+#    and English pages lagging behind their French original
 # 3. Opens (or updates) a single "maintenance" issue when something needs
 #    attention, and closes it when everything is fine again
 # =========================================================================
@@ -34,6 +35,8 @@ jobs:
     steps:
       - name: Checkout Repository 📥
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # full history: translation freshness compares commits
 
       - name: Set Up Python 🔧
         uses: actions/setup-python@v6
@@ -64,12 +67,18 @@ jobs:
         id: stale
         run: echo "count=$(node scripts/stale-report.mjs stale-report.md)" >> "$GITHUB_OUTPUT"
 
+      - name: Outdated Translations 🌍
+        id: translations
+        run: |
+          node scripts/validate-pages.mjs --report translations-report.md
+          echo "outdated=$(grep -c '^- ' translations-report.md || true)" >> "$GITHUB_OUTPUT"
+
       - name: Open, Update or Close the Maintenance Issue 📝
         run: |
           gh label create maintenance --color FFE600 --description "Weekly link and verification check" 2>/dev/null || true
           EXISTING=$(gh issue list --label maintenance --state open --json number --jq '.[0].number')
 
-          if [[ "${{ steps.lychee.outputs.exit_code }}" == "0" && "${{ steps.stale.outputs.count }}" == "0" ]]; then
+          if [[ "${{ steps.lychee.outputs.exit_code }}" == "0" && "${{ steps.stale.outputs.count }}" == "0" && "${{ steps.translations.outputs.outdated }}" == "0" ]]; then
             echo "✅ Nothing to report"
             if [[ -n "$EXISTING" ]]; then
               gh issue close "$EXISTING" --comment "✅ Vérification du $(date +%F) : tous les liens répondent et aucune ressource n'est périmée."
@@ -83,6 +92,10 @@ jobs:
             echo "## Ressources à revérifier"
             echo
             cat stale-report.md
+            echo
+            echo "## Traductions"
+            echo
+            cat translations-report.md
             echo
             echo "## Liens"
             echo

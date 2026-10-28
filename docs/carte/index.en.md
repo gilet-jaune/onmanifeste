@@ -1,5 +1,7 @@
 ---
+source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
 review: juridique
+review_status: pending
 tags:
     - emergency
 hide:
@@ -58,4 +60,4 @@ I move away facing the wind, I don't rub, I rinse with saline.
 
 </div>
 
-Sources (in French): [emergency numbers]({{ emergency_source.url }}), [custody (Service-Public)](https://www.service-public.gouv.fr/particuliers/vosdroits/F14837), [minors (Service-Public)](https://www.service-public.gouv.fr/particuliers/vosdroits/F1469), [first moves (street medics)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf).
+Sources (in French): [emergency numbers]({{ emergency_source.url }}), {{ res("sp-garde-a-vue", "custody (Service-Public)") }}, {{ res("sp-garde-a-vue-mineur", "minors (Service-Public)") }}, {{ res("medic-gestes-manif", "first moves (street medics)") }}.

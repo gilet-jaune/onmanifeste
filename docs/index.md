@@ -7,7 +7,7 @@ tags:
 
 Une liste collaborative d'**outils et de ressources utiles pour manifester en France** : communication sécurisée, sécurité numérique, aide juridique (notamment pour les lycéen·nes), information et organisation.
 
-[:material-phone-alert: SOS : numéros d'urgence et legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Carte de poche à imprimer](carte/index.md){ .md-button }
+[:material-compass: Je suis… et je veux…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS : numéros d'urgence et legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Carte de poche à imprimer](carte/index.md){ .md-button }
 
 <div class="grid cards" markdown="1">
 
@@ -23,7 +23,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     ***
 
-    Sept fiches à lire avant de partir : ne pas rester seul·e, kit, premiers secours, garde à vue, filmer la police, désinformation, convaincre ses proches. Disponibles hors ligne.
+    Seize fiches courtes : sécurité en manif, venir et repartir, kit, premiers secours, garde à vue, dispersion, filmer la police, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation, convaincre ses proches. Disponibles hors ligne.
 
     [:octicons-arrow-right-24: Lire les guides](guides/index.md)
 
@@ -39,7 +39,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     ***
 
-    De la prise de la Bastille aux mobilisations d'aujourd'hui : les dates qui ont forgé le droit de manifester.
+    De la prise de la Bastille aux mobilisations d'aujourd'hui, et ce que la rue a obtenu : congés payés, droit de vote, lois retirées.
 
     [:octicons-arrow-right-24: Voir la frise](histoire/index.md)
 

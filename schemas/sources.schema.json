@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome Protest sources (citations used as footnotes)",
+  "type": "object",
+  "required": ["sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "sources": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["title", "url", "check"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "$ref": "#/$defs/localized" },
+          "url": {
+            "oneOf": [
+              { "type": "string", "pattern": "^https://" },
+              {
+                "type": "object",
+                "required": ["fr", "en"],
+                "properties": {
+                  "fr": { "type": "string", "pattern": "^https://" },
+                  "en": { "type": "string", "pattern": "^https://" }
+                }
+              }
+            ]
+          },
+          "check": { "$ref": "resources.schema.json#/properties/resources/items/properties/check" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["fr", "en"],
+      "properties": { "fr": { "type": "string" }, "en": { "type": "string" } }
+    }
+  }
+}
