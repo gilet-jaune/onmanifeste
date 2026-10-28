@@ -1,0 +1,293 @@
+{
+  "$schema": "../../schemas/history.schema.json",
+  "kinds": {
+    "soulevement": {
+      "fr": "Soulèvement",
+      "en": "Uprising"
+    },
+    "droit": {
+      "fr": "Conquête de droits",
+      "en": "Rights won"
+    },
+    "mouvement-social": {
+      "fr": "Mouvement social",
+      "en": "Social movement"
+    },
+    "repression": {
+      "fr": "Répression",
+      "en": "Repression"
+    }
+  },
+  "events": [
+    {
+      "date": "1789-07-14",
+      "title": "Prise de la Bastille",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille",
+      "description": {
+        "fr": "Le peuple de Paris prend la forteresse-prison de la Bastille, symbole de l'arbitraire royal. Acte fondateur de la Révolution française, devenu fête nationale.",
+        "en": "Parisians storm the Bastille prison, symbol of royal arbitrary rule. Founding act of the French Revolution, now the national holiday."
+      }
+    },
+    {
+      "date": "1789-08-26",
+      "title": "Déclaration des droits de l'homme et du citoyen",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/D%C3%A9claration_des_droits_de_l%27homme_et_du_citoyen_de_1789",
+      "description": {
+        "fr": "Ses articles 10 et 11 garantissent la liberté d'opinion et d'expression ; elle fait toujours partie de la Constitution.",
+        "en": "Its articles 10 and 11 guarantee freedom of opinion and expression; it is still part of the Constitution."
+      }
+    },
+    {
+      "date": "1830-07-27",
+      "title": "Les Trois Glorieuses",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/Trois_Glorieuses",
+      "description": {
+        "fr": "Trois jours d'insurrection parisienne renversent Charles X après ses ordonnances contre la liberté de la presse.",
+        "en": "Three days of uprising in Paris topple Charles X after his decrees against press freedom."
+      }
+    },
+    {
+      "date": "1848-02-22",
+      "title": "Révolution de février 1848",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise_de_1848",
+      "description": {
+        "fr": "Les interdictions de banquets républicains déclenchent une révolution : fin de la monarchie de Juillet, suffrage universel masculin, abolition de l'esclavage.",
+        "en": "Bans on republican banquets spark a revolution: end of the July Monarchy, universal male suffrage, abolition of slavery."
+      }
+    },
+    {
+      "date": "1871-03-18",
+      "title": "Commune de Paris",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/Commune_de_Paris",
+      "description": {
+        "fr": "Paris se gouverne pendant 72 jours ; la « Semaine sanglante » réprime la Commune dans le sang en mai 1871.",
+        "en": "Paris governs itself for 72 days; the “Bloody Week” crushes the Commune in May 1871."
+      }
+    },
+    {
+      "date": "1881-06-30",
+      "title": "Loi sur la liberté de réunion",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/Libert%C3%A9_de_r%C3%A9union_en_France",
+      "description": {
+        "fr": "Les réunions publiques deviennent libres, sans autorisation préalable.",
+        "en": "Public meetings become free, with no prior authorization."
+      }
+    },
+    {
+      "date": "1884-03-21",
+      "title": "Loi Waldeck-Rousseau",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/Loi_Waldeck-Rousseau",
+      "description": {
+        "fr": "Légalise les syndicats professionnels.",
+        "en": "Legalizes trade unions."
+      }
+    },
+    {
+      "date": "1891-05-01",
+      "title": "Fusillade de Fourmies",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Fusillade_de_Fourmies",
+      "description": {
+        "fr": "La troupe tire sur une manifestation ouvrière du 1er Mai pour la journée de huit heures : neuf morts, dont des jeunes.",
+        "en": "Troops fire on a May Day workers' march for the eight-hour day: nine dead, including young people."
+      }
+    },
+    {
+      "date": "1901-07-01",
+      "title": "Loi sur les associations",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/Loi_du_1er_juillet_1901_relative_au_contrat_d%27association",
+      "description": {
+        "fr": "Liberté de créer une association sans autorisation : le cadre juridique de la plupart des collectifs actuels.",
+        "en": "Freedom to found an association without authorization: the legal basis of most of today's collectives."
+      }
+    },
+    {
+      "date": "1934-02-06",
+      "title": "Crise du 6 février 1934",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/Crise_du_6_f%C3%A9vrier_1934",
+      "description": {
+        "fr": "Manifestation des ligues d'extrême droite devant l'Assemblée ; en réaction, la gauche s'unit contre le fascisme.",
+        "en": "Far-right leagues riot outside Parliament; in response, the left unites against fascism."
+      }
+    },
+    {
+      "date": "1935-10-23",
+      "title": "Décret-loi du 23 octobre 1935",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/D%C3%A9cret-loi_du_23_octobre_1935",
+      "description": {
+        "fr": "Instaure la déclaration préalable des manifestations en préfecture, toujours en vigueur (Code de la sécurité intérieure).",
+        "en": "Introduces prior notification of demonstrations to the prefecture, still in force today."
+      }
+    },
+    {
+      "date": "1936-06-07",
+      "title": "Front populaire et grèves de 1936",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Front_populaire_%28France%29",
+      "description": {
+        "fr": "Grèves avec occupations d'usines ; les accords de Matignon obtiennent congés payés, semaine de 40 heures et conventions collectives.",
+        "en": "Strikes with factory occupations; the Matignon Agreements win paid holidays, the 40-hour week and collective agreements."
+      }
+    },
+    {
+      "date": "1946-10-27",
+      "title": "Préambule de la Constitution de 1946",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/Pr%C3%A9ambule_de_la_Constitution_du_27_octobre_1946",
+      "description": {
+        "fr": "Reconnaît le droit de grève et la liberté syndicale, toujours de valeur constitutionnelle.",
+        "en": "Recognizes the right to strike and union freedom, still constitutional today."
+      }
+    },
+    {
+      "date": "1961-10-17",
+      "title": "Massacre du 17 octobre 1961",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Massacre_du_17_octobre_1961",
+      "description": {
+        "fr": "La police réprime une manifestation pacifique d'Algérien·nes à Paris : des dizaines de morts, longtemps niés.",
+        "en": "Police crack down on a peaceful march of Algerians in Paris: dozens killed, long denied."
+      }
+    },
+    {
+      "date": "1962-02-08",
+      "title": "Métro Charonne",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Affaire_de_la_station_de_m%C3%A9tro_Charonne",
+      "description": {
+        "fr": "Neuf manifestant·es contre l'OAS et la guerre d'Algérie meurent lors de la répression policière.",
+        "en": "Nine people protesting the OAS and the Algerian War die in a police crackdown."
+      }
+    },
+    {
+      "date": "1968-05-03",
+      "title": "Mai 68",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Mai_68",
+      "description": {
+        "fr": "Révolte étudiante puis grève générale de millions de salarié·es ; hausse des salaires et droits syndicaux en entreprise.",
+        "en": "Student revolt, then a general strike of millions; higher wages and union rights in workplaces."
+      }
+    },
+    {
+      "date": "1983-10-15",
+      "title": "Marche pour l'égalité et contre le racisme",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Marche_pour_l%27%C3%A9galit%C3%A9_et_contre_le_racisme",
+      "description": {
+        "fr": "Partie de Marseille, elle rassemble 100 000 personnes à Paris le 3 décembre 1983.",
+        "en": "Starting in Marseille, it gathers 100,000 people in Paris on 3 December 1983."
+      }
+    },
+    {
+      "date": "1986-12-06",
+      "title": "Mort de Malik Oussekine",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Affaire_Malik_Oussekine",
+      "description": {
+        "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; la loi est retirée.",
+        "en": "22-year-old student killed by police during protests against the Devaquet bill; the bill is withdrawn."
+      }
+    },
+    {
+      "date": "1995-11-24",
+      "title": "Grèves de 1995",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ves_de_1995_en_France",
+      "description": {
+        "fr": "Grève massive contre le plan Juppé sur la Sécurité sociale et les retraites ; la réforme des régimes spéciaux est abandonnée.",
+        "en": "Massive strike against the Juppé plan on social security and pensions; the special-schemes reform is dropped."
+      }
+    },
+    {
+      "date": "2005-10-27",
+      "title": "Révoltes urbaines de 2005",
+      "kind": "soulevement",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89meutes_de_2005_dans_les_banlieues_fran%C3%A7aises",
+      "description": {
+        "fr": "Après la mort de Zyed Benna et Bouna Traoré à Clichy-sous-Bois, révoltes dans les quartiers populaires ; état d'urgence.",
+        "en": "After the deaths of Zyed Benna and Bouna Traoré in Clichy-sous-Bois, uprisings in working-class suburbs; state of emergency."
+      }
+    },
+    {
+      "date": "2006-03-07",
+      "title": "Mouvement anti-CPE",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_anti-CPE",
+      "description": {
+        "fr": "Lycéen·nes et étudiant·es obtiennent le retrait du contrat première embauche.",
+        "en": "High-school and university students win the withdrawal of the “first job contract”."
+      }
+    },
+    {
+      "date": "2014-10-26",
+      "title": "Mort de Rémi Fraisse",
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
+      "description": {
+        "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie au barrage de Sivens.",
+        "en": "21-year-old environmental activist killed by a gendarmerie grenade at the Sivens dam."
+      }
+    },
+    {
+      "date": "2016-03-31",
+      "title": "Nuit debout",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Nuit_debout",
+      "description": {
+        "fr": "Occupations de places nuit après nuit, nées du mouvement contre la loi Travail.",
+        "en": "Night-after-night square occupations born from the protests against the labour law."
+      }
+    },
+    {
+      "date": "2018-11-17",
+      "title": "Gilets jaunes",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes",
+      "description": {
+        "fr": "Né contre la hausse des taxes sur le carburant, le mouvement occupe les ronds-points chaque samedi ; nombreuses blessures graves par LBD et grenades.",
+        "en": "Born against fuel tax rises, the movement occupies roundabouts every Saturday; many serious injuries from LBD rounds and grenades."
+      }
+    },
+    {
+      "date": "2020-11-17",
+      "title": "Loi « sécurité globale »",
+      "kind": "droit",
+      "url": "https://fr.wikipedia.org/wiki/Loi_pour_une_s%C3%A9curit%C3%A9_globale_pr%C3%A9servant_les_libert%C3%A9s",
+      "description": {
+        "fr": "Mobilisation contre l'article pénalisant la diffusion d'images de policiers ; le Conseil constitutionnel le censure en 2021.",
+        "en": "Protests against the article penalizing sharing images of police; the Constitutional Council strikes it down in 2021."
+      }
+    },
+    {
+      "date": "2023-01-19",
+      "title": "Réforme des retraites 2023",
+      "kind": "mouvement-social",
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_social_contre_la_r%C3%A9forme_des_retraites_en_France_de_2023",
+      "description": {
+        "fr": "Quatorze journées nationales de grève et de manifestation ; la réforme est adoptée par l'article 49.3.",
+        "en": "Fourteen national days of strikes and marches; the reform is passed using article 49.3."
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "title": "Mouvement lycéen de 2026",
+      "kind": "mouvement-social",
+      "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/",
+      "description": {
+        "fr": "Blocus de lycées pour plus d'enseignant·es et de moyens ; des milliers de gardes à vue, très majoritairement de mineur·es.",
+        "en": "School blockades for more teachers and resources; thousands taken into custody, mostly minors."
+      }
+    }
+  ]
+}

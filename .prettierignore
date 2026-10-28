@@ -1,0 +1,11 @@
+site/
+.github/workflows/
+package-output.json
+requirements.txt
+.gitignore
+
+# Often has a specific format that Prettier might break (e.g., date headers)
+CHANGELOG.md
+!.agent
+.cache/
+overrides/partials/

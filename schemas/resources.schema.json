@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Awesome Protest resources",
+  "type": "object",
+  "required": ["categories", "resources"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "#/$defs/localized"
+      }
+    },
+    "emergency": {
+      "type": "array",
+      "description": "Official emergency numbers shown on the SOS page and the pocket card.",
+      "items": {
+        "type": "object",
+        "required": ["number", "label", "detail"],
+        "additionalProperties": false,
+        "properties": {
+          "number": {
+            "type": "string",
+            "pattern": "^[0-9]+$"
+          },
+          "display": {
+            "type": "string"
+          },
+          "label": {
+            "$ref": "#/$defs/localized"
+          },
+          "detail": {
+            "$ref": "#/$defs/localized"
+          }
+        }
+      }
+    },
+    "emergency_source": {
+      "type": "object",
+      "required": ["title", "url"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        }
+      }
+    },
+    "situations": {
+      "type": "array",
+      "description": "Shortcuts shown above the search: a resource matches if it has any listed tag or category.",
+      "items": {
+        "type": "object",
+        "required": ["id", "label"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "label": {
+            "$ref": "#/$defs/localized"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "synonyms": {
+      "type": "object",
+      "description": "Search expansions: normalized query word (no accents, lowercase) -> tags or words it should also match.",
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "resources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "url", "category", "tags", "description", "check"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://",
+            "description": "Official page of the resource; also the primary source of its description."
+          },
+          "phone": {
+            "type": "string",
+            "pattern": "^\\+?[0-9 ]+$",
+            "description": "Optional hotline number"
+          },
+          "category": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+            }
+          },
+          "description": {
+            "$ref": "#/$defs/localized"
+          },
+          "sources": {
+            "type": "array",
+            "description": "Extra sources backing claims in the description that do not come from `url` itself.",
+            "items": {
+              "type": "object",
+              "required": ["title", "url"],
+              "additionalProperties": false,
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "url": {
+                  "type": "string",
+                  "pattern": "^https://"
+                }
+              }
+            }
+          },
+          "check": {
+            "type": "object",
+            "description": "Last human check of the link and the information.",
+            "required": ["date", "result"],
+            "additionalProperties": false,
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+                "description": "When the check was done (YYYY-MM-DD)."
+              },
+              "result": {
+                "enum": ["confirmed", "unconfirmed"],
+                "description": "confirmed: link reachable and information matches; unconfirmed: could not be confirmed (shown as a warning badge)."
+              },
+              "note": {
+                "type": "string",
+                "description": "Required when result is unconfirmed: what could not be confirmed and why."
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "localized": {
+      "type": "object",
+      "required": ["fr"],
+      "properties": {
+        "fr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -1,0 +1,42 @@
+# Markdownlint Configuration for Awesome Protest
+# -----------------------------------------------------------------------------
+# ⚠️ ARCHITECTURAL NOTE:
+# Prettier is currently the authoritative formatter for this project.
+# To satisfy MkDocs Material Grid Layouts, Prettier is configured with a
+# "Quirk" in .prettierrc.yaml: it uses 4 spaces for files in /docs and
+# 2 spaces for files in the root.
+# -----------------------------------------------------------------------------
+# Consequently, some linting rules (Indentation, Rule Consistency, Line Length)
+# are DISABLED here so they don't conflict with Prettier's formatting passes.
+
+MD013: false # Line length (Managed by Prettier's printWidth)
+MD007: false # Indentation (Managed by Prettier's path-specific tabWidth)
+MD004: false # Bullet point style (Managed by Prettier)
+MD035: false # Horizontal rule style (Disabled to allow both --- and *** coexistence)
+MD046: false # Code block style (Disable to allow indented admonition content)
+
+MD033: false # Inline HTML (Used for grid cards)
+MD024: false # Multiple headers with same content (allowed for sections)
+MD041: false # First line in file should be a top level header (frontmatter is first)
+MD001: false # Heading levels increment (intentional style)
+MD036: false # No emphasis as heading (intentional style)
+MD010: true # No hard tabs (crucial for mkdocs)
+MD034: true # No bare URLs (forces angle brackets or named links)
+MD045: true # Images must have alt text (accessibility)
+
+MD002: true # First heading should be a level 1 heading
+MD005: true # Inconsistent indentation for list items
+MD009: true # No trailing spaces
+MD012: true # No multiple consecutive blank lines
+MD018: true # No header without space after hash
+MD019: true # No multiple spaces after hash in header
+MD022: true # Headers should be surrounded by blank lines
+MD025: true # Single title per document
+MD026: true # No trailing punctuation in headers
+MD031: true # Fenced code blocks should be surrounded by blank lines
+MD032: true # Lists should be surrounded by blank lines
+MD037: true # No spaces inside emphasis markers
+MD038: true # No spaces inside code markers
+MD039: true # No spaces inside link markers
+MD047: true # File should end with a single newline
+MD053: false # Footnote definitions referenced inside admonitions look unused to markdownlint

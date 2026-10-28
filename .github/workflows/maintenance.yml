@@ -1,0 +1,96 @@
+# =========================================================================
+# AWESOME PROTEST - Weekly Maintenance
+# =========================================================================
+# Every Monday:
+# 1. Builds the site and checks every link (lychee)
+# 2. Lists resources whose last check is older than 12 months or unconfirmed
+# 3. Opens (or updates) a single "maintenance" issue when something needs
+#    attention, and closes it when everything is fine again
+# =========================================================================
+
+name: 'Maintenance: Weekly Check'
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: maintenance
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Links & Verification Dates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_TITLE: "Maintenance hebdomadaire : liens et vérifications"
+    steps:
+      - name: Checkout Repository 📥
+        uses: actions/checkout@v6
+
+      - name: Set Up Python 🔧
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Set Up Node.js 🔧
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: ".node-version"
+
+      - name: Build Static Site 🏗️
+        run: |
+          pip install -r requirements.txt
+          mkdocs build --clean
+
+      - name: Link Check 🔗
+        id: lychee
+        uses: lycheeverse/lychee-action@v2.8.0
+        with:
+          args: "--config lychee.toml ./site/**/*.html"
+          format: markdown
+          output: ./lychee-report.md
+          fail: false
+
+      - name: Stale Verification Dates 🗓️
+        id: stale
+        run: echo "count=$(node scripts/stale-report.mjs stale-report.md)" >> "$GITHUB_OUTPUT"
+
+      - name: Open, Update or Close the Maintenance Issue 📝
+        run: |
+          gh label create maintenance --color FFE600 --description "Weekly link and verification check" 2>/dev/null || true
+          EXISTING=$(gh issue list --label maintenance --state open --json number --jq '.[0].number')
+
+          if [[ "${{ steps.lychee.outputs.exit_code }}" == "0" && "${{ steps.stale.outputs.count }}" == "0" ]]; then
+            echo "✅ Nothing to report"
+            if [[ -n "$EXISTING" ]]; then
+              gh issue close "$EXISTING" --comment "✅ Vérification du $(date +%F) : tous les liens répondent et aucune ressource n'est périmée."
+            fi
+            exit 0
+          fi
+
+          {
+            echo "Rapport automatique du $(date +%F) ([exécution](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}))."
+            echo
+            echo "## Ressources à revérifier"
+            echo
+            cat stale-report.md
+            echo
+            echo "## Liens"
+            echo
+            if [[ "${{ steps.lychee.outputs.exit_code }}" == "0" ]]; then echo "Tous les liens répondent."; else cat lychee-report.md; fi
+          } > issue.md
+
+          if [[ -n "$EXISTING" ]]; then
+            gh issue edit "$EXISTING" --body-file issue.md
+          else
+            gh issue create --title "$ISSUE_TITLE" --label maintenance --body-file issue.md
+          fi

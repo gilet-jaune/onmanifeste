@@ -1,0 +1,16 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on"
+  },
+  "cSpell.customDictionaries": {
+    "awesome-protest-terms": {
+      "name": "awesome-protest-terms",
+      "path": "${workspaceFolder}/.cspell.json",
+      "addWords": true
+    }
+  }
+}

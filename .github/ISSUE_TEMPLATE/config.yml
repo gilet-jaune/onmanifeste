@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Donnée personnelle exposée ou problème de sécurité
+    url: https://github.com/gilet-jaune/onmanifeste/security/advisories/new
+    about: Signalement privé, jamais en issue publique.
+  - name: 🚨 Urgence pendant une manifestation
+    url: https://github.com/gilet-jaune/onmanifeste/blob/main/docs/conseils/index.md
+    about: Ce dépôt n'est pas un service d'aide. En urgence, appelez le 112 ou une legal team (voir la page Conseils).

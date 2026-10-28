@@ -1,0 +1,1413 @@
+{
+  "$schema": "../../schemas/resources.schema.json",
+  "categories": {
+    "communication": {
+      "fr": "Communication",
+      "en": "Communication"
+    },
+    "securite-numerique": {
+      "fr": "Sécurité numérique",
+      "en": "Digital security"
+    },
+    "documenter": {
+      "fr": "Filmer & archiver",
+      "en": "Film & archive"
+    },
+    "juridique": {
+      "fr": "Aide juridique",
+      "en": "Legal help"
+    },
+    "sante": {
+      "fr": "Santé & premiers secours",
+      "en": "Health & first aid"
+    },
+    "information": {
+      "fr": "Information & agenda",
+      "en": "News & agenda"
+    },
+    "medias": {
+      "fr": "Médias & vérification",
+      "en": "News & fact-checking"
+    },
+    "organisation": {
+      "fr": "Organisation",
+      "en": "Organizing"
+    },
+    "reseaux-sociaux": {
+      "fr": "Réseaux sociaux",
+      "en": "Social media"
+    }
+  },
+  "emergency": [
+    {
+      "number": "112",
+      "label": {
+        "fr": "Urgence européenne",
+        "en": "European emergency number"
+      },
+      "detail": {
+        "fr": "Tout type d'urgence, depuis n'importe quel téléphone, même sans crédit.",
+        "en": "Any emergency, from any phone, even without credit."
+      }
+    },
+    {
+      "number": "15",
+      "label": {
+        "fr": "SAMU",
+        "en": "Emergency medical service (SAMU)"
+      },
+      "detail": {
+        "fr": "Urgence médicale : blessure grave, malaise, détresse respiratoire.",
+        "en": "Medical emergency: serious injury, fainting, breathing difficulty."
+      }
+    },
+    {
+      "number": "18",
+      "label": {
+        "fr": "Pompiers",
+        "en": "Fire brigade"
+      },
+      "detail": {
+        "fr": "Vie en danger, blessure, incendie.",
+        "en": "Life in danger, injury, fire."
+      }
+    },
+    {
+      "number": "114",
+      "label": {
+        "fr": "Urgence par SMS (sourds, malentendants)",
+        "en": "Emergency by text (deaf, hard of hearing)"
+      },
+      "detail": {
+        "fr": "SMS, visio ou tchat, gratuit, 24 h/24.",
+        "en": "Text, video or chat, free, 24/7."
+      }
+    },
+    {
+      "number": "119",
+      "label": {
+        "fr": "Enfance en danger",
+        "en": "Children in danger"
+      },
+      "detail": {
+        "fr": "Mineur·e en danger ou en risque de l'être. Gratuit, 24 h/24.",
+        "en": "A minor in danger or at risk. Free, 24/7."
+      }
+    },
+    {
+      "number": "116006",
+      "display": "116 006",
+      "label": {
+        "fr": "France Victimes",
+        "en": "France Victimes"
+      },
+      "detail": {
+        "fr": "Écoute et aide aux victimes (juridique, psychologique), gratuit.",
+        "en": "Listening and victim support (legal, psychological), free."
+      }
+    }
+  ],
+  "emergency_source": {
+    "title": "Ministère de l'Intérieur — Ma Sécurité : numéros utiles nationaux",
+    "url": "https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/famille-et-aides-aux-victimes/numeros-utiles-nationaux"
+  },
+  "situations": [
+    {
+      "id": "garde-a-vue",
+      "label": {
+        "fr": "Je suis en garde à vue ou un proche l'est",
+        "en": "I or someone close is in police custody"
+      },
+      "tags": ["garde-a-vue", "soutien-gav", "avocat"]
+    },
+    {
+      "id": "blesse",
+      "label": {
+        "fr": "Je suis blessé·e ou choqué·e",
+        "en": "I am injured or in shock"
+      },
+      "categories": ["sante"],
+      "tags": ["violences-policieres"]
+    },
+    {
+      "id": "parent",
+      "label": {
+        "fr": "Mon enfant mineur·e est concerné·e",
+        "en": "My child (a minor) is involved"
+      },
+      "tags": ["mineurs", "lyceens"]
+    },
+    {
+      "id": "avocat-proces",
+      "label": {
+        "fr": "Trouver ou payer un avocat, préparer un procès",
+        "en": "Find or pay a lawyer, prepare for trial"
+      },
+      "tags": ["avocat", "frais-avocat", "caisse-de-solidarite", "proces"]
+    },
+    {
+      "id": "filmer",
+      "label": {
+        "fr": "Filmer, archiver ou publier des images",
+        "en": "Film, archive or publish footage"
+      },
+      "tags": ["filmer", "metadonnees", "floutage"],
+      "categories": ["documenter"]
+    },
+    {
+      "id": "telephone",
+      "label": {
+        "fr": "Protéger mon téléphone, mes messages et mon anonymat",
+        "en": "Protect my phone, messages and anonymity"
+      },
+      "categories": ["securite-numerique", "communication"],
+      "tags": ["anonymat", "chiffrement"]
+    },
+    {
+      "id": "premiere-manif",
+      "label": {
+        "fr": "C'est ma première manif",
+        "en": "It's my first protest"
+      },
+      "tags": ["essentiel"]
+    },
+    {
+      "id": "verifier",
+      "label": {
+        "fr": "Vérifier une information",
+        "en": "Check a piece of news"
+      },
+      "categories": ["medias"]
+    }
+  ],
+  "synonyms": {
+    "accessibilite": ["handicap"],
+    "acouphene": ["long-terme", "premiers-secours"],
+    "ado": ["mineurs", "lyceens"],
+    "agenda": ["agenda"],
+    "anonymat": ["anonymat"],
+    "anonyme": ["anonymat"],
+    "appeler": ["urgence"],
+    "archive": ["archivage"],
+    "archiver": ["archivage"],
+    "argent": ["caisse-de-solidarite", "frais-avocat"],
+    "avocate": ["avocat"],
+    "backup": ["sauvegarde-auto"],
+    "blesse": ["premiers-secours"],
+    "blessure": ["premiers-secours"],
+    "bluetooth": ["hors-ligne"],
+    "camera": ["filmer", "surveillance"],
+    "cauchemars": ["soutien-psychologique"],
+    "chiffre": ["chiffrement"],
+    "cloud": ["sauvegarde-auto"],
+    "convocation": ["proces"],
+    "crypte": ["chiffrement"],
+    "cs": ["gaz-lacrymogene"],
+    "cycle": ["cycles-menstruels"],
+    "debutant": ["essentiel"],
+    "debuter": ["essentiel"],
+    "droit": ["droits", "juridique"],
+    "drone": ["surveillance"],
+    "eleve": ["lyceens", "mineurs"],
+    "enfant": ["mineurs"],
+    "essentiel": ["essentiel"],
+    "exif": ["metadonnees"],
+    "facho": ["extreme-droite"],
+    "fachos": ["extreme-droite"],
+    "fake": ["desinformation", "fact-checking"],
+    "fauteuil": ["handicap"],
+    "floutage": ["floutage"],
+    "flouter": ["floutage"],
+    "garde a vue": ["garde-a-vue"],
+    "gav": ["garde-a-vue"],
+    "gaz": ["gaz-lacrymogene"],
+    "gendarme": ["violences-policieres"],
+    "handi": ["handicap"],
+    "igpn": ["plainte", "violences-policieres"],
+    "internet": ["hors-ligne"],
+    "intox": ["desinformation", "fact-checking"],
+    "journal": ["presse-nationale", "independant"],
+    "juriste": ["avocat", "juridique"],
+    "lacrymo": ["gaz-lacrymogene"],
+    "lacrymogene": ["gaz-lacrymogene"],
+    "loi": ["droits", "juridique"],
+    "long terme": ["long-terme"],
+    "lycee": ["lyceens"],
+    "lyceen": ["lyceens"],
+    "lyceenne": ["lyceens"],
+    "manif": ["manifestations"],
+    "medic": ["street-medics", "premiers-secours"],
+    "messages": ["messagerie"],
+    "mineur": ["mineurs"],
+    "numero": ["urgence"],
+    "oreille": ["long-terme", "premiers-secours"],
+    "parents": ["mineurs"],
+    "payer": ["frais-avocat", "caisse-de-solidarite"],
+    "photo": ["photos", "filmer", "metadonnees"],
+    "plainte": ["plainte"],
+    "police": ["violences-policieres", "filmer"],
+    "portable": ["mobile"],
+    "premiere": ["essentiel"],
+    "presse": ["presse-nationale", "journalistes"],
+    "preuve": ["preuve"],
+    "proces": ["proces"],
+    "psy": ["soutien-psychologique"],
+    "ptsd": ["soutien-psychologique"],
+    "reconnaissance faciale": ["surveillance"],
+    "regles": ["cycles-menstruels"],
+    "reseau": ["hors-ligne"],
+    "rumeur": ["desinformation", "fact-checking"],
+    "sans reseau": ["hors-ligne"],
+    "sauvegarde": ["sauvegarde-auto", "archivage"],
+    "sauvegarder": ["archivage"],
+    "sequelle": ["long-terme"],
+    "sequelles": ["long-terme"],
+    "signalement": ["plainte"],
+    "signaler": ["plainte"],
+    "smartphone": ["mobile"],
+    "sms": ["messagerie"],
+    "soigner": ["premiers-secours"],
+    "soins": ["premiers-secours"],
+    "sos": ["urgence"],
+    "stress": ["soutien-psychologique"],
+    "telegram": ["messagerie", "chiffrement"],
+    "telephone": ["mobile"],
+    "tor": ["anonymat"],
+    "trauma": ["soutien-psychologique"],
+    "tribunal": ["proces"],
+    "video": ["filmer", "preuve"],
+    "videosurveillance": ["surveillance"],
+    "violence": ["violences-policieres"],
+    "whatsapp": ["messagerie", "chiffrement"]
+  },
+  "resources": [
+    {
+      "id": "signal",
+      "name": "Signal",
+      "url": "https://signal.org/fr/",
+      "category": "communication",
+      "tags": ["messagerie", "chiffrement", "open-source", "mobile", "floutage", "essentiel"],
+      "description": {
+        "fr": "Messagerie chiffrée de bout en bout. Activer les messages éphémères et le verrouillage d'écran pour les groupes de manif. L'éditeur photo intégré permet de flouter les visages.",
+        "en": "End-to-end encrypted messenger. Enable disappearing messages and screen lock for protest groups. The built-in photo editor can blur faces."
+      },
+      "sources": [
+        {
+          "title": "Signal — Blur tools",
+          "url": "https://signal.org/blog/blur-tools/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "briar",
+      "name": "Briar",
+      "url": "https://briarproject.org/",
+      "category": "communication",
+      "tags": ["messagerie", "hors-ligne", "chiffrement", "open-source", "essentiel"],
+      "description": {
+        "fr": "Messagerie pair-à-pair qui fonctionne sans Internet (Bluetooth, Wi-Fi) quand le réseau mobile est saturé.",
+        "en": "Peer-to-peer messenger that works without Internet (Bluetooth, Wi-Fi) when the mobile network is saturated."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "element",
+      "name": "Element (Matrix)",
+      "url": "https://element.io/",
+      "category": "communication",
+      "tags": ["messagerie", "chiffrement", "open-source"],
+      "description": {
+        "fr": "Messagerie décentralisée basée sur Matrix, adaptée aux collectifs et aux grands groupes.",
+        "en": "Decentralized messenger built on Matrix, suited to collectives and large groups."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "tor-browser",
+      "name": "Tor Browser",
+      "url": "https://www.torproject.org/fr/",
+      "category": "securite-numerique",
+      "tags": ["anonymat", "open-source"],
+      "description": {
+        "fr": "Navigateur qui masque votre adresse IP en faisant transiter le trafic par le réseau Tor.",
+        "en": "Browser that hides your IP address by routing traffic through the Tor network."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "orbot",
+      "name": "Orbot",
+      "url": "https://orbot.app/fr/",
+      "category": "securite-numerique",
+      "tags": ["anonymat", "vpn", "open-source", "mobile"],
+      "description": {
+        "fr": "Fait passer le trafic des applications du téléphone par le réseau Tor (Android et iOS).",
+        "en": "Routes your phone apps' traffic through the Tor network (Android and iOS)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "mullvad-vpn",
+      "name": "Mullvad VPN",
+      "url": "https://mullvad.net/fr",
+      "category": "securite-numerique",
+      "tags": ["vpn", "anonymat", "open-source"],
+      "description": {
+        "fr": "VPN payant sans compte nominatif ni e-mail, paiement possible en espèces.",
+        "en": "Paid VPN with no named account or e-mail; cash payment accepted."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "url": "https://keepassxc.org/",
+      "category": "securite-numerique",
+      "tags": ["mots-de-passe", "open-source", "ordinateur"],
+      "description": {
+        "fr": "Gestionnaire de mots de passe local et chiffré.",
+        "en": "Local, encrypted password manager."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "eff-ssd",
+      "name": "Surveillance Self-Defense (EFF)",
+      "url": "https://ssd.eff.org/",
+      "category": "securite-numerique",
+      "tags": ["guide", "mobile", "surveillance", "essentiel"],
+      "description": {
+        "fr": "Guides de l'EFF (disponibles en français) pour protéger son téléphone et ses communications, dont un guide dédié aux manifestations.",
+        "en": "EFF guides (available in French) to protect your phone and communications, including a guide for attending protests."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "technopolice",
+      "name": "Technopolice",
+      "url": "https://technopolice.fr/",
+      "category": "securite-numerique",
+      "tags": ["surveillance", "association"],
+      "description": {
+        "fr": "Campagne de La Quadrature du Net qui documente la surveillance policière (caméras, drones, reconnaissance faciale) en France.",
+        "en": "La Quadrature du Net campaign documenting police surveillance (cameras, drones, facial recognition) in France."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "la-quadrature-du-net",
+      "name": "La Quadrature du Net",
+      "url": "https://www.laquadrature.net/",
+      "category": "securite-numerique",
+      "tags": ["surveillance", "association"],
+      "description": {
+        "fr": "Association de défense des libertés numériques en France.",
+        "en": "French digital rights association."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "mat2",
+      "name": "mat2",
+      "url": "https://0xacab.org/jvoisin/mat2",
+      "category": "securite-numerique",
+      "tags": ["metadonnees", "photos", "anonymat", "open-source", "ordinateur"],
+      "description": {
+        "fr": "Supprime les métadonnées (position GPS, appareil, date) des photos, vidéos et documents avant de les publier.",
+        "en": "Removes metadata (GPS location, device, date) from photos, videos and documents before publishing them."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "proofmode",
+      "name": "ProofMode",
+      "url": "https://proofmode.org/",
+      "category": "documenter",
+      "tags": ["filmer", "preuve", "open-source", "mobile"],
+      "description": {
+        "fr": "Application (Guardian Project et WITNESS) qui ajoute à vos photos et vidéos des données de vérification (empreinte, date, appareil) pour prouver qu'elles n'ont pas été modifiées.",
+        "en": "App (Guardian Project and WITNESS) that adds verification data (hash, date, device) to your photos and videos to prove they have not been altered."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "eyewitness",
+      "name": "eyeWitness to Atrocities",
+      "url": "https://www.eyewitness.global/",
+      "category": "documenter",
+      "tags": ["filmer", "preuve", "mobile"],
+      "description": {
+        "fr": "Application de l'International Bar Association : capture vérifiable et envoi vers un stockage sécurisé, séparé de la galerie du téléphone. Conçue pour documenter les crimes internationaux.",
+        "en": "International Bar Association app: verifiable capture and upload to secure storage, kept apart from the phone gallery. Designed to document international crimes."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "witness-video-preuve",
+      "name": "WITNESS — Video as Evidence Field Guide",
+      "url": "https://library.witness.org/product/video-as-evidence-compiled-sections/",
+      "category": "documenter",
+      "tags": ["filmer", "preuve", "guide"],
+      "description": {
+        "fr": "Guide de référence (en anglais) pour que vos vidéos puissent servir de preuve : cadrage, contexte, chaîne de conservation, protection des personnes filmées.",
+        "en": "Reference guide to make your footage usable as evidence: framing, context, chain of custody, protecting the people filmed."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "witness-archivage",
+      "name": "WITNESS — Archiver ses vidéos",
+      "url": "https://witness.org/our-work/video-archiving",
+      "category": "documenter",
+      "tags": ["archivage", "preuve", "guide"],
+      "description": {
+        "fr": "Ressources de WITNESS pour conserver ses vidéos dans le temps : copies, nommage, métadonnées, sauvegarde hors du téléphone.",
+        "en": "WITNESS resources to preserve your videos over time: copies, naming, metadata, backups off the phone."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "wayback-save",
+      "name": "Wayback Machine — Save Page Now",
+      "url": "https://web.archive.org/save",
+      "category": "documenter",
+      "tags": ["archivage", "gratuit"],
+      "description": {
+        "fr": "Archive publiquement une page web (publication, article, déclaration officielle) pour en garder une trace datée même si elle est supprimée ensuite.",
+        "en": "Publicly archives a web page (post, article, official statement) to keep a dated record even if it is deleted later."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "archive-today",
+      "name": "archive.today",
+      "url": "https://archive.ph/",
+      "category": "documenter",
+      "tags": ["archivage", "gratuit"],
+      "description": {
+        "fr": "Instantané d'une page web, y compris certaines publications de réseaux sociaux, conservé même si l'original disparaît.",
+        "en": "Snapshot of a web page, including some social media posts, kept even if the original disappears."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ente-photos",
+      "name": "Ente Photos",
+      "url": "https://ente.io/",
+      "category": "documenter",
+      "tags": ["sauvegarde-auto", "chiffrement", "photos", "open-source", "mobile"],
+      "description": {
+        "fr": "Sauvegarde automatique des photos et vidéos, chiffrée de bout en bout : le fournisseur ne peut pas voir vos images.",
+        "en": "Automatic photo and video backup, end-to-end encrypted: the provider cannot see your images."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "proton-drive",
+      "name": "Proton Drive",
+      "url": "https://proton.me/fr/drive",
+      "category": "documenter",
+      "tags": ["sauvegarde-auto", "chiffrement", "photos", "mobile"],
+      "description": {
+        "fr": "Stockage en ligne chiffré de bout en bout, avec sauvegarde automatique des photos depuis le téléphone.",
+        "en": "End-to-end encrypted cloud storage with automatic photo backup from your phone."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "guide-manifestant-arrete",
+      "name": "Guide du manifestant arrêté (Syndicat de la magistrature)",
+      "url": "https://www.syndicat-magistrature.fr/",
+      "category": "juridique",
+      "tags": ["droits", "garde-a-vue", "guide", "proces", "essentiel"],
+      "description": {
+        "fr": "Guide de référence sur vos droits : contrôle d'identité, garde à vue, comparution immédiate, fichiers (édition 2024).",
+        "en": "Reference guide on your rights: ID checks, police custody, fast-track trials, police files (2024 edition)."
+      },
+      "sources": [
+        {
+          "title": "Le guide du manifestant arrêté, éd. Le Passager clandestin (fiche librairie)",
+          "url": "https://export.side.fr/en/9782369352396-le-guide-du-manifestant-arr%C3%AAt%C3%A9"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "defenseur-des-droits",
+      "name": "Défenseur des droits",
+      "url": "https://www.defenseurdesdroits.fr/",
+      "category": "juridique",
+      "tags": ["droits", "violences-policieres", "mineurs", "plainte"],
+      "description": {
+        "fr": "Autorité indépendante à saisir gratuitement en cas de manquement à la déontologie des forces de l'ordre ou d'atteinte aux droits de l'enfant.",
+        "en": "Independent authority, free to contact about police misconduct or violations of children's rights."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ldh",
+      "name": "Ligue des droits de l'Homme",
+      "url": "https://www.ldh-france.org/",
+      "category": "juridique",
+      "tags": ["droits", "observatoire", "association"],
+      "description": {
+        "fr": "Association de défense des libertés ; ses observatoires locaux documentent les pratiques policières en manifestation.",
+        "en": "Civil liberties association; its local observatories document police practices at protests."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "barreau-paris-mineurs-gav",
+      "name": "Barreau de Paris — gardes à vue de mineurs",
+      "url": "https://www.avocatparis.org/conseil-de-l-ordre/communique-du-conseil-de-lordre-sur-le-recours-massif-aux-garde-vue-de-mineurs",
+      "category": "juridique",
+      "tags": ["lyceens", "mineurs", "garde-a-vue", "avocat"],
+      "description": {
+        "fr": "Communiqué du Barreau de Paris sur les gardes à vue massives de lycéens. Un mineur en garde à vue a droit à un avocat, un médecin et à ce que ses parents soient prévenus.",
+        "en": "Paris Bar statement on mass custody of high-school students. A minor in custody is entitled to a lawyer, a doctor and to have their parents notified."
+      },
+      "sources": [
+        {
+          "title": "Service-Public — Retenue ou garde à vue d'un mineur",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1469"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "amnesty-lyceens",
+      "name": "Amnesty France — mouvement lycéen",
+      "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/",
+      "category": "juridique",
+      "tags": ["lyceens", "mineurs", "droits", "association"],
+      "description": {
+        "fr": "Point d'Amnesty International sur les blocus lycéens et les droits des jeunes manifestants.",
+        "en": "Amnesty International update on high-school blockades and the rights of young protesters."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "legal-team-paris",
+      "name": "Legal Team Paris–IDF",
+      "url": "https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr",
+      "phone": "07 52 95 71 11",
+      "category": "juridique",
+      "tags": [
+        "garde-a-vue",
+        "antirepression",
+        "soutien-gav",
+        "avocat",
+        "ile-de-france",
+        "urgence"
+      ],
+      "description": {
+        "fr": "Ligne antirépression de la Coordination contre la répression et les violences policières : signaler une interpellation, être orienté vers un·e avocat·e, suivi après la garde à vue. Contact par Signal de préférence, ou stoprepression@riseup.net.",
+        "en": "Anti-repression hotline of the Paris coordination against police repression: report an arrest, get referred to a lawyer, follow-up after custody. Signal preferred, or stoprepression@riseup.net."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "legal-team-paris-lyceens",
+      "name": "Legal Team Paris–IDF — répression du mouvement lycéen",
+      "url": "https://paris-luttes.info/etat-des-lieux-de-la-legal-team-21289?lang=fr",
+      "category": "juridique",
+      "tags": ["lyceens", "mineurs", "garde-a-vue", "antirepression", "ile-de-france"],
+      "description": {
+        "fr": "Bilan de la Legal Team sur la répression des lycéen·nes et les démarches après une interpellation.",
+        "en": "Legal Team report on the repression of high-school students and steps to take after an arrest."
+      },
+      "sources": [
+        {
+          "title": "Amnesty — Mouvement lycéen : point sur la situation",
+          "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "rajcol",
+      "name": "RAJCOL — collectifs antirépression locaux",
+      "url": "https://rajcollective.noblogs.org/les-collectifs-locaux/",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav"],
+      "description": {
+        "fr": "Réseau d'autodéfense juridique collective : liste des legal teams et collectifs antirépression par ville en France.",
+        "en": "Collective legal self-defense network: list of legal teams and anti-repression groups by city in France."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "unconfirmed",
+        "note": "Page injoignable depuis nos outils de vérification ; lien trouvé via des sources secondaires."
+      }
+    },
+    {
+      "id": "caisse-soutien-paris-idf",
+      "name": "Caisse de soutien antirépression Paris–IDF",
+      "url": "https://www.helloasso.com/associations/collectives-solidarites/formulaires/1",
+      "category": "juridique",
+      "tags": ["caisse-de-solidarite", "frais-avocat", "soutien-gav", "ile-de-france"],
+      "description": {
+        "fr": "Caisse de la coordination contre la répression policière qui finance les frais d'avocat des personnes poursuivies. Pour donner ou savoir à qui s'adresser.",
+        "en": "Support fund of the Paris coordination against police repression, paying legal fees for prosecuted people."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-garde-a-vue",
+      "name": "Service-Public — Garde à vue",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837",
+      "category": "juridique",
+      "tags": ["garde-a-vue", "droits", "officiel"],
+      "description": {
+        "fr": "Fiche officielle : durée, droits (avocat, médecin, proche, interprète, silence) et déroulement de la garde à vue.",
+        "en": "Official page: length, rights (lawyer, doctor, relative, interpreter, silence) and procedure of police custody."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-garde-a-vue-mineur",
+      "name": "Service-Public — Retenue ou garde à vue d'un mineur",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1469",
+      "category": "juridique",
+      "tags": ["garde-a-vue", "mineurs", "lyceens", "droits", "officiel"],
+      "description": {
+        "fr": "Fiche officielle sur les garanties spécifiques aux mineurs : information des parents, avocat, examen médical.",
+        "en": "Official page on minors' specific safeguards: parents notified, lawyer, medical examination."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-comparution-immediate",
+      "name": "Service-Public — Comparution immédiate",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32129",
+      "category": "juridique",
+      "tags": ["proces", "droits", "officiel", "soutien-gav"],
+      "description": {
+        "fr": "Fiche officielle sur la comparution immédiate, procédure fréquente à la sortie de garde à vue après une manifestation.",
+        "en": "Official page on fast-track trials, a common outcome after custody following a protest."
+      },
+      "sources": [
+        {
+          "title": "Actu-Juridique — Liberté de manifester : une répression kafkaïenne",
+          "url": "https://www.actu-juridique.fr/libertes-publiques-ddh/liberte-de-manifester-une-repression-kafkaienne/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "sp-aide-juridictionnelle",
+      "name": "Service-Public — Aide juridictionnelle",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074",
+      "category": "juridique",
+      "tags": ["frais-avocat", "avocat", "officiel"],
+      "description": {
+        "fr": "Prise en charge par l'État de tout ou partie des frais d'avocat selon vos ressources.",
+        "en": "State coverage of all or part of legal fees depending on your income."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "amnesty-droits-manifestation",
+      "name": "Amnesty France — Nos droits en manifestation",
+      "url": "https://www.amnesty.fr/nos-droits-en-manifestation/",
+      "category": "juridique",
+      "tags": ["droits", "guide", "lyceens", "mineurs", "association", "essentiel"],
+      "description": {
+        "fr": "Guide d'Amnesty sur le droit de manifester en France (déclaration, interdiction, équipements de protection), avec une version pour les mineur·es.",
+        "en": "Amnesty guide to the right to protest in France (notification, bans, protective gear), including a version for minors."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "amnesty-filmer-police",
+      "name": "Amnesty France — Filmer les forces de l'ordre",
+      "url": "https://www.amnesty.fr/actualites/filmer-photographier-enregistrer-les-forces-de-lordre/",
+      "category": "juridique",
+      "tags": ["filmer", "droits", "guide"],
+      "description": {
+        "fr": "Ce que dit le droit sur le fait de filmer, photographier ou enregistrer les forces de l'ordre.",
+        "en": "What the law says about filming, photographing or recording police officers."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ldh-filmer-police",
+      "name": "LDH — Filmer les forces de l'ordre (fiche)",
+      "url": "https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf",
+      "category": "juridique",
+      "tags": ["filmer", "droits", "guide"],
+      "description": {
+        "fr": "Fiche pratique de la Ligue des droits de l'Homme sur le droit de filmer et de diffuser des images d'interventions policières.",
+        "en": "Human Rights League fact sheet on the right to film and share footage of police operations."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "ldh-que-faire-violences",
+      "name": "LDH — Que faire face aux violences policières ? (2026)",
+      "url": "https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf",
+      "category": "juridique",
+      "tags": ["violences-policieres", "plainte", "guide", "soutien-gav"],
+      "description": {
+        "fr": "Fiche pratique de la LDH (avril 2026) : démarches après des violences policières (certificat médical, plainte, signalement, témoins).",
+        "en": "LDH fact sheet (April 2026): steps after police violence (medical certificate, complaint, report, witnesses)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "iggn-signalement",
+      "name": "IGGN — Plateforme de signalement (gendarmerie)",
+      "url": "https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn",
+      "category": "juridique",
+      "tags": ["violences-policieres", "plainte", "officiel"],
+      "description": {
+        "fr": "Signalement en ligne du comportement d'un·e gendarme à l'Inspection générale de la gendarmerie. Un signalement n'est pas une plainte.",
+        "en": "Online report of a gendarme's conduct to the gendarmerie inspectorate. A report is not a criminal complaint."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "legal-team-marseille",
+      "name": "Legal Team Marseille",
+      "url": "https://legalteammarseille.noblogs.org/contact/",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "garde-a-vue", "marseille", "urgence"],
+      "description": {
+        "fr": "Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès.",
+        "en": "Marseille anti-repression legal team: emergency line after arrests, lawyer referrals, trial follow-up."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "unconfirmed",
+        "note": "Page injoignable depuis nos outils de vérification ; lien trouvé via des sources secondaires."
+      }
+    },
+    {
+      "id": "caisse-solidarite-lyon",
+      "name": "Caisse de solidarité de Lyon",
+      "url": "https://rebellyon.info/+-caissedeso-+",
+      "phone": "06 43 08 50 32",
+      "category": "juridique",
+      "tags": [
+        "antirepression",
+        "soutien-gav",
+        "caisse-de-solidarite",
+        "avocat",
+        "lyon",
+        "urgence"
+      ],
+      "description": {
+        "fr": "Collectif antirépression lyonnais : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois.",
+        "en": "Lyon anti-repression collective: report an arrest, list of lawyers to name in custody, financial support. Reachable on Signal; open office on the first Thursday of each month."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "claj-lille",
+      "name": "CLAJ — Collectif lillois d'autodéfense juridique",
+      "url": "https://clajlille.wordpress.com/",
+      "phone": "07 53 65 49 52",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "avocat", "lille", "urgence"],
+      "description": {
+        "fr": "Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net.",
+        "en": "Lille legal self-defense collective: line to report an arrest, rights fact sheets, lawyer contacts. Signal preferred, or claj@riseup.net."
+      },
+      "sources": [
+        {
+          "title": "RAJCOL — collectifs locaux : Lille",
+          "url": "https://rajcollective.noblogs.org/les-collectifs-locaux/lille/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "legal-team-nantes",
+      "name": "Antirep Nantes (Indymedia Nantes)",
+      "url": "https://www.nantes.indymedia.org/about/antirep/",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "nantes"],
+      "description": {
+        "fr": "Informations antirépression publiées avant chaque mobilisation à Nantes, dont les numéros des legal teams du jour : consultez la publication la plus récente.",
+        "en": "Anti-repression information published before each mobilization in Nantes, including the legal teams' numbers for the day: check the latest post."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "legal-team-rennes",
+      "name": "Legal Team Rennes",
+      "url": "https://comitezadrennes.noblogs.org/legal-team/",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "rennes"],
+      "description": {
+        "fr": "Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page.",
+        "en": "Rennes legal team: information on your rights during a stop or in custody, lawyer referrals. Check the current number on the page."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "unconfirmed",
+        "note": "Page injoignable depuis nos outils de vérification ; lien trouvé via des sources secondaires."
+      }
+    },
+    {
+      "id": "medic-gestes-manif",
+      "name": "Les gestes à adopter en manif (brochure street medics)",
+      "url": "https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf",
+      "category": "sante",
+      "tags": ["premiers-secours", "gaz-lacrymogene", "street-medics", "guide", "essentiel"],
+      "description": {
+        "fr": "Brochure de street medics : se protéger et réagir face aux gaz lacrymogènes, blessures et malaises en manifestation.",
+        "en": "Street medics booklet: protecting yourself and responding to tear gas, injuries and fainting at protests."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "medic-soins-post-manif",
+      "name": "Soins post-manif (brochure)",
+      "url": "https://www.nantes.indymedia.org/wp-content/uploads/2022/12/soins_post_manif_brochure.pdf",
+      "category": "sante",
+      "tags": ["premiers-secours", "street-medics", "guide", "soutien-psychologique"],
+      "description": {
+        "fr": "Brochure sur les soins après une manifestation : blessures, effets des gaz, contrecoup psychologique.",
+        "en": "Booklet on after-protest care: injuries, tear gas effects, psychological aftermath."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "france-victimes",
+      "name": "France Victimes (116 006)",
+      "url": "https://www.france-victimes.fr/",
+      "phone": "116 006",
+      "category": "sante",
+      "tags": ["soutien-psychologique", "gratuit", "violences-policieres"],
+      "description": {
+        "fr": "Réseau d'associations d'aide aux victimes : écoute, soutien psychologique et aide juridique gratuits, 7j/7 au 116 006.",
+        "en": "Victim support network: free listening, psychological and legal support, 7 days a week at 116 006."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "reporterre-lacrymo-long-terme",
+      "name": "Gaz lacrymogènes : effets à long terme (Reporterre)",
+      "url": "https://reporterre.net/Les-gaz-lacrymogenes-dangereux-a-long-terme-Des-manifestants-temoignent",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene"],
+      "description": {
+        "fr": "Témoignages et enquête auprès de manifestant·es exposé·es : symptômes respiratoires, cutanés ou digestifs qui persistent des jours ou des semaines.",
+        "en": "Testimonies and survey of exposed protesters: respiratory, skin or digestive symptoms lasting days or weeks."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "rapport-cs-toxicite",
+      "name": "Rapport sur la toxicité du gaz CS (Reporterre)",
+      "url": "https://reporterre.net/Un-rapport-pointe-les-effets-toxiques-des-gaz-lacrymogenes",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene"],
+      "description": {
+        "fr": "Présentation du rapport de l'association Toxicologie-Chimie (2020), synthèse bibliographique sur les effets du gaz CS. Ce n'est pas une étude clinique : certaines hypothèses, comme le rôle du cyanure, restent débattues.",
+        "en": "Overview of the Toxicologie-Chimie association report (2020), a literature review on CS gas effects. Not a clinical study: some hypotheses, such as cyanide, remain debated."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "lacrymo-scientifiques",
+      "name": "Usage massif des lacrymogènes : l'inquiétude des scientifiques (Reporterre)",
+      "url": "https://reporterre.net/L-utilisation-massive-de-gaz-lacrymogenes-inquiete-les-scientifiques-du-monde-entier",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene"],
+      "description": {
+        "fr": "Ce que dit la recherche internationale sur les expositions répétées ou en espace confiné, et ce qu'on ignore encore.",
+        "en": "What international research says about repeated or confined exposure, and what is still unknown."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "amnesty-gaz-lacrymogene",
+      "name": "Amnesty — Le gaz lacrymogène",
+      "url": "https://www.amnesty.fr/chronique/gaz-lacrymogene/",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene", "droits", "association"],
+      "description": {
+        "fr": "Chronique d'Amnesty sur les dangers du gaz lacrymogène, en particulier en grande quantité, de façon répétée ou en milieu fermé.",
+        "en": "Amnesty column on tear gas dangers, especially in large quantities, repeatedly or in enclosed spaces."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "lacrymo-sante-femmes",
+      "name": "Gaz lacrymogènes et santé des femmes (Allodocteurs)",
+      "url": "https://www.allodocteurs.fr/effets-des-gaz-lacrymo-sur-la-sante-des-femmes-ce-que-lon-sait-47380.html",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene", "cycles-menstruels"],
+      "description": {
+        "fr": "Ce que l'on sait des troubles du cycle menstruel signalés après une exposition, et les questions encore ouvertes.",
+        "en": "What is known about menstrual cycle disorders reported after exposure, and open questions."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "lacrymo-handicap",
+      "name": "Gaz lacrymogènes : des effets invalidants à long terme ? (Handicap.fr)",
+      "url": "https://informations.handicap.fr/a-gaz-lacrymogenes-des-effets-invalidants-a-long-terme-39907.php",
+      "category": "sante",
+      "tags": ["long-terme", "gaz-lacrymogene", "handicap"],
+      "description": {
+        "fr": "Article sur les séquelles durables possibles et la situation des personnes déjà fragiles (asthme, maladies chroniques).",
+        "en": "Article on possible lasting after-effects and on people with existing conditions (asthma, chronic illness)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "cn2r",
+      "name": "Cn2r — psychotraumatisme",
+      "url": "https://cn2r.fr/",
+      "category": "sante",
+      "tags": ["long-terme", "soutien-psychologique", "officiel"],
+      "description": {
+        "fr": "Centre national de ressources et de résilience : comprendre le psychotraumatisme et trouver un centre régional de prise en charge (adultes et mineur·es).",
+        "en": "National resource centre on psychological trauma: understand it and find a regional care centre (adults and minors)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "demosphere",
+      "name": "Demosphere",
+      "url": "https://paris.demosphere.eu/",
+      "category": "information",
+      "tags": ["agenda", "manifestations", "essentiel"],
+      "description": {
+        "fr": "Agenda alternatif des manifestations et rassemblements (déclinaisons locales).",
+        "en": "Alternative calendar of protests and gatherings (local editions)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "17-octobre-gilets-jaunes",
+      "name": "17 octobre — Gilets jaunes",
+      "url": "https://17octobregiletjaune.net/",
+      "category": "information",
+      "tags": ["agenda", "carte", "manifestations", "gilets-jaunes"],
+      "description": {
+        "fr": "Site de coordination des « actes » de mobilisation : carte interactive, calendrier des manifestations et visuels à partager. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail.",
+        "en": "Coordination site for the mobilization “acts”: interactive map, protest calendar and shareable visuals. Signing the call requires a name (or nickname), city and e-mail."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "reporterre-manifs-handicap",
+      "name": "Manifs et handicap (Reporterre)",
+      "url": "https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant",
+      "category": "information",
+      "tags": ["handicap", "independant"],
+      "description": {
+        "fr": "Enquête sur les obstacles rencontrés par les personnes handicapées pour manifester et les pratiques de cortèges plus accessibles.",
+        "en": "Report on the barriers disabled people face when protesting and practices for more accessible marches."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "afp-factuel",
+      "name": "AFP Factuel",
+      "url": "https://factuel.afp.com/",
+      "category": "medias",
+      "tags": ["fact-checking", "desinformation"],
+      "description": {
+        "fr": "Service de vérification de l'Agence France-Presse : rumeurs, fausses images et vidéos sorties de leur contexte.",
+        "en": "Agence France-Presse fact-checking service: rumors, fake images and out-of-context videos."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "les-decodeurs",
+      "name": "Les Décodeurs (Le Monde)",
+      "url": "https://www.lemonde.fr/les-decodeurs/",
+      "category": "medias",
+      "tags": ["fact-checking", "presse-nationale", "desinformation"],
+      "description": {
+        "fr": "Rubrique de vérification et de data-journalisme du Monde (certains articles réservés aux abonné·es).",
+        "en": "Le Monde's fact-checking and data journalism section (some articles paywalled)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "checknews",
+      "name": "CheckNews (Libération)",
+      "url": "https://www.liberation.fr/checknews/",
+      "category": "medias",
+      "tags": ["fact-checking", "presse-nationale", "desinformation"],
+      "description": {
+        "fr": "Service de Libération qui répond aux questions des lecteurs et vérifie les informations virales.",
+        "en": "Libération's service answering readers' questions and checking viral claims."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "vrai-ou-fake",
+      "name": "Vrai ou Fake (franceinfo)",
+      "url": "https://www.franceinfo.fr/vrai-ou-fake/",
+      "category": "medias",
+      "tags": ["fact-checking", "desinformation"],
+      "description": {
+        "fr": "Rubrique de vérification de franceinfo (audiovisuel public).",
+        "en": "Fact-checking section of franceinfo (French public broadcaster)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "arret-sur-images",
+      "name": "Arrêt sur images",
+      "url": "https://www.arretsurimages.net/",
+      "category": "medias",
+      "tags": ["independant", "desinformation"],
+      "description": {
+        "fr": "Média indépendant d'analyse et de critique du traitement médiatique de l'actualité (en partie payant).",
+        "en": "Independent outlet analyzing and critiquing media coverage (partly paywalled)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "mediapart",
+      "name": "Mediapart",
+      "url": "https://www.mediapart.fr/",
+      "category": "medias",
+      "tags": ["enquete", "independant", "presse-nationale"],
+      "description": {
+        "fr": "Journal d'investigation indépendant, sans publicité, financé par ses abonné·es.",
+        "en": "Independent, ad-free investigative newspaper funded by subscribers."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "disclose",
+      "name": "Disclose",
+      "url": "https://disclose.ngo/fr",
+      "category": "medias",
+      "tags": ["enquete", "independant", "gratuit"],
+      "description": {
+        "fr": "Média d'investigation à but non lucratif, articles en accès libre.",
+        "en": "Non-profit investigative newsroom, free to read."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "streetpress",
+      "name": "StreetPress",
+      "url": "https://www.streetpress.com/",
+      "category": "medias",
+      "tags": ["enquete", "independant", "violences-policieres", "gratuit"],
+      "description": {
+        "fr": "Média indépendant, nombreux reportages sur les violences policières et l'extrême droite, en accès libre.",
+        "en": "Independent outlet with extensive reporting on police violence and the far right, free to read."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "reporterre",
+      "name": "Reporterre",
+      "url": "https://reporterre.net/",
+      "category": "medias",
+      "tags": ["independant", "gratuit", "mouvements-sociaux"],
+      "description": {
+        "fr": "Quotidien de l'écologie, sans publicité ni actionnaire, en accès libre ; couvre les mobilisations.",
+        "en": "Ecology daily with no ads or shareholders, free to read; covers mobilizations."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "basta",
+      "name": "Basta!",
+      "url": "https://basta.media/",
+      "category": "medias",
+      "tags": ["mouvements-sociaux", "independant", "gratuit"],
+      "description": {
+        "fr": "Média indépendant sur les questions sociales, environnementales et les libertés, en accès libre.",
+        "en": "Independent outlet on social, environmental and civil liberties issues, free to read."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "paris-luttes",
+      "name": "Paris-luttes.info",
+      "url": "https://paris-luttes.info/",
+      "category": "medias",
+      "tags": ["militant", "ile-de-france", "agenda"],
+      "description": {
+        "fr": "Site participatif militant d'Île-de-France : appels, comptes rendus et infos antirépression. Contenus non vérifiés par une rédaction professionnelle.",
+        "en": "Participatory activist site for Paris region: calls, reports and anti-repression info. Not edited by a professional newsroom."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "rsf",
+      "name": "Reporters sans frontières",
+      "url": "https://rsf.org/fr",
+      "category": "medias",
+      "tags": ["association", "journalistes"],
+      "description": {
+        "fr": "ONG de défense de la liberté de la presse ; documente les atteintes aux journalistes, y compris en manifestation.",
+        "en": "Press freedom NGO; documents attacks on journalists, including at protests."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "organic-maps",
+      "name": "Organic Maps",
+      "url": "https://organicmaps.app/fr/",
+      "category": "organisation",
+      "tags": ["carte", "hors-ligne", "open-source", "mobile", "essentiel"],
+      "description": {
+        "fr": "Cartes hors ligne sans pistage, utiles quand le réseau mobile est coupé ou saturé.",
+        "en": "Offline maps without tracking, useful when the mobile network is down or saturated."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "cryptpad",
+      "name": "CryptPad",
+      "url": "https://cryptpad.fr/",
+      "category": "organisation",
+      "tags": ["collaboratif", "chiffrement", "open-source"],
+      "description": {
+        "fr": "Documents, tableurs et formulaires collaboratifs chiffrés de bout en bout.",
+        "en": "End-to-end encrypted collaborative documents, spreadsheets and forms."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "framasoft",
+      "name": "Framasoft",
+      "url": "https://framasoft.org/",
+      "category": "organisation",
+      "tags": ["collaboratif", "association", "open-source"],
+      "description": {
+        "fr": "Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.",
+        "en": "Free services (Framadate, Framaforms…) to organize without Big Tech."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    },
+    {
+      "id": "onbloquelextremedroite",
+      "name": "On bloque l'extrême droite",
+      "url": "https://onbloquelextremedroite.fun/",
+      "category": "reseaux-sociaux",
+      "tags": ["extreme-droite", "gratuit"],
+      "description": {
+        "fr": "Plateforme pour bloquer collectivement les comptes d'extrême droite sur les réseaux sociaux. Sans compte ni pistage.",
+        "en": "Platform to collectively block far-right accounts on social media. No account, no tracking."
+      },
+      "sources": [
+        {
+          "title": "On bloque l'extrême droite — Confidentialité",
+          "url": "https://onbloquelextremedroite.fun/confidentialite"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed"
+      }
+    }
+  ]
+}

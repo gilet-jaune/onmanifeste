@@ -1,0 +1,18 @@
+# 1. Let Git decide if a file is text. If it is, force LF on check-in/out.
+* text=auto eol=lf
+
+# 2. Explicitly mark known text files (Safety net)
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# 3. Explicitly mark known binary files (The "Don't Touch" list)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary

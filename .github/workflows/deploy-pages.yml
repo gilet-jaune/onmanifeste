@@ -1,0 +1,91 @@
+# =========================================================================
+# AWESOME PROTEST - GitHub Pages Publication
+# =========================================================================
+# On every push to main:
+# 1. Validation: reuses validate.yml (format, lint, spellcheck, registry,
+#    strict build, link check)
+# 2. Build: mkdocs build --strict
+# 3. Deploy: publishes site/ to GitHub Pages
+#
+# One-time setup: Settings > Pages > Source = "GitHub Actions".
+# =========================================================================
+
+name: 'Docs: Deploy to GitHub Pages'
+
+on:
+  push:
+    branches: ["main"]
+    paths-ignore:
+      - ".vscode/**"
+      - ".agent/**"
+      - "AGENTS.md"
+      - "CHANGELOG.md"
+      - "CONTRIBUTING.md"
+      - ".github/ISSUE_TEMPLATE/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Allow one deployment at a time; never cancel an in-progress publication.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    uses: ./.github/workflows/validate.yml
+
+  build:
+    name: Build Static Site
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout Repository 📥
+        uses: actions/checkout@v6
+
+      - name: Set Up Python 🔧
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install MkDocs Dependencies 🔧
+        run: pip install -r requirements.txt
+
+      - name: Configure GitHub Pages ⚙️
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build Static Site 🏗️
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}/
+        run: mkdocs build --strict --clean --site-dir site
+
+      - name: Upload Pages Artifact 📦
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+  deploy:
+    name: Publish to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy 🚀
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Summary 📝
+        run: |
+          echo "## 🚀 Site published" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,19 @@
+{#- Renders docs/data/history.json (loaded via macros include_yaml) as a dated timeline. -#} {%-
+macro timeline(lang) -%}
+<ol class="timeline">
+  {%- for e in events %} {%- set year, month, day = e.date.split('-') %}
+  <li class="timeline__event timeline__event--{{ e.kind }}">
+    <time class="timeline__date" datetime="{{ e.date }}"
+      ><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time
+    >
+    <div class="timeline__body">
+      <span class="timeline__kind">{{ kinds[e.kind][lang] or kinds[e.kind].fr }}</span>
+      <h3 class="timeline__title">
+        <a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a>
+      </h3>
+      <p>{{ e.description[lang] or e.description.fr }}</p>
+    </div>
+  </li>
+  {%- endfor %}
+</ol>
+{%- endmacro -%}

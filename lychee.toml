@@ -1,0 +1,63 @@
+#############################  Display  #############################
+
+# Verbose program output (Accepts: "error", "warn", "info", "debug")
+verbose = "warn"
+
+# Output format
+format = "detailed"
+
+# Output display mode
+mode = "emoji"
+
+# Don't show interactive progress bar while checking links.
+no_progress = true
+
+#############################  Runtime  #############################
+
+# Number of threads to utilize.
+threads = 4
+
+# Maximum number of concurrent link checks.
+max_concurrency = 14
+
+# extension applied to files without extension
+default_extension = "md"
+
+# Resolve directories to index files
+index_files = ["index.html", "index.md"]
+
+#############################  Requests  ############################
+
+# User agent to send with each request.
+user_agent = "curl/7.83.1"
+
+# Website timeout from connect to response finished.
+timeout = 20
+
+# Comma-separated list of accepted status codes for valid links.
+accept = ["200", "429"]
+
+#############################  Exclusions  ##########################
+
+# Exclude URLs and mail addresses from checking.
+# Sites that block automated requests (403/402 to bots) but are valid for humans.
+exclude = [
+    '^https://factuel\.afp\.com/',
+    '^https://www\.lemonde\.fr/',
+    '^https://www\.liberation\.fr/',
+    '^https://www\.helloasso\.com/',
+    '^https://www\.legifrance\.gouv\.fr/',
+    '^https://www\.actu-juridique\.fr/',
+    '^https://www\.science\.org/',
+    '^https://github\.com/gilet-jaune/onmanifeste.*',
+    '^https://fonts\.gstatic\.com/.*'
+]
+
+# Check the specified file extensions
+extensions = ["md", "html"]
+
+# Technical Include Flags
+include_verbatim = false
+include_fragments = true
+include_mail = true
+include_wikilinks = false

@@ -1,0 +1,19 @@
+{#-
+  Emergency numbers and anti-repression hotlines, rendered from docs/data/resources.json.
+  Used by the SOS page and the printable pocket card.
+-#}
+{%- macro numbers(lang) -%}
+<ul class="sos__numbers">
+{%- for e in emergency %}
+  <li><a class="sos__call" href="tel:{{ e.number }}"><span class="sos__number">{{ e.display or e.number }}</span><span class="sos__label">{{ e.label[lang] or e.label.fr }}</span></a><span class="sos__detail">{{ e.detail[lang] or e.detail.fr }}</span></li>
+{%- endfor %}
+</ul>
+{%- endmacro -%}
+
+{%- macro hotlines(lang) -%}
+<ul class="sos__numbers sos__numbers--legal">
+{%- for r in resources if r.phone and r.check.result == 'confirmed' and ('antirepression' in r.tags or 'urgence' in r.tags) and r.category == 'juridique' %}
+  <li><a class="sos__call" href="tel:{{ r.phone | replace(' ', '') }}"><span class="sos__number">{{ r.phone }}</span><span class="sos__label">{{ r.name }}</span></a><a class="sos__detail" href="{{ r.url }}" target="_blank" rel="noopener">{{ 'Vérifié le' if lang == 'fr' else 'Checked on' }} {{ r.check.date }}</a></li>
+{%- endfor %}
+</ul>
+{%- endmacro -%}

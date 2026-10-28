@@ -1,0 +1,106 @@
+# =========================================================================
+# AWESOME PROTEST - Documentation Validation
+# =========================================================================
+# Ensures the integrity of the MkDocs documentation:
+# 1. Linting: Markdown style checks
+# 2. Spellcheck: Technical term verification
+# 3. Registry: docs/data/resources.json validation
+# 4. Linkcheck: Integrity of internal and external links
+# 5. Build: Strict schema validation of the static site
+# =========================================================================
+
+name: 'Docs: Validate'
+
+# Runs on Pull Requests; on push to main it is called by deploy-pages.yml before publishing.
+on:
+  pull_request:
+    branches: ["main"]
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+
+jobs:
+  validate:
+    name: Lint, Spellcheck & Linkcheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout Repository 📥
+        uses: actions/checkout@v6
+
+      - name: Set Up Node.js 🔧
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: ".node-version"
+          cache: "npm"
+
+      - name: Install Node Dependencies 🔧
+        run: npm ci
+
+      - name: Format Check 💅
+        id: format
+        run: npm run format:check
+
+      - name: Lint Check 💅
+        id: lint
+        run: npm run lint
+
+      - name: Spell Check 💅
+        id: spellcheck
+        run: npm run spellcheck
+
+      - name: Resources Registry Check 🗂️
+        id: data
+        run: npm run validate:data
+
+      - name: README Up To Date 📋
+        id: readme
+        run: npm run readme:check
+
+      - name: Awesome List Lint 🕶️
+        id: awesome
+        run: npx --yes awesome-lint README.md
+
+      - name: Set Up Python 🔧
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Install MkDocs Dependencies 🔧
+        run: pip install -r requirements.txt
+
+      - name: Build Static Site (Validation) 🏗️
+        run: mkdocs build --strict --clean
+
+      - name: Link Integrity ⚙️
+        id: link_integrity
+        uses: lycheeverse/lychee-action@v2.8.0
+        with:
+          args: '--config lychee.toml ./site/**/*.html'
+          fail: true
+
+      - name: Quality Summary 📝
+        if: always()
+        run: |
+          function map_outcome() {
+            if [ "$1" == "success" ]; then echo "✅ Pass";
+            elif [ "$1" == "failure" ]; then echo "❌ Fail";
+            elif [ "$1" == "skipped" ]; then echo "⏭️ Skipped";
+            else echo "❓ $1"; fi
+          }
+          {
+            echo "## 🕵️ Docs Quality Summary"
+            echo "| Check | Status |"
+            echo "| :--- | :--- |"
+            echo "| ✨ Formatting (Prettier) | $(map_outcome ${{ steps.format.outcome }}) |"
+            echo "| 🔍 Linting (MarkdownLint) | $(map_outcome ${{ steps.lint.outcome }}) |"
+            echo "| 📝 Spell Check (CSpell) | $(map_outcome ${{ steps.spellcheck.outcome }}) |"
+            echo "| 🗂️ Resources Registry | $(map_outcome ${{ steps.data.outcome }}) |"
+            echo "| 📋 README List | $(map_outcome ${{ steps.readme.outcome }}) |"
+            echo "| 🕶️ Awesome Lint | $(map_outcome ${{ steps.awesome.outcome }}) |"
+            echo "| 🔗 Link Integrity | $(map_outcome ${{ steps.link_integrity.outcome }}) |"
+          } >> $GITHUB_STEP_SUMMARY

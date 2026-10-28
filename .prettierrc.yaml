@@ -1,0 +1,38 @@
+# Base Prettier Configuration (JS, YAML, CSS, JSON)
+semi: true
+singleQuote: true
+tabWidth: 2
+useTabs: false
+printWidth: 100
+proseWrap: "never"
+trailingComma: "all"
+
+# Specialized Overrides by Path:
+overrides:
+  # Configuration for YAML files
+  - files:
+      - "*.yaml"
+      - "*.yml"
+    options:
+      tabWidth: 2
+      bracketSpacing: true
+      singleQuote: false
+
+  # 🛠️ Configuration for Standard Repository Files (README, CONTRIBUTING, etc.)
+  # standard GitHub-style 2-space indentation and wrapping.
+  - files: "*.md"
+    options:
+      tabWidth: 2
+      proseWrap: "always" # Keeps standard repository files clean and minimal
+
+  # README is an awesome list: one line per item (awesome-lint forbids wrapped items).
+  - files: "README.md"
+    options:
+      proseWrap: "never"
+
+  # 📚 Configuration for the MkDocs Platform (docs/ directory)
+  # High-priority 4-space indentation to preserve Material Grid Layouts.
+  - files: "docs/**/*.md"
+    options:
+      tabWidth: 4
+      proseWrap: "never"

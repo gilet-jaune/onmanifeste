@@ -1,0 +1,77 @@
+name: ➕ Proposer une ressource
+description: Suggérer un outil, un site ou un contact à ajouter à l'annuaire.
+title: "[Ressource] "
+labels: ["ressource", "a-trier"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Chaque proposition est vérifiée avant ajout dans `docs/data/resources.json`.
+        ⚠️ **Ne publiez aucune information personnelle** (nom de manifestant·e, numéro privé…) : ce dépôt est public.
+  - type: input
+    id: name
+    attributes:
+      label: Nom
+      placeholder: "Signal"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Lien officiel (https)
+      placeholder: "https://signal.org/fr/"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Catégorie
+      options:
+        - communication
+        - securite-numerique
+        - juridique
+        - sante
+        - information
+        - medias
+        - organisation
+        - reseaux-sociaux
+        - autre (préciser ci-dessous)
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: En minuscules, sans accents, séparés par des virgules.
+      placeholder: "messagerie, chiffrement, open-source"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description (français)
+      description: "Une ou deux phrases : à quoi ça sert, pour qui."
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Numéro public (facultatif)
+      description: Uniquement une ligne publique officielle (legal team, permanence…).
+      placeholder: "07 00 00 00 00"
+  - type: input
+    id: source
+    attributes:
+      label: Source de vérification
+      description: Lien montrant que la ressource est active et fiable (page officielle, article…).
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vérifications
+      options:
+        - label: La ressource n'est pas déjà dans l'annuaire.
+          required: true
+        - label: Je ne partage aucune donnée personnelle non publique.
+          required: true

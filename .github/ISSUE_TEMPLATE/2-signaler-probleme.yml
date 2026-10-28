@@ -1,0 +1,32 @@
+name: ⚠️ Signaler une ressource obsolète ou erronée
+description: Lien mort, numéro qui ne répond plus, information inexacte ou dangereuse.
+title: "[Correction] "
+labels: ["correction", "a-trier"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Ressource concernée
+      description: Nom ou identifiant (`id`) dans l'annuaire.
+      placeholder: "legal-team-paris"
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: Problème
+      options:
+        - Lien mort ou redirigé
+        - Numéro ou contact qui ne répond plus
+        - Information inexacte ou obsolète
+        - Ressource dangereuse ou non fiable
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Détails et correction proposée
+      description: Indiquez si possible une source pour la correction.
+    validations:
+      required: true

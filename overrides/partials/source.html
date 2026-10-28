@@ -1,0 +1,14 @@
+{#-
+  Repository link without Material's "source facts" widget: the original carries
+  data-md-component="source", which makes every visitor's browser call the GitHub API
+  (stars, latest release). Keeping it a plain link means no third-party request.
+-#}
+<a href="{{ config.repo_url }}" title="{{ lang.t('source') }}" class="md-source" rel="noopener">
+  <div class="md-source__icon md-icon">
+    {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+  <div class="md-source__repository">
+    {{ config.repo_name }}
+  </div>
+</a>

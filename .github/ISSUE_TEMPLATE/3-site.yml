@@ -1,0 +1,23 @@
+name: 🐛 Problème sur le site
+description: Bug d'affichage, recherche qui ne fonctionne pas, traduction, accessibilité.
+title: "[Site] "
+labels: ["bug", "a-trier"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page concernée (nom ou adresse)
+      placeholder: "Annuaire, Conseils pratiques…"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Ce qui se passe / ce qui était attendu
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Appareil et navigateur
+      placeholder: "Android 15, Firefox"

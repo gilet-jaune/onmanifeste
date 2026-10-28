@@ -1,0 +1,27 @@
+{
+  "name": "awesome-protest",
+  "version": "0.1.0",
+  "description": "Awesome Protest Documentation",
+  "scripts": {
+    "dev": "mkdocs serve",
+    "format": "prettier --write . --config .prettierrc.yaml --ignore-path .prettierignore",
+    "format:check": "prettier --check . --config .prettierrc.yaml --ignore-path .prettierignore",
+    "lint": "markdownlint-cli2 \"docs/**/*.md\" \".agent/**/*.md\" --config .markdownlint.yaml",
+    "lint:fix": "markdownlint-cli2 \"docs/**/*.md\" \".agent/**/*.md\" --config .markdownlint.yaml --fix",
+    "spellcheck": "cspell \"docs/**/*.md\" \".agent/**/*.md\" \"*.md\" --config .cspell.json",
+    "code:format": "npm run format && npm run lint:fix",
+    "code:lint": "npm run format:check && npm run lint && npm run spellcheck && npm run validate:data && npm run readme:check",
+    "check": "npm run format:check && npm run lint && npm run spellcheck && npm run validate:data && npm run readme:check",
+    "test": "mkdocs build --strict",
+    "validate:data": "node scripts/validate-resources.mjs && node scripts/validate-history.mjs",
+    "readme": "node scripts/generate-readme.mjs",
+    "readme:check": "node scripts/generate-readme.mjs --check",
+    "lint:awesome": "npx --yes awesome-lint README.md"
+  },
+  "devDependencies": {
+    "cspell": "8.19.4",
+    "markdownlint-cli2": "^0.22.1",
+    "prettier": "3.5.2",
+    "@cspell/dict-fr-fr": "^2.3.0"
+  }
+}

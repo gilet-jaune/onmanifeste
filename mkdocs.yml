@@ -1,0 +1,172 @@
+site_name: Awesome Protest
+# Injected by CI from the GitHub Pages configuration (no hardcoded host).
+site_url: !ENV [SITE_URL, null]
+site_description: Outils et ressources utiles pour manifester en France
+theme:
+  name: material
+  language: fr
+  custom_dir: overrides
+  favicon: assets/icons/icon.svg
+  font:
+    text: Barlow
+    code: Roboto Mono
+  logo: assets/icons/icon.svg
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+    - navigation.breadcrumbs
+    - navigation.footer
+    - content.action.edit
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: System preference
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+extra:
+  author:
+    name: citron-oppresse
+    url: https://github.com/citron-oppresse
+  # Footer mascot. Drop the image at docs/assets/footer/ and uncomment.
+  # Only use an image you have the right to publish (own drawing, licence or permission).
+  # footer_mascot:
+  #   src: assets/footer/mascot.webp
+  #   alt: mascot
+  #   credit: Illustration © Wankil Studio, utilisée avec autorisation
+  repositories:
+    docs:
+      name: &doc_repo_name onmanifeste
+      url: &doc_repo_url https://github.com/gilet-jaune/onmanifeste
+
+repo_name: *doc_repo_name
+repo_url: *doc_repo_url
+edit_uri: edit/main/docs/
+
+plugins:
+  # Self-hosts Google Fonts and other external assets at build time: no third-party request from visitors.
+  - privacy
+  - search:
+      lang: [fr, en]
+  - tags
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: fr
+          name: Français
+          default: true
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_description: Useful tools and resources for protesting in France
+          nav_translations:
+            Accueil: Home
+            Annuaire: Directory
+            Guides express: Quick guides
+            Ne jamais rester seul·e: Never stay alone
+            Kit et tenue de manif: Protest kit and outfit
+            Premiers secours: First aid
+            Garde à vue: Police custody
+            Filmer les forces de l'ordre: Film the police
+            Éviter la désinformation: Avoid disinformation
+            Convaincre ses proches: Talk to your loved ones
+            Conseils pratiques: Practical tips
+            Repères historiques: History
+            Contribuer: Contributing
+            Carte de poche: Pocket card
+            Mentions légales: Legal notice
+  - macros:
+      include_dir: .
+      # Data registries exposed to pages (JSON is valid YAML): kinds, events, categories, resources…
+      include_yaml:
+        - docs/data/history.json
+        - docs/data/resources.json
+
+extra_css:
+  # Self-hosted at build time by the privacy plugin.
+  - https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&display=swap
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/directory.js
+  - javascripts/pwa.js
+
+hooks:
+  # Order matters: the CSP is injected before the service worker hashes the final HTML.
+  - hooks/qrcode.py
+  - hooks/csp.py
+  - hooks/pwa.py
+
+nav:
+  - Accueil: index.md
+  - SOS: sos/index.md
+  - Annuaire: annuaire/index.md
+  - Guides express:
+      - guides/index.md
+      - Ne jamais rester seul·e: guides/ne-pas-rester-seul.md
+      - Kit et tenue de manif: guides/kit-manif.md
+      - Premiers secours: guides/premiers-secours.md
+      - Garde à vue: guides/garde-a-vue.md
+      - Filmer les forces de l'ordre: guides/filmer.md
+      - Éviter la désinformation: guides/desinformation.md
+      - Convaincre ses proches: guides/convaincre-ses-proches.md
+  - Conseils pratiques: conseils/index.md
+  - Repères historiques: histoire/index.md
+  - Contribuer: contribuer/index.md
+  - Carte de poche: carte/index.md
+  - Mentions légales: mentions-legales/index.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - admonition
+  - footnotes
+  - tables
+  # ~~barré~~ (strikethrough); ~ alone stays a literal character
+  - pymdownx.tilde:
+      subscript: false
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      toc_depth: 4
