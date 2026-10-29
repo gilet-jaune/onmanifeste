@@ -6,7 +6,19 @@ tags:
 
 # Checklist avant la manif
 
+!!! abstract "L'essentiel"
+
+    - Préparez tout **la veille** : sur place, le réseau sature ou peut être coupé.
+    - Téléphone **chargé**, batterie externe, verrouillé par **code**, applis et carte **hors ligne** installées et testées.
+    - Numéros utiles **sur la peau** (sous un vêtement) et sur papier, sans noms.
+    - Un **binôme**, un **point de rendez-vous** et deux itinéraires de retour.
+    - Rien dans le sac qui puisse passer pour une **arme**.
+
 À cocher **chez vous, la veille ou le matin**. Sur place, le réseau mobile sature souvent ou peut être coupé : ce qui n'est pas prêt avant ne le sera pas pendant.
+
+## Installer ce site hors ligne
+
+- [ ] Ouvrez ce site une fois avec du réseau, puis choisissez **« Ajouter à l'écran d'accueil »** (ou « Installer l'application ») dans le navigateur de votre téléphone. Il fonctionne ensuite **sans réseau**. Le pied de page indique l'état hors ligne et permet de vérifier les mises à jour.
 
 ## Téléphone
 

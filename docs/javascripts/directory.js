@@ -74,6 +74,7 @@ const SOCIAL_LABELS = {
   tiktok: 'TikTok',
   youtube: 'YouTube',
   peertube: 'PeerTube',
+  linkedin: 'LinkedIn',
   github: 'GitHub',
 };
 
@@ -125,7 +126,8 @@ function el(tag, attrs = {}, ...children) {
     else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
     else node.setAttribute(k, v === true ? '' : v);
   }
-  node.append(...children);
+  // Skip absent optional children (null, undefined, false, ''): append() would print them.
+  node.append(...children.filter((c) => c !== null && c !== undefined && c !== false && c !== ''));
   return node;
 }
 

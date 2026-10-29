@@ -9,6 +9,14 @@ tags:
 
 # Téléphone : verrouillage, code et saisie
 
+!!! abstract "L'essentiel"
+
+    - **Désactivez la biométrie** : code de 6 chiffres minimum, verrouillage après 30 secondes.
+    - En urgence : **5 appuis sur le bouton latéral** (iPhone) ou mode **Verrouillage** / extinction (Android).
+    - Lors d'un simple contrôle, la police **ne peut pas exiger** de déverrouiller votre téléphone.
+    - En garde à vue, ne donnez **jamais votre code** avant d'avoir parlé à votre avocat·e.
+    - Téléphone saisi : changez vos mots de passe et **déconnectez les sessions** dès la sortie.
+
 !!! warning "Avertissement"
 
     Fiche générale, pas un conseil juridique. En cas de saisie de votre téléphone ou de garde à vue, demandez conseil à votre avocat·e.

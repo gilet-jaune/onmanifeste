@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,14 @@ tags:
 ---
 
 # Film the police
+
+!!! abstract "Key points"
+
+    - **Filming the police is legal**: do it, it is often the only evidence.
+    - Turn on encrypted **automatic backup**, including over mobile data.
+    - Film **continuously**, with context, framed on the officers, **not on protesters**.
+    - Keep the **original untouched** and get a copy off the phone as soon as possible.
+    - Before publishing: **blur** anything that identifies a person and remove metadata.
 
 **Film police interventions, always.** It is legal in France: officers on duty have no special right over their image, and the freedom to inform prevails.[^amnesty-filmer][^ldh-filmer] This footage is often the only evidence of violence or of an inaccurate police report; France's Défenseure des droits calls it "very useful".[^ddd-videos]
 

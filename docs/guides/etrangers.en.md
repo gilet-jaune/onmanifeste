@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # Protesting without French nationality
+
+!!! abstract "Key points"
+
+    - Peaceful protest is a **right for everyone**.
+    - An arrest does **not automatically** lead to losing your permit or to an OQTF (removal order).
+    - Carry a **copy** of your permit and the number of **La Cimade** or an immigration lawyer.
+    - In custody: same rights, **interpreter**, consulate; appeals against an OQTF have **very short deadlines**.
 
 Peaceful protest is a right for everyone, whatever their nationality.[^amnesty-droits] But an arrest can have extra consequences for your residence status: know them before you go.
 

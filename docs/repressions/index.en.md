@@ -1,5 +1,5 @@
 ---
-source_commit: 3a5eb5e135428f3e8eb2842d12c6a4d930690e4f
+source_commit: f18d87edc52d5c1891c20de14dd751667b5c3717
 tags:
     - repression
     - disinformation
@@ -21,6 +21,17 @@ Violence committed during policing of protests, and official statements later co
 ## Documented repression
 
 {{ doc.repressions('en') }}
+
+## Mass custody: many arrested, few prosecuted
+
+Police custody can last 24 hours, even when no prosecution follows. During major movements, custody cases run into the thousands.
+
+- **Yellow vests**: 11,203 people taken into custody between November 2018 and July 2019, of whom 5,962 were released without charge. Amnesty International denounces an abusive use of the law against protesters.[^amnesty-arrestations-2020]
+- **Movement figures**: Éric Drouet was taken into custody and then fined for organising two undeclared demonstrations in Paris.[^tendanceouest-drouet-2019] On 14 July 2019, two other yellow-vest figures were taken into custody for "organising an unlawful demonstration"; their lawyer denounced "manifestly political arrests".[^tendanceouest-14-juillet-2019]
+- **High-school students, 2026**: more than 5,000 arrests between 21 September and 2 October, 85% of them minors.[^amnesty-lyceens-2026] In Paris, of 273 people taken into custody, 63% were minors, mostly unknown to the police; by mid-October, no minor had been convicted.[^publicsenat-beccuau-2026]
+- **High-school students, 2020**: students taken into custody after school blockades said they were asked which teachers had encouraged them.[^sudradio-lyceens-gav-2020]
+
+Associations and lawyers see this as a way to **deter** people from protesting. Your rights: [the police custody guide](../guides/garde-a-vue.md).
 
 ## Official statements debunked
 

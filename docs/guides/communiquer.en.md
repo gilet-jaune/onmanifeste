@@ -1,11 +1,18 @@
 ---
-source_commit: 8cad2818dd3da95375759f6c818bae5d8f9c8d15
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 tags:
     - guides
     - communication
 ---
 
 # Communicating at a protest
+
+!!! abstract "Key points"
+
+    - With a network: **Signal**, with disappearing messages on.
+    - Without a network: **Briar**, with at least **one Android user** per group (comms lead).
+    - **Install, test and add your contacts before you leave**: nothing can be downloaded on site.
+    - Always a **paper plan**: meeting point, fallback time, numbers written down.
 
 On site, the mobile network often saturates, and a phone can be lost or seized. Pick the tool for the situation, and have a no-network plan B.
 

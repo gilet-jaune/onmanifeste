@@ -10,3 +10,4 @@ CHANGELOG.md
 .cache/
 overrides/partials/
 todo.md
+.venv/

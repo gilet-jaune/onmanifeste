@@ -9,18 +9,21 @@ Thank you for considering contributing to Awesome Protest!
 
    ```bash
    npm ci
-   pip install -r requirements.txt
-   npm run dev   # mkdocs serve
+   npm run dev   # first run installs MkDocs into .venv, then opens http://127.0.0.1:8000/
    ```
 
 3. **Write documentation**: Edit the `.md` files in `docs/`. The site live-reloads at
-   `http://localhost:8080`.
+   `http://127.0.0.1:8000/` (English at `/en/`).
 
 ## Style Guidelines
 
 - **Use clear headings**: `#` for page titles, `##`/`###` for sections.
 - **Keep it concise**: explain the _why_ alongside the _how_.
 - **Update the index**: when adding a page, update `docs/index.md` and the `nav` in `mkdocs.yml`.
+- **Guides start with key points**: an `!!! abstract "L'essentiel"` box (`"Key points"` in English).
+- **Decision flows, not Mermaid**: for step-by-step situations, wrap an ordered list in
+  `<div class="flow" markdown>` with nested `- **Oui** → …` branches. It renders offline, without
+  JavaScript, and reads well with a screen reader (Mermaid is not cached offline).
 
 ## Validation
 
@@ -54,10 +57,14 @@ the URL). Validate changes with `npm run validate:data`.
 **Prerequisites:** Python 3 and Node.js (see `.node-version`).
 
 ```bash
-npm ci                            # lint/format/spellcheck tooling
-pip install -r requirements.txt   # MkDocs Material + plugins
-npm run dev                       # mkdocs serve, live reload at http://localhost:8000/
+npm ci          # lint/format/spellcheck tooling
+npm run dev     # live preview at http://127.0.0.1:8000/ (opens the browser)
+npm test        # strict build into site/
+npm run preview # strict build, then serve site/ as deployed (offline mode, service worker)
 ```
+
+`npm run dev` and `npm test` go through `scripts/mkdocs.sh`, which creates a local `.venv` and
+installs `requirements.txt` on first run (and again whenever it changes). No manual `pip install`.
 
 ### Offline (PWA)
 

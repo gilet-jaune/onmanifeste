@@ -8,6 +8,13 @@ tags:
 
 # Le droit de manifester
 
+!!! abstract "L'essentiel"
+
+    - Manifester est une **liberté** : on **déclare**, on ne demande pas d'autorisation.
+    - Participer à une manif **non déclarée** n'est pas une infraction ; les risques pèsent sur les organisateur·ices.
+    - Une interdiction doit être **justifiée au cas par cas** et peut être contestée en référé-liberté.
+    - Manif **interdite** : amende de **135 €**, pas de garde à vue pour cette seule contravention.
+
 En France, manifester est une **liberté**, pas une autorisation qu'on demande. L'État peut l'encadrer et, dans certains cas précis, l'interdire, mais sous le contrôle d'un juge.
 
 ## Ce que dit le droit

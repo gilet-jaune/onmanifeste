@@ -61,6 +61,18 @@
         "by": "ai"
       }
     },
+    "acteurspublics-b2-revocation": {
+      "title": {
+        "fr": "Acteurs publics — Fonction publique : une inscription au casier judiciaire peut conduire à la révocation",
+        "en": "Acteurs publics — Civil service: a criminal record entry can lead to dismissal"
+      },
+      "url": "https://acteurspublics.fr/articles/fonction-publique-une-inscription-au-casier-judiciaire-peut-conduire-a-la-revocation/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "afa-probite-stats": {
       "title": {
         "fr": "Agence française anticorruption — Atteintes à la probité dans les décisions de justice, données nationales agrégées 2021-2025 (data.gouv.fr)",
@@ -85,6 +97,18 @@
         "by": "ai"
       }
     },
+    "aljazeera-macron-1961-2021": {
+      "title": {
+        "fr": "Al Jazeera — Macron dénonce un massacre « inexcusable » des manifestants algériens (2021)",
+        "en": "Al Jazeera — Macron decries 'inexcusable' Algerian protest massacre in Paris (2021)"
+      },
+      "url": "https://www.aljazeera.com/news/2021/10/16/macron-decries-inexcusable-paris-algeria-protest-massacre",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "allodocteurs-proteger": {
       "title": {
         "fr": "Allodocteurs — En manifestation, comment se protéger des gaz lacrymo ?",
@@ -93,6 +117,18 @@
       "url": "https://www.allodocteurs.fr/en-manifestation-comment-se-proteger-des-gaz-lacrymo-34599.html",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-arrestations-2020": {
+      "title": {
+        "fr": "Amnesty International — France : des milliers de manifestants pacifiques arbitrairement arrêtés et poursuivis (2020)",
+        "en": "Amnesty International — France: thousands of peaceful protesters arbitrarily arrested and prosecuted (2020)"
+      },
+      "url": "https://www.amnesty.fr/liberte-d-expression/actualites/france-milliers-de-manifestants-pacifiques-arbitrairement-arretes-et-poursuivis",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -316,6 +352,18 @@
         "by": "ai"
       }
     },
+    "cbs-king-1966": {
+      "title": {
+        "fr": "CBS News — MLK : « A riot is the language of the unheard » (entretien de 1966)",
+        "en": "CBS News — MLK: \"A riot is the language of the unheard\" (1966 interview)"
+      },
+      "url": "https://www.cbsnews.com/news/mlk-a-riot-is-the-language-of-the-unheard/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cc-2019-780": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2019-780 DC du 4 avril 2019 (loi « anticasseurs »)",
@@ -334,6 +382,18 @@
         "en": "Constitutional Council — Decision no. 94-352 DC of 18 January 1995"
       },
       "url": "https://www.conseil-constitutionnel.fr/decision/1995/94352DC.htm",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-duplomb-2025": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2025-891 DC du 7 août 2025 (loi Duplomb)",
+        "en": "Constitutional Council — Decision no. 2025-891 DC of 7 August 2025 (Duplomb law)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025891DC.htm",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -360,6 +420,18 @@
       "url": "https://www.leclubdesjuristes.com/justice/affaire-mathilde-panot-rima-hassan-lapologie-du-terrorisme-une-infraction-de-trop-5911/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cdj-appel-blocage": {
+      "title": {
+        "fr": "Club des juristes — Peut-on légalement appeler au blocage des universités et lycées ?",
+        "en": "Club des juristes — Can one legally call for blocking universities and high schools?"
+      },
+      "url": "https://www.leclubdesjuristes.com/politique/louis-boyard-peut-il-legalement-appeler-au-blocage-des-universites-et-lycees-846/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -436,6 +508,18 @@
         "by": "ai"
       }
     },
+    "chenoweth-wcrw": {
+      "title": {
+        "fr": "Chenoweth et Stephan — Why Civil Resistance Works (2011)",
+        "en": "Chenoweth and Stephan — Why Civil Resistance Works (2011)"
+      },
+      "url": "https://www.ericachenoweth.com/research/wcrw",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cidj": {
       "title": {
         "fr": "CIDJ — Droit de manifester : ce que peuvent faire les lycéens",
@@ -492,6 +576,18 @@
       "url": "https://www.cnil.fr/fr/le-droit-leffacement-supprimer-vos-donnees-en-ligne",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-222-17": {
+      "title": {
+        "fr": "Code pénal, article 222-17 (Légifrance)",
+        "en": "French Criminal Code, article 222-17 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417659",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -576,6 +672,78 @@
       "url": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/hemorragie",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "datan-anti-squat-2023": {
+      "title": {
+        "fr": "Datan — Proposition de loi visant à protéger les logements contre l'occupation illicite (4 avril 2023)",
+        "en": "Datan — Bill to protect housing against unlawful occupation (4 April 2023)"
+      },
+      "url": "https://datan.fr/votes/legislature-16/vote_1361",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "datan-censure-retraites-2023": {
+      "title": {
+        "fr": "Datan — Réforme des retraites : motion de censure transpartisane (20 mars 2023)",
+        "en": "Datan — Pension reform: cross-party no-confidence motion (20 March 2023)"
+      },
+      "url": "https://datan.fr/votes/legislature-16/vote_1240",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "datan-immigration-2023": {
+      "title": {
+        "fr": "Datan — Projet de loi immigration (19 décembre 2023)",
+        "en": "Datan — Immigration bill (19 December 2023)"
+      },
+      "url": "https://datan.fr/votes/legislature-16/vote_3213",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "datan-ivg-2024": {
+      "title": {
+        "fr": "Datan — Projet de loi visant à inscrire le droit à l'IVG dans la Constitution (30 janvier 2024)",
+        "en": "Datan — Bill to enshrine abortion rights in the Constitution (30 January 2024)"
+      },
+      "url": "https://datan.fr/votes/legislature-16/vote_3289",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "datan-smic-2022": {
+      "title": {
+        "fr": "Datan — Augmenter le Smic à 1 500 € net (20 juillet 2022)",
+        "en": "Datan — Raise the minimum wage to €1,500 net (20 July 2022)"
+      },
+      "url": "https://datan.fr/votes/legislature-16/vote_44",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "datan-zucman-2025": {
+      "title": {
+        "fr": "Datan — Instaurer la taxe Zucman sur les patrimoines supérieurs à 100 millions d'euros (31 octobre 2025)",
+        "en": "Datan — Introduce the Zucman tax on fortunes above €100 million (31 October 2025)"
+      },
+      "url": "https://datan.fr/votes/legislature-17/vote_3300",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -700,6 +868,18 @@
         "by": "ai"
       }
     },
+    "donovan-boyd-2019": {
+      "title": {
+        "fr": "Donovan et boyd — Stop the Presses? Moving From Strategic Silence to Strategic Amplification (2019)",
+        "en": "Donovan and boyd — Stop the Presses? Moving From Strategic Silence to Strategic Amplification (2019)"
+      },
+      "url": "https://doi.org/10.1177/0002764219878229",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "doxxing": {
       "title": {
         "fr": "La Grande Bibliothèque du Droit — Le doxxing (article 223-1-1 du Code pénal)",
@@ -796,6 +976,18 @@
         "by": "ai"
       }
     },
+    "feinberg-2020-dilemme": {
+      "title": {
+        "fr": "Feinberg, Willer, Kovacheff — The activist's dilemma: Extreme protest actions reduce popular support for social movements (2020)",
+        "en": "Feinberg, Willer, Kovacheff — The activist's dilemma: Extreme protest actions reduce popular support for social movements (2020)"
+      },
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31928025/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "fermeture": {
       "title": {
         "fr": "Le Monde du droit — La fermeture temporaire d'une station de métro pour maintien de l'ordre public est licite",
@@ -826,6 +1018,18 @@
         "en": "France 24 (AFP) — Racist remarks by a Carcassonne police officer, investigation opened"
       },
       "url": "https://www.france24.com/fr/info-en-continu/20260909-propos-racistes-d-un-policier-de-carcassonne-une-enqu%C3%AAte-ouverte",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france3-agora-2026": {
+      "title": {
+        "fr": "France 3 Nouvelle-Aquitaine — Agora, les nouveaux cahiers de doléances ? L'État et l'illusion participative",
+        "en": "France 3 Nouvelle-Aquitaine — Agora, the new grievance books? The State and the participatory illusion"
+      },
+      "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/je-me-doutais-que-c-etait-une-mascarade-agora-les-nouveaux-cahiers-de-doleances-l-etat-et-l-illusion-participative-3439791.html",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -952,6 +1156,18 @@
         "by": "ai"
       }
     },
+    "global-witness-afd-2025": {
+      "title": {
+        "fr": "Global Witness — TikTok and X recommend pro-AfD content to non-partisan users ahead of the German elections (2025)",
+        "en": "Global Witness — TikTok and X recommend pro-AfD content to non-partisan users ahead of the German elections (2025)"
+      },
+      "url": "https://globalwitness.org/en/campaigns/digital-threats/tiktok-and-x-recommend-pro-afd-content-to-non-partisan-users-ahead-of-the-german-elections/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "google-backup": {
       "title": {
         "fr": "Aide Google Photos — Sauvegarder des photos et des vidéos (données mobiles)",
@@ -973,6 +1189,18 @@
         "en": "Human Rights Watch — Ethnic profiling ruled out by the Court of Cassation"
       },
       "url": "https://www.hrw.org/fr/news/2016/11/09/france-les-controles-didentite-au-facies-mis-au-ban-par-les-juges-de-la-cour-de",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "huszar-2022": {
+      "title": {
+        "fr": "Huszár et al. — Algorithmic amplification of politics on Twitter (PNAS, 2022)",
+        "en": "Huszár et al. — Algorithmic amplification of politics on Twitter (PNAS, 2022)"
+      },
+      "url": "https://arxiv.org/abs/2110.11010",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1090,6 +1318,18 @@
         "by": "ai"
       }
     },
+    "larousse-17-octobre-1961": {
+      "title": {
+        "fr": "Larousse — Massacre du 17 octobre 1961",
+        "en": "Larousse — 17 October 1961 massacre (in French)"
+      },
+      "url": "https://www.larousse.fr/encyclopedie/divers/massacre_du_17_octobre_1961/185837",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "lcen": {
       "title": {
         "fr": "Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, article 1-1 (ex-article 6, III, 2) — Légifrance",
@@ -1108,6 +1348,30 @@
         "en": "LCP — Yellow vests: the government commits to resume work on the grievance books"
       },
       "url": "https://lcp.fr/actualites/gilets-jaunes-repondant-a-l-appel-de-l-assemblee-le-gouvernement-s-engage-a-reprendre-l",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-censure-retraites-2023": {
+      "title": {
+        "fr": "LCP — Motions de censure : le gouvernement reste en place à 9 voix près",
+        "en": "LCP — No-confidence motions: the government survives by 9 votes"
+      },
+      "url": "https://lcp.fr/actualites/motions-de-censure-le-gouvernement-reste-en-place-a-9-voix-pres-la-reforme-des-retraites",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-resolution-17-octobre-2024": {
+      "title": {
+        "fr": "LCP — L'Assemblée nationale reconnaît et condamne le « massacre des Algériens du 17 octobre 1961 à Paris »",
+        "en": "LCP — The National Assembly recognises and condemns the 'massacre of Algerians of 17 October 1961 in Paris'"
+      },
+      "url": "https://lcp.fr/actualites/l-assemblee-nationale-reconnait-et-condamne-le-massacre-des-algeriens-du-17-octobre-1961",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1246,6 +1510,18 @@
         "by": "ai"
       }
     },
+    "lemondedudroit-suspension-retraites": {
+      "title": {
+        "fr": "Le Monde du droit — PLFSS pour 2026 : publication au Journal officiel",
+        "en": "Le Monde du droit — 2026 social security financing law published in the Official Journal"
+      },
+      "url": "https://www.lemondedudroit.fr/social/276-protection-sociale-cotisations/101156-plfss-pour-2026-publication-au-journal-officiel.html",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "lessentiel": {
       "title": {
         "fr": "L'essentiel — Manifestations en France : l'extrême droite s'en prend aux cortèges",
@@ -1258,6 +1534,18 @@
         "by": "ai"
       }
     },
+    "linfodurable-duplomb-2026": {
+      "title": {
+        "fr": "L'info durable — Pétition contre la loi Duplomb : débat inédit mais sans vote à l'Assemblée",
+        "en": "L'info durable — Petition against the Duplomb law: an unprecedented debate but no vote in the Assembly"
+      },
+      "url": "https://www.linfodurable.fr/petition-contre-la-loi-duplomb-debat-inedit-mais-sans-vote-lassemblee-54510",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "lyoncapitale-legay-appel": {
       "title": {
         "fr": "Lyon Capitale — Six mois avec sursis confirmés en appel pour le commissaire",
@@ -1266,6 +1554,18 @@
       "url": "https://www.lyoncapitale.fr/actualite/manifestante-de-73-ans-blessee-par-la-police-six-mois-avec-sursis-confirmes-en-appel-pour-le-commissaire",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "maire-info-agora-2026": {
+      "title": {
+        "fr": "Maire-info — Pour renforcer la participation citoyenne, le gouvernement mise sur sa plateforme numérique Agora",
+        "en": "Maire-info — To boost citizen participation, the government bets on its Agora digital platform"
+      },
+      "url": "https://www.maire-info.com/pour-renforcer-la-participation-citoyenne-en-france-le-gouvernement-mise-sur-sa-plateforme-numerique-agora-article-30939",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1426,6 +1726,18 @@
         "by": "ai"
       }
     },
+    "phillips-2018": {
+      "title": {
+        "fr": "Whitney Phillips, Data & Society — The Oxygen of Amplification (2018)",
+        "en": "Whitney Phillips, Data & Society — The Oxygen of Amplification (2018)"
+      },
+      "url": "https://datasociety.net/library/oxygen-of-amplification/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "pitie-allodocteurs": {
       "title": {
         "fr": "Allodocteurs — Non, il n'y a pas eu « d'attaque » de la Pitié-Salpêtrière",
@@ -1582,12 +1894,48 @@
         "by": "ai"
       }
     },
+    "publicsenat-beccuau-2026": {
+      "title": {
+        "fr": "Public Sénat — Mobilisations lycéennes : la grande majorité des mineurs placés en garde à vue avaient 15 ou 16 ans",
+        "en": "Public Sénat — High-school mobilisations: most minors taken into custody were 15 or 16"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/mobilisations-lyceennes-la-grande-majorite-des-mineurs-places-en-garde-a-vue-etaient-ages-de-15-ou-16-ans-declare-laure-beccuau",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-black-blocs-2018": {
+      "title": {
+        "fr": "Public Sénat — Les « black blocs », une contestation violente qui vise surtout les « symboles »",
+        "en": "Public Sénat — Black blocs: a violent protest that mostly targets \"symbols\""
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/les-black-blocs-une-contestation-violente-qui-vise-surtout-les-symboles-85616",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "publicsenat-ciivise-impunite": {
       "title": {
         "fr": "Public Sénat — « Si 3 % des mis en cause pour viol sur mineurs sont condamnés, c'est que nous vivons dans un régime d'impunité »",
         "en": "Public Sénat — 'If 3% of those accused of raping minors are convicted, we live under a regime of impunity'"
       },
       "url": "https://www.publicsenat.fr/actualites/societe/si-3-des-mis-en-cause-pour-viol-sur-mineurs-sont-condamnes-cest-que-nous-vivons-dans-un-regime-dimpunite-estime-le-president-de-la-ciivise",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-conclave-2025": {
+      "title": {
+        "fr": "Public Sénat — Motion de censure du PS : « le conclave sur les retraites n'aura été qu'un écran de fumée »",
+        "en": "Public Sénat — PS no-confidence motion: \"the pensions conclave was just a smokescreen\""
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/motion-de-censure-du-ps-le-conclave-sur-les-retraites-naura-ete-quun-ecran-de-fumee",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1606,6 +1954,18 @@
         "by": "ai"
       }
     },
+    "publicsenat-grand-debat-2019": {
+      "title": {
+        "fr": "Public Sénat — Grand débat : « pas d'unanimité » sur l'ISF ou le RIC",
+        "en": "Public Sénat — Great debate: \"no unanimity\" on the wealth tax or the RIC"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/grand-debat-pas-d-unanimite-sur-l-isf-ou-le-ric-139994",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "publicsenat-lbd": {
       "title": {
         "fr": "Public Sénat — Gilets jaunes : plus de 13 000 tirs de LBD",
@@ -1614,6 +1974,30 @@
       "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-plus-de-13000-tirs-de-lbd-depuis-le-debut-du-mouvement-138755",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-macron-10-decembre-2018": {
+      "title": {
+        "fr": "Public Sénat — Macron annonce une volée de mesures pour apaiser les gilets jaunes",
+        "en": "Public Sénat — Macron announces a raft of measures to appease the yellow vests"
+      },
+      "url": "https://www.publicsenat.fr/actualites/non-classe/macron-annonce-une-volee-de-mesures-pour-apaiser-les-gilets-jaunes-136241",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-ric-ecarte-2019": {
+      "title": {
+        "fr": "Public Sénat — Macron veut faciliter le référendum à l'initiative du peuple mais écarte le RIC",
+        "en": "Public Sénat — Macron wants to ease the popular-initiative referendum but rules out the RIC"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/macron-veut-faciliter-le-referendum-a-l-initiative-du-peuple-mais-ecarte-le-ric",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1630,12 +2014,36 @@
         "by": "ai"
       }
     },
+    "publicsenat-rip-2023": {
+      "title": {
+        "fr": "Public Sénat — Jugé inapplicable, le référendum d'initiative partagée peut-il être réformé ?",
+        "en": "Public Sénat — Deemed unworkable, can the shared-initiative referendum be reformed?"
+      },
+      "url": "https://www.publicsenat.fr/actualites/institutions/juge-inapplicable-le-referendum-dinitiative-partagee-rip-peut-il-etre-reforme",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "publicsenat-rip-adp-2019": {
       "title": {
         "fr": "Public Sénat — Référendum ADP : le décompte des soutiens",
         "en": "Public Sénat — Paris Airports referendum: the count of supporters"
       },
       "url": "https://www.publicsenat.fr/actualites/politique/referendum-adp-15-des-soutiens-exiges-enregistres-au-29-aout-144922",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "rathje-2021": {
+      "title": {
+        "fr": "Rathje, Van Bavel, van der Linden — Out-group animosity drives engagement on social media (PNAS, 2021)",
+        "en": "Rathje, Van Bavel, van der Linden — Out-group animosity drives engagement on social media (PNAS, 2021)"
+      },
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8256037/",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1684,6 +2092,18 @@
         "en": "Reporterre — Macron and the climate: 3.3 out of 10 according to the Citizens' Convention"
       },
       "url": "https://reporterre.net/Macron-et-le-climat-3-3-sur-10-selon-la-Convention-citoyenne",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-consultations-2026": {
+      "title": {
+        "fr": "Reporterre — « À chaque fois, des gens y croient, puis la promesse est rompue » : les consultations citoyennes de Macron ne passent plus",
+        "en": "Reporterre — \"Each time people believe in it, then the promise is broken\": Macron's citizen consultations no longer work"
+      },
+      "url": "https://reporterre.net/Consultation-lyceenne-cahier-de-doleances-La-vaste-blague-des-reponses-d-Emmanuel-Macron",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1774,6 +2194,18 @@
         "by": "ai"
       }
     },
+    "senat-222-14-2": {
+      "title": {
+        "fr": "Sénat — Question écrite sur le délit de groupement en vue de commettre des violences (art. 222-14-2 du Code pénal)",
+        "en": "Senate — Written question on the offence of joining a group to commit violence (art. 222-14-2 Criminal Code)"
+      },
+      "url": "https://www.senat.fr/questions/base/2024/qSEQ240310580.html",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "senat-autoroutes-2020": {
       "title": {
         "fr": "Sénat — Rapport de la commission d'enquête sur les concessions autoroutières (2020)",
@@ -1818,6 +2250,18 @@
       "url": "https://signal.org/docs/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "simpson-2022-flanc-radical": {
+      "title": {
+        "fr": "Simpson, Willer, Feinberg — Radical flanks of social movements can increase support for moderate factions (PNAS Nexus, 2022)",
+        "en": "Simpson, Willer, Feinberg — Radical flanks of social movements can increase support for moderate factions (PNAS Nexus, 2022)"
+      },
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9896934/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2002,6 +2446,18 @@
         "by": "ai"
       }
     },
+    "sp-reserve": {
+      "title": {
+        "fr": "Service-Public — Obligations de réserve, de discrétion, de neutralité et secret professionnel dans la fonction publique",
+        "en": "Service-Public — Duties of reserve, discretion, neutrality and professional secrecy in the public service"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F530",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "sp-retenue": {
       "title": {
         "fr": "Service-Public — Retenue pour vérification du droit au séjour",
@@ -2014,6 +2470,42 @@
         "by": "ai"
       }
     },
+    "sp-vandalisme": {
+      "title": {
+        "fr": "Service-Public.fr — Vandalisme",
+        "en": "Service-Public.fr — Vandalism (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1514",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sudradio-lyceens-gav-2020": {
+      "title": {
+        "fr": "Sud Radio — Lycéens en garde à vue : « ils voulaient des noms de professeurs » (2020)",
+        "en": "Sud Radio — High-school students in custody: \"they wanted teachers' names\" (2020)"
+      },
+      "url": "https://www.sudradio.fr/societe/lyceens-en-garde-a-vue-il-y-avait-un-tas-dexcrements-ils-voulaient-des-noms-de-professeurs/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sussex-esim": {
+      "title": {
+        "fr": "Université du Sussex — Changer la gestion des foules grâce à la recherche sur la participation aux foules (REF)",
+        "en": "University of Sussex — Changing crowd management practices through research on effects of crowd participation (REF)"
+      },
+      "url": "https://impact.ref.ac.uk/casestudies/CaseStudy.aspx?Id=28487",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ta-amiens-montataire-2025": {
       "title": {
         "fr": "Tribunal administratif d'Amiens — Drapeau palestinien, commune de Montataire (22 septembre 2025)",
@@ -2022,6 +2514,54 @@
       "url": "https://amiens.tribunal-administratif.fr/content/download/231621/document/20250922_2503995_CP_Drapeau%20palestinien%20commune%20de%20Montataire.pdf",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "tendanceouest-14-juillet-2019": {
+      "title": {
+        "fr": "Tendance Ouest — Défilé du 14 juillet : deux figures des gilets jaunes placées en garde à vue",
+        "en": "Tendance Ouest — 14 July parade: two yellow-vest figures taken into custody"
+      },
+      "url": "https://www.tendanceouest.com/actualite-328595-defile-du-14-juillet-deux-figures-des-gilets-jaunes-placees-en-garde-a-vue.html",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "tendanceouest-arc-triomphe-2018": {
+      "title": {
+        "fr": "Tendance Ouest — Réouverture de l'Arc de Triomphe, dégradé le 1er décembre",
+        "en": "Tendance Ouest — Arc de Triomphe reopens after the 1 December damage"
+      },
+      "url": "https://www.tendanceouest.com/actualite-304021-reouverture-mercredi-de-l-arc-de-triomphe-degrade-le-1er-decembre",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "tendanceouest-drouet-2019": {
+      "title": {
+        "fr": "Tendance Ouest — Manifestations non déclarées de gilets jaunes : Éric Drouet condamné à une amende",
+        "en": "Tendance Ouest — Undeclared yellow-vest demonstrations: Éric Drouet fined"
+      },
+      "url": "https://www.tendanceouest.com/actualite-316563-manifestations-non-declarees-de-gilets-jaunes-eric-drouet-condamne-a-une-amende",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "tendanceouest-macron-25-avril-2019": {
+      "title": {
+        "fr": "Tendance Ouest — Macron propose de travailler plus pour payer moins d'impôts",
+        "en": "Tendance Ouest — Macron proposes working more to pay less tax"
+      },
+      "url": "https://www.tendanceouest.com/actualite-319797-macron-propose-de-travailler-plus-pour-payer-moins-d-impots",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2094,6 +2634,18 @@
       "url": "https://www.eurojuris.fr/famille/categories/application-17442/articles/dissimulation-visage-loccasion-manifestations-sur-voie-publique-10833.htm",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wasow-2020": {
+      "title": {
+        "fr": "Wasow — Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting (APSR, 2020)",
+        "en": "Wasow — Agenda Seeding: How 1960s Black Protests Moved Elites, Public Opinion and Voting (APSR, 2020)"
+      },
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/agenda-seeding-how-1960s-black-protests-moved-elites-public-opinion-and-voting/136610C8C040C3D92F041BB2EFC3034C",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2298,6 +2850,18 @@
       "url": "https://fr.wikipedia.org/wiki/Mouvement_lyc%C3%A9en_et_%C3%A9tudiant_de_2026_en_France",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-mouvement-retraites-2023": {
+      "title": {
+        "fr": "Wikipédia — Mouvement social contre la réforme des retraites en France de 2023",
+        "en": "Wikipedia — 2023 French pension reform strikes (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Mouvement_social_contre_la_r%C3%A9forme_des_retraites_en_France_de_2023",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }

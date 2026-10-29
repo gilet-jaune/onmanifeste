@@ -4,7 +4,8 @@
   "license": "(CC-BY-SA-4.0 AND MIT)",
   "description": "Awesome Protest Documentation",
   "scripts": {
-    "dev": "mkdocs serve",
+    "dev": "bash scripts/mkdocs.sh serve --open",
+    "preview": "npm test && python3 -m http.server 8000 -d site",
     "format": "prettier --write . --config .prettierrc.yaml --ignore-path .prettierignore",
     "format:check": "prettier --check . --config .prettierrc.yaml --ignore-path .prettierignore",
     "lint": "markdownlint-cli2 \"docs/**/*.md\" \".agent/**/*.md\" --config .markdownlint.yaml",
@@ -13,7 +14,7 @@
     "code:format": "npm run format && npm run lint:fix",
     "code:lint": "npm run format:check && npm run lint && npm run spellcheck && npm run validate:data && npm run readme:check",
     "check": "npm run format:check && npm run lint && npm run spellcheck && npm run validate:data && npm run readme:check",
-    "test": "mkdocs build --strict",
+    "test": "bash scripts/mkdocs.sh build --strict",
     "validate:data": "node scripts/validate-resources.mjs && node scripts/validate-history.mjs && node scripts/validate-victimes.mjs && node scripts/validate-parcours.mjs && node scripts/validate-sources.mjs && node scripts/validate-pages.mjs",
     "readme": "node scripts/generate-readme.mjs",
     "readme:check": "node scripts/generate-readme.mjs --check",

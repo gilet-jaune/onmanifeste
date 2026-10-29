@@ -11,6 +11,8 @@
   const script = document.currentScript;
   const PARCOURS_URL = new URL('../data/parcours.json', script.src);
   const RESOURCES_URL = new URL('../data/resources.json', script.src);
+  // Built by hooks/guide_digest.py: key points of every guide section, shown in the results.
+  const DIGEST_URL = new URL('../data/guides-digest.json', script.src);
 
   const lang = (document.documentElement.lang || 'fr').slice(0, 2) === 'en' ? 'en' : 'fr';
   const T = {
@@ -25,8 +27,14 @@
       other: 'Autre besoin',
       none: 'Rien ne correspond.',
       searchDirectory: (q) => `Chercher « ${q} » dans l'annuaire`,
-      urgent: 'Urgence ? Numéros et legal teams sur la page SOS.',
       results: 'Ce qui peut vous aider',
+      badge: { guide: 'Guide', page: 'Page', directory: 'Annuaire' },
+      inGuide: 'Guide',
+      readGuide: 'Lire le guide',
+      readSection: 'Lire la section',
+      emergency: 'En urgence',
+      allNumbers: 'Tous les numéros et legal teams',
+      needOf: (p) => `si vous êtes ${p}`,
       call: 'Appeler',
       install: 'Installer :',
       socials: 'Réseaux :',
@@ -45,8 +53,14 @@
       other: 'Something else',
       none: 'Nothing matches.',
       searchDirectory: (q) => `Search "${q}" in the directory`,
-      urgent: 'Emergency? Numbers and legal teams on the SOS page.',
       results: 'What can help',
+      badge: { guide: 'Guide', page: 'Page', directory: 'Directory' },
+      inGuide: 'Guide',
+      readGuide: 'Read the guide',
+      readSection: 'Read the section',
+      emergency: 'In an emergency',
+      allNumbers: 'All numbers and legal teams',
+      needOf: (p) => `if you are ${p}`,
       call: 'Call',
       install: 'Install:',
       socials: 'Social:',
@@ -66,6 +80,7 @@
     tiktok: 'TikTok',
     youtube: 'YouTube',
     peertube: 'PeerTube',
+    linkedin: 'LinkedIn',
     github: 'GitHub',
   };
 
@@ -86,6 +101,22 @@
 
   let data;
   let resources;
+  let categories = {};
+  let emergency = [];
+  let digest = {};
+
+  // Trusted build output (hooks/guide_digest.py keeps only <strong> and <em>).
+  const rich = (htmlText) => {
+    const span = document.createElement('span');
+    span.innerHTML = htmlText;
+    return span;
+  };
+
+  // Like node.append(), but skips absent optional children (null…) instead of printing "null".
+  const append = (node, ...children) =>
+    node.append(
+      ...children.filter((c) => c !== null && c !== undefined && c !== false && c !== ''),
+    );
 
   function go(params, push = true) {
     const qs = new URLSearchParams(params).toString();
@@ -96,7 +127,16 @@
   }
 
   // Filterable list of choices: typing narrows it down, Enter picks the first match.
-  function picker({ placeholder, items, labelOf, keywordsOf, onPick, emptyHint }) {
+  function picker({
+    placeholder,
+    items,
+    labelOf,
+    keywordsOf,
+    onPick,
+    emptyHint,
+    initial = '',
+    onlyWhenTyped = () => false,
+  }) {
     const input = el('input', {
       type: 'search',
       class: 'parcours__input',
@@ -111,6 +151,7 @@
     function matches() {
       const terms = normalize(input.value).split(/\s+/).filter(Boolean);
       return items.filter((item) => {
+        if (!terms.length && onlyWhenTyped(item)) return false;
         const hay = normalize(`${labelOf(item)} ${keywordsOf(item).join(' ')}`).replace(
           /[^a-z0-9]+/g,
           ' ',
@@ -149,8 +190,9 @@
         if (first) onPick(first);
       }
     });
+    input.value = initial;
     draw();
-    return { node: el('div', { class: 'parcours__picker' }, input, list, status), input };
+    return { node: el('div', { class: 'parcours__picker' }, input, list, status), input, matches };
   }
 
   function directoryLink(q) {
@@ -164,6 +206,9 @@
       return el(
         'article',
         { class: 'parcours__result parcours__result--resource' },
+        categories[res.category]
+          ? el('span', { class: 'parcours__badge' }, loc(categories[res.category]))
+          : null,
         el(
           'h3',
           {},
@@ -234,10 +279,23 @@
     else if (r.directory) href = `../annuaire/?${new URLSearchParams(r.directory)}`;
     if (r.anchor && loc(r.anchor)) href += `#${loc(r.anchor)}`;
     const kind = r.guide ? 'guide' : r.page ? 'page' : 'directory';
+    const guide = r.guide ? (digest[lang] || {})[r.guide] : null;
+    const section = guide && r.anchor ? guide.sections[loc(r.anchor)] : null;
+    const points = section?.points?.length ? section.points : guide?.essentiel || [];
     return el(
       'article',
       { class: `parcours__result parcours__result--${kind}` },
+      el('span', { class: 'parcours__badge' }, T.badge[kind]),
       el('h3', {}, el('a', { href }, loc(r.label))),
+      guide && guide.title !== loc(r.label)
+        ? el('p', { class: 'parcours__from' }, `${T.inGuide} : ${guide.title}`)
+        : null,
+      points.length
+        ? el('ul', { class: 'parcours__points' }, ...points.map((pt) => el('li', {}, rich(pt))))
+        : null,
+      guide
+        ? el('a', { class: 'parcours__more', href }, `${section ? T.readSection : T.readGuide} →`)
+        : null,
     );
   }
 
@@ -271,27 +329,72 @@
     return btn;
   }
 
+  // Emergency numbers one tap away (first three of resources.json "emergency"), then the SOS page.
+  function urgentBlock() {
+    return el(
+      'div',
+      { class: 'parcours__urgent', role: 'alert' },
+      el('strong', {}, `${T.emergency} : `),
+      ...emergency
+        .slice(0, 3)
+        .flatMap((n) => [
+          el(
+            'a',
+            { class: 'parcours__call', href: `tel:${n.number}` },
+            `📞 ${n.number} · ${loc(n.label)}`,
+          ),
+          ' ',
+        ]),
+      el('a', { href: '../sos/' }, `${T.allNumbers} →`),
+    );
+  }
+
+  // One need: its sentence, urgent numbers and result cards.
+  function needBlock(profile, need, heading = 'h2') {
+    return el(
+      'section',
+      { class: 'parcours__need' },
+      el(heading, { class: 'parcours__step' }, `… ${loc(need.label)}`),
+      need.urgent ? urgentBlock() : null,
+      el('div', { class: 'parcours__results' }, ...need.results.map(resultNode).filter(Boolean)),
+    );
+  }
+
   function render() {
     const params = new URLSearchParams(window.location.search);
-    const profile = data.find((p) => p.id === params.get('je'));
+    // Site search links to a profile heading of the static tree (#je-<id>).
+    const fromHash = window.location.hash.startsWith('#je-')
+      ? decodeURIComponent(window.location.hash.slice(4))
+      : null;
+    const profile = data.find((p) => p.id === (params.get('je') || fromHash));
     const need = profile?.needs.find((n) => n.id === params.get('veux'));
 
     const view = el('div', { class: 'parcours__view' });
 
     if (!profile) {
+      // Coming from the site search: prefill with the searched words; one match opens it directly.
+      const query = (params.get('q') || params.get('h') || '').trim();
+      // Typing also finds needs across profiles ("avocat" → "trouver ou payer un avocat").
+      const needItems = data.flatMap((pr) => pr.needs.map((n) => ({ need: n, profile: pr })));
       const p = picker({
+        initial: query,
         placeholder: T.typeIam,
-        items: data,
-        labelOf: (x) => loc(x.label),
-        keywordsOf: (x) => x.keywords || [],
-        onPick: (x) => go({ je: x.id }),
+        items: [...data, ...needItems],
+        labelOf: (x) =>
+          x.need ? `… ${loc(x.need.label)} (${T.needOf(loc(x.profile.label))})` : loc(x.label),
+        keywordsOf: (x) => (x.need ? x.need.keywords || [] : x.keywords || []),
+        onlyWhenTyped: (x) => Boolean(x.need),
+        onPick: (x) => go(x.need ? { je: x.profile.id, veux: x.need.id } : { je: x.id }),
         emptyHint: directoryLink,
       });
-      view.append(
+      append(
+        view,
         el('h2', { class: 'parcours__step' }, T.iam.replace('…', ''), ' ', rotator(data, p.input)),
         p.node,
       );
       root.replaceChildren(view);
+      const found = query ? p.matches().filter((x) => !x.need) : [];
+      if (found.length === 1) go({ je: found[0].id }, false);
       return;
     }
 
@@ -304,6 +407,17 @@
       el('button', { type: 'button', class: 'parcours__link', onclick: () => go({}) }, T.change),
     );
 
+    if (!need && profile.needs.length <= 3) {
+      append(
+        view,
+        crumb,
+        ...profile.needs.map((n) => needBlock(profile, n)),
+        el('button', { type: 'button', class: 'parcours__link', onclick: () => go({}) }, T.restart),
+      );
+      root.replaceChildren(view);
+      return;
+    }
+
     if (!need) {
       const p = picker({
         placeholder: T.typeWant,
@@ -313,22 +427,17 @@
         onPick: (x) => go({ je: profile.id, veux: x.id }),
         emptyHint: directoryLink,
       });
-      view.append(crumb, el('h2', { class: 'parcours__step' }, T.iwant), p.node);
+      append(view, crumb, el('h2', { class: 'parcours__step' }, T.iwant), p.node);
       root.replaceChildren(view);
       p.input.focus({ preventScroll: true });
       return;
     }
 
     const others = profile.needs.filter((n) => n.id !== need.id);
-    view.append(
+    append(
+      view,
       el('p', { class: 'parcours__sentence' }, T.sentence(loc(profile.label), loc(need.label))),
-      need.urgent
-        ? el(
-            'p',
-            { class: 'parcours__urgent', role: 'alert' },
-            el('a', { href: '../sos/' }, T.urgent),
-          )
-        : null,
+      need.urgent ? urgentBlock() : null,
       el('h2', { class: 'parcours__step' }, T.results),
       el('div', { class: 'parcours__results' }, ...need.results.map(resultNode).filter(Boolean)),
       others.length
@@ -357,11 +466,19 @@
   Promise.all([
     fetch(PARCOURS_URL).then((r) => r.json()),
     fetch(RESOURCES_URL).then((r) => r.json()),
+    // Optional: without the digest, guide results fall back to a plain link.
+    fetch(DIGEST_URL)
+      .then((r) => (r.ok ? r.json() : {}))
+      .catch(() => ({})),
   ])
-    .then(([parcours, registry]) => {
+    .then(([parcours, registry, guides]) => {
       data = parcours.parcours;
       resources = new Map(registry.resources.map((r) => [r.id, r]));
+      categories = registry.categories || {};
+      emergency = registry.emergency || [];
+      digest = guides;
       window.addEventListener('popstate', render);
+      window.addEventListener('hashchange', render);
       render();
     })
     .catch((err) => {

@@ -40,8 +40,12 @@
   },
   "events": [
     {
+      "id": "1789-prise-de-la-bastille",
       "date": "1789-07-14",
-      "title": "Prise de la Bastille",
+      "title": {
+        "fr": "Prise de la Bastille",
+        "en": "Storming of the Bastille"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille",
       "description": {
@@ -55,8 +59,12 @@
       }
     },
     {
+      "id": "1789-declaration-des-droits-de-l",
       "date": "1789-08-26",
-      "title": "Déclaration des droits de l'homme et du citoyen",
+      "title": {
+        "fr": "Déclaration des droits de l'homme et du citoyen",
+        "en": "Declaration of the Rights of Man and of the Citizen"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/D%C3%A9claration_des_droits_de_l%27homme_et_du_citoyen_de_1789",
       "description": {
@@ -70,8 +78,12 @@
       }
     },
     {
+      "id": "1830-les-trois-glorieuses",
       "date": "1830-07-27",
-      "title": "Les Trois Glorieuses",
+      "title": {
+        "fr": "Les Trois Glorieuses",
+        "en": "The Three Glorious Days"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/Trois_Glorieuses",
       "description": {
@@ -85,8 +97,12 @@
       }
     },
     {
+      "id": "1848-revolution-de-fevrier-1848",
       "date": "1848-02-22",
-      "title": "Révolution de février 1848",
+      "title": {
+        "fr": "Révolution de février 1848",
+        "en": "February Revolution of 1848"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise_de_1848",
       "description": {
@@ -104,8 +120,13 @@
       }
     },
     {
+      "id": "1871-commune-de-paris",
       "date": "1871-03-18",
-      "title": "Commune de Paris",
+      "end": "1871-05-28",
+      "title": {
+        "fr": "Commune de Paris",
+        "en": "Paris Commune"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/Commune_de_Paris",
       "description": {
@@ -119,8 +140,12 @@
       }
     },
     {
+      "id": "1881-loi-sur-la-liberte-de",
       "date": "1881-06-30",
-      "title": "Loi sur la liberté de réunion",
+      "title": {
+        "fr": "Loi sur la liberté de réunion",
+        "en": "Freedom of assembly law"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/Libert%C3%A9_de_r%C3%A9union_en_France",
       "description": {
@@ -134,8 +159,12 @@
       }
     },
     {
+      "id": "1884-loi-waldeck-rousseau",
       "date": "1884-03-21",
-      "title": "Loi Waldeck-Rousseau",
+      "title": {
+        "fr": "Loi Waldeck-Rousseau",
+        "en": "Waldeck-Rousseau law (trade unions)"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/Loi_Waldeck-Rousseau",
       "description": {
@@ -149,8 +178,12 @@
       }
     },
     {
+      "id": "1891-fusillade-de-fourmies",
       "date": "1891-05-01",
-      "title": "Fusillade de Fourmies",
+      "title": {
+        "fr": "Fusillade de Fourmies",
+        "en": "Fourmies shooting"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Fusillade_de_Fourmies",
       "description": {
@@ -164,8 +197,12 @@
       }
     },
     {
+      "id": "1901-loi-sur-les-associations",
       "date": "1901-07-01",
-      "title": "Loi sur les associations",
+      "title": {
+        "fr": "Loi sur les associations",
+        "en": "Associations law"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/Loi_du_1er_juillet_1901_relative_au_contrat_d%27association",
       "description": {
@@ -179,8 +216,12 @@
       }
     },
     {
+      "id": "1934-crise-du-6-fevrier-1934",
       "date": "1934-02-06",
-      "title": "Crise du 6 février 1934",
+      "title": {
+        "fr": "Crise du 6 février 1934",
+        "en": "6 February 1934 crisis"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/Crise_du_6_f%C3%A9vrier_1934",
       "description": {
@@ -194,8 +235,12 @@
       }
     },
     {
+      "id": "1935-decret-loi-du-23-octobre",
       "date": "1935-10-23",
-      "title": "Décret-loi du 23 octobre 1935",
+      "title": {
+        "fr": "Décret-loi du 23 octobre 1935",
+        "en": "Decree-law of 23 October 1935"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/D%C3%A9cret-loi_du_23_octobre_1935",
       "description": {
@@ -209,8 +254,12 @@
       }
     },
     {
+      "id": "1936-front-populaire-et-greves-de",
       "date": "1936-06-07",
-      "title": "Front populaire et grèves de 1936",
+      "title": {
+        "fr": "Front populaire et grèves de 1936",
+        "en": "Popular Front and the 1936 strikes"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Front_populaire_%28France%29",
       "description": {
@@ -228,8 +277,12 @@
       }
     },
     {
+      "id": "1946-preambule-de-la-constitution-de",
       "date": "1946-10-27",
-      "title": "Préambule de la Constitution de 1946",
+      "title": {
+        "fr": "Préambule de la Constitution de 1946",
+        "en": "Preamble to the 1946 Constitution"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/Pr%C3%A9ambule_de_la_Constitution_du_27_octobre_1946",
       "description": {
@@ -243,40 +296,55 @@
       }
     },
     {
+      "id": "1961-massacre-du-17-octobre-1961",
       "date": "1961-10-17",
-      "title": "Massacre du 17 octobre 1961",
+      "title": {
+        "fr": "Massacre du 17 octobre 1961",
+        "en": "17 October 1961 massacre"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Massacre_du_17_octobre_1961",
       "description": {
-        "fr": "La police réprime une manifestation pacifique d'Algérien·nes à Paris : des dizaines de morts, longtemps niés.",
-        "en": "Police crack down on a peaceful march of Algerians in Paris: dozens killed, long denied."
+        "fr": "Contre un couvre-feu imposé le 5 octobre aux seuls « Français musulmans d'Algérie », environ 22 000 Algérien·nes manifestent pacifiquement à Paris à l'appel du FLN. Sous l'autorité du préfet de police Maurice Papon, la répression est d'une extrême violence : plus de 11 000 personnes arrêtées, des manifestant·es tué·es par balle ou jeté·es dans la Seine. Le bilan, de 32 à plus de 200 morts selon les sources, reste inconnu ; seuls 3 décès ont été reconnus à l'époque.",
+        "en": "Against a curfew imposed on 5 October on 'French Muslims from Algeria' only, about 22,000 Algerians march peacefully in Paris at the FLN's call. Under police prefect Maurice Papon, the crackdown is extremely violent: more than 11,000 people arrested, protesters shot dead or thrown into the Seine. The toll, from 32 to more than 200 dead depending on the source, remains unknown; only 3 deaths were acknowledged at the time."
       },
-      "evidence": ["elysee-17-octobre-2012"],
       "debunked": {
         "claim": {
           "fr": "Pendant plus de 50 ans, aucune reconnaissance officielle des morts de cette nuit.",
           "en": "For more than 50 years, no official recognition of that night's deaths."
         },
         "fact": {
-          "fr": "En 2012, le président de la République reconnaît une « sanglante répression » de manifestant·es algérien·nes.",
-          "en": "In 2012, the President recognises a “bloody repression” of Algerian protesters."
+          "fr": "En 2012, le président de la République reconnaît une « sanglante répression ». En 2021, Emmanuel Macron qualifie les crimes commis sous l'autorité de Maurice Papon d'« inexcusables pour la République ». Le 28 mars 2024, l'Assemblée nationale adopte une résolution qui reconnaît et condamne le massacre.",
+          "en": "In 2012, the President recognises a 'bloody repression'. In 2021, Emmanuel Macron calls the crimes committed under Maurice Papon 'inexcusable for the Republic'. On 28 March 2024, the National Assembly adopts a resolution recognising and condemning the massacre."
         }
       },
+      "related": ["1962-metro-charonne"],
+      "evidence": [
+        "larousse-17-octobre-1961",
+        "elysee-17-octobre-2012",
+        "aljazeera-macron-1961-2021",
+        "lcp-resolution-17-octobre-2024"
+      ],
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
     },
     {
+      "id": "1962-metro-charonne",
       "date": "1962-02-08",
-      "title": "Métro Charonne",
+      "title": {
+        "fr": "Métro Charonne",
+        "en": "Charonne metro station"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Affaire_de_la_station_de_m%C3%A9tro_Charonne",
       "description": {
         "fr": "Neuf manifestant·es contre l'OAS et la guerre d'Algérie meurent lors de la répression policière.",
         "en": "Nine people protesting the OAS and the Algerian War die in a police crackdown."
       },
+      "related": ["1961-massacre-du-17-octobre-1961"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -284,8 +352,13 @@
       }
     },
     {
+      "id": "1968-mai-68",
       "date": "1968-05-03",
-      "title": "Mai 68",
+      "end": "1968-06",
+      "title": {
+        "fr": "Mai 68",
+        "en": "May 68"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Mai_68",
       "description": {
@@ -304,8 +377,12 @@
       }
     },
     {
+      "id": "1970-naissance-du-mlf",
       "date": "1970-08-26",
-      "title": "Naissance du MLF",
+      "title": {
+        "fr": "Naissance du MLF",
+        "en": "Birth of the Women's Liberation Movement (MLF)"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Mouvement_de_lib%C3%A9ration_des_femmes",
       "description": {
@@ -324,8 +401,13 @@
       }
     },
     {
+      "id": "1971-lutte-du-larzac",
       "date": "1971-10-28",
-      "title": "Lutte du Larzac",
+      "end": "1981",
+      "title": {
+        "fr": "Lutte du Larzac",
+        "en": "Larzac struggle"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Lutte_du_Larzac",
       "description": {
@@ -343,8 +425,13 @@
       }
     },
     {
+      "id": "1980-plogoff",
       "date": "1980-01-30",
-      "title": "Plogoff",
+      "end": "1981",
+      "title": {
+        "fr": "Plogoff",
+        "en": "Plogoff"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Projet_de_centrale_nucl%C3%A9aire_de_Plogoff",
       "description": {
@@ -362,8 +449,12 @@
       }
     },
     {
+      "id": "1981-premiere-grande-marche-homosexuelle-a",
       "date": "1981-04-04",
-      "title": "Première grande marche homosexuelle à Paris",
+      "title": {
+        "fr": "Première grande marche homosexuelle à Paris",
+        "en": "First major gay march in Paris"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Marche_des_fiert%C3%A9s_de_Paris",
       "description": {
@@ -381,8 +472,12 @@
       }
     },
     {
+      "id": "1983-marche-pour-l-egalite-et",
       "date": "1983-10-15",
-      "title": "Marche pour l'égalité et contre le racisme",
+      "title": {
+        "fr": "Marche pour l'égalité et contre le racisme",
+        "en": "March for Equality and Against Racism"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Marche_pour_l%27%C3%A9galit%C3%A9_et_contre_le_racisme",
       "description": {
@@ -401,8 +496,12 @@
       }
     },
     {
+      "id": "1986-mort-de-malik-oussekine",
       "date": "1986-12-06",
-      "title": "Mort de Malik Oussekine",
+      "title": {
+        "fr": "Mort de Malik Oussekine",
+        "en": "Death of Malik Oussekine"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Affaire_Malik_Oussekine",
       "description": {
@@ -422,8 +521,13 @@
       }
     },
     {
+      "id": "1995-greves-de-1995",
       "date": "1995-11-24",
-      "title": "Grèves de 1995",
+      "end": "1995-12",
+      "title": {
+        "fr": "Grèves de 1995",
+        "en": "1995 strikes"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ves_de_1995_en_France",
       "description": {
@@ -441,14 +545,19 @@
       }
     },
     {
+      "id": "2005-le-non-au-referendum-europeen",
       "date": "2005-05-29",
-      "title": "Le « non » au référendum européen contourné",
+      "title": {
+        "fr": "Le « non » au référendum européen contourné",
+        "en": "The 'no' in the European referendum bypassed"
+      },
       "kind": "deni-democratique",
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe",
       "description": {
         "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,36 %). Le 4 février 2008, le Parlement réuni en Congrès ouvre la voie au traité de Lisbonne sans nouveau référendum ; selon Valéry Giscard d'Estaing, auteur du premier texte, « les outils sont exactement les mêmes, seul l'ordre a été changé dans la boîte à outils ».",
         "en": "54.67% of voters reject the European constitutional treaty (turnout: 69.36%). On 4 February 2008, Parliament meeting in Congress paves the way for the Lisbon Treaty without a new referendum; according to Valéry Giscard d'Estaing, author of the first text, 'the tools are exactly the same, only the order in the toolbox has changed'."
       },
+      "related": ["2020-referendum-adp-un-million-de"],
       "evidence": ["wiki-referendum-2005"],
       "check": {
         "date": "2026-10-29",
@@ -457,8 +566,13 @@
       }
     },
     {
+      "id": "2005-revoltes-urbaines-de-2005",
       "date": "2005-10-27",
-      "title": "Révoltes urbaines de 2005",
+      "end": "2005-11-17",
+      "title": {
+        "fr": "Révoltes urbaines de 2005",
+        "en": "2005 urban uprisings"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/%C3%89meutes_de_2005_dans_les_banlieues_fran%C3%A7aises",
       "description": {
@@ -472,8 +586,13 @@
       }
     },
     {
+      "id": "2006-mouvement-anti-cpe",
       "date": "2006-03-07",
-      "title": "Mouvement anti-CPE",
+      "end": "2006-04-10",
+      "title": {
+        "fr": "Mouvement anti-CPE",
+        "en": "Anti-CPE movement"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Mouvement_anti-CPE",
       "description": {
@@ -491,8 +610,12 @@
       }
     },
     {
+      "id": "2010-electricite-edf-oblige-de-ceder",
       "date": "2010-12-07",
-      "title": "Électricité : EDF obligé de céder son nucléaire à ses concurrents",
+      "title": {
+        "fr": "Électricité : EDF obligé de céder son nucléaire à ses concurrents",
+        "en": "Electricity: EDF forced to sell its nuclear power to competitors"
+      },
       "kind": "privatisation",
       "url": "https://fr.wikipedia.org/wiki/Acc%C3%A8s_r%C3%A9gul%C3%A9_%C3%A0_l%27%C3%A9lectricit%C3%A9_nucl%C3%A9aire_historique",
       "description": {
@@ -507,14 +630,20 @@
       }
     },
     {
+      "id": "2014-mort-de-remi-fraisse",
       "date": "2014-10-26",
-      "title": "Mort de Rémi Fraisse",
+      "title": {
+        "fr": "Mort de Rémi Fraisse",
+        "en": "Death of Rémi Fraisse"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
       "description": {
         "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie au barrage de Sivens. La grenade OF-F1 est interdite en 2017 ; la Cour européenne des droits de l'homme condamne la France pour violation du droit à la vie.",
         "en": "21-year-old environmental activist killed by a gendarmerie grenade at the Sivens dam. The OF-F1 grenade is banned in 2017; the European Court of Human Rights finds France violated his right to life."
       },
+      "related": ["2014-remi-fraisse-l-hypothese-du"],
+      "guides": ["suites-judiciaires"],
       "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"],
       "check": {
         "date": "2026-10-28",
@@ -523,15 +652,18 @@
       }
     },
     {
+      "id": "2014-remi-fraisse-l-hypothese-du",
       "date": "2014-10-28",
-      "title": "Rémi Fraisse : l'hypothèse du sac à dos",
+      "title": {
+        "fr": "Rémi Fraisse : l'hypothèse du sac à dos",
+        "en": "Rémi Fraisse: the backpack theory"
+      },
       "kind": "desinformation",
       "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
       "description": {
         "fr": "Au barrage de Sivens, un militant écologiste de 21 ans est tué dans la nuit du 25 au 26 octobre 2014 par une explosion.",
         "en": "At the Sivens dam, a 21-year-old environmental activist is killed by an explosion on the night of 25-26 October 2014."
       },
-      "evidence": ["wiki-fr-remi-fraisse", "cedh-remi-fraisse"],
       "debunked": {
         "claim": {
           "fr": "Le parquet déclare d'abord que l'origine de l'explosion « n'est pas déterminée », puis laisse entendre que son sac à dos aurait pu contenir des explosifs, comme un cocktail Molotov.",
@@ -542,6 +674,8 @@
           "en": "Tests find only TNT, which is in the gendarmerie's OF-F1 offensive grenades; the Interior Minister suspends these grenades the same day. In 2025 the ECHR finds France violated the right to life."
         }
       },
+      "related": ["2014-mort-de-remi-fraisse"],
+      "evidence": ["wiki-fr-remi-fraisse", "cedh-remi-fraisse"],
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -549,8 +683,12 @@
       }
     },
     {
+      "id": "2016-nuit-debout",
       "date": "2016-03-31",
-      "title": "Nuit debout",
+      "title": {
+        "fr": "Nuit debout",
+        "en": "Nuit debout"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Nuit_debout",
       "description": {
@@ -564,14 +702,19 @@
       }
     },
     {
+      "id": "2016-controles-au-facies-l-etat",
       "date": "2016-11-09",
-      "title": "Contrôles au faciès : l'État définitivement condamné",
+      "title": {
+        "fr": "Contrôles au faciès : l'État définitivement condamné",
+        "en": "Racial profiling: the State definitively convicted"
+      },
       "kind": "discrimination",
       "url": "https://www.politis.fr/articles/2016/11/controles-au-facies-letat-condamne-35791",
       "description": {
         "fr": "La Cour de cassation condamne définitivement l'État pour « faute lourde » dans trois dossiers de contrôles d'identité réalisés en fonction de l'apparence physique : une première. En janvier 2017, l'enquête du Défenseur des droits établit que les jeunes hommes perçus comme noirs ou arabes ont une probabilité 20 fois plus élevée d'être contrôlés que le reste de la population.",
         "en": "The Court of Cassation definitively convicts the State of 'gross negligence' in three cases of identity checks based on physical appearance: a first. In January 2017, the Defender of Rights' survey finds that young men perceived as Black or Arab are 20 times more likely to be stopped than the rest of the population."
       },
+      "guides": ["controle-fouille"],
       "evidence": ["politis-facies-2016", "hrw-facies-2016", "ddd-controles-2017"],
       "check": {
         "date": "2026-10-29",
@@ -580,8 +723,12 @@
       }
     },
     {
+      "id": "2018-notre-dame-des-landes",
       "date": "2018-01-17",
-      "title": "Notre-Dame-des-Landes",
+      "title": {
+        "fr": "Notre-Dame-des-Landes",
+        "en": "Notre-Dame-des-Landes"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Projet_d%27a%C3%A9roport_du_Grand_Ouest",
       "description": {
@@ -599,14 +746,19 @@
       }
     },
     {
+      "id": "2018-sncf-fin-du-statut-et",
       "date": "2018-06-27",
-      "title": "SNCF : fin du statut et ouverture à la concurrence",
+      "title": {
+        "fr": "SNCF : fin du statut et ouverture à la concurrence",
+        "en": "SNCF: end of rail workers' status and opening to competition"
+      },
       "kind": "privatisation",
       "url": "https://cms.law/en/fra/publication/nouveau-pacte-ferroviaire",
       "description": {
         "fr": "La loi pour un nouveau pacte ferroviaire ouvre le transport ferroviaire de voyageurs à la concurrence, met fin aux recrutements au statut de cheminot et transforme l'entreprise publique en groupe de sociétés au 1er janvier 2020.",
         "en": "The law for a new rail pact opens passenger rail to competition, ends hiring under the railway workers' statute and turns the public company into a group of companies on 1 January 2020."
       },
+      "related": ["2025-fret-sncf-liquide"],
       "evidence": ["cms-pacte-ferroviaire-2018"],
       "check": {
         "date": "2026-10-29",
@@ -615,8 +767,12 @@
       }
     },
     {
+      "id": "2018-gilets-jaunes",
       "date": "2018-11-17",
-      "title": "Gilets jaunes",
+      "title": {
+        "fr": "Gilets jaunes",
+        "en": "Yellow vests"
+      },
       "kind": "mouvement-social",
       "url": "https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes",
       "description": {
@@ -628,6 +784,12 @@
         "en": "Planned 2019 fuel tax rise cancelled and social measures worth about €10 billion (including a higher in-work benefit).",
         "source": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation"
       },
+      "related": [
+        "2019-grand-debat-national-le-ric",
+        "2019-castaner-aucun-policier-n-a",
+        "2018-zineb-redouane-les-forces-de"
+      ],
+      "guides": ["filmer", "garde-a-vue"],
       "evidence": ["publicsenat-lbd", "ddd-suspension-lbd"],
       "check": {
         "date": "2026-10-28",
@@ -636,15 +798,18 @@
       }
     },
     {
+      "id": "2018-zineb-redouane-les-forces-de",
       "date": "2018-12-03",
-      "title": "Zineb Redouane : « les forces de l'ordre n'ont pas tué »",
+      "title": {
+        "fr": "Zineb Redouane : « les forces de l'ordre n'ont pas tué »",
+        "en": "Zineb Redouane: 'the police did not kill'"
+      },
       "kind": "desinformation",
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Zineb_Redouane",
       "description": {
         "fr": "À Marseille, une femme de 80 ans touchée au visage par une grenade lacrymogène alors qu'elle fermait ses volets meurt le lendemain à l'hôpital.",
         "en": "In Marseille, an 80-year-old woman hit in the face by a tear gas grenade while closing her shutters dies the next day in hospital."
       },
-      "evidence": ["wiki-zineb-redouane"],
       "debunked": {
         "claim": {
           "fr": "Le procureur affirme qu'« on ne peut pas établir de lien de cause à effet entre la blessure et le décès » et parle d'un « choc opératoire ». En 2019, le ministre de l'Intérieur déclare : « Je ne voudrais pas qu'on laisse penser que les forces de l'ordre ont tué Zineb Redouane. Parce que c'est faux. »",
@@ -655,6 +820,8 @@
           "en": "An autopsy carried out in Algeria concludes the facial trauma directly caused her death. The investigation is moved to Lyon to ensure impartiality: a Marseille prosecutor was with the police during the demonstration. In September 2024 the CRS officer who fired is charged with involuntary manslaughter."
         }
       },
+      "related": ["2018-gilets-jaunes"],
+      "evidence": ["wiki-zineb-redouane"],
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -662,15 +829,18 @@
       }
     },
     {
+      "id": "2019-castaner-aucun-policier-n-a",
       "date": "2019-01-16",
-      "title": "Castaner : « aucun policier n'a attaqué de manifestants »",
+      "title": {
+        "fr": "Castaner : « aucun policier n'a attaqué de manifestants »",
+        "en": "Castaner: 'no police officer attacked protesters'"
+      },
       "kind": "desinformation",
       "url": "https://questions.assemblee-nationale.fr/q15/15-1544QG.htm",
       "description": {
         "fr": "Pendant le mouvement des gilets jaunes, le ministre de l'Intérieur nie toute violence policière devant l'Assemblée nationale.",
         "en": "During the yellow vests movement, the Interior Minister denies any police violence before the National Assembly."
       },
-      "evidence": ["an-qag-castaner-2019", "europe1-castaner-lbd-2019"],
       "debunked": {
         "claim": {
           "fr": "« Je ne connais aucun policier, aucun gendarme […] qui ait attaqué volontairement des manifestants. »",
@@ -681,6 +851,9 @@
           "en": "A week later, he himself tells MPs of 81 judicial investigations into rubber-bullet (LBD) shots and 4 lost eyes; the Désarmons-les collective and David Dufresne count 17 people blinded in one eye by then."
         }
       },
+      "related": ["2018-gilets-jaunes"],
+      "guides": ["desinformation"],
+      "evidence": ["an-qag-castaner-2019", "europe1-castaner-lbd-2019"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -688,14 +861,20 @@
       }
     },
     {
+      "id": "2019-le-ric-rejete-a-l",
       "date": "2019-02-21",
-      "title": "Le RIC rejeté à l'Assemblée nationale",
+      "title": {
+        "fr": "Le RIC rejeté à l'Assemblée nationale",
+        "en": "The RIC rejected by the National Assembly"
+      },
       "kind": "deni-democratique",
       "url": "https://www.publicsenat.fr/actualites/non-classe/le-ric-des-insoumis-rejete-a-l-assemblee-nationale-138267",
       "description": {
         "fr": "Revendication phare des gilets jaunes, le référendum d'initiative citoyenne (proposer ou abroger une loi, révoquer un·e élu·e, réviser la Constitution à partir de 2 % des électeur·ices) est rejeté par 91 voix contre 50.",
         "en": "A flagship yellow vests demand, the citizens' initiative referendum (proposing or repealing a law, recalling an official, amending the Constitution from 2% of voters) is rejected by 91 votes to 50."
       },
+      "related": ["2019-grand-debat-national-le-ric"],
+      "guides": ["droit-de-manifester"],
       "evidence": ["publicsenat-ric-lfi-2019"],
       "check": {
         "date": "2026-10-29",
@@ -704,15 +883,18 @@
       }
     },
     {
+      "id": "2019-genevieve-legay-nice",
       "date": "2019-03-23",
-      "title": "Geneviève Legay (Nice)",
+      "title": {
+        "fr": "Geneviève Legay (Nice)",
+        "en": "Geneviève Legay (Nice)"
+      },
       "kind": "repression",
       "url": "https://www.politis.fr/articles/2024/05/affaire-genevieve-legay-letat-juge-responsable/",
       "description": {
         "fr": "Une militante de 73 ans est grièvement blessée à la tête lors d'une charge policière. Le commissaire ayant ordonné la charge est condamné ; l'État est jugé responsable.",
         "en": "A 73-year-old activist is seriously injured in the head during a police charge. The commissioner who ordered the charge is convicted; the State is held liable."
       },
-      "evidence": ["legay-poussee", "legay-condamnation", "legay-etat-responsable"],
       "debunked": {
         "claim": {
           "fr": "Le président de la République et le procureur affirment qu'elle n'a eu aucun contact avec les forces de l'ordre.",
@@ -723,6 +905,8 @@
           "en": "The prosecutor later acknowledges she was pushed by a police officer."
         }
       },
+      "guides": ["suites-judiciaires"],
+      "evidence": ["legay-poussee", "legay-condamnation", "legay-etat-responsable"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -730,15 +914,50 @@
       }
     },
     {
+      "id": "2019-grand-debat-national-le-ric",
+      "date": "2019-04-25",
+      "title": {
+        "fr": "Grand débat national : le RIC écarté, la promesse sur le référendum oubliée",
+        "en": "Great national debate: the RIC ruled out, the referendum promise forgotten"
+      },
+      "kind": "deni-democratique",
+      "url": "https://www.publicsenat.fr/actualites/politique/macron-veut-faciliter-le-referendum-a-l-initiative-du-peuple-mais-ecarte-le-ric",
+      "description": {
+        "fr": "Réponse à la crise des gilets jaunes, le grand débat national réunit pendant deux mois plus de 1,5 million de participant·es : plateforme en ligne, réunions publiques, cahiers et courriers. Le 25 avril 2019, Emmanuel Macron écarte le RIC, qui lui « semble remettre en cause la démocratie représentative », et ne rétablit pas l'ISF (une évaluation est promise pour 2020). Il promet d'abaisser à un million de signatures le seuil du référendum d'initiative partagée. Promesse non tenue : en 2020, le référendum ADP réunit 1 093 030 soutiens, mais il en faut toujours plus de 4,7 millions ; en 2023, il promet de nouveau de simplifier ce référendum.",
+        "en": "The government's answer to the yellow vests crisis, the great national debate draws more than 1.5 million participants over two months: online platform, public meetings, grievance books and letters. On 25 April 2019, Emmanuel Macron rules out the RIC, which he says 'seems to call representative democracy into question', and does not restore the wealth tax (an evaluation is promised for 2020). He promises to lower the threshold of the shared-initiative referendum to one million signatures. Promise not kept: in 2020, the ADP referendum gathers 1,093,030 supporters, but more than 4.7 million are still required; in 2023, he again promises to simplify this referendum."
+      },
+      "related": [
+        "2018-gilets-jaunes",
+        "2019-le-ric-rejete-a-l",
+        "2020-referendum-adp-un-million-de",
+        "2025-cahiers-de-doleances-six-ans"
+      ],
+      "evidence": [
+        "publicsenat-grand-debat-2019",
+        "publicsenat-ric-ecarte-2019",
+        "tendanceouest-macron-25-avril-2019",
+        "cc-rip-adp-2020",
+        "publicsenat-rip-2023"
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2019-attaque-de-la-pitie-salpetriere",
       "date": "2019-05-01",
-      "title": "« Attaque » de la Pitié-Salpêtrière",
+      "title": {
+        "fr": "« Attaque » de la Pitié-Salpêtrière",
+        "en": "The Pitié-Salpêtrière 'attack'"
+      },
       "kind": "desinformation",
       "url": "https://www.allodocteurs.fr/se-soigner-hopital-non-il-ny-a-pas-eu-dattaque-de-la-pitie-salpetriere-1-27032.html",
       "description": {
         "fr": "Le 1er Mai, des manifestant·es entrent dans l'enceinte de l'hôpital ; le ministre de l'Intérieur parle d'une « attaque ».",
         "en": "On May Day, protesters enter the hospital grounds; the Interior Minister speaks of an “attack”."
       },
-      "evidence": ["pitie-allodocteurs", "pitie-publicsenat"],
       "debunked": {
         "claim": {
           "fr": "Le ministre de l'Intérieur annonce que l'hôpital a été « attaqué » et son personnel agressé.",
@@ -749,6 +968,8 @@
           "en": "Videos contradict this account; the minister acknowledges he should not have used the word “attack”."
         }
       },
+      "guides": ["desinformation"],
+      "evidence": ["pitie-allodocteurs", "pitie-publicsenat"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -756,8 +977,12 @@
       }
     },
     {
+      "id": "2019-mort-de-steve-maia-canico",
       "date": "2019-06-21",
-      "title": "Mort de Steve Maia Caniço",
+      "title": {
+        "fr": "Mort de Steve Maia Caniço",
+        "en": "Death of Steve Maia Caniço"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Steve_Maia_Cani%C3%A7o",
       "description": {
@@ -771,8 +996,12 @@
       }
     },
     {
+      "id": "2019-convention-citoyenne-pour-le-climat",
       "date": "2019-10-04",
-      "title": "Convention citoyenne pour le climat : promesse « sans filtre » non tenue",
+      "title": {
+        "fr": "Convention citoyenne pour le climat : promesse « sans filtre » non tenue",
+        "en": "Citizens' Climate Convention: 'unfiltered' promise broken"
+      },
       "kind": "deni-democratique",
       "url": "https://fr.wikipedia.org/wiki/Convention_citoyenne_pour_le_climat",
       "description": {
@@ -793,14 +1022,19 @@
       }
     },
     {
+      "id": "2020-referendum-adp-un-million-de",
       "date": "2020-03-26",
-      "title": "Référendum ADP : un million de signatures pour rien",
+      "title": {
+        "fr": "Référendum ADP : un million de signatures pour rien",
+        "en": "ADP referendum: a million signatures for nothing"
+      },
       "kind": "deni-democratique",
       "url": "https://www.conseil-constitutionnel.fr/decision/2020/201918RIP.htm",
       "description": {
         "fr": "Premier référendum d'initiative partagée de l'histoire, contre la privatisation d'Aéroports de Paris. Du 13 juin 2019 au 12 mars 2020, 1 093 030 électeur·ices le soutiennent, mais il en fallait 4 717 396 (un dixième du corps électoral) : pas de référendum. L'outil censé donner la parole aux citoyen·nes se révèle quasi impossible à utiliser.",
         "en": "The first shared-initiative referendum in history, against the privatisation of Paris Airports. From 13 June 2019 to 12 March 2020, 1,093,030 voters back it, but 4,717,396 were needed (a tenth of the electorate): no referendum. The tool meant to give citizens a say turns out to be almost impossible to use."
       },
+      "related": ["2019-grand-debat-national-le-ric", "2005-le-non-au-referendum-europeen"],
       "evidence": ["cc-rip-adp-2020", "publicsenat-rip-adp-2019"],
       "check": {
         "date": "2026-10-29",
@@ -809,8 +1043,12 @@
       }
     },
     {
+      "id": "2020-autoroutes-privatisees-des-profits-au",
       "date": "2020-09-18",
-      "title": "Autoroutes privatisées : des profits au-delà des prévisions",
+      "title": {
+        "fr": "Autoroutes privatisées : des profits au-delà des prévisions",
+        "en": "Privatised motorways: profits beyond forecasts"
+      },
       "kind": "privatisation",
       "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
       "description": {
@@ -825,8 +1063,12 @@
       }
     },
     {
+      "id": "2020-loi-securite-globale",
       "date": "2020-11-17",
-      "title": "Loi « sécurité globale »",
+      "title": {
+        "fr": "Loi « sécurité globale »",
+        "en": "'Global security' law"
+      },
       "kind": "droit",
       "url": "https://fr.wikipedia.org/wiki/Loi_pour_une_s%C3%A9curit%C3%A9_globale_pr%C3%A9servant_les_libert%C3%A9s",
       "description": {
@@ -837,6 +1079,7 @@
         "fr": "Censure par le Conseil constitutionnel de l'article pénalisant la diffusion d'images de policiers (2021).",
         "en": "Article penalising sharing images of police struck down by the Constitutional Council (2021)."
       },
+      "guides": ["filmer"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -844,30 +1087,22 @@
       }
     },
     {
-      "date": "2023-01-19",
-      "title": "Réforme des retraites 2023",
-      "kind": "mouvement-social",
-      "url": "https://fr.wikipedia.org/wiki/Mouvement_social_contre_la_r%C3%A9forme_des_retraites_en_France_de_2023",
-      "description": {
-        "fr": "Quatorze journées nationales de grève et de manifestation ; la réforme est adoptée par l'article 49.3.",
-        "en": "Fourteen national days of strikes and marches; the reform is passed using article 49.3."
-      },
-      "check": {
-        "date": "2026-10-28",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    {
+      "id": "2023-retraites-quatorze-journees-de-mobilisation",
       "date": "2023-03-16",
-      "title": "Retraites : 49.3 et référendum refusé",
+      "end": "2023-06-06",
+      "title": {
+        "fr": "Retraites : quatorze journées de mobilisation, 49.3 et référendum refusé",
+        "en": "Pensions: fourteen days of protest, 49.3 and referendum refused"
+      },
       "kind": "deni-democratique",
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9forme_des_retraites_en_France_en_2023",
       "description": {
-        "fr": "Malgré des mois de mobilisation massive, la réforme des retraites est adoptée sans vote de l'Assemblée grâce à l'article 49.3 ; la motion de censure échoue à 9 voix le 20 mars. Le Conseil constitutionnel rejette ensuite deux demandes de référendum d'initiative partagée (14 avril et 3 mai 2023). Le gouvernement d'Élisabeth Borne recourt 23 fois au 49.3.",
-        "en": "Despite months of massive protests, the pension reform is passed without a vote in the Assembly using Article 49.3; the no-confidence motion fails by 9 votes on 20 March. The Constitutional Council then rejects two shared-initiative referendum requests (14 April and 3 May 2023). Élisabeth Borne's government uses 49.3 23 times."
+        "fr": "À partir du 19 janvier 2023, quatorze journées nationales de grève et de manifestation. Malgré cette mobilisation massive, la réforme des retraites est adoptée sans vote de l'Assemblée grâce à l'article 49.3 ; la motion de censure échoue à 9 voix le 20 mars. Le Conseil constitutionnel rejette ensuite deux demandes de référendum d'initiative partagée (14 avril et 3 mai 2023). Le gouvernement d'Élisabeth Borne recourt 23 fois au 49.3.",
+        "en": "From 19 January 2023, fourteen national days of strikes and marches. Despite this massive mobilisation, the pension reform is passed without a vote in the Assembly using Article 49.3; the no-confidence motion fails by 9 votes on 20 March. The Constitutional Council then rejects two shared-initiative referendum requests (14 April and 3 May 2023). Élisabeth Borne's government uses 49.3 23 times."
       },
-      "evidence": ["wiki-retraites-2023", "wiki-article-49"],
+      "related": ["2025-conclave-des-retraites-sans-tabou"],
+      "guides": ["travail"],
+      "evidence": ["wiki-mouvement-retraites-2023", "wiki-retraites-2023", "wiki-article-49"],
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -875,14 +1110,20 @@
       }
     },
     {
+      "id": "2023-sainte-soline",
       "date": "2023-03-25",
-      "title": "Sainte-Soline",
+      "title": {
+        "fr": "Sainte-Soline",
+        "en": "Sainte-Soline"
+      },
       "kind": "repression",
       "url": "https://fr.wikipedia.org/wiki/M%C3%A9gabassine",
       "description": {
         "fr": "Manifestation contre les « méga-bassines » agricoles dans les Deux-Sèvres, marquée par des affrontements et de nombreux blessés graves. Des images de caméras-piétons de gendarmes, révélées par Mediapart et Libération, montrent des tirs tendus de grenades interdits et des insultes ; une enquête administrative est ouverte.",
         "en": "Protest against agricultural “mega-basins” in Deux-Sèvres, marked by clashes and many seriously injured people. Gendarmes' body-camera footage revealed by Mediapart and Libération shows banned direct grenade shots and insults; an administrative inquiry is opened."
       },
+      "related": ["2023-sainte-soline-pas-de-lbd"],
+      "guides": ["premiers-secours", "dispersion"],
       "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"],
       "check": {
         "date": "2026-10-28",
@@ -891,15 +1132,18 @@
       }
     },
     {
+      "id": "2023-sainte-soline-pas-de-lbd",
       "date": "2023-03-27",
-      "title": "Sainte-Soline : « pas de LBD tiré depuis les quads »",
+      "title": {
+        "fr": "Sainte-Soline : « pas de LBD tiré depuis les quads »",
+        "en": "Sainte-Soline: 'no LBD fired from quad bikes'"
+      },
       "kind": "desinformation",
       "url": "https://www.politis.fr/articles/2023/03/repression-a-sainte-soline-les-trois-mensonges-de-letat/",
       "description": {
         "fr": "Après la manifestation contre les méga-bassines, le ministre de l'Intérieur dément l'usage de LBD par les gendarmes à quad.",
         "en": "After the march against mega-reservoirs, the Interior Minister denies that gendarmes on quad bikes fired rubber bullets (LBD)."
       },
-      "evidence": ["politis-sainte-soline-mensonges", "sainte-soline-videos"],
       "debunked": {
         "claim": {
           "fr": "« Non, les gendarmes n'ont pas lancé de LBD en quad. » (Gérald Darmanin)",
@@ -910,6 +1154,8 @@
           "en": "The head of the gendarmerie reports two LBD shots by the motorised platoon, and the minister retracts within the hour. In 2025, bodycam videos also show direct grenade fire, which is banned."
         }
       },
+      "related": ["2023-sainte-soline"],
+      "evidence": ["politis-sainte-soline-mensonges", "sainte-soline-videos"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -917,15 +1163,18 @@
       }
     },
     {
+      "id": "2023-mort-de-nahel-merzouk",
       "date": "2023-06-27",
-      "title": "Mort de Nahel Merzouk",
+      "title": {
+        "fr": "Mort de Nahel Merzouk",
+        "en": "Death of Nahel Merzouk"
+      },
       "kind": "soulevement",
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Nahel_Merzouk",
       "description": {
         "fr": "Un adolescent de 17 ans est tué par un policier lors d'un contrôle routier à Nanterre ; plusieurs nuits de révoltes urbaines suivent.",
         "en": "A 17-year-old is killed by a police officer during a traffic stop in Nanterre; several nights of urban uprisings follow."
       },
-      "evidence": ["nahel-proces"],
       "debunked": {
         "claim": {
           "fr": "Version policière initiale : le conducteur aurait foncé sur un policier.",
@@ -936,6 +1185,8 @@
           "en": "An amateur video contradicts this account; a murder trial is sought against the officer who fired."
         }
       },
+      "guides": ["filmer"],
+      "evidence": ["nahel-proces"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -943,8 +1194,12 @@
       }
     },
     {
+      "id": "2023-ciivise-3-des-mis-en",
       "date": "2023-11-17",
-      "title": "Ciivise : 3 % des mis en cause pour viol sur mineur condamnés",
+      "title": {
+        "fr": "Ciivise : 3 % des mis en cause pour viol sur mineur condamnés",
+        "en": "Ciivise: 3% of those accused of raping a minor convicted"
+      },
       "kind": "impunite",
       "url": "https://www.ciivise.fr/",
       "description": {
@@ -959,14 +1214,19 @@
       }
     },
     {
+      "id": "2024-manifestations-contre-l-extreme-droite",
       "date": "2024-06-15",
-      "title": "Manifestations contre l'extrême droite",
+      "title": {
+        "fr": "Manifestations contre l'extrême droite",
+        "en": "Protests against the far right"
+      },
       "kind": "mouvement-social",
       "url": "https://en.wikipedia.org/wiki/2024_French_protests_against_the_National_Rally",
       "description": {
         "fr": "Après la dissolution de l'Assemblée, des centaines de milliers de personnes manifestent dans toute la France contre l'extrême droite.",
         "en": "After the dissolution of Parliament, hundreds of thousands march across France against the far right."
       },
+      "guides": ["extreme-droite"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -974,14 +1234,19 @@
       }
     },
     {
+      "id": "2024-legislatives-2024-la-coalition-arrivee",
       "date": "2024-07-07",
-      "title": "Législatives 2024 : la coalition arrivée en tête écartée",
+      "title": {
+        "fr": "Législatives 2024 : la coalition arrivée en tête écartée",
+        "en": "2024 legislative elections: the coalition that came first set aside"
+      },
       "kind": "deni-democratique",
       "url": "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024",
       "description": {
         "fr": "Après la dissolution du 9 juin, le Nouveau Front populaire arrive en tête avec 193 sièges, devant Ensemble (168) et le RN (143). Emmanuel Macron refuse de nommer Lucie Castets, sa candidate, et nomme le 5 septembre Michel Barnier, issu des Républicains.",
         "en": "After the 9 June dissolution, the Nouveau Front populaire comes first with 193 seats, ahead of Ensemble (168) and the RN (143). Emmanuel Macron refuses to appoint its candidate Lucie Castets and on 5 September appoints Michel Barnier, from Les Républicains."
       },
+      "related": ["2025-trois-premiers-ministres-en-un"],
       "evidence": ["wiki-legislatives-2024"],
       "check": {
         "date": "2026-10-29",
@@ -990,14 +1255,19 @@
       }
     },
     {
+      "id": "2025-fret-sncf-liquide",
       "date": "2025-01-01",
-      "title": "Fret SNCF liquidé",
+      "title": {
+        "fr": "Fret SNCF liquidé",
+        "en": "Fret SNCF wound up"
+      },
       "kind": "privatisation",
       "url": "https://www.politis.fr/articles/2024/11/transports-liquidation-de-fret-sncf-les-syndicats-preparent-la-riposte/",
       "description": {
         "fr": "Pour clore une enquête de la Commission européenne sur environ 5,3 milliards d'euros d'aides publiques jugées contraires à la concurrence, Fret SNCF est remplacé par deux sociétés (Hexafret et Technis). Il doit céder 23 flux à ses concurrents, environ 20 % de son activité, et supprimer près de 500 postes, alors que le rail ne transporte que 10 % des marchandises en France.",
         "en": "To close a European Commission inquiry into about €5.3 billion of public aid deemed anti-competitive, Fret SNCF is replaced by two companies (Hexafret and Technis). It must hand 23 freight flows to competitors, about 20% of its business, and cut nearly 500 jobs, while rail carries only 10% of goods in France."
       },
+      "related": ["2018-sncf-fin-du-statut-et"],
       "evidence": ["politis-fret-sncf-2024"],
       "check": {
         "date": "2026-10-29",
@@ -1006,14 +1276,19 @@
       }
     },
     {
+      "id": "2025-cahiers-de-doleances-six-ans",
       "date": "2025-03-11",
-      "title": "Cahiers de doléances : six ans sans publication",
+      "title": {
+        "fr": "Cahiers de doléances : six ans sans publication",
+        "en": "Grievance books: six years unpublished"
+      },
       "kind": "deni-democratique",
       "url": "https://lcp.fr/actualites/gilets-jaunes-repondant-a-l-appel-de-l-assemblee-le-gouvernement-s-engage-a-reprendre-l",
       "description": {
         "fr": "Pendant le grand débat de 2018-2019, les citoyen·nes remplissent 19 247 cahiers de doléances dans 16 337 communes. Promis comme un « trésor national » à rendre aux Français·es, ils ne sont jamais publiés. Le 11 mars 2025, l'Assemblée nationale adopte à l'unanimité une résolution pour les rendre accessibles ; le gouvernement s'engage à ouvrir l'accès aux cahiers numérisés.",
         "en": "During the 2018-2019 great debate, citizens fill in 19,247 grievance books in 16,337 municipalities. Promised as a 'national treasure' to be returned to the French, they are never published. On 11 March 2025, the National Assembly unanimously adopts a resolution to make them accessible; the government commits to opening access to the digitised books."
       },
+      "related": ["2019-grand-debat-national-le-ric", "2026-agora-la-plateforme-de-participation"],
       "evidence": ["lcp-cahiers-doleances-2025"],
       "check": {
         "date": "2026-10-29",
@@ -1022,14 +1297,40 @@
       }
     },
     {
+      "id": "2025-conclave-des-retraites-sans-tabou",
+      "date": "2025-06-23",
+      "title": {
+        "fr": "Conclave des retraites : « sans tabou », mais 64 ans maintenus",
+        "en": "Pensions conclave: 'no taboos', but 64 kept"
+      },
+      "kind": "deni-democratique",
+      "url": "https://www.publicsenat.fr/actualites/politique/motion-de-censure-du-ps-le-conclave-sur-les-retraites-naura-ete-quun-ecran-de-fumee",
+      "description": {
+        "fr": "Promis « sans totem ni tabou », le conclave censé rouvrir la réforme des retraites de 2023 avec les syndicats et le patronat échoue le 23 juin 2025 après quatre mois : FO et la CGT l'ont quitté, et François Bayrou refuse de revenir à 62 ans. Pour le groupe socialiste, il n'aura été « qu'un écran de fumée ». La loi de financement de la Sécurité sociale pour 2026 ne fait ensuite que suspendre le recul de l'âge de départ jusqu'en janvier 2028, pour la génération 1964.",
+        "en": "Promised 'without totems or taboos', the conclave meant to reopen the 2023 pension reform with unions and employers collapses on 23 June 2025 after four months: FO and the CGT had walked out, and François Bayrou refuses to return to 62. For the Socialist group, it was 'just a smokescreen'. The 2026 social security financing law then only suspends the rise in the retirement age until January 2028, for those born in 1964."
+      },
+      "related": ["2023-retraites-quatorze-journees-de-mobilisation"],
+      "evidence": ["publicsenat-conclave-2025", "lemondedudroit-suspension-retraites"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2025-trois-premiers-ministres-en-un",
       "date": "2025-10-06",
-      "title": "Trois Premiers ministres en un an",
+      "title": {
+        "fr": "Trois Premiers ministres en un an",
+        "en": "Three Prime Ministers in one year"
+      },
       "kind": "deni-democratique",
       "url": "https://fr.wikipedia.org/wiki/Gouvernement_Fran%C3%A7ois_Bayrou",
       "description": {
         "fr": "Le gouvernement Barnier est renversé le 4 décembre 2024 par une motion de censure, une première depuis 1962. François Bayrou perd un vote de confiance le 8 septembre 2025 (364 voix contre, 194 pour). Sébastien Lecornu, nommé le 9 septembre, démissionne le 6 octobre quelques heures après la formation de son gouvernement, puis est renommé le 10 octobre.",
         "en": "Barnier's government is brought down by a no-confidence motion on 4 December 2024, a first since 1962. François Bayrou loses a confidence vote on 8 September 2025 (364 against, 194 for). Sébastien Lecornu, appointed on 9 September, resigns on 6 October a few hours after forming his government, then is reappointed on 10 October."
       },
+      "related": ["2024-legislatives-2024-la-coalition-arrivee"],
       "evidence": [
         "wiki-legislatives-2024",
         "wiki-gouvernement-bayrou",
@@ -1043,14 +1344,39 @@
       }
     },
     {
+      "id": "2026-petition-contre-la-loi-duplomb",
+      "date": "2026-02-11",
+      "title": {
+        "fr": "Pétition contre la loi Duplomb : 2,1 millions de signatures, un débat sans vote",
+        "en": "Petition against the Duplomb law: 2.1 million signatures, a debate without a vote"
+      },
+      "kind": "deni-democratique",
+      "url": "https://www.linfodurable.fr/petition-contre-la-loi-duplomb-debat-inedit-mais-sans-vote-lassemblee-54510",
+      "description": {
+        "fr": "Adoptée en juillet 2025, la loi Duplomb réintroduit notamment l'acétamipride, un pesticide néonicotinoïde interdit en France. Une pétition déposée sur le site de l'Assemblée par une étudiante dépasse 2,1 millions de signatures. Le 7 août 2025, le Conseil constitutionnel censure la dérogation aux néonicotinoïdes. Le 11 février 2026, la pétition est débattue dans l'hémicycle, une première, mais sans vote ; entre-temps, le sénateur Laurent Duplomb a déposé un nouveau texte pour réintroduire l'acétamipride.",
+        "en": "Adopted in July 2025, the Duplomb law notably reintroduces acetamiprid, a neonicotinoid pesticide banned in France. A petition filed on the Assembly's website by a student passes 2.1 million signatures. On 7 August 2025, the Constitutional Council strikes down the neonicotinoid exemption. On 11 February 2026, the petition is debated in the chamber, a first, but without a vote; in the meantime, Senator Laurent Duplomb has filed a new bill to reintroduce acetamiprid."
+      },
+      "evidence": ["linfodurable-duplomb-2026", "cc-duplomb-2025"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-carcassonne-propos-racistes-filmes-par",
       "date": "2026-09-09",
-      "title": "Carcassonne : propos racistes filmés par une caméra-piéton",
+      "title": {
+        "fr": "Carcassonne : propos racistes filmés par une caméra-piéton",
+        "en": "Carcassonne: racist remarks caught on a body camera"
+      },
       "kind": "discrimination",
       "url": "https://www.france24.com/fr/info-en-continu/20260909-propos-racistes-d-un-policier-de-carcassonne-une-enqu%C3%AAte-ouverte",
       "description": {
         "fr": "Une vidéo de novembre 2025, enregistrée par la caméra-piéton d'un agent et révélée par Midi Libre, montre des policiers municipaux de Carcassonne tenir des propos racistes, sexistes et complotistes. Le parquet ouvre une enquête ; les agents sont suspendus et leurs agréments retirés.",
         "en": "A November 2025 video, recorded by an officer's bodycam and revealed by Midi Libre, shows Carcassonne municipal police officers making racist, sexist and conspiracy remarks. The prosecutor opens an investigation; the officers are suspended and their accreditations withdrawn."
       },
+      "guides": ["suites-judiciaires"],
       "evidence": ["france24-carcassonne-2026", "euronews-carcassonne-2026"],
       "check": {
         "date": "2026-10-29",
@@ -1059,16 +1385,42 @@
       }
     },
     {
+      "id": "2026-mouvement-lyceen-de-2026",
       "date": "2026-09-21",
-      "title": "Mouvement lycéen de 2026",
+      "title": {
+        "fr": "Mouvement lycéen de 2026",
+        "en": "2026 high-school movement"
+      },
       "kind": "mouvement-social",
       "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/",
       "description": {
         "fr": "Blocus de lycées pour plus d'enseignant·es et de moyens ; des milliers de gardes à vue, très majoritairement de mineur·es.",
         "en": "School blockades for more teachers and resources; thousands taken into custody, mostly minors."
       },
+      "guides": ["lyceens"],
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-agora-la-plateforme-de-participation",
+      "date": "2026-10-23",
+      "title": {
+        "fr": "Agora : la plateforme de participation qui s'essouffle",
+        "en": "Agora: the participation platform running out of steam"
+      },
+      "kind": "deni-democratique",
+      "url": "https://www.maire-info.com/pour-renforcer-la-participation-citoyenne-en-france-le-gouvernement-mise-sur-sa-plateforme-numerique-agora-article-30939",
+      "description": {
+        "fr": "Lancée en septembre 2023 pour permettre aux citoyen·nes de s'exprimer, l'application Agora perd vite son élan : une seule consultation publiée en 2024. Relancée en juin 2026, elle accueille du 6 au 23 octobre la consultation des lycéen·nes après les blocus, avec environ 100 000 contributions. La chercheuse Magali Della Sudda y voit une « participation autoritaire », où le format contraint ce que l'on peut dire ; comme pour le grand débat et la Convention climat, des participant·es redoutent une nouvelle promesse sans suite.",
+        "en": "Launched in September 2023 to let citizens have their say, the Agora app quickly loses momentum: only one consultation published in 2024. Relaunched in June 2026, it hosts the high-school students' consultation after the blockades from 6 to 23 October, with about 100,000 contributions. Researcher Magali Della Sudda calls it 'authoritarian participation', where the format constrains what can be said; as with the great debate and the Climate Convention, participants fear yet another promise without follow-up."
+      },
+      "related": ["2025-cahiers-de-doleances-six-ans"],
+      "evidence": ["maire-info-agora-2026", "france3-agora-2026", "reporterre-consultations-2026"],
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }

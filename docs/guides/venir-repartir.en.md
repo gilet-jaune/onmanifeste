@@ -1,5 +1,5 @@
 ---
-source_commit: 3f2cabf9c669771713392a2b5fef3f01c917e5dc
+source_commit: 233f7f2822a412dcf41001d544c9137ff388cde8
 tags:
     - guides
     - transport
@@ -7,13 +7,20 @@ tags:
 
 # Getting there and back
 
+!!! abstract "Key points"
+
+    - Plan the way there **and two routes home**, with an offline map.
+    - Get off **one or two stops before** the start of the march, park far from the route.
+    - Leave **before the end** if tension rises, and **as soon as warnings are given**.
+    - Don't go home **alone**, and send a "home safe" message.
+
 The journey matters as much as the march: plan the way there **and back**, with a plan B if transport closes.
 
 ## Before you go
 
 - [ ] Prepare **two routes home**, on foot to stations away from the route.
 - [ ] Download an **offline map** ([Organic Maps](../annuaire/index.md#organic-maps)): the mobile network often saturates on site. Tutorials for each app in the [pre-protest checklist](avant-de-partir.md#offline-map).
-- [ ] Check **traffic information** the same morning: stations can be closed at the prefecture's request, and the list changes until the last minute.[^ratp][^fermeture]
+- [ ] Check **traffic information** the same morning: stations can be closed at the prefecture's request, and the list changes until the last minute.[^ratp][^fermeture] Traffic info and bike sharing in big cities (TCL, Vélo'v, RTM, Tisséo, TBM…): [directory "traffic info"](../annuaire/index.md?tags=info-trafic) · [bikes](../annuaire/index.md?tags=velo).
 - [ ] Carry a **ticket** and some cash, a charged phone and a power bank.
 - [ ] Set a **meeting point** with your group, away from the route ([never stay alone](ne-pas-rester-seul.md)).
 

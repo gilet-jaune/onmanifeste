@@ -1,11 +1,18 @@
 ---
-source_commit: 693df34db22cccf8a70f39babc131bb2cdb55b5b
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 tags:
     - guides
     - disinformation
 ---
 
 # Avoid disinformation
+
+!!! abstract "Key points"
+
+    - Angry or in a rush? **Slow down** before sharing (SIFT method).
+    - Check the **source**, look for other sources, trace the **origin**.
+    - Images: **reverse search** and clues about place and date.
+    - No **tolls** without a source, no protesters' **faces**; if you got it wrong, **correct it**.
 
 During a mobilization, false information spreads fast: old photos recycled, invented tolls, rumours of bans or dissolutions. It comes from every side, institutions included. Sharing false information weakens the movement and can put people in danger.
 

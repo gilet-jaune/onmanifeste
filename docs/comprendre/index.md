@@ -45,6 +45,14 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
     [:octicons-arrow-right-24: Voir le recensement](../victimes/index.md)
 
+- **Pourquoi ça casse en manif ?** [:material-hammer:](../guides/casse.md)
+
+    ***
+
+    Qui casse, pourquoi, ce que disent les études sur l'efficacité, ce que vous risquez.
+
+    [:octicons-arrow-right-24: Lire](../guides/casse.md)
+
 </div>
 
 ## Qui possède les médias et comment décrypter l'information
@@ -69,6 +77,23 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
 - **Votes et participation parlementaire** : {{ res("datan") }} et {{ res("poligraph") }} (Parlement français) ainsi que {{ res("howtheyvote") }} (Parlement européen) publient les votes détaillés et le taux de participation aux scrutins publics (qui ne mesure que les votes en séance, hors travail en commission ou en circonscription).
 - **Condamnations judiciaires et probité** (corruption, détournement de fonds publics, emplois fictifs, violences sexuelles…) : suivies par {{ res("anticor") }}, {{ res("mediapart") }}, {{ res("poligraph") }} et {{ res("casier-politique") }} (ces deux derniers s'appuient sur une extraction par IA depuis Wikipédia, Wikidata ou la presse : vérifiez chaque fiche à sa source). Les seules statistiques officielles, sans noms, sont celles de l'Agence française anticorruption.[^afa-probite-stats]
+
+### Comment les groupes ont voté sur nos causes
+
+Six votes de l'Assemblée nationale sur le pouvoir d'achat, la démocratie, le logement, l'immigration, les droits des femmes et la justice fiscale. On indique la **position majoritaire de chaque groupe** ; entre parenthèses, le détail (pour / contre / abstention) quand le groupe s'est divisé. Le détail député par député est sur chaque fiche {{ res("datan") }}.
+
+| Date et vote | Résultat | Gauche (LFI, PS, Écologistes, GDR) | LIOT | Macronistes (Renaissance, MoDem, Horizons) | LR | RN |
+| --- | --- | --- | --- | --- | --- | --- |
+| 20 juil. 2022 — Smic à 1 500 € net[^datan-smic-2022] | Rejeté | Pour | Pour | Contre | Contre | Contre |
+| 20 mars 2023 — Censure du gouvernement après le 49.3 sur les retraites[^datan-censure-retraites-2023][^lcp-censure-retraites-2023] | Rejetée à 9 voix près | Pour | Pour | Contre | Contre (19 pour sur 61) | Pour |
+| 4 avr. 2023 — Loi « anti-squat » (jusqu'à 3 ans de prison)[^datan-anti-squat-2023] | Adoptée | Contre | Pour (12 / 0 / 5) | Pour | Pour | Pour |
+| 19 déc. 2023 — Loi immigration[^datan-immigration-2023] | Adoptée | Contre | Divisé (8 / 8 / 5) | Pour (dont Renaissance 131 / 20 / 17, MoDem 30 / 5 / 15) | Pour | Pour (88 / 0 / 0) |
+| 30 janv. 2024 — IVG dans la Constitution[^datan-ivg-2024] | Adoptée | Pour | Pour | Pour | Pour (40 / 15 / 4) | Pour (46 / 12 / 14) |
+| 31 oct. 2025 — Taxe Zucman sur les patrimoines de plus de 100 millions d'euros[^datan-zucman-2025] | Rejetée | Pour | Sans position | Contre | Contre | Contre |
+
+Pour une motion de censure, seuls les votes « pour » sont comptés : « contre » signifie ici que le groupe ne l'a pas votée. En 2025, LR s'appelle Droite républicaine, et le groupe UDR, allié du RN, a aussi voté contre la taxe Zucman.[^datan-zucman-2025]
+
+**Vérifier un vote vous-même** : cherchez le texte sur {{ res("datan") }}, ouvrez le scrutin, puis regardez le vote de chaque groupe et de votre député·e. Au Parlement européen : {{ res("howtheyvote") }}.
 
 ## Sources
 

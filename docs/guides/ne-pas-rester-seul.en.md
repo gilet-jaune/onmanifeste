@@ -1,11 +1,18 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 tags:
     - guides
     - safety
 ---
 
 # Never stay alone
+
+!!! abstract "Key points"
+
+    - Come with a **buddy** and don't split up.
+    - Set **two meeting points** and tell someone **who is not protesting**.
+    - If your buddy is arrested: note the time, place and unit, and call the **legal team**.
+    - Go home **together** and organise a welcome when someone is released from custody.
 
 Isolation is the first risk at a protest: no one to witness an arrest, alert a lawyer or help you if you are hurt.[^legal-team]
 

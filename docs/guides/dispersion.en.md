@@ -1,15 +1,40 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
 review: juridique
 review_status: pending
 tags:
     - guides
     - dispersal
+    - flowchart
 ---
 
 # Dispersal, warnings and kettling
 
+!!! abstract "Key points"
+
+    - From the **first warning**, leave: staying afterwards can become an **offence**.
+    - Leave **calmly**, as a group, hands visible, by a street spotted in advance.
+    - All exits blocked? **Tell** the officers: staying because you can't leave is not staying voluntarily.
+    - Kettled: stay together, ask for a way out, **film and note the time**.
+
 Recognising a dispersal order, and leaving in time, avoids arrest: staying after the warnings can become an offence.
+
+## Flowchart: what to do at a dispersal
+
+<div class="flow" markdown>
+
+1. **Is a warning announced** ("Obey the law, disperse")?[^ldh-dispersion]
+    - **Yes** → leave **straight away**, calmly and as a group: staying after the warnings can become an offence.[^avocat-attroupement]
+    - **Not yet** → spot the exit streets and your meeting point.
+2. **Is there a way out?**
+    - **Yes** → leave with your hands visible, without turning back, away from the police line.
+    - **No** → **tell the officers** and ask which way to go; note the time, film if you can.[^ldh-dispersion]
+3. **Are you kettled?**
+    - **Yes** → stay together away from the edges, ask for a way out, point out anyone ill or underage, **film and note the time**; alert the legal team.
+    - **No** → go to your meeting point and let your contact know.
+4. **Arrested?** → [Police custody](garde-a-vue.md).
+
+</div>
 
 ## What the law says
 

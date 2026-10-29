@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/gilet-jaune/onmanifeste/security/advisories/new
     about: Signalement privé, jamais en issue publique.
   - name: 🚨 Urgence pendant une manifestation
-    url: https://github.com/gilet-jaune/onmanifeste/blob/main/docs/conseils/index.md
-    about: Ce dépôt n'est pas un service d'aide. En urgence, appelez le 112 ou une legal team (voir la page Conseils).
+    url: https://github.com/gilet-jaune/onmanifeste/blob/main/docs/sos/index.md
+    about: Ce dépôt n'est pas un service d'aide. En urgence, appelez le 112 ou une legal team (voir la page SOS).

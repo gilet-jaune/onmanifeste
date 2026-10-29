@@ -1,5 +1,5 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -9,6 +9,14 @@ tags:
 ---
 
 # Phone: emergency lock, passcode and seizure
+
+!!! abstract "Key points"
+
+    - **Turn off biometrics**: passcode of at least 6 digits, auto-lock after 30 seconds.
+    - In an emergency: **press the side button 5 times** (iPhone) or use **Lockdown** / switch off (Android).
+    - During a simple ID check, the police **cannot demand** that you unlock your phone.
+    - In custody, **never give your passcode** before talking to your lawyer.
+    - Phone seized: change your passwords and **log out all sessions** as soon as you are released.
 
 !!! warning "Disclaimer"
 

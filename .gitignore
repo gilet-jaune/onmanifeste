@@ -4,6 +4,9 @@ site/
 # Dependencies
 node_modules/
 
+# Python virtual environment (created by scripts/mkdocs.sh)
+.venv/
+
 # Python compiled files
 __pycache__/
 *.pyc

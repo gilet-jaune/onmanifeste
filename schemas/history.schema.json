@@ -17,16 +17,25 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["date", "title", "kind", "url", "description", "check"],
+        "required": ["id", "date", "title", "kind", "url", "description", "check"],
         "additionalProperties": false,
         "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^\\d{4}-[a-z0-9]+(-[a-z0-9]+)*$",
+            "description": "Unique, stable anchor (#evt-<id>): year + slug."
+          },
           "date": {
             "type": "string",
             "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
           },
-          "title": {
+          "end": {
             "type": "string",
-            "minLength": 1
+            "pattern": "^\\d{4}(-\\d{2}(-\\d{2})?)?$",
+            "description": "End of a period (YYYY, YYYY-MM or YYYY-MM-DD)."
+          },
+          "title": {
+            "$ref": "resources.schema.json#/$defs/localized"
           },
           "kind": {
             "type": "string"
@@ -79,6 +88,20 @@
               "fact": {
                 "$ref": "resources.schema.json#/$defs/localized"
               }
+            }
+          },
+          "related": {
+            "type": "array",
+            "description": "Ids of related events (\"see also\").",
+            "items": {
+              "type": "string"
+            }
+          },
+          "guides": {
+            "type": "array",
+            "description": "Slugs of useful guides (docs/guides/<slug>.md).",
+            "items": {
+              "type": "string"
             }
           }
         }

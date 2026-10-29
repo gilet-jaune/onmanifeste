@@ -8,6 +8,13 @@ tags:
 
 # Lycéen·nes : blocus, absences, sanctions
 
+!!! abstract "L'essentiel"
+
+    - Manifester est un **droit**, mais l'absence n'est pas justifiée et **bloquer le lycée est interdit** (sanctions, voire délit d'entrave).
+    - Autour du lycée : jamais seul·e, et **ne ramassez jamais une grenade**.
+    - Conseil de discipline : convocation **8 jours avant**, accès au dossier, droit d'être assisté·e, recours sous **8 jours**.
+    - Garde à vue dès **13 ans** : avocat·e **obligatoire**, parents prévenus, et **silence** sur les noms (camarades, profs).
+
 Les lycéen·nes ont le droit de manifester. Mais l'école a ses propres règles, qui s'ajoutent à celles de la rue.
 
 ## Ce qui est permis, ce qui ne l'est pas
@@ -50,6 +57,10 @@ Dès 13 ans, un·e mineur·e peut être placé·e en garde à vue, avec des gara
 - **tous les interrogatoires sont filmés**.
 
 Vous avez le droit de vous taire. Ne signez rien que vous ne comprenez pas ([le guide garde à vue](garde-a-vue.md)).
+
+On peut vous demander **des noms** : qui a organisé le blocus, quels profs vous ont encouragé·es. Des lycéen·nes l'ont raconté après des gardes à vue en 2020.[^sudradio-lyceens-gav-2020] Vous n'avez pas à répondre : gardez le silence et attendez votre avocat·e.
+
+**Parents** : vous devez être prévenu·es. Demandez où votre enfant est retenu·e et contactez un·e avocat·e ou une legal team sans attendre ; sinon, un·e avocat·e commis·e d'office est désigné·e.[^sp-mineur] À la sortie, gardez les documents remis et notez son récit à chaud.
 
 [:octicons-arrow-right-24: Ressources pour les mineur·es dans l'annuaire](../annuaire/index.md?situation=parent) · [:octicons-arrow-right-24: Le droit de manifester](droit-de-manifester.md)
 

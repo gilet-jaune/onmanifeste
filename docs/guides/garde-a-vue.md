@@ -5,13 +5,41 @@ tags:
     - guides
     - garde à vue
     - droits
+    - schéma
 ---
 
 # Garde à vue
 
+!!! abstract "L'essentiel"
+
+    - Demandez **tout de suite un·e avocat·e et un médecin**.
+    - **Taisez-vous** jusqu'à l'entretien avec l'avocat·e ; ne parlez **jamais des autres**.
+    - **Relisez** chaque procès-verbal ; ne signez pas ce qui est inexact.
+    - Durée : **24 heures**, renouvelable une fois.
+    - À la sortie : notez tout à chaud, gardez les documents, contactez une **legal team**.
+
 !!! warning "Avertissement"
 
     Fiche générale, pas un conseil juridique. Votre avocat·e est la seule personne à qui confier les détails de votre situation.
+
+## Schéma : de l'interpellation à la sortie
+
+<div class="flow" markdown>
+
+1. **Que vous annonce-t-on ?**
+    - **Vérification d'identité** (sans garde à vue) → **4 heures maximum** ; vous pouvez faire prévenir le procureur et une personne de votre choix.[^sp-retenue]
+    - **Garde à vue** → suivez les étapes ci-dessous.
+2. **Dès la notification des droits** → demandez **un·e avocat·e et un médecin**, faites prévenir un proche.[^sp-gav]
+3. **Êtes-vous mineur·e ?**
+    - **Oui** → avocat·e **obligatoire**, parents prévenus, auditions filmées.[^sp-mineur]
+    - **Non** → 24 heures, renouvelables une fois.[^sp-gav]
+4. **Pendant les auditions** → **taisez-vous** jusqu'à l'entretien avec l'avocat·e ; ne parlez **jamais des autres**.[^sp-gav]
+5. **Un procès-verbal à signer ?**
+    - **Exact** → vous pouvez signer.
+    - **Inexact** → ne signez pas, ou faites corriger.
+6. **À la sortie** → notez tout à chaud, gardez les documents ; comparution immédiate : vous pouvez **demander un délai**.[^sp-ci] Contactez une legal team.
+
+</div>
 
 ## Vos droits, dès le début
 
@@ -52,7 +80,9 @@ Durée : **24 heures**, renouvelable une fois (48 heures) pour la plupart des fa
 - Notez **à chaud** ce qui s'est passé : heures, lieux, propos, noms ou matricules, conditions de détention.
 - Gardez **tous les documents** remis (convocation, rappel à la loi, notification de comparution).
 - **Comparution immédiate** : vous pouvez demander un **délai** pour préparer votre défense.[^sp-ci]
-- Contactez une **legal team** pour le suivi et une **caisse de solidarité** pour les frais.[^legal-team]
+- Contactez une **legal team** ou un collectif antirépression local ({{ res("rajcol", "liste des collectifs locaux") }}) pour le suivi, et une **caisse de solidarité** pour les frais.[^legal-team]
+- Frais d'avocat : vous pouvez avoir droit à l'{{ res("sp-aide-juridictionnelle", "aide juridictionnelle") }} selon vos ressources.[^sp-aj]
+- Violences ou manquements des forces de l'ordre : [porter plainte et signaler](suites-judiciaires.md).
 
 [:octicons-arrow-right-24: Contacts et ressources « garde à vue » dans l'annuaire](../annuaire/index.md?situation=garde-a-vue)
 

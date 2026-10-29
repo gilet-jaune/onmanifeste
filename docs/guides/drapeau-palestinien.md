@@ -8,6 +8,13 @@ tags:
 
 # Drapeau palestinien en manifestation
 
+!!! abstract "L'essentiel"
+
+    - Manifester en soutien à la population palestinienne est **légal**.
+    - Une interdiction doit être **justifiée au cas par cas**, pas seulement par la cause défendue.
+    - Manif interdite : amende de **135 €**, pas de garde à vue pour cette seule contravention.
+    - Pancartes et posts : l'**apologie du terrorisme** est un délit lourdement puni ; écrivez clairement ce que vous défendez.
+
 Manifester en soutien à la population palestinienne est légal. Ce qui peut vous être reproché dépend du **cadre** (manifestation interdite ou non) et de **ce que disent vos pancartes, slogans et publications**, pas du drapeau lui-même.
 
 ## Ce que dit la justice

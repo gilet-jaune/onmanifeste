@@ -1,5 +1,5 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: medical
 review_status: pending
 tags:
@@ -9,6 +9,13 @@ tags:
 ---
 
 # Protesting with a disability or chronic condition
+
+!!! abstract "Key points"
+
+    - Emergency for deaf people or those who cannot speak: **114** by text, chat or video.
+    - Medication for **48 hours**, prescription and a **medical sheet** on paper.
+    - A **dedicated buddy** and a scouted route (accessible section of the march, side streets).
+    - In custody: ask for **a doctor** immediately; free **sign-language** interpreter if needed.
 
 !!! warning "Accessible emergency number (114)"
 

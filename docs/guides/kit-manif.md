@@ -8,6 +8,14 @@ tags:
 
 # Kit et tenue de manif
 
+!!! abstract "L'essentiel"
+
+    - Tenue **couvrante**, chaussures fermées, **pas de lentilles**.
+    - **Masque de ski** pour les yeux, demi-masque **A2P3** ou **ABEK1P3** contre le gaz, bouchons d'oreille.
+    - Visage **découvert** tant que vous n'êtes pas exposé·e au gaz : le dissimuler sans motif légitime est un délit.
+    - Dans le sac : pièce d'identité, eau, sérum physiologique, batterie, numéros sur papier.
+    - À la maison : tout ce qui peut passer pour une **arme**, et les listes de **noms** de camarades.
+
 Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac léger. L'objectif : se protéger, pouvoir partir vite, et ne rien avoir sur soi qui puisse vous être reproché.
 
 ## Tenue

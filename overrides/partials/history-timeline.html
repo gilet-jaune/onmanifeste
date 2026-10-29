@@ -1,5 +1,67 @@
 {#- Renders docs/data/history.json (loaded via macros include_yaml): a dated timeline and the list of gains. -#}
-{%- from 'overrides/partials/check.html' import checked_by -%}
+{%- from 'overrides/partials/check.html' import checked_by, check_title -%}
+
+{#- Periods used for the "jump to" links: [first year, last year, fr, en]. -#}
+{%- set periods = [
+  [0, 1899, 'Avant 1900', 'Before 1900'],
+  [1900, 1967, '1900-1967', '1900-1967'],
+  [1968, 1999, '1968-1999', '1968-1999'],
+  [2000, 2016, '2000-2016', '2000-2016'],
+  [2017, 9999, 'Depuis 2017', 'Since 2017'],
+] -%}
+
+
+{#- Labels of the guides an event can point to (slugs validated by scripts/validate-history.mjs). -#}
+{%- set guide_labels = {
+  'controle-fouille': ["Contrôle d'identité et fouille", 'ID checks and searches'],
+  'desinformation': ['Éviter la désinformation', 'Avoid disinformation'],
+  'dispersion': ['Dispersion, sommations et nasse', 'Dispersal, warnings and kettling'],
+  'droit-de-manifester': ['Le droit de manifester', 'The right to protest'],
+  'extreme-droite': ["Agressions par l'extrême droite", 'Far-right attacks'],
+  'filmer': ["Filmer les forces de l'ordre", 'Film the police'],
+  'garde-a-vue': ['Garde à vue', 'Police custody'],
+  'lyceens': ['Lycéen·nes', 'High-school students'],
+  'premiers-secours': ['Premiers secours', 'First aid'],
+  'suites-judiciaires': ['Porter plainte', 'Filing a complaint'],
+  'travail': ['Grève, manif et travail', 'Strikes, protests and work'],
+} -%}
+{%- set victim_dates = victimes.victims | map(attribute='date') | list -%}
+
+{%- macro end_label(e) -%}
+{%- if e.end %}{% set y = e.end[:4] %}{% set parts = e.end.split('-') -%}
+ <span class="timeline__end">→ {% if y != e.date[:4] %}{{ y }}{% elif parts | length == 3 %}{{ parts[2] | int }}/{{ parts[1] }}{% else %}{{ parts[1] }}/{{ y }}{% endif %}</span>
+{%- endif %}
+{%- endmacro -%}
+
+{%- macro links_line(e, lang, shown_ids) -%}
+{%- if e.related or e.guides or e.date in victim_dates %}
+<p class="timeline__links">
+  {%- if e.related %}<strong>{{ 'Voir aussi :' if lang == 'fr' else 'See also:' }}</strong>
+  {%- for id in e.related %}{% set r = (events | selectattr('id', 'equalto', id) | first) %} <a href="{{ '' if id in shown_ids else '../histoire/' }}#evt-{{ id }}">{{ r.title[lang] or r.title.fr }} ({{ r.date[:4] }})</a>{% if not loop.last %} ·{% endif %}{% endfor %}{% endif %}
+  {%- if e.date in victim_dates %}{% if e.related %} ·{% endif %} <a href="../victimes/#victime-{{ e.date }}">{{ 'Blessé·es et mort·es' if lang == 'fr' else 'Injured and killed' }}</a>{% endif %}
+  {%- if e.guides %}{% if e.related or e.date in victim_dates %}<br>{% endif %}<strong>{{ 'Guides :' if lang == 'fr' else 'Guides:' }}</strong>
+  {%- for g in e.guides %} <a href="../guides/{{ g }}/">{{ guide_labels[g][0 if lang == 'fr' else 1] if g in guide_labels else g }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}{% endif %}
+</p>
+{%- endif %}
+{%- endmacro -%}
+
+{%- macro period_of(year) -%}
+{%- for p in periods %}{% if p[0] <= year <= p[1] %}{{ loop.index0 }}{% endif %}{% endfor -%}
+{%- endmacro -%}
+
+{%- macro source_label(url, lang) -%}
+{%- set host = url.split('/')[2] | replace('www.', '') -%}
+{%- if 'wikipedia.org' in host %}{{ 'Wikipédia' if lang == 'fr' else ('Wikipedia (in French)' if host.startswith('fr.') else 'Wikipedia') }}{% else %}{{ host }}{% endif -%}
+{%- endmacro -%}
+
+{%- macro sources_line(e, lang) -%}
+<p class="timeline__sources"><strong>{{ 'Sources :' if lang == 'fr' else 'Sources:' }}</strong>
+  {%- set ns = namespace(urls=[]) %}
+  {%- for id in e.evidence or [] %}{% set s = sources[id] %}{% set u = s.url[lang] if s.url is mapping else s.url %}{% set ns.urls = ns.urls + [u] %}{% endfor %}
+  {%- if e.url not in ns.urls %} <a href="{{ e.url }}" target="_blank" rel="noopener" title="{{ check_title(e.check, lang) }}">{{ source_label(e.url, lang) }}</a>{% if e.evidence %} ·{% endif %}{% endif %}
+  {%- for id in e.evidence or [] %}{% set s = sources[id] %}{% set u = s.url[lang] if s.url is mapping else s.url %} <a href="{{ u }}" target="_blank" rel="noopener" title="{{ check_title(s.check, lang) }}">{{ s.title[lang] or s.title.fr }}</a>{% if not loop.last %} ·{% endif %}{% endfor %}
+</p>
+{%- endmacro -%}
 
 {%- macro gains_line(e, lang) -%}
 <p class="timeline__gains"><strong>{{ 'Obtenu :' if lang == 'fr' else 'Won:' }}</strong> {{ e.gains[lang] or e.gains.fr }}{% if e.gains.source %} <a href="{{ e.gains.source }}" target="_blank" rel="noopener">({{ 'source' }})</a>{% endif %}</p>
@@ -7,15 +69,46 @@
 
 {#- only: optional list of event kinds to show (default: all). -#}
 {%- macro timeline(lang, only=none) -%}
+{%- set shown = events | selectattr('kind', 'in', only) | list if only else events -%}
+{%- set shown_kinds = shown | map(attribute='kind') | unique | list -%}
+{%- set shown_ids = shown | map(attribute='id') | list -%}
+{%- set shown_periods = [] -%}
+{%- for e in shown %}{% set p = period_of(e.date[:4] | int) | int %}{% if p not in shown_periods %}{% set _ = shown_periods.append(p) %}{% endif %}{% endfor -%}
+
+{%- if shown_kinds | length > 1 %}
+<div class="timeline-filters" data-timeline-filters hidden>
+  <span class="timeline-filters__label">{{ 'Afficher :' if lang == 'fr' else 'Show:' }}</span>
+  <button type="button" class="timeline-filters__chip" data-kind="" aria-pressed="true">{{ 'Tout' if lang == 'fr' else 'All' }}</button>
+  {%- for k, label in kinds.items() if k in shown_kinds %}
+  <button type="button" class="timeline-filters__chip" data-kind="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
+  {%- endfor %}
+</div>
+{%- endif %}
+
+{%- if shown_periods | length > 1 %}
+<nav class="timeline-periods" aria-label="{{ 'Périodes' if lang == 'fr' else 'Periods' }}">
+  {%- for p in shown_periods %}
+  <a href="#periode-{{ periods[p][0] }}">{{ periods[p][2] if lang == 'fr' else periods[p][3] }}</a>
+  {%- endfor %}
+</nav>
+{%- endif %}
+
 <ol class="timeline">
-  {%- for e in events if not only or e.kind in only %} {%- set year, month, day = e.date.split('-') %}
-  <li class="timeline__event timeline__event--{{ e.kind }}" id="evt-{{ e.date }}">
-    <time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time>
+  {%- set ns = namespace(period=-1) %}
+  {%- for e in shown %} {%- set year, month, day = e.date.split('-') %}
+  {%- set p = period_of(year | int) | int %}
+  {%- if p != ns.period and shown_periods | length > 1 %}{% set ns.period = p %}
+  <li class="timeline__period" id="periode-{{ periods[p][0] }}"><h3>{{ periods[p][2] if lang == 'fr' else periods[p][3] }}</h3></li>
+  {%- endif %}
+  <li class="timeline__event timeline__event--{{ e.kind }}" id="evt-{{ e.id }}" data-kind="{{ e.kind }}">
+    <time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}{{ end_label(e) }}</time>
     <div class="timeline__body">
       <span class="timeline__kind">{{ kinds[e.kind][lang] or kinds[e.kind].fr }}</span>
-      <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a></h3>
-      <p>{{ e.description[lang] or e.description.fr }}</p>
+      <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title[lang] or e.title.fr }}</a> <a class="timeline__permalink" href="#evt-{{ e.id }}" aria-label="{{ 'Lien vers cet événement' if lang == 'fr' else 'Link to this event' }}">#</a></h3>
+      <p class="timeline__desc">{{ e.description[lang] or e.description.fr }}</p>
       {%- if e.gains %}{{ gains_line(e, lang) }}{% endif %}
+      {{ links_line(e, lang, shown_ids) }}
+      {{ sources_line(e, lang) }}
       {%- if e.check.result == 'unconfirmed' %}
       <span class="directory__unconfirmed" title="{{ e.check.note }}">⚠ {{ 'Non confirmé' if lang == 'fr' else 'Unconfirmed' }}</span>
       {%- endif %}
@@ -29,7 +122,7 @@
 {%- macro gains(lang) -%}
 <ul class="gains">
   {%- for e in events if e.gains %}
-  <li><a class="gains__year" href="#evt-{{ e.date }}">{{ e.date[:4] }}</a> <span><strong>{{ e.title }}</strong> — {{ e.gains[lang] or e.gains.fr }}</span></li>
+  <li><a class="gains__year" href="#evt-{{ e.id }}">{{ e.date[:4] }}</a> <span><strong>{{ e.title[lang] or e.title.fr }}</strong> — {{ e.gains[lang] or e.gains.fr }}</span></li>
   {%- endfor %}
 </ul>
 {%- endmacro -%}

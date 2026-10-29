@@ -45,7 +45,7 @@ Règles :
     - `note` : obligatoire si `unconfirmed`, pour expliquer ce qui n'a pas pu être confirmé.
     - `by` : qui a vérifié (`ai`, `volunteer`, `lawyer`, `medical` ou `historian`).
 - `url` est aussi la **source principale** de la description. Si la description affirme quelque chose qui vient d'ailleurs, ajoutez `sources` : `[{ "title": "…", "url": "https://…" }]`.
-- Dans les guides et conseils, chaque information factuelle ou juridique porte une note de bas de page (`[^id]`). Les sources sont centralisées dans `docs/data/sources.json` (titre FR/EN, URL, date de vérification) : ajoutez-y la source une seule fois, puis citez-la par son identifiant dans n'importe quelle page.
+- Dans les guides, chaque information factuelle ou juridique porte une note de bas de page (`[^id]`). Les sources sont centralisées dans `docs/data/sources.json` (titre FR/EN, URL, date de vérification) : ajoutez-y la source une seule fois, puis citez-la par son identifiant dans n'importe quelle page.
 - Pour mentionner une ressource de l'annuaire dans un guide, utilisez `{% raw %}{{ res("id") }}{% endraw %}` (ou `{% raw %}{{ res("id", "texte du lien") }}{% endraw %}`) au lieu de coller son URL.
 - `phone` (facultatif) : uniquement un numéro public officiel (ligne d'urgence, permanence).
 
@@ -85,7 +85,7 @@ Les parcours sont dans `docs/data/parcours.json` : chaque profil (« Je suis… 
 
 - `{ "resource": "id" }` : une ressource de l'annuaire ;
 - `{ "guide": "slug", "anchor": { "fr": "…", "en": "…" }, "label": { … } }` : une section de guide ;
-- `{ "page": "sos" | "carte" | "conseils", … }` ou `{ "directory": { "situation": "…" }, … }`.
+- `{ "page": "sos" | "carte" | "comprendre" | "histoire" | "repressions", … }` ou `{ "directory": { "situation": "…" }, … }`.
 
 Ajoutez `"urgent": true` pour afficher le lien vers la page SOS. `npm run validate:data` vérifie que chaque ressource, situation et ancre existe, en français et en anglais.
 

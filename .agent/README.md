@@ -1,6 +1,6 @@
 # Awesome Protest — Agent Guide
 
-French-first toolkit for protesting in France: a sourced directory, quick guides, an SOS page, a printable pocket card and a history timeline, published with MkDocs Material as an offline-capable PWA. Entry point and validation baseline: [`AGENTS.md`](../AGENTS.md).
+French-first toolkit for protesting in France: a sourced directory, guides, an SOS page, a printable pocket card and a history timeline, published with MkDocs Material as an offline-capable PWA. Entry point and validation baseline: [`AGENTS.md`](../AGENTS.md).
 
 ## Ground rules
 
@@ -15,9 +15,9 @@ French-first toolkit for protesting in France: a sourced directory, quick guides
 | Path | What it is |
 | --- | --- |
 | `docs/data/resources.json` | Single registry: `categories`, `emergency`, `situations`, `synonyms`, `resources`. Schema in `schemas/resources.schema.json`. |
-| `docs/data/history.json` | Timeline events (`kinds`, `events`), each with a `check` (`date`, `result`, `by`), rendered at build time. Schema in `schemas/history.schema.json`. |
+| `docs/data/history.json` | Timeline events (`kinds`, `events`), each with a unique `id`, a bilingual `title` and a `check` (`date`, `result`, `by`), rendered at build time. Schema in `schemas/history.schema.json`. |
 | `docs/data/victimes.json` | Landmark historical cases and movement-wide tolls of people injured or killed at or after protests (`by`, `censuses`, `victims`); ongoing case-by-case tracking is delegated to the external databases (`censuses`). Every entry needs `evidence` (ids from `sources.json`), an optional `justice` outcome (`status` from the `justice` labels, `date`, `text`, `evidence`; omit it when unknown) and a `check` (`date`, `result`, `note` when unconfirmed). Name only the dead or people who made their case public; never name minors who are alive. Validated by `scripts/validate-victimes.mjs`. |
-| `docs/guides/` | Quick guides (FR + EN). `review: juridique\|medical` front matter shows a "not yet reviewed" badge. |
+| `docs/guides/` | Guides (FR + EN). `review: juridique\|medical` front matter shows a "not yet reviewed" badge. |
 | `docs/annuaire/`, `docs/sos/`, `docs/carte/` | Directory, SOS page and pocket card, all rendered from the registry (`overrides/partials/*.html`). |
 | `docs/data/parcours.json`, `docs/javascripts/parcours.js` | Guided search "Je suis… / et je veux…": profiles → needs → results (guide sections, resources, pages). Validated by `scripts/validate-parcours.mjs` (anchors checked FR and EN). |
 | `docs/javascripts/directory.js` | Live search: situations, synonyms, typo tolerance, ranking, tag counts. |

@@ -1,11 +1,18 @@
 ---
-source_commit: 11933ef072915ebe92262e83a494e29f1aaef917
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 tags:
     - guides
     - training
 ---
 
 # Stay informed, get trained
+
+!!! abstract "Key points"
+
+    - Get trained in **nonviolent action** and your rights (ANV-COP21, Alternatiba, Amnesty).
+    - Protest calendar: **Demosphere** and local sites.
+    - Find **official** accounts from the organisation's website; RSS or Mastodon to follow without an algorithm.
+    - Your follows and likes are **public**: use a separate account if your situation is sensitive.
 
 Protesting can be learned: associations train people in non-violent action, observing police practices or knowing their rights. And to follow mobilisations, reliable sources beat rumours.
 
@@ -14,7 +21,7 @@ Protesting can be learned: associations train people in non-violent action, obse
 - **Non-violent action and civil disobedience**: {{ res("anv-cop21-formations", "ANV-COP21") }} and local {{ res("alternatiba") }} groups run theory and practice training: preparing an action, sharing roles, knowing the legal framework and the risks.[^anv-cop21-formations][^france3-formation-desobeissance]
 - **Join a movement**: {{ res("extinction-rebellion") }} and {{ res("greenpeace-groupes-locaux", "Greenpeace") }} are organised in local groups, the way in to take part and learn with others.[^france3-formation-desobeissance]
 - **Observe police practices**: the {{ res("ldh-observatoires", "LDH observatories") }} train identifiable observers who document protests.[^ldh-observatoires]
-- **Know your rights**: Amnesty's booklet {{ res("amnesty-formation-manifestation", "\"Manifestation : tes droits en action\"") }} (in French), and our [quick guides](index.md).
+- **Know your rights**: Amnesty's booklet {{ res("amnesty-formation-manifestation", "\"Manifestation : tes droits en action\"") }} (in French), and our [guides](index.md).
 
 ## Stay informed
 

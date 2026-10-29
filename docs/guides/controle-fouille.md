@@ -9,6 +9,13 @@ tags:
 
 # Contrôle d'identité, fouille de sac et amendes
 
+!!! abstract "L'essentiel"
+
+    - Vous devez **justifier de votre identité**, sinon vérification possible jusqu'à **4 heures**.
+    - **Jamais de fausse identité.**
+    - La **fouille complète** d'un sac est réservée à un OPJ dans des cas précis ; la palpation se fait par une personne du même sexe.
+    - Amende de **135 €** : **ne payez pas sur place** si vous voulez contester ; vous avez **45 jours** après l'avis.
+
 !!! warning "Avertissement"
 
     Fiche générale, pas un conseil juridique. En cas de suite judiciaire ou d'amende à contester, demandez conseil à un·e avocat·e ou à une legal team.

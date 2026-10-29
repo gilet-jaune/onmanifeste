@@ -6,6 +6,13 @@ tags:
 
 # Éviter la désinformation
 
+!!! abstract "L'essentiel"
+
+    - Colère ou urgence ? **Ralentissez** avant de partager (méthode SIFT).
+    - Vérifiez la **source**, cherchez d'autres sources, remontez à l'**origine**.
+    - Image : **recherche inversée** et indices de lieu et de date.
+    - Pas de **bilans** sans source, pas de **visages** de manifestant·es ; trompé·e, **corrigez**.
+
 Pendant une mobilisation, les fausses informations circulent vite : vieilles photos ressorties, bilans inventés, rumeurs de dissolution ou d'interdiction. Elles viennent de tous les bords, y compris des institutions. Partager une fausse info fragilise le mouvement et peut mettre des gens en danger.
 
 ## La méthode en 4 étapes (SIFT)

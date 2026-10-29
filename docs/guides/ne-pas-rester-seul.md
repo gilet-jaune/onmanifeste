@@ -6,6 +6,13 @@ tags:
 
 # Ne jamais rester seul·e
 
+!!! abstract "L'essentiel"
+
+    - Venez en **binôme** et ne vous séparez pas.
+    - Fixez **deux points de rendez-vous** et prévenez une personne **qui ne manifeste pas**.
+    - Si votre binôme est interpellé·e : notez l'heure, le lieu, l'unité, et appelez la **legal team**.
+    - Rentrez **à plusieurs** et organisez l'accueil à la sortie de garde à vue.
+
 L'isolement est le premier risque en manifestation : personne pour témoigner d'une interpellation, prévenir un·e avocat·e ou vous aider si vous êtes blessé·e.[^legal-team]
 
 ## Avant de partir

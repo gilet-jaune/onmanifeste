@@ -21,6 +21,17 @@ Des violences commises lors du maintien de l'ordre, et des déclarations officie
 
 {{ doc.repressions('fr') }}
 
+## Gardes à vue de masse : beaucoup d'interpellé·es, peu de poursuivi·es
+
+Une garde à vue peut durer 24 heures, même quand aucune poursuite ne suit. Pendant les grands mouvements, elles se comptent par milliers.
+
+- **Gilets jaunes** : 11 203 personnes placées en garde à vue entre novembre 2018 et juillet 2019, dont 5 962 libérées sans poursuites. Amnesty International dénonce un usage abusif de la loi contre les manifestant·es.[^amnesty-arrestations-2020]
+- **Figures du mouvement** : Éric Drouet a été placé en garde à vue puis condamné à une amende pour avoir organisé deux manifestations non déclarées à Paris.[^tendanceouest-drouet-2019] Le 14 juillet 2019, deux autres figures des gilets jaunes ont été placées en garde à vue pour « organisation d'une manifestation illicite » ; leur avocat a dénoncé des « interpellations manifestement politiques ».[^tendanceouest-14-juillet-2019]
+- **Lycéen·nes, 2026** : plus de 5 000 interpellations entre le 21 septembre et le 2 octobre, dont 85 % de mineur·es.[^amnesty-lyceens-2026] À Paris, sur 273 gardes à vue, 63 % de mineur·es, pour la plupart inconnu·es de la police ; à la mi-octobre, aucun·e mineur·e n'avait été condamné·e.[^publicsenat-beccuau-2026]
+- **Lycéen·nes, 2020** : des élèves placé·es en garde à vue après des blocus racontent qu'on leur a demandé quels professeurs les avaient encouragé·es.[^sudradio-lyceens-gav-2020]
+
+Des associations et des avocat·es y voient un moyen de **dissuader** de manifester. Vos droits : [le guide garde à vue](../guides/garde-a-vue.md).
+
 ## Déclarations officielles démenties
 
 Cette sélection regroupe quelques cas emblématiques du maintien de l'ordre où une affirmation publique a ensuite été formellement contredite par une vidéo, une enquête, la justice ou son auteur lui-même. Nous ne tenons pas de frise exhaustive des déclarations politiques ou médiatiques au fil de l'actualité : ce suivi quotidien est assuré par des observatoires et rédactions spécialisés (ci-dessous).

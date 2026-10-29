@@ -437,6 +437,7 @@ document.addEventListener('DOMContentLoaded', function () {
     tiktok: 'TikTok',
     youtube: 'YouTube',
     peertube: 'PeerTube',
+    linkedin: 'LinkedIn',
     github: 'GitHub',
   };
 
@@ -497,7 +498,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const socialKeys = r.socials ? Object.keys(CARD_SOCIALS).filter((k) => r.socials[k]) : [];
     const storeKeys = r.stores ? Object.keys(CARD_STORES).filter((k) => r.stores[k]) : [];
 
-    dialog.replaceChildren(
+    // Optional sections are null when absent: drop them, or the DOM would print "null".
+    const sections = [
       cardEl(
         'div',
         { class: 'contact-card__header' },
@@ -645,7 +647,8 @@ document.addEventListener('DOMContentLoaded', function () {
             r.check.by === 'ai' ? ` · ${CARD_I18N.aiPending}` : '',
           )
         : null,
-    );
+    ];
+    dialog.replaceChildren(...sections.filter(Boolean));
 
     dialog.showModal();
   }
@@ -673,3 +676,91 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+/*
+  Timeline filters (overrides/partials/history-timeline.html): the buttons stay hidden without
+  JavaScript, so every event remains visible. A period heading is hidden when none of its events
+  match the selected kind.
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('[data-timeline-filters]').forEach((filters) => {
+    const list = filters.parentElement.querySelector('ol.timeline');
+    if (!list) return;
+    const chips = filters.querySelectorAll('[data-kind]');
+    filters.hidden = false;
+
+    filters.addEventListener('click', (e) => {
+      const chip = e.target.closest('[data-kind]');
+      if (!chip) return;
+      const kind = chip.getAttribute('data-kind');
+      chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+
+      let heading = null;
+      let headingHasMatch = false;
+      const closeHeading = () => {
+        if (heading) heading.hidden = !headingHasMatch;
+      };
+      list.querySelectorAll(':scope > li').forEach((li) => {
+        if (li.classList.contains('timeline__period')) {
+          closeHeading();
+          heading = li;
+          headingHasMatch = false;
+          return;
+        }
+        const match = !kind || li.getAttribute('data-kind') === kind;
+        li.hidden = !match;
+        if (match) headingHasMatch = true;
+      });
+      closeHeading();
+    });
+  });
+});
+
+/*
+  Timeline descriptions (overrides/partials/history-timeline.html): on phones, long texts are folded
+  to four lines with a "read more" toggle. Without JavaScript, everything stays unfolded.
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  if (!window.matchMedia('(max-width: 44.9375em)').matches) return;
+  const fr = document.documentElement.lang !== 'en';
+  const more = fr ? 'Lire la suite' : 'Read more';
+  const less = fr ? 'Réduire' : 'Show less';
+  document.querySelectorAll('.timeline__desc').forEach((desc) => {
+    desc.classList.add('is-folded');
+    if (desc.scrollHeight <= desc.clientHeight + 2) {
+      desc.classList.remove('is-folded');
+      return;
+    }
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'timeline__more';
+    button.textContent = more;
+    button.setAttribute('aria-expanded', 'false');
+    button.addEventListener('click', () => {
+      const folded = desc.classList.toggle('is-folded');
+      button.textContent = folded ? more : less;
+      button.setAttribute('aria-expanded', String(!folded));
+    });
+    desc.after(button);
+  });
+});
+
+/*
+  Site search → guided search: a result pointing to the parcours page itself (not to a profile)
+  carries the typed words, so docs/javascripts/parcours.js can prefill its picker with them.
+*/
+document.addEventListener(
+  'click',
+  function (e) {
+    const link = e.target.closest('.md-search-result a[href]');
+    if (!link) return;
+    const url = new URL(link.href, window.location.href);
+    if (!/\/parcours\/$/.test(url.pathname) || url.hash) return;
+    const query = document.querySelector('.md-search__input')?.value.trim();
+    if (!query) return;
+    url.searchParams.delete('h');
+    url.searchParams.set('q', query);
+    link.href = url.toString();
+  },
+  true,
+);

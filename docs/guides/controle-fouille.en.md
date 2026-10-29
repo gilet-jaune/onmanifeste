@@ -1,5 +1,5 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -9,6 +9,13 @@ tags:
 ---
 
 # ID checks, bag searches and fines
+
+!!! abstract "Key points"
+
+    - You must **prove your identity**, otherwise you can be held for checks for up to **4 hours**.
+    - **Never give a false identity.**
+    - A **full bag search** is reserved for a judicial police officer in specific cases; a pat-down is done by someone of the same sex.
+    - **€135** fine: **don't pay on the spot** if you want to contest; you have **45 days** after the notice.
 
 !!! warning "Disclaimer"
 

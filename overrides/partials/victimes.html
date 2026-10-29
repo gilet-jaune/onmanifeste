@@ -1,8 +1,8 @@
 {#- Injured and killed at or after protests, from docs/data/victimes.json + sources.json. -#}
-{%- from 'overrides/partials/check.html' import checked_by -%}
+{%- from 'overrides/partials/check.html' import checked_by, check_title -%}
 
 {%- macro src_link(id, lang) -%}
-{%- set s = sources[id] %}{% set url = s.url[lang] if s.url is mapping else s.url %}<a href="{{ url }}" target="_blank" rel="noopener">{{ s.title[lang] or s.title.fr }}</a>
+{%- set s = sources[id] %}{% set url = s.url[lang] if s.url is mapping else s.url %}<a href="{{ url }}" target="_blank" rel="noopener" title="{{ check_title(s.check, lang) }}">{{ s.title[lang] or s.title.fr }}</a>
 {%- endmacro -%}
 
 {%- macro censuses(lang) -%}
@@ -28,6 +28,10 @@
       <p>{{ v.description[lang] or v.description.fr }}</p>
       {%- if v.justice %} {%- set j = v.justice %}
       <p class="victims__justice"><strong>{{ 'Justice :' if lang == 'fr' else 'Justice:' }}</strong> <span class="victims__verdict victims__verdict--{{ j.status }}">{{ victimes.justice[j.status][lang] or victimes.justice[j.status].fr }}</span>{% if j.date %} <time datetime="{{ j.date }}">{{ j.date }}</time>{% endif %} — {{ j.text[lang] or j.text.fr }} ({% for id in j.evidence %}{{ src_link(id, lang) }}{% if not loop.last %} · {% endif %}{% endfor %})</p>
+      {%- endif %}
+      {%- set h = events | selectattr('date', 'equalto', v.date) | first %}
+      {%- if h %}
+      <p class="timeline__links"><strong>{{ 'Voir aussi :' if lang == 'fr' else 'See also:' }}</strong> <a href="../histoire/#evt-{{ h.id }}">{{ h.title[lang] or h.title.fr }} ({{ 'repères historiques' if lang == 'fr' else 'history' }})</a></p>
       {%- endif %}
       <p class="documented__proofs"><strong>{{ 'Sources :' if lang == 'fr' else 'Sources:' }}</strong> {% for id in v.evidence %}{{ src_link(id, lang) }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
       <p class="victims__checked">{{ checked_by(v.check, lang) }}</p>

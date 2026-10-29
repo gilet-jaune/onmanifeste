@@ -1,4 +1,6 @@
 ---
+review: juridique
+review_status: pending
 tags:
     - guides
     - réseaux sociaux
@@ -7,28 +9,57 @@ tags:
 
 # Réseaux sociaux : ne pas nourrir la haine
 
+!!! abstract "L'essentiel"
+
+    - Un commentaire en colère ou un partage pour dénoncer **fait monter** un contenu : **ignorez** l'extrême droite.
+    - **Ne cliquez pas sur « Partager »** ; pour montrer, une **capture d'écran** anonymisée.
+    - Signalez ce qui est **illégal** (plateforme, Pharos) et soutenez les personnes visées.
+    - **Aimez, commentez, partagez** ce que vous voulez voir circuler.
+    - Appeler à manifester : relayer est sans risque, mais organiser une manif non déclarée ou menacer est puni.
+
 Sur les réseaux, ce qui fait réagir est montré à plus de monde. Un commentaire indigné, un partage pour dénoncer ou une vidéo regardée jusqu'au bout **font monter** les contenus d'extrême droite au lieu de les faire taire. Bonne nouvelle : la même mécanique marche dans l'autre sens.
 
 ## Pourquoi ça marche
 
 - Les recommandations s'appuient sur vos interactions : vidéos aimées ou partagées, comptes suivis, **commentaires publiés**.[^tiktok-recommandation]
 - Regarder une vidéo **jusqu'au bout** est un signal d'intérêt fort, qui pèse plus que les autres.[^tiktok-recommandation]
-- Pour l'algorithme, un commentaire de colère reste un commentaire : il compte comme de l'intérêt.
+- Pour l'algorithme, un commentaire de colère reste un commentaire : il compte comme de l'intérêt.[^tiktok-recommandation]
+- **La colère contre « l'autre camp » est ce qui circule le mieux.** Sur 2,7 millions de publications Facebook et Twitter, celles qui parlent du camp politique adverse sont partagées environ **deux fois plus** que les autres ; chaque mot qui le désigne augmente les chances de partage de 67 %. La réaction la plus fréquente est la colère.[^rathje-2021]
+- **Les algorithmes ne sont pas neutres.** Sur Twitter, dans 6 pays sur 7 étudiés (dont la France), les élu·es de la droite traditionnelle étaient davantage mis en avant par l'algorithme que ceux de gauche ; l'étude n'a en revanche pas trouvé d'avantage pour les extrêmes par rapport aux modéré·es.[^huszar-2022] En Allemagne, avant les législatives de 2025, des comptes neufs intéressés à égalité par les quatre grands partis se sont vu recommander, parmi les contenus de partis qu'ils ne suivaient pas, 78 % de contenus favorables à l'AfD (extrême droite) sur TikTok et 64 % sur X.[^global-witness-afd-2025]
+- **Le « silence stratégique » vient du journalisme.** Les rédactions ont longtemps choisi de ne pas couvrir certains sujets (suicides, violences) pour ne pas les propager.[^donovan-boyd-2019] Entre 2016 et 2018, des groupes haineux ont justement utilisé la couverture médiatique, y compris critique, pour diffuser leurs messages.[^phillips-2018]
 
 ## Ne pas les faire monter
 
 - [ ] **Ne commentez pas**, ne répondez pas, même pour contredire : vous offrez de la visibilité.
-- [ ] **Ne partagez pas** pour dénoncer. Si vous devez montrer un contenu, faites une capture d'écran sans lien et sans nommer le compte.
+- [ ] **Jamais de lien, de repartage ni de citation** d'un contenu d'extrême droite, même pour le dénoncer : chaque clic, vue ou partage compte comme de l'intérêt pour le compte d'origine.[^tiktok-recommandation]
+- [ ] **Ne cliquez pas sur « Partager »**, même pour envoyer le contenu en message privé ou copier son lien : un partage, même privé, est un signal d'intérêt.[^tiktok-recommandation]
+- [ ] **Pour montrer ou répondre, faites une capture d'écran** : masquez le nom, la photo et le pseudo du compte, et publiez-la sur votre propre post. Le contenu est visible, sans renvoyer de trafic ni d'engagement vers son auteur.
+- [ ] **Gardez le lien pour vous** : notez-le à part (avec la date) si vous devez le signaler sur Pharos ou le transmettre à un·e avocat·e, mais ne le publiez pas.
 - [ ] **Faites défiler** : quittez la vidéo tout de suite, ne la regardez pas jusqu'au bout.
 - [ ] Utilisez **« Pas intéressé »** et masquez le créateur : vous voyez moins ce type de contenu.[^tiktok-recommandation]
 - [ ] **Bloquez** ou masquez les comptes qui vous harcèlent, sans leur répondre.
 - [ ] **Signalez** les contenus illégaux (appel à la haine, menaces, apologie de violences) à la plateforme et sur {{ res("pharos") }}. Pas de signalements en masse de contenus seulement choquants : ils sont inefficaces et peuvent se retourner contre vous.
+
+## Ignorer, ce n'est pas se taire
+
+Ignorer un compte ne veut pas dire laisser faire :
+
+- [ ] **Parlez des idées, pas du compte** : répondez sur vos propres publications, sans citer, taguer ni lier le compte d'origine.
+- [ ] **Soutenez les personnes visées** en privé ou publiquement : elles ont besoin de vous, pas le compte qui les attaque.
+- [ ] **Signalez** ce qui est illégal (voir plus haut) : c'est la seule réponse directe utile.
 
 ## Faire monter ce qui compte
 
 - [ ] **Aimez, commentez, partagez** les contenus que vous voulez voir circuler : médias indépendants, collectifs, témoignages. C'est le même levier, utilisé pour vos causes.
 - [ ] Regardez-les **jusqu'au bout** et abonnez-vous.
 - [ ] Répondez aux personnes qui doutent ou qui sont ciblées, pas aux comptes qui attisent la haine ([convaincre ses proches](convaincre-ses-proches.md)).
+
+## Appeler à manifester en ligne
+
+- [ ] **Relayer** une manifestation déclarée (date, lieu, organisateur·ices) : aucun risque.
+- [ ] **Organiser** une manifestation non déclarée ou interdite : l'organisateur·ice risque jusqu'à 6 mois de prison et 7 500 € d'amende.[^sp-declarer-manifestation] Un post qui fixe le lieu et l'heure peut suffire à vous désigner comme organisateur·ice : déclarez-la, ou laissez un collectif ou un syndicat le faire.
+- [ ] **Appeler au blocus d'un lycée** : se maintenir dans un établissement scolaire pour en troubler la tranquillité est puni d'un an de prison et 7 500 € d'amende.[^cdj-appel-blocage] Voir le [guide lycéen](lyceens.md).
+- [ ] **Ne jamais appeler à la violence ni menacer**, même pour rire ou sous le coup de la colère : une menace écrite, y compris en ligne, est punie de 6 mois de prison et 7 500 € d'amende, et de 3 ans et 45 000 € s'il s'agit d'une menace de mort.[^cp-222-17] Voir aussi [Pourquoi ça casse en manif ?](casse.md#ce-que-vous-risquez).
 
 ## Bots et campagnes coordonnées
 

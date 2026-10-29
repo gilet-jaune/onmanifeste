@@ -1,5 +1,5 @@
 ---
-source_commit: 468e6b40c4b2d3cef6888cdd8e3c49d6aabe142f
+source_commit: 0ed753a4a14074e99e5404b0fc841602f99578fa
 tags:
     - comprendre
     - démocratie
@@ -9,7 +9,7 @@ hide:
 
 # Democratic channels flouted: how we got here
 
-A referendum bypassed, a citizens' convention emptied of its substance, laws passed without a vote, the coalition that came first set aside, grievance books never published, governments replaced within months. This timeline gathers the moments when **citizens' votes or voices were not acted upon**. They go a long way to explain distrust of institutions, and why so many people take to the streets.
+A referendum bypassed, a citizens' convention emptied of its substance, laws passed without a vote, the coalition that came first set aside, a great debate with no follow-up, grievance books never published, a pensions conclave that led nowhere, a record petition debated without a vote, governments replaced within months. This timeline gathers the moments when **citizens' votes or voices were not acted upon**. They go a long way to explain distrust of institutions. If so many people take to the streets, it is not out of a taste for insurrection: it is often because the other channels led nowhere.
 
 !!! info "Our rules"
 

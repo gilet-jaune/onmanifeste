@@ -17,7 +17,7 @@ const citations = Object.entries(
 }));
 const history = JSON.parse(readFileSync('docs/data/history.json', 'utf8')).events.map((e) => ({
   id: `histoire ${e.date}`,
-  name: `Frise : ${e.title}`,
+  name: `Frise : ${e.title.fr}`,
   url: e.url,
   check: e.check,
   file: 'docs/data/history.json',

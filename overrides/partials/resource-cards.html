@@ -25,7 +25,7 @@ cardFor() in directory.js. -#} {%- from 'overrides/partials/check.html' import c
     </p>
     {%- endif %} {%- if r.socials %}
     <p class="directory__socials">
-      {{ 'Réseaux :' if lang == 'fr' else 'Social:' }} {% for key, label in [('bluesky', 'Bluesky'), ('mastodon', 'Mastodon'), ('x', 'X'), ('instagram', 'Instagram'), ('facebook', 'Facebook'), ('tiktok', 'TikTok'), ('youtube', 'YouTube'), ('peertube', 'PeerTube'), ('github', 'GitHub')] if r.socials[key] %}{% if not loop.first %} · {% endif %}<a href="{{ r.socials[key] }}" target="_blank" rel="noopener">{{ label }}</a>{% endfor %}
+      {{ 'Réseaux :' if lang == 'fr' else 'Social:' }} {% for key, label in [('bluesky', 'Bluesky'), ('mastodon', 'Mastodon'), ('x', 'X'), ('instagram', 'Instagram'), ('facebook', 'Facebook'), ('tiktok', 'TikTok'), ('youtube', 'YouTube'), ('peertube', 'PeerTube'), ('linkedin', 'LinkedIn'), ('github', 'GitHub')] if r.socials[key] %}{% if not loop.first %} · {% endif %}<a href="{{ r.socials[key] }}" target="_blank" rel="noopener">{{ label }}</a>{% endfor %}
     </p>
     {%- endif %} {%- if r.sources %}
     <p class="directory__sources">

@@ -3,9 +3,11 @@ tags:
     - guides
 ---
 
-# Guides express
+# Guides
 
-Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois le site ouvert (ou installé) sur votre téléphone.
+Des fiches à lire avant de partir, **consultables hors ligne** une fois le site ouvert (ou installé) sur votre téléphone.
+
+**Par où commencer ?** [Checklist avant la manif](avant-de-partir.md) · [Ne jamais rester seul·e](ne-pas-rester-seul.md) · [Garde à vue](garde-a-vue.md)
 
 ## Avant la manif
 
@@ -157,30 +159,6 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
 <div class="grid cards" markdown="1">
 
-- **Handicap ou maladie chronique** [:material-wheelchair-accessibility:](handicap.md)
-
-    ***
-
-    Ordonnances, asthme et gaz lacrymogène, hypersensibilité sensorielle, droits en garde à vue (114, LSF).
-
-    [:octicons-arrow-right-24: Lire](handicap.md)
-
-- **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
-
-    ***
-
-    Risques pour le séjour, droits en garde à vue, contacts utiles.
-
-    [:octicons-arrow-right-24: Lire](etrangers.md)
-
-- **Drapeau palestinien en manifestation** [:material-flag:](drapeau-palestinien.md)
-
-    ***
-
-    Ce qui est légal, les manifestations interdites, les slogans à risque.
-
-    [:octicons-arrow-right-24: Lire](drapeau-palestinien.md)
-
 - **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md)
 
     ***
@@ -197,6 +175,28 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](travail.md)
 
+- **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
+
+    ***
+
+    Risques pour le séjour, droits en garde à vue, contacts utiles.
+
+    [:octicons-arrow-right-24: Lire](etrangers.md)
+
+- **Handicap ou maladie chronique** [:material-wheelchair-accessibility:](handicap.md)
+
+    ***
+
+    Ordonnances, asthme et gaz lacrymogène, hypersensibilité sensorielle, droits en garde à vue (114, LSF).
+
+    [:octicons-arrow-right-24: Lire](handicap.md)
+
+</div>
+
+## Mobiliser et informer
+
+<div class="grid cards" markdown="1">
+
 - **Organiser une manifestation** [:material-bullhorn:](organiser.md)
 
     ***
@@ -205,27 +205,13 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](organiser.md)
 
-</div>
-
-## S'informer et convaincre
-
-<div class="grid cards" markdown="1">
-
-- **S'informer et se former** [:material-school-outline:](s-informer-se-former.md)
+- **Drapeau palestinien en manifestation** [:material-flag:](drapeau-palestinien.md)
 
     ***
 
-    Formations à l'action non-violente, observatoires, sources fiables, réseaux sociaux.
+    Ce qui est légal, les manifestations interdites, les slogans à risque.
 
-    [:octicons-arrow-right-24: Lire](s-informer-se-former.md)
-
-- **Éviter la désinformation** [:material-magnify-scan:](desinformation.md)
-
-    ***
-
-    Vérifier une image, une rumeur, un bilan avant de partager.
-
-    [:octicons-arrow-right-24: Lire](desinformation.md)
+    [:octicons-arrow-right-24: Lire](drapeau-palestinien.md)
 
 - **Réseaux sociaux : ne pas nourrir la haine** [:material-account-cancel:](reseaux-sociaux.md)
 
@@ -235,6 +221,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](reseaux-sociaux.md)
 
+- **Éviter la désinformation** [:material-magnify-scan:](desinformation.md)
+
+    ***
+
+    Vérifier une image, une rumeur, un bilan avant de partager.
+
+    [:octicons-arrow-right-24: Lire](desinformation.md)
+
 - **Convaincre ses proches** [:material-forum:](convaincre-ses-proches.md)
 
     ***
@@ -242,6 +236,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
     Parler de la mobilisation sans se fâcher : écouter, raconter, proposer.
 
     [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
+
+- **S'informer et se former** [:material-school-outline:](s-informer-se-former.md)
+
+    ***
+
+    Formations à l'action non-violente, observatoires, sources fiables, réseaux sociaux.
+
+    [:octicons-arrow-right-24: Lire](s-informer-se-former.md)
 
 </div>
 

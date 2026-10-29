@@ -4,15 +4,43 @@ review_status: pending
 tags:
     - guides
     - santé
+    - schéma
 ---
 
 # Premiers secours
+
+!!! abstract "L'essentiel"
+
+    - **Protéger, alerter, secourir** ; urgence vitale : **112** ou **15**, avec un lieu précis.
+    - Gaz : sortez du nuage **face au vent**, ne frottez pas, **rincez** au sérum physiologique.
+    - Blessure à l'œil : **ne rincez pas**, couvrez sans appuyer, appelez le 112.
+    - Coup à la tête : ne laissez pas la personne seule ; vomissements ou confusion, appelez le 112.
+    - Après : faites **constater** toute blessure (certificat avec ITT) et gardez une trace des symptômes.
 
 Trois réflexes, dans l'ordre : **protéger** (se mettre et mettre la personne à l'abri), **alerter**, **secourir**. Repérez les **street medics** du cortège : ils sont formés et équipés.[^cr-etapes]
 
 !!! warning "Urgence vitale"
 
     Personne inconsciente, qui respire mal, saigne abondamment, blessure à la tête ou à l'œil : appelez le **112** (ou le **15**, SAMU). Donnez un lieu précis (rue, numéro, repère).
+
+## Schéma : quelqu'un est blessé ou gazé
+
+<div class="flow" markdown>
+
+1. **Urgence vitale ?** Inconscient·e, respire mal, saigne abondamment, blessure à la tête ou à l'œil.
+    - **Oui** → appelez le **112** (ou le **15**) avec un lieu précis, restez avec la personne.[^cr-etapes]
+    - **Non** → étape suivante.
+2. **Gaz lacrymogène ?**
+    - **Oui** → sortez du nuage **face au vent**, ne frottez pas, **rincez** au sérum physiologique, retirez les lentilles.[^medic-gestes]
+    - **Non** → étape suivante.
+3. **Quelle blessure ?**
+    - **Saignement** → appuyez fort avec un tissu propre, sans relâcher.[^cr-hemorragie]
+    - **Œil touché par un projectile** → ne rincez pas, couvrez sans appuyer, **112**.
+    - **Coup à la tête** → ne laissez pas la personne seule ; vomissements, confusion ou perte de connaissance : **112**.
+    - **Brûlure** → eau tempérée 10 à 20 minutes.[^cr-brulure]
+4. **Ensuite** → street medics ou médecin ; faites **constater** les blessures (certificat avec ITT) et photographiez-les.[^ldh-violences]
+
+</div>
 
 ## Gaz lacrymogène
 

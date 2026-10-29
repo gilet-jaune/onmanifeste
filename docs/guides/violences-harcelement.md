@@ -8,6 +8,13 @@ tags:
 
 # Violences sexistes et harcèlement en ligne
 
+!!! abstract "L'essentiel"
+
+    - En manif : restez avec votre **binôme** et convenez d'un signal.
+    - Violences sexistes ou sexuelles : **3919**, gratuit et anonyme, 24 h/24.
+    - Harcèlement en ligne : **ne répondez pas**, faites des captures datées, signalez (plateforme, Pharos).
+    - Cyberharcèlement : **3018**, qui aide aussi à faire retirer des contenus.
+
 Les foules, l'agitation et l'exposition sur les réseaux sociaux créent des risques particuliers. Vous n'êtes pas seul·e : des lignes gratuites existent.
 
 ## En manifestation

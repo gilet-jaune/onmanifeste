@@ -23,21 +23,13 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Chercher un outil](annuaire/index.md)
 
-- **Guides express** [:material-lightning-bolt:](guides/index.md)
+- **Guides** [:material-lightning-bolt:](guides/index.md)
 
     ***
 
-    Vingt-quatre fiches courtes : sécurité en manif, venir et repartir, communiquer, téléphone, kit, contrôle et fouille, premiers secours, garde à vue, suites judiciaires, santé mentale, dispersion, filmer la police, handicap, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation, convaincre ses proches. Disponibles hors ligne.
+    Une trentaine de fiches, avant, pendant et après la manif : checklist, droit de manifester, kit, communiquer, téléphone, dispersion, premiers secours, filmer la police, garde à vue, plainte et procès, santé mentale ; lycéen·nes, travail, étrangers, handicap ; organiser, réseaux sociaux, désinformation. Disponibles hors ligne.
 
     [:octicons-arrow-right-24: Lire les guides](guides/index.md)
-
-- **Conseils pratiques** [:material-shield-check:](conseils/index.md)
-
-    ***
-
-    Préparer son téléphone, connaître ses droits, réagir en cas d'interpellation.
-
-    [:octicons-arrow-right-24: Lire les conseils](conseils/index.md)
 
 - **Comprendre : histoire, médias, budget et élu·es** [:material-book-open-page-variant:](comprendre/index.md)
 

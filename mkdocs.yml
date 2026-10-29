@@ -23,6 +23,8 @@ theme:
     - navigation.breadcrumbs
     - navigation.footer
     - content.action.edit
+    # Hovering a footnote number shows the source and who checked it.
+    - content.footnote.tooltips
     - search.suggest
     - search.highlight
     - search.share
@@ -93,13 +95,12 @@ plugins:
             Pendant la manif: During the protest
             Après la manif: After the protest
             Selon votre situation: Depending on your situation
-            S'informer et convaincre: Stay informed and persuade
+            Mobiliser et informer: Mobilise and inform
             Comprendre: Understand
             Voies démocratiques bafouées: Democratic channels flouted
             Le projet: About
             Annuaire: Directory
             Je suis… et je veux…: I am… and I want to…
-            Guides express: Quick guides
             Checklist avant la manif: Pre-protest checklist
             Le droit de manifester: The right to protest
             Ne jamais rester seul·e: Never stay alone
@@ -125,8 +126,8 @@ plugins:
             S'informer et se former: Stay informed, get trained
             Éviter la désinformation: Avoid disinformation
             "Réseaux sociaux : ne pas nourrir la haine": "Social media: don't feed hate"
+            Pourquoi ça casse en manif ?: Why property gets smashed at protests
             Convaincre ses proches: Talk to your loved ones
-            Conseils pratiques: Practical tips
             Repères historiques: History
             Répressions documentées: Documented repression
             Blessé·es et mort·es: Injured and killed
@@ -157,6 +158,8 @@ extra_javascript:
 hooks:
   - hooks/sources.py
   - hooks/translations.py
+  # Digest of the guides for the guided search (data/guides-digest.json, before pwa.py hashes it).
+  - hooks/guide_digest.py
   # Order matters: the CSP is injected before the service worker hashes the final HTML.
   - hooks/qrcode.py
   - hooks/csp.py
@@ -170,7 +173,7 @@ nav:
   - Trouver de l'aide:
       - Je suis… et je veux…: parcours/index.md
       - Annuaire: annuaire/index.md
-  - Guides express:
+  - Guides:
       - guides/index.md
       - Avant la manif:
           - Checklist avant la manif: guides/avant-de-partir.md
@@ -192,22 +195,22 @@ nav:
           - Choc émotionnel, angoisse et santé mentale: guides/sante-mentale.md
           - Violences sexistes et harcèlement en ligne: guides/violences-harcelement.md
       - Selon votre situation:
-          - Handicap ou maladie chronique: guides/handicap.md
-          - Manifester sans la nationalité française: guides/etrangers.md
-          - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Lycéen·nes : blocus, absences, sanctions": guides/lyceens.md
           - Grève, manif et travail: guides/travail.md
+          - Manifester sans la nationalité française: guides/etrangers.md
+          - Handicap ou maladie chronique: guides/handicap.md
+      - Mobiliser et informer:
           - Organiser une manifestation: guides/organiser.md
-      - S'informer et convaincre:
-          - S'informer et se former: guides/s-informer-se-former.md
-          - Éviter la désinformation: guides/desinformation.md
+          - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Réseaux sociaux : ne pas nourrir la haine": guides/reseaux-sociaux.md
+          - Éviter la désinformation: guides/desinformation.md
           - Convaincre ses proches: guides/convaincre-ses-proches.md
-      - Conseils pratiques: conseils/index.md
+          - S'informer et se former: guides/s-informer-se-former.md
   - Comprendre:
       - comprendre/index.md
       - Repères historiques: histoire/index.md
       - Voies démocratiques bafouées: confiance/index.md
+      - Pourquoi ça casse en manif ?: guides/casse.md
       - Répressions documentées: repressions/index.md
       - Blessé·es et mort·es: victimes/index.md
   - Le projet:

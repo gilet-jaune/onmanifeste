@@ -47,4 +47,5 @@ npm test                 # mkdocs build --strict
 Or `npm run check` to run format-check + lint + spellcheck in one step. CI additionally verifies
 link integrity (`lychee`) after the strict build.
 
-To live-preview the site locally: `npm run dev` (`mkdocs serve`).
+To live-preview the site locally: `npm run dev` (installs MkDocs into `.venv` on first run, then
+`mkdocs serve`). `npm run preview` serves the strict build as deployed.

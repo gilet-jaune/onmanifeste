@@ -286,14 +286,19 @@
         "place": "Paris",
         "by": "police",
         "toll": {
-          "fr": "Des dizaines de morts",
-          "en": "Dozens dead"
+          "fr": "De 32 à plus de 200 morts selon les sources, dont des manifestant·es jeté·es dans la Seine ; plus de 11 000 arrestations",
+          "en": "From 32 to more than 200 dead depending on the source, including protesters thrown into the Seine; more than 11,000 arrests"
         },
         "description": {
-          "fr": "La police réprime une manifestation pacifique d'Algérien·nes ; la République reconnaît en 2012 une « sanglante répression ».",
-          "en": "Police crack down on a peaceful march of Algerians; in 2012 the Republic recognises a “bloody repression”."
+          "fr": "Manifestation pacifique d'Algérien·nes contre un couvre-feu discriminatoire, réprimée sous l'autorité du préfet Maurice Papon. Reconnaissances officielles en 2012 (« sanglante répression »), 2021 (« crimes inexcusables pour la République ») et résolution de l'Assemblée nationale en 2024.",
+          "en": "Peaceful march of Algerians against a discriminatory curfew, crushed under police prefect Maurice Papon. Official recognition in 2012 ('bloody repression'), 2021 ('crimes inexcusable for the Republic') and a National Assembly resolution in 2024."
         },
-        "evidence": ["elysee-17-octobre-2012"],
+        "evidence": [
+          "larousse-17-octobre-1961",
+          "elysee-17-octobre-2012",
+          "aljazeera-macron-1961-2021",
+          "lcp-resolution-17-octobre-2024"
+        ],
         "justice": {
           "status": "amnesty",
           "date": "1966-06-17",
@@ -304,7 +309,7 @@
           "evidence": ["wiki-charonne"]
         },
         "check": {
-          "date": "2026-10-28",
+          "date": "2026-10-29",
           "result": "confirmed",
           "by": "ai"
         }

@@ -5,13 +5,36 @@ tags:
     - guides
     - droits
     - garde à vue
+    - schéma
 ---
 
 # Porter plainte, audition libre et procès
 
+!!! abstract "L'essentiel"
+
+    - Violences : **certificat médical avec ITT**, photos, témoins, vidéos.
+    - Plainte : tout commissariat doit la prendre, ou envoyez-la en **recommandé au procureur**.
+    - Défenseur des droits et IGPN ou IGGN **complètent** une plainte, sans la remplacer.
+    - **Audition libre** : n'y allez jamais sans avoir consulté un·e avocat·e.
+    - **Comparution immédiate** : vous pouvez refuser d'être jugé·e le jour même ; les proches réunissent vite les justificatifs.
+
 !!! warning "Avertissement"
 
     Fiche générale, pas un conseil juridique. Contactez un·e avocat·e ou une legal team avant toute audition ou audience.
+
+## Schéma : après des violences policières
+
+<div class="flow" markdown>
+
+1. **Soins** → consultez un médecin au plus tôt et demandez un **certificat descriptif avec ITT**.[^ldh-violences]
+2. **Preuves** → photos des blessures avec une règle, vêtements non lavés, coordonnées des témoins, copie des vidéos hors du téléphone.[^witness-preuve]
+3. **Porter plainte : où ?**
+    - **Commissariat ou gendarmerie** → ils ont l'**obligation** de prendre votre plainte, quel que soit le lieu des faits.[^sp-plainte]
+    - **Peur d'un refus ou de pressions** → lettre recommandée avec accusé de réception au **procureur de la République**.[^sp-plainte]
+4. **En plus de la plainte** (sans la remplacer) → Défenseur des droits[^ddd] et IGPN ou IGGN.[^iggn]
+5. **Se faire accompagner** → legal team, avocat·e, et le guide de la LDH.
+
+</div>
 
 ## Après des violences : faire constater et porter plainte
 
@@ -23,6 +46,7 @@ tags:
 4. **Signalements complémentaires** (ne remplacent **pas** une plainte pénale) :
     - Saisissez le {{ res("defenseur-des-droits") }} (gratuit, enquête indépendante sur la déontologie des forces de l'ordre).[^ddd]
     - Signalez les faits à l'IGPN (police) ou à l'{{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn]
+5. Guide pas à pas : {{ res("ldh-que-faire-violences", "LDH — Que faire face aux violences policières ?") }}
 
 ## Convoqué·e en « audition libre »
 

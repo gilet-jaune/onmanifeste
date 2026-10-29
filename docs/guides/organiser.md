@@ -8,6 +8,13 @@ tags:
 
 # Organiser une manifestation
 
+!!! abstract "L'essentiel"
+
+    - On **déclare** en mairie ou préfecture, **3 à 15 jours francs** avant.
+    - Manif non déclarée ou interdite : l'organisateur·ice risque **6 mois et 7 500 €**.
+    - Prévoyez service d'ordre, **street medics**, **legal team** et un point accessible.
+    - Après : bilan avec la legal team (interpellations, blessé·es, vidéos).
+
 Organiser, c'est déclarer, préparer la sécurité et prévoir l'après. Les obligations pèsent surtout sur les **organisateur·ices**.
 
 ## Déclarer

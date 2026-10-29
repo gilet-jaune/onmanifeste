@@ -2,7 +2,7 @@
 
 > Une sélection d'outils libres, de guides juridiques et de ressources pratiques pour s'informer, s'organiser et se protéger lors des manifestations en France.
 
-Une version web, optimisée pour mobile et **utilisable hors ligne**, est publiée avec GitHub Pages (lien dans la section « About » du dépôt). Elle ajoute une recherche par nom et par tag, des [guides express](docs/guides/index.md) (sécurité, venir et repartir, téléphone, kit, contrôle et fouille, premiers secours, garde à vue, suites judiciaires, santé mentale, dispersion, filmer la police, handicap, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation), des conseils pratiques et des [repères historiques](docs/histoire/index.md) avec ce que la rue a obtenu.
+Une version web, optimisée pour mobile et **utilisable hors ligne**, est publiée avec GitHub Pages (lien dans la section « About » du dépôt). Elle ajoute une recherche par nom et par tag, des [guides](docs/guides/index.md) (sécurité, venir et repartir, téléphone, kit, contrôle et fouille, premiers secours, garde à vue, suites judiciaires, santé mentale, dispersion, filmer la police, handicap, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation) et des [repères historiques](docs/histoire/index.md) avec ce que la rue a obtenu.
 
 <!-- prettier-ignore -->
 > [!WARNING]
@@ -45,6 +45,20 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [17 octobre — Gilets jaunes](https://17octobregiletjaune.net/) - Site de coordination des « actes » de mobilisation, avec une carte interactive des actions et un calendrier. Les visiteurs peuvent ajouter leurs actions sur la carte, sans modération annoncée : recoupez lieu et horaire avec une autre source (syndicats, collectifs locaux, presse) avant de vous déplacer. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail. ⚠️ _Non confirmé._
 - [Organic Maps](https://organicmaps.app/fr/) - Cartes hors ligne sans pistage, utiles quand le réseau mobile est coupé ou saturé.
 - [RATP — Info trafic](https://www.bonjour-ratp.fr/fr/info-trafic/) - Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.
+- [Vélib' Métropole](https://www.velib-metropole.fr/) - Vélos en libre-service de Paris et sa métropole : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.
+- [TCL — Transports en commun lyonnais](https://www.tcl.fr/) - Réseau de transports en commun de la métropole de Lyon : info trafic, arrêts et stations fermés, lignes déviées.
+- [Vélo'v (Lyon)](https://velov.grandlyon.com/) - Vélos en libre-service de la métropole de Lyon : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.
+- [RTM — Régie des transports métropolitains (Marseille)](https://www.rtm.fr/) - Réseau de transports en commun de Marseille : info trafic, arrêts et stations fermés, lignes déviées.
+- [Le vélo (Marseille)](https://levelo.ampmetropole.fr/fr/) - Vélos en libre-service de Marseille : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.
+- [Tisséo (Toulouse)](https://www.tisseo.fr/) - Réseau de transports en commun de l'agglomération toulousaine : info trafic, arrêts et stations fermés, lignes déviées.
+- [TBM — Transports Bordeaux Métropole](https://www.infotbm.com/fr) - Réseau de transports en commun de Bordeaux Métropole : info trafic, arrêts et stations fermés, lignes déviées.
+- [Ilévia (Lille)](https://www.ilevia.fr/) - Réseau de transports en commun de la métropole lilloise : info trafic, arrêts et stations fermés, lignes déviées.
+- [Naolib (Nantes)](https://naolib.fr/) - Réseau de transports en commun de la métropole nantaise : info trafic, arrêts et stations fermés, lignes déviées. Comprend les vélos en libre-service.
+- [CTS — Compagnie des transports strasbourgeois](https://www.cts-strasbourg.eu/fr/accueil/) - Réseau de transports en commun de l'Eurométropole de Strasbourg : info trafic, arrêts et stations fermés, lignes déviées.
+- [Vélhop (Strasbourg)](https://velhop.strasbourg.eu/) - Vélos en libre-service de Strasbourg : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.
+- [STAR (Rennes)](https://www.star.fr/) - Réseau de transports en commun de Rennes Métropole : info trafic, arrêts et stations fermés, lignes déviées.
+- [TaM (Montpellier)](https://www.tam-voyages.com/) - Réseau de transports en commun de Montpellier Méditerranée Métropole : info trafic, arrêts et stations fermés, lignes déviées. Comprend les vélos en libre-service Vélomagg.
+- [Lignes d'Azur (Nice)](https://www.lignesdazur.com/) - Réseau de transports en commun de la métropole Nice Côte d'Azur : info trafic, arrêts et stations fermés, lignes déviées.
 
 ## Sécurité numérique
 
@@ -91,7 +105,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [LDH — Que faire face aux violences policières ? (2026)](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf) - Fiche pratique de la LDH (avril 2026) : démarches après des violences policières (certificat médical, plainte, signalement, témoins).
 - [IGGN — Plateforme de signalement (gendarmerie)](https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn) - Signalement en ligne du comportement d'un·e gendarme à l'Inspection générale de la gendarmerie. Un signalement n'est pas une plainte.
 - [Legal Team Marseille](https://legalteammarseille.nublogs.org/contact/) - Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. Courriel : legalteam-marseille@riseup.net. Tél. : 07 53 05 25 30.
-- [Caisse de solidarité de Lyon](https://rebellyon.info/+-caissedeso-+) - Collectif antirépression lyonnais : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois. Tél. : 06 43 08 50 32.
+- [Legal Team Lyon — Caisse de solidarité de Lyon](https://rebellyon.info/+-caissedeso-+) - Collectif antirépression lyonnais, qui fait office de legal team : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois. Tél. : 06 43 08 50 32.
 - [CLAJ — Collectif lillois d'autodéfense juridique](https://clajlille.wordpress.com/) - Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net. Tél. : 07 53 65 49 52.
 - [Antirep Nantes (Indymedia Nantes)](https://www.nantes.indymedia.org/about/antirep/) - Informations antirépression publiées avant chaque mobilisation à Nantes, dont les numéros des legal teams du jour : consultez la publication la plus récente.
 - [Antirep Rennes (Expansive.info)](https://expansive.info/Repression-Justice) - Rubrique antirépression rennaise sur Expansive.info : conseils pratiques en cas d'interpellation ou de garde à vue, permanences de la legal team et soutien psychologique antirépression (SPARR : sparr@riseup.net).

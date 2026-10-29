@@ -6,6 +6,13 @@ tags:
 
 # S'informer et se former
 
+!!! abstract "L'essentiel"
+
+    - Formez-vous à l'**action non-violente** et à vos droits (ANV-COP21, Alternatiba, Amnesty).
+    - Agenda des mobilisations : **Demosphere** et les sites locaux.
+    - Comptes **officiels** à partir du site de l'organisation ; RSS ou Mastodon pour suivre sans algorithme.
+    - Vos abonnements et « j'aime » sont **publics** : compte séparé si votre situation est sensible.
+
 Manifester s'apprend : des associations forment à l'action non-violente, à l'observation des pratiques policières ou à ses droits. Et pour suivre les mobilisations, mieux vaut des sources fiables que des rumeurs.
 
 ## Se former
@@ -13,7 +20,7 @@ Manifester s'apprend : des associations forment à l'action non-violente, à l'o
 - **Action non-violente et désobéissance civile** : {{ res("anv-cop21-formations", "ANV-COP21") }} et les groupes locaux d'{{ res("alternatiba") }} organisent des formations théoriques et pratiques : préparer une action, répartir les rôles, connaître le cadre juridique et les risques.[^anv-cop21-formations][^france3-formation-desobeissance]
 - **Rejoindre un mouvement** : {{ res("extinction-rebellion") }} et {{ res("greenpeace-groupes-locaux", "Greenpeace") }} s'organisent en groupes locaux, porte d'entrée pour participer et apprendre avec d'autres.[^france3-formation-desobeissance]
 - **Observer les pratiques policières** : les {{ res("ldh-observatoires", "observatoires de la LDH") }} forment des observateur·ices identifiables qui documentent les manifestations.[^ldh-observatoires]
-- **Connaître ses droits** : le livret {{ res("amnesty-formation-manifestation", "« Manifestation : tes droits en action »") }} d'Amnesty, et nos [guides express](index.md).
+- **Connaître ses droits** : le livret {{ res("amnesty-formation-manifestation", "« Manifestation : tes droits en action »") }} d'Amnesty, et nos [guides](index.md).
 
 ## S'informer
 

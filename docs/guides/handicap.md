@@ -9,6 +9,13 @@ tags:
 
 # Manifester en situation de handicap ou avec une maladie chronique
 
+!!! abstract "L'essentiel"
+
+    - Urgence pour personnes sourdes ou ne pouvant pas parler : **114** par SMS, tchat ou visio.
+    - Médicaments pour **48 heures**, ordonnance et **fiche médicale** sur papier.
+    - Un **binôme dédié** et un parcours repéré (cortège accessible, rues de repli).
+    - En garde à vue : demandez **un médecin** immédiatement ; interprète **LSF** gratuit si besoin.
+
 !!! warning "Urgence accessible (114)"
 
     Personnes sourdes, malentendantes, aphasiques ou ne pouvant pas parler : contactez le **114** par **SMS, tchat ou visio** (gratuit, 24 h/24, 7 j/7).[^urgence-114]

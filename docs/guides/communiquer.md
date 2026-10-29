@@ -6,6 +6,13 @@ tags:
 
 # Communiquer pendant une manif
 
+!!! abstract "L'essentiel"
+
+    - Avec du réseau : **Signal**, messages éphémères activés.
+    - Sans réseau : **Briar**, avec au moins **une personne sous Android** par groupe (responsable com).
+    - **Installez, testez et ajoutez vos contacts avant de partir** : sur place, plus rien ne se télécharge.
+    - Toujours un **plan papier** : point de rendez-vous, heure de repli, numéros écrits.
+
 Sur place, le réseau mobile sature souvent, et un téléphone peut être perdu ou saisi. Choisissez l'outil selon la situation, et prévoyez un plan B sans réseau.
 
 ## Comparatif

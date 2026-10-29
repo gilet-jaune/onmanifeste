@@ -1,5 +1,5 @@
 ---
-source_commit: 568431b7851ec4e30f466f803459fe1f78c4dd96
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # The Palestinian flag at protests
+
+!!! abstract "Key points"
+
+    - Protesting in support of the Palestinian population is **legal**.
+    - A ban must be **justified case by case**, not just by the cause defended.
+    - Banned demonstration: **€135** fine, no police custody for that fine alone.
+    - Placards and posts: **glorifying terrorism** is a heavily punished offence; write clearly what you stand for.
 
 Demonstrating in support of the Palestinian population is legal. What you can be blamed for depends on the **setting** (banned demonstration or not) and on **what your placards, slogans and posts say**, not on the flag itself.
 

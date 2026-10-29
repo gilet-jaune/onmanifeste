@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,14 @@ tags:
 ---
 
 # Protest kit and outfit
+
+!!! abstract "Key points"
+
+    - **Covering** clothes, closed shoes, **no contact lenses**.
+    - **Ski goggles** for the eyes, an **A2P3** or **ABEK1P3** half-mask against gas, earplugs.
+    - Keep your face **uncovered** until you are exposed to gas: covering it without a legitimate reason is an offence.
+    - In the bag: ID, water, saline solution, power bank, numbers on paper.
+    - Leave at home: anything that could pass for a **weapon**, and lists of comrades' **names**.
 
 Simple, covering clothes with no unnecessary distinctive signs, and a small light bag. The goal: protect yourself, be able to leave quickly, and carry nothing that could be held against you.
 

@@ -72,6 +72,7 @@ const SOCIALS = {
   tiktok: /^https:\/\/(www\.)?tiktok\.com\/@/,
   youtube: /^https:\/\/(www\.)?youtube\.com\//,
   peertube: /^https:\/\//,
+  linkedin: /^https:\/\//,
   github: /^https:\/\/(github\.com|codeberg\.org|framagit\.org|gitlab\.com)\//,
 };
 

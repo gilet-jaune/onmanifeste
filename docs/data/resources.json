@@ -472,7 +472,10 @@
     "vote": ["veille"],
     "votes": ["veille"],
     "whatsapp": ["messagerie", "chiffrement"],
-    "xr": ["desobeissance-civile"]
+    "xr": ["desobeissance-civile"],
+    "tram": ["transports"],
+    "bus": ["transports"],
+    "tramway": ["transports"]
   },
   "resources": [
     {
@@ -1304,7 +1307,7 @@
     },
     {
       "id": "caisse-solidarite-lyon",
-      "name": "Caisse de solidarité de Lyon",
+      "name": "Legal Team Lyon — Caisse de solidarité de Lyon",
       "url": "https://rebellyon.info/+-caissedeso-+",
       "phone": "06 43 08 50 32",
       "category": "juridique",
@@ -1314,14 +1317,21 @@
         "caisse-de-solidarite",
         "avocat",
         "lyon",
-        "urgence"
+        "urgence",
+        "legal-team"
       ],
       "description": {
-        "fr": "Collectif antirépression lyonnais : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois.",
-        "en": "Lyon anti-repression collective: report an arrest, list of lawyers to name in custody, financial support. Reachable on Signal; open office on the first Thursday of each month."
+        "fr": "Collectif antirépression lyonnais, qui fait office de legal team : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois.",
+        "en": "Lyon anti-repression collective acting as the local legal team: report an arrest, list of lawyers to name in custody, financial support. Reachable on Signal; open office on the first Thursday of each month."
       },
+      "sources": [
+        {
+          "title": "Info Libertaire — 24 octobre : suivi de l'Acte II de la mobilisation lyonnaise (numéro de la caisse de solidarité)",
+          "url": "https://www.infolibertaire.net/24-octobre-suivi-de-lacte-ii-de-la-mobilisation-lyonnaise"
+        }
+      ],
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2879,13 +2889,237 @@
       "name": "RATP — Info trafic",
       "url": "https://www.bonjour-ratp.fr/fr/info-trafic/",
       "category": "navigation",
-      "tags": ["transports", "ile-de-france", "agenda"],
+      "tags": ["transports", "info-trafic", "ile-de-france", "agenda"],
       "description": {
         "fr": "Stations fermées et perturbations en Île-de-France, y compris les fermetures demandées par la préfecture les jours de manifestation.",
         "en": "Closed stations and disruptions in the Paris region, including closures requested by the prefecture on protest days."
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "velib",
+      "name": "Vélib' Métropole",
+      "url": "https://www.velib-metropole.fr/",
+      "category": "navigation",
+      "tags": ["transports", "velo", "ile-de-france"],
+      "description": {
+        "fr": "Vélos en libre-service de Paris et sa métropole : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.",
+        "en": "Bike sharing in Paris and its metropolitan area: stations and available bikes. Return the bike before joining the march."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "tcl-lyon",
+      "name": "TCL — Transports en commun lyonnais",
+      "url": "https://www.tcl.fr/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "lyon"],
+      "description": {
+        "fr": "Réseau de transports en commun de la métropole de Lyon : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of the Lyon metropolitan area: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "velov-lyon",
+      "name": "Vélo'v (Lyon)",
+      "url": "https://velov.grandlyon.com/",
+      "category": "navigation",
+      "tags": ["transports", "velo", "lyon"],
+      "description": {
+        "fr": "Vélos en libre-service de la métropole de Lyon : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.",
+        "en": "Bike sharing in the Lyon metropolitan area: stations and available bikes. Return the bike before joining the march."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "rtm-marseille",
+      "name": "RTM — Régie des transports métropolitains (Marseille)",
+      "url": "https://www.rtm.fr/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "marseille"],
+      "description": {
+        "fr": "Réseau de transports en commun de Marseille : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of Marseille: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "levelo-marseille",
+      "name": "Le vélo (Marseille)",
+      "url": "https://levelo.ampmetropole.fr/fr/",
+      "category": "navigation",
+      "tags": ["transports", "velo", "marseille"],
+      "description": {
+        "fr": "Vélos en libre-service de Marseille : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.",
+        "en": "Bike sharing in Marseille: stations and available bikes. Return the bike before joining the march."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "tisseo-toulouse",
+      "name": "Tisséo (Toulouse)",
+      "url": "https://www.tisseo.fr/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "toulouse"],
+      "description": {
+        "fr": "Réseau de transports en commun de l'agglomération toulousaine : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of the Toulouse area: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "tbm-bordeaux",
+      "name": "TBM — Transports Bordeaux Métropole",
+      "url": "https://www.infotbm.com/fr",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "bordeaux"],
+      "description": {
+        "fr": "Réseau de transports en commun de Bordeaux Métropole : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of Bordeaux Métropole: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "ilevia-lille",
+      "name": "Ilévia (Lille)",
+      "url": "https://www.ilevia.fr/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "lille"],
+      "description": {
+        "fr": "Réseau de transports en commun de la métropole lilloise : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of the Lille metropolitan area: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "naolib-nantes",
+      "name": "Naolib (Nantes)",
+      "url": "https://naolib.fr/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "nantes"],
+      "description": {
+        "fr": "Réseau de transports en commun de la métropole nantaise : info trafic, arrêts et stations fermés, lignes déviées. Comprend les vélos en libre-service.",
+        "en": "Public transport network of the Nantes metropolitan area: traffic info, closed stops and stations, diverted lines. Includes bike sharing."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "cts-strasbourg",
+      "name": "CTS — Compagnie des transports strasbourgeois",
+      "url": "https://www.cts-strasbourg.eu/fr/accueil/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "strasbourg"],
+      "description": {
+        "fr": "Réseau de transports en commun de l'Eurométropole de Strasbourg : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of the Strasbourg metropolitan area: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "velhop-strasbourg",
+      "name": "Vélhop (Strasbourg)",
+      "url": "https://velhop.strasbourg.eu/",
+      "category": "navigation",
+      "tags": ["transports", "velo", "strasbourg"],
+      "description": {
+        "fr": "Vélos en libre-service de Strasbourg : stations et vélos disponibles. Rendez le vélo avant d'entrer dans le cortège.",
+        "en": "Bike sharing in Strasbourg: stations and available bikes. Return the bike before joining the march."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "star-rennes",
+      "name": "STAR (Rennes)",
+      "url": "https://www.star.fr/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "rennes"],
+      "description": {
+        "fr": "Réseau de transports en commun de Rennes Métropole : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of Rennes Métropole: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "tam-montpellier",
+      "name": "TaM (Montpellier)",
+      "url": "https://www.tam-voyages.com/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "montpellier"],
+      "description": {
+        "fr": "Réseau de transports en commun de Montpellier Méditerranée Métropole : info trafic, arrêts et stations fermés, lignes déviées. Comprend les vélos en libre-service Vélomagg.",
+        "en": "Public transport network of the Montpellier metropolitan area: traffic info, closed stops and stations, diverted lines. Includes Vélomagg bike sharing."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "lignes-azur-nice",
+      "name": "Lignes d'Azur (Nice)",
+      "url": "https://www.lignesdazur.com/",
+      "category": "navigation",
+      "tags": ["transports", "info-trafic", "nice"],
+      "description": {
+        "fr": "Réseau de transports en commun de la métropole Nice Côte d'Azur : info trafic, arrêts et stations fermés, lignes déviées.",
+        "en": "Public transport network of the Nice Côte d'Azur metropolitan area: traffic info, closed stops and stations, diverted lines."
+      },
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3484,6 +3718,13 @@
       "description": {
         "fr": "Association de défense des océans et de la faune marine : campagnes en mer, actions sur le terrain et bénévolat.",
         "en": "Association defending the oceans and marine life: campaigns at sea, field actions and volunteering."
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/seashepherdfrance/",
+        "facebook": "https://www.facebook.com/SeaShepherdFrance/",
+        "x": "https://x.com/SeaShepherdFran",
+        "youtube": "https://www.youtube.com/c/SeaShepherdFranceOfficiel",
+        "linkedin": "https://www.linkedin.com/company/sea-shepherd-france"
       },
       "check": {
         "date": "2026-10-29",

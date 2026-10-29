@@ -8,6 +8,13 @@ tags:
 
 # Agressions par l'extrême droite
 
+!!! abstract "L'essentiel"
+
+    - Les agressions ont souvent lieu **après la dispersion** : venez et repartez **en groupe**.
+    - Badges et drapeaux **dans le sac** pour le trajet.
+    - Ne répondez pas aux provocations ; attaqué·e : éloignez-vous vers la foule, appelez le **17** ou le **112**.
+    - Après : certificat médical, témoins, vidéos, **plainte** ; notez les insultes racistes ou homophobes exactes.
+
 Des groupes violents d'ultradroite s'en prennent à des cortèges ou à des manifestant·es isolé·es, souvent **après la dispersion**. En octobre 2026, des violences ont été signalées en marge de manifestations dans une quinzaine de villes.[^franceinfo][^lessentiel] Ce guide vise à **ne pas être pris·e pour cible** et à réagir si ça arrive, pas à chercher l'affrontement.
 
 ## Avant

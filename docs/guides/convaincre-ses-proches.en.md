@@ -1,11 +1,18 @@
 ---
-source_commit: 72ee233661cdb92cc7af4f2a75df1d0bbde3ef23
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 tags:
     - guides
     - dialogue
 ---
 
 # Talk to your loved ones
+
+!!! abstract "Key points"
+
+    - **Listen first**, rephrase, look for **shared values**.
+    - A **lived story** convinces more than a flood of figures.
+    - No humiliation, no "fascist" labels: the person shuts down.
+    - Aim for **one small step** and a conversation that **keeps going**.
 
 You rarely change someone's mind in one conversation, and almost never by being "right" louder. Conversations that move people rely on listening, lived stories and shared values.[^deep-canvassing]
 

@@ -1,5 +1,5 @@
 ---
-source_commit: 468e6b40c4b2d3cef6888cdd8e3c49d6aabe142f
+source_commit: fe1991df77815306349a7bbc8f815af6be090b86
 tags:
     - understand
     - media
@@ -46,6 +46,14 @@ Documented files and a selection of independent observatories to understand what
 
     [:octicons-arrow-right-24: See the records](../victimes/index.md)
 
+- **Why property gets smashed at protests** [:material-hammer:](../guides/casse.md)
+
+    ***
+
+    Who smashes, why, what studies say about effectiveness, what you risk.
+
+    [:octicons-arrow-right-24: Read](../guides/casse.md)
+
 </div>
 
 ## Who owns the media and how to check information
@@ -70,6 +78,23 @@ Documented files and a selection of independent observatories to understand what
 
 - **Votes and parliamentary participation**: {{ res("datan") }} and {{ res("poligraph") }} (French Parliament) as well as {{ res("howtheyvote") }} (European Parliament) publish detailed voting records and roll-call participation rates (which only measure plenary roll-call votes, not committee or constituency work).
 - **Court convictions and public integrity** (corruption, embezzlement of public funds, fictitious jobs, sexual violence…): tracked by {{ res("anticor") }}, {{ res("mediapart") }}, {{ res("poligraph") }} and {{ res("casier-politique") }} (the last two rely on AI extraction from Wikipedia, Wikidata or the press: check each record against its source). The only official statistics, without names, come from the French Anti-Corruption Agency.[^afa-probite-stats]
+
+### How the groups voted on our causes
+
+Six National Assembly votes on purchasing power, democracy, housing, immigration, women's rights and tax justice. The table shows **each group's majority position**; in brackets, the breakdown (for / against / abstention) when the group was split. The vote of each MP is on each {{ res("datan") }} page.
+
+| Date and vote | Result | Left (LFI, PS, Greens, GDR) | LIOT | Macron's camp (Renaissance, MoDem, Horizons) | LR | RN |
+| --- | --- | --- | --- | --- | --- | --- |
+| 20 Jul 2022 — Minimum wage at €1,500 net[^datan-smic-2022] | Rejected | For | For | Against | Against | Against |
+| 20 Mar 2023 — No-confidence motion after Article 49.3 on pensions[^datan-censure-retraites-2023][^lcp-censure-retraites-2023] | Rejected by 9 votes | For | For | Against | Against (19 for out of 61) | For |
+| 4 Apr 2023 — "Anti-squat" law (up to 3 years in prison)[^datan-anti-squat-2023] | Adopted | Against | For (12 / 0 / 5) | For | For | For |
+| 19 Dec 2023 — Immigration law[^datan-immigration-2023] | Adopted | Against | Split (8 / 8 / 5) | For (incl. Renaissance 131 / 20 / 17, MoDem 30 / 5 / 15) | For | For (88 / 0 / 0) |
+| 30 Jan 2024 — Abortion rights in the Constitution[^datan-ivg-2024] | Adopted | For | For | For | For (40 / 15 / 4) | For (46 / 12 / 14) |
+| 31 Oct 2025 — Zucman tax on fortunes above €100 million[^datan-zucman-2025] | Rejected | For | No position | Against | Against | Against |
+
+For a no-confidence motion, only "for" votes are counted: "against" here means the group did not vote for it. In 2025, LR is called Droite républicaine, and the UDR group, allied with the RN, also voted against the Zucman tax.[^datan-zucman-2025]
+
+**Check a vote yourself**: search for the bill on {{ res("datan") }}, open the vote, then look at how each group and your MP voted. For the European Parliament: {{ res("howtheyvote") }}.
 
 ## Sources
 

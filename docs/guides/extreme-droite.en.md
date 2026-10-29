@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # Far-right attacks
+
+!!! abstract "Key points"
+
+    - Attacks often happen **after dispersal**: come and leave **as a group**.
+    - Badges and flags **in your bag** on the way.
+    - Don't respond to provocation; if attacked, move towards the crowd and call **17** or **112**.
+    - Afterwards: medical certificate, witnesses, videos, **complaint**; write down the exact racist or homophobic insults.
 
 Violent far-right groups attack marches or isolated protesters, often **after dispersal**. In October 2026, violence was reported on the sidelines of protests in around fifteen French cities.[^franceinfo][^lessentiel] This guide is about **not becoming a target** and reacting if it happens, not about seeking confrontation.
 

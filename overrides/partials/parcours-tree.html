@@ -1,5 +1,6 @@
 {#-
-  Static rendering of docs/data/parcours.json (no-JS fallback, indexed by the site search).
+  Static rendering of docs/data/parcours.json (no-JS fallback, indexed by the site search: each
+  profile is a heading, so a search for "fonctionnaire" lands on #je-fonctionnaire).
   docs/javascripts/parcours.js replaces it with the interactive two-step version.
 -#}
 {%- macro href(r, lang) -%}
@@ -11,7 +12,7 @@
 <div class="parcours__tree">
 {%- for p in parcours %}
   <details>
-    <summary>{{ 'Je suis' if lang == 'fr' else 'I am' }} {{ p.label[lang] }}</summary>
+    <summary><h2 class="parcours__profile" id="je-{{ p.id }}">{{ 'Je suis' if lang == 'fr' else 'I am' }} {{ p.label[lang] }}</h2></summary>
     <ul>
     {%- for n in p.needs %}
       <li><strong>{{ '… et je veux' if lang == 'fr' else '… and I want to' }} {{ n.label[lang] }}</strong>

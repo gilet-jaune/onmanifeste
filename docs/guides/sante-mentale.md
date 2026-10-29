@@ -8,6 +8,14 @@ tags:
 
 # Choc émotionnel, angoisse et santé mentale
 
+!!! abstract "L'essentiel"
+
+    - Détresse immédiate : **3114** ou France Victimes au **116 006**.
+    - Crise d'angoisse : à l'abri, **respiration 4-2-6**, méthode **5-4-3-2-1**.
+    - Un **contrecoup** dans les 24 à 72 heures est normal : ne restez pas seul·e.
+    - Symptômes qui durent **plus d'un mois** : consultez.
+    - Coupez les vidéos de violences, faites des pauses, agissez **en collectif**.
+
 !!! warning "En cas de détresse immédiate"
 
     Si vous avez des idées noires ou besoin de parler tout de suite : appelez le **3114** (gratuit, confidentiel, 24 h/24 et 7 j/7) ou **France Victimes** au **116 006**.[^numero-3114][^france-victimes]

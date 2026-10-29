@@ -8,6 +8,13 @@ tags:
 
 # Manifester sans la nationalité française
 
+!!! abstract "L'essentiel"
+
+    - Manifester pacifiquement est un **droit pour toutes et tous**.
+    - Une interpellation ne déclenche **pas automatiquement** de retrait de titre ni d'OQTF.
+    - Ayez une **copie** de votre titre et le numéro de la **Cimade** ou d'un·e avocat·e.
+    - En garde à vue : mêmes droits, **interprète**, consulat ; recours contre une OQTF dans des **délais très courts**.
+
 Manifester pacifiquement est un droit pour toutes et tous, quelle que soit la nationalité.[^amnesty-droits] Mais une interpellation peut avoir des conséquences supplémentaires sur le séjour : mieux vaut les connaître avant de partir.
 
 ## Les risques à connaître

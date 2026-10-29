@@ -1,5 +1,5 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 tags:
     - guides
     - préparation
@@ -7,7 +7,19 @@ tags:
 
 # Pre-protest checklist
 
+!!! abstract "Key points"
+
+    - Get everything ready **the day before**: on site, the network saturates or can be cut.
+    - Phone **charged**, power bank, locked with a **passcode**, apps and **offline** map installed and tested.
+    - Useful numbers **on your skin** (under clothing) and on paper, without names.
+    - A **buddy**, a **meeting point** and two routes home.
+    - Nothing in your bag that could pass for a **weapon**.
+
 Tick these off **at home, the day before or in the morning**. On site, the mobile network often saturates or can be cut: what isn't ready beforehand won't be ready during.
+
+## Install this site offline
+
+- [ ] Open this site once with a connection, then choose **"Add to Home Screen"** (or "Install app") in your phone's browser. It then works **without a network**. The footer shows the offline status and lets you check for updates.
 
 ## Phone
 

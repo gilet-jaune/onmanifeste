@@ -1,19 +1,47 @@
 ---
-source_commit: 7259a0ec0d45ba944d0eab110a254338702f80ff
+source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
 review: medical
 review_status: pending
 tags:
     - guides
     - health
+    - flowchart
 ---
 
 # First aid
+
+!!! abstract "Key points"
+
+    - **Protect, alert, help**; life-threatening emergency: **112** or **15**, with a precise location.
+    - Gas: get out of the cloud **facing the wind**, don't rub, **rinse** with saline solution.
+    - Eye injury: **don't rinse**, cover without pressing, call 112.
+    - Head injury: don't leave the person alone; vomiting or confusion, call 112.
+    - Afterwards: get any injury **recorded** (certificate with ITT) and keep track of symptoms.
 
 Three reflexes, in order: **protect** (get yourself and the person to safety), **alert**, **help**. Look for the march's **street medics**: they are trained and equipped.[^cr-etapes]
 
 !!! warning "Life-threatening emergency"
 
     Unconscious person, breathing badly, heavy bleeding, head or eye injury: call **112** (or **15**, SAMU). Give a precise location (street, number, landmark).
+
+## Flowchart: someone is injured or gassed
+
+<div class="flow" markdown>
+
+1. **Life-threatening?** Unconscious, struggling to breathe, bleeding heavily, head or eye injury.
+    - **Yes** → call **112** (or **15**) with a precise location, stay with the person.[^cr-etapes]
+    - **No** → next step.
+2. **Tear gas?**
+    - **Yes** → get out of the cloud **facing the wind**, don't rub, **rinse** with saline solution, remove contact lenses.[^medic-gestes]
+    - **No** → next step.
+3. **What injury?**
+    - **Bleeding** → press hard with a clean cloth, without letting go.[^cr-hemorragie]
+    - **Eye hit by a projectile** → don't rinse, cover without pressing, **112**.
+    - **Head injury** → don't leave the person alone; vomiting, confusion or loss of consciousness: **112**.
+    - **Burn** → lukewarm water for 10 to 20 minutes.[^cr-brulure]
+4. **Then** → street medics or a doctor; get the injuries **recorded** (certificate with ITT) and photograph them.[^ldh-violences]
+
+</div>
 
 ## Tear gas
 

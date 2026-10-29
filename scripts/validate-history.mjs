@@ -1,6 +1,6 @@
 // Validates docs/data/history.json (required fields, known kinds, ISO dates, chronological order,
 // and a `check` {date, result, by} like the other registries).
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 const FILE = 'docs/data/history.json';
 const TODAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' }).format(new Date());
@@ -12,9 +12,10 @@ const kinds = Object.keys(data.kinds ?? {});
 const sources = JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sources;
 
 let previous = '';
+const ids = new Set();
 (data.events ?? []).forEach((e, i) => {
-  const at = `events[${i}] (${e.title ?? '?'})`;
-  for (const field of ['date', 'title', 'kind', 'url', 'description', 'check']) {
+  const at = `events[${i}] (${e.id ?? e.title?.fr ?? '?'})`;
+  for (const field of ['id', 'date', 'title', 'kind', 'url', 'description', 'check']) {
     if (e[field] === undefined) errors.push(`${at}: missing "${field}"`);
   }
   if (e.date && (!/^\d{4}-\d{2}-\d{2}$/.test(e.date) || Number.isNaN(Date.parse(e.date)))) {
@@ -22,6 +23,14 @@ let previous = '';
   }
   if (e.date && e.date < previous) errors.push(`${at}: events must be in chronological order`);
   previous = e.date ?? previous;
+  if (e.id) {
+    if (!/^\d{4}-[a-z0-9]+(-[a-z0-9]+)*$/.test(e.id)) errors.push(`${at}: id must be "YYYY-slug"`);
+    else if (e.date && !e.id.startsWith(e.date.slice(0, 4)))
+      errors.push(`${at}: id must start with the year`);
+    if (ids.has(e.id)) errors.push(`${at}: duplicate id`);
+    ids.add(e.id);
+  }
+  if (e.title && (!e.title.fr || !e.title.en)) errors.push(`${at}: title needs fr and en`);
   if (e.kind && !kinds.includes(e.kind)) errors.push(`${at}: unknown kind "${e.kind}"`);
   if (e.url && !e.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (!e.description?.fr) errors.push(`${at}: missing French description`);
@@ -44,6 +53,14 @@ let previous = '';
     if (!['ai', 'volunteer', 'lawyer', 'medical', 'historian'].includes(by))
       errors.push(`${at}: invalid check.by`);
   }
+  if (
+    e.end !== undefined &&
+    (!/^\d{4}(-\d{2}(-\d{2})?)?$/.test(e.end) || e.end < e.date.slice(0, e.end.length))
+  )
+    errors.push(`${at}: end must be YYYY[-MM[-DD]] and not before date`);
+  (e.guides ?? []).forEach((slug) => {
+    if (!existsSync(`docs/guides/${slug}.md`)) errors.push(`${at}: unknown guide "${slug}"`);
+  });
   if (e.debunked && (!e.debunked.claim?.fr || !e.debunked.fact?.fr)) {
     errors.push(`${at}: debunked needs claim.fr and fact.fr`);
   }
@@ -53,6 +70,14 @@ let previous = '';
     if (e.gains.source && !e.gains.source.startsWith('https://'))
       errors.push(`${at}: gains.source must use https`);
   }
+});
+
+const allIds = new Set((data.events ?? []).map((e) => e.id));
+(data.events ?? []).forEach((e) => {
+  (e.related ?? []).forEach((id) => {
+    if (!allIds.has(id)) errors.push(`events (${e.id}): unknown related event "${id}"`);
+    if (id === e.id) errors.push(`events (${e.id}): an event cannot be related to itself`);
+  });
 });
 
 if (errors.length) {

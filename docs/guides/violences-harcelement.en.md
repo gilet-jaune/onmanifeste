@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # Sexist violence and online harassment
+
+!!! abstract "Key points"
+
+    - At a protest: stay with your **buddy** and agree on a signal.
+    - Sexist or sexual violence: **3919**, free and anonymous, 24/7.
+    - Online harassment: **don't reply**, take dated screenshots, report (platform, Pharos).
+    - Cyberbullying: **3018**, which also helps get content removed.
 
 Crowds, chaos and exposure on social media create specific risks. You are not alone: free helplines exist.
 

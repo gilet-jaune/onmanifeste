@@ -1,5 +1,5 @@
 ---
-source_commit: 2f3db8c9fcb18ed0345658e091cd1b5770e9872e
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # Organising a protest
+
+!!! abstract "Key points"
+
+    - You **declare** at the town hall or prefecture, **3 to 15 full days** beforehand.
+    - Undeclared or banned demonstration: the organiser risks **6 months and €7,500**.
+    - Plan stewards, **street medics**, a **legal team** and an accessible point.
+    - Afterwards: review with the legal team (arrests, injuries, videos).
 
 Organising means notifying, preparing safety and planning what comes after. The obligations fall mainly on the **organisers**.
 

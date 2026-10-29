@@ -1,18 +1,46 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
 review: juridique
 review_status: pending
 tags:
     - guides
     - custody
     - rights
+    - flowchart
 ---
 
 # Police custody (garde à vue)
 
+!!! abstract "Key points"
+
+    - Ask **straight away for a lawyer and a doctor**.
+    - **Stay silent** until you have spoken with the lawyer; **never talk about others**.
+    - **Read** every statement; don't sign anything inaccurate.
+    - Length: **24 hours**, renewable once.
+    - On release: write everything down while it's fresh, keep the documents, contact a **legal team**.
+
 !!! warning "Disclaimer"
 
     General information about French law, not legal advice. Your lawyer is the only person to trust with the details of your situation.
+
+## Flowchart: from arrest to release
+
+<div class="flow" markdown>
+
+1. **What are you told?**
+    - **ID check** (no custody) → **4 hours maximum**; you can have the prosecutor and a person of your choice informed.[^sp-retenue]
+    - **Police custody** → follow the steps below.
+2. **As soon as your rights are read** → ask for **a lawyer and a doctor**, have a relative informed.[^sp-gav]
+3. **Are you a minor?**
+    - **Yes** → a lawyer is **mandatory**, parents are informed, interviews are filmed.[^sp-mineur]
+    - **No** → 24 hours, renewable once.[^sp-gav]
+4. **During interviews** → **stay silent** until you have spoken with the lawyer; **never talk about others**.[^sp-gav]
+5. **A statement to sign?**
+    - **Accurate** → you can sign.
+    - **Inaccurate** → don't sign, or have it corrected.
+6. **On release** → write everything down while it's fresh, keep the documents; fast-track trial: you can **ask for more time**.[^sp-ci] Contact a legal team.
+
+</div>
 
 ## Your rights, from the start
 
@@ -53,7 +81,9 @@ Duration: **24 hours**, renewable once (48 hours) for most offences alleged at p
 - Write down **straight away** what happened: times, places, words, names or badge numbers, conditions of detention.
 - Keep **all documents** given to you (summons, warning, notice of trial).
 - **Fast-track trial (comparution immédiate)**: you can ask for **more time** to prepare your defence.[^sp-ci]
-- Contact a **legal team** for follow-up and a **solidarity fund** for costs.[^legal-team]
+- Contact a **legal team** or a local anti-repression collective ({{ res("rajcol", "list of local collectives") }}) for follow-up, and a **solidarity fund** for costs.[^legal-team]
+- Lawyer's fees: you may be entitled to {{ res("sp-aide-juridictionnelle", "legal aid") }} depending on your income.[^sp-aj]
+- Violence or misconduct by the police: [file a complaint and report it](suites-judiciaires.md).
 
 [:octicons-arrow-right-24: Custody contacts and resources in the directory](../annuaire/index.md?situation=garde-a-vue)
 

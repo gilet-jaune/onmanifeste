@@ -1,5 +1,5 @@
 ---
-source_commit: 9ff970eed165162dc750a29d0b9e9da4b7f8d45a
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # The right to protest
+
+!!! abstract "Key points"
+
+    - Protesting is a **freedom**: you **declare** a demonstration, you don't ask for permission.
+    - Taking part in an **undeclared** demonstration is not an offence; the risks fall on the organisers.
+    - A ban must be **justified case by case** and can be challenged in an emergency hearing (référé-liberté).
+    - **Banned** demonstration: **€135** fine, no police custody for that fine alone.
 
 In France, demonstrating is a **freedom**, not a permission you ask for. The State can regulate it and, in specific cases, ban it, but under a judge's review.
 

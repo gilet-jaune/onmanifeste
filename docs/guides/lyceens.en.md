@@ -1,5 +1,5 @@
 ---
-source_commit: 145ed4236314035b522943bdc02023c9ffdcd890
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: juridique
 review_status: pending
 tags:
@@ -8,6 +8,13 @@ tags:
 ---
 
 # High-school students: blockades, absences, sanctions
+
+!!! abstract "Key points"
+
+    - Protesting is a **right**, but the absence is not excused and **blocking the school is forbidden** (sanctions, even an obstruction offence).
+    - Around school: never alone, and **never pick up a grenade**.
+    - Disciplinary council: summons **8 days ahead**, access to the file, right to be assisted, appeal within **8 days**.
+    - Custody from age **13**: a lawyer is **mandatory**, parents are informed, and **stay silent** about names (classmates, teachers).
 
 High-school students have the right to protest. But school has its own rules, on top of those of the street.
 
@@ -51,6 +58,10 @@ From the age of 13, a minor can be held in police custody, with stronger safegua
 - **every interview is filmed**.
 
 You have the right to remain silent. Don't sign anything you don't understand ([the police custody guide](garde-a-vue.md)).
+
+You may be asked for **names**: who organised the blockade, which teachers encouraged you. Students reported this after being taken into custody in 2020.[^sudradio-lyceens-gav-2020] You don't have to answer: stay silent and wait for your lawyer.
+
+**Parents**: you must be informed. Ask where your child is being held and contact a lawyer or a legal team straight away; otherwise a duty lawyer is appointed.[^sp-mineur] On release, keep the documents handed over and write down your child's account while it is fresh.
 
 [:octicons-arrow-right-24: Resources for minors in the directory](../annuaire/index.md?situation=parent) · [:octicons-arrow-right-24: The right to protest](droit-de-manifester.md)
 

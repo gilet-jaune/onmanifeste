@@ -12,3 +12,17 @@ victims timeline; keep in sync with CHECK_BY in docs/javascripts/directory.js. -
 {{ labels[check.by][lang] or labels[check.by].fr }} <time datetime="{{ check.date }}">{{ check.date }}</time>
 {%- if check.by == 'ai' %} · {{ 'à vérifier par un humain' if lang == 'fr' else 'awaiting human check' }}{% endif %}
 {%- endmacro -%}
+
+
+{#- Short "who checked" text for a source link's title attribute (hover). Same wording as
+hooks/sources.py. -#}
+{%- macro check_title(check, lang) -%}
+{%- set labels = {
+  'ai': {'fr': 'Sourcé par IA, à vérifier par un humain', 'en': 'AI-sourced, awaiting human check'},
+  'volunteer': {'fr': 'Vérifié par un·e bénévole', 'en': 'Checked by a volunteer'},
+  'lawyer': {'fr': 'Vérifié par un·e avocat·e', 'en': 'Checked by a lawyer'},
+  'medical': {'fr': 'Vérifié par un·e soignant·e', 'en': 'Checked by a health professional'},
+  'historian': {'fr': 'Vérifié par un·e historien·ne', 'en': 'Checked by a historian'},
+} -%}
+{%- if check %}{{ labels[check.by][lang] or labels[check.by].fr }} ({{ check.date }}){% endif -%}
+{%- endmacro -%}

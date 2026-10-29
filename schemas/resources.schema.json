@@ -178,6 +178,7 @@
               "tiktok": { "type": "string", "pattern": "^https://(www\\.)?tiktok\\.com/@" },
               "youtube": { "type": "string", "pattern": "^https://(www\\.)?youtube\\.com/" },
               "peertube": { "type": "string", "pattern": "^https://" },
+              "linkedin": { "type": "string", "pattern": "^https://" },
               "github": {
                 "type": "string",
                 "pattern": "^https://(github\\.com|codeberg\\.org|framagit\\.org|gitlab\\.com)/"

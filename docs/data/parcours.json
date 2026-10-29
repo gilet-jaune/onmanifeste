@@ -237,17 +237,6 @@
               }
             },
             {
-              "page": "conseils",
-              "anchor": {
-                "fr": "pendant-la-manifestation",
-                "en": "during-the-protest"
-              },
-              "label": {
-                "fr": "Pendant la manifestation",
-                "en": "During the protest"
-              }
-            },
-            {
               "guide": "venir-repartir",
               "anchor": {
                 "fr": "avant-de-partir",
@@ -341,14 +330,10 @@
           },
           "results": [
             {
-              "page": "conseils",
-              "anchor": {
-                "fr": "connaitre-ses-droits",
-                "en": "know-your-rights"
-              },
+              "guide": "droit-de-manifester",
               "label": {
-                "fr": "Connaître ses droits",
-                "en": "Know your rights"
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
               }
             },
             {
@@ -372,17 +357,6 @@
               "label": {
                 "fr": "Téléphone : verrouillage, code et saisie",
                 "en": "Phone: emergency lock, passcode and seizure"
-              }
-            },
-            {
-              "page": "conseils",
-              "anchor": {
-                "fr": "avant-la-manifestation",
-                "en": "before-the-protest"
-              },
-              "label": {
-                "fr": "Préparer son téléphone",
-                "en": "Prepare your phone"
               }
             },
             {
@@ -671,17 +645,6 @@
               }
             },
             {
-              "page": "conseils",
-              "anchor": {
-                "fr": "apres-une-garde-a-vue",
-                "en": "after-custody"
-              },
-              "label": {
-                "fr": "Démarches après des violences",
-                "en": "Steps after violence"
-              }
-            },
-            {
               "resource": "ldh-que-faire-violences"
             },
             {
@@ -929,17 +892,6 @@
               "label": {
                 "fr": "À la sortie",
                 "en": "On release"
-              }
-            },
-            {
-              "page": "conseils",
-              "anchor": {
-                "fr": "apres-une-garde-a-vue",
-                "en": "after-custody"
-              },
-              "label": {
-                "fr": "Après une garde à vue",
-                "en": "After custody"
               }
             }
           ]
@@ -1423,10 +1375,10 @@
               "resource": "sp-garde-a-vue-mineur"
             },
             {
-              "page": "conseils",
+              "guide": "lyceens",
               "anchor": {
-                "fr": "lyceennes-et-mineures",
-                "en": "high-school-students-and-minors"
+                "fr": "si-vous-etes-interpellee",
+                "en": "if-you-are-arrested"
               },
               "label": {
                 "fr": "Conseils pour les parents",
@@ -1726,10 +1678,10 @@
     {
       "id": "salarie",
       "label": {
-        "fr": "salarié·e ou fonctionnaire",
-        "en": "an employee or civil servant"
+        "fr": "salarié·e",
+        "en": "an employee"
       },
-      "keywords": ["travail", "salarie", "fonctionnaire", "employeur", "greve", "job", "work"],
+      "keywords": ["travail", "salarie", "employeur", "greve", "job", "work"],
       "needs": [
         {
           "id": "greve",
@@ -1747,17 +1699,6 @@
               "label": {
                 "fr": "Secteur privé",
                 "en": "Private sector"
-              }
-            },
-            {
-              "guide": "travail",
-              "anchor": {
-                "fr": "fonction-publique",
-                "en": "public-service"
-              },
-              "label": {
-                "fr": "Fonction publique",
-                "en": "Public service"
               }
             }
           ]
@@ -1778,6 +1719,139 @@
               "label": {
                 "fr": "Manifester sans faire grève",
                 "en": "Protesting without striking"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fonctionnaire",
+      "label": {
+        "fr": "fonctionnaire ou agent·e public",
+        "en": "a civil servant or public employee"
+      },
+      "keywords": [
+        "fonctionnaire",
+        "agent public",
+        "agente publique",
+        "fonction publique",
+        "prof",
+        "professeur",
+        "enseignant",
+        "enseignante",
+        "instit",
+        "contractuel",
+        "hopital",
+        "infirmier",
+        "infirmiere",
+        "mairie",
+        "civil servant",
+        "teacher",
+        "public sector"
+      ],
+      "needs": [
+        {
+          "id": "greve",
+          "label": {
+            "fr": "faire grève",
+            "en": "go on strike"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "faire-greve",
+                "en": "going-on-strike"
+              },
+              "label": {
+                "fr": "Faire grève dans la fonction publique",
+                "en": "Striking in the public service"
+              }
+            }
+          ]
+        },
+        {
+          "id": "carriere",
+          "label": {
+            "fr": "manifester sans risquer ma carrière",
+            "en": "protest without risking my career"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "devoir-de-reserve-et-neutralite",
+                "en": "duty-of-discretion-and-neutrality"
+              },
+              "label": {
+                "fr": "Devoir de réserve et neutralité",
+                "en": "Duty of discretion and neutrality"
+              }
+            },
+            {
+              "guide": "droit-de-manifester",
+              "label": {
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
+              }
+            }
+          ]
+        },
+        {
+          "id": "en-ligne",
+          "label": {
+            "fr": "m'exprimer sur les réseaux sociaux",
+            "en": "speak out on social media"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "devoir-de-reserve-et-neutralite",
+                "en": "duty-of-discretion-and-neutrality"
+              },
+              "label": {
+                "fr": "Devoir de réserve et neutralité",
+                "en": "Duty of discretion and neutrality"
+              }
+            },
+            {
+              "guide": "reseaux-sociaux",
+              "anchor": {
+                "fr": "appeler-a-manifester-en-ligne",
+                "en": "calling-for-a-protest-online"
+              },
+              "label": {
+                "fr": "Appeler à manifester en ligne",
+                "en": "Calling for a protest online"
+              }
+            }
+          ]
+        },
+        {
+          "id": "poursuivi",
+          "label": {
+            "fr": "savoir ce que je risque si je suis interpellé·e",
+            "en": "know what I risk if I am arrested"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "si-vous-etes-poursuivie",
+                "en": "if-you-are-prosecuted"
+              },
+              "label": {
+                "fr": "Si vous êtes poursuivi·e",
+                "en": "If you are prosecuted"
+              }
+            },
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue",
+                "en": "Police custody"
               }
             }
           ]
@@ -2086,10 +2160,10 @@
           },
           "results": [
             {
-              "page": "conseils",
+              "guide": "avant-de-partir",
               "anchor": {
                 "fr": "installer-ce-site-hors-ligne",
-                "en": "install-this-site-for-offline-use"
+                "en": "install-this-site-offline"
               },
               "label": {
                 "fr": "Installer ce site hors ligne",
@@ -2610,14 +2684,10 @@
           },
           "results": [
             {
-              "page": "conseils",
-              "anchor": {
-                "fr": "connaitre-ses-droits",
-                "en": "know-your-rights"
-              },
+              "guide": "droit-de-manifester",
               "label": {
-                "fr": "Connaître ses droits",
-                "en": "Know your rights"
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
               }
             },
             {
@@ -2700,14 +2770,10 @@
           },
           "results": [
             {
-              "page": "conseils",
-              "anchor": {
-                "fr": "connaitre-ses-droits",
-                "en": "know-your-rights"
-              },
+              "guide": "droit-de-manifester",
               "label": {
-                "fr": "Connaître ses droits",
-                "en": "Know your rights"
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
               }
             },
             {
@@ -3142,14 +3208,10 @@
           },
           "results": [
             {
-              "page": "conseils",
-              "anchor": {
-                "fr": "connaitre-ses-droits",
-                "en": "know-your-rights"
-              },
+              "guide": "droit-de-manifester",
               "label": {
-                "fr": "Connaître ses droits",
-                "en": "Know your rights"
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
               }
             },
             {

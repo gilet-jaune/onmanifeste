@@ -1,5 +1,5 @@
 ---
-source_commit: 7d22d14587a7919ecb08d22e8c4f33b24434aa2a
+source_commit: b092700a4506801fb0f8f50104dd1bde9dbcb689
 tags:
     - contributing
 ---
@@ -86,7 +86,7 @@ Paths live in `docs/data/parcours.json`: each profile ("I am…") has keywords f
 
 - `{ "resource": "id" }`: a directory resource;
 - `{ "guide": "slug", "anchor": { "fr": "…", "en": "…" }, "label": { … } }`: a guide section;
-- `{ "page": "sos" | "carte" | "conseils", … }` or `{ "directory": { "situation": "…" }, … }`.
+- `{ "page": "sos" | "carte" | "comprendre" | "histoire" | "repressions", … }` or `{ "directory": { "situation": "…" }, … }`.
 
 Add `"urgent": true` to show the SOS link. `npm run validate:data` checks that every resource, situation and anchor exists, in French and English.
 

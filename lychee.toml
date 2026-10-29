@@ -53,6 +53,10 @@ exclude = [
     '^https://www\.actu-juridique\.fr/',
     '^https://www\.science\.org/',
     '^https://www\.bonjour-ratp\.fr/',
+    '^https://www\.velib-metropole\.fr/',
+    '^https://www\.tisseo\.fr/',
+    '^https://www\.ilevia\.fr/',
+    '^https://www\.lignesdazur\.com/',
     '^https://gijn\.org/',
     '^https://github\.com/gilet-jaune/onmanifeste.*',
     '^https://fonts\.gstatic\.com/.*'

@@ -1,5 +1,5 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
 review: medical
 review_status: pending
 tags:
@@ -8,6 +8,14 @@ tags:
 ---
 
 # Emotional shock, anxiety and mental health
+
+!!! abstract "Key points"
+
+    - Immediate distress: **3114** or France Victimes on **116 006**.
+    - Anxiety attack: get to shelter, **4-2-6 breathing**, the **5-4-3-2-1** method.
+    - An **emotional aftershock** within 24 to 72 hours is normal: don't stay alone.
+    - Symptoms lasting **more than a month**: see a professional.
+    - Stop watching violent videos, take breaks, act **collectively**.
 
 !!! warning "In case of immediate distress"
 

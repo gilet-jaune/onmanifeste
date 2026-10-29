@@ -4,11 +4,36 @@ review_status: pending
 tags:
     - guides
     - dispersion
+    - schéma
 ---
 
 # Dispersion, sommations et nasse
 
+!!! abstract "L'essentiel"
+
+    - Dès la **première sommation**, partez : rester ensuite peut devenir un **délit**.
+    - Partez **calmement**, en groupe, mains visibles, par une rue repérée à l'avance.
+    - Toutes les sorties bloquées ? **Dites-le** aux agents : rester parce qu'on ne peut pas partir n'est pas rester volontairement.
+    - Encerclé·e (nasse) : restez groupé·e, demandez une sortie, **filmez et notez l'heure**.
+
 Savoir reconnaître une dispersion, et partir à temps, évite une interpellation. Rester après les sommations peut en effet devenir un délit.
+
+## Schéma : que faire à la dispersion
+
+<div class="flow" markdown>
+
+1. **Une sommation est annoncée** (« Obéissance à la loi, dispersez-vous ») ?[^ldh-dispersion]
+    - **Oui** → partez **tout de suite**, calmement et en groupe : rester après les sommations peut devenir un délit.[^avocat-attroupement]
+    - **Pas encore** → repérez les rues de sortie et votre point de rendez-vous.
+2. **Une sortie est-elle libre ?**
+    - **Oui** → sortez mains visibles, sans vous retourner, loin de la ligne de forces de l'ordre.
+    - **Non** → **dites-le aux agents** et demandez par où partir ; notez l'heure, filmez si vous pouvez.[^ldh-dispersion]
+3. **Êtes-vous encerclé·e (nasse) ?**
+    - **Oui** → restez groupé·e loin des bords, demandez une sortie, signalez les personnes malades ou mineures, **filmez et notez l'heure** ; prévenez la legal team.
+    - **Non** → rejoignez votre point de rendez-vous et prévenez votre contact.
+4. **Interpellé·e ?** → [Garde à vue](garde-a-vue.md).
+
+</div>
 
 ## Ce que dit la loi
 

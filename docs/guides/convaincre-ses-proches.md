@@ -6,6 +6,13 @@ tags:
 
 # Convaincre ses proches
 
+!!! abstract "L'essentiel"
+
+    - **Écoutez d'abord**, reformulez, cherchez des **valeurs communes**.
+    - Une **histoire vécue** convainc plus qu'une avalanche de chiffres.
+    - Ni humiliation ni « facho » : la personne se braque.
+    - Visez **un petit pas** et une conversation qui **continue**.
+
 On convainc rarement quelqu'un en une discussion, et presque jamais en ayant « raison » plus fort. Les conversations qui font bouger les gens reposent sur l'écoute, les histoires vécues et les valeurs partagées.[^deep-canvassing]
 
 ## Avant

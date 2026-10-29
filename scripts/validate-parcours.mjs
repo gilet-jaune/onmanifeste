@@ -11,7 +11,6 @@ const situationIds = new Set(registry.situations.map((s) => s.id));
 const PAGES = {
   sos: 'docs/sos/index',
   carte: 'docs/carte/index',
-  conseils: 'docs/conseils/index',
   comprendre: 'docs/comprendre/index',
   histoire: 'docs/histoire/index',
   contribuer: 'docs/contribuer/index',

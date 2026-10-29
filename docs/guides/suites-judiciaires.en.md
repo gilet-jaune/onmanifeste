@@ -1,18 +1,41 @@
 ---
-source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
 review: juridique
 review_status: pending
 tags:
     - guides
     - rights
     - custody
+    - flowchart
 ---
 
 # Filing a complaint, voluntary interview and trial
 
+!!! abstract "Key points"
+
+    - Violence: **medical certificate with ITT**, photos, witnesses, videos.
+    - Complaint: any police station must take it, or send it by **registered letter to the prosecutor**.
+    - The Défenseur des droits and the IGPN or IGGN **complement** a complaint, they don't replace it.
+    - **Voluntary interview**: never go without first consulting a lawyer.
+    - **Fast-track trial**: you can refuse to be tried the same day; relatives gather the supporting documents quickly.
+
 !!! warning "Disclaimer"
 
     General information about French law, not legal advice. Contact a lawyer or a legal team before any police interview or court hearing.
+
+## Flowchart: after police violence
+
+<div class="flow" markdown>
+
+1. **Care** → see a doctor as soon as possible and ask for a **descriptive certificate with ITT**.[^ldh-violences]
+2. **Evidence** → photos of the injuries with a ruler, unwashed clothes, witnesses' contact details, copies of videos off the phone.[^witness-preuve]
+3. **Filing a complaint: where?**
+    - **Police or gendarmerie station** → they are **obliged** to take your complaint, wherever the events happened.[^sp-plainte]
+    - **Afraid of a refusal or pressure** → registered letter with acknowledgement of receipt to the **public prosecutor**.[^sp-plainte]
+4. **On top of the complaint** (not instead of it) → Défenseur des droits[^ddd] and IGPN or IGGN.[^iggn]
+5. **Get support** → legal team, lawyer, and the LDH guide.
+
+</div>
 
 ## After violence: document injuries and file a complaint
 
@@ -24,6 +47,7 @@ tags:
 4. **Additional reports** (do **not** replace a criminal complaint):
     - Refer the case to the {{ res("defenseur-des-droits") }} (free, independent investigation into law-enforcement ethics).[^ddd]
     - Report the facts to the IGPN (police) or {{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn]
+5. Step-by-step guide: {{ res("ldh-que-faire-violences", "LDH — What to do about police violence? (in French)") }}
 
 ## Summoned for a "voluntary interview" (audition libre)
 

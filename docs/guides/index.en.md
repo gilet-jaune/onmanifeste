@@ -1,12 +1,14 @@
 ---
-source_commit: 598dbfe71fe62fef8f263e392a891c879cec3a71
+source_commit: 39a0bc9f2a20bf382260eb45790d6cd6f36d84f8
 tags:
     - guides
 ---
 
-# Quick guides
+# Guides
 
-Short guides to read before you go, **available offline** once the site has been opened (or installed) on your phone.
+Guides to read before you go, **available offline** once the site has been opened (or installed) on your phone.
+
+**Where to start?** [Pre-protest checklist](avant-de-partir.md) · [Never stay alone](ne-pas-rester-seul.md) · [Police custody (garde à vue)](garde-a-vue.md)
 
 ## Before the protest
 
@@ -158,30 +160,6 @@ Short guides to read before you go, **available offline** once the site has been
 
 <div class="grid cards" markdown="1">
 
-- **Disability or chronic condition** [:material-wheelchair-accessibility:](handicap.md)
-
-    ***
-
-    Prescriptions, asthma and tear gas, sensory hypersensitivity, rights in custody (114, sign language).
-
-    [:octicons-arrow-right-24: Read](handicap.md)
-
-- **Protesting without French nationality** [:material-passport:](etrangers.md)
-
-    ***
-
-    Residence risks, rights in custody, useful contacts.
-
-    [:octicons-arrow-right-24: Read](etrangers.md)
-
-- **The Palestinian flag at protests** [:material-flag:](drapeau-palestinien.md)
-
-    ***
-
-    What is legal, banned demonstrations, risky slogans.
-
-    [:octicons-arrow-right-24: Read](drapeau-palestinien.md)
-
 - **High-school students: blockades, absences, sanctions** [:material-school:](lyceens.md)
 
     ***
@@ -198,6 +176,28 @@ Short guides to read before you go, **available offline** once the site has been
 
     [:octicons-arrow-right-24: Read](travail.md)
 
+- **Protesting without French nationality** [:material-passport:](etrangers.md)
+
+    ***
+
+    Residence risks, rights in custody, useful contacts.
+
+    [:octicons-arrow-right-24: Read](etrangers.md)
+
+- **Disability or chronic condition** [:material-wheelchair-accessibility:](handicap.md)
+
+    ***
+
+    Prescriptions, asthma and tear gas, sensory hypersensitivity, rights in custody (114, sign language).
+
+    [:octicons-arrow-right-24: Read](handicap.md)
+
+</div>
+
+## Mobilise and inform
+
+<div class="grid cards" markdown="1">
+
 - **Organising a protest** [:material-bullhorn:](organiser.md)
 
     ***
@@ -206,27 +206,13 @@ Short guides to read before you go, **available offline** once the site has been
 
     [:octicons-arrow-right-24: Read](organiser.md)
 
-</div>
-
-## Stay informed and persuade
-
-<div class="grid cards" markdown="1">
-
-- **Stay informed, get trained** [:material-school-outline:](s-informer-se-former.md)
+- **The Palestinian flag at protests** [:material-flag:](drapeau-palestinien.md)
 
     ***
 
-    Non-violent action training, observatories, reliable sources, social media.
+    What is legal, banned demonstrations, risky slogans.
 
-    [:octicons-arrow-right-24: Read](s-informer-se-former.md)
-
-- **Avoid disinformation** [:material-magnify-scan:](desinformation.md)
-
-    ***
-
-    Check an image, a rumour or a toll before sharing.
-
-    [:octicons-arrow-right-24: Read](desinformation.md)
+    [:octicons-arrow-right-24: Read](drapeau-palestinien.md)
 
 - **Social media: don't feed hate** [:material-account-cancel:](reseaux-sociaux.md)
 
@@ -236,6 +222,14 @@ Short guides to read before you go, **available offline** once the site has been
 
     [:octicons-arrow-right-24: Read](reseaux-sociaux.md)
 
+- **Avoid disinformation** [:material-magnify-scan:](desinformation.md)
+
+    ***
+
+    Check an image, a rumour or a toll before sharing.
+
+    [:octicons-arrow-right-24: Read](desinformation.md)
+
 - **Talk to your loved ones** [:material-forum:](convaincre-ses-proches.md)
 
     ***
@@ -243,6 +237,14 @@ Short guides to read before you go, **available offline** once the site has been
     Discuss the movement without falling out: listen, tell, suggest.
 
     [:octicons-arrow-right-24: Read](convaincre-ses-proches.md)
+
+- **Stay informed, get trained** [:material-school-outline:](s-informer-se-former.md)
+
+    ***
+
+    Non-violent action training, observatories, reliable sources, social media.
+
+    [:octicons-arrow-right-24: Read](s-informer-se-former.md)
 
 </div>
 

@@ -8,6 +8,14 @@ tags:
 
 # Filmer les forces de l'ordre
 
+!!! abstract "L'essentiel"
+
+    - **Filmer la police est légal** : faites-le, c'est souvent la seule preuve.
+    - Activez la **sauvegarde automatique** chiffrée, y compris en données mobiles.
+    - Filmez **en continu**, avec le contexte, cadré sur les agents, **pas sur les manifestant·es**.
+    - Gardez l'**original intact** et faites-en sortir une copie au plus vite.
+    - Avant de publier : **floutez** tout ce qui identifie une personne et supprimez les métadonnées.
+
 **Filmez les interventions policières, toujours.** C'est légal : les policiers et gendarmes en intervention n'ont pas de droit à l'image particulier, et la liberté d'informer prime.[^amnesty-filmer][^ldh-filmer] Ces images sont souvent la seule preuve en cas de violence ou de procès-verbal inexact ; la Défenseure des droits les juge « très utiles ».[^ddd-videos]
 
 Mais une vidéo peut aussi exposer les manifestant·es. Filmez la police, protégez les gens.
