@@ -19,7 +19,7 @@
         {%- for r in n.results %}
           {%- if r.resource %}
           {%- for res in resources if res.id == r.resource %}
-          <li><a href="{{ res.url }}" target="_blank" rel="noopener">{{ res.name }}</a>{% if res.phone %} — {{ res.phone }}{% endif %}</li>
+          <li><a href="{{ res.url }}" data-resource-card="{{ res.id }}" target="_blank" rel="noopener">{{ res.name }}</a>{% if res.phone %} — {{ res.phone }}{% endif %}</li>
           {%- endfor %}
           {%- else %}
           <li><a href="{{ href(r, lang) }}">{{ r.label[lang] }}</a></li>

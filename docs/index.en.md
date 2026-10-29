@@ -1,5 +1,5 @@
 ---
-source_commit: a2d097b8af2a27abcc196d31b91029c68960eec0
+source_commit: 3a5eb5e135428f3e8eb2842d12c6a4d930690e4f
 tags:
     - home
 ---
@@ -9,6 +9,10 @@ tags:
 A collaborative collection of **tools and resources for protesting in France**: secure communication, digital security, legal help (especially for high-school students), first aid, news and organising.
 
 [:material-compass: I am… and I want to…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS: emergency numbers and legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Printable pocket card](carte/index.md){ .md-button }
+
+!!! info "How this content is checked"
+
+    Data and texts were first **researched and sourced with the help of an AI**, and are being reviewed by humans step by step. Every entry says **who** checked it and **when**: AI (awaiting human check), volunteer, lawyer, health professional or historian. Open the source before relying on any information, and [help us check](contribuer/index.md#check-an-entry).
 
 <div class="grid cards" markdown="1">
 
@@ -36,13 +40,13 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     [:octicons-arrow-right-24: Read the tips](conseils/index.md)
 
-- **Historical milestones** [:material-timeline-clock:](histoire/index.md)
+- **Understand: history, media, public finances and elected officials** [:material-book-open-page-variant:](comprendre/index.md)
 
     ***
 
-    From the storming of the Bastille to today's movements, and what the street won: paid holidays, the vote, bills withdrawn.
+    What the street won, who owns the media, where public money goes (corporate subsidies, tax fraud) and how to track elected officials' votes and convictions.
 
-    [:octicons-arrow-right-24: See the timeline](histoire/index.md)
+    [:octicons-arrow-right-24: Understand the issues](comprendre/index.md)
 
 - **Documented repression and disinformation** [:material-file-document-alert:](repressions/index.md)
 

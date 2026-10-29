@@ -29,3 +29,6 @@ Thumbs.db
 tmp/
 # MkDocs plugin cache (privacy plugin downloads)
 .cache/
+
+# Local follow-up list (not published)
+todo.md

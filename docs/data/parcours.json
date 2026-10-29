@@ -1106,8 +1106,73 @@
         "fr": "parent d'un·e mineur·e",
         "en": "the parent of a minor"
       },
-      "keywords": ["parent", "enfant", "fils", "fille", "ado", "mineur", "child"],
+      "keywords": [
+        "parent",
+        "parents",
+        "enfant",
+        "fils",
+        "fille",
+        "ado",
+        "mineur",
+        "lyceen",
+        "lyceenne",
+        "lyceens",
+        "child"
+      ],
       "needs": [
+        {
+          "id": "soutenir",
+          "label": {
+            "fr": "soutenir les lycéen·nes",
+            "en": "support high-school students"
+          },
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "ce-qui-est-permis-ce-qui-ne-lest-pas",
+                "en": "what-is-allowed-what-is-not"
+              },
+              "label": {
+                "fr": "Ce qui est permis et les risques (blocus, absences)",
+                "en": "What is allowed and the risks (blockades, absences)"
+              }
+            },
+            {
+              "guide": "avant-de-partir",
+              "label": {
+                "fr": "Checklist à préparer avec eux avant la manif",
+                "en": "Pre-protest checklist to prepare with them"
+              }
+            },
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Filmer et documenter en cas d'intervention policière",
+                "en": "Film and document if the police intervene"
+              }
+            },
+            {
+              "resource": "amnesty-formation-manifestation"
+            },
+            {
+              "resource": "ldh-observatoires"
+            },
+            {
+              "directory": {
+                "situation": "parent"
+              },
+              "label": {
+                "fr": "Toutes les ressources pour les mineur·es et lycéen·nes",
+                "en": "All resources for minors and high-school students"
+              }
+            }
+          ]
+        },
         {
           "id": "garde-a-vue",
           "label": {
@@ -2911,6 +2976,574 @@
             },
             {
               "resource": "conseil-etat-snmo-2021"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nul-en-politique",
+      "label": {
+        "fr": "nul·le en politique, mais je veux agir",
+        "en": "new to politics, but I want to act"
+      },
+      "keywords": [
+        "nul",
+        "nulle",
+        "politique",
+        "debutant",
+        "debutante",
+        "comprends",
+        "perdu",
+        "perdue",
+        "agir",
+        "voter",
+        "elu",
+        "depute",
+        "politics",
+        "clueless",
+        "lost",
+        "act"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre ce qui se joue et ce que font les élu·es",
+            "en": "understand what is at stake and what elected officials do"
+          },
+          "results": [
+            {
+              "page": "histoire",
+              "label": {
+                "fr": "Repères historiques : ce que la rue a obtenu",
+                "en": "Historical milestones: what the street won"
+              }
+            },
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "la-methode-en-4-etapes-sift",
+                "en": "the-4-step-method-sift"
+              },
+              "label": {
+                "fr": "Vérifier une information en 4 étapes",
+                "en": "Check a claim in 4 steps"
+              }
+            },
+            {
+              "resource": "poligraph"
+            },
+            {
+              "resource": "datan"
+            },
+            {
+              "resource": "howtheyvote"
+            },
+            {
+              "resource": "anticor"
+            }
+          ]
+        },
+        {
+          "id": "economie",
+          "label": {
+            "fr": "comprendre la dette, les aides aux entreprises (CICE) et la fraude fiscale",
+            "en": "understand public debt, corporate subsidies (CICE) and tax fraud"
+          },
+          "results": [
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "ou-trouver-des-ordres-de-grandeur-verifies",
+                "en": "where-to-find-verified-orders-of-magnitude"
+              },
+              "label": {
+                "fr": "Ordres de grandeur vérifiés (médias, budget, aides, fraude)",
+                "en": "Verified orders of magnitude (media, budget, subsidies, fraud)"
+              }
+            },
+            {
+              "resource": "fipeco"
+            },
+            {
+              "resource": "ires-capitalisme-perfusion"
+            },
+            {
+              "resource": "observatoire-multinationales"
+            },
+            {
+              "resource": "eu-tax-observatory"
+            },
+            {
+              "resource": "stop-paradis-fiscaux"
+            },
+            {
+              "resource": "observatoire-inegalites"
+            }
+          ]
+        },
+        {
+          "id": "agir",
+          "label": {
+            "fr": "agir concrètement (sans devoir tout connaître)",
+            "en": "take concrete action (without needing to know everything)"
+          },
+          "results": [
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "se-former",
+                "en": "get-trained"
+              },
+              "label": {
+                "fr": "Se former et rejoindre un collectif local",
+                "en": "Get trained and join a local group"
+              }
+            },
+            {
+              "guide": "avant-de-partir",
+              "label": {
+                "fr": "Aller à ma première manif (checklist)",
+                "en": "Go to my first protest (checklist)"
+              }
+            },
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "En parler autour de moi sans braquer",
+                "en": "Talk to people around me constructively"
+              }
+            },
+            {
+              "directory": {
+                "tags": "caisse-de-solidarite"
+              },
+              "label": {
+                "fr": "Soutenir une caisse de solidarité",
+                "en": "Support a solidarity fund"
+              }
+            }
+          ]
+        },
+        {
+          "id": "suivre",
+          "label": {
+            "fr": "suivre des sources fiables",
+            "en": "follow reliable sources"
+          },
+          "results": [
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "sinformer",
+                "en": "stay-informed"
+              },
+              "label": {
+                "fr": "Où s'informer et trouver les prochaines mobilisations",
+                "en": "Where to get news and find upcoming protests"
+              }
+            },
+            {
+              "directory": {
+                "situation": "verifier"
+              },
+              "label": {
+                "fr": "Médias indépendants et services de vérification",
+                "en": "Independent outlets and fact-checking services"
+              }
+            },
+            {
+              "resource": "acrimed"
+            },
+            {
+              "resource": "medias-qui-possede-quoi"
+            },
+            {
+              "resource": "observatoire-multinationales"
+            },
+            {
+              "resource": "eu-tax-observatory"
+            },
+            {
+              "resource": "observatoire-inegalites"
+            },
+            {
+              "resource": "fipeco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debat",
+      "label": {
+        "fr": "en plein débat (ou je cherche des chiffres vérifiés)",
+        "en": "in a debate (or looking for verified figures)"
+      },
+      "keywords": [
+        "debat",
+        "discussion",
+        "proche",
+        "famille",
+        "chiffre",
+        "chiffres",
+        "dette",
+        "budget",
+        "impot",
+        "impots",
+        "aides",
+        "cice",
+        "cir",
+        "fraude",
+        "evasion",
+        "paradis",
+        "milliardaire",
+        "milliardaires",
+        "medias",
+        "cac40",
+        "inegalites",
+        "debt",
+        "tax",
+        "subsidies",
+        "fraud",
+        "billionaires"
+      ],
+      "needs": [
+        {
+          "id": "dette-budget",
+          "label": {
+            "fr": "comprendre le budget public, la dette et les impôts",
+            "en": "understand the public budget, debt and taxes"
+          },
+          "results": [
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "ou-trouver-des-ordres-de-grandeur-verifies",
+                "en": "where-to-find-verified-orders-of-magnitude"
+              },
+              "label": {
+                "fr": "Ordres de grandeur vérifiés (médias, budget, aides, fraude)",
+                "en": "Verified orders of magnitude (media, budget, subsidies, fraud)"
+              }
+            },
+            {
+              "resource": "fipeco"
+            },
+            {
+              "resource": "observatoire-inegalites"
+            },
+            {
+              "resource": "wid-world"
+            }
+          ]
+        },
+        {
+          "id": "aides-entreprises",
+          "label": {
+            "fr": "vérifier les aides publiques aux grandes entreprises (CICE, CIR, dividendes)",
+            "en": "check public subsidies to large corporations (CICE, R&D tax credit, dividends)"
+          },
+          "results": [
+            {
+              "resource": "ires-capitalisme-perfusion"
+            },
+            {
+              "resource": "observatoire-multinationales"
+            },
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "ou-trouver-des-ordres-de-grandeur-verifies",
+                "en": "where-to-find-verified-orders-of-magnitude"
+              },
+              "label": {
+                "fr": "Ordres de grandeur vérifiés (médias, budget, aides, fraude)",
+                "en": "Verified orders of magnitude (media, budget, subsidies, fraud)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "fraude-fiscale",
+          "label": {
+            "fr": "comparer la fraude fiscale, l'évasion fiscale et la fraude sociale",
+            "en": "compare tax fraud, tax evasion and social-benefit fraud"
+          },
+          "results": [
+            {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "ou-trouver-des-ordres-de-grandeur-verifies",
+                "en": "where-to-find-verified-orders-of-magnitude"
+              },
+              "label": {
+                "fr": "Ordres de grandeur vérifiés (médias, budget, aides, fraude)",
+                "en": "Verified orders of magnitude (media, budget, subsidies, fraud)"
+              }
+            },
+            {
+              "resource": "eu-tax-observatory"
+            },
+            {
+              "resource": "stop-paradis-fiscaux"
+            },
+            {
+              "resource": "observatoire-inegalites"
+            },
+            {
+              "resource": "wid-world"
+            }
+          ]
+        },
+        {
+          "id": "medias-milliardaires",
+          "label": {
+            "fr": "savoir qui possède les médias (liens avec les milliardaires)",
+            "en": "see who owns the media (ties with billionaires)"
+          },
+          "results": [
+            {
+              "resource": "medias-qui-possede-quoi"
+            },
+            {
+              "resource": "acrimed"
+            },
+            {
+              "resource": "arret-sur-images"
+            },
+            {
+              "resource": "observatoire-multinationales"
+            },
+            {
+              "guide": "desinformation",
+              "anchor": {
+                "fr": "recul-critique-biais-mediatiques-versions-officielles-et-recours",
+                "en": "critical-distance-media-bias-official-accounts-and-recourse"
+              },
+              "label": {
+                "fr": "Recul critique : biais médiatiques, versions officielles et recours",
+                "en": "Critical distance: media bias, official accounts and recourse"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bilan-elus",
+          "label": {
+            "fr": "vérifier les votes et condamnations des élu·es",
+            "en": "check elected officials' voting records and convictions"
+          },
+          "results": [
+            {
+              "page": "comprendre",
+              "anchor": {
+                "fr": "suivre-les-elues-votes-parlementaires-et-condamnations-judiciaires",
+                "en": "monitoring-elected-officials-votes-and-court-convictions"
+              },
+              "label": {
+                "fr": "Suivre les élu·es : votes parlementaires et condamnations judiciaires",
+                "en": "Monitoring elected officials: votes and court convictions"
+              }
+            },
+            {
+              "resource": "datan"
+            },
+            {
+              "resource": "poligraph"
+            },
+            {
+              "resource": "casier-politique"
+            },
+            {
+              "resource": "anticor"
+            },
+            {
+              "resource": "howtheyvote"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deprime",
+      "label": {
+        "fr": "déprimé·e, triste ou à bout",
+        "en": "depressed, sad or overwhelmed"
+      },
+      "keywords": [
+        "deprime",
+        "deprimee",
+        "depression",
+        "triste",
+        "tristesse",
+        "a bout",
+        "epuise",
+        "epuisee",
+        "fatigue",
+        "decourage",
+        "decouragee",
+        "seul",
+        "seule",
+        "isole",
+        "isolee",
+        "mal",
+        "mal etre",
+        "choc",
+        "choque",
+        "choquee",
+        "trauma",
+        "traumatise",
+        "traumatisee",
+        "pleurer",
+        "suicide",
+        "3114",
+        "sad",
+        "depressed",
+        "overwhelmed",
+        "exhausted",
+        "hopeless",
+        "lonely"
+      ],
+      "needs": [
+        {
+          "id": "parler",
+          "label": {
+            "fr": "parler à quelqu'un maintenant (gratuit et confidentiel)",
+            "en": "talk to someone right now (free and confidential)"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "resource": "numero-3114"
+            },
+            {
+              "resource": "france-victimes"
+            },
+            {
+              "resource": "fil-sante-jeunes"
+            },
+            {
+              "resource": "nightline"
+            },
+            {
+              "resource": "psycom"
+            }
+          ]
+        },
+        {
+          "id": "contrecoup",
+          "label": {
+            "fr": "gérer le contrecoup après une manif violente ou une garde à vue",
+            "en": "cope with the aftermath of a violent protest or police custody"
+          },
+          "results": [
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "apres-suivi-a-long-terme",
+                "en": "afterwards-long-term-follow-up"
+              },
+              "label": {
+                "fr": "Contrecoup psychologique et suivi après la manif",
+                "en": "Psychological aftermath and post-protest follow-up"
+              }
+            },
+            {
+              "resource": "cn2r"
+            },
+            {
+              "resource": "medic-soins-post-manif"
+            },
+            {
+              "resource": "france-victimes"
+            },
+            {
+              "directory": {
+                "tags": "soutien-psychologique"
+              },
+              "label": {
+                "fr": "Toutes les ressources de soutien psychologique",
+                "en": "All psychological support resources"
+              }
+            }
+          ]
+        },
+        {
+          "id": "isolement",
+          "label": {
+            "fr": "sortir de l'isolement et retrouver un collectif bienveillant",
+            "en": "break out of isolation and find a supportive group"
+          },
+          "results": [
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "se-former",
+                "en": "get-trained"
+              },
+              "label": {
+                "fr": "Rejoindre un collectif ou un groupe local",
+                "en": "Join a collective or local group"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "apres",
+                "en": "after"
+              },
+              "label": {
+                "fr": "Ne pas rester seul·e après une mobilisation",
+                "en": "Don't stay alone after a protest"
+              }
+            },
+            {
+              "resource": "alternatiba"
+            },
+            {
+              "resource": "ldh-observatoires"
+            }
+          ]
+        },
+        {
+          "id": "espoir",
+          "label": {
+            "fr": "reprendre souffle sans culpabiliser (et voir ce que les luttes ont déjà gagné)",
+            "en": "catch my breath without guilt (and see what past struggles have won)"
+          },
+          "results": [
+            {
+              "page": "histoire",
+              "label": {
+                "fr": "Repères historiques : ce que les luttes sociales ont obtenu",
+                "en": "Historical milestones: what social struggles have won"
+              }
+            },
+            {
+              "guide": "s-informer-se-former",
+              "anchor": {
+                "fr": "sinformer",
+                "en": "stay-informed"
+              },
+              "label": {
+                "fr": "Choisir ses sources sans s'épuiser en continu",
+                "en": "Choose your news sources without burning out"
+              }
+            },
+            {
+              "directory": {
+                "tags": "caisse-de-solidarite"
+              },
+              "label": {
+                "fr": "Aider à son rythme (soutenir une caisse de solidarité)",
+                "en": "Help at your own pace (support a solidarity fund)"
+              }
             }
           ]
         }

@@ -1,7 +1,9 @@
-// Validates docs/data/history.json (required fields, known kinds, ISO dates, chronological order).
+// Validates docs/data/history.json (required fields, known kinds, ISO dates, chronological order,
+// and a `check` {date, result, by} like the other registries).
 import { readFileSync } from 'node:fs';
 
 const FILE = 'docs/data/history.json';
+const TODAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' }).format(new Date());
 const errors = [];
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const kinds = Object.keys(data.kinds ?? {});
@@ -10,7 +12,7 @@ const sources = JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sourc
 let previous = '';
 (data.events ?? []).forEach((e, i) => {
   const at = `events[${i}] (${e.title ?? '?'})`;
-  for (const field of ['date', 'title', 'kind', 'url', 'description']) {
+  for (const field of ['date', 'title', 'kind', 'url', 'description', 'check']) {
     if (e[field] === undefined) errors.push(`${at}: missing "${field}"`);
   }
   if (e.date && (!/^\d{4}-\d{2}-\d{2}$/.test(e.date) || Number.isNaN(Date.parse(e.date)))) {
@@ -25,6 +27,19 @@ let previous = '';
     if (!sources[id])
       errors.push(`${at}: unknown evidence source "${id}" (add it to docs/data/sources.json)`);
   });
+  if (e.check) {
+    const { date, result, by, note } = e.check;
+    if (
+      !/^\d{4}-\d{2}-\d{2}$/.test(date ?? '') ||
+      Number.isNaN(Date.parse(`${date}T00:00:00Z`)) ||
+      date > TODAY
+    )
+      errors.push(`${at}: check.date must be a past YYYY-MM-DD date`);
+    if (!['confirmed', 'unconfirmed'].includes(result)) errors.push(`${at}: invalid check.result`);
+    if (result === 'unconfirmed' && !note) errors.push(`${at}: unconfirmed check needs a note`);
+    if (!['ai', 'volunteer', 'lawyer', 'medical', 'historian'].includes(by))
+      errors.push(`${at}: invalid check.by`);
+  }
   if (e.debunked && (!e.debunked.claim?.fr || !e.debunked.fact?.fr)) {
     errors.push(`${at}: debunked needs claim.fr and fact.fr`);
   }

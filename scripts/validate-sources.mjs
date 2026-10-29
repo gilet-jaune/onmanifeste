@@ -23,6 +23,8 @@ for (const [id, s] of Object.entries(sources)) {
   }
   if (!['confirmed', 'unconfirmed'].includes(s.check?.result))
     errors.push(`${at}: invalid check.result`);
+  if (!['ai', 'volunteer', 'lawyer', 'medical', 'historian'].includes(s.check?.by))
+    errors.push(`${at}: invalid check.by`);
 }
 
 const walk = (dir) =>
@@ -42,7 +44,7 @@ for (const file of walk('docs')) {
 }
 const victims = JSON.parse(readFileSync('docs/data/victimes.json', 'utf8')).victimes;
 for (const v of [...victims.victims, ...victims.censuses])
-  (v.evidence ?? []).forEach((id) => used.add(id));
+  [...(v.evidence ?? []), ...(v.justice?.evidence ?? [])].forEach((id) => used.add(id));
 for (const e of JSON.parse(readFileSync('docs/data/history.json', 'utf8')).events) {
   (e.evidence ?? []).forEach((id) => used.add(id));
 }

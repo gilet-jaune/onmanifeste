@@ -35,7 +35,7 @@ const lines = stale.length
           `| \`${r.id}\` — ${r.name} | ${r.check.date} (${r.check.result === 'unconfirmed' ? 'non confirmée' : 'confirmée'}) | ${r.url} |`,
       ),
       '',
-      'Pour chacune : ouvrir le lien, vérifier les informations (numéro, description), puis mettre à jour `check` (`date`, `result`) dans `docs/data/resources.json` ou `docs/data/sources.json`.',
+      'Pour chacune : ouvrir le lien, vérifier les informations (numéro, description), puis mettre à jour `check` (`date`, `result`, `by` : `volunteer`, `lawyer`, `medical` ou `historian`) dans `docs/data/resources.json` ou `docs/data/sources.json`.',
     ]
   : [`Aucune ressource à revérifier.`];
 

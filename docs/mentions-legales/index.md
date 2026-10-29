@@ -24,6 +24,6 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-U
 
 ## Contenus et responsabilité
 
-Les informations sont générales et ne remplacent pas un·e avocat·e ou un·e soignant·e. Chaque information est sourcée et datée ; les contenus pas encore relus par un·e professionnel·le ou non vérifiés portent un badge. Voir la [politique de contenu]({{ repositories.docs.url }}/blob/main/MODERATION.md).
+Les informations sont générales et ne remplacent pas un·e avocat·e ou un·e soignant·e. Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une intelligence artificielle**, puis sont relus progressivement par des humains. Chaque information est sourcée et datée, et l'indicateur de vérification (`check`) précise qui l'a vérifiée : IA, bénévole, avocat·e, soignant·e ou historien·ne. Les contenus pas encore relus par un·e professionnel·le ou non confirmés portent un badge. Voir la [politique de contenu]({{ repositories.docs.url }}/blob/main/MODERATION.md).
 
 ## Sources

@@ -1,5 +1,5 @@
 ---
-source_commit: d7a2ab8921c62d55de29dfc0a54ea4009bb30bd7
+source_commit: 568431b7851ec4e30f466f803459fe1f78c4dd96
 tags:
     - guides
 ---
@@ -125,6 +125,14 @@ Short guides to read before you go, **available offline** once the site has been
     Residence risks, rights in custody, useful contacts.
 
     [:octicons-arrow-right-24: Read](etrangers.md)
+
+- **The Palestinian flag at protests** [:material-flag:](drapeau-palestinien.md)
+
+    ***
+
+    What is legal, banned demonstrations, risky slogans.
+
+    [:octicons-arrow-right-24: Read](drapeau-palestinien.md)
 
 - **High-school students: blockades, absences, sanctions** [:material-school:](lyceens.md)
 

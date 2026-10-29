@@ -1,5 +1,5 @@
 ---
-source_commit: af74b7e80c0f7170baf327678f759c6ebc7cab77
+source_commit: 72ee233661cdb92cc7af4f2a75df1d0bbde3ef23
 tags:
     - guides
     - dialogue
@@ -33,6 +33,15 @@ You rarely change someone's mind in one conversation, and almost never by being 
 
 - Suggest **a small step**: read an article, watch a video, come to a calm rally, sign a petition.
 - Come back to it later, without pressure. Changing one's mind takes time.
+
+## Where to find verified orders of magnitude
+
+When a conversation turns to "who owns the media", "where public money goes" or "benefit fraud", rely on independent observatories and public reports (click any name to open its **contact card**):
+
+- **Ties between billionaires and media outlets**: the chart {{ res("medias-qui-possede-quoi", "“French media: who owns what?”") }} (_Le Monde diplomatique_ & {{ res("acrimed", "Acrimed") }}) maps which industrial conglomerates (luxury goods, construction, defence, telecoms, shipping) own major newspapers, TV channels and radio stations.
+- **Public budget and tax breakdown**: {{ res("fipeco", "FIPECO") }} (former Court of Audit magistrates and INSEE statisticians) explains in plain-language sheets where public revenue comes from (the weight of VAT compared with income and corporate tax) and where spending goes.
+- **Unconditional corporate subsidies (e.g. CICE, R&D tax credit, social-contribution cuts)**: the reference academic study by {{ res("ires-capitalisme-perfusion", "IRES (“Capitalism on life support”)") }} catalogues all public subsidies to businesses (~€157bn in 2019, the largest budget item) and the lack of social or environmental conditions[^ires-capitalisme-perfusion], while the {{ res("observatoire-multinationales", "Observatoire des multinationales") }} tracks dividends and layoffs at major recipient corporations.
+- **Tax fraud, tax havens and comparison with benefit fraud**: the {{ res("eu-tax-observatory", "EU Tax Observatory") }} and the {{ res("stop-paradis-fiscaux", "Plateforme Paradis Fiscaux et Judiciaires") }} document tax evasion by multinationals and ultra-high-net-worth individuals. On official orders of magnitude, _Vie publique_'s overview notes that tax fraud (and undeclared work by employers) far exceeds social-benefit fraud, which itself is smaller than **non-take-up** of benefits (eligible people not claiming RSA or activity bonuses).[^vie-publique-fraudes] On wealth distribution: {{ res("observatoire-inegalites", "Observatoire des inégalités") }} and {{ res("wid-world", "WID.world") }}.
 
 [:octicons-arrow-right-24: Historical milestones: rights won in the street](../histoire/index.md)
 

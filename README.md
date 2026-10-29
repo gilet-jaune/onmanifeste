@@ -7,6 +7,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 <!-- prettier-ignore -->
 > [!WARNING]
 > Ces ressources sont informatives et ne remplacent pas le conseil d'un·e avocat·e. En urgence, appelez le 112 ou une legal team.
+>
+> Les ressources ont d'abord été recherchées et sourcées avec l'aide d'une IA, puis sont relues peu à peu par des humains : chaque entrée indique qui l'a vérifiée (IA, bénévole, avocat·e, soignant·e, historien·ne) dans `docs/data/`.
 
 <!-- resources:start -->
 <!-- Generated from docs/data/resources.json by `npm run readme`. Do not edit by hand. -->
@@ -100,7 +102,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [CIDJ — Droit de manifester des lycéens](https://www.cidj.com/s-engager/droit-de-manifester-ce-que-peuvent-faire-les-lyceens) - Ce que les lycéen·nes peuvent faire : manifester, mais pas de droit de grève ; absences non justifiées ; blocage interdit.
 - [LICRA](https://www.licra.org/) - Ligue contre le racisme et l'antisémitisme : service juridique pour accompagner les victimes d'actes racistes ou antisémites.
 - [SOS Racisme](https://sos-racisme.org/) - Association de lutte contre le racisme : accompagnement des victimes de discriminations et de violences racistes.
-- [SOS homophobie](https://www.sos-homophobie.org/) - Écoute et soutien des victimes de LGBTphobies, y compris d'agressions.
+- [SOS homophobie](https://www.sos-homophobie.org/) - Association d'écoute et de soutien des victimes de LGBTphobies, y compris d'agressions.
 - [Service-Public — Audition libre](https://www.service-public.gouv.fr/particuliers/vosdroits/F32124) - Fiche officielle : vos droits si vous êtes convoqué·e par la police pour une « audition libre » (partir à tout moment, avocat·e, silence).
 - [Défenseur des droits — Lanceurs d'alerte](https://www.defenseurdesdroits.fr/orienter-et-proteger-les-lanceurs-dalerte-180) - Oriente et protège les lanceurs et lanceuses d'alerte, y compris contre les représailles liées au signalement.
 
@@ -116,17 +118,23 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Gaz lacrymogènes et santé des femmes (Allodocteurs)](https://www.allodocteurs.fr/effets-des-gaz-lacrymo-sur-la-sante-des-femmes-ce-que-lon-sait-47380.html) - Ce que l'on sait des troubles du cycle menstruel signalés après une exposition, et les questions encore ouvertes.
 - [Gaz lacrymogènes : des effets invalidants à long terme ? (Handicap.fr)](https://informations.handicap.fr/a-gaz-lacrymogenes-des-effets-invalidants-a-long-terme-39907.php) - Article sur les séquelles durables possibles et la situation des personnes déjà fragiles (asthme, maladies chroniques).
 - [Cn2r — psychotraumatisme](https://cn2r.fr/) - Centre national de ressources et de résilience : comprendre le psychotraumatisme et trouver un centre régional de prise en charge (adultes et mineur·es).
-- [3919 — Violences Femmes Info](https://arretonslesviolences.gouv.fr/) - Écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches. Tél. : 3919.
+- [3919 — Violences Femmes Info](https://arretonslesviolences.gouv.fr/) - Ligne d'écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches. Tél. : 3919.
 - [3018 — e-Enfance](https://e-enfance.org/) - Numéro national gratuit et confidentiel contre le cyberharcèlement (téléphone, chat, messagerie), aide au retrait de contenus. Tél. : 3018.
 - [Lacrymos de sang](https://lacrymosdesang.my.canva.site/) - Enquête participative sur les effets du gaz lacrymogène sur le cycle menstruel : questionnaire en ligne pour témoigner et sélection de sources (études, rapports, articles). Démarche militante, pas une étude scientifique.
-- [More than tears — étude sur le gaz lacrymogène et la santé reproductive (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10956352/) - Étude publiée (Frontiers in Epidemiology, 2023) sur 1 276 manifestant·es : une exposition de 5 jours ou plus est associée à 2,6 fois plus de troubles (crampes utérines, règles précoces, sensibilité des seins). En anglais.
+- [More than tears — étude sur le gaz lacrymogène et la santé reproductive (2023)](https://pmc.ncbi.nlm.nih.gov/articles/PMC10956352/) - Recherche publiée (Frontiers in Epidemiology, 2023) sur 1 276 manifestant·es : une exposition de 5 jours ou plus est associée à 2,6 fois plus de troubles (crampes utérines, règles précoces, sensibilité des seins). En anglais.
 - [Amnesty — Gaz lacrymogènes : quels dangers, que dit la loi ?](https://www.amnesty.fr/actualites/gaz-lacrymogenes-quels-dangers-que-dit-la-loi/) - Ce que l'on sait des dangers du gaz lacrymogène et du cadre légal de son usage.
+- [3114 — Numéro national de prévention du suicide](https://3114.fr/) - Numéro national de prévention du suicide et de la détresse psychologique : écoute confidentielle et gratuite par des professionnel·les du soin, 24 h/24 et 7 j/7. Tél. : 3114.
+- [Fil Santé Jeunes (0 800 235 236)](https://www.filsantejeunes.com/) - Ligne d'écoute et tchat anonymes et gratuits pour les 12–25 ans (mal-être, dépression, angoisse, santé), tous les jours de 9 h à 23 h au 0 800 235 236. Tél. : 0800 235 236.
+- [Nightline France](https://www.nightline.fr/) - Service d'écoute nocturne gratuit et confidentiel par et pour les étudiant·es (téléphone et tchat), et annuaire « Soutien Étudiant » de prises en charge gratuites.
+- [Psycom — Santé mentale Info](https://www.psycom.org/) - Organisme public d'information sur la santé mentale : annuaire complet des lignes d'écoute, guides pratiques et repères pour trouver de l'aide près de chez soi.
 
 ## Information & agenda
 
 - [Demosphere](https://paris.demosphere.eu/) - Agenda alternatif des manifestations et rassemblements (déclinaisons locales).
 - [Manifs et handicap (Reporterre)](https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant) - Enquête sur les obstacles rencontrés par les personnes handicapées pour manifester et les pratiques de cortèges plus accessibles.
 - [La Horde](https://lahorde.samizdat.net/) - Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.
+- [Désarmons-les](https://desarmons.net/) - Collectif qui recense les blessures graves et mutilations causées par les armes du maintien de l'ordre (LBD, grenades) et accompagne les personnes blessées.
+- [Mutilés pour l'exemple](https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479) - Collectif de personnes mutilées par des armes de maintien de l'ordre (LBD, grenades) pendant le mouvement des gilets jaunes, qui tient un décompte des mutilations et accompagne les blessé·es.
 
 ## Médias & vérification
 
@@ -135,6 +143,11 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [CheckNews (Libération)](https://www.liberation.fr/checknews/) - Service de Libération qui répond aux questions des lecteurs et vérifie les informations virales.
 - [Vrai ou Fake (franceinfo)](https://www.franceinfo.fr/vrai-ou-fake/) - Rubrique de vérification de franceinfo (audiovisuel public).
 - [Arrêt sur images](https://www.arretsurimages.net/) - Média indépendant d'analyse et de critique du traitement médiatique de l'actualité (en partie payant).
+- [Acrimed (Action Critique Médias)](https://www.acrimed.org/) - Observatoire indépendant des médias depuis 1996 : analyse les biais éditoriaux, les cadrages partisans et le traitement médiatique des mouvements sociaux et du maintien de l'ordre, en accès libre.
+- [Médias français : qui possède quoi ? (Le Monde diplomatique & Acrimed)](https://www.monde-diplomatique.fr/cartes/PPA) - Carte mise à jour chaque année par Le Monde diplomatique et Acrimed montrant quels groupes industriels, financiers et milliardaires contrôlent la presse, la télévision et la radio en France (données ouvertes sur GitHub).
+- [INDEX — Investigation visuelle](https://index.ngo/) - ONG d'investigation indépendante qui reconstitue en 3D et par synchronisation vidéo les cas de violences d'État (Sainte-Soline, Nahel Merzouk, Zineb Redouane…) pour confronter les versions officielles aux faits matériels.
+- [CDJM — Conseil de déontologie journalistique et de médiation](https://cdjm.org/) - Instance indépendante de médiation que tout·e citoyen·ne peut saisir gratuitement lorsqu'un média manque à la déontologie journalistique (inexactitude, absence de vérification, confusion entre fait et commentaire) ; publie ses avis.
+- [Arcom — Régulateur de l'audiovisuel et du numérique](https://www.arcom.fr/) - Autorité publique indépendante chargée du respect du pluralisme, de l'honnêteté et de la rigueur de l'information à la télévision et à la radio ; peut être saisie par tout téléspectateur ou auditeur et publie ses mises en demeure et sanctions.
 - [Mediapart](https://www.mediapart.fr/) - Journal d'investigation indépendant, sans publicité, financé par ses abonné·es.
 - [Disclose](https://disclose.ngo/fr) - Média d'investigation à but non lucratif, articles en accès libre.
 - [StreetPress](https://www.streetpress.com/) - Média indépendant, nombreux reportages sur les violences policières et l'extrême droite, en accès libre.
@@ -142,6 +155,20 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Basta!](https://basta.media/) - Média indépendant sur les questions sociales, environnementales et les libertés, en accès libre.
 - [Paris-luttes.info](https://paris-luttes.info/) - Site participatif militant d'Île-de-France : appels, comptes rendus et infos antirépression. Contenus non vérifiés par une rédaction professionnelle.
 - [Reporters sans frontières](https://rsf.org/fr) - ONG de défense de la liberté de la presse ; documente les atteintes aux journalistes, y compris en manifestation.
+- [Anticor](https://www.anticor.org/) - Association anticorruption agréée par l'État pour agir en justice dans les affaires d'atteinte à la probité ; publie le suivi de ses dossiers judiciaires.
+- [Casier Politique](https://casier-politique.fr/) - Base de données des condamnations de personnalités politiques françaises, extraite automatiquement de Wikipédia et Wikidata par un modèle d'IA : vérifiez chaque fiche à sa source avant de la citer.
+- [Datan](https://datan.fr/) - Suivi indépendant de l'activité et des votes des député·es à l'Assemblée nationale (taux de participation aux scrutins, votes détaillés, proximité entre groupes) à partir des données ouvertes du Parlement.
+- [HowTheyVote.eu](https://howtheyvote.eu/) - Suivi indépendant des votes par appel nominal et du taux de participation aux scrutins des député·es européen·nes, à partir des données ouvertes du Parlement européen. En anglais.
+- [Poligraph](https://poligraph.fr/) - Observatoire citoyen open source des responsables politiques français (député·es, sénateur·ices, eurodéputé·es, ministres, maires) : votes et taux de participation, déclarations de patrimoine (HATVP), affaires judiciaires (extraites de Wikidata et de la presse par IA : vérifiez la source de chaque fiche) et vérifications.
+- [Observatoire des multinationales](https://multinationales.org/fr/) - Site d'enquête et d'information indépendant sur les grandes entreprises françaises (CAC 40), leurs milliardaires actionnaires, les dividendes versés et les aides publiques perçues sans contrepartie (CICE, crédit d'impôt recherche, chômage partiel, aides sectorielles) parallèlement aux plans sociaux.
+- [IRES — Un capitalisme sous perfusion (aides aux entreprises)](https://ires.fr/publications/cgt/un-capitalisme-sous-perfusion-mesure-theories-et-effets-macroeconomiques-des-aides-publiques-aux-entreprises-francaises/) - Rapport universitaire de référence (économistes et sociologues du CLERSÉ-CNRS pour l'IRES, 2022) recensant l'ensemble des aides publiques aux entreprises françaises (subventions, crédits d'impôt CICE et CIR, niches fiscales et exonérations de cotisations, soit ~157 Md€ en 2019, premier poste budgétaire) et analysant l'absence de contreparties.
+- [EU Tax Observatory (Observatoire européen de la fiscalité)](https://taxobservatory.eu/) - Laboratoire de recherche indépendant dirigé par l'économiste Gabriel Zucman à l'École d'économie de Paris (PSE) : rapports annuels et données de référence sur l'évasion fiscale internationale des milliardaires et des multinationales dans les paradis fiscaux.
+- [Plateforme Paradis Fiscaux et Judiciaires](https://www.stopparadisfiscaux.fr/) - Coalition française d'une vingtaine d'organisations (dont le syndicat des agent·es des impôts Solidaires Finances Publiques, Oxfam, Attac, Anticor, CCFD-Terre Solidaire) qui documente la fraude fiscale, l'optimisation agressive des multinationales et l'évolution des moyens du contrôle fiscal.
+- [Observatoire des inégalités](https://www.inegalites.fr/) - Organisme indépendant qui rassemble et vérifie les données officielles (INSEE, DREES, ministère des Finances) sur les revenus, les patrimoines, la pauvreté, la fiscalité et les services publics en France.
+- [World Inequality Database (WID.world)](https://wid.world/fr/country/france-2/) - Base de données mondiale et ouverte du World Inequality Lab (École d'économie de Paris : Thomas Piketty, Lucas Chancel, Gabriel Zucman, Emmanuel Saez) sur l'évolution de la concentration des patrimoines et des revenus en France et dans le monde.
+- [FIPECO — Finances publiques et économie](https://www.fipeco.fr/) - Association indépendante animée par d'anciens magistrats de la Cour des comptes et cadres de l'INSEE : fiches pédagogiques et chiffres vérifiés sur la répartition du budget de l'État, de la Sécurité sociale, des impôts (TVA, IR, IS, CSG) et des dépenses publiques.
+- [Basta! — Portail des violences policières](https://basta.media/webdocs/police/) - Base de données de Basta! recensant les personnes mortes à la suite d'une intervention des forces de l'ordre en France depuis 1977 (plus de 860 cas documentés avec leurs suites judiciaires, téléchargeables en CSV).
+- [Allô Place Beauvau (Mediapart)](https://www.mediapart.fr/studio/panoramique/allo-place-beauvau-cest-pour-un-bilan) - Recensement vérifié, image par image, par le journaliste David Dufresne de 990 signalements de violences policières pendant le mouvement des gilets jaunes (2018-2020), lancé sur les réseaux sociaux en interpelant le ministère de l'Intérieur (@Place_Beauvau).
 
 ## Organisation
 

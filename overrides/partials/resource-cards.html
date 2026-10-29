@@ -1,12 +1,12 @@
 {#- Static rendering of docs/data/resources.json (loaded via macros include_yaml). - Gives the site
 search one section per resource (h3 with id), so the header search finds tools. - Works without
 JavaScript; docs/javascripts/directory.js then takes over with filters. Keep the markup in sync with
-cardFor() in directory.js. -#} {%- macro cards(lang) -%}
+cardFor() in directory.js. -#} {%- from 'overrides/partials/check.html' import checked_by -%} {%- macro cards(lang) -%}
 <div class="directory__list">
   {%- for r in resources %}
   <article class="directory__card" id="{{ r.id }}">
     <h3 id="ressource-{{ r.id }}">
-      <a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.name }}</a>
+      <a href="{{ r.url }}" data-resource-card="{{ r.id }}" target="_blank" rel="noopener">{{ r.name }}</a>
     </h3>
     <span class="directory__badge"
       >{{ categories[r.category][lang] or categories[r.category].fr }}</span
@@ -23,6 +23,10 @@ cardFor() in directory.js. -#} {%- macro cards(lang) -%}
     <p class="directory__stores">
       {{ 'Installer :' if lang == 'fr' else 'Install:' }} {% for key, label in [('android', 'Google Play'), ('fdroid', 'F-Droid'), ('ios', 'App Store')] if r.stores[key] %}{% if not loop.first %} · {% endif %}<a href="{{ r.stores[key] }}" target="_blank" rel="noopener">{{ label }}</a>{% endfor %}
     </p>
+    {%- endif %} {%- if r.socials %}
+    <p class="directory__socials">
+      {{ 'Réseaux :' if lang == 'fr' else 'Social:' }} {% for key, label in [('bluesky', 'Bluesky'), ('mastodon', 'Mastodon'), ('x', 'X'), ('instagram', 'Instagram'), ('facebook', 'Facebook'), ('tiktok', 'TikTok'), ('youtube', 'YouTube'), ('peertube', 'PeerTube'), ('github', 'GitHub')] if r.socials[key] %}{% if not loop.first %} · {% endif %}<a href="{{ r.socials[key] }}" target="_blank" rel="noopener">{{ label }}</a>{% endfor %}
+    </p>
     {%- endif %} {%- if r.sources %}
     <p class="directory__sources">
       {{ 'Sources :' if lang == 'fr' else 'Sources:' }} {% for src in r.sources %}{% if not
@@ -31,10 +35,7 @@ cardFor() in directory.js. -#} {%- macro cards(lang) -%}
       >{% endfor %}
     </p>
     {%- endif %}
-    <p class="directory__checked">
-      {{ ('Vérifié le' if lang == 'fr' else 'Checked on') if r.check.result == 'confirmed' else ('Vérification du' if lang == 'fr' else 'Check on') }}
-      <time datetime="{{ r.check.date }}">{{ r.check.date }}</time>
-    </p>
+    <p class="directory__checked">{{ checked_by(r.check, lang) }}</p>
     <p class="directory__card-tags">
       {% for tag in r.tags %}<span class="directory__tag">#{{ tag }}</span> {% endfor %}
     </p>

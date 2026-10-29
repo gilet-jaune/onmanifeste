@@ -164,10 +164,30 @@
               "ios": { "type": "string", "pattern": "^https://apps\\.apple\\.com/" }
             }
           },
+          "socials": {
+            "type": "object",
+            "description": "Official social media or repository accounts of the resource.",
+            "additionalProperties": false,
+            "minProperties": 1,
+            "properties": {
+              "bluesky": { "type": "string", "pattern": "^https://bsky\\.app/profile/" },
+              "mastodon": { "type": "string", "pattern": "^https://" },
+              "x": { "type": "string", "pattern": "^https://(x|twitter)\\.com/" },
+              "instagram": { "type": "string", "pattern": "^https://(www\\.)?instagram\\.com/" },
+              "facebook": { "type": "string", "pattern": "^https://(www\\.)?facebook\\.com/" },
+              "tiktok": { "type": "string", "pattern": "^https://(www\\.)?tiktok\\.com/@" },
+              "youtube": { "type": "string", "pattern": "^https://(www\\.)?youtube\\.com/" },
+              "peertube": { "type": "string", "pattern": "^https://" },
+              "github": {
+                "type": "string",
+                "pattern": "^https://(github\\.com|codeberg\\.org|framagit\\.org|gitlab\\.com)/"
+              }
+            }
+          },
           "check": {
             "type": "object",
             "description": "Last human check of the link and the information.",
-            "required": ["date", "result"],
+            "required": ["date", "result", "by"],
             "additionalProperties": false,
             "properties": {
               "date": {
@@ -175,6 +195,10 @@
                 "format": "date",
                 "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
                 "description": "When the check was done (YYYY-MM-DD)."
+              },
+              "by": {
+                "enum": ["ai", "volunteer", "lawyer", "medical", "historian"],
+                "description": "Who did the check: ai (sourced by an AI, no human review yet), volunteer, lawyer, medical (health professional) or historian."
               },
               "result": {
                 "enum": ["confirmed", "unconfirmed"],

@@ -31,6 +31,11 @@
       "description": {
         "fr": "Le peuple de Paris prend la forteresse-prison de la Bastille, symbole de l'arbitraire royal. Acte fondateur de la Révolution française, devenu fête nationale.",
         "en": "Parisians storm the Bastille prison, symbol of royal arbitrary rule. Founding act of the French Revolution, now the national holiday."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -41,6 +46,11 @@
       "description": {
         "fr": "Ses articles 10 et 11 garantissent la liberté d'opinion et d'expression ; elle fait toujours partie de la Constitution.",
         "en": "Its articles 10 and 11 guarantee freedom of opinion and expression; it is still part of the Constitution."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -51,6 +61,11 @@
       "description": {
         "fr": "Trois jours d'insurrection parisienne renversent Charles X après ses ordonnances contre la liberté de la presse.",
         "en": "Three days of uprising in Paris topple Charles X after his decrees against press freedom."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -65,6 +80,11 @@
       "gains": {
         "fr": "Suffrage universel masculin et abolition de l'esclavage dans les colonies (1848).",
         "en": "Universal male suffrage and abolition of slavery in the colonies (1848)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -75,6 +95,11 @@
       "description": {
         "fr": "Paris se gouverne pendant 72 jours ; la « Semaine sanglante » réprime la Commune dans le sang en mai 1871.",
         "en": "Paris governs itself for 72 days; the “Bloody Week” crushes the Commune in May 1871."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -85,6 +110,11 @@
       "description": {
         "fr": "Les réunions publiques deviennent libres, sans autorisation préalable.",
         "en": "Public meetings become free, with no prior authorization."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -95,6 +125,11 @@
       "description": {
         "fr": "Légalise les syndicats professionnels.",
         "en": "Legalizes trade unions."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -105,6 +140,11 @@
       "description": {
         "fr": "La troupe tire sur une manifestation ouvrière du 1er Mai pour la journée de huit heures : neuf morts, dont des jeunes.",
         "en": "Troops fire on a May Day workers' march for the eight-hour day: nine dead, including young people."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -115,6 +155,11 @@
       "description": {
         "fr": "Liberté de créer une association sans autorisation : le cadre juridique de la plupart des collectifs actuels.",
         "en": "Freedom to found an association without authorization: the legal basis of most of today's collectives."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -125,6 +170,11 @@
       "description": {
         "fr": "Manifestation des ligues d'extrême droite devant l'Assemblée ; en réaction, la gauche s'unit contre le fascisme.",
         "en": "Far-right leagues riot outside Parliament; in response, the left unites against fascism."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -135,6 +185,11 @@
       "description": {
         "fr": "Instaure la déclaration préalable des manifestations en préfecture, toujours en vigueur (Code de la sécurité intérieure).",
         "en": "Introduces prior notification of demonstrations to the prefecture, still in force today."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -149,6 +204,11 @@
       "gains": {
         "fr": "Congés payés, semaine de 40 heures, conventions collectives et délégués du personnel.",
         "en": "Paid holidays, 40-hour week, collective agreements and staff representatives."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -159,6 +219,11 @@
       "description": {
         "fr": "Reconnaît le droit de grève et la liberté syndicale, toujours de valeur constitutionnelle.",
         "en": "Recognizes the right to strike and union freedom, still constitutional today."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -180,6 +245,11 @@
           "fr": "En 2012, le président de la République reconnaît une « sanglante répression » de manifestant·es algérien·nes.",
           "en": "In 2012, the President recognises a “bloody repression” of Algerian protesters."
         }
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -190,6 +260,11 @@
       "description": {
         "fr": "Neuf manifestant·es contre l'OAS et la guerre d'Algérie meurent lors de la répression policière.",
         "en": "Nine people protesting the OAS and the Algerian War die in a police crackdown."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -205,6 +280,11 @@
         "fr": "Accords de Grenelle : forte hausse du salaire minimum (SMIG) ; loi de décembre 1968 reconnaissant la section syndicale d'entreprise.",
         "en": "Grenelle agreements: sharp rise of the minimum wage (SMIG); December 1968 law recognising union branches in companies.",
         "source": "https://fr.wikipedia.org/wiki/Accords_de_Grenelle"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -220,6 +300,11 @@
         "fr": "Mobilisations (manifeste des 343, marches) qui aboutissent à la loi Veil légalisant l'IVG en 1975.",
         "en": "Mobilisations (Manifesto of the 343, marches) leading to the 1975 Veil law legalising abortion.",
         "source": "https://fr.wikipedia.org/wiki/Loi_Veil"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -234,6 +319,11 @@
       "gains": {
         "fr": "Abandon du projet d'extension en 1981.",
         "en": "Expansion project abandoned in 1981."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -248,6 +338,11 @@
       "gains": {
         "fr": "Abandon du projet de centrale en 1981.",
         "en": "Plant project abandoned in 1981."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -262,6 +357,11 @@
       "gains": {
         "fr": "Dépénalisation complète de l'homosexualité en 1982.",
         "en": "Full decriminalisation of homosexuality in 1982."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -277,6 +377,11 @@
         "fr": "Création en 1984 de la carte de résident valable dix ans.",
         "en": "Creation in 1984 of the ten-year resident card.",
         "source": "https://www.jean-jaures.org/publication/des-minguettes-a-lelysee-1983-la-marche-pour-legalite-et-contre-le-racisme/"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -293,7 +398,12 @@
         "en": "Withdrawal of the Devaquet university bill.",
         "source": "https://fr.wikipedia.org/wiki/Loi_Devaquet"
       },
-      "evidence": ["wiki-malik-oussekine"]
+      "evidence": ["wiki-malik-oussekine"],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
     },
     {
       "date": "1995-11-24",
@@ -307,6 +417,11 @@
       "gains": {
         "fr": "Abandon de la réforme des régimes spéciaux de retraite.",
         "en": "Special pension schemes reform dropped."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -317,6 +432,11 @@
       "description": {
         "fr": "Après la mort de Zyed Benna et Bouna Traoré à Clichy-sous-Bois, révoltes dans les quartiers populaires ; état d'urgence.",
         "en": "After the deaths of Zyed Benna and Bouna Traoré in Clichy-sous-Bois, uprisings in working-class suburbs; state of emergency."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -331,6 +451,11 @@
       "gains": {
         "fr": "Retrait du contrat première embauche (avril 2006).",
         "en": "Withdrawal of the “first job contract” (April 2006)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -342,7 +467,12 @@
         "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie au barrage de Sivens. La grenade OF-F1 est interdite en 2017 ; la Cour européenne des droits de l'homme condamne la France pour violation du droit à la vie.",
         "en": "21-year-old environmental activist killed by a gendarmerie grenade at the Sivens dam. The OF-F1 grenade is banned in 2017; the European Court of Human Rights finds France violated his right to life."
       },
-      "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"]
+      "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
     },
     {
       "date": "2016-03-31",
@@ -352,6 +482,11 @@
       "description": {
         "fr": "Occupations de places nuit après nuit, nées du mouvement contre la loi Travail.",
         "en": "Night-after-night square occupations born from the protests against the labour law."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -366,6 +501,11 @@
       "gains": {
         "fr": "Abandon du projet d'aéroport.",
         "en": "Airport project abandoned."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -382,7 +522,38 @@
         "en": "Planned 2019 fuel tax rise cancelled and social measures worth about €10 billion (including a higher in-work benefit).",
         "source": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation"
       },
-      "evidence": ["publicsenat-lbd", "ddd-suspension-lbd"]
+      "evidence": ["publicsenat-lbd", "ddd-suspension-lbd"],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2019-01-16",
+      "title": "Castaner : « aucun policier n'a attaqué de manifestants »",
+      "kind": "desinformation",
+      "url": "https://questions.assemblee-nationale.fr/q15/15-1544QG.htm",
+      "description": {
+        "fr": "Pendant le mouvement des gilets jaunes, le ministre de l'Intérieur nie toute violence policière devant l'Assemblée nationale.",
+        "en": "During the yellow vests movement, the Interior Minister denies any police violence before the National Assembly."
+      },
+      "evidence": ["an-qag-castaner-2019", "europe1-castaner-lbd-2019"],
+      "debunked": {
+        "claim": {
+          "fr": "« Je ne connais aucun policier, aucun gendarme […] qui ait attaqué volontairement des manifestants. »",
+          "en": "'I do not know any police officer, any gendarme […] who deliberately attacked demonstrators.'"
+        },
+        "fact": {
+          "fr": "Une semaine plus tard, il reconnaît lui-même devant les député·es 81 enquêtes judiciaires sur des tirs de LBD et 4 pertes de vision ; le collectif Désarmons-les et David Dufresne recensent alors 17 personnes éborgnées.",
+          "en": "A week later, he himself tells MPs of 81 judicial investigations into rubber-bullet (LBD) shots and 4 lost eyes; the Désarmons-les collective and David Dufresne count 17 people blinded in one eye by then."
+        }
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
     },
     {
       "date": "2019-03-23",
@@ -403,6 +574,11 @@
           "fr": "Le procureur reconnaît ensuite qu'elle a été poussée par un policier.",
           "en": "The prosecutor later acknowledges she was pushed by a police officer."
         }
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -424,6 +600,11 @@
           "fr": "Des vidéos contredisent cette version ; le ministre reconnaît qu'il n'aurait pas dû employer le mot « attaque ».",
           "en": "Videos contradict this account; the minister acknowledges he should not have used the word “attack”."
         }
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -434,6 +615,11 @@
       "description": {
         "fr": "À Nantes, lors de la Fête de la musique, une intervention policière précède la chute dans la Loire de Steve Maia Caniço, 24 ans ; son corps est retrouvé en juillet.",
         "en": "In Nantes, during the music festival, a police operation precedes the fall into the Loire of Steve Maia Caniço, 24; his body is found in July."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -448,6 +634,11 @@
       "gains": {
         "fr": "Censure par le Conseil constitutionnel de l'article pénalisant la diffusion d'images de policiers (2021).",
         "en": "Article penalising sharing images of police struck down by the Constitutional Council (2021)."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -458,6 +649,11 @@
       "description": {
         "fr": "Quatorze journées nationales de grève et de manifestation ; la réforme est adoptée par l'article 49.3.",
         "en": "Fourteen national days of strikes and marches; the reform is passed using article 49.3."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -469,7 +665,38 @@
         "fr": "Manifestation contre les « méga-bassines » agricoles dans les Deux-Sèvres, marquée par des affrontements et de nombreux blessés graves. Des images de caméras-piétons de gendarmes, révélées par Mediapart et Libération, montrent des tirs tendus de grenades interdits et des insultes ; une enquête administrative est ouverte.",
         "en": "Protest against agricultural “mega-basins” in Deux-Sèvres, marked by clashes and many seriously injured people. Gendarmes' body-camera footage revealed by Mediapart and Libération shows banned direct grenade shots and insults; an administrative inquiry is opened."
       },
-      "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"]
+      "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2023-03-27",
+      "title": "Sainte-Soline : « pas de LBD tiré depuis les quads »",
+      "kind": "desinformation",
+      "url": "https://www.politis.fr/articles/2023/03/repression-a-sainte-soline-les-trois-mensonges-de-letat/",
+      "description": {
+        "fr": "Après la manifestation contre les méga-bassines, le ministre de l'Intérieur dément l'usage de LBD par les gendarmes à quad.",
+        "en": "After the march against mega-reservoirs, the Interior Minister denies that gendarmes on quad bikes fired rubber bullets (LBD)."
+      },
+      "evidence": ["politis-sainte-soline-mensonges", "sainte-soline-videos"],
+      "debunked": {
+        "claim": {
+          "fr": "« Non, les gendarmes n'ont pas lancé de LBD en quad. » (Gérald Darmanin)",
+          "en": "'No, gendarmes did not fire LBD from quads.' (Gérald Darmanin)"
+        },
+        "fact": {
+          "fr": "Le directeur général de la gendarmerie fait état de deux tirs de LBD par le peloton motorisé, et le ministre se rétracte dans l'heure. En 2025, des vidéos de caméras-piétons montrent aussi des tirs tendus de grenades, interdits.",
+          "en": "The head of the gendarmerie reports two LBD shots by the motorised platoon, and the minister retracts within the hour. In 2025, bodycam videos also show direct grenade fire, which is banned."
+        }
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
     },
     {
       "date": "2023-06-27",
@@ -490,6 +717,11 @@
           "fr": "Une vidéo amateur contredit cette version ; un procès pour meurtre est requis contre le policier auteur du tir.",
           "en": "An amateur video contradicts this account; a murder trial is sought against the officer who fired."
         }
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -500,6 +732,11 @@
       "description": {
         "fr": "Après la dissolution de l'Assemblée, des centaines de milliers de personnes manifestent dans toute la France contre l'extrême droite.",
         "en": "After the dissolution of Parliament, hundreds of thousands march across France against the far right."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -510,6 +747,11 @@
       "description": {
         "fr": "Blocus de lycées pour plus d'enseignant·es et de moyens ; des milliers de gardes à vue, très majoritairement de mineur·es.",
         "en": "School blockades for more teachers and resources; thousands taken into custody, mostly minors."
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     }
   ]

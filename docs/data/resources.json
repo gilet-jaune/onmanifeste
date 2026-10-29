@@ -210,10 +210,19 @@
         "en": "Check a piece of news"
       },
       "categories": ["medias"]
+    },
+    {
+      "id": "comprendre-enjeux",
+      "label": {
+        "fr": "Comprendre qui possède les médias, le budget public et suivre les élu·es",
+        "en": "Understand media ownership, public finances and track elected officials"
+      },
+      "tags": ["veille"]
     }
   ],
   "synonyms": {
     "absence": ["lyceens"],
+    "absenteisme": ["veille"],
     "accessibilite": ["handicap"],
     "acouphene": ["long-terme", "premiers-secours"],
     "ado": ["mineurs", "lyceens"],
@@ -236,13 +245,16 @@
     "blessure": ["premiers-secours"],
     "blocus": ["lyceens"],
     "bluetooth": ["hors-ligne"],
+    "budget": ["veille", "enquete"],
     "camera": ["filmer", "surveillance"],
     "casque": ["premiers-secours"],
     "cauchemars": ["soutien-psychologique"],
     "chiffre": ["chiffrement"],
+    "cice": ["veille", "enquete"],
     "cloud": ["sauvegarde-auto"],
     "convocation": ["proces"],
     "convoque": ["convocation"],
+    "corruption": ["veille", "enquete"],
     "covoiturage": ["transports"],
     "crypte": ["chiffrement"],
     "cs": ["gaz-lacrymogene"],
@@ -251,6 +263,9 @@
     "debutante": ["essentiel"],
     "debuter": ["essentiel"],
     "declarer": ["organiser"],
+    "depute": ["veille"],
+    "deprime": ["soutien-psychologique"],
+    "depression": ["soutien-psychologique"],
     "desobeissance": ["desobeissance-civile"],
     "document": ["documents", "partage-securise"],
     "doxing": ["cyberharcelement", "donnees-personnelles"],
@@ -258,6 +273,7 @@
     "droit": ["droits", "juridique"],
     "drone": ["surveillance"],
     "eleve": ["lyceens", "mineurs"],
+    "elu": ["veille"],
     "employeur": ["travail"],
     "enceinte": ["cycles-menstruels"],
     "encerclement": ["dispersion"],
@@ -265,6 +281,7 @@
     "engager": ["groupes-locaux", "formation"],
     "essentiel": ["essentiel"],
     "etranger": ["etrangers"],
+    "evasion": ["veille", "enquete"],
     "exclusion": ["lyceens"],
     "exif": ["metadonnees"],
     "facho": ["extreme-droite"],
@@ -279,6 +296,7 @@
     "fonctionnaire": ["greve"],
     "formation": ["formation"],
     "former": ["formation"],
+    "fraude": ["veille", "enquete"],
     "garde a vue": ["garde-a-vue"],
     "gav": ["garde-a-vue"],
     "gaz": ["gaz-lacrymogene"],
@@ -292,6 +310,7 @@
     "homophobe": ["lgbtphobie"],
     "identitaire": ["extreme-droite"],
     "igpn": ["plainte", "violences-policieres"],
+    "impot": ["veille", "enquete"],
     "internet": ["hors-ligne"],
     "intox": ["desinformation", "fact-checking"],
     "journal": ["presse-nationale", "independant"],
@@ -307,11 +326,14 @@
     "lyceenne": ["lyceens"],
     "maille": ["hors-ligne", "radio"],
     "manif": ["manifestations"],
+    "manipulation": ["desinformation", "fact-checking", "veille"],
     "medic": ["street-medics", "premiers-secours"],
+    "mensonge": ["desinformation", "fact-checking", "veille"],
     "menstruel": ["cycles-menstruels"],
     "mesh": ["hors-ligne", "radio"],
     "meshtastic": ["radio"],
     "messages": ["messagerie"],
+    "milliardaire": ["veille", "enquete"],
     "metro": ["transports"],
     "militer": ["groupes-locaux", "formation"],
     "mineur": ["mineurs"],
@@ -327,6 +349,7 @@
     "organiser": ["organiser"],
     "pad": ["partage-securise"],
     "parents": ["mineurs"],
+    "parlement": ["veille"],
     "partager": ["partage-securise"],
     "payer": ["frais-avocat", "caisse-de-solidarite"],
     "photo": ["photos", "filmer", "metadonnees"],
@@ -337,6 +360,7 @@
     "premiere": ["essentiel"],
     "presse": ["presse-nationale", "journalistes"],
     "preuve": ["preuve"],
+    "probite": ["veille", "enquete"],
     "proces": ["proces"],
     "protection": ["premiers-secours"],
     "psy": ["soutien-psychologique"],
@@ -366,6 +390,7 @@
     "sommations": ["dispersion"],
     "sos": ["urgence"],
     "stress": ["soutien-psychologique"],
+    "suicide": ["soutien-psychologique"],
     "tableur": ["documents"],
     "talkie": ["radio", "hors-ligne"],
     "telegram": ["messagerie", "chiffrement"],
@@ -377,11 +402,15 @@
     "trauma": ["soutien-psychologique"],
     "travail": ["travail"],
     "tribunal": ["proces"],
+    "triste": ["soutien-psychologique"],
+    "tristesse": ["soutien-psychologique"],
     "ultradroite": ["extreme-droite"],
     "velo": ["transports"],
     "video": ["filmer", "preuve"],
     "videosurveillance": ["surveillance"],
     "violence": ["violences-policieres"],
+    "vote": ["veille"],
+    "votes": ["veille"],
     "whatsapp": ["messagerie", "chiffrement"],
     "xr": ["desobeissance-civile"]
   },
@@ -408,7 +437,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -427,7 +457,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -453,7 +484,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -478,7 +510,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -498,7 +531,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -516,7 +550,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -535,7 +570,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -555,7 +591,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -568,9 +605,15 @@
         "fr": "Gestionnaire de mots de passe local et chiffré.",
         "en": "Local, encrypted password manager."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/keepassxc.org",
+        "mastodon": "https://fosstodon.org/@keepassxc",
+        "github": "https://github.com/keepassxreboot/keepassxc"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -583,9 +626,16 @@
         "fr": "Guides de l'EFF (disponibles en français) pour protéger son téléphone et ses communications, dont un guide dédié aux manifestations.",
         "en": "EFF guides (available in French) to protect your phone and communications, including a guide for attending protests."
       },
+      "sources": [
+        {
+          "title": "EFF — Guide : Assister à une manifestation",
+          "url": "https://ssd.eff.org/fr/module/assister-une-manifestation"
+        }
+      ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -598,9 +648,14 @@
         "fr": "Campagne de La Quadrature du Net qui documente la surveillance policière (caméras, drones, reconnaissance faciale) en France.",
         "en": "La Quadrature du Net campaign documenting police surveillance (cameras, drones, facial recognition) in France."
       },
+      "socials": {
+        "mastodon": "https://mamot.fr/@LaQuadrature",
+        "peertube": "https://video.lqdn.fr/"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -613,9 +668,14 @@
         "fr": "Association de défense des libertés numériques en France.",
         "en": "French digital rights association."
       },
+      "socials": {
+        "mastodon": "https://mamot.fr/@LaQuadrature",
+        "peertube": "https://video.lqdn.fr/"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -630,7 +690,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -645,7 +706,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -660,7 +722,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -679,7 +742,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -692,9 +756,15 @@
         "fr": "Application de l'International Bar Association : capture vérifiable et envoi vers un stockage sécurisé, séparé de la galerie du téléphone. Conçue pour documenter les crimes internationaux.",
         "en": "International Bar Association app: verifiable capture and upload to secure storage, kept apart from the phone gallery. Designed to document international crimes."
       },
+      "socials": {
+        "x": "https://twitter.com/eyewitnessorg",
+        "facebook": "https://www.facebook.com/eyewitnesstoatrocities/",
+        "youtube": "https://www.youtube.com/channel/UC-cww3Wwuoz9GQ1dmBstxPg"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -709,7 +779,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -724,7 +795,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -739,7 +811,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -754,7 +827,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -774,7 +848,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -793,7 +868,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -812,9 +888,13 @@
           "url": "https://export.side.fr/en/9782369352396-le-guide-du-manifestant-arr%C3%AAt%C3%A9"
         }
       ],
+      "socials": {
+        "mastodon": "https://piaille.fr/@smagistrature"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -827,9 +907,14 @@
         "fr": "Autorité indépendante à saisir gratuitement en cas de manquement à la déontologie des forces de l'ordre ou d'atteinte aux droits de l'enfant.",
         "en": "Independent authority, free to contact about police misconduct or violations of children's rights."
       },
+      "socials": {
+        "instagram": "https://www.instagram.com/defenseurdesdroits/",
+        "facebook": "https://www.facebook.com/Defenseurdesdroits"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -842,9 +927,18 @@
         "fr": "Association de défense des libertés ; ses observatoires locaux documentent les pratiques policières en manifestation.",
         "en": "Civil liberties association; its local observatories document police practices at protests."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/ldh.fr",
+        "mastodon": "https://piaille.fr/@LDH_Fr",
+        "x": "https://twitter.com/LDH_Fr",
+        "instagram": "https://www.instagram.com/ldh_fr/",
+        "facebook": "https://www.facebook.com/ldhfrance",
+        "youtube": "https://www.youtube.com/channel/UCadcdiL3BTH8HpTf0u4UsWA"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -865,7 +959,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -880,7 +975,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -903,7 +999,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -924,7 +1021,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -939,7 +1037,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -954,7 +1053,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -969,7 +1069,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -984,7 +1085,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1005,7 +1107,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1020,7 +1123,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1033,9 +1137,18 @@
         "fr": "Guide d'Amnesty sur le droit de manifester en France (déclaration, interdiction, équipements de protection), avec une version pour les mineur·es.",
         "en": "Amnesty guide to the right to protest in France (notification, bans, protective gear), including a version for minors."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/amnestyfrance.bsky.social",
+        "mastodon": "https://mastodon.social/@amnestyfrance",
+        "instagram": "https://www.instagram.com/amnestyfrance/",
+        "facebook": "https://www.facebook.com/amnestyfr",
+        "tiktok": "https://www.tiktok.com/@amnestyfrance",
+        "youtube": "https://www.youtube.com/user/AmnestyFrance"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1050,7 +1163,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1065,7 +1179,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1080,7 +1195,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1095,7 +1211,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1108,9 +1225,20 @@
         "fr": "Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès.",
         "en": "Marseille anti-repression legal team: emergency line after arrests, lawyer referrals, trial follow-up."
       },
+      "sources": [
+        {
+          "title": "Mars-infos — Site participatif local d'information et d'appels antirépression (Marseille)",
+          "url": "https://mars-infos.org/"
+        },
+        {
+          "title": "RAJCOL — Réseau d'autodéfense juridique collective",
+          "url": "https://rajcollective.nublogs.org/les-collectifs-locaux/"
+        }
+      ],
       "check": {
         "date": "2026-10-28",
         "result": "unconfirmed",
+        "by": "ai",
         "note": "Site migré sur nublogs.org et joignable, mais son contenu est derrière une protection anti-robots : à vérifier par une personne."
       }
     },
@@ -1134,7 +1262,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1156,7 +1285,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1171,7 +1301,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1184,9 +1315,20 @@
         "fr": "Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page.",
         "en": "Rennes legal team: information on your rights during a stop or in custody, lawyer referrals. Check the current number on the page."
       },
+      "sources": [
+        {
+          "title": "Expansive.info — Site participatif local d'information et d'appels antirépression (Rennes)",
+          "url": "https://expansive.info/"
+        },
+        {
+          "title": "RAJCOL — Réseau d'autodéfense juridique collective",
+          "url": "https://rajcollective.nublogs.org/les-collectifs-locaux/"
+        }
+      ],
       "check": {
         "date": "2026-10-28",
         "result": "unconfirmed",
+        "by": "ai",
         "note": "Site migré sur nublogs.org et joignable, mais son contenu est derrière une protection anti-robots : à vérifier par une personne."
       }
     },
@@ -1202,7 +1344,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1217,7 +1360,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1232,7 +1376,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1247,7 +1392,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1262,7 +1408,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1277,7 +1424,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1290,9 +1438,16 @@
         "fr": "Association d'aide aux personnes étrangères : permanences juridiques, accompagnement face à une OQTF ou une rétention.",
         "en": "Association supporting foreign nationals: legal help desks, support against removal orders and detention."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/lacimade.org",
+        "x": "https://twitter.com/lacimade",
+        "instagram": "https://www.instagram.com/la_cimade/",
+        "facebook": "https://www.facebook.com/lacimade/"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1305,9 +1460,16 @@
         "fr": "Groupe d'information et de soutien des immigré·es : notes juridiques et analyses sur le droit des étrangers.",
         "en": "Information and support group for migrants: legal notes and analysis on immigration law."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/legisti.bsky.social",
+        "mastodon": "https://piaille.fr/@gisti",
+        "instagram": "https://www.instagram.com/gisti_asso",
+        "facebook": "https://www.facebook.com/pages/Gisti/179469575398244"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1322,7 +1484,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1335,9 +1498,15 @@
         "fr": "Ligue contre le racisme et l'antisémitisme : service juridique pour accompagner les victimes d'actes racistes ou antisémites.",
         "en": "League against racism and antisemitism: legal service supporting victims of racist or antisemitic acts."
       },
+      "socials": {
+        "x": "https://twitter.com/_LICRA_",
+        "instagram": "https://www.instagram.com/licra_org/",
+        "facebook": "https://www.facebook.com/licra.org/"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1350,9 +1519,16 @@
         "fr": "Association de lutte contre le racisme : accompagnement des victimes de discriminations et de violences racistes.",
         "en": "Anti-racism association: support for victims of discrimination and racist violence."
       },
+      "socials": {
+        "x": "https://x.com/SOS_Racisme",
+        "instagram": "https://www.instagram.com/sos_racisme/",
+        "facebook": "https://www.facebook.com/TouchePasAMonPoteOfficiel/",
+        "tiktok": "https://www.tiktok.com/@sosracisme_off"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1362,12 +1538,18 @@
       "category": "juridique",
       "tags": ["lgbtphobie", "extreme-droite", "soutien-psychologique", "association"],
       "description": {
-        "fr": "Écoute et soutien des victimes de LGBTphobies, y compris d'agressions.",
+        "fr": "Association d'écoute et de soutien des victimes de LGBTphobies, y compris d'agressions.",
         "en": "Listening and support for victims of anti-LGBT violence, including assaults."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/sos-homophobie.org",
+        "instagram": "https://www.instagram.com/soshomophobie/",
+        "facebook": "https://www.facebook.com/soshomophobie/"
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1382,7 +1564,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1397,7 +1580,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1412,7 +1596,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1427,7 +1612,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1443,7 +1629,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1458,7 +1645,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1473,7 +1661,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1488,7 +1677,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1503,7 +1693,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1518,7 +1709,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1533,7 +1725,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1546,9 +1739,16 @@
         "fr": "Centre national de ressources et de résilience : comprendre le psychotraumatisme et trouver un centre régional de prise en charge (adultes et mineur·es).",
         "en": "National resource centre on psychological trauma: understand it and find a regional care centre (adults and minors)."
       },
+      "socials": {
+        "x": "https://x.com/CN2R_France",
+        "instagram": "https://www.instagram.com/cn2r_france/",
+        "facebook": "https://www.facebook.com/cn2rfrance",
+        "youtube": "https://www.youtube.com/channel/UCRbFFYpMKa7sOYaUMGksyLw"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1559,12 +1759,13 @@
       "category": "sante",
       "tags": ["violences-sexistes", "soutien-psychologique", "gratuit", "officiel"],
       "description": {
-        "fr": "Écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches.",
+        "fr": "Ligne d'écoute anonyme et gratuite 24 h/24 pour les victimes de violences sexistes et sexuelles, y compris en manifestation, et leurs proches.",
         "en": "Free anonymous 24/7 line for victims of sexist and sexual violence, including at protests, and their relatives."
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1580,7 +1781,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1601,7 +1803,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1611,12 +1814,13 @@
       "category": "sante",
       "tags": ["long-terme", "gaz-lacrymogene", "cycles-menstruels", "etude-scientifique"],
       "description": {
-        "fr": "Étude publiée (Frontiers in Epidemiology, 2023) sur 1 276 manifestant·es : une exposition de 5 jours ou plus est associée à 2,6 fois plus de troubles (crampes utérines, règles précoces, sensibilité des seins). En anglais.",
+        "fr": "Recherche publiée (Frontiers in Epidemiology, 2023) sur 1 276 manifestant·es : une exposition de 5 jours ou plus est associée à 2,6 fois plus de troubles (crampes utérines, règles précoces, sensibilité des seins). En anglais.",
         "en": "Peer-reviewed study (Frontiers in Epidemiology, 2023) of 1,276 protesters: exposure on 5+ days is associated with 2.6 times higher odds of adverse outcomes (uterine cramping, early bleeding, breast tenderness)."
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1631,7 +1835,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1646,7 +1851,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1662,6 +1868,7 @@
       "check": {
         "date": "2026-10-28",
         "result": "unconfirmed",
+        "by": "ai",
         "note": "Carte alimentée par les visiteurs, sans modération annoncée ni mentions légales complètes : fiabilité des lieux et horaires à vérifier."
       }
     },
@@ -1677,7 +1884,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1690,9 +1898,14 @@
         "fr": "Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.",
         "en": "Antifascist activist site documenting far-right groups' activity. Committed content, not edited by a professional newsroom."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/lahorde.bsky.social",
+        "instagram": "https://www.instagram.com/lahorde_antifa/"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1707,7 +1920,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1722,7 +1936,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1737,7 +1952,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1752,7 +1968,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1760,14 +1977,181 @@
       "name": "Arrêt sur images",
       "url": "https://www.arretsurimages.net/",
       "category": "medias",
-      "tags": ["independant", "desinformation"],
+      "tags": ["independant", "desinformation", "veille"],
       "description": {
         "fr": "Média indépendant d'analyse et de critique du traitement médiatique de l'actualité (en partie payant).",
         "en": "Independent outlet analyzing and critiquing media coverage (partly paywalled)."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/arretsurimages.net",
+        "x": "https://twitter.com/arretsurimages",
+        "instagram": "https://www.instagram.com/arretsurimages_net/",
+        "facebook": "https://www.facebook.com/arretsurimages.net/",
+        "youtube": "https://www.youtube.com/arretsurimagesmedia"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "acrimed",
+      "name": "Acrimed (Action Critique Médias)",
+      "url": "https://www.acrimed.org/",
+      "category": "medias",
+      "tags": [
+        "association",
+        "independant",
+        "desinformation",
+        "mouvements-sociaux",
+        "gratuit",
+        "veille"
+      ],
+      "description": {
+        "fr": "Observatoire indépendant des médias depuis 1996 : analyse les biais éditoriaux, les cadrages partisans et le traitement médiatique des mouvements sociaux et du maintien de l'ordre, en accès libre.",
+        "en": "Independent media observatory since 1996: analyses editorial bias, partisan framing and media coverage of social movements and policing, free to read."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/acrimed.bsky.social",
+        "mastodon": "https://mamot.fr/@acrimed",
+        "x": "https://twitter.com/acrimed_info",
+        "instagram": "https://www.instagram.com/acrimed/",
+        "facebook": "https://www.facebook.com/acrimed",
+        "youtube": "https://www.youtube.com/@acrimedvideos"
+      },
+      "sources": [
+        {
+          "title": "Acrimed — Dossier « Mouvements sociaux »",
+          "url": "https://www.acrimed.org/-Mouvements-sociaux-"
+        },
+        {
+          "title": "Le Monde diplomatique & Acrimed — Médias français : qui possède quoi ?",
+          "url": "https://www.monde-diplomatique.fr/cartes/PPA"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "medias-qui-possede-quoi",
+      "name": "Médias français : qui possède quoi ? (Le Monde diplomatique & Acrimed)",
+      "url": "https://www.monde-diplomatique.fr/cartes/PPA",
+      "category": "medias",
+      "tags": ["desinformation", "independant", "open-source", "gratuit", "veille"],
+      "description": {
+        "fr": "Carte mise à jour chaque année par Le Monde diplomatique et Acrimed montrant quels groupes industriels, financiers et milliardaires contrôlent la presse, la télévision et la radio en France (données ouvertes sur GitHub).",
+        "en": "Annually updated map by Le Monde diplomatique and Acrimed showing which industrial groups, financial groups and billionaires control the press, TV and radio in France (open data on GitHub)."
+      },
+      "socials": {
+        "github": "https://github.com/mdiplo/Medias_francais"
+      },
+      "sources": [
+        {
+          "title": "GitHub — Données ouvertes et sources de l'infographie (mdiplo/Medias_francais)",
+          "url": "https://github.com/mdiplo/Medias_francais"
+        },
+        {
+          "title": "Acrimed — Action Critique Médias",
+          "url": "https://www.acrimed.org/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "index-investigation",
+      "name": "INDEX — Investigation visuelle",
+      "url": "https://index.ngo/",
+      "category": "medias",
+      "tags": [
+        "enquete",
+        "violences-policieres",
+        "desinformation",
+        "independant",
+        "gratuit",
+        "veille"
+      ],
+      "description": {
+        "fr": "ONG d'investigation indépendante qui reconstitue en 3D et par synchronisation vidéo les cas de violences d'État (Sainte-Soline, Nahel Merzouk, Zineb Redouane…) pour confronter les versions officielles aux faits matériels.",
+        "en": "Independent investigative NGO using 3D modelling and video synchronisation to reconstruct cases of state violence (Sainte-Soline, Nahel Merzouk, Zineb Redouane…) and test official accounts against material evidence."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/index-ngo.bsky.social",
+        "x": "https://x.com/index_ngo",
+        "instagram": "https://www.instagram.com/index.ngo/",
+        "facebook": "https://www.facebook.com/index.ngo",
+        "youtube": "https://www.youtube.com/@INDEX_ngo"
+      },
+      "sources": [
+        {
+          "title": "INDEX — Enquêtes publiées",
+          "url": "https://index.ngo/en/investigations"
+        },
+        {
+          "title": "INDEX — À propos et méthodologie",
+          "url": "https://index.ngo/en/about"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "cdjm",
+      "name": "CDJM — Conseil de déontologie journalistique et de médiation",
+      "url": "https://cdjm.org/",
+      "category": "medias",
+      "tags": ["desinformation", "journalistes", "association", "veille"],
+      "description": {
+        "fr": "Instance indépendante de médiation que tout·e citoyen·ne peut saisir gratuitement lorsqu'un média manque à la déontologie journalistique (inexactitude, absence de vérification, confusion entre fait et commentaire) ; publie ses avis.",
+        "en": "Independent mediation body that anyone can refer a case to for free when an outlet breaches journalism ethics (inaccuracy, lack of verification, blurring fact and opinion); publishes its rulings."
+      },
+      "socials": {
+        "mastodon": "https://piaille.fr/@conseildeonto"
+      },
+      "sources": [
+        {
+          "title": "CDJM — Présentation et modalités de saisine",
+          "url": "https://cdjm.org/presentation/"
+        },
+        {
+          "title": "CDJM — Les chartes de déontologie journalistique",
+          "url": "https://cdjm.org/les-chartes/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "arcom",
+      "name": "Arcom — Régulateur de l'audiovisuel et du numérique",
+      "url": "https://www.arcom.fr/",
+      "category": "medias",
+      "tags": ["desinformation", "officiel", "veille"],
+      "description": {
+        "fr": "Autorité publique indépendante chargée du respect du pluralisme, de l'honnêteté et de la rigueur de l'information à la télévision et à la radio ; peut être saisie par tout téléspectateur ou auditeur et publie ses mises en demeure et sanctions.",
+        "en": "Independent public authority overseeing pluralism, honesty and accuracy of news on TV and radio; anyone can file a report and it publishes its formal notices and sanctions."
+      },
+      "socials": {
+        "x": "https://x.com/Arcom_fr",
+        "facebook": "https://www.facebook.com/ArcomFR"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1780,9 +2164,15 @@
         "fr": "Journal d'investigation indépendant, sans publicité, financé par ses abonné·es.",
         "en": "Independent, ad-free investigative newspaper funded by subscribers."
       },
+      "socials": {
+        "instagram": "https://www.instagram.com/mediapart/",
+        "facebook": "https://www.facebook.com/Mediapart.fr",
+        "youtube": "https://www.youtube.com/user/mediapart"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1795,9 +2185,16 @@
         "fr": "Média d'investigation à but non lucratif, articles en accès libre.",
         "en": "Non-profit investigative newsroom, free to read."
       },
+      "socials": {
+        "x": "https://twitter.com/Disclose_ngo",
+        "instagram": "https://www.instagram.com/disclose.ngo",
+        "facebook": "https://www.facebook.com/disclose.ngo",
+        "youtube": "https://www.youtube.com/c/Disclose_ngo"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1810,9 +2207,16 @@
         "fr": "Média indépendant, nombreux reportages sur les violences policières et l'extrême droite, en accès libre.",
         "en": "Independent outlet with extensive reporting on police violence and the far right, free to read."
       },
+      "socials": {
+        "x": "https://twitter.com/streetpress",
+        "instagram": "https://www.instagram.com/streetpress",
+        "facebook": "https://www.facebook.com/StreetPress/",
+        "youtube": "https://www.youtube.com/user/StreetPressTV"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1825,9 +2229,16 @@
         "fr": "Quotidien de l'écologie, sans publicité ni actionnaire, en accès libre ; couvre les mobilisations.",
         "en": "Ecology daily with no ads or shareholders, free to read; covers mobilizations."
       },
+      "socials": {
+        "mastodon": "https://mastodon.social/@Reporterre",
+        "instagram": "https://www.instagram.com/reporterre_media/",
+        "facebook": "https://www.facebook.com/ReporterreMediaDeLecologie",
+        "youtube": "https://www.youtube.com/channel/UCDn6zvBZNEWUv44xjgELicA"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1840,9 +2251,16 @@
         "fr": "Média indépendant sur les questions sociales, environnementales et les libertés, en accès libre.",
         "en": "Independent outlet on social, environmental and civil liberties issues, free to read."
       },
+      "sources": [
+        {
+          "title": "Basta! — Portail des violences policières",
+          "url": "https://basta.media/webdocs/police/"
+        }
+      ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1855,9 +2273,14 @@
         "fr": "Site participatif militant d'Île-de-France : appels, comptes rendus et infos antirépression. Contenus non vérifiés par une rédaction professionnelle.",
         "en": "Participatory activist site for Paris region: calls, reports and anti-repression info. Not edited by a professional newsroom."
       },
+      "socials": {
+        "mastodon": "https://mamot.fr/@paris_luttes",
+        "x": "https://twitter.com/Paris_luttes"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1870,9 +2293,464 @@
         "fr": "ONG de défense de la liberté de la presse ; documente les atteintes aux journalistes, y compris en manifestation.",
         "en": "Press freedom NGO; documents attacks on journalists, including at protests."
       },
+      "socials": {
+        "x": "https://twitter.com/RSF_inter",
+        "facebook": "https://www.facebook.com/Reporterssansfrontieres/",
+        "youtube": "https://www.youtube.com/user/RSFinternet"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "anticor",
+      "name": "Anticor",
+      "url": "https://www.anticor.org/",
+      "category": "medias",
+      "tags": ["association", "enquete", "droits", "veille"],
+      "description": {
+        "fr": "Association anticorruption agréée par l'État pour agir en justice dans les affaires d'atteinte à la probité ; publie le suivi de ses dossiers judiciaires.",
+        "en": "State-accredited anti-corruption association authorized to bring legal action in breaches of probity cases; publishes updates on its court cases."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/anticor.bsky.social",
+        "mastodon": "https://piaille.fr/@anticor",
+        "instagram": "https://www.instagram.com/anticorofficiel/",
+        "facebook": "https://www.facebook.com/Anticor.officiel",
+        "youtube": "https://www.youtube.com/c/AnticorOfficiel"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "casier-politique",
+      "name": "Casier Politique",
+      "url": "https://casier-politique.fr/",
+      "category": "medias",
+      "tags": ["open-source", "gratuit", "veille"],
+      "description": {
+        "fr": "Base de données des condamnations de personnalités politiques françaises, extraite automatiquement de Wikipédia et Wikidata par un modèle d'IA : vérifiez chaque fiche à sa source avant de la citer.",
+        "en": "Database of convictions of French politicians, automatically extracted from Wikipedia and Wikidata by an AI model: check each record against its source before citing it."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/raph1.eurosky.social"
+      },
+      "sources": [
+        {
+          "title": "Casier Politique — À propos / méthodologie",
+          "url": "https://casier-politique.fr/about"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "datan",
+      "name": "Datan",
+      "url": "https://datan.fr/",
+      "category": "medias",
+      "tags": ["open-source", "gratuit", "veille"],
+      "description": {
+        "fr": "Suivi indépendant de l'activité et des votes des député·es à l'Assemblée nationale (taux de participation aux scrutins, votes détaillés, proximité entre groupes) à partir des données ouvertes du Parlement.",
+        "en": "Independent tracker of French MPs' activity and votes in the National Assembly (roll-call vote participation rate, detailed votes, group alignment) based on parliamentary open data."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/datanfr.bsky.social",
+        "x": "https://x.com/datanFR",
+        "instagram": "https://www.instagram.com/datanfr/",
+        "facebook": "https://www.facebook.com/datanFR",
+        "github": "https://github.com/datanFR/datan"
+      },
+      "sources": [
+        {
+          "title": "Datan — À propos",
+          "url": "https://datan.fr/a-propos"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "howtheyvote",
+      "name": "HowTheyVote.eu",
+      "url": "https://howtheyvote.eu/",
+      "category": "medias",
+      "tags": ["open-source", "gratuit", "veille"],
+      "description": {
+        "fr": "Suivi indépendant des votes par appel nominal et du taux de participation aux scrutins des député·es européen·nes, à partir des données ouvertes du Parlement européen. En anglais.",
+        "en": "Independent tracker of roll-call votes and voting participation rates of Members of the European Parliament, based on European Parliament open data."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/howtheyvote.eu",
+        "github": "https://github.com/HowTheyVote/howtheyvote"
+      },
+      "sources": [
+        {
+          "title": "HowTheyVote.eu — About & Methodology",
+          "url": "https://howtheyvote.eu/about"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "poligraph",
+      "name": "Poligraph",
+      "url": "https://poligraph.fr/",
+      "category": "medias",
+      "tags": ["open-source", "gratuit", "veille"],
+      "description": {
+        "fr": "Observatoire citoyen open source des responsables politiques français (député·es, sénateur·ices, eurodéputé·es, ministres, maires) : votes et taux de participation, déclarations de patrimoine (HATVP), affaires judiciaires (extraites de Wikidata et de la presse par IA : vérifiez la source de chaque fiche) et vérifications.",
+        "en": "Open-source citizen observatory of French politicians (MPs, senators, MEPs, ministers, mayors): votes and participation rates, asset declarations (HATVP), court cases (extracted from Wikidata and the press by AI: check each record's source) and fact-checks."
+      },
+      "socials": {
+        "github": "https://github.com/ironlam/poligraph"
+      },
+      "sources": [
+        {
+          "title": "Poligraph — Dépôt et documentation (GitHub)",
+          "url": "https://github.com/ironlam/poligraph"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "observatoire-multinationales",
+      "name": "Observatoire des multinationales",
+      "url": "https://multinationales.org/fr/",
+      "category": "medias",
+      "tags": ["independant", "enquete", "gratuit", "veille"],
+      "description": {
+        "fr": "Site d'enquête et d'information indépendant sur les grandes entreprises françaises (CAC 40), leurs milliardaires actionnaires, les dividendes versés et les aides publiques perçues sans contrepartie (CICE, crédit d'impôt recherche, chômage partiel, aides sectorielles) parallèlement aux plans sociaux.",
+        "en": "Independent investigative outlet tracking major French corporations (CAC 40), their billionaire shareholders, dividend payouts and unconditional public subsidies (CICE, R&D tax credits, furlough schemes, sector aid) alongside layoffs."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/obsmultinationales.bsky.social",
+        "instagram": "https://www.instagram.com/obs_multinationales/",
+        "facebook": "https://www.facebook.com/obsmultinationales"
+      },
+      "sources": [
+        {
+          "title": "Observatoire des multinationales — Enquête « Allô Bercy » (aides publiques aux entreprises)",
+          "url": "https://multinationales.org/fr/enquetes/allo-bercy/"
+        },
+        {
+          "title": "Observatoire des multinationales — À propos",
+          "url": "https://multinationales.org/fr/pages/a-propos"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "ires-capitalisme-perfusion",
+      "name": "IRES — Un capitalisme sous perfusion (aides aux entreprises)",
+      "url": "https://ires.fr/publications/cgt/un-capitalisme-sous-perfusion-mesure-theories-et-effets-macroeconomiques-des-aides-publiques-aux-entreprises-francaises/",
+      "category": "medias",
+      "tags": ["enquete", "gratuit", "veille"],
+      "description": {
+        "fr": "Rapport universitaire de référence (économistes et sociologues du CLERSÉ-CNRS pour l'IRES, 2022) recensant l'ensemble des aides publiques aux entreprises françaises (subventions, crédits d'impôt CICE et CIR, niches fiscales et exonérations de cotisations, soit ~157 Md€ en 2019, premier poste budgétaire) et analysant l'absence de contreparties.",
+        "en": "Reference academic study (CLERSÉ-CNRS researchers for IRES, 2022) cataloguing all public subsidies to French businesses (grants, CICE and R&D tax credits, tax loopholes and social-contribution cuts, ~€157bn in 2019, the largest budget item) and analyzing the lack of conditions."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/iresfr.bsky.social",
+        "facebook": "https://www.facebook.com/IresFr/",
+        "youtube": "https://www.youtube.com/channel/UCOI2ON7yXNc4O9Ygx3JLnjA"
+      },
+      "sources": [
+        {
+          "title": "IRES — Un capitalisme sous perfusion : mesure, théories et effets macroéconomiques des aides publiques",
+          "url": "https://ires.fr/publications/cgt/un-capitalisme-sous-perfusion-mesure-theories-et-effets-macroeconomiques-des-aides-publiques-aux-entreprises-francaises/"
+        },
+        {
+          "title": "France Stratégie — Évaluation des politiques publiques et suivi des aides aux entreprises",
+          "url": "https://www.strategie-plan.gouv.fr/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "eu-tax-observatory",
+      "name": "EU Tax Observatory (Observatoire européen de la fiscalité)",
+      "url": "https://taxobservatory.eu/",
+      "category": "medias",
+      "tags": ["enquete", "gratuit", "veille"],
+      "description": {
+        "fr": "Laboratoire de recherche indépendant dirigé par l'économiste Gabriel Zucman à l'École d'économie de Paris (PSE) : rapports annuels et données de référence sur l'évasion fiscale internationale des milliardaires et des multinationales dans les paradis fiscaux.",
+        "en": "Independent research laboratory directed by economist Gabriel Zucman at the Paris School of Economics (PSE): annual reports and reference data on international tax evasion by billionaires and multinationals in tax havens."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/eutaxobservatory.bsky.social",
+        "x": "https://x.com/eutaxobs"
+      },
+      "sources": [
+        {
+          "title": "EU Tax Observatory — Publications et Global Tax Evasion Report",
+          "url": "https://taxobservatory.world/publications/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "stop-paradis-fiscaux",
+      "name": "Plateforme Paradis Fiscaux et Judiciaires",
+      "url": "https://www.stopparadisfiscaux.fr/",
+      "category": "medias",
+      "tags": ["association", "enquete", "gratuit", "veille"],
+      "description": {
+        "fr": "Coalition française d'une vingtaine d'organisations (dont le syndicat des agent·es des impôts Solidaires Finances Publiques, Oxfam, Attac, Anticor, CCFD-Terre Solidaire) qui documente la fraude fiscale, l'optimisation agressive des multinationales et l'évolution des moyens du contrôle fiscal.",
+        "en": "French coalition of around twenty organizations (including the tax-inspectors' union Solidaires Finances Publiques, Oxfam, Attac, Anticor, CCFD-Terre Solidaire) documenting tax fraud, aggressive corporate tax avoidance and tax-audit staffing."
+      },
+      "sources": [
+        {
+          "title": "Plateforme Paradis Fiscaux et Judiciaires — Que font les paradis fiscaux ?",
+          "url": "https://www.stopparadisfiscaux.fr/que-font-les-paradis-fiscaux/"
+        },
+        {
+          "title": "Plateforme Paradis Fiscaux et Judiciaires — Les organisations membres",
+          "url": "https://www.stopparadisfiscaux.fr/qui-sommes-nous/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "observatoire-inegalites",
+      "name": "Observatoire des inégalités",
+      "url": "https://www.inegalites.fr/",
+      "category": "medias",
+      "tags": ["independant", "fact-checking", "gratuit", "veille"],
+      "description": {
+        "fr": "Organisme indépendant qui rassemble et vérifie les données officielles (INSEE, DREES, ministère des Finances) sur les revenus, les patrimoines, la pauvreté, la fiscalité et les services publics en France.",
+        "en": "Independent body compiling and verifying official data (INSEE, DREES, Finance Ministry) on income, wealth, poverty, taxation and public services in France."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/obs-des-inegalites.bsky.social",
+        "x": "https://twitter.com/Obs_Ineg",
+        "instagram": "https://www.instagram.com/observatoire_inegalites/",
+        "facebook": "https://www.facebook.com/inegalites.fr/",
+        "youtube": "https://www.youtube.com/user/prixegalite"
+      },
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "wid-world",
+      "name": "World Inequality Database (WID.world)",
+      "url": "https://wid.world/fr/country/france-2/",
+      "category": "medias",
+      "tags": ["open-source", "gratuit", "veille"],
+      "description": {
+        "fr": "Base de données mondiale et ouverte du World Inequality Lab (École d'économie de Paris : Thomas Piketty, Lucas Chancel, Gabriel Zucman, Emmanuel Saez) sur l'évolution de la concentration des patrimoines et des revenus en France et dans le monde.",
+        "en": "Open global database by the World Inequality Lab (Paris School of Economics: Thomas Piketty, Lucas Chancel, Gabriel Zucman, Emmanuel Saez) tracking wealth and income concentration in France and worldwide."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/wid.world",
+        "x": "https://x.com/wid_inequality",
+        "facebook": "https://www.facebook.com/World-Inequality-Lab-WIDworld-1610408499251040/",
+        "youtube": "https://www.youtube.com/channel/UCARvviXwbZMoI31TjyZ14zw"
+      },
+      "sources": [
+        {
+          "title": "WID.world — Données et graphiques pour la France",
+          "url": "https://wid.world/fr/country/france-2/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "fipeco",
+      "name": "FIPECO — Finances publiques et économie",
+      "url": "https://www.fipeco.fr/",
+      "category": "medias",
+      "tags": ["association", "fact-checking", "gratuit", "veille"],
+      "description": {
+        "fr": "Association indépendante animée par d'anciens magistrats de la Cour des comptes et cadres de l'INSEE : fiches pédagogiques et chiffres vérifiés sur la répartition du budget de l'État, de la Sécurité sociale, des impôts (TVA, IR, IS, CSG) et des dépenses publiques.",
+        "en": "Independent association run by former Court of Audit magistrates and INSEE statisticians: plain-language sheets and verified figures on the state budget, social security, taxes (VAT, income tax, corporate tax, CSG) and public spending."
+      },
+      "socials": {
+        "facebook": "https://www.facebook.com/Fipeco-980471438738872/"
+      },
+      "sources": [
+        {
+          "title": "Cour des comptes — Rapports et évaluations des politiques publiques",
+          "url": "https://www.ccomptes.fr/fr"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "basta-violences-policieres",
+      "name": "Basta! — Portail des violences policières",
+      "url": "https://basta.media/webdocs/police/",
+      "category": "medias",
+      "tags": ["violences-policieres", "enquete", "gratuit", "veille"],
+      "description": {
+        "fr": "Base de données de Basta! recensant les personnes mortes à la suite d'une intervention des forces de l'ordre en France depuis 1977 (plus de 860 cas documentés avec leurs suites judiciaires, téléchargeables en CSV).",
+        "en": "Basta! database recording people who died following a police operation in France since 1977 (over 860 documented cases with their judicial outcomes, downloadable as CSV)."
+      },
+      "sources": [
+        {
+          "title": "Politis — Violences policières : Basta ! met à jour son portail",
+          "url": "https://www.politis.fr/articles/2023/03/violences-policieres-basta-met-a-jour-son-portail-et-bat-de-tristes-records/"
+        },
+        {
+          "title": "Politis — Morts suite à un tir policier : des chiffres records en 2021 et 2022",
+          "url": "https://www.politis.fr/articles/2023/06/morts-suite-a-un-tir-policier-des-chiffres-records-en-2021-et-2022/"
+        },
+        {
+          "title": "Reporterre — 27 personnes tuées par les forces de l'ordre en 2020, constate Basta!",
+          "url": "https://reporterre.net/27-personnes-tuees-par-les-forces-de-l-ordre-en-2020-constate-le-site-Basta"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "allo-place-beauvau",
+      "name": "Allô Place Beauvau (Mediapart)",
+      "url": "https://www.mediapart.fr/studio/panoramique/allo-place-beauvau-cest-pour-un-bilan",
+      "category": "medias",
+      "tags": ["violences-policieres", "enquete", "gilets-jaunes", "veille"],
+      "description": {
+        "fr": "Recensement vérifié, image par image, par le journaliste David Dufresne de 990 signalements de violences policières pendant le mouvement des gilets jaunes (2018-2020), lancé sur les réseaux sociaux en interpelant le ministère de l'Intérieur (@Place_Beauvau).",
+        "en": "Verified, image-by-image record by journalist David Dufresne of 990 reports of police violence during the yellow vests movement (2018-2020), started on social media by tagging the Interior Ministry (@Place_Beauvau)."
+      },
+      "socials": {
+        "mastodon": "https://mamot.fr/@davduf",
+        "bluesky": "https://bsky.app/profile/auposte.media",
+        "instagram": "https://www.instagram.com/auposte_media",
+        "youtube": "https://www.youtube.com/@au_poste",
+        "peertube": "https://video.davduf.net/videos/browse"
+      },
+      "sources": [
+        {
+          "title": "David Dufresne — Rubrique Allô Place Beauvau (davduf.net)",
+          "url": "https://www.davduf.net/allo-place-beauvau"
+        },
+        {
+          "title": "Au Poste — Média indépendant de David Dufresne (auposte.fr)",
+          "url": "https://www.auposte.fr"
+        },
+        {
+          "title": "GIJN — Comment un journaliste freelance a réussi à briser un tabou médiatique en France",
+          "url": "https://gijn.org/2019/05/28/violences-policieres-comment-un-journaliste-freelance-a-reussi-a-briser-un-tabou-mediatique-en-france/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "desarmons-les",
+      "name": "Désarmons-les",
+      "url": "https://desarmons.net/",
+      "category": "information",
+      "tags": ["violences-policieres", "militant", "veille"],
+      "description": {
+        "fr": "Collectif qui recense les blessures graves et mutilations causées par les armes du maintien de l'ordre (LBD, grenades) et accompagne les personnes blessées.",
+        "en": "Collective documenting serious injuries and mutilations caused by policing weapons (LBD rubber bullets, grenades) and supporting injured protesters."
+      },
+      "sources": [
+        {
+          "title": "Désarmons-les — Liste des personnes tuées par les forces de l'ordre",
+          "url": "https://desarmons.net/listes-des-victimes/personnes-tuees-par-les-forces-de-lordre/"
+        },
+        {
+          "title": "Désarmons-les — Liste des personnes mutilées par les forces de l'ordre",
+          "url": "https://desarmons.net/listes-des-victimes/personnes-mutilees-par-les-forces-de-lordre/"
+        },
+        {
+          "title": "Désarmons-les — Équipe d'avocat·es engagé·es sur les dossiers de violences policières",
+          "url": "https://desarmons.net/equipe-davocates-engagees-sur-les-dossiers-de-violences-policieres/"
+        },
+        {
+          "title": "Désarmons-les — Brochures d'autodéfense et ressources",
+          "url": "https://desarmons.net/ressources/brochures-desarmons/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "mutiles-pour-l-exemple",
+      "name": "Mutilés pour l'exemple",
+      "url": "https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479",
+      "category": "information",
+      "tags": ["violences-policieres", "gilets-jaunes", "militant", "veille"],
+      "description": {
+        "fr": "Collectif de personnes mutilées par des armes de maintien de l'ordre (LBD, grenades) pendant le mouvement des gilets jaunes, qui tient un décompte des mutilations et accompagne les blessé·es.",
+        "en": "Collective of people maimed by policing weapons (LBD rubber bullets, grenades) during the yellow vests movement, keeping a count of mutilations and supporting the injured."
+      },
+      "sources": [
+        {
+          "title": "Politis — Les « mutilés pour l'exemple » marchent et accusent",
+          "url": "https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479"
+        },
+        {
+          "title": "Public Sénat — Gilets jaunes : plus de 13 000 tirs de LBD depuis le début du mouvement",
+          "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-plus-de-13000-tirs-de-lbd-depuis-le-debut-du-mouvement-138755"
+        },
+        {
+          "title": "Tendance Ouest — Le Défenseur des droits demande la suspension des LBD",
+          "url": "https://www.tendanceouest.com/actualite-308189-le-defenseur-des-droits-demande-la-suspension-des-lanceurs-de-balles-de-defense-lbd"
+        }
+      ],
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1892,7 +2770,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1905,9 +2784,14 @@
         "fr": "Documents, tableurs, formulaires et dossiers partagés, chiffrés de bout en bout : l'hébergeur ne peut pas les lire. Utilisable sans compte, idéal pour partager listes de contacts, plans ou comptes rendus au sein d'un collectif.",
         "en": "End-to-end encrypted shared documents, spreadsheets, forms and folders: the host cannot read them. Usable without an account, ideal for sharing contact lists, plans or minutes within a group."
       },
+      "socials": {
+        "mastodon": "https://fosstodon.org/@cryptpad",
+        "github": "https://github.com/cryptpad/cryptpad"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1920,9 +2804,15 @@
         "fr": "Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.",
         "en": "Free services (Framadate, Framaforms…) to organize without Big Tech."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/framasoft.org",
+        "mastodon": "https://framapiaf.org/@Framasoft",
+        "facebook": "https://www.facebook.com/framasoft"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1937,7 +2827,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1958,7 +2849,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1971,6 +2863,13 @@
         "fr": "Mouvement pour le climat ; ses groupes locaux, avec ANV-COP21, organisent régulièrement des formations à l'action non-violente.",
         "en": "Climate movement; its local groups, with ANV-COP21, regularly run non-violent action training."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/alternatiba.eu",
+        "mastodon": "https://piaille.fr/@alternatiba",
+        "instagram": "https://www.instagram.com/alternatiba_",
+        "facebook": "https://www.facebook.com/Alternatiba.eu",
+        "tiktok": "https://www.tiktok.com/@alternatiba"
+      },
       "sources": [
         {
           "title": "Alternatiba Marseille — Désobéissance civile",
@@ -1979,7 +2878,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1992,6 +2892,13 @@
         "fr": "Mouvement écologiste de désobéissance civile non-violente ; on le rejoint via un groupe local, où se tiennent accueils et formations à l'action.",
         "en": "Non-violent civil disobedience climate movement; you join through a local group, where welcome sessions and action training take place."
       },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/xrfrance.bsky.social",
+        "x": "https://twitter.com/xrFrance",
+        "instagram": "https://www.instagram.com/extinctionrebellionfrance",
+        "facebook": "https://www.facebook.com/xrfrance",
+        "tiktok": "https://www.tiktok.com/@extinctionrebellionfr"
+      },
       "sources": [
         {
           "title": "France 3 — Se former à la désobéissance civile avec Extinction Rebellion et ANV-COP21",
@@ -2000,7 +2907,8 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -2013,9 +2921,15 @@
         "fr": "Rejoindre l'un des groupes locaux de bénévoles et militant·es de Greenpeace en France.",
         "en": "Join one of Greenpeace France's local volunteer and activist groups."
       },
+      "socials": {
+        "instagram": "https://www.instagram.com/greenpeace_france/",
+        "facebook": "https://www.facebook.com/greenpeacefrance",
+        "youtube": "https://www.youtube.com/user/gpfrance"
+      },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -2030,7 +2944,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -2045,7 +2960,8 @@
       },
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -2066,7 +2982,101 @@
       ],
       "check": {
         "date": "2026-10-28",
-        "result": "confirmed"
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "numero-3114",
+      "name": "3114 — Numéro national de prévention du suicide",
+      "url": "https://3114.fr/",
+      "phone": "3114",
+      "category": "sante",
+      "tags": ["soutien-psychologique", "gratuit", "officiel", "urgence"],
+      "description": {
+        "fr": "Numéro national de prévention du suicide et de la détresse psychologique : écoute confidentielle et gratuite par des professionnel·les du soin, 24 h/24 et 7 j/7.",
+        "en": "National suicide prevention and psychological distress helpline: free, confidential support from healthcare professionals, 24/7."
+      },
+      "sources": [
+        {
+          "title": "Psycom — Les lignes d'écoute",
+          "url": "https://www.psycom.org/sorienter/les-lignes-decoute/"
+        }
+      ],
+      "socials": {
+        "x": "https://x.com/3114_appel",
+        "instagram": "https://www.instagram.com/3114_appel/",
+        "facebook": "https://www.facebook.com/Le3114/",
+        "youtube": "https://www.youtube.com/@3114_appel"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "fil-sante-jeunes",
+      "name": "Fil Santé Jeunes (0 800 235 236)",
+      "url": "https://www.filsantejeunes.com/",
+      "phone": "0800 235 236",
+      "category": "sante",
+      "tags": ["soutien-psychologique", "gratuit", "mineurs"],
+      "description": {
+        "fr": "Ligne d'écoute et tchat anonymes et gratuits pour les 12–25 ans (mal-être, dépression, angoisse, santé), tous les jours de 9 h à 23 h au 0 800 235 236.",
+        "en": "Free, anonymous helpline and chat for 12–25 year-olds (distress, depression, anxiety, health), daily from 9 a.m. to 11 p.m. on 0 800 235 236."
+      },
+      "socials": {
+        "x": "https://x.com/Filsantejeunes",
+        "instagram": "https://www.instagram.com/filsantejeunes/",
+        "facebook": "https://www.facebook.com/filsantejeunes"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "nightline",
+      "name": "Nightline France",
+      "url": "https://www.nightline.fr/",
+      "category": "sante",
+      "tags": ["soutien-psychologique", "gratuit", "association"],
+      "description": {
+        "fr": "Service d'écoute nocturne gratuit et confidentiel par et pour les étudiant·es (téléphone et tchat), et annuaire « Soutien Étudiant » de prises en charge gratuites.",
+        "en": "Free, confidential night-time listening service by and for students (phone and chat), plus a directory of free mental-health support for students."
+      },
+      "socials": {
+        "bluesky": "https://bsky.app/profile/nightlinefrance.bsky.social",
+        "instagram": "https://www.instagram.com/nightlinefrance/",
+        "facebook": "https://www.facebook.com/NightlineFrance/"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "psycom",
+      "name": "Psycom — Santé mentale Info",
+      "url": "https://www.psycom.org/",
+      "category": "sante",
+      "tags": ["soutien-psychologique", "officiel", "guide"],
+      "description": {
+        "fr": "Organisme public d'information sur la santé mentale : annuaire complet des lignes d'écoute, guides pratiques et repères pour trouver de l'aide près de chez soi.",
+        "en": "Public mental-health information body: complete directory of helplines, practical guides and pointers to find support near you."
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/psycom_org/",
+        "facebook": "https://www.facebook.com/Psycom.org/",
+        "youtube": "https://www.youtube.com/@PsycomOfficiel"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
       }
     }
   ]

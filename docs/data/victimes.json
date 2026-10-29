@@ -23,42 +23,96 @@
         "en": "Overall toll (several causes)"
       }
     },
+    "justice": {
+      "convicted": {
+        "fr": "Condamnation",
+        "en": "Conviction"
+      },
+      "acquitted": {
+        "fr": "Relaxe ou acquittement",
+        "en": "Acquittal"
+      },
+      "dismissed": {
+        "fr": "Non-lieu ou classement sans suite",
+        "en": "Case dismissed"
+      },
+      "amnesty": {
+        "fr": "Amnistie",
+        "en": "Amnesty"
+      },
+      "pending": {
+        "fr": "Procédure en cours",
+        "en": "Proceedings ongoing"
+      },
+      "none": {
+        "fr": "Aucune poursuite",
+        "en": "No prosecution"
+      },
+      "state": {
+        "fr": "Responsabilité de l'État (justice administrative)",
+        "en": "State liability (administrative courts)"
+      }
+    },
     "censuses": [
       {
+        "resource": "basta-violences-policieres",
         "name": "Basta! — interventions policières mortelles",
-        "url": "https://basta.media/",
+        "url": "https://basta.media/webdocs/police/",
         "description": {
-          "fr": "Base de données des personnes mortes à la suite d'une intervention des forces de l'ordre, depuis 1977.",
-          "en": "Database of people who died after a police intervention, since 1977."
+          "fr": "Base de données des personnes mortes à la suite d'une intervention des forces de l'ordre, depuis 1977 (860 cas jusqu'en 2022), avec la suite judiciaire de chaque cas. Les données sont téléchargeables au format CSV depuis la page.",
+          "en": "Database of people who died after a police intervention, since 1977 (860 cases up to 2022), with the judicial outcome of each case. The data can be downloaded as CSV from the page."
         },
-        "evidence": ["reporterre-basta-2020", "politis-basta-records"]
+        "evidence": ["reporterre-basta-2020", "politis-basta-records"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
+        "resource": "desarmons-les",
         "name": "Désarmons-les",
         "url": "https://desarmons.net/",
         "description": {
           "fr": "Collectif qui recense les blessures graves causées par les armes du maintien de l'ordre et accompagne les blessé·es.",
           "en": "Collective documenting serious injuries from policing weapons and supporting the injured."
         },
-        "evidence": []
+        "evidence": ["desarmons-victimes"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
+        "resource": "mutiles-pour-l-exemple",
         "name": "Mutilés pour l'exemple",
         "url": "https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479",
         "description": {
           "fr": "Collectif de personnes mutilées pendant les gilets jaunes, qui tient un décompte des mutilations.",
           "en": "Collective of people maimed during the yellow vests movement, keeping a count of mutilations."
         },
-        "evidence": []
+        "evidence": ["politis-mutiles"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
+        "resource": "allo-place-beauvau",
         "name": "Allô Place Beauvau (David Dufresne)",
-        "url": "https://gijn.org/2019/05/28/violences-policieres-comment-un-journaliste-freelance-a-reussi-a-briser-un-tabou-mediatique-en-france/",
+        "url": "https://www.mediapart.fr/studio/panoramique/allo-place-beauvau-cest-pour-un-bilan",
         "description": {
-          "fr": "Recensement vérifié, image par image, des violences policières pendant les gilets jaunes (2018-2020).",
-          "en": "Verified, image-by-image record of police violence during the yellow vests movement (2018-2020)."
+          "fr": "Recensement vérifié, image par image, de 990 signalements de violences policières pendant les gilets jaunes (2018-2020), né sur Twitter en interpelant le compte du ministère de l'Intérieur (@Place_Beauvau).",
+          "en": "Verified, image-by-image record of 990 reports of police violence during the yellow vests movement (2018-2020), started on Twitter by tagging the Interior Ministry's account (@Place_Beauvau)."
         },
-        "evidence": []
+        "evidence": ["davduf-allo-place-beauvau", "davduf-mastodon", "gijn-allo-place-beauvau"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       }
     ],
     "victims": [
@@ -75,7 +129,156 @@
           "fr": "La troupe tire sur une manifestation ouvrière du 1er Mai pour la journée de huit heures ; parmi les morts, des jeunes.",
           "en": "Troops fire on a May Day workers' march for the eight-hour day; young people are among the dead."
         },
-        "evidence": ["wiki-fourmies"]
+        "evidence": ["wiki-fourmies"],
+        "justice": {
+          "status": "none",
+          "text": {
+            "fr": "Aucun militaire poursuivi. En revanche, neuf manifestants sont condamnés à 2 à 4 mois de prison, et deux organisateurs (dont Paul Lafargue) à de la prison ou des travaux forcés.",
+            "en": "No soldier prosecuted. Nine demonstrators, however, get 2 to 4 months in prison, and two organisers (including Paul Lafargue) prison or hard labour."
+          },
+          "evidence": ["wiki-fourmies"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1907-06-20",
+        "title": "Fusillades de Narbonne (révolte des vignerons)",
+        "place": "Narbonne (Aude)",
+        "by": "armee",
+        "toll": {
+          "fr": "5 morts le 20 juin, au moins 7 en deux jours ; environ 33 blessés",
+          "en": "5 dead on 20 June, at least 7 in two days; about 33 injured"
+        },
+        "description": {
+          "fr": "Pendant la révolte viticole du Midi, la troupe tire sur la foule les 19 et 20 juin après l'arrestation du maire Ernest Ferroul ; parmi les morts, un adolescent de 14 ans et une jeune femme de 20 ans.",
+          "en": "During the southern winegrowers' revolt, troops fire on the crowd on 19 and 20 June after the arrest of mayor Ernest Ferroul; the dead include a 14-year-old boy and a 20-year-old woman."
+        },
+        "evidence": ["wiki-vignerons-1907"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1908-06-02",
+        "title": "Grève de Draveil : tirs à Vigneux",
+        "place": "Vigneux (Essonne)",
+        "by": "gendarmerie",
+        "toll": {
+          "fr": "2 morts, une dizaine de blessés",
+          "en": "2 dead, about ten injured"
+        },
+        "description": {
+          "fr": "Des gendarmes tirent sur des grévistes terrassiers et carriers réunis en salle ; un ouvrier de 48 ans et un jeune de 17 ans sont tués.",
+          "en": "Gendarmes fire on striking navvies and quarry workers gathered in a hall; a 48-year-old worker and a 17-year-old are killed."
+        },
+        "evidence": ["wiki-draveil-1908"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1908-07-30",
+        "title": "Grève de Draveil : Villeneuve-Saint-Georges",
+        "place": "Villeneuve-Saint-Georges (Val-de-Marne)",
+        "by": "armee",
+        "toll": {
+          "fr": "4 morts, plus de 200 blessés",
+          "en": "4 dead, over 200 injured"
+        },
+        "description": {
+          "fr": "Cinq régiments de cavalerie et des gendarmes chargent et tirent sur la manifestation de soutien aux grévistes.",
+          "en": "Five cavalry regiments and gendarmes charge and fire on the march supporting the strikers."
+        },
+        "evidence": ["wiki-draveil-1908"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1948-10-08",
+        "title": "Grève des mineurs de 1948",
+        "place": "Merlebach, Firminy, Alès",
+        "by": "police",
+        "toll": {
+          "fr": "3 mineurs tués par les forces de l'ordre ; 5 ou 6 morts au total",
+          "en": "3 miners killed by the security forces; 5 or 6 dead in all"
+        },
+        "description": {
+          "fr": "Contre la grève, le gouvernement envoie CRS et armée dans les bassins miniers : un mineur tué à coups de crosse par des CRS (8 octobre), un autre abattu par la police (22 octobre), un troisième tué par une rafale de mitraillette (26 octobre).",
+          "en": "To break the strike, the government sends CRS and army into the coalfields: one miner beaten to death with rifle butts by CRS (8 October), another shot by police (22 October), a third killed by a submachine-gun burst (26 October)."
+        },
+        "evidence": ["wiki-mineurs-1948"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1950-04-17",
+        "title": "Édouard Mazé",
+        "place": "Brest (Finistère)",
+        "by": "police",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Ouvrier et militant CGT de 26 ans, tué d'une balle dans la tête par les forces de l'ordre lors d'une manifestation d'ouvriers du bâtiment et de dockers en grève.",
+          "en": "26-year-old worker and CGT activist, shot in the head by the security forces during a march of striking building workers and dockers."
+        },
+        "evidence": ["wiki-edouard-maze"],
+        "justice": {
+          "status": "dismissed",
+          "text": {
+            "fr": "Non-lieu : l'auteur du tir n'a pas pu être identifié « avec certitude ».",
+            "en": "Case dismissed: the shooter could not be identified 'with certainty'."
+          },
+          "evidence": ["wiki-edouard-maze"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1953-07-14",
+        "title": "Massacre du 14 juillet 1953",
+        "place": "Paris, place de la Nation",
+        "by": "police",
+        "toll": {
+          "fr": "7 morts",
+          "en": "7 dead"
+        },
+        "description": {
+          "fr": "À la fin d'un défilé autorisé du PCF et de la CGT, la police tire sans sommation sur le cortège des militants indépendantistes algériens : six Algériens et un syndicaliste français sont tués.",
+          "en": "At the end of an authorised PCF and CGT march, police fire without warning on the Algerian independence activists' section: six Algerians and a French trade unionist are killed."
+        },
+        "evidence": ["wiki-14-juillet-1953"],
+        "justice": {
+          "status": "dismissed",
+          "text": {
+            "fr": "Non-lieu en faveur des policiers ; aucun n'est poursuivi.",
+            "en": "Case dismissed in favour of the police officers; none is prosecuted."
+          },
+          "evidence": ["wiki-14-juillet-1953"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "1961-10-17",
@@ -90,7 +293,21 @@
           "fr": "La police réprime une manifestation pacifique d'Algérien·nes ; la République reconnaît en 2012 une « sanglante répression ».",
           "en": "Police crack down on a peaceful march of Algerians; in 2012 the Republic recognises a “bloody repression”."
         },
-        "evidence": ["elysee-17-octobre-2012"]
+        "evidence": ["elysee-17-octobre-2012"],
+        "justice": {
+          "status": "amnesty",
+          "date": "1966-06-17",
+          "text": {
+            "fr": "Aucune poursuite : la loi d'amnistie de 1966 couvre la répression des manifestations de 1961 et 1962.",
+            "en": "No prosecution: the 1966 amnesty law covers the repression of the 1961 and 1962 demonstrations."
+          },
+          "evidence": ["wiki-charonne"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "1962-02-08",
@@ -105,7 +322,90 @@
           "fr": "Des manifestant·es contre l'OAS et la guerre d'Algérie meurent écrasé·es ou frappé·es lors de la répression policière.",
           "en": "Protesters against the OAS and the Algerian War die crushed or beaten during the police crackdown."
         },
-        "evidence": ["wiki-charonne"]
+        "evidence": ["wiki-charonne"],
+        "justice": {
+          "status": "amnesty",
+          "date": "1966-06-17",
+          "text": {
+            "fr": "Aucune poursuite : la loi d'amnistie de 1966 couvre la répression des manifestations de 1961 et 1962.",
+            "en": "No prosecution: the 1966 amnesty law covers the repression of the 1961 and 1962 demonstrations."
+          },
+          "evidence": ["wiki-charonne"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1968-06-10",
+        "title": "Gilles Tautin",
+        "place": "Flins-sur-Seine (Yvelines)",
+        "by": "gendarmerie",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Lycéen de 17 ans, noyé dans la Seine près de l'usine Renault en grève. Selon les témoins, le groupe fuyait une charge de gendarmes et a été empêché de sortir de l'eau ; les autorités ont soutenu que les jeunes s'étaient jetés à l'eau d'eux-mêmes.",
+          "en": "17-year-old high-school student, drowned in the Seine near the striking Renault plant. According to witnesses, the group was fleeing a gendarme charge and was kept from getting out of the water; the authorities claimed the young people jumped in of their own accord."
+        },
+        "evidence": ["wiki-gilles-tautin"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1968-06-11",
+        "title": "Usine Peugeot de Sochaux",
+        "place": "Sochaux (Doubs)",
+        "by": "police",
+        "toll": {
+          "fr": "2 morts",
+          "en": "2 dead"
+        },
+        "description": {
+          "fr": "Lors de l'évacuation de l'usine occupée, un ouvrier serrurier est tué par balle par les CRS ; un autre meurt en tombant d'un mur.",
+          "en": "During the clearing of the occupied plant, a locksmith worker is shot dead by CRS; another dies falling from a wall."
+        },
+        "evidence": ["wiki-gilles-tautin"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1977-07-31",
+        "title": "Vital Michalon",
+        "place": "Creys-Malville (Isère)",
+        "by": "gendarmerie",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Professeur de 31 ans tué lors d'un rassemblement contre la centrale nucléaire Superphénix, les poumons éclatés par une explosion. Selon Basta!, un éclat de grenade offensive tirée par des gendarmes mobiles ; le parquet a d'abord évoqué un arrêt cardiaque et un engin artisanal, que retient aussi une expertise de 1979.",
+          "en": "31-year-old teacher killed at a rally against the Superphénix nuclear plant, his lungs burst by a blast. According to Basta!, a fragment of an offensive grenade fired by mobile gendarmes; the prosecutor first spoke of a heart attack and a home-made device, which a 1979 expert report also retained."
+        },
+        "evidence": ["basta-police-base", "wiki-vital-michalon"],
+        "justice": {
+          "status": "dismissed",
+          "date": "1980-11-21",
+          "text": {
+            "fr": "Plainte de la famille : non-lieu, les enquêtes n'ayant pas éclairci les circonstances de la mort.",
+            "en": "Family complaint: case dismissed, as the investigations did not clarify how he died."
+          },
+          "evidence": ["wiki-vital-michalon", "basta-police-base"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "1986-12-06",
@@ -117,10 +417,137 @@
           "en": "1 dead"
         },
         "description": {
-          "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; deux policiers condamnés avec sursis.",
-          "en": "22-year-old student killed by police during protests against the Devaquet bill; two officers receive suspended sentences."
+          "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet.",
+          "en": "22-year-old student killed by police during protests against the Devaquet bill."
         },
-        "evidence": ["wiki-malik-oussekine"]
+        "evidence": ["wiki-malik-oussekine"],
+        "justice": {
+          "status": "convicted",
+          "date": "1990-01-27",
+          "text": {
+            "fr": "Cour d'assises de Paris : deux policiers condamnés à 5 ans et 2 ans de prison avec sursis pour coups mortels ; le parquet avait requis de la prison ferme.",
+            "en": "Paris assize court: two officers get 5- and 2-year suspended sentences for fatal assault; the prosecution had asked for jail time."
+          },
+          "evidence": ["wiki-malik-oussekine"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1987-11-06",
+        "title": "Lucien Barbier",
+        "place": "Amiens (Somme)",
+        "by": "police",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Retraité de 62 ans, militant PC et CGT, matraqué par des policiers lors d'une manifestation pour le passage du TGV Nord par Amiens ; crâne fracturé, il meurt vingt jours plus tard.",
+          "en": "62-year-old retiree, PC and CGT activist, clubbed by police during a march for the northern TGV line to stop in Amiens; with a fractured skull, he dies twenty days later."
+        },
+        "evidence": ["basta-police-base"],
+        "justice": {
+          "status": "state",
+          "text": {
+            "fr": "Plainte contre X de la famille ; le tribunal administratif d'Amiens condamne l'État à verser un franc symbolique (octobre 1994).",
+            "en": "Family complaint against persons unknown; the Amiens administrative court orders the State to pay a symbolic one franc (October 1994)."
+          },
+          "evidence": ["basta-police-base"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1994-05-07",
+        "title": "Sébastien Deyzieu",
+        "place": "Paris, rue des Chartreux",
+        "by": "police",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Militant nationaliste de 22 ans. Poursuivi par des policiers en civil après une manifestation d'extrême droite interdite, il chute du toit d'un immeuble en tentant de fuir et meurt deux jours plus tard. L'enquête conclut à un accident ; selon Basta!, les circonstances restent troubles.",
+          "en": "22-year-old nationalist activist. Chased by plain-clothes police after a banned far-right demonstration, he falls from a rooftop while trying to escape and dies two days later. The investigation concludes it was an accident; according to Basta!, the circumstances remain unclear."
+        },
+        "evidence": ["basta-police-base"],
+        "justice": {
+          "status": "dismissed",
+          "text": {
+            "fr": "Classement sans suite (1994).",
+            "en": "Case dropped (1994)."
+          },
+          "evidence": ["basta-police-base"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "1995-05-01",
+        "title": "Brahim Bouarram",
+        "place": "Paris, pont du Carrousel",
+        "by": "extreme-droite",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "En marge du défilé du Front national du 1er Mai, un militant d'extrême droite pousse dans la Seine ce Marocain de 29 ans, qui se noie.",
+          "en": "On the margins of the National Front May Day march, a far-right activist pushes this 29-year-old Moroccan into the Seine, where he drowns."
+        },
+        "evidence": ["wiki-brahim-bouarram"],
+        "justice": {
+          "status": "convicted",
+          "date": "1998-05-15",
+          "text": {
+            "fr": "Le meurtrier est condamné à 8 ans de prison ; trois complices à 5 ans dont 4 avec sursis pour non-assistance à personne en danger.",
+            "en": "The killer gets 8 years in prison; three accomplices 5 years, 4 suspended, for failing to assist a person in danger."
+          },
+          "evidence": ["wiki-brahim-bouarram"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "2011-11-19",
+        "title": "El Anziz Ali",
+        "place": "Mamoudzou (Mayotte)",
+        "by": "police",
+        "toll": {
+          "fr": "1 mort",
+          "en": "1 dead"
+        },
+        "description": {
+          "fr": "Homme de 39 ans mort lors d'une manifestation contre la vie chère, après des affrontements avec la police. L'autopsie relève une perforation du cœur ; des témoins parlent d'une grenade ou d'un tir de LBD au thorax, les autorités ont d'abord évoqué un malaise puis le massage cardiaque.",
+          "en": "39-year-old man who died during a protest against the high cost of living, after clashes with the police. The autopsy finds a perforated heart; witnesses speak of a grenade or a rubber-bullet (LBD) shot to the chest, the authorities first mentioned a heart attack, then the heart massage."
+        },
+        "evidence": ["basta-police-base"],
+        "justice": {
+          "status": "dismissed",
+          "text": {
+            "fr": "Classement sans suite (2012).",
+            "en": "Case dropped (2012)."
+          },
+          "evidence": ["basta-police-base"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2014-10-26",
@@ -132,10 +559,73 @@
           "en": "1 dead"
         },
         "description": {
-          "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie ; la grenade OF-F1 est interdite en 2017 et la France condamnée par la CEDH.",
-          "en": "21-year-old environmental activist killed by a gendarmerie grenade; the OF-F1 grenade is banned in 2017 and France is condemned by the ECHR."
+          "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie ; la grenade OF-F1 est interdite en 2017.",
+          "en": "21-year-old environmental activist killed by a gendarmerie grenade; the OF-F1 grenade is banned in 2017."
         },
-        "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"]
+        "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"],
+        "justice": {
+          "status": "dismissed",
+          "date": "2018-01-09",
+          "text": {
+            "fr": "Non-lieu pour le gendarme, confirmé en appel (2020) et en cassation (2021). L'État est déclaré responsable sans faute par la justice administrative, et la CEDH condamne la France pour violation du droit à la vie le 27 février 2025.",
+            "en": "Case against the gendarme dismissed, upheld on appeal (2020) and in cassation (2021). Administrative courts hold the State liable without fault, and the ECHR finds France violated the right to life on 27 February 2025."
+          },
+          "evidence": ["wiki-fr-remi-fraisse", "cedh-remi-fraisse"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "2016-09-15",
+        "title": "Laurent Théron (loi Travail)",
+        "place": "Paris, place de la République",
+        "by": "police",
+        "toll": {
+          "fr": "1 syndicaliste éborgné",
+          "en": "1 trade unionist blinded in one eye"
+        },
+        "description": {
+          "fr": "Syndicaliste de SUD, il perd l'usage de l'œil droit, touché par une grenade de désencerclement lancée par un CRS ; les juges d'instruction estiment le tir « hors de tout cadre légal ».",
+          "en": "SUD trade unionist, he loses the use of his right eye, hit by a dispersal grenade thrown by a CRS officer; the investigating judges find the throw 'outside any legal framework'."
+        },
+        "evidence": ["politis-theron-2016", "tendanceouest-theron-assises"],
+        "justice": {
+          "status": "acquitted",
+          "date": "2022-12-14",
+          "text": {
+            "fr": "Renvoyé devant la cour d'assises en 2019, le CRS est acquitté au nom de la légitime défense ; le parquet ne fait pas appel. La victime saisit la CEDH.",
+            "en": "Sent to the assize court in 2019, the CRS officer is acquitted on grounds of self-defence; the prosecution does not appeal. The victim takes the case to the ECHR."
+          },
+          "evidence": ["tendanceouest-theron-assises", "politis-theron-acquitte"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
+      },
+      {
+        "date": "2018-05-22",
+        "title": "Maxime Peugeot (Notre-Dame-des-Landes)",
+        "place": "Notre-Dame-des-Landes (Loire-Atlantique)",
+        "by": "gendarmerie",
+        "toll": {
+          "fr": "1 main arrachée",
+          "en": "1 hand blown off"
+        },
+        "description": {
+          "fr": "Étudiant de 21 ans, il a la main arrachée par l'explosion d'une grenade GLI-F4 lors de l'évacuation de la ZAD par les gendarmes ; il a reconnu l'avoir ramassée et dit ne pas avoir voulu la renvoyer. Cette grenade, mise en cause dans plusieurs mutilations, est retirée en janvier 2020.",
+          "en": "21-year-old student, his hand is blown off by a GLI-F4 grenade during the gendarmes' clearing of the ZAD; he acknowledged picking it up and said he did not mean to throw it back. The grenade, blamed for several mutilations, was withdrawn in January 2020."
+        },
+        "evidence": ["reporterre-maxime-peugeot", "publicsenat-gli-f4-retrait"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2018-11-17",
@@ -150,10 +640,15 @@
           "fr": "Le recensement du collectif « Mutilés pour l'exemple » compte 24 personnes ayant perdu un œil et 5 une main, principalement par des tirs de LBD et des grenades ; plus de 13 000 tirs de LBD en quelques mois.",
           "en": "The “Mutilés pour l'exemple” collective counts 24 people who lost an eye and 5 a hand, mainly from LBD rounds and grenades; more than 13,000 LBD shots in a few months."
         },
-        "evidence": ["politis-mutiles", "publicsenat-lbd"]
+        "evidence": ["politis-mutiles", "publicsenat-lbd"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
-        "date": "2018-12-02",
+        "date": "2018-12-01",
         "title": "Zineb Redouane",
         "place": "Marseille",
         "by": "police",
@@ -165,7 +660,21 @@
           "fr": "Femme de 80 ans touchée au visage par une grenade lacrymogène alors qu'elle fermait sa fenêtre, au passage d'une manifestation ; elle meurt le lendemain.",
           "en": "80-year-old woman hit in the face by a tear-gas grenade while closing her window as a protest passed; she dies the next day."
         },
-        "evidence": ["wiki-zineb-redouane", "amnesty-zineb-redouane"]
+        "evidence": ["wiki-zineb-redouane", "amnesty-zineb-redouane"],
+        "justice": {
+          "status": "pending",
+          "date": "2024-09-12",
+          "text": {
+            "fr": "Information judiciaire dépaysée à Lyon ; le CRS auteur du tir est mis en examen pour homicide involontaire.",
+            "en": "Judicial investigation moved to Lyon; the CRS officer who fired is charged with involuntary manslaughter."
+          },
+          "evidence": ["wiki-zineb-redouane"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2019-03-23",
@@ -177,10 +686,24 @@
           "en": "1 seriously injured"
         },
         "description": {
-          "fr": "Militante de 73 ans blessée à la tête lors d'une charge policière ; le commissaire est condamné, l'État jugé responsable.",
-          "en": "73-year-old activist injured in the head during a police charge; the commissioner is convicted, the State held liable."
+          "fr": "Militante de 73 ans blessée à la tête lors d'une charge policière.",
+          "en": "73-year-old activist injured in the head during a police charge."
         },
-        "evidence": ["legay-poussee", "legay-condamnation"]
+        "evidence": ["legay-poussee", "legay-condamnation"],
+        "justice": {
+          "status": "convicted",
+          "date": "2026-06-30",
+          "text": {
+            "fr": "Le commissaire qui a ordonné la charge est condamné à 6 mois de prison avec sursis pour complicité de violences (8 mars 2024), sans inscription au casier ; peine confirmée en appel. L'État est aussi jugé responsable.",
+            "en": "The commissioner who ordered the charge gets a 6-month suspended sentence for complicity in violence (8 March 2024), not entered in his record; upheld on appeal. The State is also held liable."
+          },
+          "evidence": ["legay-condamnation", "lyoncapitale-legay-appel", "legay-etat-responsable"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2019-06-21",
@@ -195,7 +718,21 @@
           "fr": "Lors de la Fête de la musique, une intervention policière précède sa chute dans la Loire ; son corps est retrouvé en juillet.",
           "en": "During the music festival, a police operation precedes his fall into the Loire; his body is found in July."
         },
-        "evidence": ["wiki-steve-maia-canico"]
+        "evidence": ["wiki-steve-maia-canico"],
+        "justice": {
+          "status": "acquitted",
+          "date": "2024-09-20",
+          "text": {
+            "fr": "Le commissaire jugé pour homicide involontaire est relaxé par le tribunal correctionnel de Rennes ; le parquet ne fait pas appel.",
+            "en": "The commissioner tried for involuntary manslaughter is acquitted by the Rennes criminal court; the prosecution does not appeal."
+          },
+          "evidence": ["wiki-steve-maia-canico"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2023-03-25",
@@ -210,7 +747,20 @@
           "fr": "Manifestation contre les méga-bassines ; des images de caméras-piétons de gendarmes montrent des tirs tendus de grenades, interdits.",
           "en": "Protest against agricultural mega-basins; gendarmes' body-camera footage shows banned direct grenade shots."
         },
-        "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"]
+        "evidence": ["sainte-soline-videos", "sainte-soline-franceinfo"],
+        "justice": {
+          "status": "pending",
+          "text": {
+            "fr": "Plainte des quatre blessés les plus graves classée sans suite fin 2025 ; en décembre 2025, le parquet de Rennes ouvre une information judiciaire sur les tirs tendus de grenades.",
+            "en": "The complaint by the four most seriously injured is dismissed at the end of 2025; in December 2025 the Rennes prosecutor opens a judicial investigation into the direct grenade fire."
+          },
+          "evidence": ["reporterre-sainte-soline-justice"]
+        },
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2026-09-21",
@@ -225,7 +775,12 @@
           "fr": "Blocus et manifestations pour plus d'enseignant·es et de moyens. Au 9 octobre, 6 877 personnes placées en garde à vue, dont 86 % de mineur·es (ministère de la Justice). L'usage des grenades assourdissantes est suspendu le 7 octobre dans le cadre de ces mobilisations.",
           "en": "Blockades and protests for more teachers and resources. By 9 October, 6,877 people taken into custody, 86% of them minors (Ministry of Justice). Stun grenades are suspended for these protests on 7 October."
         },
-        "evidence": ["wiki-mouvement-lyceen-2026", "amnesty-lyceens-2026"]
+        "evidence": ["wiki-mouvement-lyceen-2026", "amnesty-lyceens-2026"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2026-10-01",
@@ -240,7 +795,12 @@
           "fr": "Touché par un tir de lanceur de balles de défense (LBD) lors d'une mobilisation lycéenne.",
           "en": "Hit by a rubber-bullet launcher (LBD) round during a high-school protest."
         },
-        "evidence": ["ldh-repression-lyceens"]
+        "evidence": ["ldh-repression-lyceens"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2026-10-05",
@@ -255,7 +815,12 @@
           "fr": "Blessé par une grenade lors d'une mobilisation lycéenne ; deux jours plus tard, l'usage des grenades assourdissantes est suspendu pour ces mobilisations.",
           "en": "Injured by a grenade during a high-school protest; two days later, stun grenades are suspended for these protests."
         },
-        "evidence": ["ldh-repression-lyceens", "wiki-mouvement-lyceen-2026"]
+        "evidence": ["ldh-repression-lyceens", "wiki-mouvement-lyceen-2026"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       },
       {
         "date": "2026-10-24",
@@ -270,7 +835,12 @@
           "fr": "Des groupes d'ultradroite, souvent masqués, attaquent des manifestant·es dans une quinzaine de villes.",
           "en": "Far-right groups, often masked, attack protesters in around fifteen cities."
         },
-        "evidence": ["franceinfo", "basta-montpellier-2026"]
+        "evidence": ["franceinfo", "basta-montpellier-2026"],
+        "check": {
+          "date": "2026-10-28",
+          "result": "confirmed",
+          "by": "ai"
+        }
       }
     ]
   }

@@ -9,6 +9,10 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
 [:material-compass: Je suis… et je veux…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS : numéros d'urgence et legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Carte de poche à imprimer](carte/index.md){ .md-button }
 
+!!! info "Comment ce contenu est vérifié"
+
+    Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une IA**, puis sont relus peu à peu par des humains. Chaque fiche indique **qui** l'a vérifiée et **quand** : IA (à vérifier par un humain), bénévole, avocat·e, soignant·e ou historien·ne. Ouvrez la source avant de vous fier à une information, et [aidez-nous à vérifier](contribuer/index.md#verifier-une-information).
+
 <div class="grid cards" markdown="1">
 
 - **Annuaire** [:material-magnify:](annuaire/index.md)
@@ -35,13 +39,13 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Lire les conseils](conseils/index.md)
 
-- **Repères historiques** [:material-timeline-clock:](histoire/index.md)
+- **Comprendre : histoire, médias, budget et élu·es** [:material-book-open-page-variant:](comprendre/index.md)
 
     ***
 
-    De la prise de la Bastille aux mobilisations d'aujourd'hui, et ce que la rue a obtenu : congés payés, droit de vote, lois retirées.
+    Ce que la rue a obtenu, qui possède les médias, où va l'argent public (aides aux entreprises, fraude fiscale) et comment suivre les votes et condamnations des élu·es.
 
-    [:octicons-arrow-right-24: Voir la frise](histoire/index.md)
+    [:octicons-arrow-right-24: Comprendre les enjeux](comprendre/index.md)
 
 - **Répressions et désinformation documentées** [:material-file-document-alert:](repressions/index.md)
 

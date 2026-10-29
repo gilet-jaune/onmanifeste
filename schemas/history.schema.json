@@ -17,7 +17,7 @@
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["date", "title", "kind", "url", "description"],
+        "required": ["date", "title", "kind", "url", "description", "check"],
         "additionalProperties": false,
         "properties": {
           "date": {
@@ -56,6 +56,9 @@
                 "description": "Source for the gains when not covered by the event url."
               }
             }
+          },
+          "check": {
+            "$ref": "resources.schema.json#/properties/resources/items/properties/check"
           },
           "evidence": {
             "type": "array",

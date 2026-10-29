@@ -28,6 +28,9 @@
       urgent: 'Urgence ? Numéros et legal teams sur la page SOS.',
       results: 'Ce qui peut vous aider',
       call: 'Appeler',
+      install: 'Installer :',
+      socials: 'Réseaux :',
+      sources: 'Sources :',
       error: 'Impossible de charger le parcours. La liste complète reste disponible ci-dessous.',
       sentence: (p, n) => `Je suis ${p} et je veux ${n}.`,
     },
@@ -45,10 +48,26 @@
       urgent: 'Emergency? Numbers and legal teams on the SOS page.',
       results: 'What can help',
       call: 'Call',
+      install: 'Install:',
+      socials: 'Social:',
+      sources: 'Sources:',
       error: 'Unable to load the guided search. The full list is still available below.',
       sentence: (p, n) => `I am ${p} and I want to ${n}.`,
     },
   }[lang];
+
+  const STORE_LABELS = { android: 'Google Play', fdroid: 'F-Droid', ios: 'App Store' };
+  const SOCIAL_LABELS = {
+    bluesky: 'Bluesky',
+    mastodon: 'Mastodon',
+    x: 'X',
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    tiktok: 'TikTok',
+    youtube: 'YouTube',
+    peertube: 'PeerTube',
+    github: 'GitHub',
+  };
 
   const normalize = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
   const loc = (o) => (o && (o[lang] || o.fr)) || '';
@@ -145,13 +164,66 @@
       return el(
         'article',
         { class: 'parcours__result parcours__result--resource' },
-        el('h3', {}, el('a', { href: res.url, target: '_blank', rel: 'noopener' }, res.name)),
+        el(
+          'h3',
+          {},
+          el(
+            'a',
+            { href: res.url, 'data-resource-card': res.id, target: '_blank', rel: 'noopener' },
+            res.name,
+          ),
+        ),
         el('p', {}, loc(res.description)),
         res.phone
           ? el(
               'a',
               { class: 'parcours__call', href: `tel:${res.phone.replace(/\s/g, '')}` },
               `📞 ${T.call} ${res.phone}`,
+            )
+          : null,
+        res.stores
+          ? el(
+              'p',
+              { class: 'directory__stores' },
+              `${T.install} `,
+              ...Object.keys(STORE_LABELS)
+                .filter((store) => res.stores[store])
+                .flatMap((store, i) => [
+                  i ? ' · ' : '',
+                  el(
+                    'a',
+                    { href: res.stores[store], target: '_blank', rel: 'noopener' },
+                    STORE_LABELS[store],
+                  ),
+                ]),
+            )
+          : null,
+        res.socials
+          ? el(
+              'p',
+              { class: 'directory__socials' },
+              `${T.socials} `,
+              ...Object.keys(SOCIAL_LABELS)
+                .filter((social) => res.socials[social])
+                .flatMap((social, i) => [
+                  i ? ' · ' : '',
+                  el(
+                    'a',
+                    { href: res.socials[social], target: '_blank', rel: 'noopener' },
+                    SOCIAL_LABELS[social],
+                  ),
+                ]),
+            )
+          : null,
+        res.sources?.length
+          ? el(
+              'p',
+              { class: 'directory__sources' },
+              `${T.sources} `,
+              ...res.sources.flatMap((source, i) => [
+                i ? ', ' : '',
+                el('a', { href: source.url, target: '_blank', rel: 'noopener' }, source.title),
+              ]),
             )
           : null,
       );
@@ -237,7 +309,7 @@
         placeholder: T.typeWant,
         items: profile.needs,
         labelOf: (x) => loc(x.label),
-        keywordsOf: () => [],
+        keywordsOf: (x) => x.keywords || [],
         onPick: (x) => go({ je: profile.id, veux: x.id }),
         emptyHint: directoryLink,
       });

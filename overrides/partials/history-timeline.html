@@ -1,4 +1,5 @@
 {#- Renders docs/data/history.json (loaded via macros include_yaml): a dated timeline and the list of gains. -#}
+{%- from 'overrides/partials/check.html' import checked_by -%}
 
 {%- macro gains_line(e, lang) -%}
 <p class="timeline__gains"><strong>{{ 'Obtenu :' if lang == 'fr' else 'Won:' }}</strong> {{ e.gains[lang] or e.gains.fr }}{% if e.gains.source %} <a href="{{ e.gains.source }}" target="_blank" rel="noopener">({{ 'source' }})</a>{% endif %}</p>
@@ -14,6 +15,10 @@
       <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title }}</a></h3>
       <p>{{ e.description[lang] or e.description.fr }}</p>
       {%- if e.gains %}{{ gains_line(e, lang) }}{% endif %}
+      {%- if e.check.result == 'unconfirmed' %}
+      <span class="directory__unconfirmed" title="{{ e.check.note }}">⚠ {{ 'Non confirmé' if lang == 'fr' else 'Unconfirmed' }}</span>
+      {%- endif %}
+      <p class="victims__checked">{{ checked_by(e.check, lang) }}</p>
     </div>
   </li>
   {%- endfor %}

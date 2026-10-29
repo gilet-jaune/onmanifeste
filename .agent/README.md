@@ -15,7 +15,8 @@ French-first toolkit for protesting in France: a sourced directory, quick guides
 | Path | What it is |
 | --- | --- |
 | `docs/data/resources.json` | Single registry: `categories`, `emergency`, `situations`, `synonyms`, `resources`. Schema in `schemas/resources.schema.json`. |
-| `docs/data/history.json` | Timeline events (`kinds`, `events`), rendered at build time. Schema in `schemas/history.schema.json`. |
+| `docs/data/history.json` | Timeline events (`kinds`, `events`), each with a `check` (`date`, `result`, `by`), rendered at build time. Schema in `schemas/history.schema.json`. |
+| `docs/data/victimes.json` | Landmark historical cases and movement-wide tolls of people injured or killed at or after protests (`by`, `censuses`, `victims`); ongoing case-by-case tracking is delegated to the external databases (`censuses`). Every entry needs `evidence` (ids from `sources.json`), an optional `justice` outcome (`status` from the `justice` labels, `date`, `text`, `evidence`; omit it when unknown) and a `check` (`date`, `result`, `note` when unconfirmed). Name only the dead or people who made their case public; never name minors who are alive. Validated by `scripts/validate-victimes.mjs`. |
 | `docs/guides/` | Seven quick guides (FR + EN). `review: juridique\|medical` front matter shows a "not yet reviewed" badge. |
 | `docs/annuaire/`, `docs/sos/`, `docs/carte/` | Directory, SOS page and pocket card, all rendered from the registry (`overrides/partials/*.html`). |
 | `docs/data/parcours.json`, `docs/javascripts/parcours.js` | Guided search "Je suis… / et je veux…": profiles → needs → results (guide sections, resources, pages). Validated by `scripts/validate-parcours.mjs` (anchors checked FR and EN). |
@@ -43,11 +44,12 @@ French-first toolkit for protesting in France: a sourced directory, quick guides
     "fdroid": "https://f-droid.org/packages/…/",
     "ios": "https://apps.apple.com/app/id…"
   },
-  "check": { "date": "2026-10-28", "result": "confirmed" }
+  "check": { "date": "2026-10-28", "result": "confirmed", "by": "ai" }
 }
 ```
 
 - `stores` (optional, apps only): copy the store links from the publisher's own download page, never from a store search (look-alike apps exist).
+- `check.by`: who checked it — `ai` (an agent found and sourced it: always use this when you are an AI agent), `volunteer`, `lawyer`, `medical` or `historian`. Never set a human level yourself.
 - `phone` only for official public lines, and never when `check.result` is `unconfirmed`.
 - `check.result: unconfirmed` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry.
 - After editing: `npm run validate:data` then `npm run readme` (the README list is generated).

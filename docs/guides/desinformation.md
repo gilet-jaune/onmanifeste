@@ -31,6 +31,14 @@ Méthode proposée par le chercheur Mike Caulfield.[^sift]
 - Si vous vous êtes trompé·e : **corrigez publiquement** et supprimez.
 - Préférez partager le lien vers une **vérification** plutôt que la rumeur, même pour la démentir.
 
+## Recul critique : biais médiatiques, versions officielles et recours
+
+Au-delà des fausses informations virales, le cadrage d'un mouvement social ou le récit immédiat d'une opération de maintien de l'ordre peuvent être biaisés ou incomplets :
+
+- **Comprendre qui possède un média et analyser son cadrage** : la carte {{ res("medias-qui-possede-quoi", "« Médias français : qui possède quoi ? »") }} (_Le Monde diplomatique_ & {{ res("acrimed", "Acrimed") }}) documente l'actionnariat des grands groupes de presse et d'audiovisuel. {{ res("acrimed", "Acrimed") }} et {{ res("arret-sur-images") }} décryptent régulièrement le traitement médiatique des grèves et des manifestations.
+- **Croiser les versions officielles lors du maintien de l'ordre** : une première déclaration publique ne vaut pas preuve établie (voir nos exemples de [déclarations officielles démenties](../repressions/index.md#declarations-officielles-dementies)). Appuyez-vous sur les contre-enquêtes visuelles d'{{ res("index-investigation", "INDEX") }}, les recensements d'{{ res("allo-place-beauvau", "Allô Place Beauvau") }} et de {{ res("basta-violences-policieres", "Basta!") }}, ou les rédactions d'enquête ({{ res("mediapart") }}, {{ res("disclose") }}, {{ res("streetpress") }}).
+- **Signaler un manquement déontologique** : lorsqu'un reportage ou un plateau diffuse une information inexacte, tronquée ou sans contradictoire, tout·e citoyen·ne peut saisir gratuitement le {{ res("cdjm", "CDJM") }} (Conseil de déontologie journalistique et de médiation, pour la presse écrite, en ligne ou audiovisuelle) ou l'{{ res("arcom", "Arcom") }} (pour les chaînes de télévision et de radio).
+
 [:octicons-arrow-right-24: Services de vérification et médias fiables dans l'annuaire](../annuaire/index.md?situation=verifier)
 
 ## Sources

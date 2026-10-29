@@ -13,4 +13,4 @@ def define_env(env):
         if resource_id not in resources:
             raise KeyError(f"unknown resource '{resource_id}' (see docs/data/resources.json)")
         r = resources[resource_id]
-        return f"[{text or r['name']}]({r['url']})"
+        return f'[{text or r["name"]}]({r["url"]}){{ data-resource-card="{r["id"]}" }}'

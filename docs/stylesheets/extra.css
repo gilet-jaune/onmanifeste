@@ -1121,8 +1121,12 @@ select:focus-visible {
 }
 
 .md-typeset .directory__card .directory__stores,
-.md-typeset .directory__card .directory__sources {
-  margin: 0 0 0.4rem;
+.md-typeset .directory__card .directory__socials,
+.md-typeset .directory__card .directory__sources,
+.md-typeset .parcours__result .directory__stores,
+.md-typeset .parcours__result .directory__socials,
+.md-typeset .parcours__result .directory__sources {
+  margin: 0.2rem 0 0.4rem;
   color: var(--ap-muted);
   font-size: 0.64rem;
 }
@@ -1554,6 +1558,218 @@ select:focus-visible {
   font-weight: 700;
 }
 
+.md-typeset .victims__justice {
+  font-size: 0.72rem;
+}
+
+/* Judicial outcome badge: convictions solid, everything else outlined. */
+.md-typeset .victims__verdict {
+  display: inline-block;
+  padding: 0 0.4rem;
+  border: 1.5px solid var(--ap-line);
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.md-typeset .victims__verdict--convicted {
+  background: var(--ap-text);
+  color: var(--ap-surface);
+}
+
+.md-typeset .victims__verdict--pending {
+  border-style: dashed;
+}
+
+.md-typeset .victims__checked {
+  margin: 0;
+  color: var(--ap-muted);
+  font-size: 0.64rem;
+}
+
 .md-typeset .victims__censuses li {
   margin-bottom: 0.4rem;
+}
+
+/* ==========================================================================
+   Resource Contact Card Modal (docs/javascripts/extra.js)
+   ========================================================================== */
+dialog.contact-card:modal {
+  overscroll-behavior: contain;
+}
+
+dialog.contact-card::backdrop {
+  overflow: hidden;
+  overscroll-behavior: contain;
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(2px);
+}
+
+dialog.contact-card {
+  width: min(34rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 3rem);
+  margin: auto;
+  padding: 1.2rem 1.4rem;
+  border: 3px solid var(--ap-line);
+  border-top: 8px solid var(--ap-vest);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font-family: 'Barlow', system-ui, sans-serif;
+  box-shadow: 0 0.8rem 2.4rem rgba(0, 0, 0, 0.45);
+}
+
+.contact-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card__close-form {
+  margin: 0;
+}
+
+.contact-card__close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 2px solid var(--ap-line);
+  border-radius: var(--ap-radius);
+  background: transparent;
+  color: var(--ap-text);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.contact-card__close:hover {
+  background: var(--ap-vest);
+  border-color: var(--ap-ink);
+  color: var(--ap-ink);
+}
+
+.contact-card__title {
+  margin: 0 0 0.5rem;
+  font-family: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
+  font-size: 1.55rem;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--ap-text);
+}
+
+.contact-card__desc {
+  margin: 0.4rem 0 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+
+.contact-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.2rem;
+  padding: 0.35rem 0.85rem;
+  border: 2px solid var(--ap-line);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact-card__btn--primary,
+.contact-card__btn--phone {
+  border-color: var(--ap-ink);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.contact-card__btn:hover {
+  background: var(--ap-ink);
+  border-color: var(--ap-ink);
+  color: var(--ap-vest);
+}
+
+.contact-card__section {
+  margin-top: 0.85rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.contact-card__heading {
+  margin: 0 0 0.45rem;
+  font-family: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ap-text);
+}
+
+.contact-card__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.contact-card__chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.8rem;
+  padding: 0.15rem 0.65rem;
+  border: 1.5px solid var(--ap-line);
+  border-radius: 1rem;
+  background: transparent;
+  color: var(--ap-text);
+  font-size: 0.74rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contact-card__chip:hover {
+  background: var(--ap-vest);
+  border-color: var(--ap-ink);
+  color: var(--ap-ink);
+}
+
+.contact-card__sources {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.contact-card__sources li {
+  margin-bottom: 0.25rem;
+}
+
+.contact-card__sources a {
+  color: var(--ap-text);
+  text-decoration: underline;
+  text-decoration-color: var(--ap-vest-deep);
+  text-decoration-thickness: 2px;
+}
+
+.contact-card__sources a:hover {
+  color: var(--md-accent-fg-color);
+  text-decoration-color: var(--ap-vest);
+}
+
+.contact-card__checked {
+  margin: 0.9rem 0 0;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--md-default-fg-color--lightest);
+  color: var(--ap-muted);
+  font-size: 0.68rem;
 }

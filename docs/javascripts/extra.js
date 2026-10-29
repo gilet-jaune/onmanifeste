@@ -1,6 +1,9 @@
 /* 
-  Custom JavaScript for Anchor Copy-to-Clipboard 
+  Custom JavaScript for Anchor Copy-to-Clipboard & Resource Contact Card
 */
+
+const EXTRA_RESOURCES_URL = new URL('../data/resources.json', document.currentScript.src);
+const EXTRA_SITE_ROOT_URL = new URL('../', document.currentScript.src);
 
 document.addEventListener('DOMContentLoaded', function () {
   // Select all permalinks
@@ -382,4 +385,291 @@ document.addEventListener('DOMContentLoaded', function () {
 
   document.body.addEventListener('mouseup', stopDrag);
   document.body.addEventListener('mouseleave', stopDrag);
+
+  // --- Resource Contact Card (<dialog closedby="any">) ----------------------
+  const lang = (document.documentElement.lang || 'fr').slice(0, 2) === 'en' ? 'en' : 'fr';
+  const CARD_I18N = {
+    fr: {
+      close: 'Fermer',
+      officialSite: 'Accéder au site officiel ↗',
+      call: 'Appeler le',
+      viewInDirectory: "Voir dans l'annuaire",
+      socials: 'Réseaux sociaux',
+      sources: 'Articles de presse & sources',
+      stores: 'Applications',
+      unconfirmed: 'Non confirmé',
+      checkedBy: {
+        ai: 'Sourcé par IA le',
+        volunteer: 'Vérifié par un·e bénévole le',
+        lawyer: 'Vérifié par un·e avocat·e le',
+        medical: 'Vérifié par un·e soignant·e le',
+        historian: 'Vérifié par un·e historien·ne le',
+      },
+      aiPending: 'à vérifier par un humain',
+    },
+    en: {
+      close: 'Close',
+      officialSite: 'Open official website ↗',
+      call: 'Call',
+      viewInDirectory: 'View in directory',
+      socials: 'Social media',
+      sources: 'Press articles & sources',
+      stores: 'Apps',
+      unconfirmed: 'Unconfirmed',
+      checkedBy: {
+        ai: 'AI-sourced on',
+        volunteer: 'Checked by a volunteer on',
+        lawyer: 'Checked by a lawyer on',
+        medical: 'Checked by a health professional on',
+        historian: 'Checked by a historian on',
+      },
+      aiPending: 'awaiting human check',
+    },
+  }[lang];
+
+  const CARD_STORES = { android: 'Google Play', fdroid: 'F-Droid', ios: 'App Store' };
+  const CARD_SOCIALS = {
+    bluesky: 'Bluesky',
+    mastodon: 'Mastodon',
+    x: 'X (Twitter)',
+    instagram: 'Instagram',
+    facebook: 'Facebook',
+    tiktok: 'TikTok',
+    youtube: 'YouTube',
+    peertube: 'PeerTube',
+    github: 'GitHub',
+  };
+
+  let registryPromise = null;
+  function loadRegistry() {
+    if (!registryPromise) {
+      registryPromise = fetch(EXTRA_RESOURCES_URL).then((r) => {
+        if (!r.ok) throw new Error(r.statusText);
+        return r.json();
+      });
+    }
+    return registryPromise;
+  }
+
+  function cardEl(tag, attrs = {}, ...children) {
+    const node = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (v === undefined || v === null || v === false) continue;
+      if (k === 'class') node.className = v;
+      else node.setAttribute(k, v === true ? '' : v);
+    }
+    node.append(...children.filter((c) => c !== null && c !== undefined && c !== ''));
+    return node;
+  }
+
+  let contactDialog = null;
+  function ensureContactDialog() {
+    if (contactDialog) return contactDialog;
+    contactDialog = cardEl('dialog', {
+      class: 'contact-card',
+      closedby: 'any',
+      'aria-labelledby': 'contact-card-title',
+    });
+    if (!('closedBy' in HTMLDialogElement.prototype)) {
+      contactDialog.addEventListener('click', (event) => {
+        if (event.target !== contactDialog) return;
+        const rect = contactDialog.getBoundingClientRect();
+        const isDialogContent =
+          rect.top <= event.clientY &&
+          event.clientY <= rect.top + rect.height &&
+          rect.left <= event.clientX &&
+          event.clientX <= rect.left + rect.width;
+        if (isDialogContent) return;
+        contactDialog.close();
+      });
+    }
+    document.body.appendChild(contactDialog);
+    return contactDialog;
+  }
+
+  function openContactCard(r, categories) {
+    const loc = (obj) => (obj && (obj[lang] || obj.fr)) || '';
+    const dialog = ensureContactDialog();
+    const annuaireUrl = new URL(lang === 'en' ? 'en/annuaire/' : 'annuaire/', EXTRA_SITE_ROOT_URL)
+      .href;
+    const onDirectoryPage = Boolean(document.querySelector('[data-resource-directory]'));
+
+    const socialKeys = r.socials ? Object.keys(CARD_SOCIALS).filter((k) => r.socials[k]) : [];
+    const storeKeys = r.stores ? Object.keys(CARD_STORES).filter((k) => r.stores[k]) : [];
+
+    dialog.replaceChildren(
+      cardEl(
+        'div',
+        { class: 'contact-card__header' },
+        cardEl('span', { class: 'directory__badge' }, loc(categories[r.category])),
+        cardEl(
+          'form',
+          { method: 'dialog', class: 'contact-card__close-form' },
+          cardEl(
+            'button',
+            {
+              type: 'submit',
+              value: 'close',
+              class: 'contact-card__close',
+              autofocus: true,
+              'aria-label': CARD_I18N.close,
+              title: CARD_I18N.close,
+            },
+            '×',
+          ),
+        ),
+      ),
+      cardEl('h2', { id: 'contact-card-title', class: 'contact-card__title' }, r.name),
+      r.check?.result === 'unconfirmed'
+        ? cardEl(
+            'p',
+            { class: 'directory__unconfirmed', title: r.check.note },
+            `⚠ ${CARD_I18N.unconfirmed}${r.check.note ? ` — ${r.check.note}` : ''}`,
+          )
+        : null,
+      cardEl('p', { class: 'contact-card__desc' }, loc(r.description)),
+      cardEl(
+        'div',
+        { class: 'contact-card__actions' },
+        cardEl(
+          'a',
+          {
+            class: 'contact-card__btn contact-card__btn--primary',
+            href: r.url,
+            target: '_blank',
+            rel: 'noopener',
+          },
+          `🌐 ${CARD_I18N.officialSite}`,
+        ),
+        r.phone
+          ? cardEl(
+              'a',
+              {
+                class: 'contact-card__btn contact-card__btn--phone',
+                href: `tel:${r.phone.replace(/\s/g, '')}`,
+              },
+              `📞 ${CARD_I18N.call} ${r.phone}`,
+            )
+          : null,
+        !onDirectoryPage
+          ? cardEl(
+              'a',
+              {
+                class: 'contact-card__btn',
+                href: `${annuaireUrl}#${r.id}`,
+              },
+              `🔍 ${CARD_I18N.viewInDirectory}`,
+            )
+          : null,
+      ),
+      socialKeys.length
+        ? cardEl(
+            'div',
+            { class: 'contact-card__section' },
+            cardEl('h3', { class: 'contact-card__heading' }, `💬 ${CARD_I18N.socials}`),
+            cardEl(
+              'div',
+              { class: 'contact-card__chips' },
+              ...socialKeys.map((k) =>
+                cardEl(
+                  'a',
+                  {
+                    class: 'contact-card__chip',
+                    href: r.socials[k],
+                    target: '_blank',
+                    rel: 'noopener',
+                  },
+                  `${CARD_SOCIALS[k]} ↗`,
+                ),
+              ),
+            ),
+          )
+        : null,
+      storeKeys.length
+        ? cardEl(
+            'div',
+            { class: 'contact-card__section' },
+            cardEl('h3', { class: 'contact-card__heading' }, `📲 ${CARD_I18N.stores}`),
+            cardEl(
+              'div',
+              { class: 'contact-card__chips' },
+              ...storeKeys.map((k) =>
+                cardEl(
+                  'a',
+                  {
+                    class: 'contact-card__chip',
+                    href: r.stores[k],
+                    target: '_blank',
+                    rel: 'noopener',
+                  },
+                  `${CARD_STORES[k]} ↗`,
+                ),
+              ),
+            ),
+          )
+        : null,
+      r.sources?.length
+        ? cardEl(
+            'div',
+            { class: 'contact-card__section' },
+            cardEl('h3', { class: 'contact-card__heading' }, `📰 ${CARD_I18N.sources}`),
+            cardEl(
+              'ul',
+              { class: 'contact-card__sources' },
+              ...r.sources.map((src) =>
+                cardEl(
+                  'li',
+                  {},
+                  cardEl(
+                    'a',
+                    { href: src.url, target: '_blank', rel: 'noopener' },
+                    `${src.title} ↗`,
+                  ),
+                ),
+              ),
+            ),
+          )
+        : null,
+      r.check
+        ? cardEl(
+            'p',
+            { class: 'contact-card__checked' },
+            `${CARD_I18N.checkedBy[r.check.by] ?? CARD_I18N.checkedBy.ai} `,
+            cardEl(
+              'time',
+              { datetime: r.check.date },
+              new Date(`${r.check.date}T00:00:00`).toLocaleDateString(lang, {
+                dateStyle: 'medium',
+              }),
+            ),
+            r.check.by === 'ai' ? ` · ${CARD_I18N.aiPending}` : '',
+          )
+        : null,
+    );
+
+    dialog.showModal();
+  }
+
+  document.body.addEventListener('click', async function (e) {
+    if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
+      return;
+    }
+    const trigger = e.target.closest('[data-resource-card]');
+    if (!trigger) return;
+    const resourceId = trigger.getAttribute('data-resource-card');
+    if (!resourceId) return;
+
+    e.preventDefault();
+    try {
+      const data = await loadRegistry();
+      const resource = (data.resources || []).find((r) => r.id === resourceId);
+      if (!resource) {
+        if (trigger.href) window.open(trigger.href, '_blank', 'noopener');
+        return;
+      }
+      openContactCard(resource, data.categories || {});
+    } catch {
+      if (trigger.href) window.open(trigger.href, '_blank', 'noopener');
+    }
+  });
 });

@@ -109,6 +109,7 @@ plugins:
             Filmer les forces de l'ordre: Film the police
             Dispersion, sommations et nasse: Dispersal, warnings and kettling
             Manifester sans la nationalité française: Protesting without French nationality
+            Drapeau palestinien en manifestation: The Palestinian flag at protests
             "Lycéen·nes : blocus, absences, sanctions": "High-school students: blockades, absences, sanctions"
             Violences sexistes et harcèlement en ligne: Sexist violence and online harassment
             Agressions par l'extrême droite: Far-right attacks
@@ -179,6 +180,7 @@ nav:
           - Violences sexistes et harcèlement en ligne: guides/violences-harcelement.md
       - Selon votre situation:
           - Manifester sans la nationalité française: guides/etrangers.md
+          - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Lycéen·nes : blocus, absences, sanctions": guides/lyceens.md
           - Grève, manif et travail: guides/travail.md
           - Organiser une manifestation: guides/organiser.md
@@ -188,6 +190,7 @@ nav:
           - Convaincre ses proches: guides/convaincre-ses-proches.md
       - Conseils pratiques: conseils/index.md
   - Comprendre:
+      - comprendre/index.md
       - Repères historiques: histoire/index.md
       - Répressions documentées: repressions/index.md
       - Blessé·es et mort·es: victimes/index.md

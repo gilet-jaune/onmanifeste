@@ -1,0 +1,14 @@
+{#- Who checked an entry and when (check: {date, result, by}). Shared by resource cards and the
+victims timeline; keep in sync with CHECK_BY in docs/javascripts/directory.js. -#}
+
+{%- macro checked_by(check, lang) -%}
+{%- set labels = {
+  'ai': {'fr': 'Sourcé par IA le', 'en': 'AI-sourced on'},
+  'volunteer': {'fr': 'Vérifié par un·e bénévole le', 'en': 'Checked by a volunteer on'},
+  'lawyer': {'fr': 'Vérifié par un·e avocat·e le', 'en': 'Checked by a lawyer on'},
+  'medical': {'fr': 'Vérifié par un·e soignant·e le', 'en': 'Checked by a health professional on'},
+  'historian': {'fr': 'Vérifié par un·e historien·ne le', 'en': 'Checked by a historian on'},
+} -%}
+{{ labels[check.by][lang] or labels[check.by].fr }} <time datetime="{{ check.date }}">{{ check.date }}</time>
+{%- if check.by == 'ai' %} · {{ 'à vérifier par un humain' if lang == 'fr' else 'awaiting human check' }}{% endif %}
+{%- endmacro -%}

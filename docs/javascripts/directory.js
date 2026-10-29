@@ -23,9 +23,16 @@ const DIRECTORY_I18N = {
     empty: 'Aucune ressource ne correspond. Essayez un autre mot ou une situation :',
     clear: 'Réinitialiser',
     error: 'Impossible de charger le référentiel. La liste ci-dessous reste consultable.',
-    checked: 'Vérifié le',
-    checkedUnconfirmed: 'Vérification du',
+    checkedBy: {
+      ai: 'Sourcé par IA le',
+      volunteer: 'Vérifié par un·e bénévole le',
+      lawyer: 'Vérifié par un·e avocat·e le',
+      medical: 'Vérifié par un·e soignant·e le',
+      historian: 'Vérifié par un·e historien·ne le',
+    },
+    aiPending: 'à vérifier par un humain',
     sources: 'Sources :',
+    socials: 'Réseaux :',
     install: 'Installer :',
     unconfirmed: 'Non confirmé',
     moreTags: (n) => `Tous les tags (${n})`,
@@ -40,9 +47,16 @@ const DIRECTORY_I18N = {
     empty: 'No resource matches. Try another word or a situation:',
     clear: 'Reset',
     error: 'Unable to load the directory. The list below is still available.',
-    checked: 'Checked on',
-    checkedUnconfirmed: 'Check on',
+    checkedBy: {
+      ai: 'AI-sourced on',
+      volunteer: 'Checked by a volunteer on',
+      lawyer: 'Checked by a lawyer on',
+      medical: 'Checked by a health professional on',
+      historian: 'Checked by a historian on',
+    },
+    aiPending: 'awaiting human check',
     sources: 'Sources:',
+    socials: 'Social:',
     install: 'Install:',
     unconfirmed: 'Unconfirmed',
     moreTags: (n) => `All tags (${n})`,
@@ -51,6 +65,17 @@ const DIRECTORY_I18N = {
 };
 
 const STORE_LABELS = { android: 'Google Play', fdroid: 'F-Droid', ios: 'App Store' };
+const SOCIAL_LABELS = {
+  bluesky: 'Bluesky',
+  mastodon: 'Mastodon',
+  x: 'X',
+  instagram: 'Instagram',
+  facebook: 'Facebook',
+  tiktok: 'TikTok',
+  youtube: 'YouTube',
+  peertube: 'PeerTube',
+  github: 'GitHub',
+};
 
 const TOP_TAGS = 14;
 const WEIGHTS = { name: 8, tag: 5, category: 3, description: 1 };
@@ -324,7 +349,11 @@ async function initDirectory(root) {
       el(
         'h3',
         { id: `ressource-${r.id}` },
-        el('a', { href: r.url, target: '_blank', rel: 'noopener' }, ...highlight(r.name, terms)),
+        el(
+          'a',
+          { href: r.url, 'data-resource-card': r.id, target: '_blank', rel: 'noopener' },
+          ...highlight(r.name, terms),
+        ),
       ),
       el('span', { class: 'directory__badge' }, loc(data.categories[r.category])),
       r.check.result === 'unconfirmed'
@@ -360,6 +389,23 @@ async function initDirectory(root) {
               ]),
           )
         : '',
+      r.socials
+        ? el(
+            'p',
+            { class: 'directory__socials' },
+            `${t.socials} `,
+            ...Object.keys(SOCIAL_LABELS)
+              .filter((social) => r.socials[social])
+              .flatMap((social, i) => [
+                i ? ' · ' : '',
+                el(
+                  'a',
+                  { href: r.socials[social], target: '_blank', rel: 'noopener' },
+                  SOCIAL_LABELS[social],
+                ),
+              ]),
+          )
+        : '',
       r.sources?.length
         ? el(
             'p',
@@ -374,12 +420,13 @@ async function initDirectory(root) {
       el(
         'p',
         { class: 'directory__checked' },
-        `${r.check.result === 'unconfirmed' ? t.checkedUnconfirmed : t.checked} `,
+        `${t.checkedBy[r.check.by] ?? t.checkedBy.ai} `,
         el(
           'time',
           { datetime: r.check.date },
           new Date(`${r.check.date}T00:00:00`).toLocaleDateString(lang, { dateStyle: 'medium' }),
         ),
+        r.check.by === 'ai' ? ` · ${t.aiPending}` : '',
       ),
       el(
         'div',

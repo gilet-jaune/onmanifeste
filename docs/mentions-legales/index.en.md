@@ -1,5 +1,5 @@
 ---
-source_commit: acb967be01ed92d4eea50719ef4e2efebb6cc6fd
+source_commit: 360b37c30cf527d6f5a27a30ee2755e720f89c73
 tags:
     - legal notice
 ---
@@ -25,6 +25,6 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United S
 
 ## Content and liability
 
-Information is general and does not replace a lawyer or a medical professional. Every statement is sourced and dated; content not yet reviewed by a professional or not confirmed carries a badge. See the [content policy]({{ repositories.docs.url }}/blob/main/MODERATION.md) (in French).
+Information is general and does not replace a lawyer or a medical professional. Data and texts were first **researched and sourced with the help of an artificial intelligence**, and are being reviewed by humans step by step. Every statement is sourced and dated, and the check indicator (`check`) says who checked it: AI, volunteer, lawyer, health professional or historian. Content not yet reviewed by a professional or not confirmed carries a badge. See the [content policy]({{ repositories.docs.url }}/blob/main/MODERATION.md) (in French).
 
 ## Sources

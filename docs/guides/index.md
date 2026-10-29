@@ -125,6 +125,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](etrangers.md)
 
+- **Drapeau palestinien en manifestation** [:material-flag:](drapeau-palestinien.md)
+
+    ***
+
+    Ce qui est légal, les manifestations interdites, les slogans à risque.
+
+    [:octicons-arrow-right-24: Lire](drapeau-palestinien.md)
+
 - **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md)
 
     ***

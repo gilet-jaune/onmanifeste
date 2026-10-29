@@ -94,6 +94,12 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Sources everywhere: footnotes on every factual or legal claim in tips and guides (Légifrance,
   Service-Public, Croix-Rouge, Amnesty, LDH…), optional `sources` on resources shown on cards.
   covering), first aid, police custody, avoiding disinformation, talking to loved ones.
+- Palestinian flag quick guide (FR/EN) and two more debunked official statements.
+- Elected officials & parliamentary watch resources (`anticor`, `casier-politique`, `datan`,
+  `howtheyvote`, `poligraph`) in the directory, linked from the documented repression page and the
+  new "nul·le en politique, mais je veux agir" guided-search profile; "soutenir les lycéen·nes" need
+  under the parent profile; known biases/limitations on repression and victims pages, and an Open
+  Data section on the contributing page.
 - Search: directory rendered at build time (header search finds every resource, works without JS),
   situation shortcuts, synonyms and one-typo tolerance, ranked and highlighted results, tag counts,
   live result count for screen readers, Escape to clear, suggestions when nothing matches.

@@ -13,7 +13,7 @@
 {%- macro hotlines(lang) -%}
 <ul class="sos__numbers sos__numbers--legal">
 {%- for r in resources if r.phone and r.check.result == 'confirmed' and ('antirepression' in r.tags or 'urgence' in r.tags) and r.category == 'juridique' %}
-  <li><a class="sos__call" href="tel:{{ r.phone | replace(' ', '') }}"><span class="sos__number">{{ r.phone }}</span><span class="sos__label">{{ r.name }}</span></a><a class="sos__detail" href="{{ r.url }}" target="_blank" rel="noopener">{{ 'Vérifié le' if lang == 'fr' else 'Checked on' }} {{ r.check.date }}</a></li>
+  <li><a class="sos__call" href="tel:{{ r.phone | replace(' ', '') }}"><span class="sos__number">{{ r.phone }}</span><span class="sos__label">{{ r.name }}</span></a><a class="sos__detail" href="{{ r.url }}" data-resource-card="{{ r.id }}" target="_blank" rel="noopener">{{ 'Vérifié le' if lang == 'fr' else 'Checked on' }} {{ r.check.date }}</a></li>
 {%- endfor %}
 </ul>
 {%- endmacro -%}
