@@ -12,9 +12,10 @@ tags:
 !!! abstract "L'essentiel"
 
     - Un commentaire en colère ou un partage pour dénoncer **fait monter** un contenu : **ignorez** l'extrême droite.
+    - **Ne vous attardez pas** et n'allez pas voir son profil : quelques secondes d'arrêt comptent déjà.
     - **Ne cliquez pas sur « Partager »** ; pour montrer, une **capture d'écran** anonymisée.
     - Signalez ce qui est **illégal** (plateforme, Pharos) et soutenez les personnes visées.
-    - **Aimez, commentez, partagez** ce que vous voulez voir circuler.
+    - **Aimez, commentez, enregistrez, partagez** ce que vous voulez voir circuler.
     - Appeler à manifester : relayer est sans risque, mais organiser une manif non déclarée ou menacer est puni.
 
 Sur les réseaux, ce qui fait réagir est montré à plus de monde. Un commentaire indigné, un partage pour dénoncer ou une vidéo regardée jusqu'au bout **font monter** les contenus d'extrême droite au lieu de les faire taire. Bonne nouvelle : la même mécanique marche dans l'autre sens.
@@ -24,6 +25,7 @@ Sur les réseaux, ce qui fait réagir est montré à plus de monde. Un commentai
 - Les recommandations s'appuient sur vos interactions : vidéos aimées ou partagées, comptes suivis, **commentaires publiés**.[^tiktok-recommandation]
 - Regarder une vidéo **jusqu'au bout** est un signal d'intérêt fort, qui pèse plus que les autres.[^tiktok-recommandation]
 - Pour l'algorithme, un commentaire de colère reste un commentaire : il compte comme de l'intérêt.[^tiktok-recommandation]
+- **Sur Instagram, s'arrêter suffit.** Dans le fil, Instagram prédit surtout si vous allez **vous arrêter quelques secondes** sur une publication, la commenter, l'aimer, la partager ou **toucher la photo de profil** de son auteur. Dans Explorer, ce sont les mentions J'aime, les **enregistrements** et les partages ; la popularité d'une publication y pèse « bien plus » que dans le fil : vos réactions la montrent aussi à des inconnu·es.[^instagram-classement]
 - **La colère contre « l'autre camp » est ce qui circule le mieux.** Sur 2,7 millions de publications Facebook et Twitter, celles qui parlent du camp politique adverse sont partagées environ **deux fois plus** que les autres ; chaque mot qui le désigne augmente les chances de partage de 67 %. La réaction la plus fréquente est la colère.[^rathje-2021]
 - **Les algorithmes ne sont pas neutres.** Sur Twitter, dans 6 pays sur 7 étudiés (dont la France), les élu·es de la droite traditionnelle étaient davantage mis en avant par l'algorithme que ceux de gauche ; l'étude n'a en revanche pas trouvé d'avantage pour les extrêmes par rapport aux modéré·es.[^huszar-2022] En Allemagne, avant les législatives de 2025, des comptes neufs intéressés à égalité par les quatre grands partis se sont vu recommander, parmi les contenus de partis qu'ils ne suivaient pas, 78 % de contenus favorables à l'AfD (extrême droite) sur TikTok et 64 % sur X.[^global-witness-afd-2025]
 - **Le « silence stratégique » vient du journalisme.** Les rédactions ont longtemps choisi de ne pas couvrir certains sujets (suicides, violences) pour ne pas les propager.[^donovan-boyd-2019] Entre 2016 et 2018, des groupes haineux ont justement utilisé la couverture médiatique, y compris critique, pour diffuser leurs messages.[^phillips-2018]
@@ -35,10 +37,11 @@ Sur les réseaux, ce qui fait réagir est montré à plus de monde. Un commentai
 - [ ] **Ne cliquez pas sur « Partager »**, même pour envoyer le contenu en message privé ou copier son lien : un partage, même privé, est un signal d'intérêt.[^tiktok-recommandation]
 - [ ] **Pour montrer ou répondre, faites une capture d'écran** : masquez le nom, la photo et le pseudo du compte, et publiez-la sur votre propre post. Le contenu est visible, sans renvoyer de trafic ni d'engagement vers son auteur.
 - [ ] **Gardez le lien pour vous** : notez-le à part (avec la date) si vous devez le signaler sur Pharos ou le transmettre à un·e avocat·e, mais ne le publiez pas.
-- [ ] **Faites défiler** : quittez la vidéo tout de suite, ne la regardez pas jusqu'au bout.
-- [ ] Utilisez **« Pas intéressé »** et masquez le créateur : vous voyez moins ce type de contenu.[^tiktok-recommandation]
-- [ ] **Bloquez** ou masquez les comptes qui vous harcèlent, sans leur répondre.
-- [ ] **Signalez** les contenus illégaux (appel à la haine, menaces, apologie de violences) à la plateforme et sur {{ res("pharos") }}. Pas de signalements en masse de contenus seulement choquants : ils sont inefficaces et peuvent se retourner contre vous.
+- [ ] **Faites défiler** : quittez la vidéo tout de suite, ne la regardez pas jusqu'au bout. Même un arrêt de quelques secondes est compté.[^instagram-classement]
+- [ ] **N'allez pas voir son profil ni ses stories**, même pour vous moquer : Instagram tient compte de la fréquence à laquelle vous consultez un compte et interagissez avec lui pour le faire remonter chez vous.[^instagram-classement]
+- [ ] Utilisez **« Pas intéressé »** et masquez le créateur : vous voyez moins ce type de contenu.[^tiktok-recommandation] Sur Instagram, la publication disparaît tout de suite et les suggestions semblables diminuent ; vous pouvez aussi **mettre un compte en sourdine** (il n'en sait rien) ou **suspendre les publications suggérées pendant 30 jours**.[^instagram-controle-fil][^instagram-classement]
+- [ ] **Bloquez** ou masquez les comptes qui vous harcèlent, sans leur répondre. Bloquez pour vous protéger, pas pour faire baisser le compte : Instagram ne présente pas le blocage comme un signal de classement.[^instagram-classement] Et ne faites pas le tour de son profil avant.
+- [ ] **Signalez** les contenus illégaux (appel à la haine, menaces, apologie de violences) à la plateforme et sur {{ res("pharos") }}. Sur Instagram, un signalement aide aussi à classer plus bas les contenus semblables.[^instagram-classement] Pas de signalements en masse de contenus seulement choquants : ils sont inefficaces et peuvent se retourner contre vous.
 
 ## Ignorer, ce n'est pas se taire
 
@@ -50,8 +53,8 @@ Ignorer un compte ne veut pas dire laisser faire :
 
 ## Faire monter ce qui compte
 
-- [ ] **Aimez, commentez, partagez** les contenus que vous voulez voir circuler : médias indépendants, collectifs, témoignages. C'est le même levier, utilisé pour vos causes.
-- [ ] Regardez-les **jusqu'au bout** et abonnez-vous.
+- [ ] **Aimez, commentez, enregistrez, partagez** les contenus que vous voulez voir circuler : médias indépendants, collectifs, témoignages. C'est le même levier, utilisé pour vos causes.[^instagram-classement]
+- [ ] Regardez-les **jusqu'au bout** et abonnez-vous. Sur Instagram, ajoutez-les à vos **Favoris** : leurs publications remontent dans votre fil.[^instagram-controle-fil]
 - [ ] Répondez aux personnes qui doutent ou qui sont ciblées, pas aux comptes qui attisent la haine ([convaincre ses proches](convaincre-ses-proches.md)).
 
 ## Appeler à manifester en ligne

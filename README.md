@@ -123,11 +123,13 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [SOS homophobie](https://www.sos-homophobie.org/) - Association d'écoute et de soutien des victimes de LGBTphobies, y compris d'agressions.
 - [Service-Public — Audition libre](https://www.service-public.gouv.fr/particuliers/vosdroits/F32124) - Fiche officielle : vos droits si vous êtes convoqué·e par la police pour une « audition libre » (partir à tout moment, avocat·e, silence).
 - [Défenseur des droits — Lanceurs d'alerte](https://www.defenseurdesdroits.fr/orienter-et-proteger-les-lanceurs-dalerte-180) - Oriente et protège les lanceurs et lanceuses d'alerte, y compris contre les représailles liées au signalement.
+- [Flagrant déni](https://www.flagrant-deni.fr/) - ONG d'investigation pour les droits des victimes de violences policières : guide juridique « du 17 », enquêtes sur l'impunité et l'indemnisation, mise en lien avec des avocat·es et des collectifs.
 
 ## Santé & premiers secours
 
 - [Les gestes à adopter en manif (brochure street medics)](https://paris-luttes.info/IMG/pdf/brochure_1_les_gestes_a_adopter_en_manif.pdf) - Brochure de street medics : se protéger et réagir face aux gaz lacrymogènes, blessures et malaises en manifestation.
 - [Soins post-manif (brochure)](https://www.nantes.indymedia.org/wp-content/uploads/2022/12/soins_post_manif_brochure.pdf) - Brochure sur les soins après une manifestation : blessures, effets des gaz, contrecoup psychologique.
+- [Medicaction — Guides street medics](https://medicaction.org/guides/) - Collectif de street medics : guides de soins en manifestation et fiche recto-verso « Les gestes à adopter en manif » (équipement, gaz, arrestation, gestion d'une personne blessée, numéros utiles).
 - [France Victimes (116 006)](https://www.france-victimes.fr/) - Réseau d'associations d'aide aux victimes : écoute, soutien psychologique et aide juridique gratuits, 7j/7 au 116 006. Tél. : 116 006.
 - [Gaz lacrymogènes : effets à long terme (Reporterre)](https://reporterre.net/Les-gaz-lacrymogenes-dangereux-a-long-terme-Des-manifestants-temoignent) - Témoignages et enquête auprès de manifestant·es exposé·es : symptômes respiratoires, cutanés ou digestifs qui persistent des jours ou des semaines.
 - [Rapport sur la toxicité du gaz CS (Reporterre)](https://reporterre.net/Un-rapport-pointe-les-effets-toxiques-des-gaz-lacrymogenes) - Présentation du rapport de l'association Toxicologie-Chimie (2020), synthèse bibliographique sur les effets du gaz CS. Ce n'est pas une étude clinique : certaines hypothèses, comme le rôle du cyanure, restent débattues.
@@ -188,6 +190,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 
 ## Information & agenda
 
+- [Maintiendelordre.fr](https://maintiendelordre.fr/) - Projet journalistique indépendant (créé en 2020) : fiches pédagogiques sur les unités (BAC, CRS, BRAV-M…), les armes (LBD, lanceurs, grenades GENL, GM2L, ASSD, EF-SON, GL-304) et les règles d'emploi de la force.
 - [Demosphere](https://paris.demosphere.eu/) - Agenda alternatif des manifestations et rassemblements (déclinaisons locales).
 - [Manifs et handicap (Reporterre)](https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant) - Enquête sur les obstacles rencontrés par les personnes handicapées pour manifester et les pratiques de cortèges plus accessibles.
 - [La Horde](https://lahorde.samizdat.net/) - Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.

@@ -1,5 +1,5 @@
 ---
-source_commit: 39a0bc9f2a20bf382260eb45790d6cd6f36d84f8
+source_commit: 15583d5ed7e12d430ebd94cc3a97f689faba99f5
 tags:
     - home
 ---
@@ -28,7 +28,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     ***
 
-    About thirty guides for before, during and after the protest: checklist, right to protest, kit, communicating, phone, dispersal, first aid, filming the police, custody, complaints and trials, mental health; high-school students, work, foreign nationals, disability; organising, social media, disinformation. Available offline.
+    About thirty guides for before, during and after the protest: checklist, right to protest, kit, communicating, phone, dispersal, first aid, weapons and injuries, filming the police, custody, complaints and trials, mental health; high-school students, work, foreign nationals, disability; organising, social media, disinformation. Available offline.
 
     [:octicons-arrow-right-24: Read the guides](guides/index.md)
 

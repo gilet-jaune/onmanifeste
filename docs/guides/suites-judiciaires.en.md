@@ -1,5 +1,5 @@
 ---
-source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
+source_commit: f136eaf788fd58a1972e636bea977e3529cf7918
 review: juridique
 review_status: pending
 tags:
@@ -39,15 +39,15 @@ tags:
 
 ## After violence: document injuries and file a complaint
 
-1. **Detailed medical certificate**: see a doctor (GP, hospital A&E or forensic medical unit) as soon as possible. Ask for a detailed description of every injury, its psychological impact and the number of days of **ITT** (total incapacity for work, even if you are not employed).[^ldh-violences]
-2. **Physical evidence**: photograph your injuries with a ruler for scale, keep stained or torn clothes (unwashed), and gather witness contact details and videos.[^ldh-violences][^witness-preuve]
+1. **Detailed medical certificate**: see a doctor (GP, hospital A&E or forensic medical unit) as soon as possible. Ask for a detailed description of every injury (dimensions, typical pattern), its psychological impact and the number of days of **ITT** (total incapacity for work, even if you are not employed).[^ldh-violences]
+2. **Physical evidence**: photograph your injuries with a ruler for scale, photograph and keep **cooled munition debris** (LBD rubber bullets, GENL pellets, red GM2L or black GL-304 fragments, batch markings — [see "Police weapons: effects, injuries and debris"](armes-police.md)), keep stained or torn clothes (unwashed), and gather witness contact details and videos.[^ldh-violences][^witness-preuve][^desarmons-armements-2020]
 3. **File a criminal complaint (plainte)**:
     - Every police or gendarmerie station is **legally required** to take your complaint, regardless of where the events took place (refusing to take a complaint is unlawful).[^sp-plainte]
     - **To avoid being turned away or pressured at the desk**: send your complaint directly by **registered letter with acknowledgement of receipt (LRAR)** to the **public prosecutor (procureur de la République)** at the court of the place where the events occurred (dated and signed account, copy of the medical certificate and evidence).[^sp-plainte][^ldh-violences]
 4. **Additional reports** (do **not** replace a criminal complaint):
     - Refer the case to the {{ res("defenseur-des-droits") }} (free, independent investigation into law-enforcement ethics).[^ddd]
     - Report the facts to the IGPN (police) or {{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn]
-5. Step-by-step guide: {{ res("ldh-que-faire-violences", "LDH — What to do about police violence? (in French)") }}
+5. Guides and support: {{ res("ldh-que-faire-violences", "LDH — What to do about police violence? (in French)") }} and {{ res("flagrant-deni") }} (legal guide and victim support).
 
 ## Summoned for a "voluntary interview" (audition libre)
 

@@ -14,7 +14,7 @@ tags:
     - **Masque de ski** pour les yeux, demi-masque **A2P3** ou **ABEK1P3** contre le gaz, bouchons d'oreille.
     - Visage **découvert** tant que vous n'êtes pas exposé·e au gaz : le dissimuler sans motif légitime est un délit.
     - Dans le sac : pièce d'identité, eau, sérum physiologique, batterie, numéros sur papier.
-    - À la maison : tout ce qui peut passer pour une **arme**, et les listes de **noms** de camarades.
+    - **À laisser à la maison** : tout ce qui peut passer pour une **arme**, et les listes de **noms** de camarades.
 
 Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac léger. L'objectif : se protéger, pouvoir partir vite, et ne rien avoir sur soi qui puisse vous être reproché.
 
@@ -35,7 +35,7 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 | Lunettes de piscine à ventouses | **À éviter si vous avez mieux** | Elles bloquent le gaz, mais ce ne sont pas des équipements de protection : aucune certification contre les chocs, petites coques plaquées sur l'orbite, buée rapide et champ de vision réduit. [^en166] |
 | Lunettes de soleil ou de vue seules | Ne protègent pas | Le gaz passe autour des verres. [^allodocteurs-proteger] |
 | Demi-masque à cartouches **A2P3** ou **ABEK1P3** | Filtrer les particules et vapeurs du gaz lacrymogène (CS) | Le **P3** filtre plus de 99,95 % des fines particules ; la partie **A/ABEK** retient les vapeurs. Un masque complet protège aussi les yeux et fuit moins. [^abek] |
-| Masque **FFP2/FFP3** | Particules et poussières | Ne filtre **pas** les vapeurs : utile, mais insuffisant contre un gaz dense. [^abek] |
+| Masque **FFP2/FFP3** (masque de chantier filtrant) | Particules et poussières | Ne filtre **pas** les vapeurs : utile, mais insuffisant contre un gaz dense. Les masques **chirurgicaux sont inutiles** contre le gaz. [^abek][^medicaction-gestes] |
 | Bouchons d'oreille | Protéger l'ouïe des grenades explosives | En mousse, toujours dans une poche. |
 | Protections du corps : genouillères, coudières, protège-poignets (type roller), protège-tibias | Amortir chutes, bousculades, coups et projectiles dans les membres | Portez-les **sous les vêtements**, discrètes et souples ; des street medics en utilisent aussi. [^se-proteger] |
 | Casque (vélo, ski) | Protéger la tête des chutes et des projectiles | Le plus visible : il fait souvent débat et peut être confisqué lors des fouilles. [^outside] |
@@ -53,8 +53,9 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 
 - [ ] **Pièce d'identité** (un contrôle sans papiers peut mener à une vérification d'identité de 4 h), un peu d'argent liquide, titre de transport.[^sp-controle]
 - [ ] **Eau** : une bouteille pour boire, une pour rincer.
-- [ ] **Sérum physiologique** en dosettes (rinçage des yeux), pansements, compresses.
-- [ ] En-cas sucré, médicaments personnels avec l'ordonnance.
+- [ ] **Sérum physiologique** en dosettes (rinçage des yeux), pansements, compresses ([trousse de soins détaillée](premiers-secours.md#trousse-de-soins)).
+- [ ] En-cas sucré, médicaments personnels avec **une copie de l'ordonnance** (utile en cas d'arrestation).[^medicaction-gestes]
+- [ ] Pour les personnes réglées : des **serviettes hygiéniques** plutôt que des tampons, jugés trop dangereux portés longtemps.[^medicaction-gestes]
 - [ ] Batterie externe ; téléphone chargé, verrouillé par **code** (pas l'empreinte ni le visage).[^eff-protest]
 - [ ] **Sauvegarde automatique** des photos activée en données mobiles, sur un service chiffré ([voir « Filmer les forces de l'ordre »](filmer.md)).
 - [ ] Papier avec les numéros utiles ([voir « Ne jamais rester seul·e »](ne-pas-rester-seul.md)).

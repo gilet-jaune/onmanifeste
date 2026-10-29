@@ -764,3 +764,103 @@ document.addEventListener(
   },
   true,
 );
+
+/*
+  Share links ("Pourquoi nous rejoindre ?", persuasion guide): shows the full, readable address of
+  each short link (hooks/short_links.py) and adds "copy the message" / "share" buttons. Without
+  JavaScript the short link still works.
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  const fr = document.documentElement.lang !== 'en';
+  const L = fr
+    ? { copy: 'Copier le message', copied: 'Copié !', share: 'Partager…' }
+    : { copy: 'Copy the message', copied: 'Copied!', share: 'Share…' };
+  const absolute = (link) => new URL(link.getAttribute('href'), window.location.href).href;
+  const showAddress = (link) => (link.textContent = absolute(link).replace(/^https?:\/\//, ''));
+
+  document.querySelectorAll('[data-share]').forEach((box) => {
+    const link = box.querySelector('a.rallier__short');
+    if (!link) return;
+    showAddress(link);
+    // Read at click time: the picker below can change the link.
+    const message = () => box.getAttribute('data-message');
+
+    const copy = document.createElement('button');
+    copy.type = 'button';
+    copy.className = 'rallier__share-btn';
+    copy.textContent = L.copy;
+    copy.addEventListener('click', () => {
+      navigator.clipboard?.writeText(`${message()} ${absolute(link)}`).then(() => {
+        copy.textContent = L.copied;
+        setTimeout(() => (copy.textContent = L.copy), 1500);
+      });
+    });
+    box.append(' ', copy);
+
+    if (navigator.share) {
+      const share = document.createElement('button');
+      share.type = 'button';
+      share.className = 'rallier__share-btn';
+      share.textContent = L.share;
+      share.addEventListener('click', () =>
+        navigator.share({ text: message(), url: absolute(link) }).catch(() => {}),
+      );
+      box.append(' ', share);
+    }
+  });
+
+  /*
+    "Envoyer à un·e [profil]" picker: while nobody touches it, it cycles through the profiles
+    (not with prefers-reduced-motion); choosing one stops it and updates the link below.
+  */
+  document.querySelectorAll('[data-share-picker]').forEach((picker) => {
+    const select = picker.querySelector('select');
+    const link = picker.querySelector('a.rallier__short');
+    if (!select || !link) return;
+    const update = () => {
+      link.setAttribute('href', select.selectedOptions[0].getAttribute('data-href'));
+      showAddress(link);
+    };
+    let timer = null;
+    const stop = () => clearInterval(timer);
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      timer = setInterval(() => {
+        if (!select.isConnected) return stop();
+        select.selectedIndex = (select.selectedIndex + 1) % select.options.length;
+        update();
+      }, 2500);
+    }
+    for (const evt of ['focus', 'pointerdown', 'change', 'keydown'])
+      select.addEventListener(evt, stop);
+    picker.addEventListener('click', stop);
+    select.addEventListener('change', update);
+  });
+});
+
+/*
+  "Vous êtes [prof…]" on "Pourquoi nous rejoindre ?": cycles through the profile chips like the
+  guided search rotator, pauses on hover or focus, and jumps to the profile shown when clicked.
+  Does not move with prefers-reduced-motion.
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  const line = document.querySelector('[data-rallier-rotator]');
+  const chips = [...document.querySelectorAll('.rallier__pick a.timeline-filters__chip')];
+  if (!line || !chips.length) return;
+  const link = line.querySelector('a');
+  line.hidden = false;
+  let i = 0;
+  let paused = false;
+  const show = () => {
+    link.textContent = `${chips[i].textContent.trim()}…`;
+    link.setAttribute('href', chips[i].getAttribute('href'));
+  };
+  for (const evt of ['mouseenter', 'focus']) link.addEventListener(evt, () => (paused = true));
+  for (const evt of ['mouseleave', 'blur']) link.addEventListener(evt, () => (paused = false));
+  show();
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  setInterval(() => {
+    if (paused) return;
+    i = (i + 1) % chips.length;
+    show();
+  }, 2500);
+});

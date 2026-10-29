@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: dc0832ad5dc63ebc446a9461b0a2fb34345a7d42
 review: juridique
 review_status: pending
 tags:
@@ -15,7 +15,7 @@ tags:
     - **Ski goggles** for the eyes, an **A2P3** or **ABEK1P3** half-mask against gas, earplugs.
     - Keep your face **uncovered** until you are exposed to gas: covering it without a legitimate reason is an offence.
     - In the bag: ID, water, saline solution, power bank, numbers on paper.
-    - Leave at home: anything that could pass for a **weapon**, and lists of comrades' **names**.
+    - **Leave at home**: anything that could pass for a **weapon**, and lists of comrades' **names**.
 
 Simple, covering clothes with no unnecessary distinctive signs, and a small light bag. The goal: protect yourself, be able to leave quickly, and carry nothing that could be held against you.
 
@@ -36,7 +36,7 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 | Suction swim goggles | **Avoid if you have better** | They block gas, but they are not protective equipment: no impact certification, small cups pressed on the eye socket, fog up quickly, narrow field of view. [^en166] |
 | Sunglasses or glasses alone | Do not protect | Gas gets in around the lenses. [^allodocteurs-proteger] |
 | Half mask with **A2P3** or **ABEK1P3** cartridges | Filter particles and vapours of tear gas (CS) | **P3** filters more than 99.95 % of fine particles; the **A/ABEK** part captures vapours. A full-face mask also protects the eyes and leaks less. [^abek] |
-| **FFP2/FFP3** mask | Particles and dust | Does **not** filter vapours: useful, but not enough against dense gas. [^abek] |
+| **FFP2/FFP3** mask (filtering site mask) | Particles and dust | Does **not** filter vapours: useful, but not enough against dense gas. **Surgical masks are useless** against gas. [^abek][^medicaction-gestes] |
 | Earplugs | Protect hearing from explosive grenades | Foam ones, always in a pocket. |
 | Body protection: knee pads, elbow pads, wrist guards (roller type), shin guards | Cushion falls, crushes, blows and projectiles on the limbs | Wear them **under your clothes**, discreet and flexible; street medics use them too. [^se-proteger] |
 | Helmet (bike, ski) | Protect the head from falls and projectiles | The most visible item: often debated and may be confiscated at checks. [^outside] |
@@ -54,8 +54,9 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 
 - [ ] **ID** (a check without papers can lead to an identity verification of up to 4 hours), some cash, transport ticket.[^sp-controle]
 - [ ] **Water**: one bottle to drink, one to rinse.
-- [ ] **Saline** single doses (eye rinse), plasters, compresses.
-- [ ] Sugary snack, personal medication with the prescription.
+- [ ] **Saline** single doses (eye rinse), plasters, compresses ([detailed first-aid kit](premiers-secours.md#first-aid-kit)).
+- [ ] Sugary snack, personal medication with **a copy of the prescription** (useful if you are arrested).[^medicaction-gestes]
+- [ ] If you menstruate: **sanitary pads** rather than tampons, which are considered too risky when worn for a long time.[^medicaction-gestes]
 - [ ] Power bank; phone charged and locked with a **PIN** (not fingerprint or face).[^eff-protest]
 - [ ] **Automatic photo backup** on over mobile data, to an encrypted service ([see "Film the police"](filmer.md)).
 - [ ] Paper with useful numbers ([see "Never stay alone"](ne-pas-rester-seul.md)).

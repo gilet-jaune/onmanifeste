@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: c76328697befaf4ba62171cc44267c34c1e4b0dc
 tags:
     - guides
     - communication
@@ -31,11 +31,12 @@ On site, the mobile network often saturates, and a phone can be lost or seized. 
 
     If the network is cut or saturated, use **Briar**, even if your group is mostly on iPhone: you only need **one Android user per group**, the **comms lead**, who centralises messages and relays them by word of mouth. Briar is end-to-end encrypted and needs no hardware or phone number.[^briar-how] Install Briar **before** the protest: once you are cut off from the mobile network, you can't download it. Keep Bitchat as a fallback: it allows a phone to be tracked.[^bitchat-whitepaper]
 
-## If the Internet is cut
+## If the Internet or social media are cut
 
-The mobile network can saturate, be jammed or be cut. Have a plan that works **with no network at all**.
+The mobile network can saturate, be jammed or be cut. The government can also seek to block specific platforms: after TikTok was suspended in New Caledonia in May 2024, according to documents published by Blast, the Prime Minister's office wrote on 22 October 2026 to the four main telecom operators asking them to prepare a DNS block on TikTok, Instagram, Snapchat and X; the measure was ultimately not applied.[^blast-coupure-reseaux-2026][^wiki-24-octobre-2026] Have a plan that works **without centralised platforms, or with no network at all**.
 
-- **Briar or Meshtastic**: see the comparison above, to install and test beforehand.
+- **If only social media are blocked by DNS filtering**: encrypted messengers like {{ res("signal") }} generally keep working, and an account-free VPN ({{ res("mullvad-vpn") }}) or the Tor network ({{ res("orbot") }}, {{ res("tor-browser") }}) bypasses a carrier DNS block.[^blast-coupure-reseaux-2026]
+- **Briar or Meshtastic**: see the comparison above, to install and test beforehand if all mobile Internet is cut.
 - **PMR446 walkie-talkies**: usable without a licence or subscription across the European Union, a few kilometres of range in town.[^wiki-pmr446] But **nothing is encrypted**: anyone tuned to the same channel hears everything, police included.[^wiki-pmr446] Keep them for non-sensitive instructions ("we're moving", "point B") and agree on the channel beforehand.
 - **Texts and calls**: if only mobile data is cut, they may still get through, but they are not encrypted.
 - **The paper plan**, which never breaks down:

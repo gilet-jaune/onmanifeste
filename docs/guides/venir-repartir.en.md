@@ -1,5 +1,5 @@
 ---
-source_commit: 233f7f2822a412dcf41001d544c9137ff388cde8
+source_commit: f136eaf788fd58a1972e636bea977e3529cf7918
 tags:
     - guides
     - transport
@@ -52,6 +52,14 @@ The journey matters as much as the march: plan the way there **and back**, with 
 - If your station is closed, **walk** to the next one rather than waiting there.[^fermeture]
 - Don't go home **alone**, especially at night; send a "home safe" message to your contact.
 - If you were tear-gassed, change your outer layer before taking public transport ([first aid](premiers-secours.md)).
+
+### Back home: decontamination and care
+
+If you were exposed to tear gas:[^medic-soins]
+
+- [ ] **Take off clothes from the bottom down**: unbutton or pull down; avoid pulling jumpers or T-shirts over your head to keep from rubbing gas crystals across your eyes or face.
+- [ ] **Cold shower first**: warm or hot water dilates skin pores and reactivates the CS gas burning sensation. Rinse thoroughly with cool water for several minutes without scrubbing before using soap.
+- [ ] **Wash clothes separately**: machine-wash them on their own, away from the rest of your laundry, to avoid contaminating other clothes.
 
 [:octicons-arrow-right-24: The "I am on my way" path](../parcours/index.md?je=en-route)
 

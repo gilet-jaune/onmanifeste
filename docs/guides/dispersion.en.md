@@ -1,5 +1,5 @@
 ---
-source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
+source_commit: 6e798e56840bf305cea81888fe7e3b42ef98500f
 review: juridique
 review_status: pending
 tags:
@@ -46,6 +46,7 @@ Recognising a dispersal order, and leaving in time, avoids arrest: staying after
 
 - They are announced by the police, often by **loudspeaker** ("Obéissance à la loi, dispersez-vous"), before force is used.[^ldh-dispersion]
 - From the **first warning**, start leaving: the second can follow quickly, with gas or a charge right after.
+- **Don't panic during a charge**: crowd-control units (CRS, mobile gendarmerie, CSI), usually in full armour, rarely charge over more than **70 m**, unlike the BAC (in jeans). **Don't pick up grenades by hand**, especially unexploded ones.[^medicaction-gestes]
 
 ## Leaving safely
 

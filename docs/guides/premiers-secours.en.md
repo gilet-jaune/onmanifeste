@@ -1,5 +1,5 @@
 ---
-source_commit: 68203f7bc38026e618f87c3b4e0bff5241e16843
+source_commit: 6e798e56840bf305cea81888fe7e3b42ef98500f
 review: medical
 review_status: pending
 tags:
@@ -13,7 +13,8 @@ tags:
 !!! abstract "Key points"
 
     - **Protect, alert, help**; life-threatening emergency: **112** or **15**, with a precise location.
-    - Gas: get out of the cloud **facing the wind**, don't rub, **rinse** with saline solution.
+    - Gas: get out of the cloud **facing the wind**, without running, don't rub, **rinse** with saline solution.
+    - Injured person: when in doubt, **15**; pressure point if bleeding heavily; no medical procedures (stitching, removing fragments).
     - Eye injury: **don't rinse**, cover without pressing, call 112.
     - Head injury: don't leave the person alone; vomiting or confusion, call 112.
     - Afterwards: get any injury **recorded** (certificate with ITT) and keep track of symptoms.
@@ -45,21 +46,55 @@ Three reflexes, in order: **protect** (get yourself and the person to safety), *
 
 ## Tear gas
 
-1. **Get out of the cloud**: move away, stand **facing the wind**, on higher ground if possible. Don't run into the crowd.[^medic-gestes]
-2. **Don't rub** your eyes or face.
-3. **Rinse the eyes** generously with saline or clean water, head tilted to the side, from the inner to the outer corner of the eye.[^medic-gestes]
-4. Remove contact lenses if you wear them (clean hands).[^allodocteurs-proteger]
-5. Spit, blow your nose, don't swallow.
-6. After the protest: **cold** shower first (hot water opens the pores), wash clothes separately.[^medic-soins]
+1. **Don't panic**: the situation is **temporary**, and running will only make you swallow more gas. If you have protection, protect **your eyes first**, so you can find your bearings.[^medicaction-gestes]
+2. **Get out of the cloud**: check the **wind direction** and where the police are, move away (often ten metres or so to the side is enough), stand **facing the wind**, on higher ground if possible. Don't run into the crowd: leave **at a calm jog** to avoid crowd surges.[^medic-gestes][^medicaction-gestes]
+3. **Without a mask**: make an **air pocket** inside your jacket or jumper and take **small breaths every ten seconds** (without holding your breath, so as not to panic). **Don't bend down**: gas sinks towards the ground (take care with children).[^medicaction-gestes]
+4. **Don't rub** your eyes or face.
+5. **Rinse the eyes** generously with saline or clean water, head tilted to the side, from the inner to the outer corner of the eye.[^medic-gestes]
+6. Remove contact lenses if you wear them (clean hands).[^allodocteurs-proteger]
+7. Spit, blow your nose, don't swallow.
+8. After the protest: **cold** shower first (hot water opens the pores), wash clothes separately.[^medic-soins]
+
+If you are struggling or disoriented, **wave an arm** to signal it. If you are doing better, **help** others: tap the person's shoulder to show you are there to help (and not a cop), invite them not to run and to leave calmly.[^medicaction-gestes]
 
 See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, and in case of asthma, pregnancy or heart conditions.
+
+## Helping an injured person
+
+!!! info "When in doubt, call 15"
+
+    Better to call for nothing than too late. You can give **first aid** (chest compressions, recovery position, quick disinfection, pressure point): these are first-aider skills. **Medical procedures** (stitching, removing fragments) are on the other hand **strongly discouraged**, and **do not give medication**.[^medicaction-gestes]
+
+**First contact**: channel the crowd by speaking clearly and **assigning tasks to specific people** ("you in the red T-shirt, call 15"), to avoid the bystander effect. Priorities depend on the situation: form a **safety perimeter** if the area is dangerous, watch the surroundings, call the emergency services.[^medicaction-gestes]
+
+- Ask people **not to photograph the victim** ("respect the victim's privacy, their safety comes first, thank you").
+- Someone able to give care takes charge of it; another takes care of the **psychological side**: introduce yourself calmly, try to find one of their acquaintances.
+- Ask the calmest bystanders to explain what happened, to assess the causes and consequences of the injury.
+
+**Assessment, in order (the ABC)**:[^medicaction-gestes]
+
+1. **L: large wound.** Very serious wound (large vein or artery): apply a **pressure point** at once (press hard where it bleeds heavily); a tourniquet **only as a last resort**.
+2. **Address** the person: talk to them, ask them to squeeze your hands, see if they react to stimuli.
+3. **A: airway.** Check they are breathing: listen close to their mouth (or watch for mist on a smartphone held in front of it) and see whether their chest rises.
+4. **B: bleeding.** Check they have no wounds that keep bleeding.
+5. **C: circulation.** Take their pulse: middle and index finger (**never the thumb**) on the inside of the wrist with light pressure, or in the hollow of the neck under the jaw. A person who is feeling faint has a very weak pulse.
+
+## First-aid kit
+
+Don't perform a procedure you don't know: get trained with {{ res("medicaction-guides") }}.[^medicaction-gestes]
+
+- **Basics**: non-woven absorbent compresses, medical tape and adhesive plasters, **chlorhexidine**-type disinfectant (avoid iodine solutions such as Betadine), sterile gloves, ideally **latex-free** (stored in pairs in film canisters or Kinder egg capsules), something to "re-sugar" a faint person (a drinkable fruit compote for example).
+- **Depending on your training**: survival blanket (gold side out, for shock), cold pack and cold spray, bandage rolls and sterile compresses in several sizes, triangular bandages, tweezers, safety pin, spare torch and batteries, pen (to note the time a tourniquet was applied, for example), tulle gras dressing, **scissors**.
+- **Skin, mouth, nose**: Medicaction mentions **Maalox** (never on the eyes, for which saline solution is used).
+- **Beware of confiscation**: saline, Maalox, filtering masks, sealed eye goggles and scissors are **often seized**, or even objectionable depending on context, during searches ([see "Protest kit and outfit"](kit-manif.md)).[^medicaction-gestes]
 
 ## Injuries
 
 - **Bleeding**: press hard with a compress or clean cloth, without letting go, until help arrives.[^cr-hemorragie]
+- **Grenade shrapnel peppering (GM2L, GL-304, stun munition)**: tell emergency staff that red/orange plastic or black rubber fragments are **invisible on standard X-rays** (ask for an ultrasound or CT scan) and watch for shortness of breath or dizziness from the **blast effect** ([see "Police weapons: effects, injuries and debris"](armes-police.md)).[^desarmons-grenades-2024]
 - **Head blow** (baton, projectile, fall): have the person sit or lie down, don't leave them alone, call 112 if they vomit, are confused, drowsy or lost consciousness, even briefly.[^medic-gestes]
 - **Eye injury**: don't rinse or touch an eye hurt by a projectile; cover it without pressing and call 112.
-- **Burn** (grenade): cool with lukewarm water for 10 to 20 minutes; don't burst blisters.[^cr-brulure]
+- **Burn** (grenade, tear-gas puck): cool with lukewarm water for 10 to 20 minutes; don't burst blisters.[^cr-brulure]
 - **Explosion noise** and ringing ears: see someone quickly, hearing damage is better treated early.
 
 ## Fainting, heat, panic attack

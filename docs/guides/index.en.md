@@ -1,5 +1,5 @@
 ---
-source_commit: 39a0bc9f2a20bf382260eb45790d6cd6f36d84f8
+source_commit: 15583d5ed7e12d430ebd94cc3a97f689faba99f5
 tags:
     - guides
 ---
@@ -99,6 +99,14 @@ Guides to read before you go, **available offline** once the site has been opene
     Tear gas, injuries, fainting, shock: the right moves.
 
     [:octicons-arrow-right-24: Read](premiers-secours.md)
+
+- **Police weapons: effects, injuries and debris** [:material-shield-search:](armes-police.md)
+
+    ***
+
+    Recognise batons, tear gas, LBD, GENL, GM2L, GL-304 and stun munitions to adapt medical care and preserve evidence.
+
+    [:octicons-arrow-right-24: Read](armes-police.md)
 
 - **Film the police** [:material-video:](filmer.md)
 

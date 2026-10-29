@@ -1,0 +1,82 @@
+{#- "Pourquoi nous rejoindre ?": docs/data/rallier.json + sources.json. Static (offline, indexed by
+the search); each profile is a heading so a search for "prof" lands on #pourquoi-prof. -#}
+{%- from 'overrides/partials/check.html' import check_title -%}
+
+{%- macro href(l, lang) -%}
+{%- if l.guide -%}../guides/{{ l.guide }}/{%- elif l.page -%}../{{ l.page }}/{%- endif -%}
+{%- if l.anchor -%}#{{ l.anchor[lang] or l.anchor.fr }}{%- endif -%}
+{%- endmacro -%}
+
+{%- macro refs(x, lang) -%}
+{%- for id in x.sources or [] %}{% set s = sources[id] %}{% set u = s.url[lang] if s.url is mapping else s.url %} <a class="rallier__src" href="{{ u }}" target="_blank" rel="noopener" title="{{ s.title[lang] or s.title.fr }} · {{ check_title(s.check, lang) }}">[{{ 'source' }}]</a>{% endfor %}
+{%- if x.link %} <a href="{{ href(x.link, lang) }}">→ {{ x.link.label[lang] or x.link.label.fr }}</a>{% endif %}
+{%- endmacro -%}
+
+{#- Friendly message + short link (hooks/short_links.py) to share a profile. The full address is
+filled in by docs/javascripts/extra.js; without JavaScript the link itself still works. -#}
+{%- macro share(p, lang) -%}
+{%- set msg = "J'ai pensé à toi en lisant ça : quelques chiffres sourcés sur ce qui nous concerne." if lang == 'fr' else "I thought of you when I read this: a few sourced figures about what affects us." -%}
+<p class="rallier__share" data-share data-message="{{ msg }}">
+  <strong>{{ 'À partager :' if lang == 'fr' else 'To share:' }}</strong>
+  <a class="rallier__short" href="../rejoindre/{{ p.id }}/">…/rejoindre/{{ p.id }}/</a>
+</p>
+{%- endmacro -%}
+
+{#- "Envoyer à un·e [profil ▾]": one picker, cycling through the profiles until someone chooses
+(docs/javascripts/extra.js). Without JavaScript, the link shows the first profile. -#}
+{%- macro share_picker(lang, up='../') -%}
+{%- set first = rallier.profiles[0] -%}
+<div class="rallier__picker" data-share-picker>
+  <label>{{ 'Envoyer à un·e' if lang == 'fr' else 'Send to' }}
+    <select>
+      {%- for p in rallier.profiles %}
+      <option value="{{ p.id }}" data-href="{{ up }}rejoindre/{{ p.id }}/">{{ p.label[lang] or p.label.fr }}</option>
+      {%- endfor %}
+    </select>
+  </label>
+  <p class="rallier__share" data-share data-message="{{ "J'ai pensé à toi en lisant ça : quelques chiffres sourcés sur ce qui nous concerne." if lang == 'fr' else "I thought of you when I read this: a few sourced figures about what affects us." }}"><a class="rallier__short" href="{{ up }}rejoindre/{{ first.id }}/">…/rejoindre/{{ first.id }}/</a></p>
+  <p class="rallier__hint">{{ "Le lien s'adapte au profil choisi : il ouvre directement les arguments sourcés qui concernent cette personne." if lang == 'fr' else "The link adapts to the chosen profile: it opens straight onto the sourced arguments that concern that person." }}</p>
+</div>
+{%- endmacro -%}
+
+{#- All short links, for the persuasion guide. -#}
+{%- macro share_list(lang) -%}
+<ul class="rallier__share-list">
+  {%- for p in rallier.profiles %}
+  <li data-share data-message="{{ "J'ai pensé à toi en lisant ça : quelques chiffres sourcés sur ce qui nous concerne." if lang == 'fr' else "I thought of you when I read this: a few sourced figures about what affects us." }}"><strong>{{ p.label[lang] or p.label.fr }}</strong> : <a class="rallier__short" href="../../rejoindre/{{ p.id }}/">…/rejoindre/{{ p.id }}/</a></li>
+  {%- endfor %}
+</ul>
+{%- endmacro -%}
+
+{%- macro page(lang) -%}
+{#- "Vous êtes [prof…]": cycles through the profiles like the guided search; clicking jumps to the
+one shown. Hidden without JavaScript (the chips below do the same). -#}
+<p class="parcours__step rallier__rotator-line" data-rallier-rotator hidden>{{ 'Vous êtes' if lang == 'fr' else 'You are' }} <a class="parcours__rotator" href="#pourquoi-{{ rallier.profiles[0].id }}">{{ rallier.profiles[0].label[lang] or rallier.profiles[0].label.fr }}…</a></p>
+<nav class="rallier__pick" aria-label="{{ 'Profils' if lang == 'fr' else 'Profiles' }}">
+  <span class="timeline-filters__label">{{ 'Je suis :' if lang == 'fr' else 'I am:' }}</span>
+  {%- for p in rallier.profiles %}
+  <a class="timeline-filters__chip" href="#pourquoi-{{ p.id }}">{{ p.label[lang] or p.label.fr }}</a>
+  {%- endfor %}
+</nav>
+{{ share_picker(lang) }}
+
+{%- for p in rallier.profiles %}
+<section class="rallier__profile">
+  <h2 id="pourquoi-{{ p.id }}">{{ 'Vous êtes' if lang == 'fr' else 'You are' }} {{ p.label[lang] or p.label.fr }}</h2>
+  <h3 id="pourquoi-{{ p.id }}-enjeux">{{ 'Ce qui vous concerne' if lang == 'fr' else 'What is at stake for you' }}</h3>
+  <ul>
+    {%- for s in p.stakes %}
+    <li>{{ s.text[lang] or s.text.fr }}{{ refs(s, lang) }}</li>
+    {%- endfor %}
+  </ul>
+  {%- if p.objections %}
+  <h3 id="pourquoi-{{ p.id }}-objections">{{ 'Si on vous dit…' if lang == 'fr' else 'If someone says…' }}</h3>
+  {%- for o in p.objections %}
+  <p class="rallier__objection"><strong>{{ o.question[lang] or o.question.fr }}</strong><br>{{ o.answer[lang] or o.answer.fr }}{{ refs(o, lang) }}</p>
+  {%- endfor %}
+  {%- endif %}
+  <p class="rallier__step"><strong>{{ 'Un premier pas :' if lang == 'fr' else 'A first step:' }}</strong> {{ p.step[lang] or p.step.fr }}</p>
+  {{ share(p, lang) }}
+</section>
+{%- endfor %}
+{%- endmacro -%}

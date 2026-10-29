@@ -15,6 +15,8 @@ tags:
 
 On convainc rarement quelqu'un en une discussion, et presque jamais en ayant « raison » plus fort. Les conversations qui font bouger les gens reposent sur l'écoute, les histoires vécues et les valeurs partagées.[^deep-canvassing]
 
+Arguments sourcés selon la personne (femme, retraité·e, prof, artisan, policier·e…) : [Pourquoi nous rejoindre ?](../rallier/index.md).
+
 ## Avant
 
 - **Choisissez le moment** : pas à chaud après une image choc, pas devant tout le monde au repas de famille.
@@ -39,6 +41,23 @@ On convainc rarement quelqu'un en une discussion, et presque jamais en ayant « 
 
 - Proposez **un petit pas** : lire un article, regarder une vidéo, venir à un rassemblement calme, signer une pétition.
 - Revenez-en plus tard, sans pression. Les changements d'avis prennent du temps.
+
+## Sortir du piège médiatique sur les « casseurs »
+
+- **Ne vous laissez pas enfermer dans le débat « pour ou contre la casse »** ni dans l'opposition entre jeunes des quartiers populaires et habitant·es des petites villes et des campagnes : en octobre 2026, l'Arcom a elle-même appelé les chaînes de télévision et les radios « à la plus grande vigilance », alors que leur temps d'antenne consacré aux violences était jugé disproportionné ([pourquoi ça casse en manif ?](casse.md)).[^wiki-17-octobre-2026]
+- **Partez des intérêts matériels partagés** : prix du carburant et des courses, salaires, retraites, état des écoles et des hôpitaux. Demandez ce qui pèse concrètement sur leur quotidien.
+- **Montrez ce que le durcissement sécuritaire change pour tout le monde** : couvre-feux, interdictions générales de manifester, projets de coupure des réseaux sociaux ou vidéosurveillance algorithmique finissent par s'appliquer à toutes les causes.[^amnesty-surenchere-2026][^amnesty-7-signes-2026][^blast-coupure-reseaux-2026]
+- **Proposez des formes d'action locales, calmes et accessibles** : si une personne a peur des cortèges tendus en centre-ville, invitez-la à passer discuter sur un rond-point convivial ou un marché local, à poser son gilet jaune sur le tableau de bord, ou à soutenir une caisse de grève ([s'organiser localement](organiser.md#sorganiser-localement-au-dela-des-centres-villes)).
+
+## Liens à partager
+
+Un lien court, lisible et sur ce site (pas de raccourcisseur qui inquiète ou qui piste), à envoyer avec un message bienveillant. Chacun ouvre les arguments sourcés pour ce profil :
+
+{% import "overrides/partials/rallier.html" as r with context %}
+
+{{ r.share_picker('fr', '../../') }}
+
+{{ r.share_list('fr') }}
 
 ## Où trouver des ordres de grandeur vérifiés ?
 

@@ -1405,6 +1405,36 @@
       }
     },
     {
+      "id": "2026-manifestations-des-17-et-24-octobre",
+      "date": "2026-10-17",
+      "end": "2026-10-24",
+      "title": {
+        "fr": "Manifestations des 17 et 24 octobre 2026 : couvre-feux, interdictions en série et projet de coupure des réseaux sociaux",
+        "en": "17 and 24 October 2026 protests: curfews, sweeping bans and planned social media shutdown"
+      },
+      "kind": "repression",
+      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026_en_France",
+      "description": {
+        "fr": "Le 17 octobre 2026, de 550 000 à 800 000 personnes manifestent contre la vie chère à l'appel de coordinations de Gilets jaunes, de lycéen·nes, d'étudiant·es et de syndicats (2 397 interpellations). Avant l'acte II du 24 octobre (410 000 à 800 000 manifestant·es, 70 000 policiers et gendarmes appuyés par des militaires de l'opération Sentinelle), des couvre-feux et des interdictions de rassemblement sont instaurés dans de nombreuses villes. Le 22 octobre, Emmanuel Macron annonce que les rassemblements non organisés par des syndicats seront interdits « partout où on le peut », distinction jugée illégale par la LDH et dénoncée par Amnesty International comme une « surenchère sécuritaire ». Le même jour, Matignon demande par courrier aux quatre grands opérateurs télécoms de se préparer à suspendre par filtrage DNS l'accès à TikTok, Instagram, Snapchat et X.",
+        "en": "On 17 October 2026, 550,000 to 800,000 people march against the cost of living following calls by yellow vests groups, high-school and university students and unions (2,397 arrests). Ahead of Act II on 24 October (410,000 to 800,000 protesters, 70,000 police and gendarmes backed by Sentinelle soldiers), curfews and gathering bans are imposed in many cities. On 22 October, Emmanuel Macron announces that rallies not organised by unions will be banned 'wherever possible', a distinction deemed illegal by the Human Rights League (LDH) and denounced by Amnesty International as a 'security escalation'. The same day, the Prime Minister's office writes to the four main telecom operators asking them to prepare a DNS block of TikTok, Instagram, Snapchat and X."
+      },
+      "related": ["2026-mouvement-lyceen-de-2026", "2018-gilets-jaunes"],
+      "guides": ["droit-de-manifester", "communiquer", "organiser"],
+      "evidence": [
+        "wiki-17-octobre-2026",
+        "wiki-24-octobre-2026",
+        "amnesty-surenchere-2026",
+        "ldh-interdictions-24-octobre-2026",
+        "franceinfo-ldh-syndicats-2026",
+        "blast-coupure-reseaux-2026"
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-agora-la-plateforme-de-participation",
       "date": "2026-10-23",
       "title": {

@@ -1686,6 +1686,79 @@
       }
     },
     {
+      "id": "medicaction-guides",
+      "name": "Medicaction — Guides street medics",
+      "url": "https://medicaction.org/guides/",
+      "category": "sante",
+      "tags": ["premiers-secours", "gaz-lacrymogene", "street-medics", "guide", "essentiel"],
+      "situations": ["blesse"],
+      "description": {
+        "fr": "Collectif de street medics : guides de soins en manifestation et fiche recto-verso « Les gestes à adopter en manif » (équipement, gaz, arrestation, gestion d'une personne blessée, numéros utiles).",
+        "en": "Street medics collective: protest first-aid guides and the two-page leaflet \"Les gestes à adopter en manif\" (kit, tear gas, arrests, handling an injured person, useful numbers). In French."
+      },
+      "sources": [
+        {
+          "title": "Medicaction — Les gestes à adopter en manif (fiche recto-verso, juillet 2024)",
+          "url": "https://medicaction.org/wp-content/uploads/2024/07/les_gestes_a_adopter_en_manif.pdf"
+        }
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "maintiendelordre",
+      "name": "Maintiendelordre.fr",
+      "url": "https://maintiendelordre.fr/",
+      "category": "information",
+      "situations": ["blesse"],
+      "tags": ["violences-policieres", "independant", "guide", "veille"],
+      "description": {
+        "fr": "Projet journalistique indépendant (créé en 2020) : fiches pédagogiques sur les unités (BAC, CRS, BRAV-M…), les armes (LBD, lanceurs, grenades GENL, GM2L, ASSD, EF-SON, GL-304) et les règles d'emploi de la force.",
+        "en": "Independent journalism project (created 2020): explainer sheets on police units, weapons (LBD, launchers, GENL, GM2L, ASSD, EF-SON and GL-304 grenades) and rules on the use of force. In French."
+      },
+      "sources": [
+        {
+          "title": "Maintiendelordre.fr — À propos (méthodologie)",
+          "url": "https://maintiendelordre.fr/a-propos/"
+        },
+        {
+          "title": "Maintiendelordre.fr — Réponse graduée",
+          "url": "https://maintiendelordre.fr/reponse-graduee/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "flagrant-deni",
+      "name": "Flagrant déni",
+      "url": "https://www.flagrant-deni.fr/",
+      "category": "juridique",
+      "situations": ["blesse"],
+      "tags": ["violences-policieres", "enquete", "plainte", "association"],
+      "description": {
+        "fr": "ONG d'investigation pour les droits des victimes de violences policières : guide juridique « du 17 », enquêtes sur l'impunité et l'indemnisation, mise en lien avec des avocat·es et des collectifs.",
+        "en": "Investigative NGO for the rights of victims of police violence: legal guide, investigations into impunity and compensation, referrals to lawyers and collectives. In French."
+      },
+      "sources": [
+        {
+          "title": "Flagrant déni — Qui sommes-nous ? (actions : droit, enquête, soutien aux victimes)",
+          "url": "https://www.flagrant-deni.fr/nous/"
+        }
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "france-victimes",
       "name": "France Victimes (116 006)",
       "url": "https://www.france-victimes.fr/",
@@ -2763,6 +2836,7 @@
       "name": "Désarmons-les",
       "url": "https://desarmons.net/",
       "category": "information",
+      "situations": ["blesse"],
       "tags": ["violences-policieres", "militant", "veille"],
       "description": {
         "fr": "Collectif qui recense les blessures graves et mutilations causées par les armes du maintien de l'ordre (LBD, grenades) et accompagne les personnes blessées.",
@@ -2787,7 +2861,7 @@
         }
       ],
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2797,6 +2871,7 @@
       "name": "Mutilés pour l'exemple",
       "url": "https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479",
       "category": "information",
+      "situations": ["blesse"],
       "tags": ["violences-policieres", "gilets-jaunes", "militant", "veille"],
       "description": {
         "fr": "Collectif de personnes mutilées par des armes de maintien de l'ordre (LBD, grenades) pendant le mouvement des gilets jaunes, qui tient un décompte des mutilations et accompagne les blessé·es.",

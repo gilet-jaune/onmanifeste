@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: f136eaf788fd58a1972e636bea977e3529cf7918
 tags:
     - guides
     - safety
@@ -23,6 +23,8 @@ Isolation is the first risk at a protest: no one to witness an arrest, alert a l
 - [ ] Tell someone **who is not protesting**: your route, when you expect to be back, who to call if they don't hear from you. Make sure they **answer hidden or unknown numbers** (police stations often call from a withheld number) and know your **full name, date and place of birth** (essential for the legal team or lawyer to locate you).[^sm-guide][^legal-team]
 - [ ] Write with permanent marker **on your skin, under clothing** (upper arm, stomach or ankle — not on a bare forearm, which can draw attention during a stop) **and** on paper the number of a close contact and of the **legal team**. In police custody, your phone, bag and papers are taken during the search: without a number written on you, you won't be able to give it. Write **only the 10 digits, with no name or label** ("Mum", first name, "legal team"), so you expose no one.[^eff-protest][^sm-guide][^legal-team]
 - [ ] Write down your medication, allergies or chronic conditions on a piece of paper in your pocket.
+- [ ] If the risk of arrest is **high**: tell a relative you will be there and give them a **representation folder** (employment contract, proof of address, etc.) along with the name of your chosen lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).[^medicaction-gestes]
+- [ ] Find out about the gathering to know the risks, and eat and drink before you leave.[^medicaction-gestes]
 
 ## During
 
@@ -31,10 +33,18 @@ Isolation is the first risk at a protest: no one to witness an arrest, alert a l
 - If your buddy is arrested: **note the time, the place and what you see** (unit, badge number if visible) and call the legal team. Don't get arrested yourself trying to help.[^legal-team]
 - If the crowd is dispersed, go to the meeting point and wait for an agreed time before alerting your outside contact.
 
+### When someone is being arrested
+
+- **Film and encourage others to film** (so you are not the only target), see [film the police](filmer.md).[^medicaction-gestes]
+- **Avoid anti-cop slogans** at that moment, so as not to make things worse. Chant a **lawyer's name** instead, or failing that "I have nothing to declare"; listen in case the person shouts a name (their own, a relative's or a lawyer's) and, if so, call it out as a chant.[^medicaction-gestes]
+- Once the arrest is over, **find the person's relatives** and contact the **local legal support** (for example {{ res("caisse-solidarite-lyon", "the Lyon solidarity fund") }}).[^medicaction-gestes]
+- If **you** are the one arrested: **above all, don't resist**, to avoid being prosecuted for contempt and rebellion; listen to the comrades around you for any useful information, then apply the advice in the [police custody guide](garde-a-vue.md).[^medicaction-gestes]
+
 ## After
 
 - Don't go home alone, especially at night: leave **together**, or get walked to public transport.
 - Send a "home safe" message to your contact.
+- **Back home**: if you were exposed to gas, take a **cold** shower first (hot water opens the pores) and wash your clothes separately ([see "Getting there and back"](venir-repartir.md#back-home-decontamination-and-care)).[^medic-soins]
 - If someone is in custody, organise **someone to meet them** outside the police station: release can happen at any hour.
 
 [:octicons-arrow-right-24: Anti-repression contacts in the directory](../annuaire/index.md?tags=antirepression)

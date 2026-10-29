@@ -470,6 +470,9 @@
               "resource": "medic-gestes-manif"
             },
             {
+              "resource": "medicaction-guides"
+            },
+            {
               "resource": "medic-soins-post-manif"
             },
             {
@@ -560,10 +563,22 @@
         "en": "injured"
       },
       "keywords": [
+        "acouphene",
+        "arme",
+        "armes",
+        "blast",
         "blesse",
         "blessure",
+        "brulure",
+        "condor",
         "coup",
+        "debris",
+        "eclat",
+        "flashball",
         "frappe",
+        "genl",
+        "gl304",
+        "gm2l",
         "grenade",
         "hurt",
         "injured",
@@ -571,9 +586,13 @@
         "matraque",
         "oeil",
         "police brutality",
+        "polycriblage",
         "saigne",
         "sang",
+        "surdite",
+        "telescopique",
         "tete",
+        "tonfa",
         "violence policiere",
         "violences policieres"
       ],
@@ -602,9 +621,68 @@
                 "fr": "Blessures : les premiers gestes",
                 "en": "Injuries: first steps"
               }
+            },
+            {
+              "guide": "armes-police",
+              "anchor": {
+                "fr": "que-signaler-aux-urgences-et-au-medecin",
+                "en": "what-to-tell-emergency-staff-and-the-doctor"
+              },
+              "label": {
+                "fr": "Urgences : signaler les éclats invisibles à la radio (GM2L, GL-304) et l'effet blast",
+                "en": "Emergency room: report X-ray-invisible shrapnel (GM2L, GL-304) and blast effect"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "porter-secours-a-une-personne-blessee",
+                "en": "helping-an-injured-person"
+              },
+              "label": {
+                "fr": "Porter secours à une personne blessée (15, point de compression, L'ABC)",
+                "en": "Helping an injured person (15, pressure point, ABC)"
+              }
             }
           ],
           "urgent": true
+        },
+        {
+          "id": "identifier-arme",
+          "label": {
+            "fr": "identifier l'arme qui m'a blessé·e (blessure, débris)",
+            "en": "identify the weapon that injured me (wound, debris)"
+          },
+          "results": [
+            {
+              "guide": "armes-police",
+              "anchor": {
+                "fr": "reconnaitre-larme-a-la-blessure-et-aux-debris",
+                "en": "recognising-the-weapon-from-the-wound-and-debris"
+              },
+              "label": {
+                "fr": "Reconnaître matraque, lacrymo, LBD, GENL, GM2L, GL-304 et assourdissantes",
+                "en": "Recognise baton, tear gas, LBD, GENL, GM2L, GL-304 and stun munitions"
+              }
+            },
+            {
+              "guide": "armes-police",
+              "anchor": {
+                "fr": "collecter-et-photographier-les-debris-en-securite",
+                "en": "collecting-and-photographing-debris-safely"
+              },
+              "label": {
+                "fr": "Photographier et conserver les débris et marquages",
+                "en": "Photograph and preserve debris and markings"
+              }
+            },
+            {
+              "resource": "desarmons-les"
+            },
+            {
+              "resource": "maintiendelordre"
+            }
+          ]
         },
         {
           "id": "constater",
@@ -622,6 +700,17 @@
               "label": {
                 "fr": "Faire constater",
                 "en": "Get it documented"
+              }
+            },
+            {
+              "guide": "armes-police",
+              "anchor": {
+                "fr": "que-signaler-aux-urgences-et-au-medecin",
+                "en": "what-to-tell-emergency-staff-and-the-doctor"
+              },
+              "label": {
+                "fr": "Décrire la forme type de la lésion sur le certificat médical avec ITT",
+                "en": "Describe the typical lesion pattern on the medical certificate with ITT"
               }
             }
           ]
@@ -652,6 +741,9 @@
             },
             {
               "resource": "defenseur-des-droits"
+            },
+            {
+              "resource": "flagrant-deni"
             }
           ]
         },
@@ -1026,6 +1118,17 @@
               "label": {
                 "fr": "Garder la preuve",
                 "en": "Keep the evidence"
+              }
+            },
+            {
+              "guide": "armes-police",
+              "anchor": {
+                "fr": "collecter-et-photographier-les-debris-en-securite",
+                "en": "collecting-and-photographing-debris-safely"
+              },
+              "label": {
+                "fr": "Photographier et conserver les débris d'armes (LBD, grenades)",
+                "en": "Photograph and preserve weapon debris (LBD, grenades)"
               }
             }
           ]
@@ -3144,6 +3247,9 @@
               "resource": "medic-gestes-manif"
             },
             {
+              "resource": "medicaction-guides"
+            },
+            {
               "resource": "medic-soins-post-manif"
             },
             {
@@ -3155,6 +3261,17 @@
               "label": {
                 "fr": "Gestes de premiers secours en manif",
                 "en": "First aid at protests"
+              }
+            },
+            {
+              "guide": "armes-police",
+              "anchor": {
+                "fr": "que-signaler-aux-urgences-et-au-medecin",
+                "en": "what-to-tell-emergency-staff-and-the-doctor"
+              },
+              "label": {
+                "fr": "Armes de la police : lésions types, polycriblage radiotransparent et effet blast",
+                "en": "Police weapons: typical lesions, radiolucent shrapnel and blast effect"
               }
             }
           ]
@@ -3197,6 +3314,9 @@
             },
             {
               "resource": "defenseur-des-droits"
+            },
+            {
+              "resource": "flagrant-deni"
             }
           ]
         },

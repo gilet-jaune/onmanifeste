@@ -1,7 +1,7 @@
 ---
 review: juridique
 review_status: pending
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: 0ab385254c918fcffe88c0c329d562e2cac1fbe3
 tags:
     - guides
     - réseaux sociaux
@@ -13,9 +13,10 @@ tags:
 !!! abstract "Key points"
 
     - An angry comment or a share to denounce **pushes content up**: **ignore** the far right.
+    - **Don't linger** and don't visit their profile: pausing for a few seconds already counts.
     - **Don't press "Share"**; to show something, use an anonymised **screenshot**.
     - Report what is **illegal** (platform, Pharos) and support the people targeted.
-    - **Like, comment, share** what you want to see spread.
+    - **Like, comment, save, share** what you want to see spread.
     - Calling for a protest: sharing is risk-free, but organising an undeclared demonstration or making threats is punished.
 
 On social media, whatever gets a reaction is shown to more people. An angry comment, a share to denounce or a video watched to the end **push** far-right content up instead of silencing it. The good news: the same mechanism works the other way.
@@ -25,6 +26,7 @@ On social media, whatever gets a reaction is shown to more people. An angry comm
 - Recommendations rely on your interactions: videos you like or share, accounts you follow, **comments you post**.[^tiktok-recommandation]
 - Watching a video **to the end** is a strong signal of interest, weighted more than others.[^tiktok-recommandation]
 - To the algorithm, an angry comment is still a comment: it counts as interest.[^tiktok-recommandation]
+- **On Instagram, stopping is enough.** In Feed, Instagram mainly predicts whether you will **spend a few seconds** on a post, comment on it, like it, share it or **tap the author's profile photo**. In Explore, the key actions are likes, **saves** and shares, and a post's popularity matters "much more" there than in Feed: your reactions also show it to strangers.[^instagram-classement]
 - **Anger at "the other side" spreads best.** Across 2.7 million Facebook and Twitter posts, those about the opposing political camp were shared about **twice as often** as others; each word referring to it raised the odds of sharing by 67%. The most frequent reaction was anger.[^rathje-2021]
 - **Algorithms are not neutral.** On Twitter, in 6 of 7 countries studied (including France), mainstream right-wing politicians were amplified more by the algorithm than left-wing ones; the study did not, however, find an advantage for the extremes over moderates.[^huszar-2022] In Germany, before the 2025 federal election, new accounts equally interested in the four main parties were recommended, among party content from accounts they did not follow, 78% pro-AfD (far-right) content on TikTok and 64% on X.[^global-witness-afd-2025]
 - **"Strategic silence" comes from journalism.** Newsrooms long chose not to cover some topics (suicides, violence) so as not to spread them.[^donovan-boyd-2019] Between 2016 and 2018, hate groups used media coverage, including critical coverage, to spread their messages.[^phillips-2018]
@@ -36,10 +38,11 @@ On social media, whatever gets a reaction is shown to more people. An angry comm
 - [ ] **Don't press "Share"**, even to send the content in a private message or copy its link: a share, even a private one, is a signal of interest.[^tiktok-recommandation]
 - [ ] **To show it or respond, take a screenshot**: hide the account's name, picture and handle, and post it on your own post. The content is visible without sending traffic or engagement to its author.
 - [ ] **Keep the link to yourself**: note it separately (with the date) if you need to report it to Pharos or pass it to a lawyer, but don't publish it.
-- [ ] **Scroll past**: leave the video straight away, don't watch it to the end.
-- [ ] Use **"Not interested"** and hide the creator: you will see less of that kind of content.[^tiktok-recommandation]
-- [ ] **Block** or mute accounts that harass you, without replying.
-- [ ] **Report** illegal content (incitement to hatred, threats, glorifying violence) to the platform and on {{ res("pharos") }}. Don't mass-report content that is merely shocking: it doesn't work and can backfire on you.
+- [ ] **Scroll past**: leave the video straight away, don't watch it to the end. Even a few seconds' pause is counted.[^instagram-classement]
+- [ ] **Don't visit their profile or stories**, even to mock them: Instagram takes into account how often you view and interact with an account to rank it higher for you.[^instagram-classement]
+- [ ] Use **"Not interested"** and hide the creator: you will see less of that kind of content.[^tiktok-recommandation] On Instagram, the post disappears immediately and similar suggestions decrease; you can also **mute an account** (it isn't told) or **snooze suggested posts for 30 days**.[^instagram-controle-fil][^instagram-classement]
+- [ ] **Block** or mute accounts that harass you, without replying. Block to protect yourself, not to push the account down: Instagram does not present blocking as a ranking signal.[^instagram-classement] And don't browse their profile first.
+- [ ] **Report** illegal content (incitement to hatred, threats, glorifying violence) to the platform and on {{ res("pharos") }}. On Instagram, a report also helps rank similar content lower.[^instagram-classement] Don't mass-report content that is merely shocking: it doesn't work and can backfire on you.
 
 ## Ignoring is not keeping quiet
 
@@ -51,8 +54,8 @@ Ignoring an account does not mean letting it happen:
 
 ## Push up what matters
 
-- [ ] **Like, comment, share** the content you want to see spread: independent media, collectives, testimonies. It's the same lever, used for your causes.
-- [ ] Watch it **to the end** and subscribe.
+- [ ] **Like, comment, save, share** the content you want to see spread: independent media, collectives, testimonies. It's the same lever, used for your causes.[^instagram-classement]
+- [ ] Watch it **to the end** and subscribe. On Instagram, add those accounts to your **Favorites**: their posts move up in your feed.[^instagram-controle-fil]
 - [ ] Reply to people who have doubts or are being targeted, not to the accounts stirring up hate ([talk to your loved ones](convaincre-ses-proches.md)).
 
 ## Calling for a protest online

@@ -27,7 +27,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     ***
 
-    Une trentaine de fiches, avant, pendant et après la manif : checklist, droit de manifester, kit, communiquer, téléphone, dispersion, premiers secours, filmer la police, garde à vue, plainte et procès, santé mentale ; lycéen·nes, travail, étrangers, handicap ; organiser, réseaux sociaux, désinformation. Disponibles hors ligne.
+    Une trentaine de fiches, avant, pendant et après la manif : checklist, droit de manifester, kit, communiquer, téléphone, dispersion, premiers secours, armes et blessures, filmer la police, garde à vue, plainte et procès, santé mentale ; lycéen·nes, travail, étrangers, handicap ; organiser, réseaux sociaux, désinformation. Disponibles hors ligne.
 
     [:octicons-arrow-right-24: Lire les guides](guides/index.md)
 

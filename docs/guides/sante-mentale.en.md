@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: 6e798e56840bf305cea81888fe7e3b42ef98500f
 review: medical
 review_status: pending
 tags:
@@ -40,6 +40,7 @@ After a police charge, grenade blasts, kettling or in a custody cell, your body 
 It is completely normal to experience an **emotional backlash** 24 to 72 hours after violence, an arrest or police custody (sudden exhaustion, crying, irritability, insomnia, images replaying on a loop):[^cn2r][^france-victimes]
 
 - **Do not stay alone**: talk about what you went through with your buddy, loved ones or a support group, without downplaying how you feel.[^cn2r]
+- **Release the pressure to "compartmentalise"**: a protest can be a gruelling time and, if poorly handled, leave long-term trauma. Take time to unwind, then talk it over with others if needed (_defusing_, then _debriefing_).[^medicaction-gestes]
 - **Take care of your body**: sleep, warm meals, limit alcohol and stimulants, and step away from videos of violence for a few days.
 - **When to see a professional**: if nightmares, startling at the slightest noise, flashbacks, anxiety or avoiding public places last **more than a month** after the events, it may be post-traumatic stress disorder (PTSD), which responds very well to care. Talk to a doctor or a regional trauma centre ({{ res("cn2r") }}).[^cn2r]
 

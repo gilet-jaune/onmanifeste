@@ -73,6 +73,18 @@
         "by": "ai"
       }
     },
+    "acteurspublics-longuet-2021": {
+      "title": {
+        "fr": "Acteurs publics — Les rémunérations des enseignants ont baissé de 15 à 25 % sur vingt ans (rapport Longuet, Sénat)",
+        "en": "Acteurs publics — Teachers' pay fell by 15 to 25% over twenty years (Longuet report, Senate)"
+      },
+      "url": "https://acteurspublics.fr/articles/les-remunerations-des-enseignants-ont-baisse-de-15-a-25-sur-vingt-ans",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "afa-probite-stats": {
       "title": {
         "fr": "Agence française anticorruption — Atteintes à la probité dans les décisions de justice, données nationales agrégées 2021-2025 (data.gouv.fr)",
@@ -300,6 +312,18 @@
       "url": "https://basta.media/webdocs/police/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "bdt-heures-sup-2020": {
+      "title": {
+        "fr": "Banque des territoires — La Cour des comptes pointe les risques liés aux heures supplémentaires (2020)",
+        "en": "Banque des territoires — The Court of Audit points to the risks of overtime (2020)"
+      },
+      "url": "https://www.banquedesterritoires.fr/la-cour-des-comptes-pointe-les-risques-lies-aux-heures-supplementaires",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -892,6 +916,18 @@
         "by": "ai"
       }
     },
+    "drees-retraites-2025": {
+      "title": {
+        "fr": "DREES — Les retraités et les retraites, édition 2025",
+        "en": "DREES — Retirees and pensions, 2025 edition (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "eff-protest": {
       "title": {
         "fr": "EFF Surveillance Self-Defense — Attending a protest",
@@ -1246,6 +1282,33 @@
         "by": "ai"
       }
     },
+    "instagram-classement": {
+      "title": {
+        "fr": "Instagram — Explication du classement sur Instagram",
+        "en": "Instagram — Instagram Ranking Explained"
+      },
+      "url": {
+        "fr": "https://about.instagram.com/fr-fr/blog/announcements/instagram-ranking-explained",
+        "en": "https://about.instagram.com/blog/announcements/instagram-ranking-explained"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "instagram-controle-fil": {
+      "title": {
+        "fr": "Instagram — How to See More of What You Want on Instagram",
+        "en": "Instagram — How to See More of What You Want on Instagram"
+      },
+      "url": "https://about.instagram.com/blog/tips-and-tricks/control-your-instagram-feed",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ires-capitalisme-perfusion": {
       "title": {
         "fr": "IRES (CLERSÉ-CNRS) — Un capitalisme sous perfusion : mesure, théories et effets macroéconomiques des aides publiques aux entreprises françaises (2022)",
@@ -1254,6 +1317,18 @@
       "url": "https://ires.fr/publications/cgt/un-capitalisme-sous-perfusion-mesure-theories-et-effets-macroeconomiques-des-aides-publiques-aux-entreprises-francaises/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "jde-is-pme-2025": {
+      "title": {
+        "fr": "Le Journal des entreprises — Les PME paient plus d'impôts sur les sociétés que les grandes entreprises (2025)",
+        "en": "Le Journal des entreprises — SMEs pay more corporate tax than large companies (2025)"
+      },
+      "url": "https://www.lejournaldesentreprises.com/article/les-pme-paient-plus-dimpots-sur-les-societes-que-les-grandes-entreprises-2125579",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1360,6 +1435,18 @@
         "en": "LCP — No-confidence motions: the government survives by 9 votes"
       },
       "url": "https://lcp.fr/actualites/motions-de-censure-le-gouvernement-reste-en-place-a-9-voix-pres-la-reforme-des-retraites",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-ddd-desescalade": {
+      "title": {
+        "fr": "LCP — Manifestations : la Défenseure des droits plaide pour la stratégie de la désescalade",
+        "en": "LCP — Protests: the Defender of Rights argues for de-escalation"
+      },
+      "url": "https://lcp.fr/actualites/manifestations-la-defenseure-des-droits-plaide-pour-la-strategie-de-la-desescalade-43506",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1534,6 +1621,18 @@
         "by": "ai"
       }
     },
+    "letudiant-ove-2023": {
+      "title": {
+        "fr": "L'Étudiant — Les conditions de vie des étudiants diffèrent selon leur origine sociale, selon l'OVE (2023)",
+        "en": "L'Étudiant — Students' living conditions differ by social background, according to the OVE (2023)"
+      },
+      "url": "https://www.letudiant.fr/lifestyle/Sante-mutuelle-et-assurance/les-conditions-de-vie-des-etudiants-different-en-fonction-de-leur-origine-sociale-selon-love.html",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "linfodurable-duplomb-2026": {
       "title": {
         "fr": "L'info durable — Pétition contre la loi Duplomb : débat inédit mais sans vote à l'Assemblée",
@@ -1590,6 +1689,18 @@
       "url": "https://0xacab.org/jvoisin/mat2",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "medicaction-gestes": {
+      "title": {
+        "fr": "Medicaction — Les gestes à adopter en manif (fiche recto-verso, juillet 2024)",
+        "en": "Medicaction — Les gestes à adopter en manif (two-page leaflet, July 2024, in French)"
+      },
+      "url": "https://medicaction.org/wp-content/uploads/2024/07/les_gestes_a_adopter_en_manif.pdf",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2008,6 +2119,18 @@
         "en": "Public Sénat — LFI's citizens' referendum bill rejected by the National Assembly"
       },
       "url": "https://www.publicsenat.fr/actualites/non-classe/le-ric-des-insoumis-rejete-a-l-assemblee-nationale-138267",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-riester-femmes-2023": {
+      "title": {
+        "fr": "Public Sénat — Retraites : « les femmes sont un peu pénalisées par le report de l'âge légal », reconnaît Franck Riester",
+        "en": "Public Sénat — Pensions: 'women are a bit penalised by the later legal age', admits Franck Riester"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/retraites-les-femmes-sont-un-peu-penalisees-par-le-report-de-l-age-legal-reconnait",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -2662,6 +2785,18 @@
         "by": "ai"
       }
     },
+    "weka-point-indice": {
+      "title": {
+        "fr": "Weka — Fonction publique : un pouvoir d'achat en berne face à une inflation en hausse",
+        "en": "Weka — Civil service: purchasing power down as inflation rises"
+      },
+      "url": "https://www.weka.fr/actualite/remuneration/article/fonction-publique-un-pouvoir-d-achat-en-berne-face-a-une-inflation-en-hausse-199354/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-14-juillet-1953": {
       "title": {
         "fr": "Wikipédia — Massacre du 14 juillet 1953 à Paris",
@@ -3006,6 +3141,258 @@
       "url": "https://library.witness.org/product/video-as-evidence-compiled-sections/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-17-octobre-2026": {
+      "title": {
+        "fr": "Wikipédia — Manifestations du 17 octobre 2026 en France",
+        "en": "Wikipedia — 17 October 2026 French protests (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026_en_France",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-24-octobre-2026": {
+      "title": {
+        "fr": "Wikipédia — Manifestations du 24 octobre 2026 en France",
+        "en": "Wikipedia — 24 October 2026 French protests (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-surenchere-2026": {
+      "title": {
+        "fr": "Amnesty International France — Amnesty dénonce une surenchère sécuritaire et de graves entraves au droit de manifester en France (octobre 2026)",
+        "en": "Amnesty International France — Amnesty denounces a security escalation and serious obstacles to the right to protest in France (October 2026, in French)"
+      },
+      "url": "https://www.amnesty.fr/communiques/amnesty-denonce-une-surenchere-securitaire-et-de-graves-entraves-au-droit-de-manifester-en-france/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-7-signes-2026": {
+      "title": {
+        "fr": "Amnesty International France — La France glisse-t-elle vers des pratiques autoritaires ? 7 signes d'alerte (29 octobre 2026)",
+        "en": "Amnesty International France — Is France sliding into authoritarian practices? 7 warning signs (29 October 2026, in French)"
+      },
+      "url": "https://www.amnesty.fr/actualites/pratiques-autoritaires-7-signes-alerte-en-france/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-interdictions-24-octobre-2026": {
+      "title": {
+        "fr": "LDH — La LDH conteste plusieurs arrêtés d'interdiction de manifestation le 24 octobre 2026",
+        "en": "LDH — The Human Rights League challenges several protest ban orders on 24 October 2026 (in French)"
+      },
+      "url": "https://www.ldh-france.org/la-ldh-conteste-plusieurs-arretes-dinterdiction-de-manifestation-le-24-octobre-2026/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-ldh-syndicats-2026": {
+      "title": {
+        "fr": "franceinfo — Mobilisation du 24 octobre : « Autoriser uniquement les manifestations des syndicats est parfaitement illégal », affirme la LDH (22 octobre 2026)",
+        "en": "franceinfo — 24 October protests: 'Allowing only union marches is completely illegal', says the LDH (22 October 2026, in French)"
+      },
+      "url": "https://www.franceinfo.fr/economie/greve/mobilisation-du-24-octobre-autoriser-uniquement-les-manifestations-des-syndicats-est-parfaitement-illegal-affirme-la-ldh-qui-envisage-des-recours_8249527.html",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "blast-coupure-reseaux-2026": {
+      "title": {
+        "fr": "Blast — Le Premier ministre a préparé la coupure des réseaux sociaux pour le 24 octobre (24 octobre 2026)",
+        "en": "Blast — The Prime Minister prepared a social media shutdown for 24 October (24 October 2026, in French)"
+      },
+      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cdr-l412-1": {
+      "title": {
+        "fr": "Code de la route — Article L412-1 (entrave à la circulation)",
+        "en": "Highway Code — Article L412-1 (obstructing traffic, in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006841221",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-r211-18": {
+      "title": {
+        "fr": "Code de la sécurité intérieure, articles R211-18 à R211-21 et D211-17 — Emploi de la force et des armes du maintien de l'ordre",
+        "en": "Internal Security Code, articles R211-18 to R211-21 and D211-17 — Use of force and policing weapons (in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029655147/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-armements-2020": {
+      "title": {
+        "fr": "Désarmons-les — Tour d'horizon des armements du maintien de l'ordre",
+        "en": "Désarmons-les — Overview of policing weapons (in French)"
+      },
+      "url": "https://desarmons.net/2020/12/23/tour-dhorizon-des-armements-du-maintien-de-lordre-decembre-2020/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-matraques-2024": {
+      "title": {
+        "fr": "Désarmons-les — Nouvelles du front du maintien de l'ordre : stocks de matraques, blindés et canons à eau (2024)",
+        "en": "Désarmons-les — Policing weapons update: baton stocks, armoured vehicles and water cannons (2024, in French)"
+      },
+      "url": "https://desarmons.net/2024/11/28/nouvelles-du-front-du-maintien-de-lordre-stock-de-matraque-en-hausse-blindes-anti-emeutes-et-canons-a-eau-dernier-cri-part-1/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-grenades-2024": {
+      "title": {
+        "fr": "Désarmons-les — Nouvelles du front du maintien de l'ordre : grenades offensives, GM2L, GL-304, ASSD et GENL (2024)",
+        "en": "Désarmons-les — Policing weapons update: offensive grenades, GM2L, GL-304, ASSD and GENL (2024, in French)"
+      },
+      "url": "https://desarmons.net/2024/11/28/nouvelles-du-front-du-maintien-de-lordre-grenades-offensives-bombes-tactiques-et-torture-electrique-part-3/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-marches-2026": {
+      "title": {
+        "fr": "Désarmons-les — Les millions de la répression : marchés publics d'armement (LBD, Cougar, Cobra, GM2L, GENL, GL-304, ASSD)",
+        "en": "Désarmons-les — Millions for repression: public weapons procurement (LBD, Cougar, Cobra, GM2L, GENL, GL-304, ASSD, in French)"
+      },
+      "url": "https://desarmons.net/2026/08/23/les-millions-de-la-repression/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-lbd": {
+      "title": {
+        "fr": "Wikipédia — Lanceur de balle de défense (LBD 40×46)",
+        "en": "Wikipedia (FR) — Defense ball launcher (LBD 40×46)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Lanceur_de_balle_de_d%C3%A9fense",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-gmd": {
+      "title": {
+        "fr": "Wikipédia — Grenade de désencerclement (GMD / GENL)",
+        "en": "Wikipedia (FR) — Sting-ball grenade (GMD / GENL)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Grenade_de_d%C3%A9sencerclement",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-gm2l": {
+      "title": {
+        "fr": "Wikipédia — Grenade modulaire à double effet (GM2L)",
+        "en": "Wikipedia (FR) — Dual-effect modular grenade (GM2L)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/GM2L",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-gm2l": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade GM2L (Alsetex SAE 820)",
+        "en": "Maintiendelordre.fr — GM2L grenade (Alsetex SAE 820, in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-lacrymogene-gm2l-sae-820/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-gl304": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade GL-304 (Condor)",
+        "en": "Maintiendelordre.fr — GL-304 grenade (Condor, in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-gl-304-condor/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-genl": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade de désencerclement GENL",
+        "en": "Maintiendelordre.fr — GENL sting-ball grenade (in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-de-desencerclement-genl/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-efson": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade EF-SON (Alsetex)",
+        "en": "Maintiendelordre.fr — EF-SON grenade (Alsetex, in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-ef-son-alsetex/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-lbd": {
+      "title": {
+        "fr": "Maintiendelordre.fr — LBD 40 mm GL-06 (Brüger & Thomet)",
+        "en": "Maintiendelordre.fr — LBD 40 mm GL-06 (Brüger & Thomet, in French)"
+      },
+      "url": "https://maintiendelordre.fr/lbd-40-mm-bt-gl-06/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }

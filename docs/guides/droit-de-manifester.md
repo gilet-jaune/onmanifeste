@@ -32,6 +32,7 @@ En France, manifester est une **liberté**, pas une autorisation qu'on demande. 
 
 - Le maire ou le préfet peut interdire une manifestation par **arrêté** s'il estime qu'elle est de nature à troubler l'ordre public.[^sp-declarer-manifestation]
 - Il doit le justifier **au cas par cas**, selon le risque réel : il ne peut pas interdire au seul motif de la cause défendue, ni sur simple consigne du ministre.[^ce-palestine-2023]
+- En octobre 2026, après la mobilisation du 17 octobre, le président de la République a annoncé vouloir interdire tout rassemblement qui ne serait pas organisé par un syndicat ou qui émanerait de personnes « sans légitimité », tandis que des couvre-feux et interdictions générales étaient pris dans de nombreuses villes. La LDH a rappelé que réserver le droit de manifester aux seuls syndicats est illégal, et Amnesty International a dénoncé une « surenchère sécuritaire ».[^franceinfo-ldh-syndicats-2026][^ldh-interdictions-24-octobre-2026][^amnesty-surenchere-2026]
 - [ ] Avant de partir, vérifiez s'il existe un arrêté d'interdiction : site et réseaux de la préfecture, recueil des actes administratifs.[^ldh-manif-interdite]
 
 ## Si la manifestation est interdite

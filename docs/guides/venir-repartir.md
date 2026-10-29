@@ -52,6 +52,14 @@ Le trajet compte autant que le cortège : on prépare l'aller **et le retour**, 
 - Ne rentrez **pas seul·e**, surtout de nuit ; envoyez un message « bien rentré·e » à votre contact.
 - Si vous avez été gazé·e, changez de couche avant de reprendre les transports ([premiers secours](premiers-secours.md)).
 
+### De retour chez soi : décontamination et soins
+
+Si vous avez été exposé·e au gaz lacrymogène :[^medic-soins]
+
+- [ ] **Retirez vos vêtements par le bas** : déboutonnez ou faites glisser vers le bas, évitez de passer pulls ou t-shirts par la tête pour ne pas frotter les microcristaux de gaz sur vos yeux ou votre visage.
+- [ ] **Douche froide d'abord** : l'eau tiède ou chaude dilate les pores de la peau et réactive la brûlure du gaz CS. Rincez-vous abondamment à l'eau fraîche plusieurs minutes sans frotter avant d'utiliser du savon.
+- [ ] **Lavez les vêtements séparément** : lavez-les en machine à part du reste du linge pour éviter de contaminer vos autres affaires.
+
 [:octicons-arrow-right-24: Le parcours « Je suis en route »](../parcours/index.md?je=en-route)
 
 ## Sources

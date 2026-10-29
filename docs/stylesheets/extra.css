@@ -2049,3 +2049,116 @@ dialog.contact-card {
     transform: translateX(-50%);
   }
 }
+
+/* "Pourquoi nous rejoindre ?" (overrides/partials/rallier.html) */
+.md-typeset .rallier__pick {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  margin: 1rem 0 1.5rem;
+}
+
+.md-typeset .rallier__pick .timeline-filters__chip {
+  text-decoration: none;
+}
+
+.md-typeset .rallier__profile {
+  margin: 0 0 2rem;
+  padding: 0.2rem 1rem 0.8rem;
+  border: 2px solid var(--ap-ink);
+  border-left-width: 6px;
+  border-radius: var(--ap-radius);
+}
+
+[data-md-color-scheme='slate'] .md-typeset .rallier__profile {
+  border-color: var(--ap-vest);
+}
+
+.md-typeset .rallier__src {
+  font-size: 0.7em;
+  vertical-align: super;
+  text-decoration: none;
+}
+
+.md-typeset .rallier__objection {
+  padding: 0.4rem 0.6rem;
+  border-left: 4px solid var(--ap-vest);
+  background: var(--md-code-bg-color);
+}
+
+.md-typeset .rallier__step {
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+/* Share links (overrides/partials/rallier.html). */
+.md-typeset .rallier__share {
+  font-size: 0.75rem;
+}
+
+.md-typeset .rallier__short {
+  overflow-wrap: anywhere;
+}
+
+.md-typeset .rallier__share-btn {
+  margin: 0.2rem 0.2rem 0 0;
+  padding: 0.1rem 0.6rem;
+  border: 1.5px solid var(--ap-ink);
+  border-radius: 1rem;
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+[data-md-color-scheme='slate'] .md-typeset .rallier__share-btn {
+  border-color: var(--ap-vest);
+}
+
+/* "Envoyer à un·e [profil]" picker. */
+.md-typeset .rallier__picker {
+  margin: 1rem 0 1.5rem;
+  padding: 0.6rem 0.8rem;
+  border: 3px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.md-typeset .rallier__picker label {
+  font-weight: 700;
+}
+
+.md-typeset .rallier__picker select {
+  max-width: 100%;
+  margin-left: 0.3rem;
+  padding: 0.15rem 0.4rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: #fff;
+  color: #000;
+  font: inherit;
+  font-weight: 700;
+}
+
+.md-typeset .rallier__picker .rallier__share {
+  margin: 0.4rem 0 0;
+}
+
+.md-typeset .rallier__picker a {
+  color: var(--ap-ink);
+}
+
+.md-typeset .rallier__picker .rallier__hint {
+  margin: 0.3rem 0 0;
+  font-size: 0.68rem;
+}
+
+.md-typeset .rallier__rotator-line .parcours__rotator {
+  text-decoration: none;
+}

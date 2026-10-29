@@ -99,6 +99,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](premiers-secours.md)
 
+- **Armes de la police : effets, blessures et débris** [:material-shield-search:](armes-police.md)
+
+    ***
+
+    Reconnaître matraques, lacrymos, LBD, GENL, GM2L, GL-304 et assourdissantes pour adapter les soins et garder les preuves.
+
+    [:octicons-arrow-right-24: Lire](armes-police.md)
+
 - **Filmer les forces de l'ordre** [:material-video:](filmer.md)
 
     ***

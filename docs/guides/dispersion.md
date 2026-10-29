@@ -45,6 +45,7 @@ Savoir reconnaître une dispersion, et partir à temps, évite une interpellatio
 
 - Elles sont annoncées par les forces de l'ordre, souvent au **haut-parleur** (« Obéissance à la loi, dispersez-vous »), avant l'usage de la force.[^ldh-dispersion]
 - Dès la **première sommation**, commencez à partir : la seconde peut suivre très vite, et le gaz ou la charge juste après.
+- **Ne paniquez pas lors d'une charge** : les unités de gestion de foule (CRS, gendarmerie mobile, CSI), généralement en armure complète, chargent rarement sur plus de **70 m**, contrairement aux BAC (en jean). **Ne ramassez pas les grenades à la main**, surtout non explosées.[^medicaction-gestes]
 
 ## Partir sans danger
 

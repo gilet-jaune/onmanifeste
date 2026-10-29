@@ -96,6 +96,7 @@ plugins:
             Après la manif: After the protest
             Selon votre situation: Depending on your situation
             Mobiliser et informer: Mobilise and inform
+            Pourquoi nous rejoindre ?: Why join us?
             Comprendre: Understand
             Voies démocratiques bafouées: Democratic channels flouted
             Le projet: About
@@ -109,6 +110,7 @@ plugins:
             Communiquer pendant une manif: Communicating at a protest
             "Téléphone : verrouillage, code et saisie": "Phone: emergency lock, passcode and seizure"
             Premiers secours: First aid
+            "Armes de la police : effets, blessures et débris": "Police weapons: effects, injuries and debris"
             "Contrôle d'identité, fouille de sac et amendes": ID checks, bag searches and fines
             Garde à vue: Police custody
             Porter plainte, audition libre et procès: Filing a complaint, voluntary interview and trial
@@ -143,6 +145,7 @@ plugins:
         - docs/data/parcours.json
         - docs/data/sources.json
         - docs/data/victimes.json
+        - docs/data/rallier.json
 
 extra_css:
   # Self-hosted at build time by the privacy plugin.
@@ -160,6 +163,8 @@ hooks:
   - hooks/translations.py
   # Digest of the guides for the guided search (data/guides-digest.json, before pwa.py hashes it).
   - hooks/guide_digest.py
+  # Short share links <site>/rejoindre/<profile>/ (before pwa.py hashes the site).
+  - hooks/short_links.py
   # Order matters: the CSP is injected before the service worker hashes the final HTML.
   - hooks/qrcode.py
   - hooks/csp.py
@@ -187,6 +192,7 @@ nav:
           - Dispersion, sommations et nasse: guides/dispersion.md
           - "Contrôle d'identité, fouille de sac et amendes": guides/controle-fouille.md
           - Premiers secours: guides/premiers-secours.md
+          - "Armes de la police : effets, blessures et débris": guides/armes-police.md
           - Filmer les forces de l'ordre: guides/filmer.md
           - Agressions par l'extrême droite: guides/extreme-droite.md
       - Après la manif:
@@ -205,6 +211,7 @@ nav:
           - "Réseaux sociaux : ne pas nourrir la haine": guides/reseaux-sociaux.md
           - Éviter la désinformation: guides/desinformation.md
           - Convaincre ses proches: guides/convaincre-ses-proches.md
+          - Pourquoi nous rejoindre ?: rallier/index.md
           - S'informer et se former: guides/s-informer-se-former.md
   - Comprendre:
       - comprendre/index.md

@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: c76328697befaf4ba62171cc44267c34c1e4b0dc
 review: juridique
 review_status: pending
 tags:
@@ -51,6 +51,7 @@ There is no simple answer: studies describe a **dilemma**.
 - On 10 December, Emmanuel Macron announced €100 more per month at minimum-wage level, overtime free of tax and contributions, and the cancellation of the CSG increase for pensioners under €2,000 a month, while condemning "inadmissible" violence.[^publicsenat-macron-10-decembre-2018]
 - Many saw this as proof that "only smashing pays". It cannot be proven: property damage was only one part of a much broader movement (roundabouts, blockades, demonstrations every Saturday).
 - The backlash: in 2019, the so-called "anti-rioters" law tried to let the prefect ban an individual from demonstrating. The Constitutional Council struck that measure down.[^cc-2019-780]
+- In October 2026, the same pattern repeated after the 17 October mobilisation (550,000 to 800,000 people): rolling news channels devoted a disproportionate share of airtime to property damage and looting—so much so that the media regulator Arcom wrote to them calling for "the utmost vigilance"—and the executive used the unrest to impose curfews, ban gatherings not called by a union, deploy Sentinelle soldiers and prepare with telecom operators to block TikTok, Instagram, Snapchat and X.[^wiki-17-octobre-2026][^wiki-24-octobre-2026][^amnesty-surenchere-2026][^blast-coupure-reseaux-2026] That is also why many groups seek to **move beyond city-centre stand-offs** by multiplying local meeting points (roundabouts, markets, assemblies) and strike support ([organising locally](organiser.md#organising-locally-beyond-city-centres)).
 
 ## What you risk
 

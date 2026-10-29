@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: 159957245d220a431a6d7f0e9c0b150fbcdb2854
 review: juridique
 review_status: pending
 tags:
@@ -40,6 +40,16 @@ Organising means notifying, preparing safety and planning what comes after. The 
 ## Afterwards
 
 - Debrief with the legal team: arrests, injuries, testimonies and videos to gather.
+
+## Organising locally, beyond city centres
+
+- **Why not rely solely on city-centre marches or school blockades**: concentrated in the same city-centre streets every Saturday, a crowd is easier to kettle and tear-gas, while a few clashes are enough for rolling news channels to overshadow demands and justify curfews and bans.[^wiki-17-octobre-2026][^amnesty-surenchere-2026] Likewise, an isolated high-school blockade does not halt the economy and exposes young people to mass repression (over 5,000 arrests in autumn 2026).[^amnesty-lyceens-2026] Social history (1936, 1968, 1995, the Yellow Vests in 2018) shows that leverage grows when a movement **broadens to other groups and key sectors** (transport, energy, logistics, education) and **puts down local roots** in small towns, neighbourhoods and rural areas.
+- [ ] **Make support visible every day**: place a yellow vest on your dashboard, display support in a window or on a balcony, and talk with others who do the same.
+- [ ] **Create friendly local meeting points near home**: local markets, town squares, workplace gates or **welcoming roundabouts** (shared meals, banners, conversations) let residents put off by city-centre clashes meet and organise on a human scale.[^wiki-17-octobre-2026]
+- [ ] **Agree on the next meeting in person before leaving**: if social networks are saturated, throttled by algorithms or administratively blocked, a recurring physical meeting point (local assembly, roundabout, market) keeps the group going without relying on screens.[^blast-coupure-reseaux-2026]
+- [ ] **Support strikes in strategic sectors**: join information pickets and contribute to strike funds so workers in transport, energy or public services can hold out ([strikes, protests and work](travail.md)).
+- [ ] **Never post an invite link to an organising Signal group on Facebook or public social media**: police and the far right join open links immediately. Use public channels only to announce open gatherings, then create small {{ res("signal") }} groups with people you have met in person, hiding your phone number (Signal username) and enabling disappearing messages.[^eff-signal]
+- **Roundabouts and traffic**: gathering peacefully on the verge of a roundabout, holding a banner or handing leaflets to stopped motorists without blocking the lane falls under freedom of expression.[^amnesty-droits] By contrast, **obstructing or blocking traffic** on a public road is a criminal offence punishable by **2 years in prison and a €4,500 fine**, as well as driving-licence suspension.[^cdr-l412-1]
 
 ## Sources
 

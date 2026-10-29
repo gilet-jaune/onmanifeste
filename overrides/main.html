@@ -26,6 +26,7 @@ og_image = (config.site_url ~ "assets/social/og.png") if config.site_url else
 {%- endif %}
 <meta property="og:locale" content="{{ 'en_GB' if config.theme.language == 'en' else 'fr_FR' }}" />
 <meta name="twitter:card" content="summary_large_image" />
+<script src="{{ 'javascripts/search-filter.js' | url }}"></script>
 {% endblock %} {% block content %} {#- Review badge for pages not yet checked by a professional
 (front matter: review: juridique|medical). #} {%- if page and page.meta and page.meta.review and
 page.meta.review_status != 'reviewed' %}

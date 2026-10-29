@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: 159957245d220a431a6d7f0e9c0b150fbcdb2854
 review: juridique
 review_status: pending
 tags:
@@ -33,6 +33,7 @@ In France, demonstrating is a **freedom**, not a permission you ask for. The Sta
 
 - The mayor or the prefect can ban a demonstration by **order** if they consider it likely to disturb public order.[^sp-declarer-manifestation]
 - They must justify it **case by case**, according to the real risk: they cannot ban it solely because of the cause it defends, nor merely on the minister's instruction.[^ce-palestine-2023]
+- In October 2026, after the 17 October mobilisation, the President of the Republic announced plans to ban any gathering not organised by a union or called by people "without legitimacy", while curfews and blanket bans were issued in many cities. The Human Rights League (LDH) recalled that reserving the right to protest to unions alone is unlawful, and Amnesty International denounced a "security escalation".[^franceinfo-ldh-syndicats-2026][^ldh-interdictions-24-octobre-2026][^amnesty-surenchere-2026]
 - [ ] Before you go, check whether there is a ban order: the prefecture's website and social media, the official bulletin of administrative acts.[^ldh-manif-interdite]
 
 ## If the demonstration is banned

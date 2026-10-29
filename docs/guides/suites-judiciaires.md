@@ -38,15 +38,15 @@ tags:
 
 ## Après des violences : faire constater et porter plainte
 
-1. **Certificat médical descriptif** : consultez un médecin (médecin traitant, urgences ou unité médico-judiciaire) le plus tôt possible. Demandez une description précise de chaque lésion, du retentissement psychologique et le nombre de jours d'**ITT** (incapacité totale de travail, même si vous ne travaillez pas).[^ldh-violences]
-2. **Preuves matérielles** : photographiez vos blessures avec une règle pour l'échelle, conservez vos vêtements tachés ou déchirés (sans les laver), rassemblez les coordonnées des témoins et les vidéos.[^ldh-violences][^witness-preuve]
+1. **Certificat médical descriptif** : consultez un médecin (médecin traitant, urgences ou unité médico-judiciaire) le plus tôt possible. Demandez une description précise de chaque lésion (dimensions, forme typique), du retentissement psychologique et le nombre de jours d'**ITT** (incapacité totale de travail, même si vous ne travaillez pas).[^ldh-violences]
+2. **Preuves matérielles** : photographiez vos blessures avec une règle pour l'échelle, photographiez et conservez les **débris refroidis de munitions** (balles de LBD, plots de GENL, éclats rouges de GM2L ou noirs de GL-304, marquages de lot — [voir « Armes de la police : effets, blessures et débris »](armes-police.md)), conservez vos vêtements tachés ou déchirés (sans les laver), rassemblez les coordonnées des témoins et les vidéos.[^ldh-violences][^witness-preuve][^desarmons-armements-2020]
 3. **Déposer plainte** :
     - Tout commissariat ou brigade de gendarmerie a l'**obligation légale** de recevoir votre plainte, quel que soit le lieu des faits (un refus de prise de plainte est illégal).[^sp-plainte]
     - **Pour éviter tout refus ou pression au guichet** : envoyez votre plainte directement par **lettre recommandée avec accusé de réception (LRAR)** au **procureur de la République** du tribunal judiciaire du lieu des faits (récit daté et signé, copie du certificat médical et des preuves).[^sp-plainte][^ldh-violences]
 4. **Signalements complémentaires** (ne remplacent **pas** une plainte pénale) :
     - Saisissez le {{ res("defenseur-des-droits") }} (gratuit, enquête indépendante sur la déontologie des forces de l'ordre).[^ddd]
     - Signalez les faits à l'IGPN (police) ou à l'{{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn]
-5. Guide pas à pas : {{ res("ldh-que-faire-violences", "LDH — Que faire face aux violences policières ?") }}
+5. Guides et accompagnement : {{ res("ldh-que-faire-violences", "LDH — Que faire face aux violences policières ?") }} et l'ONG {{ res("flagrant-deni") }} (guide juridique et soutien aux victimes).
 
 ## Convoqué·e en « audition libre »
 

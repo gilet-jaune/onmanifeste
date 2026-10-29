@@ -1,5 +1,5 @@
 ---
-source_commit: 0e7fcd4744a6a4cfff6bf15578d4e08e353e0499
+source_commit: c76328697befaf4ba62171cc44267c34c1e4b0dc
 tags:
     - guides
     - dialogue
@@ -15,6 +15,8 @@ tags:
     - Aim for **one small step** and a conversation that **keeps going**.
 
 You rarely change someone's mind in one conversation, and almost never by being "right" louder. Conversations that move people rely on listening, lived stories and shared values.[^deep-canvassing]
+
+Sourced arguments depending on the person (woman, retiree, teacher, small business owner, police officer…): [Why join us?](../rallier/index.md).
 
 ## Before
 
@@ -40,6 +42,23 @@ You rarely change someone's mind in one conversation, and almost never by being 
 
 - Suggest **a small step**: read an article, watch a video, come to a calm rally, sign a petition.
 - Come back to it later, without pressure. Changing one's mind takes time.
+
+## Stepping out of the media trap over "rioters"
+
+- **Don't get trapped in a "for or against property damage" debate** or in pitting working-class neighbourhoods against small towns and rural areas: in October 2026, France's broadcast regulator Arcom called on TV and radio channels to exercise "the utmost vigilance", as their airtime devoted to violence was seen as disproportionate ([why property gets smashed at protests](casse.md)).[^wiki-17-octobre-2026]
+- **Start from shared material interests**: fuel and grocery prices, wages, pensions, the state of schools and hospitals. Ask what concretely weighs on their daily life.
+- **Show what the security crackdown changes for everyone**: curfews, blanket protest bans, plans to shut down social media or algorithmic video surveillance end up applying to every cause.[^amnesty-surenchere-2026][^amnesty-7-signes-2026][^blast-coupure-reseaux-2026]
+- **Offer calm, accessible local ways to act**: if someone is afraid of tense city-centre marches, invite them to stop by a friendly roundabout or local market for a chat, put a yellow vest on their dashboard, or contribute to a strike fund ([organising locally](organiser.md#organising-locally-beyond-city-centres)).
+
+## Links to share
+
+A short, readable link on this site (no shortener that worries people or tracks them), to send with a kind message. Each one opens the sourced arguments for that profile:
+
+{% import "overrides/partials/rallier.html" as r with context %}
+
+{{ r.share_picker('en', '../../') }}
+
+{{ r.share_list('en') }}
 
 ## Where to find verified orders of magnitude
 

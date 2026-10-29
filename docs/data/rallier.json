@@ -1,0 +1,483 @@
+{
+  "rallier": {
+    "profiles": [
+      {
+        "id": "citoyen",
+        "label": {
+          "fr": "citoyen·ne attaché·e à ses libertés",
+          "en": "someone who cares about civil liberties"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Manifester est un droit protégé par la Constitution : le Conseil constitutionnel y voit le « droit d'expression collective des idées et des opinions ».",
+              "en": "Protesting is a right protected by the Constitution: the Constitutional Council calls it the \"right to the collective expression of ideas and opinions\"."
+            },
+            "sources": ["cc-94-352"]
+          },
+          {
+            "text": {
+              "fr": "Une interdiction doit être justifiée au cas par cas : en 2023, le Conseil d'État a rappelé qu'on ne peut pas interdire une manifestation au seul motif de la cause défendue, ni sur simple consigne du ministre.",
+              "en": "A ban must be justified case by case: in 2023, the Council of State recalled that a protest cannot be banned solely because of its cause, nor merely on the minister's instruction."
+            },
+            "sources": ["ce-palestine-2023"]
+          },
+          {
+            "text": {
+              "fr": "En 2019, le Conseil constitutionnel a censuré la loi qui permettait au préfet d'interdire à une personne de manifester.",
+              "en": "In 2019, the Constitutional Council struck down the law letting the prefect ban an individual from protesting."
+            },
+            "sources": ["cc-2019-780"]
+          },
+          {
+            "text": {
+              "fr": "Pendant les gilets jaunes, 11 203 personnes ont été placées en garde à vue, dont 5 962 libérées sans poursuites : Amnesty International y voit un usage abusif de la loi contre les manifestant·es.",
+              "en": "During the yellow vests movement, 11,203 people were taken into custody, 5,962 of them released without charge: Amnesty International sees an abusive use of the law against protesters."
+            },
+            "sources": ["amnesty-arrestations-2020"]
+          },
+          {
+            "text": {
+              "fr": "En octobre 2026, après la journée du 17 octobre, l'exécutif multiplie les couvre-feux, annonce vouloir interdire tout rassemblement non déclaré par un syndicat (distinction jugée illégale par la LDH) et prépare avec les opérateurs télécoms la suspension de TikTok, Instagram, Snapchat et X : Amnesty International dénonce une « surenchère sécuritaire » et alerte sur sept signes de dérive autoritaire en France.",
+              "en": "In October 2026, after the 17 October protests, the executive multiplies curfews, announces plans to ban any gathering not called by a union (a distinction deemed illegal by the LDH) and prepares with telecom operators to suspend TikTok, Instagram, Snapchat and X: Amnesty International denounces a \"security escalation\" and warns of seven signs of authoritarian drift in France."
+            },
+            "sources": [
+              "amnesty-surenchere-2026",
+              "amnesty-7-signes-2026",
+              "franceinfo-ldh-syndicats-2026",
+              "blast-coupure-reseaux-2026"
+            ]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Si c'est interdit, c'est qu'il y a une raison. »",
+              "en": "\"If it's banned, there must be a reason.\""
+            },
+            "answer": {
+              "fr": "Une interdiction peut être contestée devant le juge, qui statue en urgence, et participer à une manifestation interdite expose à une amende, pas à une garde à vue pour ce seul motif. Défendre ce droit, c'est le défendre pour toutes les causes, y compris les vôtres.",
+              "en": "A ban can be challenged before a judge, who rules urgently, and taking part in a banned protest exposes you to a fine, not to custody for that reason alone. Defending this right means defending it for every cause, including yours."
+            },
+            "sources": ["justice-refere-liberte", "ldh-manif-interdite"],
+            "link": {
+              "guide": "droit-de-manifester",
+              "label": {
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Vérifier avant chaque manif s'il existe un arrêté d'interdiction, et soutenir les recours des associations.",
+          "en": "Check before each protest whether there is a ban order, and support associations' legal challenges."
+        }
+      },
+      {
+        "id": "femme",
+        "label": {
+          "fr": "femme",
+          "en": "a woman"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Les femmes touchent une pension de droit direct inférieure de 38 % à celle des hommes ; l'écart reste de 25 % en comptant les pensions de réversion (2023).",
+              "en": "Women receive a direct pension 38% lower than men's; the gap is still 25% when survivor pensions are included (2023)."
+            },
+            "sources": ["drees-retraites-2025"]
+          },
+          {
+            "text": {
+              "fr": "Le report de l'âge de départ à 64 ans pénalise davantage les femmes : le gouvernement lui-même l'a reconnu en 2023.",
+              "en": "Raising the retirement age to 64 penalises women more: the government itself admitted it in 2023."
+            },
+            "sources": ["publicsenat-riester-femmes-2023"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Les manifs, c'est dangereux pour moi. »",
+              "en": "\"Protests are dangerous for me.\""
+            },
+            "answer": {
+              "fr": "Venez en binôme, restez dans le cortège et gardez sur vous les numéros utiles, dont le 3919 contre les violences sexistes.",
+              "en": "Come with a buddy, stay in the march and carry useful numbers, including 3919 for sexist violence."
+            },
+            "link": {
+              "guide": "violences-harcelement",
+              "label": {
+                "fr": "Violences sexistes et harcèlement",
+                "en": "Sexist violence and harassment"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Parler de l'écart de pension avec une proche, puis venir à un rassemblement en binôme.",
+          "en": "Talk about the pension gap with a friend, then come to a rally together."
+        }
+      },
+      {
+        "id": "artisan",
+        "label": {
+          "fr": "artisan, commerçant·e ou petit·e entrepreneur·e",
+          "en": "a craftsperson, shopkeeper or small business owner"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Les PME paient un taux implicite d'impôt sur les sociétés de 21,4 %, contre 14,3 % pour les grandes entreprises, mieux armées pour l'optimisation fiscale (INSEE, 2025).",
+              "en": "SMEs pay an implicit corporate tax rate of 21.4%, against 14.3% for large companies, better equipped for tax optimisation (INSEE, 2025)."
+            },
+            "sources": ["jde-is-pme-2025"]
+          },
+          {
+            "text": {
+              "fr": "Les aides publiques aux entreprises atteignent environ 157 milliards d'euros par an, sans condition sociale ni écologique.",
+              "en": "Public subsidies to companies reach about €157 billion a year, with no social or environmental conditions."
+            },
+            "sources": ["ires-capitalisme-perfusion"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Les blocages font perdre de l'argent aux commerçant·es. »",
+              "en": "\"Blockades cost shopkeepers money.\""
+            },
+            "answer": {
+              "fr": "Le mouvement des gilets jaunes est né contre une hausse de taxe sur le carburant : le pouvoir d'achat de vos client·es, c'est aussi votre chiffre d'affaires. On peut soutenir sans bloquer.",
+              "en": "The yellow vests movement was born against a fuel tax rise: your customers' purchasing power is also your turnover. You can support without blocking."
+            },
+            "link": {
+              "page": "histoire",
+              "anchor": {
+                "fr": "evt-2018-gilets-jaunes",
+                "en": "evt-2018-gilets-jaunes"
+              },
+              "label": {
+                "fr": "Gilets jaunes (repères historiques)",
+                "en": "Yellow vests (history)"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Afficher votre soutien en vitrine ou relayer une caisse de solidarité.",
+          "en": "Show your support in your shop window or share a solidarity fund."
+        }
+      },
+      {
+        "id": "retraite",
+        "label": {
+          "fr": "retraité·e",
+          "en": "a retiree"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "La hausse de la CSG des retraité·es n'a été annulée, pour les pensions sous 2 000 € par mois, qu'après les manifestations des gilets jaunes (10 décembre 2018).",
+              "en": "The rise in retirees' CSG was cancelled, for pensions under €2,000 a month, only after the yellow vests protests (10 December 2018)."
+            },
+            "sources": ["publicsenat-macron-10-decembre-2018"]
+          },
+          {
+            "text": {
+              "fr": "La réforme des retraites de 2023 a été adoptée sans vote de l'Assemblée, par le 49.3.",
+              "en": "The 2023 pension reform was passed without a vote in the Assembly, using Article 49.3."
+            },
+            "link": {
+              "page": "histoire",
+              "anchor": {
+                "fr": "evt-2023-retraites-quatorze-journees-de-mobilisation",
+                "en": "evt-2023-retraites-quatorze-journees-de-mobilisation"
+              },
+              "label": {
+                "fr": "Retraites 2023 (repères historiques)",
+                "en": "Pensions 2023 (history)"
+              }
+            }
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Je suis à la retraite, ça ne me concerne plus. »",
+              "en": "\"I'm retired, it doesn't concern me any more.\""
+            },
+            "answer": {
+              "fr": "Vos enfants et petits-enfants sont concernés par le report de l'âge de départ. Et vous pouvez soutenir sans marcher.",
+              "en": "Your children and grandchildren are affected by the later retirement age. And you can support without marching."
+            },
+            "link": {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "apres",
+                "en": "after"
+              },
+              "label": {
+                "fr": "Accueillir à la sortie d'une garde à vue",
+                "en": "Welcoming someone out of custody"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Soutenir sans marcher : caisse de solidarité, pétition, accueil à la sortie d'une garde à vue.",
+          "en": "Support without marching: solidarity fund, petition, welcoming someone out of police custody."
+        }
+      },
+      {
+        "id": "etudiant",
+        "label": {
+          "fr": "jeune ou étudiant·e",
+          "en": "young or a student"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "19 % des étudiant·es n'ont pas pu subvenir à leurs besoins de base, et 44 % travaillent à côté de leurs études (OVE, 2023).",
+              "en": "19% of students could not meet their basic needs, and 44% work alongside their studies (OVE, 2023)."
+            },
+            "sources": ["letudiant-ove-2023"]
+          },
+          {
+            "text": {
+              "fr": "En 2026, Amnesty International juge légitimes les revendications des lycéen·nes (profs, bâtiments sûrs, infirmières) et demande le dialogue plutôt que la répression.",
+              "en": "In 2026, Amnesty International deems the high-school students' demands (teachers, safe buildings, nurses) legitimate and calls for dialogue rather than repression."
+            },
+            "sources": ["amnesty-lyceens-2026"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Manifester peut nuire à mes études ou à mon dossier. »",
+              "en": "\"Protesting could harm my studies or my record.\""
+            },
+            "answer": {
+              "fr": "Manifester est un droit. Connaître les règles (absences, blocus, garde à vue) évite la plupart des ennuis.",
+              "en": "Protesting is a right. Knowing the rules (absences, blockades, custody) avoids most trouble."
+            },
+            "link": {
+              "guide": "lyceens",
+              "label": {
+                "fr": "Guide lycéen·nes",
+                "en": "High-school students' guide"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Rejoindre un collectif ou un syndicat étudiant, et venir en binôme.",
+          "en": "Join a student group or union, and come with a buddy."
+        }
+      },
+      {
+        "id": "service-public",
+        "label": {
+          "fr": "agent·e du service public",
+          "en": "a public sector worker"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "La valeur du point d'indice a été gelée de 2010 à 2016 puis de 2017 à 2022 : un agent de catégorie C a perdu près de 15 % de pouvoir d'achat entre 2010 et 2022.",
+              "en": "The index point value was frozen from 2010 to 2016 and from 2017 to 2022: a category C worker lost nearly 15% of purchasing power between 2010 and 2022."
+            },
+            "sources": ["weka-point-indice"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Je n'ai pas le droit, je suis fonctionnaire. »",
+              "en": "\"I'm not allowed, I'm a civil servant.\""
+            },
+            "answer": {
+              "fr": "Si : le devoir de réserve porte sur la manière d'exprimer ses opinions, pas sur le droit de manifester.",
+              "en": "You are: the duty of discretion is about how you express your opinions, not about the right to protest."
+            },
+            "sources": ["sp-reserve"],
+            "link": {
+              "guide": "travail",
+              "anchor": {
+                "fr": "devoir-de-reserve-et-neutralite",
+                "en": "duty-of-discretion-and-neutrality"
+              },
+              "label": {
+                "fr": "Devoir de réserve et neutralité",
+                "en": "Duty of discretion and neutrality"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Faire le point avec votre syndicat, puis manifester hors service.",
+          "en": "Check with your union, then protest off duty."
+        }
+      },
+      {
+        "id": "parent",
+        "label": {
+          "fr": "parent d'élève ou d'étudiant·e",
+          "en": "the parent of a pupil or student"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "En 2026, plus de 5 000 interpellations en douze jours lors du mouvement lycéen, dont 85 % de mineur·es ; leurs revendications portaient sur les profs, les bâtiments et les infirmières.",
+              "en": "In 2026, more than 5,000 arrests in twelve days during the high-school movement, 85% of them minors; their demands were about teachers, buildings and nurses."
+            },
+            "sources": ["amnesty-lyceens-2026"]
+          },
+          {
+            "text": {
+              "fr": "19 % des étudiant·es n'ont pas pu subvenir à leurs besoins de base (OVE, 2023).",
+              "en": "19% of students could not meet their basic needs (OVE, 2023)."
+            },
+            "sources": ["letudiant-ove-2023"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Je préfère que mon enfant ne manifeste pas. »",
+              "en": "\"I'd rather my child didn't protest.\""
+            },
+            "answer": {
+              "fr": "Préparez-le plutôt : un binôme, le numéro d'un adulte sur papier, et ses droits en garde à vue (avocat·e obligatoire, parents prévenus).",
+              "en": "Prepare them instead: a buddy, an adult's number on paper, and their rights in custody (mandatory lawyer, parents informed)."
+            },
+            "link": {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "si-vous-etes-interpellee",
+                "en": "if-you-are-arrested"
+              },
+              "label": {
+                "fr": "Si votre enfant est interpellé·e",
+                "en": "If your child is arrested"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Être l'adulte joignable le jour de la manif, ou venir avec votre enfant.",
+          "en": "Be the reachable adult on protest day, or come with your child."
+        }
+      },
+      {
+        "id": "prof",
+        "label": {
+          "fr": "prof (école, collège ou lycée)",
+          "en": "a teacher (primary or secondary school)"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "En euros constants, les enseignant·es ont perdu entre 15 et 25 % de rémunération ces dernières années (rapport du Sénat, 2021).",
+              "en": "In real terms, teachers lost between 15 and 25% of their pay in recent years (Senate report, 2021)."
+            },
+            "sources": ["acteurspublics-longuet-2021"]
+          },
+          {
+            "text": {
+              "fr": "En 2020, des lycéen·nes en garde à vue après des blocus ont été interrogé·es sur les profs qui les auraient encouragé·es.",
+              "en": "In 2020, high-school students in custody after blockades were questioned about which teachers had encouraged them."
+            },
+            "sources": ["sudradio-lyceens-gav-2020"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Je dois rester neutre devant mes élèves. »",
+              "en": "\"I must stay neutral in front of my pupils.\""
+            },
+            "answer": {
+              "fr": "En classe, oui. Hors service, vous pouvez manifester : la réserve porte sur la manière de vous exprimer.",
+              "en": "In class, yes. Off duty, you can protest: the duty of discretion is about how you express yourself."
+            },
+            "sources": ["sp-reserve"],
+            "link": {
+              "guide": "travail",
+              "anchor": {
+                "fr": "faire-greve",
+                "en": "going-on-strike"
+              },
+              "label": {
+                "fr": "Grève : déclaration 48 h avant (premier degré)",
+                "en": "Strike: 48-hour notice (primary schools)"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Rejoindre l'intersyndicale de votre établissement, et soutenir vos élèves en cas de sanction.",
+          "en": "Join your school's inter-union group, and support your pupils if they are sanctioned."
+        }
+      },
+      {
+        "id": "policier",
+        "label": {
+          "fr": "policier·e ou gendarme",
+          "en": "a police officer or gendarme"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Fin 2018, 23 millions d'heures supplémentaires étaient stockées dans la police nationale, ni payées ni récupérées (Cour des comptes).",
+              "en": "At the end of 2018, 23 million overtime hours were stockpiled in the national police, neither paid nor taken as leave (Court of Audit)."
+            },
+            "sources": ["bdt-heures-sup-2020"]
+          },
+          {
+            "text": {
+              "fr": "La désescalade protège aussi les agent·es : un maintien de l'ordre perçu comme indiscriminé radicalise la foule, et la Défenseure des droits plaide pour le dialogue.",
+              "en": "De-escalation also protects officers: policing seen as indiscriminate radicalises the crowd, and the Defender of Rights argues for dialogue."
+            },
+            "sources": ["sussex-esim", "lcp-ddd-desescalade"]
+          },
+          {
+            "text": {
+              "fr": "Vous n'avez pas le droit de grève, mais les retraites et les salaires vous concernent comme tout le monde.",
+              "en": "You have no right to strike, but pensions and pay affect you like everyone else."
+            },
+            "sources": ["sp-greve-public"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Les manifestant·es détestent la police. »",
+              "en": "\"Protesters hate the police.\""
+            },
+            "answer": {
+              "fr": "Ce qui est dénoncé, ce sont des pratiques (tirs de LBD, nasses) et l'impunité, pas les personnes.",
+              "en": "What is denounced is practices (LBD shots, kettling) and impunity, not people."
+            },
+            "link": {
+              "page": "repressions",
+              "anchor": {
+                "fr": "gardes-a-vue-de-masse-beaucoup-dinterpellees-peu-de-poursuivies",
+                "en": "mass-custody-many-arrested-few-prosecuted"
+              },
+              "label": {
+                "fr": "Répressions documentées",
+                "en": "Documented repression"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Parler de désescalade avec vos collègues, et porter la question des heures supplémentaires dans vos syndicats.",
+          "en": "Talk about de-escalation with colleagues, and raise the overtime issue in your unions."
+        }
+      }
+    ]
+  }
+}
