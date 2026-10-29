@@ -1,5 +1,5 @@
 ---
-source_commit: 159957245d220a431a6d7f0e9c0b150fbcdb2854
+source_commit: a1dcc6101dd0052b153a140eb40b98afc8969b85
 review: juridique
 review_status: pending
 tags:
@@ -33,7 +33,7 @@ Organising means notifying, preparing safety and planning what comes after. The 
 - [ ] Identifiable **stewards**, trained in de-escalation and in spotting exits.
 - [ ] **Street medics** and a **legal team** on board, with their numbers shared with participants.
 - [ ] An **accessible point** and an "accessibility" contact for disabled people.
-- [ ] An encrypted information channel ([Signal](../annuaire/index.md#signal)) for live instructions.
+- [ ] An encrypted information channel ([Signal](../annuaire/index.md#signal)) for live instructions; to structure your groups without being infiltrated: [Signal groups](groupes-signal.md).
 - [ ] Encrypted shared documents ({{ res("cryptpad") }}) for contact lists, the plan and roles, rather than a mainstream online service.
 - [ ] A clear **dispersal** point and instructions in case of warnings ([dispersal and warnings](dispersion.md)).
 

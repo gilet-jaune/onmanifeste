@@ -1,5 +1,5 @@
 ---
-source_commit: c76328697befaf4ba62171cc44267c34c1e4b0dc
+source_commit: a1dcc6101dd0052b153a140eb40b98afc8969b85
 tags:
     - guides
     - communication
@@ -47,7 +47,7 @@ The mobile network can saturate, be jammed or be cut. The government can also se
 ## Good practice
 
 - [ ] **Install and test your apps before leaving**, and add your Briar contacts then: if the mobile network is cut or saturated on site, you won't be able to download anything.
-- [ ] **Signal**: turn on disappearing messages and screen lock; create separate groups per purpose.[^eff-signal]
+- [ ] **Signal**: turn on disappearing messages and screen lock; create separate groups per purpose ([Signal groups: organising without being infiltrated](groupes-signal.md)).[^eff-signal]
 - [ ] **Meshtastic**: create a **private channel with its own key** and share it only with your team; don't use the default channel for anything sensitive.[^meshtastic-encryption]
 - [ ] **Meshtastic**: change the **Bluetooth pairing PIN**; on devices without a screen it defaults to **123456**, so anyone nearby could connect.[^meshtastic-bluetooth]
 - [ ] **Meshtastic**: set the region to **EU_868**; in France this band is licence-free, with limited airtime.[^meshtastic-lora]

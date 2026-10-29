@@ -1,5 +1,5 @@
 ---
-source_commit: 15583d5ed7e12d430ebd94cc3a97f689faba99f5
+source_commit: a1dcc6101dd0052b153a140eb40b98afc8969b85
 tags:
     - guides
 ---
@@ -213,6 +213,14 @@ Guides to read before you go, **available offline** once the site has been opene
     Notify, prepare safety, risks for organisers.
 
     [:octicons-arrow-right-24: Read](organiser.md)
+
+- **Signal groups: organising without being infiltrated** [:material-account-group:](groupes-signal.md)
+
+    ***
+
+    Public, airlock and vetted groups, in-person vetting, naming, seized phones.
+
+    [:octicons-arrow-right-24: Read](groupes-signal.md)
 
 - **The Palestinian flag at protests** [:material-flag:](drapeau-palestinien.md)
 

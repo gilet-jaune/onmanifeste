@@ -213,6 +213,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](organiser.md)
 
+- **Groupes Signal : s'organiser sans se faire infiltrer** [:material-account-group:](groupes-signal.md)
+
+    ***
+
+    Groupes public, sas et vérifiés, rencontre en vrai, nommage, téléphone saisi.
+
+    [:octicons-arrow-right-24: Lire](groupes-signal.md)
+
 - **Drapeau palestinien en manifestation** [:material-flag:](drapeau-palestinien.md)
 
     ***

@@ -3396,6 +3396,219 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "signal-groupes": {
+      "title": {
+        "fr": "Signal — Conversations de groupe",
+        "en": "Signal — Group chats"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007319331",
+        "en": "https://support.signal.org/hc/en-us/articles/360007319331"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-lien-groupe": {
+      "title": {
+        "fr": "Signal — Lien de groupe ou code QR",
+        "en": "Signal — Group link or QR code"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360051086971",
+        "en": "https://support.signal.org/hc/en-us/articles/360051086971"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-usernames": {
+      "title": {
+        "fr": "Signal — Keep your phone number private with Signal usernames",
+        "en": "Signal — Keep your phone number private with Signal usernames"
+      },
+      "url": "https://signal.org/blog/phone-number-privacy-usernames/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-227-21": {
+      "title": {
+        "fr": "Code pénal, art. 227-21 (provocation d'un mineur à commettre un crime ou un délit)",
+        "en": "French Criminal Code, art. 227-21 (inciting a minor to commit an offence)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409186",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-222-14-2": {
+      "title": {
+        "fr": "Code pénal, art. 222-14-2 (groupement en vue de violences ou dégradations)",
+        "en": "French Criminal Code, art. 222-14-2 (group formed to prepare violence or damage)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926074",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-ephemeres": {
+      "title": {
+        "fr": "Signal — Configurer et gérer les messages éphémères",
+        "en": "Signal — Set and manage disappearing messages"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007320771",
+        "en": "https://support.signal.org/hc/en-us/articles/360007320771"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-supprimer": {
+      "title": {
+        "fr": "Signal — Supprimer des messages, des alertes ou des conversations",
+        "en": "Signal — Delete messages, alerts or chats"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007320491",
+        "en": "https://support.signal.org/hc/en-us/articles/360007320491"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-gerer-groupe": {
+      "title": {
+        "fr": "Signal — Gérer un groupe",
+        "en": "Signal — Manage a group"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360050427692",
+        "en": "https://support.signal.org/hc/en-us/articles/360050427692"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-libelles": {
+      "title": {
+        "fr": "Signal — Label yourself (libellés de membres dans les groupes)",
+        "en": "Signal — Label yourself (group member labels)"
+      },
+      "url": "https://signal.org/blog/group-member-labels/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "markey-2000": {
+      "title": {
+        "fr": "Markey (2000) — Bystander intervention in computer-mediated communication, Computers in Human Behavior",
+        "en": "Markey (2000) — Bystander intervention in computer-mediated communication, Computers in Human Behavior"
+      },
+      "url": "https://doi.org/10.1016/S0747-5632(99)00056-4",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "darley-latane-1968": {
+      "title": {
+        "fr": "Darley et Latané (1968) — Bystander intervention in emergencies: diffusion of responsibility",
+        "en": "Darley & Latané (1968) — Bystander intervention in emergencies: diffusion of responsibility"
+      },
+      "url": "https://doi.org/10.1037/h0025589",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "seeds-spokescouncil": {
+      "title": {
+        "fr": "Seeds for Change — Spokescouncils (conseils de porte-parole)",
+        "en": "Seeds for Change — Spokescouncils"
+      },
+      "url": "https://www.seedsforchange.org.uk/spokescouncil",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cnil-assistants-vocaux": {
+      "title": {
+        "fr": "CNIL — « À votre écoute » : livre blanc sur les assistants vocaux",
+        "en": "CNIL — \"À votre écoute\": white paper on voice assistants (in French)"
+      },
+      "url": "https://www.cnil.fr/fr/votre-ecoute-la-cnil-publie-son-livre-blanc-sur-les-assistants-vocaux",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "behindit": {
+      "title": {
+        "fr": "BehindIt — retrouver l'auteur d'un lien Instagram ou TikTok partagé (GitHub)",
+        "en": "BehindIt — revealing who shared an Instagram or TikTok link (GitHub)"
+      },
+      "url": "https://github.com/Gobutsu/BehindIt",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-profils": {
+      "title": {
+        "fr": "Signal — Profils Signal et invitations par message",
+        "en": "Signal — Signal profiles and message requests"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007459591",
+        "en": "https://support.signal.org/hc/en-us/articles/360007459591"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-confidentialite-numero": {
+      "title": {
+        "fr": "Signal — Zoom sur les noms d'utilisateur et la confidentialité du numéro de téléphone",
+        "en": "Signal — Phone number privacy and usernames deeper dive"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/6829998083994",
+        "en": "https://support.signal.org/hc/en-us/articles/6829998083994"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

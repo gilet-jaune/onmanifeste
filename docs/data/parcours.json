@@ -1973,7 +1973,14 @@
         "declarer",
         "declaration",
         "prefecture",
-        "organise"
+        "organise",
+        "signal",
+        "groupe",
+        "infiltration",
+        "infiltre",
+        "compromis",
+        "embarque",
+        "pseudo"
       ],
       "needs": [
         {
@@ -2019,6 +2026,104 @@
             },
             {
               "resource": "cryptpad"
+            }
+          ]
+        },
+        {
+          "id": "groupes",
+          "label": {
+            "fr": "structurer nos groupes de discussion sans être infiltré·es",
+            "en": "structure our group chats without being infiltrated"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "les-groupes",
+                "en": "the-groups"
+              },
+              "label": {
+                "fr": "Trois niveaux de groupes",
+                "en": "Three levels of groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              },
+              "label": {
+                "fr": "Avant de rejoindre : nom de militant·e et réglages",
+                "en": "Before joining: activist name and settings"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "regler-les-groupes",
+                "en": "setting-up-the-groups"
+              },
+              "label": {
+                "fr": "Préparer un groupe avant d'inviter",
+                "en": "Set up a group before inviting"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "valider-la-regle-des-rh",
+                "en": "validating-hrs-rule"
+              },
+              "label": {
+                "fr": "Vérifier les personnes en vrai",
+                "en": "Vetting people in person"
+              }
+            },
+            {
+              "resource": "signal"
+            }
+          ]
+        },
+        {
+          "id": "compromis",
+          "label": {
+            "fr": "un membre arrêté ou un groupe compromis",
+            "en": "a member arrested or a group compromised"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              },
+              "label": {
+                "fr": "Quelqu'un se fait embarquer : retrait conservatoire",
+                "en": "Someone gets taken away: precautionary removal"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "quand-un-groupe-est-il-compromis",
+                "en": "when-is-a-group-compromised"
+              },
+              "label": {
+                "fr": "Quand un groupe est-il compromis ?",
+                "en": "When is a group compromised?"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "que-faire",
+                "en": "what-to-do"
+              },
+              "label": {
+                "fr": "Groupe compromis : étape par étape",
+                "en": "Compromised group: step by step"
+              }
             }
           ]
         },

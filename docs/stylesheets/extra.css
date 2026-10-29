@@ -1958,6 +1958,19 @@ dialog.contact-card {
   font-size: 0.72rem;
 }
 
+/* Printed guides: keep each step, table row and box on one page; no copy buttons. */
+@media print {
+  .md-typeset .flow > ol > li,
+  .md-typeset tr,
+  .md-typeset .admonition {
+    break-inside: avoid;
+  }
+
+  .md-typeset .md-code__nav {
+    display: none;
+  }
+}
+
 /* Who checked a source, after each footnote (hooks/sources.py). */
 .md-typeset .source-check {
   color: var(--ap-muted);
