@@ -21,6 +21,14 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
     [:octicons-arrow-right-24: Voir la frise](../histoire/index.md)
 
+- **Les voies démocratiques bafouées** [:material-vote-outline:](../confiance/index.md)
+
+    ***
+
+    Référendum de 2005 contourné, Convention citoyenne pour le climat vidée, 49.3, cahiers de doléances jamais publiés, valse des gouvernements.
+
+    [:octicons-arrow-right-24: Voir la frise](../confiance/index.md)
+
 - **Répressions et déclarations démenties** [:material-file-document-alert:](../repressions/index.md)
 
     ***

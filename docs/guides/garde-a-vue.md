@@ -20,7 +20,7 @@ On doit vous les notifier immédiatement, dans une langue que vous comprenez :[^
 - **Le droit de vous taire.** Vous pouvez donner votre identité et refuser de répondre aux autres questions.
 - **Un·e avocat·e**, choisi·e ou commis·e d'office (gratuit selon vos ressources). Depuis le 1er juillet 2024, vous pouvez demander qu'aucune audition n'ait lieu sans avocat·e.[^sp-gav-2024]
 - **Un médecin.**
-- **Faire prévenir** un proche et votre employeur.
+- **Faire prévenir** un proche et votre employeur. C'est la police qui passe l'appel (souvent en numéro masqué), d'où l'importance d'avoir écrit les **10 chiffres d'un·e proche sur votre peau sous un vêtement** avant la manif : votre téléphone étant mis à la fouille, ne demandez jamais à le déverrouiller devant les policier·es pour chercher un numéro.[^sp-gav][^sm-guide]
 - **Un interprète** si nécessaire.
 - Consulter certains documents de la procédure (procès-verbal de notification, certificat médical).
 

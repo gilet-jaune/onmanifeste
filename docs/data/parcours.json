@@ -364,6 +364,17 @@
           },
           "results": [
             {
+              "guide": "telephone",
+              "anchor": {
+                "fr": "avant-de-partir-4-reglages-indispensables",
+                "en": "before-you-go-4-essential-settings"
+              },
+              "label": {
+                "fr": "Téléphone : verrouillage, code et saisie",
+                "en": "Phone: emergency lock, passcode and seizure"
+              }
+            },
+            {
               "page": "conseils",
               "anchor": {
                 "fr": "avant-la-manifestation",
@@ -577,15 +588,20 @@
       "keywords": [
         "blesse",
         "blessure",
+        "coup",
+        "frappe",
+        "grenade",
+        "hurt",
+        "injured",
+        "lbd",
+        "matraque",
+        "oeil",
+        "police brutality",
         "saigne",
         "sang",
         "tete",
-        "oeil",
-        "lbd",
-        "grenade",
-        "coup",
-        "injured",
-        "hurt"
+        "violence policiere",
+        "violences policieres"
       ],
       "needs": [
         {
@@ -644,6 +660,17 @@
           },
           "results": [
             {
+              "guide": "suites-judiciaires",
+              "anchor": {
+                "fr": "apres-des-violences-faire-constater-et-porter-plainte",
+                "en": "after-violence-document-injuries-and-file-a-complaint"
+              },
+              "label": {
+                "fr": "Faire constater et porter plainte (procureur, IGPN/IGGN, Défenseur des droits)",
+                "en": "Document injuries and file a complaint (prosecutor, IGPN/IGGN, Defender of Rights)"
+              }
+            },
+            {
               "page": "conseils",
               "anchor": {
                 "fr": "apres-une-garde-a-vue",
@@ -672,6 +699,17 @@
             "en": "talk to someone"
           },
           "results": [
+            {
+              "guide": "sante-mentale",
+              "anchor": {
+                "fr": "les-jours-suivants-le-contrecoup",
+                "en": "the-following-days-the-aftermath"
+              },
+              "label": {
+                "fr": "Choc émotionnel, angoisse et lignes d'écoute",
+                "en": "Emotional shock, anxiety and helplines"
+              }
+            },
             {
               "resource": "france-victimes"
             },
@@ -1101,6 +1139,196 @@
       ]
     },
     {
+      "id": "lyceen",
+      "label": {
+        "fr": "lycéen·ne",
+        "en": "a high-school student"
+      },
+      "keywords": [
+        "bac",
+        "blocage",
+        "blocus",
+        "bloquer",
+        "cpe",
+        "eleve",
+        "high school",
+        "lycee",
+        "lycee pro",
+        "lyceen",
+        "lyceenne",
+        "lyceennes",
+        "lyceens",
+        "premiere annee",
+        "proviseur",
+        "pupil",
+        "seconde",
+        "student",
+        "terminale"
+      ],
+      "needs": [
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester sans me mettre en danger",
+            "en": "protest without putting myself at risk"
+          },
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "ce-qui-est-permis-ce-qui-ne-lest-pas",
+                "en": "what-is-allowed-what-is-not"
+              },
+              "label": {
+                "fr": "Blocus, absences : ce qui est permis",
+                "en": "Blockades, absences: what is allowed"
+              }
+            },
+            {
+              "resource": "cidj-lyceens-manifester"
+            },
+            {
+              "guide": "avant-de-partir",
+              "label": {
+                "fr": "Checklist avant la manif",
+                "en": "Pre-protest checklist"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Ne jamais rester seul·e",
+                "en": "Never stay alone"
+              }
+            }
+          ]
+        },
+        {
+          "id": "droit",
+          "label": {
+            "fr": "savoir si j'ai le droit de manifester",
+            "en": "know whether I have the right to protest"
+          },
+          "results": [
+            {
+              "guide": "droit-de-manifester",
+              "label": {
+                "fr": "Le droit de manifester",
+                "en": "The right to protest"
+              }
+            },
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "ce-qui-est-permis-ce-qui-ne-lest-pas",
+                "en": "what-is-allowed-what-is-not"
+              },
+              "label": {
+                "fr": "Ce que le lycée peut interdire",
+                "en": "What the school can forbid"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sanctions",
+          "label": {
+            "fr": "savoir ce que je risque au lycée",
+            "en": "know what I risk at school"
+          },
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "les-sanctions-possibles",
+                "en": "possible-sanctions"
+              },
+              "label": {
+                "fr": "Les sanctions possibles",
+                "en": "Possible sanctions"
+              }
+            },
+            {
+              "guide": "suites-judiciaires",
+              "label": {
+                "fr": "Après une interpellation : les suites judiciaires",
+                "en": "After an arrest: what happens next in court"
+              }
+            }
+          ]
+        },
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits si je suis arrêté·e (mineur·e)",
+            "en": "know my rights if I am arrested (as a minor)"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "lyceens",
+              "anchor": {
+                "fr": "si-vous-etes-interpellee",
+                "en": "if-you-are-arrested"
+              },
+              "label": {
+                "fr": "Lycéen·ne interpellé·e : vos droits",
+                "en": "Arrested high-school student: your rights"
+              }
+            },
+            {
+              "resource": "sp-garde-a-vue-mineur"
+            },
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue",
+                "en": "Police custody"
+              }
+            }
+          ]
+        },
+        {
+          "id": "parler",
+          "label": {
+            "fr": "parler à quelqu'un après un choc",
+            "en": "talk to someone after a shock"
+          },
+          "results": [
+            {
+              "resource": "fil-sante-jeunes"
+            },
+            {
+              "guide": "sante-mentale",
+              "label": {
+                "fr": "Choc émotionnel et santé mentale",
+                "en": "Emotional shock and mental health"
+              }
+            }
+          ]
+        },
+        {
+          "id": "aides",
+          "label": {
+            "fr": "trouver des aides (bourse, transport, santé)",
+            "en": "find financial help (grants, transport, health)"
+          },
+          "results": [
+            {
+              "resource": "bourse-lycee"
+            },
+            {
+              "resource": "aides-jeunes"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "parent",
       "label": {
         "fr": "parent d'un·e mineur·e",
@@ -1242,90 +1470,6 @@
               "label": {
                 "fr": "Ressources pour les mineur·es",
                 "en": "Resources for minors"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lyceen",
-      "label": {
-        "fr": "lycéen·ne",
-        "en": "a high-school student"
-      },
-      "keywords": ["lycee", "lyceen", "lyceenne", "eleve", "blocus", "student"],
-      "needs": [
-        {
-          "id": "manifester",
-          "label": {
-            "fr": "manifester sans me mettre en danger",
-            "en": "protest without putting myself at risk"
-          },
-          "results": [
-            {
-              "guide": "lyceens",
-              "anchor": {
-                "fr": "ce-qui-est-permis-ce-qui-ne-lest-pas",
-                "en": "what-is-allowed-what-is-not"
-              },
-              "label": {
-                "fr": "Ce qui est permis",
-                "en": "What is allowed"
-              }
-            },
-            {
-              "resource": "cidj-lyceens-manifester"
-            },
-            {
-              "guide": "ne-pas-rester-seul",
-              "anchor": {
-                "fr": "avant-de-partir",
-                "en": "before-you-go"
-              },
-              "label": {
-                "fr": "Ne pas rester seul·e",
-                "en": "Never stay alone"
-              }
-            }
-          ]
-        },
-        {
-          "id": "sanctions",
-          "label": {
-            "fr": "savoir ce que je risque au lycée",
-            "en": "know what I risk at school"
-          },
-          "results": [
-            {
-              "guide": "lyceens",
-              "anchor": {
-                "fr": "les-sanctions-possibles",
-                "en": "possible-sanctions"
-              },
-              "label": {
-                "fr": "Les sanctions possibles",
-                "en": "Possible sanctions"
-              }
-            }
-          ]
-        },
-        {
-          "id": "droits",
-          "label": {
-            "fr": "connaître mes droits si je suis arrêté·e",
-            "en": "know my rights if arrested"
-          },
-          "results": [
-            {
-              "guide": "garde-a-vue",
-              "anchor": {
-                "fr": "mineures",
-                "en": "minors"
-              },
-              "label": {
-                "fr": "Garde à vue des mineur·es",
-                "en": "Custody of minors"
               }
             }
           ]
@@ -1835,6 +1979,17 @@
             "en": "prepare my defence"
           },
           "results": [
+            {
+              "guide": "suites-judiciaires",
+              "anchor": {
+                "fr": "comparution-immediate-et-proces-les-justificatifs-a-reunir-durgence",
+                "en": "fast-track-trial-and-court-documents-to-gather-urgently"
+              },
+              "label": {
+                "fr": "Comparution immédiate et procès : justificatifs à réunir d'urgence",
+                "en": "Fast-track trial and court: documents to gather urgently"
+              }
+            },
             {
               "resource": "sp-comparution-immediate"
             },
@@ -2347,6 +2502,17 @@
           },
           "results": [
             {
+              "guide": "suites-judiciaires",
+              "anchor": {
+                "fr": "convoquee-en-audition-libre",
+                "en": "summoned-for-a-voluntary-interview-audition-libre"
+              },
+              "label": {
+                "fr": "Convoqué·e en audition libre : vos droits",
+                "en": "Summoned for a voluntary interview: your rights"
+              }
+            },
+            {
               "resource": "sp-audition-libre"
             },
             {
@@ -2645,6 +2811,10 @@
         "malentendant",
         "sourd",
         "aveugle",
+        "asthme",
+        "diabete",
+        "epilepsie",
+        "autisme",
         "disabled",
         "wheelchair"
       ],
@@ -2652,19 +2822,30 @@
         {
           "id": "manifester",
           "label": {
-            "fr": "manifester",
-            "en": "protest"
+            "fr": "manifester en sécurité et connaître mes droits",
+            "en": "protest safely and know my rights"
           },
           "results": [
             {
-              "page": "conseils",
+              "guide": "handicap",
               "anchor": {
-                "fr": "manifester-en-situation-de-handicap",
-                "en": "protesting-with-a-disability"
+                "fr": "avant-de-partir-preparer-son-autonomie-et-ses-soins",
+                "en": "before-you-go-preparing-your-autonomy-and-care"
               },
               "label": {
-                "fr": "Manifester en situation de handicap",
-                "en": "Protesting with a disability"
+                "fr": "Guide : manifester en situation de handicap ou avec une maladie chronique",
+                "en": "Guide: protesting with a disability or chronic condition"
+              }
+            },
+            {
+              "guide": "handicap",
+              "anchor": {
+                "fr": "en-cas-dinterpellation-ou-de-garde-a-vue",
+                "en": "if-arrested-or-taken-into-custody"
+              },
+              "label": {
+                "fr": "Droits en garde à vue (médecin, traitements, interprète LSF)",
+                "en": "Rights in custody (doctor, medication, sign-language interpreter)"
               }
             },
             {
@@ -3433,6 +3614,17 @@
             },
             {
               "resource": "psycom"
+            },
+            {
+              "guide": "sante-mentale",
+              "anchor": {
+                "fr": "sur-le-moment-calmer-une-crise-dangoisse-ou-de-panique",
+                "en": "in-the-moment-calming-an-anxiety-or-panic-attack"
+              },
+              "label": {
+                "fr": "Calmer une crise d'angoisse ou de panique (méthode 5-4-3-2-1)",
+                "en": "Calm an anxiety or panic attack (5-4-3-2-1 method)"
+              }
             }
           ]
         },
@@ -3443,6 +3635,17 @@
             "en": "cope with the aftermath of a violent protest or police custody"
           },
           "results": [
+            {
+              "guide": "sante-mentale",
+              "anchor": {
+                "fr": "les-jours-suivants-le-contrecoup",
+                "en": "the-following-days-the-aftermath"
+              },
+              "label": {
+                "fr": "Guide : choc émotionnel, contrecoup et santé mentale",
+                "en": "Guide: emotional shock, aftermath and mental health"
+              }
+            },
             {
               "guide": "premiers-secours",
               "anchor": {
@@ -3544,6 +3747,952 @@
                 "fr": "Aider à son rythme (soutenir une caisse de solidarité)",
                 "en": "Help at your own pace (support a solidarity fund)"
               }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controle",
+      "label": {
+        "fr": "contrôlé·e, fouillé·e ou verbalisé·e (amende 135 €)",
+        "en": "stopped for an ID check, bag search or fine (€135)"
+      },
+      "keywords": [
+        "controle",
+        "identite",
+        "fouille",
+        "sac",
+        "palpation",
+        "amende",
+        "135",
+        "verbalise",
+        "pv",
+        "contravention",
+        "telephone",
+        "code",
+        "saisi",
+        "id check",
+        "search",
+        "fine"
+      ],
+      "needs": [
+        {
+          "id": "identite-sac",
+          "label": {
+            "fr": "connaître mes droits lors d'un contrôle d'identité ou d'une fouille de sac",
+            "en": "know my rights during an ID check or bag search"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "controle-fouille",
+              "anchor": {
+                "fr": "controle-et-verification-didentite",
+                "en": "id-check-and-identity-verification"
+              },
+              "label": {
+                "fr": "Contrôle et vérification d'identité (4 h max)",
+                "en": "ID check and identity verification (4 hours max)"
+              }
+            },
+            {
+              "guide": "controle-fouille",
+              "anchor": {
+                "fr": "fouille-de-sac-et-palpation-de-securite",
+                "en": "bag-search-and-security-pat-down"
+              },
+              "label": {
+                "fr": "Inspection visuelle, fouille de sac et palpation de sécurité",
+                "en": "Visual inspection, bag search and security pat-down"
+              }
+            }
+          ]
+        },
+        {
+          "id": "amende",
+          "label": {
+            "fr": "savoir quoi faire face à une amende de 135 €",
+            "en": "know what to do if given a €135 fine"
+          },
+          "results": [
+            {
+              "guide": "controle-fouille",
+              "anchor": {
+                "fr": "amende-sur-place-135-ne-payez-pas-tout-de-suite",
+                "en": "on-the-spot-fine-135-do-not-pay-right-away"
+              },
+              "label": {
+                "fr": "Amende sur place : pourquoi ne jamais payer tout de suite",
+                "en": "On-the-spot fine: why you should never pay right away"
+              }
+            },
+            {
+              "resource": "ldh-dispersion"
+            },
+            {
+              "resource": "conseil-etat-snmo-2021"
+            }
+          ]
+        },
+        {
+          "id": "telephone",
+          "label": {
+            "fr": "verrouiller mon téléphone en urgence ou refuser de le déverrouiller",
+            "en": "lock my phone in an emergency or refuse to unlock it"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "telephone",
+              "anchor": {
+                "fr": "en-2-secondes-avant-un-controle-ou-une-interpellation",
+                "en": "in-2-seconds-before-a-stop-or-arrest"
+              },
+              "label": {
+                "fr": "Désactiver Face ID / l'empreinte en 2 secondes",
+                "en": "Disable Face ID / fingerprint in 2 seconds"
+              }
+            },
+            {
+              "guide": "telephone",
+              "anchor": {
+                "fr": "controle-garde-a-vue-et-code-de-deverrouillage",
+                "en": "stops-custody-and-your-unlock-code"
+              },
+              "label": {
+                "fr": "Contrôle, garde à vue et code de déverrouillage",
+                "en": "Stops, custody and your unlock code"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sans-abri",
+      "label": {
+        "fr": "sans abri, à la rue",
+        "en": "homeless, sleeping rough"
+      },
+      "keywords": [
+        "sans abri",
+        "sans-abri",
+        "sdf",
+        "a la rue",
+        "rue",
+        "dehors",
+        "dormir dehors",
+        "sans logement",
+        "sans domicile",
+        "hebergement",
+        "heberge",
+        "115",
+        "homeless",
+        "rough sleeper",
+        "sleeping rough",
+        "no home"
+      ],
+      "needs": [
+        {
+          "id": "dormir",
+          "label": {
+            "fr": "dormir à l'abri ce soir",
+            "en": "sleep somewhere safe tonight"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "resource": "numero-115"
+            },
+            {
+              "resource": "soliguide"
+            }
+          ]
+        },
+        {
+          "id": "essentiel",
+          "label": {
+            "fr": "manger, me laver, me soigner, recharger mon téléphone",
+            "en": "eat, wash, get care, charge my phone"
+          },
+          "results": [
+            {
+              "resource": "soliguide"
+            },
+            {
+              "resource": "numero-115"
+            }
+          ]
+        },
+        {
+          "id": "adresse",
+          "label": {
+            "fr": "avoir une adresse pour mes papiers et mes droits",
+            "en": "get an address for my papers and my rights"
+          },
+          "results": [
+            {
+              "resource": "domiciliation"
+            }
+          ]
+        },
+        {
+          "id": "logement",
+          "label": {
+            "fr": "obtenir un logement",
+            "en": "get housing"
+          },
+          "results": [
+            {
+              "resource": "sp-dalo"
+            },
+            {
+              "resource": "fondation-logement"
+            },
+            {
+              "resource": "dal"
+            },
+            {
+              "directory": {
+                "situation": "logement"
+              },
+              "label": {
+                "fr": "Toutes les ressources logement et hébergement",
+                "en": "All housing and shelter resources"
+              }
+            }
+          ]
+        },
+        {
+          "id": "manifester",
+          "label": {
+            "fr": "manifester sans me mettre en danger",
+            "en": "protest without putting myself at risk"
+          },
+          "results": [
+            {
+              "guide": "controle-fouille",
+              "anchor": {
+                "fr": "controle-et-verification-didentite",
+                "en": "id-check-and-identity-verification"
+              },
+              "label": {
+                "fr": "Contrôle d'identité : vos droits",
+                "en": "ID checks: your rights"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Ne jamais rester seul·e",
+                "en": "Never stay alone"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expulsion",
+      "label": {
+        "fr": "mal logé·e ou menacé·e d'expulsion",
+        "en": "badly housed or facing eviction"
+      },
+      "keywords": [
+        "expulsion",
+        "expulse",
+        "expulsee",
+        "huissier",
+        "commissaire de justice",
+        "loyer",
+        "impayes",
+        "impaye",
+        "bail",
+        "proprietaire",
+        "mal loge",
+        "mal logee",
+        "insalubre",
+        "logement",
+        "treve hivernale",
+        "coupure",
+        "eviction",
+        "rent",
+        "landlord",
+        "housing"
+      ],
+      "needs": [
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits (trêve hivernale, procédure)",
+            "en": "know my rights (winter truce, procedure)"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "resource": "sp-treve-hivernale"
+            },
+            {
+              "resource": "anil"
+            }
+          ]
+        },
+        {
+          "id": "defendre",
+          "label": {
+            "fr": "me défendre et ne pas rester seul·e",
+            "en": "defend myself and not stay alone"
+          },
+          "results": [
+            {
+              "resource": "dal"
+            },
+            {
+              "resource": "anil"
+            },
+            {
+              "resource": "fondation-logement"
+            }
+          ]
+        },
+        {
+          "id": "relogement",
+          "label": {
+            "fr": "être relogé·e",
+            "en": "be rehoused"
+          },
+          "results": [
+            {
+              "resource": "sp-dalo"
+            },
+            {
+              "resource": "numero-115"
+            }
+          ]
+        },
+        {
+          "id": "etudiant",
+          "label": {
+            "fr": "je suis étudiant·e",
+            "en": "I am a student"
+          },
+          "results": [
+            {
+              "resource": "crous-services"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ric",
+      "label": {
+        "fr": "citoyen·ne qui veut que le peuple décide (RIC)",
+        "en": "a citizen who wants the people to decide (citizens' referendum)"
+      },
+      "keywords": [
+        "ric",
+        "referendum",
+        "initiative citoyenne",
+        "democratie",
+        "democratie directe",
+        "peuple",
+        "decider",
+        "petition",
+        "rip",
+        "vote",
+        "citoyen",
+        "citoyenne",
+        "gilets jaunes",
+        "citizens initiative",
+        "direct democracy",
+        "petition"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre le RIC et où en est la loi",
+            "en": "understand the citizens' referendum and where the law stands"
+          },
+          "results": [
+            {
+              "resource": "ric-deliberatif-2081"
+            },
+            {
+              "resource": "rip-officiel"
+            },
+            {
+              "page": "histoire",
+              "label": {
+                "fr": "Repères historiques (dont le rejet du RIC en 2019)",
+                "en": "Historical milestones (including the 2019 rejection of the citizens' referendum)"
+              }
+            }
+          ]
+        },
+        {
+          "id": "signer",
+          "label": {
+            "fr": "signer ou lancer une pétition officielle",
+            "en": "sign or start an official petition"
+          },
+          "results": [
+            {
+              "resource": "petitions-an"
+            },
+            {
+              "resource": "petitions-senat"
+            },
+            {
+              "resource": "initiative-citoyenne-europeenne"
+            },
+            {
+              "resource": "rip-officiel"
+            }
+          ]
+        },
+        {
+          "id": "agir",
+          "label": {
+            "fr": "rejoindre un collectif pour le RIC",
+            "en": "join a group campaigning for the citizens' referendum"
+          },
+          "results": [
+            {
+              "resource": "espoir-ric"
+            },
+            {
+              "directory": {
+                "situation": "ric"
+              },
+              "label": {
+                "fr": "Toutes les ressources démocratie directe",
+                "en": "All direct democracy resources"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fins-de-mois",
+      "label": {
+        "fr": "en galère pour boucler les fins de mois",
+        "en": "struggling to make ends meet"
+      },
+      "keywords": [
+        "fin de mois",
+        "fins de mois",
+        "argent",
+        "pauvre",
+        "pauvrete",
+        "precaire",
+        "precarite",
+        "galere",
+        "dette",
+        "dettes",
+        "facture",
+        "factures",
+        "energie",
+        "chauffage",
+        "manger",
+        "aide",
+        "aides",
+        "rsa",
+        "smic",
+        "salaire",
+        "pouvoir d achat",
+        "bourse",
+        "money",
+        "poverty",
+        "debt",
+        "bills",
+        "cost of living"
+      ],
+      "needs": [
+        {
+          "id": "aides",
+          "label": {
+            "fr": "savoir à quelles aides j'ai droit",
+            "en": "find out which benefits I am entitled to"
+          },
+          "results": [
+            {
+              "resource": "mes-droits-sociaux"
+            },
+            {
+              "resource": "prime-activite"
+            },
+            {
+              "resource": "aides-jeunes"
+            },
+            {
+              "resource": "bourse-lycee"
+            }
+          ]
+        },
+        {
+          "id": "factures",
+          "label": {
+            "fr": "payer mes factures d'énergie ou mes dettes",
+            "en": "pay my energy bills or my debts"
+          },
+          "results": [
+            {
+              "resource": "cheque-energie"
+            },
+            {
+              "resource": "surendettement"
+            },
+            {
+              "resource": "sp-treve-hivernale"
+            }
+          ]
+        },
+        {
+          "id": "manger",
+          "label": {
+            "fr": "manger et m'habiller",
+            "en": "eat and get clothes"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "resource": "restos-du-coeur"
+            },
+            {
+              "resource": "secours-populaire"
+            },
+            {
+              "resource": "soliguide"
+            }
+          ]
+        },
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre où va l'argent public",
+            "en": "understand where public money goes"
+          },
+          "results": [
+            {
+              "resource": "observatoire-inegalites"
+            },
+            {
+              "resource": "ires-capitalisme-perfusion"
+            },
+            {
+              "resource": "eu-tax-observatory"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecolo",
+      "label": {
+        "fr": "écolo, je me bats pour le climat et le vivant",
+        "en": "an environmentalist fighting for the climate and living things"
+      },
+      "keywords": [
+        "ecolo",
+        "ecologie",
+        "ecologiste",
+        "climat",
+        "environnement",
+        "planete",
+        "vivant",
+        "biodiversite",
+        "ocean",
+        "oceans",
+        "eau",
+        "bassine",
+        "megabassine",
+        "greve climat",
+        "climate",
+        "environment",
+        "ecology",
+        "activist"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre les enjeux, chiffres à l'appui",
+            "en": "understand the issues, with figures"
+          },
+          "results": [
+            {
+              "resource": "the-shift-project"
+            },
+            {
+              "resource": "reseau-action-climat"
+            },
+            {
+              "resource": "reporterre"
+            }
+          ]
+        },
+        {
+          "id": "rejoindre",
+          "label": {
+            "fr": "rejoindre un collectif ou une action",
+            "en": "join a group or an action"
+          },
+          "results": [
+            {
+              "resource": "soulevements-de-la-terre"
+            },
+            {
+              "resource": "extinction-rebellion"
+            },
+            {
+              "resource": "greenpeace-groupes-locaux"
+            },
+            {
+              "resource": "alternatiba"
+            },
+            {
+              "resource": "sea-shepherd"
+            }
+          ]
+        },
+        {
+          "id": "justice",
+          "label": {
+            "fr": "agir par le droit",
+            "en": "act through the law"
+          },
+          "results": [
+            {
+              "resource": "notre-affaire-a-tous"
+            }
+          ]
+        },
+        {
+          "id": "se-former",
+          "label": {
+            "fr": "me former à l'action non violente et à la désobéissance civile",
+            "en": "get trained in non-violent action and civil disobedience"
+          },
+          "results": [
+            {
+              "resource": "anv-cop21-formations"
+            },
+            {
+              "directory": {
+                "situation": "ecologie"
+              },
+              "label": {
+                "fr": "Toutes les ressources écologie et climat",
+                "en": "All ecology and climate resources"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discrimine",
+      "label": {
+        "fr": "visé·e par du racisme ou un contrôle au faciès",
+        "en": "targeted by racism or ethnic profiling"
+      },
+      "keywords": [
+        "raciste",
+        "racisme",
+        "discrimination",
+        "discrimine",
+        "faciès",
+        "facies",
+        "controle au facies",
+        "delit de sale gueule",
+        "insulte raciste",
+        "islamophobie",
+        "antisemitisme",
+        "racism",
+        "racial profiling",
+        "profiling"
+      ],
+      "needs": [
+        {
+          "id": "controle",
+          "label": {
+            "fr": "réagir à un contrôle d'identité abusif",
+            "en": "respond to an abusive ID check"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "controle-fouille",
+              "anchor": {
+                "fr": "controle-et-verification-didentite",
+                "en": "id-check-and-identity-verification"
+              },
+              "label": {
+                "fr": "Contrôle d'identité : vos droits",
+                "en": "ID checks: your rights"
+              }
+            },
+            {
+              "guide": "filmer",
+              "label": {
+                "fr": "Filmer les forces de l'ordre",
+                "en": "Film the police"
+              }
+            }
+          ]
+        },
+        {
+          "id": "signaler",
+          "label": {
+            "fr": "signaler ou porter plainte",
+            "en": "report it or file a complaint"
+          },
+          "results": [
+            {
+              "resource": "defenseur-des-droits"
+            },
+            {
+              "resource": "sos-racisme"
+            },
+            {
+              "resource": "licra"
+            },
+            {
+              "resource": "pharos"
+            }
+          ]
+        },
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre ce qui est documenté",
+            "en": "understand what is documented"
+          },
+          "results": [
+            {
+              "page": "repressions",
+              "label": {
+                "fr": "Répressions et discriminations documentées",
+                "en": "Documented repression and discrimination"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "palestine",
+      "label": {
+        "fr": "manifestant·e pour la Palestine",
+        "en": "demonstrating for Palestine"
+      },
+      "keywords": [
+        "palestine",
+        "palestinien",
+        "palestinienne",
+        "gaza",
+        "drapeau",
+        "drapeau palestinien",
+        "keffieh",
+        "cessez le feu",
+        "palestinian",
+        "flag",
+        "ceasefire"
+      ],
+      "needs": [
+        {
+          "id": "legal",
+          "label": {
+            "fr": "savoir ce qui est légal (drapeau, manif)",
+            "en": "know what is legal (flag, demonstration)"
+          },
+          "results": [
+            {
+              "guide": "drapeau-palestinien",
+              "anchor": {
+                "fr": "ce-que-dit-la-justice",
+                "en": "what-the-courts-say"
+              },
+              "label": {
+                "fr": "Drapeau palestinien : ce que dit la justice",
+                "en": "The Palestinian flag: what the courts say"
+              }
+            },
+            {
+              "guide": "droit-de-manifester",
+              "anchor": {
+                "fr": "quand-une-interdiction-est-legale",
+                "en": "when-a-ban-is-lawful"
+              },
+              "label": {
+                "fr": "Quand une interdiction est légale",
+                "en": "When a ban is lawful"
+              }
+            }
+          ]
+        },
+        {
+          "id": "interdite",
+          "label": {
+            "fr": "savoir quoi faire si la manif est interdite",
+            "en": "know what to do if the demonstration is banned"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "droit-de-manifester",
+              "anchor": {
+                "fr": "si-la-manifestation-est-interdite",
+                "en": "if-the-demonstration-is-banned"
+              },
+              "label": {
+                "fr": "Manifestation interdite : amende, recours",
+                "en": "Banned demonstration: fine, appeal"
+              }
+            },
+            {
+              "guide": "drapeau-palestinien",
+              "anchor": {
+                "fr": "si-la-manifestation-est-interdite",
+                "en": "if-the-demonstration-is-banned"
+              },
+              "label": {
+                "fr": "Manifestation interdite : 135 €",
+                "en": "Banned demonstration: €135"
+              }
+            }
+          ]
+        },
+        {
+          "id": "slogans",
+          "label": {
+            "fr": "éviter les slogans et publications risqués",
+            "en": "avoid risky slogans and posts"
+          },
+          "results": [
+            {
+              "guide": "drapeau-palestinien",
+              "anchor": {
+                "fr": "pancartes-slogans-et-publications",
+                "en": "placards-slogans-and-posts"
+              },
+              "label": {
+                "fr": "Pancartes, slogans et publications",
+                "en": "Placards, slogans and posts"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reseaux",
+      "label": {
+        "fr": "sur les réseaux sociaux, face à la haine",
+        "en": "on social media, facing hate"
+      },
+      "keywords": [
+        "reseaux sociaux",
+        "reseaux",
+        "tiktok",
+        "instagram",
+        "x",
+        "twitter",
+        "youtube",
+        "facebook",
+        "algorithme",
+        "bot",
+        "bots",
+        "troll",
+        "trolls",
+        "haine en ligne",
+        "social media",
+        "online hate"
+      ],
+      "needs": [
+        {
+          "id": "invisibiliser",
+          "label": {
+            "fr": "ne pas faire monter l'extrême droite",
+            "en": "not push the far right up"
+          },
+          "results": [
+            {
+              "guide": "reseaux-sociaux",
+              "anchor": {
+                "fr": "ne-pas-les-faire-monter",
+                "en": "dont-push-them-up"
+              },
+              "label": {
+                "fr": "Ne pas les faire monter",
+                "en": "Don't push them up"
+              }
+            },
+            {
+              "guide": "reseaux-sociaux",
+              "anchor": {
+                "fr": "faire-monter-ce-qui-compte",
+                "en": "push-up-what-matters"
+              },
+              "label": {
+                "fr": "Faire monter vos causes",
+                "en": "Push up your causes"
+              }
+            }
+          ]
+        },
+        {
+          "id": "bots",
+          "label": {
+            "fr": "repérer les bots et les intox",
+            "en": "spot bots and fake news"
+          },
+          "results": [
+            {
+              "guide": "reseaux-sociaux",
+              "anchor": {
+                "fr": "bots-et-campagnes-coordonnees",
+                "en": "bots-and-coordinated-campaigns"
+              },
+              "label": {
+                "fr": "Bots et campagnes coordonnées",
+                "en": "Bots and coordinated campaigns"
+              }
+            },
+            {
+              "guide": "desinformation",
+              "label": {
+                "fr": "Éviter la désinformation",
+                "en": "Avoid disinformation"
+              }
+            }
+          ]
+        },
+        {
+          "id": "harcele",
+          "label": {
+            "fr": "je suis harcelé·e en ligne",
+            "en": "I am being harassed online"
+          },
+          "urgent": true,
+          "results": [
+            {
+              "guide": "violences-harcelement",
+              "label": {
+                "fr": "Violences sexistes et harcèlement en ligne",
+                "en": "Sexist violence and online harassment"
+              }
+            },
+            {
+              "resource": "pharos"
             }
           ]
         }

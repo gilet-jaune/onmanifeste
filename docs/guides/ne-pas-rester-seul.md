@@ -12,8 +12,8 @@ L'isolement est le premier risque en manifestation : personne pour témoigner d'
 
 - [ ] Venez en **binôme** (ou en petit groupe) et convenez de ne jamais vous séparer.
 - [ ] Fixez **deux points de rendez-vous** : un près du cortège, un plus loin, au calme.
-- [ ] Prévenez une personne **qui ne manifeste pas** : votre trajet, l'heure prévue de retour, qui appeler si vous ne donnez pas de nouvelles.
-- [ ] Écrivez sur papier (ou au feutre sur le bras) le numéro d'une **legal team** et d'un proche. Votre téléphone peut être perdu, saisi ou déchargé.[^eff-protest][^legal-team]
+- [ ] Prévenez une personne **qui ne manifeste pas** : votre trajet, l'heure prévue de retour, qui appeler si vous ne donnez pas de nouvelles. Assurez-vous qu'elle **décroche aux numéros masqués ou inconnus** (le commissariat appelle souvent en numéro masqué) et qu'elle connaît votre **nom complet, date et lieu de naissance** (indispensables pour que la legal team ou l'avocat·e vous localise).[^sm-guide][^legal-team]
+- [ ] Écrivez au feutre indélébile **sur votre peau, sous un vêtement** (haut du bras, ventre ou cheville — pas sur l'avant-bras découvert, qui peut attirer l'attention lors d'un contrôle) **et** sur papier le numéro d'un·e proche et celui de la **legal team**. En garde à vue, téléphone, sac et papiers sont mis à la fouille : sans numéro écrit sur vous, vous ne pourrez pas le communiquer. N'écrivez **que les 10 chiffres, sans aucun nom ni mention** (« Maman », prénom, « legal team »), pour n'exposer personne.[^eff-protest][^sm-guide][^legal-team]
 - [ ] Notez vos traitements, allergies ou maladies chroniques sur un papier dans votre poche.
 
 ## Pendant

@@ -25,6 +25,22 @@
       "fr": "Santé & premiers secours",
       "en": "Health & first aid"
     },
+    "logement": {
+      "fr": "Logement & hébergement",
+      "en": "Housing & shelter"
+    },
+    "pouvoir-achat": {
+      "fr": "Pouvoir d'achat & droits sociaux",
+      "en": "Cost of living & social rights"
+    },
+    "environnement": {
+      "fr": "Écologie & climat",
+      "en": "Ecology & climate"
+    },
+    "democratie": {
+      "fr": "Démocratie directe & RIC",
+      "en": "Direct democracy & citizens' initiative referendum"
+    },
     "information": {
       "fr": "Information & agenda",
       "en": "News & agenda"
@@ -89,6 +105,17 @@
       "detail": {
         "fr": "SMS, visio ou tchat, gratuit, 24 h/24.",
         "en": "Text, video or chat, free, 24/7."
+      }
+    },
+    {
+      "number": "115",
+      "label": {
+        "fr": "Hébergement d'urgence (SAMU social)",
+        "en": "Emergency shelter (SAMU social)"
+      },
+      "detail": {
+        "fr": "Sans abri ou à la rue ce soir : gratuit, 24 h/24.",
+        "en": "Homeless or on the street tonight: free, 24/7."
       }
     },
     {
@@ -218,6 +245,39 @@
         "en": "Understand media ownership, public finances and track elected officials"
       },
       "tags": ["veille"]
+    },
+    {
+      "id": "logement",
+      "label": {
+        "fr": "Je suis à la rue ou mal logé·e",
+        "en": "I am homeless or badly housed"
+      },
+      "categories": ["logement"]
+    },
+    {
+      "id": "ric",
+      "label": {
+        "fr": "Je veux que le peuple décide (RIC, pétitions)",
+        "en": "I want the people to decide (referendums, petitions)"
+      },
+      "categories": ["democratie"]
+    },
+    {
+      "id": "pouvoir-achat",
+      "label": {
+        "fr": "Je n'arrive plus à boucler les fins de mois",
+        "en": "I can no longer make ends meet"
+      },
+      "categories": ["pouvoir-achat"]
+    },
+    {
+      "id": "ecologie",
+      "label": {
+        "fr": "Je me bats pour le climat et le vivant",
+        "en": "I fight for the climate and living things"
+      },
+      "categories": ["environnement"],
+      "tags": ["ecologie"]
     }
   ],
   "synonyms": {
@@ -1219,16 +1279,17 @@
       "id": "legal-team-marseille",
       "name": "Legal Team Marseille",
       "url": "https://legalteammarseille.nublogs.org/contact/",
+      "phone": "07 53 05 25 30",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "garde-a-vue", "marseille", "urgence"],
       "description": {
-        "fr": "Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès.",
-        "en": "Marseille anti-repression legal team: emergency line after arrests, lawyer referrals, trial follow-up."
+        "fr": "Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. Courriel : legalteam-marseille@riseup.net.",
+        "en": "Marseille anti-repression legal team: emergency line after arrests, lawyer referrals, trial follow-up. Email: legalteam-marseille@riseup.net."
       },
       "sources": [
         {
-          "title": "Mars-infos — Site participatif local d'information et d'appels antirépression (Marseille)",
-          "url": "https://mars-infos.org/"
+          "title": "Mars-infos — Rubrique Legal-Team Marseille",
+          "url": "https://mars-infos.org/+-legal-team-+"
         },
         {
           "title": "RAJCOL — Réseau d'autodéfense juridique collective",
@@ -1236,10 +1297,9 @@
         }
       ],
       "check": {
-        "date": "2026-10-28",
-        "result": "unconfirmed",
-        "by": "ai",
-        "note": "Site migré sur nublogs.org et joignable, mais son contenu est derrière une protection anti-robots : à vérifier par une personne."
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1307,29 +1367,28 @@
     },
     {
       "id": "legal-team-rennes",
-      "name": "Legal Team Rennes",
-      "url": "https://comitezadrennes.nublogs.org/legal-team/",
+      "name": "Antirep Rennes (Expansive.info)",
+      "url": "https://expansive.info/Repression-Justice",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "rennes"],
       "description": {
-        "fr": "Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page.",
-        "en": "Rennes legal team: information on your rights during a stop or in custody, lawyer referrals. Check the current number on the page."
+        "fr": "Rubrique antirépression rennaise sur Expansive.info : conseils pratiques en cas d'interpellation ou de garde à vue, permanences de la legal team et soutien psychologique antirépression (SPARR : sparr@riseup.net).",
+        "en": "Rennes anti-repression section on Expansive.info: practical advice in case of arrest or police custody, legal team drop-in sessions and anti-repression psychological support (SPARR: sparr@riseup.net)."
       },
       "sources": [
         {
-          "title": "Expansive.info — Site participatif local d'information et d'appels antirépression (Rennes)",
-          "url": "https://expansive.info/"
+          "title": "Expansive.info — Un·e proche interpellé·e, qu'est-ce que je fais ?",
+          "url": "https://expansive.info/Un-e-proche-interpelle-e-qu-est-ce-que-je-fais-6323"
         },
         {
-          "title": "RAJCOL — Réseau d'autodéfense juridique collective",
-          "url": "https://rajcollective.nublogs.org/les-collectifs-locaux/"
+          "title": "Expansive.info — SPARR (Soutien Psy Anti Répression Rennes)",
+          "url": "https://expansive.info/SPARR"
         }
       ],
       "check": {
-        "date": "2026-10-28",
-        "result": "unconfirmed",
-        "by": "ai",
-        "note": "Site migré sur nublogs.org et joignable, mais son contenu est derrière une protection anti-robots : à vérifier par une personne."
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -3072,6 +3131,477 @@
         "instagram": "https://www.instagram.com/psycom_org/",
         "facebook": "https://www.facebook.com/Psycom.org/",
         "youtube": "https://www.youtube.com/@PsycomOfficiel"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "numero-115",
+      "name": "115 — Hébergement d'urgence (SAMU social)",
+      "url": "https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/famille-et-aides-aux-victimes/numeros-utiles-nationaux",
+      "phone": "115",
+      "category": "logement",
+      "tags": ["sans-abri", "hebergement", "urgence", "gratuit", "officiel"],
+      "description": {
+        "fr": "Numéro national gratuit pour trouver un hébergement d'urgence ou une aide quand on est à la rue, 24 h/24. Il oriente aussi vers les accueils de jour et les maraudes.",
+        "en": "Free national number to find emergency shelter or help when sleeping rough, 24/7. It also points to day centres and outreach teams."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "soliguide",
+      "name": "Soliguide",
+      "url": "https://www.soliguide.fr/",
+      "category": "logement",
+      "tags": ["sans-abri", "hebergement", "alimentation", "hygiene", "gratuit", "carte"],
+      "description": {
+        "fr": "Annuaire des lieux solidaires près de chez vous : où dormir, manger, se laver, se soigner, recharger son téléphone ou être accompagné·e dans ses démarches.",
+        "en": "Directory of solidarity services near you: where to sleep, eat, wash, get care, charge your phone or get help with paperwork."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "domiciliation",
+      "name": "Domiciliation des personnes sans domicile stable",
+      "url": "https://solidarites.gouv.fr/domiciliation-des-personnes-sans-domicile-stable",
+      "category": "logement",
+      "tags": ["sans-abri", "droits", "officiel"],
+      "description": {
+        "fr": "Sans adresse stable, vous avez droit à une adresse administrative (CCAS de la mairie ou association agréée) pour recevoir votre courrier et faire valoir vos droits : papiers, aides sociales, santé.",
+        "en": "Without a stable address, you are entitled to an administrative address (town hall social centre or approved association) to receive mail and claim your rights: ID papers, benefits, healthcare."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "sp-dalo",
+      "name": "Droit au logement opposable (Dalo) — Service-Public",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F18005",
+      "category": "logement",
+      "tags": ["logement", "droits", "officiel", "recours"],
+      "description": {
+        "fr": "Si vos démarches pour obtenir un logement ou un hébergement n'aboutissent pas, le Dalo permet de saisir une commission puis, si besoin, le tribunal administratif.",
+        "en": "If your attempts to get housing or shelter fail, the Dalo right lets you apply to a committee and, if needed, to the administrative court."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "sp-treve-hivernale",
+      "name": "Trêve hivernale — Service-Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34736",
+      "category": "logement",
+      "tags": ["logement", "expulsion", "droits", "officiel"],
+      "description": {
+        "fr": "Du 1er novembre au 31 mars, les expulsions locatives sont suspendues et les coupures d'électricité, de gaz et d'eau pour impayés sont encadrées. Il existe des exceptions.",
+        "en": "From 1 November to 31 March, rental evictions are suspended and power, gas and water cut-offs for unpaid bills are restricted. There are exceptions."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "anil",
+      "name": "ANIL et ADIL — conseils juridiques sur le logement",
+      "url": "https://www.anil.org/",
+      "category": "logement",
+      "tags": ["logement", "expulsion", "droits", "gratuit", "juridique"],
+      "description": {
+        "fr": "Information juridique gratuite et neutre sur le logement (bail, impayés, expulsion, aides) ; les ADIL reçoivent dans chaque département.",
+        "en": "Free, neutral legal information on housing (lease, arrears, eviction, benefits); ADIL offices see people in each département."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "dal",
+      "name": "Droit au logement (DAL)",
+      "url": "https://www.droitaulogement.org/",
+      "category": "logement",
+      "tags": ["logement", "expulsion", "association", "militant"],
+      "description": {
+        "fr": "Association de mal-logé·es et de sans-logis : permanences, accompagnement face aux expulsions, actions collectives et réquisitions citoyennes.",
+        "en": "Association of badly housed and homeless people: drop-in sessions, support against evictions, collective actions and citizen requisitions."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "fondation-logement",
+      "name": "Fondation pour le logement des défavorisés",
+      "url": "https://www.fondationpourlelogement.fr/",
+      "category": "logement",
+      "tags": ["logement", "sans-abri", "association"],
+      "description": {
+        "fr": "Ex-Fondation Abbé Pierre : accueils et accompagnement des personnes sans abri ou mal logées, rapport annuel sur l'état du mal-logement.",
+        "en": "Formerly the Abbé Pierre Foundation: shelters and support for homeless or badly housed people, annual report on housing deprivation."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "crous-services",
+      "name": "Crous — MesServices.étudiant",
+      "url": "https://www.messervices.etudiant.gouv.fr/",
+      "category": "logement",
+      "tags": ["logement", "etudiants", "aides", "officiel"],
+      "description": {
+        "fr": "Portail des Crous pour les étudiant·es : logement en résidence universitaire, bourses et demandes d'aide.",
+        "en": "Crous portal for students: university housing, grants and applications for support."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "mes-droits-sociaux",
+      "name": "Mes Droits Sociaux",
+      "url": "https://www.mesdroitssociaux.gouv.fr/",
+      "category": "pouvoir-achat",
+      "tags": ["aides", "simulateur", "officiel", "gratuit"],
+      "description": {
+        "fr": "Simulateur officiel pour savoir à quelles aides vous avez droit (RSA, prime d'activité, aides au logement…) et les demander : beaucoup de droits ne sont jamais réclamés.",
+        "en": "Official simulator to find out which benefits you are entitled to (RSA, in-work bonus, housing aid…) and claim them: many rights are never claimed."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "prime-activite",
+      "name": "Prime d'activité — Service-Public",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F2882",
+      "category": "pouvoir-achat",
+      "tags": ["aides", "travail", "officiel"],
+      "description": {
+        "fr": "Complément de revenu pour les personnes qui travaillent avec des revenus modestes, y compris les jeunes actifs et actives : conditions et démarche.",
+        "en": "Income top-up for people in work on modest earnings, including young workers: conditions and how to apply."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "cheque-energie",
+      "name": "Chèque énergie",
+      "url": "https://chequeenergie.gouv.fr/",
+      "category": "pouvoir-achat",
+      "tags": ["energie", "aides", "officiel"],
+      "description": {
+        "fr": "Aide de l'État pour payer les factures d'énergie des ménages modestes : vérifier son éligibilité, l'utiliser, signaler un chèque non reçu.",
+        "en": "State aid to pay energy bills for low-income households: check eligibility, use it, report a missing cheque."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "aides-jeunes",
+      "name": "1jeune1solution — Mes aides financières",
+      "url": "https://www.1jeune1solution.gouv.fr/mes-aides",
+      "category": "pouvoir-achat",
+      "tags": ["aides", "jeunes", "etudiants", "simulateur", "officiel"],
+      "description": {
+        "fr": "Simulateur des aides pour les 15-30 ans : logement, transport, santé, études, emploi.",
+        "en": "Benefits simulator for 15-30 year olds: housing, transport, health, studies, work."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "bourse-lycee",
+      "name": "Bourse de lycée — Service-Public",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F616",
+      "category": "pouvoir-achat",
+      "tags": ["lyceens", "aides", "officiel"],
+      "description": {
+        "fr": "Aide de l'État pour les familles aux revenus modestes dont l'enfant est au lycée : conditions de ressources et démarche.",
+        "en": "State grant for low-income families with a child in upper secondary school: income conditions and how to apply."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "surendettement",
+      "name": "Surendettement — Service-Public",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F134",
+      "category": "pouvoir-achat",
+      "tags": ["dettes", "officiel", "gratuit"],
+      "description": {
+        "fr": "Si vous ne pouvez plus payer vos dettes, la commission de surendettement de la Banque de France peut étaler, réduire ou effacer une partie des dettes. La démarche est gratuite.",
+        "en": "If you can no longer pay your debts, the Banque de France over-indebtedness committee can reschedule, reduce or write off part of them. Applying is free."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "restos-du-coeur",
+      "name": "Restos du Cœur",
+      "url": "https://www.restosducoeur.org/",
+      "category": "pouvoir-achat",
+      "tags": ["alimentation", "association", "gratuit"],
+      "description": {
+        "fr": "Aide alimentaire, accueil et accompagnement des personnes en difficulté dans toute la France.",
+        "en": "Food aid, reception and support for people in difficulty across France."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "secours-populaire",
+      "name": "Secours populaire français",
+      "url": "https://www.secourspopulaire.fr/",
+      "category": "pouvoir-achat",
+      "tags": ["alimentation", "association", "gratuit"],
+      "description": {
+        "fr": "Aide alimentaire, vestimentaire, accès aux droits, aux vacances et à la culture pour les personnes en situation de pauvreté.",
+        "en": "Food and clothing aid, help claiming rights, holidays and culture for people living in poverty."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "the-shift-project",
+      "name": "The Shift Project",
+      "url": "https://theshiftproject.org/",
+      "category": "environnement",
+      "tags": ["ecologie", "climat", "energie", "comprendre"],
+      "description": {
+        "fr": "Think tank sur la décarbonation de l'économie : rapports chiffrés et accessibles sur l'énergie, le climat et les transitions par secteur.",
+        "en": "Think tank on decarbonising the economy: accessible, data-driven reports on energy, climate and sector-by-sector transitions."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "reseau-action-climat",
+      "name": "Réseau Action Climat",
+      "url": "https://reseauactionclimat.org/",
+      "category": "environnement",
+      "tags": ["ecologie", "climat", "association", "plaidoyer"],
+      "description": {
+        "fr": "Fédération d'associations sur le climat : décryptages des politiques publiques et suivi des engagements de la France.",
+        "en": "Federation of climate associations: analysis of public policies and tracking of France's commitments."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "notre-affaire-a-tous",
+      "name": "Notre Affaire à Tous",
+      "url": "https://notreaffaireatous.org/",
+      "category": "environnement",
+      "tags": ["ecologie", "climat", "justice", "association"],
+      "description": {
+        "fr": "Association de juristes qui utilise le droit pour la justice climatique : actions en justice contre l'État et les entreprises.",
+        "en": "Lawyers' association using the law for climate justice: legal action against the State and companies."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "soulevements-de-la-terre",
+      "name": "Les Soulèvements de la Terre",
+      "url": "https://lessoulevementsdelaterre.org/",
+      "category": "environnement",
+      "tags": ["ecologie", "eau", "terres", "mobilisation", "groupes-locaux"],
+      "description": {
+        "fr": "Coalition de luttes locales contre l'accaparement des terres et de l'eau (méga-bassines, bétonisation) : appels à mobilisation et comités locaux.",
+        "en": "Coalition of local struggles against land and water grabbing (mega-reservoirs, concrete sprawl): calls to action and local committees."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "sea-shepherd",
+      "name": "Sea Shepherd France",
+      "url": "https://seashepherd.fr/",
+      "category": "environnement",
+      "tags": ["ecologie", "oceans", "action-directe", "association", "benevolat"],
+      "description": {
+        "fr": "Association de défense des océans et de la faune marine : campagnes en mer, actions sur le terrain et bénévolat.",
+        "en": "Association defending the oceans and marine life: campaigns at sea, field actions and volunteering."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "ric-deliberatif-2081",
+      "name": "Proposition de loi constitutionnelle n° 2081 — RIC délibératif",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b2081_proposition-loi",
+      "category": "democratie",
+      "tags": ["ric", "referendum", "assemblee-nationale", "loi"],
+      "description": {
+        "fr": "Texte déposé le 18 novembre 2025 par le groupe écologiste et social pour inscrire un référendum d'initiative citoyenne « délibératif » dans la Constitution : recueil de soutiens, panel de citoyen·nes tiré·es au sort, puis référendum. Adopté en commission des lois le 4 février 2026, inscrit à l'ordre du jour du 12 février.",
+        "en": "Bill tabled on 18 November 2025 by the Ecologist group to write a 'deliberative' citizens' initiative referendum into the Constitution: gathering support, a panel of citizens drawn by lot, then a referendum. Adopted in the Law Committee on 4 February 2026, scheduled for 12 February."
+      },
+      "sources": [
+        {
+          "title": "Démocratie Directe France — PPL RIC présentée à l'Assemblée le 12 février 2026",
+          "url": "https://www.democratie.direct/actualites/ppl-ric-presentee-a-lassemblee-le-12-fevrier-2026/"
+        },
+        {
+          "title": "LCP — Les textes de la niche parlementaire des écologistes",
+          "url": "https://lcp.fr/actualites/vote-des-etrangers-eau-potable-concentration-des-medias-les-textes-de-la-niche"
+        }
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "espoir-ric",
+      "name": "Espoir RIC",
+      "url": "https://www.espoir-ric.fr/",
+      "category": "democratie",
+      "tags": ["ric", "referendum", "association", "petition"],
+      "description": {
+        "fr": "Mouvement né des gilets jaunes pour le RIC constituant : propositions de loi portées avec des député·es, pétitions et interpellation des élu·es.",
+        "en": "Movement born from the yellow vests for a constituent citizens' initiative referendum: bills carried with MPs, petitions and lobbying of elected officials."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "rip-officiel",
+      "name": "Référendum d'initiative partagée (RIP) — ministère de l'Intérieur",
+      "url": "https://www.referendum.interieur.gouv.fr/",
+      "category": "democratie",
+      "tags": ["referendum", "officiel", "signer"],
+      "description": {
+        "fr": "Le seul référendum d'initiative populaire qui existe aujourd'hui : proposé par un cinquième des parlementaires, il doit ensuite être soutenu par un dixième des électeur·ices. C'est sur ce site officiel qu'on signe un RIP en cours.",
+        "en": "The only popular-initiative referendum that exists today: proposed by one fifth of members of Parliament, it must then be backed by one tenth of voters. This official site is where you sign an ongoing one."
+      },
+      "sources": [
+        {
+          "title": "Public Sénat — Présidentielle : RIC, RIP… les référendums dans les programmes",
+          "url": "https://www.publicsenat.fr/actualites/politique/presidentielle-ric-rip-50-nuances-de-referendums-dans-les-programmes-des-candidats"
+        }
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "petitions-an",
+      "name": "Pétitions de l'Assemblée nationale",
+      "url": "https://petitions.assemblee-nationale.fr/",
+      "category": "democratie",
+      "tags": ["petition", "officiel", "assemblee-nationale", "signer"],
+      "description": {
+        "fr": "Plateforme officielle pour déposer ou signer une pétition adressée aux député·es : mise en avant à 100 000 signatures, débat possible en séance à partir de 500 000.",
+        "en": "Official platform to file or sign a petition to MPs: featured at 100,000 signatures, possible floor debate from 500,000."
+      },
+      "sources": [
+        {
+          "title": "Assemblée nationale — Pétition « Tous pour un référendum d'initiative citoyenne »",
+          "url": "https://petitions.assemblee-nationale.fr/initiatives/i-3138?locale=fr"
+        }
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "petitions-senat",
+      "name": "E-pétitions du Sénat",
+      "url": "https://petitions.senat.fr/",
+      "category": "democratie",
+      "tags": ["petition", "officiel", "senat", "signer"],
+      "description": {
+        "fr": "Plateforme officielle des pétitions adressées au Sénat.",
+        "en": "Official platform for petitions to the Senate."
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "initiative-citoyenne-europeenne",
+      "name": "Initiative citoyenne européenne",
+      "url": "https://citizens-initiative.europa.eu/_fr",
+      "category": "democratie",
+      "tags": ["petition", "officiel", "europe", "signer"],
+      "description": {
+        "fr": "Un million de signatures dans au moins sept pays de l'Union européenne pour demander à la Commission européenne de proposer une loi.",
+        "en": "One million signatures from at least seven EU countries to ask the European Commission to propose a law."
       },
       "check": {
         "date": "2026-10-29",

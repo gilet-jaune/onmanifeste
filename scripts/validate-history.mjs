@@ -5,6 +5,8 @@ import { readFileSync } from 'node:fs';
 const FILE = 'docs/data/history.json';
 const TODAY = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' }).format(new Date());
 const errors = [];
+const warnings = [];
+const STALE_DAYS = 365; // same threshold as resources.json and the weekly maintenance report
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const kinds = Object.keys(data.kinds ?? {});
 const sources = JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sources;
@@ -29,6 +31,8 @@ let previous = '';
   });
   if (e.check) {
     const { date, result, by, note } = e.check;
+    if ((Date.now() - Date.parse(`${date}T00:00:00Z`)) / 86_400_000 > STALE_DAYS)
+      warnings.push(`${at}: not checked for more than ${STALE_DAYS} days (${date})`);
     if (
       !/^\d{4}-\d{2}-\d{2}$/.test(date ?? '') ||
       Number.isNaN(Date.parse(`${date}T00:00:00Z`)) ||
@@ -55,4 +59,6 @@ if (errors.length) {
   console.error(`❌ ${FILE}: ${errors.length} error(s)\n- ${errors.join('\n- ')}`);
   process.exit(1);
 }
+if (warnings.length)
+  console.warn(`⚠️ ${FILE}: ${warnings.length} warning(s)\n- ${warnings.join('\n- ')}`);
 console.log(`✅ ${FILE}: ${data.events.length} events valid`);

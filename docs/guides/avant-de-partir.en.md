@@ -1,5 +1,5 @@
 ---
-source_commit: 3f2cabf9c669771713392a2b5fef3f01c917e5dc
+source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
 tags:
     - guides
     - préparation
@@ -31,9 +31,9 @@ Download the protest area **and** your way home. Test in airplane mode: the map 
 [google-offline]: https://support.google.com/maps/answer/6291838?hl=en
 [apple-offline]: https://support.apple.com/en-us/guide/iphone/iphcfb5f5bc6/ios
 
-## On paper
+## On paper and on you
 
-- [ ] Useful numbers **written on paper** (or on your arm): a close contact, the legal team, a lawyer ([see "Never stay alone"](ne-pas-rester-seul.md)).
+- [ ] Useful numbers written in permanent marker **on your skin under clothing** (upper arm, stomach — out of sight) and on paper: **only the 10 digits, with no name** (a close contact who is not protesting and answers hidden numbers, the legal team, a lawyer). In police custody, your phone and belongings are confiscated ([see "Never stay alone"](ne-pas-rester-seul.md)).[^sm-guide]
 - [ ] The printed [pocket card](../carte/index.md).
 
 ## With your group

@@ -2,7 +2,7 @@
 
 > Une sélection d'outils libres, de guides juridiques et de ressources pratiques pour s'informer, s'organiser et se protéger lors des manifestations en France.
 
-Une version web, optimisée pour mobile et **utilisable hors ligne**, est publiée avec GitHub Pages (lien dans la section « About » du dépôt). Elle ajoute une recherche par nom et par tag, des [guides express](docs/guides/index.md) (sécurité, venir et repartir, kit, premiers secours, garde à vue, dispersion, filmer la police, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation), des conseils pratiques et des [repères historiques](docs/histoire/index.md) avec ce que la rue a obtenu.
+Une version web, optimisée pour mobile et **utilisable hors ligne**, est publiée avec GitHub Pages (lien dans la section « About » du dépôt). Elle ajoute une recherche par nom et par tag, des [guides express](docs/guides/index.md) (sécurité, venir et repartir, téléphone, kit, contrôle et fouille, premiers secours, garde à vue, suites judiciaires, santé mentale, dispersion, filmer la police, handicap, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation), des conseils pratiques et des [repères historiques](docs/histoire/index.md) avec ce que la rue a obtenu.
 
 <!-- prettier-ignore -->
 > [!WARNING]
@@ -21,6 +21,10 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Filmer & archiver](#filmer--archiver)
 - [Aide juridique](#aide-juridique)
 - [Santé & premiers secours](#santé--premiers-secours)
+- [Logement & hébergement](#logement--hébergement)
+- [Pouvoir d'achat & droits sociaux](#pouvoir-dachat--droits-sociaux)
+- [Écologie & climat](#écologie--climat)
+- [Démocratie directe & RIC](#démocratie-directe--ric)
 - [Information & agenda](#information--agenda)
 - [Médias & vérification](#médias--vérification)
 - [Organisation](#organisation)
@@ -86,11 +90,11 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [LDH — Filmer les forces de l'ordre (fiche)](https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf) - Fiche pratique de la Ligue des droits de l'Homme sur le droit de filmer et de diffuser des images d'interventions policières.
 - [LDH — Que faire face aux violences policières ? (2026)](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf) - Fiche pratique de la LDH (avril 2026) : démarches après des violences policières (certificat médical, plainte, signalement, témoins).
 - [IGGN — Plateforme de signalement (gendarmerie)](https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn) - Signalement en ligne du comportement d'un·e gendarme à l'Inspection générale de la gendarmerie. Un signalement n'est pas une plainte.
-- [Legal Team Marseille](https://legalteammarseille.nublogs.org/contact/) - Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. ⚠️ _Non confirmé._
+- [Legal Team Marseille](https://legalteammarseille.nublogs.org/contact/) - Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. Courriel : legalteam-marseille@riseup.net. Tél. : 07 53 05 25 30.
 - [Caisse de solidarité de Lyon](https://rebellyon.info/+-caissedeso-+) - Collectif antirépression lyonnais : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois. Tél. : 06 43 08 50 32.
 - [CLAJ — Collectif lillois d'autodéfense juridique](https://clajlille.wordpress.com/) - Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net. Tél. : 07 53 65 49 52.
 - [Antirep Nantes (Indymedia Nantes)](https://www.nantes.indymedia.org/about/antirep/) - Informations antirépression publiées avant chaque mobilisation à Nantes, dont les numéros des legal teams du jour : consultez la publication la plus récente.
-- [Legal Team Rennes](https://comitezadrennes.nublogs.org/legal-team/) - Legal team rennaise : informations sur vos droits lors d'un contrôle ou d'une garde à vue, mise en relation avec des avocat·es. Vérifiez le numéro en cours sur la page. ⚠️ _Non confirmé._
+- [Antirep Rennes (Expansive.info)](https://expansive.info/Repression-Justice) - Rubrique antirépression rennaise sur Expansive.info : conseils pratiques en cas d'interpellation ou de garde à vue, permanences de la legal team et soutien psychologique antirépression (SPARR : sparr@riseup.net).
 - [LDH — Attroupement et dispersion (fiche)](https://www.ldh-france.org/wp-content/uploads/2024/03/Attroupement-Dispersion-de-la-manifestation-oct-2023.pdf) - Fiche pratique de la LDH : ce qu'est un attroupement, comment se déroulent les sommations et ce que l'on risque à rester après.
 - [Conseil d'État — schéma de maintien de l'ordre (2021)](https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849) - Décision du 10 juin 2021 qui annule notamment l'encadrement de la technique d'encerclement (« nasse ») et des règles visant les journalistes.
 - [Service-Public — Organiser une manifestation](https://www.service-public.gouv.fr/particuliers/vosdroits/F21899) - Fiche officielle : déclaration préalable en mairie ou en préfecture, délais, informations à fournir.
@@ -127,6 +131,46 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Fil Santé Jeunes (0 800 235 236)](https://www.filsantejeunes.com/) - Ligne d'écoute et tchat anonymes et gratuits pour les 12–25 ans (mal-être, dépression, angoisse, santé), tous les jours de 9 h à 23 h au 0 800 235 236. Tél. : 0800 235 236.
 - [Nightline France](https://www.nightline.fr/) - Service d'écoute nocturne gratuit et confidentiel par et pour les étudiant·es (téléphone et tchat), et annuaire « Soutien Étudiant » de prises en charge gratuites.
 - [Psycom — Santé mentale Info](https://www.psycom.org/) - Organisme public d'information sur la santé mentale : annuaire complet des lignes d'écoute, guides pratiques et repères pour trouver de l'aide près de chez soi.
+
+## Logement & hébergement
+
+- [115 — Hébergement d'urgence (SAMU social)](https://www.masecurite.interieur.gouv.fr/fr/fiches-pratiques/famille-et-aides-aux-victimes/numeros-utiles-nationaux) - Numéro national gratuit pour trouver un hébergement d'urgence ou une aide quand on est à la rue, 24 h/24. Il oriente aussi vers les accueils de jour et les maraudes. Tél. : 115.
+- [Soliguide](https://www.soliguide.fr/) - Annuaire des lieux solidaires près de chez vous : où dormir, manger, se laver, se soigner, recharger son téléphone ou être accompagné·e dans ses démarches.
+- [Domiciliation des personnes sans domicile stable](https://solidarites.gouv.fr/domiciliation-des-personnes-sans-domicile-stable) - Sans adresse stable, vous avez droit à une adresse administrative (CCAS de la mairie ou association agréée) pour recevoir votre courrier et faire valoir vos droits : papiers, aides sociales, santé.
+- [Droit au logement opposable (Dalo) — Service-Public](https://www.service-public.fr/particuliers/vosdroits/F18005) - Si vos démarches pour obtenir un logement ou un hébergement n'aboutissent pas, le Dalo permet de saisir une commission puis, si besoin, le tribunal administratif.
+- [Trêve hivernale — Service-Public](https://www.service-public.gouv.fr/particuliers/vosdroits/F34736) - Du 1er novembre au 31 mars, les expulsions locatives sont suspendues et les coupures d'électricité, de gaz et d'eau pour impayés sont encadrées. Il existe des exceptions.
+- [ANIL et ADIL — conseils juridiques sur le logement](https://www.anil.org/) - Information juridique gratuite et neutre sur le logement (bail, impayés, expulsion, aides) ; les ADIL reçoivent dans chaque département.
+- [Droit au logement (DAL)](https://www.droitaulogement.org/) - Association de mal-logé·es et de sans-logis : permanences, accompagnement face aux expulsions, actions collectives et réquisitions citoyennes.
+- [Fondation pour le logement des défavorisés](https://www.fondationpourlelogement.fr/) - Ex-Fondation Abbé Pierre : accueils et accompagnement des personnes sans abri ou mal logées, rapport annuel sur l'état du mal-logement.
+- [Crous — MesServices.étudiant](https://www.messervices.etudiant.gouv.fr/) - Portail des Crous pour les étudiant·es : logement en résidence universitaire, bourses et demandes d'aide.
+
+## Pouvoir d'achat & droits sociaux
+
+- [Mes Droits Sociaux](https://www.mesdroitssociaux.gouv.fr/) - Simulateur officiel pour savoir à quelles aides vous avez droit (RSA, prime d'activité, aides au logement…) et les demander : beaucoup de droits ne sont jamais réclamés.
+- [Prime d'activité — Service-Public](https://www.service-public.fr/particuliers/vosdroits/F2882) - Complément de revenu pour les personnes qui travaillent avec des revenus modestes, y compris les jeunes actifs et actives : conditions et démarche.
+- [Chèque énergie](https://chequeenergie.gouv.fr/) - Aide de l'État pour payer les factures d'énergie des ménages modestes : vérifier son éligibilité, l'utiliser, signaler un chèque non reçu.
+- [1jeune1solution — Mes aides financières](https://www.1jeune1solution.gouv.fr/mes-aides) - Simulateur des aides pour les 15-30 ans : logement, transport, santé, études, emploi.
+- [Bourse de lycée — Service-Public](https://www.service-public.fr/particuliers/vosdroits/F616) - Aide de l'État pour les familles aux revenus modestes dont l'enfant est au lycée : conditions de ressources et démarche.
+- [Surendettement — Service-Public](https://www.service-public.fr/particuliers/vosdroits/F134) - Si vous ne pouvez plus payer vos dettes, la commission de surendettement de la Banque de France peut étaler, réduire ou effacer une partie des dettes. La démarche est gratuite.
+- [Restos du Cœur](https://www.restosducoeur.org/) - Aide alimentaire, accueil et accompagnement des personnes en difficulté dans toute la France.
+- [Secours populaire français](https://www.secourspopulaire.fr/) - Aide alimentaire, vestimentaire, accès aux droits, aux vacances et à la culture pour les personnes en situation de pauvreté.
+
+## Écologie & climat
+
+- [The Shift Project](https://theshiftproject.org/) - Think tank sur la décarbonation de l'économie : rapports chiffrés et accessibles sur l'énergie, le climat et les transitions par secteur.
+- [Réseau Action Climat](https://reseauactionclimat.org/) - Fédération d'associations sur le climat : décryptages des politiques publiques et suivi des engagements de la France.
+- [Notre Affaire à Tous](https://notreaffaireatous.org/) - Association de juristes qui utilise le droit pour la justice climatique : actions en justice contre l'État et les entreprises.
+- [Les Soulèvements de la Terre](https://lessoulevementsdelaterre.org/) - Coalition de luttes locales contre l'accaparement des terres et de l'eau (méga-bassines, bétonisation) : appels à mobilisation et comités locaux.
+- [Sea Shepherd France](https://seashepherd.fr/) - Association de défense des océans et de la faune marine : campagnes en mer, actions sur le terrain et bénévolat.
+
+## Démocratie directe & RIC
+
+- [Proposition de loi constitutionnelle n° 2081 — RIC délibératif](https://www.assemblee-nationale.fr/dyn/17/textes/l17b2081_proposition-loi) - Texte déposé le 18 novembre 2025 par le groupe écologiste et social pour inscrire un référendum d'initiative citoyenne « délibératif » dans la Constitution : recueil de soutiens, panel de citoyen·nes tiré·es au sort, puis référendum. Adopté en commission des lois le 4 février 2026, inscrit à l'ordre du jour du 12 février.
+- [Espoir RIC](https://www.espoir-ric.fr/) - Mouvement né des gilets jaunes pour le RIC constituant : propositions de loi portées avec des député·es, pétitions et interpellation des élu·es.
+- [Référendum d'initiative partagée (RIP) — ministère de l'Intérieur](https://www.referendum.interieur.gouv.fr/) - Le seul référendum d'initiative populaire qui existe aujourd'hui : proposé par un cinquième des parlementaires, il doit ensuite être soutenu par un dixième des électeur·ices. C'est sur ce site officiel qu'on signe un RIP en cours.
+- [Pétitions de l'Assemblée nationale](https://petitions.assemblee-nationale.fr/) - Plateforme officielle pour déposer ou signer une pétition adressée aux député·es : mise en avant à 100 000 signatures, débat possible en séance à partir de 500 000.
+- [E-pétitions du Sénat](https://petitions.senat.fr/) - Plateforme officielle des pétitions adressées au Sénat.
+- [Initiative citoyenne européenne](https://citizens-initiative.europa.eu/_fr) - Un million de signatures dans au moins sept pays de l'Union européenne pour demander à la Commission européenne de proposer une loi.
 
 ## Information & agenda
 

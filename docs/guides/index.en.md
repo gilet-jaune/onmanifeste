@@ -1,5 +1,5 @@
 ---
-source_commit: 568431b7851ec4e30f466f803459fe1f78c4dd96
+source_commit: 598dbfe71fe62fef8f263e392a891c879cec3a71
 tags:
     - guides
 ---
@@ -19,6 +19,14 @@ Short guides to read before you go, **available offline** once the site has been
     Charged phone, power bank, apps and offline map installed, numbers on paper.
 
     [:octicons-arrow-right-24: Read](avant-de-partir.md)
+
+- **The right to protest** [:material-scale-balance:](droit-de-manifester.md)
+
+    ***
+
+    A freedom, not a permission: declaring, lawful and unlawful bans, how to challenge them.
+
+    [:octicons-arrow-right-24: Read](droit-de-manifester.md)
 
 - **Protest kit and outfit** [:material-bag-personal:](kit-manif.md)
 
@@ -44,6 +52,14 @@ Short guides to read before you go, **available offline** once the site has been
 
     [:octicons-arrow-right-24: Read](communiquer.md)
 
+- **Phone: emergency lock, passcode and seizure** [:material-cellphone-lock:](telephone.md)
+
+    ***
+
+    Disable Face ID / fingerprint in 2 seconds, passcode in custody, what to do if your phone is seized.
+
+    [:octicons-arrow-right-24: Read](telephone.md)
+
 - **Never stay alone** [:material-account-group:](ne-pas-rester-seul.md)
 
     ***
@@ -65,6 +81,14 @@ Short guides to read before you go, **available offline** once the site has been
     Recognise warnings, leave in time, react if you are kettled.
 
     [:octicons-arrow-right-24: Read](dispersion.md)
+
+- **ID checks, bag searches and fines** [:material-badge-account-horizontal:](controle-fouille.md)
+
+    ***
+
+    Identity verification, who can search your bag, why you should never pay a fine on the spot.
+
+    [:octicons-arrow-right-24: Read](controle-fouille.md)
 
 - **First aid** [:material-medical-bag:](premiers-secours.md)
 
@@ -104,6 +128,22 @@ Short guides to read before you go, **available offline** once the site has been
 
     [:octicons-arrow-right-24: Read](garde-a-vue.md)
 
+- **Filing a complaint, voluntary interview and trial** [:material-gavel:](suites-judiciaires.md)
+
+    ***
+
+    Medical certificate, complaint to the prosecutor, voluntary interview and documents for a fast-track trial.
+
+    [:octicons-arrow-right-24: Read](suites-judiciaires.md)
+
+- **Emotional shock, anxiety and mental health** [:material-heart-pulse:](sante-mentale.md)
+
+    ***
+
+    Calm a panic attack, cope with the post-protest aftermath, free helplines (3114, 116 006).
+
+    [:octicons-arrow-right-24: Read](sante-mentale.md)
+
 - **Sexist violence and online harassment** [:material-hand-back-left-off:](violences-harcelement.md)
 
     ***
@@ -117,6 +157,14 @@ Short guides to read before you go, **available offline** once the site has been
 ## Depending on your situation
 
 <div class="grid cards" markdown="1">
+
+- **Disability or chronic condition** [:material-wheelchair-accessibility:](handicap.md)
+
+    ***
+
+    Prescriptions, asthma and tear gas, sensory hypersensitivity, rights in custody (114, sign language).
+
+    [:octicons-arrow-right-24: Read](handicap.md)
 
 - **Protesting without French nationality** [:material-passport:](etrangers.md)
 
@@ -179,6 +227,14 @@ Short guides to read before you go, **available offline** once the site has been
     Check an image, a rumour or a toll before sharing.
 
     [:octicons-arrow-right-24: Read](desinformation.md)
+
+- **Social media: don't feed hate** [:material-account-cancel:](reseaux-sociaux.md)
+
+    ***
+
+    Don't push the far right up, push your causes up, spot bots.
+
+    [:octicons-arrow-right-24: Read](reseaux-sociaux.md)
 
 - **Talk to your loved ones** [:material-forum:](convaincre-ses-proches.md)
 

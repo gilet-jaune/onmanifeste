@@ -95,19 +95,26 @@ plugins:
             Selon votre situation: Depending on your situation
             S'informer et convaincre: Stay informed and persuade
             Comprendre: Understand
+            Voies démocratiques bafouées: Democratic channels flouted
             Le projet: About
             Annuaire: Directory
             Je suis… et je veux…: I am… and I want to…
             Guides express: Quick guides
             Checklist avant la manif: Pre-protest checklist
+            Le droit de manifester: The right to protest
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
             Venir et repartir: Getting there and back
             Communiquer pendant une manif: Communicating at a protest
+            "Téléphone : verrouillage, code et saisie": "Phone: emergency lock, passcode and seizure"
             Premiers secours: First aid
+            "Contrôle d'identité, fouille de sac et amendes": ID checks, bag searches and fines
             Garde à vue: Police custody
+            Porter plainte, audition libre et procès: Filing a complaint, voluntary interview and trial
+            Choc émotionnel, angoisse et santé mentale: Emotional shock, anxiety and mental health
             Filmer les forces de l'ordre: Film the police
             Dispersion, sommations et nasse: Dispersal, warnings and kettling
+            Handicap ou maladie chronique: Disability or chronic condition
             Manifester sans la nationalité française: Protesting without French nationality
             Drapeau palestinien en manifestation: The Palestinian flag at protests
             "Lycéen·nes : blocus, absences, sanctions": "High-school students: blockades, absences, sanctions"
@@ -117,6 +124,7 @@ plugins:
             Organiser une manifestation: Organising a protest
             S'informer et se former: Stay informed, get trained
             Éviter la désinformation: Avoid disinformation
+            "Réseaux sociaux : ne pas nourrir la haine": "Social media: don't feed hate"
             Convaincre ses proches: Talk to your loved ones
             Conseils pratiques: Practical tips
             Repères historiques: History
@@ -166,19 +174,25 @@ nav:
       - guides/index.md
       - Avant la manif:
           - Checklist avant la manif: guides/avant-de-partir.md
+          - Le droit de manifester: guides/droit-de-manifester.md
           - Kit et tenue de manif: guides/kit-manif.md
           - Venir et repartir: guides/venir-repartir.md
           - Communiquer pendant une manif: guides/communiquer.md
+          - "Téléphone : verrouillage, code et saisie": guides/telephone.md
           - Ne jamais rester seul·e: guides/ne-pas-rester-seul.md
       - Pendant la manif:
           - Dispersion, sommations et nasse: guides/dispersion.md
+          - "Contrôle d'identité, fouille de sac et amendes": guides/controle-fouille.md
           - Premiers secours: guides/premiers-secours.md
           - Filmer les forces de l'ordre: guides/filmer.md
           - Agressions par l'extrême droite: guides/extreme-droite.md
       - Après la manif:
           - Garde à vue: guides/garde-a-vue.md
+          - Porter plainte, audition libre et procès: guides/suites-judiciaires.md
+          - Choc émotionnel, angoisse et santé mentale: guides/sante-mentale.md
           - Violences sexistes et harcèlement en ligne: guides/violences-harcelement.md
       - Selon votre situation:
+          - Handicap ou maladie chronique: guides/handicap.md
           - Manifester sans la nationalité française: guides/etrangers.md
           - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Lycéen·nes : blocus, absences, sanctions": guides/lyceens.md
@@ -187,11 +201,13 @@ nav:
       - S'informer et convaincre:
           - S'informer et se former: guides/s-informer-se-former.md
           - Éviter la désinformation: guides/desinformation.md
+          - "Réseaux sociaux : ne pas nourrir la haine": guides/reseaux-sociaux.md
           - Convaincre ses proches: guides/convaincre-ses-proches.md
       - Conseils pratiques: conseils/index.md
   - Comprendre:
       - comprendre/index.md
       - Repères historiques: histoire/index.md
+      - Voies démocratiques bafouées: confiance/index.md
       - Répressions documentées: repressions/index.md
       - Blessé·es et mort·es: victimes/index.md
   - Le projet:

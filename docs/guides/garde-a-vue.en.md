@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
 review: juridique
 review_status: pending
 tags:
@@ -21,7 +21,7 @@ They must be notified to you immediately, in a language you understand:[^sp-gav]
 - **The right to remain silent.** You can give your identity and refuse to answer other questions.
 - **A lawyer**, of your choice or court-appointed (free depending on your income). Since 1 July 2024, you can ask that no questioning takes place without a lawyer.[^sp-gav-2024]
 - **A doctor.**
-- **Have someone notified**: a relative and your employer.
+- **Have someone notified**: a relative and your employer. The police make the call (often from a hidden number), which is why you should write the **10 digits of a close contact on your skin under clothing** before the protest: since your phone is taken during the search, never ask to unlock it in front of officers to look up a number.[^sp-gav][^sm-guide]
 - **An interpreter** if needed.
 - Access to some case documents (notification report, medical certificate).
 

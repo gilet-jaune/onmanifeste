@@ -23,7 +23,18 @@ Sur place, le réseau mobile sature souvent, et un téléphone peut être perdu 
 
     Si le réseau est coupé ou saturé, utilisez **Briar**, même si votre groupe compte surtout des iPhone : il suffit d'**une personne sous Android par groupe**, la ou le **responsable com**, qui centralise les messages et les relaie de vive voix. Briar est chiffré de bout en bout et ne demande ni matériel ni numéro.[^briar-how] Installez Briar **avant** la manif : une fois privé·e de réseau mobile, impossible de le télécharger. Gardez Bitchat pour le dépannage : il permet de suivre un téléphone.[^bitchat-whitepaper]
 
-## Bonnes pratiques
+## Si Internet est coupé
+
+Le réseau mobile peut saturer, être brouillé ou coupé. Prévoyez un plan qui marche **sans aucun réseau**.
+
+- **Briar ou Meshtastic** : voir le comparatif ci-dessus, à installer et tester avant.
+- **Talkies-walkies PMR446** : utilisables sans licence ni abonnement dans toute l'Union européenne, quelques kilomètres de portée en ville.[^wiki-pmr446] Mais **rien n'est chiffré** : n'importe qui réglé sur le même canal entend tout, forces de l'ordre comprises.[^wiki-pmr446] Réservez-les aux consignes non sensibles (« on bouge », « point B ») et convenez du canal à l'avance.
+- **SMS et appels** : si seules les données sont coupées, ils peuvent encore passer, mais ils ne sont pas chiffrés.
+- **Le plan papier**, qui ne tombe jamais en panne :
+
+    - [ ] un **point de rendez-vous** fixe, loin du parcours, et une **heure de repli** : si on se perd, on y va à l'heure prévue, puis à l'heure suivante ;
+    - [ ] les **numéros utiles écrits** sur papier ou sur le bras, et la [carte de poche](../carte/index.md) imprimée ;
+    - [ ] une **carte hors ligne** ou papier du quartier ([checklist avant la manif](avant-de-partir.md#carte-hors-ligne)).
 
 - [ ] **Installez et testez vos applis avant de partir**, et ajoutez vos contacts Briar à ce moment-là : si le réseau mobile est coupé ou saturé sur place, vous ne pourrez plus rien télécharger.
 - [ ] **Signal** : activez les messages éphémères et le verrouillage de l'écran ; créez des groupes séparés par usage.[^eff-signal]

@@ -5,9 +5,10 @@
 <p class="timeline__gains"><strong>{{ 'Obtenu :' if lang == 'fr' else 'Won:' }}</strong> {{ e.gains[lang] or e.gains.fr }}{% if e.gains.source %} <a href="{{ e.gains.source }}" target="_blank" rel="noopener">({{ 'source' }})</a>{% endif %}</p>
 {%- endmacro -%}
 
-{%- macro timeline(lang) -%}
+{#- only: optional list of event kinds to show (default: all). -#}
+{%- macro timeline(lang, only=none) -%}
 <ol class="timeline">
-  {%- for e in events %} {%- set year, month, day = e.date.split('-') %}
+  {%- for e in events if not only or e.kind in only %} {%- set year, month, day = e.date.split('-') %}
   <li class="timeline__event timeline__event--{{ e.kind }}" id="evt-{{ e.date }}">
     <time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time>
     <div class="timeline__body">

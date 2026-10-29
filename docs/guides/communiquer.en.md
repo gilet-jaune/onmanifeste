@@ -1,5 +1,5 @@
 ---
-source_commit: b5981f1b714a64e6dd063ce83057c7c450ae91ec
+source_commit: 8cad2818dd3da95375759f6c818bae5d8f9c8d15
 tags:
     - guides
     - communication
@@ -23,6 +23,18 @@ On site, the mobile network often saturates, and a phone can be lost or seized. 
 !!! tip "Our recommendation without Internet: Briar"
 
     If the network is cut or saturated, use **Briar**, even if your group is mostly on iPhone: you only need **one Android user per group**, the **comms lead**, who centralises messages and relays them by word of mouth. Briar is end-to-end encrypted and needs no hardware or phone number.[^briar-how] Install Briar **before** the protest: once you are cut off from the mobile network, you can't download it. Keep Bitchat as a fallback: it allows a phone to be tracked.[^bitchat-whitepaper]
+
+## If the Internet is cut
+
+The mobile network can saturate, be jammed or be cut. Have a plan that works **with no network at all**.
+
+- **Briar or Meshtastic**: see the comparison above, to install and test beforehand.
+- **PMR446 walkie-talkies**: usable without a licence or subscription across the European Union, a few kilometres of range in town.[^wiki-pmr446] But **nothing is encrypted**: anyone tuned to the same channel hears everything, police included.[^wiki-pmr446] Keep them for non-sensitive instructions ("we're moving", "point B") and agree on the channel beforehand.
+- **Texts and calls**: if only mobile data is cut, they may still get through, but they are not encrypted.
+- **The paper plan**, which never breaks down:
+    - [ ] a fixed **meeting point** away from the route, and a **fallback time**: if you get separated, go there at the agreed time, then at the next one;
+    - [ ] **useful numbers written** on paper or on your arm, and the printed [pocket card](../carte/index.md);
+    - [ ] an **offline** or paper **map** of the area ([pre-protest checklist](avant-de-partir.md#offline-map)).
 
 ## Good practice
 

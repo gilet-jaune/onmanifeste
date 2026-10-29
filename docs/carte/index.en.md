@@ -1,5 +1,5 @@
 ---
-source_commit: 26f8bf0d5b82c5c6a539035b30d39382cd51dfcf
+source_commit: f189c697ded69225ec734a3a66e67b8239158d77
 review: juridique
 review_status: pending
 tags:
@@ -29,6 +29,8 @@ Print it, cut it out and keep it on you: it stays useful if your phone is lost, 
 
 **Person to notify**: <span class="pocket__blank"></span>
 
+_(On your arm: **10 digits under your sleeve, no name** — someone not protesting who answers hidden numbers.)_
+
 {{ sos.hotlines('en') }}
 
 {% if config.site_url %}
@@ -44,9 +46,16 @@ Print it, cut it out and keep it on you: it stays useful if your phone is lost, 
 
 1. I ask for **a lawyer** and **a doctor**.
 2. I give my identity, then **I remain silent** until the lawyer arrives.
-3. I talk **about no one** else.
-4. I **re-read** everything; I sign nothing inaccurate.
-5. Minor: my parents must be notified, a lawyer is mandatory.
+3. I read the number on my arm (**I do not unlock my phone**).
+4. I talk **about no one** else.
+5. I **re-read** everything; I sign nothing inaccurate.
+6. Minor: my parents must be notified, a lawyer is mandatory.
+
+### Stops, searches and phone
+
+- **Phone**: lock with passcode before arrest (iPhone: _Volume + Side button 2 s_; Android: _Power → Lockdown_).
+- **Bag**: visual check yes; search only by a judicial police officer (otherwise say: "I do not consent to the search").
+- **Fine (€135)**: do not pay on the spot if you want to contest it (45 days).
 
 ### If I see an arrest
 
@@ -60,4 +69,4 @@ I move away facing the wind, I don't rub, I rinse with saline.
 
 </div>
 
-Sources (in French): [emergency numbers]({{ emergency_source.url }}), {{ res("sp-garde-a-vue", "custody (Service-Public)") }}, {{ res("sp-garde-a-vue-mineur", "minors (Service-Public)") }}, {{ res("medic-gestes-manif", "first moves (street medics)") }}.
+Sources (in French): [emergency numbers]({{ emergency_source.url }}), {{ res("sp-garde-a-vue", "custody (Service-Public)") }}, {{ res("sp-garde-a-vue-mineur", "minors (Service-Public)") }}, {{ res("guide-manifestant-arrete", "stops and searches (Syndicat de la magistrature)") }}, {{ res("medic-gestes-manif", "first moves (street medics)") }}.

@@ -30,9 +30,9 @@ Téléchargez la zone de la manif **et** celle de votre trajet retour. Testez en
 [google-offline]: https://support.google.com/maps/answer/6291838?hl=fr
 [apple-offline]: https://support.apple.com/fr-fr/guide/iphone/iphcfb5f5bc6/ios
 
-## Sur papier
+## Sur papier et sur soi
 
-- [ ] Numéros utiles **écrits sur papier** (ou sur le bras) : un·e proche, la legal team, un·e avocat·e ([voir « Ne jamais rester seul·e »](ne-pas-rester-seul.md)).
+- [ ] Numéros utiles écrits au feutre indélébile **sur la peau sous un vêtement** (haut du bras, ventre — pas à vue) et sur papier : **uniquement les 10 chiffres, sans aucun nom** (un·e proche qui ne manifeste pas et décroche aux numéros masqués, la legal team, un·e avocat·e). En garde à vue, votre téléphone et vos affaires sont confisqués ([voir « Ne jamais rester seul·e »](ne-pas-rester-seul.md)).[^sm-guide]
 - [ ] La [carte de poche](../carte/index.md) imprimée.
 
 ## Avec votre groupe

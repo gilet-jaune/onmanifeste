@@ -19,6 +19,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](avant-de-partir.md)
 
+- **Le droit de manifester** [:material-scale-balance:](droit-de-manifester.md)
+
+    ***
+
+    Liberté et non autorisation, déclaration, interdictions légales ou non, comment les contester.
+
+    [:octicons-arrow-right-24: Lire](droit-de-manifester.md)
+
 - **Kit et tenue de manif** [:material-bag-personal:](kit-manif.md)
 
     ***
@@ -43,6 +51,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](communiquer.md)
 
+- **Téléphone : verrouillage, code et saisie** [:material-cellphone-lock:](telephone.md)
+
+    ***
+
+    Désactiver Face ID / l'empreinte en 2 secondes, code en garde à vue, que faire en cas de saisie.
+
+    [:octicons-arrow-right-24: Lire](telephone.md)
+
 - **Ne jamais rester seul·e** [:material-account-group:](ne-pas-rester-seul.md)
 
     ***
@@ -64,6 +80,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
     Reconnaître les sommations, partir à temps, réagir si vous êtes encerclé·e.
 
     [:octicons-arrow-right-24: Lire](dispersion.md)
+
+- **Contrôle d'identité, fouille de sac et amendes** [:material-badge-account-horizontal:](controle-fouille.md)
+
+    ***
+
+    Vérification d'identité, qui peut fouiller votre sac, pourquoi ne pas payer une amende sur place.
+
+    [:octicons-arrow-right-24: Lire](controle-fouille.md)
 
 - **Premiers secours** [:material-medical-bag:](premiers-secours.md)
 
@@ -103,6 +127,22 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 
     [:octicons-arrow-right-24: Lire](garde-a-vue.md)
 
+- **Porter plainte, audition libre et procès** [:material-gavel:](suites-judiciaires.md)
+
+    ***
+
+    Certificat médical, plainte au procureur, audition libre et justificatifs pour une comparution immédiate.
+
+    [:octicons-arrow-right-24: Lire](suites-judiciaires.md)
+
+- **Choc émotionnel, angoisse et santé mentale** [:material-heart-pulse:](sante-mentale.md)
+
+    ***
+
+    Calmer une crise de panique, gérer le contrecoup post-manif, lignes d'écoute gratuites (3114, 116 006).
+
+    [:octicons-arrow-right-24: Lire](sante-mentale.md)
+
 - **Violences sexistes et harcèlement en ligne** [:material-hand-back-left-off:](violences-harcelement.md)
 
     ***
@@ -116,6 +156,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
 ## Selon votre situation
 
 <div class="grid cards" markdown="1">
+
+- **Handicap ou maladie chronique** [:material-wheelchair-accessibility:](handicap.md)
+
+    ***
+
+    Ordonnances, asthme et gaz lacrymogène, hypersensibilité sensorielle, droits en garde à vue (114, LSF).
+
+    [:octicons-arrow-right-24: Lire](handicap.md)
 
 - **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
 
@@ -178,6 +226,14 @@ Des fiches courtes à lire avant de partir, **consultables hors ligne** une fois
     Vérifier une image, une rumeur, un bilan avant de partager.
 
     [:octicons-arrow-right-24: Lire](desinformation.md)
+
+- **Réseaux sociaux : ne pas nourrir la haine** [:material-account-cancel:](reseaux-sociaux.md)
+
+    ***
+
+    Ne pas faire monter l'extrême droite, faire monter vos causes, repérer les bots.
+
+    [:octicons-arrow-right-24: Lire](reseaux-sociaux.md)
 
 - **Convaincre ses proches** [:material-forum:](convaincre-ses-proches.md)
 

@@ -10,7 +10,7 @@
 
 {%- macro repressions(lang) -%}
 <div class="documented">
-{%- for e in events if e.evidence and e.kind != 'desinformation' %}
+{%- for e in events if e.evidence and e.kind in ['repression', 'discrimination', 'soulevement', 'mouvement-social'] %}
   <article class="documented__item" id="repression-{{ e.date }}">
     <h3><span class="documented__year">{{ e.date[:4] }}</span> {{ e.title }}</h3>
     <p>{{ e.description[lang] or e.description.fr }}</p>

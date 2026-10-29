@@ -621,6 +621,14 @@
           "en": "21-year-old student, his hand is blown off by a GLI-F4 grenade during the gendarmes' clearing of the ZAD; he acknowledged picking it up and said he did not mean to throw it back. The grenade, blamed for several mutilations, was withdrawn in January 2020."
         },
         "evidence": ["reporterre-maxime-peugeot", "publicsenat-gli-f4-retrait"],
+        "justice": {
+          "status": "pending",
+          "text": {
+            "fr": "L'enquête préliminaire du parquet de Saint-Nazaire est classée sans suite le 10 août 2018. Il porte alors plainte avec constitution de partie civile devant le juge d'instruction de Rennes, visant le gendarme, sa hiérarchie, le fabricant de la grenade et les autorités qui l'ont maintenue en service. Suite inconnue à ce jour.",
+            "en": "The Saint-Nazaire prosecutor's preliminary inquiry is dropped on 10 August 2018. He then files a civil-party complaint with the Rennes investigating judge, targeting the gendarme, his superiors, the grenade maker and the authorities who kept it in service. Outcome unknown to date."
+          },
+          "evidence": ["france3-peugeot-partie-civile"]
+        },
         "check": {
           "date": "2026-10-28",
           "result": "confirmed",
@@ -796,6 +804,15 @@
           "en": "Hit by a rubber-bullet launcher (LBD) round during a high-school protest."
         },
         "evidence": ["ldh-repression-lyceens"],
+        "justice": {
+          "status": "pending",
+          "date": "2026-10-04",
+          "text": {
+            "fr": "La famille porte plainte pour violences par personne dépositaire de l'autorité publique. Selon la procureure de Tours, les lésions sont compatibles avec un tir de LBD ; l'enquête est confiée à l'IGPN.",
+            "en": "The family files a complaint for violence by a person holding public authority. According to the Tours prosecutor, the injuries are consistent with an LBD shot; the investigation is entrusted to the IGPN."
+          },
+          "evidence": ["franceinfo-tours-plainte-2026"]
+        },
         "check": {
           "date": "2026-10-28",
           "result": "confirmed",
@@ -816,6 +833,14 @@
           "en": "Injured by a grenade during a high-school protest; two days later, stun grenades are suspended for these protests."
         },
         "evidence": ["ldh-repression-lyceens", "wiki-mouvement-lyceen-2026"],
+        "justice": {
+          "status": "pending",
+          "text": {
+            "fr": "Enquête pour violences ayant entraîné une mutilation ou une infirmité permanente, confiée à l'IGPN. Selon le procureur de Béthune, une grenade explosive a été lancée après des sommations et deux grenades lacrymogènes ; il ne peut établir si le lycéen l'a ramassée ou si elle a été lancée sur lui.",
+            "en": "Investigation for violence causing mutilation or permanent disability, entrusted to the IGPN. According to the Béthune prosecutor, an explosive grenade was thrown after warnings and two tear gas grenades; he cannot establish whether the student picked it up or it was thrown at him."
+          },
+          "evidence": ["franceinfo-lens-igpn-2026"]
+        },
         "check": {
           "date": "2026-10-28",
           "result": "confirmed",

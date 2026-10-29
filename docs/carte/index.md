@@ -28,6 +28,8 @@ hide:
 
 **Proche à prévenir** : <span class="pocket__blank"></span>
 
+_(Sur le bras : **10 chiffres sous la manche, sans nom** — proche hors manif qui décroche aux numéros masqués.)_
+
 {{ sos.hotlines('fr') }}
 
 {% if config.site_url %}
@@ -43,9 +45,16 @@ hide:
 
 1. Je demande **un·e avocat·e** et **un médecin**.
 2. Je donne mon identité, puis **je garde le silence** jusqu'à l'avocat·e.
-3. Je ne parle **de personne** d'autre.
-4. Je **relis** tout ; je ne signe rien d'inexact.
-5. Mineur·e : mes parents doivent être prévenus, l'avocat·e est obligatoire.
+3. Je lis le numéro sur mon bras (**je ne déverrouille pas mon téléphone**).
+4. Je ne parle **de personne** d'autre.
+5. Je **relis** tout ; je ne signe rien d'inexact.
+6. Mineur·e : mes parents doivent être prévenus, l'avocat·e est obligatoire.
+
+### Contrôle, fouille et téléphone
+
+- **Téléphone** : verrouiller par code avant interpellation (iPhone : _Volume + Bouton latéral 2 s_ ; Android : _Marche → Verrouiller_).
+- **Sac** : inspection visuelle oui ; fouille uniquement par un·e OPJ (sinon, dites « je ne consens pas à la fouille »).
+- **Amende (135 €)** : ne payez pas sur place si vous voulez contester (45 jours).
 
 ### Si je vois une interpellation
 
@@ -59,4 +68,4 @@ Je m'éloigne face au vent, je ne frotte pas, je rince au sérum.
 
 </div>
 
-Sources : [numéros d'urgence]({{ emergency_source.url }}), {{ res("sp-garde-a-vue", "garde à vue (Service-Public)") }}, {{ res("sp-garde-a-vue-mineur", "mineurs (Service-Public)") }}, {{ res("medic-gestes-manif", "premiers gestes (street medics)") }}.
+Sources : [numéros d'urgence]({{ emergency_source.url }}), {{ res("sp-garde-a-vue", "garde à vue (Service-Public)") }}, {{ res("sp-garde-a-vue-mineur", "mineurs (Service-Public)") }}, {{ res("guide-manifestant-arrete", "contrôle et fouille (Syndicat de la magistrature)") }}, {{ res("medic-gestes-manif", "premiers gestes (street medics)") }}.

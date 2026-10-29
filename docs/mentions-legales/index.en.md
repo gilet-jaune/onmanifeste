@@ -1,5 +1,5 @@
 ---
-source_commit: 360b37c30cf527d6f5a27a30ee2755e720f89c73
+source_commit: f1f9e97d37aca1bda91cab08b9e39768d02b96b6
 tags:
     - legal notice
 ---
@@ -26,5 +26,9 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United S
 ## Content and liability
 
 Information is general and does not replace a lawyer or a medical professional. Data and texts were first **researched and sourced with the help of an artificial intelligence**, and are being reviewed by humans step by step. Every statement is sourced and dated, and the check indicator (`check`) says who checked it: AI, volunteer, lawyer, health professional or historian. Content not yet reviewed by a professional or not confirmed carries a badge. See the [content policy]({{ repositories.docs.url }}/blob/main/MODERATION.md) (in French).
+
+## Licenses
+
+The content and data of this site (texts, guides, `docs/data/*.json` files) are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit Awesome Protest and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Logos, trademarks and quoted sources remain the property of their owners.
 
 ## Sources

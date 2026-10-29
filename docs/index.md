@@ -27,7 +27,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     ***
 
-    Dix-sept fiches courtes : sécurité en manif, venir et repartir, communiquer, kit, premiers secours, garde à vue, dispersion, filmer la police, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation, convaincre ses proches. Disponibles hors ligne.
+    Vingt-quatre fiches courtes : sécurité en manif, venir et repartir, communiquer, téléphone, kit, contrôle et fouille, premiers secours, garde à vue, suites judiciaires, santé mentale, dispersion, filmer la police, handicap, étrangers, lycéen·nes, travail, harcèlement, agressions d'extrême droite, organiser, désinformation, convaincre ses proches. Disponibles hors ligne.
 
     [:octicons-arrow-right-24: Lire les guides](guides/index.md)
 

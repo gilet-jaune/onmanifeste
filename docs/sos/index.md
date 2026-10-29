@@ -25,7 +25,16 @@ Pas de legal team dans votre ville ? Consultez {{ res("rajcol", "la liste des co
 
 ## En garde à vue
 
-Demandez **un·e avocat·e et un médecin**. Gardez le silence jusqu'à l'entretien avec l'avocat·e. Ne signez rien d'inexact. [Le guide complet](../guides/garde-a-vue.md).
+Demandez **un·e avocat·e et un médecin**. Gardez le silence jusqu'à l'entretien avec l'avocat·e. Lisez le numéro d'urgence écrit sur votre bras (**ne déverrouillez jamais votre téléphone** devant un·e agent·e pour chercher un contact). Ne signez rien d'inexact.
+
+- [Garde à vue](../guides/garde-a-vue.md)
+- [Contrôle d'identité, fouille de sac et amendes](../guides/controle-fouille.md)
+- [Téléphone : verrouillage, code et saisie](../guides/telephone.md)
+
+## Choc émotionnel ou détresse psychologique
+
+- [**3114**](tel:3114) — Numéro national de prévention du suicide et de détresse psychologique (gratuit, confidentiel, 24 h/24).
+- [Choc émotionnel, angoisse et santé mentale](../guides/sante-mentale.md)
 
 [:material-printer: Imprimer la carte de poche](../carte/index.md){ .md-button .md-button--primary }
 

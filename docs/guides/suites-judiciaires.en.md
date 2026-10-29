@@ -1,0 +1,53 @@
+---
+source_commit: bc97273de81203f41a711526fd7e15b869c62d0f
+review: juridique
+review_status: pending
+tags:
+    - guides
+    - rights
+    - custody
+---
+
+# Filing a complaint, voluntary interview and trial
+
+!!! warning "Disclaimer"
+
+    General information about French law, not legal advice. Contact a lawyer or a legal team before any police interview or court hearing.
+
+## After violence: document injuries and file a complaint
+
+1. **Detailed medical certificate**: see a doctor (GP, hospital A&E or forensic medical unit) as soon as possible. Ask for a detailed description of every injury, its psychological impact and the number of days of **ITT** (total incapacity for work, even if you are not employed).[^ldh-violences]
+2. **Physical evidence**: photograph your injuries with a ruler for scale, keep stained or torn clothes (unwashed), and gather witness contact details and videos.[^ldh-violences][^witness-preuve]
+3. **File a criminal complaint (plainte)**:
+    - Every police or gendarmerie station is **legally required** to take your complaint, regardless of where the events took place (refusing to take a complaint is unlawful).[^sp-plainte]
+    - **To avoid being turned away or pressured at the desk**: send your complaint directly by **registered letter with acknowledgement of receipt (LRAR)** to the **public prosecutor (procureur de la République)** at the court of the place where the events occurred (dated and signed account, copy of the medical certificate and evidence).[^sp-plainte][^ldh-violences]
+4. **Additional reports** (do **not** replace a criminal complaint):
+    - Refer the case to the {{ res("defenseur-des-droits") }} (free, independent investigation into law-enforcement ethics).[^ddd]
+    - Report the facts to the IGPN (police) or {{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn]
+
+## Summoned for a "voluntary interview" (audition libre)
+
+If the police or gendarmerie summon you after a protest to be questioned "freely" (outside custody):[^sp-audition-libre]
+
+- The written summons must state the alleged offence, your **right to be assisted by a lawyer** (free under legal aid depending on your income) and your **right to leave the premises at any time**.[^sp-audition-libre]
+- **Never attend a voluntary interview without consulting a lawyer or legal team beforehand**: you can ask to reschedule the appointment so you have time to prepare your defence.[^sp-audition-libre][^sm-guide]
+- During the interview, you have the **right to remain silent** and to re-read the record before deciding whether to sign it.[^sp-audition-libre]
+
+## Fast-track trial and court: documents to gather urgently
+
+If someone close to you is brought before the court at the end of custody for a {{ res("sp-comparution-immediate", "fast-track trial (comparution immédiate)") }}, the court rules the same day (or decides on pre-trial detention if the trial is adjourned).[^sp-ci]
+
+Relatives must gather **immediately** and hand to the duty lawyer the **guarantees of representation (garanties de représentation)** (proof of stable ties to avoid prison):[^sp-ci][^sm-guide]
+
+- [ ] **Identity**: copy of ID card, passport or residence permit.
+- [ ] **Address**: lease, latest rent receipt or utility bill (electricity, phone); if hosted by someone else: **signed and dated hosting certificate (attestation d'hébergement)** + copy of the host's ID + host's proof of address.
+- [ ] **Work or studies**: employment contract, last 3 payslips, job offer, school enrolment certificate or student card.
+- [ ] **Family and health**: family record book (livret de famille), current medical prescriptions, proof of medical or psychological care.
+
+Before the court, the defendant always has the **right to refuse to be tried that same day** and to request an adjournment (2 to 6 weeks) to prepare their defence with their lawyer.[^sp-ci]
+
+[:octicons-arrow-right-24: Lawyers, legal aid and solidarity funds in the directory](../annuaire/index.md?situation=avocat-proces)
+
+## Sources
+
+Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.

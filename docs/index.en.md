@@ -1,5 +1,5 @@
 ---
-source_commit: 3a5eb5e135428f3e8eb2842d12c6a4d930690e4f
+source_commit: 21e0d3fa59f65d4a77243f65e8d6129717261472
 tags:
     - home
 ---
@@ -28,7 +28,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     ***
 
-    Seventeen short guides: protest safety, getting there and back, communicating, kit, first aid, custody, dispersal, filming the police, foreign nationals, high-school students, work, harassment, far-right attacks, organising, disinformation, talking to loved ones. Available offline.
+    Twenty-four short guides: protest safety, getting there and back, communicating, phone security, kit, ID checks and searches, first aid, custody, complaints and trials, mental health, dispersal, filming the police, disability, foreign nationals, high-school students, work, harassment, far-right attacks, organising, disinformation, talking to loved ones. Available offline.
 
     [:octicons-arrow-right-24: Read the guides](guides/index.md)
 

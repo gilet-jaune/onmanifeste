@@ -20,6 +20,22 @@
     "desinformation": {
       "fr": "Désinformation officielle",
       "en": "Official disinformation"
+    },
+    "deni-democratique": {
+      "fr": "Vote ou parole ignorés",
+      "en": "Vote or voice ignored"
+    },
+    "discrimination": {
+      "fr": "Discriminations policières",
+      "en": "Police discrimination"
+    },
+    "impunite": {
+      "fr": "Impunité",
+      "en": "Impunity"
+    },
+    "privatisation": {
+      "fr": "Privatisation et marchés",
+      "en": "Privatisation and markets"
     }
   },
   "events": [
@@ -425,6 +441,22 @@
       }
     },
     {
+      "date": "2005-05-29",
+      "title": "Le « non » au référendum européen contourné",
+      "kind": "deni-democratique",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe",
+      "description": {
+        "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,36 %). Le 4 février 2008, le Parlement réuni en Congrès ouvre la voie au traité de Lisbonne sans nouveau référendum ; selon Valéry Giscard d'Estaing, auteur du premier texte, « les outils sont exactement les mêmes, seul l'ordre a été changé dans la boîte à outils ».",
+        "en": "54.67% of voters reject the European constitutional treaty (turnout: 69.36%). On 4 February 2008, Parliament meeting in Congress paves the way for the Lisbon Treaty without a new referendum; according to Valéry Giscard d'Estaing, author of the first text, 'the tools are exactly the same, only the order in the toolbox has changed'."
+      },
+      "evidence": ["wiki-referendum-2005"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "date": "2005-10-27",
       "title": "Révoltes urbaines de 2005",
       "kind": "soulevement",
@@ -459,6 +491,22 @@
       }
     },
     {
+      "date": "2010-12-07",
+      "title": "Électricité : EDF obligé de céder son nucléaire à ses concurrents",
+      "kind": "privatisation",
+      "url": "https://fr.wikipedia.org/wiki/Acc%C3%A8s_r%C3%A9gul%C3%A9_%C3%A0_l%27%C3%A9lectricit%C3%A9_nucl%C3%A9aire_historique",
+      "description": {
+        "fr": "Après l'ouverture du marché de l'électricité à tous les ménages en 2007, sous l'impulsion des directives européennes, la loi NOME impose à EDF de vendre jusqu'à 100 TWh par an de son électricité nucléaire à ses concurrents, à prix fixé (42 €/MWh à partir de 2012). En 2018, le régulateur (CRE) conclut que le dispositif n'a produit aucune des incitations à investir annoncées. Il prend fin le 31 décembre 2025.",
+        "en": "After the electricity market opened to all households in 2007, driven by EU directives, the NOME law requires EDF to sell up to 100 TWh a year of its nuclear power to competitors at a fixed price (€42/MWh from 2012). In 2018 the regulator (CRE) concludes the scheme produced none of the promised incentives to invest. It ends on 31 December 2025."
+      },
+      "evidence": ["wiki-arenh"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "date": "2014-10-26",
       "title": "Mort de Rémi Fraisse",
       "kind": "repression",
@@ -470,6 +518,32 @@
       "evidence": ["wiki-remi-fraisse", "cedh-remi-fraisse"],
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2014-10-28",
+      "title": "Rémi Fraisse : l'hypothèse du sac à dos",
+      "kind": "desinformation",
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
+      "description": {
+        "fr": "Au barrage de Sivens, un militant écologiste de 21 ans est tué dans la nuit du 25 au 26 octobre 2014 par une explosion.",
+        "en": "At the Sivens dam, a 21-year-old environmental activist is killed by an explosion on the night of 25-26 October 2014."
+      },
+      "evidence": ["wiki-fr-remi-fraisse", "cedh-remi-fraisse"],
+      "debunked": {
+        "claim": {
+          "fr": "Le parquet déclare d'abord que l'origine de l'explosion « n'est pas déterminée », puis laisse entendre que son sac à dos aurait pu contenir des explosifs, comme un cocktail Molotov.",
+          "en": "The prosecutor first says the cause of the explosion is 'not determined', then suggests his backpack may have held explosives, such as a Molotov cocktail."
+        },
+        "fact": {
+          "fr": "Les analyses ne trouvent que du TNT, présent dans les grenades offensives OF-F1 de la gendarmerie ; le ministre de l'Intérieur suspend ces grenades le jour même. En 2025, la CEDH condamne la France pour violation du droit à la vie.",
+          "en": "Tests find only TNT, which is in the gendarmerie's OF-F1 offensive grenades; the Interior Minister suspends these grenades the same day. In 2025 the ECHR finds France violated the right to life."
+        }
+      },
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -490,6 +564,22 @@
       }
     },
     {
+      "date": "2016-11-09",
+      "title": "Contrôles au faciès : l'État définitivement condamné",
+      "kind": "discrimination",
+      "url": "https://www.politis.fr/articles/2016/11/controles-au-facies-letat-condamne-35791",
+      "description": {
+        "fr": "La Cour de cassation condamne définitivement l'État pour « faute lourde » dans trois dossiers de contrôles d'identité réalisés en fonction de l'apparence physique : une première. En janvier 2017, l'enquête du Défenseur des droits établit que les jeunes hommes perçus comme noirs ou arabes ont une probabilité 20 fois plus élevée d'être contrôlés que le reste de la population.",
+        "en": "The Court of Cassation definitively convicts the State of 'gross negligence' in three cases of identity checks based on physical appearance: a first. In January 2017, the Defender of Rights' survey finds that young men perceived as Black or Arab are 20 times more likely to be stopped than the rest of the population."
+      },
+      "evidence": ["politis-facies-2016", "hrw-facies-2016", "ddd-controles-2017"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "date": "2018-01-17",
       "title": "Notre-Dame-des-Landes",
       "kind": "mouvement-social",
@@ -504,6 +594,22 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2018-06-27",
+      "title": "SNCF : fin du statut et ouverture à la concurrence",
+      "kind": "privatisation",
+      "url": "https://cms.law/en/fra/publication/nouveau-pacte-ferroviaire",
+      "description": {
+        "fr": "La loi pour un nouveau pacte ferroviaire ouvre le transport ferroviaire de voyageurs à la concurrence, met fin aux recrutements au statut de cheminot et transforme l'entreprise publique en groupe de sociétés au 1er janvier 2020.",
+        "en": "The law for a new rail pact opens passenger rail to competition, ends hiring under the railway workers' statute and turns the public company into a group of companies on 1 January 2020."
+      },
+      "evidence": ["cms-pacte-ferroviaire-2018"],
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -530,6 +636,32 @@
       }
     },
     {
+      "date": "2018-12-03",
+      "title": "Zineb Redouane : « les forces de l'ordre n'ont pas tué »",
+      "kind": "desinformation",
+      "url": "https://fr.wikipedia.org/wiki/Mort_de_Zineb_Redouane",
+      "description": {
+        "fr": "À Marseille, une femme de 80 ans touchée au visage par une grenade lacrymogène alors qu'elle fermait ses volets meurt le lendemain à l'hôpital.",
+        "en": "In Marseille, an 80-year-old woman hit in the face by a tear gas grenade while closing her shutters dies the next day in hospital."
+      },
+      "evidence": ["wiki-zineb-redouane"],
+      "debunked": {
+        "claim": {
+          "fr": "Le procureur affirme qu'« on ne peut pas établir de lien de cause à effet entre la blessure et le décès » et parle d'un « choc opératoire ». En 2019, le ministre de l'Intérieur déclare : « Je ne voudrais pas qu'on laisse penser que les forces de l'ordre ont tué Zineb Redouane. Parce que c'est faux. »",
+          "en": "The prosecutor says 'no causal link can be established between the injury and the death' and speaks of 'surgical shock'. In 2019 the Interior Minister says: 'I would not want anyone to think the police killed Zineb Redouane. Because that is false.'"
+        },
+        "fact": {
+          "fr": "Une autopsie réalisée en Algérie conclut que le traumatisme facial est directement responsable de la mort. L'enquête est dépaysée à Lyon pour garantir l'impartialité : un procureur marseillais était présent auprès des forces de l'ordre pendant la manifestation. En septembre 2024, le CRS auteur du tir est mis en examen pour homicide involontaire.",
+          "en": "An autopsy carried out in Algeria concludes the facial trauma directly caused her death. The investigation is moved to Lyon to ensure impartiality: a Marseille prosecutor was with the police during the demonstration. In September 2024 the CRS officer who fired is charged with involuntary manslaughter."
+        }
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "date": "2019-01-16",
       "title": "Castaner : « aucun policier n'a attaqué de manifestants »",
       "kind": "desinformation",
@@ -551,6 +683,22 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2019-02-21",
+      "title": "Le RIC rejeté à l'Assemblée nationale",
+      "kind": "deni-democratique",
+      "url": "https://www.publicsenat.fr/actualites/non-classe/le-ric-des-insoumis-rejete-a-l-assemblee-nationale-138267",
+      "description": {
+        "fr": "Revendication phare des gilets jaunes, le référendum d'initiative citoyenne (proposer ou abroger une loi, révoquer un·e élu·e, réviser la Constitution à partir de 2 % des électeur·ices) est rejeté par 91 voix contre 50.",
+        "en": "A flagship yellow vests demand, the citizens' initiative referendum (proposing or repealing a law, recalling an official, amending the Constitution from 2% of voters) is rejected by 91 votes to 50."
+      },
+      "evidence": ["publicsenat-ric-lfi-2019"],
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -623,6 +771,60 @@
       }
     },
     {
+      "date": "2019-10-04",
+      "title": "Convention citoyenne pour le climat : promesse « sans filtre » non tenue",
+      "kind": "deni-democratique",
+      "url": "https://fr.wikipedia.org/wiki/Convention_citoyenne_pour_le_climat",
+      "description": {
+        "fr": "150 citoyen·nes tiré·es au sort rédigent 149 propositions. Emmanuel Macron promet de les transmettre « sans filtre », sauf trois « jokers » qu'il écarte le 29 juin 2020 : la réécriture du préambule de la Constitution, le 110 km/h sur autoroute et une taxe de 4 % sur les dividendes. Selon le décompte de Reporterre (mars 2021), seules 15 propositions sont reprises telles quelles et 54 % sont abandonnées ou profondément modifiées : abandon du crime d'écocide, de l'interdiction de la publicité pour les produits polluants, de la rénovation globale obligatoire des logements et de la taxe sur les engrais azotés ; interdiction des vols intérieurs limitée à 8 lignes (moins de 10 % du trafic) ; malus au poids des voitures réservé aux plus de 1 800 kg (2 % des véhicules). En février 2021, les membres de la Convention notent la réponse du gouvernement 3,3 sur 10. Le référendum promis pour inscrire le climat dans l'article 1 de la Constitution est abandonné le 6 juillet 2021.",
+        "en": "150 citizens drawn by lot write 149 proposals. Emmanuel Macron promises to pass them on 'unfiltered', except three 'jokers' he discards on 29 June 2020: rewriting the Constitution's preamble, a 110 km/h motorway limit and a 4% tax on dividends. According to Reporterre's count (March 2021), only 15 proposals are taken up unchanged and 54% are dropped or deeply altered: no crime of ecocide, no advertising ban on polluting products, no mandatory whole-house renovation, no nitrogen fertiliser tax; the domestic flight ban covers only 8 routes (under 10% of traffic); the car weight penalty only applies above 1,800 kg (2% of vehicles). In February 2021, the Convention's members grade the government's response 3.3 out of 10. The promised referendum to write the climate into Article 1 of the Constitution is dropped on 6 July 2021."
+      },
+      "evidence": [
+        "wiki-convention-climat",
+        "maire-info-ccc-jokers",
+        "reporterre-ccc-10-pourcent",
+        "reporterre-ccc-note",
+        "reporterre-referendum-climat-abandon"
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2020-03-26",
+      "title": "Référendum ADP : un million de signatures pour rien",
+      "kind": "deni-democratique",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2020/201918RIP.htm",
+      "description": {
+        "fr": "Premier référendum d'initiative partagée de l'histoire, contre la privatisation d'Aéroports de Paris. Du 13 juin 2019 au 12 mars 2020, 1 093 030 électeur·ices le soutiennent, mais il en fallait 4 717 396 (un dixième du corps électoral) : pas de référendum. L'outil censé donner la parole aux citoyen·nes se révèle quasi impossible à utiliser.",
+        "en": "The first shared-initiative referendum in history, against the privatisation of Paris Airports. From 13 June 2019 to 12 March 2020, 1,093,030 voters back it, but 4,717,396 were needed (a tenth of the electorate): no referendum. The tool meant to give citizens a say turns out to be almost impossible to use."
+      },
+      "evidence": ["cc-rip-adp-2020", "publicsenat-rip-adp-2019"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2020-09-18",
+      "title": "Autoroutes privatisées : des profits au-delà des prévisions",
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
+      "description": {
+        "fr": "En 2006, le gouvernement de Dominique de Villepin vend les sociétés d'autoroutes pour environ 15 milliards d'euros. En 2020, une commission d'enquête du Sénat montre que leur rentabilité dépasse les prévisions. La suite lui donne raison : Vinci atteint dès 2023 et Eiffage fin 2024 la rentabilité visée pour toute la durée de concessions qui courent jusqu'en 2031-2036, avec environ 32 milliards d'euros de surprofits attendus.",
+        "en": "In 2006, Dominique de Villepin's government sells the motorway companies for about €15 billion. In 2020, a Senate inquiry shows their profitability exceeds forecasts. Events prove it right: Vinci reaches in 2023 and Eiffage by the end of 2024 the return expected over concessions running to 2031-2036, with about €32 billion of excess profits expected."
+      },
+      "evidence": ["senat-autoroutes-2020", "publicsenat-autoroutes-vu-juste"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "date": "2020-11-17",
       "title": "Loi « sécurité globale »",
       "kind": "droit",
@@ -652,6 +854,22 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2023-03-16",
+      "title": "Retraites : 49.3 et référendum refusé",
+      "kind": "deni-democratique",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9forme_des_retraites_en_France_en_2023",
+      "description": {
+        "fr": "Malgré des mois de mobilisation massive, la réforme des retraites est adoptée sans vote de l'Assemblée grâce à l'article 49.3 ; la motion de censure échoue à 9 voix le 20 mars. Le Conseil constitutionnel rejette ensuite deux demandes de référendum d'initiative partagée (14 avril et 3 mai 2023). Le gouvernement d'Élisabeth Borne recourt 23 fois au 49.3.",
+        "en": "Despite months of massive protests, the pension reform is passed without a vote in the Assembly using Article 49.3; the no-confidence motion fails by 9 votes on 20 March. The Constitutional Council then rejects two shared-initiative referendum requests (14 April and 3 May 2023). Élisabeth Borne's government uses 49.3 23 times."
+      },
+      "evidence": ["wiki-retraites-2023", "wiki-article-49"],
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -725,6 +943,22 @@
       }
     },
     {
+      "date": "2023-11-17",
+      "title": "Ciivise : 3 % des mis en cause pour viol sur mineur condamnés",
+      "kind": "impunite",
+      "url": "https://www.ciivise.fr/",
+      "description": {
+        "fr": "La Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants remet son rapport après 30 000 témoignages : 160 000 enfants sont victimes de violences sexuelles chaque année, seuls 19 % des victimes portent plainte (12 % en cas d'inceste) et seuls 3 % des mis en cause pour viol sur mineur sont condamnés. Son président parle d'un « régime d'impunité ».",
+        "en": "The Independent Commission on Incest and Sexual Violence against Children submits its report after 30,000 testimonies: 160,000 children suffer sexual violence each year, only 19% of victims file a complaint (12% for incest) and only 3% of those accused of raping a minor are convicted. Its chair speaks of a 'regime of impunity'."
+      },
+      "evidence": ["publicsenat-ciivise-impunite"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "date": "2024-06-15",
       "title": "Manifestations contre l'extrême droite",
       "kind": "mouvement-social",
@@ -735,6 +969,91 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2024-07-07",
+      "title": "Législatives 2024 : la coalition arrivée en tête écartée",
+      "kind": "deni-democratique",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024",
+      "description": {
+        "fr": "Après la dissolution du 9 juin, le Nouveau Front populaire arrive en tête avec 193 sièges, devant Ensemble (168) et le RN (143). Emmanuel Macron refuse de nommer Lucie Castets, sa candidate, et nomme le 5 septembre Michel Barnier, issu des Républicains.",
+        "en": "After the 9 June dissolution, the Nouveau Front populaire comes first with 193 seats, ahead of Ensemble (168) and the RN (143). Emmanuel Macron refuses to appoint its candidate Lucie Castets and on 5 September appoints Michel Barnier, from Les Républicains."
+      },
+      "evidence": ["wiki-legislatives-2024"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2025-01-01",
+      "title": "Fret SNCF liquidé",
+      "kind": "privatisation",
+      "url": "https://www.politis.fr/articles/2024/11/transports-liquidation-de-fret-sncf-les-syndicats-preparent-la-riposte/",
+      "description": {
+        "fr": "Pour clore une enquête de la Commission européenne sur environ 5,3 milliards d'euros d'aides publiques jugées contraires à la concurrence, Fret SNCF est remplacé par deux sociétés (Hexafret et Technis). Il doit céder 23 flux à ses concurrents, environ 20 % de son activité, et supprimer près de 500 postes, alors que le rail ne transporte que 10 % des marchandises en France.",
+        "en": "To close a European Commission inquiry into about €5.3 billion of public aid deemed anti-competitive, Fret SNCF is replaced by two companies (Hexafret and Technis). It must hand 23 freight flows to competitors, about 20% of its business, and cut nearly 500 jobs, while rail carries only 10% of goods in France."
+      },
+      "evidence": ["politis-fret-sncf-2024"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "title": "Cahiers de doléances : six ans sans publication",
+      "kind": "deni-democratique",
+      "url": "https://lcp.fr/actualites/gilets-jaunes-repondant-a-l-appel-de-l-assemblee-le-gouvernement-s-engage-a-reprendre-l",
+      "description": {
+        "fr": "Pendant le grand débat de 2018-2019, les citoyen·nes remplissent 19 247 cahiers de doléances dans 16 337 communes. Promis comme un « trésor national » à rendre aux Français·es, ils ne sont jamais publiés. Le 11 mars 2025, l'Assemblée nationale adopte à l'unanimité une résolution pour les rendre accessibles ; le gouvernement s'engage à ouvrir l'accès aux cahiers numérisés.",
+        "en": "During the 2018-2019 great debate, citizens fill in 19,247 grievance books in 16,337 municipalities. Promised as a 'national treasure' to be returned to the French, they are never published. On 11 March 2025, the National Assembly unanimously adopts a resolution to make them accessible; the government commits to opening access to the digitised books."
+      },
+      "evidence": ["lcp-cahiers-doleances-2025"],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2025-10-06",
+      "title": "Trois Premiers ministres en un an",
+      "kind": "deni-democratique",
+      "url": "https://fr.wikipedia.org/wiki/Gouvernement_Fran%C3%A7ois_Bayrou",
+      "description": {
+        "fr": "Le gouvernement Barnier est renversé le 4 décembre 2024 par une motion de censure, une première depuis 1962. François Bayrou perd un vote de confiance le 8 septembre 2025 (364 voix contre, 194 pour). Sébastien Lecornu, nommé le 9 septembre, démissionne le 6 octobre quelques heures après la formation de son gouvernement, puis est renommé le 10 octobre.",
+        "en": "Barnier's government is brought down by a no-confidence motion on 4 December 2024, a first since 1962. François Bayrou loses a confidence vote on 8 September 2025 (364 against, 194 for). Sébastien Lecornu, appointed on 9 September, resigns on 6 October a few hours after forming his government, then is reappointed on 10 October."
+      },
+      "evidence": [
+        "wiki-legislatives-2024",
+        "wiki-gouvernement-bayrou",
+        "cdj-lecornu-demission",
+        "parismatch-lecornu-reconduit"
+      ],
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "title": "Carcassonne : propos racistes filmés par une caméra-piéton",
+      "kind": "discrimination",
+      "url": "https://www.france24.com/fr/info-en-continu/20260909-propos-racistes-d-un-policier-de-carcassonne-une-enqu%C3%AAte-ouverte",
+      "description": {
+        "fr": "Une vidéo de novembre 2025, enregistrée par la caméra-piéton d'un agent et révélée par Midi Libre, montre des policiers municipaux de Carcassonne tenir des propos racistes, sexistes et complotistes. Le parquet ouvre une enquête ; les agents sont suspendus et leurs agréments retirés.",
+        "en": "A November 2025 video, recorded by an officer's bodycam and revealed by Midi Libre, shows Carcassonne municipal police officers making racist, sexist and conspiracy remarks. The prosecutor opens an investigation; the officers are suspended and their accreditations withdrawn."
+      },
+      "evidence": ["france24-carcassonne-2026", "euronews-carcassonne-2026"],
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }

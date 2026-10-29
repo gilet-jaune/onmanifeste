@@ -21,6 +21,7 @@ ON_DEMAND = (
     "histoire/",
     "repressions/",
     "victimes/",
+    "confiance/",
 )
 # Online only: project meta pages (GitHub contribution flow, legal notice) and build-time data
 # files that are already rendered into static HTML. Neither precached nor cached at runtime.

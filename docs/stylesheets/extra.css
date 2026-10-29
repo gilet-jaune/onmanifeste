@@ -839,7 +839,11 @@ select:focus-visible {
   background: var(--ap-vest);
 }
 
-.md-typeset .timeline__event--repression::before {
+.md-typeset .timeline__event--repression::before,
+.md-typeset .timeline__event--discrimination::before,
+.md-typeset .timeline__event--impunite::before,
+.md-typeset .timeline__event--deni-democratique::before,
+.md-typeset .timeline__event--privatisation::before {
   background: var(--ap-ink);
   border-color: var(--ap-silver);
 }

@@ -316,6 +316,42 @@
         "by": "ai"
       }
     },
+    "cc-2019-780": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2019-780 DC du 4 avril 2019 (loi « anticasseurs »)",
+        "en": "Constitutional Council — Decision no. 2019-780 DC of 4 April 2019 ('anti-rioters' law)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-94-352": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 94-352 DC du 18 janvier 1995",
+        "en": "Constitutional Council — Decision no. 94-352 DC of 18 January 1995"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/1995/94352DC.htm",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-rip-adp-2020": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2019-1-8 RIP du 26 mars 2020 (Aéroports de Paris)",
+        "en": "Constitutional Council — Decision no. 2019-1-8 RIP of 26 March 2020 (Paris Airports)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2020/201918RIP.htm",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cdj-apologie-terrorisme": {
       "title": {
         "fr": "Club des juristes — L'apologie du terrorisme, une infraction de trop ?",
@@ -336,6 +372,18 @@
       "url": "https://www.leclubdesjuristes.com/archives-cdj/interdictions-de-manifester-des-gilets-jaunes-que-risquent-ils-en-allant-sur-les-lieux-interdits-2418/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cdj-lecornu-demission": {
+      "title": {
+        "fr": "Club des juristes — Sébastien Lecornu a remis sa démission à Emmanuel Macron, qui l'a acceptée",
+        "en": "Club des juristes — Sébastien Lecornu resigned and Emmanuel Macron accepted"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/sebastien-lecornu-a-remis-sa-demission-a-emmanuel-macron-qui-la-acceptee-12315/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -364,6 +412,18 @@
         "by": "ai"
       }
     },
+    "cedh-convention": {
+      "title": {
+        "fr": "Convention européenne des droits de l'homme (article 11 : liberté de réunion)",
+        "en": "European Convention on Human Rights (Article 11: freedom of assembly)"
+      },
+      "url": "https://www.echr.coe.int/documents/d/echr/convention_fra",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cedh-remi-fraisse": {
       "title": {
         "fr": "Le Temps — La CEDH condamne la France pour violation du droit à la vie de Rémi Fraisse",
@@ -384,6 +444,30 @@
       "url": "https://www.cidj.com/s-engager/droit-de-manifester-ce-que-peuvent-faire-les-lyceens",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cidj-sanctions": {
+      "title": {
+        "fr": "CIDJ — Sanctions au collège, au lycée, à l'université : procédure et recours",
+        "en": "CIDJ — Sanctions at school and university: procedure and appeals"
+      },
+      "url": "https://www.cidj.com/bien-vivre/sa-vie-scolaire/sanctions-au-college-au-lycee-a-l-universite-procedure-et-recours",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cms-pacte-ferroviaire-2018": {
+      "title": {
+        "fr": "CMS Francis Lefebvre — Loi n° 2018-515 du 27 juin 2018 pour un nouveau pacte ferroviaire",
+        "en": "CMS Francis Lefebvre — Law no. 2018-515 of 27 June 2018 for a new rail pact"
+      },
+      "url": "https://cms.law/en/fra/publication/nouveau-pacte-ferroviaire",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -496,6 +580,30 @@
         "by": "ai"
       }
     },
+    "davduf-allo-place-beauvau": {
+      "title": {
+        "fr": "David Dufresne — Rubrique Allô Place Beauvau (davduf.net)",
+        "en": "David Dufresne — Allô Place Beauvau section (davduf.net)"
+      },
+      "url": "https://www.davduf.net/allo-place-beauvau",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "davduf-mastodon": {
+      "title": {
+        "fr": "David Dufresne sur Mastodon (@davduf@mamot.fr)",
+        "en": "David Dufresne on Mastodon (@davduf@mamot.fr)"
+      },
+      "url": "https://mamot.fr/@davduf",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ddd": {
       "title": {
         "fr": "Défenseur des droits",
@@ -504,6 +612,18 @@
       "url": "https://www.defenseurdesdroits.fr/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ddd-controles-2017": {
+      "title": {
+        "fr": "Défenseur des droits — Enquête sur l'accès aux droits, vol. 1 : relations police/population (janvier 2017)",
+        "en": "Defender of Rights — Access to rights survey, vol. 1: police/population relations (January 2017)"
+      },
+      "url": "https://www.defenseurdesdroits.fr/sites/default/files/2023-10/ddd_etude_Enquete-acces-aux-droits-volume1_relations-police-population_20170111.pdf",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -544,30 +664,6 @@
         "by": "ai"
       }
     },
-    "davduf-allo-place-beauvau": {
-      "title": {
-        "fr": "David Dufresne — Rubrique Allô Place Beauvau (davduf.net)",
-        "en": "David Dufresne — Allô Place Beauvau section (davduf.net)"
-      },
-      "url": "https://www.davduf.net/allo-place-beauvau",
-      "check": {
-        "date": "2026-10-28",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "davduf-mastodon": {
-      "title": {
-        "fr": "David Dufresne sur Mastodon (@davduf@mamot.fr)",
-        "en": "David Dufresne on Mastodon (@davduf@mamot.fr)"
-      },
-      "url": "https://mamot.fr/@davduf",
-      "check": {
-        "date": "2026-10-28",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
     "desarmons-victimes": {
       "title": {
         "fr": "Désarmons-les — Listes des personnes tuées et mutilées par les forces de l'ordre",
@@ -576,6 +672,18 @@
       "url": "https://desarmons.net/listes-des-victimes/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "diplomatie-storm-1516": {
+      "title": {
+        "fr": "Ministère de l'Europe et des Affaires étrangères — La France condamne les acteurs russes impliqués dans Storm-1516 (Viginum)",
+        "en": "French Foreign Ministry — France condemns the Russian actors behind Storm-1516 (Viginum)"
+      },
+      "url": "https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/la-france-condamne-fermement-les-acteurs-russes-et-leurs-relais-impliques-dans-les-manoeuvres-du",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -664,6 +772,18 @@
         "by": "ai"
       }
     },
+    "euronews-carcassonne-2026": {
+      "title": {
+        "fr": "Euronews — Propos racistes et appels au coup d'État : des policiers visés par une enquête",
+        "en": "Euronews — 'Sickening' racist remarks and calls for a coup: French police under investigation"
+      },
+      "url": "https://www.euronews.com/my-europe/2026/09/09/sickening-racist-remarks-and-calls-for-a-coup-french-police-under-investigation",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "europe1-castaner-lbd-2019": {
       "title": {
         "fr": "Europe 1 — Gilets jaunes : 4 personnes gravement blessées à l'œil selon Castaner",
@@ -700,6 +820,18 @@
         "by": "ai"
       }
     },
+    "france24-carcassonne-2026": {
+      "title": {
+        "fr": "France 24 (AFP) — Propos racistes d'un policier de Carcassonne, une enquête ouverte",
+        "en": "France 24 (AFP) — Racist remarks by a Carcassonne police officer, investigation opened"
+      },
+      "url": "https://www.france24.com/fr/info-en-continu/20260909-propos-racistes-d-un-policier-de-carcassonne-une-enqu%C3%AAte-ouverte",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "france3-formation-desobeissance": {
       "title": {
         "fr": "France 3 — Se former à la désobéissance civile avec Extinction Rebellion et ANV-COP21",
@@ -708,6 +840,18 @@
       "url": "https://france3-regions.franceinfo.fr/centre-val-de-loire/indre-loire/tours/comment-je-me-suis-forme-desobeissance-civile-renverser-capitalisme-extinction-rebellion-anv-cop-21-1786251.html",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france3-peugeot-partie-civile": {
+      "title": {
+        "fr": "France 3 — Main arrachée à Notre-Dame-des-Landes : l'étudiant porte plainte avec constitution de partie civile",
+        "en": "France 3 — Hand blown off at Notre-Dame-des-Landes: the student files a civil-party complaint"
+      },
+      "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/main-arrachee-notre-dames-landes-etudiant-21-ans-porte-plainte-constitution-partie-civile-1625737.html",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -724,6 +868,18 @@
         "by": "ai"
       }
     },
+    "franceinfo-lens-igpn-2026": {
+      "title": {
+        "fr": "franceinfo — Main arrachée par une grenade près d'un lycée de Lens : enquête de l'IGPN",
+        "en": "franceinfo — Hand blown off by a grenade near a Lens high school: IGPN investigation"
+      },
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/un-adolescent-de-15-ans-a-eu-la-main-arrachee-par-une-grenade-a-lens-une-enquete-de-l-igpn-ouverte-annonce-le-procureur-de-bethune_8223337.html",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "franceinfo-protections": {
       "title": {
         "fr": "franceinfo — Est-il interdit de manifester avec des lunettes de plongée et du sérum ?",
@@ -732,6 +888,18 @@
       "url": "https://www.franceinfo.fr/economie/transports/gilets-jaunes/gilets-jaunes-est-il-interdit-de-manifester-avec-des-boules-de-petanque-des-lunettes-de-plongee-et-du-serum_3093665.html",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-tours-plainte-2026": {
+      "title": {
+        "fr": "franceinfo — Lycéen éborgné à Tours : la famille porte plainte",
+        "en": "franceinfo — High-school student blinded in one eye in Tours: the family files a complaint"
+      },
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/la-famille-d-un-lyceen-eborgne-a-tours-en-marge-des-blocages-a-porte-plainte-pour-violences-par-personne-depositaire-de-l-autorite-publique_8222851.html",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -799,6 +967,18 @@
         "by": "ai"
       }
     },
+    "hrw-facies-2016": {
+      "title": {
+        "fr": "Human Rights Watch — Les contrôles d'identité au faciès mis au ban par la Cour de cassation",
+        "en": "Human Rights Watch — Ethnic profiling ruled out by the Court of Cassation"
+      },
+      "url": "https://www.hrw.org/fr/news/2016/11/09/france-les-controles-didentite-au-facies-mis-au-ban-par-les-juges-de-la-cour-de",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "icloud-cellular": {
       "title": {
         "fr": "Apple — Configuration et utilisation de Photos iCloud (données cellulaires)",
@@ -834,6 +1014,30 @@
       "url": "https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ires-capitalisme-perfusion": {
+      "title": {
+        "fr": "IRES (CLERSÉ-CNRS) — Un capitalisme sous perfusion : mesure, théories et effets macroéconomiques des aides publiques aux entreprises françaises (2022)",
+        "en": "IRES (CLERSÉ-CNRS) — Capitalism on life support: measuring public subsidies to French businesses (2022)"
+      },
+      "url": "https://ires.fr/publications/cgt/un-capitalisme-sous-perfusion-mesure-theories-et-effets-macroeconomiques-des-aides-publiques-aux-entreprises-francaises/",
+      "check": {
+        "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "justice-refere-liberte": {
+      "title": {
+        "fr": "Justice.fr — Litige avec l'administration : le référé-liberté",
+        "en": "Justice.fr — Dispute with the administration: the fundamental-freedom emergency procedure"
+      },
+      "url": "https://www.justice.fr/fiche/litige-administration-refere-liberte",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -894,6 +1098,18 @@
       "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-cahiers-doleances-2025": {
+      "title": {
+        "fr": "LCP — Gilets jaunes : le gouvernement s'engage à reprendre l'exploitation des cahiers de doléances",
+        "en": "LCP — Yellow vests: the government commits to resume work on the grievance books"
+      },
+      "url": "https://lcp.fr/actualites/gilets-jaunes-repondant-a-l-appel-de-l-assemblee-le-gouvernement-s-engage-a-reprendre-l",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1054,6 +1270,18 @@
         "by": "ai"
       }
     },
+    "maire-info-ccc-jokers": {
+      "title": {
+        "fr": "Maire-info — Convention climat : Emmanuel Macron reprend 146 propositions",
+        "en": "Maire-info — Climate convention: Emmanuel Macron takes up 146 proposals"
+      },
+      "url": "https://www.maire-info.com/climat/convention-climat-emmanuel-macron-reprend-146-propositions-et-promet-que-les-collectivites-seront-consultees-article-24363",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "mat2": {
       "title": {
         "fr": "mat2 — Metadata Anonymisation Toolkit",
@@ -1150,6 +1378,18 @@
         "by": "ai"
       }
     },
+    "numero-3114": {
+      "title": {
+        "fr": "3114 — Numéro national de prévention du suicide",
+        "en": "3114 — National suicide prevention helpline"
+      },
+      "url": "https://3114.fr/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "outside": {
       "title": {
         "fr": "Outside — Lunettes de piscine, masques de ski, casques de vélo : la polémique autour des protections en manifestation",
@@ -1158,6 +1398,18 @@
       "url": "https://www.outside.fr/lunettes-de-piscine-masques-de-ski-casques-de-velo-la-polemique-enfle-autour-des-protections-en-manifestation/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "parismatch-lecornu-reconduit": {
+      "title": {
+        "fr": "Paris Match Belgique — Emmanuel Macron reconduit Sébastien Lecornu comme Premier ministre",
+        "en": "Paris Match Belgium — Emmanuel Macron reappoints Sébastien Lecornu as Prime Minister"
+      },
+      "url": "https://www.parismatch.be/actualites/monde/2025/10/10/france-emmanuel-macron-reconduit-sebastien-lecornu-comme-premier-ministre-LIQZQK4X7JCTTF65GLJQZJ7EME/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1206,6 +1458,30 @@
       "url": "https://www.politis.fr/articles/2023/06/morts-suite-a-un-tir-policier-des-chiffres-records-en-2021-et-2022/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "politis-facies-2016": {
+      "title": {
+        "fr": "Politis — Contrôles au faciès : l'État condamné",
+        "en": "Politis — Ethnic profiling: the State convicted"
+      },
+      "url": "https://www.politis.fr/articles/2016/11/controles-au-facies-letat-condamne-35791",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "politis-fret-sncf-2024": {
+      "title": {
+        "fr": "Politis — Liquidation de Fret SNCF : les syndicats préparent la riposte",
+        "en": "Politis — Fret SNCF liquidation: unions prepare to respond"
+      },
+      "url": "https://www.politis.fr/articles/2024/11/transports-liquidation-de-fret-sncf-les-syndicats-preparent-la-riposte/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1282,6 +1558,42 @@
         "by": "ai"
       }
     },
+    "psycom-ecoute": {
+      "title": {
+        "fr": "Psycom — Les lignes d'écoute",
+        "en": "Psycom — Mental-health helplines directory"
+      },
+      "url": "https://www.psycom.org/sorienter/les-lignes-decoute/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-autoroutes-vu-juste": {
+      "title": {
+        "fr": "Public Sénat — Profits des sociétés d'autoroutes : le Sénat avait vu juste",
+        "en": "Public Sénat — Motorway company profits: the Senate was right"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/profits-des-societes-dautoroutes-le-senat-avait-vu-juste",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-ciivise-impunite": {
+      "title": {
+        "fr": "Public Sénat — « Si 3 % des mis en cause pour viol sur mineurs sont condamnés, c'est que nous vivons dans un régime d'impunité »",
+        "en": "Public Sénat — 'If 3% of those accused of raping minors are convicted, we live under a regime of impunity'"
+      },
+      "url": "https://www.publicsenat.fr/actualites/societe/si-3-des-mis-en-cause-pour-viol-sur-mineurs-sont-condamnes-cest-que-nous-vivons-dans-un-regime-dimpunite-estime-le-president-de-la-ciivise",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "publicsenat-gli-f4-retrait": {
       "title": {
         "fr": "Public Sénat — Castaner annonce le retrait symbolique d'une grenade controversée",
@@ -1302,6 +1614,30 @@
       "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-plus-de-13000-tirs-de-lbd-depuis-le-debut-du-mouvement-138755",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-ric-lfi-2019": {
+      "title": {
+        "fr": "Public Sénat — Le RIC des Insoumis rejeté à l'Assemblée nationale",
+        "en": "Public Sénat — LFI's citizens' referendum bill rejected by the National Assembly"
+      },
+      "url": "https://www.publicsenat.fr/actualites/non-classe/le-ric-des-insoumis-rejete-a-l-assemblee-nationale-138267",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-rip-adp-2019": {
+      "title": {
+        "fr": "Public Sénat — Référendum ADP : le décompte des soutiens",
+        "en": "Public Sénat — Paris Airports referendum: the count of supporters"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/referendum-adp-15-des-soutiens-exiges-enregistres-au-29-aout-144922",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1330,6 +1666,30 @@
         "by": "ai"
       }
     },
+    "reporterre-ccc-10-pourcent": {
+      "title": {
+        "fr": "Reporterre — Convention pour le climat : seules 10 % des propositions ont été reprises",
+        "en": "Reporterre — Climate convention: only 10% of the proposals were taken up"
+      },
+      "url": "https://reporterre.net/Convention-pour-le-climat-seules-10-des-propositions-ont-ete-reprises-par-le-gouvernement",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-ccc-note": {
+      "title": {
+        "fr": "Reporterre — Macron et le climat : 3,3 sur 10 selon la Convention citoyenne",
+        "en": "Reporterre — Macron and the climate: 3.3 out of 10 according to the Citizens' Convention"
+      },
+      "url": "https://reporterre.net/Macron-et-le-climat-3-3-sur-10-selon-la-Convention-citoyenne",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "reporterre-handicap": {
       "title": {
         "fr": "Reporterre — Manifs et handicap, le long parcours du combattant",
@@ -1350,6 +1710,18 @@
       "url": "https://reporterre.net/Maxime-Peugeot-l-etudiant-gravement-blesse-par-les-gendarmes-sur-la-Zad-porte",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-referendum-climat-abandon": {
+      "title": {
+        "fr": "Reporterre — Constitution : le gouvernement abandonne son référendum sur l'environnement",
+        "en": "Reporterre — Constitution: the government drops its environment referendum"
+      },
+      "url": "https://reporterre.net/Constitution-le-gouvernement-abandonne-son-referendum-sur-l-environnement",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1398,6 +1770,18 @@
       "url": "https://millebabords.org/IMG/pdf/se-proteger-2023-cahier.pdf",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-autoroutes-2020": {
+      "title": {
+        "fr": "Sénat — Rapport de la commission d'enquête sur les concessions autoroutières (2020)",
+        "en": "French Senate — Inquiry report on motorway concessions (2020)"
+      },
+      "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1462,6 +1846,30 @@
         "by": "ai"
       }
     },
+    "sp-amende": {
+      "title": {
+        "fr": "Service-Public — Amende forfaitaire",
+        "en": "Service-Public — Fixed penalty fine (amende forfaitaire)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18509",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-audition-libre": {
+      "title": {
+        "fr": "Service-Public — Audition libre",
+        "en": "Service-Public — Voluntary police interview (audition libre)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32124",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "sp-ci": {
       "title": {
         "fr": "Service-Public — Comparution immédiate",
@@ -1482,6 +1890,30 @@
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1036",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-declarer-manifestation": {
+      "title": {
+        "fr": "Service-Public — Organisation de manifestations, défilés ou rassemblements sur la voie publique",
+        "en": "Service-Public — Organising demonstrations, marches or gatherings on public roads"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-fouille": {
+      "title": {
+        "fr": "Service-Public — Fouille d'un véhicule, d'un bagage ou palpation de sécurité",
+        "en": "Service-Public — Vehicle search, bag search or security pat-down"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32041",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1558,6 +1990,18 @@
         "by": "ai"
       }
     },
+    "sp-plainte": {
+      "title": {
+        "fr": "Service-Public — Porter plainte",
+        "en": "Service-Public — Filing a criminal complaint"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "sp-retenue": {
       "title": {
         "fr": "Service-Public — Retenue pour vérification du droit au séjour",
@@ -1594,6 +2038,18 @@
         "by": "ai"
       }
     },
+    "tiktok-recommandation": {
+      "title": {
+        "fr": "TikTok — How TikTok recommends videos #ForYou",
+        "en": "TikTok — How TikTok recommends videos #ForYou"
+      },
+      "url": "https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "truth-sandwich": {
       "title": {
         "fr": "Truth sandwich (Wikipedia)",
@@ -1606,14 +2062,14 @@
         "by": "ai"
       }
     },
-    "visage-motif": {
+    "urgence-114": {
       "title": {
-        "fr": "Eurojuris — La dissimulation du visage à l'occasion de manifestations",
-        "en": "Eurojuris — La dissimulation du visage à l'occasion de manifestations"
+        "fr": "Urgence 114 — Numéro d'urgence pour les personnes sourdes et malentendantes",
+        "en": "Emergency 114 — Emergency number for deaf and hard-of-hearing people"
       },
-      "url": "https://www.eurojuris.fr/famille/categories/application-17442/articles/dissimulation-visage-loccasion-manifestations-sur-voie-publique-10833.htm",
+      "url": "https://www.info.urgence114.fr/",
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1630,12 +2086,12 @@
         "by": "ai"
       }
     },
-    "ires-capitalisme-perfusion": {
+    "visage-motif": {
       "title": {
-        "fr": "IRES (CLERSÉ-CNRS) — Un capitalisme sous perfusion : mesure, théories et effets macroéconomiques des aides publiques aux entreprises françaises (2022)",
-        "en": "IRES (CLERSÉ-CNRS) — Capitalism on life support: measuring public subsidies to French businesses (2022)"
+        "fr": "Eurojuris — La dissimulation du visage à l'occasion de manifestations",
+        "en": "Eurojuris — La dissimulation du visage à l'occasion de manifestations"
       },
-      "url": "https://ires.fr/publications/cgt/un-capitalisme-sous-perfusion-mesure-theories-et-effets-macroeconomiques-des-aides-publiques-aux-entreprises-francaises/",
+      "url": "https://www.eurojuris.fr/famille/categories/application-17442/articles/dissimulation-visage-loccasion-manifestations-sur-voie-publique-10833.htm",
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -1666,6 +2122,30 @@
         "by": "ai"
       }
     },
+    "wiki-arenh": {
+      "title": {
+        "fr": "Wikipédia — Accès régulé à l'électricité nucléaire historique (ARENH)",
+        "en": "Wikipedia (FR) — Regulated access to historic nuclear electricity (ARENH)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Acc%C3%A8s_r%C3%A9gul%C3%A9_%C3%A0_l%27%C3%A9lectricit%C3%A9_nucl%C3%A9aire_historique",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-article-49": {
+      "title": {
+        "fr": "Wikipédia — Article 49 de la Constitution",
+        "en": "Wikipedia (FR) — Article 49 of the French Constitution"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Article_49_de_la_Constitution_de_la_Cinqui%C3%A8me_R%C3%A9publique_fran%C3%A7aise",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-brahim-bouarram": {
       "title": {
         "fr": "Wikipédia — Affaire Brahim Bouarram",
@@ -1686,6 +2166,18 @@
       "url": "https://fr.wikipedia.org/wiki/Affaire_de_la_station_de_m%C3%A9tro_Charonne",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-convention-climat": {
+      "title": {
+        "fr": "Wikipédia — Convention citoyenne pour le climat",
+        "en": "Wikipedia (FR) — Citizens' Convention for Climate"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Convention_citoyenne_pour_le_climat",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1750,6 +2242,30 @@
         "by": "ai"
       }
     },
+    "wiki-gouvernement-bayrou": {
+      "title": {
+        "fr": "Wikipédia — Gouvernement François Bayrou",
+        "en": "Wikipedia (FR) — François Bayrou government"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Gouvernement_Fran%C3%A7ois_Bayrou",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-legislatives-2024": {
+      "title": {
+        "fr": "Wikipédia — Élections législatives françaises de 2024",
+        "en": "Wikipedia (FR) — 2024 French legislative election"
+      },
+      "url": "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-malik-oussekine": {
       "title": {
         "fr": "Wikipédia — Affaire Malik Oussekine",
@@ -1786,6 +2302,30 @@
         "by": "ai"
       }
     },
+    "wiki-pmr446": {
+      "title": {
+        "fr": "Wikipédia — PMR446",
+        "en": "Wikipedia (FR) — PMR446"
+      },
+      "url": "https://fr.wikipedia.org/wiki/PMR446",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-referendum-2005": {
+      "title": {
+        "fr": "Wikipédia — Référendum français sur le traité établissant une Constitution pour l'Europe",
+        "en": "Wikipedia (FR) — French referendum on the European Constitution treaty"
+      },
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-remi-fraisse": {
       "title": {
         "fr": "Wikipedia — Killing of Rémi Fraisse (interdiction de la grenade OF-F1)",
@@ -1794,6 +2334,18 @@
       "url": "https://en.wikipedia.org/wiki/Killing_of_R%C3%A9mi_Fraisse",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-retraites-2023": {
+      "title": {
+        "fr": "Wikipédia — Réforme des retraites en France en 2023",
+        "en": "Wikipedia (FR) — 2023 French pension reform"
+      },
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A9forme_des_retraites_en_France_en_2023",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }

@@ -1,5 +1,5 @@
 ---
-source_commit: 3a5eb5e135428f3e8eb2842d12c6a4d930690e4f
+source_commit: 468e6b40c4b2d3cef6888cdd8e3c49d6aabe142f
 tags:
     - understand
     - media
@@ -21,6 +21,14 @@ Documented files and a selection of independent observatories to understand what
     From the storming of the Bastille to today's movements, and what the street won: paid holidays, the right to vote, bills withdrawn.
 
     [:octicons-arrow-right-24: See the timeline](../histoire/index.md)
+
+- **Democratic channels flouted** [:material-vote-outline:](../confiance/index.md)
+
+    ***
+
+    The 2005 referendum bypassed, the Citizens' Convention for Climate emptied, 49.3, grievance books never published, governments in quick succession.
+
+    [:octicons-arrow-right-24: See the timeline](../confiance/index.md)
 
 - **Documented repression and debunked claims** [:material-file-document-alert:](../repressions/index.md)
 
