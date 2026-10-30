@@ -864,3 +864,20 @@ document.addEventListener('DOMContentLoaded', function () {
     show();
   }, 2500);
 });
+
+// Wide tables in guides (4 columns or more) become stacked cards on small screens:
+// each cell gets its column header as a label (styles in extra.css, .table--cards).
+document.addEventListener('DOMContentLoaded', function () {
+  if (!/\/guides\//.test(window.location.pathname)) return;
+  for (const table of document.querySelectorAll('.md-content table')) {
+    const headers = [...table.querySelectorAll('thead th')].map((th) => th.textContent.trim());
+    if (headers.length < 4) continue;
+    table.classList.add('table--cards');
+    for (const row of table.querySelectorAll('tbody tr')) {
+      [...row.children].forEach((cell, i) => {
+        cell.setAttribute('data-label', headers[i] || '');
+        if (cell.textContent.trim() === '—') cell.setAttribute('data-empty', '');
+      });
+    }
+  }
+});

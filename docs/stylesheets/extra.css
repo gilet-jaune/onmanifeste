@@ -190,6 +190,12 @@ body {
   text-underline-offset: 0.2em;
 }
 
+/* Buttons are links too, but without the underline, and spaced when they wrap. */
+.md-typeset .md-button {
+  margin: 0 0.4rem 0.6rem 0;
+  text-decoration: none;
+}
+
 /* --- Focus: black + yellow double ring, visible in both modes ------------ */
 :focus-visible,
 .md-typeset a:focus-visible,
@@ -1969,6 +1975,118 @@ dialog.contact-card {
   .md-typeset .md-code__nav {
     display: none;
   }
+}
+
+/* Funnel variant: each step narrower than the last (groups filtered from public to sub-groups). */
+.md-typeset .flow--funnel > ol > li {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.md-typeset .flow--funnel > ol > li > ul {
+  grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr));
+}
+
+.md-typeset .flow--funnel > ol > li:nth-child(2) {
+  width: 88%;
+}
+
+.md-typeset .flow--funnel > ol > li:nth-child(3) {
+  width: 76%;
+}
+
+.md-typeset .flow--funnel > ol > li:nth-child(4) {
+  width: 64%;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .flow--funnel > ol > li:nth-child(2) {
+    width: 94%;
+  }
+
+  .md-typeset .flow--funnel > ol > li:nth-child(3) {
+    width: 88%;
+  }
+
+  .md-typeset .flow--funnel > ol > li:nth-child(4) {
+    width: 82%;
+  }
+}
+
+/* Wide guide tables as stacked cards on small screens (labels set by extra.js). */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset table.table--cards {
+    display: block;
+    border: 0;
+  }
+
+  .md-typeset table.table--cards thead {
+    display: none;
+  }
+
+  .md-typeset table.table--cards tbody,
+  .md-typeset table.table--cards tr,
+  .md-typeset table.table--cards td {
+    display: block;
+  }
+
+  .md-typeset table.table--cards tr {
+    margin-bottom: 0.8rem;
+    border: 2px solid var(--ap-ink);
+    border-radius: var(--ap-radius);
+  }
+
+  .md-typeset table.table--cards td {
+    border: 0;
+    padding: 0.3rem 0.7rem;
+  }
+
+  .md-typeset table.table--cards td:first-child {
+    background: var(--md-code-bg-color);
+  }
+
+  .md-typeset table.table--cards td:not(:first-child)::before {
+    content: attr(data-label);
+    display: block;
+    color: var(--ap-muted);
+    font-size: 0.7em;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .md-typeset table.table--cards td:empty,
+  .md-typeset table.table--cards td[data-empty] {
+    display: none;
+  }
+}
+
+/* Venn diagram (inline SVG): every condition is needed, only the centre gives access. */
+.md-typeset .venn {
+  max-width: 24rem;
+  margin: 1rem auto 1.5rem;
+}
+
+.md-typeset .venn svg {
+  width: 100%;
+  height: auto;
+}
+
+.md-typeset .venn__circle {
+  fill: var(--ap-vest);
+  fill-opacity: 0.25;
+  stroke: var(--md-default-fg-color);
+  stroke-width: 2;
+}
+
+.md-typeset .venn__label {
+  fill: var(--md-default-fg-color);
+  font-size: 12px;
+}
+
+.md-typeset .venn__center {
+  fill: var(--md-default-fg-color);
+  font-size: 14px;
+  font-weight: 800;
 }
 
 /* Who checked a source, after each footnote (hooks/sources.py). */

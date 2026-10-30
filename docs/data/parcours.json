@@ -1034,6 +1034,26 @@
           "urgent": true
         },
         {
+          "id": "groupes",
+          "label": {
+            "fr": "la retirer de nos groupes Signal par précaution",
+            "en": "remove them from our Signal groups as a precaution"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              },
+              "label": {
+                "fr": "Retrait conservatoire",
+                "en": "Precautionary removal"
+              }
+            }
+          ]
+        },
+        {
           "id": "filmer",
           "label": {
             "fr": "filmer ce qui se passe",
@@ -1980,7 +2000,12 @@
         "infiltre",
         "compromis",
         "embarque",
-        "pseudo"
+        "pseudo",
+        "secretaire",
+        "gardien",
+        "rh",
+        "sas",
+        "admin"
       ],
       "needs": [
         {
@@ -2043,8 +2068,8 @@
                 "en": "the-groups"
               },
               "label": {
-                "fr": "Trois niveaux de groupes",
-                "en": "Three levels of groups"
+                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
+                "en": "The groups: public group, airlock group, trusted group, sub-groups"
               }
             },
             {
@@ -2072,12 +2097,12 @@
             {
               "guide": "groupes-signal",
               "anchor": {
-                "fr": "valider-la-regle-des-rh",
-                "en": "validating-hrs-rule"
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
               },
               "label": {
-                "fr": "Vérifier les personnes en vrai",
-                "en": "Vetting people in person"
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
               }
             },
             {
@@ -2123,6 +2148,90 @@
               "label": {
                 "fr": "Groupe compromis : étape par étape",
                 "en": "Compromised group: step by step"
+              }
+            }
+          ]
+        },
+        {
+          "id": "secretaire",
+          "label": {
+            "fr": "accueillir et valider des nouvelles personnes (secrétaire)",
+            "en": "welcome and validate newcomers (secretary)"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              },
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              },
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              },
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gardien",
+          "label": {
+            "fr": "garder les clés d'un groupe (gardien·ne)",
+            "en": "hold a group's keys (keyholder)"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "regler-les-groupes",
+                "en": "setting-up-the-groups"
+              },
+              "label": {
+                "fr": "Régler les groupes",
+                "en": "Setting up the groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "fermer-un-groupe",
+                "en": "closing-a-group"
+              },
+              "label": {
+                "fr": "Fermer un groupe",
+                "en": "Closing a group"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              },
+              "label": {
+                "fr": "Retrait conservatoire",
+                "en": "Precautionary removal"
               }
             }
           ]
@@ -2468,7 +2577,9 @@
         "ldh",
         "observateur",
         "train",
-        "join"
+        "join",
+        "signal",
+        "groupe"
       ],
       "needs": [
         {
@@ -2517,6 +2628,37 @@
               "label": {
                 "fr": "Toutes les organisations",
                 "en": "All organisations"
+              }
+            }
+          ]
+        },
+        {
+          "id": "groupes-signal",
+          "label": {
+            "fr": "rejoindre des groupes Signal en sécurité",
+            "en": "join Signal groups safely"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "partie-1-membres",
+                "en": "part-1-members"
+              },
+              "label": {
+                "fr": "Groupes Signal : la partie membres",
+                "en": "Signal groups: the members' part"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              },
+              "label": {
+                "fr": "Vos réglages",
+                "en": "Your settings"
               }
             }
           ]

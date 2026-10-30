@@ -3544,18 +3544,6 @@
         "by": "ai"
       }
     },
-    "seeds-spokescouncil": {
-      "title": {
-        "fr": "Seeds for Change — Spokescouncils (conseils de porte-parole)",
-        "en": "Seeds for Change — Spokescouncils"
-      },
-      "url": "https://www.seedsforchange.org.uk/spokescouncil",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
     "cnil-assistants-vocaux": {
       "title": {
         "fr": "CNIL — « À votre écoute » : livre blanc sur les assistants vocaux",
@@ -3606,6 +3594,30 @@
       },
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-bigbrother": {
+      "title": {
+        "fr": "Signal — Government communication (réquisitions judiciaires reçues et données fournies)",
+        "en": "Signal — Government communication (legal requests received and data provided)"
+      },
+      "url": "https://signal.org/bigbrother/",
+      "check": {
+        "date": "2026-10-30",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ordre-liberation-jean-moulin": {
+      "title": {
+        "fr": "Ordre de la Libération — Jean Moulin (arrestation de Caluire, 21 juin 1943)",
+        "en": "Ordre de la Libération — Jean Moulin (Caluire arrest, 21 June 1943, in French)"
+      },
+      "url": "https://www.ordredelaliberation.fr/fr/compagnons/jean-moulin",
+      "check": {
+        "date": "2026-10-30",
         "result": "confirmed",
         "by": "ai"
       }
