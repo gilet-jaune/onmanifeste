@@ -1,5 +1,5 @@
 ---
-source_commit: 06a03a414f123e4132f534b4bc84c8ee2ce14e43
+source_commit: 8e96a99c7f0a4377f530c110149be3e36157c609
 review: juridique
 review_status: pending
 tags:
@@ -27,7 +27,7 @@ An encrypted messenger like {{ res("signal") }} protects your messages in transi
     - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [part 1: members](groupes-signal.md#part-1-members).
     - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups), [the roles](groupes-signal.md#the-roles), then [part 2: organising](groupes-signal.md#part-2-organising).
     - **Someone has just been arrested, or a group is compromised** → [part 3: compromised group](groupes-signal.md#part-3-compromised-group).
-    - **A menu to go straight to what concerns you** → [I am… and I want to… (Signal groups)](../conversations/index.md).
+    - **You organise and want to go straight to your role** (secretary, HR, keyholder, recruiter) → the [menu by role](groupes-signal.md#find-what-concerns-your-role).
     - **You just want the charter** → [copy-paste templates](groupes-signal.md#copy-paste-templates).
 
 !!! warning "Assume someone is reading"
@@ -37,6 +37,17 @@ An encrypted messenger like {{ res("signal") }} protects your messages in transi
 !!! tip "This guide is public: adapt it"
 
     The police can read it too, and that is not a problem: your security does not rest on keeping the method secret, but on what is written nowhere here (who is in which group, your IDs, the register, meeting places, who your HR and keyholders are). **Change the role names, labels and group naming scheme** rather than copying the guide's: on a seized phone, they won't immediately point to your key people.
+
+## Find what concerns your role
+
+Do you organise groups? Say what your role is (secretary, HR, keyholder, recruiter), then what you want to do: the menu takes you straight to the right part of this guide. Works **offline**.
+
+{% import "overrides/partials/parcours-tree.html" as pt with context %}
+
+<div class="parcours" data-parcours data-embed data-up="../../" data-src="parcours-signal.json" data-key="parcours_signal" data-type-iam="Type a few words">
+    <noscript><p>JavaScript is disabled: here are all the paths.</p></noscript>
+    {{ pt.tree('en', parcours_signal, none, none, '../../', 3) }}
+</div>
 
 ## The groups
 
