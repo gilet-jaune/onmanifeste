@@ -84,7 +84,7 @@ Un tract ou une affiche sert à **inviter, informer, ou renvoyer vers une source
 
 - [ ] **À pied, aux personnes qui passent.** Distribuer ou faire distribuer des tracts aux conducteurs ou occupants de véhicules circulant sur une voie ouverte à la circulation est puni de l'amende des contraventions de 4e classe.[^cr-r412-52]
 - [ ] **Sur un trottoir, sans gêner le passage.**
-- [ ] **Imprimez ce que vous pouvez distribuer** : un tract jeté par terre salit et se retourne contre le mouvement.
+- [ ] **Imprimez ce que vous pouvez distribuer** : un tract jeté par terre salit et se retourne contre le mouvement. Imprimez sur le tract la mention **« Ne pas jeter sur la voie publique »** : selon la commune, son absence peut servir de motif pour interdire ou verbaliser la distribution (renseignez-vous auprès de la mairie).
 
 ### Afficher
 
