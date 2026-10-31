@@ -1,5 +1,5 @@
 ---
-source_commit: 9592fc42d3614cecc68ae173afefab2bcfecec84
+source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
 tags:
     - repression
     - disinformation
