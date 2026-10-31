@@ -1,5 +1,5 @@
 ---
-source_commit: 7744039b4bac0e73adce442eab66cf3e58f23709
+source_commit: d77d2ea686079459950fa22cbbfbe675a76b026a
 review: juridique
 review_status: pending
 tags:
@@ -85,7 +85,7 @@ A leaflet or poster is meant to **invite, inform, or point to a reliable source*
 
 - [ ] **On foot, to people passing by.** Handing out or having handed out leaflets to drivers or occupants of vehicles on a road open to traffic is punished by a fourth-class fine.[^cr-r412-52]
 - [ ] **On a pavement, without blocking the way.**
-- [ ] **Print only what you can hand out**: leaflets dropped on the ground make a mess and turn against the movement.
+- [ ] **Print only what you can hand out**: leaflets dropped on the ground make a mess and turn against the movement. Print the line **"Do not throw on the public highway"** (« Ne pas jeter sur la voie publique ») on the leaflet: depending on the municipality, its absence can be used as grounds to ban or fine the distribution (check with the town hall).
 
 ### Posting
 
