@@ -4152,6 +4152,36 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "bdt-tracts-mentions": {
+      "title": {
+        "fr": "Banque des Territoires — Les tracts électoraux doivent-ils comprendre des mentions obligatoires ? (2020)",
+        "en": "Banque des Territoires — Must election leaflets carry mandatory mentions? (2020, in French)"
+      },
+      "url": {
+        "fr": "https://www.banquedesterritoires.fr/les-tracts-electoraux-distribues-dans-les-boites-aux-lettres-et-sur-la-voie-publique-doivent-ils",
+        "en": "https://www.banquedesterritoires.fr/les-tracts-electoraux-distribues-dans-les-boites-aux-lettres-et-sur-la-voie-publique-doivent-ils"
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "maire-info-tracts": {
+      "title": {
+        "fr": "Maire-info — Un maire peut-il interdire la distribution de tracts d'opinion sur un marché ? (2025)",
+        "en": "Maire-info — Can a mayor ban the distribution of opinion leaflets in a market? (2025, in French)"
+      },
+      "url": {
+        "fr": "https://www.maire-info.com/liberta%C2%A9s-publiques/un-maire-peut-il-interdire-la-distribution-de-tracts-dopinion-sur-un-marche-article-29837",
+        "en": "https://www.maire-info.com/liberta%C2%A9s-publiques/un-maire-peut-il-interdire-la-distribution-de-tracts-dopinion-sur-un-marche-article-29837"
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
