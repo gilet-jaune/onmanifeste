@@ -173,6 +173,8 @@ hooks:
   - hooks/translations.py
   # Digest of the guides for the guided search (data/guides-digest.json, before pwa.py hashes it).
   - hooks/guide_digest.py
+  # "In this situation?" links at the bottom of each guide, from the guided-search data.
+  - hooks/related_paths.py
   # Short share links <site>/rejoindre/<profile>/ (before pwa.py hashes the site).
   - hooks/short_links.py
   # Order matters: the CSP is injected before the service worker hashes the final HTML.

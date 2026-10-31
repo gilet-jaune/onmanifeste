@@ -15,6 +15,8 @@ Touchez un numéro pour appeler. Cette page fonctionne **hors ligne**.
 
 {{ sos.numbers('fr') }}
 
+Pas sûr·e de quoi faire ? Dites où vous en êtes, on vous emmène au bon passage : [:material-compass: Je suis… et je veux…](../parcours/index.md){ .md-button }
+
 ## Interpellation : prévenir une legal team
 
 Donnez **l'heure, le lieu, une description** (vêtements) de la personne interpellée, et ce que vous avez vu. Ne donnez pas de nom par téléphone si ce n'est pas nécessaire.

@@ -7,7 +7,9 @@ tags:
 
 Des fiches à lire avant de partir, **consultables hors ligne** une fois le site ouvert (ou installé) sur votre téléphone.
 
-**Par où commencer ?** [Checklist avant la manif](avant-de-partir.md) · [Ne jamais rester seul·e](ne-pas-rester-seul.md) · [Garde à vue](garde-a-vue.md)
+**Par où commencer ?** [Checklist avant la manif](avant-de-partir.md) · [Ne jamais rester seul·e](ne-pas-rester-seul.md) · [Garde à vue](garde-a-vue.md) · [Pas sûr·e ? Je suis… et je veux…](../parcours/index.md)
+
+**Pas sûr·e du guide qu'il vous faut ?** Dites où vous en êtes (gazé·e, première manif, témoin d'une arrestation…) : le parcours [Je suis… et je veux…](../parcours/index.md) vous emmène au bon passage.
 
 <div data-guides-filter></div>
 <div id="guide-themes" hidden data-themes='{{ guide_themes | tojson }}'></div>
