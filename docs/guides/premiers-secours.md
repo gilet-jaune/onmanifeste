@@ -18,6 +18,15 @@ tags:
     - Coup à la tête : ne laissez pas la personne seule ; vomissements ou confusion, appelez le 112.
     - Après : faites **constater** toute blessure (certificat avec ITT) et gardez une trace des symptômes.
 
+!!! info "Par où commencer ?"
+
+    - **Quelqu'un est blessé ou gazé, maintenant** → [le schéma](premiers-secours.md#schema-quelquun-est-blesse-ou-gaze).
+    - **Gazé·e** → [gaz lacrymogène](premiers-secours.md#gaz-lacrymogene).
+    - **Une personne blessée** → [porter secours](premiers-secours.md#porter-secours-a-une-personne-blessee) ; [blessures](premiers-secours.md#blessures).
+    - **Malaise, chaleur, angoisse** → [que faire](premiers-secours.md#malaise-chaleur-crise-dangoisse).
+    - **Préparer sa trousse** → [trousse de soins](premiers-secours.md#trousse-de-soins).
+    - **Après la manif** → [suivi à long terme](premiers-secours.md#apres-suivi-a-long-terme) ; [faire constater](premiers-secours.md#apres-faire-constater).
+
 Trois réflexes, dans l'ordre : **protéger** (se mettre et mettre la personne à l'abri), **alerter**, **secourir**. Repérez les **street medics** du cortège : ils sont formés et équipés.[^cr-etapes]
 
 !!! warning "Urgence vitale"

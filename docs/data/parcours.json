@@ -2113,8 +2113,8 @@
         {
           "id": "compromis",
           "label": {
-            "fr": "un membre arrêté ou un groupe compromis",
-            "en": "a member arrested or a group compromised"
+            "fr": "réagir à un membre arrêté ou à un groupe compromis",
+            "en": "respond to a member's arrest or a compromised group"
           },
           "results": [
             {
@@ -4507,8 +4507,8 @@
         {
           "id": "etudiant",
           "label": {
-            "fr": "je suis étudiant·e",
-            "en": "I am a student"
+            "fr": "trouver de l'aide en tant qu'étudiant·e",
+            "en": "get help as a student"
           },
           "results": [
             {
@@ -5108,8 +5108,8 @@
         {
           "id": "harcele",
           "label": {
-            "fr": "je suis harcelé·e en ligne",
-            "en": "I am being harassed online"
+            "fr": "me défendre contre le harcèlement en ligne",
+            "en": "defend myself against online harassment"
           },
           "urgent": true,
           "results": [

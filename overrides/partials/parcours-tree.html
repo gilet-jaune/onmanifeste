@@ -8,14 +8,15 @@
 {%- if r.anchor and r.anchor[lang] -%}#{{ r.anchor[lang] }}{%- endif -%}
 {%- endmacro -%}
 
-{%- macro tree(lang) -%}
+{#- data, iam, iwant: another decision tree (e.g. parcours_signal) and its step wording. -#}
+{%- macro tree(lang, data=none, iam=none, iwant=none) -%}
 <div class="parcours__tree">
-{%- for p in parcours %}
+{%- for p in (data if data is not none else parcours) %}
   <details>
-    <summary><h2 class="parcours__profile" id="je-{{ p.id }}">{{ 'Je suis' if lang == 'fr' else 'I am' }} {{ p.label[lang] }}</h2></summary>
+    <summary><h2 class="parcours__profile" id="je-{{ p.id }}">{{ iam or ('Je suis' if lang == 'fr' else 'I am') }} {{ p.label[lang] }}</h2></summary>
     <ul>
     {%- for n in p.needs %}
-      <li><strong>{{ '… et je veux' if lang == 'fr' else '… and I want to' }} {{ n.label[lang] }}</strong>
+      <li><strong>{{ iwant or ('… et je veux' if lang == 'fr' else '… and I want to') }} {{ n.label[lang] }}</strong>
         <ul>
         {%- for r in n.results %}
           {%- if r.resource %}

@@ -9,6 +9,12 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
 [:material-compass: Je suis… et je veux…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS : numéros d'urgence et legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Carte de poche à imprimer](carte/index.md){ .md-button }
 
+!!! warning "Avertissement et vocation du site"
+
+    Ce site a une visée strictement **informative, préventive et organisationnelle** : il documente les droits légaux, les gestes de premiers secours et les outils de protection citoyenne.
+
+    Il ne constitue ni un conseil juridique personnalisé, ni une incitation à des actes illégaux, à des dégradations ou à des violences. Vérifiez toujours les informations auprès des sources officielles.
+
 !!! info "Comment ce contenu est vérifié"
 
     Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une IA**, puis sont relus peu à peu par des humains. Chaque fiche indique **qui** l'a vérifiée et **quand** : IA (à vérifier par un humain), bénévole, avocat·e, soignant·e ou historien·ne. Ouvrez la source avant de vous fier à une information, et [aidez-nous à vérifier](contribuer/index.md#verifier-une-information).
@@ -56,7 +62,3 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
     [:octicons-arrow-right-24: Ajouter une ressource](contribuer/index.md)
 
 </div>
-
-!!! warning "Avertissement"
-
-    Ce site est informatif et ne remplace pas le conseil d'un·e avocat·e. Vérifiez toujours les informations auprès des sources officielles.

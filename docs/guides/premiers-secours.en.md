@@ -1,5 +1,5 @@
 ---
-source_commit: 6e798e56840bf305cea81888fe7e3b42ef98500f
+source_commit: 0bae67b5b4d003a92f1d15c180003ca4229667fd
 review: medical
 review_status: pending
 tags:
@@ -18,6 +18,15 @@ tags:
     - Eye injury: **don't rinse**, cover without pressing, call 112.
     - Head injury: don't leave the person alone; vomiting or confusion, call 112.
     - Afterwards: get any injury **recorded** (certificate with ITT) and keep track of symptoms.
+
+!!! info "Where to start?"
+
+    - **Someone is injured or gassed, right now** → [the flowchart](premiers-secours.md#flowchart-someone-is-injured-or-gassed).
+    - **Gassed** → [tear gas](premiers-secours.md#tear-gas).
+    - **An injured person** → [helping them](premiers-secours.md#helping-an-injured-person); [injuries](premiers-secours.md#injuries).
+    - **Fainting, heat, anxiety** → [what to do](premiers-secours.md#fainting-heat-panic-attack).
+    - **Packing your kit** → [first aid kit](premiers-secours.md#first-aid-kit).
+    - **After the protest** → [long-term follow-up](premiers-secours.md#afterwards-long-term-follow-up); [getting it documented](premiers-secours.md#afterwards-get-it-documented).
 
 Three reflexes, in order: **protect** (get yourself and the person to safety), **alert**, **help**. Look for the march's **street medics**: they are trained and equipped.[^cr-etapes]
 

@@ -103,6 +103,7 @@ plugins:
             Le projet: About
             Annuaire: Directory
             Je suis… et je veux…: I am… and I want to…
+            Je suis… et je veux… (groupes Signal): I am… and I want to… (Signal groups)
             Checklist avant la manif: Pre-protest checklist
             Le droit de manifester: The right to protest
             Ne jamais rester seul·e: Never stay alone
@@ -145,6 +146,7 @@ plugins:
         - docs/data/history.json
         - docs/data/resources.json
         - docs/data/parcours.json
+        - docs/data/parcours-signal.json
         - docs/data/sources.json
         - docs/data/victimes.json
         - docs/data/rallier.json
@@ -179,6 +181,7 @@ nav:
       - Carte de poche: carte/index.md
   - Trouver de l'aide:
       - Je suis… et je veux…: parcours/index.md
+      - Je suis… et je veux… (groupes Signal): conversations/index.md
       - Annuaire: annuaire/index.md
   - Guides:
       - guides/index.md

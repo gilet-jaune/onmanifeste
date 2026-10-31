@@ -1,8 +1,6 @@
 ---
 tags:
     - parcours
-hide:
-    - toc
 ---
 
 # Je suis… et je veux…

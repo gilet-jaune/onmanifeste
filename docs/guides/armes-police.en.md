@@ -1,5 +1,5 @@
 ---
-source_commit: f136eaf788fd58a1972e636bea977e3529cf7918
+source_commit: 0bae67b5b4d003a92f1d15c180003ca4229667fd
 review: medical
 review_status: pending
 tags:
@@ -18,6 +18,13 @@ tags:
     - **Explosive grenades (GM2L, GL-304 "Condor", 40 mm EF-SON / ASSD stun cartridges)**: risk of **blast effect** (145 to 175 dB: hearing loss, lungs, internal organs) and **shrapnel wounds (polycriblage)** from red/orange hard plastic or black rubber fragments **invisible on standard X-rays** (ask for an ultrasound or CT scan).
     - **Kinetic impacts**: **40 mm LBD** (40 mm ring-shaped bruise, fractures, severe eye injuries), **GENL** (18 rubber pellets leaving 2–3 cm geometric bruises), **baton / tonfa / telescopic baton** ("tramline" bruise with pale shocked skin in the middle, linear split wound or small round tip wound).
     - **Debris**: never pick up a burning tear-gas sub-munition or an unexploded grenade with bare hands; photograph markings with a scale and store cooled fragments in a clean bag.
+
+!!! info "Where to start?"
+
+    - **Someone has just been hit** → [identify the weapon and act in order](armes-police.md#flowchart-identify-the-weapon-and-act-in-order).
+    - **Which weapon caused this injury?** → [recognising the weapon from the wound and debris](armes-police.md#recognising-the-weapon-from-the-wound-and-debris).
+    - **At A&E or the doctor's** → [what to tell them](armes-police.md#what-to-tell-emergency-staff-and-the-doctor).
+    - **Debris on the ground** → [collecting and photographing it](armes-police.md#collecting-and-photographing-debris-safely).
 
 Recognising the weapon that caused an injury allows you both to **alert hospital staff to specific risks** (non-metallic fragments invisible on standard X-rays, internal blast injuries) and to **support the medical certificate and investigation** through characteristic wound patterns and munition markings.[^desarmons-armements-2020][^ldh-violences]
 

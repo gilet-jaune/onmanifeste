@@ -1,7 +1,7 @@
 ---
 review: juridique
 review_status: pending
-source_commit: 0ab385254c918fcffe88c0c329d562e2cac1fbe3
+source_commit: 0bae67b5b4d003a92f1d15c180003ca4229667fd
 tags:
     - guides
     - réseaux sociaux
@@ -18,6 +18,15 @@ tags:
     - Report what is **illegal** (platform, Pharos) and support the people targeted.
     - **Like, comment, save, share** what you want to see spread.
     - Calling for a protest: sharing is risk-free, but organising an undeclared demonstration or making threats is punished.
+
+!!! info "Where to start?"
+
+    - **Faced with far-right content** → [don't push it up](reseaux-sociaux.md#dont-push-them-up).
+    - **You still want to react** → [ignoring is not keeping quiet](reseaux-sociaux.md#ignoring-is-not-keeping-quiet).
+    - **Spreading your cause** → [push up what matters](reseaux-sociaux.md#push-up-what-matters).
+    - **Calling for a protest** → [what is allowed and what is risky](reseaux-sociaux.md#calling-for-a-protest-online).
+    - **A suspicious account or wave of messages** → [bots and coordinated campaigns](reseaux-sociaux.md#bots-and-coordinated-campaigns).
+    - **Understanding why** → [why it works](reseaux-sociaux.md#why-it-works).
 
 On social media, whatever gets a reaction is shown to more people. An angry comment, a share to denounce or a video watched to the end **push** far-right content up instead of silencing it. The good news: the same mechanism works the other way.
 

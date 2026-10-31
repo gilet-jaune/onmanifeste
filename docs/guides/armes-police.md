@@ -18,6 +18,13 @@ tags:
     - **Impacts cinétiques** : **LBD 40 mm** (anneau ecchymotique de 40 mm, fractures, lésions oculaires graves), **GENL** (18 plots de caoutchouc laissant des hématomes géométriques de 2–3 cm), **matraque / tonfa / télescopique** (hématome à « peau choquée » claire au milieu, plaie longiligne ou plaie ronde d'embout).
     - **Débris** : ne ramassez jamais à main nue un palet brûlant ni une grenade non explosée ; photographiez les marquages avec une échelle et conservez les éclats refroidis dans un sachet propre.
 
+!!! info "Par où commencer ?"
+
+    - **Quelqu'un vient d'être touché** → [identifier l'arme et agir dans l'ordre](armes-police.md#schema-identifier-larme-et-agir-dans-lordre).
+    - **Quelle arme a causé cette blessure ?** → [reconnaître l'arme à la blessure et aux débris](armes-police.md#reconnaitre-larme-a-la-blessure-et-aux-debris).
+    - **Aux urgences ou chez le médecin** → [que signaler](armes-police.md#que-signaler-aux-urgences-et-au-medecin).
+    - **Des débris au sol** → [les collecter et les photographier](armes-police.md#collecter-et-photographier-les-debris-en-securite).
+
 Reconnaître l'arme qui a causé une blessure permet à la fois de **signaler les bons risques aux urgences** (éclats non métalliques invisibles aux rayons X, lésions internes de souffle) et d'**étayer le certificat médical et l'enquête** grâce à la forme caractéristique des traces et aux marquages des munitions.[^desarmons-armements-2020][^ldh-violences]
 
 !!! warning "Urgence vitale, yeux et effet de souffle"

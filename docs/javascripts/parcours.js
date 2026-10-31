@@ -9,7 +9,11 @@
   if (!root) return;
 
   const script = document.currentScript;
-  const PARCOURS_URL = new URL('../data/parcours.json', script.src);
+  // Another decision tree can reuse this script: data-src names its file in data/, data-key its
+  // top-level key, and data-iam, data-iwant, data-type-iam, data-type-want, data-pick, data-need-of
+  // and data-sentence ({p} and {n} placeholders) replace the step wording.
+  const PARCOURS_URL = new URL(`../data/${root.dataset.src || 'parcours.json'}`, script.src);
+  const DATA_KEY = root.dataset.key || 'parcours';
   const RESOURCES_URL = new URL('../data/resources.json', script.src);
   // Built by hooks/guide_digest.py: key points of every guide section, shown in the results.
   const DIGEST_URL = new URL('../data/guides-digest.json', script.src);
@@ -39,6 +43,7 @@
       install: 'Installer :',
       socials: 'Réseaux :',
       sources: 'Sources :',
+      tocTitle: 'Table des matières',
       error: 'Impossible de charger le parcours. La liste complète reste disponible ci-dessous.',
       sentence: (p, n) => `Je suis ${p} et je veux ${n}.`,
     },
@@ -65,10 +70,17 @@
       install: 'Install:',
       socials: 'Social:',
       sources: 'Sources:',
+      tocTitle: 'Table of contents',
       error: 'Unable to load the guided search. The full list is still available below.',
       sentence: (p, n) => `I am ${p} and I want to ${n}.`,
     },
   }[lang];
+  const fill = (tpl) => (p, n) => tpl.replace('{p}', p).replace('{n}', n);
+  for (const key of ['iam', 'iwant', 'typeIam', 'typeWant', 'pick']) {
+    if (root.dataset[key]) T[key] = root.dataset[key];
+  }
+  if (root.dataset.needOf) T.needOf = fill(root.dataset.needOf);
+  if (root.dataset.sentence) T.sentence = fill(root.dataset.sentence);
 
   const STORE_LABELS = { android: 'Google Play', fdroid: 'F-Droid', ios: 'App Store' };
   const SOCIAL_LABELS = {
@@ -349,11 +361,92 @@
     );
   }
 
+  let tocObserver = null;
+
+  function syncToc(items) {
+    if (tocObserver) {
+      tocObserver.disconnect();
+      tocObserver = null;
+    }
+    const sidebar = document.querySelector('.md-sidebar--secondary');
+    if (!sidebar) return;
+    if (!items || !items.length) {
+      sidebar.setAttribute('hidden', '');
+      return;
+    }
+    const nav = sidebar.querySelector('nav');
+    if (!nav) return;
+    sidebar.removeAttribute('hidden');
+    const links = items.map((it, idx) =>
+      el(
+        'li',
+        { class: 'md-nav__item' },
+        el(
+          'a',
+          {
+            class: `md-nav__link${idx === 0 ? ' md-nav__link--active' : ''}`,
+            href: `#${it.id}`,
+            onclick: (e) => {
+              const target = document.getElementById(it.id);
+              if (target) {
+                e.preventDefault();
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                history.pushState(null, '', `#${it.id}`);
+                nav.querySelectorAll('.md-nav__link').forEach((l) => {
+                  l.classList.toggle(
+                    'md-nav__link--active',
+                    l.getAttribute('href') === `#${it.id}`,
+                  );
+                });
+              }
+            },
+          },
+          el('span', { class: 'md-ellipsis' }, it.label),
+        ),
+      ),
+    );
+    nav.replaceChildren(
+      el(
+        'label',
+        { class: 'md-nav__title', for: '__toc' },
+        el('span', { class: 'md-nav__icon md-icon' }),
+        T.tocTitle,
+      ),
+      el(
+        'ul',
+        { class: 'md-nav__list', 'data-md-component': 'toc', 'data-md-scrollfix': '' },
+        ...links,
+      ),
+    );
+
+    if (typeof IntersectionObserver !== 'undefined') {
+      tocObserver = new IntersectionObserver(
+        (entries) => {
+          const visible = entries.filter((e) => e.isIntersecting);
+          if (visible.length) {
+            const first = visible[0].target.id;
+            nav.querySelectorAll('.md-nav__link').forEach((l) => {
+              l.classList.toggle('md-nav__link--active', l.getAttribute('href') === `#${first}`);
+            });
+          }
+        },
+        { rootMargin: '-10% 0px -70% 0px' },
+      );
+      requestAnimationFrame(() => {
+        items.forEach((it) => {
+          const target = document.getElementById(it.id);
+          if (target && tocObserver) tocObserver.observe(target);
+        });
+      });
+    }
+  }
+
   // One need: its sentence, urgent numbers and result cards.
   function needBlock(profile, need, heading = 'h2') {
+    const needId = `besoin-${need.id}`;
     return el(
       'section',
-      { class: 'parcours__need' },
+      { class: 'parcours__need', id: needId },
       el(heading, { class: 'parcours__step' }, `… ${loc(need.label)}`),
       need.urgent ? urgentBlock() : null,
       el('div', { class: 'parcours__results' }, ...need.results.map(resultNode).filter(Boolean)),
@@ -372,6 +465,7 @@
     const view = el('div', { class: 'parcours__view' });
 
     if (!profile) {
+      syncToc(null);
       // Coming from the site search: prefill with the searched words; one match opens it directly.
       const query = (params.get('q') || params.get('h') || '').trim();
       // Typing also finds needs across profiles ("avocat" → "trouver ou payer un avocat").
@@ -408,6 +502,12 @@
     );
 
     if (!need && profile.needs.length <= 3) {
+      syncToc(
+        profile.needs.map((n) => ({
+          id: `besoin-${n.id}`,
+          label: loc(n.label),
+        })),
+      );
       append(
         view,
         crumb,
@@ -419,6 +519,7 @@
     }
 
     if (!need) {
+      syncToc(null);
       const p = picker({
         placeholder: T.typeWant,
         items: profile.needs,
@@ -434,6 +535,7 @@
     }
 
     const others = profile.needs.filter((n) => n.id !== need.id);
+    syncToc(null);
     append(
       view,
       el('p', { class: 'parcours__sentence' }, T.sentence(loc(profile.label), loc(need.label))),
@@ -472,7 +574,7 @@
       .catch(() => ({})),
   ])
     .then(([parcours, registry, guides]) => {
-      data = parcours.parcours;
+      data = parcours[DATA_KEY];
       resources = new Map(registry.resources.map((r) => [r.id, r]));
       categories = registry.categories || {};
       emergency = registry.emergency || [];

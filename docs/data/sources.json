@@ -3621,6 +3621,18 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "signal-sondages": {
+      "title": {
+        "fr": "Signal — Sondages (Signal Polls)",
+        "en": "Signal — Signal Polls"
+      },
+      "url": "https://support.signal.org/hc/en-us/articles/9971667844506",
+      "check": {
+        "date": "2026-10-30",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

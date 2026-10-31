@@ -1,0 +1,781 @@
+{
+  "parcours_signal": [
+    {
+      "id": "nouveau",
+      "label": {
+        "fr": "nouveau ou nouvelle, je découvre les groupes",
+        "en": "new and discovering the groups"
+      },
+      "keywords": [
+        "nouveau",
+        "nouvelle",
+        "debutant",
+        "rejoindre",
+        "entrer",
+        "anonyme",
+        "new",
+        "newcomer",
+        "join",
+        "anonymous"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre comment ça marche",
+            "en": "understand how it works"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
+                "en": "The groups: public group, airlock group, trusted group, sub-groups"
+              },
+              "anchor": {
+                "fr": "les-groupes",
+                "en": "the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              },
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anonyme",
+          "label": {
+            "fr": "rester anonyme",
+            "en": "stay anonymous"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Votre nom de militant·e",
+                "en": "Your activist name"
+              },
+              "anchor": {
+                "fr": "votre-nom-de-militante",
+                "en": "your-activist-name"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Vos réglages",
+                "en": "Your settings"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            },
+            {
+              "resource": "signal"
+            }
+          ]
+        },
+        {
+          "id": "sas",
+          "label": {
+            "fr": "aller à une rencontre (groupe sas)",
+            "en": "go to a meeting (airlock group)"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            }
+          ]
+        },
+        {
+          "id": "confiance",
+          "label": {
+            "fr": "entrer dans le groupe de confiance",
+            "en": "join the trusted group"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "membre",
+      "label": {
+        "fr": "membre d'un groupe",
+        "en": "a group member"
+      },
+      "keywords": [
+        "membre",
+        "groupe",
+        "ecrire",
+        "telephone",
+        "quitter",
+        "member",
+        "group",
+        "write",
+        "phone",
+        "leave"
+      ],
+      "needs": [
+        {
+          "id": "ecrire",
+          "label": {
+            "fr": "savoir quoi écrire ou pas",
+            "en": "know what to write and what not to"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Dans les groupes",
+                "en": "In the groups"
+              },
+              "anchor": {
+                "fr": "dans-les-groupes",
+                "en": "in-the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "La charte",
+                "en": "The charter"
+              },
+              "anchor": {
+                "fr": "charte-complete",
+                "en": "full-charter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "telephone",
+          "label": {
+            "fr": "protéger mon téléphone et mes contacts",
+            "en": "protect my phone and contacts"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Vos réglages",
+                "en": "Your settings"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            },
+            {
+              "guide": "telephone",
+              "label": {
+                "fr": "Téléphone : verrouillage, code et saisie",
+                "en": "Phone: lock, passcode and seizure"
+              }
+            }
+          ]
+        },
+        {
+          "id": "arrete",
+          "label": {
+            "fr": "réagir si je suis arrêté·e ou si je perds mon téléphone",
+            "en": "know what to do if I'm arrested or lose my phone"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Si vous êtes arrêté·e ou perdez votre téléphone",
+                "en": "If you are arrested or lose your phone"
+              },
+              "anchor": {
+                "fr": "si-vous-etes-arretee-ou-perdez-votre-telephone",
+                "en": "if-you-are-arrested-or-lose-your-phone"
+              }
+            },
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue",
+                "en": "Police custody"
+              }
+            },
+            {
+              "guide": "telephone",
+              "label": {
+                "fr": "Téléphone saisi ou perdu",
+                "en": "Phone seized or lost"
+              },
+              "anchor": {
+                "fr": "si-votre-telephone-est-saisi-ou-perdu",
+                "en": "if-your-phone-is-seized-or-lost"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "disparu",
+          "label": {
+            "fr": "savoir quoi faire si le groupe disparaît ou si on me retire",
+            "en": "know what to do if the group disappears or I'm removed"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Si le groupe disparaît ou si on vous retire",
+                "en": "If the group disappears or you are removed"
+              },
+              "anchor": {
+                "fr": "si-le-groupe-disparait-ou-si-on-vous-retire",
+                "en": "if-the-group-disappears-or-you-are-removed"
+              }
+            }
+          ]
+        },
+        {
+          "id": "partir",
+          "label": {
+            "fr": "quitter un groupe proprement",
+            "en": "leave a group properly"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Partir proprement",
+                "en": "Leaving properly"
+              },
+              "anchor": {
+                "fr": "partir-proprement",
+                "en": "leaving-properly"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "secretaire",
+      "label": {
+        "fr": "secrétaire",
+        "en": "a secretary"
+      },
+      "keywords": [
+        "secretaire",
+        "accueil",
+        "rencontre",
+        "valider",
+        "secretary",
+        "welcome",
+        "meeting",
+        "validate"
+      ],
+      "needs": [
+        {
+          "id": "rencontre",
+          "label": {
+            "fr": "animer une rencontre au groupe sas",
+            "en": "host a meeting in the airlock group"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              },
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              }
+            }
+          ]
+        },
+        {
+          "id": "verifier",
+          "label": {
+            "fr": "savoir quoi vérifier",
+            "en": "know what to check"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            }
+          ]
+        },
+        {
+          "id": "valider",
+          "label": {
+            "fr": "valider et passer la main aux RH",
+            "en": "validate and hand over to HR"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              },
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rh",
+      "label": {
+        "fr": "RH",
+        "en": "HR"
+      },
+      "keywords": [
+        "rh",
+        "ressources humaines",
+        "verification",
+        "retrait",
+        "doute",
+        "hr",
+        "vetting",
+        "removal",
+        "doubt"
+      ],
+      "needs": [
+        {
+          "id": "ajouter",
+          "label": {
+            "fr": "faire le second contrôle et ajouter",
+            "en": "do the second check and add people"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              },
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            }
+          ]
+        },
+        {
+          "id": "doute",
+          "label": {
+            "fr": "traiter un doute sur quelqu'un",
+            "en": "handle a doubt about someone"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Quand un groupe est-il compromis ?",
+                "en": "When is a group compromised?"
+              },
+              "anchor": {
+                "fr": "quand-un-groupe-est-il-compromis",
+                "en": "when-is-a-group-compromised"
+              }
+            }
+          ]
+        },
+        {
+          "id": "retrait",
+          "label": {
+            "fr": "décider d'un retrait",
+            "en": "decide on a removal"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Retrait conservatoire",
+                "en": "Precautionary removal"
+              },
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Groupe compromis : que faire ?",
+                "en": "Compromised group: what to do?"
+              },
+              "anchor": {
+                "fr": "que-faire",
+                "en": "what-to-do"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gardien",
+      "label": {
+        "fr": "gardien·ne (admin)",
+        "en": "a keyholder (admin)"
+      },
+      "keywords": [
+        "gardien",
+        "admin",
+        "regler",
+        "creer",
+        "fermer",
+        "nommer",
+        "keyholder",
+        "settings",
+        "create",
+        "close",
+        "name"
+      ],
+      "needs": [
+        {
+          "id": "creer",
+          "label": {
+            "fr": "créer et régler un groupe",
+            "en": "create and set up a group"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Régler les groupes",
+                "en": "Setting up the groups"
+              },
+              "anchor": {
+                "fr": "regler-les-groupes",
+                "en": "setting-up-the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Nommer les groupes",
+                "en": "Naming groups"
+              },
+              "anchor": {
+                "fr": "nommer-les-groupes",
+                "en": "naming-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Modèles à copier-coller",
+                "en": "Copy-paste templates"
+              },
+              "anchor": {
+                "fr": "modeles-a-copier-coller",
+                "en": "copy-paste-templates"
+              }
+            }
+          ]
+        },
+        {
+          "id": "veiller",
+          "label": {
+            "fr": "veiller sur les groupes et les rôles",
+            "en": "watch over groups and roles"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les rôles",
+                "en": "The roles"
+              },
+              "anchor": {
+                "fr": "les-roles",
+                "en": "the-roles"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Libellés de rôle",
+                "en": "Role labels"
+              },
+              "anchor": {
+                "fr": "libelles-de-role",
+                "en": "role-labels"
+              }
+            }
+          ]
+        },
+        {
+          "id": "compromis",
+          "label": {
+            "fr": "réagir à une arrestation ou une fuite",
+            "en": "respond to an arrest or a leak"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Retrait conservatoire",
+                "en": "Precautionary removal"
+              },
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Groupe compromis : que faire ?",
+                "en": "Compromised group: what to do?"
+              },
+              "anchor": {
+                "fr": "que-faire",
+                "en": "what-to-do"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "fermer",
+          "label": {
+            "fr": "fermer un groupe",
+            "en": "close a group"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Fermer un groupe",
+                "en": "Closing a group"
+              },
+              "anchor": {
+                "fr": "fermer-un-groupe",
+                "en": "closing-a-group"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vite",
+          "label": {
+            "fr": "m'organiser vite en manif",
+            "en": "organise quickly at a protest"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe temporaire",
+                "en": "The temporary group"
+              },
+              "anchor": {
+                "fr": "le-groupe-temporaire",
+                "en": "the-temporary-group"
+              }
+            },
+            {
+              "guide": "communiquer",
+              "label": {
+                "fr": "Communiquer sans réseau",
+                "en": "Communicating without a network"
+              },
+              "anchor": {
+                "fr": "comparatif",
+                "en": "comparison"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recruteur",
+      "label": {
+        "fr": "recruteur·se",
+        "en": "a recruiter"
+      },
+      "keywords": ["recruteur", "recruter", "orienter", "recruiter", "recruit"],
+      "needs": [
+        {
+          "id": "orienter",
+          "label": {
+            "fr": "orienter des personnes vers les groupes",
+            "en": "point people to the groups"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
+                "en": "The groups: public group, airlock group, trusted group, sub-groups"
+              },
+              "anchor": {
+                "fr": "les-groupes",
+                "en": "the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les rôles",
+                "en": "The roles"
+              },
+              "anchor": {
+                "fr": "les-roles",
+                "en": "the-roles"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temoin",
+      "label": {
+        "fr": "témoin d'une arrestation",
+        "en": "a witness to an arrest"
+      },
+      "keywords": ["temoin", "arrestation", "interpelle", "embarque", "witness", "arrest"],
+      "needs": [
+        {
+          "id": "retirer",
+          "label": {
+            "fr": "retirer la personne de nos groupes",
+            "en": "remove the person from our groups"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Retrait conservatoire",
+                "en": "Precautionary removal"
+              },
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              }
+            },
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue",
+                "en": "Police custody"
+              }
+            }
+          ],
+          "urgent": true
+        }
+      ]
+    }
+  ]
+}

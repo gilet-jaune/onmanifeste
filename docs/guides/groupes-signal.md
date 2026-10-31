@@ -12,7 +12,7 @@ tags:
 
 !!! abstract "L'essentiel"
 
-    - **Groupe public** d'annonces → **groupe sas** pour se rencontrer en vrai (créé par n'importe qui) → **groupe de confiance** vérifié → **sous-groupes** par équipe.
+    - **Groupe public** d'annonces → **groupe sas** pour se rencontrer en vrai (proposé par n'importe qui, annoncé par un·e secrétaire) → **groupe de confiance** vérifié → **sous-groupes** par équipe.
     - **Confiance graduée** : un·e **secrétaire vérifié·e**, **un·e garant·e** et un **second contrôle des RH** pour le groupe de confiance ; **deux garant·es** pour un sous-groupe sensible. Jamais par un lien qui circule.
     - **Aucune vérification n'arrête un·e infiltré·e déterminé·e** : n'écrivez rien que vous ne voudriez pas voir lu en garde à vue.
     - Avant d'entrer : un **nom de militant·e** court, utilisé aussi en vrai ; numéro caché à **tout le monde** ; messages **éphémères**, dans chaque groupe dès sa création.
@@ -26,6 +26,7 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
     - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis la [partie 1 : membres](groupes-signal.md#partie-1-membres).
     - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles](groupes-signal.md#les-roles), puis la [partie 2 : organiser](groupes-signal.md#partie-2-organiser).
     - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [partie 3 : groupe compromis](groupes-signal.md#partie-3-groupe-compromis).
+    - **Un menu pour aller droit à ce qui vous concerne** → [je suis… et je veux… (groupes Signal)](../conversations/index.md).
     - **Vous voulez juste la charte** → [modèles à copier-coller](groupes-signal.md#modeles-a-copier-coller).
 
 !!! warning "Partez du principe que quelqu'un lit"
@@ -40,9 +41,9 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 
 <div class="flow flow--funnel" markdown>
 
-1. **Groupe public** (un par ville) → tout le monde y entre par un lien partagé ; seul·es les gardien·nes écrivent : annonces, date, lieu déclaré, liens vers les guides.
-    - **Pour passer au groupe sas** : faire ses réglages, se faire connaître d'un·e recruteur·se, demander à entrer dans un groupe sas (approbation), ou en créer un.
-2. **Groupe sas** (temporaire) → créé par **n'importe quel membre du groupe public**, en autonomie, pour organiser **une** rencontre en vrai ; on n'y écrit que l'heure et le lieu.
+1. **Groupe public** (un par ville) → tout le monde y entre par un lien partagé ; seul·es les admins (gardien·nes et secrétaires) écrivent : annonces, date, lieu déclaré, liens vers les guides.
+    - **Pour passer au groupe sas** : faire ses réglages, se faire connaître d'un·e recruteur·se, demander à entrer dans un groupe sas annoncé dans le groupe public, avec sa date et sa tranche horaire (approbation), ou en proposer un à un·e secrétaire.
+2. **Groupe sas** (temporaire) → proposé par **n'importe quel membre du groupe public**, créé et annoncé par un·e secrétaire, pour organiser **une** rencontre en vrai ; on n'y écrit que l'heure et le lieu.
     - **Pour passer au groupe de confiance** : rencontre en vrai avec un·e secrétaire (réglages, code QR scanné), **un·e garant·e**, puis le second contrôle des RH, qui postent le lien avec approbation dans le groupe sas nettoyé.
 3. **Groupe de confiance** (vérifié, `MVT-VIL-4K9-General`) → logistique, entraide, infos publiques ; rien d'illégal.
     - **Pour passer à un sous-groupe** : un besoin réel dans l'équipe, une période dans le groupe de confiance, et **deux garant·es** si le sous-groupe est sensible ; le ou la gardien·ne du sous-groupe ajoute.
@@ -55,6 +56,51 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 
 Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](groupes-signal.md#nommer-les-groupes)). Une personne infiltrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](groupes-signal.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
 
+**Deux portes pour entrer dans le groupe de confiance :**
+
+=== "Schéma"
+
+    <div class="grid" markdown>
+
+    <div class="flow" markdown>
+
+    **La voie ouverte**
+
+    1. **Groupe public**
+    2. **Groupe sas** et rencontre avec un·e secrétaire
+    3. **Un·e garant·e** se manifeste
+    4. **Second contrôle des RH**
+    5. **Groupe de confiance**
+
+    </div>
+
+    <div class="flow" markdown>
+
+    **La cooptation**
+
+    1. **Un membre vérifié propose** quelqu'un qu'il connaît
+    2. **Rencontre avec un·e secrétaire**, en tête-à-tête ou sur place
+    3. **Le membre qui propose est le ou la garant·e**
+    4. **Second contrôle des RH**
+    5. **Groupe de confiance**
+
+    </div>
+
+    </div>
+
+=== "Tableau"
+
+    | Porte | **La voie ouverte** | **La cooptation** |
+    | --- | --- | --- |
+    | **Pour qui** | Une personne que personne ne connaît encore | Une personne qu'un membre vérifié connaît déjà (ami·e, collègue, syndicat, vue agir sur plusieurs actions) |
+    | **Par où** | Groupe public, puis groupe sas et rencontre | Le membre vérifié la **propose** directement à un·e secrétaire, sans passer par le groupe public ni le groupe sas |
+    | **Rencontre** | Au groupe sas, avec le ou la secrétaire | En tête-à-tête, ou sur place pendant une action |
+    | **Garant·e** | À trouver : quelqu'un qui la connaît, ou plusieurs actions communes | Le membre qui l'a proposée |
+    | **Ajout** | Par les RH, depuis le groupe sas nettoyé | Par les RH, avec le lien (approbation) envoyé en privé, réinitialisé ensuite |
+    | **Durée** | De quelques jours à quelques semaines | Le jour même ou le lendemain |
+
+Dans les deux cas, les mêmes contrôles : code QR scanné, réglages faits, un·e garant·e et le second contrôle des RH (voir [valider](groupes-signal.md#valider-la-confiance-graduee)).
+
 ## Les rôles
 
 Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne réunit toutes les personnes clés** (voir [se coordonner](groupes-signal.md#se-coordonner)).
@@ -62,7 +108,7 @@ Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne r
 | Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Admin dans Signal |
 | --- | --- | --- | --- |
 | **Recruteur·se** | Parle du mouvement en manif, sur les ronds-points, en réunion publique ; oriente vers le groupe public et les groupes sas | Valider ; être garant·e de ses propres recrues ; noter quoi que ce soit sur elles | Non |
-| **Secrétaire** (membre déjà vérifié·e) | Vient aux groupes sas ; aide chacun·e à régler Signal ; **valide** quand les conditions sont réunies ; nettoie le groupe sas et y ajoute les RH ; reste le ou la référent·e des nouvelles personnes | Valider sans garant·e ; **ajouter quelqu'un au groupe de confiance** (ce sont les RH qui ajoutent) ; tenir une liste de présence | Du groupe sas qu'il ou elle anime |
+| **Secrétaire** (membre déjà vérifié·e) | **Coordonne la rencontre de bout en bout** : annonce le groupe sas dans le groupe public, y vient, aide chacun·e à régler Signal ; **valide** quand les conditions sont réunies ; nettoie le groupe sas et y ajoute les RH ; reste le ou la référent·e des nouvelles personnes | Valider sans garant·e ; **ajouter quelqu'un au groupe de confiance** (ce sont les RH qui ajoutent) ; tenir une liste de présence | Du groupe sas qu'il ou elle anime, et du groupe public pour y annoncer les rencontres |
 | **RH** (« ressources humaines ») | Comme au travail : font le **second contrôle** des personnes validées et les **ajoutent** au groupe de confiance ; reçoivent les doutes ; décident des retraits à deux ; tranchent quand un·e secrétaire hésite | Organiser les groupes sas ; décider seul·e d'un retrait ; être gardien·nes de tous les groupes | Oui, du groupe de confiance |
 | **Gardien·ne** | Garde les clés d'un groupe : **veille sur sa configuration** (délai d'effacement, permissions, lien), ajoute et retire ; **ouvre l'œil** sur les arrivées et les interactions étranges et les signale aux RH. Les RH sont gardien·nes du groupe de confiance | Ajouter quelqu'un qui n'a pas été validé ; partir en action avec son téléphone de gardien·ne | Oui, au moins deux par groupe |
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe | Non |
@@ -87,10 +133,10 @@ Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne r
 
 1. **Se préparer** → nom de militant·e, numéro caché, messages éphémères (voir ci-dessous).
 2. **Rejoindre le groupe public** → lire les annonces.
-3. **Rejoindre un groupe sas, ou en créer un** avec d'autres personnes du groupe public, pour se rencontrer en vrai.
+3. **Rejoindre un groupe sas** annoncé dans le groupe public, ou en proposer un à un·e secrétaire, pour se rencontrer en vrai. Si un membre vérifié vous connaît déjà, il peut aussi vous **coopter** : il vous propose directement à un·e secrétaire.
 4. **Venir aux rencontres et aux actions** → un·e secrétaire vérifié·e vous aide à régler Signal et scanne le code QR de votre compte.
 5. **Validation** → quand un·e membre vérifié·e qui vous connaît se porte garant·e auprès du ou de la secrétaire ; sinon, continuez à venir aux actions : c'est là qu'on apprend à se connaître.
-6. **Rejoindre le groupe de confiance** → une personne des RH vous rejoint dans le groupe sas, vérifie votre profil, puis y poste le lien du groupe de confiance : demandez à entrer, elle approuve. Lisez la charte épinglée.
+6. **Rejoindre le groupe de confiance** → une personne des RH vous rejoint dans le groupe sas, vérifie votre profil, vous fait valider la [charte complète](#charte-complete), puis y poste le lien du groupe de confiance : demandez à entrer, elle approuve.
 7. **Vivre le groupe** → rien d'illégal par écrit ; un doute sur quelqu'un : les RH, en privé.
 8. **Arrêté·e, téléphone perdu, groupe disparu** → voir plus bas.
 
@@ -166,17 +212,17 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 | Étape | Nouvelle personne | Secrétaire | RH | Gardien·ne |
 | --- | --- | --- | --- | --- |
 | **1. Avant** | Rejoint le groupe public ; fait ses réglages (nom de militant·e, numéro caché) | — | — | Règle les groupes **vides** : délai d'effacement, permissions, lien avec approbation |
-| **2. Groupe sas** | Rejoint un groupe sas, ou en crée un avec d'autres (délai d'effacement réglé avant toute invitation, lien avec approbation)[^signal-lien-groupe] | Y est ajouté·e comme admin ; poste l'heure et le lieu la veille, puis le jour même | — | — |
+| **2. Groupe sas** | Rejoint un groupe sas annoncé dans le groupe public (date et tranche horaire), ou en propose un au ou à la secrétaire, qui l'annonce (délai d'effacement réglé avant toute invitation, lien avec approbation)[^signal-lien-groupe] | Annonce le groupe sas dans le groupe public (date, tranche horaire, lien) ; en est admin ; poste le lieu la veille, en désactivant le lien du groupe sas, puis le jour même | — | — |
 | **3. Rencontre** | Vient, sans téléphone sur la table ; fait ses réglages **avec** le ou la secrétaire | Anime ; aide aux réglages ; **scanne le code QR du numéro de sécurité** de chaque compte, qui est alors marqué « vérifié » sur son téléphone[^eff-signal] | — | — |
 | **4. Garant·e** | Un·e membre vérifié·e qui la connaît se porte garant·e, en privé | **Valide** si toutes les conditions sont réunies (voir [valider](groupes-signal.md#valider-la-confiance-graduee)) | Tranchent en cas de doute | — |
-| **5. Nettoyage** | — | Retire les personnes non validées, désactive le lien du groupe sas, **y ajoute une personne des RH**, qui n'est ainsi exposée qu'aux personnes validées | — | — |
+| **5. Nettoyage** | — | Retire les personnes non validées (le lien est déjà désactivé depuis la veille), **y ajoute une personne des RH**, qui n'est ainsi exposée qu'aux personnes validées | — | — |
 | **6. Second contrôle** | Répond aux éventuelles questions | — | Vérifient les profils : nom, pas de photo, numéro caché, pas de nom en double | — |
 | **7. Ajout** | Demande à entrer par le lien posté dans le groupe sas | — | Postent le lien du groupe de confiance, **approuvent** les seuls membres du groupe sas, réinitialisent le lien, quittent le groupe sas, notent les noms au registre[^signal-lien-groupe] | Vérifie que les arrivées correspondent : personne d'inconnu, pas de nom en double |
 | **8. Ensuite** | Lit la charte ; période d'essai ; les sous-groupes sensibles plus tard | Reste son ou sa référent·e | Reçoivent les doutes, décident des retraits ; une interpellation : [retrait conservatoire](groupes-signal.md#retrait-conservatoire) | **Veille** : arrivées inattendues, changements de nom, comportements étranges ; signale aux RH |
 
 ### Le groupe sas
 
-- [ ] **Aucun groupe sas ne donne accès seul aux groupes vérifiés.** N'importe qui peut en créer un, y compris une personne mal intentionnée : c'est une rencontre ouverte, rien de plus. Dites-le dans le groupe public.
+- [ ] **Aucun groupe sas ne donne accès seul aux groupes vérifiés.** N'importe qui peut créer un groupe qui se dit « sas », y compris une personne mal intentionnée : seuls comptent ceux qu'un·e secrétaire annonce dans le groupe public, et même eux restent une rencontre ouverte, rien de plus. Dites-le dans le groupe public.
 - [ ] **Ce qu'y voit une personne** : l'heure et le lieu, les noms de militant·e des autres, et, à la rencontre, le visage du ou de la secrétaire. On n'y écrit donc rien d'autre, et les secrétaires **tournent**.
 - [ ] **Ce n'est pas une salle d'attente** : il sert à **une** rencontre. Les personnes pas encore validées restent dans le groupe public.
 - [ ] **À la rencontre, on ne vérifie pas l'identité.** Ni papiers, ni vrai nom, ni métier, ni quartier : ces questions fabriquent des informations qui identifient, et un·e infiltré·e a une histoire toute prête. Parler de tout et de rien met à l'aise, sans questions personnelles et sans rien noter ; pas de tour de table sur le métier ou le quartier, pour protéger aussi les nouvelles personnes les unes des autres. On vérifie plutôt :
@@ -185,8 +231,14 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
     3. **ce qu'elle veut faire** : quelles actions, quelle équipe ;
     4. **qu'elle a compris la charte**, en la lui faisant redire avec ses mots ;
     5. **les signaux d'alerte**, sans accuser : pousser à l'illégal ou à la violence, vouloir savoir qui est qui et quels groupes existent, demander des noms ou des adresses, prendre des photos, vouloir entrer partout tout de suite.
-- [ ] **Après la rencontre**, trois gestes indispensables : retirer les personnes non validées (elles ne voient plus rien de la suite), désactiver le lien, renommer avec un nouvel identifiant. Ce qu'elles ont déjà vu ne s'efface pas : fermer le groupe sas ensuite est une question d'hygiène (moins de groupes), pas de sécurité.
-- [ ] **Ensuite, au choix** : le fermer, ou le garder comme **groupe de secours** du petit noyau de cette rencontre, pour garder le contact si le groupe principal est perdu (fermé par erreur, gardien·nes arrêté·es). On n'y organise rien et on n'y ajoute personne ; deux admins du noyau, de préférence **pas** les gardien·nes du groupe de confiance ; lien désactivé ; messages éphémères à 1 semaine.[^signal-groupes][^signal-gerer-groupe] Il ne protège pas d'une fuite inconnue (cas B).
+- [ ] **Chaque groupe sas naît avec sa date et sa tranche horaire** (« jeudi soir », « samedi midi ») : les personnes choisissent celui qui leur convient, sans sondage ni découpage après coup. C'est le ou la secrétaire qui synchronise tout : il ou elle crée le groupe sas (ou en devient admin s'il a été créé par quelqu'un d'autre) et poste l'annonce dans le groupe public, dont les secrétaires sont admins : « Rencontre jeudi soir : groupe sas » et son lien avec approbation. **Jamais le lieu** : il est posté la veille dans le groupe sas.
+- [ ] **Date pas encore fixée ?** Un sondage Signal dans le groupe sas, avec 2 ou 3 créneaux ; pas d'outil extérieur, qui garderait la trace de qui vient quand. Les votes ne sont pas anonymes : chaque membre voit qui a choisi quoi, ce qui ne pose pas de problème pour une date.[^signal-sondages]
+- [ ] **Deux créneaux qui ont du succès ?** Une rencontre, un groupe sas : le ou la secrétaire en crée un second pour l'autre créneau, y poste le lien avec approbation, n'approuve que les personnes qui l'ont choisi, puis les retire du premier. Un créneau qui n'attire qu'une ou deux personnes ne vaut pas un groupe : on garde le créneau majoritaire, et les autres viendront à la prochaine rencontre.
+- [ ] **Le calendrier du ménage** :
+    - **avant** : on ne retire personne, mais on **ferme les entrées** : la veille, en postant l'heure et le lieu, le ou la secrétaire désactive le lien du groupe sas ; seules les personnes déjà approuvées connaissent le lieu ;
+    - **pendant** : pas de ménage, les téléphones sont rangés ; une tolérance annoncée pour les retardataires (30 minutes, par exemple), qui font réglages et code QR à la fin ;
+    - **après** : le ménage se fait **le soir même**, au plus tard sous 48 heures : on retire les personnes non validées, absent·es compris ; elles ne voient plus rien de la suite. Plus on attend, plus longtemps des personnes non rencontrées voient la suite. Ce qu'elles ont déjà vu ne s'efface pas : fermer le groupe sas ensuite est une question d'hygiène (moins de groupes), pas de sécurité. Les absent·es restent dans le groupe public et viendront à la prochaine rencontre ; une personne absente qu'un·e garant·e connaît peut aussi être rencontrée seule par un·e secrétaire.
+- [ ] **Ensuite, au choix** : le fermer, ou le garder, renommé, comme **groupe de secours** du petit noyau de cette rencontre, pour garder le contact si le groupe principal est perdu (fermé par erreur, gardien·nes arrêté·es). On n'y organise rien et on n'y ajoute personne ; deux admins du noyau, de préférence **pas** les gardien·nes du groupe de confiance ; lien désactivé ; messages éphémères à 1 semaine.[^signal-groupes][^signal-gerer-groupe] Il ne protège pas d'une fuite inconnue (cas B).
 - [ ] **Sans groupe sas de secours**, on se retrouve par un message neutre des gardien·nes dans le groupe public (« les RH vous recontactent ») et par le point de repli en vrai.
 - [ ] **Dans le groupe public, la liste des membres est visible par tous**, et Signal ne permet pas de la cacher : quelqu'un peut y piocher des contacts pour un groupe sas, ou pour harceler. D'où le nom de militant·e et le numéro caché, dès le groupe public.
 
@@ -276,8 +328,8 @@ Un nom court et codé aide à s'y retrouver et à **remplacer** des groupes sans
 
 | Groupe | Taille | Messages éphémères | Gardien·nes | Lien de groupe | Présentation |
 | --- | --- | --- | --- | --- | --- |
-| **Groupe public** | Jusqu'à 1 000 (le maximum de Signal)[^signal-groupes] | 4 semaines (le maximum)[^signal-ephemeres] | 2 ou 3 ; **seul·es les gardien·nes écrivent** | Activé, sans approbation | Charte courte et lien vers ce site |
-| **Groupe sas** | 5 à 15 personnes | 1 semaine : sa durée de vie ; il ne contient rien de sensible | La personne qui l'a créé et le ou la secrétaire (pour le nettoyer et y ajouter les RH) | Activé, **approbation des nouveaux membres**, réinitialisé à chaque rencontre[^signal-lien-groupe] | Vide |
+| **Groupe public** | Jusqu'à 1 000 (le maximum de Signal)[^signal-groupes] | 4 semaines (le maximum)[^signal-ephemeres] | 2 ou 3, plus les secrétaires pour annoncer les rencontres ; **seul·es les admins écrivent** | Activé, sans approbation | Charte courte et lien vers ce site |
+| **Groupe sas** | 5 à 15 personnes | 1 semaine : sa durée de vie ; il ne contient rien de sensible | Le ou la secrétaire qui l'annonce, et une autre personne | Activé avec **approbation des nouveaux membres** jusqu'à la veille de la rencontre, puis désactivé[^signal-lien-groupe] | Vide |
 | **Groupe de confiance** | Une centaine au plus | 1 semaine | 2 ou 3, pas les mêmes partout | **Désactivé**, sauf pendant un ajout : activé avec approbation, réinitialisé juste après | Charte seulement |
 | **Sous-groupe** | 5 à 15 ; moins de 10 si sensible | 1 semaine ; 1 jour si sensible, quelques heures les jours d'action | 2 | **Désactivé** | Charte seulement |
 | **Groupe temporaire** | Les personnes présentes | Quelques heures pour une journée ; la durée de la mobilisation sinon | La personne qui l'a créé et une autre | Code QR montré en vrai, réinitialisé une fois tout le monde entré | Vide |
@@ -288,9 +340,9 @@ Un groupe se règle **vide**, avant la première invitation : le délai d'efface
 
 1. **Créez le groupe seul·e ou avec votre co-gardien·ne** → nom selon la nomenclature, sans photo.
 2. **Messages éphémères** → le délai prévu dans le tableau, dès la création.[^signal-ephemeres]
-3. **Permissions** → seul·es les gardien·nes modifient les infos du groupe et le délai, ajoutent des membres, et, dans le groupe public et le groupe sas, se mettent un libellé ; dans le groupe public, seul·es les gardien·nes envoient des messages.[^signal-groupes][^signal-gerer-groupe]
+3. **Permissions** → seul·es les admins (gardien·nes, et secrétaires dans le groupe public et le groupe sas) modifient les infos du groupe et le délai, ajoutent des membres, et, dans le groupe public et le groupe sas, se mettent un libellé ; dans le groupe public, seul·es les admins envoient des messages.[^signal-groupes][^signal-gerer-groupe]
 4. **Lien de groupe** → avec **approbation des nouveaux membres** ; pour un groupe vérifié, désactivé en dehors des ajouts, et réinitialisé après chacun.[^signal-lien-groupe]
-5. **Présentation** → la charte, rien d'autre ; épinglez-la aussi en premier message.
+5. **Description du groupe** → collez la description courte (règles vitales, vocation d'entraide et rappel légal). Les messages éphémères effaçant les messages épinglés, la charte complète se fait valider dans le groupe sas avant l'ajout.
 6. **Deuxième gardien·ne** → ajoutez cette personne et nommez-la admin dans Signal **avant** tout le monde.
 7. **Registre** → notez l'identifiant du groupe et ses gardien·nes.
 8. **Ensuite seulement**, ajoutez les membres.
@@ -344,7 +396,7 @@ Gardez une **liste commune** dans la charte, pour que tout le monde utilise les 
 | `Logistique`   | Transport, nourriture, stockage                            |
 | `Com`          | Visuels, annonces, réseaux                                 |
 
-- [ ] **N'importe qui peut s'afficher « RH » ou « Gardien·ne »** si tout le monde a le droit de se mettre un libellé. Dans le groupe public et le groupe sas, réservez les libellés aux gardien·nes ; ailleurs, vérifiez : un·e vrai·e gardien·ne porte aussi la mention « Admin » de Signal, et les RH et secrétaires sont des personnes que vous avez rencontrées en vrai.
+- [ ] **N'importe qui peut s'afficher « RH » ou « Gardien·ne »** si tout le monde a le droit de se mettre un libellé. Dans le groupe public et le groupe sas, réservez les libellés aux admins ; ailleurs, vérifiez : un·e vrai·e gardien·ne porte aussi la mention « Admin » de Signal, et les RH et secrétaires sont des personnes que vous avez rencontrées en vrai.
 - [ ] **Un libellé se voit sur un téléphone saisi** : il désigne les personnes clés. Dans les grands groupes, seulement les rôles utiles aux autres (medic, legal, secrétaire), et pas de libellé qui désigne un niveau (« orga », « noyau »).
 
 **Sans libellé**, les rôles se connaissent autrement : la mention « Admin » désigne déjà les gardien·nes ; être dans le sous-groupe `Medic`, c'est être medic ; le ou la secrétaire présente les rôles à la rencontre, et un tour rapide au début d'une action (« qui est medic, qui est legal aujourd'hui ? ») suffit. Évitez le champ « À propos » du profil : il se voit dans toutes vos conversations.
@@ -468,31 +520,39 @@ Le retrait protège l'**avenir**, pas le passé : ce qui était déjà sur le t�
 
 ## Modèles à copier-coller
 
-Remplacez ce qui est entre crochets. Gardez la présentation courte (Signal limite sa longueur) ; le détail va dans la charte, épinglée en premier message.
+Remplacez ce qui est entre crochets.
+
+!!! warning "Pourquoi pas un simple message épinglé ?"
+
+    Dans Signal, **les messages éphémères priment toujours sur l'épinglage** : dès que le délai (1 jour, 1 semaine) expire, le message s'efface et son épinglage disparaît de la conversation. De plus, les personnes qui rejoignent le groupe après coup **ne reçoivent aucun historique antérieur** et ne voient pas les anciens messages épinglés.
+
+    C'est pourquoi la **description du groupe** (permanente, visible par tous et dès la demande d'entrée) doit contenir le *disclaimer* et les règles vitales. La charte détaillée, elle, est transmise et validée **dans le groupe sas** avant l'entrée dans le groupe de confiance.
 
 ### Présentation d'un groupe de confiance
 
+**Nom du groupe** (32 caractères max) : `[MVT]-[VIL]-[ID]-General`
+
+**Description du groupe** (permanente, calibrée pour le champ Description de Signal) :
+
 ```text
-[MVT]-[VIL]-[ID]-General
-Nom des groupes : MVT-VILLE-ID-THEME. L'ID est celui de la famille (le groupe de confiance et ses sous-groupes) ; il change si la famille est remplacée.
-Ici : infos pratiques, entraide, logistique. Rien d'illégal : pas d'appel à la violence ni aux dégradations, pas de menace, même pour rire.
-Pas de vrais noms, d'adresses, de photos de visages, de captures.
-Messages éphémères : 1 semaine.
-Charte complète : message épinglé.
+Entraide, logistique et info militante. Aucune incitation aux violences ni aux dégradations ; rien d'illégal (art. 222-14-2 CP). Pas de vrais noms, adresses, visages ni captures. Messages éphémères actifs. Charte validée dans le sas.
 ```
 
 ### Présentation d'un sous-groupe
 
+**Nom du groupe** (32 caractères max) : `[MVT]-[VIL]-[ID]-[THEME]`
+
+**Description du groupe** :
+
 ```text
-[MVT]-[VIL]-[ID]-[THEME]
-Sous-groupe [THEME] : [une phrase sur son rôle, ex. « coordination des street medics »].
-Mêmes règles que le groupe de confiance : rien d'illégal, pas de vrais noms, pas de captures.
-Ce groupe ne se mentionne pas ailleurs, ni son nom ni ses membres.
-Messages éphémères : [1 jour].
-Charte complète : message épinglé.
+[THEME] : entraide et logistique. Aucune incitation aux violences ni dégradations ; rien d'illégal (art. 222-14-2 CP). Groupe confidentiel (pas de mention ailleurs). Pas de noms, visages ni captures. Messages éphémères : [1 j].
 ```
 
-### Charte à épingler
+<a id="charte-complete"></a>
+
+### Charte complète
+
+À valider dans le groupe sas avant l'ajout au groupe de confiance.
 
 ```text
 CHARTE — à lire avant d'écrire
@@ -500,9 +560,10 @@ CHARTE — à lire avant d'écrire
 1. NOMS DES GROUPES
 MVT-VILLE-ID-THEME, ex. MVT-VIL-4K9-Medic. L'ID, tiré au hasard, est commun au groupe de confiance et à ses sous-groupes. Quand la famille est remplacée, l'ID change. On ne rejoint un groupe vérifié que par le lien qu'une personne des RH poste dans votre groupe sas, ou sur invitation directe d'un·e gardien·ne connu·e ; jamais par un lien qui circule ailleurs. Aucun groupe sas ne donne accès seul à un groupe vérifié.
 
-2. CE QU'ON ÉCRIT
-Infos pratiques, entraide, logistique, infos publiques.
-Ce qu'on n'écrit jamais : appel à la violence ou aux dégradations, menace (même pour rire), projet d'action illégale. Ces messages servent de preuves : menacer par écrit est puni, et participer à un groupe qui prépare des violences ou des dégradations aussi, même si rien n'a lieu.
+2. VOCATION ET CONTENU
+Groupe à vocation strictement informative, logistique et d'entraide.
+Ce qu'on écrit : infos pratiques, entraide, logistique, infos publiques.
+Ce qu'on n'écrit jamais : appel ou incitation à la violence, aux dégradations, menace (même pour rire), projet d'action illégale. Ces messages servent de preuves : menacer par écrit est puni, et participer à un groupe qui prépare des violences ou des dégradations aussi, même si rien n'a lieu.
 Le sensible se dit en vrai, sans téléphone.
 Pas de vocaux. Liens nettoyés (rien après le « ? »). Visages floutés.
 Besoin d'aide : nommez quelqu'un (@nom). Urgence : 15 ou 112.

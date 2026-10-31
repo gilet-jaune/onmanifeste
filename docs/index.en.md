@@ -1,5 +1,5 @@
 ---
-source_commit: 15583d5ed7e12d430ebd94cc3a97f689faba99f5
+source_commit: f4cc4a378ddb86b538b9bc224262d056eeedabd9
 tags:
     - home
 ---
@@ -9,6 +9,12 @@ tags:
 A collaborative collection of **tools and resources for protesting in France**: secure communication, digital security, legal help (especially for high-school students), first aid, news and organising.
 
 [:material-compass: I am… and I want to…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS: emergency numbers and legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Printable pocket card](carte/index.md){ .md-button }
+
+!!! warning "Disclaimer and purpose of this site"
+
+    This site is strictly **informational, educational, and organizational**: it documents legal rights, first aid guidance, and digital security tools.
+
+    It does not constitute personalized legal advice, nor does it encourage or incite illegal acts, property damage, or violence. Always check information against official sources.
 
 !!! info "How this content is checked"
 
@@ -57,7 +63,3 @@ A collaborative collection of **tools and resources for protesting in France**: 
     [:octicons-arrow-right-24: Add a resource](contribuer/index.md)
 
 </div>
-
-!!! warning "Disclaimer"
-
-    This site is informational, describes French law and practice, and does not replace advice from a lawyer. Always check information against official sources.

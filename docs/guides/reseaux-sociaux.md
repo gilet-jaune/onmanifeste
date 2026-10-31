@@ -18,6 +18,15 @@ tags:
     - **Aimez, commentez, enregistrez, partagez** ce que vous voulez voir circuler.
     - Appeler à manifester : relayer est sans risque, mais organiser une manif non déclarée ou menacer est puni.
 
+!!! info "Par où commencer ?"
+
+    - **Face à un contenu d'extrême droite** → [ne pas le faire monter](reseaux-sociaux.md#ne-pas-les-faire-monter).
+    - **Vous voulez quand même réagir** → [ignorer, ce n'est pas se taire](reseaux-sociaux.md#ignorer-ce-nest-pas-se-taire).
+    - **Faire connaître votre cause** → [faire monter ce qui compte](reseaux-sociaux.md#faire-monter-ce-qui-compte).
+    - **Appeler à manifester** → [ce qui est permis et ce qui est risqué](reseaux-sociaux.md#appeler-a-manifester-en-ligne).
+    - **Un compte ou une vague de messages suspects** → [bots et campagnes coordonnées](reseaux-sociaux.md#bots-et-campagnes-coordonnees).
+    - **Comprendre pourquoi** → [pourquoi ça marche](reseaux-sociaux.md#pourquoi-ca-marche).
+
 Sur les réseaux, ce qui fait réagir est montré à plus de monde. Un commentaire indigné, un partage pour dénoncer ou une vidéo regardée jusqu'au bout **font monter** les contenus d'extrême droite au lieu de les faire taire. Bonne nouvelle : la même mécanique marche dans l'autre sens.
 
 ## Pourquoi ça marche
