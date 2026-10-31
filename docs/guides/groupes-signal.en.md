@@ -1,5 +1,5 @@
 ---
-source_commit: 7744039b4bac0e73adce442eab66cf3e58f23709
+source_commit: fd320f880bea69a67e3fb862df8c026305340f88
 review: juridique
 review_status: pending
 tags:
@@ -198,7 +198,8 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **Disappearing messages by default** for all new chats: Settings › Privacy › Default timer for new chats.[^signal-ephemeres]
 - [ ] **Signal PIN and registration lock**: the PIN protects your **account**; with registration lock on, nobody can re-register your number on another phone without it.[^eff-signal]
 - [ ] **Signal's lock** (Settings › Privacy › Screen lock): the app locks after a period of inactivity. It has **no code of its own**: it uses the phone's (or fingerprint, face).[^eff-signal]
-- [ ] **Hide screen in app switcher**, notifications **without message content**, and **link previews off** ("Generate link previews" setting).[^eff-signal]
+- [ ] **Hide screen in app switcher** and **link previews off** ("Generate link previews" setting).[^eff-signal]
+- [ ] **Notifications with no name or message**: Settings › Notifications › **Show**, then the option that shows neither the name nor the message (Android: "No name or message"; iPhone: "No Name or Content"). By default the sender's name and the text appear on the locked screen, so a group name or a sensitive message would be readable by anyone holding the phone. The exact labels vary with the system and the language.[^signal-notifications]
 - [ ] **No real names in your address book**: if a comrade's number is saved there, Signal shows you the address-book name, not their activist name.[^signal-profils] On a seized phone, that links the two. Connect by **username** rather than number, remove comrades from your contacts, or revoke Signal's access to contacts (phone settings › Signal › Contacts). If you want a reminder, use Signal's **nicknames**, visible only to you,[^signal-confidentialite-numero] with the activist name, never the real one.
 - [ ] **No backup of group history** to the cloud or a shared computer; no automatic saving of photos to your gallery.
 

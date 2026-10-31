@@ -1,5 +1,5 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+source_commit: fd320f880bea69a67e3fb862df8c026305340f88
 review: juridique
 review_status: pending
 tags:
@@ -25,7 +25,7 @@ tags:
 ## Before you go: 4 essential settings
 
 - [ ] **Disable biometrics** (Face ID, Touch ID, fingerprint, face unlock) and use an **alphanumeric passcode or at least a 6-digit PIN** (not a swipe pattern, which is easy to guess from smudges on the screen).[^eff-protest]
-- [ ] Set **auto-lock** to **30 seconds** and hide notification content on the lock screen.[^eff-protest]
+- [ ] Set **auto-lock** to **30 seconds** and hide notification content on the lock screen. In Signal: Settings › Notifications › **Show** › the option with no name or message.[^eff-protest][^signal-notifications]
 - [ ] Enable **disappearing messages** in your group chats ({{ res("signal") }}) and avoid bringing your main phone if a spare phone without personal accounts is enough.[^eff-protest][^eff-signal]
 - [ ] Write your emergency numbers (close contact, legal team) **on your skin under clothing** so you never need to turn your phone on in front of the police.[^sm-guide]
 
