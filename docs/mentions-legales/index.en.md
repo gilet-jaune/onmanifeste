@@ -6,11 +6,16 @@ tags:
 
 # Legal notice and privacy
 
-## Publisher
+## Publisher and publishing approach
 
-This site is published on a **non-professional** basis by the collective behind the [{{ repositories.docs.name }}]({{ repositories.docs.url }}) project. Under the French law on confidence in the digital economy (LCEN), a non-professional publisher may name only its host, provided it has given the host its identification details.[^lcen][^anonymat]
+This site is a collaborative, independent and **volunteer** documentation project, developed under pseudonymity by the collective behind the [{{ repositories.docs.name }}]({{ repositories.docs.url }}) repository.
 
-Contact: [issue forms]({{ repositories.docs.url }}/issues/new/choose) or, for a confidential request (personal data, removal), [private report]({{ repositories.docs.url }}/security/advisories/new).
+Under French law (the LCEN digital economy act), a non-professional publisher's exemption from publishing civil identity details theoretically requires providing identification elements to the host.[^lcen][^anonymat] Because GitHub Pages does not collect civil identity records for free accounts and public repositories, this project embraces **pseudonymous publishing**, which is essential to the safety and freedom of expression of its contributors.
+
+For any legitimate request (right of removal, notice of inaccurate content or infringement of a third party's rights):
+
+- **Public feedback / corrections**: [issue forms]({{ repositories.docs.url }}/issues/new/choose)
+- **Confidential requests (personal data, removal)**: [private report]({{ repositories.docs.url }}/security/advisories/new)
 
 ## Host
 

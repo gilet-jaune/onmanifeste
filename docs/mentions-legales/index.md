@@ -5,11 +5,16 @@ tags:
 
 # Mentions légales et confidentialité
 
-## Éditeur
+## Éditeur et démarche de publication
 
-Ce site est édité à titre **non professionnel** par le collectif à l'origine du projet [{{ repositories.docs.name }}]({{ repositories.docs.url }}). Conformément à la loi pour la confiance dans l'économie numérique, un éditeur non professionnel peut ne mentionner que son hébergeur, à condition de lui avoir communiqué ses éléments d'identification.[^lcen][^anonymat]
+Ce site est un projet documentaire collaboratif, indépendant et **bénévole**, développé sous pseudonymat par le collectif à l'origine du dépôt [{{ repositories.docs.name }}]({{ repositories.docs.url }}).
 
-Contact : [formulaires d'issue]({{ repositories.docs.url }}/issues/new/choose) ou, pour une demande confidentielle (donnée personnelle, retrait), [signalement privé]({{ repositories.docs.url }}/security/advisories/new).
+En droit français (loi pour la confiance dans l'économie numérique), la dispense pour un éditeur non professionnel de mentionner son état civil suppose théoriquement d'avoir transmis ses éléments d'identification à l'hébergeur.[^lcen][^anonymat] GitHub Pages ne recueillant pas d'état civil pour les comptes gratuits et les dépôts publics, ce projet assume une publication sous **pseudonymat**, indispensable à la sécurité et à la liberté d'expression de ses contributeurs et contributrices.
+
+Pour toute demande légitime (exercice d'un droit de retrait, signalement d'un contenu inexact ou atteinte aux droits d'un tiers) :
+
+- **Échanges publics / améliorations** : [formulaires d'issue]({{ repositories.docs.url }}/issues/new/choose)
+- **Demande confidentielle (donnée personnelle, retrait)** : [signalement privé]({{ repositories.docs.url }}/security/advisories/new)
 
 ## Hébergeur
 
