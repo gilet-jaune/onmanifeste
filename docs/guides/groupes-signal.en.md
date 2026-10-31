@@ -25,7 +25,8 @@ An encrypted messenger like {{ res("signal") }} protects your messages in transi
 !!! info "Where to start?"
 
     - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [part 1: members](groupes-signal.md#part-1-members).
-    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups), [the roles](groupes-signal.md#the-roles), then [part 2: organising](groupes-signal.md#part-2-organising).
+    - **You are looking for a role at a protest** (medic, legal, logistics...) → [roles useful at protests](groupes-signal.md#roles-useful-at-protests).
+    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups), [organisation roles](groupes-signal.md#roles-for-organising-the-signal-groups), then [part 2: organising](groupes-signal.md#part-2-organising).
     - **Someone has just been arrested, or a group is compromised** → [part 3: compromised group](groupes-signal.md#part-3-compromised-group).
     - **You organise and want to go straight to your role** (secretary, HR, keyholder, recruiter) → the [menu by role](groupes-signal.md#find-what-concerns-your-role).
     - **You just want the charter** → [copy-paste templates](groupes-signal.md#copy-paste-templates).
@@ -117,7 +118,11 @@ In both cases, the same checks: QR code scanned, settings done, a voucher and HR
 
 Nobody holds every role, and roles **rotate**. And **no group brings together every key person** (see [coordinating](groupes-signal.md#coordinating)).
 
-**Roles for organising the Signal groups**
+<a id="organisation-roles"></a>
+
+### Roles for organising the Signal groups
+
+These roles keep the Signal network running (recruitment, onboarding, moderation, security):
 
 | Role | What they do | What they don't do | Admin in Signal |
 | --- | --- | --- | --- |
@@ -128,7 +133,11 @@ Nobody holds every role, and roles **rotate**. And **no group brings together ev
 | **Moderation** | Reminds people of the charter, deals with issues privately | Accuse anyone in the group | No |
 | **"Lost group" lead** | Triggers the [part 3 procedure](groupes-signal.md#part-3-compromised-group), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
 
-**Roles useful at protests**, as needed: each relies on a sub-group (`Medic`, `Legal`…) and on a guide on this site.
+<a id="protest-roles"></a>
+
+### Roles useful at protests
+
+These ground roles operate during protests according to your needs. Each relies on a sub-group (`Medic`, `Legal`…) and on a guide on this site:
 
 | Role | What they do | What they don't do | Learn more |
 | --- | --- | --- | --- |
@@ -141,7 +150,7 @@ Nobody holds every role, and roles **rotate**. And **no group brings together ev
 | **Build** | Banners, placards, equipment | Equipment that could pass for a weapon | [Signs, banners, flags and leaflets](faire-sa-pancarte.md) · [Kit and what to wear](kit-manif.md) |
 | **Communication** | Visuals, announcements, social media | Repost far-right content | [Communicating at a protest](communiquer.md) · [Social media](reseaux-sociaux.md) |
 
-**A few more words:**
+### Key vocabulary and concepts
 
 - **Voucher**: a vetted member who really knows a new person (outside the airlock group: friend, colleague, neighbour, or seen in action at several protests) and vouches for them, privately, to the secretary.
 - **Activist name**: the pseudonym used on Signal and in person.

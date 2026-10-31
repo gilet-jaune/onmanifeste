@@ -117,7 +117,7 @@ Media outlets list every year the signs that marked the marches. Take them as **
 - [ ] **Credit the source** when you reuse someone else's sign.
 - [ ] **To push it online**, see [Social media: don't feed hate](reseaux-sociaux.md), including the anonymity of shared links.
 
-[:octicons-arrow-right-24: Protest kit and outfit](kit-manif.md) · [:octicons-arrow-right-24: The Palestinian flag at protests](drapeau-palestinien.md) · [:octicons-arrow-right-24: Signal groups: the roles](groupes-signal.md#the-roles)
+[:octicons-arrow-right-24: Protest kit and outfit](kit-manif.md) · [:octicons-arrow-right-24: The Palestinian flag at protests](drapeau-palestinien.md) · [:octicons-arrow-right-24: Signal groups: roles useful at protests](groupes-signal.md#roles-useful-at-protests)
 
 ## Sources
 

@@ -116,7 +116,7 @@ Des médias recensent chaque année les pancartes qui ont marqué les cortèges.
 - [ ] **Citez la source** quand vous reprenez la pancarte de quelqu'un d'autre.
 - [ ] **Pour la mettre en avant en ligne**, voir [Réseaux sociaux : ne pas nourrir la haine](reseaux-sociaux.md), y compris l'anonymat des liens partagés.
 
-[:octicons-arrow-right-24: Kit et tenue de manif](kit-manif.md) · [:octicons-arrow-right-24: Drapeau palestinien en manifestation](drapeau-palestinien.md) · [:octicons-arrow-right-24: Groupes Signal : les rôles](groupes-signal.md#les-roles)
+[:octicons-arrow-right-24: Kit et tenue de manif](kit-manif.md) · [:octicons-arrow-right-24: Drapeau palestinien en manifestation](drapeau-palestinien.md) · [:octicons-arrow-right-24: Groupes Signal : les rôles utiles en manif](groupes-signal.md#roles-utiles-en-manif)
 
 ## Sources
 

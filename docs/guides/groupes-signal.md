@@ -24,7 +24,8 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 !!! info "Par où commencer ?"
 
     - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis la [partie 1 : membres](groupes-signal.md#partie-1-membres).
-    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles](groupes-signal.md#les-roles), puis la [partie 2 : organiser](groupes-signal.md#partie-2-organiser).
+    - **Vous cherchez un rôle en manif** (medic, legal, logistique...) → [les rôles utiles en manif](groupes-signal.md#roles-utiles-en-manif).
+    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal), puis la [partie 2 : organiser](groupes-signal.md#partie-2-organiser).
     - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [partie 3 : groupe compromis](groupes-signal.md#partie-3-groupe-compromis).
     - **Vous organisez et voulez aller droit à votre rôle** (secrétaire, RH, gardien·ne, recruteur·se) → le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
     - **Vous voulez juste la charte** → [modèles à copier-coller](groupes-signal.md#modeles-a-copier-coller).
@@ -116,7 +117,11 @@ Dans les deux cas, les mêmes contrôles : code QR scanné, réglages faits, un�
 
 Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne réunit toutes les personnes clés** (voir [se coordonner](groupes-signal.md#se-coordonner)).
 
-**Rôles d'organisation des groupes Signal**
+<a id="roles-organisation"></a>
+
+### Rôles d'organisation des groupes Signal
+
+Ces rôles font fonctionner le réseau Signal (recrutement, accueil, modération, sécurité) :
 
 | Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Admin dans Signal |
 | --- | --- | --- | --- |
@@ -127,7 +132,11 @@ Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne r
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe | Non |
 | **Référent·e « groupe perdu »** | Déclenche la [procédure de la partie 3](groupes-signal.md#partie-3-groupe-compromis), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes |
 
-**Rôles utiles en manif**, selon vos besoins : chacun s'appuie sur un sous-groupe (`Medic`, `Legal`…) et sur un guide du site.
+<a id="roles-en-manif"></a>
+
+### Rôles utiles en manif
+
+Ces rôles de terrain s'exercent en manifestation selon vos besoins. Chacun s'appuie sur un sous-groupe (`Medic`, `Legal`…) et sur un guide du site :
 
 | Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Pour en savoir plus |
 | --- | --- | --- | --- |
@@ -140,7 +149,7 @@ Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne r
 | **Construction** | Banderoles, pancartes, matériel | Matériel qui peut passer pour une arme | [Pancartes, banderoles, drapeaux et tracts](faire-sa-pancarte.md) · [Kit et tenue de manif](kit-manif.md) |
 | **Communication** | Visuels, annonces, réseaux | Reprendre du contenu d'extrême droite | [Communiquer pendant une manif](communiquer.md) · [Réseaux sociaux](reseaux-sociaux.md) |
 
-**Quelques mots encore :**
+### Vocabulaire et concepts clés
 
 - **Garant·e** : membre vérifié·e qui connaît vraiment une nouvelle personne (en dehors du groupe sas : ami·e, collègue, voisin·e, ou vue agir sur plusieurs actions) et se porte garant·e pour elle, en privé, auprès du ou de la secrétaire.
 - **Nom de militant·e** : le pseudo utilisé sur Signal et en vrai.
