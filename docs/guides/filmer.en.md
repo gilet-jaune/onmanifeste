@@ -1,5 +1,5 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+source_commit: af1d151a69851306b7f15aca1194ae7beab09690
 review: juridique
 review_status: pending
 tags:
@@ -34,6 +34,8 @@ If your phone is seized, broken or stolen, footage that wasn't backed up is lost
 - [ ] Start **before** the action if you can, and film **continuously**: what comes before and after matters as much as the act itself.[^witness-preuve]
 - [ ] Show the **context**: a street sign, a landmark, the time on screen or said out loud.[^witness-preuve]
 - [ ] **Frame the officers**: actions, weapons used, unit, ID number (RIO) if visible. Avoid the faces of protesters and of people being arrested.[^witness-police]
+- [ ] **Why avoid faces, even if you will blur them afterwards**: blurring only protects the published copy. The original, which must be kept intact, still contains the faces, and it can be seen if the phone is seized, or passed on to the legal team and to a lawyer. Avoiding faces while filming reduces that risk. It is not a ban: filming a public protest is still allowed.[^sp-droit-image]
+- [ ] **A face you cannot avoid** (crowd, an injured or arrested person): don't seek it out, keep the original intact and show it only to the legal team or a lawyer; publish only a blurred copy without metadata. A victim's face can be part of the evidence.
 - [ ] Hold the phone **horizontally** and steady; keep your distance, don't obstruct the intervention.
 - [ ] Don't stop filming if told to without reason: it is your right. Stay calm and polite.[^amnesty-filmer]
 
