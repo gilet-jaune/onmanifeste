@@ -11,7 +11,7 @@
   const script = document.currentScript;
   // Another decision tree can reuse this script: data-src names its file in data/, data-key its
   // top-level key, and data-iam, data-iwant, data-type-iam, data-type-want, data-pick, data-need-of
-  // and data-sentence ({p} and {n} placeholders) replace the step wording.
+  // replace the step wording.
   const PARCOURS_URL = new URL(`../data/${root.dataset.src || 'parcours.json'}`, script.src);
   const DATA_KEY = root.dataset.key || 'parcours';
   const RESOURCES_URL = new URL('../data/resources.json', script.src);
@@ -27,7 +27,6 @@
       step: (n) => `Étape ${n} sur 2`,
       hintIam: 'Touchez une situation ci-dessous, ou tapez quelques mots.',
       hintWant: 'Touchez ce que vous voulez faire, ou tapez quelques mots.',
-      example: 'Par exemple :',
       pick: 'Choisir cette situation',
       typeWant: 'Tapez quelques mots',
       change: 'Changer',
@@ -49,7 +48,6 @@
       sources: 'Sources :',
       tocTitle: 'Table des matières',
       error: 'Impossible de charger le parcours. La liste complète reste disponible ci-dessous.',
-      sentence: (p, n) => `Je suis ${p} et je veux ${n}.`,
     },
     en: {
       iam: 'I am…',
@@ -58,7 +56,6 @@
       step: (n) => `Step ${n} of 2`,
       hintIam: 'Tap a situation below, or type a few words.',
       hintWant: 'Tap what you want to do, or type a few words.',
-      example: 'For example:',
       pick: 'Choose this situation',
       typeWant: 'Type a few words',
       change: 'Change',
@@ -80,7 +77,6 @@
       sources: 'Sources:',
       tocTitle: 'Table of contents',
       error: 'Unable to load the guided search. The full list is still available below.',
-      sentence: (p, n) => `I am ${p} and I want to ${n}.`,
     },
   }[lang];
   const fill = (tpl) => (p, n) => tpl.replace('{p}', p).replace('{n}', n);
@@ -88,7 +84,6 @@
     if (root.dataset[key]) T[key] = root.dataset[key];
   }
   if (root.dataset.needOf) T.needOf = fill(root.dataset.needOf);
-  if (root.dataset.sentence) T.sentence = fill(root.dataset.sentence);
 
   const STORE_LABELS = { android: 'Google Play', fdroid: 'F-Droid', ios: 'App Store' };
   const SOCIAL_LABELS = {
@@ -341,16 +336,16 @@
   // "Je suis [nassé·e]": cycles through the profiles; clicking picks the one shown. Stops while the
   // person types or hovers, and does not move at all with prefers-reduced-motion.
   let rotatorTimer;
-  function rotator(profiles, input) {
+  function rotator(items, input, pick) {
     const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let i = 0;
     let paused = false;
     const btn = el('button', { type: 'button', class: 'parcours__rotator', title: T.pick }, '');
     const show = () => {
-      btn.textContent = `${loc(profiles[i].label)}…`;
-      btn.dataset.profile = profiles[i].id;
+      btn.textContent = `${loc(items[i].label)}…`;
+      btn.dataset.id = items[i].id;
     };
-    btn.addEventListener('click', () => go({ je: btn.dataset.profile }));
+    btn.addEventListener('click', () => pick(btn.dataset.id));
     for (const evt of ['mouseenter', 'focus']) btn.addEventListener(evt, () => (paused = true));
     for (const evt of ['mouseleave', 'blur']) btn.addEventListener(evt, () => (paused = false));
     input.addEventListener('input', () => {
@@ -361,7 +356,7 @@
     if (!still) {
       rotatorTimer = setInterval(() => {
         if (paused || !btn.isConnected) return;
-        i = (i + 1) % profiles.length;
+        i = (i + 1) % items.length;
         show();
       }, 2500);
     }
@@ -468,7 +463,7 @@
     }
   }
 
-  // One need: its sentence, urgent numbers and result cards.
+  // One need: the chosen situation and need, urgent numbers and result cards.
   function needBlock(profile, need, heading = 'h2') {
     const needId = `besoin-${need.id}`;
     return el(
@@ -511,9 +506,14 @@
       append(
         view,
         el('p', { class: 'parcours__stepno' }, T.step(1)),
-        el('h2', { class: 'parcours__step' }, T.iam),
+        el(
+          'h2',
+          { class: 'parcours__step' },
+          T.iam.replace('…', ''),
+          ' ',
+          rotator(data, p.input, (id) => go({ je: id })),
+        ),
         el('p', { class: 'parcours__hint' }, T.hintIam),
-        el('p', { class: 'parcours__example' }, T.example, ' ', rotator(data, p.input)),
         p.node,
       );
       root.replaceChildren(view);
@@ -523,10 +523,11 @@
     }
 
     const crumb = el(
-      'p',
-      { class: 'parcours__crumb' },
-      el('span', {}, `${T.iam.replace('…', '')} `),
-      el('strong', {}, loc(profile.label)),
+      'h2',
+      { class: 'parcours__step' },
+      T.iam.replace('…', ''),
+      ' ',
+      el('span', { class: 'parcours__chosen' }, loc(profile.label)),
       ' ',
       el('button', { type: 'button', class: 'parcours__link', onclick: () => go({}) }, T.change),
     );
@@ -562,13 +563,19 @@
         view,
         crumb,
         el('p', { class: 'parcours__stepno' }, T.step(2)),
-        el('h2', { class: 'parcours__step' }, T.iwant),
+        el(
+          'h2',
+          { class: 'parcours__step' },
+          T.iwant.replace(/…$/, ''),
+          ' ',
+          rotator(profile.needs, p.input, (id) => go({ je: profile.id, veux: id })),
+        ),
         el('p', { class: 'parcours__hint' }, T.hintWant),
         p.node,
       );
       root.replaceChildren(view);
       p.input.focus({ preventScroll: true });
-      if (scrollToStep) view.querySelector('.parcours__stepno')?.scrollIntoView({ block: 'start' });
+      if (scrollToStep) crumb.scrollIntoView({ block: 'start' });
       return;
     }
 
@@ -576,7 +583,20 @@
     syncToc(null);
     append(
       view,
-      el('p', { class: 'parcours__sentence' }, T.sentence(loc(profile.label), loc(need.label))),
+      crumb,
+      el(
+        'h2',
+        { class: 'parcours__step' },
+        T.iwant.replace(/…$/, ''),
+        ' ',
+        el('span', { class: 'parcours__chosen' }, loc(need.label)),
+        ' ',
+        el(
+          'button',
+          { type: 'button', class: 'parcours__link', onclick: () => go({ je: profile.id }) },
+          T.change,
+        ),
+      ),
       need.urgent ? urgentBlock() : null,
       el('h2', { class: 'parcours__step' }, T.results),
       el('div', { class: 'parcours__results' }, ...need.results.map(resultNode).filter(Boolean)),
