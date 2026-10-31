@@ -1499,7 +1499,7 @@ select:focus-visible {
 
 .parcours__input {
   width: 100%;
-  min-height: 2.8rem;
+  min-height: 3rem;
   padding: 0.6rem 0.9rem;
   border: 3px solid var(--ap-line);
   border-radius: var(--ap-radius);
@@ -1518,14 +1518,14 @@ select:focus-visible {
 }
 
 .parcours__choice {
-  min-height: 2.4rem;
-  padding: 0.4rem 0.9rem;
+  min-height: 2.75rem;
+  padding: 0.45rem 0.9rem;
   border: 2px solid var(--ap-ink);
   border-radius: var(--ap-radius);
   background: var(--ap-vest);
   color: var(--ap-ink);
   font: inherit;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 700;
   text-align: left;
   cursor: pointer;
@@ -2292,4 +2292,176 @@ dialog.contact-card {
 .md-typeset sup[id^='fnref'] + sup[id^='fnref']::before {
   content: ', ';
   margin-left: -0.1em;
+}
+
+/* --- Guides page: filter by text and theme ------------------------------- */
+.guides-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.guides-filter__label {
+  font-weight: 700;
+}
+
+.guides-filter__input {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0 0.8rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font: inherit;
+}
+
+.guides-filter__input:focus-visible,
+.guides-filter__chip:focus-visible,
+.guides-filter__reset:focus-visible {
+  outline: 3px solid var(--ap-vest);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--ap-ink);
+}
+
+.guides-filter__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.guides-filter__chip,
+.guides-filter__reset {
+  min-height: 2.5rem;
+  padding: 0 0.8rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: 1.25rem;
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.guides-filter__chip[aria-pressed='true'] {
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.guides-filter__status {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.guides-filter__reset {
+  align-self: flex-start;
+}
+
+.md-typeset .grid.cards[hidden],
+.md-typeset .grid.cards > ul > li[hidden],
+.md-typeset h2[hidden] {
+  display: none !important;
+}
+
+/* Phones: denser cards on the guides page (title, two lines, link). */
+@media (max-width: 44.9375em) {
+  article:has(.guides-filter) .grid.cards > ul > li {
+    padding: 0.6rem 0.8rem;
+  }
+
+  article:has(.guides-filter) .grid.cards > ul > li hr {
+    display: none;
+  }
+
+  article:has(.guides-filter) .grid.cards > ul > li > p {
+    margin: 0.2rem 0;
+  }
+
+  article:has(.guides-filter) .grid.cards > ul > li > p:nth-of-type(2) {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 0.8rem;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+}
+
+/* Keep the last lines clear of the floating SOS button. */
+.md-footer-meta__inner {
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 44.9375em) {
+  .guides-filter__chips {
+    flex-wrap: nowrap;
+    padding-bottom: 0.4rem;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+
+  .guides-filter__chip {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    white-space: nowrap;
+  }
+}
+
+/* Guided search: say which step we are on and what to do. */
+.md-typeset .parcours__stepno {
+  display: inline-block;
+  margin: 0.8rem 0 0;
+  padding: 0.15rem 0.6rem;
+  border-radius: 1rem;
+  background: var(--ap-ink);
+  color: var(--ap-vest);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+[data-md-color-scheme='slate'] .md-typeset .parcours__stepno {
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.md-typeset .parcours__stepno {
+  scroll-margin-top: 4.5rem;
+}
+
+.md-typeset .parcours__stepno + .parcours__step {
+  margin-top: 0.4rem;
+}
+
+.md-typeset .parcours__hint {
+  margin: 0 0 0.6rem;
+  font-weight: 600;
+}
+
+.md-typeset .parcours__example {
+  margin: 0 0 0.6rem;
+  color: var(--ap-muted);
+  font-size: 0.8rem;
+}
+
+.md-typeset .parcours__example .parcours__rotator {
+  font-size: 0.85rem;
+}
+
+/* The chosen situation stays visible as a pill, with a way to change it. */
+.md-typeset .parcours__crumb {
+  margin: 0.8rem 0 0;
+  padding: 0.5rem 0.8rem;
+  border: 2px solid var(--ap-line);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+  color: var(--ap-text);
+}
+
+.md-typeset .parcours__crumb::before {
+  content: '✓ ';
+  font-weight: 800;
 }

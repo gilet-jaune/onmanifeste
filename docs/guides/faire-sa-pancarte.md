@@ -20,6 +20,13 @@ tags:
 
 Une bonne pancarte tient en une idée. Elle se lit en quelques secondes, dans un cortège qui avance, et elle est faite pour être photographiée. Ce guide vaut pour toutes les causes ; pour le contexte juridique du drapeau palestinien, voir [Drapeau palestinien en manifestation](drapeau-palestinien.md).
 
+!!! tip "Par où commencer ?"
+
+    - Vous préparez une pancarte ou une banderole : [le message](#le-message) puis [le matériel](#le-materiel).
+    - Vous voulez un pochoir ou un drapeau : [le pochoir](#le-pochoir) ou [le drapeau](#le-drapeau).
+    - Vous distribuez ou affichez des tracts : [tracts, affiches et autocollants](#tracts-affiches-et-autocollants).
+    - Avant de reprendre un slogan : [les slogans à risque](#les-slogans-a-risque).
+
 ## Le message
 
 - [ ] **Une idée, quelques mots.** Un message « clair, puissant et simple » : c'est la règle d'Amnesty pour ses banderoles, et elle vaut pour une pancarte.[^amnesty-how-to-make-a-banner]

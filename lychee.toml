@@ -58,6 +58,12 @@ exclude = [
     '^https://www\.ilevia\.fr/',
     '^https://www\.lignesdazur\.com/',
     '^https://gijn\.org/',
+    # Sites that answer 403 or 999 to automated checks while working in a browser.
+    '^https://support\.signal\.org/',
+    '^https://resources\.rsf\.org/',
+    '^https://doi\.org/',
+    '^https://(www\.)?linkedin\.com/',
+    '^https://x\.com/',
     '^https://github\.com/gilet-jaune/onmanifeste.*',
     '^https://fonts\.gstatic\.com/.*'
 ]

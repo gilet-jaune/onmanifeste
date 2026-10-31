@@ -20,6 +20,13 @@ tags:
 
     Si vous avez des idées noires ou besoin de parler tout de suite : appelez le **3114** (gratuit, confidentiel, 24 h/24 et 7 j/7) ou **France Victimes** au **116 006**.[^numero-3114][^france-victimes]
 
+!!! tip "Par où commencer ?"
+
+    - Une crise d'angoisse ou de panique : [sur le moment](#sur-le-moment-calmer-une-crise-dangoisse-ou-de-panique).
+    - Quelques jours après : [le contrecoup](#les-jours-suivants-le-contrecoup).
+    - Vous êtes à bout : [découragement et épuisement](#decouragement-et-epuisement-militant).
+    - Parler à quelqu'un : [qui appeler](#qui-appeler-gratuit-et-confidentiel).
+
 ## Sur le moment : calmer une crise d'angoisse ou de panique
 
 Après une charge, des tirs de grenades, une nasse ou en cellule, le corps peut déclencher une réaction d'alerte intense (cœur qui s'emballe, souffle court, tremblements, impression d'irréalité) :[^medic-gestes]

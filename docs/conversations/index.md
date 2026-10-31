@@ -9,7 +9,7 @@ Dites quel est votre rôle dans les groupes, puis ce que vous voulez faire : la 
 
 {% import "overrides/partials/parcours-tree.html" as pt with context %}
 
-<div class="parcours" data-parcours data-src="parcours-signal.json" data-key="parcours_signal" data-type-iam="Tapez ou choisissez : nouveau, secrétaire, gardien·ne…">
+<div class="parcours" data-parcours data-src="parcours-signal.json" data-key="parcours_signal" data-type-iam="Tapez quelques mots">
     <noscript><p>JavaScript est désactivé : voici tous les parcours.</p></noscript>
     {{ pt.tree('fr', parcours_signal) }}
 </div>

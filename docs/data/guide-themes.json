@@ -1,0 +1,103 @@
+{
+  "guide_themes": {
+    "themes": [
+      {
+        "id": "preparer",
+        "label": {
+          "fr": "Préparer et se déplacer",
+          "en": "Prepare and get around"
+        }
+      },
+      {
+        "id": "droits",
+        "label": {
+          "fr": "Droits et loi",
+          "en": "Rights and law"
+        }
+      },
+      {
+        "id": "gav",
+        "label": {
+          "fr": "Garde à vue et suites",
+          "en": "Custody and aftermath"
+        }
+      },
+      {
+        "id": "sante",
+        "label": {
+          "fr": "Santé et secours",
+          "en": "Health and first aid"
+        }
+      },
+      {
+        "id": "numerique",
+        "label": {
+          "fr": "Téléphone et numérique",
+          "en": "Phone and digital"
+        }
+      },
+      {
+        "id": "image",
+        "label": {
+          "fr": "Filmer et publier",
+          "en": "Film and publish"
+        }
+      },
+      {
+        "id": "organiser",
+        "label": {
+          "fr": "S'organiser",
+          "en": "Organise"
+        }
+      },
+      {
+        "id": "informer",
+        "label": {
+          "fr": "Informer et convaincre",
+          "en": "Inform and convince"
+        }
+      },
+      {
+        "id": "situation",
+        "label": {
+          "fr": "Selon ma situation",
+          "en": "Depending on my situation"
+        }
+      }
+    ],
+    "guides": {
+      "armes-police": ["droits", "sante"],
+      "avant-de-partir": ["preparer"],
+      "casse": ["droits"],
+      "communiquer": ["numerique", "organiser"],
+      "controle-fouille": ["droits"],
+      "convaincre-ses-proches": ["informer"],
+      "desinformation": ["informer", "numerique"],
+      "dispersion": ["droits"],
+      "drapeau-palestinien": ["droits", "situation"],
+      "droit-de-manifester": ["droits"],
+      "etrangers": ["situation", "droits"],
+      "extreme-droite": ["situation", "sante"],
+      "faire-sa-pancarte": ["preparer", "informer"],
+      "filmer": ["image", "droits"],
+      "garde-a-vue": ["gav", "droits"],
+      "groupes-signal": ["organiser", "numerique"],
+      "handicap": ["situation", "sante"],
+      "kit-manif": ["preparer"],
+      "lyceens": ["situation", "droits"],
+      "ne-pas-rester-seul": ["preparer"],
+      "organiser": ["organiser"],
+      "parler-a-la-presse": ["image", "informer"],
+      "photographier-pour-la-presse": ["image"],
+      "premiers-secours": ["sante"],
+      "reseaux-sociaux": ["numerique", "informer"],
+      "s-informer-se-former": ["informer"],
+      "sante-mentale": ["sante"],
+      "suites-judiciaires": ["gav", "droits"],
+      "telephone": ["numerique"],
+      "travail": ["situation", "droits"],
+      "venir-repartir": ["preparer"],
+      "violences-harcelement": ["situation", "sante", "numerique"]
+    }
+  }
+}

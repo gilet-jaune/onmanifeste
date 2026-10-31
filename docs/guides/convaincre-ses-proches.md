@@ -17,6 +17,14 @@ On convainc rarement quelqu'un en une discussion, et presque jamais en ayant « 
 
 Arguments sourcés selon la personne (femme, retraité·e, prof, artisan, policier·e…) : [Pourquoi nous rejoindre ?](../rallier/index.md).
 
+!!! tip "Par où commencer ?"
+
+    - Vous allez en discuter : [avant](#avant), puis [pendant](#pendant).
+    - Ça s'est mal passé ou vous craignez de vous fâcher : [à éviter](#a-eviter).
+    - Envoyer un lien : [liens à partager](#liens-a-partager).
+    - Des chiffres vérifiés : [ordres de grandeur](#ou-trouver-des-ordres-de-grandeur-verifies).
+    - Le débat sur les « casseurs » : [sortir du piège médiatique](#sortir-du-piege-mediatique-sur-les-casseurs).
+
 ## Avant
 
 - **Choisissez le moment** : pas à chaud après une image choc, pas devant tout le monde au repas de famille.

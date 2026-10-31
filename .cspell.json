@@ -136,7 +136,8 @@
     "Wikidata",
     "Zucman",
     "IFCN",
-    "InVID"
+    "InVID",
+    "tojson"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

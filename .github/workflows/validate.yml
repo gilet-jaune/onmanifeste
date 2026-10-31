@@ -83,7 +83,8 @@ jobs:
         uses: lycheeverse/lychee-action@v2.8.0
         with:
           args: '--config lychee.toml ./site/**/*.html'
-          fail: true
+          # Blocks pull requests only: an external site being down must not stop a publication.
+          fail: ${{ github.event_name == 'pull_request' }}
 
       - name: Quality Summary 📝
         if: always()

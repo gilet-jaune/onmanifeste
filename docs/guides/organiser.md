@@ -17,6 +17,13 @@ tags:
 
 Organiser, c'est déclarer, préparer la sécurité et prévoir l'après. Les obligations pèsent surtout sur les **organisateur·ices**.
 
+!!! tip "Par où commencer ?"
+
+    - Déclarer la manifestation : [déclarer](#declarer).
+    - Préparer la sécurité : [préparer](#preparer).
+    - Après la manif : [après](#apres).
+    - Organiser loin des centres-villes : [s'organiser localement](#sorganiser-localement-au-dela-des-centres-villes).
+
 ## Déclarer
 
 - En France, une manifestation sur la voie publique se **déclare**, elle n'a pas à être autorisée.[^amnesty-droits]

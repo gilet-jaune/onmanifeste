@@ -15,6 +15,11 @@ tags:
 
 Sur place, le réseau mobile sature souvent, et un téléphone peut être perdu ou saisi. Choisissez l'outil selon la situation, et prévoyez un plan B sans réseau.
 
+!!! tip "Par où commencer ?"
+
+    - Choisir une application : [le comparatif](#comparatif).
+    - Le réseau est coupé ou saturé : [si Internet ou les réseaux sociaux sont coupés](#si-internet-ou-les-reseaux-sociaux-sont-coupes).
+
 ## Comparatif
 
 | Critère | {{ res("signal") }} | {{ res("briar") }} | {{ res("meshtastic") }} | {{ res("bitchat") }} |

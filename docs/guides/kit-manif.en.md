@@ -1,5 +1,5 @@
 ---
-source_commit: dc0832ad5dc63ebc446a9461b0a2fb34345a7d42
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 review: juridique
 review_status: pending
 tags:
@@ -18,6 +18,12 @@ tags:
     - **Leave at home**: anything that could pass for a **weapon**, and lists of comrades' **names**.
 
 Simple, covering clothes with no unnecessary distinctive signs, and a small light bag. The goal: protect yourself, be able to leave quickly, and carry nothing that could be held against you.
+
+!!! tip "Where to start?"
+
+    - What to wear: [clothes](#clothes).
+    - Protecting yourself from gas and impacts: [protection](#protection).
+    - Packing your bag: [in the bag](#in-the-bag), then [leave at home](#leave-at-home).
 
 ## Clothes
 

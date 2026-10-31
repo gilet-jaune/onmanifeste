@@ -1,5 +1,5 @@
 ---
-source_commit: 6e798e56840bf305cea81888fe7e3b42ef98500f
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 review: medical
 review_status: pending
 tags:
@@ -20,6 +20,13 @@ tags:
 !!! warning "In case of immediate distress"
 
     If you are having dark thoughts or need to talk right now: call **3114** (free, confidential, 24/7 in France) or **France Victimes** on **116 006**.[^numero-3114][^france-victimes]
+
+!!! tip "Where to start?"
+
+    - An anxiety or panic attack: [in the moment](#in-the-moment-calming-an-anxiety-or-panic-attack).
+    - A few days later: [the aftermath](#the-following-days-the-aftermath).
+    - You are worn out: [discouragement and burnout](#discouragement-and-activist-burnout).
+    - Talking to someone: [who to call](#who-to-call-free-and-confidential).
 
 ## In the moment: calming an anxiety or panic attack
 

@@ -1,5 +1,5 @@
 ---
-source_commit: e327fc80da49fc645a695fe7597a1018ff53ddf6
+source_commit: 006de4f4defc609dceb3c7c55b9720003821c66f
 tags:
     - guides
 ---
@@ -9,6 +9,9 @@ tags:
 Guides to read before you go, **available offline** once the site has been opened (or installed) on your phone.
 
 **Where to start?** [Pre-protest checklist](avant-de-partir.md) · [Never stay alone](ne-pas-rester-seul.md) · [Police custody (garde à vue)](garde-a-vue.md)
+
+<div data-guides-filter></div>
+<div id="guide-themes" hidden data-themes='{{ guide_themes | tojson }}'></div>
 
 ## Before the protest
 
@@ -29,6 +32,14 @@ Guides to read before you go, **available offline** once the site has been opene
     A freedom, not a permission: declaring, lawful and unlawful bans, how to challenge them.
 
     [:octicons-arrow-right-24: Read](droit-de-manifester.md)
+
+- **Why property gets smashed at protests** [:material-comment-question:](casse.md)
+
+    ***
+
+    Who breaks things, why, what you risk, how to react.
+
+    [:octicons-arrow-right-24: Read](casse.md)
 
 - **Protest kit and outfit** [:material-bag-personal:](kit-manif.md)
 
@@ -267,3 +278,19 @@ Guides to read before you go, **available offline** once the site has been opene
     ***
 
     Check a story, an image or a toll; write a short, sourced debunk.
+
+- **Talk to your loved ones** [:material-forum:](convaincre-ses-proches.md)
+
+    ***
+
+    Talk about the mobilisation without arguing: listen, tell, suggest.
+
+    [:octicons-arrow-right-24: Read](convaincre-ses-proches.md)
+
+- **Stay informed, get trained** [:material-school:](s-informer-se-former.md)
+
+    ***
+
+    Non-violent action training, mobilisation calendar, accounts to follow.
+
+    [:octicons-arrow-right-24: Read](s-informer-se-former.md)

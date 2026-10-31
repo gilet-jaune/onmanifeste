@@ -23,9 +23,13 @@
     fr: {
       iam: 'Je suis…',
       iwant: '… et je veux…',
-      typeIam: 'Tapez ou choisissez : nassé·e, blessé·e, en garde à vue…',
+      typeIam: 'Tapez quelques mots',
+      step: (n) => `Étape ${n} sur 2`,
+      hintIam: 'Touchez une situation ci-dessous, ou tapez quelques mots.',
+      hintWant: 'Touchez ce que vous voulez faire, ou tapez quelques mots.',
+      example: 'Par exemple :',
       pick: 'Choisir cette situation',
-      typeWant: 'Tapez ou choisissez ce que vous voulez faire',
+      typeWant: 'Tapez quelques mots',
       change: 'Changer',
       restart: 'Recommencer',
       other: 'Autre besoin',
@@ -50,9 +54,13 @@
     en: {
       iam: 'I am…',
       iwant: '… and I want to…',
-      typeIam: 'Type or choose: kettled, injured, in custody…',
+      typeIam: 'Type a few words',
+      step: (n) => `Step ${n} of 2`,
+      hintIam: 'Tap a situation below, or type a few words.',
+      hintWant: 'Tap what you want to do, or type a few words.',
+      example: 'For example:',
       pick: 'Choose this situation',
-      typeWant: 'Type or choose what you want to do',
+      typeWant: 'Type a few words',
       change: 'Change',
       restart: 'Start again',
       other: 'Something else',
@@ -130,7 +138,11 @@
       ...children.filter((c) => c !== null && c !== undefined && c !== false && c !== ''),
     );
 
+  // After a click, bring the next step to the top; not on first load or when going back.
+  let scrollToStep = false;
+
   function go(params, push = true) {
+    scrollToStep = push;
     const qs = new URLSearchParams(params).toString();
     const url = qs ? `?${qs}` : window.location.pathname;
     if (push) history.pushState(params, '', url);
@@ -483,7 +495,10 @@
       });
       append(
         view,
-        el('h2', { class: 'parcours__step' }, T.iam.replace('…', ''), ' ', rotator(data, p.input)),
+        el('p', { class: 'parcours__stepno' }, T.step(1)),
+        el('h2', { class: 'parcours__step' }, T.iam),
+        el('p', { class: 'parcours__hint' }, T.hintIam),
+        el('p', { class: 'parcours__example' }, T.example, ' ', rotator(data, p.input)),
         p.node,
       );
       root.replaceChildren(view);
@@ -528,9 +543,17 @@
         onPick: (x) => go({ je: profile.id, veux: x.id }),
         emptyHint: directoryLink,
       });
-      append(view, crumb, el('h2', { class: 'parcours__step' }, T.iwant), p.node);
+      append(
+        view,
+        crumb,
+        el('p', { class: 'parcours__stepno' }, T.step(2)),
+        el('h2', { class: 'parcours__step' }, T.iwant),
+        el('p', { class: 'parcours__hint' }, T.hintWant),
+        p.node,
+      );
       root.replaceChildren(view);
       p.input.focus({ preventScroll: true });
+      if (scrollToStep) view.querySelector('.parcours__stepno')?.scrollIntoView({ block: 'start' });
       return;
     }
 

@@ -1,5 +1,5 @@
 ---
-source_commit: a1dcc6101dd0052b153a140eb40b98afc8969b85
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 tags:
     - guides
     - communication
@@ -15,6 +15,11 @@ tags:
     - Always a **paper plan**: meeting point, fallback time, numbers written down.
 
 On site, the mobile network often saturates, and a phone can be lost or seized. Pick the tool for the situation, and have a no-network plan B.
+
+!!! tip "Where to start?"
+
+    - Choosing an app: [the comparison](#comparison).
+    - The network is cut or saturated: [if the Internet or social media are cut](#if-the-internet-or-social-media-are-cut).
 
 ## Comparison
 

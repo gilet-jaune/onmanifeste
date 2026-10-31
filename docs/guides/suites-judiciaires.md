@@ -22,6 +22,12 @@ tags:
 
     Fiche générale, pas un conseil juridique. Contactez un·e avocat·e ou une legal team avant toute audition ou audience.
 
+!!! tip "Par où commencer ?"
+
+    - Après des violences policières : [le schéma](#schema-apres-des-violences-policieres), puis [faire constater et porter plainte](#apres-des-violences-faire-constater-et-porter-plainte).
+    - Vous êtes convoqué·e : [audition libre](#convoquee-en-audition-libre).
+    - Procès ou comparution immédiate : [les justificatifs à réunir](#comparution-immediate-et-proces-les-justificatifs-a-reunir-durgence).
+
 ## Schéma : après des violences policières
 
 <div class="flow" markdown>

@@ -1,5 +1,5 @@
 ---
-source_commit: e327fc80da49fc645a695fe7597a1018ff53ddf6
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 review: juridique
 review_status: pending
 tags:
@@ -20,6 +20,13 @@ tags:
     - Photograph your sign **without faces**.
 
 A good sign is one idea. It is read in a few seconds, in a march that keeps moving, and it is made to be photographed. This guide applies to every cause; for the legal context of the Palestinian flag, see [The Palestinian flag at protests](drapeau-palestinien.md).
+
+!!! tip "Where to start?"
+
+    - You are making a sign or a banner: [the message](#the-message) then [the material](#the-material).
+    - You want a stencil or a flag: [the stencil](#the-stencil) or [the flag](#the-flag).
+    - You hand out or post leaflets: [leaflets, posters and stickers](#leaflets-posters-and-stickers).
+    - Before reusing a slogan: [risky slogans](#risky-slogans).
 
 ## The message
 

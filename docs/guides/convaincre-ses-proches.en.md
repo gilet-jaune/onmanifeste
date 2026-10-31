@@ -1,5 +1,5 @@
 ---
-source_commit: 3777234bf7f7157105e10057a046baccc3f47aa9
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 tags:
     - guides
     - dialogue
@@ -17,6 +17,14 @@ tags:
 You rarely change someone's mind in one conversation, and almost never by being "right" louder. Conversations that move people rely on listening, lived stories and shared values.[^deep-canvassing]
 
 Sourced arguments depending on the person (woman, retiree, teacher, small business owner, police officer…): [Why join us?](../rallier/index.md).
+
+!!! tip "Where to start?"
+
+    - You are about to talk: [before](#before), then [during](#during).
+    - It went badly or you fear an argument: [what to avoid](#avoid).
+    - Sending a link: [links to share](#links-to-share).
+    - Verified figures: [orders of magnitude](#where-to-find-verified-orders-of-magnitude).
+    - The "rioters" debate: [stepping out of the media trap](#stepping-out-of-the-media-trap-over-rioters).
 
 ## Before
 

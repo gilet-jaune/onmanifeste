@@ -1,5 +1,5 @@
 ---
-source_commit: c76328697befaf4ba62171cc44267c34c1e4b0dc
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 review: juridique
 review_status: pending
 tags:
@@ -18,6 +18,13 @@ tags:
     - Damage: up to **2 years and €30,000**, **5 years and €75,000** in a group or with a hidden face.
 
 Broken shop windows, bus shelters, burnt cars: at every major mobilisation, property damage makes the headlines and is used to discredit a whole movement. This guide does not call for smashing anything. Using research, it explains **who does it, why, what it changes for a cause** and **what you risk**.
+
+!!! tip "Where to start?"
+
+    - Understanding who breaks things and why: [a minority, chosen targets](#a-minority-chosen-targets).
+    - Does it serve the cause? [does it work?](#does-it-work-what-the-studies-say).
+    - What you risk: [what you risk](#what-you-risk).
+    - Smashing breaks out near you: [what to do](#if-smashing-breaks-out-near-you).
 
 ## A minority, chosen targets
 

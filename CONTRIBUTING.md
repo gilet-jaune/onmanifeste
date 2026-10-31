@@ -108,6 +108,8 @@ npm test        # mkdocs build --strict
   resources whose last check (`check.date`) is older than 12 months or unconfirmed
   (`scripts/stale-report.mjs`). It opens or updates a single issue labelled `maintenance`, and
   closes it when everything is fine.
+- `npm run review:queue` lists the legal and medical pages still waiting for a professional review
+  (`review_status: pending`), the most used by the guided search first. Use it to brief reviewers.
 - One-time setup for private reports (used by `SECURITY.md` and the code of conduct): **Settings >
   Code security > Private vulnerability reporting = Enabled**.
 

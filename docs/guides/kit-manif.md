@@ -18,6 +18,12 @@ tags:
 
 Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac léger. L'objectif : se protéger, pouvoir partir vite, et ne rien avoir sur soi qui puisse vous être reproché.
 
+!!! tip "Par où commencer ?"
+
+    - Que porter : [la tenue](#tenue).
+    - Vous protéger des gaz et des chocs : [la protection](#protection).
+    - Préparer votre sac : [dans le sac](#dans-le-sac), puis [à laisser à la maison](#a-laisser-a-la-maison).
+
 ## Tenue
 
 - [ ] Vêtements **couvrants** (manches longues, pantalon) en coton ou synthétique résistant : le gaz se dépose sur la peau.[^medic-gestes]

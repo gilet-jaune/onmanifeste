@@ -1,5 +1,5 @@
 ---
-source_commit: f136eaf788fd58a1972e636bea977e3529cf7918
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 review: juridique
 review_status: pending
 tags:
@@ -22,6 +22,12 @@ tags:
 !!! warning "Disclaimer"
 
     General information about French law, not legal advice. Contact a lawyer or a legal team before any police interview or court hearing.
+
+!!! tip "Where to start?"
+
+    - After police violence: [the flowchart](#flowchart-after-police-violence), then [document injuries and file a complaint](#after-violence-document-injuries-and-file-a-complaint).
+    - You are summoned: [voluntary interview](#summoned-for-a-voluntary-interview-audition-libre).
+    - Trial or fast-track court: [documents to gather](#fast-track-trial-and-court-documents-to-gather-urgently).
 
 ## Flowchart: after police violence
 

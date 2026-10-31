@@ -9,6 +9,9 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
 **Par où commencer ?** [Checklist avant la manif](avant-de-partir.md) · [Ne jamais rester seul·e](ne-pas-rester-seul.md) · [Garde à vue](garde-a-vue.md)
 
+<div data-guides-filter></div>
+<div id="guide-themes" hidden data-themes='{{ guide_themes | tojson }}'></div>
+
 ## Avant la manif
 
 <div class="grid cards" markdown="1">
@@ -28,6 +31,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
     Liberté et non autorisation, déclaration, interdictions légales ou non, comment les contester.
 
     [:octicons-arrow-right-24: Lire](droit-de-manifester.md)
+
+- **Pourquoi ça casse en manif ?** [:material-comment-question:](casse.md)
+
+    ***
+
+    Qui casse, pourquoi, ce que vous risquez, comment réagir.
+
+    [:octicons-arrow-right-24: Lire](casse.md)
 
 - **Kit et tenue de manif** [:material-bag-personal:](kit-manif.md)
 
@@ -266,3 +277,19 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
     ***
 
     Vérifier une info, une image ou un bilan ; faire un démenti court et sourcé.
+
+- **Convaincre ses proches** [:material-forum:](convaincre-ses-proches.md)
+
+    ***
+
+    Parler de la mobilisation sans se fâcher : écouter, raconter, proposer.
+
+    [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
+
+- **S'informer et se former** [:material-school:](s-informer-se-former.md)
+
+    ***
+
+    Formations à l'action non-violente, agenda des mobilisations, comptes à suivre.
+
+    [:octicons-arrow-right-24: Lire](s-informer-se-former.md)

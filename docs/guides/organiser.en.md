@@ -1,5 +1,5 @@
 ---
-source_commit: a1dcc6101dd0052b153a140eb40b98afc8969b85
+source_commit: 62547abd90bfe2581d63570c33f17230554f3ccd
 review: juridique
 review_status: pending
 tags:
@@ -17,6 +17,13 @@ tags:
     - Afterwards: review with the legal team (arrests, injuries, videos).
 
 Organising means notifying, preparing safety and planning what comes after. The obligations fall mainly on the **organisers**.
+
+!!! tip "Where to start?"
+
+    - Notifying the protest: [notify](#notify).
+    - Preparing security: [prepare](#prepare).
+    - Afterwards: [afterwards](#afterwards).
+    - Organising away from city centres: [organising locally](#organising-locally-beyond-city-centres).
 
 ## Notify
 

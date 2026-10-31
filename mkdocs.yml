@@ -153,6 +153,7 @@ plugins:
         - docs/data/sources.json
         - docs/data/victimes.json
         - docs/data/rallier.json
+        - docs/data/guide-themes.json
 
 extra_css:
   # Self-hosted at build time by the privacy plugin.
@@ -164,6 +165,7 @@ extra_javascript:
   - javascripts/directory.js
   - javascripts/pwa.js
   - javascripts/parcours.js
+  - javascripts/guides-filter.js
 
 hooks:
   - hooks/sources.py

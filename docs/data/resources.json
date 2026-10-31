@@ -692,7 +692,7 @@
       "sources": [
         {
           "title": "EFF — Guide : Assister à une manifestation",
-          "url": "https://ssd.eff.org/fr/module/assister-une-manifestation"
+          "url": "https://ssd.eff.org/fr/module/attending-protest"
         }
       ],
       "check": {
@@ -2004,14 +2004,14 @@
       "category": "navigation",
       "tags": ["agenda", "carte", "manifestations", "gilets-jaunes"],
       "description": {
-        "fr": "Site de coordination des « actes » de mobilisation, avec une carte interactive des actions et un calendrier. Les visiteurs peuvent ajouter leurs actions sur la carte, sans modération annoncée : recoupez lieu et horaire avec une autre source (syndicats, collectifs locaux, presse) avant de vous déplacer. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail.",
-        "en": "Coordination site for the mobilization “acts”, with an interactive map of actions and a calendar. Visitors can add their own actions to the map, with no stated moderation: cross-check place and time with another source (unions, local groups, press) before going. Signing the call requires a name (or nickname), city and e-mail."
+        "fr": "Site de coordination des « actes » de mobilisation, avec une carte interactive des actions et un calendrier. Les éditeurs affichés sont des collectifs (Coordination régionale Bloquons tout Île-de-France, Peuple RÉVOLTÉ Maintenant!, Indignons-nous, Bloquons tout) ; un contact est publié. Les visiteurs peuvent ajouter leurs actions sur la carte, sans modération annoncée : recoupez lieu et horaire avec une autre source (syndicats, collectifs locaux, presse) avant de vous déplacer. Signer l'appel implique de donner un nom (ou pseudo), une ville et un e-mail ; le site indique ne déposer aucun cookie et ne jamais publier l'e-mail.",
+        "en": "Coordination site for the mobilization “acts”, with an interactive map of actions and a calendar. The listed publishers are collectives (Coordination régionale Bloquons tout Île-de-France, Peuple RÉVOLTÉ Maintenant!, Indignons-nous, Bloquons tout); a contact is published. Visitors can add their own actions to the map, with no stated moderation: cross-check place and time with another source (unions, local groups, press) before going. Signing the call requires a name (or nickname), city and e-mail; the site states it sets no cookies and never publishes the e-mail."
       },
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-10-31",
         "result": "unconfirmed",
         "by": "ai",
-        "note": "Carte alimentée par les visiteurs, sans modération annoncée ni mentions légales complètes : fiabilité des lieux et horaires à vérifier."
+        "note": "Site actif et à jour (appel du 30 octobre, actes III et IV) ; éditeurs, contact et rubrique données personnelles présents. Modération de la carte toujours non précisée : lieux et horaires à recouper."
       }
     },
     {

@@ -18,6 +18,13 @@ tags:
 
 Vitrines brisées, abribus, voitures brûlées : à chaque grande mobilisation, la casse fait la une et sert à discréditer tout un mouvement. Ce guide n'appelle pas à casser. Il explique, études à l'appui, **qui casse, pourquoi, ce que ça change pour une cause** et **ce que vous risquez**.
 
+!!! tip "Par où commencer ?"
+
+    - Comprendre qui casse et pourquoi : [une minorité, des cibles choisies](#une-minorite-des-cibles-choisies).
+    - Savoir si ça sert la cause : [est-ce que ça marche ?](#est-ce-que-ca-marche-ce-que-disent-les-etudes).
+    - Ce que vous risquez : [ce que vous risquez](#ce-que-vous-risquez).
+    - La casse éclate près de vous : [que faire](#si-la-casse-eclate-pres-de-vous).
+
 ## Une minorité, des cibles choisies
 
 - Dans les cortèges, la casse vient surtout d'une **minorité organisée**, souvent appelée « black bloc » : des militant·es habillé·es en noir et cagoulé·es, en tête de cortège. Née en Allemagne dans les années 1980, cette pratique arrive en France à la fin des années 1990.[^publicsenat-black-blocs-2018]
