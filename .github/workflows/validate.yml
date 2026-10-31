@@ -64,6 +64,8 @@ jobs:
 
       - name: Awesome List Lint 🕶️
         id: awesome
+        # Checks the rules for submitting the list to awesome lists; it must not stop a publication.
+        continue-on-error: true
         run: npx --yes awesome-lint README.md
 
       - name: Set Up Python 🔧
