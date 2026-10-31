@@ -422,6 +422,316 @@
         }
       },
       {
+        "id": "salarie-prive",
+        "label": {
+          "fr": "salarié·e du privé",
+          "en": "a private-sector employee"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "En 2023, un·e salarié·e du privé gagne en moyenne 2 735 € nets par mois (équivalent temps plein), mais ce salaire a perdu 0,8 % de pouvoir d'achat, après −1,0 % en 2022 : l'inflation (+4,9 %, après +5,2 %) a dépassé les hausses de salaires.",
+              "en": "In 2023, a private-sector employee earns on average €2,735 net a month (full-time equivalent), but that wage lost 0.8% in purchasing power, after −1.0% in 2022: inflation (+4.9%, after +5.2%) outpaced pay rises."
+            },
+            "sources": ["insee-salaires-prive-2023"]
+          },
+          {
+            "text": {
+              "fr": "La moitié des salarié·es du privé gagnent moins de 2 183 € nets par mois, et un·e sur dix moins de 1 512 €.",
+              "en": "Half of private-sector employees earn less than €2,183 net a month, and one in ten less than €1,512."
+            },
+            "sources": ["insee-salaires-prive-2023"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Si je fais grève, je risque d'être viré·e ou de perdre mon salaire. »",
+              "en": "\"If I strike, I could be fired or lose my pay.\""
+            },
+            "answer": {
+              "fr": "Vous ne pouvez être ni sanctionné·e ni licencié·e pour avoir fait grève, sauf faute lourde ; l'employeur retient seulement une part du salaire proportionnelle à la durée de l'arrêt.",
+              "en": "You cannot be punished or dismissed for striking, except for gross misconduct; the employer only withholds pay in proportion to the time stopped."
+            },
+            "sources": ["sp-greve-prive"],
+            "link": {
+              "guide": "travail",
+              "anchor": {
+                "fr": "secteur-prive",
+                "en": "private-sector"
+              },
+              "label": {
+                "fr": "Grève dans le secteur privé",
+                "en": "Striking in the private sector"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "En parler avec vos collègues ou un syndicat, puis rejoindre le cortège un jour de grève ou hors temps de travail.",
+          "en": "Talk it over with colleagues or a union, then join the march on a strike day or outside working hours."
+        }
+      },
+      {
+        "id": "precaire",
+        "label": {
+          "fr": "personne au chômage ou en situation précaire",
+          "en": "someone unemployed or in a precarious situation"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "En 2018, un tiers (34 %) des foyers éligibles au RSA ne le percevaient pas chaque trimestre : ils pouvaient prétendre en moyenne à 330 € par mois, soit 750 millions d'euros non versés par trimestre.",
+              "en": "In 2018, a third (34%) of households eligible for the RSA were not receiving it in any given quarter: they could claim on average €330 a month, i.e. €750 million unpaid each quarter."
+            },
+            "sources": ["drees-non-recours-rsa"]
+          },
+          {
+            "text": {
+              "fr": "La fraude fiscale dépasse très largement la fraude aux prestations sociales, elle-même inférieure au non-recours aux aides (RSA, prime d'activité non réclamés par des personnes éligibles).",
+              "en": "Tax fraud far exceeds benefit fraud, which is itself lower than non-take-up of aid (RSA, activity bonus unclaimed by eligible people)."
+            },
+            "sources": ["vie-publique-fraudes"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Les chômeurs et les assistés profitent du système. »",
+              "en": "\"The unemployed and people on benefits exploit the system.\""
+            },
+            "answer": {
+              "fr": "Le non-recours est plus massif que la fraude : un tiers des foyers éligibles au RSA ne le perçoivent pas, et la fraude aux prestations est inférieure au non-recours.",
+              "en": "Non-take-up is bigger than fraud: a third of households eligible for the RSA do not receive it, and benefit fraud is lower than non-take-up."
+            },
+            "sources": ["drees-non-recours-rsa", "vie-publique-fraudes"]
+          },
+          {
+            "question": {
+              "fr": "« Les aides attirent les étrangers (« appel d'air »). »",
+              "en": "\"Aid attracts foreigners (a \\\"pull effect\\\").\""
+            },
+            "answer": {
+              "fr": "Ce fact-check de Les Surligneurs juge l'idée infondée : selon l'Institut convergences migrations (CNRS), cité par le fact-check, « aucune corrélation » n'existe entre l'accueil et les flux. Pour l'aide médicale d'État, une enquête de l'Irdes (2019) citée dans le même texte trouve que 9,5 % des étrangers en situation irrégulière interrogés disent être venus pour se soigner, et qu'un sur deux seulement des éligibles la demande.",
+              "en": "This Les Surligneurs fact-check finds the idea unfounded: according to the Institut convergences migrations (CNRS), quoted by the fact-check, there is \"no correlation\" between reception conditions and flows. On state medical aid, a 2019 Irdes survey cited in the same piece finds that 9.5% of irregular foreigners surveyed say they came for health care, and only one in two eligible people apply for it."
+            },
+            "sources": ["surligneurs-appel-d-air-2026"]
+          }
+        ],
+        "step": {
+          "fr": "Vérifier si vous avez droit à des aides que vous ne touchez pas, et en parler autour de vous.",
+          "en": "Check whether you are entitled to aid you are not getting, and tell people around you."
+        }
+      },
+      {
+        "id": "agriculteur",
+        "label": {
+          "fr": "agriculteur·rice",
+          "en": "a farmer"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "En 2020, une personne sur six vivant dans un ménage agricole est sous le seuil de pauvreté, une part supérieure à celle de l'ensemble des ménages actifs.",
+              "en": "In 2020, one in six people in a farming household lived below the poverty line, a higher share than among all working households."
+            },
+            "sources": ["insee-menages-agricoles-2020"]
+          },
+          {
+            "text": {
+              "fr": "Le niveau de vie médian des ménages agricoles (22 700 € par an) est proche de celui des ménages actifs (22 800 €), mais il varie beaucoup selon la production : 27 000 € en viticulture, 19 500 € en bovins viande.",
+              "en": "The median living standard of farming households (€22,700 a year) is close to that of working households (€22,800), but varies a lot by production: €27,000 in wine-growing, €19,500 in beef cattle."
+            },
+            "sources": ["insee-menages-agricoles-2020"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Je n'ai pas le temps, il y a les bêtes et les champs. »",
+              "en": "\"I have no time, there are animals and fields to look after.\""
+            },
+            "answer": {
+              "fr": "Une action locale et calme, près de chez vous, peut se faire sans quitter longtemps l'exploitation : rond-point, marché, soutien à une caisse de grève.",
+              "en": "A local, calm action close to home can be done without leaving the farm for long: a roundabout, a market, backing a strike fund."
+            },
+            "link": {
+              "guide": "organiser",
+              "anchor": {
+                "fr": "sorganiser-localement-au-dela-des-centres-villes",
+                "en": "organising-locally-beyond-city-centres"
+              },
+              "label": {
+                "fr": "S'organiser localement",
+                "en": "Organising locally"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Venir à un rassemblement local, ou soutenir une caisse de grève.",
+          "en": "Come to a local gathering, or support a strike fund."
+        }
+      },
+      {
+        "id": "rural",
+        "label": {
+          "fr": "habitant·e d'une petite ville ou de la campagne",
+          "en": "someone living in a small town or the countryside"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Selon l'endroit où l'on vit, l'accès aux médecins généralistes varie fortement : les 10 % de la population les mieux dotés ont accès à 5,6 consultations par an, les 10 % les moins bien dotés à 1,4 (4,1 fois moins).",
+              "en": "Depending on where you live, access to GPs varies sharply: the best-served 10% of the population have 5.6 consultations a year, the least-served 10% have 1.4 (4.1 times fewer)."
+            },
+            "sources": ["drees-apl-2023"]
+          },
+          {
+            "text": {
+              "fr": "L'accessibilité aux médecins généralistes s'est encore dégradée de 1,4 % entre 2022 et 2023.",
+              "en": "Access to GPs fell a further 1.4% between 2022 and 2023."
+            },
+            "sources": ["drees-apl-2023"]
+          },
+          {
+            "text": {
+              "fr": "Le Défenseur des droits alerte sur des procédures administratives numérisées « à marche forcée » et sur des réclamations « toujours plus nombreuses ».",
+              "en": "The Defender of Rights warns of administrative procedures digitised \"at forced march\" and of ever more numerous complaints."
+            },
+            "sources": ["ddd-dematerialisation-2022"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Les manifs, c'est pour les grandes villes. »",
+              "en": "\"Protests are for big cities.\""
+            },
+            "answer": {
+              "fr": "Pas forcément : on peut agir près de chez soi, sur un rond-point, un marché ou en soutenant une caisse de grève.",
+              "en": "Not necessarily: you can act close to home, at a roundabout, a market, or by backing a strike fund."
+            },
+            "link": {
+              "guide": "organiser",
+              "anchor": {
+                "fr": "sorganiser-localement-au-dela-des-centres-villes",
+                "en": "organising-locally-beyond-city-centres"
+              },
+              "label": {
+                "fr": "S'organiser localement",
+                "en": "Organising locally"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Dire ce qui a fermé ou manque près de chez vous, et rejoindre une action locale.",
+          "en": "Say what has closed or is missing near you, and join a local action."
+        }
+      },
+      {
+        "id": "soignant",
+        "label": {
+          "fr": "soignant·e (hôpital ou ville)",
+          "en": "a healthcare worker"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Fin 2023, hôpitaux et cliniques comptaient 369 400 lits d'hospitalisation complète ; leur nombre recule chaque année (−1,4 % en 2021, −1,8 % en 2022, −1,3 % en 2023), plus vite qu'avant la crise sanitaire (−0,9 % par an entre 2013 et 2019).",
+              "en": "At the end of 2023, hospitals and clinics had 369,400 full-stay beds; the number falls every year (−1.4% in 2021, −1.8% in 2022, −1.3% in 2023), faster than before the health crisis (−0.9% a year in 2013-2019)."
+            },
+            "sources": ["drees-sae-2023"]
+          },
+          {
+            "text": {
+              "fr": "En parallèle, les places d'hospitalisation partielle (sans nuitée) augmentent (+4,1 % en 2023) : c'est le « virage ambulatoire » décrit par la DREES.",
+              "en": "Meanwhile, day-care places (no overnight stay) rise (+4.1% in 2023): the \"outpatient shift\" described by DREES."
+            },
+            "sources": ["drees-sae-2023"]
+          },
+          {
+            "text": {
+              "fr": "L'accessibilité aux médecins généralistes s'est dégradée de 1,4 % entre 2022 et 2023.",
+              "en": "Access to GPs fell 1.4% between 2022 and 2023."
+            },
+            "sources": ["drees-apl-2023"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Ma place est auprès des patients, pas dans la rue. »",
+              "en": "\"My place is with patients, not on the street.\""
+            },
+            "answer": {
+              "fr": "Manifester hors service ne retire aucun soin à un·e patient·e. Dans le cortège, des street medics formé·es assurent les premiers secours.",
+              "en": "Protesting off duty takes no care away from any patient. In the march, trained street medics provide first aid."
+            },
+            "sources": ["cr-etapes"],
+            "link": {
+              "guide": "premiers-secours",
+              "label": {
+                "fr": "Premiers secours en manifestation",
+                "en": "First aid at protests"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Manifester hors service, avec vos collègues ou votre syndicat, et repérer les street medics du cortège.",
+          "en": "Protest off duty, with colleagues or your union, and spot the march's street medics."
+        }
+      },
+      {
+        "id": "handicap",
+        "label": {
+          "fr": "personne en situation de handicap ou malade chronique",
+          "en": "someone with a disability or a chronic illness"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "En 2023, 45 % des 15-64 ans ayant une reconnaissance administrative de handicap sont actifs (en emploi ou au chômage), contre 74 % de l'ensemble de la population.",
+              "en": "In 2023, 45% of 15-64 year-olds with an administrative recognition of disability are in the labour force (employed or unemployed), versus 74% of the whole population."
+            },
+            "sources": ["insee-handicap-emploi"]
+          },
+          {
+            "text": {
+              "fr": "Parmi les actifs reconnus handicapés, le taux de chômage est de 12 %, contre 7 % pour l'ensemble de la population.",
+              "en": "Among those in the labour force with a recognised disability, unemployment is 12%, versus 7% for the whole population."
+            },
+            "sources": ["insee-handicap-emploi"]
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Ce n'est pas fait pour moi, je ne peux pas manifester. »",
+              "en": "\"It's not for me, I can't protest.\""
+            },
+            "answer": {
+              "fr": "Si, avec de la préparation : un binôme dédié, un parcours repéré, vos traitements sur vous, et parfois un cortège accessible.",
+              "en": "You can, with preparation: a dedicated buddy, a scouted route, your medication on you, and sometimes an accessible march."
+            },
+            "sources": ["reporterre-handicap"],
+            "link": {
+              "guide": "handicap",
+              "label": {
+                "fr": "Manifester en situation de handicap",
+                "en": "Protesting with a disability"
+              }
+            }
+          }
+        ],
+        "step": {
+          "fr": "Lire le guide, préparer vos traitements et venir avec un binôme.",
+          "en": "Read the guide, prepare your medication and come with a buddy."
+        }
+      },
+      {
         "id": "policier",
         "label": {
           "fr": "policier·e ou gendarme",

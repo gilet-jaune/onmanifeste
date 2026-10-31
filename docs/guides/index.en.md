@@ -1,5 +1,5 @@
 ---
-source_commit: a1dcc6101dd0052b153a140eb40b98afc8969b85
+source_commit: e327fc80da49fc645a695fe7597a1018ff53ddf6
 tags:
     - guides
 ---
@@ -37,6 +37,14 @@ Guides to read before you go, **available offline** once the site has been opene
     What to wear, what to bring: mask, goggles, saline, ID.
 
     [:octicons-arrow-right-24: Read](kit-manif.md)
+
+- **Signs, banners, flags and leaflets** [:material-sign-text:](faire-sa-pancarte.md)
+
+    ***
+
+    A clear message, light cardboard or fabric, a plain flag, leaflets, slogans to avoid, collections of protest signs.
+
+    [:octicons-arrow-right-24: Read](faire-sa-pancarte.md)
 
 - **Getting there and back** [:material-bicycle:](venir-repartir.md)
 
@@ -238,32 +246,24 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](reseaux-sociaux.md)
 
-- **Avoid disinformation** [:material-magnify-scan:](desinformation.md)
+- **Talking to the press at a protest** [:material-microphone:](parler-a-la-presse.md)
 
     ***
 
-    Check an image, a rumour or a toll before sharing.
+    Decide who speaks, one sentence, don't expose yourself.
 
-    [:octicons-arrow-right-24: Read](desinformation.md)
+    [:octicons-arrow-right-24: Read](parler-a-la-presse.md)
 
-- **Talk to your loved ones** [:material-forum:](convaincre-ses-proches.md)
-
-    ***
-
-    Discuss the movement without falling out: listen, tell, suggest.
-
-    [:octicons-arrow-right-24: Read](convaincre-ses-proches.md)
-
-- **Stay informed, get trained** [:material-school-outline:](s-informer-se-former.md)
+- **Photographing and filming for the press** [:material-camera:](photographier-pour-la-presse.md)
 
     ***
 
-    Non-violent action training, observatories, reliable sources, social media.
+    Status, dispersal, image rights, metadata.
 
-    [:octicons-arrow-right-24: Read](s-informer-se-former.md)
+    [:octicons-arrow-right-24: Read](photographier-pour-la-presse.md)
 
-</div>
+- **Check a story and avoid disinformation** [:material-magnify-scan:](desinformation.md)
 
-!!! warning "Disclaimer"
+    ***
 
-    These guides are general and describe French law and practice. They replace neither a lawyer nor a medical professional. In an emergency: **112**.
+    Check a story, an image or a toll; write a short, sourced debunk.

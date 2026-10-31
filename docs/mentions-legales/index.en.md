@@ -1,5 +1,5 @@
 ---
-source_commit: 163530f3c950768cbf5e0e619a83613705643c06
+source_commit: 444ff6edf5b15bc6afde579f37191472a30c8313
 tags:
     - legal notice
 ---
@@ -26,6 +26,12 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United S
 ## Content and liability
 
 Information is general and does not replace a lawyer or a medical professional. Data and texts were first **researched and sourced with the help of an artificial intelligence**, and are being reviewed by humans step by step. Every statement is sourced and dated, and the check indicator (`check`) says who checked it: AI, volunteer, lawyer, health professional or historian. Content not yet reviewed by a professional or not confirmed carries a badge. See the [content policy]({{ repositories.docs.url }}/blob/main/MODERATION.md) (in French).
+
+## Why an AI?
+
+This site aims to be **complete** and usable **offline**, by gathering content that already exists and pointing to it (laws, associations, media, public services). For a volunteer, anonymous project, an AI was used to **research, source and write** these summaries, and also to **build the site** (code, tooling, tests) quickly, on **free, reusable technologies** (MkDocs, Material for MkDocs): anyone can copy the site and adapt it.
+
+AI has a cost (energy, resources) and several causes defended here oppose it: we acknowledge that. What it produces has not yet been reviewed by humans. Each piece of information therefore carries its source, its date and a badge saying who checked it. If you can review a guide, see [Contribute](../contribuer/index.md).
 
 ## Licenses
 

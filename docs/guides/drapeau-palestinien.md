@@ -30,6 +30,8 @@ Manifester en soutien à la population palestinienne est légal. Ce qui peut vou
 
 ## Pancartes, slogans et publications
 
+Pour fabriquer et porter une pancarte, une banderole ou un drapeau, voir [Pancartes, banderoles, drapeaux et tracts](faire-sa-pancarte.md).
+
 - L'**apologie du terrorisme** (présenter favorablement un acte terroriste ou ses auteurs) est un délit puni de 5 ans de prison et 75 000 € d'amende, 7 ans et 100 000 € quand c'est en ligne.[^cdj-apologie-terrorisme]
 - Les poursuites ont fortement augmenté : **452 jugements et 305 condamnations** pour apologie du terrorisme entre octobre 2023 et novembre 2024.[^politis-palestine-2025]
 - [ ] Écrivez **clairement ce que vous défendez** (cessez-le-feu, droits humains, droit international) et évitez tout slogan ou symbole qui pourrait être lu comme un soutien à un acte terroriste : c'est ce qui fonde les poursuites, pas le drapeau.

@@ -2067,6 +2067,38 @@
       }
     },
     {
+      "id": "droit-a-l-info",
+      "name": "Droit à l'Info",
+      "url": "https://droitalinfo.org/detecter/",
+      "category": "medias",
+      "tags": ["fact-checking", "desinformation", "veille"],
+      "description": {
+        "fr": "Centre de ressources des narratifs de désinformation répétés dans les médias (climat, migrations), avec fact-check de référence, sources et éléments de réponse. Initiative de QuotaClimat et des Surligneurs.",
+        "en": "Resource centre for disinformation narratives repeated in the media (climate, migration), with a reference fact-check, sources and talking points. Initiative of QuotaClimat and Les Surligneurs. In French."
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "les-surligneurs",
+      "name": "Les Surligneurs",
+      "url": "https://lessurligneurs.eu/",
+      "category": "medias",
+      "tags": ["fact-checking", "desinformation", "independant"],
+      "description": {
+        "fr": "Média de lutte contre la désinformation politique, qui vérifie les affirmations des responsables publics sur le plan juridique.",
+        "en": "Outlet fighting political disinformation, checking public figures' claims from a legal angle. In French."
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "les-decodeurs",
       "name": "Les Décodeurs (Le Monde)",
       "url": "https://www.lemonde.fr/les-decodeurs/",

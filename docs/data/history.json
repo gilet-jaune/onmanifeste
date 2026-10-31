@@ -367,14 +367,14 @@
       },
       "gains": {
         "fr": "Accords de Grenelle : forte hausse du salaire minimum (SMIG) ; loi de décembre 1968 reconnaissant la section syndicale d'entreprise.",
-        "en": "Grenelle agreements: sharp rise of the minimum wage (SMIG); December 1968 law recognising union branches in companies.",
-        "source": "https://fr.wikipedia.org/wiki/Accords_de_Grenelle"
+        "en": "Grenelle agreements: sharp rise of the minimum wage (SMIG); December 1968 law recognising union branches in companies."
       },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
         "by": "ai"
-      }
+      },
+      "evidence": ["wiki-accords-de-grenelle"]
     },
     {
       "id": "1970-naissance-du-mlf",
@@ -391,14 +391,14 @@
       },
       "gains": {
         "fr": "Mobilisations (manifeste des 343, marches) qui aboutissent à la loi Veil légalisant l'IVG en 1975.",
-        "en": "Mobilisations (Manifesto of the 343, marches) leading to the 1975 Veil law legalising abortion.",
-        "source": "https://fr.wikipedia.org/wiki/Loi_Veil"
+        "en": "Mobilisations (Manifesto of the 343, marches) leading to the 1975 Veil law legalising abortion."
       },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
         "by": "ai"
-      }
+      },
+      "evidence": ["wiki-loi-veil"]
     },
     {
       "id": "1971-lutte-du-larzac",
@@ -486,14 +486,14 @@
       },
       "gains": {
         "fr": "Création en 1984 de la carte de résident valable dix ans.",
-        "en": "Creation in 1984 of the ten-year resident card.",
-        "source": "https://www.jean-jaures.org/publication/des-minguettes-a-lelysee-1983-la-marche-pour-legalite-et-contre-le-racisme/"
+        "en": "Creation in 1984 of the ten-year resident card."
       },
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
         "by": "ai"
-      }
+      },
+      "evidence": ["jean-jaures-marche-egalite-1983"]
     },
     {
       "id": "1986-mort-de-malik-oussekine",
@@ -510,10 +510,9 @@
       },
       "gains": {
         "fr": "Retrait du projet de loi Devaquet sur l'université.",
-        "en": "Withdrawal of the Devaquet university bill.",
-        "source": "https://fr.wikipedia.org/wiki/Loi_Devaquet"
+        "en": "Withdrawal of the Devaquet university bill."
       },
-      "evidence": ["wiki-malik-oussekine"],
+      "evidence": ["wiki-malik-oussekine", "wiki-loi-devaquet"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
@@ -781,8 +780,7 @@
       },
       "gains": {
         "fr": "Annulation de la hausse des taxes sur les carburants prévue pour 2019 et mesures sociales d'environ 10 milliards d'euros (dont hausse de la prime d'activité).",
-        "en": "Planned 2019 fuel tax rise cancelled and social measures worth about €10 billion (including a higher in-work benefit).",
-        "source": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation"
+        "en": "Planned 2019 fuel tax rise cancelled and social measures worth about €10 billion (including a higher in-work benefit)."
       },
       "related": [
         "2019-grand-debat-national-le-ric",
@@ -790,7 +788,7 @@
         "2018-zineb-redouane-les-forces-de"
       ],
       "guides": ["filmer", "garde-a-vue"],
-      "evidence": ["publicsenat-lbd", "ddd-suspension-lbd"],
+      "evidence": ["publicsenat-lbd", "ddd-suspension-lbd", "publicsenat-gj-mesures-2018"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",

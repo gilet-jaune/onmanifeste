@@ -200,6 +200,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 ## Médias & vérification
 
 - [AFP Factuel](https://factuel.afp.com/) - Service de vérification de l'Agence France-Presse : rumeurs, fausses images et vidéos sorties de leur contexte.
+- [Droit à l'Info](https://droitalinfo.org/detecter/) - Centre de ressources des narratifs de désinformation répétés dans les médias (climat, migrations), avec fact-check de référence, sources et éléments de réponse. Initiative de QuotaClimat et des Surligneurs.
+- [Les Surligneurs](https://lessurligneurs.eu/) - Média de lutte contre la désinformation politique, qui vérifie les affirmations des responsables publics sur le plan juridique.
 - [Les Décodeurs (Le Monde)](https://www.lemonde.fr/les-decodeurs/) - Rubrique de vérification et de data-journalisme du Monde (certains articles réservés aux abonné·es).
 - [CheckNews (Libération)](https://www.liberation.fr/checknews/) - Service de Libération qui répond aux questions des lecteurs et vérifie les informations virales.
 - [Vrai ou Fake (franceinfo)](https://www.franceinfo.fr/vrai-ou-fake/) - Rubrique de vérification de franceinfo (audiovisuel public).

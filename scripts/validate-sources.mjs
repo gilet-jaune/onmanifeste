@@ -48,6 +48,11 @@ for (const v of [...victims.victims, ...victims.censuses])
 for (const e of JSON.parse(readFileSync('docs/data/history.json', 'utf8')).events) {
   (e.evidence ?? []).forEach((id) => used.add(id));
 }
+for (const p of JSON.parse(readFileSync('docs/data/rallier.json', 'utf8')).rallier.profiles) {
+  [...p.stakes, ...(p.objections ?? [])].forEach((x) =>
+    (x.sources ?? []).forEach((id) => used.add(id)),
+  );
+}
 for (const id of Object.keys(sources))
   if (!used.has(id)) warnings.push(`sources.${id}: never cited`);
 

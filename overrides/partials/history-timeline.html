@@ -64,7 +64,7 @@
 {%- endmacro -%}
 
 {%- macro gains_line(e, lang) -%}
-<p class="timeline__gains"><strong>{{ 'Obtenu :' if lang == 'fr' else 'Won:' }}</strong> {{ e.gains[lang] or e.gains.fr }}{% if e.gains.source %} <a href="{{ e.gains.source }}" target="_blank" rel="noopener">({{ 'source' }})</a>{% endif %}</p>
+<p class="timeline__gains"><strong>{{ 'Obtenu :' if lang == 'fr' else 'Won:' }}</strong> {{ e.gains[lang] or e.gains.fr }}</p>
 {%- endmacro -%}
 
 {#- only: optional list of event kinds to show (default: all). -#}

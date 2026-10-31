@@ -1,14 +1,15 @@
 {#- "Pourquoi nous rejoindre ?": docs/data/rallier.json + sources.json. Static (offline, indexed by
 the search); each profile is a heading so a search for "prof" lands on #pourquoi-prof. -#}
-{%- from 'overrides/partials/check.html' import check_title -%}
 
 {%- macro href(l, lang) -%}
 {%- if l.guide -%}../guides/{{ l.guide }}/{%- elif l.page -%}../{{ l.page }}/{%- endif -%}
 {%- if l.anchor -%}#{{ l.anchor[lang] or l.anchor.fr }}{%- endif -%}
 {%- endmacro -%}
 
+{#- Numbered footnotes, like the guides: [^id] is resolved from sources.json by hooks/sources.py. The
+elements that contain them carry markdown="1" so the footnote references are processed. -#}
 {%- macro refs(x, lang) -%}
-{%- for id in x.sources or [] %}{% set s = sources[id] %}{% set u = s.url[lang] if s.url is mapping else s.url %} <a class="rallier__src" href="{{ u }}" target="_blank" rel="noopener" title="{{ s.title[lang] or s.title.fr }} · {{ check_title(s.check, lang) }}">[{{ 'source' }}]</a>{% endfor %}
+{%- for id in x.sources or [] %}[^{{ id }}]{% endfor %}
 {%- if x.link %} <a href="{{ href(x.link, lang) }}">→ {{ x.link.label[lang] or x.link.label.fr }}</a>{% endif %}
 {%- endmacro -%}
 
@@ -61,18 +62,18 @@ one shown. Hidden without JavaScript (the chips below do the same). -#}
 {{ share_picker(lang) }}
 
 {%- for p in rallier.profiles %}
-<section class="rallier__profile">
+<section class="rallier__profile" markdown="1">
   <h2 id="pourquoi-{{ p.id }}">{{ 'Vous êtes' if lang == 'fr' else 'You are' }} {{ p.label[lang] or p.label.fr }}</h2>
   <h3 id="pourquoi-{{ p.id }}-enjeux">{{ 'Ce qui vous concerne' if lang == 'fr' else 'What is at stake for you' }}</h3>
-  <ul>
-    {%- for s in p.stakes %}
-    <li>{{ s.text[lang] or s.text.fr }}{{ refs(s, lang) }}</li>
-    {%- endfor %}
+  <ul markdown="1">
+{%- for s in p.stakes %}
+<li markdown="1">{{ s.text[lang] or s.text.fr }}{{ refs(s, lang) }}</li>
+{%- endfor %}
   </ul>
   {%- if p.objections %}
   <h3 id="pourquoi-{{ p.id }}-objections">{{ 'Si on vous dit…' if lang == 'fr' else 'If someone says…' }}</h3>
   {%- for o in p.objections %}
-  <p class="rallier__objection"><strong>{{ o.question[lang] or o.question.fr }}</strong><br>{{ o.answer[lang] or o.answer.fr }}{{ refs(o, lang) }}</p>
+  <p class="rallier__objection" markdown="1"><strong>{{ o.question[lang] or o.question.fr }}</strong><br>{{ o.answer[lang] or o.answer.fr }}{{ refs(o, lang) }}</p>
   {%- endfor %}
   {%- endif %}
   <p class="rallier__step"><strong>{{ 'Un premier pas :' if lang == 'fr' else 'A first step:' }}</strong> {{ p.step[lang] or p.step.fr }}</p>

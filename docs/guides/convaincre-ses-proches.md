@@ -26,7 +26,7 @@ Arguments sourcés selon la personne (femme, retraité·e, prof, artisan, polici
 
 1. **Écoutez d'abord.** Demandez ce que la personne pense et pourquoi : « Qu'est-ce qui te gêne dans ces manifs ? »
 2. **Reformulez** ce que vous avez compris. Une personne qui se sent comprise devient plus ouverte.
-3. **Cherchez les valeurs communes** : la sécurité, la justice, l'avenir des enfants, le travail bien fait.
+3. **Cherchez les valeurs communes** : la sécurité, la justice, l'avenir des enfants, le travail bien fait. Ne devinez pas le camp de la personne : demandez-lui ce qui lui importe, plutôt que de parler de « droite » ou de « gauche ».
 4. **Racontez une histoire vécue** (la vôtre ou celle d'un proche) plutôt qu'une avalanche de chiffres.[^deep-canvassing]
 5. **Posez des questions** plutôt que d'asséner : « Et si c'était ton fils qui était en garde à vue ? »
 6. Corrigez une fausse info avec le **sandwich** : le fait vrai, la rumeur (en une phrase), à nouveau le fait vrai et sa source.[^truth-sandwich]
@@ -34,6 +34,7 @@ Arguments sourcés selon la personne (femme, retraité·e, prof, artisan, polici
 ## À éviter
 
 - Humilier, traiter d'ignorant·e ou de « facho » : la personne se braque et se renforce dans sa position.
+- Coller une étiquette (« t'es de droite, donc… ») : la personne se sent traitée comme un camp, pas comme quelqu'un.
 - Tout aborder d'un coup : une idée par conversation.
 - Vouloir gagner le débat : l'objectif est que la conversation **continue**.
 

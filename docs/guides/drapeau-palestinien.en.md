@@ -1,5 +1,5 @@
 ---
-source_commit: 3ca6eca8df64d1a823766733749659923688b28c
+source_commit: 6ccbd79e5f64848d32f78a6f4422fead9faacf65
 review: juridique
 review_status: pending
 tags:
@@ -30,6 +30,8 @@ Demonstrating in support of the Palestinian population is legal. What you can be
 - Example: on 12 October 2023 in Paris, the police prefecture announced **3,000 fines** of €135.[^politis-palestine-2025]
 
 ## Placards, slogans and posts
+
+To make and carry a sign, banner or flag, see [Signs, banners, flags and leaflets](faire-sa-pancarte.md).
 
 - **Glorifying terrorism** (presenting a terrorist act or its perpetrators favourably) is an offence punishable by 5 years in prison and a €75,000 fine, 7 years and €100,000 when done online.[^cdj-apologie-terrorisme]
 - Prosecutions have risen sharply: **452 judgments and 305 convictions** for glorifying terrorism between October 2023 and November 2024.[^politis-palestine-2025]

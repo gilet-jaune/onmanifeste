@@ -1,5 +1,5 @@
 ---
-source_commit: 56213197e601e9c57461f2d41600074a5c63ec2a
+source_commit: 6ccbd79e5f64848d32f78a6f4422fead9faacf65
 review: juridique
 review_status: pending
 tags:
@@ -106,6 +106,8 @@ In both cases, the same checks: QR code scanned, settings done, a voucher and HR
 
 Nobody holds every role, and roles **rotate**. And **no group brings together every key person** (see [coordinating](groupes-signal.md#coordinating)).
 
+**Roles for organising the Signal groups**
+
 | Role | What they do | What they don't do | Admin in Signal |
 | --- | --- | --- | --- |
 | **Recruiter** | Talks about the movement at protests, on roundabouts, at public meetings; points people to the public group and the airlock groups | Validate; vouch for their own recruits; write anything down about them | No |
@@ -115,7 +117,18 @@ Nobody holds every role, and roles **rotate**. And **no group brings together ev
 | **Moderation** | Reminds people of the charter, deals with issues privately | Accuse anyone in the group | No |
 | **"Lost group" lead** | Triggers the [part 3 procedure](groupes-signal.md#part-3-compromised-group), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
 
-**Team roles**, as needed: medic, legal (observing, lawyer contacts, following up arrests), build (banners, placards, equipment), logistics (transport, food, storage), comms (visuals, announcements, social media).
+**Roles useful at protests**, as needed: each relies on a sub-group (`Medic`, `Legal`…) and on a guide on this site.
+
+| Role | What they do | What they don't do | Learn more |
+| --- | --- | --- | --- |
+| **Medic** | First aid: gas, injuries, fainting | Medical procedures (stitching, removing fragments); giving medication | [First aid](premiers-secours.md) |
+| **Legal** | Observes arrests, lawyer contacts, follows up people arrested | Replace a lawyer | [Police custody](garde-a-vue.md) |
+| **Protection and de-escalation** | Spots tension, talks, helps people out of a kettle, accompanies vulnerable people | Carry anything that could pass for a weapon; respond to provocation | [Dispersal, warnings and kettling](dispersion.md) · [Kit and what to wear](kit-manif.md) |
+| **Documentation** | Films arrests and violence, keeps the evidence | Publish without blurring protesters | [Film the police](filmer.md) |
+| **Support** | Listens and accompanies after a hard moment | Play therapist | [Mental health](sante-mentale.md) |
+| **Logistics** | Transport, food, water, storage | Store equipment that could pass for a weapon | [Getting there and back](venir-repartir.md) |
+| **Build** | Banners, placards, equipment | Equipment that could pass for a weapon | [Signs, banners, flags and leaflets](faire-sa-pancarte.md) · [Kit and what to wear](kit-manif.md) |
+| **Communication** | Visuals, announcements, social media | Repost far-right content | [Communicating at a protest](communiquer.md) · [Social media](reseaux-sociaux.md) |
 
 **A few more words:**
 
@@ -525,15 +538,15 @@ Replace what is in square brackets.
 
 !!! warning "Why a pinned message is not enough"
 
-    In Signal, **disappearing messages always override pinned status**: once the timer (1 day, 1 week) expires, the message is permanently deleted and automatically unpinned. Furthermore, new members joining the group later **receive no prior message history** and cannot see messages sent before their arrival.
+    In Signal, a disappearing message is **automatically unpinned and removed** when its timer expires (1 day, 1 week…).[^signal-messages-epingles] Moreover, someone who joins the group later **does not see messages pinned before they arrived**.[^signal-messages-epingles]
 
     This is why the **group description** (permanent, visible to all members and upon join request) must contain the disclaimer and vital rules. The detailed charter is shared and validated **in the airlock group** before admission to the trusted group.
 
 ### Description of a trusted group
 
-**Group name** (max 32 characters): `[MVT]-[CTY]-[ID]-General`
+**Group name**: `[MVT]-[CTY]-[ID]-General`
 
-**Group description** (permanent, sized for Signal's Description field):
+**Group description** (permanent and short, about 230 characters):
 
 ```text
 Mutual aid, logistics and activist info. No incitement to violence or property damage; nothing illegal. No real names, addresses, faces or screenshots. Disappearing messages on. Charter agreed in airlock.
@@ -541,7 +554,7 @@ Mutual aid, logistics and activist info. No incitement to violence or property d
 
 ### Description of a sub-group
 
-**Group name** (max 32 characters): `[MVT]-[CTY]-[ID]-[TOPIC]`
+**Group name**: `[MVT]-[CTY]-[ID]-[TOPIC]`
 
 **Group description**:
 

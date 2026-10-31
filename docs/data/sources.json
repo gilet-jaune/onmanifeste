@@ -3633,6 +3633,414 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "signal-messages-epingles": {
+      "title": {
+        "fr": "Signal — Messages épinglés (Signal Pinned Messages)",
+        "en": "Signal — Signal Pinned Messages"
+      },
+      "url": "https://support.signal.org/hc/en-us/articles/10270961459226",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-how-to-make-a-banner": {
+      "title": {
+        "fr": "Amnesty International — How to make a banner",
+        "en": "Amnesty International — How to make a banner"
+      },
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2021/05/SEC010142013ENGLISH.pdf",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-10": {
+      "title": {
+        "fr": "Code pénal, art. 431-10 (participer à une manifestation en étant porteur d'une arme)",
+        "en": "French Criminal Code, art. 431-10 (taking part in a demonstration while carrying a weapon)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418474",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-132-75": {
+      "title": {
+        "fr": "Code pénal, art. 132-75 (définition de l'arme et objets assimilés)",
+        "en": "French Criminal Code, art. 132-75 (definition of a weapon and objects treated as one)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417499",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "politis-pancartes-loi-travail-2016": {
+      "title": {
+        "fr": "Politis — Loi travail : messages de manifestants (24 mars 2016)",
+        "en": "Politis — Loi travail: protesters' messages (24 March 2016, in French)"
+      },
+      "url": "https://www.politis.fr/articles/2016/03/loi-travail-messages-de-manifestants-34400",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "topito-pancartes-retraites-2023": {
+      "title": {
+        "fr": "Topito — Top 20+ des meilleures pancartes de manif contre la réforme des retraites (avril 2023)",
+        "en": "Topito — Top 20+ protest signs against the pension reform (April 2023, in French)"
+      },
+      "url": "https://www.topito.com/top-meilleures-pancartes-manif-contre-reforme-retraites",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lebonbon-pancartes-greves-2023": {
+      "title": {
+        "fr": "Le Bonbon — Les meilleures pancartes de manif des grévistes (mars 2023)",
+        "en": "Le Bonbon — The strikers' best protest signs (March 2023, in French)"
+      },
+      "url": "https://www.lebonbon.fr/paris/wtf/grevistes-meilleures-pancartes-manif/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lebonbon-slogans-gilets-jaunes-2018": {
+      "title": {
+        "fr": "Le Bonbon — Gilets jaunes : les meilleurs slogans et pancartes (décembre 2018)",
+        "en": "Le Bonbon — Yellow vests: the best slogans and signs (December 2018, in French)"
+      },
+      "url": "https://lebonbon.fr/paris/news/gilets-jaunes-meilleurs-slogans-pancartes-paroles-paris-tag/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "demotivateur-pancartes-climat-2019": {
+      "title": {
+        "fr": "Démotivateur — Les 15 pancartes les plus créatives pendant la Marche du Climat (mars 2019)",
+        "en": "Démotivateur — The 15 most creative signs at the Climate March (March 2019, in French)"
+      },
+      "url": "https://www.demotivateur.fr/article/les-15-pancartes-les-plus-creatives-pendant-la-marche-du-climat-pour-denoncer-le-rechauffement-climatique-15811",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "marxists-slogans-mai-68": {
+      "title": {
+        "fr": "Marxists Internet Archive — Slogans de Mai 68 (en anglais)",
+        "en": "Marxists Internet Archive — May 1968 slogans"
+      },
+      "url": "https://www.marxists.org/history/france/may-1968/slogans.htm",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-accords-de-grenelle": {
+      "title": {
+        "fr": "Accords de Grenelle (Wikipédia)",
+        "en": "Grenelle agreements (Wikipedia, in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Accords_de_Grenelle",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-loi-veil": {
+      "title": {
+        "fr": "Loi Veil (Wikipédia)",
+        "en": "Veil Law on abortion (Wikipedia, in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_Veil",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "jean-jaures-marche-egalite-1983": {
+      "title": {
+        "fr": "Fondation Jean-Jaurès — Des Minguettes à l'Élysée : 1983, la Marche pour l'égalité et contre le racisme",
+        "en": "Fondation Jean-Jaurès — From Les Minguettes to the Élysée: the 1983 March for Equality and Against Racism (in French)"
+      },
+      "url": "https://www.jean-jaures.org/publication/des-minguettes-a-lelysee-1983-la-marche-pour-legalite-et-contre-le-racisme/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-loi-devaquet": {
+      "title": {
+        "fr": "Projet de loi Devaquet (Wikipédia)",
+        "en": "Devaquet bill (Wikipedia, in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_Devaquet",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-gj-mesures-2018": {
+      "title": {
+        "fr": "Public Sénat — « Gilets jaunes » : l'exécutif détaille ses mesures après une décrue de la mobilisation",
+        "en": "Public Sénat — \"Yellow vests\": the government details its measures after a drop in turnout (in French)"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "verification-handbook-images": {
+      "title": {
+        "fr": "Verification Handbook 3 (EJC) — Verifying and questioning images",
+        "en": "Verification Handbook 3 (EJC) — Verifying and questioning images"
+      },
+      "url": "https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/5-verifying-and-questioning-images",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ifcn-code": {
+      "title": {
+        "fr": "IFCN — Code of Principles (réseau international de fact-checking)",
+        "en": "IFCN — Code of Principles (International Fact-Checking Network)"
+      },
+      "url": "https://ifcncodeofprinciples.poynter.org/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "droitalinfo-detecter": {
+      "title": {
+        "fr": "Droit à l'Info — Centre de ressources",
+        "en": "Droit à l'Info — Resource centre (in French)"
+      },
+      "url": "https://droitalinfo.org/detecter/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-salaires-prive-2023": {
+      "title": {
+        "fr": "Insee Première — Les salaires dans le secteur privé en 2023",
+        "en": "Insee Première — Private-sector wages in 2023 (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/8270416",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "drees-non-recours-rsa": {
+      "title": {
+        "fr": "DREES — Mesurer régulièrement le non-recours au RSA et à la prime d'activité",
+        "en": "DREES — Regularly measuring non-take-up of the RSA and the activity bonus (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/mesurer-regulierement-le-non-recours-au",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-menages-agricoles-2020": {
+      "title": {
+        "fr": "Insee Première n° 2098 — Entre ménages agricoles, les inégalités de niveau de vie sont plus marquées",
+        "en": "Insee Première no. 2098 — Living standards of farming households (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/8978166",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "drees-apl-2023": {
+      "title": {
+        "fr": "DREES — Accessibilité aux soins de premier recours en 2023",
+        "en": "DREES — Access to primary care in 2023 (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/241220_DATA_accessibilite-aux-soins",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ddd-dematerialisation-2022": {
+      "title": {
+        "fr": "Défenseur des droits — Dématérialisation des services publics : trois ans après, où en est-on ?",
+        "en": "Defender of Rights — Dematerialisation of public services: three years later (in French)"
+      },
+      "url": "https://www.defenseurdesdroits.fr/rapport-dematerialisation-des-services-publics-trois-ans-apres-ou-en-est-265",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "drees-sae-2023": {
+      "title": {
+        "fr": "DREES — En 2023, la baisse du nombre de lits et la hausse du nombre de places se poursuivent",
+        "en": "DREES — In 2023 the fall in beds and the rise in places continue (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241031_ER_SAE-2023",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-handicap-emploi": {
+      "title": {
+        "fr": "Insee — Travail, santé et handicap",
+        "en": "Insee — Work, health and disability (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/7767083",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-322-1": {
+      "title": {
+        "fr": "Légifrance — Code pénal, article 322-1 (dégradations, inscriptions sans autorisation)",
+        "en": "Légifrance — Criminal Code, article 322-1 (damage, unauthorised inscriptions; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053456",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-r412-52": {
+      "title": {
+        "fr": "Légifrance — Code de la route, article R412-52 (tracts distribués aux automobilistes)",
+        "en": "Légifrance — Highway Code, article R412-52 (leaflets handed to drivers; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842176",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "env-l581-13": {
+      "title": {
+        "fr": "Légifrance — Code de l'environnement, article L581-13 (affichage d'opinion)",
+        "en": "Légifrance — Environment Code, article L581-13 (opinion posting; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006834708",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "env-l581-34": {
+      "title": {
+        "fr": "Légifrance — Code de l'environnement, article L581-34 (publicité en lieu interdit)",
+        "en": "Légifrance — Environment Code, article L581-34 (advertising in banned places; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974744",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "surligneurs-appel-d-air-2026": {
+      "title": {
+        "fr": "Les Surligneurs — Ceuta : les aides et régularisations accordées aux étrangers provoquent-elles un « appel d'air migratoire » ? (16 octobre 2026)",
+        "en": "Les Surligneurs — Do aid and regularisations for foreigners cause a \"pull effect\"? (16 October 2026; in French)"
+      },
+      "url": "https://lessurligneurs.eu/ceuta-les-aides-et-regularisations-accordees-aux-etrangers-provoquent-elles-un-appel-dair-migratoire/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-snmo-actualite": {
+      "title": {
+        "fr": "Conseil d'État — Le Conseil d'État annule plusieurs points du schéma du maintien de l'ordre (10 juin 2021)",
+        "en": "Council of State — annuls several points of the policing doctrine (10 June 2021; in French)"
+      },
+      "url": "https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-droit-image": {
+      "title": {
+        "fr": "Service-Public — Droit à l'image et respect de la vie privée",
+        "en": "Service-Public — Right to one's image and privacy"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32103",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "rsf-photographers-checklist": {
+      "title": {
+        "fr": "RSF — A digital safety checklist for press photographers",
+        "en": "RSF — A digital safety checklist for press photographers"
+      },
+      "url": "https://resources.rsf.org/a-digital-safety-checklist-for-press-photographers/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ct-l7111-3": {
+      "title": {
+        "fr": "Légifrance — Code du travail, article L7111-3 (journaliste professionnel)",
+        "en": "Légifrance — Labour Code, article L7111-3 (professional journalist; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764981",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

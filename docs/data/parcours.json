@@ -268,6 +268,13 @@
                 "fr": "Rester en groupe",
                 "en": "Stay with your group"
               }
+            },
+            {
+              "guide": "casse",
+              "label": {
+                "fr": "Pourquoi ça casse en manif ?",
+                "en": "Why do protests turn to property damage?"
+              }
             }
           ]
         },
@@ -318,6 +325,13 @@
               "label": {
                 "fr": "Ressources essentielles",
                 "en": "Essential resources"
+              }
+            },
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
               }
             }
           ]
@@ -1278,6 +1292,20 @@
               "label": {
                 "fr": "Ne jamais rester seul·e",
                 "en": "Never stay alone"
+              }
+            },
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
+              }
+            },
+            {
+              "guide": "casse",
+              "label": {
+                "fr": "Pourquoi ça casse en manif ?",
+                "en": "Why do protests turn to property damage?"
               }
             }
           ]
@@ -2262,6 +2290,13 @@
                 "fr": "Quel outil de communication choisir",
                 "en": "Which communication tool to choose"
               }
+            },
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
+              }
             }
           ]
         }
@@ -2341,6 +2376,148 @@
             },
             {
               "resource": "ente-photos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presse",
+      "label": {
+        "fr": "journaliste ou photographe de presse",
+        "en": "a journalist or press photographer"
+      },
+      "keywords": [
+        "journaliste",
+        "photographe",
+        "presse",
+        "reporter",
+        "pigiste",
+        "carte de presse",
+        "photo",
+        "journalist",
+        "photographer",
+        "press",
+        "freelance"
+      ],
+      "needs": [
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits",
+            "en": "know my rights"
+          },
+          "results": [
+            {
+              "guide": "photographier-pour-la-presse",
+              "anchor": {
+                "fr": "en-cas-de-dispersion",
+                "en": "during-a-dispersal"
+              },
+              "label": {
+                "fr": "Journalistes et dispersion",
+                "en": "Journalists and dispersal"
+              }
+            },
+            {
+              "guide": "photographier-pour-la-presse",
+              "anchor": {
+                "fr": "votre-statut",
+                "en": "your-status"
+              },
+              "label": {
+                "fr": "Votre statut et la carte de presse",
+                "en": "Your status and the press card"
+              }
+            },
+            {
+              "guide": "photographier-pour-la-presse",
+              "anchor": {
+                "fr": "photographier-des-personnes",
+                "en": "photographing-people"
+              },
+              "label": {
+                "fr": "Photographier des personnes",
+                "en": "Photographing people"
+              }
+            }
+          ]
+        },
+        {
+          "id": "proteger",
+          "label": {
+            "fr": "protéger mes images et mes sources",
+            "en": "protect my images and sources"
+          },
+          "results": [
+            {
+              "guide": "photographier-pour-la-presse",
+              "anchor": {
+                "fr": "proteger-vos-images-et-vos-sources",
+                "en": "protecting-your-images-and-sources"
+              },
+              "label": {
+                "fr": "Métadonnées, chiffrement, sources",
+                "en": "Metadata, encryption, sources"
+              }
+            },
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "publier-sans-exposer",
+                "en": "publish-without-exposing"
+              },
+              "label": {
+                "fr": "Publier sans exposer",
+                "en": "Publish without exposing"
+              }
+            }
+          ]
+        },
+        {
+          "id": "documenter",
+          "label": {
+            "fr": "filmer ou photographier sur le terrain",
+            "en": "film or photograph in the field"
+          },
+          "results": [
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "pendant",
+                "en": "during"
+              },
+              "label": {
+                "fr": "Filmer une intervention",
+                "en": "Filming an intervention"
+              }
+            },
+            {
+              "guide": "filmer",
+              "anchor": {
+                "fr": "avant-sauvegarde-automatique",
+                "en": "before-automatic-backup"
+              },
+              "label": {
+                "fr": "Sauvegarde automatique",
+                "en": "Automatic backup"
+              }
+            }
+          ]
+        },
+        {
+          "id": "temoin",
+          "label": {
+            "fr": "être cité·e ou interrogé·e",
+            "en": "be quoted or interviewed"
+          },
+          "results": [
+            {
+              "guide": "parler-a-la-presse",
+              "label": {
+                "fr": "Parler à la presse en manifestation",
+                "en": "Talking to the press at a protest"
+              }
             }
           ]
         }
@@ -2702,6 +2879,22 @@
               "label": {
                 "fr": "Suivre des comptes sur les réseaux sociaux",
                 "en": "Following accounts on social media"
+              }
+            }
+          ]
+        },
+        {
+          "id": "agir",
+          "label": {
+            "fr": "passer à l'action",
+            "en": "take action"
+          },
+          "results": [
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
               }
             }
           ]
@@ -3143,6 +3336,13 @@
                 "fr": "Repérer la désinformation",
                 "en": "Spot disinformation"
               }
+            },
+            {
+              "guide": "casse",
+              "label": {
+                "fr": "Pourquoi ça casse en manif ?",
+                "en": "Why do protests turn to property damage?"
+              }
             }
           ]
         },
@@ -3344,6 +3544,13 @@
                 "fr": "Relayer des infos fiables",
                 "en": "Share reliable information"
               }
+            },
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
+              }
             }
           ]
         },
@@ -3396,6 +3603,13 @@
               "label": {
                 "fr": "Partir à temps",
                 "en": "Leaving in time"
+              }
+            },
+            {
+              "guide": "casse",
+              "label": {
+                "fr": "Pourquoi ça casse en manif ?",
+                "en": "Why do protests turn to property damage?"
               }
             }
           ]
@@ -4789,6 +5003,13 @@
             },
             {
               "resource": "sea-shepherd"
+            },
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
+              }
             }
           ]
         },
@@ -5017,6 +5238,13 @@
                 "fr": "Pancartes, slogans et publications",
                 "en": "Placards, slogans and posts"
               }
+            },
+            {
+              "guide": "faire-sa-pancarte",
+              "label": {
+                "fr": "Pancartes, banderoles, drapeaux et tracts",
+                "en": "Signs, banners, flags and leaflets"
+              }
             }
           ]
         }
@@ -5099,8 +5327,8 @@
             {
               "guide": "desinformation",
               "label": {
-                "fr": "Éviter la désinformation",
-                "en": "Avoid disinformation"
+                "fr": "Vérifier une info et éviter la désinformation",
+                "en": "Check a story and avoid disinformation"
               }
             }
           ]

@@ -2206,12 +2206,6 @@ dialog.contact-card {
   border-color: var(--ap-vest);
 }
 
-.md-typeset .rallier__src {
-  font-size: 0.7em;
-  vertical-align: super;
-  text-decoration: none;
-}
-
 .md-typeset .rallier__objection {
   padding: 0.4rem 0.6rem;
   border-left: 4px solid var(--ap-vest);
@@ -2292,4 +2286,10 @@ dialog.contact-card {
 
 .md-typeset .rallier__rotator-line .parcours__rotator {
   text-decoration: none;
+}
+
+/* Adjacent footnote references: separate them with a comma */
+.md-typeset sup[id^='fnref'] + sup[id^='fnref']::before {
+  content: ', ';
+  margin-left: -0.1em;
 }

@@ -58,11 +58,6 @@
               },
               "en": {
                 "type": "string"
-              },
-              "source": {
-                "type": "string",
-                "pattern": "^https://",
-                "description": "Source for the gains when not covered by the event url."
               }
             }
           },

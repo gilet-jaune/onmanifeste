@@ -1,5 +1,5 @@
 ---
-source_commit: c76328697befaf4ba62171cc44267c34c1e4b0dc
+source_commit: 3777234bf7f7157105e10057a046baccc3f47aa9
 tags:
     - guides
     - dialogue
@@ -27,7 +27,7 @@ Sourced arguments depending on the person (woman, retiree, teacher, small busine
 
 1. **Listen first.** Ask what the person thinks and why: "What bothers you about these protests?"
 2. **Reflect back** what you understood. Someone who feels understood becomes more open.
-3. **Look for shared values**: safety, justice, the children's future, work done well.
+3. **Look for shared values**: safety, justice, the children's future, work done well. Don't guess the person's side: ask what matters to them, rather than talking about "right" or "left".
 4. **Tell a lived story** (yours or someone close) rather than a flood of figures.[^deep-canvassing]
 5. **Ask questions** rather than lecture: "What if it were your son in custody?"
 6. Correct false information with the **sandwich**: the true fact, the rumour (in one sentence), the true fact again with its source.[^truth-sandwich]
@@ -35,6 +35,7 @@ Sourced arguments depending on the person (woman, retiree, teacher, small busine
 ## Avoid
 
 - Humiliating, calling them ignorant or "fascist": they dig in.
+- Sticking on a label ("you're right-wing, so…"): they feel treated as a camp, not as a person.
 - Tackling everything at once: one idea per conversation.
 - Trying to win the debate: the goal is for the conversation to **continue**.
 

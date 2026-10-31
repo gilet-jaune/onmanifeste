@@ -1,7 +1,7 @@
 ---
 review: juridique
 review_status: pending
-source_commit: 0bae67b5b4d003a92f1d15c180003ca4229667fd
+source_commit: dc8c262fb5af31c5c7b804b3ebd941c678de145f
 tags:
     - guides
     - réseaux sociaux
@@ -16,7 +16,7 @@ tags:
     - **Don't linger** and don't visit their profile: pausing for a few seconds already counts.
     - **Don't press "Share"**; to show something, use an anonymised **screenshot**.
     - Report what is **illegal** (platform, Pharos) and support the people targeted.
-    - **Like, comment, save, share** what you want to see spread.
+    - **Like, comment, save, share** what you want to see spread; **copy the link** to spread it elsewhere and **add it to your favourites**.
     - Calling for a protest: sharing is risk-free, but organising an undeclared demonstration or making threats is punished.
 
 !!! info "Where to start?"
@@ -64,6 +64,11 @@ Ignoring an account does not mean letting it happen:
 ## Push up what matters
 
 - [ ] **Like, comment, save, share** the content you want to see spread: independent media, collectives, testimonies. It's the same lever, used for your causes.[^instagram-classement]
+- [ ] **Share for real**: in a message to a specific person, or in a story. Platforms count shares: Instagram cites content "liked, shared, saved or commented on",[^instagram-classement] TikTok videos you "like or share".[^tiktok-recommandation]
+- [ ] **Copy the link to spread it elsewhere**: messaging, another network, a website. The content circulates without depending on the algorithm. However, platforms don't say whether copying a link counts as a share in their ranking: combine it with a real share, and don't rely on it alone.
+- [ ] **Add it to your favourites or save it**: Instagram cites saved content among its signals;[^instagram-classement] TikTok presents favourites as a way to indicate what you like, without detailing their weight.[^tiktok-recommandation] It is free, discreet and involves no public comment.
+- [ ] **Anonymity**: a link copied from the app often contains an ID tied to your account, which public tools can trace back.[^behindit] To stay anonymous, delete everything after the "?" before posting it.
+- [ ] **The opposite of what we do with the far right**: for content we want to push up, we share, save and favourite it; for theirs, a screenshot, never "Share" (see above).
 - [ ] Watch it **to the end** and subscribe. On Instagram, add those accounts to your **Favorites**: their posts move up in your feed.[^instagram-controle-fil]
 - [ ] Reply to people who have doubts or are being targeted, not to the accounts stirring up hate ([talk to your loved ones](convaincre-ses-proches.md)).
 

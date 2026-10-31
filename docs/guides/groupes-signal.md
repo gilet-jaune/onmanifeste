@@ -105,6 +105,8 @@ Dans les deux cas, les mêmes contrôles : code QR scanné, réglages faits, un�
 
 Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne réunit toutes les personnes clés** (voir [se coordonner](groupes-signal.md#se-coordonner)).
 
+**Rôles d'organisation des groupes Signal**
+
 | Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Admin dans Signal |
 | --- | --- | --- | --- |
 | **Recruteur·se** | Parle du mouvement en manif, sur les ronds-points, en réunion publique ; oriente vers le groupe public et les groupes sas | Valider ; être garant·e de ses propres recrues ; noter quoi que ce soit sur elles | Non |
@@ -114,7 +116,18 @@ Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne r
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe | Non |
 | **Référent·e « groupe perdu »** | Déclenche la [procédure de la partie 3](groupes-signal.md#partie-3-groupe-compromis), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes |
 
-**Rôles d'équipe**, selon vos besoins : medic, legal (observation, contacts avocat·es, suivi des interpellations), construction (banderoles, pancartes, matériel), logistique (transport, nourriture, stockage), com (visuels, annonces, réseaux).
+**Rôles utiles en manif**, selon vos besoins : chacun s'appuie sur un sous-groupe (`Medic`, `Legal`…) et sur un guide du site.
+
+| Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Pour en savoir plus |
+| --- | --- | --- | --- |
+| **Medic** | Premiers secours : gaz, blessures, malaises | Gestes médicaux (suture, retrait d'éclats) ; donner des médicaments | [Premiers secours](premiers-secours.md) |
+| **Legal** | Observation des interpellations, contacts avocat·es, suivi des personnes arrêtées | Remplacer un·e avocat·e | [Garde à vue](garde-a-vue.md) |
+| **Protection et désescalade** | Repère les tensions, dialogue, aide à sortir d'une nasse, accompagne les personnes vulnérables | S'équiper de ce qui peut passer pour une arme ; répondre à la provocation | [Dispersion, sommations et nasse](dispersion.md) · [Kit et tenue de manif](kit-manif.md) |
+| **Documentation** | Filme les interpellations et les violences, conserve les preuves | Publier sans flouter les manifestant·es | [Filmer les forces de l'ordre](filmer.md) |
+| **Soutien** | Écoute et accompagne après un moment difficile | Jouer le ou la thérapeute | [Santé mentale](sante-mentale.md) |
+| **Logistique** | Transport, nourriture, eau, stockage | Entreposer du matériel qui peut passer pour une arme | [Venir et repartir](venir-repartir.md) |
+| **Construction** | Banderoles, pancartes, matériel | Matériel qui peut passer pour une arme | [Pancartes, banderoles, drapeaux et tracts](faire-sa-pancarte.md) · [Kit et tenue de manif](kit-manif.md) |
+| **Communication** | Visuels, annonces, réseaux | Reprendre du contenu d'extrême droite | [Communiquer pendant une manif](communiquer.md) · [Réseaux sociaux](reseaux-sociaux.md) |
 
 **Quelques mots encore :**
 
@@ -524,15 +537,15 @@ Remplacez ce qui est entre crochets.
 
 !!! warning "Pourquoi pas un simple message épinglé ?"
 
-    Dans Signal, **les messages éphémères priment toujours sur l'épinglage** : dès que le délai (1 jour, 1 semaine) expire, le message s'efface et son épinglage disparaît de la conversation. De plus, les personnes qui rejoignent le groupe après coup **ne reçoivent aucun historique antérieur** et ne voient pas les anciens messages épinglés.
+    Dans Signal, un message éphémère est **automatiquement désépinglé et supprimé** quand son délai expire (1 jour, 1 semaine…).[^signal-messages-epingles] De plus, une personne qui rejoint le groupe après coup **ne voit pas les messages épinglés avant son arrivée**.[^signal-messages-epingles]
 
     C'est pourquoi la **description du groupe** (permanente, visible par tous et dès la demande d'entrée) doit contenir le *disclaimer* et les règles vitales. La charte détaillée, elle, est transmise et validée **dans le groupe sas** avant l'entrée dans le groupe de confiance.
 
 ### Présentation d'un groupe de confiance
 
-**Nom du groupe** (32 caractères max) : `[MVT]-[VIL]-[ID]-General`
+**Nom du groupe** : `[MVT]-[VIL]-[ID]-General`
 
-**Description du groupe** (permanente, calibrée pour le champ Description de Signal) :
+**Description du groupe** (permanente et courte, environ 230 caractères) :
 
 ```text
 Entraide, logistique et info militante. Aucune incitation aux violences ni aux dégradations ; rien d'illégal (art. 222-14-2 CP). Pas de vrais noms, adresses, visages ni captures. Messages éphémères actifs. Charte validée dans le sas.
@@ -540,7 +553,7 @@ Entraide, logistique et info militante. Aucune incitation aux violences ni aux d
 
 ### Présentation d'un sous-groupe
 
-**Nom du groupe** (32 caractères max) : `[MVT]-[VIL]-[ID]-[THEME]`
+**Nom du groupe** : `[MVT]-[VIL]-[ID]-[THEME]`
 
 **Description du groupe** :
 

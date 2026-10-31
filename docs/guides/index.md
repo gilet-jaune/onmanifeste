@@ -37,6 +37,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](kit-manif.md)
 
+- **Pancartes, banderoles, drapeaux et tracts** [:material-sign-text:](faire-sa-pancarte.md)
+
+    ***
+
+    Un message clair, du carton ou du tissu léger, un drapeau sobre, des tracts, les slogans à éviter, des recueils de pancartes.
+
+    [:octicons-arrow-right-24: Lire](faire-sa-pancarte.md)
+
 - **Venir et repartir** [:material-bicycle:](venir-repartir.md)
 
     ***
@@ -237,32 +245,24 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](reseaux-sociaux.md)
 
-- **Éviter la désinformation** [:material-magnify-scan:](desinformation.md)
+- **Parler à la presse en manifestation** [:material-microphone:](parler-a-la-presse.md)
 
     ***
 
-    Vérifier une image, une rumeur, un bilan avant de partager.
+    Décider qui parle, une phrase, ne pas s'exposer.
 
-    [:octicons-arrow-right-24: Lire](desinformation.md)
+    [:octicons-arrow-right-24: Lire](parler-a-la-presse.md)
 
-- **Convaincre ses proches** [:material-forum:](convaincre-ses-proches.md)
-
-    ***
-
-    Parler de la mobilisation sans se fâcher : écouter, raconter, proposer.
-
-    [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
-
-- **S'informer et se former** [:material-school-outline:](s-informer-se-former.md)
+- **Photographier et filmer pour la presse** [:material-camera:](photographier-pour-la-presse.md)
 
     ***
 
-    Formations à l'action non-violente, observatoires, sources fiables, réseaux sociaux.
+    Statut, dispersion, droit à l'image, métadonnées.
 
-    [:octicons-arrow-right-24: Lire](s-informer-se-former.md)
+    [:octicons-arrow-right-24: Lire](photographier-pour-la-presse.md)
 
-</div>
+- **Vérifier une info et éviter la désinformation** [:material-magnify-scan:](desinformation.md)
 
-!!! warning "Avertissement"
+    ***
 
-    Ces guides sont généraux. Ils ne remplacent ni un·e avocat·e ni un·e soignant·e. En urgence : **112**.
+    Vérifier une info, une image ou un bilan ; faire un démenti court et sourcé.

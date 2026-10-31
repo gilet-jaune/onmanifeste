@@ -15,7 +15,7 @@ tags:
     - **Ne vous attardez pas** et n'allez pas voir son profil : quelques secondes d'arrêt comptent déjà.
     - **Ne cliquez pas sur « Partager »** ; pour montrer, une **capture d'écran** anonymisée.
     - Signalez ce qui est **illégal** (plateforme, Pharos) et soutenez les personnes visées.
-    - **Aimez, commentez, enregistrez, partagez** ce que vous voulez voir circuler.
+    - **Aimez, commentez, enregistrez, partagez** ce que vous voulez voir circuler ; **copiez le lien** pour le diffuser ailleurs et **mettez-le en favoris**.
     - Appeler à manifester : relayer est sans risque, mais organiser une manif non déclarée ou menacer est puni.
 
 !!! info "Par où commencer ?"
@@ -63,6 +63,11 @@ Ignorer un compte ne veut pas dire laisser faire :
 ## Faire monter ce qui compte
 
 - [ ] **Aimez, commentez, enregistrez, partagez** les contenus que vous voulez voir circuler : médias indépendants, collectifs, témoignages. C'est le même levier, utilisé pour vos causes.[^instagram-classement]
+- [ ] **Partagez pour de bon** : en message à une personne précise, ou en story. Les plateformes comptent les partages : Instagram cite les contenus « aimés, partagés, enregistrés ou commentés »,[^instagram-classement] TikTok les vidéos « aimées ou partagées ».[^tiktok-recommandation]
+- [ ] **Copiez le lien pour le diffuser ailleurs** : messagerie, autre réseau, site. Le contenu circule sans dépendre de l'algorithme. En revanche, les plateformes ne disent pas si copier un lien compte comme un partage dans leur classement : combinez-le avec un vrai partage, sans compter dessus seul·e.
+- [ ] **Mettez en favoris ou enregistrez** : Instagram cite les contenus enregistrés parmi ses signaux ;[^instagram-classement] TikTok présente les favoris comme un moyen d'indiquer ce que vous aimez, sans en détailler le poids.[^tiktok-recommandation] C'est gratuit, discret et sans commentaire public.
+- [ ] **Anonymat** : un lien copié depuis l'appli contient souvent un identifiant lié à votre compte, que les outils publics savent retrouver.[^behindit] Pour rester anonyme, supprimez tout ce qui suit le « ? » avant de le publier.
+- [ ] **L'inverse de ce qu'on fait avec l'extrême droite** : pour les contenus qu'on veut faire monter, on partage, on enregistre et on met en favoris ; pour les leurs, une capture d'écran, jamais « Partager » (voir plus haut).
 - [ ] Regardez-les **jusqu'au bout** et abonnez-vous. Sur Instagram, ajoutez-les à vos **Favoris** : leurs publications remontent dans votre fil.[^instagram-controle-fil]
 - [ ] Répondez aux personnes qui doutent ou qui sont ciblées, pas aux comptes qui attisent la haine ([convaincre ses proches](convaincre-ses-proches.md)).
 

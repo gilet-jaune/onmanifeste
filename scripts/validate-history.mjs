@@ -67,8 +67,6 @@ const ids = new Set();
   if (e.debunked && !e.evidence?.length) errors.push(`${at}: debunked statements need evidence`);
   if (e.gains !== undefined) {
     if (!e.gains.fr) errors.push(`${at}: gains needs a French text`);
-    if (e.gains.source && !e.gains.source.startsWith('https://'))
-      errors.push(`${at}: gains.source must use https`);
   }
 });
 

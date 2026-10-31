@@ -108,6 +108,9 @@ plugins:
             Le droit de manifester: The right to protest
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
+            Pancartes, banderoles, drapeaux et tracts: Signs, banners, flags and leaflets
+            Parler à la presse en manifestation: Talking to the press at a protest
+            Photographier et filmer pour la presse: Photographing and filming for the press
             Venir et repartir: Getting there and back
             Communiquer pendant une manif: Communicating at a protest
             "Téléphone : verrouillage, code et saisie": "Phone: emergency lock, passcode and seizure"
@@ -129,7 +132,7 @@ plugins:
             Organiser une manifestation: Organising a protest
             "Groupes Signal : s'organiser sans se faire infiltrer": "Signal groups: organising without being infiltrated"
             S'informer et se former: Stay informed, get trained
-            Éviter la désinformation: Avoid disinformation
+            Vérifier une info et éviter la désinformation: Check a story and avoid disinformation
             "Réseaux sociaux : ne pas nourrir la haine": "Social media: don't feed hate"
             Pourquoi ça casse en manif ?: Why property gets smashed at protests
             Convaincre ses proches: Talk to your loved ones
@@ -189,6 +192,7 @@ nav:
           - Checklist avant la manif: guides/avant-de-partir.md
           - Le droit de manifester: guides/droit-de-manifester.md
           - Kit et tenue de manif: guides/kit-manif.md
+          - Pancartes, banderoles, drapeaux et tracts: guides/faire-sa-pancarte.md
           - Venir et repartir: guides/venir-repartir.md
           - Communiquer pendant une manif: guides/communiquer.md
           - "Téléphone : verrouillage, code et saisie": guides/telephone.md
@@ -215,7 +219,9 @@ nav:
           - "Groupes Signal : s'organiser sans se faire infiltrer": guides/groupes-signal.md
           - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Réseaux sociaux : ne pas nourrir la haine": guides/reseaux-sociaux.md
-          - Éviter la désinformation: guides/desinformation.md
+          - Parler à la presse en manifestation: guides/parler-a-la-presse.md
+          - Photographier et filmer pour la presse: guides/photographier-pour-la-presse.md
+          - Vérifier une info et éviter la désinformation: guides/desinformation.md
           - Convaincre ses proches: guides/convaincre-ses-proches.md
           - Pourquoi nous rejoindre ?: rallier/index.md
           - S'informer et se former: guides/s-informer-se-former.md
