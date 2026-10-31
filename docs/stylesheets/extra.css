@@ -1230,15 +1230,64 @@ select:focus-visible {
   background-color: var(--ap-vest);
 }
 
-.md-typeset table:not([class]) {
-  border: 2px solid var(--ap-line);
+.md-typeset table:not([class]),
+.md-typeset table.table--cards {
+  border: 1px solid var(--ap-line);
   border-radius: var(--ap-radius);
-  font-size: 0.72rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  font-size: 0.74rem;
+  line-height: 1.45;
 }
 
-.md-typeset table:not([class]) th {
+.md-typeset table:not([class]) th,
+.md-typeset table.table--cards th {
   background: var(--ap-vest);
   color: var(--ap-ink);
+  font-weight: 700;
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  border-bottom: 2px solid var(--ap-ink);
+}
+
+.md-typeset table:not([class]) th:not(:last-child),
+.md-typeset table.table--cards th:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table.table--cards td {
+  padding: 0.55rem 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) td:not(:last-child),
+.md-typeset table.table--cards td:not(:last-child) {
+  border-right: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Lignes alternées (zebra striping style feuille de calcul) */
+.md-typeset table:not([class]) tbody tr:nth-child(even),
+.md-typeset table.table--cards tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+[data-md-color-scheme='slate'] .md-typeset table:not([class]) tbody tr:nth-child(even),
+[data-md-color-scheme='slate'] .md-typeset table.table--cards tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.035);
+}
+
+/* Survol de ligne interactif pour faciliter le repérage horizontal */
+.md-typeset table:not([class]) tbody tr:hover,
+.md-typeset table.table--cards tbody tr:hover {
+  background-color: rgba(221, 242, 15, 0.14);
+}
+
+[data-md-color-scheme='slate'] .md-typeset table:not([class]) tbody tr:hover,
+[data-md-color-scheme='slate'] .md-typeset table.table--cards tbody tr:hover {
+  background-color: rgba(221, 242, 15, 0.1);
 }
 
 .md-typeset .directory__card .directory__stores,
@@ -2031,9 +2080,15 @@ dialog.contact-card {
     border-radius: var(--ap-radius);
   }
 
-  .md-typeset table.table--cards td {
+  .md-typeset table.table--cards td,
+  .md-typeset table.table--cards td:not(:last-child) {
     border: 0;
     padding: 0.3rem 0.7rem;
+  }
+
+  .md-typeset table.table--cards tbody tr:nth-child(even),
+  .md-typeset table.table--cards tbody tr:hover {
+    background-color: transparent;
   }
 
   .md-typeset table.table--cards td:first-child {
