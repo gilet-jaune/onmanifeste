@@ -3,17 +3,18 @@
   profile is a heading, so a search for "fonctionnaire" lands on #je-fonctionnaire).
   docs/javascripts/parcours.js replaces it with the interactive two-step version.
 -#}
-{%- macro href(r, lang) -%}
-{%- if r.guide -%}../guides/{{ r.guide }}/{%- elif r.page -%}../{{ r.page }}/{%- elif r.directory -%}../annuaire/?{% for k, v in r.directory.items() %}{{ k }}={{ v }}{% endfor %}{%- endif -%}
+{%- macro href(r, lang, up='../') -%}
+{%- if r.guide -%}{{ up }}guides/{{ r.guide }}/{%- elif r.page -%}{{ up }}{{ r.page }}/{%- elif r.directory -%}{{ up }}annuaire/?{% for k, v in r.directory.items() %}{{ k }}={{ v }}{% endfor %}{%- endif -%}
 {%- if r.anchor and r.anchor[lang] -%}#{{ r.anchor[lang] }}{%- endif -%}
 {%- endmacro -%}
 
-{#- data, iam, iwant: another decision tree (e.g. parcours_signal) and its step wording. -#}
-{%- macro tree(lang, data=none, iam=none, iwant=none) -%}
+{#- data, iam, iwant: another decision tree (e.g. parcours_signal) and its step wording; up: relative path
+to the site root from the page; level: heading level of the profile names (3 inside a guide). -#}
+{%- macro tree(lang, data=none, iam=none, iwant=none, up='../', level=2) -%}
 <div class="parcours__tree">
 {%- for p in (data if data is not none else parcours) %}
   <details>
-    <summary><h2 class="parcours__profile" id="je-{{ p.id }}">{{ iam or ('Je suis' if lang == 'fr' else 'I am') }} {{ p.label[lang] }}</h2></summary>
+    <summary><h{{ level }} class="parcours__profile" id="je-{{ p.id }}">{{ iam or ('Je suis' if lang == 'fr' else 'I am') }} {{ p.label[lang] }}</h{{ level }}></summary>
     <ul>
     {%- for n in p.needs %}
       <li><strong>{{ iwant or ('… et je veux' if lang == 'fr' else '… and I want to') }} {{ n.label[lang] }}</strong>
@@ -24,7 +25,7 @@
           <li><a href="{{ res.url }}" data-resource-card="{{ res.id }}" target="_blank" rel="noopener">{{ res.name }}</a>{% if res.phone %} — {{ res.phone }}{% endif %}</li>
           {%- endfor %}
           {%- else %}
-          <li><a href="{{ href(r, lang) }}">{{ r.label[lang] }}</a></li>
+          <li><a href="{{ href(r, lang, up) }}">{{ r.label[lang] }}</a></li>
           {%- endif %}
         {%- endfor %}
         </ul>

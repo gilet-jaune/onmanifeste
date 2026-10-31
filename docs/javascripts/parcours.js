@@ -12,6 +12,11 @@
   // Another decision tree can reuse this script: data-src names its file in data/, data-key its
   // top-level key, and data-iam, data-iwant, data-type-iam, data-type-want, data-pick, data-need-of
   // replace the step wording.
+  // Embedded in a guide (data-embed): relative links start from data-up, the guide's own table of
+  // contents is left alone and headings are one level lower.
+  const EMBED = root.dataset.embed !== undefined;
+  const UP = root.dataset.up || '../';
+  const H = EMBED ? 'h3' : 'h2';
   const PARCOURS_URL = new URL(`../data/${root.dataset.src || 'parcours.json'}`, script.src);
   const DATA_KEY = root.dataset.key || 'parcours';
   const RESOURCES_URL = new URL('../data/resources.json', script.src);
@@ -136,6 +141,7 @@
 
   // After a click, bring the next step to the top; not on first load or when going back.
   let scrollToStep = false;
+  let rendered = false;
 
   function go(params, push = true) {
     scrollToStep = push;
@@ -216,7 +222,7 @@
   }
 
   function directoryLink(q) {
-    return el('a', { href: `../annuaire/?q=${encodeURIComponent(q)}` }, T.searchDirectory(q));
+    return el('a', { href: `${UP}annuaire/?q=${encodeURIComponent(q)}` }, T.searchDirectory(q));
   }
 
   function resultNode(r) {
@@ -308,9 +314,9 @@
       );
     }
     let href;
-    if (r.guide) href = `../guides/${r.guide}/`;
-    else if (r.page) href = `../${r.page}/`;
-    else if (r.directory) href = `../annuaire/?${new URLSearchParams(r.directory)}`;
+    if (r.guide) href = `${UP}guides/${r.guide}/`;
+    else if (r.page) href = `${UP}${r.page}/`;
+    else if (r.directory) href = `${UP}annuaire/?${new URLSearchParams(r.directory)}`;
     if (r.anchor && loc(r.anchor)) href += `#${loc(r.anchor)}`;
     const kind = r.guide ? 'guide' : r.page ? 'page' : 'directory';
     const guide = r.guide ? (digest[lang] || {})[r.guide] : null;
@@ -379,13 +385,14 @@
           ),
           ' ',
         ]),
-      el('a', { href: '../sos/' }, `${T.allNumbers} →`),
+      el('a', { href: `${UP}sos/` }, `${T.allNumbers} →`),
     );
   }
 
   let tocObserver = null;
 
   function syncToc(items) {
+    if (EMBED) return;
     if (tocObserver) {
       tocObserver.disconnect();
       tocObserver = null;
@@ -464,7 +471,7 @@
   }
 
   // One need: the chosen situation and need, urgent numbers and result cards.
-  function needBlock(profile, need, heading = 'h2') {
+  function needBlock(profile, need, heading = H) {
     const needId = `besoin-${need.id}`;
     return el(
       'section',
@@ -483,6 +490,9 @@
       : null;
     const profile = data.find((p) => p.id === (params.get('je') || fromHash));
     const need = profile?.needs.find((n) => n.id === params.get('veux'));
+    // Embedded in a guide: a link or a search hit for a profile lands on the selector.
+    if (EMBED && profile && !rendered) root.scrollIntoView({ block: 'start' });
+    rendered = true;
 
     const view = el('div', { class: 'parcours__view' });
 
@@ -507,7 +517,7 @@
         view,
         el('p', { class: 'parcours__stepno' }, T.step(1)),
         el(
-          'h2',
+          H,
           { class: 'parcours__step' },
           T.iam.replace('…', ''),
           ' ',
@@ -523,7 +533,7 @@
     }
 
     const crumb = el(
-      'h2',
+      H,
       { class: 'parcours__step' },
       T.iam.replace('…', ''),
       ' ',
@@ -564,7 +574,7 @@
         crumb,
         el('p', { class: 'parcours__stepno' }, T.step(2)),
         el(
-          'h2',
+          H,
           { class: 'parcours__step' },
           T.iwant.replace(/…$/, ''),
           ' ',
@@ -585,7 +595,7 @@
       view,
       crumb,
       el(
-        'h2',
+        H,
         { class: 'parcours__step' },
         T.iwant.replace(/…$/, ''),
         ' ',
@@ -598,7 +608,7 @@
         ),
       ),
       need.urgent ? urgentBlock() : null,
-      el('h2', { class: 'parcours__step' }, T.results),
+      el(H, { class: 'parcours__step' }, T.results),
       el('div', { class: 'parcours__results' }, ...need.results.map(resultNode).filter(Boolean)),
       others.length
         ? el(

@@ -1064,6 +1064,13 @@
                 "fr": "Retrait conservatoire",
                 "en": "Precautionary removal"
               }
+            },
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue : ce qui se passe et ce qu'on peut faire",
+                "en": "Custody: what happens and what can be done"
+              }
             }
           ]
         },
@@ -2085,33 +2092,19 @@
         {
           "id": "groupes",
           "label": {
-            "fr": "structurer nos groupes Signal (rôles, validation, groupe compromis)",
-            "en": "structure our Signal groups (roles, vetting, compromised group)"
+            "fr": "structurer nos groupes de discussion sans être infiltré·es",
+            "en": "structure our discussion groups without being infiltrated"
           },
           "keywords": [
             "signal",
             "groupe",
             "groupes",
-            "secrétaire",
-            "secretaire",
-            "gardien",
-            "gardienne",
-            "RH",
-            "recruteur",
-            "sas",
-            "confiance",
-            "compromis",
             "infiltration",
-            "admin"
+            "infiltré",
+            "sas",
+            "confiance"
           ],
           "results": [
-            {
-              "page": "conversations",
-              "label": {
-                "fr": "Menu « Je suis… et je veux… (groupes Signal) » : secrétaire, RH, gardien·ne, recruteur·se",
-                "en": "Menu \"I am… and I want to… (Signal groups)\": secretary, HR, keyholder, recruiter"
-              }
-            },
             {
               "guide": "groupes-signal",
               "anchor": {
@@ -2759,6 +2752,135 @@
               "label": {
                 "fr": "Pancartes, banderoles, drapeaux et tracts",
                 "en": "Signs, banners, flags and leaflets"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nouveau-signal",
+      "label": {
+        "fr": "nouveau ou nouvelle dans les groupes Signal d'organisation",
+        "en": "new to the Signal organising groups"
+      },
+      "keywords": [
+        "anonyme",
+        "anonymous",
+        "debutant",
+        "entrer",
+        "groupe",
+        "groupes",
+        "join",
+        "new",
+        "newcomer",
+        "nouveau",
+        "nouvelle",
+        "rejoindre",
+        "signal"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre comment ça marche",
+            "en": "understand how it works"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
+                "en": "The groups: public group, airlock group, trusted group, sub-groups"
+              },
+              "anchor": {
+                "fr": "les-groupes",
+                "en": "the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              },
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anonyme",
+          "label": {
+            "fr": "rester anonyme",
+            "en": "stay anonymous"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Votre nom de militant·e",
+                "en": "Your activist name"
+              },
+              "anchor": {
+                "fr": "votre-nom-de-militante",
+                "en": "your-activist-name"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Vos réglages",
+                "en": "Your settings"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            },
+            {
+              "resource": "signal"
+            }
+          ]
+        },
+        {
+          "id": "sas",
+          "label": {
+            "fr": "aller à une rencontre (groupe sas)",
+            "en": "go to a meeting (airlock group)"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            }
+          ]
+        },
+        {
+          "id": "confiance",
+          "label": {
+            "fr": "entrer dans le groupe de confiance",
+            "en": "join the trusted group"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
               }
             }
           ]

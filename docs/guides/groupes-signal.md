@@ -26,7 +26,7 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
     - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis la [partie 1 : membres](groupes-signal.md#partie-1-membres).
     - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles](groupes-signal.md#les-roles), puis la [partie 2 : organiser](groupes-signal.md#partie-2-organiser).
     - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [partie 3 : groupe compromis](groupes-signal.md#partie-3-groupe-compromis).
-    - **Un menu pour aller droit à ce qui vous concerne** → [je suis… et je veux… (groupes Signal)](../conversations/index.md).
+    - **Vous organisez et voulez aller droit à votre rôle** (secrétaire, RH, gardien·ne, recruteur·se) → le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
     - **Vous voulez juste la charte** → [modèles à copier-coller](groupes-signal.md#modeles-a-copier-coller).
 
 !!! warning "Partez du principe que quelqu'un lit"
@@ -36,6 +36,17 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 !!! tip "Ce guide est public : adaptez-le"
 
     La police peut le lire aussi, et ce n'est pas un problème : votre sécurité ne repose pas sur le secret de la méthode, mais sur ce qui n'est écrit nulle part ici (qui est dans quel groupe, vos identifiants, le registre, les lieux de rencontre, qui sont vos RH et vos gardien·nes). **Changez les noms de rôles, de libellés et la nomenclature des groupes** plutôt que de reprendre ceux du guide : sur un téléphone saisi, ils ne désigneront pas d'emblée vos personnes clés.
+
+## Trouver ce qui concerne votre rôle
+
+Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardien·ne, recruteur·se), puis ce que vous voulez faire : le menu vous emmène directement à la bonne partie de ce guide. Fonctionne **hors ligne**.
+
+{% import "overrides/partials/parcours-tree.html" as pt with context %}
+
+<div class="parcours" data-parcours data-embed data-up="../../" data-src="parcours-signal.json" data-key="parcours_signal" data-type-iam="Tapez quelques mots">
+    <noscript><p>JavaScript est désactivé : voici tous les parcours.</p></noscript>
+    {{ pt.tree('fr', parcours_signal, none, none, '../../', 3) }}
+</div>
 
 ## Les groupes
 
