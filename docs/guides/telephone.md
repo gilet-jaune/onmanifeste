@@ -24,7 +24,7 @@ tags:
 ## Avant de partir : 4 réglages indispensables
 
 - [ ] **Désactivez la biométrie** (Face ID, Touch ID, empreinte digitale, reconnaissance faciale) et utilisez un **code alphanumérique ou à 6 chiffres minimum** (pas un schéma tracé au doigt, facile à deviner aux traces sur l'écran).[^eff-protest]
-- [ ] Réglez le **verrouillage automatique** de l'écran sur **30 secondes** et masquez le contenu des notifications sur l'écran verrouillé.[^eff-protest]
+- [ ] Réglez le **verrouillage automatique** de l'écran sur **30 secondes** et masquez le contenu des notifications sur l'écran verrouillé. Dans Signal : Paramètres › Notifications › **Afficher** › option sans nom ni message.[^eff-protest][^signal-notifications]
 - [ ] Activez les **messages éphémères** dans vos discussions de groupe ({{ res("signal") }}) et évitez d'emporter votre téléphone principal si un téléphone de réserve sans comptes personnels suffit.[^eff-protest][^eff-signal]
 - [ ] Écrivez vos numéros d'urgence (proche, legal team) **sur votre peau sous un vêtement** pour n'avoir jamais besoin d'allumer votre téléphone devant la police.[^sm-guide]
 

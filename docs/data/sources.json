@@ -4041,6 +4041,21 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "signal-notifications": {
+      "title": {
+        "fr": "Signal — Options de notification dans l'application",
+        "en": "Signal — In-app notification options"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360043273491",
+        "en": "https://support.signal.org/hc/en-us/articles/360043273491"
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
