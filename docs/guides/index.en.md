@@ -1,5 +1,5 @@
 ---
-source_commit: 32d6607ea31a0d0851de7c0b0be3673e52abd6ed
+source_commit: 8c3c3a37d1b2b8462c719cb256851b6262b3ae3a
 tags:
     - guides
 ---
@@ -34,6 +34,14 @@ Guides to read before you go, **available offline** once the site has been opene
     A freedom, not a permission: declaring, lawful and unlawful bans, how to challenge them.
 
     [:octicons-arrow-right-24: Read](droit-de-manifester.md)
+
+- **What the law forbids at a protest** [:material-gavel:](risques-penaux.md)
+
+    ***
+
+    Gatherings, weapons, hidden faces, violence: the penalties provided and what the text says.
+
+    [:octicons-arrow-right-24: Read](risques-penaux.md)
 
 - **Why property gets smashed at protests** [:material-comment-question:](casse.md)
 
