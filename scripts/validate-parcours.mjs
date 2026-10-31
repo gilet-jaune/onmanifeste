@@ -17,6 +17,7 @@ const PAGES = {
   comprendre: 'docs/comprendre/index',
   histoire: 'docs/histoire/index',
   contribuer: 'docs/contribuer/index',
+  conversations: 'docs/conversations/index',
   repressions: 'docs/repressions/index',
 };
 

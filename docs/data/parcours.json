@@ -2085,10 +2085,33 @@
         {
           "id": "groupes",
           "label": {
-            "fr": "structurer nos groupes de discussion sans être infiltré·es",
-            "en": "structure our group chats without being infiltrated"
+            "fr": "structurer nos groupes Signal (rôles, validation, groupe compromis)",
+            "en": "structure our Signal groups (roles, vetting, compromised group)"
           },
+          "keywords": [
+            "signal",
+            "groupe",
+            "groupes",
+            "secrétaire",
+            "secretaire",
+            "gardien",
+            "gardienne",
+            "RH",
+            "recruteur",
+            "sas",
+            "confiance",
+            "compromis",
+            "infiltration",
+            "admin"
+          ],
           "results": [
+            {
+              "page": "conversations",
+              "label": {
+                "fr": "Menu « Je suis… et je veux… (groupes Signal) » : secrétaire, RH, gardien·ne, recruteur·se",
+                "en": "Menu \"I am… and I want to… (Signal groups)\": secretary, HR, keyholder, recruiter"
+              }
+            },
             {
               "guide": "groupes-signal",
               "anchor": {
@@ -2101,166 +2124,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "vos-reglages",
-                "en": "your-settings"
-              },
-              "label": {
-                "fr": "Avant de rejoindre : nom de militant·e et réglages",
-                "en": "Before joining: activist name and settings"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "regler-les-groupes",
-                "en": "setting-up-the-groups"
-              },
-              "label": {
-                "fr": "Préparer un groupe avant d'inviter",
-                "en": "Set up a group before inviting"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "valider-la-confiance-graduee",
-                "en": "validating-graduated-trust"
-              },
-              "label": {
-                "fr": "Valider : la confiance graduée",
-                "en": "Validating: graduated trust"
-              }
-            },
-            {
               "resource": "signal"
-            }
-          ]
-        },
-        {
-          "id": "compromis",
-          "label": {
-            "fr": "réagir à un membre arrêté ou à un groupe compromis",
-            "en": "respond to a member's arrest or a compromised group"
-          },
-          "results": [
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "retrait-conservatoire",
-                "en": "precautionary-removal"
-              },
-              "label": {
-                "fr": "Quelqu'un se fait embarquer : retrait conservatoire",
-                "en": "Someone gets taken away: precautionary removal"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "quand-un-groupe-est-il-compromis",
-                "en": "when-is-a-group-compromised"
-              },
-              "label": {
-                "fr": "Quand un groupe est-il compromis ?",
-                "en": "When is a group compromised?"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "que-faire",
-                "en": "what-to-do"
-              },
-              "label": {
-                "fr": "Groupe compromis : étape par étape",
-                "en": "Compromised group: step by step"
-              }
-            }
-          ]
-        },
-        {
-          "id": "secretaire",
-          "label": {
-            "fr": "accueillir et valider des nouvelles personnes (secrétaire)",
-            "en": "welcome and validate newcomers (secretary)"
-          },
-          "results": [
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
-                "en": "recruitment-end-to-end-role-by-role"
-              },
-              "label": {
-                "fr": "Le recrutement, rôle par rôle",
-                "en": "Recruitment, role by role"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "le-groupe-sas",
-                "en": "the-airlock-group"
-              },
-              "label": {
-                "fr": "Le groupe sas",
-                "en": "The airlock group"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "valider-la-confiance-graduee",
-                "en": "validating-graduated-trust"
-              },
-              "label": {
-                "fr": "Valider : la confiance graduée",
-                "en": "Validating: graduated trust"
-              }
-            }
-          ]
-        },
-        {
-          "id": "gardien",
-          "label": {
-            "fr": "garder les clés d'un groupe (gardien·ne)",
-            "en": "hold a group's keys (keyholder)"
-          },
-          "results": [
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "regler-les-groupes",
-                "en": "setting-up-the-groups"
-              },
-              "label": {
-                "fr": "Régler les groupes",
-                "en": "Setting up the groups"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "fermer-un-groupe",
-                "en": "closing-a-group"
-              },
-              "label": {
-                "fr": "Fermer un groupe",
-                "en": "Closing a group"
-              }
-            },
-            {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "retrait-conservatoire",
-                "en": "precautionary-removal"
-              },
-              "label": {
-                "fr": "Retrait conservatoire",
-                "en": "Precautionary removal"
-              }
             }
           ]
         },
