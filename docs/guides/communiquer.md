@@ -50,7 +50,7 @@ Le réseau mobile peut saturer, être brouillé ou coupé. Le gouvernement peut 
     - [ ] une **carte hors ligne** ou papier du quartier ([checklist avant la manif](avant-de-partir.md#carte-hors-ligne)).
 
 - [ ] **Installez et testez vos applis avant de partir**, et ajoutez vos contacts Briar à ce moment-là : si le réseau mobile est coupé ou saturé sur place, vous ne pourrez plus rien télécharger.
-- [ ] **Signal** : activez les messages éphémères et le verrouillage de l'écran ; créez des groupes séparés par usage ([groupes Signal : s'organiser sans se faire infiltrer](groupes-signal.md)).[^eff-signal]
+- [ ] **Signal** : activez les messages éphémères, **réglés sur 8 heures (ou 3 heures) la veille ou le jour de la manif**, et le verrouillage de l'écran ; créez des groupes séparés par usage ([groupes Signal : s'organiser sans se faire infiltrer](groupes-signal.md)).[^eff-signal]
 - [ ] **Meshtastic** : créez un **canal privé avec sa propre clé** et ne la partagez qu'avec votre équipe ; n'utilisez pas le canal par défaut pour des infos sensibles.[^meshtastic-encryption]
 - [ ] **Meshtastic** : changez le **code d'appairage Bluetooth** ; sur les boîtiers sans écran, il vaut **123456** par défaut, et n'importe qui à proximité pourrait s'y connecter.[^meshtastic-bluetooth]
 - [ ] **Meshtastic** : réglez la région sur **EU_868** ; en France, cette bande s'utilise sans licence, avec un temps d'émission limité.[^meshtastic-lora]

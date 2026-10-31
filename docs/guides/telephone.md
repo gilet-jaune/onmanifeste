@@ -25,7 +25,7 @@ tags:
 
 - [ ] **Désactivez la biométrie** (Face ID, Touch ID, empreinte digitale, reconnaissance faciale) et utilisez un **code alphanumérique ou à 6 chiffres minimum** (pas un schéma tracé au doigt, facile à deviner aux traces sur l'écran).[^eff-protest]
 - [ ] Réglez le **verrouillage automatique** de l'écran sur **30 secondes** et masquez le contenu des notifications sur l'écran verrouillé. Dans Signal : Paramètres › Notifications › **Afficher** › option sans nom ni message.[^eff-protest][^signal-notifications]
-- [ ] Activez les **messages éphémères** dans vos discussions de groupe ({{ res("signal") }}) et évitez d'emporter votre téléphone principal si un téléphone de réserve sans comptes personnels suffit.[^eff-protest][^eff-signal]
+- [ ] Activez les **messages éphémères** dans vos discussions de groupe ({{ res("signal") }}) et, **avant la manif, raccourcissez le délai** de chaque conversation : **8 heures**, ou **3 heures** en durée personnalisée si c'est sensible. Le nouveau délai ne vaut que pour les **nouveaux** messages ; notez avant ce dont vous avez besoin.[^signal-ephemeres] Évitez d'emporter votre téléphone principal si un téléphone de réserve sans comptes personnels suffit.[^eff-protest][^eff-signal]
 - [ ] Écrivez vos numéros d'urgence (proche, legal team) **sur votre peau sous un vêtement** pour n'avoir jamais besoin d'allumer votre téléphone devant la police.[^sm-guide]
 
 ## En 2 secondes avant un contrôle ou une interpellation
