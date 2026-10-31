@@ -1,5 +1,5 @@
 ---
-source_commit: 8e96a99c7f0a4377f530c110149be3e36157c609
+source_commit: 27ec1132dd065a69fc876f5f5de61b2977be15fe
 review: juridique
 review_status: pending
 tags:
@@ -14,7 +14,7 @@ tags:
 !!! abstract "Key points"
 
     - **Public** announcement group → **airlock group** to meet in person (suggested by anyone, announced by a secretary) → vetted **trusted group** → team **sub-groups**.
-    - **Graduated trust**: a **vetted secretary**, **one voucher** and a **second check by HR** for the trusted group; **two vouchers** for a sensitive sub-group. Never through a link that gets passed around.
+    - **Graduated trust**: a **vetted secretary**, **one voucher** and a **second check by HR** for the trusted group; **two vouchers** for a sensitive sub-group. Never through a group link or QR code, **except for the public group** (announcements, nothing sensitive): people are added **by username**, from a private conversation.
     - **No vetting stops a determined infiltrator**: write nothing you wouldn't want read out in police custody.
     - Before joining: a short **activist name**, also used in person; number hidden from **everyone**; **disappearing** messages, in every group from its creation.
     - Someone gets taken away: **remove them from all their groups straight away**, as a precaution.
@@ -53,10 +53,10 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 
 <div class="flow flow--funnel" markdown>
 
-1. **Public group** (one per city) → anyone joins via a shared link; only admins (keyholders and secretaries) post: announcements, date, declared location, links to the guides.
-    - **To move on to an airlock group**: set up your settings, make yourself known to a recruiter, ask to join an airlock group announced in the public group with its date and time of day (approval), or suggest one to a secretary.
+1. **Public group** (one per city) → people join through the **public group's link** (the one exception: it holds nothing sensitive) or are added directly by a secretary or a recruiter; only admins (keyholders and secretaries) post: announcements, date, declared location, links to the guides.
+    - **To move on to an airlock group**: set up your settings, make yourself known to a recruiter, write privately to a secretary (by username) to be added to an airlock group announced in the public group with its date and time of day, or suggest one.
 2. **Airlock group** (temporary) → suggested by **any member of the public group**, created and announced by a secretary, to organise **one** in-person meeting; only the time and place are written there.
-    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), **one voucher**, then HR's second check, who post the link with approval in the cleaned airlock group.
+    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the cleaned airlock group.
 3. **Trusted group** (vetted, `MVT-CTY-4K9-General`) → logistics, mutual aid, public information; nothing illegal.
     - **To move on to a sub-group**: a real need in the team, a period in the trusted group, and **two vouchers** if the sub-group is sensitive; the sub-group's keyholder adds them.
 4. **Sub-groups by topic**, in the same family (same ID) → each only sees what concerns its team:
@@ -108,7 +108,7 @@ The **trusted group and its sub-groups** are the **vetted groups**, and a **fami
     | **Through** | The public group, then an airlock group and a meeting | The vetted member **proposes** them directly to a secretary, without the public group or an airlock group |
     | **Meeting** | In the airlock group, with the secretary | One-to-one, or on the spot during an action |
     | **Voucher** | To be found: someone who knows them, or several actions together | The member who proposed them |
-    | **Adding** | By HR, from the cleaned airlock group | By HR, with the link (approval) sent privately, reset afterwards |
+    | **Adding** | By HR, from the cleaned airlock group | By HR, **by username**, from a private conversation (no link) |
     | **Time** | A few days to a few weeks | The same day or the next |
 
 In both cases, the same checks: QR code scanned, settings done, a voucher and HR's second check (see [validating](groupes-signal.md#validating-graduated-trust)).
@@ -124,7 +124,7 @@ Nobody holds every role, and roles **rotate**. And **no group brings together ev
 | **Recruiter** | Talks about the movement at protests, on roundabouts, at public meetings; points people to the public group and the airlock groups | Validate; vouch for their own recruits; write anything down about them | No |
 | **Secretary** (already-vetted member) | **Coordinates the meeting end to end**: announces the airlock group in the public group, comes to it, helps everyone set up Signal; **validates** once the conditions are met; cleans the airlock group and adds HR to it; stays the newcomers' contact | Validate without a voucher; **add anyone to the trusted group** (HR do the adding); keep an attendance list | Of the airlock group they run, and of the public group to announce meetings there |
 | **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs; settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
-| **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, link), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
+| **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
 | **Moderation** | Reminds people of the charter, deals with issues privately | Accuse anyone in the group | No |
 | **"Lost group" lead** | Triggers the [part 3 procedure](groupes-signal.md#part-3-compromised-group), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
 
@@ -161,7 +161,7 @@ Nobody holds every role, and roles **rotate**. And **no group brings together ev
 3. **Join an airlock group** announced in the public group, or suggest one to a secretary, to meet in person. If a vetted member already knows you, they can also **co-opt** you: they propose you directly to a secretary.
 4. **Come to meetings and actions** → a vetted secretary helps you set up Signal and scans your account's QR code.
 5. **Validation** → once a vetted member who knows you vouches for you to the secretary; otherwise, keep coming to actions: that is where people get to know each other.
-6. **Join the trusted group** → an HR member joins you in the airlock group, checks your profile, has you review the [full charter](#full-charter), then posts the trusted group's link there: request to join, they approve.
+6. **Join the trusted group** → an HR member joins you in the airlock group, checks your profile, has you review the [full charter](#full-charter), then adds you to the trusted group **by your username**: no link to ask for or follow.
 7. **Take part** → nothing illegal in writing; doubts about someone: HR, privately.
 8. **Arrested, lost your phone, group gone** → see below.
 
@@ -207,6 +207,7 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **Need help? Name someone**: "@Lou, can you handle the banner on Saturday?" rather than "can anyone…?". The bigger a group, the less each person responds, except when you name the person.[^markey-2000][^darley-latane-1968] **Emergency**: call **15** or **112**, not the group.
 - [ ] **Label**: Signal lets you show your role next to your name, in each group separately; only set one if the charter says so (see [role labels](groupes-signal.md#role-labels)).
 - [ ] **Doubts about someone**: HR, privately. Never accuse anyone in the group: an infiltration rumour destroys a group more surely than an infiltrator.
+- [ ] **Never share the link or QR code of an airlock group, a trusted group or a sub-group** (only the public group's link is shared): give your **username** to the person who must add you, and add others the same way. If you spot a link somewhere, tell the keyholders, who **turn it off straight away**.[^signal-lien-groupe]
 
 ### If you are arrested or lose your phone
 
@@ -236,13 +237,13 @@ Do this **before** joining your first group, airlock group included: once you ar
 
 | Step | Newcomer | Secretary | HR | Keyholder |
 | --- | --- | --- | --- | --- |
-| **1. Before** | Joins the public group; sets up their settings (activist name, hidden number) | — | — | Sets up **empty** groups: message timer, permissions, link with approval |
-| **2. Airlock group** | Joins an airlock group announced in the public group (date and time of day), or suggests one to the secretary, who announces it (timer set before any invitation, link with approval)[^signal-lien-groupe] | Announces the airlock group in the public group (date, time of day, link); is its admin; posts the place the day before, turning off the airlock group's link, then again on the day | — | — |
+| **1. Before** | Joins the public group; sets up their settings (activist name, hidden number) | — | — | Sets up **empty** groups: message timer, permissions, no link (except for the public group) |
+| **2. Airlock group** | Joins an airlock group announced in the public group (date and time of day), or suggests one to the secretary, who announces it (timer set before any invitation; added by the secretary, by username) | Announces the airlock group in the public group (date, time of day); is its admin; **adds** the people who signed up in private; posts the place the day before, without adding anyone else, then again on the day | — | — |
 | **3. Meeting** | Comes, no phone on the table; sets up their settings **with** the secretary | Hosts; helps with settings; **scans each account's safety-number QR code**, which is then marked "verified" on their phone[^eff-signal] | — | — |
 | **4. Voucher** | A vetted member who knows them vouches for them, privately | **Validates** if all the conditions are met (see [validating](groupes-signal.md#validating-graduated-trust)) | Settle it if in doubt | — |
-| **5. Cleaning** | — | Removes unvalidated people (the link has been off since the day before), **adds an HR member to it**, who is thus only exposed to validated people | — | — |
+| **5. Cleaning** | — | Removes unvalidated people (nobody has been added since the day before), **adds an HR member to it**, who is thus only exposed to validated people | — | — |
 | **6. Second check** | Answers any questions | — | Check profiles: name, no photo, hidden number, no duplicate name | — |
-| **7. Adding** | Requests to join through the link posted in the airlock group | — | Post the trusted group's link, **approve** only the airlock group's members, reset the link, leave the airlock group, record the names in the register[^signal-lien-groupe] | Checks that the arrivals match: no strangers, no duplicate names |
+| **7. Adding** | Is added to the trusted group by HR | — | **Add by username** only the airlock group's validated members, leave the airlock group, record the names in the register | Checks that the arrivals match: no strangers, no duplicate names |
 | **8. Afterwards** | Reads the charter; trial period; sensitive sub-groups later | Stays their contact | Receive doubts, decide on removals; an arrest: [precautionary removal](groupes-signal.md#precautionary-removal) | **Watches**: unexpected arrivals, name changes, odd behaviour; reports to HR |
 
 ### The airlock group
@@ -256,14 +257,14 @@ Do this **before** joining your first group, airlock group included: once you ar
     3. **what they want to do**: which actions, which team;
     4. **that they understood the charter**, by having them put it in their own words;
     5. **warning signs**, without accusing: pushing for illegal or violent action, wanting to know who is who and which groups exist, asking for names or addresses, taking photos, wanting to get into everything straight away.
-- [ ] **Each airlock group starts with its date and time of day** ("Thursday evening", "Saturday lunchtime"): people pick the one that suits them, with no poll or splitting afterwards. The secretary syncs it all: they create the airlock group (or become its admin if someone else created it) and post the announcement in the public group, where secretaries are admins: "Meeting on Thursday evening: airlock group" and its link with approval. **Never the place**: it is posted the day before in the airlock group.
+- [ ] **Each airlock group starts with its date and time of day** ("Thursday evening", "Saturday lunchtime"): people pick the one that suits them, with no poll or splitting afterwards. The secretary syncs it all: they create the airlock group (or become its admin if someone else created it) and post the announcement in the public group, where secretaries are admins: "Meeting on Thursday evening: airlock group" with the instruction to **write to them in private** (by username) to be added. **Never the place**: it is posted the day before in the airlock group.
 - [ ] **Date not set yet?** A Signal poll in the airlock group, with 2 or 3 slots; no outside tool, which would keep a record of who comes when. Votes are not anonymous: every member sees who chose what, which is fine for a date.[^signal-sondages]
-- [ ] **Two popular slots?** One meeting, one airlock group: the secretary creates a second one for the other slot, posts its link with approval, approves only the people who chose it, then removes them from the first. A slot that only attracts one or two people isn't worth a group: keep the majority slot, and the others will come to the next meeting.
+- [ ] **Two popular slots?** One meeting, one airlock group: the secretary creates a second one for the other slot, adds the people who chose it, then removes them from the first. A slot that only attracts one or two people isn't worth a group: keep the majority slot, and the others will come to the next meeting.
 - [ ] **When to clean up**:
-    - **before**: nobody is removed, but **entry is closed**: the day before, when posting the time and place, the secretary turns off the airlock group's link; only people already approved know the place;
+    - **before**: nobody is removed, but **entry is closed**: the day before, when posting the time and place, the secretary stops adding anyone; only people already added know the place;
     - **during**: no clean-up, phones are put away; an announced grace period for latecomers (30 minutes, for example), who do their settings and QR code at the end;
     - **after**: clean-up happens **the same evening**, within 48 hours at most: unvalidated people are removed, absentees included; they see nothing further. The longer you wait, the longer people nobody has met see what follows. What they have already seen is not erased: closing the airlock group afterwards is a matter of hygiene (fewer groups), not security. Absentees stay in the public group and come to the next meeting; an absentee known to a voucher can also be met one-to-one by a secretary.
-- [ ] **Then, either**: close it, or keep it, renamed, as a **backup group** for that meeting's small core, to stay in touch if the main group is lost (closed by mistake, keyholders arrested). Nothing is organised there and nobody is added; two admins from the core, preferably **not** the trusted group's keyholders; link off; disappearing messages at 1 week.[^signal-groupes][^signal-gerer-groupe] It doesn't protect against an unknown leak (case B).
+- [ ] **Then, either**: close it, or keep it, renamed, as a **backup group** for that meeting's small core, to stay in touch if the main group is lost (closed by mistake, keyholders arrested). Nothing is organised there and nobody is added; two admins from the core, preferably **not** the trusted group's keyholders; no link; disappearing messages at 1 week.[^signal-groupes][^signal-gerer-groupe] It doesn't protect against an unknown leak (case B).
 - [ ] **Without a backup airlock group**, people find each other through a neutral message from keyholders in the public group ("HR will get back to you") and the fallback point in person.
 - [ ] **In the public group, the member list is visible to everyone**, and Signal can't hide it: someone can pick contacts from it for an airlock group, or to harass. Hence the activist name and hidden number, from the public group onwards.
 
@@ -351,13 +352,13 @@ A short, coded name helps you find your way and **replace** groups without confu
 
 ### Setting up the groups
 
-| Group | Size | Disappearing messages | Keyholders | Group link | Description |
+| Group | Size | Disappearing messages | Keyholders | Entry | Description |
 | --- | --- | --- | --- | --- | --- |
-| **Public group** | Up to 1,000 (Signal's maximum)[^signal-groupes] | 4 weeks (the maximum)[^signal-ephemeres] | 2 or 3, plus secretaries to announce meetings; **only admins post** | On, no approval | Short charter and a link to this site |
-| **Airlock group** | 5 to 15 people | 1 week: its lifetime; it holds nothing sensitive | The secretary who announces it, and one other person | On with **approve new members** until the day before the meeting, then off[^signal-lien-groupe] | Empty |
-| **Trusted group** | About a hundred at most | 1 week | 2 or 3, not the same everywhere | **Off**, except while adding people: on with approval, reset right after | Charter only |
-| **Sub-group** | 5 to 15; under 10 if sensitive | 1 week; 1 day if sensitive, a few hours on action days | 2 | **Off** | Charter only |
-| **Temporary group** | The people present | A few hours for a day; the length of the mobilisation otherwise | The person who created it and one other | QR code shown in person, reset once everyone has joined | Empty |
+| **Public group** | Up to 1,000 (Signal's maximum)[^signal-groupes] | 4 weeks (the maximum)[^signal-ephemeres] | 2 or 3, plus secretaries to announce meetings; **only admins post** | **Link allowed** (the one exception), no approval, reset if needed; or direct add | Short charter and a link to this site |
+| **Airlock group** | 5 to 15 people | 1 week: its lifetime; it holds nothing sensitive | The secretary who announces it, and one other person | Added directly by the secretary, after a private sign-up; **no link** | Empty |
+| **Trusted group** | About a hundred at most | 1 week | 2 or 3, not the same everywhere | Added directly by HR; **no link** | Charter only |
+| **Sub-group** | 5 to 15; under 10 if sensitive | 1 week; 1 day if sensitive, a few hours on action days | 2 | Added directly by a keyholder; **no link** | Charter only |
+| **Temporary group** | The people present | A few hours for a day; the length of the mobilisation otherwise | The person who created it and one other | Added directly, in person, by whoever created it; **no link or QR code** | Empty |
 
 A group is set up **empty**, before the first invitation: the message timer only covers **new** messages.[^signal-ephemeres]
 
@@ -365,8 +366,8 @@ A group is set up **empty**, before the first invitation: the message timer only
 
 1. **Create the group alone or with your co-keyholder** → name following the naming scheme, no photo.
 2. **Disappearing messages** → the timer from the table, from creation.[^signal-ephemeres]
-3. **Permissions** → only admins (keyholders, and secretaries in the public group and the airlock group) edit the group info and the timer, add members, and, in the public group and the airlock group, set a label; in the public group, only admins send messages.[^signal-groupes][^signal-gerer-groupe]
-4. **Group link** → with **new-member approval**; for a vetted group, off outside additions and reset after each one.[^signal-lien-groupe]
+3. **Permissions** → **to set at creation** (group settings › permissions): admins choose who can edit the group info and the disappearing-messages timer, add members, send messages and start calls, manage join requests, and set a label.[^signal-groupes][^signal-gerer-groupe][^signal-ephemeres][^signal-libelles] While a right is not restricted, an ordinary member can use it. Reserve them for admins (keyholders, and secretaries in the public group and the airlock group) and check them in each group; in the public group, only admins send messages. **Removing a member stays reserved for admins**, whatever you set: hence several reachable keyholders per group.[^signal-groupes][^signal-gerer-groupe]
+4. **No group link, no group QR code** (the one exception: the **public group**, which holds nothing sensitive and whose link may circulate) → add each person **by username**, from a private conversation. A link that gets passed around escapes all control: anyone who has it can ask to join, and it can be relayed or found. **If a link was created anyway, turn it off straight away** (group settings › group link), then reset it if in doubt.[^signal-lien-groupe]
 5. **Group description** → paste the short description (vital rules, non-violence disclaimer and legal reminder). Because disappearing messages delete pinned messages, the full charter is reviewed and agreed to in the airlock group before admission.
 6. **Second keyholder** → add them and make them admin in Signal **before** anyone else.
 7. **Register** → note the group ID and its keyholders.
@@ -395,7 +396,7 @@ Signal cannot delete a group for everyone: **closing** it means removing members
 
 | Close it | Why |
 | --- | --- |
-| **The airlock group, after its meeting** (unless kept as a backup) | It was used once; its link and list are known to unvalidated people. They only saw the time, the place and activist names in it: removing them is enough going forward, but what is already on their phone stays there |
+| **The airlock group, after its meeting** (unless kept as a backup) | It was used once; its list of members is known to unvalidated people. They only saw the time, the place and activist names in it: removing them is enough going forward, but what is already on their phone stays there |
 | **Unidentified leak** (case B) | The leak may still be inside: move out, then close the old one |
 | **The temporary group, at the end of its day or mobilisation** | It is no longer needed |
 | **The group is no longer used** (campaign over, team dissolved, merged) | A dormant group stays on every phone, with its history and members: exposed if a phone is seized, for nothing |
@@ -437,7 +438,7 @@ Keep a **shared list** in the charter, so everyone uses the same words, for exam
 
 To organise quickly, for an action day or for the length of a mobilisation, with people you have just met: a **disposable** group, used on the assumption that the police may be in it. It sits next to the funnel, not inside it: it doesn't lead to the trusted group.
 
-- [ ] **For a day**: created on the spot by anyone; people join through the **group's QR code shown in person**, and the link is reset once everyone has joined.[^signal-lien-groupe] Disappearing messages of a few hours.
+- [ ] **For a day**: created on the spot by anyone; people present are **added by username**, in person, with no group link or QR code. Disappearing messages of a few hours.
 - [ ] **For a mobilisation** (a few days to two weeks): people join after meeting a secretary (account QR code scanned, settings done), **without a voucher**; disappearing messages of one day.
 - [ ] **In both cases**: a neutral name, no movement or city (`J-7Q`, for example); the timer **set before inviting anyone**.[^signal-ephemeres]
 - [ ] **Practical matters only**: "medic needed outside the station", "falling back to X street", "need water". No names, no photos of faces, nothing illegal.
@@ -499,18 +500,30 @@ A group is compromised when someone who shouldn't can **read its messages** (pas
 
 Removing someone from a group costs nothing and is fixed in a minute. Waiting to find out whether they are in custody gives time to unlock their phone.
 
+**In the heat of the moment, people will write "X has been taken away" in the group.** That is not a fault, and forbidding it will not work: we prepare for it. The aim is to **act fast and not let panic set in**: a short alert, an immediate action, a ready-made reply.
+
 <div class="flow" markdown>
 
-1. **You see someone being taken away** → alert HR or the "lost group" lead **by private message**, not in the group: activist name, time, place, whether they had their phone.
-2. **The lead checks the register** → list of the person's groups.
-3. **Keyholders remove them from all their groups, straight away.** If they are a keyholder, remove that role first.[^signal-gerer-groupe]
+1. **You see someone being taken away** → write **one line**, wherever is fastest for you (the group, or HR in private): `Alert: [activist name] taken away`. Nothing else in the group: no place, no details, no other person's name. The time, the place and whether they had their phone go **in private** to HR or to the [legal team](../annuaire/index.md?tags=antirepression).
+2. **The first keyholder who sees the alert removes the person from that group straight away**, without waiting for confirmation or a vote. If they are a keyholder, remove that role first.[^signal-gerer-groupe] In the group, **delete the alert for everyone**[^signal-gerer-groupe] and post the ready-made reply (below).
+3. **HR or the "lost group" lead checks the register** → list of the person's other groups; their keyholders remove them too, straight away, and post the same reply there.
 4. **Sensitive messages from the last 24 hours** → a keyholder can delete them for everyone;[^signal-gerer-groupe] the deletion only reaches the seized phone if it reconnects: don't rely on it.
-5. **In the group, one neutral sentence** ("X has been removed as a precaution") and nothing about the arrest; follow-up goes through the [legal team](../annuaire/index.md?tags=antirepression) ([police custody](garde-a-vue.md)).
+5. **Follow-up goes through the legal team** ([police custody](garde-a-vue.md)), not the group: the arrest is not discussed there.
 6. **When they are released, debrief in person with HR**: phone seized? unlocked? code given? returned? how long out of their sight?
     - **Stayed with them and locked, or not taken along** → bring them back.
     - **Seized, unlocked or out of their sight** → their groups are compromised: case A. Treat the phone as compromised too: factory reset or a new phone, then verify safety numbers in person before bringing them back.[^eff-signal]
 
 </div>
+
+**Ready-to-copy messages**, to keep at hand (keyholders keep them in their notes):
+
+```text
+Alert: [activist name] taken away.
+```
+
+```text
+[activist name] has been removed as a precaution, nothing personal. We don't comment here: the legal team is following up. Let's stay calm.
+```
 
 Removal protects the **future**, not the past: what was already on the phone stays there, including unread messages, whose timer has not started.[^signal-ephemeres]
 
@@ -581,7 +594,7 @@ To be agreed in the airlock group before admission to the trusted group.
 CHARTER — read before posting
 
 1. GROUP NAMES
-MVT-CITY-ID-TOPIC, e.g. MVT-CTY-4K9-Medic. The ID, drawn at random, is shared by the trusted group and its sub-groups. When the family is replaced, the ID changes. Only join a vetted group through the link an HR member posts in your airlock group, or on a direct invitation from a keyholder you know; never through a link going around elsewhere. No airlock group gives access to a vetted group on its own.
+MVT-CITY-ID-TOPIC, e.g. MVT-CTY-4K9-Medic. The ID, drawn at random, is shared by the trusted group and its sub-groups. When the family is replaced, the ID changes. Only join a vetted group on a **direct add** by an HR member or a keyholder you know, using your username; never through a group link or QR code. No airlock group gives access to a vetted group on its own.
 
 2. PURPOSE AND CONTENT
 Strictly informational, logistics, and mutual aid group.
