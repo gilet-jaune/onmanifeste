@@ -26,6 +26,10 @@ const PWA_I18N = {
     iosHint: 'Sur iPhone/iPad : bouton Partager, puis « Sur l’écran d’accueil ».',
     genericHint: 'Menu du navigateur, puis « Installer » ou « Ajouter à l’écran d’accueil ».',
     later: 'Plus tard',
+    done: 'C’est déjà fait',
+    installedMsg: 'Application ajoutée ✓ Vous pouvez l’ouvrir depuis votre écran d’accueil.',
+    doneMsg: 'C’est noté ✓ Ce message ne s’affichera plus.',
+    close: 'Fermer',
   },
   en: {
     ready: 'Available offline',
@@ -46,6 +50,10 @@ const PWA_I18N = {
     iosHint: 'On iPhone/iPad: Share button, then “Add to Home Screen”.',
     genericHint: 'Browser menu, then “Install” or “Add to Home Screen”.',
     later: 'Later',
+    done: 'Already done',
+    installedMsg: 'App added ✓ You can open it from your home screen.',
+    doneMsg: 'Noted ✓ This message will not appear again.',
+    close: 'Close',
   },
 };
 
@@ -142,6 +150,7 @@ async function pwaInit() {
 // 7 days without a visit). The banner says so and offers the right install path per browser.
 
 const PWA_BANNER_KEY = 'awesome-protest:install-banner-dismissed';
+const PWA_DONE_KEY = 'awesome-protest:install-done';
 const PWA_VIEWS_KEY = 'awesome-protest:page-views';
 const PWA_BANNER_SNOOZE_DAYS = 14;
 const PWA_BANNER_DELAY_MS = 30_000; // on a first page view, wait before suggesting anything
@@ -173,6 +182,44 @@ function pwaPageViews() {
   }
 }
 
+// The app was added (by our button, the browser's own menu, or "already done"): remember it for
+// good, so the card never comes back, and say so instead of just vanishing.
+function pwaAlreadyDone() {
+  try {
+    return localStorage.getItem(PWA_DONE_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function pwaRememberDone() {
+  try {
+    localStorage.setItem(PWA_DONE_KEY, '1');
+  } catch {
+    /* per-page only */
+  }
+}
+
+function pwaConfirmDone(message) {
+  pwaRememberDone();
+  const banner = document.querySelector('[data-pwa-banner]');
+  if (!banner) return;
+  const text = document.createElement('p');
+  text.className = 'pwa-banner__text';
+  text.setAttribute('role', 'status');
+  text.textContent = message;
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.className = 'pwa-banner__close';
+  close.setAttribute('aria-label', pwaT.close);
+  close.textContent = '×';
+  close.addEventListener('click', () => pwaHideBanner(false));
+  banner.setAttribute('aria-label', message);
+  banner.replaceChildren(close, text);
+  banner.hidden = false;
+  setTimeout(() => pwaHideBanner(false), 8000);
+}
+
 function pwaHideBanner(snooze) {
   document.querySelectorAll('[data-pwa-banner]').forEach((b) => (b.hidden = true));
   if (!snooze) return;
@@ -187,10 +234,12 @@ function pwaRenderBanner() {
   const banner = document.querySelector('[data-pwa-banner]');
   // Emergency pages (SOS, pocket card) keep the first screen for the numbers.
   const isEmergencyPage = Boolean(document.querySelector('.sos__numbers, [data-parcours]'));
+  if (pwaIsInstalled()) pwaRememberDone(); // opened as an app: no card in the browser tab either
   if (
     !banner ||
     isEmergencyPage ||
     pwaIsInstalled() ||
+    pwaAlreadyDone() ||
     pwaBannerSnoozed() ||
     !('serviceWorker' in navigator)
   ) {
@@ -214,7 +263,7 @@ function pwaRenderBanner() {
       pwaInstallPrompt.prompt();
       const { outcome } = await pwaInstallPrompt.userChoice;
       pwaInstallPrompt = null;
-      if (outcome === 'accepted') pwaHideBanner(false);
+      if (outcome === 'accepted') pwaConfirmDone(pwaT.installedMsg);
       else pwaRenderBanner();
     });
     install.classList.add('pwa-banner__install');
@@ -225,6 +274,7 @@ function pwaRenderBanner() {
     hint.textContent = pwaIsIos() ? pwaT.iosHint : pwaT.genericHint;
     actions.append(hint);
   }
+  actions.append(pwaButton(pwaT.done, () => pwaConfirmDone(pwaT.doneMsg)));
   actions.append(pwaButton(pwaT.later, () => pwaHideBanner(true)));
 
   const close = document.createElement('button');
@@ -254,7 +304,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
 });
 
 window.addEventListener('appinstalled', () => {
-  pwaHideBanner(false);
+  pwaConfirmDone(pwaT.installedMsg);
   navigator.storage?.persist?.();
 });
 
