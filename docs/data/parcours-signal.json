@@ -1,6 +1,292 @@
 {
   "parcours_signal": [
     {
+      "id": "nouveau",
+      "label": {
+        "fr": "nouveau membre (je découvre les groupes)",
+        "en": "a new member (discovering the groups)"
+      },
+      "keywords": [
+        "nouveau",
+        "nouvelle",
+        "nouveau membre",
+        "membre",
+        "debutant",
+        "rejoindre",
+        "entrer",
+        "anonyme",
+        "new",
+        "newcomer",
+        "join",
+        "anonymous"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre comment ça marche",
+            "en": "understand how it works"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
+                "en": "The groups: public group, airlock group, trusted group, sub-groups"
+              },
+              "anchor": {
+                "fr": "les-groupes",
+                "en": "the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le recrutement, rôle par rôle",
+                "en": "Recruitment, role by role"
+              },
+              "anchor": {
+                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
+                "en": "recruitment-end-to-end-role-by-role"
+              }
+            }
+          ]
+        },
+        {
+          "id": "anonyme",
+          "label": {
+            "fr": "rester anonyme",
+            "en": "stay anonymous"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Votre nom de militant·e",
+                "en": "Your activist name"
+              },
+              "anchor": {
+                "fr": "votre-nom-de-militante",
+                "en": "your-activist-name"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Vos réglages",
+                "en": "Your settings"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            },
+            {
+              "resource": "signal"
+            }
+          ]
+        },
+        {
+          "id": "sas",
+          "label": {
+            "fr": "aller à une rencontre (groupe sas)",
+            "en": "go to a meeting (airlock group)"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            }
+          ]
+        },
+        {
+          "id": "confiance",
+          "label": {
+            "fr": "entrer dans le groupe de confiance",
+            "en": "join the trusted group"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "membre",
+      "label": {
+        "fr": "membre d'un groupe",
+        "en": "a group member"
+      },
+      "keywords": [
+        "membre",
+        "groupe",
+        "ecrire",
+        "telephone",
+        "quitter",
+        "member",
+        "group",
+        "write",
+        "phone",
+        "leave"
+      ],
+      "needs": [
+        {
+          "id": "ecrire",
+          "label": {
+            "fr": "savoir quoi écrire ou pas",
+            "en": "know what to write and what not to"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Dans les groupes",
+                "en": "In the groups"
+              },
+              "anchor": {
+                "fr": "dans-les-groupes",
+                "en": "in-the-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "La charte",
+                "en": "The charter"
+              },
+              "anchor": {
+                "fr": "charte-complete",
+                "en": "full-charter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "telephone",
+          "label": {
+            "fr": "protéger mon téléphone et mes contacts",
+            "en": "protect my phone and contacts"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Vos réglages",
+                "en": "Your settings"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            },
+            {
+              "guide": "telephone",
+              "label": {
+                "fr": "Téléphone : verrouillage, code et saisie",
+                "en": "Phone: lock, passcode and seizure"
+              }
+            }
+          ]
+        },
+        {
+          "id": "arrete",
+          "label": {
+            "fr": "réagir si je suis arrêté·e ou si je perds mon téléphone",
+            "en": "know what to do if I'm arrested or lose my phone"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Si vous êtes arrêté·e ou perdez votre téléphone",
+                "en": "If you are arrested or lose your phone"
+              },
+              "anchor": {
+                "fr": "si-vous-etes-arretee-ou-perdez-votre-telephone",
+                "en": "if-you-are-arrested-or-lose-your-phone"
+              }
+            },
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue",
+                "en": "Police custody"
+              }
+            },
+            {
+              "guide": "telephone",
+              "label": {
+                "fr": "Téléphone saisi ou perdu",
+                "en": "Phone seized or lost"
+              },
+              "anchor": {
+                "fr": "si-votre-telephone-est-saisi-ou-perdu",
+                "en": "if-your-phone-is-seized-or-lost"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "disparu",
+          "label": {
+            "fr": "savoir quoi faire si le groupe disparaît ou si on me retire",
+            "en": "know what to do if the group disappears or I'm removed"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Si le groupe disparaît ou si on vous retire",
+                "en": "If the group disappears or you are removed"
+              },
+              "anchor": {
+                "fr": "si-le-groupe-disparait-ou-si-on-vous-retire",
+                "en": "if-the-group-disappears-or-you-are-removed"
+              }
+            }
+          ]
+        },
+        {
+          "id": "partir",
+          "label": {
+            "fr": "quitter un groupe proprement",
+            "en": "leave a group properly"
+          },
+          "results": [
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Partir proprement",
+                "en": "Leaving properly"
+              },
+              "anchor": {
+                "fr": "partir-proprement",
+                "en": "leaving-properly"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "secretaire",
       "label": {
         "fr": "secrétaire",
