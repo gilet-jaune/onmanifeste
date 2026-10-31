@@ -5,7 +5,7 @@ tags:
 
 # Je suis… et je veux…
 
-Dites où vous en êtes, puis ce que vous voulez faire : la page vous donne directement les bons guides, contacts et démarches. Fonctionne **hors ligne**.
+**Dites-nous où vous en êtes** (gazé·e, première manif, témoin d'une arrestation…), puis ce que vous voulez faire : en deux étapes, la page vous emmène au bon passage, avec les contacts et les démarches utiles. Fonctionne **hors ligne**.
 
 {% import "overrides/partials/parcours-tree.html" as pt with context %}
 
