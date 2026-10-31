@@ -34,6 +34,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](droit-de-manifester.md)
 
+- **Ce que la loi interdit en manifestation** [:material-gavel:](risques-penaux.md)
+
+    ***
+
+    Attroupement, arme, visage caché, violences : les peines prévues et ce que dit le texte.
+
+    [:octicons-arrow-right-24: Lire](risques-penaux.md)
+
 - **Pourquoi ça casse en manif ?** [:material-comment-question:](casse.md)
 
     ***

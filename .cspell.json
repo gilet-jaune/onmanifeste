@@ -137,7 +137,8 @@
     "Zucman",
     "IFCN",
     "InVID",
-    "tojson"
+    "tojson",
+    "cacatov"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

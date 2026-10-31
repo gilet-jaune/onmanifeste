@@ -4056,6 +4056,102 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "cp-431-3": {
+      "title": {
+        "fr": "Code pénal, art. 431-3 (attroupement et sommations) (Légifrance)",
+        "en": "Criminal Code, art. 431-3 (gathering and summonses, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020957203",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-4": {
+      "title": {
+        "fr": "Code pénal, art. 431-4 (continuer à participer à un attroupement après les sommations) (Légifrance)",
+        "en": "Criminal Code, art. 431-4 (staying in a gathering after summonses, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926085",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-5": {
+      "title": {
+        "fr": "Code pénal, art. 431-5 (participer à un attroupement en étant porteur d'une arme) (Légifrance)",
+        "en": "Criminal Code, art. 431-5 (taking part in an armed gathering, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418465",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-9": {
+      "title": {
+        "fr": "Code pénal, art. 431-9 (organiser une manifestation non déclarée ou interdite) (Légifrance)",
+        "en": "Criminal Code, art. 431-9 (organising an undeclared or banned protest, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418472",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-222-13": {
+      "title": {
+        "fr": "Code pénal, art. 222-13 (violences ayant entraîné une incapacité de huit jours au plus) (Légifrance)",
+        "en": "Criminal Code, art. 222-13 (violence causing up to eight days' incapacity, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051876328",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-433-5": {
+      "title": {
+        "fr": "Code pénal, art. 433-5 (outrage) (Légifrance)",
+        "en": "Criminal Code, art. 433-5 (contempt of an official, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114921",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-433-6": {
+      "title": {
+        "fr": "Code pénal, art. 433-6 (rébellion : définition) (Légifrance)",
+        "en": "Criminal Code, art. 433-6 (resisting officials: definition, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418557",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-433-7": {
+      "title": {
+        "fr": "Code pénal, art. 433-7 (rébellion : peines) (Légifrance)",
+        "en": "Criminal Code, art. 433-7 (resisting officials: penalties, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114914",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

@@ -97,7 +97,8 @@
       "telephone": ["numerique"],
       "travail": ["situation", "droits"],
       "venir-repartir": ["preparer"],
-      "violences-harcelement": ["situation", "sante", "numerique"]
+      "violences-harcelement": ["situation", "sante", "numerique"],
+      "risques-penaux": ["droits"]
     }
   }
 }

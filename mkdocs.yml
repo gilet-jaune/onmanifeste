@@ -105,6 +105,7 @@ plugins:
             Je suis… et je veux…: I am… and I want to…
             Checklist avant la manif: Pre-protest checklist
             Le droit de manifester: The right to protest
+            Ce que la loi interdit en manifestation, et ce qu'on risque: What the law forbids at a protest, and what you risk
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
             Pancartes, banderoles, drapeaux et tracts: Signs, banners, flags and leaflets
@@ -195,6 +196,7 @@ nav:
       - Avant la manif:
           - Checklist avant la manif: guides/avant-de-partir.md
           - Le droit de manifester: guides/droit-de-manifester.md
+          - Ce que la loi interdit en manifestation, et ce qu'on risque: guides/risques-penaux.md
           - Kit et tenue de manif: guides/kit-manif.md
           - Pancartes, banderoles, drapeaux et tracts: guides/faire-sa-pancarte.md
           - Venir et repartir: guides/venir-repartir.md

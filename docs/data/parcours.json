@@ -392,6 +392,13 @@
             },
             {
               "resource": "amnesty-droits-manifestation"
+            },
+            {
+              "guide": "risques-penaux",
+              "label": {
+                "fr": "Ce que la loi interdit en manifestation, et ce qu'on risque",
+                "en": "What the law forbids at a protest, and what you risk"
+              }
             }
           ]
         },
