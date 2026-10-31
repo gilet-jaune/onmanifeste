@@ -33,6 +33,8 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 - [ ] Commencez **avant** l'action si possible, et filmez **en continu** : ce qui précède et ce qui suit compte autant que le geste lui-même.[^witness-preuve]
 - [ ] Montrez le **contexte** : un panneau de rue, un monument, l'heure à l'écran ou dite à voix haute.[^witness-preuve]
 - [ ] **Cadrez sur les agents** : gestes, armes utilisées, unité, matricule (RIO) s'il est visible. Évitez les visages des manifestant·es et des personnes interpellées.[^witness-police]
+- [ ] **Pourquoi éviter les visages, même si vous flouterez ensuite** : le floutage ne protège que la copie publiée. L'original, qu'il faut garder intact, contient toujours les visages, et il peut être vu si le téléphone est saisi, ou transmis à la legal team et à l'avocat·e. Éviter les visages au tournage réduit ce risque. Ce n'est pas un interdit : filmer une manifestation publique reste permis.[^sp-droit-image]
+- [ ] **Un visage inévitable** (foule, personne blessée ou interpellée) : ne le cherchez pas, gardez l'original intact et ne le montrez qu'à la legal team ou à l'avocat·e ; ne publiez qu'une copie floutée, sans métadonnées. Le visage d'une victime de violences peut faire partie de la preuve.
 - [ ] Tenez le téléphone **à l'horizontale** et stable ; restez à distance, ne gênez pas l'intervention.
 - [ ] Ne cessez pas de filmer si on vous le demande sans motif : c'est votre droit. Restez calme et poli·e.[^amnesty-filmer]
 
