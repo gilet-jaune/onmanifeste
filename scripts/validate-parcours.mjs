@@ -58,7 +58,13 @@ function checkAnchor(at, base, anchor) {
 let failed = false;
 for (const [FILE, KEY] of FILES) {
   errors.length = 0;
-  const parcours = JSON.parse(readFileSync(FILE, 'utf8'))[KEY];
+  const raw = JSON.parse(readFileSync(FILE, 'utf8'));
+  const parcours = raw[KEY];
+  const groupIds = new Set((raw.parcours_groups ?? []).map((g) => g.id));
+  (raw.parcours_groups ?? []).forEach((g) => {
+    if (!g.label?.fr || !g.label?.en) errors.push(`group ${g.id}: needs fr and en labels`);
+    if (!parcours.some((p) => p.group === g.id)) errors.push(`group ${g.id}: no profile uses it`);
+  });
   const ids = new Set();
   parcours.forEach((p, i) => {
     const at = `parcours[${i}] (${p.id})`;
@@ -66,6 +72,8 @@ for (const [FILE, KEY] of FILES) {
     ids.add(p.id);
     if (!p.label?.fr || !p.label?.en) errors.push(`${at}: needs fr and en labels`);
     if (!p.needs?.length) errors.push(`${at}: needs at least one need`);
+    if (groupIds.size && !groupIds.has(p.group))
+      errors.push(`${at}: group "${p.group}" is not in parcours_groups`);
     (p.needs ?? []).forEach((n, j) => {
       const nat = `${at}.needs[${j}] (${n.id})`;
       if (!n.label?.fr || !n.label?.en) errors.push(`${nat}: needs fr and en labels`);

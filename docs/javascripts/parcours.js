@@ -122,6 +122,7 @@
   let data;
   let resources;
   let checkLevels;
+  let profileGroups = null;
   let categories = {};
   let emergency = [];
   let digest = {};
@@ -162,6 +163,8 @@
     emptyHint,
     initial = '',
     onlyWhenTyped = () => false,
+    groups = null,
+    groupOf = () => null,
   }) {
     const input = el('input', {
       type: 'search',
@@ -187,22 +190,39 @@
       });
     }
 
+    const choiceButton = (item) =>
+      el(
+        'button',
+        {
+          type: 'button',
+          class: 'parcours__choice',
+          role: 'listitem',
+          onclick: () => onPick(item),
+        },
+        labelOf(item),
+      );
+
+    // Nothing typed: the choices are grouped (the first group open, the others folded). As soon as
+    // something is typed, a flat list of every match across all groups replaces them.
+    function groupedChoices() {
+      return groups.map((g) => {
+        const own = items.filter((item) => !onlyWhenTyped(item) && groupOf(item) === g.id);
+        const details = el(
+          'details',
+          { class: 'parcours__group' },
+          el('summary', { class: 'parcours__group-title' }, `${loc(g.label)} (${own.length})`),
+          el('div', { class: 'parcours__choices', role: 'list' }, ...own.map(choiceButton)),
+        );
+        details.open = Boolean(g.open);
+        return details;
+      });
+    }
+
     function draw() {
       const found = matches();
-      list.replaceChildren(
-        ...found.map((item) =>
-          el(
-            'button',
-            {
-              type: 'button',
-              class: 'parcours__choice',
-              role: 'listitem',
-              onclick: () => onPick(item),
-            },
-            labelOf(item),
-          ),
-        ),
-      );
+      const typed = input.value.trim() !== '';
+      list.classList.toggle('parcours__choices--grouped', Boolean(groups) && !typed);
+      list.replaceChildren(...(groups && !typed ? groupedChoices() : found.map(choiceButton)));
       status.replaceChildren();
       if (!found.length && input.value.trim()) {
         status.append(T.none, ' ', emptyHint(input.value.trim()));
@@ -512,6 +532,8 @@
         onlyWhenTyped: (x) => Boolean(x.need),
         onPick: (x) => go(x.need ? { je: x.profile.id, veux: x.need.id } : { je: x.id }),
         emptyHint: directoryLink,
+        groups: profileGroups,
+        groupOf: (x) => x.group,
       });
       append(
         view,
@@ -644,6 +666,7 @@
   ])
     .then(([parcours, registry, guides, levels]) => {
       data = parcours[DATA_KEY];
+      profileGroups = parcours.parcours_groups || null;
       checkLevels = levels;
       resources = new Map(registry.resources.map((r) => [r.id, r]));
       categories = registry.categories || {};

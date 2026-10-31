@@ -2451,3 +2451,38 @@ dialog.contact-card {
 .md-typeset .parcours__step {
   scroll-margin-top: 4.5rem;
 }
+
+/* Guided search, step 1: the situations in groups; typing replaces them with a flat list. Material
+   styles every <details> as a coloured admonition: switch that off here. */
+.md-typeset details.parcours__group {
+  margin: 0.6rem 0;
+  padding: 0;
+  border: 0;
+  border-top: 2px solid var(--ap-line);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.md-typeset details.parcours__group > summary.parcours__group-title {
+  margin: 0;
+  padding: 0.7rem 1.8rem 0.3rem 0;
+  background: none;
+  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.md-typeset details.parcours__group > summary.parcours__group-title::before {
+  display: none;
+}
+
+.md-typeset details.parcours__group > summary.parcours__group-title::after {
+  right: 0.2rem;
+  color: var(--ap-text);
+}
+
+.md-typeset details.parcours__group .parcours__choices {
+  margin: 0.4rem 0 0.8rem;
+}

@@ -1,5 +1,43 @@
 {
   "$schema": "../../schemas/parcours.schema.json",
+  "parcours_groups": [
+    {
+      "id": "maintenant",
+      "label": {
+        "fr": "Maintenant, sur place",
+        "en": "Right now, on the spot"
+      },
+      "open": true
+    },
+    {
+      "id": "apres",
+      "label": {
+        "fr": "Après, ou sous pression",
+        "en": "Afterwards, or under pressure"
+      }
+    },
+    {
+      "id": "situation",
+      "label": {
+        "fr": "Ma situation",
+        "en": "My situation"
+      }
+    },
+    {
+      "id": "agir",
+      "label": {
+        "fr": "Je m'organise, je m'engage",
+        "en": "I organise, I get involved"
+      }
+    },
+    {
+      "id": "comprendre",
+      "label": {
+        "fr": "Je veux comprendre et vérifier",
+        "en": "I want to understand and check"
+      }
+    }
+  ],
   "parcours": [
     {
       "id": "nasse",
@@ -104,7 +142,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "en-route",
@@ -195,7 +234,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "premiere",
@@ -384,7 +424,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "sommations",
@@ -452,7 +493,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "gaze",
@@ -568,7 +610,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "blesse",
@@ -787,7 +830,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "extreme-droite",
@@ -911,7 +955,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "interpelle",
@@ -1002,7 +1047,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "temoin-arrestation",
@@ -1114,7 +1160,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "temoin-violence",
@@ -1232,7 +1279,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "lyceen",
@@ -1436,7 +1484,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "parent",
@@ -1584,7 +1633,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "etranger",
@@ -1723,7 +1773,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "agresse",
@@ -1774,7 +1825,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "harcele",
@@ -1831,7 +1883,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "apres"
     },
     {
       "id": "salarie",
@@ -1881,7 +1934,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "fonctionnaire",
@@ -2014,7 +2068,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "organisateur",
@@ -2157,7 +2212,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "filmeur",
@@ -2236,7 +2292,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "presse",
@@ -2378,7 +2435,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "convoque",
@@ -2455,7 +2513,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "apres"
     },
     {
       "id": "sans-reseau",
@@ -2530,7 +2589,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "info",
@@ -2589,7 +2649,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "comprendre"
     },
     {
       "id": "engagement",
@@ -2756,7 +2817,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "nouveau-signal",
@@ -2885,7 +2947,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "mal-informe",
@@ -2985,7 +3048,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "comprendre"
     },
     {
       "id": "createur",
@@ -3075,7 +3139,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "sous-pression",
@@ -3185,7 +3250,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "apres"
     },
     {
       "id": "age",
@@ -3281,7 +3347,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "jeune",
@@ -3396,7 +3463,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "handicap",
@@ -3462,7 +3530,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "peur",
@@ -3600,7 +3669,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "sans-vehicule",
@@ -3636,7 +3706,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "pro-aide",
@@ -3739,7 +3810,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "policier",
@@ -3789,7 +3861,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "nul-en-politique",
@@ -3987,7 +4060,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "comprendre"
     },
     {
       "id": "debat",
@@ -4178,7 +4252,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "comprendre"
     },
     {
       "id": "deprime",
@@ -4379,7 +4454,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "apres"
     },
     {
       "id": "controle",
@@ -4496,7 +4572,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "maintenant"
     },
     {
       "id": "sans-abri",
@@ -4624,7 +4701,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "expulsion",
@@ -4716,7 +4794,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "ric",
@@ -4807,7 +4886,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "fins-de-mois",
@@ -4921,7 +5001,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "situation"
     },
     {
       "id": "ecolo",
@@ -5032,7 +5113,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "discrimine",
@@ -5122,7 +5204,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "apres"
     },
     {
       "id": "palestine",
@@ -5234,7 +5317,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "agir"
     },
     {
       "id": "reseaux",
@@ -5339,7 +5423,8 @@
             }
           ]
         }
-      ]
+      ],
+      "group": "apres"
     }
   ]
 }
