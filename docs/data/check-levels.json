@@ -1,0 +1,55 @@
+{
+  "check_levels": {
+    "by": {
+      "ai": {
+        "fr": "Sourcé par IA le",
+        "en": "AI-sourced on"
+      },
+      "volunteer": {
+        "fr": "Vérifié par un·e bénévole le",
+        "en": "Checked by a volunteer on"
+      },
+      "lawyer": {
+        "fr": "Vérifié par un·e avocat·e le",
+        "en": "Checked by a lawyer on"
+      },
+      "medical": {
+        "fr": "Vérifié par un·e soignant·e le",
+        "en": "Checked by a health professional on"
+      },
+      "historian": {
+        "fr": "Vérifié par un·e historien·ne le",
+        "en": "Checked by a historian on"
+      }
+    },
+    "ai_pending": {
+      "fr": "à vérifier par un humain",
+      "en": "awaiting human check"
+    },
+    "unconfirmed": {
+      "fr": "Non confirmé",
+      "en": "Unconfirmed"
+    },
+    "date_format": {
+      "fr": "{d} {m} {y}",
+      "en": "{m} {d}, {y}"
+    },
+    "months": {
+      "fr": [
+        "janv.",
+        "févr.",
+        "mars",
+        "avr.",
+        "mai",
+        "juin",
+        "juil.",
+        "août",
+        "sept.",
+        "oct.",
+        "nov.",
+        "déc."
+      ],
+      "en": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    }
+  }
+}

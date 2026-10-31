@@ -154,6 +154,7 @@ plugins:
         - docs/data/victimes.json
         - docs/data/rallier.json
         - docs/data/guide-themes.json
+        - docs/data/check-levels.json
 
 extra_css:
   # Self-hosted at build time by the privacy plugin.
@@ -161,6 +162,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
+  - javascripts/check-levels.js
   - javascripts/extra.js
   - javascripts/directory.js
   - javascripts/pwa.js

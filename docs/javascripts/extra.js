@@ -397,15 +397,6 @@ document.addEventListener('DOMContentLoaded', function () {
       socials: 'Réseaux sociaux',
       sources: 'Articles de presse & sources',
       stores: 'Applications',
-      unconfirmed: 'Non confirmé',
-      checkedBy: {
-        ai: 'Sourcé par IA le',
-        volunteer: 'Vérifié par un·e bénévole le',
-        lawyer: 'Vérifié par un·e avocat·e le',
-        medical: 'Vérifié par un·e soignant·e le',
-        historian: 'Vérifié par un·e historien·ne le',
-      },
-      aiPending: 'à vérifier par un humain',
     },
     en: {
       close: 'Close',
@@ -415,15 +406,6 @@ document.addEventListener('DOMContentLoaded', function () {
       socials: 'Social media',
       sources: 'Press articles & sources',
       stores: 'Apps',
-      unconfirmed: 'Unconfirmed',
-      checkedBy: {
-        ai: 'AI-sourced on',
-        volunteer: 'Checked by a volunteer on',
-        lawyer: 'Checked by a lawyer on',
-        medical: 'Checked by a health professional on',
-        historian: 'Checked by a historian on',
-      },
-      aiPending: 'awaiting human check',
     },
   }[lang];
 
@@ -488,7 +470,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return contactDialog;
   }
 
-  function openContactCard(r, categories) {
+  function openContactCard(r, categories, checkLevels) {
     const loc = (obj) => (obj && (obj[lang] || obj.fr)) || '';
     const dialog = ensureContactDialog();
     const annuaireUrl = new URL(lang === 'en' ? 'en/annuaire/' : 'annuaire/', EXTRA_SITE_ROOT_URL)
@@ -526,7 +508,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ? cardEl(
             'p',
             { class: 'directory__unconfirmed', title: r.check.note },
-            `⚠ ${CARD_I18N.unconfirmed}${r.check.note ? ` — ${r.check.note}` : ''}`,
+            `⚠ ${checkLevels.unconfirmed[lang]}${r.check.note ? ` — ${r.check.note}` : ''}`,
           )
         : null,
       cardEl('p', { class: 'contact-card__desc' }, loc(r.description)),
@@ -636,15 +618,7 @@ document.addEventListener('DOMContentLoaded', function () {
         ? cardEl(
             'p',
             { class: 'contact-card__checked' },
-            `${CARD_I18N.checkedBy[r.check.by] ?? CARD_I18N.checkedBy.ai} `,
-            cardEl(
-              'time',
-              { datetime: r.check.date },
-              new Date(`${r.check.date}T00:00:00`).toLocaleDateString(lang, {
-                dateStyle: 'medium',
-              }),
-            ),
-            r.check.by === 'ai' ? ` · ${CARD_I18N.aiPending}` : '',
+            ...window.apCheck.line(checkLevels, r.check, lang),
           )
         : null,
     ];
@@ -664,13 +638,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     e.preventDefault();
     try {
-      const data = await loadRegistry();
+      const [data, checkLevels] = await Promise.all([loadRegistry(), window.apCheck.load()]);
       const resource = (data.resources || []).find((r) => r.id === resourceId);
       if (!resource) {
         if (trigger.href) window.open(trigger.href, '_blank', 'noopener');
         return;
       }
-      openContactCard(resource, data.categories || {});
+      openContactCard(resource, data.categories || {}, checkLevels);
     } catch {
       if (trigger.href) window.open(trigger.href, '_blank', 'noopener');
     }

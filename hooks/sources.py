@@ -11,22 +11,37 @@ REF = re.compile(r"\[\^([a-z0-9]+(?:-[a-z0-9]+)*)\](?!:)")
 DEF = re.compile(r"^\[\^([^\]]+)\]:", re.M)
 _registry = None
 
-# Who checked a source (check.by), shown after each footnote and in its hover tooltip.
-# Keep in sync with overrides/partials/check.html.
-CHECK_BY = {
-    "ai": {"fr": "sourcé par IA, à vérifier par un humain", "en": "AI-sourced, awaiting human check"},
-    "volunteer": {"fr": "vérifié par un·e bénévole", "en": "checked by a volunteer"},
-    "lawyer": {"fr": "vérifié par un·e avocat·e", "en": "checked by a lawyer"},
-    "medical": {"fr": "vérifié par un·e soignant·e", "en": "checked by a health professional"},
-    "historian": {"fr": "vérifié par un·e historien·ne", "en": "checked by a historian"},
-}
+_levels = None
 
 
-def check_label(check, lang):
+def _check_levels(config):
+    """Labels and date format shared by every surface: docs/data/check-levels.json."""
+    global _levels
+    if _levels is None:
+        path = Path(config["docs_dir"]) / "data" / "check-levels.json"
+        _levels = json.loads(path.read_text(encoding="utf-8"))["check_levels"]
+    return _levels
+
+
+def format_date(iso, lang, levels):
+    year, month, day = iso.split("-")
+    return (
+        levels["date_format"][lang]
+        .replace("{d}", str(int(day)))
+        .replace("{m}", levels["months"][lang][int(month) - 1])
+        .replace("{y}", year)
+    )
+
+
+def check_label(check, lang, levels):
+    """'<who> <time>date</time> · <pending>' as HTML, the same sentence as every other surface."""
     if not check:
         return ""
-    who = CHECK_BY.get(check.get("by", "ai"), CHECK_BY["ai"])[lang]
-    return f"{who} ({check['date']})" if check.get("date") else who
+    by = check.get("by", "ai")
+    who = levels["by"].get(by, levels["by"]["ai"])[lang]
+    when = f'<time datetime="{check["date"]}">{format_date(check["date"], lang, levels)}</time>'
+    pending = f' · {levels["ai_pending"][lang]}' if by == "ai" else ""
+    return f"{who} {when}{pending}"
 
 
 def _sources(config):
@@ -53,7 +68,7 @@ def on_page_markdown(markdown, page, config, **kwargs):
             raise ValueError(f"{page.file.src_uri}: unknown source [^{key}] (add it to docs/data/sources.json)")
         src = registry[key]
         url = src["url"][lang] if isinstance(src["url"], dict) else src["url"]
-        label = check_label(src.get("check"), lang)
+        label = check_label(src.get("check"), lang, _check_levels(config))
         suffix = f' <span class="source-check">· {label}</span>' if label else ""
         lines.append(f"[^{key}]: [{src['title'][lang]}]({url}){suffix}")
     return markdown.rstrip() + ("\n\n" + "\n\n".join(lines) + "\n" if lines else "\n")

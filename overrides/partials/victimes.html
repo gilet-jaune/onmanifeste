@@ -1,5 +1,5 @@
 {#- Injured and killed at or after protests, from docs/data/victimes.json + sources.json. -#}
-{%- from 'overrides/partials/check.html' import checked_by, check_title -%}
+{%- from 'overrides/partials/check.html' import checked_by, check_title with context -%}
 
 {%- macro src_link(id, lang) -%}
 {%- set s = sources[id] %}{% set url = s.url[lang] if s.url is mapping else s.url %}<a href="{{ url }}" target="_blank" rel="noopener" title="{{ check_title(s.check, lang) }}">{{ s.title[lang] or s.title.fr }}</a>

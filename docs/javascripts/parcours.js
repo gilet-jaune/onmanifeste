@@ -121,6 +121,7 @@
 
   let data;
   let resources;
+  let checkLevels;
   let categories = {};
   let emergency = [];
   let digest = {};
@@ -293,6 +294,20 @@
                 i ? ', ' : '',
                 el('a', { href: source.url, target: '_blank', rel: 'noopener' }, source.title),
               ]),
+            )
+          : null,
+        res.check?.result === 'unconfirmed'
+          ? el(
+              'p',
+              { class: 'directory__unconfirmed', title: res.check.note },
+              `⚠ ${checkLevels.unconfirmed[lang]}`,
+            )
+          : null,
+        res.check
+          ? el(
+              'p',
+              { class: 'directory__checked' },
+              ...window.apCheck.line(checkLevels, res.check, lang),
             )
           : null,
       );
@@ -595,9 +610,11 @@
     fetch(DIGEST_URL)
       .then((r) => (r.ok ? r.json() : {}))
       .catch(() => ({})),
+    window.apCheck.load(),
   ])
-    .then(([parcours, registry, guides]) => {
+    .then(([parcours, registry, guides, levels]) => {
       data = parcours[DATA_KEY];
+      checkLevels = levels;
       resources = new Map(registry.resources.map((r) => [r.id, r]));
       categories = registry.categories || {};
       emergency = registry.emergency || [];

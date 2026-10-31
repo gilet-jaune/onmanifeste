@@ -1,5 +1,5 @@
 {#- Renders docs/data/history.json (loaded via macros include_yaml): a dated timeline and the list of gains. -#}
-{%- from 'overrides/partials/check.html' import checked_by, check_title -%}
+{%- from 'overrides/partials/check.html' import checked_by, check_title with context -%}
 
 {#- Periods used for the "jump to" links: [first year, last year, fr, en]. -#}
 {%- set periods = [

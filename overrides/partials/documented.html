@@ -1,5 +1,5 @@
 {#- Documented repression and debunked official statements, from docs/data/history.json + sources.json. -#}
-{%- from 'overrides/partials/check.html' import check_title -%}
+{%- from 'overrides/partials/check.html' import check_title with context -%}
 
 {%- macro proofs(e, lang) -%}
 {%- if e.evidence %}

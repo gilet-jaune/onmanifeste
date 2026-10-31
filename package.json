@@ -15,7 +15,7 @@
     "code:lint": "npm run format:check && npm run lint && npm run spellcheck && npm run validate:data && npm run readme:check",
     "check": "npm run format:check && npm run lint && npm run spellcheck && npm run validate:data && npm run readme:check",
     "test": "bash scripts/mkdocs.sh build --strict",
-    "validate:data": "node scripts/validate-resources.mjs && node scripts/validate-history.mjs && node scripts/validate-victimes.mjs && node scripts/validate-parcours.mjs && node scripts/validate-rallier.mjs && node scripts/validate-guide-themes.mjs && node scripts/validate-sources.mjs && node scripts/validate-pages.mjs",
+    "validate:data": "node scripts/validate-resources.mjs && node scripts/validate-history.mjs && node scripts/validate-victimes.mjs && node scripts/validate-parcours.mjs && node scripts/validate-rallier.mjs && node scripts/validate-guide-themes.mjs && node scripts/validate-check-levels.mjs && node scripts/validate-sources.mjs && node scripts/validate-pages.mjs",
     "readme": "node scripts/generate-readme.mjs",
     "readme:check": "node scripts/generate-readme.mjs --check",
     "lint:awesome": "npx --yes awesome-lint README.md",

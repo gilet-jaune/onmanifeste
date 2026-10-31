@@ -1,28 +1,18 @@
-{#- Who checked an entry and when (check: {date, result, by}). Shared by resource cards and the
-victims timeline; keep in sync with CHECK_BY in docs/javascripts/directory.js. -#}
+{#- Who checked an entry and when (check: {date, result, by}). One wording everywhere: the labels and
+the date format come from docs/data/check-levels.json (macros variable `check_levels`), also read by
+hooks/sources.py and docs/javascripts/check-levels.js. Import with context. -#}
 
-{%- macro checked_by(check, lang) -%}
-{%- set labels = {
-  'ai': {'fr': 'Sourcé par IA le', 'en': 'AI-sourced on'},
-  'volunteer': {'fr': 'Vérifié par un·e bénévole le', 'en': 'Checked by a volunteer on'},
-  'lawyer': {'fr': 'Vérifié par un·e avocat·e le', 'en': 'Checked by a lawyer on'},
-  'medical': {'fr': 'Vérifié par un·e soignant·e le', 'en': 'Checked by a health professional on'},
-  'historian': {'fr': 'Vérifié par un·e historien·ne le', 'en': 'Checked by a historian on'},
-} -%}
-{{ labels[check.by][lang] or labels[check.by].fr }} <time datetime="{{ check.date }}">{{ check.date }}</time>
-{%- if check.by == 'ai' %} · {{ 'à vérifier par un humain' if lang == 'fr' else 'awaiting human check' }}{% endif %}
+{%- macro check_date(iso, lang) -%}
+{{- check_levels.date_format[lang].replace('{d}', (iso[8:10] | int) | string).replace('{m}', check_levels.months[lang][(iso[5:7] | int) - 1]).replace('{y}', iso[0:4]) -}}
 {%- endmacro -%}
 
+{#- "<who> <date> · <pending>": the single sentence shown on every card. -#}
+{%- macro checked_by(check, lang) -%}
+{{ (check_levels.by[check.by] or check_levels.by.ai)[lang] }} <time datetime="{{ check.date }}">{{ check_date(check.date, lang) }}</time>
+{%- if check.by == 'ai' %} · {{ check_levels.ai_pending[lang] }}{% endif %}
+{%- endmacro -%}
 
-{#- Short "who checked" text for a source link's title attribute (hover). Same wording as
-hooks/sources.py. -#}
+{#- Same sentence as plain text, for a link's title attribute (hover). -#}
 {%- macro check_title(check, lang) -%}
-{%- set labels = {
-  'ai': {'fr': 'Sourcé par IA, à vérifier par un humain', 'en': 'AI-sourced, awaiting human check'},
-  'volunteer': {'fr': 'Vérifié par un·e bénévole', 'en': 'Checked by a volunteer'},
-  'lawyer': {'fr': 'Vérifié par un·e avocat·e', 'en': 'Checked by a lawyer'},
-  'medical': {'fr': 'Vérifié par un·e soignant·e', 'en': 'Checked by a health professional'},
-  'historian': {'fr': 'Vérifié par un·e historien·ne', 'en': 'Checked by a historian'},
-} -%}
-{%- if check %}{{ labels[check.by][lang] or labels[check.by].fr }} ({{ check.date }}){% endif -%}
+{%- if check %}{{ (check_levels.by[check.by] or check_levels.by.ai)[lang] }} {{ check_date(check.date, lang) }}{% if check.by == 'ai' %} · {{ check_levels.ai_pending[lang] }}{% endif %}{% endif -%}
 {%- endmacro -%}

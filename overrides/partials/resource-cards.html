@@ -1,7 +1,7 @@
 {#- Static rendering of docs/data/resources.json (loaded via macros include_yaml). - Gives the site
 search one section per resource (h3 with id), so the header search finds tools. - Works without
 JavaScript; docs/javascripts/directory.js then takes over with filters. Keep the markup in sync with
-cardFor() in directory.js. -#} {%- from 'overrides/partials/check.html' import checked_by -%} {%- macro cards(lang) -%}
+cardFor() in directory.js. -#} {%- from 'overrides/partials/check.html' import checked_by with context -%} {%- macro cards(lang) -%}
 <div class="directory__list">
   {%- for r in resources %}
   <article class="directory__card" id="{{ r.id }}">

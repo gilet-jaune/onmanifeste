@@ -49,7 +49,7 @@ French-first toolkit for protesting in France: a sourced directory, guides, an S
 ```
 
 - `stores` (optional, apps only): copy the store links from the publisher's own download page, never from a store search (look-alike apps exist).
-- `check.by`: who checked it — `ai` (an agent found and sourced it: always use this when you are an AI agent), `volunteer`, `lawyer`, `medical` or `historian`. Never set a human level yourself.
+- `check.by`: who checked it — `ai` (an agent found and sourced it: always use this when you are an AI agent), `volunteer`, `lawyer`, `medical` or `historian`. Never set a human level yourself. The wording and date format shown for each level live in `docs/data/check-levels.json` only (read by the footnote hook, the Jinja macros and the scripts); never write "checked on" text by hand.
 - `phone` only for official public lines, and never when `check.result` is `unconfirmed`.
 - `check.result: unconfirmed` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry.
 - After editing: `npm run validate:data` then `npm run readme` (the README list is generated).

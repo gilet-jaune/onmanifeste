@@ -23,18 +23,9 @@ const DIRECTORY_I18N = {
     empty: 'Aucune ressource ne correspond. Essayez un autre mot ou une situation :',
     clear: 'Réinitialiser',
     error: 'Impossible de charger le référentiel. La liste ci-dessous reste consultable.',
-    checkedBy: {
-      ai: 'Sourcé par IA le',
-      volunteer: 'Vérifié par un·e bénévole le',
-      lawyer: 'Vérifié par un·e avocat·e le',
-      medical: 'Vérifié par un·e soignant·e le',
-      historian: 'Vérifié par un·e historien·ne le',
-    },
-    aiPending: 'à vérifier par un humain',
     sources: 'Sources :',
     socials: 'Réseaux :',
     install: 'Installer :',
-    unconfirmed: 'Non confirmé',
     moreTags: (n) => `Tous les tags (${n})`,
     lessTags: 'Moins de tags',
   },
@@ -47,18 +38,9 @@ const DIRECTORY_I18N = {
     empty: 'No resource matches. Try another word or a situation:',
     clear: 'Reset',
     error: 'Unable to load the directory. The list below is still available.',
-    checkedBy: {
-      ai: 'AI-sourced on',
-      volunteer: 'Checked by a volunteer on',
-      lawyer: 'Checked by a lawyer on',
-      medical: 'Checked by a health professional on',
-      historian: 'Checked by a historian on',
-    },
-    aiPending: 'awaiting human check',
     sources: 'Sources:',
     socials: 'Social:',
     install: 'Install:',
-    unconfirmed: 'Unconfirmed',
     moreTags: (n) => `All tags (${n})`,
     lessTags: 'Fewer tags',
   },
@@ -162,10 +144,12 @@ async function initDirectory(root) {
   const loc = (obj) => (obj && (obj[lang] || obj.fr)) || '';
 
   let data;
+  let checkLevels;
   try {
     const res = await fetch(DIRECTORY_DATA_URL);
     if (!res.ok) throw new Error(res.statusText);
     data = await res.json();
+    checkLevels = await window.apCheck.load();
   } catch (err) {
     // The static list rendered at build time stays in place.
     root.prepend(el('p', { class: 'directory__empty' }, t.error));
@@ -362,7 +346,7 @@ async function initDirectory(root) {
         ? el(
             'span',
             { class: 'directory__unconfirmed', title: r.check.note },
-            `⚠ ${t.unconfirmed}`,
+            `⚠ ${checkLevels.unconfirmed[lang]}`,
           )
         : '',
       el('p', {}, ...highlight(loc(r.description), terms)),
@@ -419,17 +403,7 @@ async function initDirectory(root) {
             ]),
           )
         : '',
-      el(
-        'p',
-        { class: 'directory__checked' },
-        `${t.checkedBy[r.check.by] ?? t.checkedBy.ai} `,
-        el(
-          'time',
-          { datetime: r.check.date },
-          new Date(`${r.check.date}T00:00:00`).toLocaleDateString(lang, { dateStyle: 'medium' }),
-        ),
-        r.check.by === 'ai' ? ` · ${t.aiPending}` : '',
-      ),
+      el('p', { class: 'directory__checked' }, ...window.apCheck.line(checkLevels, r.check, lang)),
       el(
         'div',
         { class: 'directory__card-tags' },
