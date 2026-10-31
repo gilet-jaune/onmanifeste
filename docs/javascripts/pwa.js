@@ -35,6 +35,15 @@ const PWA_I18N = {
       'Guides et corrections à jour. La mise à jour ne supprime rien et ne demande aucune réinstallation.',
     updateNow: 'Mettre à jour',
     updatedMsg: 'Mise à jour effectuée ✓ Vous avez la dernière version.',
+    statusReady: 'Prêt hors ligne',
+    statusReadyDesc: 'Copie hors ligne prête : consultable sans réseau',
+    statusOffline: 'Hors ligne actif',
+    statusOfflineDesc: 'Mode hors ligne actif : les guides restent disponibles',
+    statusPreparing: 'Préparation…',
+    statusPreparingDesc: 'Enregistrement de la copie hors ligne…',
+    toastReady:
+      '✓ Disponible hors ligne : guides et ressources sont enregistrés dans votre navigateur.',
+    toastOffline: 'Mode hors ligne actif : vous pouvez naviguer sans connexion.',
   },
   en: {
     ready: 'Available offline',
@@ -64,6 +73,14 @@ const PWA_I18N = {
       'Up-to-date guides and fixes. Updating deletes nothing and does not require reinstalling.',
     updateNow: 'Update',
     updatedMsg: 'Update done ✓ You have the latest version.',
+    statusReady: 'Ready offline',
+    statusReadyDesc: 'Offline copy ready: readable without network',
+    statusOffline: 'Offline mode',
+    statusOfflineDesc: 'Offline mode active: guides remain accessible',
+    statusPreparing: 'Preparing…',
+    statusPreparingDesc: 'Saving offline copy…',
+    toastReady: '✓ Available offline: guides and resources are saved in your browser.',
+    toastOffline: 'Offline mode active: you can browse without a connection.',
   },
 };
 
@@ -133,16 +150,70 @@ function pwaShowUpdateBanner(registration) {
   banner.hidden = false;
 }
 
+function pwaUpdateStatusBadge(registration) {
+  const badge = document.querySelector('[data-pwa-status]');
+  if (!badge) return;
+
+  const isOnline = navigator.onLine !== false;
+  const isReady = Boolean(
+    navigator.serviceWorker && (navigator.serviceWorker.controller || registration?.active),
+  );
+
+  badge.hidden = false;
+
+  if (!isOnline) {
+    badge.className = 'md-header__option pwa-status pwa-status--offline';
+    badge.setAttribute('title', pwaT.statusOfflineDesc);
+    badge.setAttribute('aria-label', pwaT.statusOfflineDesc);
+    const label = badge.querySelector('.pwa-status__label');
+    if (label) label.textContent = pwaT.statusOffline;
+    return;
+  }
+
+  if (isReady) {
+    badge.className = 'md-header__option pwa-status pwa-status--ready';
+    badge.setAttribute('title', pwaT.statusReadyDesc);
+    badge.setAttribute('aria-label', pwaT.statusReadyDesc);
+    const label = badge.querySelector('.pwa-status__label');
+    if (label) label.textContent = pwaT.statusReady;
+  } else {
+    badge.className = 'md-header__option pwa-status pwa-status--preparing';
+    badge.setAttribute('title', pwaT.statusPreparingDesc);
+    badge.setAttribute('aria-label', pwaT.statusPreparingDesc);
+    const label = badge.querySelector('.pwa-status__label');
+    if (label) label.textContent = pwaT.statusPreparing;
+  }
+}
+
+function pwaInitStatusBadge(registration) {
+  const badge = document.querySelector('[data-pwa-status]');
+  if (!badge) return;
+
+  pwaUpdateStatusBadge(registration);
+
+  window.addEventListener('online', () => pwaUpdateStatusBadge(registration));
+  window.addEventListener('offline', () => pwaUpdateStatusBadge(registration));
+
+  badge.addEventListener('click', () => {
+    const isOnline = navigator.onLine !== false;
+    pwaToast(isOnline ? pwaT.toastReady : pwaT.toastOffline);
+  });
+}
+
 async function pwaInit() {
   const panel = document.querySelector('[data-pwa-panel]');
+  const badge = document.querySelector('[data-pwa-status]');
   if (!('serviceWorker' in navigator)) {
     if (panel) panel.textContent = pwaT.unsupported;
+    if (badge) badge.hidden = true;
     return;
   }
 
   // The first takeover (first visit) must not reload the page; later ones are real updates.
   let controlled = Boolean(navigator.serviceWorker.controller);
   const registration = await navigator.serviceWorker.register(PWA_SW_URL);
+
+  pwaInitStatusBadge(registration);
 
   // A previous "Update" ended in a reload: say that it worked.
   try {
@@ -166,6 +237,9 @@ async function pwaInit() {
     lastCheck = Date.now();
     registration.update().catch(() => {});
   });
+
+  navigator.serviceWorker.ready.then(() => pwaUpdateStatusBadge(registration));
+
   if (!panel) return;
 
   const status = document.createElement('span');
@@ -190,6 +264,7 @@ async function pwaInit() {
     actions.replaceChildren(...(waiting ? [updateBtn] : [checkBtn]), reinstallBtn);
     panel.classList.toggle('has-update', waiting);
     if (active) navigator.serviceWorker.controller?.postMessage('GET_VERSION');
+    pwaUpdateStatusBadge(registration);
   }
 
   navigator.serviceWorker.addEventListener('message', (event) => {
