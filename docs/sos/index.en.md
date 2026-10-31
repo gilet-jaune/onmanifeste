@@ -1,5 +1,5 @@
 ---
-source_commit: 775f6911a2207e7e7964b37193ee46459e82af8c
+source_commit: 32d6607ea31a0d0851de7c0b0be3673e52abd6ed
 tags:
     - emergency
 hide:
@@ -15,6 +15,8 @@ Tap a number to call. This page works **offline**.
 ## Emergencies
 
 {{ sos.numbers('en') }}
+
+Not sure what to do? Tell us where you are and we take you to the right part: [:material-compass: I am… and I want to…](../parcours/index.md){ .md-button }
 
 ## Arrest: alert a legal team
 

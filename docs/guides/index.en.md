@@ -1,5 +1,5 @@
 ---
-source_commit: ac4f090943455755550ad6614675ed4dd5c02b00
+source_commit: 32d6607ea31a0d0851de7c0b0be3673e52abd6ed
 tags:
     - guides
 ---
@@ -8,7 +8,9 @@ tags:
 
 Guides to read before you go, **available offline** once the site has been opened (or installed) on your phone.
 
-**Where to start?** [Pre-protest checklist](avant-de-partir.md) · [Never stay alone](ne-pas-rester-seul.md) · [Police custody (garde à vue)](garde-a-vue.md)
+**Where to start?** [Pre-protest checklist](avant-de-partir.md) · [Never stay alone](ne-pas-rester-seul.md) · [Police custody (garde à vue)](garde-a-vue.md) · [Not sure? I am… and I want to…](../parcours/index.md)
+
+**Not sure which guide you need?** Say where you are (tear-gassed, first protest, witness to an arrest…): the guided search [I am… and I want to…](../parcours/index.md) takes you to the right part.
 
 <div data-guides-filter></div>
 <div id="guide-themes" hidden data-themes='{{ guide_themes | tojson }}'></div>
