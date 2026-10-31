@@ -30,6 +30,11 @@ const PWA_I18N = {
     installedMsg: 'Application ajoutée ✓ Vous pouvez l’ouvrir depuis votre écran d’accueil.',
     doneMsg: 'C’est noté ✓ Ce message ne s’affichera plus.',
     close: 'Fermer',
+    updateTitle: 'Nouvelle version disponible.',
+    updateAvailable:
+      'Guides et corrections à jour. La mise à jour ne supprime rien et ne demande aucune réinstallation.',
+    updateNow: 'Mettre à jour',
+    updatedMsg: 'Mise à jour effectuée ✓ Vous avez la dernière version.',
   },
   en: {
     ready: 'Available offline',
@@ -54,6 +59,11 @@ const PWA_I18N = {
     installedMsg: 'App added ✓ You can open it from your home screen.',
     doneMsg: 'Noted ✓ This message will not appear again.',
     close: 'Close',
+    updateTitle: 'New version available.',
+    updateAvailable:
+      'Up-to-date guides and fixes. Updating deletes nothing and does not require reinstalling.',
+    updateNow: 'Update',
+    updatedMsg: 'Update done ✓ You have the latest version.',
   },
 };
 
@@ -81,6 +91,48 @@ async function pwaReinstall() {
   window.location.reload();
 }
 
+const PWA_UPDATED_KEY = 'awesome-protest:updated';
+let pwaUpdateShown = false;
+
+// A new version was published and installed in the background: it waits for the go-ahead. Taking
+// it over reloads the page once; nothing is deleted and the app is not reinstalled.
+function pwaApplyUpdate(registration) {
+  try {
+    sessionStorage.setItem(PWA_UPDATED_KEY, '1');
+  } catch {
+    /* no confirmation after the reload */
+  }
+  registration.waiting?.postMessage('SKIP_WAITING');
+}
+
+function pwaShowUpdateBanner(registration) {
+  const banner = document.querySelector('[data-pwa-banner]');
+  const isEmergencyPage = Boolean(document.querySelector('.sos__numbers'));
+  if (!banner || isEmergencyPage || pwaUpdateShown || !registration.waiting) return;
+  if (!navigator.serviceWorker.controller) return; // first install, not an update
+  pwaUpdateShown = true;
+  const text = document.createElement('p');
+  text.className = 'pwa-banner__text';
+  const status = document.createElement('strong');
+  status.className = 'pwa-banner__status';
+  status.textContent = pwaT.updateTitle;
+  text.append(status, ' ', pwaT.updateAvailable);
+  const actions = document.createElement('div');
+  actions.className = 'pwa-banner__actions';
+  const apply = pwaButton(pwaT.updateNow, () => pwaApplyUpdate(registration));
+  apply.classList.add('pwa-banner__install');
+  actions.append(
+    apply,
+    pwaButton(pwaT.later, () => {
+      pwaUpdateShown = false;
+      pwaHideBanner(false);
+    }),
+  );
+  banner.setAttribute('aria-label', pwaT.updateNow);
+  banner.replaceChildren(text, actions);
+  banner.hidden = false;
+}
+
 async function pwaInit() {
   const panel = document.querySelector('[data-pwa-panel]');
   if (!('serviceWorker' in navigator)) {
@@ -91,6 +143,29 @@ async function pwaInit() {
   // The first takeover (first visit) must not reload the page; later ones are real updates.
   let controlled = Boolean(navigator.serviceWorker.controller);
   const registration = await navigator.serviceWorker.register(PWA_SW_URL);
+
+  // A previous "Update" ended in a reload: say that it worked.
+  try {
+    if (sessionStorage.getItem(PWA_UPDATED_KEY)) {
+      sessionStorage.removeItem(PWA_UPDATED_KEY);
+      pwaToast(pwaT.updatedMsg);
+    }
+  } catch {
+    /* storage blocked */
+  }
+  pwaShowUpdateBanner(registration);
+  registration.addEventListener('updatefound', () => {
+    registration.installing?.addEventListener('statechange', () =>
+      pwaShowUpdateBanner(registration),
+    );
+  });
+  // A long-open app never reloads: look for a new version when it comes back to the foreground.
+  let lastCheck = Date.now();
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState !== 'visible' || Date.now() - lastCheck < 3_600_000) return;
+    lastCheck = Date.now();
+    registration.update().catch(() => {});
+  });
   if (!panel) return;
 
   const status = document.createElement('span');
@@ -99,9 +174,7 @@ async function pwaInit() {
   actions.className = 'pwa-panel__actions';
   panel.replaceChildren(status, actions);
 
-  const updateBtn = pwaButton(pwaT.update, () => {
-    registration.waiting?.postMessage('SKIP_WAITING');
-  });
+  const updateBtn = pwaButton(pwaT.update, () => pwaApplyUpdate(registration));
   const checkBtn = pwaButton(pwaT.check, async () => {
     checkBtn.textContent = pwaT.checking;
     await registration.update().catch(() => {});
@@ -200,8 +273,8 @@ function pwaRememberDone() {
   }
 }
 
-function pwaConfirmDone(message) {
-  pwaRememberDone();
+// A short message in the banner area, closing by itself (confirmations: installed, updated).
+function pwaToast(message) {
   const banner = document.querySelector('[data-pwa-banner]');
   if (!banner) return;
   const text = document.createElement('p');
@@ -220,6 +293,11 @@ function pwaConfirmDone(message) {
   setTimeout(() => pwaHideBanner(false), 8000);
 }
 
+function pwaConfirmDone(message) {
+  pwaRememberDone();
+  pwaToast(message);
+}
+
 function pwaHideBanner(snooze) {
   document.querySelectorAll('[data-pwa-banner]').forEach((b) => (b.hidden = true));
   if (!snooze) return;
@@ -231,6 +309,7 @@ function pwaHideBanner(snooze) {
 }
 
 function pwaRenderBanner() {
+  if (pwaUpdateShown) return; // a new version to install comes first
   const banner = document.querySelector('[data-pwa-banner]');
   // Emergency pages (SOS, pocket card) keep the first screen for the numbers.
   const isEmergencyPage = Boolean(document.querySelector('.sos__numbers, [data-parcours]'));
