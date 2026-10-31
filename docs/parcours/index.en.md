@@ -1,12 +1,12 @@
 ---
-source_commit: 06a03a414f123e4132f534b4bc84c8ee2ce14e43
+source_commit: 691a14a1850b04e91f1c8e4acaac318702ecbb70
 tags:
     - guided search
 ---
 
 # I am… and I want to…
 
-Say where you are, then what you want to do: the page takes you straight to the right guides, contacts and steps. Works **offline**.
+**Tell us where you are** (tear-gassed, first protest, witness to an arrest…), then what you want to do: in two steps, the page takes you to the right part, with the useful contacts and steps. Works **offline**.
 
 {% import "overrides/partials/parcours-tree.html" as pt with context %}
 
