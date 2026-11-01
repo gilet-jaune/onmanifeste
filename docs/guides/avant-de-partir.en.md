@@ -1,5 +1,5 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
 tags:
     - guides
     - préparation
@@ -46,6 +46,7 @@ Download the protest area **and** your way home. Test in airplane mode: the map 
 ## On paper and on you
 
 - [ ] Useful numbers written in permanent marker **on your skin under clothing** (upper arm, stomach — out of sight) and on paper: **only the 10 digits, with no name** (a close contact who is not protesting and answers hidden numbers, the legal team, a lawyer). In police custody, your phone and belongings are confiscated ([see "Never stay alone"](ne-pas-rester-seul.md)).[^sm-guide]
+- [ ] A **trusted contact who holds your supporting documents** (photos of your ID, proof of address, work contract or student certificate): in case of immediate trial (comparution immédiate), they hand them to the lawyer ([proof of ties](suites-judiciaires.md)).
 - [ ] The printed [pocket card](../carte/index.md).
 
 ## With your group

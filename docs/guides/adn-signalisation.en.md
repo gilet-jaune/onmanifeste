@@ -1,5 +1,5 @@
 ---
-source_commit: 357a6376a3a0d5974151e9abea92663840a1df8d
+source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
 review: juridique
 review_status: pending
 tags:
@@ -28,6 +28,7 @@ This guide complements [Police custody](garde-a-vue.md). It explains **what the 
 
 - **Flagrante delicto** (article 55-1) and **preliminary investigation** (article 76-2, with the prosecutor's authorisation): the judicial police officer can take **external samples** (mouth swab) and **identification records** (fingerprints or palm prints, photographs) from anyone against whom there are **one or more plausible reasons to suspect** that they committed or attempted the offence.[^cpp-55-1][^cpp-76-2]
 - The decision is **written and reasoned**.[^cpp-55-1]
+- **Photo and fingerprints** can feed police files: the photo, the **TAJ** (criminal records processing file), the fingerprints, the fingerprint file (FAED).[^sp-gav]
 - **Without your consent**, force is only possible for **identity signalisation**: if it is the only way to establish who you are, you refuse to prove your identity or give a manifestly inaccurate one, the offence carries at least 3 years, and the prosecutor authorises it in writing. Your lawyer is notified.[^cpp-55-1]
 
 ## The DNA file (FNAEG)
@@ -47,6 +48,25 @@ The list in article 706-55 includes in particular: **intentional violence** (222
 - The Constitutional Council held that this penalty is "not manifestly disproportionate" and recalled that sampling implies **neither a declaration nor a presumption of guilt**.[^cc-2010-25]
 
 That is why the question "accept or refuse?" is not settled alone in a police station: a refusal can add a prosecution to the one that led to custody.
+
+## The TAJ: refusing the photo does not prevent registration
+
+- The TAJ is fed by data collected **during investigations** (preliminary, flagrante delicto, letters rogatory) for **any crime or offence**, and for some fifth-class contraventions.[^cpp-230-6] The article does not tie registration to the photo: the procedure data is enough, so refusing to be photographed does not guarantee you will not be registered.
+- The prosecutor oversees the file. At your request, they can order **erasure**, **rectification** or a **note**, and must answer within **2 months**.[^cpp-230-8] After a **final acquittal**, the data is **erased**, unless the prosecutor orders it kept; after a **dismissal or a case closed without action**, it carries a **note** (so it can no longer be consulted for administrative inquiries), unless erasure is ordered.[^cpp-230-8] A refusal can be challenged before the president of the investigating chamber.[^cpp-230-8]
+
+- **What the Constitutional Council said (27 October 2017).** The file lists **everyone investigated** for a crime, an offence or certain fifth-class contraventions. It can hold a **photograph suitable for facial recognition**, and its data could then be kept **from five to forty years**, and also be consulted for administrative inquiries. The Council struck down the rule that denied any erasure to people investigated other than those acquitted, or benefiting from a dismissal or a case closed without action, as a **disproportionate infringement of privacy**.[^cc-2017-670] Current retention periods are not verified here: ask your lawyer.
+
+- **What the European Court of Human Rights said (18 September 2014).** In _Brunet v. France_, about the STIC file (the TAJ's predecessor), it unanimously held that France violated the right to respect for private life (Article 8). The applicant, whose case had been closed without action after a criminal mediation, had **no real possibility of asking for erasure** of his data. A twenty-year retention period was, in that case, "assimilable" to indefinite retention.[^cedh-brunet]
+
+### Refusing on principle
+
+Some activists refuse signalisation and DNA **so as not to contribute to registration**, even at the price of a prosecution. It is a deliberate choice, to be made knowingly:
+
+- **The cost is certain**: refusal is an offence (1 year and €15,000), added to the alleged facts.[^cpp-55-1][^cpp-706-56]
+- **The gain is limited**: the TAJ is fed by the procedure, not by the photo alone (see above). You only refuse the photo and fingerprints.
+- **Your situation matters**: a record, being a minor, a foreign or precarious person do not carry the same risks.
+
+Decide **with your lawyer**, not in the cell.
 
 ## Asking for erasure
 

@@ -1,5 +1,5 @@
 ---
-source_commit: 2f4b412b8742151d64a72e00230bdae80d47c681
+source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
 review: juridique
 review_status: pending
 tags:
@@ -20,7 +20,9 @@ Two **single A4 page** sheets to print and fold: they stay useful if your phone 
 
 ## Sheet 1: police custody
 
-1. I ask for **a lawyer** and **a doctor**, from the start.
+**A.M.I.S**: Avocat (lawyer), Médecin (doctor), Informer (a relative), Silence.
+
+1. I ask for **a lawyer** and **a doctor**, from the start. Word for word: "Je veux voir un avocat.", "Je veux voir un médecin."
 2. I give **my identity**, then **stay silent** until the lawyer arrives. "I have nothing to say" is a right.
 3. I talk about **no one else**: no names, no descriptions.
 4. I **re-read** every statement. I do not sign anything inaccurate; I can refuse to sign.

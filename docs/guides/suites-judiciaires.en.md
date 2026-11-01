@@ -1,5 +1,5 @@
 ---
-source_commit: ac4f090943455755550ad6614675ed4dd5c02b00
+source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
 review: juridique
 review_status: pending
 tags:
@@ -67,14 +67,17 @@ If the police or gendarmerie summon you after a protest to be questioned "freely
 
 If someone close to you is brought before the court at the end of custody for a {{ res("sp-comparution-immediate", "fast-track trial (comparution immédiate)") }}, the court rules the same day (or decides on pre-trial detention if the trial is adjourned).[^sp-ci]
 
-Relatives must gather **immediately** and hand to the duty lawyer the **guarantees of representation (garanties de représentation)** (proof of stable ties to avoid prison):[^sp-ci][^sm-guide]
+Relatives must gather **immediately** and hand to the duty lawyer the **guarantees of representation (garanties de représentation)** (material proof that the person is not a flight risk and will attend hearings). They weigh in **avoiding pre-trial detention** or obtaining release: the court can order pre-trial detention, notably to keep the person available to the justice system.[^cpp-397-3][^cpp-144] The list below comes from lawyers' practice, not from a legal text:
 
 - [ ] **Identity**: copy of ID card, passport or residence permit.
 - [ ] **Address**: lease, latest rent receipt or utility bill (electricity, phone); if hosted by someone else: **signed and dated hosting certificate (attestation d'hébergement)** + copy of the host's ID + host's proof of address.
 - [ ] **Work or studies**: employment contract, last 3 payslips, job offer, school enrolment certificate or student card.
 - [ ] **Family and health**: family record book (livret de famille), current medical prescriptions, proof of medical or psychological care.
+- [ ] **If needed**: CAF, RSA or France Travail (formerly Pôle emploi) certificate, and proof of **taking part in associations or cultural activities**.
 
-Before the court, the defendant always has the **right to refuse to be tried that same day** and to request an adjournment (2 to 6 weeks) to prepare their defence with their lawyer.[^sp-ci]
+You can also **hand them in advance to a trusted contact**, who will pass them to the lawyer ([Before you leave](avant-de-partir.md)).
+
+Before the court, the defendant always has the **right to refuse to be tried that same day** and to request an adjournment: the case is then sent to a hearing held **4 to 10 weeks** later (the defendant may waive the 4-week minimum), to prepare their defence with their lawyer.[^sp-ci][^cpp-397-1]
 
 [:octicons-arrow-right-24: Lawyers, legal aid and solidarity funds in the directory](../annuaire/index.md?situation=avocat-proces)
 

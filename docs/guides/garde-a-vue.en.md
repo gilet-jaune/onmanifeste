@@ -1,5 +1,5 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
 review: juridique
 review_status: pending
 tags:
@@ -47,21 +47,33 @@ tags:
 They must be notified to you immediately, in a language you understand:[^sp-gav]
 
 - **The right to remain silent.** You can give your identity and refuse to answer other questions.
-- **A lawyer**, of your choice or court-appointed (free depending on your income). Since 1 July 2024, you can ask that no questioning takes place without a lawyer.[^sp-gav-2024]
-- **A doctor.**
+- **A lawyer**, of your choice or court-appointed (free depending on your income). Since 1 July 2024, you can ask that no questioning takes place without a lawyer.[^sp-gav-2024] The meeting with the lawyer is **confidential** and lasts **30 minutes at most**; you can ask for it again at the start of an extension.[^cpp-63-4]
+- **A doctor.** They rule in particular on whether custody is compatible with your condition, and their certificate goes in the file.[^sp-gav]
 - **Have someone notified**: a relative and your employer. The police make the call (often from a hidden number), which is why you should write the **10 digits of a close contact on your skin under clothing** before the protest: since your phone is taken during the search, never ask to unlock it in front of officers to look up a number.[^sp-gav][^sm-guide]
 - **An interpreter** if needed.
 - Access to some case documents (notification report, medical certificate).
 
-Duration: **24 hours**, renewable once (48 hours) for most offences alleged at protests.[^sp-gav]
+**To remember them: A.M.I.S** = Avocat (lawyer), Médecin (doctor), Informer (a relative), Silence.
+
+Duration: **24 hours**, renewable once (48 hours) for most offences alleged at protests. For the most serious offences it can reach **72 hours** (96 for some), and **144 hours** for terrorism.[^sp-gav] If another coercive measure came first for the same facts, the clock runs **from the time you were deprived of liberty**, not from arrival at the station.[^cpp-63]
+
+## During custody
+
+- **Dignity**: custody must take place in conditions that respect your dignity, and only strictly necessary security measures may be imposed on you.[^cpp-63-5]
+- **In the cell**, a mattress and a blanket must be provided; you can drink water and have **hot meals at normal times**.[^sp-gav]
+- **Searches**: a pat-down is done by a person **of the same sex**. A **strip search** (you may have to undress) is only possible if **indispensable to the investigation**, decided by an OPJ, carried out by a person of the same sex in a closed room. An internal search can only be done by **a doctor**.[^sp-gav]
+- **Photos and fingerprints** can feed police files, including the **TAJ** (criminal records processing file) for the photo.[^sp-gav] See [DNA, fingerprints and photos](adn-signalisation.md).
+- **Your belongings** (phone, wallet) can be removed; they must be returned afterwards unless seized.[^sp-gav]
 
 ## Reflexes
 
 1. **Ask for a lawyer** and a doctor as soon as your rights are read.
-2. **Say nothing** before speaking to the lawyer, even "to explain yourself": anything you say can be used. Saying "I have nothing to declare" is a right.
+2. **Say nothing** before speaking to the lawyer, even "to explain yourself": anything you say can be used. Saying "I have nothing to declare" is a right. This also applies **in the cell, in the toilets and during transfers**: talk about the case to no one but your lawyer.
 3. **Don't talk about others**: no names, no descriptions, no "who was there".
 4. **Re-read** every statement (procès-verbal). Don't sign anything inaccurate; you can refuse to sign or ask for corrections.
 5. Stay calm: provocation and pressure happen, don't let yourself be pushed into a mistake.
+
+Say these **word for word** (in French): "Je veux voir un avocat." · "Je veux voir un médecin." · "Je n'ai rien à déclarer." · for a minor: "Prévenez mes parents."
 
 !!! warning "Fingerprints, DNA, phone code"
 
@@ -69,8 +81,9 @@ Duration: **24 hours**, renewable once (48 hours) for most offences alleged at p
 
 ## Minors
 
-- **Parents** (or legal guardians) must be notified.[^sp-mineur]
-- A **lawyer is mandatory**; a **medical examination** is provided.
+- **Parents** (or legal guardians) must be notified by the police, in principle within **3 hours**.[^sp-mineur]
+- A **lawyer is mandatory**.[^sp-mineur]
+- **Medical examination**: mandatory from the start under 16; at 16 and 17, you (or your parents) must ask for it.[^sp-mineur]
 - Interviews are video-recorded.[^sp-mineur]
 - Under 13, no custody (only a strictly supervised "retenue").[^sp-mineur]
 
