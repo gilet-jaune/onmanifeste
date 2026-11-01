@@ -305,6 +305,14 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](convaincre-ses-proches.md)
 
+- **Protest songs** [:material-music:](chants.md)
+
+    ***
+
+    A few songs of struggle, old and recent, with links to their lyrics.
+
+    [:octicons-arrow-right-24: Read](chants.md)
+
 - **Stay informed, get trained** [:material-school:](s-informer-se-former.md)
 
     ***

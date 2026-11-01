@@ -137,6 +137,7 @@ plugins:
             "Réseaux sociaux : ne pas nourrir la haine": "Social media: don't feed hate"
             Pourquoi ça casse en manif ?: Why property gets smashed at protests
             Convaincre ses proches: Talk to your loved ones
+            Chants de manifestation: Protest songs
             Repères historiques: History
             Répressions documentées: Documented repression
             Blessé·es et mort·es: Injured and killed
@@ -233,6 +234,7 @@ nav:
           - Photographier et filmer pour la presse: guides/photographier-pour-la-presse.md
           - Vérifier une info et éviter la désinformation: guides/desinformation.md
           - Convaincre ses proches: guides/convaincre-ses-proches.md
+          - Chants de manifestation: guides/chants.md
           - Pourquoi nous rejoindre ?: rallier/index.md
           - S'informer et se former: guides/s-informer-se-former.md
   - Comprendre:

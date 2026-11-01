@@ -133,6 +133,18 @@
         "by": "ai"
       }
     },
+    "amnesty-7-signes-2026": {
+      "title": {
+        "fr": "Amnesty International France — La France glisse-t-elle vers des pratiques autoritaires ? 7 signes d'alerte (29 octobre 2026)",
+        "en": "Amnesty International France — Is France sliding into authoritarian practices? 7 warning signs (29 October 2026, in French)"
+      },
+      "url": "https://www.amnesty.fr/actualites/pratiques-autoritaires-7-signes-alerte-en-france/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "amnesty-arrestations-2020": {
       "title": {
         "fr": "Amnesty International — France : des milliers de manifestants pacifiques arbitrairement arrêtés et poursuivis (2020)",
@@ -181,6 +193,18 @@
         "by": "ai"
       }
     },
+    "amnesty-how-to-make-a-banner": {
+      "title": {
+        "fr": "Amnesty International — How to make a banner",
+        "en": "Amnesty International — How to make a banner"
+      },
+      "url": "https://www.amnesty.org/en/wp-content/uploads/2021/05/SEC010142013ENGLISH.pdf",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "amnesty-lyceens-2026": {
       "title": {
         "fr": "Amnesty International France — Mouvement lycéen : des mineurs face à la répression",
@@ -189,6 +213,18 @@
       "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-surenchere-2026": {
+      "title": {
+        "fr": "Amnesty International France — Amnesty dénonce une surenchère sécuritaire et de graves entraves au droit de manifester en France (octobre 2026)",
+        "en": "Amnesty International France — Amnesty denounces a security escalation and serious obstacles to the right to protest in France (October 2026, in French)"
+      },
+      "url": "https://www.amnesty.fr/communiques/amnesty-denonce-une-surenchere-securitaire-et-de-graves-entraves-au-droit-de-manifester-en-france/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -328,6 +364,33 @@
         "by": "ai"
       }
     },
+    "bdt-tracts-mentions": {
+      "title": {
+        "fr": "Banque des Territoires — Les tracts électoraux doivent-ils comprendre des mentions obligatoires ? (2020)",
+        "en": "Banque des Territoires — Must election leaflets carry mandatory mentions? (2020, in French)"
+      },
+      "url": {
+        "fr": "https://www.banquedesterritoires.fr/les-tracts-electoraux-distribues-dans-les-boites-aux-lettres-et-sur-la-voie-publique-doivent-ils",
+        "en": "https://www.banquedesterritoires.fr/les-tracts-electoraux-distribues-dans-les-boites-aux-lettres-et-sur-la-voie-publique-doivent-ils"
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "behindit": {
+      "title": {
+        "fr": "BehindIt — retrouver l'auteur d'un lien Instagram ou TikTok partagé (GitHub)",
+        "en": "BehindIt — revealing who shared an Instagram or TikTok link (GitHub)"
+      },
+      "url": "https://github.com/Gobutsu/BehindIt",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "bitchat-readme": {
       "title": {
         "fr": "Bitchat — Présentation (README)",
@@ -348,6 +411,18 @@
       "url": "https://github.com/permissionlesstech/bitchat/blob/main/WHITEPAPER.md",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "blast-coupure-reseaux-2026": {
+      "title": {
+        "fr": "Blast — Le Premier ministre a préparé la coupure des réseaux sociaux pour le 24 octobre (24 octobre 2026)",
+        "en": "Blast — The Prime Minister prepared a social media shutdown for 24 October (24 October 2026, in French)"
+      },
+      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -388,6 +463,21 @@
         "by": "ai"
       }
     },
+    "cc-2010-25": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2010-25 QPC du 16 septembre 2010 (fichier d'empreintes génétiques)",
+        "en": "Constitutional Council — Decision 2010-25 QPC of 16 September 2010 (DNA file; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm",
+        "en": "https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cc-2019-780": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2019-780 DC du 4 avril 2019 (loi « anticasseurs »)",
@@ -396,6 +486,21 @@
       "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2021-834": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2021-834 DC du 20 janvier 2022 (drones, § 21 à 31)",
+        "en": "Constitutional Council — Decision 2021-834 DC of 20 January 2022 (drones, §21-31; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-constitutionnel.fr/decision/2022/2021834DC.htm",
+        "en": "https://www.conseil-constitutionnel.fr/decision/2022/2021834DC.htm"
+      },
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
@@ -484,6 +589,18 @@
         "by": "ai"
       }
     },
+    "cdr-l412-1": {
+      "title": {
+        "fr": "Code de la route — Article L412-1 (entrave à la circulation)",
+        "en": "Highway Code — Article L412-1 (obstructing traffic, in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006841221",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ce-palestine-2023": {
       "title": {
         "fr": "Conseil d'État — Ordonnance n° 488860 du 18 octobre 2023 (manifestations de soutien à la population palestinienne)",
@@ -496,6 +613,21 @@
         "by": "ai"
       }
     },
+    "ce-recours": {
+      "title": {
+        "fr": "Conseil d'État — Déposer un recours (référé-liberté, référé-suspension)",
+        "en": "Council of State — File an appeal (emergency procedures; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-etat.fr/vos-demarches/je-suis-un-particulier/deposer-un-recours",
+        "en": "https://www.conseil-etat.fr/vos-demarches/je-suis-un-particulier/deposer-un-recours"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ce-snmo": {
       "title": {
         "fr": "Conseil d'État, 10 juin 2021, n° 444849 — schéma national du maintien de l'ordre",
@@ -504,6 +636,18 @@
       "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-06-10/444849",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-snmo-actualite": {
+      "title": {
+        "fr": "Conseil d'État — Le Conseil d'État annule plusieurs points du schéma du maintien de l'ordre (10 juin 2021)",
+        "en": "Council of State — annuls several points of the policing doctrine (10 June 2021; in French)"
+      },
+      "url": "https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -604,6 +748,69 @@
         "by": "ai"
       }
     },
+    "cnil-assistants-vocaux": {
+      "title": {
+        "fr": "CNIL — « À votre écoute » : livre blanc sur les assistants vocaux",
+        "en": "CNIL — \"À votre écoute\": white paper on voice assistants (in French)"
+      },
+      "url": "https://www.cnil.fr/fr/votre-ecoute-la-cnil-publie-son-livre-blanc-sur-les-assistants-vocaux",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cnil-videoprotection": {
+      "title": {
+        "fr": "CNIL — La vidéoprotection (droits d'accès, d'effacement, plainte)",
+        "en": "CNIL — Video surveillance (rights of access, erasure, complaint; in French)"
+      },
+      "url": {
+        "fr": "https://www.cnil.fr/fr/la-videoprotection",
+        "en": "https://www.cnil.fr/fr/la-videoprotection"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-132-75": {
+      "title": {
+        "fr": "Code pénal, art. 132-75 (définition de l'arme et objets assimilés)",
+        "en": "French Criminal Code, art. 132-75 (definition of a weapon and objects treated as one)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417499",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-222-13": {
+      "title": {
+        "fr": "Code pénal, art. 222-13 (violences ayant entraîné une incapacité de huit jours au plus) (Légifrance)",
+        "en": "Criminal Code, art. 222-13 (violence causing up to eight days' incapacity, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051876328",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-222-14-2": {
+      "title": {
+        "fr": "Code pénal, art. 222-14-2 (groupement en vue de violences ou dégradations)",
+        "en": "French Criminal Code, art. 222-14-2 (group formed to prepare violence or damage)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926074",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cp-222-17": {
       "title": {
         "fr": "Code pénal, article 222-17 (Légifrance)",
@@ -616,6 +823,120 @@
         "by": "ai"
       }
     },
+    "cp-227-21": {
+      "title": {
+        "fr": "Code pénal, art. 227-21 (provocation d'un mineur à commettre un crime ou un délit)",
+        "en": "French Criminal Code, art. 227-21 (inciting a minor to commit an offence)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409186",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-322-1": {
+      "title": {
+        "fr": "Légifrance — Code pénal, article 322-1 (dégradations, inscriptions sans autorisation)",
+        "en": "Légifrance — Criminal Code, article 322-1 (damage, unauthorised inscriptions; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053456",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-322-11-1": {
+      "title": {
+        "fr": "Légifrance — Code pénal, art. 322-11-1 (détention de produits incendiaires ou explosifs)",
+        "en": "Légifrance — Criminal Code, art. 322-11-1 (possession of incendiary or explosive products; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032654707",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032654707"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-322-6": {
+      "title": {
+        "fr": "Légifrance — Code pénal, art. 322-6 (destruction par substance explosive, incendie ou moyen dangereux)",
+        "en": "Légifrance — Criminal Code, art. 322-6 (destruction by explosive, fire or dangerous means; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418281",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418281"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-10": {
+      "title": {
+        "fr": "Code pénal, art. 431-10 (participer à une manifestation en étant porteur d'une arme)",
+        "en": "French Criminal Code, art. 431-10 (taking part in a demonstration while carrying a weapon)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418474",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-3": {
+      "title": {
+        "fr": "Code pénal, art. 431-3 (attroupement et sommations) (Légifrance)",
+        "en": "Criminal Code, art. 431-3 (gathering and summonses, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020957203",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-4": {
+      "title": {
+        "fr": "Code pénal, art. 431-4 (continuer à participer à un attroupement après les sommations) (Légifrance)",
+        "en": "Criminal Code, art. 431-4 (staying in a gathering after summonses, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926085",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-5": {
+      "title": {
+        "fr": "Code pénal, art. 431-5 (participer à un attroupement en étant porteur d'une arme) (Légifrance)",
+        "en": "Criminal Code, art. 431-5 (taking part in an armed gathering, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418465",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-431-9": {
+      "title": {
+        "fr": "Code pénal, art. 431-9 (organiser une manifestation non déclarée ou interdite) (Légifrance)",
+        "en": "Criminal Code, art. 431-9 (organising an undeclared or banned protest, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418472",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cp-431-9-1": {
       "title": {
         "fr": "Code pénal, article 431-9-1 (Légifrance)",
@@ -624,6 +945,42 @@
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382669",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-433-5": {
+      "title": {
+        "fr": "Code pénal, art. 433-5 (outrage) (Légifrance)",
+        "en": "Criminal Code, art. 433-5 (contempt of an official, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114921",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-433-6": {
+      "title": {
+        "fr": "Code pénal, art. 433-6 (rébellion : définition) (Légifrance)",
+        "en": "Criminal Code, art. 433-6 (resisting officials: definition, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418557",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-433-7": {
+      "title": {
+        "fr": "Code pénal, art. 433-7 (rébellion : peines) (Légifrance)",
+        "en": "Criminal Code, art. 433-7 (resisting officials: penalties, Légifrance; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114914",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -652,6 +1009,36 @@
         "by": "ai"
       }
     },
+    "cpp-706-54-1": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 706-54-1 (effacement du fichier d'ADN)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 706-54-1 (erasure from the DNA file; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038271773",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038271773"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-706-55": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 706-55 (infractions du fichier d'ADN)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 706-55 (offences listed for the DNA file; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006577732",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006577732"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cpp-706-56": {
       "title": {
         "fr": "Code de procédure pénale, article 706-56 (Légifrance)",
@@ -660,6 +1047,126 @@
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053035",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-76-2": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, enquête préliminaire (art. 75 à 78, dont 76-2)",
+        "en": "Légifrance — Code of Criminal Procedure, preliminary investigation (art. 75 to 78, incl. 76-2; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151877/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151877/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-2-4": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-2-4 (visite de véhicules et bagages, atteinte grave à la sécurité)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-2-4 (vehicle and bag searches; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655103",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655103"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-2-5": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-2-5 (fouilles aux abords des manifestations)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-2-5 (searches around demonstrations; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-3": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-3 (vérification d'identité)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-3 (identity verification; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049052313",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049052313"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-5": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-5 (refus d'empreintes ou de photographies)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-5 (refusing fingerprints or photographs; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006575183",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006575183"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-controles": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, contrôles, vérifications et relevés d'identité (art. 78-1 à 78-7, dont 78-2 et 78-2-2)",
+        "en": "Légifrance — Code of Criminal Procedure, identity checks (art. 78-1 to 78-7, incl. 78-2 and 78-2-2; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151880/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151880/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-fnaeg": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, fichier national automatisé des empreintes génétiques (art. 706-54 à 706-56-1-1)",
+        "en": "Légifrance — Code of Criminal Procedure, national DNA file (art. 706-54 to 706-56-1-1; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006138132/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006138132/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-arret-cardiaque": {
+      "title": {
+        "fr": "Croix-Rouge française — L'arrêt cardiaque : comment faire un massage cardiaque ?",
+        "en": "French Red Cross — Cardiac arrest: how to do chest compressions (in French)"
+      },
+      "url": {
+        "fr": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/arret-cardiaque",
+        "en": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/arret-cardiaque"
+      },
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
@@ -696,6 +1203,99 @@
       "url": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/hemorragie",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-pls": {
+      "title": {
+        "fr": "Croix-Rouge française — Position latérale de sécurité : comment mettre en PLS ?",
+        "en": "French Red Cross — Recovery position: how to place someone in PLS (in French)"
+      },
+      "url": {
+        "fr": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/position-laterale-de-securite-comment-mettre-en-pls",
+        "en": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/position-laterale-de-securite-comment-mettre-en-pls"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-r412-52": {
+      "title": {
+        "fr": "Légifrance — Code de la route, article R412-52 (tracts distribués aux automobilistes)",
+        "en": "Légifrance — Highway Code, article R412-52 (leaflets handed to drivers; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842176",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-l242": {
+      "title": {
+        "fr": "Légifrance — Code de la sécurité intérieure, caméras installées sur des aéronefs (L242-1 à L242-8)",
+        "en": "Légifrance — Internal Security Code, cameras on aircraft (L242-1 to L242-8; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505323/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505323/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-r211-18": {
+      "title": {
+        "fr": "Code de la sécurité intérieure, articles R211-18 à R211-21 et D211-17 — Emploi de la force et des armes du maintien de l'ordre",
+        "en": "Internal Security Code, articles R211-18 to R211-21 and D211-17 — Use of force and policing weapons (in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029655147/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-r311-2": {
+      "title": {
+        "fr": "Légifrance — Code de la sécurité intérieure, art. R311-2 (classement des matériels de guerre, armes et munitions)",
+        "en": "Légifrance — Internal Security Code, art. R311-2 (classification of war material, weapons and ammunition; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029658942/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029658942/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ct-l7111-3": {
+      "title": {
+        "fr": "Légifrance — Code du travail, article L7111-3 (journaliste professionnel)",
+        "en": "Légifrance — Labour Code, article L7111-3 (professional journalist; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764981",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "darley-latane-1968": {
+      "title": {
+        "fr": "Darley et Latané (1968) — Bystander intervention in emergencies: diffusion of responsibility",
+        "en": "Darley & Latané (1968) — Bystander intervention in emergencies: diffusion of responsibility"
+      },
+      "url": "https://doi.org/10.1037/h0025589",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -820,6 +1420,18 @@
         "by": "ai"
       }
     },
+    "ddd-dematerialisation-2022": {
+      "title": {
+        "fr": "Défenseur des droits — Dématérialisation des services publics : trois ans après, où en est-on ?",
+        "en": "Defender of Rights — Dematerialisation of public services: three years later (in French)"
+      },
+      "url": "https://www.defenseurdesdroits.fr/rapport-dematerialisation-des-services-publics-trois-ans-apres-ou-en-est-265",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ddd-suspension-lbd": {
       "title": {
         "fr": "Tendance Ouest — Le Défenseur des droits demande la suspension des LBD",
@@ -852,6 +1464,66 @@
       "url": "https://en.wikipedia.org/wiki/Deep_canvassing",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "demotivateur-pancartes-climat-2019": {
+      "title": {
+        "fr": "Démotivateur — Les 15 pancartes les plus créatives pendant la Marche du Climat (mars 2019)",
+        "en": "Démotivateur — The 15 most creative signs at the Climate March (March 2019, in French)"
+      },
+      "url": "https://www.demotivateur.fr/article/les-15-pancartes-les-plus-creatives-pendant-la-marche-du-climat-pour-denoncer-le-rechauffement-climatique-15811",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-armements-2020": {
+      "title": {
+        "fr": "Désarmons-les — Tour d'horizon des armements du maintien de l'ordre",
+        "en": "Désarmons-les — Overview of policing weapons (in French)"
+      },
+      "url": "https://desarmons.net/2020/12/23/tour-dhorizon-des-armements-du-maintien-de-lordre-decembre-2020/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-grenades-2024": {
+      "title": {
+        "fr": "Désarmons-les — Nouvelles du front du maintien de l'ordre : grenades offensives, GM2L, GL-304, ASSD et GENL (2024)",
+        "en": "Désarmons-les — Policing weapons update: offensive grenades, GM2L, GL-304, ASSD and GENL (2024, in French)"
+      },
+      "url": "https://desarmons.net/2024/11/28/nouvelles-du-front-du-maintien-de-lordre-grenades-offensives-bombes-tactiques-et-torture-electrique-part-3/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-marches-2026": {
+      "title": {
+        "fr": "Désarmons-les — Les millions de la répression : marchés publics d'armement (LBD, Cougar, Cobra, GM2L, GENL, GL-304, ASSD)",
+        "en": "Désarmons-les — Millions for repression: public weapons procurement (LBD, Cougar, Cobra, GM2L, GENL, GL-304, ASSD, in French)"
+      },
+      "url": "https://desarmons.net/2026/08/23/les-millions-de-la-repression/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-matraques-2024": {
+      "title": {
+        "fr": "Désarmons-les — Nouvelles du front du maintien de l'ordre : stocks de matraques, blindés et canons à eau (2024)",
+        "en": "Désarmons-les — Policing weapons update: baton stocks, armoured vehicles and water cannons (2024, in French)"
+      },
+      "url": "https://desarmons.net/2024/11/28/nouvelles-du-front-du-maintien-de-lordre-stock-de-matraque-en-hausse-blindes-anti-emeutes-et-canons-a-eau-dernier-cri-part-1/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -916,6 +1588,30 @@
         "by": "ai"
       }
     },
+    "drees-apl-2023": {
+      "title": {
+        "fr": "DREES — Accessibilité aux soins de premier recours en 2023",
+        "en": "DREES — Access to primary care in 2023 (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/241220_DATA_accessibilite-aux-soins",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "drees-non-recours-rsa": {
+      "title": {
+        "fr": "DREES — Mesurer régulièrement le non-recours au RSA et à la prime d'activité",
+        "en": "DREES — Regularly measuring non-take-up of the RSA and the activity bonus (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/mesurer-regulierement-le-non-recours-au",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "drees-retraites-2025": {
       "title": {
         "fr": "DREES — Les retraités et les retraites, édition 2025",
@@ -924,6 +1620,30 @@
       "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse-documents-de-reference/250731_PANORAMAS-retraites",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "drees-sae-2023": {
+      "title": {
+        "fr": "DREES — En 2023, la baisse du nombre de lits et la hausse du nombre de places se poursuivent",
+        "en": "DREES — In 2023 the fall in beds and the rise in places continue (in French)"
+      },
+      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241031_ER_SAE-2023",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "droitalinfo-detecter": {
+      "title": {
+        "fr": "Droit à l'Info — Centre de ressources",
+        "en": "Droit à l'Info — Resource centre (in French)"
+      },
+      "url": "https://droitalinfo.org/detecter/",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -972,6 +1692,30 @@
       "url": "https://docs.rs-online.com/1627/0900766b815b40cf.pdf",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "env-l581-13": {
+      "title": {
+        "fr": "Légifrance — Code de l'environnement, article L581-13 (affichage d'opinion)",
+        "en": "Légifrance — Environment Code, article L581-13 (opinion posting; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006834708",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "env-l581-34": {
+      "title": {
+        "fr": "Légifrance — Code de l'environnement, article L581-34 (publicité en lieu interdit)",
+        "en": "Légifrance — Environment Code, article L581-34 (advertising in banned places; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974744",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1032,6 +1776,18 @@
       "url": "https://www.lemondedudroit.fr/public/282-droit-public-general/103976-fermeture-temporaire-d-une-station-de-metro-pour-maintien-de-l-ordre-public-est-licite.html",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "fibzh-chants": {
+      "title": {
+        "fr": "FIBZH — Chants (recueil de paroles d'une fanfare militante)",
+        "en": "FIBZH — Chants (lyrics collection of an activist brass band; in French)"
+      },
+      "url": "https://fibzh.org/chants/",
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1104,6 +1860,18 @@
       "url": "https://www.franceinfo.fr/societe/manifestations/nice-montpellier-rouen-plusieurs-responsables-politiques-denoncent-des-violences-de-l-ultradroite-en-marge-de-manifestations-du-24-octobre_8252998.html",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-ldh-syndicats-2026": {
+      "title": {
+        "fr": "franceinfo — Mobilisation du 24 octobre : « Autoriser uniquement les manifestations des syndicats est parfaitement illégal », affirme la LDH (22 octobre 2026)",
+        "en": "franceinfo — 24 October protests: 'Allowing only union marches is completely illegal', says the LDH (22 October 2026, in French)"
+      },
+      "url": "https://www.franceinfo.fr/economie/greve/mobilisation-du-24-octobre-autoriser-uniquement-les-manifestations-des-syndicats-est-parfaitement-illegal-affirme-la-ldh-qui-envisage-des-recours_8249527.html",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1270,6 +2038,18 @@
         "by": "ai"
       }
     },
+    "ifcn-code": {
+      "title": {
+        "fr": "IFCN — Code of Principles (réseau international de fact-checking)",
+        "en": "IFCN — Code of Principles (International Fact-Checking Network)"
+      },
+      "url": "https://ifcncodeofprinciples.poynter.org/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "iggn": {
       "title": {
         "fr": "Gendarmerie — Plateforme de signalement de l'IGGN",
@@ -1278,6 +2058,42 @@
       "url": "https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-handicap-emploi": {
+      "title": {
+        "fr": "Insee — Travail, santé et handicap",
+        "en": "Insee — Work, health and disability (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/7767083",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-menages-agricoles-2020": {
+      "title": {
+        "fr": "Insee Première n° 2098 — Entre ménages agricoles, les inégalités de niveau de vie sont plus marquées",
+        "en": "Insee Première no. 2098 — Living standards of farming households (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/8978166",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-salaires-prive-2023": {
+      "title": {
+        "fr": "Insee Première — Les salaires dans le secteur privé en 2023",
+        "en": "Insee Première — Private-sector wages in 2023 (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/8270416",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1329,6 +2145,18 @@
       "url": "https://www.lejournaldesentreprises.com/article/les-pme-paient-plus-dimpots-sur-les-societes-que-les-grandes-entreprises-2125579",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "jean-jaures-marche-egalite-1983": {
+      "title": {
+        "fr": "Fondation Jean-Jaurès — Des Minguettes à l'Élysée : 1983, la Marche pour l'égalité et contre le racisme",
+        "en": "Fondation Jean-Jaurès — From Les Minguettes to the Élysée: the 1983 March for Equality and Against Racism (in French)"
+      },
+      "url": "https://www.jean-jaures.org/publication/des-minguettes-a-lelysee-1983-la-marche-pour-legalite-et-contre-le-racisme/",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1489,6 +2317,18 @@
         "by": "ai"
       }
     },
+    "ldh-interdictions-24-octobre-2026": {
+      "title": {
+        "fr": "LDH — La LDH conteste plusieurs arrêtés d'interdiction de manifestation le 24 octobre 2026",
+        "en": "LDH — The Human Rights League challenges several protest ban orders on 24 October 2026 (in French)"
+      },
+      "url": "https://www.ldh-france.org/la-ldh-conteste-plusieurs-arretes-dinterdiction-de-manifestation-le-24-octobre-2026/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ldh-manif-interdite": {
       "title": {
         "fr": "LDH — Point droit : la participation à une manifestation interdite (novembre 2023)",
@@ -1533,6 +2373,30 @@
       "url": "https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lebonbon-pancartes-greves-2023": {
+      "title": {
+        "fr": "Le Bonbon — Les meilleures pancartes de manif des grévistes (mars 2023)",
+        "en": "Le Bonbon — The strikers' best protest signs (March 2023, in French)"
+      },
+      "url": "https://www.lebonbon.fr/paris/wtf/grevistes-meilleures-pancartes-manif/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lebonbon-slogans-gilets-jaunes-2018": {
+      "title": {
+        "fr": "Le Bonbon — Gilets jaunes : les meilleurs slogans et pancartes (décembre 2018)",
+        "en": "Le Bonbon — Yellow vests: the best slogans and signs (December 2018, in French)"
+      },
+      "url": "https://lebonbon.fr/paris/news/gilets-jaunes-meilleurs-slogans-pancartes-paroles-paris-tag/",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1681,6 +2545,45 @@
         "by": "ai"
       }
     },
+    "maire-info-tracts": {
+      "title": {
+        "fr": "Maire-info — Un maire peut-il interdire la distribution de tracts d'opinion sur un marché ? (2025)",
+        "en": "Maire-info — Can a mayor ban the distribution of opinion leaflets in a market? (2025, in French)"
+      },
+      "url": {
+        "fr": "https://www.maire-info.com/liberta%C2%A9s-publiques/un-maire-peut-il-interdire-la-distribution-de-tracts-dopinion-sur-un-marche-article-29837",
+        "en": "https://www.maire-info.com/liberta%C2%A9s-publiques/un-maire-peut-il-interdire-la-distribution-de-tracts-dopinion-sur-un-marche-article-29837"
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "markey-2000": {
+      "title": {
+        "fr": "Markey (2000) — Bystander intervention in computer-mediated communication, Computers in Human Behavior",
+        "en": "Markey (2000) — Bystander intervention in computer-mediated communication, Computers in Human Behavior"
+      },
+      "url": "https://doi.org/10.1016/S0747-5632(99)00056-4",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "marxists-slogans-mai-68": {
+      "title": {
+        "fr": "Marxists Internet Archive — Slogans de Mai 68 (en anglais)",
+        "en": "Marxists Internet Archive — May 1968 slogans"
+      },
+      "url": "https://www.marxists.org/history/france/may-1968/slogans.htm",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "mat2": {
       "title": {
         "fr": "mat2 — Metadata Anonymisation Toolkit",
@@ -1693,12 +2596,60 @@
         "by": "ai"
       }
     },
-    "medicaction-gestes": {
+    "mdo-efson": {
       "title": {
-        "fr": "Medicaction — Les gestes à adopter en manif (fiche recto-verso, juillet 2024)",
-        "en": "Medicaction — Les gestes à adopter en manif (two-page leaflet, July 2024, in French)"
+        "fr": "Maintiendelordre.fr — Grenade EF-SON (Alsetex)",
+        "en": "Maintiendelordre.fr — EF-SON grenade (Alsetex, in French)"
       },
-      "url": "https://medicaction.org/wp-content/uploads/2024/07/les_gestes_a_adopter_en_manif.pdf",
+      "url": "https://maintiendelordre.fr/grenade-ef-son-alsetex/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-genl": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade de désencerclement GENL",
+        "en": "Maintiendelordre.fr — GENL sting-ball grenade (in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-de-desencerclement-genl/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-gl304": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade GL-304 (Condor)",
+        "en": "Maintiendelordre.fr — GL-304 grenade (Condor, in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-gl-304-condor/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-gm2l": {
+      "title": {
+        "fr": "Maintiendelordre.fr — Grenade GM2L (Alsetex SAE 820)",
+        "en": "Maintiendelordre.fr — GM2L grenade (Alsetex SAE 820, in French)"
+      },
+      "url": "https://maintiendelordre.fr/grenade-lacrymogene-gm2l-sae-820/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mdo-lbd": {
+      "title": {
+        "fr": "Maintiendelordre.fr — LBD 40 mm GL-06 (Brüger & Thomet)",
+        "en": "Maintiendelordre.fr — LBD 40 mm GL-06 (Brüger & Thomet, in French)"
+      },
+      "url": "https://maintiendelordre.fr/lbd-40-mm-bt-gl-06/",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -1725,6 +2676,18 @@
       "url": "https://www.nantes.indymedia.org/wp-content/uploads/2022/12/soins_post_manif_brochure.pdf",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "medicaction-gestes": {
+      "title": {
+        "fr": "Medicaction — Les gestes à adopter en manif (fiche recto-verso, juillet 2024)",
+        "en": "Medicaction — Les gestes à adopter en manif (two-page leaflet, July 2024, in French)"
+      },
+      "url": "https://medicaction.org/wp-content/uploads/2024/07/les_gestes_a_adopter_en_manif.pdf",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1797,6 +2760,18 @@
       "url": "https://3114.fr/",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ordre-liberation-jean-moulin": {
+      "title": {
+        "fr": "Ordre de la Libération — Jean Moulin (arrestation de Caluire, 21 juin 1943)",
+        "en": "Ordre de la Libération — Jean Moulin (Caluire arrest, 21 June 1943, in French)"
+      },
+      "url": "https://www.ordredelaliberation.fr/fr/compagnons/jean-moulin",
+      "check": {
+        "date": "2026-10-30",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1933,6 +2908,18 @@
         "by": "ai"
       }
     },
+    "politis-pancartes-loi-travail-2016": {
+      "title": {
+        "fr": "Politis — Loi travail : messages de manifestants (24 mars 2016)",
+        "en": "Politis — Loi travail: protesters' messages (24 March 2016, in French)"
+      },
+      "url": "https://www.politis.fr/articles/2016/03/loi-travail-messages-de-manifestants-34400",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "politis-sainte-soline-mensonges": {
       "title": {
         "fr": "Politis — Répression à Sainte-Soline : les trois mensonges de l'État",
@@ -1977,6 +2964,21 @@
       "url": "https://proofmode.org/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "pse-recueil": {
+      "title": {
+        "fr": "DGSCGC — Recommandations « premiers secours en équipe » (PSE), fiches PR 04 A 01, PR 05 C 02, PR 07 T 05 et retrait du casque (copie FFSS, versions 2014-2018)",
+        "en": "DGSCGC — First aid recommendations for teams (PSE), sheets PR 04 A 01, PR 05 C 02, PR 07 T 05 and helmet removal (FFSS copy, 2014-2018 versions; in French)"
+      },
+      "url": {
+        "fr": "https://ffss.fr/files/polymod_doc/public/r343336_39_fusion_recos_pse_2014__2018.pdf",
+        "en": "https://ffss.fr/files/polymod_doc/public/r343336_39_fusion_recos_pse_2014__2018.pdf"
+      },
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2049,6 +3051,18 @@
       "url": "https://www.publicsenat.fr/actualites/politique/motion-de-censure-du-ps-le-conclave-sur-les-retraites-naura-ete-quun-ecran-de-fumee",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-gj-mesures-2018": {
+      "title": {
+        "fr": "Public Sénat — « Gilets jaunes » : l'exécutif détaille ses mesures après une décrue de la mobilisation",
+        "en": "Public Sénat — \"Yellow vests\": the government details its measures after a drop in turnout (in French)"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2281,6 +3295,18 @@
         "by": "ai"
       }
     },
+    "rsf-photographers-checklist": {
+      "title": {
+        "fr": "RSF — A digital safety checklist for press photographers",
+        "en": "RSF — A digital safety checklist for press photographers"
+      },
+      "url": "https://resources.rsf.org/a-digital-safety-checklist-for-press-photographers/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "sainte-soline-franceinfo": {
       "title": {
         "fr": "franceinfo — Tirs tendus, insultes : ce que révèlent les vidéos de Sainte-Soline",
@@ -2353,6 +3379,18 @@
         "by": "ai"
       }
     },
+    "signal-bigbrother": {
+      "title": {
+        "fr": "Signal — Government communication (réquisitions judiciaires reçues et données fournies)",
+        "en": "Signal — Government communication (legal requests received and data provided)"
+      },
+      "url": "https://signal.org/bigbrother/",
+      "check": {
+        "date": "2026-10-30",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "signal-blur": {
       "title": {
         "fr": "Signal — Blur tools",
@@ -2365,6 +3403,21 @@
         "by": "ai"
       }
     },
+    "signal-confidentialite-numero": {
+      "title": {
+        "fr": "Signal — Zoom sur les noms d'utilisateur et la confidentialité du numéro de téléphone",
+        "en": "Signal — Phone number privacy and usernames deeper dive"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/6829998083994",
+        "en": "https://support.signal.org/hc/en-us/articles/6829998083994"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "signal-docs": {
       "title": {
         "fr": "Signal — Spécifications techniques (protocole de chiffrement)",
@@ -2373,6 +3426,159 @@
       "url": "https://signal.org/docs/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-ephemeres": {
+      "title": {
+        "fr": "Signal — Configurer et gérer les messages éphémères",
+        "en": "Signal — Set and manage disappearing messages"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007320771",
+        "en": "https://support.signal.org/hc/en-us/articles/360007320771"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-gerer-groupe": {
+      "title": {
+        "fr": "Signal — Gérer un groupe",
+        "en": "Signal — Manage a group"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360050427692",
+        "en": "https://support.signal.org/hc/en-us/articles/360050427692"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-groupes": {
+      "title": {
+        "fr": "Signal — Conversations de groupe",
+        "en": "Signal — Group chats"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007319331",
+        "en": "https://support.signal.org/hc/en-us/articles/360007319331"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-libelles": {
+      "title": {
+        "fr": "Signal — Label yourself (libellés de membres dans les groupes)",
+        "en": "Signal — Label yourself (group member labels)"
+      },
+      "url": "https://signal.org/blog/group-member-labels/",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-lien-groupe": {
+      "title": {
+        "fr": "Signal — Lien de groupe ou code QR",
+        "en": "Signal — Group link or QR code"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360051086971",
+        "en": "https://support.signal.org/hc/en-us/articles/360051086971"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-messages-epingles": {
+      "title": {
+        "fr": "Signal — Messages épinglés (Signal Pinned Messages)",
+        "en": "Signal — Signal Pinned Messages"
+      },
+      "url": "https://support.signal.org/hc/en-us/articles/10270961459226",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-notifications": {
+      "title": {
+        "fr": "Signal — Options de notification dans l'application",
+        "en": "Signal — In-app notification options"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360043273491",
+        "en": "https://support.signal.org/hc/en-us/articles/360043273491"
+      },
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-profils": {
+      "title": {
+        "fr": "Signal — Profils Signal et invitations par message",
+        "en": "Signal — Signal profiles and message requests"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007459591",
+        "en": "https://support.signal.org/hc/en-us/articles/360007459591"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-sondages": {
+      "title": {
+        "fr": "Signal — Sondages (Signal Polls)",
+        "en": "Signal — Signal Polls"
+      },
+      "url": "https://support.signal.org/hc/en-us/articles/9971667844506",
+      "check": {
+        "date": "2026-10-30",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-supprimer": {
+      "title": {
+        "fr": "Signal — Supprimer des messages, des alertes ou des conversations",
+        "en": "Signal — Delete messages, alerts or chats"
+      },
+      "url": {
+        "fr": "https://support.signal.org/hc/fr/articles/360007320491",
+        "en": "https://support.signal.org/hc/en-us/articles/360007320491"
+      },
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "signal-usernames": {
+      "title": {
+        "fr": "Signal — Keep your phone number private with Signal usernames",
+        "en": "Signal — Keep your phone number private with Signal usernames"
+      },
+      "url": "https://signal.org/blog/phone-number-privacy-usernames/",
+      "check": {
+        "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2469,6 +3675,18 @@
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21899",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-droit-image": {
+      "title": {
+        "fr": "Service-Public — Droit à l'image et respect de la vie privée",
+        "en": "Service-Public — Right to one's image and privacy"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32103",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2617,6 +3835,18 @@
         "by": "ai"
       }
     },
+    "surligneurs-appel-d-air-2026": {
+      "title": {
+        "fr": "Les Surligneurs — Ceuta : les aides et régularisations accordées aux étrangers provoquent-elles un « appel d'air migratoire » ? (16 octobre 2026)",
+        "en": "Les Surligneurs — Do aid and regularisations for foreigners cause a \"pull effect\"? (16 October 2026; in French)"
+      },
+      "url": "https://lessurligneurs.eu/ceuta-les-aides-et-regularisations-accordees-aux-etrangers-provoquent-elles-un-appel-dair-migratoire/",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "sussex-esim": {
       "title": {
         "fr": "Université du Sussex — Changer la gestion des foules grâce à la recherche sur la participation aux foules (REF)",
@@ -2713,6 +3943,18 @@
         "by": "ai"
       }
     },
+    "topito-pancartes-retraites-2023": {
+      "title": {
+        "fr": "Topito — Top 20+ des meilleures pancartes de manif contre la réforme des retraites (avril 2023)",
+        "en": "Topito — Top 20+ protest signs against the pension reform (April 2023, in French)"
+      },
+      "url": "https://www.topito.com/top-meilleures-pancartes-manif-contre-reforme-retraites",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "truth-sandwich": {
       "title": {
         "fr": "Truth sandwich (Wikipedia)",
@@ -2733,6 +3975,18 @@
       "url": "https://www.info.urgence114.fr/",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "verification-handbook-images": {
+      "title": {
+        "fr": "Verification Handbook 3 (EJC) — Verifying and questioning images",
+        "en": "Verification Handbook 3 (EJC) — Verifying and questioning images"
+      },
+      "url": "https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/5-verifying-and-questioning-images",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2805,6 +4059,42 @@
       "url": "https://fr.wikipedia.org/wiki/Massacre_du_14_juillet_1953_%C3%A0_Paris",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-17-octobre-2026": {
+      "title": {
+        "fr": "Wikipédia — Manifestations du 17 octobre 2026 en France",
+        "en": "Wikipedia — 17 October 2026 French protests (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026_en_France",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-24-octobre-2026": {
+      "title": {
+        "fr": "Wikipédia — Manifestations du 24 octobre 2026 en France",
+        "en": "Wikipedia — 24 October 2026 French protests (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-accords-de-grenelle": {
+      "title": {
+        "fr": "Accords de Grenelle (Wikipédia)",
+        "en": "Grenelle agreements (Wikipedia, in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Accords_de_Grenelle",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2929,12 +4219,48 @@
         "by": "ai"
       }
     },
+    "wiki-gm2l": {
+      "title": {
+        "fr": "Wikipédia — Grenade modulaire à double effet (GM2L)",
+        "en": "Wikipedia (FR) — Dual-effect modular grenade (GM2L)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/GM2L",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-gmd": {
+      "title": {
+        "fr": "Wikipédia — Grenade de désencerclement (GMD / GENL)",
+        "en": "Wikipedia (FR) — Sting-ball grenade (GMD / GENL)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Grenade_de_d%C3%A9sencerclement",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-gouvernement-bayrou": {
       "title": {
         "fr": "Wikipédia — Gouvernement François Bayrou",
         "en": "Wikipedia (FR) — François Bayrou government"
       },
       "url": "https://fr.wikipedia.org/wiki/Gouvernement_Fran%C3%A7ois_Bayrou",
+      "check": {
+        "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-lbd": {
+      "title": {
+        "fr": "Wikipédia — Lanceur de balle de défense (LBD 40×46)",
+        "en": "Wikipedia (FR) — Defense ball launcher (LBD 40×46)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Lanceur_de_balle_de_d%C3%A9fense",
       "check": {
         "date": "2026-10-29",
         "result": "confirmed",
@@ -2949,6 +4275,30 @@
       "url": "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-loi-devaquet": {
+      "title": {
+        "fr": "Projet de loi Devaquet (Wikipédia)",
+        "en": "Devaquet bill (Wikipedia, in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_Devaquet",
+      "check": {
+        "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-loi-veil": {
+      "title": {
+        "fr": "Loi Veil (Wikipédia)",
+        "en": "Veil Law on abortion (Wikipedia, in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_Veil",
+      "check": {
+        "date": "2026-10-31",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3145,1338 +4495,36 @@
         "by": "ai"
       }
     },
-    "wiki-17-octobre-2026": {
+    "wp-barricadas": {
       "title": {
-        "fr": "Wikipédia — Manifestations du 17 octobre 2026 en France",
-        "en": "Wikipedia — 17 October 2026 French protests (in French)"
+        "fr": "Wikipédia — A las barricadas",
+        "en": "Wikipedia — A las barricadas (in French)"
       },
-      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026_en_France",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-24-octobre-2026": {
-      "title": {
-        "fr": "Wikipédia — Manifestations du 24 octobre 2026 en France",
-        "en": "Wikipedia — 24 October 2026 French protests (in French)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/Manifestations_du_24_octobre_2026_en_France",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "amnesty-surenchere-2026": {
-      "title": {
-        "fr": "Amnesty International France — Amnesty dénonce une surenchère sécuritaire et de graves entraves au droit de manifester en France (octobre 2026)",
-        "en": "Amnesty International France — Amnesty denounces a security escalation and serious obstacles to the right to protest in France (October 2026, in French)"
-      },
-      "url": "https://www.amnesty.fr/communiques/amnesty-denonce-une-surenchere-securitaire-et-de-graves-entraves-au-droit-de-manifester-en-france/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "amnesty-7-signes-2026": {
-      "title": {
-        "fr": "Amnesty International France — La France glisse-t-elle vers des pratiques autoritaires ? 7 signes d'alerte (29 octobre 2026)",
-        "en": "Amnesty International France — Is France sliding into authoritarian practices? 7 warning signs (29 October 2026, in French)"
-      },
-      "url": "https://www.amnesty.fr/actualites/pratiques-autoritaires-7-signes-alerte-en-france/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ldh-interdictions-24-octobre-2026": {
-      "title": {
-        "fr": "LDH — La LDH conteste plusieurs arrêtés d'interdiction de manifestation le 24 octobre 2026",
-        "en": "LDH — The Human Rights League challenges several protest ban orders on 24 October 2026 (in French)"
-      },
-      "url": "https://www.ldh-france.org/la-ldh-conteste-plusieurs-arretes-dinterdiction-de-manifestation-le-24-octobre-2026/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "franceinfo-ldh-syndicats-2026": {
-      "title": {
-        "fr": "franceinfo — Mobilisation du 24 octobre : « Autoriser uniquement les manifestations des syndicats est parfaitement illégal », affirme la LDH (22 octobre 2026)",
-        "en": "franceinfo — 24 October protests: 'Allowing only union marches is completely illegal', says the LDH (22 October 2026, in French)"
-      },
-      "url": "https://www.franceinfo.fr/economie/greve/mobilisation-du-24-octobre-autoriser-uniquement-les-manifestations-des-syndicats-est-parfaitement-illegal-affirme-la-ldh-qui-envisage-des-recours_8249527.html",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "blast-coupure-reseaux-2026": {
-      "title": {
-        "fr": "Blast — Le Premier ministre a préparé la coupure des réseaux sociaux pour le 24 octobre (24 octobre 2026)",
-        "en": "Blast — The Prime Minister prepared a social media shutdown for 24 October (24 October 2026, in French)"
-      },
-      "url": "https://www.blast-info.fr/articles/2026/information-exclusive-blast-le-premier-ministre-a-prepare-la-coupure-des-reseaux-sociaux-pour-le-24-octobre-9D8cgrU5S5iiW14Sb9nMzQ",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cdr-l412-1": {
-      "title": {
-        "fr": "Code de la route — Article L412-1 (entrave à la circulation)",
-        "en": "Highway Code — Article L412-1 (obstructing traffic, in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006841221",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "csi-r211-18": {
-      "title": {
-        "fr": "Code de la sécurité intérieure, articles R211-18 à R211-21 et D211-17 — Emploi de la force et des armes du maintien de l'ordre",
-        "en": "Internal Security Code, articles R211-18 to R211-21 and D211-17 — Use of force and policing weapons (in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029655147/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "desarmons-armements-2020": {
-      "title": {
-        "fr": "Désarmons-les — Tour d'horizon des armements du maintien de l'ordre",
-        "en": "Désarmons-les — Overview of policing weapons (in French)"
-      },
-      "url": "https://desarmons.net/2020/12/23/tour-dhorizon-des-armements-du-maintien-de-lordre-decembre-2020/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "desarmons-matraques-2024": {
-      "title": {
-        "fr": "Désarmons-les — Nouvelles du front du maintien de l'ordre : stocks de matraques, blindés et canons à eau (2024)",
-        "en": "Désarmons-les — Policing weapons update: baton stocks, armoured vehicles and water cannons (2024, in French)"
-      },
-      "url": "https://desarmons.net/2024/11/28/nouvelles-du-front-du-maintien-de-lordre-stock-de-matraque-en-hausse-blindes-anti-emeutes-et-canons-a-eau-dernier-cri-part-1/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "desarmons-grenades-2024": {
-      "title": {
-        "fr": "Désarmons-les — Nouvelles du front du maintien de l'ordre : grenades offensives, GM2L, GL-304, ASSD et GENL (2024)",
-        "en": "Désarmons-les — Policing weapons update: offensive grenades, GM2L, GL-304, ASSD and GENL (2024, in French)"
-      },
-      "url": "https://desarmons.net/2024/11/28/nouvelles-du-front-du-maintien-de-lordre-grenades-offensives-bombes-tactiques-et-torture-electrique-part-3/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "desarmons-marches-2026": {
-      "title": {
-        "fr": "Désarmons-les — Les millions de la répression : marchés publics d'armement (LBD, Cougar, Cobra, GM2L, GENL, GL-304, ASSD)",
-        "en": "Désarmons-les — Millions for repression: public weapons procurement (LBD, Cougar, Cobra, GM2L, GENL, GL-304, ASSD, in French)"
-      },
-      "url": "https://desarmons.net/2026/08/23/les-millions-de-la-repression/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-lbd": {
-      "title": {
-        "fr": "Wikipédia — Lanceur de balle de défense (LBD 40×46)",
-        "en": "Wikipedia (FR) — Defense ball launcher (LBD 40×46)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/Lanceur_de_balle_de_d%C3%A9fense",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-gmd": {
-      "title": {
-        "fr": "Wikipédia — Grenade de désencerclement (GMD / GENL)",
-        "en": "Wikipedia (FR) — Sting-ball grenade (GMD / GENL)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/Grenade_de_d%C3%A9sencerclement",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-gm2l": {
-      "title": {
-        "fr": "Wikipédia — Grenade modulaire à double effet (GM2L)",
-        "en": "Wikipedia (FR) — Dual-effect modular grenade (GM2L)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/GM2L",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "mdo-gm2l": {
-      "title": {
-        "fr": "Maintiendelordre.fr — Grenade GM2L (Alsetex SAE 820)",
-        "en": "Maintiendelordre.fr — GM2L grenade (Alsetex SAE 820, in French)"
-      },
-      "url": "https://maintiendelordre.fr/grenade-lacrymogene-gm2l-sae-820/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "mdo-gl304": {
-      "title": {
-        "fr": "Maintiendelordre.fr — Grenade GL-304 (Condor)",
-        "en": "Maintiendelordre.fr — GL-304 grenade (Condor, in French)"
-      },
-      "url": "https://maintiendelordre.fr/grenade-gl-304-condor/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "mdo-genl": {
-      "title": {
-        "fr": "Maintiendelordre.fr — Grenade de désencerclement GENL",
-        "en": "Maintiendelordre.fr — GENL sting-ball grenade (in French)"
-      },
-      "url": "https://maintiendelordre.fr/grenade-de-desencerclement-genl/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "mdo-efson": {
-      "title": {
-        "fr": "Maintiendelordre.fr — Grenade EF-SON (Alsetex)",
-        "en": "Maintiendelordre.fr — EF-SON grenade (Alsetex, in French)"
-      },
-      "url": "https://maintiendelordre.fr/grenade-ef-son-alsetex/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "mdo-lbd": {
-      "title": {
-        "fr": "Maintiendelordre.fr — LBD 40 mm GL-06 (Brüger & Thomet)",
-        "en": "Maintiendelordre.fr — LBD 40 mm GL-06 (Brüger & Thomet, in French)"
-      },
-      "url": "https://maintiendelordre.fr/lbd-40-mm-bt-gl-06/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-groupes": {
-      "title": {
-        "fr": "Signal — Conversations de groupe",
-        "en": "Signal — Group chats"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360007319331",
-        "en": "https://support.signal.org/hc/en-us/articles/360007319331"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-lien-groupe": {
-      "title": {
-        "fr": "Signal — Lien de groupe ou code QR",
-        "en": "Signal — Group link or QR code"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360051086971",
-        "en": "https://support.signal.org/hc/en-us/articles/360051086971"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-usernames": {
-      "title": {
-        "fr": "Signal — Keep your phone number private with Signal usernames",
-        "en": "Signal — Keep your phone number private with Signal usernames"
-      },
-      "url": "https://signal.org/blog/phone-number-privacy-usernames/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-227-21": {
-      "title": {
-        "fr": "Code pénal, art. 227-21 (provocation d'un mineur à commettre un crime ou un délit)",
-        "en": "French Criminal Code, art. 227-21 (inciting a minor to commit an offence)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043409186",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-222-14-2": {
-      "title": {
-        "fr": "Code pénal, art. 222-14-2 (groupement en vue de violences ou dégradations)",
-        "en": "French Criminal Code, art. 222-14-2 (group formed to prepare violence or damage)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926074",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-ephemeres": {
-      "title": {
-        "fr": "Signal — Configurer et gérer les messages éphémères",
-        "en": "Signal — Set and manage disappearing messages"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360007320771",
-        "en": "https://support.signal.org/hc/en-us/articles/360007320771"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-supprimer": {
-      "title": {
-        "fr": "Signal — Supprimer des messages, des alertes ou des conversations",
-        "en": "Signal — Delete messages, alerts or chats"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360007320491",
-        "en": "https://support.signal.org/hc/en-us/articles/360007320491"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-gerer-groupe": {
-      "title": {
-        "fr": "Signal — Gérer un groupe",
-        "en": "Signal — Manage a group"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360050427692",
-        "en": "https://support.signal.org/hc/en-us/articles/360050427692"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-libelles": {
-      "title": {
-        "fr": "Signal — Label yourself (libellés de membres dans les groupes)",
-        "en": "Signal — Label yourself (group member labels)"
-      },
-      "url": "https://signal.org/blog/group-member-labels/",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "markey-2000": {
-      "title": {
-        "fr": "Markey (2000) — Bystander intervention in computer-mediated communication, Computers in Human Behavior",
-        "en": "Markey (2000) — Bystander intervention in computer-mediated communication, Computers in Human Behavior"
-      },
-      "url": "https://doi.org/10.1016/S0747-5632(99)00056-4",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "darley-latane-1968": {
-      "title": {
-        "fr": "Darley et Latané (1968) — Bystander intervention in emergencies: diffusion of responsibility",
-        "en": "Darley & Latané (1968) — Bystander intervention in emergencies: diffusion of responsibility"
-      },
-      "url": "https://doi.org/10.1037/h0025589",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cnil-assistants-vocaux": {
-      "title": {
-        "fr": "CNIL — « À votre écoute » : livre blanc sur les assistants vocaux",
-        "en": "CNIL — \"À votre écoute\": white paper on voice assistants (in French)"
-      },
-      "url": "https://www.cnil.fr/fr/votre-ecoute-la-cnil-publie-son-livre-blanc-sur-les-assistants-vocaux",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "behindit": {
-      "title": {
-        "fr": "BehindIt — retrouver l'auteur d'un lien Instagram ou TikTok partagé (GitHub)",
-        "en": "BehindIt — revealing who shared an Instagram or TikTok link (GitHub)"
-      },
-      "url": "https://github.com/Gobutsu/BehindIt",
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-profils": {
-      "title": {
-        "fr": "Signal — Profils Signal et invitations par message",
-        "en": "Signal — Signal profiles and message requests"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360007459591",
-        "en": "https://support.signal.org/hc/en-us/articles/360007459591"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-confidentialite-numero": {
-      "title": {
-        "fr": "Signal — Zoom sur les noms d'utilisateur et la confidentialité du numéro de téléphone",
-        "en": "Signal — Phone number privacy and usernames deeper dive"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/6829998083994",
-        "en": "https://support.signal.org/hc/en-us/articles/6829998083994"
-      },
-      "check": {
-        "date": "2026-10-29",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-bigbrother": {
-      "title": {
-        "fr": "Signal — Government communication (réquisitions judiciaires reçues et données fournies)",
-        "en": "Signal — Government communication (legal requests received and data provided)"
-      },
-      "url": "https://signal.org/bigbrother/",
-      "check": {
-        "date": "2026-10-30",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ordre-liberation-jean-moulin": {
-      "title": {
-        "fr": "Ordre de la Libération — Jean Moulin (arrestation de Caluire, 21 juin 1943)",
-        "en": "Ordre de la Libération — Jean Moulin (Caluire arrest, 21 June 1943, in French)"
-      },
-      "url": "https://www.ordredelaliberation.fr/fr/compagnons/jean-moulin",
-      "check": {
-        "date": "2026-10-30",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-sondages": {
-      "title": {
-        "fr": "Signal — Sondages (Signal Polls)",
-        "en": "Signal — Signal Polls"
-      },
-      "url": "https://support.signal.org/hc/en-us/articles/9971667844506",
-      "check": {
-        "date": "2026-10-30",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-messages-epingles": {
-      "title": {
-        "fr": "Signal — Messages épinglés (Signal Pinned Messages)",
-        "en": "Signal — Signal Pinned Messages"
-      },
-      "url": "https://support.signal.org/hc/en-us/articles/10270961459226",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "amnesty-how-to-make-a-banner": {
-      "title": {
-        "fr": "Amnesty International — How to make a banner",
-        "en": "Amnesty International — How to make a banner"
-      },
-      "url": "https://www.amnesty.org/en/wp-content/uploads/2021/05/SEC010142013ENGLISH.pdf",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-431-10": {
-      "title": {
-        "fr": "Code pénal, art. 431-10 (participer à une manifestation en étant porteur d'une arme)",
-        "en": "French Criminal Code, art. 431-10 (taking part in a demonstration while carrying a weapon)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418474",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-132-75": {
-      "title": {
-        "fr": "Code pénal, art. 132-75 (définition de l'arme et objets assimilés)",
-        "en": "French Criminal Code, art. 132-75 (definition of a weapon and objects treated as one)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417499",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "politis-pancartes-loi-travail-2016": {
-      "title": {
-        "fr": "Politis — Loi travail : messages de manifestants (24 mars 2016)",
-        "en": "Politis — Loi travail: protesters' messages (24 March 2016, in French)"
-      },
-      "url": "https://www.politis.fr/articles/2016/03/loi-travail-messages-de-manifestants-34400",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "topito-pancartes-retraites-2023": {
-      "title": {
-        "fr": "Topito — Top 20+ des meilleures pancartes de manif contre la réforme des retraites (avril 2023)",
-        "en": "Topito — Top 20+ protest signs against the pension reform (April 2023, in French)"
-      },
-      "url": "https://www.topito.com/top-meilleures-pancartes-manif-contre-reforme-retraites",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "lebonbon-pancartes-greves-2023": {
-      "title": {
-        "fr": "Le Bonbon — Les meilleures pancartes de manif des grévistes (mars 2023)",
-        "en": "Le Bonbon — The strikers' best protest signs (March 2023, in French)"
-      },
-      "url": "https://www.lebonbon.fr/paris/wtf/grevistes-meilleures-pancartes-manif/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "lebonbon-slogans-gilets-jaunes-2018": {
-      "title": {
-        "fr": "Le Bonbon — Gilets jaunes : les meilleurs slogans et pancartes (décembre 2018)",
-        "en": "Le Bonbon — Yellow vests: the best slogans and signs (December 2018, in French)"
-      },
-      "url": "https://lebonbon.fr/paris/news/gilets-jaunes-meilleurs-slogans-pancartes-paroles-paris-tag/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "demotivateur-pancartes-climat-2019": {
-      "title": {
-        "fr": "Démotivateur — Les 15 pancartes les plus créatives pendant la Marche du Climat (mars 2019)",
-        "en": "Démotivateur — The 15 most creative signs at the Climate March (March 2019, in French)"
-      },
-      "url": "https://www.demotivateur.fr/article/les-15-pancartes-les-plus-creatives-pendant-la-marche-du-climat-pour-denoncer-le-rechauffement-climatique-15811",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "marxists-slogans-mai-68": {
-      "title": {
-        "fr": "Marxists Internet Archive — Slogans de Mai 68 (en anglais)",
-        "en": "Marxists Internet Archive — May 1968 slogans"
-      },
-      "url": "https://www.marxists.org/history/france/may-1968/slogans.htm",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-accords-de-grenelle": {
-      "title": {
-        "fr": "Accords de Grenelle (Wikipédia)",
-        "en": "Grenelle agreements (Wikipedia, in French)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/Accords_de_Grenelle",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-loi-veil": {
-      "title": {
-        "fr": "Loi Veil (Wikipédia)",
-        "en": "Veil Law on abortion (Wikipedia, in French)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/Loi_Veil",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "jean-jaures-marche-egalite-1983": {
-      "title": {
-        "fr": "Fondation Jean-Jaurès — Des Minguettes à l'Élysée : 1983, la Marche pour l'égalité et contre le racisme",
-        "en": "Fondation Jean-Jaurès — From Les Minguettes to the Élysée: the 1983 March for Equality and Against Racism (in French)"
-      },
-      "url": "https://www.jean-jaures.org/publication/des-minguettes-a-lelysee-1983-la-marche-pour-legalite-et-contre-le-racisme/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "wiki-loi-devaquet": {
-      "title": {
-        "fr": "Projet de loi Devaquet (Wikipédia)",
-        "en": "Devaquet bill (Wikipedia, in French)"
-      },
-      "url": "https://fr.wikipedia.org/wiki/Loi_Devaquet",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "publicsenat-gj-mesures-2018": {
-      "title": {
-        "fr": "Public Sénat — « Gilets jaunes » : l'exécutif détaille ses mesures après une décrue de la mobilisation",
-        "en": "Public Sénat — \"Yellow vests\": the government details its measures after a drop in turnout (in French)"
-      },
-      "url": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-l-executif-detaille-ses-mesures-apres-une-decrue-de-la-mobilisation",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "verification-handbook-images": {
-      "title": {
-        "fr": "Verification Handbook 3 (EJC) — Verifying and questioning images",
-        "en": "Verification Handbook 3 (EJC) — Verifying and questioning images"
-      },
-      "url": "https://datajournalism.com/read/handbook/verification-3/investigating-actors-content/5-verifying-and-questioning-images",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ifcn-code": {
-      "title": {
-        "fr": "IFCN — Code of Principles (réseau international de fact-checking)",
-        "en": "IFCN — Code of Principles (International Fact-Checking Network)"
-      },
-      "url": "https://ifcncodeofprinciples.poynter.org/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "droitalinfo-detecter": {
-      "title": {
-        "fr": "Droit à l'Info — Centre de ressources",
-        "en": "Droit à l'Info — Resource centre (in French)"
-      },
-      "url": "https://droitalinfo.org/detecter/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "insee-salaires-prive-2023": {
-      "title": {
-        "fr": "Insee Première — Les salaires dans le secteur privé en 2023",
-        "en": "Insee Première — Private-sector wages in 2023 (in French)"
-      },
-      "url": "https://www.insee.fr/fr/statistiques/8270416",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "drees-non-recours-rsa": {
-      "title": {
-        "fr": "DREES — Mesurer régulièrement le non-recours au RSA et à la prime d'activité",
-        "en": "DREES — Regularly measuring non-take-up of the RSA and the activity bonus (in French)"
-      },
-      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/les-dossiers-de-la-drees/mesurer-regulierement-le-non-recours-au",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "insee-menages-agricoles-2020": {
-      "title": {
-        "fr": "Insee Première n° 2098 — Entre ménages agricoles, les inégalités de niveau de vie sont plus marquées",
-        "en": "Insee Première no. 2098 — Living standards of farming households (in French)"
-      },
-      "url": "https://www.insee.fr/fr/statistiques/8978166",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "drees-apl-2023": {
-      "title": {
-        "fr": "DREES — Accessibilité aux soins de premier recours en 2023",
-        "en": "DREES — Access to primary care in 2023 (in French)"
-      },
-      "url": "https://drees.solidarites-sante.gouv.fr/communique-de-presse-jeux-de-donnees/jeux-de-donnees/241220_DATA_accessibilite-aux-soins",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ddd-dematerialisation-2022": {
-      "title": {
-        "fr": "Défenseur des droits — Dématérialisation des services publics : trois ans après, où en est-on ?",
-        "en": "Defender of Rights — Dematerialisation of public services: three years later (in French)"
-      },
-      "url": "https://www.defenseurdesdroits.fr/rapport-dematerialisation-des-services-publics-trois-ans-apres-ou-en-est-265",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "drees-sae-2023": {
-      "title": {
-        "fr": "DREES — En 2023, la baisse du nombre de lits et la hausse du nombre de places se poursuivent",
-        "en": "DREES — In 2023 the fall in beds and the rise in places continue (in French)"
-      },
-      "url": "https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241031_ER_SAE-2023",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "insee-handicap-emploi": {
-      "title": {
-        "fr": "Insee — Travail, santé et handicap",
-        "en": "Insee — Work, health and disability (in French)"
-      },
-      "url": "https://www.insee.fr/fr/statistiques/7767083",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-322-1": {
-      "title": {
-        "fr": "Légifrance — Code pénal, article 322-1 (dégradations, inscriptions sans autorisation)",
-        "en": "Légifrance — Criminal Code, article 322-1 (damage, unauthorised inscriptions; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047053456",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cr-r412-52": {
-      "title": {
-        "fr": "Légifrance — Code de la route, article R412-52 (tracts distribués aux automobilistes)",
-        "en": "Légifrance — Highway Code, article R412-52 (leaflets handed to drivers; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842176",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "env-l581-13": {
-      "title": {
-        "fr": "Légifrance — Code de l'environnement, article L581-13 (affichage d'opinion)",
-        "en": "Légifrance — Environment Code, article L581-13 (opinion posting; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006834708",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "env-l581-34": {
-      "title": {
-        "fr": "Légifrance — Code de l'environnement, article L581-34 (publicité en lieu interdit)",
-        "en": "Légifrance — Environment Code, article L581-34 (advertising in banned places; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974744",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "surligneurs-appel-d-air-2026": {
-      "title": {
-        "fr": "Les Surligneurs — Ceuta : les aides et régularisations accordées aux étrangers provoquent-elles un « appel d'air migratoire » ? (16 octobre 2026)",
-        "en": "Les Surligneurs — Do aid and regularisations for foreigners cause a \"pull effect\"? (16 October 2026; in French)"
-      },
-      "url": "https://lessurligneurs.eu/ceuta-les-aides-et-regularisations-accordees-aux-etrangers-provoquent-elles-un-appel-dair-migratoire/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ce-snmo-actualite": {
-      "title": {
-        "fr": "Conseil d'État — Le Conseil d'État annule plusieurs points du schéma du maintien de l'ordre (10 juin 2021)",
-        "en": "Council of State — annuls several points of the policing doctrine (10 June 2021; in French)"
-      },
-      "url": "https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "sp-droit-image": {
-      "title": {
-        "fr": "Service-Public — Droit à l'image et respect de la vie privée",
-        "en": "Service-Public — Right to one's image and privacy"
-      },
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32103",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "rsf-photographers-checklist": {
-      "title": {
-        "fr": "RSF — A digital safety checklist for press photographers",
-        "en": "RSF — A digital safety checklist for press photographers"
-      },
-      "url": "https://resources.rsf.org/a-digital-safety-checklist-for-press-photographers/",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ct-l7111-3": {
-      "title": {
-        "fr": "Légifrance — Code du travail, article L7111-3 (journaliste professionnel)",
-        "en": "Légifrance — Labour Code, article L7111-3 (professional journalist; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000018764981",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "signal-notifications": {
-      "title": {
-        "fr": "Signal — Options de notification dans l'application",
-        "en": "Signal — In-app notification options"
-      },
-      "url": {
-        "fr": "https://support.signal.org/hc/fr/articles/360043273491",
-        "en": "https://support.signal.org/hc/en-us/articles/360043273491"
-      },
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-431-3": {
-      "title": {
-        "fr": "Code pénal, art. 431-3 (attroupement et sommations) (Légifrance)",
-        "en": "Criminal Code, art. 431-3 (gathering and summonses, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020957203",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-431-4": {
-      "title": {
-        "fr": "Code pénal, art. 431-4 (continuer à participer à un attroupement après les sommations) (Légifrance)",
-        "en": "Criminal Code, art. 431-4 (staying in a gathering after summonses, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021926085",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-431-5": {
-      "title": {
-        "fr": "Code pénal, art. 431-5 (participer à un attroupement en étant porteur d'une arme) (Légifrance)",
-        "en": "Criminal Code, art. 431-5 (taking part in an armed gathering, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418465",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-431-9": {
-      "title": {
-        "fr": "Code pénal, art. 431-9 (organiser une manifestation non déclarée ou interdite) (Légifrance)",
-        "en": "Criminal Code, art. 431-9 (organising an undeclared or banned protest, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418472",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-222-13": {
-      "title": {
-        "fr": "Code pénal, art. 222-13 (violences ayant entraîné une incapacité de huit jours au plus) (Légifrance)",
-        "en": "Criminal Code, art. 222-13 (violence causing up to eight days' incapacity, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051876328",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-433-5": {
-      "title": {
-        "fr": "Code pénal, art. 433-5 (outrage) (Légifrance)",
-        "en": "Criminal Code, art. 433-5 (contempt of an official, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114921",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-433-6": {
-      "title": {
-        "fr": "Code pénal, art. 433-6 (rébellion : définition) (Légifrance)",
-        "en": "Criminal Code, art. 433-6 (resisting officials: definition, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418557",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-433-7": {
-      "title": {
-        "fr": "Code pénal, art. 433-7 (rébellion : peines) (Légifrance)",
-        "en": "Criminal Code, art. 433-7 (resisting officials: penalties, Légifrance; in French)"
-      },
-      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034114914",
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "bdt-tracts-mentions": {
-      "title": {
-        "fr": "Banque des Territoires — Les tracts électoraux doivent-ils comprendre des mentions obligatoires ? (2020)",
-        "en": "Banque des Territoires — Must election leaflets carry mandatory mentions? (2020, in French)"
-      },
-      "url": {
-        "fr": "https://www.banquedesterritoires.fr/les-tracts-electoraux-distribues-dans-les-boites-aux-lettres-et-sur-la-voie-publique-doivent-ils",
-        "en": "https://www.banquedesterritoires.fr/les-tracts-electoraux-distribues-dans-les-boites-aux-lettres-et-sur-la-voie-publique-doivent-ils"
-      },
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "maire-info-tracts": {
-      "title": {
-        "fr": "Maire-info — Un maire peut-il interdire la distribution de tracts d'opinion sur un marché ? (2025)",
-        "en": "Maire-info — Can a mayor ban the distribution of opinion leaflets in a market? (2025, in French)"
-      },
-      "url": {
-        "fr": "https://www.maire-info.com/liberta%C2%A9s-publiques/un-maire-peut-il-interdire-la-distribution-de-tracts-dopinion-sur-un-marche-article-29837",
-        "en": "https://www.maire-info.com/liberta%C2%A9s-publiques/un-maire-peut-il-interdire-la-distribution-de-tracts-dopinion-sur-un-marche-article-29837"
-      },
-      "check": {
-        "date": "2026-10-31",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "pse-recueil": {
-      "title": {
-        "fr": "DGSCGC — Recommandations « premiers secours en équipe » (PSE), fiches PR 04 A 01, PR 05 C 02, PR 07 T 05 et retrait du casque (copie FFSS, versions 2014-2018)",
-        "en": "DGSCGC — First aid recommendations for teams (PSE), sheets PR 04 A 01, PR 05 C 02, PR 07 T 05 and helmet removal (FFSS copy, 2014-2018 versions; in French)"
-      },
-      "url": {
-        "fr": "https://ffss.fr/files/polymod_doc/public/r343336_39_fusion_recos_pse_2014__2018.pdf",
-        "en": "https://ffss.fr/files/polymod_doc/public/r343336_39_fusion_recos_pse_2014__2018.pdf"
-      },
+      "url": "https://fr.wikipedia.org/wiki/A_las_barricadas",
       "check": {
         "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
     },
-    "cr-pls": {
+    "wp-bella-ciao": {
       "title": {
-        "fr": "Croix-Rouge française — Position latérale de sécurité : comment mettre en PLS ?",
-        "en": "French Red Cross — Recovery position: how to place someone in PLS (in French)"
+        "fr": "Wikipédia — Bella ciao (chant)",
+        "en": "Wikipedia — Bella ciao (song; in French)"
       },
-      "url": {
-        "fr": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/position-laterale-de-securite-comment-mettre-en-pls",
-        "en": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/position-laterale-de-securite-comment-mettre-en-pls"
-      },
+      "url": "https://fr.wikipedia.org/wiki/Bella_ciao_(chant)",
       "check": {
         "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
     },
-    "cr-arret-cardiaque": {
+    "wp-mlf": {
       "title": {
-        "fr": "Croix-Rouge française — L'arrêt cardiaque : comment faire un massage cardiaque ?",
-        "en": "French Red Cross — Cardiac arrest: how to do chest compressions (in French)"
+        "fr": "Wikipédia — Hymne du MLF",
+        "en": "Wikipedia — Hymne du MLF (in French)"
       },
-      "url": {
-        "fr": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/arret-cardiaque",
-        "en": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/arret-cardiaque"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "csi-l242": {
-      "title": {
-        "fr": "Légifrance — Code de la sécurité intérieure, caméras installées sur des aéronefs (L242-1 à L242-8)",
-        "en": "Légifrance — Internal Security Code, cameras on aircraft (L242-1 to L242-8; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505323/",
-        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505323/"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cc-2021-834": {
-      "title": {
-        "fr": "Conseil constitutionnel — Décision n° 2021-834 DC du 20 janvier 2022 (drones, § 21 à 31)",
-        "en": "Constitutional Council — Decision 2021-834 DC of 20 January 2022 (drones, §21-31; in French)"
-      },
-      "url": {
-        "fr": "https://www.conseil-constitutionnel.fr/decision/2022/2021834DC.htm",
-        "en": "https://www.conseil-constitutionnel.fr/decision/2022/2021834DC.htm"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ce-recours": {
-      "title": {
-        "fr": "Conseil d'État — Déposer un recours (référé-liberté, référé-suspension)",
-        "en": "Council of State — File an appeal (emergency procedures; in French)"
-      },
-      "url": {
-        "fr": "https://www.conseil-etat.fr/vos-demarches/je-suis-un-particulier/deposer-un-recours",
-        "en": "https://www.conseil-etat.fr/vos-demarches/je-suis-un-particulier/deposer-un-recours"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cnil-videoprotection": {
-      "title": {
-        "fr": "CNIL — La vidéoprotection (droits d'accès, d'effacement, plainte)",
-        "en": "CNIL — Video surveillance (rights of access, erasure, complaint; in French)"
-      },
-      "url": {
-        "fr": "https://www.cnil.fr/fr/la-videoprotection",
-        "en": "https://www.cnil.fr/fr/la-videoprotection"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-706-55": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, art. 706-55 (infractions du fichier d'ADN)",
-        "en": "Légifrance — Code of Criminal Procedure, art. 706-55 (offences listed for the DNA file; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006577732",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006577732"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-706-54-1": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, art. 706-54-1 (effacement du fichier d'ADN)",
-        "en": "Légifrance — Code of Criminal Procedure, art. 706-54-1 (erasure from the DNA file; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038271773",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038271773"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-fnaeg": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, fichier national automatisé des empreintes génétiques (art. 706-54 à 706-56-1-1)",
-        "en": "Légifrance — Code of Criminal Procedure, national DNA file (art. 706-54 to 706-56-1-1; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006138132/",
-        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006138132/"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-76-2": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, enquête préliminaire (art. 75 à 78, dont 76-2)",
-        "en": "Légifrance — Code of Criminal Procedure, preliminary investigation (art. 75 to 78, incl. 76-2; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151877/",
-        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151877/"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cc-2010-25": {
-      "title": {
-        "fr": "Conseil constitutionnel — Décision n° 2010-25 QPC du 16 septembre 2010 (fichier d'empreintes génétiques)",
-        "en": "Constitutional Council — Decision 2010-25 QPC of 16 September 2010 (DNA file; in French)"
-      },
-      "url": {
-        "fr": "https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm",
-        "en": "https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-78-controles": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, contrôles, vérifications et relevés d'identité (art. 78-1 à 78-7, dont 78-2 et 78-2-2)",
-        "en": "Légifrance — Code of Criminal Procedure, identity checks (art. 78-1 to 78-7, incl. 78-2 and 78-2-2; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151880/",
-        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151880/"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-78-2-4": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, art. 78-2-4 (visite de véhicules et bagages, atteinte grave à la sécurité)",
-        "en": "Légifrance — Code of Criminal Procedure, art. 78-2-4 (vehicle and bag searches; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655103",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655103"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-78-2-5": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, art. 78-2-5 (fouilles aux abords des manifestations)",
-        "en": "Légifrance — Code of Criminal Procedure, art. 78-2-5 (searches around demonstrations; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-78-3": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, art. 78-3 (vérification d'identité)",
-        "en": "Légifrance — Code of Criminal Procedure, art. 78-3 (identity verification; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049052313",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049052313"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cpp-78-5": {
-      "title": {
-        "fr": "Légifrance — Code de procédure pénale, art. 78-5 (refus d'empreintes ou de photographies)",
-        "en": "Légifrance — Code of Criminal Procedure, art. 78-5 (refusing fingerprints or photographs; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006575183",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006575183"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-322-6": {
-      "title": {
-        "fr": "Légifrance — Code pénal, art. 322-6 (destruction par substance explosive, incendie ou moyen dangereux)",
-        "en": "Légifrance — Criminal Code, art. 322-6 (destruction by explosive, fire or dangerous means; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418281",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418281"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cp-322-11-1": {
-      "title": {
-        "fr": "Légifrance — Code pénal, art. 322-11-1 (détention de produits incendiaires ou explosifs)",
-        "en": "Légifrance — Criminal Code, art. 322-11-1 (possession of incendiary or explosive products; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032654707",
-        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032654707"
-      },
-      "check": {
-        "date": "2026-11-01",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "csi-r311-2": {
-      "title": {
-        "fr": "Légifrance — Code de la sécurité intérieure, art. R311-2 (classement des matériels de guerre, armes et munitions)",
-        "en": "Légifrance — Internal Security Code, art. R311-2 (classification of war material, weapons and ammunition; in French)"
-      },
-      "url": {
-        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029658942/",
-        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029658942/"
-      },
+      "url": "https://fr.wikipedia.org/wiki/Hymne_du_MLF",
       "check": {
         "date": "2026-11-01",
         "result": "confirmed",

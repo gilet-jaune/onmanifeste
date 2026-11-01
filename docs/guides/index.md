@@ -304,6 +304,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
 
+- **Chants de manifestation** [:material-music:](chants.md)
+
+    ***
+
+    Quelques chants de lutte, anciens et récents, avec les liens vers leurs paroles.
+
+    [:octicons-arrow-right-24: Lire](chants.md)
+
 - **S'informer et se former** [:material-school:](s-informer-se-former.md)
 
     ***
