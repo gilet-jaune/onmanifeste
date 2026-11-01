@@ -1,5 +1,5 @@
 ---
-source_commit: 32d6607ea31a0d0851de7c0b0be3673e52abd6ed
+source_commit: 2f4b412b8742151d64a72e00230bdae80d47c681
 review: juridique
 review_status: pending
 tags:
@@ -11,7 +11,7 @@ hide:
 
 # Pocket card
 
-Print it, cut it out and keep it on you: it stays useful if your phone is lost, flat or seized. Front: numbers. Back: your rights and reflexes.
+Print it, cut it out and keep it on you: it stays useful if your phone is lost, flat or seized. Need more? See the [A4 memo sheets](../fiches/index.md) (police custody, first aid). Front: numbers. Back: your rights and reflexes.
 
 <button class="md-button md-button--primary pocket__print" type="button" data-action="print">Print</button>
 
