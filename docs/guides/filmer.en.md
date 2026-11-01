@@ -1,5 +1,5 @@
 ---
-source_commit: af1d151a69851306b7f15aca1194ae7beab09690
+source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
 review: juridique
 review_status: pending
 tags:
@@ -51,6 +51,7 @@ If your phone is seized, broken or stolen, footage that wasn't backed up is lost
 - [ ] Publish a **copy**, never the original.
 - [ ] **Blur everything that makes a person identifiable**, not only faces: tattoos, haircut or hair colour, recognisable clothes, bags or shoes, badges, banners bearing a name, voices (mute the sound if needed). Signal's blur tool helps with faces; the rest is done by hand.[^signal-blur][^witness-police][^eff-protest]
 - [ ] **Strip the metadata** from the copy (mat2): it reveals your location and device.[^mat2]
+- [ ] **Also blur police officers' faces** before sharing, as a precaution, unless their face is needed as evidence: then keep the original intact and give it to your lawyer or the legal team. Sharing information that identifies or locates a person in order to expose them to a direct risk of harm is an offence; blurring removes any ambiguity.[^doxxing]
 - [ ] Don't publish officers' **personal details** (name, address, family): exposing them to a risk is an offence, even though filming their intervention is legal.[^doxxing]
 - [ ] **Archive the post** (yours, or an official statement) with the Wayback Machine or archive.today: it stays available if deleted.[^wayback] Never upload raw footage showing faces to a public archive.
 

@@ -1,5 +1,5 @@
 ---
-source_commit: ce40d1f132ab8c299d650779c16c9374904e30df
+source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
 review: juridique
 review_status: pending
 tags:
@@ -9,18 +9,22 @@ tags:
     - flowchart
 ---
 
-# Signal groups: organising without being infiltrated
+# Signal groups: organising while limiting leaks
 
 !!! abstract "Key points"
 
     - **Public** announcement group → **airlock group** to meet in person (suggested by anyone, announced by a secretary) → vetted **trusted group** → team **sub-groups**.
     - **Graduated trust**: a **vetted secretary**, **one voucher** and a **second check by HR** for the trusted group; **two vouchers** for a sensitive sub-group. Never through a group link or QR code, **except for the public group** (announcements, nothing sensitive): people are added **by username**, from a private conversation.
-    - **No vetting stops a determined infiltrator**: write nothing you wouldn't want read out in police custody.
+    - **No vetting stops a determined leak**: write nothing you wouldn't want read out in police custody.
     - Before joining: a short **activist name**, also used in person; number hidden from **everyone**; **disappearing** messages, in every group from its creation.
     - Someone gets taken away: **remove them from all their groups straight away**, as a precaution.
     - Compromised group: if you **know where the leak is**, remove it and the group carries on; if not, **move out** and re-invite people **one by one**.
 
-An encrypted messenger like {{ res("signal") }} protects your messages in transit, not against someone inside the group or a seized phone. How you organise your groups, however, can limit what an infiltration or a seizure reveals.
+An encrypted messenger like {{ res("signal") }} protects your messages in transit, not against someone inside the group or a seized phone. How you organise your groups, however, can limit what a leak or a seizure reveals.
+
+!!! warning "Encrypting is legal, but it can be turned against you"
+
+    Using Signal is not an offence. In the so-called "8 December" case, the DGSI describes the defendants as having adopted "clandestine behaviour" with encrypted applications, Tails and Tor, and that wording recurs very often in the file, according to La Quadrature du Net, which analysed it before the trial.[^lqdn-8-decembre] The seven defendants were convicted in December 2023 of terrorist criminal association.[^politis-8-decembre] Neither source says encryption was judged to be an offence: it is cited as an **indicator**. This is a serious case and very far from an ordinary demonstration, but it shows you can be read back: **write nothing you would not want quoted**, and do not count on encryption to protect you from a hostile reading.
 
 !!! info "Where to start?"
 
@@ -67,7 +71,7 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 
 </div>
 
-The **trusted group and its sub-groups** are the **vetted groups**, and a **family** sharing the same ID (see [naming groups](groupes-signal.md#naming-groups)). Someone who infiltrates one sub-group does not see the others. Next to the funnel, the [temporary group](groupes-signal.md#the-temporary-group), for an action day or a mobilisation, leads nowhere: it is disposable.
+The **trusted group and its sub-groups** are the **vetted groups**, and a **family** sharing the same ID (see [naming groups](groupes-signal.md#naming-groups)). A malicious person who gets into one sub-group does not see the others. Next to the funnel, the [temporary group](groupes-signal.md#the-temporary-group), for an action day or a mobilisation, leads nowhere: it is disposable.
 
 **Two ways into the trusted group:**
 
@@ -216,7 +220,7 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **No live location**: a meeting place is given in person, or at the last minute in the airlock group.
 - [ ] **Need help? Name someone**: "@Lou, can you handle the banner on Saturday?" rather than "can anyone…?". The bigger a group, the less each person responds, except when you name the person.[^markey-2000][^darley-latane-1968] **Emergency**: call **15** or **112**, not the group.
 - [ ] **Label**: Signal lets you show your role next to your name, in each group separately; only set one if the charter says so (see [role labels](groupes-signal.md#role-labels)).
-- [ ] **Doubts about someone**: HR, privately. Never accuse anyone in the group: an infiltration rumour destroys a group more surely than an infiltrator.
+- [ ] **Doubts about someone**: HR, privately. Never accuse anyone in the group: a rumour of a leak destroys a group more surely than a real leak.
 - [ ] **Never share the link or QR code of an airlock group, a trusted group or a sub-group** (only the public group's link is shared): give your **username** to the person who must add you, and add others the same way. If you spot a link somewhere, tell the keyholders, who **turn it off straight away**.[^signal-lien-groupe]
 
 ### If you are arrested or lose your phone
@@ -261,7 +265,7 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **No airlock group gives access to the vetted groups on its own.** Anyone can create a group calling itself an "airlock", including someone with bad intentions: only those a secretary announces in the public group count, and even they remain an open meeting, nothing more. Say so in the public group.
 - [ ] **What someone sees there**: the time and place, the others' activist names, and, at the meeting, the secretary's face. So nothing else is written there, and secretaries **rotate**.
 - [ ] **It is not a waiting room**: it is for **one** meeting. People not yet validated stay in the public group.
-- [ ] **At the meeting, identity is not checked.** No ID, no real name, no job, no neighbourhood: these questions create identifying information, and an infiltrator has a ready-made story. Small talk puts people at ease, with no personal questions and nothing written down; no round of jobs or neighbourhoods, which also protects newcomers from each other. Check instead:
+- [ ] **At the meeting, identity is not checked.** No ID, no real name, no job, no neighbourhood: these questions create identifying information, and a malicious person has a ready-made story. Small talk puts people at ease, with no personal questions and nothing written down; no round of jobs or neighbourhoods, which also protects newcomers from each other. Check instead:
     1. **the account and settings**: QR code scanned, activist name, hidden number;
     2. **who knows them**: "how did you hear about the group? does anyone here or in the movement know you?", to spot a possible voucher;
     3. **what they want to do**: which actions, which team;
@@ -281,7 +285,7 @@ Do this **before** joining your first group, airlock group included: once you ar
 ### Recruiters and secretaries
 
 - [ ] **Several of each**, so you depend on no one, and they rotate.
-- [ ] **Recruiters don't validate** and cannot vouch for their own recruits: otherwise a single infiltrator brings in their whole circle. They are not keyholders of vetted groups (the role is exposed), and they send the [settings](groupes-signal.md#your-settings) list before a meeting.
+- [ ] **Recruiters don't validate** and cannot vouch for their own recruits: otherwise a single malicious person brings in their whole circle. They are not keyholders of vetted groups (the role is exposed), and they send the [settings](groupes-signal.md#your-settings) list before a meeting.
 - [ ] **Secretaries are already-vetted members**, never someone from the airlock group picked on the spot. Newcomers can, however, take small tasks with no rights in Signal (timekeeping, handing out the floor, welcoming at the door): it gets them involved and known.
 - [ ] **During the meeting**, each person handles their own phone and shows their screens; nobody takes an unlocked phone in hand.
 - [ ] **No attendance list**, no notes with names.
@@ -300,7 +304,7 @@ The meeting is a **first contact**. Validation then depends on the group's level
 
 - **Fast path**, when someone already knows them: meeting in the airlock group (15 minutes of settings and QR scan), the voucher's confirmation, cleaning the airlock group, HR's second check, the trusted group's link. **The same day.**
 - **Slow path**, when nobody knows them: they come to actions for a few weeks. This time can't be shortened: it is the only way to get to know someone.
-- **What vetting doesn't guarantee**: intentions. An infiltrator with a genuine voucher will get through; hence "nothing illegal in writing" and compartmentalising into sub-groups.
+- **What vetting doesn't guarantee**: intentions. A malicious person with a genuine voucher will get through; hence "nothing illegal in writing" and compartmentalising into sub-groups.
 
 <figure class="venn" markdown>
 <svg viewBox="0 0 360 300" role="img" aria-labelledby="venn-title venn-desc" xmlns="http://www.w3.org/2000/svg">
@@ -329,7 +333,7 @@ The meeting is a **first contact**. Validation then depends on the group's level
 - [ ] **Nobody knows them?** They come to public actions for a few weeks; vetted members who have seen them in action and talked with them can then vouch for them.
 - [ ] **Met at a protest, even as a medic?** That is not yet knowing them: anyone can wear a medic armband or a legal observer vest, and these teams' sub-groups are sensitive. No direct adding to a trusted group. However, having seen them act at **several** actions and talked with them means you can vouch for them; and if they come from a known collective (street medics, legal team), a vetted member who knows that collective can be their voucher.
 - [ ] **A very active person?** A vetted member who has acted alongside them at two or three actions **proposes** them to a secretary and becomes their voucher. The secretary meets them, on the spot during an action if needed (scanning a QR code takes 10 seconds), then HR add them: the same day or the next. Unions, associations and collectives help too: a vetted member who knows them through their union or collective can be their voucher straight away.
-- [ ] **Newcomers never vouch for each other**: several infiltrators who arrived together would validate each other. No votes either, nor any threshold of "yes" votes.
+- [ ] **Newcomers never vouch for each other**: several malicious people who arrived together would validate each other. No votes either, nor any threshold of "yes" votes.
 - [ ] **A single serious doubt is enough to wait**: the secretary raises it with HR, who settle it.
 - [ ] **Signal warns when two members of a group have the same name**: check it, it may be impersonation.[^signal-confidentialite-numero]
 - [ ] **Never ask** for ID, photos, address or employer: it creates a dangerous file if seized, and proves nothing.
@@ -493,7 +497,7 @@ A group is compromised when someone who shouldn't can **read its messages** (pas
 - a phone is **lost or stolen**;
 - an **unknown** member appears, or someone was added without being validated by a secretary;
 - Signal shows that a member's **safety number** has changed while they are in custody or have lost their phone: their account may have been reinstalled elsewhere;[^eff-signal]
-- an infiltrator is **identified**.
+- a **leak** is found (someone passed on information from the group).
 
 **Assess, without panicking:**
 
@@ -503,7 +507,7 @@ A group is compromised when someone who shouldn't can **read its messages** (pas
 
 **The key question: do you know where the leak is?** The "leak" is the person or the phone through which an outsider gets into the group.
 
-- **You know, and you have removed it** (a member arrested with their phone, a lost phone, an infiltrator unmasked): that phone or person has seen the **past** (history, members, name), but nothing of the **future**. The group can carry on.
+- **You know, and you have removed it** (a member arrested with their phone, a lost phone, the person behind a leak identified): that phone or person has seen the **past** (history, members, name), but nothing of the **future**. The group can carry on.
 - **You don't know** (information got out and nobody knows how, a doubt with no identified culprit): the leak may still be inside the group; the past **and** the future are exposed. You need to **move out**.
 
 ### Precautionary removal

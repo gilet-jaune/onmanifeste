@@ -1,5 +1,5 @@
 ---
-source_commit: 1059316444b29e79c372ec40e2932daee1e64796
+source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
 tags:
     - guides
 ---
@@ -251,7 +251,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](organiser.md)
 
-- **Signal groups: organising without being infiltrated** [:material-account-group:](groupes-signal.md)
+- **Signal groups: organising while limiting leaks** [:material-account-group:](groupes-signal.md)
 
     ***
 

@@ -1,5 +1,5 @@
 ---
-source_commit: ac4f090943455755550ad6614675ed4dd5c02b00
+source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
 review: juridique
 review_status: pending
 tags:
@@ -40,7 +40,7 @@ Organising means notifying, preparing safety and planning what comes after. The 
 - [ ] Identifiable **stewards**, trained in de-escalation and in spotting exits.
 - [ ] **Street medics** and a **legal team** on board, with their numbers shared with participants.
 - [ ] An **accessible point** and an "accessibility" contact for disabled people.
-- [ ] An encrypted information channel ([Signal](../annuaire/index.md#signal)) for live instructions; to structure your groups without being infiltrated: [Signal groups](groupes-signal.md).
+- [ ] An encrypted information channel ([Signal](../annuaire/index.md#signal)) for live instructions; to structure your groups while limiting leaks of personal data: [Signal groups](groupes-signal.md).
 - [ ] Encrypted shared documents ({{ res("cryptpad") }}) for contact lists, the plan and roles, rather than a mainstream online service.
 - [ ] A clear **dispersal** point and instructions in case of warnings ([dispersal and warnings](dispersion.md)).
 
@@ -50,7 +50,7 @@ Organising means notifying, preparing safety and planning what comes after. The 
 
 ## Organising locally, beyond city centres
 
-- **Why not rely solely on city-centre marches or school blockades**: concentrated in the same city-centre streets every Saturday, a crowd is easier to kettle and tear-gas, while a few clashes are enough for rolling news channels to overshadow demands and justify curfews and bans.[^wiki-17-octobre-2026][^amnesty-surenchere-2026] Likewise, an isolated high-school blockade does not halt the economy and exposes young people to mass repression (over 5,000 arrests in autumn 2026).[^amnesty-lyceens-2026] Social history (1936, 1968, 1995, the Yellow Vests in 2018) shows that leverage grows when a movement **broadens to other groups and key sectors** (transport, energy, logistics, education) and **puts down local roots** in small towns, neighbourhoods and rural areas.
+- **Why not rely solely on city-centre marches or school blockades**: crowds concentrated in the same city-centre streets every Saturday are more often exposed to kettling and tear gas, while a few clashes are enough for rolling news channels to overshadow demands and justify curfews and bans.[^wiki-17-octobre-2026][^amnesty-surenchere-2026] Likewise, an isolated high-school blockade does not halt the economy and exposes young people to mass repression (over 5,000 arrests in autumn 2026).[^amnesty-lyceens-2026] Social history (1936, 1968, 1995, the Yellow Vests in 2018) shows that leverage grows when a movement **broadens to other groups and key sectors** (transport, energy, logistics, education) and **puts down local roots** in small towns, neighbourhoods and rural areas.
 - [ ] **Make support visible every day**: place a yellow vest on your dashboard, display support in a window or on a balcony, and talk with others who do the same.
 - [ ] **Create friendly local meeting points near home**: local markets, town squares, workplace gates or **welcoming roundabouts** (shared meals, banners, conversations) let residents put off by city-centre clashes meet and organise on a human scale.[^wiki-17-octobre-2026]
 - [ ] **Agree on the next meeting in person before leaving**: if social networks are saturated, throttled by algorithms or administratively blocked, a recurring physical meeting point (local assembly, roundabout, market) keeps the group going without relying on screens.[^blast-coupure-reseaux-2026]

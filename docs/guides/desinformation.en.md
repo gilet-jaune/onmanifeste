@@ -1,5 +1,5 @@
 ---
-source_commit: 06a03a414f123e4132f534b4bc84c8ee2ce14e43
+source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
 tags:
     - guides
     - disinformation
@@ -94,7 +94,7 @@ Please share this link rather than the rumour.
 
 - **One person in charge** of rumours: they check, they answer, others pass things on to them. In an organised group, it is a good role for a trusted person.
 - **A pinned message** "casualty figures and rumours: sources only" stops everyone from relaying whatever they saw go by.
-- For Signal groups, see [Signal groups: organising without being infiltrated](groupes-signal.md).
+- For Signal groups, see [Signal groups: organising while limiting leaks](groupes-signal.md).
 
 ## Before sharing
 
