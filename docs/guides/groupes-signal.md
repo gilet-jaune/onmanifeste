@@ -365,7 +365,7 @@ Un nom court et codé aide à s'y retrouver et à **remplacer** des groupes sans
 | --- | --- | --- | --- | --- | --- |
 | **Groupe public** | Jusqu'à 1 000 (le maximum de Signal)[^signal-groupes] | 4 semaines (le maximum)[^signal-ephemeres] | 2 ou 3, plus les secrétaires pour annoncer les rencontres ; **seul·es les admins écrivent** | **Lien autorisé** (seule exception), sans approbation, réinitialisé si besoin ; ou ajout direct | Charte courte et lien vers ce site |
 | **Groupe sas** | 5 à 15 personnes | 1 semaine : sa durée de vie ; il ne contient rien de sensible | Le ou la secrétaire qui l'annonce, et une autre personne | Ajout direct par le ou la secrétaire, sur inscription en privé ; **aucun lien** | Vide |
-| **Groupe de confiance** | Une centaine au plus | 1 semaine | 2 ou 3, pas les mêmes partout | Ajout direct par les RH ; **aucun lien** | Charte seulement |
+| **Groupe de confiance** | Une centaine au plus | 1 semaine ; **quelques heures, le plus court possible, à partir de quelques heures avant l'action** | 2 ou 3, pas les mêmes partout | Ajout direct par les RH ; **aucun lien** | Charte seulement |
 | **Sous-groupe** | 5 à 15 ; moins de 10 si sensible | 1 semaine ; 1 jour si sensible, quelques heures les jours d'action | 2 | Ajout direct par un·e gardien·ne ; **aucun lien** | Charte seulement |
 | **Groupe temporaire** | Les personnes présentes | Quelques heures pour une journée ; la durée de la mobilisation sinon | La personne qui l'a créé et une autre | Ajout direct, en vrai, par la personne qui l'a créé ; **aucun lien ni code QR** | Vide |
 
@@ -394,7 +394,7 @@ Un groupe se règle **vide**, avant la première invitation : le délai d'efface
 | **Rien de nouveau** | Le besoin est ponctuel : nommez quelqu'un dans le groupe de confiance, ou créez un groupe temporaire |
 
 - [ ] **Adaptez le délai au rendez-vous annoncé** : il doit couvrir le temps qui reste jusqu'au rendez-vous, plus une marge (rendez-vous dans 6 jours : 1 semaine ; demain : 1 jour). Réglez-le **avant** de poster le message : un nouveau délai ne s'applique qu'aux messages suivants,[^signal-ephemeres] et chaque changement s'affiche dans la conversation.
-- [ ] **Un message reçu ne commence à disparaître qu'une fois lu.**[^signal-ephemeres] Sur un téléphone saisi, les messages **non lus** restent : délais courts les jours d'action.
+- [ ] **Un message reçu ne commence à disparaître qu'une fois lu.**[^signal-ephemeres] Sur un téléphone saisi, les messages **non lus** restent : délais courts les jours d'action. **Quelques heures avant l'action**, au plus fort de l'organisation, réglez le délai du **groupe de confiance** (et des sous-groupes concernés) sur **quelques heures**, le plus court possible (8 h, ou 3 h en durée personnalisée), et gardez le point de rendez-vous sur papier.
 - [ ] **Dans la présentation, jamais** : noms, adresses, lieux de réunion, liens vers d'autres groupes, liste des sous-groupes. Pas de photo de groupe reconnaissable.
 - [ ] **Les gardien·nes ne partent pas en action avec leur téléphone de gardien·ne** quand une interpellation est possible : déverrouillé, il permet d'ajouter quelqu'un, de lire et de modifier le groupe. Confiez le rôle à des personnes qui restent en retrait, ou retirez-le temporairement.
 - [ ] **Entre gardien·nes, vérifiez vos numéros de sécurité** en vous rencontrant (code QR).[^eff-signal]
