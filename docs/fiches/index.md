@@ -19,7 +19,9 @@ Deux fiches d'**une page A4**, à imprimer et à plier : elles restent utiles si
 
 ## Fiche 1 : garde à vue
 
-1. Je demande **un·e avocat·e** et **un médecin**, dès le début.
+**A.M.I.S** : Avocat, Médecin, Informer un proche, Silence.
+
+1. Je demande **un·e avocat·e** et **un médecin**, dès le début. Mot pour mot : « Je veux voir un avocat. », « Je veux voir un médecin. »
 2. Je donne **mon identité**, puis je **garde le silence** jusqu'à l'avocat·e. « Je n'ai rien à déclarer » est un droit.
 3. Je ne parle **de personne** d'autre : ni noms, ni description.
 4. Je **relis** chaque procès-verbal. Je ne signe pas ce qui est inexact ; je peux refuser de signer.

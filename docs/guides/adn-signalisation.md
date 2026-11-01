@@ -27,6 +27,7 @@ Ce guide complète [Garde à vue](garde-a-vue.md). Il explique **ce que dit la l
 
 - **Flagrant délit** (article 55-1) et **enquête préliminaire** (article 76-2, sur autorisation du procureur) : l'officier de police judiciaire peut procéder à des **prélèvements externes** (frottis buccal) et à des **relevés signalétiques** (empreintes digitales ou palmaires, photographies) sur toute personne contre laquelle il existe **une ou plusieurs raisons plausibles de soupçonner** qu'elle a commis ou tenté de commettre l'infraction.[^cpp-55-1][^cpp-76-2]
 - La décision est **écrite et motivée**.[^cpp-55-1]
+- **Photo et empreintes** peuvent alimenter des fichiers de police : la photo, le **TAJ** (traitement d'antécédents judiciaires), les empreintes, le fichier des empreintes digitales (FAED).[^sp-gav]
 - **Sans votre accord**, la contrainte n'est possible que pour la **signalisation d'identité** : si c'est le seul moyen d'établir qui vous êtes, que vous refusez de justifier de votre identité ou en donnez une manifestement inexacte, que l'infraction est punie d'au moins 3 ans, et avec l'autorisation écrite du procureur. Votre avocat·e est avisé·e.[^cpp-55-1]
 
 ## Le fichier d'ADN (FNAEG)
@@ -46,6 +47,25 @@ La liste de l'article 706-55 inclut notamment : les **violences volontaires** (2
 - Le Conseil constitutionnel a jugé cette peine « pas manifestement disproportionnée » et rappelé que le prélèvement n'emporte **ni déclaration ni présomption de culpabilité**.[^cc-2010-25]
 
 C'est pourquoi la question « accepter ou refuser ? » ne se règle pas seul·e dans un commissariat : un refus peut ajouter une poursuite à celle qui vous vaut la garde à vue.
+
+## Le TAJ : refuser la photo n'empêche pas le fichage
+
+- Le TAJ est alimenté par les données recueillies **au cours des enquêtes** (préliminaire, flagrance, commission rogatoire) pour **tout crime ou délit**, et pour certaines contraventions de 5e classe.[^cpp-230-6] L'article ne lie pas le fichage à la photo : les données de la procédure suffisent, donc refuser d'être photographié·e ne garantit pas de ne pas être fiché·e.
+- Le procureur contrôle le fichier. À votre demande, il peut ordonner l'**effacement**, la **rectification** ou une **mention**, et répond dans un délai de **2 mois**.[^cpp-230-8] Après une **relaxe ou un acquittement définitifs**, les données sont **effacées**, sauf s'il en prescrit le maintien ; après un **non-lieu ou un classement sans suite**, elles font l'objet d'une **mention** (donc ne sont plus consultables pour les enquêtes administratives), sauf effacement ordonné.[^cpp-230-8] Son refus peut être contesté devant le président de la chambre de l'instruction.[^cpp-230-8]
+
+- **Ce que le Conseil constitutionnel en a dit (27 octobre 2017).** Le fichier recense **toutes les personnes mises en cause** pour un crime, un délit ou certaines contraventions de 5e classe. Il peut contenir une **photographie permettant la reconnaissance faciale**, et ses informations pouvaient alors être conservées **de cinq à quarante ans**, puis être consultées aussi pour des enquêtes administratives. Le Conseil a censuré la règle qui refusait tout effacement aux personnes mises en cause autres que relaxées, acquittées, ou bénéficiaires d'un non-lieu ou d'un classement sans suite, jugée **atteinte disproportionnée à la vie privée**.[^cc-2017-670] Les durées actuelles ne sont pas vérifiées ici : demandez-les à votre avocat·e.
+
+- **Ce que la Cour européenne des droits de l'homme en a dit (18 septembre 2014).** Dans l'affaire _Brunet c. France_, à propos du fichier STIC (ancêtre du TAJ), elle juge à l'unanimité que la France a violé le droit au respect de la vie privée (article 8). Le requérant, dont la procédure avait été classée sans suite après une médiation pénale, n'avait **aucune possibilité réelle de demander l'effacement** de ses données. Une durée de conservation de vingt ans était, dans ce cas, « assimilable » à une conservation indéfinie.[^cedh-brunet]
+
+### Refuser par principe
+
+Certain·es militant·es refusent la signalisation et l'ADN pour **ne pas contribuer au fichage**, même au prix d'une poursuite. C'est un choix assumé, à faire en connaissance de cause :
+
+- **Le coût est certain** : le refus est un délit (1 an et 15 000 €), qui s'ajoute aux faits reprochés.[^cpp-55-1][^cpp-706-56]
+- **Le gain est limité** : le TAJ est alimenté par la procédure, pas par la seule photo (voir ci-dessus). Vous ne refusez que la photo et les empreintes.
+- **Votre situation compte** : antécédents, mineur·e, personne étrangère ou précaire n'ont pas les mêmes risques.
+
+C'est une décision à prendre **avec votre avocat·e**, avant de décider, pas dans la cellule.
 
 ## Demander l'effacement
 

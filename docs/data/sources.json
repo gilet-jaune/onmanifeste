@@ -478,6 +478,21 @@
         "by": "ai"
       }
     },
+    "cc-2017-670": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2017-670 QPC du 27 octobre 2017 (effacement anticipé des données du TAJ)",
+        "en": "Constitutional Council — Decision no. 2017-670 QPC of 27 October 2017 (early erasure of TAJ data; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-constitutionnel.fr/decision/2017/2017670QPC.htm",
+        "en": "https://www.conseil-constitutionnel.fr/decision/2017/2017670QPC.htm"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cc-2019-780": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2019-780 DC du 4 avril 2019 (loi « anticasseurs »)",
@@ -648,6 +663,21 @@
       "url": "https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre",
       "check": {
         "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cedh-brunet": {
+      "title": {
+        "fr": "CEDH — Brunet c. France, requête n° 21010/10, 18 septembre 2014 (fichier STIC)",
+        "en": "ECtHR — Brunet v. France, application no. 21010/10, 18 September 2014 (STIC file; judgment in French)"
+      },
+      "url": {
+        "fr": "https://hudoc.echr.coe.int/fre#{%22itemid%22:[%22001-146389%22]}",
+        "en": "https://hudoc.echr.coe.int/fre#{%22itemid%22:[%22001-146389%22]}"
+      },
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }
@@ -997,6 +1027,81 @@
         "by": "ai"
       }
     },
+    "cpp-144": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 144 (objectifs de la détention provisoire)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 144 (aims of pre-trial detention; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021332920",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000021332920"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-230-6": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 230-6 (traitements automatisés, TAJ)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 230-6 (automated processing, TAJ; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023709611",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023709611"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-230-8": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 230-8 (effacement et rectification, contrôle du procureur)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 230-8 (erasure and rectification, prosecutor's control; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037825603",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037825603"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-397-1": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 397-1 (renvoi : délai de 4 à 10 semaines)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 397-1 (adjournment: 4 to 10 weeks; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441606",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441606"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-397-3": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 397-3 (contrôle judiciaire et détention provisoire en comparution immédiate)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 397-3 (judicial supervision and pre-trial detention in fast-track trial; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441593",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441593"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cpp-55-1": {
       "title": {
         "fr": "Code de procédure pénale, article 55-1 (Légifrance)",
@@ -1005,6 +1110,51 @@
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048441923",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-63": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 63 (placement et durée de la garde à vue)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 63 (placement and length of police custody; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038311888",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038311888"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-63-4": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 63-4 (entretien avec l'avocat)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 63-4 (meeting with the lawyer; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023876559",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023876559"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-63-5": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 63-5 (dignité en garde à vue)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 63-5 (dignity in police custody; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023876577",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023876577"
+      },
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }

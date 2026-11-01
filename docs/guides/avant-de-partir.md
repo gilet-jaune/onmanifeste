@@ -45,6 +45,7 @@ Téléchargez la zone de la manif **et** celle de votre trajet retour. Testez en
 ## Sur papier et sur soi
 
 - [ ] Numéros utiles écrits au feutre indélébile **sur la peau sous un vêtement** (haut du bras, ventre — pas à vue) et sur papier : **uniquement les 10 chiffres, sans aucun nom** (un·e proche qui ne manifeste pas et décroche aux numéros masqués, la legal team, un·e avocat·e). En garde à vue, votre téléphone et vos affaires sont confisqués ([voir « Ne jamais rester seul·e »](ne-pas-rester-seul.md)).[^sm-guide]
+- [ ] Un·e **proche de confiance qui détient vos justificatifs** (photos de la pièce d'identité, d'un justificatif de domicile, du contrat de travail ou du certificat de scolarité) : en cas de comparution immédiate, il ou elle les remet à l'avocat·e ([garanties de représentation](suites-judiciaires.md)).
 - [ ] La [carte de poche](../carte/index.md) imprimée.
 
 ## Avec votre groupe

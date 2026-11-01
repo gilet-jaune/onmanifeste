@@ -66,14 +66,17 @@ Si la police ou la gendarmerie vous convoque après une manifestation pour être
 
 Si un·e proche est déféré·e au tribunal à l'issue de sa garde à vue en vue d'une {{ res("sp-comparution-immediate", "comparution immédiate") }}, le tribunal statue le jour même (ou décide du placement en détention provisoire si le procès est renvoyé).[^sp-ci]
 
-Les proches doivent réunir **immédiatement** et remettre à l'avocat·e de permanence les **garanties de représentation** (preuves d'attaches stables pour éviter la prison) :[^sp-ci][^sm-guide]
+Les proches doivent réunir **immédiatement** et remettre à l'avocat·e de permanence les **garanties de représentation** (preuves matérielles que la personne ne risque pas de s'enfuir et se présentera aux audiences). Elles pèsent pour **éviter un placement en détention provisoire** ou obtenir une remise en liberté : le tribunal peut ordonner la détention provisoire, notamment pour garantir le maintien de la personne à la disposition de la justice.[^cpp-397-3][^cpp-144] La liste ci-dessous vient de la pratique des avocat·es, pas d'un texte de loi :
 
 - [ ] **Identité** : copie de la pièce d'identité ou du passeport, titre de séjour.
 - [ ] **Domicile** : bail, dernière quittance de loyer ou facture (électricité, téléphone) ; si la personne est hébergée : **attestation d'hébergement** datée et signée + copie de la pièce d'identité de l'hébergeant·e + justificatif de domicile de l'hébergeant·e.
 - [ ] **Travail ou études** : contrat de travail, 3 derniers bulletins de salaire, promesse d'embauche, certificat de scolarité ou carte d'étudiant·e.
 - [ ] **Famille et santé** : livret de famille, ordonnances médicales en cours, suivi médical ou psychologique.
+- [ ] **Si besoin** : attestation CAF, RSA ou France Travail (ex-Pôle emploi), et preuve d'une **participation à des activités associatives ou culturelles**.
 
-Devant le tribunal, la personne prévenue a toujours le **droit de refuser d'être jugée le jour même** et de demander un délai (2 à 6 semaines) pour préparer sa défense avec son avocat·e.[^sp-ci]
+Vous pouvez aussi **les confier à l'avance à un·e proche de confiance**, qui les transmettra à l'avocat·e ([Avant de partir](avant-de-partir.md)).
+
+Devant le tribunal, la personne prévenue a toujours le **droit de refuser d'être jugée le jour même** et de demander un délai : l'affaire est alors renvoyée à une audience qui a lieu **4 à 10 semaines** plus tard (le prévenu peut renoncer au minimum de 4 semaines), pour préparer sa défense avec son avocat·e.[^sp-ci][^cpp-397-1]
 
 [:octicons-arrow-right-24: Avocats, aide juridictionnelle et caisses de solidarité dans l'annuaire](../annuaire/index.md?situation=avocat-proces)
 
