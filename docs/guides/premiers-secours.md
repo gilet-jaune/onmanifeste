@@ -15,6 +15,8 @@ tags:
     - Gaz : sortez du nuage **face au vent**, sans courir, ne frottez pas, **rincez** au sérum physiologique.
     - Personne blessée : dans le doute, **15** ; point de compression si ça saigne beaucoup ; pas de geste médical (suture, éclats).
     - Blessure à l'œil : **ne rincez pas**, couvrez sans appuyer, appelez le 112.
+    - Inconscient·e qui respire : **PLS** ; qui ne respire pas : **massage cardiaque sans arrêt**.
+    - Choc violent à la tête ou au cou : **ne la bougez pas**, tête dans l'axe, casque en place.
     - Coup à la tête : ne laissez pas la personne seule ; vomissements ou confusion, appelez le 112.
     - Après : faites **constater** toute blessure (certificat avec ITT) et gardez une trace des symptômes.
 
@@ -27,7 +29,7 @@ tags:
     - **Préparer sa trousse** → [trousse de soins](premiers-secours.md#trousse-de-soins).
     - **Après la manif** → [suivi à long terme](premiers-secours.md#apres-suivi-a-long-terme) ; [faire constater](premiers-secours.md#apres-faire-constater).
 
-Trois réflexes, dans l'ordre : **protéger** (se mettre et mettre la personne à l'abri), **alerter**, **secourir**. Repérez les **street medics** du cortège : ils sont formés et équipés.[^cr-etapes]
+Trois réflexes, dans l'ordre : **protéger** (se mettre et mettre la personne à l'abri), **alerter**, **secourir**. Protégez-vous aussi : il ne s'agit pas de faire deux victimes. Repérez les **street medics** du cortège : ils sont formés et équipés.[^cr-etapes]
 
 !!! warning "Urgence vitale"
 
@@ -46,6 +48,7 @@ Trois réflexes, dans l'ordre : **protéger** (se mettre et mettre la personne �
 3. **Quelle blessure ?**
     - **Saignement** → appuyez fort avec un tissu propre, sans relâcher.[^cr-hemorragie]
     - **Œil touché par un projectile** → ne rincez pas, couvrez sans appuyer, **112**.
+    - **Choc violent à la tête, au cou ou au dos** → **ne la bougez pas**, tête dans l'axe, **112**.
     - **Coup à la tête** → ne laissez pas la personne seule ; vomissements, confusion ou perte de connaissance : **112**.
     - **Brûlure** → eau tempérée 10 à 20 minutes.[^cr-brulure]
 4. **Ensuite** → street medics ou médecin ; faites **constater** les blessures (certificat avec ITT) et photographiez-les.[^ldh-violences]
@@ -71,7 +74,7 @@ Consultez un médecin si la gêne respiratoire, la douleur oculaire ou les vomis
 
 !!! info "Dans le doute, appelez le 15"
 
-    Mieux vaut appeler pour rien que trop tard. Vous pouvez faire les **premiers secours** (massage cardiaque, position latérale de sécurité, désinfection rapide, point de compression) : ce sont des gestes de secourisme. Les **gestes médicaux** (suture, retrait d'éclats) sont en revanche **fortement déconseillés**, et **ne donnez pas de médicaments**.[^medicaction-gestes]
+    Mieux vaut appeler pour rien que trop tard. Vous pouvez faire les **premiers secours** (massage cardiaque, position latérale de sécurité, désinfection rapide, point de compression) : ce sont des gestes de secourisme. Les **gestes médicaux** (suture, retrait d'éclats) sont en revanche **fortement déconseillés**, et **ne donnez pas de médicaments**. Seule exception : une personne asthmatique en détresse respiratoire qui réclame son inhalateur. Elle connaît son traitement, **aidez-la à le prendre**, ne le lui refusez pas.[^medicaction-gestes][^pse-recueil]
 
 **Premier contact** : canalisez la foule en parlant clairement et en **assignant des tâches à des personnes précises** (« vous avec le t-shirt rouge, appelez le 15 »), pour éviter l'effet du témoin. Priorités selon la situation : former un **périmètre de sécurité** si la zone est dangereuse, surveiller les alentours, appeler les secours.[^medicaction-gestes]
 
@@ -87,6 +90,10 @@ Consultez un médecin si la gêne respiratoire, la douleur oculaire ou les vomis
 4. **B : blessures.** Vérifiez qu'elle n'a pas de plaies qui continuent de saigner.
 5. **C : circulation.** Prenez son pouls : majeur et index (**jamais le pouce**) à l'intérieur du poignet avec une légère pression, ou dans le creux du cou sous la mâchoire. Une personne en malaise a un pouls très faible.
 
+**Inconscient·e** (elle ne répond pas) : vérifiez sa respiration pendant 10 secondes. Elle **respire** : mettez-la en **position latérale de sécurité (PLS)**, appelez le 15 et surveillez sa respiration, sauf choc violent à la tête, au cou ou au dos (voir ci-dessous).[^cr-pls] Elle **ne respire pas normalement** ou n'a pas de pouls : appelez le 15, faites **tout de suite un massage cardiaque** (au centre de la poitrine, fort et vite), **sans vous arrêter** jusqu'à l'arrivée des secours ; si vous êtes plusieurs, **relayez-vous toutes les 2 minutes** en interrompant le moins possible, et utilisez un défibrillateur s'il y en a un.[^cr-arret-cardiaque][^pse-recueil]
+
+**Ne donnez ni à boire ni à manger** à une personne gravement blessée ou à demi consciente : risque d'inhalation, et elle doit rester à jeun si elle doit être opérée.
+
 ## Trousse de soins
 
 Ne faites pas de geste que vous ne connaissez pas : formez-vous auprès de {{ res("medicaction-guides") }}.[^medicaction-gestes]
@@ -100,14 +107,15 @@ Ne faites pas de geste que vous ne connaissez pas : formez-vous auprès de {{ re
 
 - **Saignement** : appuyez fort avec une compresse ou un tissu propre, sans relâcher, jusqu'à l'arrivée des secours.[^cr-hemorragie]
 - **Polycriblage par grenade (GM2L, GL-304, assourdissante)** : signalez aux urgences que les éclats de plastique rouge/orange ou de caoutchouc noir sont **invisibles à la radio standard** (demander une échographie ou un scanner) et surveillez tout essoufflement ou vertige lié à l'**effet de souffle (_blast_)** ([voir « Armes de la police : effets, blessures et débris »](armes-police.md)).[^desarmons-grenades-2024]
-- **Coup à la tête** (matraque, projectile, chute) : faites asseoir ou allonger la personne, ne la laissez pas seule, appelez le 112 si elle vomit, est confuse, somnolente ou a perdu connaissance, même brièvement.[^medic-gestes]
+- **Choc violent à la tête, au cou ou au dos** (coup fort, chute importante) : **ne la mobilisez pas**, demandez-lui de ne pas bouger, tenez sa tête à deux mains **dans l'axe tête-cou-tronc**, appelez le 112. Ne lui retirez pas son casque si vous n'êtes pas formé·e : une équipe formée le retire à deux, ou seule si la personne est inconsciente, pour vérifier sa respiration.[^pse-recueil]
+- **Coup à la tête** (matraque, projectile, chute légère) : faites asseoir ou allonger la personne, ne la laissez pas seule, appelez le 112 si elle vomit, est confuse, somnolente ou a perdu connaissance, même brièvement.[^medic-gestes]
 - **Blessure à l'œil** : ne rincez pas et ne touchez pas un œil blessé par un projectile ; couvrez sans appuyer et appelez le 112.
 - **Brûlure** (grenade, palet lacrymogène) : refroidissez à l'eau tempérée 10 à 20 minutes ; ne percez pas les cloques.[^cr-brulure]
 - **Bruit d'explosion** et sifflements dans les oreilles : consultez rapidement, les dégâts auditifs se soignent mieux tôt.
 
 ## Malaise, chaleur, crise d'angoisse
 
-- Mettez la personne **à l'ombre et au calme**, assise ; desserrez les vêtements ; faites-la boire par petites gorgées si elle est consciente.
+- Mettez la personne **à l'ombre et au calme**, assise ; desserrez les vêtements ; faites-la boire par petites gorgées si elle est consciente et sans autre blessure.
 - Crise d'angoisse : parlez calmement, proposez de respirer lentement avec vous, restez présent·e.
 
 ## Après : suivi à long terme

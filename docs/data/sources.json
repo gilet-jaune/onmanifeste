@@ -4182,6 +4182,51 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "pse-recueil": {
+      "title": {
+        "fr": "DGSCGC — Recommandations « premiers secours en équipe » (PSE), fiches PR 04 A 01, PR 05 C 02, PR 07 T 05 et retrait du casque (copie FFSS, versions 2014-2018)",
+        "en": "DGSCGC — First aid recommendations for teams (PSE), sheets PR 04 A 01, PR 05 C 02, PR 07 T 05 and helmet removal (FFSS copy, 2014-2018 versions; in French)"
+      },
+      "url": {
+        "fr": "https://ffss.fr/files/polymod_doc/public/r343336_39_fusion_recos_pse_2014__2018.pdf",
+        "en": "https://ffss.fr/files/polymod_doc/public/r343336_39_fusion_recos_pse_2014__2018.pdf"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-pls": {
+      "title": {
+        "fr": "Croix-Rouge française — Position latérale de sécurité : comment mettre en PLS ?",
+        "en": "French Red Cross — Recovery position: how to place someone in PLS (in French)"
+      },
+      "url": {
+        "fr": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/position-laterale-de-securite-comment-mettre-en-pls",
+        "en": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/position-laterale-de-securite-comment-mettre-en-pls"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-arret-cardiaque": {
+      "title": {
+        "fr": "Croix-Rouge française — L'arrêt cardiaque : comment faire un massage cardiaque ?",
+        "en": "French Red Cross — Cardiac arrest: how to do chest compressions (in French)"
+      },
+      "url": {
+        "fr": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/arret-cardiaque",
+        "en": "https://www.croix-rouge.fr/les-gestes-de-premiers-secours/arret-cardiaque"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
