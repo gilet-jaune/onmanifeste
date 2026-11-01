@@ -1,5 +1,5 @@
 ---
-source_commit: fd320f880bea69a67e3fb862df8c026305340f88
+source_commit: ce40d1f132ab8c299d650779c16c9374904e30df
 review: juridique
 review_status: pending
 tags:
@@ -366,7 +366,7 @@ A short, coded name helps you find your way and **replace** groups without confu
 | --- | --- | --- | --- | --- | --- |
 | **Public group** | Up to 1,000 (Signal's maximum)[^signal-groupes] | 4 weeks (the maximum)[^signal-ephemeres] | 2 or 3, plus secretaries to announce meetings; **only admins post** | **Link allowed** (the one exception), no approval, reset if needed; or direct add | Short charter and a link to this site |
 | **Airlock group** | 5 to 15 people | 1 week: its lifetime; it holds nothing sensitive | The secretary who announces it, and one other person | Added directly by the secretary, after a private sign-up; **no link** | Empty |
-| **Trusted group** | About a hundred at most | 1 week | 2 or 3, not the same everywhere | Added directly by HR; **no link** | Charter only |
+| **Trusted group** | About a hundred at most | 1 week; **a few hours, as short as possible, from a few hours before the action** | 2 or 3, not the same everywhere | Added directly by HR; **no link** | Charter only |
 | **Sub-group** | 5 to 15; under 10 if sensitive | 1 week; 1 day if sensitive, a few hours on action days | 2 | Added directly by a keyholder; **no link** | Charter only |
 | **Temporary group** | The people present | A few hours for a day; the length of the mobilisation otherwise | The person who created it and one other | Added directly, in person, by whoever created it; **no link or QR code** | Empty |
 
@@ -395,7 +395,7 @@ A group is set up **empty**, before the first invitation: the message timer only
 | **Nothing new** | The need is one-off: name someone in the trusted group, or create a temporary group |
 
 - [ ] **Match the timer to the announced meeting**: it must cover the time left until the meeting, plus a margin (meeting in 6 days: 1 week; tomorrow: 1 day). Set it **before** posting the message: a new timer only applies to later messages,[^signal-ephemeres] and every change shows up in the chat.
-- [ ] **A received message only starts disappearing once it has been read.**[^signal-ephemeres] On a seized phone, **unread** messages remain: short timers on action days.
+- [ ] **A received message only starts disappearing once it has been read.**[^signal-ephemeres] On a seized phone, **unread** messages remain: short timers on action days. **A few hours before the action**, at the peak of organising, set the timer of the **trusted group** (and the sub-groups concerned) to **a few hours**, as short as possible (8 h, or 3 h as a custom time), and keep the meeting point on paper.
 - [ ] **Never in the description**: names, addresses, meeting places, links to other groups, the list of sub-groups. No recognisable group photo.
 - [ ] **Keyholders don't go to an action with their keyholder phone** when an arrest is possible: unlocked, it lets someone add members, read and change the group. Give the role to people who stay in the background, or remove it temporarily.
 - [ ] **Between keyholders, verify your safety numbers** in person (QR code).[^eff-signal]
