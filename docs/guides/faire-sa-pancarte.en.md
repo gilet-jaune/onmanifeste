@@ -1,5 +1,5 @@
 ---
-source_commit: d30be6a0bfab948571c76b1d496d520ecb3b69d4
+source_commit: d187018113c979822e366ea1a71f55f75b135fc4
 review: juridique
 review_status: pending
 tags:
@@ -57,6 +57,10 @@ A stencil lets you reproduce the same message quickly on several items (banner, 
 ## The flag
 
 - [ ] **A flag is carried like a banner**: light fabric, a plain pole, the same rules as above on objects treated as weapons.[^cp-431-10][^cp-132-75]
+- [ ] **No pole in your bag**: at a check, a long stick draws attention. Two ways to avoid carrying one on the way: a **rigid telescopic fishing rod** (it packs short in a bag, and the shaft extends once you are there), or a **piece of wood picked up on site** (slats from an abandoned pallet, a batten). No object is a weapon in itself: everything depends on how it is used or what it is meant for.[^cp-132-75] Seizure therefore remains possible, case by case, at the officers' discretion.
+- [ ] **With a fishing rod**: choose a light one, without a reel or hook, and only extend it for the flag. A thin shaft bends in the wind: prefer a small flag.
+- [ ] **With wood picked up**: take only what is **truly abandoned** (not street furniture, not a building site), with no nail, point or splinter, and **leave it on site** at the end rather than keeping it on the way home.
+- [ ] **To fix the flag to the pole**: **thin string or cord**, a few **cable ties** (Serflex or Rilsan type) or **adhesive tape**, which fit in a pocket. Prepare them before leaving.
 - [ ] **What you are blamed for is the context and the message, not the flag itself**: for the Palestinian flag, the dedicated guide details what you can be blamed for, banned demonstrations and apology of terrorism ([The Palestinian flag at protests](drapeau-palestinien.md)).
 - [ ] **Avoid any flag or symbol that can be read as supporting a terrorist act**, as with a slogan.
 - [ ] **On the way there**, keep flags and badges in your bag if you fear the far right: they make you identifiable ([Far-right attacks](extreme-droite.md)).
