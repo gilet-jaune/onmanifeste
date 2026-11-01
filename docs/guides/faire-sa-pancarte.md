@@ -56,6 +56,10 @@ Un pochoir sert à reproduire vite le même message sur plusieurs supports (band
 ## Le drapeau
 
 - [ ] **Un drapeau se porte comme une banderole** : une étoffe légère, une hampe sobre, les mêmes règles que ci-dessus sur les objets assimilés à une arme.[^cp-431-10][^cp-132-75]
+- [ ] **Pas de hampe dans le sac** : au contrôle, un long bâton attire l'attention. Deux solutions pour ne pas en porter sur le trajet : une **canne à pêche télescopique rigide** (elle se range courte dans le sac, la tige se déploie une fois sur place), ou un **bout de bois ramassé sur place** (lattes de palette abandonnées, tasseau). Aucun objet n'est une arme en soi : tout dépend de l'usage ou de la destination de l'objet.[^cp-132-75] Une saisie reste donc possible, au cas par cas, selon l'appréciation des agents.
+- [ ] **Avec une canne à pêche** : choisissez-la légère, sans moulinet ni hameçon, et ne la déployez que pour le drapeau. Une tige fine plie sous le vent : préférez un drapeau petit.
+- [ ] **Avec du bois ramassé** : prenez uniquement ce qui est **vraiment abandonné** (pas du mobilier urbain, pas un chantier), sans clou ni pointe ni éclat, et **laissez-le sur place** à la fin plutôt que de le garder en repartant.
+- [ ] **Pour fixer le drapeau à la tige** : de la **ficelle ou de la corde fine**, quelques **colliers de serrage** (type Serflex ou Rilsan) ou du **ruban adhésif**, qui tiennent dans une poche. Préparez-les avant de partir.
 - [ ] **C'est le contexte et le message qu'on vous reproche, pas le drapeau lui-même** : pour le drapeau palestinien, le guide dédié détaille ce qui peut vous être reproché, les manifestations interdites et l'apologie du terrorisme ([Drapeau palestinien en manifestation](drapeau-palestinien.md)).
 - [ ] **Évitez tout drapeau ou symbole qui peut se lire comme un soutien à un acte terroriste**, comme pour un slogan.
 - [ ] **Pour le trajet**, gardez drapeaux et badges dans le sac si vous craignez l'extrême droite : ils vous rendent identifiable ([Agressions par l'extrême droite](extreme-droite.md)).
