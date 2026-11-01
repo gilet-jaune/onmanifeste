@@ -2631,3 +2631,25 @@ dialog.contact-card {
 .md-typeset details.parcours__group .parcours__choices {
   margin: 0.4rem 0 0.8rem;
 }
+
+/* --- Memo sheets: one A4 page each when printed -------------------------- */
+.md-typeset .memo__sheet {
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+}
+
+@media print {
+  .md-typeset .memo__sheet {
+    padding: 0;
+    border: 0;
+    font-size: 11pt;
+    break-after: page;
+    break-inside: avoid;
+  }
+
+  .md-typeset .memo__sheet:last-child {
+    break-after: auto;
+  }
+}

@@ -10,7 +10,7 @@ hide:
 
 # Carte de poche
 
-À imprimer, découper et garder sur soi : elle reste utile si votre téléphone est perdu, déchargé ou saisi. Recto : numéros. Verso : vos droits et réflexes.
+À imprimer, découper et garder sur soi : elle reste utile si votre téléphone est perdu, déchargé ou saisi. Recto : numéros. Verso : vos droits et réflexes. Besoin de plus ? Les [fiches mémo A4](../fiches/index.md) (garde à vue, premiers secours).
 
 <button class="md-button md-button--primary pocket__print" type="button" data-action="print">Imprimer</button>
 

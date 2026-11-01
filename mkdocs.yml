@@ -143,6 +143,7 @@ plugins:
             Blessé·es et mort·es: Injured and killed
             Contribuer: Contributing
             Carte de poche: Pocket card
+            Fiches mémo à imprimer: Memo sheets to print
             Mentions légales: Legal notice
   - macros:
       include_dir: .
@@ -190,6 +191,7 @@ nav:
   - Urgence:
       - SOS: sos/index.md
       - Carte de poche: carte/index.md
+      - Fiches mémo à imprimer: fiches/index.md
   - Trouver de l'aide:
       - Je suis… et je veux…: parcours/index.md
       - Annuaire: annuaire/index.md
