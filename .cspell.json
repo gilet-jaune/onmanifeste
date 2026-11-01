@@ -143,8 +143,7 @@
     "recodified",
     "recodifiés",
     "recodification",
-    "recodifiées",
-    "quadcopter"
+    "recodifiées"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

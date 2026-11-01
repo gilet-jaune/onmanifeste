@@ -137,14 +137,6 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](armes-police.md)
 
-- **Drones and aerial surveillance at protests** [:material-quadcopter:](drones.md)
-
-    ***
-
-    When a drone may film, what is forbidden, how to ask for erasure.
-
-    [:octicons-arrow-right-24: Read](drones.md)
-
 - **Film the police** [:material-video:](filmer.md)
 
     ***

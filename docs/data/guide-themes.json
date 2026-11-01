@@ -99,7 +99,6 @@
       "venir-repartir": ["preparer"],
       "violences-harcelement": ["situation", "sante", "numerique"],
       "risques-penaux": ["droits"],
-      "drones": ["droits", "numerique"],
       "adn-signalisation": ["gav", "droits"]
     }
   }

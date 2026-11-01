@@ -106,7 +106,6 @@ plugins:
             Checklist avant la manif: Pre-protest checklist
             Le droit de manifester: The right to protest
             Ce que la loi interdit en manifestation, et ce qu'on risque: What the law forbids at a protest, and what you risk
-            Drones et surveillance aérienne en manifestation: Drones and aerial surveillance at protests
             ADN, empreintes et photos en garde à vue: DNA, fingerprints and photos in police custody
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
@@ -212,7 +211,6 @@ nav:
           - "Contrôle d'identité, fouille de sac et amendes": guides/controle-fouille.md
           - Premiers secours: guides/premiers-secours.md
           - "Armes de la police : effets, blessures et débris": guides/armes-police.md
-          - Drones et surveillance aérienne en manifestation: guides/drones.md
           - Filmer les forces de l'ordre: guides/filmer.md
           - Agressions par l'extrême droite: guides/extreme-droite.md
       - Après la manif:

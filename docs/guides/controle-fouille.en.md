@@ -14,6 +14,7 @@ tags:
 
     - You must **prove your identity**, otherwise you can be held for checks for up to **4 hours**.
     - **Never give a false identity.**
+    - A **drone** can only film a demonstration with the **prefect's written authorisation** ([see below](#drones-over-a-demonstration)).
     - Near **stations**, **toll booths** and **demonstrations**, checks and searches are possible on the **prosecutor's order** ([see below](#near-stations-toll-booths-and-demonstrations)).
     - A **full bag search** is reserved for a judicial police officer in specific cases; a pat-down is done by someone of the same sex.
     - **€135** fine: **don't pay on the spot** if you want to contest; you have **45 days** after the notice.
@@ -64,6 +65,19 @@ Checks are not the same everywhere.[^cpp-78-controles]
 !!! info "Texts being recodified"
 
     These articles will be repealed and recodified from **2029** (order no. 2025-1091 of 19 November 2025). Check the version in force.
+
+## Drones over a demonstration
+
+Police and gendarmerie can film a demonstration with a drone **if the prefect authorised it in a written, reasoned decision**, only if the gathering is "likely to cause serious disorder", and **for the duration of the gathering**.[^csi-l242]
+
+- The drone cannot **record sound**, use **facial recognition**, or be automatically linked to other files.[^csi-l242]
+- The public is informed "by any appropriate means", unless circumstances forbid it.[^csi-l242]
+- Footage is in principle **erased after 7 days**, unless a judicial, administrative or disciplinary procedure is under way.[^csi-l242]
+- The Constitutional Council required the prefect to check that **no less intrusive means** exist, and renewal only if the drone remains the only means.[^cc-2021-834]
+- To ask for **access** or **erasure** of your data: write to the responsible service, then **complain to the CNIL** if there is no answer.[^cnil-videoprotection] To challenge the prefect's authorisation: référé-liberté or référé-suspension before the administrative judge, with an association or a lawyer.[^ce-recours]
+- Do not try to destroy a drone: that is damage to property ([art. 322-1](risques-penaux.md)).
+
+This article (L242-5) was amended by the law of 18 August 2026: check the version in force.
 
 ## Sources
 

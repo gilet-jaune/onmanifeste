@@ -15,6 +15,7 @@ tags:
     - **Jamais de fausse identité.**
     - La **fouille complète** d'un sac est réservée à un OPJ dans des cas précis ; la palpation se fait par une personne du même sexe.
     - Aux abords des **gares**, **péages** et **manifestations**, des contrôles et fouilles sont possibles sur **réquisition du procureur** ([voir plus bas](#aux-abords-des-gares-des-peages-et-des-manifestations)).
+    - Un **drone** ne peut filmer une manifestation que sur **autorisation écrite du préfet** ([voir plus bas](#drones-au-dessus-dune-manifestation)).
     - Amende de **135 €** : **ne payez pas sur place** si vous voulez contester ; vous avez **45 jours** après l'avis.
 
 !!! warning "Avertissement"
@@ -63,6 +64,19 @@ Les contrôles ne sont pas les mêmes selon le lieu.[^cpp-78-controles]
 !!! info "Textes en cours de recodification"
 
     Ces articles seront abrogés puis recodifiés à partir de **2029** (ordonnance n° 2025-1091 du 19 novembre 2025). Vérifiez la version en vigueur.
+
+## Drones au-dessus d'une manifestation
+
+La police et la gendarmerie peuvent filmer une manifestation avec un drone **si le préfet l'a autorisé par une décision écrite et motivée**, seulement si le rassemblement est « susceptible d'entraîner des troubles graves à l'ordre public », et **pour la durée du rassemblement**.[^csi-l242]
+
+- Le drone ne peut ni **enregistrer le son**, ni faire de **reconnaissance faciale**, ni être relié automatiquement à d'autres fichiers.[^csi-l242]
+- Le public est informé « par tout moyen approprié », sauf si les circonstances l'interdisent.[^csi-l242]
+- Les images sont en principe **effacées au bout de 7 jours**, sauf procédure judiciaire, administrative ou disciplinaire.[^csi-l242]
+- Le Conseil constitutionnel a exigé que le préfet vérifie qu'il n'existe **pas de moyen moins intrusif**, et que le renouvellement ne soit possible que si le drone reste le seul moyen.[^cc-2021-834]
+- Pour demander l'**accès** ou l'**effacement** de vos données : écrivez au service responsable, puis **saisissez la CNIL** sans réponse.[^cnil-videoprotection] Pour contester l'autorisation du préfet : référé-liberté ou référé-suspension devant le juge administratif, avec une association ou un·e avocat·e.[^ce-recours]
+- Ne tentez pas de détruire un drone : c'est une dégradation ([art. 322-1](risques-penaux.md)).
+
+Cet article (L242-5) a été modifié par la loi du 18 août 2026 : vérifiez la version en vigueur.
 
 ## Sources
 
