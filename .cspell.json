@@ -138,7 +138,13 @@
     "IFCN",
     "InVID",
     "tojson",
-    "cacatov"
+    "cacatov",
+    "FNAEG",
+    "recodified",
+    "recodifiés",
+    "recodification",
+    "recodifiées",
+    "quadcopter"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

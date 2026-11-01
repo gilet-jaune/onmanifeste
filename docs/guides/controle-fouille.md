@@ -14,6 +14,7 @@ tags:
     - Vous devez **justifier de votre identité**, sinon vérification possible jusqu'à **4 heures**.
     - **Jamais de fausse identité.**
     - La **fouille complète** d'un sac est réservée à un OPJ dans des cas précis ; la palpation se fait par une personne du même sexe.
+    - Aux abords des **gares**, **péages** et **manifestations**, des contrôles et fouilles sont possibles sur **réquisition du procureur** ([voir plus bas](#aux-abords-des-gares-des-peages-et-des-manifestations)).
     - Amende de **135 €** : **ne payez pas sur place** si vous voulez contester ; vous avez **45 jours** après l'avis.
 
 !!! warning "Avertissement"
@@ -48,6 +49,20 @@ En manifestation, la police verbalise parfois par amende forfaitaire (notamment 
 - Attendez de recevoir l'**avis de contravention** par courrier à votre domicile : vous disposez de **45 jours** à compter de l'envoi pour formuler une **requête en exonération** (par courrier recommandé avec accusé de réception ou sur l'ANTAI) en joignant vos justificatifs (par exemple : absence d'arrêté publié, absence de sommations, impossibilité de quitter une nasse).[^sp-amende][^ce-snmo]
 
 [:octicons-arrow-right-24: Guide « Dispersion, sommations et nasse »](dispersion.md) · [:octicons-arrow-right-24: Guide « Garde à vue »](garde-a-vue.md)
+
+## Aux abords des gares, des péages et des manifestations
+
+Les contrôles ne sont pas les mêmes selon le lieu.[^cpp-78-controles]
+
+- **Zones frontalières, gares, ports et aéroports internationaux** : l'identité de **toute personne**, sans motif particulier, peut être contrôlée dans la zone des **20 km** de la frontière et dans les zones accessibles au public des gares, ports et aéroports ouverts au trafic international (désignés par arrêté), ainsi qu'aux **péages d'autoroute** concernés. Limite : **12 heures consécutives** dans un même lieu, **sans contrôle systématique** des personnes présentes.
+- **Réquisitions écrites du procureur** : pour rechercher des infractions qu'il précise (terrorisme, armes, explosifs, vol, recel, trafic de stupéfiants), dans des lieux et pour une période de **24 heures renouvelables**, les policiers peuvent contrôler l'identité de toute personne, visiter les **véhicules** (en présence du conducteur) et fouiller les **bagages** (en présence du propriétaire).[^cpp-78-controles] Un **procès-verbal** vous est remis si vous le demandez.
+- **Prévenir une atteinte grave à la sécurité** (article 78-2-4) : visite du véhicule ou fouille du bagage **avec votre accord** ou, à défaut, sur instructions du procureur ; vous pouvez être retenu·e **30 minutes au plus** en attendant.[^cpp-78-2-4]
+- **Aux abords d'une manifestation** (article 78-2-5) : sur **réquisition écrite du procureur**, l'inspection visuelle et la fouille des bagages et la visite des véhicules peuvent avoir lieu sur les lieux et aux abords immédiats, pour chercher une **arme** (participation armée à une manifestation, [art. 431-10](risques-penaux.md)). Le Conseil constitutionnel a précisé que ces opérations ne peuvent viser que des **lieux déterminés et des périodes limitées**.[^cpp-78-2-5][^cc-2019-780]
+- **Dans tous les cas** : si vous ne pouvez ou ne voulez pas justifier de votre identité, la police peut vous retenir **4 heures au plus** pour la vérifier (art. 78-3, voir plus haut).[^cpp-78-3]
+
+!!! info "Textes en cours de recodification"
+
+    Ces articles seront abrogés puis recodifiés à partir de **2029** (ordonnance n° 2025-1091 du 19 novembre 2025). Vérifiez la version en vigueur.
 
 ## Sources
 

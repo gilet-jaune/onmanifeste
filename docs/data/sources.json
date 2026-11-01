@@ -4227,6 +4227,216 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "csi-l242": {
+      "title": {
+        "fr": "Légifrance — Code de la sécurité intérieure, caméras installées sur des aéronefs (L242-1 à L242-8)",
+        "en": "Légifrance — Internal Security Code, cameras on aircraft (L242-1 to L242-8; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505323/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000025505323/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2021-834": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2021-834 DC du 20 janvier 2022 (drones, § 21 à 31)",
+        "en": "Constitutional Council — Decision 2021-834 DC of 20 January 2022 (drones, §21-31; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-constitutionnel.fr/decision/2022/2021834DC.htm",
+        "en": "https://www.conseil-constitutionnel.fr/decision/2022/2021834DC.htm"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-recours": {
+      "title": {
+        "fr": "Conseil d'État — Déposer un recours (référé-liberté, référé-suspension)",
+        "en": "Council of State — File an appeal (emergency procedures; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-etat.fr/vos-demarches/je-suis-un-particulier/deposer-un-recours",
+        "en": "https://www.conseil-etat.fr/vos-demarches/je-suis-un-particulier/deposer-un-recours"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cnil-videoprotection": {
+      "title": {
+        "fr": "CNIL — La vidéoprotection (droits d'accès, d'effacement, plainte)",
+        "en": "CNIL — Video surveillance (rights of access, erasure, complaint; in French)"
+      },
+      "url": {
+        "fr": "https://www.cnil.fr/fr/la-videoprotection",
+        "en": "https://www.cnil.fr/fr/la-videoprotection"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-706-55": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 706-55 (infractions du fichier d'ADN)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 706-55 (offences listed for the DNA file; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006577732",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006577732"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-706-54-1": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 706-54-1 (effacement du fichier d'ADN)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 706-54-1 (erasure from the DNA file; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038271773",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038271773"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-fnaeg": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, fichier national automatisé des empreintes génétiques (art. 706-54 à 706-56-1-1)",
+        "en": "Légifrance — Code of Criminal Procedure, national DNA file (art. 706-54 to 706-56-1-1; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006138132/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006138132/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-76-2": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, enquête préliminaire (art. 75 à 78, dont 76-2)",
+        "en": "Légifrance — Code of Criminal Procedure, preliminary investigation (art. 75 to 78, incl. 76-2; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151877/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151877/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2010-25": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2010-25 QPC du 16 septembre 2010 (fichier d'empreintes génétiques)",
+        "en": "Constitutional Council — Decision 2010-25 QPC of 16 September 2010 (DNA file; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm",
+        "en": "https://www.conseil-constitutionnel.fr/decision/2010/201025QPC.htm"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-controles": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, contrôles, vérifications et relevés d'identité (art. 78-1 à 78-7, dont 78-2 et 78-2-2)",
+        "en": "Légifrance — Code of Criminal Procedure, identity checks (art. 78-1 to 78-7, incl. 78-2 and 78-2-2; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151880/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071154/LEGISCTA000006151880/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-2-4": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-2-4 (visite de véhicules et bagages, atteinte grave à la sécurité)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-2-4 (vehicle and bag searches; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655103",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655103"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-2-5": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-2-5 (fouilles aux abords des manifestations)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-2-5 (searches around demonstrations; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382550"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-3": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-3 (vérification d'identité)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-3 (identity verification; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049052313",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049052313"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-78-5": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 78-5 (refus d'empreintes ou de photographies)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 78-5 (refusing fingerprints or photographs; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006575183",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006575183"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

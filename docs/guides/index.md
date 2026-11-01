@@ -136,6 +136,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](armes-police.md)
 
+- **Drones et surveillance aérienne en manifestation** [:material-quadcopter:](drones.md)
+
+    ***
+
+    Quand un drone peut filmer, ce qui est interdit, comment demander l'effacement.
+
+    [:octicons-arrow-right-24: Lire](drones.md)
+
 - **Filmer les forces de l'ordre** [:material-video:](filmer.md)
 
     ***
@@ -157,6 +165,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 ## Après la manif
 
 <div class="grid cards" markdown="1">
+
+- **ADN, empreintes et photos en garde à vue** [:material-fingerprint:](adn-signalisation.md)
+
+    ***
+
+    Signalisation, prélèvement, fichier d'ADN, refus et demande d'effacement.
+
+    [:octicons-arrow-right-24: Lire](adn-signalisation.md)
 
 - **Garde à vue** [:material-scale-balance:](garde-a-vue.md)
 
