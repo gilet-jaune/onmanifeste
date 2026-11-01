@@ -1,5 +1,5 @@
 ---
-source_commit: 8c3c3a37d1b2b8462c719cb256851b6262b3ae3a
+source_commit: 357a6376a3a0d5974151e9abea92663840a1df8d
 tags:
     - guides
 ---
@@ -137,6 +137,14 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](armes-police.md)
 
+- **Drones and aerial surveillance at protests** [:material-quadcopter:](drones.md)
+
+    ***
+
+    When a drone may film, what is forbidden, how to ask for erasure.
+
+    [:octicons-arrow-right-24: Read](drones.md)
+
 - **Film the police** [:material-video:](filmer.md)
 
     ***
@@ -158,6 +166,14 @@ Guides to read before you go, **available offline** once the site has been opene
 ## After the protest
 
 <div class="grid cards" markdown="1">
+
+- **DNA, fingerprints and photos in police custody** [:material-fingerprint:](adn-signalisation.md)
+
+    ***
+
+    Signalisation, sampling, the DNA file, refusal and erasure requests.
+
+    [:octicons-arrow-right-24: Read](adn-signalisation.md)
 
 - **Police custody** [:material-scale-balance:](garde-a-vue.md)
 

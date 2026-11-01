@@ -1,5 +1,5 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+source_commit: 357a6376a3a0d5974151e9abea92663840a1df8d
 review: juridique
 review_status: pending
 tags:
@@ -14,6 +14,7 @@ tags:
 
     - You must **prove your identity**, otherwise you can be held for checks for up to **4 hours**.
     - **Never give a false identity.**
+    - Near **stations**, **toll booths** and **demonstrations**, checks and searches are possible on the **prosecutor's order** ([see below](#near-stations-toll-booths-and-demonstrations)).
     - A **full bag search** is reserved for a judicial police officer in specific cases; a pat-down is done by someone of the same sex.
     - **€135** fine: **don't pay on the spot** if you want to contest; you have **45 days** after the notice.
 
@@ -49,6 +50,20 @@ At protests, police sometimes issue fixed penalty fines (in particular **€135*
 - Wait until you receive the **fine notice (avis de contravention)** by post at home: you have **45 days** from the date it was sent to file an **exemption request (requête en exonération)** (by registered letter with acknowledgement of receipt or online via ANTAI) with supporting evidence (for example: no published ban order, no dispersal warnings given, or inability to leave a kettle).[^sp-amende][^ce-snmo]
 
 [:octicons-arrow-right-24: Guide "Dispersal, warnings and kettling"](dispersion.md) · [:octicons-arrow-right-24: Guide "Police custody"](garde-a-vue.md)
+
+## Near stations, toll booths and demonstrations
+
+Checks are not the same everywhere.[^cpp-78-controles]
+
+- **Border zones, stations, ports and international airports**: **anyone's** identity can be checked, without any particular reason, within **20 km** of the border and in the publicly accessible areas of stations, ports and airports open to international traffic (designated by order), as well as at the **motorway toll booths** concerned. Limit: **12 consecutive hours** in the same place, and **no systematic checks** on everyone present.
+- **Written orders from the prosecutor**: to look for offences they specify (terrorism, weapons, explosives, theft, handling stolen goods, drug trafficking), in places and for a period of **24 hours (renewable)**, police can check anyone's identity, search **vehicles** (with the driver present) and **bags** (with the owner present).[^cpp-78-controles] You get a **written record** if you ask for it.
+- **Preventing a serious threat to safety** (article 78-2-4): vehicle or bag search **with your consent** or, failing that, on the prosecutor's instructions; you can be held **30 minutes at most** meanwhile.[^cpp-78-2-4]
+- **Around a demonstration** (article 78-2-5): on a **written order from the prosecutor**, a visual inspection and search of bags and vehicle searches can take place at the scene and its immediate surroundings, to look for a **weapon** (taking part in a demonstration while armed, [art. 431-10](risques-penaux.md)). The Constitutional Council specified that these operations can only target **specified places and limited periods**.[^cpp-78-2-5][^cc-2019-780]
+- **In all cases**: if you cannot or will not prove your identity, police can hold you **4 hours at most** to check it (art. 78-3, see above).[^cpp-78-3]
+
+!!! info "Texts being recodified"
+
+    These articles will be repealed and recodified from **2029** (order no. 2025-1091 of 19 November 2025). Check the version in force.
 
 ## Sources
 
