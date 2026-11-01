@@ -1,5 +1,5 @@
 ---
-source_commit: 0df896868bed8485aa77f2a1c9bf461b8b4c1c7c
+source_commit: 65e92e8adeab2dcbbf31227f35baf58b1d4f101f
 review: medical
 review_status: pending
 tags:
@@ -16,6 +16,8 @@ tags:
     - Gas: get out of the cloud **facing the wind**, without running, don't rub, **rinse** with saline solution.
     - Injured person: when in doubt, **15**; pressure point if bleeding heavily; no medical procedures (stitching, removing fragments).
     - Eye injury: **don't rinse**, cover without pressing, call 112.
+    - Unconscious and breathing: **recovery position (PLS)**; not breathing: **chest compressions without stopping**.
+    - Violent blow to the head or neck: **do not move them**, head in line, helmet on.
     - Head injury: don't leave the person alone; vomiting or confusion, call 112.
     - Afterwards: get any injury **recorded** (certificate with ITT) and keep track of symptoms.
 
@@ -28,7 +30,7 @@ tags:
     - **Packing your kit** → [first aid kit](premiers-secours.md#first-aid-kit).
     - **After the protest** → [long-term follow-up](premiers-secours.md#afterwards-long-term-follow-up); [getting it documented](premiers-secours.md#afterwards-get-it-documented).
 
-Three reflexes, in order: **protect** (get yourself and the person to safety), **alert**, **help**. Look for the march's **street medics**: they are trained and equipped.[^cr-etapes]
+Three reflexes, in order: **protect** (get yourself and the person to safety), **alert**, **help**. Protect yourself too: the aim is not to end up with two victims. Look for the march's **street medics**: they are trained and equipped.[^cr-etapes]
 
 !!! warning "Life-threatening emergency"
 
@@ -47,6 +49,7 @@ Three reflexes, in order: **protect** (get yourself and the person to safety), *
 3. **What injury?**
     - **Bleeding** → press hard with a clean cloth, without letting go.[^cr-hemorragie]
     - **Eye hit by a projectile** → don't rinse, cover without pressing, **112**.
+    - **Violent blow to the head, neck or back** → **don't move them**, head in line, **112**.
     - **Head injury** → don't leave the person alone; vomiting, confusion or loss of consciousness: **112**.
     - **Burn** → lukewarm water for 10 to 20 minutes.[^cr-brulure]
 4. **Then** → street medics or a doctor; get the injuries **recorded** (certificate with ITT) and photograph them.[^ldh-violences]
@@ -72,7 +75,7 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 
 !!! info "When in doubt, call 15"
 
-    Better to call for nothing than too late. You can give **first aid** (chest compressions, recovery position, quick disinfection, pressure point): these are first-aider skills. **Medical procedures** (stitching, removing fragments) are on the other hand **strongly discouraged**, and **do not give medication**.[^medicaction-gestes]
+    Better to call for nothing than too late. You can give **first aid** (chest compressions, recovery position, quick disinfection, pressure point): these are first-aider skills. **Medical procedures** (stitching, removing fragments) are on the other hand **strongly discouraged**, and **do not give medication**. One exception: an asthmatic person in respiratory distress who asks for their inhaler. They know their treatment, **help them take it**, do not refuse it.[^medicaction-gestes][^pse-recueil]
 
 **First contact**: channel the crowd by speaking clearly and **assigning tasks to specific people** ("you in the red T-shirt, call 15"), to avoid the bystander effect. Priorities depend on the situation: form a **safety perimeter** if the area is dangerous, watch the surroundings, call the emergency services.[^medicaction-gestes]
 
@@ -88,6 +91,10 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 4. **B: bleeding.** Check they have no wounds that keep bleeding.
 5. **C: circulation.** Take their pulse: middle and index finger (**never the thumb**) on the inside of the wrist with light pressure, or in the hollow of the neck under the jaw. A person who is feeling faint has a very weak pulse.
 
+**Unconscious** (does not respond): check their breathing for 10 seconds. They **are breathing**: put them in the **recovery position (PLS)**, call 15 and keep watching their breathing, unless there was a violent blow to the head, neck or back (see below).[^cr-pls] They **are not breathing normally** or have no pulse: call 15, start **chest compressions straight away** (centre of the chest, hard and fast), **without stopping** until help arrives; if there are several of you, **swap every 2 minutes** with as little interruption as possible, and use a defibrillator if there is one.[^cr-arret-cardiaque][^pse-recueil]
+
+**Give nothing to eat or drink** to a seriously injured or half-conscious person: risk of inhalation, and they must stay fasting if they need surgery.
+
 ## First-aid kit
 
 Don't perform a procedure you don't know: get trained with {{ res("medicaction-guides") }}.[^medicaction-gestes]
@@ -101,14 +108,15 @@ Don't perform a procedure you don't know: get trained with {{ res("medicaction-g
 
 - **Bleeding**: press hard with a compress or clean cloth, without letting go, until help arrives.[^cr-hemorragie]
 - **Grenade shrapnel peppering (GM2L, GL-304, stun munition)**: tell emergency staff that red/orange plastic or black rubber fragments are **invisible on standard X-rays** (ask for an ultrasound or CT scan) and watch for shortness of breath or dizziness from the **blast effect** ([see "Police weapons: effects, injuries and debris"](armes-police.md)).[^desarmons-grenades-2024]
-- **Head blow** (baton, projectile, fall): have the person sit or lie down, don't leave them alone, call 112 if they vomit, are confused, drowsy or lost consciousness, even briefly.[^medic-gestes]
+- **Violent blow to the head, neck or back** (hard hit, serious fall): **do not move them**, ask them not to move, hold their head with both hands **in line with neck and trunk**, call 112. Do not remove their helmet unless you are trained: a trained team removes it with two people, or alone if the person is unconscious, to check breathing.[^pse-recueil]
+- **Head blow** (baton, projectile, minor fall): have the person sit or lie down, don't leave them alone, call 112 if they vomit, are confused, drowsy or lost consciousness, even briefly.[^medic-gestes]
 - **Eye injury**: don't rinse or touch an eye hurt by a projectile; cover it without pressing and call 112.
 - **Burn** (grenade, tear-gas puck): cool with lukewarm water for 10 to 20 minutes; don't burst blisters.[^cr-brulure]
 - **Explosion noise** and ringing ears: see someone quickly, hearing damage is better treated early.
 
 ## Fainting, heat, panic attack
 
-- Move the person **into the shade, somewhere calm**, seated; loosen clothing; give small sips of water if conscious.
+- Move the person **into the shade, somewhere calm**, seated; loosen clothing; give small sips of water if conscious and with no other injury.
 - Panic attack: speak calmly, offer to breathe slowly together, stay with them.
 
 ## Afterwards: long-term follow-up
