@@ -131,7 +131,7 @@ plugins:
             Agressions par l'extrême droite: Far-right attacks
             Grève, manif et travail: Strikes, protests and work
             Organiser une manifestation: Organising a protest
-            "Groupes Signal : s'organiser sans se faire infiltrer": "Signal groups: organising without being infiltrated"
+            "Groupes Signal : s'organiser en limitant les fuites": "Signal groups: organising while limiting leaks"
             S'informer et se former: Stay informed, get trained
             Vérifier une info et éviter la désinformation: Check a story and avoid disinformation
             "Réseaux sociaux : ne pas nourrir la haine": "Social media: don't feed hate"
@@ -227,7 +227,7 @@ nav:
           - Handicap ou maladie chronique: guides/handicap.md
       - Mobiliser et informer:
           - Organiser une manifestation: guides/organiser.md
-          - "Groupes Signal : s'organiser sans se faire infiltrer": guides/groupes-signal.md
+          - "Groupes Signal : s'organiser en limitant les fuites": guides/groupes-signal.md
           - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Réseaux sociaux : ne pas nourrir la haine": guides/reseaux-sociaux.md
           - Parler à la presse en manifestation: guides/parler-a-la-presse.md

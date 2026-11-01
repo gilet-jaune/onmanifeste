@@ -8,18 +8,22 @@ tags:
     - schéma
 ---
 
-# Groupes Signal : s'organiser sans se faire infiltrer
+# Groupes Signal : s'organiser en limitant les fuites
 
 !!! abstract "L'essentiel"
 
     - **Groupe public** d'annonces → **groupe sas** pour se rencontrer en vrai (proposé par n'importe qui, annoncé par un·e secrétaire) → **groupe de confiance** vérifié → **sous-groupes** par équipe.
     - **Confiance graduée** : un·e **secrétaire vérifié·e**, **un·e garant·e** et un **second contrôle des RH** pour le groupe de confiance ; **deux garant·es** pour un sous-groupe sensible. Jamais par un lien ni un code QR de groupe, **sauf pour le groupe public** (annonces, rien de sensible) : on ajoute les personnes **par nom d'utilisateur**, depuis une conversation privée.
-    - **Aucune vérification n'arrête un·e infiltré·e déterminé·e** : n'écrivez rien que vous ne voudriez pas voir lu en garde à vue.
+    - **Aucune vérification n'arrête une fuite déterminée** : n'écrivez rien que vous ne voudriez pas voir lu en garde à vue.
     - Avant d'entrer : un **nom de militant·e** court, utilisé aussi en vrai ; numéro caché à **tout le monde** ; messages **éphémères**, dans chaque groupe dès sa création.
     - Quelqu'un se fait embarquer : on le **retire de tous ses groupes tout de suite**, par précaution.
     - Groupe compromis : si l'on **sait par où ça fuit**, on retire la fuite et le groupe continue ; sinon, on **déménage** et on réinvite **un par un**.
 
-Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant leur transport, pas contre une personne présente dans le groupe ni contre un téléphone saisi. L'organisation des groupes, elle, peut limiter ce qu'une infiltration ou une saisie révèle.
+Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant leur transport, pas contre une personne présente dans le groupe ni contre un téléphone saisi. L'organisation des groupes, elle, peut limiter ce qu'une fuite ou une saisie révèle.
+
+!!! warning "Chiffrer est légal, mais cela peut être retourné contre vous"
+
+    Utiliser Signal n'est pas une infraction. Dans l'affaire dite du 8 décembre, la DGSI décrit les mis en cause comme ayant adopté un « comportement clandestin » avec des applications chiffrées, Tails et Tor, et cette formule revient très souvent dans le dossier, selon La Quadrature du Net, qui l'a analysé avant le procès.[^lqdn-8-decembre] Les sept prévenus ont été condamnés en décembre 2023 pour association de malfaiteurs terroriste.[^politis-8-decembre] Aucune de ces deux sources ne dit que le chiffrement a été jugé comme une infraction : il est cité comme **indice**. Ce dossier est un cas grave et très éloigné d'une manifestation ordinaire, mais il montre qu'on peut vous relire : **n'écrivez rien que vous ne voudriez pas voir cité**, et ne comptez pas sur le chiffrement pour vous protéger d'une lecture hostile.
 
 !!! info "Par où commencer ?"
 
@@ -32,7 +36,7 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 
 !!! warning "Partez du principe que quelqu'un lit"
 
-    Une rencontre en vrai écarte les curieux, les trolls et l'extrême droite, pas un·e policier·e infiltré·e bien préparé·e ni une personne qui parle après une garde à vue. Les messages écrits servent de preuves : participer sciemment à un groupement qui **prépare** des violences ou des dégradations est puni d'un an de prison et 15 000 € d'amende, même si rien n'a eu lieu.[^cp-222-14-2] Dans les groupes : **logistique, entraide, infos publiques**. Le reste ne s'écrit pas.
+    Une rencontre en vrai écarte les curieux, les trolls et l'extrême droite, pas une personne malintentionnée bien préparée (policier·e, journaliste, provocateur·rice) ni une personne qui parle après une garde à vue. Les messages écrits servent de preuves : participer sciemment à un groupement qui **prépare** des violences ou des dégradations est puni d'un an de prison et 15 000 € d'amende, même si rien n'a eu lieu.[^cp-222-14-2] Dans les groupes : **logistique, entraide, infos publiques**. Le reste ne s'écrit pas.
 
 !!! tip "Ce guide est public : adaptez-le"
 
@@ -66,7 +70,7 @@ Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardie
 
 </div>
 
-Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](groupes-signal.md#nommer-les-groupes)). Une personne infiltrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](groupes-signal.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
+Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](groupes-signal.md#nommer-les-groupes)). Une personne malintentionnée entrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](groupes-signal.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
 
 **Deux portes pour entrer dans le groupe de confiance :**
 
@@ -215,7 +219,7 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 - [ ] **Pas de localisation en direct** : un lieu de rendez-vous se donne en vrai, ou au dernier moment dans le groupe sas.
 - [ ] **Besoin d'aide ? Nommez quelqu'un** : « @Lou, tu peux t'occuper de la banderole samedi ? » plutôt que « quelqu'un peut… ? ». Plus un groupe est grand, moins chacun·e répond, sauf quand on nomme la personne.[^markey-2000][^darley-latane-1968] **Urgence** : le **15** ou le **112**, pas le groupe.
 - [ ] **Libellé** : Signal permet d'afficher votre rôle à côté de votre nom, dans chaque groupe séparément ; mettez-le seulement si la charte le prévoit (voir [libellés de rôle](groupes-signal.md#libelles-de-role)).
-- [ ] **Un doute sur quelqu'un** : les RH, en privé. Jamais d'accusation dans le groupe : une rumeur d'infiltration détruit un groupe plus sûrement qu'un·e infiltré·e.
+- [ ] **Un doute sur quelqu'un** : les RH, en privé. Jamais d'accusation dans le groupe : une rumeur de fuite détruit un groupe plus sûrement qu'une vraie fuite.
 - [ ] **Ne partagez jamais le lien ni le code QR d'un groupe sas, de confiance ou d'un sous-groupe** (seul le lien du groupe public se partage) : donnez votre **nom d'utilisateur** à la personne qui doit vous ajouter, et ajoutez les autres de la même façon. Un lien aperçu quelque part : signalez-le aux gardien·nes, qui le **désactivent tout de suite**.[^signal-lien-groupe]
 
 ### Si vous êtes arrêté·e ou perdez votre téléphone
@@ -260,7 +264,7 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 - [ ] **Aucun groupe sas ne donne accès seul aux groupes vérifiés.** N'importe qui peut créer un groupe qui se dit « sas », y compris une personne mal intentionnée : seuls comptent ceux qu'un·e secrétaire annonce dans le groupe public, et même eux restent une rencontre ouverte, rien de plus. Dites-le dans le groupe public.
 - [ ] **Ce qu'y voit une personne** : l'heure et le lieu, les noms de militant·e des autres, et, à la rencontre, le visage du ou de la secrétaire. On n'y écrit donc rien d'autre, et les secrétaires **tournent**.
 - [ ] **Ce n'est pas une salle d'attente** : il sert à **une** rencontre. Les personnes pas encore validées restent dans le groupe public.
-- [ ] **À la rencontre, on ne vérifie pas l'identité.** Ni papiers, ni vrai nom, ni métier, ni quartier : ces questions fabriquent des informations qui identifient, et un·e infiltré·e a une histoire toute prête. Parler de tout et de rien met à l'aise, sans questions personnelles et sans rien noter ; pas de tour de table sur le métier ou le quartier, pour protéger aussi les nouvelles personnes les unes des autres. On vérifie plutôt :
+- [ ] **À la rencontre, on ne vérifie pas l'identité.** Ni papiers, ni vrai nom, ni métier, ni quartier : ces questions fabriquent des informations qui identifient, et une personne malintentionnée a une histoire toute prête. Parler de tout et de rien met à l'aise, sans questions personnelles et sans rien noter ; pas de tour de table sur le métier ou le quartier, pour protéger aussi les nouvelles personnes les unes des autres. On vérifie plutôt :
     1. **le compte et les réglages** : code QR scanné, nom de militant·e, numéro caché ;
     2. **qui la connaît** : « comment as-tu connu le groupe ? quelqu'un ici ou dans le mouvement te connaît ? », pour repérer un·e garant·e possible ;
     3. **ce qu'elle veut faire** : quelles actions, quelle équipe ;
@@ -280,7 +284,7 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 ### Recruteur·ses et secrétaires
 
 - [ ] **Plusieurs de chaque**, pour ne dépendre de personne, et qui tournent.
-- [ ] **Les recruteur·ses ne valident pas** et ne peuvent pas être garant·es de leurs propres recrues : sinon, une seule personne infiltrée fait entrer tout son entourage. Ils et elles ne sont pas gardien·nes des groupes vérifiés (le rôle expose), et envoient la liste des [réglages](groupes-signal.md#vos-reglages) avant une rencontre.
+- [ ] **Les recruteur·ses ne valident pas** et ne peuvent pas être garant·es de leurs propres recrues : sinon, une seule personne malintentionnée fait entrer tout son entourage. Ils et elles ne sont pas gardien·nes des groupes vérifiés (le rôle expose), et envoient la liste des [réglages](groupes-signal.md#vos-reglages) avant une rencontre.
 - [ ] **Les secrétaires sont des membres déjà vérifié·es**, jamais une personne du groupe sas désignée sur place. Les nouvelles personnes peuvent en revanche prendre de petites tâches sans droits dans Signal (gérer le temps, distribuer la parole, accueillir à la porte) : ça les implique et les fait connaître.
 - [ ] **Pendant la rencontre**, chaque personne manipule elle-même son téléphone et montre ses écrans ; personne ne prend un téléphone déverrouillé en main.
 - [ ] **Aucune liste** de présence, aucune note avec des noms.
@@ -299,7 +303,7 @@ La rencontre est un **premier contact**. On valide ensuite selon le niveau du gr
 
 - **Parcours rapide**, quand quelqu'un la connaît déjà : rencontre au groupe sas (15 minutes de réglages et scan du code QR), confirmation du ou de la garant·e, nettoyage du groupe sas, second contrôle des RH, ajout au groupe de confiance. **Le jour même.**
 - **Parcours lent**, quand personne ne la connaît : elle vient aux actions pendant quelques semaines. Ce temps ne se raccourcit pas : c'est le seul moyen de connaître quelqu'un.
-- **Ce que la vérification ne garantit pas** : les intentions. Un·e infiltré·e qui a un·e vrai·e garant·e passera ; d'où « rien d'illégal par écrit » et le cloisonnement en sous-groupes.
+- **Ce que la vérification ne garantit pas** : les intentions. Une personne malintentionnée qui a un·e vrai·e garant·e passera ; d'où « rien d'illégal par écrit » et le cloisonnement en sous-groupes.
 
 <figure class="venn" markdown>
 <svg viewBox="0 0 360 300" role="img" aria-labelledby="venn-title venn-desc" xmlns="http://www.w3.org/2000/svg">
@@ -328,7 +332,7 @@ La rencontre est un **premier contact**. On valide ensuite selon le niveau du gr
 - [ ] **Personne ne la connaît ?** Elle vient aux actions publiques pendant quelques semaines ; les membres vérifiés qui l'ont vue agir et ont parlé avec elle peuvent ensuite se porter garant·es.
 - [ ] **Croisé·e en manif, même comme medic ?** Ce n'est pas encore la connaître : n'importe qui peut porter un brassard medic ou une chasuble legal, et les sous-groupes de ces équipes sont sensibles. Pas d'ajout direct dans un groupe de confiance. En revanche, l'avoir vu·e agir sur **plusieurs** actions et lui avoir parlé permet de se porter garant·e ; et si elle vient d'un collectif connu (street medics, legal team), un membre vérifié qui connaît ce collectif peut être son ou sa garant·e.
 - [ ] **Une personne très active ?** Un membre vérifié qui a agi à ses côtés sur deux ou trois actions la **propose** à un·e secrétaire et devient son ou sa garant·e. Le ou la secrétaire la rencontre, au besoin sur place pendant une action (scanner un code QR prend 10 secondes), puis les RH l'ajoutent : le jour même ou le lendemain. Les syndicats, associations et collectifs aident aussi : un membre vérifié qui la connaît par son syndicat ou son collectif peut être son ou sa garant·e tout de suite.
-- [ ] **Jamais de garantie entre nouvelles personnes** : plusieurs personnes infiltrées arrivées ensemble se valideraient mutuellement. Pas de vote non plus, ni de seuil de « oui ».
+- [ ] **Jamais de garantie entre nouvelles personnes** : plusieurs personnes malintentionnées arrivées ensemble se valideraient mutuellement. Pas de vote non plus, ni de seuil de « oui ».
 - [ ] **Un seul doute sérieux suffit pour attendre** : le ou la secrétaire en parle aux RH, qui tranchent.
 - [ ] **Signal prévient quand deux membres d'un groupe portent le même nom** : vérifiez, c'est peut-être une usurpation.[^signal-confidentialite-numero]
 - [ ] **Ne demandez jamais** pièce d'identité, photo, adresse ou employeur : ça crée un fichier dangereux en cas de saisie, et ça ne prouve rien.
@@ -492,7 +496,7 @@ Un groupe est compromis quand une personne qui ne devrait pas peut **lire ses me
 - un téléphone est **perdu ou volé** ;
 - un membre **inconnu** apparaît, ou quelqu'un a été ajouté sans être validé par un·e secrétaire ;
 - Signal indique que le **numéro de sécurité** d'un membre a changé alors qu'il est en garde à vue ou a perdu son téléphone : son compte a peut-être été réinstallé ailleurs ;[^eff-signal]
-- un·e infiltré·e est **identifié·e**.
+- une **fuite** est constatée (une personne a transmis des informations du groupe).
 
 **À évaluer, sans paniquer :**
 
@@ -502,7 +506,7 @@ Un groupe est compromis quand une personne qui ne devrait pas peut **lire ses me
 
 **La question clé : sait-on par où ça fuit ?** La « fuite », c'est la personne ou le téléphone par lequel quelqu'un d'extérieur accède au groupe.
 
-- **On le sait, et on l'a retiré** (un membre arrêté avec son téléphone, un téléphone perdu, un·e infiltré·e démasqué·e) : ce téléphone ou cette personne a vu le **passé** (historique, membres, nom), mais plus rien de l'**avenir**. Le groupe peut continuer.
+- **On le sait, et on l'a retiré** (un membre arrêté avec son téléphone, un téléphone perdu, une personne à l'origine d'une fuite identifiée) : ce téléphone ou cette personne a vu le **passé** (historique, membres, nom), mais plus rien de l'**avenir**. Le groupe peut continuer.
 - **On ne le sait pas** (une info sortie sans qu'on sache par qui, un doute sans coupable identifié) : la fuite est peut-être encore dans le groupe ; le passé **et** l'avenir sont exposés. Il faut **déménager**.
 
 ### Retrait conservatoire

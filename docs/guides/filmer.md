@@ -50,6 +50,7 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 - [ ] Publiez une **copie**, jamais l'original.
 - [ ] **Floutez tout ce qui rend une personne identifiable**, pas seulement les visages : tatouages, coupe ou couleur de cheveux, vêtements, sacs ou chaussures reconnaissables, badges, banderoles portant un nom, voix (coupez le son si besoin). L'outil de floutage de Signal aide pour les visages ; le reste se fait à la main.[^signal-blur][^witness-police][^eff-protest]
 - [ ] **Supprimez les métadonnées** de la copie (mat2) : elles révèlent votre position et votre appareil.[^mat2]
+- [ ] **Floutez aussi le visage des policier·es** avant de diffuser, par prudence, sauf si leur visage est nécessaire à la preuve : gardez alors l'original intact et remettez-le à l'avocat·e ou à la legal team. Diffuser des informations qui permettent d'identifier ou de localiser une personne pour l'exposer à un risque direct d'atteinte est un délit ; flouter écarte toute ambiguïté.[^doxxing]
 - [ ] Ne publiez pas d'**informations personnelles** sur les agents (nom, adresse, famille) : les exposer à un risque est un délit, même si filmer leur intervention reste légal.[^doxxing]
 - [ ] **Archivez la publication** (la vôtre, ou une déclaration officielle) avec la Wayback Machine ou archive.today : elle restera consultable si elle est supprimée.[^wayback] N'envoyez pas de vidéo brute avec des visages sur une archive publique.
 

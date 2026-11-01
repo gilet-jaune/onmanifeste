@@ -2154,8 +2154,8 @@
         {
           "id": "groupes",
           "label": {
-            "fr": "structurer nos groupes de discussion sans être infiltré·es",
-            "en": "structure our discussion groups without being infiltrated"
+            "fr": "limiter les fuites de nos groupes de discussion",
+            "en": "limit leaks from our discussion groups"
           },
           "keywords": [
             "signal",

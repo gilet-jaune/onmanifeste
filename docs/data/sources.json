@@ -2659,6 +2659,21 @@
         "by": "ai"
       }
     },
+    "lqdn-8-decembre": {
+      "title": {
+        "fr": "La Quadrature du Net — Criminalisation du chiffrement : l'affaire du 8 décembre (5 juin 2023)",
+        "en": "La Quadrature du Net — Criminalization of encryption: the 8 December case (5 June 2023)"
+      },
+      "url": {
+        "fr": "https://www.laquadrature.net/en/2023/06/05/criminalization-of-encryption-the-8-december-case/",
+        "en": "https://www.laquadrature.net/en/2023/06/05/criminalization-of-encryption-the-8-december-case/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "lyoncapitale-legay-appel": {
       "title": {
         "fr": "Lyon Capitale — Six mois avec sursis confirmés en appel pour le commissaire",
@@ -2994,6 +3009,21 @@
       "url": "https://www.publicsenat.fr/actualites/politique/pitie-salpetriere-castaner-tente-de-clore-la-polemique-140795",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "politis-8-decembre": {
+      "title": {
+        "fr": "Politis — « Affaire du 8 décembre » : l'inquiétante condamnation de militants comme terroristes (22 décembre 2023)",
+        "en": "Politis — \"8 December case\": the worrying conviction of activists as terrorists (22 December 2023; in French)"
+      },
+      "url": {
+        "fr": "https://www.politis.fr/articles/2023/12/affaire-du-8-decembre-linquietante-condamnation-de-militants-comme-terroristes/",
+        "en": "https://www.politis.fr/articles/2023/12/affaire-du-8-decembre-linquietante-condamnation-de-militants-comme-terroristes/"
+      },
+      "check": {
+        "date": "2026-11-01",
         "result": "confirmed",
         "by": "ai"
       }

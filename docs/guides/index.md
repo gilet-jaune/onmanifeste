@@ -250,7 +250,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](organiser.md)
 
-- **Groupes Signal : s'organiser sans se faire infiltrer** [:material-account-group:](groupes-signal.md)
+- **Groupes Signal : s'organiser en limitant les fuites** [:material-account-group:](groupes-signal.md)
 
     ***
 

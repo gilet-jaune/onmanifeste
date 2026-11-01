@@ -93,7 +93,7 @@ Merci de partager ce lien plutôt que la rumeur.
 
 - **Une personne référente** pour les rumeurs : elle vérifie, elle répond, les autres lui transmettent. Dans un groupe organisé, c'est un bon rôle pour une personne de confiance.
 - **Un message épinglé** « bilans et rumeurs : seulement des sources » évite que chacun·e relaie ce qu'il·elle a vu passer.
-- Pour les groupes Signal, voir [Groupes Signal : s'organiser sans se faire infiltrer](groupes-signal.md).
+- Pour les groupes Signal, voir [Groupes Signal : s'organiser en limitant les fuites](groupes-signal.md).
 
 ## Avant de partager
 
