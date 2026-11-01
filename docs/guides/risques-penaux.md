@@ -45,11 +45,13 @@ Un objet ordinaire dans un sac ne devient donc pas une arme par lui-même : ce s
 
 ## Quelques cas dont on parle
 
-Le Code pénal ne cite aucun de ces objets ; la qualification dépend de ce qu'on en fait. Ce sont des illustrations, pas des qualifications certaines.
+Le Code pénal ne cite pas la plupart de ces objets (seules les substances explosives ou incendiaires sont visées) ; la qualification dépend de ce qu'on en fait. Ce sont des illustrations, pas des qualifications certaines.
 
 - **Un laser dirigé vers des personnes**, notamment vers les yeux ou vers des agent·es : l'objet peut être regardé comme utilisé pour blesser ou menacer, donc assimilé à une arme, et le fait peut être poursuivi comme violences volontaires.[^cp-132-75][^cp-222-13]
 - **Des matières sales ou d'autres substances lancées sur des personnes** (ce qu'on appelle un « cacatov », ou des ballons remplis de peinture ou d'un autre liquide) : lancer sur des personnes peut être poursuivi comme violences, et l'envoi d'objets adressés à un·e agent·e entre dans l'outrage.[^cp-222-13][^cp-433-5] Si c'est un bien qui est visé (une façade, un véhicule), c'est la dégradation.[^cp-322-1]
 - **Un équipement dit « renforcé »** : casque, lunettes et masque sont des protections ordinaires (voir [Kit et tenue de manif](kit-manif.md)). Un équipement rigide ou renforcé que l'on destine à frapper, blesser ou menacer, ou que l'on utilise ainsi, peut être assimilé à une arme,[^cp-132-75] ce qui change la peine encourue pour le port d'arme en manifestation.[^cp-431-10]
+- **Un engin incendiaire** (ce qu'on appelle un « cocktail Molotov ») : c'est l'un des cas les plus lourds. Détruire ou dégrader le bien d'autrui par une substance explosive, un incendie ou tout moyen de nature à créer un danger pour les personnes est puni de **10 ans et 150 000 €**, davantage s'il y a des blessé·es.[^cp-322-6] La seule **détention ou le transport** de produits incendiaires ou explosifs en vue de préparer ces faits ou des atteintes aux personnes est puni de **7 ans et 100 000 €**.[^cp-322-11-1]
+- **Renvoyer une grenade lacrymogène** vers les forces de l'ordre : aucun article ne vise ce geste. Il est analysé selon ce qu'il provoque et l'objet : lancer un objet sur des agent·es peut être poursuivi comme violences sur personne dépositaire de l'autorité publique.[^cp-222-13] L'objet utilisé pour blesser ou menacer peut être regardé comme une arme (art. 132-75),[^cp-132-75] ce qui rejoint le port d'arme en manifestation.[^cp-431-10] Les grenades sont par ailleurs classées parmi les « matériels de guerre » (catégorie A2) du code de la sécurité intérieure : ce classement administratif ne suffit pas à lui seul à fixer la qualification pénale.[^csi-r311-2] Le juge apprécie chaque situation.
 
 ## Ce que ce guide ne fait pas
 

@@ -4437,6 +4437,51 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "cp-322-6": {
+      "title": {
+        "fr": "Légifrance — Code pénal, art. 322-6 (destruction par substance explosive, incendie ou moyen dangereux)",
+        "en": "Légifrance — Criminal Code, art. 322-6 (destruction by explosive, fire or dangerous means; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418281",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418281"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-322-11-1": {
+      "title": {
+        "fr": "Légifrance — Code pénal, art. 322-11-1 (détention de produits incendiaires ou explosifs)",
+        "en": "Légifrance — Criminal Code, art. 322-11-1 (possession of incendiary or explosive products; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032654707",
+        "en": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032654707"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-r311-2": {
+      "title": {
+        "fr": "Légifrance — Code de la sécurité intérieure, art. R311-2 (classement des matériels de guerre, armes et munitions)",
+        "en": "Légifrance — Internal Security Code, art. R311-2 (classification of war material, weapons and ammunition; in French)"
+      },
+      "url": {
+        "fr": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029658942/",
+        "en": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000025503132/LEGISCTA000029658942/"
+      },
+      "check": {
+        "date": "2026-11-01",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
