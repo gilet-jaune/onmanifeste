@@ -1,5 +1,5 @@
 ---
-source_commit: 8c3c3a37d1b2b8462c719cb256851b6262b3ae3a
+source_commit: fac437d929a4e30406432937f1e27386f22abd86
 review: juridique
 review_status: pending
 tags:
@@ -46,11 +46,13 @@ An ordinary object in a bag does not become a weapon by itself: its use and the 
 
 ## A few cases people talk about
 
-The Criminal Code names none of these objects; the classification depends on what is done with them. These are illustrations, not certain classifications.
+The Criminal Code names few of these objects (only explosive or incendiary substances are covered); the classification depends on what is done with them. These are illustrations, not certain classifications.
 
 - **A laser aimed at people**, in particular at the eyes or at officers: the object may be seen as used to wound or threaten, therefore treated as a weapon, and the act may be prosecuted as deliberate violence.[^cp-132-75][^cp-222-13]
 - **Dirty matter or other substances thrown at people** (what is called a "cacatov", or balloons filled with paint or another liquid): throwing at people may be prosecuted as violence, and sending objects addressed to an officer falls under contempt.[^cp-222-13][^cp-433-5] If it is property that is targeted (a facade, a vehicle), it is damage.[^cp-322-1]
 - **So-called "reinforced" equipment**: helmets, goggles and masks are ordinary protection (see [Protest kit and outfit](kit-manif.md)). Rigid or reinforced equipment that you intend to hit, wound or threaten with, or use that way, may be treated as a weapon,[^cp-132-75] which changes the penalty for carrying a weapon at a protest.[^cp-431-10]
+- **An incendiary device** (what is called a "Molotov cocktail"): this is one of the heaviest cases. Destroying or damaging someone's property by an explosive substance, fire or any means likely to endanger people is punished by **10 years and €150,000**, more if people are injured.[^cp-322-6] Merely **possessing or transporting** incendiary or explosive products in order to prepare such acts or attacks on people is punished by **7 years and €100,000**.[^cp-322-11-1]
+- **Throwing a tear-gas grenade back** at law enforcement: no article targets this act. It is analysed according to what it causes and the object: throwing an object at officers can be prosecuted as violence against a person holding public authority.[^cp-222-13] An object used to wound or threaten can be treated as a weapon (art. 132-75),[^cp-132-75] which links to carrying a weapon at a demonstration.[^cp-431-10] Grenades are also classed among "war material" (category A2) in the Internal Security Code: this administrative classification alone does not fix the criminal classification.[^csi-r311-2] The judge assesses each situation.
 
 ## What this guide does not do
 
