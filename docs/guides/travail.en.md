@@ -1,5 +1,5 @@
 ---
-source_commit: 75672b8e6cec78b3139da7c9f47188e891f91757
+source_commit: b89675c8b51d31919df07d2f7016eed18d97f1fa
 review: juridique
 review_status: pending
 tags:
@@ -16,6 +16,7 @@ tags:
     - Public employees: the **duty of discretion** is about how you express yourself, not about the right to protest.
     - Pay is docked **in proportion** to the stoppage (for example 1/30 per day in the civil service).
     - Protesting **outside working hours** is your private life; otherwise, take leave or join a strike.
+    - Social work, care, support: public hospitals can **assign** strikers back to work and the prefect can **requisition** staff; organise with colleagues and a union first.
     - A job that blocks nothing: **numbers** count, a few hours can be enough, and you can **support** those whose stoppage weighs more.
 
 Striking is a right; so is protesting. But time off work is handled differently depending on the case and your sector.
@@ -70,8 +71,31 @@ An office or administrative job rarely blocks a production chain on its own. Tha
 ### Slowdowns and work-to-rule
 
 - To be protected from any sanction for striking, the movement must be a **total stoppage of work, collective, with work-related demands known to the employer**. Otherwise it can be ruled unlawful: no more protection, and sanction or dismissal become possible.[^sp-greve-prive]
-- Slowing your work down (a "grève perlée") or following the rules to the letter without stopping (a "grève du zèle") is not a total stoppage: **these forms are risky**. Talk to a union first.
+- Slowing your work down (a "grève perlée") or following the rules to the letter without stopping (a "grève du zèle") is not a total stoppage: **these forms are risky**. In the civil service, taking part is a fault that can justify a disciplinary sanction.[^sp-greve-public] Talk to a union first.
 - In a transport dispute (a public service), the Versailles court of appeal held that one notice can cover short work stoppages spread over several days, and that a strike only becomes abusive in case of serious disorganisation, which the employer must prove. The Cour de cassation rejected the appeal, without publishing the ruling in its bulletin.[^cass-2017-greve-desorganisation] This concerns public services: do not assume it applies to your company.
+
+## Social work, care and support work
+
+When people depend on you, striking raises a real dilemma: feeling guilty about "abandoning" them is common. It says nothing about your right, which stays the same. What changes is what your employer can impose on you.
+
+### What the law provides, depending on your employer
+
+- **Public hospital**: the head of the establishment organises the minimum service. They can **assign** a striking employee back to work, by an individual letter, to ensure continuity of care.[^sp-greve-public]
+- **Requisition by the prefect**: if the strike seriously undermines the continuity of the public service or the population's needs, the prefect can requisition staff, stating the reason.[^sp-greve-public] The general provision lets the prefect, in an emergency, require by reasoned order "any person necessary" to run the service. **Refusing to comply is an offence** (six months' imprisonment and a €10,000 fine).[^cgct-l2215-1]
+- **Local civil service**: a minimum service can be negotiated for care of older and disabled people, nurseries, after-school care, school and collective catering, public transport and household waste collection. Without an agreement after 12 months, it is set by council resolution. In these services you must **declare your intention to strike 48 hours beforehand** (including one working day), and the declaration is used only to organise the service.[^sp-greve-public]
+- **Ordinary private employer** (a company, an association with no public-service mission): unless a statute says otherwise, the employer **can never requisition** striking employees. The Cour de cassation overturned the sanction of a striker who had refused to take part in a "minimum security service" imposed by the employer (a factory, not a care service).[^cass-2009-requisition-greve] Requisition by the prefect, above, remains possible.
+- **Private body running a public service**: the 5-clear-day notice applies.[^ct-l2512-1] The Conseil d'État held that its management bodies can limit the exercise of the right to strike, under a judge's review, but only where no alternative exists and through strictly necessary measures (the case concerned EDF).[^ce-2013-greve-service-public-prive] A private health establishment **authorised to provide the public hospital service**, including private non-profit establishments of collective interest, carries out a public-service mission: it presumably falls into this category.[^csp-l6112-3][^csp-l6161-5] For the medico-social sector, the Code of Social Action and Families speaks of "general-interest and social-utility missions", carried out by public or private bodies, without calling them a public service.[^casf-l311-1] We found no decision settling it: it depends on the organisation's mission. **Ask your union** before acting.
+- You will read broader claims about what management can impose (on managers, for example). We could only verify the mechanisms above: if in doubt, ask a union or a lawyer.
+
+### Striking without abandoning the people you support
+
+These pointers are organising common sense, not established rules:
+
+- [ ] **Do not leave alone**: an isolated absence shifts the load onto a team that is already short-staffed. Decide with colleagues and a union.
+- [ ] **Prepare continuity**: knowing in advance which vital needs stay covered avoids being assigned or requisitioned in an emergency.
+- [ ] **Inform the people you support and their families**: they also suffer from falling resources.
+- [ ] **Involve them**: an open assembly or a presence at the picket lets you frame shared demands rather than set them against each other.
+- [ ] **Do not slow down in silence**: slowdowns do not protect you ([see above](travail.md#slowdowns-and-work-to-rule)). If stopping is impossible, consider [protesting outside working hours](travail.md#protesting-without-striking) or [financial support](travail.md#financially-supporting-strikers).
 
 ## Financially supporting strikers
 
