@@ -15,6 +15,7 @@ tags:
     - Agent·e public : le **devoir de réserve** porte sur la manière de s'exprimer, pas sur le droit de manifester.
     - Retenue sur salaire **proportionnelle** à l'arrêt (par exemple 1/30 par journée dans la fonction publique).
     - Manifester **hors temps de travail** relève de votre vie privée ; sinon, posez un congé ou faites grève.
+    - Social, soin, accompagnement : l'hôpital public peut **assigner** des grévistes et le préfet peut **réquisitionner** ; organisez-vous avec vos collègues et un syndicat avant.
     - Poste qui ne bloque rien : le **nombre** compte, quelques heures suffisent, et vous pouvez **soutenir** celles et ceux dont l'arrêt pèse davantage.
 
 Faire grève est un droit ; manifester aussi. Mais une absence au travail ne se gère pas de la même façon selon le cas et selon votre secteur.
@@ -69,8 +70,31 @@ Un poste de bureau ou administratif bloque rarement une chaîne à lui seul. Ce 
 ### Grève perlée et grève du zèle
 
 - Pour être protégé·e de toute sanction pour fait de grève, le mouvement doit être un **arrêt total du travail, collectif, avec des revendications professionnelles connues de l'employeur**. Sinon, il peut être jugé illicite : plus de protection, et sanction ou licenciement possibles.[^sp-greve-prive]
-- Ralentir son travail (grève perlée) ou l'exécuter à la lettre sans l'arrêter (grève du zèle) n'est pas un arrêt total du travail : **ces formes sont risquées**. Discutez-en avec un syndicat avant.
+- Ralentir son travail (grève perlée) ou l'exécuter à la lettre sans l'arrêter (grève du zèle) n'est pas un arrêt total du travail : **ces formes sont risquées**. Dans la fonction publique, y participer constitue une faute pouvant justifier une sanction disciplinaire.[^sp-greve-public] Discutez-en avec un syndicat avant.
 - Dans un conflit de transports (service public), la cour d'appel de Versailles a jugé qu'un même préavis peut porter sur des arrêts de travail courts étalés sur plusieurs jours, et qu'une grève ne devient abusive qu'en cas de désorganisation grave, à prouver par l'employeur. La Cour de cassation a rejeté le pourvoi, sans publier l'arrêt au bulletin.[^cass-2017-greve-desorganisation] Cela concerne les services publics : ne le généralisez pas à votre entreprise.
+
+## Travail social, soin et accompagnement
+
+Quand des personnes dépendent de vous, la grève pose un vrai dilemme : la culpabilité d'« abandonner » est courante. Elle ne dit rien de votre droit, qui reste le même. Ce qui change, c'est ce que votre employeur peut vous imposer.
+
+### Ce que prévoit la loi selon votre employeur
+
+- **Hôpital public** : le directeur d'établissement organise le service minimum. Il peut **assigner** un agent gréviste à reprendre son service, par une lettre individuelle, pour assurer la permanence des soins.[^sp-greve-public]
+- **Réquisition par le préfet** : si la grève porte gravement atteinte à la continuité du service public ou aux besoins de la population, le préfet peut réquisitionner des agents, en précisant son motif.[^sp-greve-public] Le texte général permet, en cas d'urgence, de requérir par arrêté motivé « toute personne nécessaire au fonctionnement » du service. **Refuser d'obéir est un délit** (six mois d'emprisonnement et 10 000 € d'amende).[^cgct-l2215-1]
+- **Fonction publique territoriale** : un service minimum peut être négocié pour l'aide aux personnes âgées et handicapées, les crèches, l'accueil périscolaire, la restauration collective, les transports et les ordures ménagères. À défaut d'accord après 12 mois, il est fixé par délibération. Dans ces services, vous devez **déclarer votre intention de faire grève 48 heures avant** (dont un jour ouvré), et cette déclaration ne sert qu'à organiser le service.[^sp-greve-public]
+- **Employeur privé ordinaire** (entreprise, association sans mission de service public) : sauf disposition législative contraire, l'employeur **ne peut en aucun cas réquisitionner** des salariés grévistes. La Cour de cassation a censuré la sanction d'un gréviste qui avait refusé de participer à un « service minimum de sécurité » imposé par l'employeur (une usine, pas un service de soins).[^cass-2009-requisition-greve] La réquisition par le préfet, ci-dessus, reste possible.
+- **Organisme privé responsable d'un service public** : le préavis de 5 jours francs s'applique.[^ct-l2512-1] Le Conseil d'État a jugé que ses organes dirigeants peuvent limiter l'exercice du droit de grève, sous le contrôle du juge, mais seulement si aucune solution alternative n'existe et par des mesures strictement nécessaires (l'affaire concernait EDF).[^ce-2013-greve-service-public-prive] Un établissement de santé privé **habilité à assurer le service public hospitalier**, dont les établissements privés non lucratifs d'intérêt collectif, exerce une mission de service public : il entre a priori dans cette catégorie.[^csp-l6112-3][^csp-l6161-5] Pour le médico-social, le Code de l'action sociale et des familles parle de « missions d'intérêt général et d'utilité sociale », exercées par des organismes publics ou privés, sans les qualifier de service public.[^casf-l311-1] Nous n'avons trouvé aucune décision qui tranche : cela dépend de la mission de la structure. **Demandez à votre syndicat** avant d'agir.
+- Vous lirez des affirmations plus larges sur ce que la direction peut imposer (par exemple aux cadres). Nous n'avons pu vérifier que les mécanismes ci-dessus : en cas de doute, demandez à un syndicat ou à un·e avocat·e.
+
+### Faire grève sans abandonner les personnes
+
+Ces repères sont de l'organisation, pas des règles établies :
+
+- [ ] **Ne pas partir seul·e** : une absence isolée reporte la charge sur une équipe déjà en sous-effectif. Décidez avec vos collègues et un syndicat.
+- [ ] **Préparer la continuité** : savoir à l'avance quels besoins vitaux restent couverts évite de subir une assignation ou une réquisition en urgence.
+- [ ] **Informer les personnes accompagnées et leurs proches** : ce sont elles qui subissent aussi la baisse des moyens.
+- [ ] **Les associer** : une AG ouverte ou une permanence sur le piquet permet de formuler des revendications communes plutôt que de les opposer.
+- [ ] **Ne pas ralentir en silence** : les ralentissements ne protègent pas ([voir plus haut](travail.md#greve-perlee-et-greve-du-zele)). Si l'arrêt est impossible, pensez à la [manif hors temps de travail](travail.md#manifester-sans-faire-greve) ou au [soutien financier](travail.md#soutenir-financierement-des-grevistes).
 
 ## Soutenir financièrement des grévistes
 

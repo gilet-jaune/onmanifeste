@@ -2096,6 +2096,116 @@
       "group": "situation"
     },
     {
+      "id": "social-soin",
+      "label": {
+        "fr": "je travaille dans le social, le soin ou l'accompagnement de personnes",
+        "en": "I work in social work, care or supporting people"
+      },
+      "keywords": [
+        "social",
+        "travail social",
+        "educateur",
+        "educatrice",
+        "assistant social",
+        "assistante sociale",
+        "medico-social",
+        "soignant",
+        "aide-soignant",
+        "infirmier",
+        "infirmiere",
+        "hopital",
+        "creche",
+        "handicap",
+        "continuite de service",
+        "service minimum",
+        "assignation",
+        "requisition",
+        "usagers",
+        "personnes accompagnees",
+        "social worker",
+        "care worker",
+        "nurse",
+        "minimum service"
+      ],
+      "needs": [
+        {
+          "id": "droits",
+          "label": {
+            "fr": "savoir ce que mon employeur peut m'imposer (service minimum, assignation, réquisition)",
+            "en": "know what my employer can impose (minimum service, assignment, requisition)"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "ce-que-prevoit-la-loi-selon-votre-employeur",
+                "en": "what-the-law-provides-depending-on-your-employer"
+              },
+              "label": {
+                "fr": "Ce que prévoit la loi selon votre employeur",
+                "en": "What the law provides, depending on your employer"
+              }
+            },
+            {
+              "resource": "sp-greve-public"
+            }
+          ]
+        },
+        {
+          "id": "organiser",
+          "label": {
+            "fr": "faire grève sans abandonner les personnes",
+            "en": "strike without abandoning the people I support"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "faire-greve-sans-abandonner-les-personnes",
+                "en": "striking-without-abandoning-the-people-you-support"
+              },
+              "label": {
+                "fr": "Faire grève sans abandonner les personnes",
+                "en": "Striking without abandoning the people you support"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soutenir",
+          "label": {
+            "fr": "soutenir sans m'arrêter",
+            "en": "support without stopping work"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "manifester-sans-faire-greve",
+                "en": "protesting-without-striking"
+              },
+              "label": {
+                "fr": "Manifester sans faire grève",
+                "en": "Protesting without striking"
+              }
+            },
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "soutenir-financierement-des-grevistes",
+                "en": "financially-supporting-strikers"
+              },
+              "label": {
+                "fr": "Soutenir financièrement des grévistes",
+                "en": "Financially supporting strikers"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "situation"
+    },
+    {
       "id": "fonctionnaire",
       "label": {
         "fr": "fonctionnaire ou agent·e public",
@@ -2137,6 +2247,26 @@
               "label": {
                 "fr": "Faire grève dans la fonction publique",
                 "en": "Striking in the public service"
+              }
+            }
+          ]
+        },
+        {
+          "id": "service-minimum",
+          "label": {
+            "fr": "service minimum, assignation ou réquisition",
+            "en": "minimum service, assignment or requisition"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "ce-que-prevoit-la-loi-selon-votre-employeur",
+                "en": "what-the-law-provides-depending-on-your-employer"
+              },
+              "label": {
+                "fr": "Ce que prévoit la loi selon votre employeur",
+                "en": "What the law provides, depending on your employer"
               }
             }
           ]
