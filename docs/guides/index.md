@@ -162,7 +162,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     ***
 
-    Signalisation, prélèvement, fichier d'ADN, refus et demande d'effacement.
+    Signalisation, prélèvement, fichier TAJ, fichier d'ADN, refus et demande d'effacement.
 
     [:octicons-arrow-right-24: Lire](adn-signalisation.md)
 

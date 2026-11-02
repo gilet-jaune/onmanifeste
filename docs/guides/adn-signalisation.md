@@ -50,6 +50,8 @@ C'est pourquoi la question « accepter ou refuser ? » ne se règle pas seul·e 
 
 ## Le TAJ : refuser la photo n'empêche pas le fichage
 
+Le **TAJ** (traitement d'antécédents judiciaires) est un fichier commun à la police et à la gendarmerie, qui remplace les anciens STIC et JUDEX. Il contient les données des personnes mises en cause **et des victimes**. Il est distinct du casier judiciaire : on peut y figurer sans condamnation.[^cnil-taj] Il sert aussi aux enquêtes administratives, par exemple pour l'accès à certains emplois.[^cnil-taj-droits]
+
 - Le TAJ est alimenté par les données recueillies **au cours des enquêtes** (préliminaire, flagrance, commission rogatoire) pour **tout crime ou délit**, et pour certaines contraventions de 5e classe.[^cpp-230-6] L'article ne lie pas le fichage à la photo : les données de la procédure suffisent, donc refuser d'être photographié·e ne garantit pas de ne pas être fiché·e.
 - Le procureur contrôle le fichier. À votre demande, il peut ordonner l'**effacement**, la **rectification** ou une **mention**, et répond dans un délai de **2 mois**.[^cpp-230-8] Après une **relaxe ou un acquittement définitifs**, les données sont **effacées**, sauf s'il en prescrit le maintien ; après un **non-lieu ou un classement sans suite**, elles font l'objet d'une **mention** (donc ne sont plus consultables pour les enquêtes administratives), sauf effacement ordonné.[^cpp-230-8] Son refus peut être contesté devant le président de la chambre de l'instruction.[^cpp-230-8]
 

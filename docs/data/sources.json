@@ -4710,6 +4710,36 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "cnil-taj": {
+      "title": {
+        "fr": "CNIL — TAJ (traitement d'antécédents judiciaires, anciens STIC et JUDEX) : c'est quoi ?",
+        "en": "CNIL — TAJ (criminal records processing file, formerly STIC and JUDEX): what is it? (in French)"
+      },
+      "url": {
+        "fr": "https://www.cnil.fr/fr/cnil-direct/question/taj-traitement-dantecedents-judiciaires-anciens-stic-et-judex-cest-quoi",
+        "en": "https://www.cnil.fr/fr/cnil-direct/question/taj-traitement-dantecedents-judiciaires-anciens-stic-et-judex-cest-quoi"
+      },
+      "check": {
+        "date": "2026-11-02",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cnil-taj-droits": {
+      "title": {
+        "fr": "CNIL — TAJ : comment exercer vos droits ?",
+        "en": "CNIL — TAJ: how to exercise your rights? (in French)"
+      },
+      "url": {
+        "fr": "https://www.cnil.fr/fr/taj-comment-exercer-vos-droits",
+        "en": "https://www.cnil.fr/fr/taj-comment-exercer-vos-droits"
+      },
+      "check": {
+        "date": "2026-11-02",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

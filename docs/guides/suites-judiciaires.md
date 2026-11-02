@@ -80,6 +80,10 @@ Devant le tribunal, la personne prévenue a toujours le **droit de refuser d'êt
 
 [:octicons-arrow-right-24: Avocats, aide juridictionnelle et caisses de solidarité dans l'annuaire](../annuaire/index.md?situation=avocat-proces)
 
+## Après l'affaire : faire effacer les fichiers
+
+Si l'affaire est **classée sans suite**, si vous êtes **relaxé·e** ou bénéficiez d'un **non-lieu**, vos données peuvent rester dans le **TAJ** (traitement d'antécédents judiciaires) et votre empreinte dans le **FNAEG**. Vous pouvez demander au procureur de les **effacer** ou d'y faire porter une **mention**.[^cpp-230-8][^cpp-706-54-1] Les démarches et les recours sont dans [ADN, empreintes et photos](adn-signalisation.md#demander-leffacement).
+
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.

@@ -26,7 +26,7 @@ Deux fiches d'**une page A4**, à imprimer et à plier : elles restent utiles si
 3. Je ne parle **de personne** d'autre : ni noms, ni description.
 4. Je **relis** chaque procès-verbal. Je ne signe pas ce qui est inexact ; je peux refuser de signer.
 5. Je **ne déverrouille pas** mon téléphone sans en parler à l'avocat·e.
-6. **Photos, empreintes, ADN** : le refus est un délit (1 an et 15 000 €). J'en parle **à l'avocat·e avant de décider**.
+6. **Photos, empreintes, ADN** : le refus est un délit (1 an et 15 000 €). J'en parle **à l'avocat·e avant de décider**. Refuser la photo n'évite pas le **TAJ** (traitement d'antécédents judiciaires ; guide « ADN, empreintes et photos »).
 7. Je note l'**heure d'arrivée**, les noms des policiers, ce qui m'est pris.
 8. **Mineur·e** : mes parents doivent être prévenus, l'avocat·e est obligatoire.
 

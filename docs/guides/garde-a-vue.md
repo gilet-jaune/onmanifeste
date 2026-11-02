@@ -61,7 +61,7 @@ Durée : **24 heures**, renouvelable une fois (48 heures) pour la plupart des fa
 - **Dignité** : la garde à vue doit se dérouler dans des conditions qui respectent votre dignité, et seules les mesures de sécurité strictement nécessaires peuvent vous être imposées.[^cpp-63-5]
 - **En cellule**, un matelas et une couverture doivent être mis à votre disposition ; vous pouvez boire de l'eau et bénéficier de **repas chauds aux heures normales**.[^sp-gav]
 - **Fouille** : la palpation est faite par une personne **de même sexe**. La **fouille intégrale** (vous pouvez devoir vous déshabiller) n'est possible que si elle est **indispensable à l'enquête**, sur décision d'un OPJ, par une personne de même sexe et dans un lieu fermé. Une fouille interne ne peut être faite que par **un médecin**.[^sp-gav]
-- **Photos et empreintes** peuvent alimenter les fichiers de police, dont le **TAJ** (traitement d'antécédents judiciaires) pour la photo.[^sp-gav] Voir [ADN, empreintes et photos](adn-signalisation.md).
+- **Photos et empreintes** peuvent alimenter les fichiers de police, dont le **TAJ** (traitement d'antécédents judiciaires) pour la photo.[^sp-gav] Refuser la photo **n'empêche pas** le fichage : le TAJ est alimenté par la procédure. Voir [ADN, empreintes et photos](adn-signalisation.md#le-taj-refuser-la-photo-nempeche-pas-le-fichage).
 - **Vos affaires** (téléphone, portefeuille) peuvent être retirées ; elles doivent vous être rendues ensuite, sauf si elles sont saisies.[^sp-gav]
 
 ## Les réflexes
