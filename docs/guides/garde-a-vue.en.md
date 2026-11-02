@@ -1,5 +1,5 @@
 ---
-source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
+source_commit: 8c383bb7c7dd780ea652c54511e87a6b84942eef
 review: juridique
 review_status: pending
 tags:
@@ -62,7 +62,7 @@ Duration: **24 hours**, renewable once (48 hours) for most offences alleged at p
 - **Dignity**: custody must take place in conditions that respect your dignity, and only strictly necessary security measures may be imposed on you.[^cpp-63-5]
 - **In the cell**, a mattress and a blanket must be provided; you can drink water and have **hot meals at normal times**.[^sp-gav]
 - **Searches**: a pat-down is done by a person **of the same sex**. A **strip search** (you may have to undress) is only possible if **indispensable to the investigation**, decided by an OPJ, carried out by a person of the same sex in a closed room. An internal search can only be done by **a doctor**.[^sp-gav]
-- **Photos and fingerprints** can feed police files, including the **TAJ** (criminal records processing file) for the photo.[^sp-gav] See [DNA, fingerprints and photos](adn-signalisation.md).
+- **Photos and fingerprints** can feed police files, including the **TAJ** (criminal records processing file) for the photo.[^sp-gav] Refusing the photo **does not prevent** registration: the TAJ is fed by the procedure. See [DNA, fingerprints and photos](adn-signalisation.md#the-taj-refusing-the-photo-does-not-prevent-registration).
 - **Your belongings** (phone, wallet) can be removed; they must be returned afterwards unless seized.[^sp-gav]
 
 ## Reflexes

@@ -1,5 +1,5 @@
 ---
-source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
+source_commit: 8c383bb7c7dd780ea652c54511e87a6b84942eef
 review: juridique
 review_status: pending
 tags:
@@ -50,6 +50,8 @@ The list in article 706-55 includes in particular: **intentional violence** (222
 That is why the question "accept or refuse?" is not settled alone in a police station: a refusal can add a prosecution to the one that led to custody.
 
 ## The TAJ: refusing the photo does not prevent registration
+
+The **TAJ** (_traitement d'antécédents judiciaires_, criminal records processing file) is a file shared by the police and the gendarmerie, which replaces the former STIC and JUDEX. It holds the data of people under investigation **and of victims**. It is separate from the criminal record: you can be in it without any conviction.[^cnil-taj] It is also used for administrative inquiries, for example for access to certain jobs.[^cnil-taj-droits]
 
 - The TAJ is fed by data collected **during investigations** (preliminary, flagrante delicto, letters rogatory) for **any crime or offence**, and for some fifth-class contraventions.[^cpp-230-6] The article does not tie registration to the photo: the procedure data is enough, so refusing to be photographed does not guarantee you will not be registered.
 - The prosecutor oversees the file. At your request, they can order **erasure**, **rectification** or a **note**, and must answer within **2 months**.[^cpp-230-8] After a **final acquittal**, the data is **erased**, unless the prosecutor orders it kept; after a **dismissal or a case closed without action**, it carries a **note** (so it can no longer be consulted for administrative inquiries), unless erasure is ordered.[^cpp-230-8] A refusal can be challenged before the president of the investigating chamber.[^cpp-230-8]

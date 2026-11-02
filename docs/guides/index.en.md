@@ -1,5 +1,5 @@
 ---
-source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
+source_commit: 8c383bb7c7dd780ea652c54511e87a6b84942eef
 tags:
     - guides
 ---
@@ -163,7 +163,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     ***
 
-    Signalisation, sampling, the DNA file, refusal and erasure requests.
+    Signalisation, sampling, the TAJ file, the DNA file, refusal and erasure requests.
 
     [:octicons-arrow-right-24: Read](adn-signalisation.md)
 

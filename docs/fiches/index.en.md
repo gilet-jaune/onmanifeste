@@ -1,5 +1,5 @@
 ---
-source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
+source_commit: 8c383bb7c7dd780ea652c54511e87a6b84942eef
 review: juridique
 review_status: pending
 tags:
@@ -27,7 +27,7 @@ Two **single A4 page** sheets to print and fold: they stay useful if your phone 
 3. I talk about **no one else**: no names, no descriptions.
 4. I **re-read** every statement. I do not sign anything inaccurate; I can refuse to sign.
 5. I **do not unlock** my phone without talking to the lawyer.
-6. **Photos, fingerprints, DNA**: refusing is an offence (1 year and €15,000). I talk to **the lawyer before deciding**.
+6. **Photos, fingerprints, DNA**: refusing is an offence (1 year and €15,000). I talk to **the lawyer before deciding**. Refusing the photo does not avoid the **TAJ** (criminal records processing file; guide "DNA, fingerprints and photos").
 7. I note the **arrival time**, the officers' names, and what is taken from me.
 8. **Minor**: my parents must be informed, a lawyer is compulsory.
 

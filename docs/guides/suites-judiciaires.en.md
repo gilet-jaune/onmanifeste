@@ -1,5 +1,5 @@
 ---
-source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
+source_commit: 8c383bb7c7dd780ea652c54511e87a6b84942eef
 review: juridique
 review_status: pending
 tags:
@@ -80,6 +80,10 @@ You can also **hand them in advance to a trusted contact**, who will pass them t
 Before the court, the defendant always has the **right to refuse to be tried that same day** and to request an adjournment: the case is then sent to a hearing held **4 to 10 weeks** later (the defendant may waive the 4-week minimum), to prepare their defence with their lawyer.[^sp-ci][^cpp-397-1]
 
 [:octicons-arrow-right-24: Lawyers, legal aid and solidarity funds in the directory](../annuaire/index.md?situation=avocat-proces)
+
+## After the case: getting files erased
+
+If the case is **dropped**, you are **acquitted** or get a **dismissal (non-lieu)**, your data may remain in the **TAJ** (criminal records processing file) and your DNA profile in the **FNAEG**. You can ask the prosecutor to **erase** it or to add a **mention** to it.[^cpp-230-8][^cpp-706-54-1] The steps and appeals are in [DNA, fingerprints and photos](adn-signalisation.md#asking-for-erasure).
 
 ## Sources
 
