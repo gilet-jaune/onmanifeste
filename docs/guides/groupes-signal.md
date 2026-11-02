@@ -140,7 +140,7 @@ Ces rôles font fonctionner le réseau Signal (recrutement, accueil, modération
 
 ### Rôles utiles en manif
 
-Ces rôles de terrain s'exercent en manifestation selon vos besoins. Chacun s'appuie sur un sous-groupe (`Medic`, `Legal`…) et sur un guide du site :
+Ces rôles de manif s'exercent en manifestation selon vos besoins. Ils se répartissent **entre les membres déjà présents**, selon les capacités et la disponibilité de chacun·e, et peuvent changer d'une action à l'autre : on ne recrute pas pour un rôle. Chacun s'appuie sur un sous-groupe (`Medic`, `Legal`…) et sur un guide du site :
 
 | Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Pour en savoir plus |
 | --- | --- | --- | --- |
@@ -218,7 +218,7 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 - [ ] **Floutez les visages** avant d'envoyer une photo, avec l'outil de floutage de Signal.[^signal-blur] Pas de vrais noms, d'adresses, de captures d'écran.
 - [ ] **Pas de localisation en direct** : un lieu de rendez-vous se donne en vrai, ou au dernier moment dans le groupe sas.
 - [ ] **Besoin d'aide ? Nommez quelqu'un** : « @Lou, tu peux t'occuper de la banderole samedi ? » plutôt que « quelqu'un peut… ? ». Plus un groupe est grand, moins chacun·e répond, sauf quand on nomme la personne.[^markey-2000][^darley-latane-1968] **Urgence** : le **15** ou le **112**, pas le groupe.
-- [ ] **Libellé** : Signal permet d'afficher votre rôle à côté de votre nom, dans chaque groupe séparément ; mettez-le seulement si la charte le prévoit (voir [libellés de rôle](groupes-signal.md#libelles-de-role)).
+- [ ] **Libellé** : Signal permet d'afficher votre rôle de manif (medic, legal…) à côté de votre nom, dans chaque groupe séparément ; mettez-le seulement si la charte le prévoit, et jamais un rôle d'organisation (voir [libellés de rôle](groupes-signal.md#libelles-de-role)).
 - [ ] **Un doute sur quelqu'un** : les RH, en privé. Jamais d'accusation dans le groupe : une rumeur de fuite détruit un groupe plus sûrement qu'une vraie fuite.
 - [ ] **Ne partagez jamais le lien ni le code QR d'un groupe sas, de confiance ou d'un sous-groupe** (seul le lien du groupe public se partage) : donnez votre **nom d'utilisateur** à la personne qui doit vous ajouter, et ajoutez les autres de la même façon. Un lien aperçu quelque part : signalez-le aux gardien·nes, qui le **désactivent tout de suite**.[^signal-lien-groupe]
 
@@ -453,22 +453,21 @@ Signal ne permet pas de supprimer un groupe pour tout le monde : le **fermer**, 
 
 Signal permet à chaque membre d'afficher un **libellé** à côté de son nom. Chacun·e ne peut en mettre un **qu'à lui-même ou elle-même**, et il ne vaut **que dans le groupe où il est créé** : à refaire dans chaque groupe. Les libellés sont chiffrés, et les gardien·nes peuvent les réserver aux gardien·nes (Paramètres du groupe › Permissions).[^signal-libelles]
 
+**Un libellé n'indique qu'un rôle de manif** (medic, legal…), jamais un rôle d'organisation (secrétaire, RH, gardien·ne, recruteur·se) : ceux-là désignent les personnes clés et ne servent pas aux autres membres.
+
 Gardez une **liste commune** dans la charte, pour que tout le monde utilise les mêmes mots, par exemple :
 
 | Libellé        | Rôle                                                       |
 | -------------- | ---------------------------------------------------------- |
-| `Secrétaire`   | Accompagne et valide les nouvelles personnes               |
-| `RH`           | Reçoit les doutes, décide des retraits                     |
-| `Gardien·ne`   | Garde les clés du groupe (admin dans Signal)               |
-| `Recruteur·se` | Oriente vers le groupe public et les groupes sas           |
 | `Medic`        | Premiers secours                                           |
 | `Legal`        | Observation, contacts avocat·es, suivi des interpellations |
 | `Construction` | Banderoles, pancartes, matériel                            |
 | `Logistique`   | Transport, nourriture, stockage                            |
 | `Com`          | Visuels, annonces, réseaux                                 |
 
-- [ ] **N'importe qui peut s'afficher « RH » ou « Gardien·ne »** si tout le monde a le droit de se mettre un libellé. Dans le groupe public et le groupe sas, réservez les libellés aux admins ; ailleurs, vérifiez : un·e vrai·e gardien·ne porte aussi la mention « Admin » de Signal, et les RH et secrétaires sont des personnes que vous avez rencontrées en vrai.
-- [ ] **Un libellé se voit sur un téléphone saisi** : il désigne les personnes clés. Dans les grands groupes, seulement les rôles utiles aux autres (medic, legal, secrétaire), et pas de libellé qui désigne un niveau (« orga », « noyau »).
+- [ ] **N'importe qui peut s'afficher « Medic » ou « Legal »** si tout le monde a le droit de se mettre un libellé : c'est une indication, pas une preuve. Dans le groupe public et le groupe sas, réservez les libellés aux admins ; ailleurs, vérifiez en vrai (voir le [rôle medic ou legal](groupes-signal.md#roles-utiles-en-manif)), comme pour un brassard.
+- [ ] **Les rôles de manif se répartissent entre les membres déjà présents, selon leurs capacités, et les libellés suivent** : un libellé indique le rôle tenu **en ce moment**, pas un statut. Quand le rôle passe à quelqu'un d'autre, l'ancien titulaire retire son libellé et le nouveau met le sien.
+- [ ] **Un libellé se voit sur un téléphone saisi** : dans les grands groupes, seulement les rôles de manif utiles aux autres, **jamais un rôle d'organisation** (RH, secrétaire, gardien·ne), et pas de libellé qui désigne un niveau (« orga », « noyau »).
 
 **Sans libellé**, les rôles se connaissent autrement : la mention « Admin » désigne déjà les gardien·nes ; être dans le sous-groupe `Medic`, c'est être medic ; le ou la secrétaire présente les rôles à la rencontre, et un tour rapide au début d'une action (« qui est medic, qui est legal aujourd'hui ? ») suffit. Évitez le champ « À propos » du profil : il se voit dans toutes vos conversations.
 
@@ -664,7 +663,7 @@ Besoin d'aide : nommez quelqu'un (@nom). Urgence : 15 ou 112.
 
 3. ANONYMAT ET RÔLES
 Votre nom de militant·e, ici comme en vrai. Pas de vrais noms, pas d'adresses, pas de photos de visages, pas de captures d'écran. Numéro caché, messages éphémères activés.
-Libellé : votre rôle dans ce groupe (Medic, Legal, Construction, Logistique, Com…), à remettre dans chaque groupe. « Gardien·ne » et « RH » : seulement si c'est vraiment votre rôle.
+Libellé : votre rôle dans ce groupe (Medic, Legal, Construction, Logistique, Com…), à remettre dans chaque groupe. Jamais de rôle d'organisation (RH, secrétaire, gardien·ne) en libellé.
 
 4. SI VOUS ÊTES ARRÊTÉ·E OU PERDEZ VOTRE TÉLÉPHONE
 En garde à vue, vous avez le droit de vous taire : ne parlez de personne. On vous retire de tous les groupes par précaution : rien de personnel. Ne commentez pas l'arrestation ici. Prévenez votre secrétaire ou les RH dès que possible, en vrai ou par un·e camarade, pour revenir.
