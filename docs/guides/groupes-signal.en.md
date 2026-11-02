@@ -1,5 +1,5 @@
 ---
-source_commit: da8b28ac5f89807ae34b11e7ed8764d90230a04a
+source_commit: 62e92618857feff66af4afaa2092cf80b584a193
 review: juridique
 review_status: pending
 tags:
@@ -141,7 +141,7 @@ These roles keep the Signal network running (recruitment, onboarding, moderation
 
 ### Roles useful at protests
 
-These ground roles operate during protests according to your needs. Each relies on a sub-group (`Medic`, `Legal`…) and on a guide on this site:
+These protest roles operate during protests according to your needs. They are shared out **among the members already there**, according to each person's skills and availability, and can change from one action to the next: you don't recruit for a role. Each relies on a sub-group (`Medic`, `Legal`…) and on a guide on this site:
 
 | Role | What they do | What they don't do | Learn more |
 | --- | --- | --- | --- |
@@ -219,7 +219,7 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **Blur faces** before sending a photo, with Signal's blur tool.[^signal-blur] No real names, addresses or screenshots.
 - [ ] **No live location**: a meeting place is given in person, or at the last minute in the airlock group.
 - [ ] **Need help? Name someone**: "@Lou, can you handle the banner on Saturday?" rather than "can anyone…?". The bigger a group, the less each person responds, except when you name the person.[^markey-2000][^darley-latane-1968] **Emergency**: call **15** or **112**, not the group.
-- [ ] **Label**: Signal lets you show your role next to your name, in each group separately; only set one if the charter says so (see [role labels](groupes-signal.md#role-labels)).
+- [ ] **Label**: Signal lets you show your protest role (medic, legal…) next to your name, in each group separately; only set one if the charter says so, and never an organising role (see [role labels](groupes-signal.md#role-labels)).
 - [ ] **Doubts about someone**: HR, privately. Never accuse anyone in the group: a rumour of a leak destroys a group more surely than a real leak.
 - [ ] **Never share the link or QR code of an airlock group, a trusted group or a sub-group** (only the public group's link is shared): give your **username** to the person who must add you, and add others the same way. If you spot a link somewhere, tell the keyholders, who **turn it off straight away**.[^signal-lien-groupe]
 
@@ -454,22 +454,21 @@ Signal cannot delete a group for everyone: **closing** it means removing members
 
 Signal lets each member show a **label** next to their name. Each person can only set one **for themselves**, and it only applies **in the group where it was created**: it has to be set again in each group. Labels are end-to-end encrypted, and keyholders can restrict them to keyholders (Group settings › Permissions).[^signal-libelles]
 
+**A label only shows a protest role** (medic, legal…), never an organising role (secretary, HR, keyholder, recruiter): those point to key people and are of no use to other members.
+
 Keep a **shared list** in the charter, so everyone uses the same words, for example:
 
-| Label       | Role                                                 |
-| ----------- | ---------------------------------------------------- |
-| `Secretary` | Supports and validates newcomers                     |
-| `HR`        | Receives doubts, decides on removals                 |
-| `Keyholder` | Holds the group's keys (admin in Signal)             |
-| `Recruiter` | Points people to the public group and airlock groups |
-| `Medic`     | First aid                                            |
-| `Legal`     | Observing, lawyer contacts, following up arrests     |
-| `Build`     | Banners, placards, equipment                         |
-| `Logistics` | Transport, food, storage                             |
-| `Comms`     | Visuals, announcements, social media                 |
+| Label       | Role                                             |
+| ----------- | ------------------------------------------------ |
+| `Medic`     | First aid                                        |
+| `Legal`     | Observing, lawyer contacts, following up arrests |
+| `Build`     | Banners, placards, equipment                     |
+| `Logistics` | Transport, food, storage                         |
+| `Comms`     | Visuals, announcements, social media             |
 
-- [ ] **Anyone can show "HR" or "Keyholder"** if everyone is allowed to set a label. In the public group and the airlock group, restrict labels to admins; elsewhere, check: a real keyholder also carries Signal's "Admin" tag, and HR and secretaries are people you have met in person.
-- [ ] **A label is visible on a seized phone**: it points to key people. In large groups, only roles that are useful to others (medic, legal, secretary), and no label that reveals a level ("orga", "core").
+- [ ] **Anyone can show "Medic" or "Legal"** if everyone is allowed to set a label: it is an indication, not proof. In the public group and the airlock group, restrict labels to admins; elsewhere, check in person (see the [medic or legal role](groupes-signal.md#roles-useful-at-protests)), as you would for an armband.
+- [ ] **Protest roles are shared out among the members already there, according to their skills, and labels follow**: a label shows the role held **right now**, not a status. When a role passes to someone else, the previous holder removes their label and the new one sets theirs.
+- [ ] **A label is visible on a seized phone**: in large groups, only protest roles that are useful to others, **never an organising role** (HR, secretary, keyholder), and no label that reveals a level ("orga", "core").
 
 **Without labels**, roles can be known in other ways: the "Admin" tag already marks the keyholders; being in the `Medic` sub-group means being a medic; the secretary introduces the roles at the meeting, and a quick round at the start of an action ("who's medic, who's legal today?") is enough. Avoid the profile "About" field: it shows in all your conversations.
 
@@ -663,7 +662,7 @@ Need help: name someone (@name). Emergency: 15 or 112.
 
 3. ANONYMITY AND ROLES
 Your activist name, here and in person. No real names, no addresses, no photos of faces, no screenshots. Hidden number, disappearing messages on.
-Label: your role in this group (Medic, Legal, Build, Logistics, Comms…), to set again in each group. "Keyholder" and "HR": only if that really is your role.
+Label: your role in this group (Medic, Legal, Build, Logistics, Comms…), to set again in each group. Never an organising role (HR, secretary, keyholder) as a label.
 
 4. IF YOU ARE ARRESTED OR LOSE YOUR PHONE
 In police custody, you have the right to remain silent: talk about no one. You will be removed from all groups as a precaution: nothing personal. Don't discuss the arrest here. Tell your secretary or HR as soon as possible, in person or through a comrade, to come back.
