@@ -373,6 +373,13 @@
                 "fr": "Pancartes, banderoles, drapeaux et tracts",
                 "en": "Signs, banners, flags and leaflets"
               }
+            },
+            {
+              "guide": "chants",
+              "label": {
+                "fr": "Chants de manifestation",
+                "en": "Protest chants"
+              }
             }
           ]
         },
@@ -1008,6 +1015,28 @@
               "label": {
                 "fr": "Les réflexes",
                 "en": "Reflexes"
+              }
+            },
+            {
+              "guide": "adn-signalisation",
+              "anchor": {
+                "fr": "refuser-un-delit-a-part-entiere",
+                "en": "refusing-an-offence-in-its-own-right"
+              },
+              "label": {
+                "fr": "Refuser photo, empreintes ou ADN : un délit",
+                "en": "Refusing photo, fingerprints or DNA: an offence"
+              }
+            },
+            {
+              "guide": "adn-signalisation",
+              "anchor": {
+                "fr": "demander-leffacement",
+                "en": "asking-for-erasure"
+              },
+              "label": {
+                "fr": "Demander l’effacement des données",
+                "en": "Asking for erasure of your data"
               }
             }
           ],
