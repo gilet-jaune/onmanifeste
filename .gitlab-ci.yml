@@ -1,0 +1,99 @@
+# =========================================================================
+# AWESOME PROTEST - GitLab CI/CD (mirror of .github/workflows)
+# =========================================================================
+# Kept in case of a migration to GitLab. Equivalent of validate.yml +
+# deploy-pages.yml:
+# 1. validate: format, lint, spellcheck, registry, README, strict build
+# 2. linkcheck: lychee on the built site (blocks merge requests only)
+# 3. pages: publishes the site to GitLab Pages (default branch only)
+#
+# One-time setup: nothing, GitLab Pages is enabled by the `pages` job.
+# =========================================================================
+
+stages:
+  - validate
+  - deploy
+
+variables:
+  GIT_DEPTH: "0" # full history: translation freshness compares commits
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  npm_config_cache: "$CI_PROJECT_DIR/.cache/npm"
+
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "web"
+
+default:
+  cache:
+    key: docs-cache
+    paths:
+      - .cache/
+
+docs:quality:
+  stage: validate
+  image: node:24
+  script:
+    - npm ci
+    - npm run format:check
+    - npm run lint
+    - npm run spellcheck
+    - npm run validate:data
+    - npm run readme:check
+
+docs:awesome-lint:
+  stage: validate
+  image: node:24
+  # Submission rules for awesome lists; must not stop a publication.
+  allow_failure: true
+  script:
+    - npx --yes awesome-lint README.md
+
+docs:build:
+  stage: validate
+  image: python:3.13
+  variables:
+    SITE_URL: "$CI_PAGES_URL/"
+  script:
+    - pip install -r requirements.txt
+    - mkdocs build --strict --clean --site-dir site
+  artifacts:
+    paths:
+      - site
+    expire_in: 1 day
+
+docs:linkcheck:
+  stage: validate
+  needs: ["docs:build"]
+  image:
+    name: lycheeverse/lychee:latest
+    entrypoint: [""]
+  # An external site being down must not stop a publication: blocks merge requests only.
+  allow_failure:
+    exit_codes: 2
+  script:
+    - lychee --config lychee.toml './site/**/*.html'
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      allow_failure: false
+    - when: on_success
+      allow_failure: true
+
+# The job must be named `pages` and expose `public/` for GitLab Pages.
+pages:
+  stage: deploy
+  image: alpine:3
+  needs: ["docs:quality", "docs:build"]
+  dependencies: ["docs:build"]
+  script:
+    - mv site public
+  artifacts:
+    paths:
+      - public
+  environment:
+    name: pages
+    url: $CI_PAGES_URL
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  resource_group: pages
