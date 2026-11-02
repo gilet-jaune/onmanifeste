@@ -1940,6 +1940,157 @@
               }
             }
           ]
+        },
+        {
+          "id": "soutenir",
+          "label": {
+            "fr": "soutenir des grévistes sans bloquer ma chaîne de travail",
+            "en": "support strikers when my job doesn't block anything"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "si-votre-absence-ne-bloque-rien",
+                "en": "if-your-absence-blocks-nothing"
+              },
+              "label": {
+                "fr": "Si votre absence ne bloque rien",
+                "en": "If your absence blocks nothing"
+              }
+            },
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "soutenir-financierement-des-grevistes",
+                "en": "financially-supporting-strikers"
+              },
+              "label": {
+                "fr": "Soutenir financièrement des grévistes",
+                "en": "Financially supporting strikers"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "situation"
+    },
+    {
+      "id": "soutien-greve",
+      "label": {
+        "fr": "pas en position de bloquer (poste de bureau…) mais je veux soutenir une grève",
+        "en": "not in a position to block anything (office job…) but I want to support a strike"
+      },
+      "keywords": [
+        "bureau",
+        "administratif",
+        "tertiaire",
+        "cadre",
+        "teletravail",
+        "poste utile",
+        "chaine de production",
+        "pas de levier",
+        "greve",
+        "greviste",
+        "soutien financier",
+        "caisse de greve",
+        "caisse de solidarite",
+        "cagnotte",
+        "parrainer",
+        "gagne bien ma vie",
+        "office job",
+        "white collar",
+        "strike fund",
+        "support strikers"
+      ],
+      "needs": [
+        {
+          "id": "peser",
+          "label": {
+            "fr": "peser quand même sur un mouvement",
+            "en": "still weigh on a movement"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "si-votre-absence-ne-bloque-rien",
+                "en": "if-your-absence-blocks-nothing"
+              },
+              "label": {
+                "fr": "Si votre absence ne bloque rien",
+                "en": "If your absence blocks nothing"
+              }
+            },
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "manifester-sans-faire-greve",
+                "en": "protesting-without-striking"
+              },
+              "label": {
+                "fr": "Manifester sans faire grève",
+                "en": "Protesting without striking"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soutenir",
+          "label": {
+            "fr": "soutenir financièrement des grévistes",
+            "en": "financially support strikers"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "soutenir-financierement-des-grevistes",
+                "en": "financially-supporting-strikers"
+              },
+              "label": {
+                "fr": "Soutenir financièrement des grévistes",
+                "en": "Financially supporting strikers"
+              }
+            },
+            {
+              "resource": "caisse-solidarite"
+            }
+          ]
+        },
+        {
+          "id": "droits",
+          "label": {
+            "fr": "connaître mes droits et mes risques",
+            "en": "know my rights and risks"
+          },
+          "results": [
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "secteur-prive",
+                "en": "private-sector"
+              },
+              "label": {
+                "fr": "Secteur privé",
+                "en": "Private sector"
+              }
+            },
+            {
+              "guide": "travail",
+              "anchor": {
+                "fr": "greve-perlee-et-greve-du-zele",
+                "en": "slowdowns-and-work-to-rule"
+              },
+              "label": {
+                "fr": "Grève perlée et grève du zèle",
+                "en": "Slowdowns and work-to-rule"
+              }
+            },
+            {
+              "resource": "sp-greve-prive"
+            }
+          ]
         }
       ],
       "group": "situation"

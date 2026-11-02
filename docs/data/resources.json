@@ -1482,6 +1482,28 @@
       }
     },
     {
+      "id": "caisse-solidarite",
+      "name": "Caisse de solidarité",
+      "url": "https://www.caisse-solidarite.fr/",
+      "category": "organisation",
+      "tags": ["travail", "greve", "association"],
+      "description": {
+        "fr": "Association loi 1901 (créée en 2016) qui aide les salarié·es en lutte : dons sans contrepartie, comptes publics sur une page « Transparence », carte des caisses locales.",
+        "en": "French non-profit (loi 1901, created in 2016) that helps workers in struggle: donations with no counterpart, public accounts on a \"Transparence\" page, map of local funds."
+      },
+      "sources": [
+        {
+          "title": "Caisse de solidarité — L'asso",
+          "url": "https://www.caisse-solidarite.fr/l-asso"
+        }
+      ],
+      "check": {
+        "date": "2026-11-02",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "sp-retenue-sejour",
       "name": "Service-Public — Retenue pour vérification du droit au séjour",
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31136",

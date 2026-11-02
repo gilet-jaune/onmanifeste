@@ -9,6 +9,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Guide « Grève, manif et travail » : poste qui ne bloque rien, grève perlée/du zèle, soutenir financièrement des grévistes ; parcours « pas en position de bloquer… mais je veux soutenir une grève » ; ressource Caisse de solidarité.
 - Initial MkDocs Material scaffold (Prettier, markdownlint, cspell, lychee, GitHub Actions).
 - Resources registry (`docs/data/resources.json`) with JSON schema and validation script.
 - Directory page with live search by name, category and tags.

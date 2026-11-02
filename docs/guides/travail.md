@@ -15,6 +15,7 @@ tags:
     - Agent·e public : le **devoir de réserve** porte sur la manière de s'exprimer, pas sur le droit de manifester.
     - Retenue sur salaire **proportionnelle** à l'arrêt (par exemple 1/30 par journée dans la fonction publique).
     - Manifester **hors temps de travail** relève de votre vie privée ; sinon, posez un congé ou faites grève.
+    - Poste qui ne bloque rien : le **nombre** compte, quelques heures suffisent, et vous pouvez **soutenir** celles et ceux dont l'arrêt pèse davantage.
 
 Faire grève est un droit ; manifester aussi. Mais une absence au travail ne se gère pas de la même façon selon le cas et selon votre secteur.
 
@@ -22,15 +23,18 @@ Faire grève est un droit ; manifester aussi. Mais une absence au travail ne se 
 
 - La grève est un **arrêt collectif et concerté** du travail pour appuyer des **revendications professionnelles** (salaires, retraites, conditions de travail…).[^sp-greve-prive]
 - **Pas de préavis** à donner, ni à votre employeur ni par un syndicat (sauf services publics gérés par des entreprises privées).[^sp-greve-prive]
-- Vous ne pouvez être **ni sanctionné·e ni licencié·e** pour avoir fait grève, sauf faute lourde (par exemple participation active à des actes illégaux).[^sp-greve-prive]
+- Vous ne pouvez être **ni sanctionné·e ni licencié·e** pour avoir fait grève, sauf faute lourde (par exemple participation active à des actes illégaux).[^sp-greve-prive] Un licenciement prononcé sans faute lourde est **nul de plein droit**.[^ct-l2511-1]
 - L'employeur retient une part du salaire **proportionnelle** à la durée de l'arrêt.[^sp-greve-prive]
 
 ## Fonction publique
 
 ### Faire grève
 
-- Un **préavis** doit être déposé par un ou plusieurs syndicats au moins **5 jours francs** avant la grève, avec ses motifs, son lieu, son heure de début et sa durée.[^sp-greve-public]
+- Un **préavis** doit être déposé par un ou plusieurs syndicats au moins **5 jours francs** avant la grève, avec ses motifs, son lieu, son heure de début et sa durée.[^sp-greve-public] Il émane d'un syndicat **représentatif**, et les parties doivent **négocier** pendant le préavis.[^ct-l2512-2]
+- **Qui est concerné·e** : le personnel de l'État, des régions, des départements et des communes de **plus de 10 000 habitants**, ainsi que celui des organismes chargés d'un service public, publics ou privés.[^ct-l2512-1]
+- **Arrêts tournants interdits** : l'heure de cessation et celle de reprise ne peuvent pas différer selon les catégories ou les membres du personnel, et les arrêts échelonnés ou par roulement concerté entre secteurs ou services sont interdits.[^ct-l2512-3]
 - **Enseignant·es de maternelle et d'élémentaire** : déclarez votre intention de faire grève **au moins 48 heures avant**, dont un jour ouvré. Ne pas respecter ces règles expose à des sanctions disciplinaires.[^sp-greve-public]
+- Les salarié·es sont seul·es titulaires du droit de grève : dans les services publics, elles et ils **ne sont pas tenus de s'arrêter pendant toute la durée** indiquée par le préavis.[^cass-2015-preavis-duree]
 - **Retenue sur salaire** : dans la fonction publique d'État, 1/30 du traitement par jour de grève, même pour une partie de journée, primes comprises ; dans la territoriale et l'hospitalière, elle est proportionnelle (1/30 par jour, 1/60 par demi-journée, 1/151,67 par heure).[^sp-greve-public]
 - **Pas de droit de grève** : policier·es actif·ves (dont les CRS), personnels pénitentiaires, magistrat·es judiciaires, militaires et personnels des transmissions du ministère de l'Intérieur. Dans la territoriale et l'hospitalière, tous les agent·es peuvent faire grève.[^sp-greve-public]
 
@@ -51,6 +55,34 @@ Faire grève est un droit ; manifester aussi. Mais une absence au travail ne se 
 
 - Manifester **en dehors de vos heures de travail** relève de votre vie privée.
 - S'absenter pendant ses heures **sans être en grève** (ou sans congé posé) est une absence injustifiée : posez un congé ou rejoignez un mouvement de grève.
+
+## Si votre absence ne bloque rien
+
+Un poste de bureau ou administratif bloque rarement une chaîne à lui seul. Ce n'est pas une raison de rester à l'écart. Les repères ci-dessous sont du bon sens d'organisation, pas des règles établies :
+
+- [ ] **Le nombre pèse** : une grève se mesure aussi à sa participation, qui se compte et se voit. Vous comptez même si votre poste est peu critique.
+- [ ] **Quelques heures suffisent parfois** : la retenue sur salaire est proportionnelle à la durée de l'arrêt.[^sp-greve-prive] Une demi-journée coûte moins qu'une journée.
+- [ ] **Manifester hors temps de travail, ou en congé** : voir plus haut.
+- [ ] **Soutenir celles et ceux dont l'arrêt bloque vraiment** : voir [soutenir financièrement des grévistes](travail.md#soutenir-financierement-des-grevistes).
+- [ ] **Rejoindre un syndicat ou un collectif d'entreprise** : décider avec vos collègues de la forme de l'action, plutôt que de la deviner seul·e.
+
+### Grève perlée et grève du zèle
+
+- Pour être protégé·e de toute sanction pour fait de grève, le mouvement doit être un **arrêt total du travail, collectif, avec des revendications professionnelles connues de l'employeur**. Sinon, il peut être jugé illicite : plus de protection, et sanction ou licenciement possibles.[^sp-greve-prive]
+- Ralentir son travail (grève perlée) ou l'exécuter à la lettre sans l'arrêter (grève du zèle) n'est pas un arrêt total du travail : **ces formes sont risquées**. Discutez-en avec un syndicat avant.
+- Dans un conflit de transports (service public), la cour d'appel de Versailles a jugé qu'un même préavis peut porter sur des arrêts de travail courts étalés sur plusieurs jours, et qu'une grève ne devient abusive qu'en cas de désorganisation grave, à prouver par l'employeur. La Cour de cassation a rejeté le pourvoi, sans publier l'arrêt au bulletin.[^cass-2017-greve-desorganisation] Cela concerne les services publics : ne le généralisez pas à votre entreprise.
+
+## Soutenir financièrement des grévistes
+
+Si vous gagnez plus que la plupart des grévistes, vous pouvez leur permettre de tenir. Du plus mutualisé au plus direct :
+
+1. **Une caisse de solidarité** : {{ res("caisse-solidarite") }} est une association loi 1901 qui aide les salarié·es en lutte. Les dons sont sans contrepartie, les comptes sont publics et une carte indique les caisses locales.
+2. **La caisse de grève de votre syndicat** : demandez à l'union locale ou départementale du secteur concerné ce qui existe.
+3. **La cotisation syndicale** : si vous adhérez, elle ouvre droit à un crédit d'impôt de 66 %, dans la limite de 1 % de votre revenu brut imposable (salaires, pensions…). Il n'est pas cumulable avec les frais réels.[^impots-cotisation-syndicale] Ce crédit vise les **cotisations** : demandez au syndicat si un versement à sa caisse de grève est traité comme tel, avec reçu.
+4. **Donner à une personne** : les dons d'argent sont soumis aux droits de donation quel que soit leur montant, sauf exceptions. Pour le don d'un ami, il n'y a aucun abattement, et la personne qui reçoit doit le déclarer dans le mois.[^sp-don-argent] C'est une raison de préférer une caisse à un virement personnel.
+5. **Une cagnotte en ligne** : vérifiez qui la tient (un syndicat ou une association identifiable), à qui l'argent est reversé et si les comptes sont publics.
+
+Un don par carte, virement ou chèque laisse une trace à votre nom. Si cela compte pour vous, regardez les moyens de paiement de chaque caisse avant de donner.
 
 [:octicons-arrow-right-24: Ressources « travail » dans l'annuaire](../annuaire/index.md?tags=travail)
 

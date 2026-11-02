@@ -235,6 +235,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 
 ## Organisation
 
+- [Caisse de solidarité](https://www.caisse-solidarite.fr/) - Association loi 1901 (créée en 2016) qui aide les salarié·es en lutte : dons sans contrepartie, comptes publics sur une page « Transparence », carte des caisses locales.
 - [CryptPad](https://cryptpad.fr/) - Documents, tableurs, formulaires et dossiers partagés, chiffrés de bout en bout : l'hébergeur ne peut pas les lire. Utilisable sans compte, idéal pour partager listes de contacts, plans ou comptes rendus au sein d'un collectif.
 - [Framasoft](https://framasoft.org/) - Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.
 
