@@ -1,5 +1,5 @@
 ---
-source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
+source_commit: da8b28ac5f89807ae34b11e7ed8764d90230a04a
 review: juridique
 review_status: pending
 tags:
@@ -282,6 +282,36 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **Without a backup airlock group**, people find each other through a neutral message from keyholders in the public group ("HR will get back to you") and the fallback point in person.
 - [ ] **In the public group, the member list is visible to everyone**, and Signal can't hide it: someone can pick contacts from it for an airlock group, or to harass. Hence the activist name and hidden number, from the public group onwards.
 
+### The in-person meeting, step by step
+
+The airlock group sets up the meeting; here is how it goes. These guidelines are organising common sense, not established rules: adapt them. A meeting **reduces** the risk, it does not remove it: that is why a voucher and HR's second check come on top.
+
+**Before**
+
+- [ ] **A public, neutral, busy place** (café, park, open community venue), chosen by the secretaries, never someone's home. Daytime if possible, with an easy exit.
+- [ ] **Never one person alone facing a newcomer**: at least two vetted members, not necessarily secretaries (the secretary leads, another person greets and listens). Two pairs of eyes spot an inconsistency better. It also protects the newcomer, who can tell a relative the time and place.
+- [ ] **Announce the length**: 15 to 30 minutes per person. Small groups (5 to 15 people) stop anyone dwelling on one case.
+- [ ] **The voucher preferably comes along** with the person, or confirms them in private: "the person with this activist name is the one I know". Nothing more to exchange.
+- [ ] **The settings are sent beforehand**, so the meeting is used to check them, not to discover them.
+
+**During (15 to 30 minutes)**
+
+1. **Welcome (5 minutes).** The secretary introduces themselves with their activist name, explains what the group is for (mutual aid, logistics, nothing illegal) and what will happen. They also say that **nothing is written down and no ID is asked for**. The aim is to put people at ease.
+2. **Settings and QR code (10 minutes).** Each person handles their own phone and shows their screens; the secretary guides aloud: activist name, no photo, hidden number, then scan of the safety number QR code. The secretary **looks at the screen**, with the person's agreement: ticking them off aloud is not enough.
+3. **Conversation (10 minutes).** Open questions, no interrogation: "What brings you here?", "What would you like to do: leafleting, logistics, first aid, legal?", "How did you hear about the group?", then "Can you tell me the charter in your own words?". Listen more than you talk. **The person can ask their own questions** (who organises, how, what risks) and gets answers: trust goes both ways. The checks to make are listed in [the airlock group](groupes-signal.md#the-airlock-group).
+4. **End (2 minutes).** Say what happens next ("HR will get back to you within a few days") **without promising**: never say "you're in" on the spot.
+
+**To avoid**
+
+- [ ] **Do not test by provocation** (proposing an illegal action "to see" the reaction): it creates risk for everyone and proves nothing.
+- [ ] **Do not decide alone on the spot**: a feeling of unease, an inconsistency or a warning sign is passed to HR afterwards, without accusing the person.
+- [ ] **Do not try to guess** who is "infiltrated": watch behaviour (pressure, insistence, curiosity about others), not profiles.
+
+**After**
+
+- [ ] **A short debrief, preferably out loud**, between the two vetted members present, then with HR, **the same day**: what went well, what was surprising. A Signal conversation between vetted members is still acceptable, with disappearing messages. Nothing is written down lastingly with names (see "no trust list").
+- [ ] **A single serious doubt is enough to wait**: the person stays in the public group, and comes to public actions.
+
 ### Recruiters and secretaries
 
 - [ ] **Several of each**, so you depend on no one, and they rotate.
@@ -370,8 +400,9 @@ A short, coded name helps you find your way and **replace** groups without confu
 | --- | --- | --- | --- | --- | --- |
 | **Public group** | Up to 1,000 (Signal's maximum)[^signal-groupes] | 4 weeks (the maximum)[^signal-ephemeres] | 2 or 3, plus secretaries to announce meetings; **only admins post** | **Link allowed** (the one exception), no approval, reset if needed; or direct add | Short charter and a link to this site |
 | **Airlock group** | 5 to 15 people | 1 week: its lifetime; it holds nothing sensitive | The secretary who announces it, and one other person | Added directly by the secretary, after a private sign-up; **no link** | Empty |
-| **Trusted group** | About a hundred at most | 1 week; **a few hours, as short as possible, from a few hours before the action** | 2 or 3, not the same everywhere | Added directly by HR; **no link** | Charter only |
+| **Trusted group** | 25 preferably, 50 at most | 1 week; **a few hours, as short as possible, from a few hours before the action** | 2 or 3, not the same everywhere | Added directly by HR; **no link** | Charter only |
 | **Sub-group** | 5 to 15; under 10 if sensitive | 1 week; 1 day if sensitive, a few hours on action days | 2 | Added directly by a keyholder; **no link** | Charter only |
+| **Liaison group** | 4 to 8 people: 2 liaisons per family | 1 week; a few hours on action days | 2, from different families | Added directly, with the agreement of each family's HR; **no link** | Charter only |
 | **Temporary group** | The people present | A few hours for a day; the length of the mobilisation otherwise | The person who created it and one other | Added directly, in person, by whoever created it; **no link or QR code** | Empty |
 
 A group is set up **empty**, before the first invitation: the message timer only covers **new** messages.[^signal-ephemeres]
@@ -393,7 +424,8 @@ A group is set up **empty**, before the first invitation: the message timer only
 
 | Create | When |
 | --- | --- |
-| **A new family** (new ID, with its trusted group and sub-groups) | The trusted group nears a hundred and members no longer recognise each other by sight (split by neighbourhood or area); another city; a separate campaign; high-school students (with high-school keyholders); an unidentified leak (case B) |
+| **A new family** (new ID, with its trusted group and sub-groups) | The trusted group exceeds 25 people (50 at most) or its members no longer recognise each other by sight (split by neighbourhood or area); another city; a separate campaign; high-school students (with high-school keyholders); an unidentified leak (case B) |
+| **A liaison group** (with its own ID, never that of one of the families) | Two or more families need to coordinate (see [linking several families](groupes-signal.md#linking-several-families)) |
 | **A sub-group** | At least 3 to 5 people share a role and need to coordinate (medics, legal…) |
 | **A second sub-group for the same role**, in the same family (`MVT-CTY-4K9-Medic2`) | The first exceeds 15 people, or two teams work on different ground |
 | **Nothing new** | The need is one-off: name someone in the trusted group, or create a temporary group |
@@ -445,8 +477,19 @@ Keep a **shared list** in the charter, so everyone uses the same words, for exam
 
 - [ ] **Ask by naming someone**: the more people there are, the less each person responds, because everyone assumes someone else will. This is the **bystander effect**,[^darley-latane-1968] and it also happens in online chats, except when you name the person you are asking.[^markey-2000]
 - [ ] **On an action day**, the people coordinating meet in person, or in a [temporary group](groupes-signal.md#the-temporary-group).
-- [ ] **Nobody is in every sub-group** to link them: one person present everywhere would expose the whole family through a single seized phone. Exchanges between teams go through the trusted group.
+- [ ] **Nobody is in every sub-group** to link them: one person present everywhere would expose the whole family through a single seized phone. Exchanges between teams go through the trusted group, and between families through [liaisons](groupes-signal.md#linking-several-families).
 - [ ] **No "orga" group bringing together all HR, keyholders and secretaries**, and no meeting where all of them are present at once: a single seized phone, or a single raid, would hand them all over. On 21 June 1943, in Caluire, the arrest of Jean Moulin and the Resistance leaders he had gathered showed this risk.[^ordre-liberation-jean-moulin] Key roles coordinate in person, or in small groups of 2 or 3 people, by topic.
+
+### Linking several families
+
+Rather than one large trusted group, several families of about 25 people coordinate through **liaison agents**. These sizes and this method are rules of thumb, not established rules.
+
+- [ ] **Each family appoints two liaisons**, known to its HR: if one is absent or arrested, the link holds. They change regularly, so that no one person stays the weak point.
+- [ ] **Liaisons meet in a liaison group**, with its **own random ID** (`MVT-VIL-8R3-Liaison`), never that of one of the families. No one is in the trusted group of two families.
+- [ ] **Preferably, a liaison is neither HR nor a keyholder**, so as not to gather the people who hold the lists (see above).
+- [ ] **They pass on only the essentials**: a place, a time, a decision. Never a list of members, nor anyone's identity.
+- [ ] **On a seized phone**, one sees the liaison's family and the liaison group, not the other family.
+- [ ] **For an emergency that concerns everyone**, use the public group, which holds nothing sensitive: liaison is slower.
 
 ### The temporary group
 
@@ -608,7 +651,7 @@ To be agreed in the airlock group before admission to the trusted group.
 CHARTER — read before posting
 
 1. GROUP NAMES
-MVT-CITY-ID-TOPIC, e.g. MVT-CTY-4K9-Medic. The ID, drawn at random, is shared by the trusted group and its sub-groups. When the family is replaced, the ID changes. Only join a vetted group on a **direct add** by an HR member or a keyholder you know, using your username; never through a group link or QR code. No airlock group gives access to a vetted group on its own.
+MVT-CITY-ID-TOPIC, e.g. MVT-CTY-4K9-Medic. The ID, drawn at random, is shared by the trusted group and its sub-groups. When the family is replaced, the ID changes. Only join a vetted group on a direct addition by an HR member or a keyholder you know, using your username; never through a group link or QR code. No airlock group gives access to a vetted group on its own.
 
 2. PURPOSE AND CONTENT
 Strictly informational, logistics, and mutual aid group.
