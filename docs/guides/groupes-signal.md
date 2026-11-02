@@ -281,6 +281,36 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 - [ ] **Sans groupe sas de secours**, on se retrouve par un message neutre des gardien·nes dans le groupe public (« les RH vous recontactent ») et par le point de repli en vrai.
 - [ ] **Dans le groupe public, la liste des membres est visible par tous**, et Signal ne permet pas de la cacher : quelqu'un peut y piocher des contacts pour un groupe sas, ou pour harceler. D'où le nom de militant·e et le numéro caché, dès le groupe public.
 
+### La rencontre en vrai, étape par étape
+
+Le groupe sas organise la rencontre ; voici comment elle se passe. Ces consignes sont du bon sens d'organisation, pas des règles établies : adaptez-les. Une rencontre **réduit** le risque, elle ne l'élimine pas : c'est pourquoi s'y ajoutent un·e garant·e et le second contrôle des RH.
+
+**Avant**
+
+- [ ] **Un lieu public, neutre et fréquenté** (café, parc, local associatif ouvert), choisi par les secrétaires, jamais un domicile. De jour de préférence, avec une sortie facile.
+- [ ] **Jamais une seule personne face à une nouvelle** : au moins deux membres vérifié·es, pas forcément secrétaires (le ou la secrétaire anime, une autre personne accueille et écoute). Deux regards repèrent mieux une incohérence. C'est aussi une protection pour la nouvelle personne, qui peut prévenir un·e proche de l'heure et du lieu.
+- [ ] **Annoncez la durée** : 15 à 30 minutes par personne. Les petits groupes (5 à 15 personnes) évitent qu'on s'attarde sur un cas.
+- [ ] **Le ou la garant·e vient de préférence** avec la personne, ou la confirme en privé : « la personne qui porte ce nom de militant·e est bien celle que je connais ». Rien de plus à échanger.
+- [ ] **Les réglages sont envoyés avant**, pour que la rencontre serve à les vérifier, pas à les découvrir.
+
+**Pendant (15 à 30 minutes)**
+
+1. **Accueil (5 minutes).** Le ou la secrétaire se présente avec son nom de militant·e, rappelle à quoi sert le groupe (entraide, logistique, rien d'illégal) et ce qui va se passer. Il ou elle dit aussi qu'**on ne note rien et qu'on ne demande aucune identité**. L'objectif est de mettre à l'aise.
+2. **Réglages et code QR (10 minutes).** Chaque personne manipule son téléphone et montre ses écrans ; le ou la secrétaire guide à voix haute : nom de militant·e, pas de photo, numéro caché, puis scan du code QR du numéro de sécurité. Le ou la secrétaire **regarde l'écran**, avec l'accord de la personne : les cocher à voix haute ne suffit pas.
+3. **Conversation (10 minutes).** Des questions ouvertes, sans interrogatoire : « Qu'est-ce qui t'amène ? », « Qu'aimerais-tu faire : tracter, logistique, secourisme, juridique ? », « Comment as-tu connu le groupe ? », puis « Peux-tu me redire la charte avec tes mots ? ». Écoutez plus que vous ne parlez. **La personne peut poser ses propres questions** (qui organise, comment, quels risques) et on lui répond : la confiance va dans les deux sens. Les contrôles à faire sont listés dans [le groupe sas](groupes-signal.md#le-groupe-sas).
+4. **Fin (2 minutes).** Dites ce qui se passe ensuite (« les RH reviennent vers toi sous quelques jours ») **sans promettre** : on ne dit jamais « tu es accepté·e » sur place.
+
+**À éviter**
+
+- [ ] **Ne testez pas par provocation** (proposer une action illégale « pour voir » sa réaction) : cela crée du risque pour tout le monde et ne prouve rien.
+- [ ] **Ne tranchez pas seul·e sur place** : un malaise, une incohérence ou un signal d'alerte se disent aux RH après coup, sans accuser la personne.
+- [ ] **N'essayez pas de deviner** qui est « infiltré·e » : on observe des comportements (pression, insistance, curiosité sur les autres), pas des profils.
+
+**Après**
+
+- [ ] **Un court point, de préférence à voix haute**, entre les deux membres vérifié·es présent·es, puis avec les RH, **le jour même** : ce qui s'est bien passé, ce qui a surpris. Une conversation Signal entre membres vérifié·es reste acceptable, en messages éphémères. Rien n'est écrit durablement avec des noms (voir « pas de liste de confiance »).
+- [ ] **Un seul doute sérieux suffit pour attendre** : la personne reste dans le groupe public, et vient aux actions publiques.
+
 ### Recruteur·ses et secrétaires
 
 - [ ] **Plusieurs de chaque**, pour ne dépendre de personne, et qui tournent.
@@ -369,8 +399,9 @@ Un nom court et codé aide à s'y retrouver et à **remplacer** des groupes sans
 | --- | --- | --- | --- | --- | --- |
 | **Groupe public** | Jusqu'à 1 000 (le maximum de Signal)[^signal-groupes] | 4 semaines (le maximum)[^signal-ephemeres] | 2 ou 3, plus les secrétaires pour annoncer les rencontres ; **seul·es les admins écrivent** | **Lien autorisé** (seule exception), sans approbation, réinitialisé si besoin ; ou ajout direct | Charte courte et lien vers ce site |
 | **Groupe sas** | 5 à 15 personnes | 1 semaine : sa durée de vie ; il ne contient rien de sensible | Le ou la secrétaire qui l'annonce, et une autre personne | Ajout direct par le ou la secrétaire, sur inscription en privé ; **aucun lien** | Vide |
-| **Groupe de confiance** | Une centaine au plus | 1 semaine ; **quelques heures, le plus court possible, à partir de quelques heures avant l'action** | 2 ou 3, pas les mêmes partout | Ajout direct par les RH ; **aucun lien** | Charte seulement |
+| **Groupe de confiance** | 25 de préférence, 50 au plus | 1 semaine ; **quelques heures, le plus court possible, à partir de quelques heures avant l'action** | 2 ou 3, pas les mêmes partout | Ajout direct par les RH ; **aucun lien** | Charte seulement |
 | **Sous-groupe** | 5 à 15 ; moins de 10 si sensible | 1 semaine ; 1 jour si sensible, quelques heures les jours d'action | 2 | Ajout direct par un·e gardien·ne ; **aucun lien** | Charte seulement |
+| **Groupe de liaison** | 4 à 8 personnes : 2 liaisons par famille | 1 semaine ; quelques heures les jours d'action | 2, de familles différentes | Ajout direct, avec l'accord des RH de chaque famille ; **aucun lien** | Charte seulement |
 | **Groupe temporaire** | Les personnes présentes | Quelques heures pour une journée ; la durée de la mobilisation sinon | La personne qui l'a créé et une autre | Ajout direct, en vrai, par la personne qui l'a créé ; **aucun lien ni code QR** | Vide |
 
 Un groupe se règle **vide**, avant la première invitation : le délai d'effacement ne vaut que pour les **nouveaux** messages.[^signal-ephemeres]
@@ -392,7 +423,8 @@ Un groupe se règle **vide**, avant la première invitation : le délai d'efface
 
 | Créer | Quand |
 | --- | --- |
-| **Une nouvelle famille** (nouvel identifiant, avec son groupe de confiance et ses sous-groupes) | Le groupe de confiance approche la centaine et les membres ne se reconnaissent plus de vue (on divise par quartier ou secteur) ; une autre ville ; une campagne distincte ; des lycéen·nes (avec des gardien·nes lycéen·nes) ; une fuite non identifiée (cas B) |
+| **Une nouvelle famille** (nouvel identifiant, avec son groupe de confiance et ses sous-groupes) | Le groupe de confiance dépasse 25 personnes (50 au plus) ou ses membres ne se reconnaissent plus de vue (on divise par quartier ou secteur) ; une autre ville ; une campagne distincte ; des lycéen·nes (avec des gardien·nes lycéen·nes) ; une fuite non identifiée (cas B) |
+| **Un groupe de liaison** (avec son propre identifiant, jamais celui d'une des familles) | Deux familles ou plus doivent se coordonner (voir [relier plusieurs familles](groupes-signal.md#relier-plusieurs-familles)) |
 | **Un sous-groupe** | Au moins 3 à 5 personnes ont le même rôle et doivent se coordonner (medic, legal…) |
 | **Un deuxième sous-groupe du même rôle**, dans la même famille (`MVT-VIL-4K9-Medic2`) | Le premier dépasse 15 personnes, ou deux équipes travaillent sur des terrains différents |
 | **Rien de nouveau** | Le besoin est ponctuel : nommez quelqu'un dans le groupe de confiance, ou créez un groupe temporaire |
@@ -444,8 +476,19 @@ Gardez une **liste commune** dans la charte, pour que tout le monde utilise les 
 
 - [ ] **Demandez en nommant quelqu'un** : plus il y a de monde, moins chacun·e répond, car tout le monde pense qu'un·e autre va le faire. C'est l'**effet du témoin**,[^darley-latane-1968] et il existe aussi dans les discussions en ligne, sauf quand on nomme la personne à qui l'on demande.[^markey-2000]
 - [ ] **Le jour d'une action**, les personnes qui coordonnent se retrouvent en vrai, ou dans un [groupe temporaire](groupes-signal.md#le-groupe-temporaire).
-- [ ] **Personne n'est dans tous les sous-groupes** pour faire le lien : une seule personne présente partout exposerait toute la famille avec un seul téléphone saisi. Les échanges entre équipes passent par le groupe de confiance.
+- [ ] **Personne n'est dans tous les sous-groupes** pour faire le lien : une seule personne présente partout exposerait toute la famille avec un seul téléphone saisi. Les échanges entre équipes passent par le groupe de confiance, et entre familles par des [liaisons](groupes-signal.md#relier-plusieurs-familles).
 - [ ] **Pas de groupe « orga » qui réunit toutes les RH, tous les gardien·nes et tous les secrétaires**, ni de réunion où toutes ces personnes sont présentes en même temps : un seul téléphone saisi, ou une seule descente, les livrerait toutes. Le 21 juin 1943, à Caluire, l'arrestation de Jean Moulin et des responsables de la Résistance qu'il avait réunis au même endroit a montré ce risque.[^ordre-liberation-jean-moulin] Les rôles clés se coordonnent en vrai, ou en petits groupes de 2 ou 3 personnes, par sujet.
+
+### Relier plusieurs familles
+
+Plutôt qu'un grand groupe de confiance, plusieurs familles de 25 personnes se coordonnent par des **agents de liaison**. Ces tailles et cette méthode sont des repères de bon sens, pas des règles établies.
+
+- [ ] **Chaque famille désigne deux liaisons**, connues de ses RH : si l'une est absente ou arrêtée, le lien tient. Elles changent régulièrement, pour qu'une même personne ne reste pas le point faible.
+- [ ] **Les liaisons se retrouvent dans un groupe de liaison**, avec son **propre identifiant** tiré au hasard (`MVT-VIL-8R3-Liaison`), jamais celui d'une des familles. Aucune personne n'est dans le groupe de confiance de deux familles.
+- [ ] **De préférence, une liaison n'est ni RH ni gardien·ne**, pour ne pas rassembler les personnes qui détiennent les listes (voir plus haut).
+- [ ] **Elles ne transmettent que l'essentiel** : un lieu, une heure, une décision. Jamais une liste de membres, ni l'identité de qui que ce soit.
+- [ ] **Sur un téléphone saisi**, on voit la famille de la liaison et le groupe de liaison, pas l'autre famille.
+- [ ] **Pour une urgence qui concerne tout le monde**, passez par le groupe public, qui ne contient rien de sensible : la liaison est plus lente.
 
 ### Le groupe temporaire
 
@@ -609,7 +652,7 @@ Entraide, logistique et info militante. Aucune incitation aux violences ni aux d
 CHARTE — à lire avant d'écrire
 
 1. NOMS DES GROUPES
-MVT-VILLE-ID-THEME, ex. MVT-VIL-4K9-Medic. L'ID, tiré au hasard, est commun au groupe de confiance et à ses sous-groupes. Quand la famille est remplacée, l'ID change. On ne rejoint un groupe vérifié que sur **ajout direct** par une personne des RH ou un·e gardien·ne connu·e, par votre nom d'utilisateur ; jamais par un lien ni un code QR de groupe. Aucun groupe sas ne donne accès seul à un groupe vérifié.
+MVT-VILLE-ID-THEME, ex. MVT-VIL-4K9-Medic. L'ID, tiré au hasard, est commun au groupe de confiance et à ses sous-groupes. Quand la famille est remplacée, l'ID change. On ne rejoint un groupe vérifié que sur ajout direct par une personne des RH ou un·e gardien·ne connu·e, par votre nom d'utilisateur ; jamais par un lien ni un code QR de groupe. Aucun groupe sas ne donne accès seul à un groupe vérifié.
 
 2. VOCATION ET CONTENU
 Groupe à vocation strictement informative, logistique et d'entraide.
