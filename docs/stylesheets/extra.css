@@ -2653,3 +2653,40 @@ dialog.contact-card {
     break-after: auto;
   }
 }
+
+/* --- Printed guides: paper layout --------------------------------------- */
+@media print {
+  /* Interactive aids are useless on paper. */
+  .parcours,
+  .md-content__button,
+  .md-top,
+  .headerlink,
+  .md-source-file,
+  .md-feedback {
+    display: none !important;
+  }
+
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    break-after: avoid;
+  }
+
+  .md-typeset details > summary {
+    break-after: avoid;
+  }
+
+  /* Say where the paper copy comes from, since it cannot be updated. */
+  .md-content__inner::after {
+    display: block;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid currentcolor;
+    font-size: 0.7rem;
+    content: 'Copie papier du site awesome-protest : le contenu évolue, vérifiez la version en ligne.';
+  }
+
+  html[lang='en'] .md-content__inner::after {
+    content: 'Paper copy from the awesome-protest site: content changes, check the online version.';
+  }
+}

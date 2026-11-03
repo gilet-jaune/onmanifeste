@@ -27,10 +27,10 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 
 !!! info "Par où commencer ?"
 
-    - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis la [partie 1 : membres](signal-membres.md).
+    - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis la [vous êtes membre](signal-membres.md).
     - **Vous cherchez un rôle en manif** (medic, legal, logistique...) → [les rôles utiles en manif](groupes-signal.md#roles-utiles-en-manif).
-    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal), puis la [partie 2 : organiser](signal-recrutement.md).
-    - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [partie 3 : groupe compromis](signal-groupe-compromis.md).
+    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal), puis [recruter et valider](signal-recrutement.md) et [tenir les groupes](signal-gerer.md).
+    - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [groupe compromis](signal-groupe-compromis.md).
     - **Vous organisez et voulez aller droit à votre rôle** (secrétaire, RH, gardien·ne, recruteur·se) → le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
     - **Vous voulez juste la charte** → [modèles à copier-coller](signal-modeles.md).
 
@@ -134,7 +134,7 @@ Ces rôles font fonctionner le réseau Signal (recrutement, accueil, modération
 | **RH** (« ressources humaines ») | Comme au travail : font le **second contrôle** des personnes validées et les **ajoutent** au groupe de confiance ; reçoivent les doutes ; décident des retraits à deux ; tranchent quand un·e secrétaire hésite | Organiser les groupes sas ; décider seul·e d'un retrait ; être gardien·nes de tous les groupes | Oui, du groupe de confiance |
 | **Gardien·ne** | Garde les clés d'un groupe : **veille sur sa configuration** (délai d'effacement, permissions, aucun lien sauf pour le groupe public), ajoute et retire ; **ouvre l'œil** sur les arrivées et les interactions étranges et les signale aux RH. Les RH sont gardien·nes du groupe de confiance | Ajouter quelqu'un qui n'a pas été validé ; partir en action avec son téléphone de gardien·ne | Oui, au moins deux par groupe |
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe | Non |
-| **Référent·e « groupe perdu »** | Déclenche la [procédure de la partie 3](signal-groupe-compromis.md), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes |
+| **Référent·e « groupe perdu »** | Déclenche la [procédure « groupe compromis »](signal-groupe-compromis.md), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes |
 
 <a id="roles-en-manif"></a>
 

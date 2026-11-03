@@ -467,6 +467,17 @@ document.addEventListener('click', (event) => {
   if (event.target.closest('[data-action="print"]')) window.print();
 });
 
+// Printing: open collapsed blocks so the paper copy has all the text, then restore them.
+let printReopened = [];
+window.addEventListener('beforeprint', () => {
+  printReopened = [...document.querySelectorAll('details:not([open])')];
+  printReopened.forEach((el) => el.setAttribute('open', ''));
+});
+window.addEventListener('afterprint', () => {
+  printReopened.forEach((el) => el.removeAttribute('open'));
+  printReopened = [];
+});
+
 window.addEventListener('load', () => {
   pwaScheduleBanner();
   // Installed apps ask for persistent storage so the offline copy is not evicted.

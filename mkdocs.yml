@@ -150,6 +150,7 @@ plugins:
             Contribuer: Contributing
             Carte de poche: Pocket card
             Fiches mémo à imprimer: Memo sheets to print
+            Fiches mémo Signal à imprimer: Signal memo sheets to print
             Mentions légales: Legal notice
   - macros:
       include_dir: .
@@ -198,6 +199,7 @@ nav:
       - SOS: sos/index.md
       - Carte de poche: carte/index.md
       - Fiches mémo à imprimer: fiches/index.md
+      - Fiches mémo Signal à imprimer: fiches/signal.md
   - Trouver de l'aide:
       - Je suis… et je veux…: parcours/index.md
       - Annuaire: annuaire/index.md
