@@ -1482,6 +1482,118 @@
       }
     },
     {
+      "id": "cgt-sante-action-sociale",
+      "name": "CGT Santé Action Sociale",
+      "url": "https://cgt-sante-action-sociale.fr/",
+      "category": "organisation",
+      "tags": ["travail", "greve", "syndicat", "social-soin"],
+      "description": {
+        "fr": "Site de la Fédération CGT de la santé et de l’action sociale (hôpital, secteur social et médico-social). Pages « Qui sommes-nous » et contacts publiés.",
+        "en": "Site of the CGT federation for health and social action (hospitals, social and medico-social sectors). “Qui sommes-nous” page and contacts published."
+      },
+      "sources": [
+        {
+          "title": "CGT Santé Action Sociale",
+          "url": "https://cgt-sante-action-sociale.fr/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai",
+        "note": "Le domaine sante.cgt.fr redirige vers ce site ; le titre de l’onglet affiche un texte provisoire, le contenu est celui de la fédération."
+      }
+    },
+    {
+      "id": "cfdt-sante-sociaux",
+      "name": "CFDT Santé-Sociaux",
+      "url": "https://sante-sociaux.cfdt.fr/",
+      "category": "organisation",
+      "tags": ["travail", "greve", "syndicat", "social-soin"],
+      "description": {
+        "fr": "Site de la fédération CFDT Santé-Sociaux. Page de contact et contact presse publiés.",
+        "en": "Site of the CFDT Santé-Sociaux federation. Contact page and press contact published."
+      },
+      "sources": [
+        {
+          "title": "CFDT Santé-Sociaux",
+          "url": "https://sante-sociaux.cfdt.fr/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "fnas-fo",
+      "name": "FNAS-FO (action sociale)",
+      "url": "https://www.fnasfo.fr/",
+      "category": "organisation",
+      "tags": ["travail", "greve", "syndicat", "social-soin"],
+      "description": {
+        "fr": "Site de la Fédération nationale de l’action sociale Force ouvrière. Pages « Qui sommes-nous ? » et contact publiées.",
+        "en": "Site of the Force ouvrière national federation for social action. “Qui sommes-nous?” and contact pages published."
+      },
+      "sources": [
+        {
+          "title": "FNAS-FO (action sociale)",
+          "url": "https://www.fnasfo.fr/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "cfe-cgc-sante-social",
+      "name": "CFE-CGC Santé Social",
+      "url": "https://santesocial.cfecgc.org/",
+      "category": "organisation",
+      "tags": ["travail", "greve", "syndicat", "social-soin"],
+      "description": {
+        "fr": "Site de la fédération Santé Social de la CFE-CGC. Page de contact publiée.",
+        "en": "Site of the CFE-CGC Health and Social federation. Contact page published."
+      },
+      "sources": [
+        {
+          "title": "CFE-CGC Santé Social",
+          "url": "https://santesocial.cfecgc.org/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "sud-sante-sociaux",
+      "name": "SUD Santé Sociaux",
+      "url": "https://www.sudsantesociaux.org/",
+      "category": "organisation",
+      "tags": ["travail", "greve", "syndicat", "social-soin"],
+      "description": {
+        "fr": "Fédération SUD Santé Sociaux (Solidaires). Adresse citée dans les communiqués intersyndicaux du secteur.",
+        "en": "SUD Santé Sociaux federation (Solidaires). Address cited in the sector’s joint union statements."
+      },
+      "sources": [
+        {
+          "title": "SUD Santé Sociaux",
+          "url": "https://www.sudsantesociaux.org/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-03",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Page non lue : l’accès automatisé est bloqué par Cloudflare. Adresse relevée dans des communiqués intersyndicaux ; à ouvrir et confirmer depuis un navigateur."
+      }
+    },
+    {
       "id": "caisse-solidarite",
       "name": "Caisse de solidarité",
       "url": "https://www.caisse-solidarite.fr/",

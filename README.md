@@ -235,6 +235,11 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 
 ## Organisation
 
+- [CGT Santé Action Sociale](https://cgt-sante-action-sociale.fr/) - Site de la Fédération CGT de la santé et de l’action sociale (hôpital, secteur social et médico-social). Pages « Qui sommes-nous » et contacts publiés.
+- [CFDT Santé-Sociaux](https://sante-sociaux.cfdt.fr/) - Site de la fédération CFDT Santé-Sociaux. Page de contact et contact presse publiés.
+- [FNAS-FO (action sociale)](https://www.fnasfo.fr/) - Site de la Fédération nationale de l’action sociale Force ouvrière. Pages « Qui sommes-nous ? » et contact publiées.
+- [CFE-CGC Santé Social](https://santesocial.cfecgc.org/) - Site de la fédération Santé Social de la CFE-CGC. Page de contact publiée.
+- [SUD Santé Sociaux](https://www.sudsantesociaux.org/) - Fédération SUD Santé Sociaux (Solidaires). Adresse citée dans les communiqués intersyndicaux du secteur. ⚠️ _Non confirmé._
 - [Caisse de solidarité](https://www.caisse-solidarite.fr/) - Association loi 1901 (créée en 2016) qui aide les salarié·es en lutte : dons sans contrepartie, comptes publics sur une page « Transparence », carte des caisses locales.
 - [CryptPad](https://cryptpad.fr/) - Documents, tableurs, formulaires et dossiers partagés, chiffrés de bout en bout : l'hébergeur ne peut pas les lire. Utilisable sans compte, idéal pour partager listes de contacts, plans ou comptes rendus au sein d'un collectif.
 - [Framasoft](https://framasoft.org/) - Services libres (Framadate, Framaforms…) pour s'organiser sans les GAFAM.

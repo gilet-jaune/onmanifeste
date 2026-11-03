@@ -2197,6 +2197,21 @@
                 "fr": "Faire grève sans abandonner les personnes",
                 "en": "Striking without abandoning the people you support"
               }
+            },
+            {
+              "resource": "cgt-sante-action-sociale"
+            },
+            {
+              "resource": "cfdt-sante-sociaux"
+            },
+            {
+              "resource": "fnas-fo"
+            },
+            {
+              "resource": "cfe-cgc-sante-social"
+            },
+            {
+              "resource": "sud-sante-sociaux"
             }
           ]
         },
