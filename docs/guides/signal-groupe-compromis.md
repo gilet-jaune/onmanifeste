@@ -20,7 +20,8 @@ Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, 
 
 1. **Que se passe-t-il ?**
     - **Quelqu'un se fait embarquer, ou perd son téléphone** → [retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire), tout de suite.
-    - **Un inconnu dans le groupe, une fuite, un doute sérieux** → étape 2.
+    - **Un doute sérieux sur une personne** → [pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute), puis deux RH décident sous 24 heures.
+    - **Un inconnu dans le groupe, une fuite** → étape 2.
 2. **Le groupe est-il compromis ?** → voir la liste ci-dessous.
 3. **Sait-on par où ça fuit ?**
     - **Oui, et c'est retiré** → [cas A](signal-groupe-compromis.md#cas-a-on-sait-par-ou-ca-fuit) : le groupe continue.
