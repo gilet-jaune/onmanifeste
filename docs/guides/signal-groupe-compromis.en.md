@@ -1,5 +1,5 @@
 ---
-source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
+source_commit: 82367f8caba9978159a453add83c40343aa54736
 review: juridique
 review_status: pending
 tags:
@@ -12,6 +12,8 @@ tags:
 # Signal groups: compromised group
 
 [:octicons-arrow-left-24: Signal groups: overview](groupes-signal.md)
+
+Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
 ## What to do?
 
@@ -119,6 +121,8 @@ Precautionary removal also applies to a **serious doubt**, with no arrest. These
 - **The person or phone behind the leak was in the sub-group** → same procedure for it.
 - **Neither was** → the sub-group is not exposed by this leak. If its name or ID appeared in the parent group's messages or description, rename it with the family's new ID; no need to dissolve it.
 - **Unidentified leak in the parent group** → review the sub-group members who came from the parent; dissolve only if there is doubt about one of them.
+
+[:octicons-arrow-left-24: Previous : Running the groups](signal-gerer.md) · [Next : Copy-paste templates :octicons-arrow-right-24:](signal-modeles.md)
 
 ## Sources
 

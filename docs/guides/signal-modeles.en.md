@@ -1,5 +1,5 @@
 ---
-source_commit: 7d9d5d7afc9bb106125ce0508bc658d421c804c7
+source_commit: 82367f8caba9978159a453add83c40343aa54736
 review: juridique
 review_status: pending
 tags:
@@ -12,6 +12,8 @@ tags:
 # Signal groups: copy-paste templates
 
 [:octicons-arrow-left-24: Signal groups: overview](groupes-signal.md)
+
+Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
 Replace what is in square brackets.
 
@@ -76,6 +78,8 @@ Doubts about someone: talk privately to HR, who decide on removals. Never accuse
 ```
 
 The legal framework behind the charter: a written threat is punishable by 6 months in prison and a €7,500 fine, 3 years and €45,000 for a death threat;[^cp-222-17] knowingly taking part in a group that prepares violence or damage, by one year and €15,000.[^cp-222-14-2] With minors in the group, see [minors in the groups](signal-gerer.md#minors-in-the-groups).
+
+[:octicons-arrow-left-24: Previous : Compromised group](signal-groupe-compromis.md)
 
 ## Sources
 

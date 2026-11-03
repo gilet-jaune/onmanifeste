@@ -1,5 +1,5 @@
 ---
-source_commit: 798b980046995411f9554b189b448aed348b2671
+source_commit: 82367f8caba9978159a453add83c40343aa54736
 review: juridique
 review_status: pending
 tags:
@@ -22,26 +22,13 @@ tags:
 
 An encrypted messenger like {{ res("signal") }} protects your messages in transit, not against someone inside the group or a seized phone. How you organise your groups, however, can limit what a leak or a seizure reveals.
 
-!!! warning "Encrypting is legal, but it can be turned against you"
-
-    Using Signal is not an offence. In the so-called "8 December" case, the DGSI describes the defendants as having adopted "clandestine behaviour" with encrypted applications, Tails and Tor, and that wording recurs very often in the file, according to La Quadrature du Net, which analysed it before the trial.[^lqdn-8-decembre] The seven defendants were convicted in December 2023 of terrorist criminal association.[^politis-8-decembre] Neither source says encryption was judged to be an offence: it is cited as an **indicator**. This is a serious case and very far from an ordinary demonstration, but it shows you can be read back: **write nothing you would not want quoted**, and do not count on encryption to protect you from a hostile reading.
-
 !!! info "Where to start?"
 
-    - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [as a member](signal-membres.md).
-    - **You are looking for a role at a protest** (medic, legal, logistics...) → [roles useful at protests](groupes-signal.md#roles-useful-at-protests).
-    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups), [organisation roles](groupes-signal.md#roles-for-organising-the-signal-groups), then [recruiting and vetting](signal-recrutement.md) and [running the groups](signal-gerer.md).
     - **Someone has just been arrested, or a group is compromised** → [compromised group](signal-groupe-compromis.md).
-    - **You organise and want to go straight to your role** (secretary, HR, keyholder, recruiter) → the [menu by role](groupes-signal.md#find-what-concerns-your-role).
+    - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [as a member](signal-membres.md).
+    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups) and [organisation roles](groupes-signal.md#roles-for-organising-the-signal-groups), then [recruiting and meeting](signal-recrutement.md), [vetting](signal-valider.md), [creating and configuring groups](signal-creer.md) and [running the groups](signal-gerer.md). To go straight to your role: the [menu by role](groupes-signal.md#find-what-concerns-your-role).
+    - **You are looking for a protest role** (medic, legal, logistics...) → [roles useful at protests](groupes-signal.md#roles-useful-at-protests).
     - **You just want the charter** → [copy-paste templates](signal-modeles.md).
-
-!!! warning "Assume someone is reading"
-
-    An in-person meeting keeps out the curious, trolls and the far right, not a well-prepared undercover officer or someone who talks after police custody. Written messages are evidence: knowingly taking part in a group that **prepares** violence or damage is punishable by one year in prison and a €15,000 fine, even if nothing happened.[^cp-222-14-2] In the groups: **logistics, mutual aid, public information**. Everything else is not written down.
-
-!!! tip "This guide is public: adapt it"
-
-    The police can read it too, and that is not a problem: your security does not rest on keeping the method secret, but on what is written nowhere here (who is in which group, your IDs, the register, meeting places, who your HR and keyholders are). **Change the role names, labels and group naming scheme** rather than copying the guide's: on a seized phone, they won't immediately point to your key people.
 
 ## Find what concerns your role
 
@@ -53,6 +40,20 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
     <noscript><p>JavaScript is disabled: here are all the paths.</p></noscript>
     {{ pt.tree('en', parcours_signal, none, none, '../../', 3) }}
 </div>
+
+## Before you start
+
+!!! warning "Encrypting is legal, but it can be turned against you"
+
+    Using Signal is not an offence. In the so-called "8 December" case, the DGSI describes the defendants as having adopted "clandestine behaviour" with encrypted applications, Tails and Tor, and that wording recurs very often in the file, according to La Quadrature du Net, which analysed it before the trial.[^lqdn-8-decembre] The seven defendants were convicted in December 2023 of terrorist criminal association.[^politis-8-decembre] Neither source says encryption was judged to be an offence: it is cited as an **indicator**. This is a serious case and very far from an ordinary demonstration, but it shows you can be read back: **write nothing you would not want quoted**, and do not count on encryption to protect you from a hostile reading.
+
+!!! warning "Assume someone is reading"
+
+    An in-person meeting keeps out the curious, trolls and the far right, not a well-prepared undercover officer or someone who talks after police custody. Written messages are evidence: knowingly taking part in a group that **prepares** violence or damage is punishable by one year in prison and a €15,000 fine, even if nothing happened.[^cp-222-14-2] In the groups: **logistics, mutual aid, public information**. Everything else is not written down.
+
+!!! tip "This guide is public: adapt it"
+
+    The police can read it too, and that is not a problem: your security does not rest on keeping the method secret, but on what is written nowhere here (who is in which group, your IDs, the register, meeting places, who your HR and keyholders are). **Change the role names, labels and group naming scheme** rather than copying the guide's: on a seized phone, they won't immediately point to your key people.
 
 ## The groups
 
@@ -71,7 +72,7 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 
 </div>
 
-The **trusted group and its sub-groups** are the **vetted groups**, and a **family** sharing the same ID (see [naming groups](signal-gerer.md#naming-groups)). A malicious person who gets into one sub-group does not see the others. Next to the funnel, the [temporary group](signal-gerer.md#the-temporary-group), for an action day or a mobilisation, leads nowhere: it is disposable.
+The **trusted group and its sub-groups** are the **vetted groups**, and a **family** sharing the same ID (see [naming groups](signal-creer.md#naming-groups)). A malicious person who gets into one sub-group does not see the others. Next to the funnel, the [temporary group](signal-gerer.md#the-temporary-group), for an action day or a mobilisation, leads nowhere: it is disposable.
 
 **Two ways into the trusted group:**
 
@@ -116,7 +117,7 @@ The **trusted group and its sub-groups** are the **vetted groups**, and a **fami
     | **Adding** | By HR, from the cleaned airlock group | By HR, **by username**, from a private conversation (no link) |
     | **Time** | A few days to a few weeks | The same day or the next |
 
-In both cases, the same checks: QR code scanned, settings done, a voucher and HR's second check (see [validating](signal-recrutement.md#validating-graduated-trust)).
+In both cases, the same checks: QR code scanned, settings done, a voucher and HR's second check (see [validating](signal-valider.md#validating-graduated-trust)).
 
 ## The roles
 
@@ -174,7 +175,9 @@ So report **zones and directions**, never **people**. Use a dedicated sub-group 
 ## In this guide
 
 - [As a member](signal-membres.md)
-- [Recruiting and vetting](signal-recrutement.md)
+- [Recruiting and meeting](signal-recrutement.md)
+- [Vetting](signal-valider.md)
+- [Creating and configuring groups](signal-creer.md)
 - [Running the groups](signal-gerer.md)
 - [Compromised group](signal-groupe-compromis.md)
 - [Copy-paste templates](signal-modeles.md)
@@ -187,6 +190,8 @@ So report **zones and directions**, never **people**. Use a dedicated sub-group 
 - **The most sensitive matters**: in person, without phones (left in another room, or switched off and kept away).
 
 [:octicons-arrow-right-24: Organising a protest](organiser.md) · [:octicons-arrow-right-24: Communicating at a protest](communiquer.md) · [:octicons-arrow-right-24: Phone](telephone.md)
+
+[Next : As a member :octicons-arrow-right-24:](signal-membres.md)
 
 ## Sources
 

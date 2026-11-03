@@ -1,5 +1,5 @@
 ---
-source_commit: 798b980046995411f9554b189b448aed348b2671
+source_commit: 82367f8caba9978159a453add83c40343aa54736
 review: juridique
 review_status: pending
 tags:
@@ -12,6 +12,8 @@ tags:
 # Signal groups: as a member
 
 [:octicons-arrow-left-24: Signal groups: overview](groupes-signal.md)
+
+Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
 ## Your path
 
@@ -92,6 +94,8 @@ Do this **before** joining your first group, airlock group included: once you ar
 2. **Delete the chat**: deleting the chat does not leave the group, and leaving does not delete the history.[^signal-supprimer]
 3. **Delete what remains elsewhere**: saved photos and files, screenshots, and the chat on your linked devices (Signal Desktop).
 4. **Tell HR** so the register can be updated.
+
+[:octicons-arrow-left-24: Previous : Overview](groupes-signal.md) · [Next : Recruiting and meeting :octicons-arrow-right-24:](signal-recrutement.md)
 
 ## Sources
 
