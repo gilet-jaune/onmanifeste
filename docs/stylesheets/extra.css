@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Awesome Protest — "gilet jaune" theme
+   On proteste — "gilet jaune" theme
    One loud element: the header is a high-visibility vest (fluorescent yellow
    crossed by two reflective bands). Everything else stays black, white and
    asphalt. Yellow is only ever a surface with black text on it (never yellow
@@ -2842,11 +2842,11 @@ dialog.contact-card {
     padding-top: 0.5rem;
     border-top: 1px solid currentcolor;
     font-size: 0.7rem;
-    content: 'Copie papier du site awesome-protest : le contenu évolue, vérifiez la version en ligne.';
+    content: 'Copie papier du site onproteste.fr : le contenu évolue, vérifiez la version en ligne.';
   }
 
   html[lang='en'] .md-content__inner::after {
-    content: 'Paper copy from the awesome-protest site: content changes, check the online version.';
+    content: 'Paper copy from the onproteste.fr site: content changes, check the online version.';
   }
 }
 

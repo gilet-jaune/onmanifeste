@@ -1,6 +1,6 @@
-# Contributing to Awesome Protest
+# Contributing to On proteste
 
-Thank you for considering contributing to Awesome Protest!
+Thank you for considering contributing to On proteste!
 
 ## Working Locally
 

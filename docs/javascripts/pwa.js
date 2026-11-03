@@ -136,7 +136,7 @@ function pwaButton(label, onClick) {
   return btn;
 }
 
-const PWA_OFFLINE_OFF_KEY = 'awesome-protest:offline-disabled';
+const PWA_OFFLINE_OFF_KEY = 'onproteste:offline-disabled';
 const PWA_SETTINGS_URL = new URL(
   pwaLang === 'en' ? '../en/parametres/' : '../parametres/',
   PWA_SCRIPT_URL,
@@ -164,9 +164,7 @@ async function pwaWipeOffline() {
   const registrations = await navigator.serviceWorker.getRegistrations();
   await Promise.all(registrations.map((r) => r.unregister()));
   const keys = await caches.keys();
-  await Promise.all(
-    keys.filter((k) => k.startsWith('awesome-protest-')).map((k) => caches.delete(k)),
-  );
+  await Promise.all(keys.filter((k) => k.startsWith('onproteste-')).map((k) => caches.delete(k)));
 }
 
 async function pwaReinstall() {
@@ -184,7 +182,7 @@ function pwaSettingsLink() {
   return link;
 }
 
-const PWA_UPDATED_KEY = 'awesome-protest:updated';
+const PWA_UPDATED_KEY = 'onproteste:updated';
 let pwaUpdateShown = false;
 
 // A new version was published and installed in the background: it waits for the go-ahead. Taking
@@ -198,7 +196,7 @@ function pwaApplyUpdate(registration) {
   registration.waiting?.postMessage('SKIP_WAITING');
 }
 
-const PWA_LATER_KEY = 'awesome-protest:update-later';
+const PWA_LATER_KEY = 'onproteste:update-later';
 
 function pwaUpdateDeferred() {
   try {
@@ -546,9 +544,9 @@ async function pwaInit() {
 // entry and protects the cache from eviction (e.g. Safari clears non-installed site data after
 // 7 days without a visit). The banner says so and offers the right install path per browser.
 
-const PWA_BANNER_KEY = 'awesome-protest:install-banner-dismissed';
-const PWA_DONE_KEY = 'awesome-protest:install-done';
-const PWA_VIEWS_KEY = 'awesome-protest:page-views';
+const PWA_BANNER_KEY = 'onproteste:install-banner-dismissed';
+const PWA_DONE_KEY = 'onproteste:install-done';
+const PWA_VIEWS_KEY = 'onproteste:page-views';
 const PWA_BANNER_SNOOZE_DAYS = 14;
 const PWA_BANNER_DELAY_MS = 30_000; // on a first page view, wait before suggesting anything
 let pwaInstallPrompt = null;

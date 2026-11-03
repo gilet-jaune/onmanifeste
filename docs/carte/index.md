@@ -34,7 +34,7 @@ _(Sur le bras : **10 chiffres sous la manche, sans nom** — proche hors manif q
 
 {% if config.site_url %}
 
-<p class="pocket__qr"><img src="{{ config.site_url }}assets/social/qr.svg" alt="QR code vers le site Awesome Protest" width="96" height="96"> <span>Le site, hors ligne une fois ouvert :<br><strong>{{ config.site_url }}</strong><br>Pas sûr·e de quoi faire ? <strong>{{ config.site_url }}parcours/</strong></span></p>
+<p class="pocket__qr"><img src="{{ config.site_url }}assets/social/qr.svg" alt="QR code vers le site On proteste" width="96" height="96"> <span>Le site, hors ligne une fois ouvert :<br><strong>{{ config.site_url }}</strong><br>Pas sûr·e de quoi faire ? <strong>{{ config.site_url }}parcours/</strong></span></p>
 {% endif %}
 
 </section>

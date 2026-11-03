@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Awesome Protest historical events",
+  "title": "On proteste historical events",
   "type": "object",
   "required": ["kinds", "events"],
   "properties": {

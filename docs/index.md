@@ -3,7 +3,7 @@ tags:
     - accueil
 ---
 
-# Awesome Protest
+# On proteste
 
 Une liste collaborative d'**outils et de ressources utiles pour manifester en France** : communication sécurisée, sécurité numérique, aide juridique (notamment pour les lycéen·nes), information et organisation.
 

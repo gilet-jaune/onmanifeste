@@ -7,8 +7,8 @@
     "editor.wordWrap": "on"
   },
   "cSpell.customDictionaries": {
-    "awesome-protest-terms": {
-      "name": "awesome-protest-terms",
+    "onproteste-terms": {
+      "name": "onproteste-terms",
       "path": "${workspaceFolder}/.cspell.json",
       "addWords": true
     }

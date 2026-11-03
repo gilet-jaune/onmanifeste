@@ -39,6 +39,6 @@ L'IA a un coût (énergie, ressources) et plusieurs causes défendues ici s'y op
 
 ## Licences
 
-Le contenu et les données de ce site (textes, guides, fichiers `docs/data/*.json`) sont sous licence [Creative Commons Attribution - Partage dans les mêmes conditions 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) : vous pouvez les copier, les imprimer, les traduire et les adapter, y compris pour un usage commercial, en citant Awesome Protest et en partageant vos versions sous la même licence. Le code est sous [licence MIT]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Les logos, marques et sources citées restent la propriété de leurs auteurs.
+Le contenu et les données de ce site (textes, guides, fichiers `docs/data/*.json`) sont sous licence [Creative Commons Attribution - Partage dans les mêmes conditions 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) : vous pouvez les copier, les imprimer, les traduire et les adapter, y compris pour un usage commercial, en citant On proteste et en partageant vos versions sous la même licence. Le code est sous [licence MIT]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Les logos, marques et sources citées restent la propriété de leurs auteurs.
 
 ## Sources

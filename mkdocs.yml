@@ -1,6 +1,6 @@
-site_name: Awesome Protest
-# Injected by CI from the GitHub Pages configuration (no hardcoded host).
-site_url: !ENV [SITE_URL, null]
+site_name: On proteste
+# Custom domain; CI may override it with the GitHub Pages configuration.
+site_url: !ENV [SITE_URL, "https://onproteste.fr/"]
 site_description: Outils et ressources utiles pour manifester en France
 theme:
   name: material

@@ -1,8 +1,8 @@
 {
-  "name": "awesome-protest",
+  "name": "onproteste",
   "version": "0.1.0",
   "license": "(CC-BY-SA-4.0 AND MIT)",
-  "description": "Awesome Protest Documentation",
+  "description": "On proteste Documentation",
   "scripts": {
     "dev": "bash scripts/mkdocs.sh serve --open",
     "preview": "npm test && python3 -m http.server 8000 -d site",

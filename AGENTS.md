@@ -1,7 +1,7 @@
 # AGENTS
 
-Entry point for AI agents working in `awesome-protest` — a French-first, offline-capable MkDocs
-Material toolkit for protesting in France (directory, guides, SOS page, pocket card, timeline).
+Entry point for AI agents working in `onproteste` — a French-first, offline-capable MkDocs Material
+toolkit for protesting in France (directory, guides, SOS page, pocket card, timeline).
 
 ## Role & Principles
 

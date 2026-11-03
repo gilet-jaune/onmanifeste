@@ -1,4 +1,4 @@
-# Awesome Protest [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# On proteste
 
 > Une sélection d'outils libres, de guides juridiques et de ressources pratiques pour s'informer, s'organiser et se protéger lors des manifestations en France.
 
