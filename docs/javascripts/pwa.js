@@ -122,32 +122,56 @@ function pwaApplyUpdate(registration) {
   registration.waiting?.postMessage('SKIP_WAITING');
 }
 
-function pwaShowUpdateBanner(registration) {
-  const banner = document.querySelector('[data-pwa-banner]');
+const PWA_LATER_KEY = 'awesome-protest:update-later';
+
+function pwaUpdateDeferred() {
+  try {
+    return sessionStorage.getItem(PWA_LATER_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+// A popup (native <dialog>, so focus stays inside and Escape means "later"). Never on the
+// emergency page, and once dismissed it stays away for the rest of the session: the offline
+// panel still offers "Install update".
+function pwaShowUpdatePopup(registration) {
   const isEmergencyPage = Boolean(document.querySelector('.sos__numbers'));
-  if (!banner || isEmergencyPage || pwaUpdateShown || !registration.waiting) return;
+  if (isEmergencyPage || pwaUpdateShown || !registration.waiting) return;
   if (!navigator.serviceWorker.controller) return; // first install, not an update
+  if (pwaUpdateDeferred()) return;
   pwaUpdateShown = true;
+
+  const dialog = document.createElement('dialog');
+  dialog.className = 'pwa-update';
+  dialog.setAttribute('aria-labelledby', 'pwa-update-title');
+  const title = document.createElement('h2');
+  title.id = 'pwa-update-title';
+  title.className = 'pwa-update__title';
+  title.textContent = pwaT.updateTitle;
   const text = document.createElement('p');
-  text.className = 'pwa-banner__text';
-  const status = document.createElement('strong');
-  status.className = 'pwa-banner__status';
-  status.textContent = pwaT.updateTitle;
-  text.append(status, ' ', pwaT.updateAvailable);
+  text.className = 'pwa-update__text';
+  text.textContent = pwaT.updateAvailable;
   const actions = document.createElement('div');
-  actions.className = 'pwa-banner__actions';
+  actions.className = 'pwa-update__actions';
   const apply = pwaButton(pwaT.updateNow, () => pwaApplyUpdate(registration));
-  apply.classList.add('pwa-banner__install');
-  actions.append(
-    apply,
-    pwaButton(pwaT.later, () => {
-      pwaUpdateShown = false;
-      pwaHideBanner(false);
-    }),
-  );
-  banner.setAttribute('aria-label', pwaT.updateNow);
-  banner.replaceChildren(text, actions);
-  banner.hidden = false;
+  apply.classList.add('pwa-update__apply');
+  const later = pwaButton(pwaT.later, () => dialog.close());
+  actions.append(apply, later);
+  dialog.append(title, text, actions);
+  dialog.addEventListener('close', () => {
+    dialog.remove();
+    pwaUpdateShown = false;
+    try {
+      sessionStorage.setItem(PWA_LATER_KEY, '1');
+    } catch {
+      /* it may come back on the next page */
+    }
+  });
+  document.body.append(dialog);
+  if (typeof dialog.showModal === 'function') dialog.showModal();
+  else dialog.setAttribute('open', '');
+  apply.focus();
 }
 
 function pwaUpdateStatusBadge(registration) {
@@ -224,10 +248,10 @@ async function pwaInit() {
   } catch {
     /* storage blocked */
   }
-  pwaShowUpdateBanner(registration);
+  pwaShowUpdatePopup(registration);
   registration.addEventListener('updatefound', () => {
     registration.installing?.addEventListener('statechange', () =>
-      pwaShowUpdateBanner(registration),
+      pwaShowUpdatePopup(registration),
     );
   });
   // A long-open app never reloads: look for a new version when it comes back to the foreground.

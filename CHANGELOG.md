@@ -11,6 +11,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - The awesome-lint check (GitHub and GitLab CI, `lint:awesome` script): the project no longer aims at an "awesome" list listing.
 
+### Changed
+
+- Update notice: a popup (modal dialog) replaces the bottom banner when a new version is ready. “Later” keeps it away for the rest of the session, it never appears on the emergency page, and the offline panel still offers the update.
+
 ### Added
 
 - Groupes Signal découpé en une vue d’ensemble et cinq pages ; fiches mémo Signal à imprimer ; mise en page d’impression et bouton « Imprimer cette page » sur les guides ; interdiction individuelle de manifester (juge) ; venir avec un enfant ou un animal ; fédérations syndicales du secteur social dans l’annuaire ; `npm run review:brief` (fiches de relecture).

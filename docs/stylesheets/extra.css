@@ -1231,6 +1231,52 @@ select:focus-visible {
   color: var(--ap-ink);
 }
 
+/* Update popup: a modal dialog in the same dark card style as the install banner. */
+.pwa-update {
+  box-sizing: border-box;
+  width: min(24rem, calc(100vw - 2rem));
+  padding: 1rem 1.1rem;
+  border: 3px solid var(--ap-ink);
+  border-top: 6px solid var(--ap-silver);
+  border-radius: var(--ap-radius);
+  background: var(--ap-ink);
+  color: #f2f3f4;
+}
+
+.pwa-update::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.pwa-update__title {
+  margin: 0 0 0.4rem;
+  color: var(--ap-vest);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.pwa-update__text {
+  margin: 0 0 0.8rem;
+  font-size: 0.75rem;
+  line-height: 1.45;
+}
+
+.pwa-update__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.pwa-update .pwa-update__apply {
+  background: var(--ap-vest);
+  border-color: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.pwa-update .pwa-panel__btn:focus-visible {
+  outline: 3px solid var(--ap-vest);
+  outline-offset: 2px;
+}
+
 @media screen and (max-width: 44.9375em) {
   .pwa-banner {
     right: 0.5rem;
@@ -1241,7 +1287,8 @@ select:focus-visible {
 
 @media print {
   .fab-stack,
-  .pwa-banner {
+  .pwa-banner,
+  .pwa-update {
     display: none !important;
   }
 }
