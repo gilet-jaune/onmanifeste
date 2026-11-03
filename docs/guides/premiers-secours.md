@@ -1,4 +1,5 @@
 ---
+description: 'Premiers secours en manifestation : gaz, blessures, urgence vitale, gestes à connaître et numéros à appeler.'
 review: medical
 review_status: pending
 tags:

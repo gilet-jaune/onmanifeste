@@ -1,4 +1,5 @@
 ---
+description: 'Téléphone en manif : verrouillage, code, biométrie et que faire en cas de saisie.'
 review: juridique
 review_status: pending
 tags:

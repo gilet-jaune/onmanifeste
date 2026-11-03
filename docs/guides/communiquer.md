@@ -1,4 +1,5 @@
 ---
+description: 'Communiquer pendant une manif : Signal avec réseau, Briar sans réseau, messages éphémères et bonnes pratiques.'
 tags:
     - guides
     - communication

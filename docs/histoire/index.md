@@ -1,4 +1,5 @@
 ---
+description: 'Une frise des soulèvements, mouvements sociaux et conquêtes de droits obtenus dans la rue, avec sources.'
 tags:
     - histoire
 hide:

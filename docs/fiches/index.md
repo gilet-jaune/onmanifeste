@@ -1,4 +1,5 @@
 ---
+description: "Deux fiches mémo d'une page A4 à imprimer et à plier : numéros, droits et réflexes en manifestation, utiles sans téléphone."
 review: juridique
 review_status: pending
 tags:

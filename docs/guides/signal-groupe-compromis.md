@@ -1,4 +1,5 @@
 ---
+description: 'Groupes Signal : que faire quand un groupe est compromis (téléphone saisi, fuite, arrestation).'
 review: juridique
 review_status: pending
 tags:

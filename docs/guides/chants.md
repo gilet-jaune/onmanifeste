@@ -1,4 +1,5 @@
 ---
+description: 'Chants de manifestation : tenir le cortège en chantant, répertoire et conseils, sans recopier de paroles protégées.'
 tags:
     - guides
     - ambiance

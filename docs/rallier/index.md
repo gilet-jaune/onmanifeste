@@ -1,4 +1,5 @@
 ---
+description: 'Pourquoi rejoindre les mobilisations ? Pour chaque profil (salarié·e, retraité·e, soignant·e…), des enjeux sourcés et les objections fréquentes.'
 tags:
     - convaincre
 hide:

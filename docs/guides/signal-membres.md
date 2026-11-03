@@ -1,4 +1,5 @@
 ---
+description: "Groupes Signal, côté membre : réglages, bons réflexes et ce qu'on attend de vous dans un groupe de confiance."
 review: juridique
 review_status: pending
 tags:

@@ -1,4 +1,5 @@
 ---
+description: 'Une carte de poche à imprimer, découper et garder sur soi : numéros utiles au recto, droits et réflexes au verso, même sans téléphone.'
 review: juridique
 review_status: pending
 tags:

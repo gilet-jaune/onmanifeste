@@ -1,4 +1,5 @@
 ---
+description: "Choc émotionnel, angoisse et santé mentale après une manif : gestes immédiats, lignes d'écoute, quand demander de l'aide."
 review: medical
 review_status: pending
 tags:

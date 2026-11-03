@@ -1,4 +1,5 @@
 ---
+description: 'Drapeau palestinien en manifestation : ce que dit la loi, interdictions et recours.'
 review: juridique
 review_status: pending
 tags:

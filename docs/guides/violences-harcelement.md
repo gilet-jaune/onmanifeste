@@ -1,4 +1,5 @@
 ---
+description: "Violences sexistes et harcèlement en ligne en lien avec les manifs : se protéger, signaler, numéros d'aide."
 review: juridique
 review_status: pending
 tags:

@@ -1,4 +1,5 @@
 ---
+description: 'ADN, empreintes et photos en garde à vue : ce que la police peut prélever, refus et conséquences.'
 review: juridique
 review_status: pending
 tags:

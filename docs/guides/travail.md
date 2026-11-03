@@ -1,4 +1,5 @@
 ---
+description: 'Grève, manif et travail : droits et obligations dans le privé et la fonction publique.'
 review: juridique
 review_status: pending
 tags:

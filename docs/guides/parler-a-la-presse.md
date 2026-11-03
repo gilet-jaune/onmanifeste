@@ -1,4 +1,5 @@
 ---
+description: "Parler à la presse en manifestation : vous n'êtes pas obligé·e de répondre, message court, ce qu'il vaut mieux éviter."
 tags:
     - guides
     - communication

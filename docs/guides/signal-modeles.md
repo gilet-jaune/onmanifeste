@@ -1,4 +1,5 @@
 ---
+description: 'Groupes Signal : modèles de messages à copier-coller pour les situations courantes.'
 review: juridique
 review_status: pending
 tags:

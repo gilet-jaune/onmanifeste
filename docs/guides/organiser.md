@@ -1,4 +1,5 @@
 ---
+description: "Organiser une manifestation : déclaration en mairie ou préfecture, délais, service d'ordre, risques de l'organisateur·ice."
 review: juridique
 review_status: pending
 tags:

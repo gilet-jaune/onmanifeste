@@ -1,4 +1,5 @@
 ---
+description: "Réglages du mode hors ligne et de l'application : tout reste sur votre appareil, rien n'est envoyé à un serveur."
 hide:
     - toc
 ---

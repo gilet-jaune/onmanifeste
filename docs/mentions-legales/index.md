@@ -1,4 +1,5 @@
 ---
+description: 'Mentions légales, hébergeur, données personnelles, licences et politique de confidentialité du site On proteste.'
 tags:
     - mentions légales
 ---

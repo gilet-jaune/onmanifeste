@@ -1,4 +1,5 @@
 ---
+description: 'Le droit de manifester en France : déclaration, manifestation non déclarée ou interdite, ce que dit la loi.'
 review: juridique
 review_status: pending
 tags:

@@ -1,4 +1,5 @@
 ---
+description: 'Référendum contourné, convention citoyenne, lois sans vote : les faits sourcés sur les voies démocratiques que les mobilisations estiment bafouées.'
 tags:
     - comprendre
     - démocratie

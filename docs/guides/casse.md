@@ -1,4 +1,5 @@
 ---
+description: 'Pourquoi ça casse en manif ? Les faits sur la casse, les symboles visés et la façon dont les médias en parlent.'
 review: juridique
 review_status: pending
 tags:

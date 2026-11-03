@@ -1,4 +1,5 @@
 ---
+description: 'Armes de la police en manifestation : effets, blessures et débris pour adapter les soins et documenter la preuve.'
 review: medical
 review_status: pending
 tags:

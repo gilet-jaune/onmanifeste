@@ -1,4 +1,5 @@
 ---
+description: "Dites où vous en êtes (gazé·e, première manif, témoin d'une arrestation…) et ce que vous voulez faire : le site vous mène au bon guide."
 tags:
     - parcours
 ---

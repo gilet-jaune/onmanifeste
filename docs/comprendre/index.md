@@ -1,4 +1,5 @@
 ---
+description: 'Dossiers documentés et observatoires indépendants pour comprendre les mobilisations, vérifier les faits et suivre les élu·es.'
 tags:
     - comprendre
     - médias

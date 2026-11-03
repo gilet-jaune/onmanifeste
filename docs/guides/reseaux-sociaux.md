@@ -1,4 +1,5 @@
 ---
+description: "Réseaux sociaux : ne pas nourrir la haine, ignorer l'extrême droite en ligne, signaler et se protéger."
 review: juridique
 review_status: pending
 tags:

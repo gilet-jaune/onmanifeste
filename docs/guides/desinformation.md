@@ -1,4 +1,5 @@
 ---
+description: 'Vérifier une info et éviter la désinformation : méthode SIFT, services de vérification, réflexes avant de partager.'
 tags:
     - guides
     - désinformation

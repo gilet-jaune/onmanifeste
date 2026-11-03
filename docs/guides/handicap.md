@@ -1,4 +1,5 @@
 ---
+description: 'Manifester en situation de handicap ou avec une maladie chronique : préparer, urgences accessibles, matériel et aide.'
 review: medical
 review_status: pending
 tags:

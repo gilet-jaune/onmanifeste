@@ -1,4 +1,5 @@
 ---
+description: 'Ne jamais rester seul·e en manif : binôme, points de rendez-vous, personne à prévenir.'
 tags:
     - guides
     - sécurité

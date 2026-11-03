@@ -1,4 +1,5 @@
 ---
+description: 'Checklist avant de partir en manif : téléphone, affaires, rendez-vous, personnes à prévenir. À préparer la veille.'
 tags:
     - guides
     - préparation

@@ -1,4 +1,5 @@
 ---
+description: 'Groupes Signal : créer et régler les groupes, avec les bons paramètres dès le départ.'
 review: juridique
 review_status: pending
 tags:

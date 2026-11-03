@@ -1,4 +1,5 @@
 ---
+description: 'Tous les guides pour manifester en France : avant, pendant et après la manif, selon votre situation. Consultables hors ligne.'
 tags:
     - guides
 ---

@@ -1,4 +1,5 @@
 ---
+description: "Numéros d'urgence, legal teams et lignes d'écoute pour manifester en France : un appel en un geste, consultable hors ligne."
 tags:
     - urgence
 hide:

@@ -1,4 +1,5 @@
 ---
+description: "S'informer et se former à l'action non-violente, à vos droits et au suivi des mobilisations : organisations et agendas."
 tags:
     - guides
     - formation

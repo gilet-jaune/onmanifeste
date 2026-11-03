@@ -1,4 +1,5 @@
 ---
+description: "Filmer les forces de l'ordre : ce que permet la loi, comment filmer, sauvegarder et publier sans exposer personne."
 review: juridique
 review_status: pending
 tags:

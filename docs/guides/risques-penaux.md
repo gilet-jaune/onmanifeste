@@ -1,4 +1,5 @@
 ---
+description: "Ce que la loi interdit en manifestation et ce qu'on risque : armes, dissimulation du visage, groupement, délits et sanctions."
 review: juridique
 review_status: pending
 tags:

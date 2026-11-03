@@ -1,4 +1,5 @@
 ---
+description: 'Trois fiches mémo A4 à imprimer sur les groupes Signal : membre, arrestation ou groupe compromis, rôles des gardien·nes.'
 review: juridique
 review_status: pending
 tags:

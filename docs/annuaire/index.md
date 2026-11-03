@@ -1,4 +1,5 @@
 ---
+description: "Annuaire d'outils et de ressources pour manifester en France : aide juridique, santé, sécurité numérique, médias, avec sources vérifiées."
 tags:
     - annuaire
 hide:

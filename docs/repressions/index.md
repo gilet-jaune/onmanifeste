@@ -1,4 +1,5 @@
 ---
+description: "Violences lors du maintien de l'ordre et déclarations officielles démenties par les faits : une frise datée et sourcée."
 tags:
     - répression
     - désinformation

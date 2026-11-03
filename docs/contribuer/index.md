@@ -1,4 +1,5 @@
 ---
+description: "Comment contribuer : ajouter une ressource, un guide ou un événement, relire un contenu. Tout part d'un registre de données public et vérifié."
 tags:
     - contribuer
 ---

@@ -1,4 +1,5 @@
 ---
+description: 'Groupes Signal : recruter et rencontrer de nouvelles personnes sans exposer le groupe.'
 review: juridique
 review_status: pending
 tags:

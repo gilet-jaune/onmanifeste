@@ -1,4 +1,5 @@
 ---
+description: "Agressions par l'extrême droite en marge des manifs : prévenir, venir en groupe, réagir et signaler."
 review: juridique
 review_status: pending
 tags:

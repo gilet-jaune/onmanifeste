@@ -1,4 +1,5 @@
 ---
+description: "Contrôle d'identité, fouille de sac et amendes en manifestation : vos obligations, vos droits et les limites de la police."
 review: juridique
 review_status: pending
 tags:

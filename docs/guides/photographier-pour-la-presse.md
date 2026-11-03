@@ -1,4 +1,5 @@
 ---
+description: "Photographier et filmer pour la presse en manifestation : statuts, liberté d'informer, droit à l'image et bonnes pratiques."
 review: juridique
 review_status: pending
 tags:

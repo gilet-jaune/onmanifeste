@@ -1,4 +1,5 @@
 ---
+description: "Kit et tenue de manif : vêtements, protections des yeux et des voies respiratoires, ce qu'on emporte et ce qu'on laisse."
 review: juridique
 review_status: pending
 tags:

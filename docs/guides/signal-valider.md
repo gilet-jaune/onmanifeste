@@ -1,4 +1,5 @@
 ---
+description: "Groupes Signal : valider la confiance avant d'admettre quelqu'un dans un groupe de confiance."
 review: juridique
 review_status: pending
 tags:

@@ -1,4 +1,5 @@
 ---
+description: "Garde à vue : avocat·e, médecin, droit de se taire, durée et droits à connaître dès l'interpellation."
 review: juridique
 review_status: pending
 tags:

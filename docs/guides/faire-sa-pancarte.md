@@ -1,4 +1,5 @@
 ---
+description: 'Faire sa pancarte, sa banderole, son drapeau ou son tract : message, matériaux, règles à connaître.'
 review: juridique
 review_status: pending
 tags:

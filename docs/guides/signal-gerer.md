@@ -1,4 +1,5 @@
 ---
+description: 'Groupes Signal : tenir les groupes dans la durée, rôles, rotation et fermeture.'
 review: juridique
 review_status: pending
 tags:

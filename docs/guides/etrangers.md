@@ -1,4 +1,5 @@
 ---
+description: 'Manifester sans la nationalité française : ce que dit la loi, risques liés au titre de séjour et conseils.'
 review: juridique
 review_status: pending
 tags:

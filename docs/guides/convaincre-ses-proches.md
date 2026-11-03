@@ -1,4 +1,5 @@
 ---
+description: "Convaincre ses proches de s'intéresser aux mobilisations : écouter, valeurs communes, histoires vécues."
 tags:
     - guides
     - dialogue

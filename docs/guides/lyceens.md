@@ -1,4 +1,5 @@
 ---
+description: 'Lycéen·nes : blocus, absences et sanctions. Ce que vous pouvez faire, ce qui est interdit et vos recours.'
 review: juridique
 review_status: pending
 tags:

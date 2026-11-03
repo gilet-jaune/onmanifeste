@@ -1,4 +1,5 @@
 ---
+description: "Groupes Signal pour s'organiser en limitant les fuites : groupe public, groupe sas, groupe de confiance. Vue d'ensemble."
 review: juridique
 review_status: pending
 tags:

@@ -1,4 +1,5 @@
 ---
+description: "Venir et repartir d'une manif : itinéraires de retour, transports, carte hors ligne, sortir sans se faire isoler."
 tags:
     - guides
     - transports
