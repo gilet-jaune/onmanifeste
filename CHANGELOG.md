@@ -13,10 +13,13 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- Install banner: when the browser can install the app, only “Install” and “Later” are offered; “Already installed” appears only when the browser cannot tell. The footer block shows the offline status and a link to the settings page.
+- Secondary buttons (guide print button, SOS guided-search button) are dark on white instead of yellow on white, with a yellow fill on hover.
 - Update notice: a popup (modal dialog) replaces the bottom banner when a new version is ready. “Later” keeps it away for the rest of the session, it never appears on the emergency page, and the offline panel still offers the update.
 
 ### Added
 
+- Settings page (`parametres`): offline mode on/off (turning it off deletes the offline copy and stops a new one being made), update check, reinstall, install help and an install-suggestions switch. Stored in the browser only.
 - Groupes Signal découpé en une vue d’ensemble et cinq pages ; fiches mémo Signal à imprimer ; mise en page d’impression et bouton « Imprimer cette page » sur les guides ; interdiction individuelle de manifester (juge) ; venir avec un enfant ou un animal ; fédérations syndicales du secteur social dans l’annuaire ; `npm run review:brief` (fiches de relecture).
 - Guide « Grève, manif et travail » : poste qui ne bloque rien, grève perlée/du zèle, soutenir financièrement des grévistes ; parcours « pas en position de bloquer… mais je veux soutenir une grève » ; ressource Caisse de solidarité.
 - Initial MkDocs Material scaffold (Prettier, markdownlint, cspell, lychee, GitHub Actions).

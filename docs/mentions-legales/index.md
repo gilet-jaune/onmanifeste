@@ -24,7 +24,7 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-U
 
 - **Aucune mesure d'audience, aucun traceur, aucun compte.** Le site n'utilise ni cookie publicitaire ni outil de statistiques.
 - **Aucune requête vers un tiers** depuis votre navigateur : polices et ressources sont servies par le site lui-même.
-- **Stockage local uniquement** : la copie hors ligne (cache du service worker) et le choix de masquer le bandeau d'installation restent dans votre navigateur. Le bouton « Réinstaller » en bas de page les efface.
+- **Stockage local uniquement** : la copie hors ligne (cache du service worker) et vos choix (bandeau d'installation masqué, mode hors ligne désactivé) restent dans votre navigateur. La page [Paramètres](../parametres.md) permet de les gérer et de supprimer la copie hors ligne.
 - **Journaux de l'hébergeur** : comme tout serveur, GitHub Pages enregistre l'adresse IP des visiteurs pour des raisons de sécurité.[^github-pages] Si cela vous expose, consultez le site via {{ res("tor-browser") }} ou un VPN, ou installez-le une fois puis utilisez-le hors ligne.
 
 ## Contenus et responsabilité

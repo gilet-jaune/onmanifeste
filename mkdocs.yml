@@ -149,6 +149,7 @@ plugins:
             Repères historiques: History
             Répressions documentées: Documented repression
             Blessé·es et mort·es: Injured and killed
+            Paramètres: Settings
             Contribuer: Contributing
             Carte de poche: Pocket card
             Fiches mémo à imprimer: Memo sheets to print
@@ -263,6 +264,7 @@ nav:
       - Répressions documentées: repressions/index.md
       - Blessé·es et mort·es: victimes/index.md
   - Le projet:
+      - Paramètres: parametres.md
       - Contribuer: contribuer/index.md
       - Mentions légales: mentions-legales/index.md
 

@@ -1,10 +1,12 @@
 /*
-  PWA controls: registers the service worker and fills the footer panel
-  ([data-pwa-panel]) with the offline status, an update button and a reinstall button.
+  PWA controls: registers the service worker, fills the footer panel ([data-pwa-panel]) with the
+  offline status and a link to the settings page, and builds that page ([data-pwa-settings]):
+  offline mode on/off, update, reinstall, install help and install suggestions.
 */
 
 // Resolve relative to this script so it works under any base path / language prefix.
-const PWA_SW_URL = new URL('../sw.js', document.currentScript.src);
+const PWA_SCRIPT_URL = document.currentScript.src;
+const PWA_SW_URL = new URL('../sw.js', PWA_SCRIPT_URL);
 
 const PWA_I18N = {
   fr: {
@@ -35,6 +37,25 @@ const PWA_I18N = {
       'Guides et corrections à jour. La mise à jour ne supprime rien et ne demande aucune réinstallation.',
     updateNow: 'Mettre à jour',
     updatedMsg: 'Mise à jour effectuée ✓ Vous avez la dernière version.',
+    doneInstalled: 'Déjà installée',
+    settingsLink: 'Gérer le mode hors ligne',
+    updateAvailableShort: 'Mise à jour disponible',
+    offlineOff: 'Mode hors ligne désactivé',
+    secOffline: 'Mode hors ligne',
+    offlineToggle: 'Activer le mode hors ligne (copie du site dans ce navigateur)',
+    offlineToggleHelp:
+      'Désactiver supprime la copie hors ligne de ce navigateur et empêche d’en recréer une. Le site reste utilisable avec une connexion, mais ne s’ouvrira plus sans réseau.',
+    confirmOff:
+      'Désactiver le mode hors ligne ? La copie du site enregistrée dans ce navigateur sera supprimée : sans connexion, le site ne s’ouvrira plus.',
+    offDone: 'Mode hors ligne désactivé : la copie a été supprimée.',
+    offStatus: 'Mode hors ligne désactivé',
+    secInstall: 'Application',
+    installedYes: 'Application installée ✓',
+    uninstallHelp:
+      'Pour la désinstaller : menu du navigateur ou paramètres du système, comme pour n’importe quelle application. Un site ne peut pas le faire à votre place.',
+    secSuggest: 'Suggestions d’installation',
+    suggestToggle: 'Me proposer d’installer l’application',
+    privacyNote: 'Rien n’est envoyé à un serveur : ces réglages restent dans votre navigateur.',
     statusReady: 'Prêt hors ligne',
     statusReadyDesc: 'Copie hors ligne prête : consultable sans réseau',
     statusOffline: 'Hors ligne actif',
@@ -73,6 +94,25 @@ const PWA_I18N = {
       'Up-to-date guides and fixes. Updating deletes nothing and does not require reinstalling.',
     updateNow: 'Update',
     updatedMsg: 'Update done ✓ You have the latest version.',
+    doneInstalled: 'Already installed',
+    settingsLink: 'Manage offline mode',
+    updateAvailableShort: 'Update available',
+    offlineOff: 'Offline mode off',
+    secOffline: 'Offline mode',
+    offlineToggle: 'Turn on offline mode (a copy of the site in this browser)',
+    offlineToggleHelp:
+      'Turning it off deletes the offline copy from this browser and stops a new one being made. The site still works with a connection, but will not open without a network.',
+    confirmOff:
+      'Turn offline mode off? The copy of the site saved in this browser will be deleted: without a connection, the site will no longer open.',
+    offDone: 'Offline mode off: the copy was deleted.',
+    offStatus: 'Offline mode off',
+    secInstall: 'App',
+    installedYes: 'App installed ✓',
+    uninstallHelp:
+      'To uninstall it: browser menu or system settings, like any app. A website cannot do it for you.',
+    secSuggest: 'Install suggestions',
+    suggestToggle: 'Suggest installing the app',
+    privacyNote: 'Nothing is sent to a server: these settings stay in your browser.',
     statusReady: 'Ready offline',
     statusReadyDesc: 'Offline copy ready: readable without network',
     statusOffline: 'Offline mode',
@@ -96,16 +136,52 @@ function pwaButton(label, onClick) {
   return btn;
 }
 
-async function pwaReinstall() {
-  if (!window.confirm(pwaT.confirm)) return;
+const PWA_OFFLINE_OFF_KEY = 'awesome-protest:offline-disabled';
+const PWA_SETTINGS_URL = new URL(
+  pwaLang === 'en' ? '../en/parametres/' : '../parametres/',
+  PWA_SCRIPT_URL,
+);
+
+function pwaOfflineDisabled() {
+  try {
+    return localStorage.getItem(PWA_OFFLINE_OFF_KEY) === '1';
+  } catch {
+    return false;
+  }
+}
+
+function pwaSetOfflineDisabled(disabled) {
+  try {
+    if (disabled) localStorage.setItem(PWA_OFFLINE_OFF_KEY, '1');
+    else localStorage.removeItem(PWA_OFFLINE_OFF_KEY);
+  } catch {
+    /* this page only */
+  }
+}
+
+// Unregister the worker and delete every offline cache of this site.
+async function pwaWipeOffline() {
   const registrations = await navigator.serviceWorker.getRegistrations();
   await Promise.all(registrations.map((r) => r.unregister()));
   const keys = await caches.keys();
   await Promise.all(
     keys.filter((k) => k.startsWith('awesome-protest-')).map((k) => caches.delete(k)),
   );
+}
+
+async function pwaReinstall() {
+  if (!window.confirm(pwaT.confirm)) return;
+  await pwaWipeOffline();
   // Reload from the network; the fresh page registers and precaches the latest version.
   window.location.reload();
+}
+
+function pwaSettingsLink() {
+  const link = document.createElement('a');
+  link.className = 'pwa-panel__btn pwa-panel__link';
+  link.href = PWA_SETTINGS_URL.href;
+  link.textContent = pwaT.settingsLink;
+  return link;
 }
 
 const PWA_UPDATED_KEY = 'awesome-protest:updated';
@@ -224,12 +300,164 @@ function pwaInitStatusBadge(registration) {
   });
 }
 
+let pwaSettingsRefresh = null;
+
+// The settings page: offline mode on/off, update and reinstall, install help, install suggestions.
+function pwaRenderSettings(registration) {
+  const root = document.querySelector('[data-pwa-settings]');
+  if (!root) return;
+
+  const make = (tag, className, text) => {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (text) el.textContent = text;
+    return el;
+  };
+  const section = (title, ...nodes) => {
+    const s = make('section', 'pwa-settings__section');
+    s.append(make('h2', '', title), ...nodes);
+    return s;
+  };
+  const toggle = (label, checked, onChange) => {
+    const wrap = make('label', 'pwa-settings__toggle');
+    const input = make('input');
+    input.type = 'checkbox';
+    input.checked = checked;
+    input.addEventListener('change', () => onChange(input, input.checked));
+    wrap.append(input, ' ', label);
+    return wrap;
+  };
+  const action = (label, onClick, primary) => {
+    const b = pwaButton(label, onClick);
+    b.className = primary ? 'md-button md-button--primary' : 'md-button';
+    return b;
+  };
+
+  function render() {
+    const disabled = pwaOfflineDisabled();
+    const waiting = Boolean(registration?.waiting);
+    const live = make('p', 'pwa-settings__status');
+    live.setAttribute('role', 'status');
+    live.textContent = disabled ? pwaT.offStatus : `✓ ${pwaT.ready}`;
+    if (!disabled && registration) {
+      navigator.serviceWorker.controller?.postMessage('GET_VERSION');
+    }
+
+    // Offline mode
+    const offlineNodes = [
+      live,
+      toggle(pwaT.offlineToggle, !disabled, async (input, on) => {
+        if (!on) {
+          if (!window.confirm(pwaT.confirmOff)) {
+            input.checked = true;
+            return;
+          }
+          pwaSetOfflineDisabled(true);
+          await pwaWipeOffline();
+          const badge = document.querySelector('[data-pwa-status]');
+          if (badge) badge.hidden = true;
+          pwaToast(pwaT.offDone);
+          registration = null;
+          render();
+        } else {
+          pwaSetOfflineDisabled(false);
+          window.location.reload();
+        }
+      }),
+      make('p', 'pwa-settings__help', pwaT.offlineToggleHelp),
+    ];
+    if (!disabled && registration) {
+      const buttons = make('div', 'pwa-settings__actions');
+      if (waiting) buttons.append(action(pwaT.update, () => pwaApplyUpdate(registration), true));
+      else {
+        const check = action(pwaT.check, async () => {
+          check.textContent = pwaT.checking;
+          await registration.update().catch(() => {});
+          if (!registration.installing && !registration.waiting) check.textContent = pwaT.upToDate;
+          setTimeout(() => (check.textContent = pwaT.check), 2000);
+        });
+        buttons.append(check);
+      }
+      buttons.append(action(pwaT.reinstall, pwaReinstall));
+      offlineNodes.push(buttons);
+    }
+
+    // Install
+    const installNodes = [];
+    if (pwaIsInstalled()) installNodes.push(make('p', '', pwaT.installedYes));
+    else if (pwaInstallPrompt) {
+      installNodes.push(
+        action(
+          pwaT.install,
+          async () => {
+            pwaInstallPrompt.prompt();
+            const { outcome } = await pwaInstallPrompt.userChoice;
+            pwaInstallPrompt = null;
+            if (outcome === 'accepted') pwaRememberDone();
+            render();
+          },
+          true,
+        ),
+      );
+    } else {
+      installNodes.push(make('p', '', pwaIsIos() ? pwaT.iosHint : pwaT.genericHint));
+    }
+    installNodes.push(make('p', 'pwa-settings__help', pwaT.uninstallHelp));
+
+    // Install suggestions
+    const suggest = toggle(pwaT.suggestToggle, !pwaAlreadyDone(), (input, on) => {
+      try {
+        if (on) {
+          localStorage.removeItem(PWA_DONE_KEY);
+          localStorage.removeItem(PWA_BANNER_KEY);
+        } else localStorage.setItem(PWA_DONE_KEY, '1');
+      } catch {
+        /* this page only */
+      }
+    });
+
+    root.replaceChildren(
+      section(pwaT.secOffline, ...offlineNodes),
+      section(pwaT.secInstall, ...installNodes),
+      section(pwaT.secSuggest, suggest),
+      make('p', 'pwa-settings__help', pwaT.privacyNote),
+    );
+  }
+
+  pwaSettingsRefresh = render;
+  navigator.serviceWorker?.addEventListener('message', (event) => {
+    const status = root.querySelector('.pwa-settings__status');
+    if (event.data?.type === 'VERSION' && status && !pwaOfflineDisabled())
+      status.textContent = `✓ ${pwaT.ready} · ${pwaT.version} ${event.data.version}`;
+  });
+  registration?.addEventListener('updatefound', () => {
+    registration.installing?.addEventListener('statechange', render);
+  });
+  render();
+}
+
 async function pwaInit() {
   const panel = document.querySelector('[data-pwa-panel]');
   const badge = document.querySelector('[data-pwa-status]');
+  const settings = document.querySelector('[data-pwa-settings]');
   if (!('serviceWorker' in navigator)) {
     if (panel) panel.textContent = pwaT.unsupported;
+    if (settings) settings.textContent = pwaT.unsupported;
     if (badge) badge.hidden = true;
+    return;
+  }
+
+  // The visitor turned offline mode off: leave no worker or cache behind.
+  if (pwaOfflineDisabled()) {
+    await pwaWipeOffline();
+    if (badge) badge.hidden = true;
+    if (panel) {
+      const status = document.createElement('span');
+      status.className = 'pwa-panel__status';
+      status.textContent = pwaT.offlineOff;
+      panel.replaceChildren(status, pwaSettingsLink());
+    }
+    pwaRenderSettings(null);
     return;
   }
 
@@ -263,42 +491,7 @@ async function pwaInit() {
   });
 
   navigator.serviceWorker.ready.then(() => pwaUpdateStatusBadge(registration));
-
-  if (!panel) return;
-
-  const status = document.createElement('span');
-  status.className = 'pwa-panel__status';
-  const actions = document.createElement('span');
-  actions.className = 'pwa-panel__actions';
-  panel.replaceChildren(status, actions);
-
-  const updateBtn = pwaButton(pwaT.update, () => pwaApplyUpdate(registration));
-  const checkBtn = pwaButton(pwaT.check, async () => {
-    checkBtn.textContent = pwaT.checking;
-    await registration.update().catch(() => {});
-    if (!registration.installing && !registration.waiting) checkBtn.textContent = pwaT.upToDate;
-    setTimeout(() => (checkBtn.textContent = pwaT.check), 2000);
-  });
-  const reinstallBtn = pwaButton(pwaT.reinstall, pwaReinstall);
-
-  function render() {
-    const waiting = Boolean(registration.waiting);
-    const active = navigator.serviceWorker.controller || registration.active;
-    status.textContent = active ? `✓ ${pwaT.ready}` : pwaT.installing;
-    actions.replaceChildren(...(waiting ? [updateBtn] : [checkBtn]), reinstallBtn);
-    panel.classList.toggle('has-update', waiting);
-    if (active) navigator.serviceWorker.controller?.postMessage('GET_VERSION');
-    pwaUpdateStatusBadge(registration);
-  }
-
-  navigator.serviceWorker.addEventListener('message', (event) => {
-    if (event.data?.type === 'VERSION')
-      status.textContent = `✓ ${pwaT.ready} · ${pwaT.version} ${event.data.version}`;
-  });
-
-  registration.addEventListener('updatefound', () => {
-    registration.installing?.addEventListener('statechange', render);
-  });
+  pwaRenderSettings(registration);
 
   // The new worker took over (after "Install update"): reload once to use the new files.
   let reloading = false;
@@ -312,8 +505,40 @@ async function pwaInit() {
     window.location.reload();
   });
 
-  await navigator.serviceWorker.ready;
-  render();
+  if (panel) {
+    const status = document.createElement('span');
+    status.className = 'pwa-panel__status';
+    const actions = document.createElement('span');
+    actions.className = 'pwa-panel__actions';
+    panel.replaceChildren(status, actions);
+    const updateBtn = pwaButton(pwaT.update, () => pwaApplyUpdate(registration));
+    const link = pwaSettingsLink();
+
+    const render = () => {
+      const waiting = Boolean(registration.waiting);
+      const active = navigator.serviceWorker.controller || registration.active;
+      status.textContent = waiting
+        ? pwaT.updateAvailableShort
+        : active
+          ? `✓ ${pwaT.ready}`
+          : pwaT.installing;
+      actions.replaceChildren(...(waiting ? [updateBtn] : []), link);
+      panel.classList.toggle('has-update', waiting);
+      if (active) navigator.serviceWorker.controller?.postMessage('GET_VERSION');
+      pwaUpdateStatusBadge(registration);
+    };
+    navigator.serviceWorker.addEventListener('message', (event) => {
+      if (event.data?.type === 'VERSION' && !registration.waiting)
+        status.textContent = `✓ ${pwaT.ready} · ${pwaT.version} ${event.data.version}`;
+    });
+    registration.addEventListener('updatefound', () => {
+      registration.installing?.addEventListener('statechange', render);
+    });
+    await navigator.serviceWorker.ready;
+    render();
+  } else {
+    await navigator.serviceWorker.ready;
+  }
 }
 
 // --- Install banner -------------------------------------------------------
@@ -419,6 +644,8 @@ function pwaRenderBanner() {
     pwaIsInstalled() ||
     pwaAlreadyDone() ||
     pwaBannerSnoozed() ||
+    pwaOfflineDisabled() ||
+    document.querySelector('[data-pwa-settings]') ||
     !('serviceWorker' in navigator)
   ) {
     if (banner) banner.hidden = true;
@@ -447,12 +674,15 @@ function pwaRenderBanner() {
     install.classList.add('pwa-banner__install');
     actions.append(install);
   } else {
+    // The browser cannot tell us whether the app is installed: let the visitor say so.
     const hint = document.createElement('span');
     hint.className = 'pwa-banner__hint';
     hint.textContent = pwaIsIos() ? pwaT.iosHint : pwaT.genericHint;
-    actions.append(hint);
+    actions.append(
+      hint,
+      pwaButton(pwaT.doneInstalled, () => pwaConfirmDone(pwaT.doneMsg)),
+    );
   }
-  actions.append(pwaButton(pwaT.done, () => pwaConfirmDone(pwaT.doneMsg)));
   actions.append(pwaButton(pwaT.later, () => pwaHideBanner(true)));
 
   const close = document.createElement('button');
@@ -479,6 +709,7 @@ window.addEventListener('beforeinstallprompt', (event) => {
   pwaInstallPrompt = event;
   // Only refresh a card that is already shown; don't pop it up earlier than scheduled.
   if (!document.querySelector('[data-pwa-banner]')?.hidden) pwaRenderBanner();
+  pwaSettingsRefresh?.();
 });
 
 window.addEventListener('appinstalled', () => {
