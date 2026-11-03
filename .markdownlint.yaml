@@ -31,7 +31,8 @@ MD012: true # No multiple consecutive blank lines
 MD018: true # No header without space after hash
 MD019: true # No multiple spaces after hash in header
 MD022: true # Headers should be surrounded by blank lines
-MD025: true # Single title per document
+MD025:
+  front_matter_title: "" # One H1 per page; the front-matter title only sets the <title> tag
 MD026: true # No trailing punctuation in headers
 MD031: true # Fenced code blocks should be surrounded by blank lines
 MD032: true # Lists should be surrounded by blank lines
