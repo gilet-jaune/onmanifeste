@@ -40,7 +40,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le recrutement, rôle par rôle",
                 "en": "Recruitment, role by role"
@@ -60,7 +60,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Votre nom de militant·e",
                 "en": "Your activist name"
@@ -71,7 +71,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Vos réglages",
                 "en": "Your settings"
@@ -94,7 +94,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le groupe sas",
                 "en": "The airlock group"
@@ -114,7 +114,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -155,7 +155,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Dans les groupes",
                 "en": "In the groups"
@@ -166,7 +166,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-modeles",
               "label": {
                 "fr": "La charte",
                 "en": "The charter"
@@ -186,7 +186,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Vos réglages",
                 "en": "Your settings"
@@ -213,7 +213,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Si vous êtes arrêté·e ou perdez votre téléphone",
                 "en": "If you are arrested or lose your phone"
@@ -252,7 +252,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Si le groupe disparaît ou si on vous retire",
                 "en": "If the group disappears or you are removed"
@@ -272,7 +272,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Partir proprement",
                 "en": "Leaving properly"
@@ -311,7 +311,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le groupe sas",
                 "en": "The airlock group"
@@ -322,7 +322,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le recrutement, rôle par rôle",
                 "en": "Recruitment, role by role"
@@ -342,7 +342,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le groupe sas",
                 "en": "The airlock group"
@@ -353,7 +353,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -373,7 +373,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -384,7 +384,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le recrutement, rôle par rôle",
                 "en": "Recruitment, role by role"
@@ -424,7 +424,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le recrutement, rôle par rôle",
                 "en": "Recruitment, role by role"
@@ -435,7 +435,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -455,7 +455,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -466,7 +466,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-groupe-compromis",
               "label": {
                 "fr": "Quand un groupe est-il compromis ?",
                 "en": "When is a group compromised?"
@@ -486,7 +486,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-groupe-compromis",
               "label": {
                 "fr": "Retrait conservatoire",
                 "en": "Precautionary removal"
@@ -497,7 +497,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-groupe-compromis",
               "label": {
                 "fr": "Groupe compromis : que faire ?",
                 "en": "Compromised group: what to do?"
@@ -539,7 +539,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-gerer",
               "label": {
                 "fr": "Régler les groupes",
                 "en": "Setting up the groups"
@@ -550,7 +550,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-gerer",
               "label": {
                 "fr": "Nommer les groupes",
                 "en": "Naming groups"
@@ -561,14 +561,10 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-modeles",
               "label": {
                 "fr": "Modèles à copier-coller",
                 "en": "Copy-paste templates"
-              },
-              "anchor": {
-                "fr": "modeles-a-copier-coller",
-                "en": "copy-paste-templates"
               }
             }
           ]
@@ -592,7 +588,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-gerer",
               "label": {
                 "fr": "Libellés de rôle",
                 "en": "Role labels"
@@ -612,7 +608,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-groupe-compromis",
               "label": {
                 "fr": "Retrait conservatoire",
                 "en": "Precautionary removal"
@@ -623,7 +619,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-groupe-compromis",
               "label": {
                 "fr": "Groupe compromis : que faire ?",
                 "en": "Compromised group: what to do?"
@@ -644,7 +640,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-gerer",
               "label": {
                 "fr": "Fermer un groupe",
                 "en": "Closing a group"
@@ -664,7 +660,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-gerer",
               "label": {
                 "fr": "Le groupe temporaire",
                 "en": "The temporary group"
@@ -727,7 +723,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le groupe sas",
                 "en": "The airlock group"

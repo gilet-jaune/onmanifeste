@@ -1137,7 +1137,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-groupe-compromis",
               "anchor": {
                 "fr": "retrait-conservatoire",
                 "en": "precautionary-removal"
@@ -3052,18 +3052,14 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
-              "anchor": {
-                "fr": "partie-1-membres",
-                "en": "part-1-members"
-              },
+              "guide": "signal-membres",
               "label": {
                 "fr": "Groupes Signal : la partie membres",
                 "en": "Signal groups: the members' part"
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "anchor": {
                 "fr": "vos-reglages",
                 "en": "your-settings"
@@ -3178,7 +3174,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le recrutement, rôle par rôle",
                 "en": "Recruitment, role by role"
@@ -3198,7 +3194,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Votre nom de militant·e",
                 "en": "Your activist name"
@@ -3209,7 +3205,7 @@
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-membres",
               "label": {
                 "fr": "Vos réglages",
                 "en": "Your settings"
@@ -3232,7 +3228,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Le groupe sas",
                 "en": "The airlock group"
@@ -3252,7 +3248,7 @@
           },
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-recrutement",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
