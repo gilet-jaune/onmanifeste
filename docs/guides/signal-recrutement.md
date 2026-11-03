@@ -23,7 +23,7 @@ tags:
 | **5. Nettoyage** | — | Retire les personnes non validées (personne n'est plus ajouté·e depuis la veille), **y ajoute une personne des RH**, qui n'est ainsi exposée qu'aux personnes validées | — | — |
 | **6. Second contrôle** | Répond aux éventuelles questions | — | Vérifient les profils : nom, pas de photo, numéro caché, pas de nom en double | — |
 | **7. Ajout** | Est ajouté·e au groupe de confiance par les RH | — | **Ajoutent par nom d'utilisateur** les seuls membres validés du groupe sas, quittent le groupe sas, notent les noms au registre | Vérifie que les arrivées correspondent : personne d'inconnu, pas de nom en double |
-| **8. Ensuite** | Lit la charte ; période d'essai ; les sous-groupes sensibles plus tard | Reste son ou sa référent·e | Reçoivent les doutes, décident des retraits ; une interpellation : [retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire) | **Veille** : arrivées inattendues, changements de nom, comportements étranges ; signale aux RH |
+| **8. Ensuite** | Lit la [charte](signal-modeles.md#charte-complete) ; période d'essai ; les sous-groupes sensibles plus tard | Reste son ou sa référent·e | Reçoivent les doutes, décident des retraits ; une interpellation : [retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire) | **Veille** : arrivées inattendues, changements de nom, comportements étranges ; signale aux RH |
 
 ## Le groupe sas
 
@@ -34,7 +34,7 @@ tags:
     1. **le compte et les réglages** : code QR scanné, nom de militant·e, numéro caché ;
     2. **qui la connaît** : « comment as-tu connu le groupe ? quelqu'un ici ou dans le mouvement te connaît ? », pour repérer un·e garant·e possible ;
     3. **ce qu'elle veut faire** : quelles actions, quelle équipe ;
-    4. **qu'elle a compris la charte**, en la lui faisant redire avec ses mots ;
+    4. **qu'elle a compris la [charte](signal-modeles.md#charte-complete)**, en la lui faisant redire avec ses mots ;
     5. **les signaux d'alerte**, sans accuser : pousser à l'illégal ou à la violence, vouloir savoir qui est qui et quels groupes existent, demander des noms ou des adresses, prendre des photos, vouloir entrer partout tout de suite.
 - [ ] **Chaque groupe sas naît avec sa date et sa tranche horaire** (« jeudi soir », « samedi midi ») : les personnes choisissent celui qui leur convient, sans sondage ni découpage après coup. C'est le ou la secrétaire qui synchronise tout : il ou elle crée le groupe sas (ou en devient admin s'il a été créé par quelqu'un d'autre) et poste l'annonce dans le groupe public, dont les secrétaires sont admins : « Rencontre jeudi soir : groupe sas », avec la consigne de **lui écrire en privé** (par nom d'utilisateur) pour être ajouté·e. **Jamais le lieu** : il est posté la veille dans le groupe sas.
 - [ ] **Date pas encore fixée ?** Un sondage Signal dans le groupe sas, avec 2 ou 3 créneaux ; pas d'outil extérieur, qui garderait la trace de qui vient quand. Les votes ne sont pas anonymes : chaque membre voit qui a choisi quoi, ce qui ne pose pas de problème pour une date.[^signal-sondages]
@@ -64,7 +64,7 @@ Le groupe sas organise la rencontre ; voici comment elle se passe. Ces consignes
 
 1. **Accueil (5 minutes).** Le ou la secrétaire se présente avec son nom de militant·e, rappelle à quoi sert le groupe (entraide, logistique, rien d'illégal) et ce qui va se passer. Il ou elle dit aussi qu'**on ne note rien et qu'on ne demande aucune identité**. L'objectif est de mettre à l'aise.
 2. **Réglages et code QR (10 minutes).** Chaque personne manipule son téléphone et montre ses écrans ; le ou la secrétaire guide à voix haute : nom de militant·e, pas de photo, numéro caché, puis scan du code QR du numéro de sécurité. Le ou la secrétaire **regarde l'écran**, avec l'accord de la personne : les cocher à voix haute ne suffit pas.
-3. **Conversation (10 minutes).** Des questions ouvertes, sans interrogatoire : « Qu'est-ce qui t'amène ? », « Qu'aimerais-tu faire : tracter, logistique, secourisme, juridique ? », « Comment as-tu connu le groupe ? », puis « Peux-tu me redire la charte avec tes mots ? ». Écoutez plus que vous ne parlez. **La personne peut poser ses propres questions** (qui organise, comment, quels risques) et on lui répond : la confiance va dans les deux sens. Les contrôles à faire sont listés dans [le groupe sas](signal-recrutement.md#le-groupe-sas).
+3. **Conversation (10 minutes).** Des questions ouvertes, sans interrogatoire : « Qu'est-ce qui t'amène ? », « Qu'aimerais-tu faire : tracter, logistique, secourisme, juridique ? », « Comment as-tu connu le groupe ? », puis « Peux-tu me redire la [charte](signal-modeles.md#charte-complete) avec tes mots ? ». Écoutez plus que vous ne parlez. **La personne peut poser ses propres questions** (qui organise, comment, quels risques) et on lui répond : la confiance va dans les deux sens. Les contrôles à faire sont listés dans [le groupe sas](signal-recrutement.md#le-groupe-sas).
 4. **Fin (2 minutes).** Dites ce qui se passe ensuite (« les RH reviennent vers toi sous quelques jours ») **sans promettre** : on ne dit jamais « tu es accepté·e » sur place.
 
 **À éviter**

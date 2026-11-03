@@ -54,7 +54,7 @@ Un groupe se règle **vide**, avant la première invitation : le délai d'efface
 2. **Messages éphémères** → le délai prévu dans le tableau, dès la création.[^signal-ephemeres]
 3. **Permissions** → **à régler à la création** (paramètres du groupe › permissions). Quatre droits, chacun réservable aux admins : **envoyer des messages**, **ajouter des libellés**, **modifier les infos du groupe** (nom, photo, description et, selon la documentation de Signal, le délai des messages éphémères) et **ajouter des membres**.[^signal-groupes][^signal-gerer-groupe][^signal-ephemeres][^signal-libelles] Tant qu'un droit n'est pas restreint, un·e simple membre peut l'exercer, y compris changer le délai. Réservez-les aux admins (gardien·nes, et secrétaires dans le groupe public et le groupe sas) et vérifiez-les dans chaque groupe ; dans le groupe public, seul·es les admins envoient des messages. **Retirer un membre reste réservé aux admins**, quoi qu'on règle : d'où plusieurs gardien·nes joignables par groupe.[^signal-groupes][^signal-gerer-groupe]
 4. **Pas de lien de groupe, pas de code QR de groupe** (seule exception : le **groupe public**, qui ne contient rien de sensible et dont le lien peut circuler) → on ajoute chaque personne **par nom d'utilisateur**, depuis une conversation privée. Un lien qui circule échappe à tout contrôle : quiconque l'a peut demander à entrer, et il peut être relayé ou retrouvé. Le lien se gère dans la section **lien du groupe** : on l'active, on le **réinitialise** ou on le **désactive** ;[^signal-lien-groupe] une option **« nécessite l'approbation d'un admin »** (à garder activée partout où un lien existe, sauf le groupe public) sert de filet, sans remplacer l'ajout direct. **Si un lien a été créé malgré tout, désactivez-le tout de suite**, puis réinitialisez-le au moindre doute. Réserver « ajouter des membres » aux admins limite aussi qui peut en créer un : un membre qui ne voit pas la fonction doit passer par un·e admin (à vérifier dans votre groupe).
-5. **Description du groupe** → collez la description courte (règles vitales, vocation d'entraide et rappel légal). Les messages éphémères effaçant les messages épinglés, la charte complète se fait valider dans le groupe sas avant l'ajout.
+5. **Description du groupe** → collez la description courte (règles vitales, vocation d'entraide et rappel légal). Les messages éphémères effaçant les messages épinglés, la [charte complète](signal-modeles.md#charte-complete) se fait valider dans le groupe sas avant l'ajout.
 6. **Deuxième gardien·ne** → ajoutez cette personne et nommez-la admin dans Signal **avant** tout le monde.
 7. **Registre** → notez l'identifiant du groupe et ses gardien·nes.
 8. **Ensuite seulement**, ajoutez les membres.
@@ -97,7 +97,7 @@ Signal permet à chaque membre d'afficher un **libellé** à côté de son nom. 
 
 **Un libellé n'indique qu'un rôle de manif** (medic, legal…), jamais un rôle d'organisation (secrétaire, RH, gardien·ne, recruteur·se) : ceux-là désignent les personnes clés et ne servent pas aux autres membres.
 
-Gardez une **liste commune** dans la charte, pour que tout le monde utilise les mêmes mots, par exemple :
+Gardez une **liste commune** dans la [charte](signal-modeles.md#charte-complete), pour que tout le monde utilise les mêmes mots, par exemple :
 
 | Libellé        | Rôle                                                       |
 | -------------- | ---------------------------------------------------------- |
