@@ -1,10 +1,10 @@
 ---
-source_commit: 0df896868bed8485aa77f2a1c9bf461b8b4c1c7c
+source_commit: ec6c3b7c9f763624234f424192746fc5db3a9a22
 tags:
     - home
 ---
 
-# Awesome Protest
+# On proteste
 
 A collaborative collection of **tools and resources for protesting in France**: secure communication, digital security, legal help (especially for high-school students), first aid, news and organising.
 

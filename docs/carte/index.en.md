@@ -1,5 +1,5 @@
 ---
-source_commit: 2f4b412b8742151d64a72e00230bdae80d47c681
+source_commit: ec6c3b7c9f763624234f424192746fc5db3a9a22
 review: juridique
 review_status: pending
 tags:
@@ -35,7 +35,7 @@ _(On your arm: **10 digits under your sleeve, no name** — someone not protesti
 
 {% if config.site_url %}
 
-<p class="pocket__qr"><img src="{{ config.site_url }}assets/social/qr.svg" alt="QR code to the Awesome Protest website" width="96" height="96"> <span>The site, offline once opened:<br><strong>{{ config.site_url }}</strong><br>Not sure what to do? <strong>{{ config.site_url }}parcours/</strong></span></p>
+<p class="pocket__qr"><img src="{{ config.site_url }}assets/social/qr.svg" alt="QR code to the On proteste website" width="96" height="96"> <span>The site, offline once opened:<br><strong>{{ config.site_url }}</strong><br>Not sure what to do? <strong>{{ config.site_url }}parcours/</strong></span></p>
 {% endif %}
 
 </section>

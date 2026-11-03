@@ -1,5 +1,5 @@
 ---
-source_commit: c43845d06ad20738ab6c6e2b15951743b332f933
+source_commit: ec6c3b7c9f763624234f424192746fc5db3a9a22
 tags:
     - legal notice
 ---
@@ -40,6 +40,6 @@ AI has a cost (energy, resources) and several causes defended here oppose it: we
 
 ## Licenses
 
-The content and data of this site (texts, guides, `docs/data/*.json` files) are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit Awesome Protest and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Logos, trademarks and quoted sources remain the property of their owners.
+The content and data of this site (texts, guides, `docs/data/*.json` files) are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit On proteste and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Logos, trademarks and quoted sources remain the property of their owners.
 
 ## Sources
