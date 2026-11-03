@@ -6,9 +6,13 @@ docs/data/resources.json and is fixed (and checked) in one place.
 route("id") draws a vertical schema from docs/data/routes.json (steps with a small label, an
 optional arrow between steps and optional dashed notes), in the language of the page. The same data
 serves the French and the English page, so a schema is written once.
+
+default("id") writes the default wording of a tunable threshold (docs/data/defaults.json), so
+"how many actions are watched" is stated in one place for every page and schema.
 """
 
 import html
+import re
 
 # Layout, in SVG user units (the figure scales to the width of the page).
 _WIDTH = 360
@@ -21,11 +25,34 @@ _NOTE_H = 52
 _NOTE_GAP = 10
 
 
+# docs/data/defaults.json, set when the macros are defined: default wording for tunable thresholds.
+_DEFAULTS = {}
+_TOKEN = re.compile(r"\[\[([A-Za-z_]+)\]\]")
+
+
+def default_text(name, lang):
+    """The default wording called `name` ("actions"); a capital first letter capitalises it."""
+    key = name[0].lower() + name[1:]
+    if key not in _DEFAULTS:
+        raise KeyError(f"unknown default '{name}' (see docs/data/defaults.json)")
+    value = _DEFAULTS[key].get(lang) or _DEFAULTS[key]["fr"]
+    return value[0].upper() + value[1:] if name[0].isupper() else value
+
+
+def _fill(value, lang):
+    """Replace [[name]] tokens in a string (or a list of strings) by the default wording."""
+    if isinstance(value, list):
+        return [_fill(item, lang) for item in value]
+    if isinstance(value, str):
+        return _TOKEN.sub(lambda m: default_text(m.group(1), lang), value)
+    return value
+
+
 def _text(value, lang):
     """A localised string: {"fr": ..., "en": ...} falls back to French; a plain string is kept."""
     if isinstance(value, dict):
-        return value.get(lang) or value["fr"]
-    return value
+        value = value.get(lang) or value["fr"]
+    return _fill(value, lang)
 
 
 def _esc(value):
@@ -103,6 +130,13 @@ def render_route(rid, route, lang):
 def define_env(env):
     resources = {r["id"]: r for r in env.variables["resources"]}
     routes = env.variables["routes"]
+    _DEFAULTS.clear()
+    _DEFAULTS.update(env.variables["defaults"])
+
+    @env.macro
+    def default(name):
+        lang = env.conf["theme"]["language"] or "fr"
+        return default_text(name, lang)
 
     @env.macro
     def res(resource_id, text=None):

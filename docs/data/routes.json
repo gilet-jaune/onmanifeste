@@ -55,8 +55,8 @@
             "en": "Meet at others' action"
           },
           "lines": {
-            "fr": ["Au moins 2 actions ; un binôme", "vérifié·e accompagne et observe"],
-            "en": ["At least 2 actions; a vetted buddy", "goes along and watches"]
+            "fr": ["[[Actions]] ; un binôme", "vérifié·e accompagne et observe"],
+            "en": ["[[Actions]]; a vetted buddy", "goes along and watches"]
           }
         },
         {

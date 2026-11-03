@@ -71,7 +71,7 @@ Les rôles **tournent** ; personne n'a tous les rôles, et aucun groupe ne réun
 | --- | --- | --- |
 | **Recruteur·se** | Parle du mouvement, oriente vers le groupe public et les groupes sas | Valider ; être garant·e de ses recrues ; noter quoi que ce soit sur elles |
 | **Secrétaire** | Coordonne la rencontre, **valide** quand les conditions sont réunies, nettoie le groupe sas et y ajoute les RH | Valider sans garant·e ; **ajouter** au groupe de confiance ; tenir une liste de présence |
-| **RH** | Second contrôle, **ajoutent** au groupe de confiance, reçoivent les doutes, décident des retraits **à deux**, sous 24 h après une pause préventive | Organiser les groupes sas ; décider seul·e d'un retrait |
+| **RH** | Second contrôle, **ajoutent** au groupe de confiance, reçoivent les doutes, décident des retraits **à deux**, {{ default("decision_delay") }} après une pause préventive | Organiser les groupes sas ; décider seul·e d'un retrait |
 | **Gardien·ne** | Veille sur la configuration du groupe (au moins deux par groupe), signale aux RH les arrivées étranges | Ajouter quelqu'un de non validé ; partir en action avec son téléphone de gardien·ne |
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe |
 

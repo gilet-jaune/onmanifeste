@@ -18,6 +18,10 @@ Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, 
 
 La rencontre est un **premier contact**. **On valide chaque personne, pas le sas** : un sas peut compter des personnes validées le jour même et d'autres qui attendent, et les nouvelles personnes ne se garantissent jamais entre elles. On valide ensuite selon le niveau du groupe :
 
+!!! info "Critères publics, seuils privés"
+
+    Ces critères sont publics, et c'est voulu : la sécurité d'un groupe ne repose pas sur le secret de la méthode. Les seuils (combien d'actions sont observées, combien de membres accompagnent, quel délai de décision) ne sont pas chiffrés ici : chaque groupe choisit les siens ({{ default("example") }}) et ajoute ses propres signaux, **sans les publier**. Plus ce à quoi la personne accède est sensible, plus le seuil monte : pour un sous-groupe sensible, aucun chiffre n'est donné ici. Ce qui concerne l'évaluation des personnes se dit **à voix haute** : rien n'en est écrit dans un groupe.
+
 **Vérifié, ça veut dire quoi ?** Trois contrôles, qui ne répondent pas à la même question :
 
 | Ce qu'on vérifie | Question | Qui, comment | Durée |
@@ -56,7 +60,7 @@ La rencontre est un **premier contact**. **On valide chaque personne, pas le sas
 - [ ] **Les garant·es n'ont pas besoin d'être dans le groupe sas** : ce sont des membres vérifiés qui connaissent la personne **ailleurs** (ami·e, collègue, voisin·e, camarade de syndicat). Ils et elles le confirment **en privé** au ou à la secrétaire.
 - [ ] **Personne ne la connaît ?** Elle vient aux actions publiques pendant quelques semaines ; les membres vérifiés qui l'ont vue agir et ont parlé avec elle peuvent ensuite se porter garant·es.
 - [ ] **Croisé·e en manif, même comme medic ?** Ce n'est pas encore la connaître : n'importe qui peut porter un brassard medic ou une chasuble legal, et les sous-groupes de ces équipes sont sensibles. Pas d'ajout direct dans un groupe de confiance. En revanche, l'avoir vu·e agir sur **plusieurs** actions et lui avoir parlé permet de se porter garant·e ; et si elle vient d'un collectif connu (street medics, legal team), un membre vérifié qui connaît ce collectif peut être son ou sa garant·e.
-- [ ] **Une personne très active ?** Un membre vérifié qui a agi à ses côtés sur deux ou trois actions la **propose** à un·e secrétaire et devient son ou sa garant·e. Le ou la secrétaire la rencontre, au besoin sur place pendant une action (scanner un code QR prend 10 secondes), puis les RH l'ajoutent : le jour même ou le lendemain. Les syndicats, associations et collectifs aident aussi : un membre vérifié qui la connaît par son syndicat ou son collectif peut être son ou sa garant·e tout de suite.
+- [ ] **Une personne très active ?** Un membre vérifié qui a agi à ses côtés sur {{ default("actions") }} la **propose** à un·e secrétaire et devient son ou sa garant·e. Le ou la secrétaire la rencontre, au besoin sur place pendant une action (scanner un code QR prend 10 secondes), puis les RH l'ajoutent : le jour même ou le lendemain. Les syndicats, associations et collectifs aident aussi : un membre vérifié qui la connaît par son syndicat ou son collectif peut être son ou sa garant·e tout de suite.
 - [ ] **Jamais de garantie entre nouvelles personnes** : plusieurs personnes malintentionnées arrivées ensemble se valideraient mutuellement. Pas de vote non plus, ni de seuil de « oui ».
 - [ ] **Un seul doute sérieux suffit pour attendre** : le ou la secrétaire en parle aux RH, qui tranchent.
 - [ ] **Signal prévient quand deux membres d'un groupe portent le même nom** : vérifiez, c'est peut-être une usurpation.[^signal-confidentialite-numero]
@@ -79,7 +83,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 
     1. **Groupe public**
     2. **Groupe sas** : rencontre, puis rendez-vous à une action d'autres
-    3. **Garant·es** après au moins 2 actions, puis **second contrôle des RH**
+    3. **Garant·es** après {{ default("actions") }}, puis **second contrôle des RH**
     4. **Groupe de confiance**
 
     </div>
@@ -104,7 +108,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
     | **Pour qui** | Une personne que personne ne connaît encore | Une personne qu'un membre vérifié connaît déjà (ami·e, collègue, syndicat, vue agir sur plusieurs actions) |
     | **Par où** | Groupe public, puis groupe sas et rencontre | Le membre vérifié la **propose** directement à un·e secrétaire, sans passer par le groupe public ni le groupe sas |
     | **Rencontre** | Au groupe sas, puis à une action organisée par d'autres | En tête-à-tête, ou sur place pendant une action |
-    | **Observation en action** | Au moins deux actions, avec des membres vérifié·es qui observent et rapportent aux RH | Déjà faite : le membre qui propose la connaît ou l'a vue agir |
+    | **Observation en action** | {{ default("Actions") }}, avec des membres vérifié·es qui observent et rapportent aux RH | Déjà faite : le membre qui propose la connaît ou l'a vue agir |
     | **Garant·e** | Des membres vérifié·es qui l'ont vue agir eux-mêmes ; un·e suffit | Le membre qui l'a proposée |
     | **Ajout** | Par les RH, depuis le sas | Par les RH, **par nom d'utilisateur**, depuis une conversation privée (aucun lien) |
     | **Durée** | Plusieurs actions | Le jour même ou le lendemain |
@@ -119,8 +123,8 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 1. **Le sas** : rencontre, réglages, code QR du compte scanné (voir [le groupe sas](signal-recrutement.md#le-groupe-sas)).
 2. **Le sas, nettoyé et renommé** : il sert **uniquement à se donner rendez-vous pour se voir en vrai** à une action ou une manifestation **organisée par d'autres** (syndicat, collectif). On n'y planifie **aucune action** : l'action est celle des organisateurs, et son heure et son lieu sont déjà publics. On y **retire** les absent·es, les personnes pas rencontrées et celles qui ont déclenché un signal d'alerte ; on **garde** les personnes rencontrées pas encore validées. Le groupe prend un **nom neutre**, sans mouvement ni ville, et des messages éphémères d'un jour, réglés avant toute chose. On n'y écrit que le point de rendez-vous, **rien sur les personnes**. Il reste la liste des personnes rencontrées : supposez que la police peut le lire. Il **reste ouvert tant que des personnes attendent une décision** (plusieurs actions, au moins deux) : chaque personne en sort quand elle est ajoutée au groupe de confiance ou écartée, et il est **fermé** quand plus personne n'attend (voir aussi [le groupe temporaire](signal-gerer.md#le-groupe-temporaire), pour s'organiser sans passer par un sas).
 3. **Agir ensemble**, avec ces garde-fous :
-    - [ ] **Deux membres vérifié·es au moins** accompagnent, chacun·e avec une ou deux nouvelles personnes : pas un bloc compact de nouvelles personnes.
-    - [ ] **Au moins deux actions** avant de se porter garant·e : une personne préparée se tient bien dans une seule.
+    - [ ] **{{ default("Observers") }}** accompagnent, chacun·e avec une ou deux nouvelles personnes : pas un bloc compact de nouvelles personnes.
+    - [ ] **{{ default("Actions") }}** avant de se porter garant·e, jamais une seule : une personne préparée se tient bien dans une seule.
     - [ ] **Ce qu'on observe** : le calme, l'entraide, le respect de la [charte](signal-modeles.md#charte-complete) ; ni poussée vers l'illégal ou la violence, ni photos des autres, ni questions sur les noms ou les groupes.
     - [ ] **Chaque membre vérifié·e rapporte en privé**, à voix haute si possible, au ou à la secrétaire ou à un·e RH ce qu'il ou elle a vu : des **faits observés** (calme, entraide, charte, signaux d'alerte), pas un jugement sur la personne ni un « sûr / pas sûr ». Chaque membre vérifié·e qui a **lui-même ou elle-même** vu la personne agir en manifestation peut se porter garant·e : **un·e garant·e suffit** pour le groupe de confiance, plusieurs renforcent la décision des RH, qui tranchent. Pas de garantie par ouï-dire : on ne se porte pas garant·e parce qu'un·e autre l'a fait. Jamais de garantie entre nouvelles personnes. Rien n'est écrit durablement avec des noms.
     - [ ] **Aucune liste de qui est venu·e** n'est gardée. Un débrief à voix haute avec les RH, le jour même.
@@ -130,7 +134,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 
 **Les limites, à dire clairement :**
 
-- **Ce parcours filtre les opportunistes, pas une infiltration déterminée** : une personne préparée se tient bien pendant deux actions. Il réduit le risque sans le supprimer, d'où le groupe de confiance où rien de sensible ne s'écrit et les deux garant·es pour les sous-groupes. On ne dit jamais d'une personne qu'elle est « sûre ».
+- **Ce parcours filtre les opportunistes, pas une infiltration déterminée** : une personne préparée se tient bien pendant {{ default("actions") }}. Il réduit le risque sans le supprimer, d'où le groupe de confiance où rien de sensible ne s'écrit et les deux garant·es pour les sous-groupes. On ne dit jamais d'une personne qu'elle est « sûre ».
 - **Le rythme dépend du nombre de membres vérifié·es** prêts à accompagner.
 - **Toutes les personnes ne peuvent pas aller en manifestation** (handicap, horaires, enfants, situation administrative). L'« action » peut être une réunion publique, un tractage ou une permanence. Voir [Manifester sans la nationalité française](etrangers.md) et [Handicap ou maladie chronique](handicap.md).
 

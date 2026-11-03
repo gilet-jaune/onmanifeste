@@ -20,7 +20,7 @@ Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, 
 
 1. **Que se passe-t-il ?**
     - **Quelqu'un se fait embarquer, ou perd son téléphone** → [retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire), tout de suite.
-    - **Un doute sérieux sur une personne** → [pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute), puis deux RH décident sous 24 heures.
+    - **Un doute sérieux sur une personne** → [pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute), puis deux RH décident {{ default("decision_delay") }}.
     - **Un inconnu dans le groupe, une fuite** → étape 2.
 2. **Le groupe est-il compromis ?** → voir la liste ci-dessous.
 3. **Sait-on par où ça fuit ?**
@@ -90,7 +90,7 @@ Le retrait conservatoire vaut aussi pour un **doute sérieux**, sans arrestation
 
 - **Un·e RH ou un·e gardien·ne** qui a un doute sérieux sur une personne la retire **tout de suite** des groupes sensibles (groupe de confiance et sous-groupes), **sans accusation ni justification**. Elle reste dans le groupe public.
 - **Le message est celui du retrait conservatoire** : retiré·e par précaution, rien de personnel. Rien d'autre dans le groupe.
-- **Deux RH décident sous 24 heures** si la personne revient. S'ils ne peuvent pas trancher, ils prolongent la pause à deux et le notent au registre.
+- **Deux RH décident {{ default("decision_delay") }}** si la personne revient. S'ils ne peuvent pas trancher, ils prolongent la pause à deux et le notent au registre.
 - **Garde-fous** : le registre note **qui** a déclenché la pause et **quand**, jamais **pourquoi** ; la personne qui l'a déclenchée ne participe pas à la décision finale ; la personne peut s'adresser à un·e autre RH.
 
 ## Cas A : on sait par où ça fuit

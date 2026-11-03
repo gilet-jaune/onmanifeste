@@ -7,6 +7,19 @@ import { join } from 'node:path';
 const FILE = 'docs/data/routes.json';
 const errors = [];
 const { routes } = JSON.parse(readFileSync(FILE, 'utf8'));
+const defaults = JSON.parse(readFileSync('docs/data/defaults.json', 'utf8')).defaults;
+// [[name]] tokens are replaced by the default wording, as main.py does, before measuring the text.
+const fill = (text, lang) =>
+  typeof text !== 'string'
+    ? text
+    : text.replace(/\[\[([A-Za-z_]+)\]\]/g, (m, name) => {
+        const value = defaults[name.charAt(0).toLowerCase() + name.slice(1)]?.[lang];
+        if (!value) {
+          errors.push(`token ${m} has no "${lang}" default in docs/data/defaults.json`);
+          return m;
+        }
+        return /^[A-Z]/.test(name) ? value.charAt(0).toUpperCase() + value.slice(1) : value;
+      });
 
 // Widths that fit the 320-unit boxes at the drawing's font sizes.
 const MAX = { chip: 16, title: 32, line: 44, noteTitle: 34, noteText: 46, lines: 4 };
@@ -36,14 +49,14 @@ for (const [id, route] of Object.entries(routes)) {
     const s = `${at} step ${i + 1}`;
     need(s, step.title, 'title');
     LANGS.forEach((lang) => {
-      fits(s, step.title?.[lang], MAX.title, `title (${lang})`);
+      fits(s, fill(step.title?.[lang], lang), MAX.title, `title (${lang})`);
       const lines = step.lines?.[lang];
       if (!Array.isArray(lines) || !lines.length) errors.push(`${s}: needs "lines" in "${lang}"`);
       else {
         if (lines.length > MAX.lines) errors.push(`${s}: at most ${MAX.lines} lines (${lang})`);
-        lines.forEach((l) => fits(s, l, MAX.line, `line (${lang})`));
+        lines.forEach((l) => fits(s, fill(l, lang), MAX.line, `line (${lang})`));
       }
-      if (step.who) fits(s, step.who[lang], MAX.chip, `label (${lang})`);
+      if (step.who) fits(s, fill(step.who[lang], lang), MAX.chip, `label (${lang})`);
     });
     if (step.who) need(s, step.who, 'label');
   });
@@ -52,8 +65,8 @@ for (const [id, route] of Object.entries(routes)) {
     need(s, note.title, 'title');
     need(s, note.text, 'text');
     LANGS.forEach((lang) => {
-      fits(s, note.title?.[lang], MAX.noteTitle, `title (${lang})`);
-      fits(s, note.text?.[lang], MAX.noteText, `text (${lang})`);
+      fits(s, fill(note.title?.[lang], lang), MAX.noteTitle, `title (${lang})`);
+      fits(s, fill(note.text?.[lang], lang), MAX.noteText, `text (${lang})`);
     });
   });
 }

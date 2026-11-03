@@ -1,0 +1,21 @@
+{
+  "_comment": "Default wording for the tunable thresholds of the Signal guide (how many actions are watched, how many members go along, how long the decision takes). This file is public: it holds example wording only. A real group chooses its own values and does not publish them. Pages use {{ default(\"id\") }}; routes.json uses [[id]]. A capital first letter (default(\"Actions\"), [[Actions]]) capitalises the result.",
+  "defaults": {
+    "actions": {
+      "fr": "plusieurs actions",
+      "en": "several actions"
+    },
+    "observers": {
+      "fr": "plusieurs membres vérifié·es",
+      "en": "several vetted members"
+    },
+    "decision_delay": {
+      "fr": "dans un délai court",
+      "en": "within a short delay"
+    },
+    "example": {
+      "fr": "par exemple, deux actions et 48 heures pour entrer dans le groupe de confiance, où rien de sensible ne s'écrit",
+      "en": "for example, two actions and 48 hours to join the trusted group, where nothing sensitive is written"
+    }
+  }
+}
