@@ -1,5 +1,5 @@
 ---
-source_commit: 4512ca8ace9a15391ad496b675832e1c0cff24f3
+source_commit: ab01770ef13d1dd99393315daff0d8a858917210
 tags:
     - guides
     - préparation
@@ -59,6 +59,17 @@ Download the protest area **and** your way home. Test in airplane mode: the map 
 
 - [ ] ID, water, saline, a snack, medication: the full list is in ["Protest kit and outfit"](kit-manif.md).
 - [ ] Nothing that could pass for a **weapon** ([see "Leave at home"](kit-manif.md#leave-at-home)).
+
+## Bringing a child or an animal
+
+We found no legal rule specific to children at demonstrations. Only the rule on dogs is sourced; the rest is **organising common sense**, not law.
+
+- **Category 1 and 2 dogs**: on the public highway, they must be **muzzled and held on a lead by an adult**.[^cr-l211-16]
+- [ ] **Two adults, if possible**: one looks after the child, the other the rest (bag, phone, scouting the exits).
+- [ ] **A meeting point** and an adult's number written on the child (arm or clothing), without a name, in case you get separated.
+- [ ] **Leave at the first signs of tension** rather than waiting: see [dispersal](dispersion.md) and [tear gas](premiers-secours.md).
+- [ ] **An animal is exposed to noise and gas and cannot flee**: leaving it at home is simplest.
+- A minor taken into custody: see [students](lyceens.md).
 
 ## Sources
 
