@@ -78,6 +78,7 @@ Pour s'organiser vite, pour une journée d'action ou le temps d'une mobilisation
 - [ ] **Seulement du pratique** : « medic demandé·e devant la gare », « on se replie rue X », « besoin d'eau ». Pas de noms, pas de photos de visages, rien d'illégal.
 - [ ] **Aucun lien avec les groupes de confiance** : on n'y ajoute personne depuis eux, on ne les mentionne pas.
 - [ ] **Fermé à la fin** de la journée ou de la mobilisation : l'admin retire tout le monde et quitte le groupe ; chacun·e supprime la conversation.[^signal-supprimer] Les personnes qu'on y a vues agir ont alors leurs garant·es pour le groupe de confiance.
+- [ ] **Après un sas**, pour se retrouver en vrai à une action organisée par d'autres : on peut réutiliser le sas lui-même, nettoyé et renommé, mais **seulement pour se donner rendez-vous** (voir [les voir agir](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir)). Pour s'organiser, c'est le groupe temporaire.
 - [ ] **Sans réseau**, {{ res("briar") }} ou {{ res("meshtastic") }} ([communiquer pendant une manif](communiquer.md#comparatif)), ou pas de téléphone du tout : binômes et point de rendez-vous fixé à l'avance.
 
 ## Mineur·es dans les groupes

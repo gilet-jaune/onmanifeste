@@ -16,7 +16,7 @@ Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, 
 
 ## Valider : la confiance graduée
 
-La rencontre est un **premier contact**. On valide ensuite selon le niveau du groupe :
+La rencontre est un **premier contact**. **On valide chaque personne, pas le sas** : un sas peut compter des personnes validées le jour même et d'autres qui attendent, et les nouvelles personnes ne se garantissent jamais entre elles. On valide ensuite selon le niveau du groupe :
 
 **Vérifié, ça veut dire quoi ?** Trois contrôles, qui ne répondent pas à la même question :
 
@@ -64,6 +64,40 @@ La rencontre est un **premier contact**. On valide ensuite selon le niveau du gr
 - [ ] **Signaux d'alerte** : quelqu'un qui pousse à des actions illégales ou violentes, réclame des noms, des adresses ou la liste des groupes, veut entrer partout tout de suite ; un·e secrétaire qui valide beaucoup de monde d'un coup ; un·e garant·e qui revient sans cesse.
 - [ ] **Pas de liste de confiance.** Une liste de « qui a rencontré qui », sur papier, dans un groupe Signal ou dans un outil de vote en ligne, **dessine la carte de votre réseau** : un téléphone saisi ou le serveur de l'outil suffit à la livrer entière. Rien ne se transmet par écrit ; le registre ne note jamais qui s'est porté garant·e pour qui.
 - [ ] **Au tout début**, dans une ville sans aucun membre vérifié, le premier noyau est un groupe de personnes qui se connaissent déjà en vrai : ce sont les premier·es vérifié·es, secrétaires et garant·es.
+
+## Recruter à porte ouverte : les voir agir
+
+À porte ouverte, la plupart des personnes n'ont pas de garant·e. Le parcours à privilégier est de les **voir agir**, plutôt que de s'en tenir à la conversation du sas : une conversation peut écarter une personne (signaux d'alerte), pas la valider, parce qu'une histoire se prépare. Ce sont des règles d'organisation, pas du droit.
+
+**Le parcours en un coup d'œil** : sas → sas « nettoyé » → agir ensemble → garant·es → second contrôle des RH → groupe de confiance.
+
+1. **Le sas** : rencontre, réglages, code QR du compte scanné (voir [le groupe sas](signal-recrutement.md#le-groupe-sas)).
+2. **Le sas, nettoyé et renommé** : il sert **uniquement à se donner rendez-vous pour se voir en vrai** à une action ou une manifestation **organisée par d'autres** (syndicat, collectif). On n'y planifie **aucune action** : l'action est celle des organisateurs, et son heure et son lieu sont déjà publics. On y **retire** les absent·es, les personnes pas rencontrées et celles qui ont déclenché un signal d'alerte ; on **garde** les personnes rencontrées pas encore validées. Le groupe prend un **nom neutre**, sans mouvement ni ville, et des messages éphémères d'un jour, réglés avant toute chose. On n'y écrit que le point de rendez-vous, **rien sur les personnes**. Il reste la liste des personnes rencontrées : supposez que la police peut le lire. Il **reste ouvert tant que des personnes attendent une décision** (plusieurs actions, au moins deux) : chaque personne en sort quand elle est ajoutée au groupe de confiance ou écartée, et il est **fermé** quand plus personne n'attend (voir aussi [le groupe temporaire](signal-gerer.md#le-groupe-temporaire), pour s'organiser sans passer par un sas).
+3. **Agir ensemble**, avec ces garde-fous :
+    - [ ] **Deux membres vérifié·es au moins** accompagnent, chacun·e avec une ou deux nouvelles personnes : pas un bloc compact de nouvelles personnes.
+    - [ ] **Au moins deux actions** avant de se porter garant·e : une personne préparée se tient bien dans une seule.
+    - [ ] **Ce qu'on observe** : le calme, l'entraide, le respect de la [charte](signal-modeles.md#charte-complete) ; ni poussée vers l'illégal ou la violence, ni photos des autres, ni questions sur les noms ou les groupes.
+    - [ ] **Chaque membre vérifié·e rapporte en privé**, à voix haute si possible, au ou à la secrétaire ou à un·e RH ce qu'il ou elle a vu : des **faits observés** (calme, entraide, charte, signaux d'alerte), pas un jugement sur la personne ni un « sûr / pas sûr ». Chaque membre vérifié·e qui a **lui-même ou elle-même** vu la personne agir en manifestation peut se porter garant·e : **un·e garant·e suffit** pour le groupe de confiance, plusieurs renforcent la décision des RH, qui tranchent. Pas de garantie par ouï-dire : on ne se porte pas garant·e parce qu'un·e autre l'a fait. Jamais de garantie entre nouvelles personnes. Rien n'est écrit durablement avec des noms.
+    - [ ] **Aucune liste de qui est venu·e** n'est gardée. Un débrief à voix haute avec les RH, le jour même.
+    - [ ] **Pas de désignation publique** : jamais « X ne fait rien » ou « Y est trop agressif·ve » dans le groupe. On se parle **en vrai** : rien ne se demande ni ne se critique dans le groupe, qui ne sert qu'au rendez-vous, et un doute va en privé aux RH ([pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute)).
+    - [ ] **Le groupe est fermé** quand plus personne n'attend de décision.
+4. **Garant·es, second contrôle des RH, ajout** : comme pour tout le monde.
+
+**Les limites, à dire clairement :**
+
+- **Ce parcours filtre les opportunistes, pas une infiltration déterminée** : une personne préparée se tient bien pendant deux actions. Il réduit le risque sans le supprimer, d'où le groupe de confiance où rien de sensible ne s'écrit et les deux garant·es pour les sous-groupes. On ne dit jamais d'une personne qu'elle est « sûre ».
+- **Le rythme dépend du nombre de membres vérifié·es** prêts à accompagner.
+- **Toutes les personnes ne peuvent pas aller en manifestation** (handicap, horaires, enfants, situation administrative). L'« action » peut être une réunion publique, un tractage ou une permanence. Voir [Manifester sans la nationalité française](etrangers.md) et [Handicap ou maladie chronique](handicap.md).
+
+## Démarrer sans réseau
+
+Dans une ville où personne ne s'est encore vu en action, ces leviers sont des choix d'organisation :
+
+- [ ] **Faire grossir le groupe public et les sas d'abord**, pas le groupe de confiance : le groupe public ne contient rien de sensible et peut atteindre 1 000 personnes.[^signal-groupes] Plusieurs sas par semaine ne limitent pas la croissance.
+- [ ] **Multiplier les occasions de se voir** autres que les manifestations : réunions publiques, tractages, assemblées, ronds-points.
+- [ ] **Chercher des garant·es dans des réseaux qui existent déjà** (syndicats, associations, collectifs, voisinage) : un membre vérifié qui connaît le collectif d'une personne peut être son ou sa garant·e tout de suite.
+- [ ] **Se rencontrer deux fois** : un second sas avec la même personne, quelques jours plus tard, donne de quoi se porter garant·e.
+- [ ] **Au tout début, le noyau accompagne et observe** : les premières personnes, qui se connaissent déjà en vrai, sont les premier·es vérifié·es et font les binômes ci-dessus.
 
 [:octicons-arrow-left-24: Précédent : Recruter et rencontrer](signal-recrutement.md) · [Suivant : Créer et régler les groupes :octicons-arrow-right-24:](signal-creer.md)
 

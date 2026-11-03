@@ -13,6 +13,7 @@ tags:
 !!! abstract "L'essentiel"
 
     - **Groupe public** d'annonces → **groupe sas** pour se rencontrer en vrai (proposé par n'importe qui, annoncé par un·e secrétaire) → **groupe de confiance** vérifié → **sous-groupes** par équipe.
+    - **À porte ouverte**, sans garant·e : sas → sas « nettoyé » → agir ensemble → garant·es → second contrôle des RH → groupe de confiance (voir [les voir agir](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir)).
     - **Confiance graduée** : un·e **secrétaire vérifié·e**, **un·e garant·e** et un **second contrôle des RH** pour le groupe de confiance ; **deux garant·es** pour un sous-groupe sensible. Jamais par un lien ni un code QR de groupe, **sauf pour le groupe public** (annonces, rien de sensible) : on ajoute les personnes **par nom d'utilisateur**, depuis une conversation privée.
     - **Aucune vérification n'arrête une fuite déterminée** : n'écrivez rien que vous ne voudriez pas voir lu en garde à vue.
     - Avant d'entrer : un **nom de militant·e** court, utilisé aussi en vrai ; numéro caché à **tout le monde** ; messages **éphémères**, dans chaque groupe dès sa création.
