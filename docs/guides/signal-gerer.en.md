@@ -1,5 +1,5 @@
 ---
-source_commit: 82367f8caba9978159a453add83c40343aa54736
+source_commit: f56cb06bfc6dc003c46ba45dc034dbc0fef30562
 review: juridique
 review_status: pending
 tags:
@@ -79,6 +79,7 @@ To organise quickly, for an action day or for the length of a mobilisation, with
 - [ ] **Practical matters only**: "medic needed outside the station", "falling back to X street", "need water". No names, no photos of faces, nothing illegal.
 - [ ] **No link with the trusted groups**: nobody is added from them, they are not mentioned.
 - [ ] **Closed at the end** of the day or mobilisation: the admin removes everyone and leaves; everyone deletes the chat.[^signal-supprimer] The people seen in action there then have their vouchers for the trusted group.
+- [ ] **After an airlock**, to meet in person at an action organised by others: you can reuse the airlock itself, cleaned and renamed, but **only to arrange to meet** (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)). To organise, use the temporary group.
 - [ ] **No network**: {{ res("briar") }} or {{ res("meshtastic") }} ([communicating at a protest](communiquer.md#comparison)), or no phone at all: pairs and a meeting point agreed beforehand.
 
 ## Minors in the groups

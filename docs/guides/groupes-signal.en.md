@@ -1,5 +1,5 @@
 ---
-source_commit: 82367f8caba9978159a453add83c40343aa54736
+source_commit: f56cb06bfc6dc003c46ba45dc034dbc0fef30562
 review: juridique
 review_status: pending
 tags:
@@ -14,6 +14,7 @@ tags:
 !!! abstract "Key points"
 
     - **Public** announcement group → **airlock group** to meet in person (suggested by anyone, announced by a secretary) → vetted **trusted group** → team **sub-groups**.
+    - **Open door**, with no voucher: airlock → "cleaned" airlock → acting together → vouchers → HR second check → trusted group (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
     - **Graduated trust**: a **vetted secretary**, **one voucher** and a **second check by HR** for the trusted group; **two vouchers** for a sensitive sub-group. Never through a group link or QR code, **except for the public group** (announcements, nothing sensitive): people are added **by username**, from a private conversation.
     - **No vetting stops a determined leak**: write nothing you wouldn't want read out in police custody.
     - Before joining: a short **activist name**, also used in person; number hidden from **everyone**; **disappearing** messages, in every group from its creation.

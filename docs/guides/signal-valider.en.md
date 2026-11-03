@@ -1,5 +1,5 @@
 ---
-source_commit: 82367f8caba9978159a453add83c40343aa54736
+source_commit: f56cb06bfc6dc003c46ba45dc034dbc0fef30562
 review: juridique
 review_status: pending
 tags:
@@ -17,7 +17,7 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 
 ## Validating: graduated trust
 
-The meeting is a **first contact**. Validation then depends on the group's level:
+The meeting is a **first contact**. **Each person is vetted, not the airlock**: an airlock can include people vetted the same day and others who are waiting, and newcomers never vouch for each other. Validation then depends on the group's level:
 
 **What does "vetted" mean?** Three checks, each answering a different question:
 
@@ -65,6 +65,40 @@ The meeting is a **first contact**. Validation then depends on the group's level
 - [ ] **Warning signs**: someone who pushes for illegal or violent action, asks for names, addresses or the list of groups, or wants to get into everything straight away; a secretary validating many people at once; a voucher who keeps coming up.
 - [ ] **No trust list.** A list of "who has met whom", on paper, in a Signal group or in an online voting tool, **draws the map of your network**: one seized phone or the tool's server is enough to hand it over in full. Nothing is passed on in writing; the register never records who vouched for whom.
 - [ ] **At the very start**, in a city with no vetted members yet, the first core is a group of people who already know each other in person: they are the first vetted members, secretaries and vouchers.
+
+## Open-door recruitment: watching them act
+
+With open-door recruitment, most people have no voucher. The preferred route is to **watch them act**, rather than rely on the airlock conversation: a conversation can rule a person out (warning signs) but not vet them, because a story can be prepared. These are organising rules, not law.
+
+**The route at a glance**: airlock → "cleaned" airlock → acting together → vouchers → HR second check → trusted group.
+
+1. **The airlock**: meeting, settings, account QR code scanned (see [the airlock group](signal-recrutement.md#the-airlock-group)).
+2. **The airlock, cleaned and renamed**: it is used **only to arrange to meet in person** at an action or demonstration **organised by others** (a union, a collective). **No action is planned** there: the action is the organisers', and its time and place are already public. **Remove** absentees, people not yet met and anyone who triggered a warning sign; **keep** people who were met but are not yet vetted. The group takes a **neutral name**, with no movement or city, and one-day disappearing messages, set before anything else. Only the meeting point is written, **nothing about people**. It remains a list of the people who were met: assume the police can read it. It **stays open while people await a decision** (several actions, at least two): each person leaves it when added to the trusted group or ruled out, and it is **closed** when nobody is waiting any more (see also [the temporary group](signal-gerer.md#the-temporary-group), for organising without going through an airlock).
+3. **Acting together**, with these safeguards:
+    - [ ] **At least two vetted members** go along, each with one or two newcomers: not a tight block of newcomers.
+    - [ ] **At least two actions** before vouching: a prepared person behaves well in just one.
+    - [ ] **What you watch for**: calm, mutual aid, respect for the [charter](signal-modeles.en.md#full-charter); no pushing towards the illegal or violence, no photos of others, no questions about names or groups.
+    - [ ] **Each vetted member reports privately**, out loud if possible, to the secretary or an HR member what they saw: **observed facts** (calm, mutual aid, charter, warning signs), not a judgement on the person nor a "safe / not safe". Each vetted member who has **personally** seen the person act at a demonstration can vouch: **one voucher is enough** for the trusted group, several strengthen the decision of HR, who decide. No hearsay vouching: nobody vouches because someone else did. Never vouching between newcomers. Nothing is written down durably with names.
+    - [ ] **No list of who came** is kept. A spoken debrief with HR, the same day.
+    - [ ] **No public pointing out**: never "X does nothing" or "Y is too aggressive" in the group. Talk **in person**: nothing is asked or criticised in the group, which is only for the rendezvous, and a doubt goes privately to HR ([preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)).
+    - [ ] **The group is closed** when nobody is waiting for a decision any more.
+4. **Vouchers, HR second check, adding**: as for everyone else.
+
+**The limits, stated plainly:**
+
+- **This route filters out opportunists, not a determined infiltrator**: a prepared person behaves well through two actions. It lowers the risk without removing it, hence the trusted group where nothing sensitive is written and the two vouchers for sub-groups. Never call a person "safe".
+- **The pace depends on how many vetted members** are willing to go along.
+- **Not everyone can go to a demonstration** (disability, working hours, children, immigration status). The "action" can be a public meeting, leafleting or a drop-in. See [Protesting without French nationality](etrangers.md) and [Disability or chronic illness](handicap.md).
+
+## Starting without a network
+
+In a city where nobody has yet seen each other in action, these levers are organising choices:
+
+- [ ] **Grow the public group and the airlocks first**, not the trusted group: the public group holds nothing sensitive and can reach 1,000 people.[^signal-groupes] Several airlocks a week do not limit growth.
+- [ ] **Multiply the chances to see each other** other than demonstrations: public meetings, leafleting, assemblies, roundabouts.
+- [ ] **Look for vouchers in networks that already exist** (unions, associations, collectives, neighbours): a vetted member who knows a person's collective can vouch for them straight away.
+- [ ] **Meet twice**: a second airlock with the same person, a few days later, gives something to vouch on.
+- [ ] **At the very start, the core goes along and watches**: the first people, who already know each other in person, are the first vetted members and form the pairs above.
 
 [:octicons-arrow-left-24: Previous : Recruiting and meeting](signal-recrutement.md) · [Next : Creating and configuring groups :octicons-arrow-right-24:](signal-creer.md)
 

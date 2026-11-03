@@ -1,5 +1,5 @@
 ---
-source_commit: 82367f8caba9978159a453add83c40343aa54736
+source_commit: f56cb06bfc6dc003c46ba45dc034dbc0fef30562
 review: juridique
 review_status: pending
 tags:
@@ -32,7 +32,7 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 
 - [ ] **No airlock group gives access to the vetted groups on its own.** Anyone can create a group calling itself an "airlock", including someone with bad intentions: only those a secretary announces in the public group count, and even they remain an open meeting, nothing more. Say so in the public group.
 - [ ] **What someone sees there**: the time and place, the others' activist names, and, at the meeting, the secretary's face. So nothing else is written there, and secretaries **rotate**.
-- [ ] **It is not a waiting room**: it is for **one** meeting. People not yet validated stay in the public group.
+- [ ] **It is not a waiting room and nothing is planned there**: it is for **one** meeting, then, if needed, to **arrange to meet** in person at an action organised by others, where vetted members watch and report to HR (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)). Other people not yet validated stay in the public group.
 - [ ] **At the meeting, identity is not checked.** No ID, no real name, no job, no neighbourhood: these questions create identifying information, and a malicious person has a ready-made story. Small talk puts people at ease, with no personal questions and nothing written down; no round of jobs or neighbourhoods, which also protects newcomers from each other. Check instead:
     1. **the account and settings**: QR code scanned, activist name, hidden number;
     2. **who knows them**: "how did you hear about the group? does anyone here or in the movement know you?", to spot a possible voucher;
@@ -46,7 +46,7 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 - [ ] **When to clean up**:
     - **before**: nobody is removed, but **entry is closed**: the day before, when posting the time and place, the secretary stops adding anyone; only people already added know the place;
     - **during**: no clean-up, phones are put away; an announced grace period for latecomers (30 minutes, for example), who do their settings and QR code at the end;
-    - **after**: clean-up happens **the same evening**, within 48 hours at most: unvalidated people are removed, absentees included; they see nothing further. The longer you wait, the longer people nobody has met see what follows. What they have already seen is not erased: closing the airlock group afterwards is a matter of hygiene (fewer groups), not security. Absentees stay in the public group and come to the next meeting; an absentee known to a voucher can also be met one-to-one by a secretary.
+    - **after**: clean-up happens **the same evening**, within 48 hours at most: unvalidated people are removed, absentees included; they see nothing further. The longer you wait, the longer people nobody has met see what follows. What they have already seen is not erased: closing the airlock group afterwards is a matter of hygiene (fewer groups), not security. Absentees stay in the public group and come to the next meeting; an absentee known to a voucher can also be met one-to-one by a secretary. **Exception**: people who were met and will meet at an action stay in the airlock, cleaned and renamed, only to arrange to meet, until each is added to the trusted group or ruled out (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
 - [ ] **Then, either**: close it, or keep it, renamed, as a **backup group** for that meeting's small core, to stay in touch if the main group is lost (closed by mistake, keyholders arrested). Nothing is organised there and nobody is added; two admins from the core, preferably **not** the trusted group's keyholders; no link; disappearing messages at 1 week.[^signal-groupes][^signal-gerer-groupe] It doesn't protect against an unknown leak (case B).
 - [ ] **Without a backup airlock group**, people find each other through a neutral message from keyholders in the public group ("HR will get back to you") and the fallback point in person.
 - [ ] **In the public group, the member list is visible to everyone**, and Signal can't hide it: someone can pick contacts from it for an airlock group, or to harass. Hence the activist name and hidden number, from the public group onwards.
