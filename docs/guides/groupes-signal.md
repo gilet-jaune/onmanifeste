@@ -74,50 +74,7 @@ Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardie
 
 Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](signal-creer.md#nommer-les-groupes)). Une personne malintentionnée entrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](signal-gerer.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
 
-**Deux portes pour entrer dans le groupe de confiance :**
-
-=== "Schéma"
-
-    <div class="grid" markdown>
-
-    <div class="flow" markdown>
-
-    **La voie ouverte**
-
-    1. **Groupe public**
-    2. **Groupe sas** et rencontre avec un·e secrétaire
-    3. **Un·e garant·e** se manifeste
-    4. **Second contrôle des RH**
-    5. **Groupe de confiance**
-
-    </div>
-
-    <div class="flow" markdown>
-
-    **La cooptation**
-
-    1. **Un membre vérifié propose** quelqu'un qu'il connaît
-    2. **Rencontre avec un·e secrétaire**, en tête-à-tête ou sur place
-    3. **Le membre qui propose est le ou la garant·e**
-    4. **Second contrôle des RH**
-    5. **Groupe de confiance**
-
-    </div>
-
-    </div>
-
-=== "Tableau"
-
-    | Porte | **La voie ouverte** | **La cooptation** |
-    | --- | --- | --- |
-    | **Pour qui** | Une personne que personne ne connaît encore | Une personne qu'un membre vérifié connaît déjà (ami·e, collègue, syndicat, vue agir sur plusieurs actions) |
-    | **Par où** | Groupe public, puis groupe sas et rencontre | Le membre vérifié la **propose** directement à un·e secrétaire, sans passer par le groupe public ni le groupe sas |
-    | **Rencontre** | Au groupe sas, avec le ou la secrétaire | En tête-à-tête, ou sur place pendant une action |
-    | **Garant·e** | À trouver : quelqu'un qui la connaît, ou plusieurs actions communes | Le membre qui l'a proposée |
-    | **Ajout** | Par les RH, depuis le groupe sas nettoyé | Par les RH, **par nom d'utilisateur**, depuis une conversation privée (aucun lien) |
-    | **Durée** | De quelques jours à quelques semaines | Le jour même ou le lendemain |
-
-Dans les deux cas, les mêmes contrôles : code QR scanné, réglages faits, un·e garant·e et le second contrôle des RH (voir [valider](signal-valider.md#valider-la-confiance-graduee)).
+**Deux portes pour entrer dans le groupe de confiance** : la **voie ouverte** (groupe public, sas, se voir en action, garant·es, second contrôle des RH) et la **cooptation** (un membre vérifié propose quelqu'un qu'il connaît, souvent le jour même). Voir [les deux portes](signal-valider.md#deux-portes-pour-entrer-dans-le-groupe-de-confiance) : schéma, tableau et détail de chaque parcours.
 
 ## Les rôles
 
