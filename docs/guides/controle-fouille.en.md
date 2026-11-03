@@ -1,5 +1,5 @@
 ---
-source_commit: 7bd203b3613ce8dad2bdbec9c2b2def10cb1ee6d
+source_commit: 33de31d2a594417c8430e4bbbf49711a4125905e
 review: juridique
 review_status: pending
 tags:
@@ -49,6 +49,7 @@ At protests, police sometimes issue fixed penalty fines (in particular **€135*
 - **Never pay on the spot** if you intend to contest the fine: paying counts as admitting the offence and permanently ends any right of appeal.[^sp-amende]
 - You do not have to sign the electronic terminal if you dispute the allegation.
 - Wait until you receive the **fine notice (avis de contravention)** by post at home: you have **45 days** from the date it was sent to file an **exemption request (requête en exonération)** (by registered letter with acknowledgement of receipt or online via ANTAI) with supporting evidence (for example: no published ban order, no dispersal warnings given, or inability to leave a kettle).[^sp-amende][^ce-snmo]
+- **Contest together**: the {{ res("caj-kit-amendes", "Collectif d'Action Judiciaire") }} offers a kit to contest these fines (strategies, collective defence, template letters). On the first page of the kit it lists as possible arguments a lack of legal basis, the suspension or expiry of the ban order and a wrong perimeter, and advises contacting other people fined for the same facts.[^caj-kit-amendes] This is a collective's view, not a statute: ask a lawyer or a legal team.
 
 [:octicons-arrow-right-24: Guide "Dispersal, warnings and kettling"](dispersion.md) · [:octicons-arrow-right-24: Guide "Police custody"](garde-a-vue.md)
 
