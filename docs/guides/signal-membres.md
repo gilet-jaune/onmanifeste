@@ -12,6 +12,8 @@ tags:
 
 [:octicons-arrow-left-24: Groupes Signal : vue d'ensemble](groupes-signal.md)
 
+Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
+
 ## Votre parcours
 
 <div class="flow" markdown>
@@ -91,6 +93,8 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 2. **Supprimez la conversation** : supprimer la conversation ne fait pas quitter le groupe, et quitter ne supprime pas l'historique.[^signal-supprimer]
 3. **Supprimez ce qui reste ailleurs** : photos et fichiers enregistrés, captures d'écran, et la conversation sur vos appareils associés (Signal Desktop).
 4. **Prévenez les RH** pour la mise à jour du registre.
+
+[:octicons-arrow-left-24: Précédent : Vue d'ensemble](groupes-signal.md) · [Suivant : Recruter et rencontrer :octicons-arrow-right-24:](signal-recrutement.md)
 
 ## Sources
 

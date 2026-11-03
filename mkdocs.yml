@@ -134,7 +134,9 @@ plugins:
             "Groupes Signal : s'organiser en limitant les fuites": "Signal groups: organising while limiting leaks"
             Vue d'ensemble: Overview
             Vous êtes membre: As a member
-            Recruter et valider: Recruiting and vetting
+            Recruter et rencontrer: Recruiting and meeting
+            Valider: Vetting
+            Créer et régler les groupes: Creating and configuring groups
             Tenir les groupes: Running the groups
             Groupe compromis: Compromised group
             Modèles à copier-coller: Copy-paste templates
@@ -238,7 +240,9 @@ nav:
           - "Groupes Signal : s'organiser en limitant les fuites":
               - Vue d'ensemble: guides/groupes-signal.md
               - Vous êtes membre: guides/signal-membres.md
-              - Recruter et valider: guides/signal-recrutement.md
+              - Recruter et rencontrer: guides/signal-recrutement.md
+              - Valider: guides/signal-valider.md
+              - Créer et régler les groupes: guides/signal-creer.md
               - Tenir les groupes: guides/signal-gerer.md
               - Groupe compromis: guides/signal-groupe-compromis.md
               - Modèles à copier-coller: guides/signal-modeles.md

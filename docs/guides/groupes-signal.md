@@ -21,26 +21,13 @@ tags:
 
 Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant leur transport, pas contre une personne présente dans le groupe ni contre un téléphone saisi. L'organisation des groupes, elle, peut limiter ce qu'une fuite ou une saisie révèle.
 
-!!! warning "Chiffrer est légal, mais cela peut être retourné contre vous"
-
-    Utiliser Signal n'est pas une infraction. Dans l'affaire dite du 8 décembre, la DGSI décrit les mis en cause comme ayant adopté un « comportement clandestin » avec des applications chiffrées, Tails et Tor, et cette formule revient très souvent dans le dossier, selon La Quadrature du Net, qui l'a analysé avant le procès.[^lqdn-8-decembre] Les sept prévenus ont été condamnés en décembre 2023 pour association de malfaiteurs terroriste.[^politis-8-decembre] Aucune de ces deux sources ne dit que le chiffrement a été jugé comme une infraction : il est cité comme **indice**. Ce dossier est un cas grave et très éloigné d'une manifestation ordinaire, mais il montre qu'on peut vous relire : **n'écrivez rien que vous ne voudriez pas voir cité**, et ne comptez pas sur le chiffrement pour vous protéger d'une lecture hostile.
-
 !!! info "Par où commencer ?"
 
-    - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis la [vous êtes membre](signal-membres.md).
-    - **Vous cherchez un rôle en manif** (medic, legal, logistique...) → [les rôles utiles en manif](groupes-signal.md#roles-utiles-en-manif).
-    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes), [les rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal), puis [recruter et valider](signal-recrutement.md) et [tenir les groupes](signal-gerer.md).
     - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [groupe compromis](signal-groupe-compromis.md).
-    - **Vous organisez et voulez aller droit à votre rôle** (secrétaire, RH, gardien·ne, recruteur·se) → le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
+    - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis [vous êtes membre](signal-membres.md).
+    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes) et [les rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal), puis [recruter et rencontrer](signal-recrutement.md), [valider](signal-valider.md), [créer et régler les groupes](signal-creer.md) et [tenir les groupes](signal-gerer.md). Pour aller droit à votre rôle : le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
+    - **Vous cherchez un rôle en manif** (medic, legal, logistique...) → [les rôles utiles en manif](groupes-signal.md#roles-utiles-en-manif).
     - **Vous voulez juste la charte** → [modèles à copier-coller](signal-modeles.md).
-
-!!! warning "Partez du principe que quelqu'un lit"
-
-    Une rencontre en vrai écarte les curieux, les trolls et l'extrême droite, pas une personne malintentionnée bien préparée (policier·e, journaliste, provocateur·rice) ni une personne qui parle après une garde à vue. Les messages écrits servent de preuves : participer sciemment à un groupement qui **prépare** des violences ou des dégradations est puni d'un an de prison et 15 000 € d'amende, même si rien n'a eu lieu.[^cp-222-14-2] Dans les groupes : **logistique, entraide, infos publiques**. Le reste ne s'écrit pas.
-
-!!! tip "Ce guide est public : adaptez-le"
-
-    La police peut le lire aussi, et ce n'est pas un problème : votre sécurité ne repose pas sur le secret de la méthode, mais sur ce qui n'est écrit nulle part ici (qui est dans quel groupe, vos identifiants, le registre, les lieux de rencontre, qui sont vos RH et vos gardien·nes). **Changez les noms de rôles, de libellés et la nomenclature des groupes** plutôt que de reprendre ceux du guide : sur un téléphone saisi, ils ne désigneront pas d'emblée vos personnes clés.
 
 ## Trouver ce qui concerne votre rôle
 
@@ -52,6 +39,20 @@ Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardie
     <noscript><p>JavaScript est désactivé : voici tous les parcours.</p></noscript>
     {{ pt.tree('fr', parcours_signal, none, none, '../../', 3) }}
 </div>
+
+## À savoir avant de commencer
+
+!!! warning "Chiffrer est légal, mais cela peut être retourné contre vous"
+
+    Utiliser Signal n'est pas une infraction. Dans l'affaire dite du 8 décembre, la DGSI décrit les mis en cause comme ayant adopté un « comportement clandestin » avec des applications chiffrées, Tails et Tor, et cette formule revient très souvent dans le dossier, selon La Quadrature du Net, qui l'a analysé avant le procès.[^lqdn-8-decembre] Les sept prévenus ont été condamnés en décembre 2023 pour association de malfaiteurs terroriste.[^politis-8-decembre] Aucune de ces deux sources ne dit que le chiffrement a été jugé comme une infraction : il est cité comme **indice**. Ce dossier est un cas grave et très éloigné d'une manifestation ordinaire, mais il montre qu'on peut vous relire : **n'écrivez rien que vous ne voudriez pas voir cité**, et ne comptez pas sur le chiffrement pour vous protéger d'une lecture hostile.
+
+!!! warning "Partez du principe que quelqu'un lit"
+
+    Une rencontre en vrai écarte les curieux, les trolls et l'extrême droite, pas une personne malintentionnée bien préparée (policier·e, journaliste, provocateur·rice) ni une personne qui parle après une garde à vue. Les messages écrits servent de preuves : participer sciemment à un groupement qui **prépare** des violences ou des dégradations est puni d'un an de prison et 15 000 € d'amende, même si rien n'a eu lieu.[^cp-222-14-2] Dans les groupes : **logistique, entraide, infos publiques**. Le reste ne s'écrit pas.
+
+!!! tip "Ce guide est public : adaptez-le"
+
+    La police peut le lire aussi, et ce n'est pas un problème : votre sécurité ne repose pas sur le secret de la méthode, mais sur ce qui n'est écrit nulle part ici (qui est dans quel groupe, vos identifiants, le registre, les lieux de rencontre, qui sont vos RH et vos gardien·nes). **Changez les noms de rôles, de libellés et la nomenclature des groupes** plutôt que de reprendre ceux du guide : sur un téléphone saisi, ils ne désigneront pas d'emblée vos personnes clés.
 
 ## Les groupes
 
@@ -70,7 +71,7 @@ Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardie
 
 </div>
 
-Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](signal-gerer.md#nommer-les-groupes)). Une personne malintentionnée entrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](signal-gerer.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
+Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](signal-creer.md#nommer-les-groupes)). Une personne malintentionnée entrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](signal-gerer.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
 
 **Deux portes pour entrer dans le groupe de confiance :**
 
@@ -115,7 +116,7 @@ Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés*
     | **Ajout** | Par les RH, depuis le groupe sas nettoyé | Par les RH, **par nom d'utilisateur**, depuis une conversation privée (aucun lien) |
     | **Durée** | De quelques jours à quelques semaines | Le jour même ou le lendemain |
 
-Dans les deux cas, les mêmes contrôles : code QR scanné, réglages faits, un·e garant·e et le second contrôle des RH (voir [valider](signal-recrutement.md#valider-la-confiance-graduee)).
+Dans les deux cas, les mêmes contrôles : code QR scanné, réglages faits, un·e garant·e et le second contrôle des RH (voir [valider](signal-valider.md#valider-la-confiance-graduee)).
 
 ## Les rôles
 
@@ -173,7 +174,9 @@ Signalez donc des **zones et des directions**, jamais des **personnes**. Un sous
 ## Dans ce guide
 
 - [Vous êtes membre](signal-membres.md)
-- [Recruter et valider](signal-recrutement.md)
+- [Recruter et rencontrer](signal-recrutement.md)
+- [Valider](signal-valider.md)
+- [Créer et régler les groupes](signal-creer.md)
 - [Tenir les groupes](signal-gerer.md)
 - [Groupe compromis](signal-groupe-compromis.md)
 - [Modèles à copier-coller](signal-modeles.md)
@@ -186,6 +189,8 @@ Signalez donc des **zones et des directions**, jamais des **personnes**. Un sous
 - **Le plus sensible** : en vrai, sans téléphone (laissés dans une autre pièce ou éteints et à distance).
 
 [:octicons-arrow-right-24: Organiser une manifestation](organiser.md) · [:octicons-arrow-right-24: Communiquer pendant une manif](communiquer.md) · [:octicons-arrow-right-24: Téléphone](telephone.md)
+
+[Suivant : Vous êtes membre :octicons-arrow-right-24:](signal-membres.md)
 
 ## Sources
 

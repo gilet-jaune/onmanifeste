@@ -85,6 +85,8 @@
       "groupes-signal": ["organiser", "numerique"],
       "signal-membres": ["organiser", "numerique"],
       "signal-recrutement": ["organiser", "numerique"],
+      "signal-valider": ["organiser", "numerique"],
+      "signal-creer": ["organiser", "numerique"],
       "signal-gerer": ["organiser", "numerique"],
       "signal-groupe-compromis": ["organiser", "numerique"],
       "signal-modeles": ["organiser", "numerique"],

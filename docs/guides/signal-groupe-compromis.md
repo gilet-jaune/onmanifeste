@@ -12,6 +12,8 @@ tags:
 
 [:octicons-arrow-left-24: Groupes Signal : vue d'ensemble](groupes-signal.md)
 
+Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
+
 ## Que faire ?
 
 <div class="flow" markdown>
@@ -118,6 +120,8 @@ Le retrait conservatoire vaut aussi pour un **doute sérieux**, sans arrestation
 - **La personne ou le téléphone à l'origine de la fuite était dans le sous-groupe** → même procédure pour lui.
 - **Ni l'une ni l'autre n'y était** → le sous-groupe n'est pas exposé par cette fuite. Si son nom ou son identifiant apparaissait dans les messages ou la présentation du groupe parent, renommez-le avec le nouvel identifiant de la famille ; pas besoin de le dissoudre.
 - **Fuite non identifiée dans le groupe parent** → revoyez les membres du sous-groupe venus du parent ; dissolvez seulement s'il y a un doute sur l'un d'eux.
+
+[:octicons-arrow-left-24: Précédent : Tenir les groupes](signal-gerer.md) · [Suivant : Modèles à copier-coller :octicons-arrow-right-24:](signal-modeles.md)
 
 ## Sources
 

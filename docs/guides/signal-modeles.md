@@ -12,6 +12,8 @@ tags:
 
 [:octicons-arrow-left-24: Groupes Signal : vue d'ensemble](groupes-signal.md)
 
+Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
+
 Remplacez ce qui est entre crochets.
 
 !!! warning "Pourquoi pas un simple message épinglé ?"
@@ -77,6 +79,8 @@ Un doute sur quelqu'un : parlez-en en privé aux RH, qui décident des retraits.
 ```
 
 Le cadre légal de la charte : menacer par écrit est puni de 6 mois de prison et 7 500 € d'amende, 3 ans et 45 000 € pour une menace de mort ;[^cp-222-17] participer sciemment à un groupement qui prépare des violences ou des dégradations, d'un an et 15 000 €.[^cp-222-14-2] Avec des mineur·es dans le groupe, voir [mineur·es dans les groupes](signal-gerer.md#mineures-dans-les-groupes).
+
+[:octicons-arrow-left-24: Précédent : Groupe compromis](signal-groupe-compromis.md)
 
 ## Sources
 

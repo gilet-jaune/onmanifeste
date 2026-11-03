@@ -114,7 +114,7 @@
           },
           "results": [
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -353,7 +353,7 @@
               }
             },
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -373,7 +373,7 @@
           },
           "results": [
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -435,7 +435,7 @@
               }
             },
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -455,7 +455,7 @@
           },
           "results": [
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
@@ -539,7 +539,7 @@
           },
           "results": [
             {
-              "guide": "signal-gerer",
+              "guide": "signal-creer",
               "label": {
                 "fr": "Régler les groupes",
                 "en": "Setting up the groups"
@@ -550,7 +550,7 @@
               }
             },
             {
-              "guide": "signal-gerer",
+              "guide": "signal-creer",
               "label": {
                 "fr": "Nommer les groupes",
                 "en": "Naming groups"

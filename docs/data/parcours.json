@@ -3263,7 +3263,7 @@
           },
           "results": [
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
