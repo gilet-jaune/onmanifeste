@@ -1,5 +1,18 @@
-{#- Documented repression and debunked official statements, from docs/data/history.json + sources.json. -#}
+{#- Documented repression and officially disproved statements, from docs/data/history.json + sources.json.
+    One dated timeline (the same as the history and the injured-and-killed pages). A disproved
+    statement sits at the bottom of the card of the event it concerns (its own event, or the one
+    named in `related`), with its own date; a statement tied to no event has a card of its own. -#}
 {%- from 'overrides/partials/check.html' import check_title with context -%}
+
+{%- set card_kinds = ['repression', 'discrimination', 'soulevement', 'mouvement-social'] -%}
+{#- Events that are cards of the timeline. -#}
+{%- set rep_ids = [] -%}
+{%- for e in events if e.evidence and e.kind in card_kinds %}{% set _ = rep_ids.append(e.id) %}{% endfor -%}
+{#- Disproved statements that are neither a card nor related to a card: they get their own card. -#}
+{%- set solo_ids = [] -%}
+{%- for d in events if d.debunked and d.id not in rep_ids %}
+  {%- if not ((d.related or []) | select('in', rep_ids) | list) %}{% set _ = solo_ids.append(d.id) %}{% endif %}
+{%- endfor -%}
 
 {%- macro proofs(e, lang) -%}
 {%- if e.evidence %}
@@ -9,27 +22,54 @@
 {%- endif %}
 {%- endmacro -%}
 
-{%- macro repressions(lang) -%}
-<div class="documented">
-{%- for e in events if e.evidence and e.kind in ['repression', 'discrimination', 'soulevement', 'mouvement-social'] %}
-  <article class="documented__item" id="repression-{{ e.date }}">
-    <h3><span class="documented__year">{{ e.date[:4] }}</span> {{ e.title[lang] or e.title.fr }}</h3>
-    <p>{{ e.description[lang] or e.description.fr }}</p>
-    {{ proofs(e, lang) }}
-  </article>
-{%- endfor %}
+{#- The date column: year, then day/month (every event of history.json has a full date). -#}
+{%- macro event_date(e) -%}
+{%- set year, month, day = e.date.split('-') -%}
+<time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}</time>
+{%- endmacro -%}
+
+{#- A disproved statement, shown under its event. `show_date`: its own date and title, when it is a separate event. -#}
+{%- macro rebuttal(d, lang, show_date, with_proofs) -%}
+{%- set year, month, day = d.date.split('-') %}
+<div class="timeline__rebuttal" id="dementi-{{ d.date }}">
+  <p class="timeline__rebuttal-title"><strong>{{ 'Déclaration démentie' if lang == 'fr' else 'Statement disproved' }}</strong>
+  {%- if show_date %} · <time datetime="{{ d.date }}">{{ day | int }}/{{ month }}/{{ year }}</time> · {{ d.title[lang] or d.title.fr }}{% endif %}</p>
+  <p class="documented__claim"><strong>{{ 'Déclaré :' if lang == 'fr' else 'Claimed:' }}</strong> {{ d.debunked.claim[lang] or d.debunked.claim.fr }}</p>
+  <p class="documented__fact"><strong>{{ 'Établi :' if lang == 'fr' else 'Established:' }}</strong> {{ d.debunked.fact[lang] or d.debunked.fact.fr }}</p>
+  {%- if with_proofs %}
+  {{ proofs(d, lang) }}
+  {%- endif %}
 </div>
 {%- endmacro -%}
 
-{%- macro debunked(lang) -%}
-<div class="documented">
-{%- for e in events if e.debunked %}
-  <article class="documented__item documented__item--debunked" id="dementi-{{ e.date }}">
-    <h3><span class="documented__year">{{ e.date[:4] }}</span> {{ e.title[lang] or e.title.fr }}</h3>
-    <p class="documented__claim"><strong>{{ 'Déclaré :' if lang == 'fr' else 'Claimed:' }}</strong> {{ e.debunked.claim[lang] or e.debunked.claim.fr }}</p>
-    <p class="documented__fact"><strong>{{ 'Établi :' if lang == 'fr' else 'Established:' }}</strong> {{ e.debunked.fact[lang] or e.debunked.fact.fr }}</p>
-    {{ proofs(e, lang) }}
-  </article>
+{%- macro repressions(lang) -%}
+<ol class="timeline">
+{%- for e in events if e.id in rep_ids or e.id in solo_ids %}
+  <li class="timeline__event timeline__event--{{ e.kind }}" id="repression-{{ e.date }}">
+    {{ event_date(e) }}
+    <div class="timeline__body">
+      <h3 class="timeline__title">{{ e.title[lang] or e.title.fr }}</h3>
+      {%- if e.id in rep_ids %}
+      <p>{{ e.description[lang] or e.description.fr }}</p>
+      {{ proofs(e, lang) }}
+      {%- endif %}
+      {%- if e.debunked %}
+      {{ rebuttal(e, lang, false, e.id in solo_ids) }}
+      {%- endif %}
+      {%- for d in events if d.debunked and d.id != e.id and d.id not in rep_ids and d.id not in solo_ids and ((d.related or []) | select('in', rep_ids) | first) == e.id %}
+      {{ rebuttal(d, lang, true, true) }}
+      {%- endfor %}
+    </div>
+  </li>
 {%- endfor %}
-</div>
+</ol>
+{%- endmacro -%}
+
+{#- A short index of every disproved statement, linking to its place on the timeline. -#}
+{%- macro debunked_index(lang) -%}
+<ul class="documented__index">
+{%- for d in events if d.debunked %}{% set year, month, day = d.date.split('-') %}
+  <li><time datetime="{{ d.date }}">{{ day | int }}/{{ month }}/{{ year }}</time> · <a href="#dementi-{{ d.date }}">{{ d.title[lang] or d.title.fr }}</a></li>
+{%- endfor %}
+</ul>
 {%- endmacro -%}

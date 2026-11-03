@@ -13,6 +13,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 
+- Documented repression and officially disproved statements are shown on the same dated timeline as the history and the injured-and-killed pages (year column, vertical axis), instead of stacked cards. A disproved statement now sits at the bottom of the card of the event it concerns, with its own date (a short index of all of them stays in the section). Anchors `#repression-<date>` and `#dementi-<date>` still work.
 - Install banner: when the browser can install the app, only “Install” and “Later” are offered; “Already installed” appears only when the browser cannot tell. The footer block shows the offline status and a link to the settings page.
 - Secondary buttons (guide print button, SOS guided-search button) are dark on white instead of yellow on white, with a yellow fill on hover.
 - Update notice: a popup (modal dialog) replaces the bottom banner when a new version is ready. “Later” keeps it away for the rest of the session, it never appears on the emergency page, and the offline panel still offers the update.

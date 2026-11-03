@@ -1824,35 +1824,26 @@ select:focus-visible {
 }
 
 /* --- Documented repression and disinformation ----------------------------- */
-.documented {
-  display: grid;
-  gap: 0.8rem;
-}
-
-.md-typeset .documented__item {
-  padding: 0.8rem 1rem;
-  border: 2px solid var(--ap-line);
-  border-left-width: 8px;
-  border-radius: var(--ap-radius);
-}
-
-.md-typeset .documented__item--debunked {
-  border-left-color: var(--ap-vest-deep);
-}
-
-.md-typeset .documented__item h3 {
-  margin: 0 0 0.4rem;
-}
-
-.md-typeset .documented__year {
-  margin-right: 0.4rem;
-  color: var(--ap-muted);
-}
-
 .md-typeset .documented__claim {
   text-decoration: line-through;
   text-decoration-thickness: 1px;
   color: var(--ap-muted);
+}
+
+/* A disproved statement at the bottom of an event card. */
+.md-typeset .timeline__rebuttal {
+  margin: 0.8rem 0 0.2rem;
+  padding: 0.1rem 0 0.1rem 0.8rem;
+  border-left: 4px solid var(--ap-vest-deep);
+}
+
+.md-typeset .timeline__rebuttal-title {
+  margin: 0 0 0.3rem;
+  font-size: 0.75rem;
+}
+
+.md-typeset .documented__index {
+  padding-left: 1rem;
 }
 
 .md-typeset .documented__proofs {

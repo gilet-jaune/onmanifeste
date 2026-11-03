@@ -19,6 +19,8 @@ Des violences commises lors du maintien de l'ordre, et des déclarations officie
 
 ## Répressions documentées
 
+Quand une déclaration officielle a ensuite été démentie, elle figure **en bas de la carte de l'événement concerné**, avec sa date.
+
 {{ doc.repressions('fr') }}
 
 ## Gardes à vue de masse : beaucoup d'interpellé·es, peu de poursuivi·es
@@ -36,7 +38,9 @@ Des associations et des avocat·es y voient un moyen de **dissuader** de manifes
 
 Cette sélection regroupe quelques cas emblématiques du maintien de l'ordre où une affirmation publique a ensuite été formellement contredite par une vidéo, une enquête, la justice ou son auteur lui-même. Nous ne tenons pas de frise exhaustive des déclarations politiques ou médiatiques au fil de l'actualité : ce suivi quotidien est assuré par des observatoires et rédactions spécialisés (ci-dessous).
 
-{{ doc.debunked('fr') }}
+Chaque démenti est rattaché, en bas de la carte, à l'événement qu'il concerne. Les voici, par date :
+
+{{ doc.debunked_index('fr') }}
 
 Ces cas figurent aussi dans les [repères historiques](../histoire/index.md). Les personnes tuées ou blessées sont recensées dans [blessé·es et mort·es en manifestation](../victimes/index.md). Pour vérifier une information par vous-même : [éviter la désinformation](../guides/desinformation.md).
 
