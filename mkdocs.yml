@@ -167,6 +167,7 @@ plugins:
         - docs/data/victimes.json
         - docs/data/rallier.json
         - docs/data/guide-themes.json
+        - docs/data/routes.json
         - docs/data/check-levels.json
 
 extra_css:

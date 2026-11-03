@@ -1,0 +1,156 @@
+{
+  "routes": {
+    "open-door": {
+      "title": {
+        "fr": "Valider à porte ouverte, via le groupe sas",
+        "en": "Open-door vetting through the airlock group"
+      },
+      "desc": {
+        "fr": "Six étapes : sas, sas nettoyé et renommé, rendez-vous en action organisée par d'autres, retour privé aux RH, garant·e, second contrôle des RH puis ajout au groupe de confiance. Deux cas à part : un signal d'alerte ou un doute fait attendre, et une personne déjà connue d'un·e vérifié·e suit le parcours rapide.",
+        "en": "Six steps: airlock, cleaned and renamed airlock, meeting at an action organised by others, private report to HR, voucher, then HR second check and adding to the trusted group. Two side cases: a warning sign or doubt means waiting, and someone already known to a vetted member takes the fast route."
+      },
+      "caption": {
+        "fr": "Chaque personne suit ce parcours, on ne valide pas le sas entier : le sas sert à la rencontre puis au rendez-vous, la vérification se fait en action.",
+        "en": "Each person follows this route, the whole airlock is not vetted at once: the airlock is for the meeting then the rendezvous, vetting happens in action."
+      },
+      "steps": [
+        {
+          "who": { "fr": "Secrétaire", "en": "Secretary" },
+          "title": { "fr": "Sas : première rencontre", "en": "Airlock: first meeting" },
+          "lines": {
+            "fr": ["Réglages, code QR scanné, au moins", "2 membres vérifié·es présent·es"],
+            "en": ["Settings, QR code scanned, at least", "2 vetted members present"]
+          }
+        },
+        {
+          "who": { "fr": "Secrétaire", "en": "Secretary" },
+          "title": { "fr": "Sas « nettoyé » et renommé", "en": "Airlock \"cleaned\" and renamed" },
+          "lines": {
+            "fr": [
+              "On retire absent·es, non rencontré·es",
+              "et alertes. Sert seulement au rendez-vous"
+            ],
+            "en": ["Remove absentees, people not met, alerts.", "Used only to arrange to meet"]
+          }
+        },
+        {
+          "who": { "fr": "Vérifié·es", "en": "Vetted" },
+          "title": { "fr": "Se voir à une action d'autres", "en": "Meet at others' action" },
+          "lines": {
+            "fr": ["Au moins 2 actions ; un binôme", "vérifié·e accompagne et observe"],
+            "en": ["At least 2 actions; a vetted buddy", "goes along and watches"]
+          }
+        },
+        {
+          "who": { "fr": "Vérifié·es", "en": "Vetted" },
+          "title": { "fr": "Retour privé aux RH", "en": "Private report to HR" },
+          "lines": {
+            "fr": ["Faits observés, à voix haute", "si possible ; pas de liste écrite"],
+            "en": ["Observed facts, out loud", "if possible; no written list"]
+          }
+        },
+        {
+          "who": { "fr": "Vérifié·es", "en": "Vetted" },
+          "title": { "fr": "Garant·e", "en": "Voucher" },
+          "lines": {
+            "fr": ["Au moins un·e vérifié·e qui a vu", "la personne agir lui-même ou elle-même"],
+            "en": ["At least one vetted member who", "personally saw the person act"]
+          }
+        },
+        {
+          "who": { "fr": "RH", "en": "HR" },
+          "title": { "fr": "Second contrôle des RH", "en": "HR second check" },
+          "lines": {
+            "fr": ["Puis ajout au groupe de confiance", "par les RH"],
+            "en": ["Then added to the trusted group", "by HR"]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "title": { "fr": "Signal d'alerte ou doute", "en": "Warning sign or doubt" },
+          "text": {
+            "fr": "→ on attend ; pause préventive possible",
+            "en": "→ wait; preventive pause possible"
+          }
+        },
+        {
+          "title": {
+            "fr": "Déjà connu·e d'un·e vérifié·e",
+            "en": "Already known to a vetted member"
+          },
+          "text": {
+            "fr": "→ parcours rapide : étapes 1, 5, 6",
+            "en": "→ fast route: steps 1, 5, 6"
+          }
+        }
+      ]
+    },
+    "co-option": {
+      "title": { "fr": "Entrer par cooptation", "en": "Joining by co-option" },
+      "desc": {
+        "fr": "Cinq étapes : un membre vérifié propose quelqu'un qu'il connaît, rencontre avec un·e secrétaire, le membre est garant·e, second contrôle des RH, ajout au groupe de confiance. Sans passer par le groupe public ni le sas.",
+        "en": "Five steps: a vetted member proposes someone they know, meeting with a secretary, the member is the voucher, HR second check, adding to the trusted group. Without going through the public group or the airlock."
+      },
+      "caption": {
+        "fr": "Entrer par cooptation : un membre vérifié qui connaît déjà la personne la propose, sans passer par le groupe public ni le sas.",
+        "en": "Joining by co-option: a vetted member who already knows the person proposes them, without going through the public group or the airlock."
+      },
+      "steps": [
+        {
+          "who": { "fr": "Vérifié·e", "en": "Vetted" },
+          "title": { "fr": "Un membre vérifié propose", "en": "A vetted member proposes" },
+          "lines": {
+            "fr": ["quelqu'un qu'il ou elle connaît déjà"],
+            "en": ["someone they already know"]
+          }
+        },
+        {
+          "who": { "fr": "Secrétaire", "en": "Secretary" },
+          "title": { "fr": "Rencontre avec un·e secrétaire", "en": "Meeting with a secretary" },
+          "lines": {
+            "fr": ["Tête-à-tête ou sur place ; code QR", "scanné, réglages faits"],
+            "en": ["One-to-one or on the spot; QR code", "scanned, settings done"]
+          }
+        },
+        {
+          "who": { "fr": "Vérifié·e", "en": "Vetted" },
+          "title": { "fr": "Le membre est garant·e", "en": "The member is the voucher" },
+          "lines": {
+            "fr": ["Ou plusieurs, s'ils l'ont vue agir", "eux-mêmes"],
+            "en": ["Or several, if they saw them", "act themselves"]
+          }
+        },
+        {
+          "who": { "fr": "RH", "en": "HR" },
+          "title": { "fr": "Second contrôle des RH", "en": "HR second check" },
+          "lines": {
+            "fr": ["Un seul doute sérieux suffit", "pour attendre"],
+            "en": ["A single serious doubt is enough", "to wait"]
+          }
+        },
+        {
+          "who": { "fr": "RH", "en": "HR" },
+          "title": { "fr": "Ajout au groupe de confiance", "en": "Adding to the trusted group" },
+          "lines": {
+            "fr": ["Par nom d'utilisateur, depuis une", "conversation privée ; aucun lien"],
+            "en": ["By username, from a private", "conversation; no link"]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "title": { "fr": "Sans groupe public ni sas", "en": "No public group or airlock" },
+          "text": {
+            "fr": "→ souvent le jour même ou le lendemain",
+            "en": "→ often the same day or the next"
+          }
+        },
+        {
+          "title": { "fr": "Jamais de garantie entre", "en": "Never vouching between" },
+          "text": { "fr": "nouvelles personnes, ni de vote", "en": "newcomers, nor a vote" }
+        }
+      ]
+    }
+  }
+}
