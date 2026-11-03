@@ -1,5 +1,5 @@
 ---
-source_commit: 32e282d760be66d4ca69b0bd519ae92f47c49b6e
+source_commit: 231d78d9a24fdb8150f92b250befd495134998c5
 review: juridique
 review_status: pending
 tags:
@@ -18,6 +18,10 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 ## Validating: graduated trust
 
 The meeting is a **first contact**. **Each person is vetted, not the airlock**: an airlock can include people vetted the same day and others who are waiting, and newcomers never vouch for each other. Validation then depends on the group's level:
+
+!!! info "Public criteria, private thresholds"
+
+    These criteria are public on purpose: a group's security does not rest on keeping its method secret. The thresholds (how many actions are watched, how many members go along, how long a decision takes) are not given as numbers here: each group chooses its own ({{ default("example") }}) and adds its own warning signs, **without publishing them**. The more sensitive what the person will access, the higher the threshold: for a sensitive sub-group, no number is given here. Anything about assessing people is said **out loud**: nothing about it is written in a group.
 
 **What does "vetted" mean?** Three checks, each answering a different question:
 
@@ -57,7 +61,7 @@ The meeting is a **first contact**. **Each person is vetted, not the airlock**: 
 - [ ] **Vouchers don't need to be in the airlock group**: they are vetted members who know the person **elsewhere** (friend, colleague, neighbour, union comrade). They confirm it **privately** to the secretary.
 - [ ] **Nobody knows them?** They come to public actions for a few weeks; vetted members who have seen them in action and talked with them can then vouch for them.
 - [ ] **Met at a protest, even as a medic?** That is not yet knowing them: anyone can wear a medic armband or a legal observer vest, and these teams' sub-groups are sensitive. No direct adding to a trusted group. However, having seen them act at **several** actions and talked with them means you can vouch for them; and if they come from a known collective (street medics, legal team), a vetted member who knows that collective can be their voucher.
-- [ ] **A very active person?** A vetted member who has acted alongside them at two or three actions **proposes** them to a secretary and becomes their voucher. The secretary meets them, on the spot during an action if needed (scanning a QR code takes 10 seconds), then HR add them: the same day or the next. Unions, associations and collectives help too: a vetted member who knows them through their union or collective can be their voucher straight away.
+- [ ] **A very active person?** A vetted member who has acted alongside them at {{ default("actions") }} **proposes** them to a secretary and becomes their voucher. The secretary meets them, on the spot during an action if needed (scanning a QR code takes 10 seconds), then HR add them: the same day or the next. Unions, associations and collectives help too: a vetted member who knows them through their union or collective can be their voucher straight away.
 - [ ] **Newcomers never vouch for each other**: several malicious people who arrived together would validate each other. No votes either, nor any threshold of "yes" votes.
 - [ ] **A single serious doubt is enough to wait**: the secretary raises it with HR, who settle it.
 - [ ] **Signal warns when two members of a group have the same name**: check it, it may be impersonation.[^signal-confidentialite-numero]
@@ -80,7 +84,7 @@ A person comes in by the **open path** (nobody knows them yet) or by **co-option
 
     1. **Public group**
     2. **Airlock group**: a meeting, then a rendezvous at others' action
-    3. **Vouchers** after at least 2 actions, then **HR's second check**
+    3. **Vouchers** after {{ default("actions") }}, then **HR's second check**
     4. **Trusted group**
 
     </div>
@@ -105,7 +109,7 @@ A person comes in by the **open path** (nobody knows them yet) or by **co-option
     | **For whom** | Someone nobody knows yet | Someone a vetted member already knows (friend, colleague, union, seen in action at several actions) |
     | **Through** | The public group, then an airlock group and a meeting | The vetted member **proposes** them directly to a secretary, without the public group or an airlock group |
     | **Meeting** | In the airlock group, then at an action organised by others | One-to-one, or on the spot during an action |
-    | **Watching in action** | At least two actions, with vetted members who watch and report to HR | Already done: the proposing member knows them or has seen them act |
+    | **Watching in action** | {{ default("Actions") }}, with vetted members who watch and report to HR | Already done: the proposing member knows them or has seen them act |
     | **Voucher** | Vetted members who saw them act themselves; one is enough | The member who proposed them |
     | **Adding** | By HR, from the airlock | By HR, **by username**, from a private conversation (no link) |
     | **Time** | Several actions | The same day or the next |
@@ -120,8 +124,8 @@ With open-door recruitment, most people have no voucher. The preferred route is 
 1. **The airlock**: meeting, settings, account QR code scanned (see [the airlock group](signal-recrutement.md#the-airlock-group)).
 2. **The airlock, cleaned and renamed**: it is used **only to arrange to meet in person** at an action or demonstration **organised by others** (a union, a collective). **No action is planned** there: the action is the organisers', and its time and place are already public. **Remove** absentees, people not yet met and anyone who triggered a warning sign; **keep** people who were met but are not yet vetted. The group takes a **neutral name**, with no movement or city, and one-day disappearing messages, set before anything else. Only the meeting point is written, **nothing about people**. It remains a list of the people who were met: assume the police can read it. It **stays open while people await a decision** (several actions, at least two): each person leaves it when added to the trusted group or ruled out, and it is **closed** when nobody is waiting any more (see also [the temporary group](signal-gerer.md#the-temporary-group), for organising without going through an airlock).
 3. **Acting together**, with these safeguards:
-    - [ ] **At least two vetted members** go along, each with one or two newcomers: not a tight block of newcomers.
-    - [ ] **At least two actions** before vouching: a prepared person behaves well in just one.
+    - [ ] **{{ default("Observers") }}** go along, each with one or two newcomers: not a tight block of newcomers.
+    - [ ] **{{ default("Actions") }}** before vouching, never just one: a prepared person behaves well in just one.
     - [ ] **What you watch for**: calm, mutual aid, respect for the [charter](signal-modeles.en.md#full-charter); no pushing towards the illegal or violence, no photos of others, no questions about names or groups.
     - [ ] **Each vetted member reports privately**, out loud if possible, to the secretary or an HR member what they saw: **observed facts** (calm, mutual aid, charter, warning signs), not a judgement on the person nor a "safe / not safe". Each vetted member who has **personally** seen the person act at a demonstration can vouch: **one voucher is enough** for the trusted group, several strengthen the decision of HR, who decide. No hearsay vouching: nobody vouches because someone else did. Never vouching between newcomers. Nothing is written down durably with names.
     - [ ] **No list of who came** is kept. A spoken debrief with HR, the same day.
@@ -131,7 +135,7 @@ With open-door recruitment, most people have no voucher. The preferred route is 
 
 **The limits, stated plainly:**
 
-- **This route filters out opportunists, not a determined infiltrator**: a prepared person behaves well through two actions. It lowers the risk without removing it, hence the trusted group where nothing sensitive is written and the two vouchers for sub-groups. Never call a person "safe".
+- **This route filters out opportunists, not a determined infiltrator**: a prepared person behaves well through {{ default("actions") }}. It lowers the risk without removing it, hence the trusted group where nothing sensitive is written and the two vouchers for sub-groups. Never call a person "safe".
 - **The pace depends on how many vetted members** are willing to go along.
 - **Not everyone can go to a demonstration** (disability, working hours, children, immigration status). The "action" can be a public meeting, leafleting or a drop-in. See [Protesting without French nationality](etrangers.md) and [Disability or chronic illness](handicap.md).
 

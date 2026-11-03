@@ -1,5 +1,5 @@
 ---
-source_commit: be367bca5d6c71260601d5021fa0ba25060064a4
+source_commit: 231d78d9a24fdb8150f92b250befd495134998c5
 review: juridique
 review_status: pending
 tags:
@@ -63,7 +63,7 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 1. **Public group** (one per city) → people join through the **public group's link** (the one exception: it holds nothing sensitive) or are added directly by a secretary or a recruiter; only admins (keyholders and secretaries) post: announcements, date, declared location, links to the guides.
     - **To move on to an airlock group**: set up your settings, make yourself known to a recruiter, write privately to a secretary (by username) to be added to an airlock group announced in the public group with its date and time of day, or suggest one.
 2. **Airlock group** (temporary) → suggested by **any member of the public group**, created and announced by a secretary, for **one** in-person meeting, then, if needed, a rendezvous at an action organised by others; only the time and place are written there, and it stays open while people await a decision.
-    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), at least two actions where vetted members watch you, **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the airlock (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
+    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), {{ default("actions") }} where vetted members watch you, **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the airlock (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
 3. **Trusted group** (vetted, `MVT-CTY-4K9-General`) → logistics, mutual aid, public information; nothing illegal.
     - **To move on to a sub-group**: a real need in the team, a period in the trusted group, and **two vouchers** if the sub-group is sensitive; the sub-group's keyholder adds them.
 4. **Sub-groups by topic**, in the same family (same ID) → each only sees what concerns its team:
@@ -91,7 +91,7 @@ These roles keep the Signal network running (recruitment, onboarding, moderation
 | --- | --- | --- | --- |
 | **Recruiter** | Talks about the movement at protests, on roundabouts, at public meetings; points people to the public group and the airlock groups | Validate; vouch for their own recruits; write anything down about them | No |
 | **Secretary** (already-vetted member) | **Coordinates the meeting end to end**: announces the airlock group in the public group, comes to it, helps everyone set up Signal; **validates** once the conditions are met; cleans the airlock group and adds HR to it; stays the newcomers' contact | Validate without a voucher; **add anyone to the trusted group** (HR do the adding); keep an attendance list | Of the airlock group they run, and of the public group to announce meetings there |
-| **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs (within 24 h after a [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)); settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
+| **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs ({{ default("decision_delay") }} after a [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)); settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
 | **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
 | **Moderation** | Reminds people of the [charter](signal-modeles.en.md#full-charter), deals with issues privately | Accuse anyone in the group | No |
 | **"Lost group" lead** | Triggers the [compromised-group procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |

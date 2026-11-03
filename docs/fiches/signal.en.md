@@ -1,5 +1,5 @@
 ---
-source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
+source_commit: 231d78d9a24fdb8150f92b250befd495134998c5
 review: juridique
 review_status: pending
 tags:
@@ -72,7 +72,7 @@ Roles **rotate**; nobody holds every role, and no group brings together all the 
 | --- | --- | --- |
 | **Recruiter** | Talks about the movement, points to the public group and airlock groups | Vet; vouch for their own recruits; note anything about them |
 | **Secretary** | Coordinates the meeting, **vets** when conditions are met, cleans the airlock group and adds HR | Vet without a voucher; **add** to the trusted group; keep an attendance list |
-| **HR** | Second check, **add** to the trusted group, receive doubts, decide removals **in pairs**, within 24 h after a preventive pause | Run airlock groups; decide a removal alone |
+| **HR** | Second check, **add** to the trusted group, receive doubts, decide removals **in pairs**, {{ default("decision_delay") }} after a preventive pause | Run airlock groups; decide a removal alone |
 | **Keyholder** | Watches over the group's settings (at least two per group), flags odd arrivals to HR | Add someone who has not been vetted; go on an action with their keyholder phone |
 | **Moderation** | Reminds people of the charter, deals with issues in private | Accuse someone in the group |
 

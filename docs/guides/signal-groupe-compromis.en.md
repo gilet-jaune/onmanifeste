@@ -1,5 +1,5 @@
 ---
-source_commit: be367bca5d6c71260601d5021fa0ba25060064a4
+source_commit: 231d78d9a24fdb8150f92b250befd495134998c5
 review: juridique
 review_status: pending
 tags:
@@ -21,7 +21,7 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 
 1. **What is happening?**
     - **Someone is being taken away, or has lost their phone** → [precautionary removal](signal-groupe-compromis.md#precautionary-removal), straight away.
-    - **A serious doubt about a person** → [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt), then two HR members decide within 24 hours.
+    - **A serious doubt about a person** → [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt), then two HR members decide {{ default("decision_delay") }}.
     - **A stranger in the group, a leak** → step 2.
 2. **Is the group compromised?** → see the list below.
 3. **Do you know where the leak is?**
@@ -91,7 +91,7 @@ Precautionary removal also applies to a **serious doubt**, with no arrest. These
 
 - **An HR member or a keyholder** with a serious doubt about someone removes them **immediately** from the sensitive groups (trusted group and sub-groups), **with no accusation or justification**. They stay in the public group.
 - **The message is the precautionary-removal one**: removed as a precaution, nothing personal. Nothing else in the group.
-- **Two HR members decide within 24 hours** whether the person comes back. If they cannot decide, they extend the pause together and note it in the register.
+- **Two HR members decide {{ default("decision_delay") }}** whether the person comes back. If they cannot decide, they extend the pause together and note it in the register.
 - **Safeguards**: the register notes **who** triggered the pause and **when**, never **why**; the person who triggered it does not take part in the final decision; the person can turn to another HR member.
 
 ## Case A: you know where the leak is
