@@ -1,5 +1,5 @@
 ---
-source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
+source_commit: 798b980046995411f9554b189b448aed348b2671
 review: juridique
 review_status: pending
 tags:
@@ -134,7 +134,7 @@ These roles keep the Signal network running (recruitment, onboarding, moderation
 | **Secretary** (already-vetted member) | **Coordinates the meeting end to end**: announces the airlock group in the public group, comes to it, helps everyone set up Signal; **validates** once the conditions are met; cleans the airlock group and adds HR to it; stays the newcomers' contact | Validate without a voucher; **add anyone to the trusted group** (HR do the adding); keep an attendance list | Of the airlock group they run, and of the public group to announce meetings there |
 | **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs (within 24 h after a [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)); settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
 | **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
-| **Moderation** | Reminds people of the charter, deals with issues privately | Accuse anyone in the group | No |
+| **Moderation** | Reminds people of the [charter](signal-modeles.en.md#full-charter), deals with issues privately | Accuse anyone in the group | No |
 | **"Lost group" lead** | Triggers the [compromised-group procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
 
 <a id="protest-roles"></a>

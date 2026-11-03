@@ -1,5 +1,5 @@
 ---
-source_commit: 7d9d5d7afc9bb106125ce0508bc658d421c804c7
+source_commit: 798b980046995411f9554b189b448aed348b2671
 review: juridique
 review_status: pending
 tags:
@@ -55,7 +55,7 @@ A group is set up **empty**, before the first invitation: the message timer only
 2. **Disappearing messages** → the timer from the table, from creation.[^signal-ephemeres]
 3. **Permissions** → **to set at creation** (group settings › permissions). Four rights, each can be reserved for admins: **send messages**, **add labels**, **edit group info** (name, photo, description and, according to Signal's documentation, the disappearing-messages timer) and **add members**.[^signal-groupes][^signal-gerer-groupe][^signal-ephemeres][^signal-libelles] While a right is not restricted, an ordinary member can use it, including changing the timer. Reserve them for admins (keyholders, and secretaries in the public group and the airlock group) and check them in each group; in the public group, only admins send messages. **Removing a member stays reserved for admins**, whatever you set: hence several reachable keyholders per group.[^signal-groupes][^signal-gerer-groupe]
 4. **No group link, no group QR code** (the one exception: the **public group**, which holds nothing sensitive and whose link may circulate) → add each person **by username**, from a private conversation. A link that gets passed around escapes all control: anyone who has it can ask to join, and it can be relayed or found. The link is managed in the **group link** section: you turn it on, **reset** it or **turn it off**;[^signal-lien-groupe] an **"require admin approval"** option (keep it on wherever a link exists, except the public group) acts as a safety net, without replacing direct adding. **If a link was created anyway, turn it off straight away**, then reset it if in any doubt. Reserving "add members" for admins also limits who can create one: a member who does not see the feature has to go through an admin (to check in your group).
-5. **Group description** → paste the short description (vital rules, non-violence disclaimer and legal reminder). Because disappearing messages delete pinned messages, the full charter is reviewed and agreed to in the airlock group before admission.
+5. **Group description** → paste the short description (vital rules, non-violence disclaimer and legal reminder). Because disappearing messages delete pinned messages, the [full charter](signal-modeles.en.md#full-charter) is reviewed and agreed to in the airlock group before admission.
 6. **Second keyholder** → add them and make them admin in Signal **before** anyone else.
 7. **Register** → note the group ID and its keyholders.
 8. **Only then** add the members.
@@ -98,7 +98,7 @@ Signal lets each member show a **label** next to their name. Each person can onl
 
 **A label only shows a protest role** (medic, legal…), never an organising role (secretary, HR, keyholder, recruiter): those point to key people and are of no use to other members.
 
-Keep a **shared list** in the charter, so everyone uses the same words, for example:
+Keep a **shared list** in the [charter](signal-modeles.en.md#full-charter), so everyone uses the same words, for example:
 
 | Label       | Role                                             |
 | ----------- | ------------------------------------------------ |

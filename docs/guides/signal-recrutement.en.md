@@ -1,5 +1,5 @@
 ---
-source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
+source_commit: 798b980046995411f9554b189b448aed348b2671
 review: juridique
 review_status: pending
 tags:
@@ -24,7 +24,7 @@ tags:
 | **5. Cleaning** | — | Removes unvalidated people (nobody has been added since the day before), **adds an HR member to it**, who is thus only exposed to validated people | — | — |
 | **6. Second check** | Answers any questions | — | Check profiles: name, no photo, hidden number, no duplicate name | — |
 | **7. Adding** | Is added to the trusted group by HR | — | **Add by username** only the airlock group's validated members, leave the airlock group, record the names in the register | Checks that the arrivals match: no strangers, no duplicate names |
-| **8. Afterwards** | Reads the charter; trial period; sensitive sub-groups later | Stays their contact | Receive doubts, decide on removals; an arrest: [precautionary removal](signal-groupe-compromis.md#precautionary-removal) | **Watches**: unexpected arrivals, name changes, odd behaviour; reports to HR |
+| **8. Afterwards** | Reads the [charter](signal-modeles.en.md#full-charter); trial period; sensitive sub-groups later | Stays their contact | Receive doubts, decide on removals; an arrest: [precautionary removal](signal-groupe-compromis.md#precautionary-removal) | **Watches**: unexpected arrivals, name changes, odd behaviour; reports to HR |
 
 ## The airlock group
 
@@ -35,7 +35,7 @@ tags:
     1. **the account and settings**: QR code scanned, activist name, hidden number;
     2. **who knows them**: "how did you hear about the group? does anyone here or in the movement know you?", to spot a possible voucher;
     3. **what they want to do**: which actions, which team;
-    4. **that they understood the charter**, by having them put it in their own words;
+    4. **that they understood the [charter](signal-modeles.en.md#full-charter)**, by having them put it in their own words;
     5. **warning signs**, without accusing: pushing for illegal or violent action, wanting to know who is who and which groups exist, asking for names or addresses, taking photos, wanting to get into everything straight away.
 - [ ] **Each airlock group starts with its date and time of day** ("Thursday evening", "Saturday lunchtime"): people pick the one that suits them, with no poll or splitting afterwards. The secretary syncs it all: they create the airlock group (or become its admin if someone else created it) and post the announcement in the public group, where secretaries are admins: "Meeting on Thursday evening: airlock group" with the instruction to **write to them in private** (by username) to be added. **Never the place**: it is posted the day before in the airlock group.
 - [ ] **Date not set yet?** A Signal poll in the airlock group, with 2 or 3 slots; no outside tool, which would keep a record of who comes when. Votes are not anonymous: every member sees who chose what, which is fine for a date.[^signal-sondages]
@@ -65,7 +65,7 @@ The airlock group sets up the meeting; here is how it goes. These guidelines are
 
 1. **Welcome (5 minutes).** The secretary introduces themselves with their activist name, explains what the group is for (mutual aid, logistics, nothing illegal) and what will happen. They also say that **nothing is written down and no ID is asked for**. The aim is to put people at ease.
 2. **Settings and QR code (10 minutes).** Each person handles their own phone and shows their screens; the secretary guides aloud: activist name, no photo, hidden number, then scan of the safety number QR code. The secretary **looks at the screen**, with the person's agreement: ticking them off aloud is not enough.
-3. **Conversation (10 minutes).** Open questions, no interrogation: "What brings you here?", "What would you like to do: leafleting, logistics, first aid, legal?", "How did you hear about the group?", then "Can you tell me the charter in your own words?". Listen more than you talk. **The person can ask their own questions** (who organises, how, what risks) and gets answers: trust goes both ways. The checks to make are listed in [the airlock group](signal-recrutement.md#the-airlock-group).
+3. **Conversation (10 minutes).** Open questions, no interrogation: "What brings you here?", "What would you like to do: leafleting, logistics, first aid, legal?", "How did you hear about the group?", then "Can you tell me the [charter](signal-modeles.en.md#full-charter) in your own words?". Listen more than you talk. **The person can ask their own questions** (who organises, how, what risks) and gets answers: trust goes both ways. The checks to make are listed in [the airlock group](signal-recrutement.md#the-airlock-group).
 4. **End (2 minutes).** Say what happens next ("HR will get back to you within a few days") **without promising**: never say "you're in" on the spot.
 
 **To avoid**

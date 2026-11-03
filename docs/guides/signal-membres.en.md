@@ -1,5 +1,5 @@
 ---
-source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
+source_commit: 798b980046995411f9554b189b448aed348b2671
 review: juridique
 review_status: pending
 tags:
@@ -67,7 +67,7 @@ Do this **before** joining your first group, airlock group included: once you ar
 - [ ] **Blur faces** before sending a photo, with Signal's blur tool.[^signal-blur] No real names, addresses or screenshots.
 - [ ] **No live location**: a meeting place is given in person, or at the last minute in the airlock group.
 - [ ] **Need help? Name someone**: "@Lou, can you handle the banner on Saturday?" rather than "can anyone…?". The bigger a group, the less each person responds, except when you name the person.[^markey-2000][^darley-latane-1968] **Emergency**: call **15** or **112**, not the group.
-- [ ] **Label**: Signal lets you show your protest role (medic, legal…) next to your name, in each group separately; only set one if the charter says so, and never an organising role (see [role labels](signal-gerer.md#role-labels)).
+- [ ] **Label**: Signal lets you show your protest role (medic, legal…) next to your name, in each group separately; only set one if the [charter](signal-modeles.en.md#full-charter) says so, and never an organising role (see [role labels](signal-gerer.md#role-labels)).
 - [ ] **Doubts about someone**: HR, privately. Never accuse anyone in the group: a rumour of a leak destroys a group more surely than a real leak. An HR member or a keyholder can remove someone as a precaution while two HR members decide ([preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)).
 - [ ] **Never share the link or QR code of an airlock group, a trusted group or a sub-group** (only the public group's link is shared): give your **username** to the person who must add you, and add others the same way. If you spot a link somewhere, tell the keyholders, who **turn it off straight away**.[^signal-lien-groupe]
 
