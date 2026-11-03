@@ -1,5 +1,5 @@
 ---
-source_commit: f56cb06bfc6dc003c46ba45dc034dbc0fef30562
+source_commit: d9c693670006b9a499b6f71cdfcfea709452dc93
 review: juridique
 review_status: pending
 tags:
@@ -75,50 +75,7 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 
 The **trusted group and its sub-groups** are the **vetted groups**, and a **family** sharing the same ID (see [naming groups](signal-creer.md#naming-groups)). A malicious person who gets into one sub-group does not see the others. Next to the funnel, the [temporary group](signal-gerer.md#the-temporary-group), for an action day or a mobilisation, leads nowhere: it is disposable.
 
-**Two ways into the trusted group:**
-
-=== "Diagram"
-
-    <div class="grid" markdown>
-
-    <div class="flow" markdown>
-
-    **The open path**
-
-    1. **Public group**
-    2. **Airlock group** and a meeting with a secretary
-    3. **A voucher** comes forward
-    4. **HR's second check**
-    5. **Trusted group**
-
-    </div>
-
-    <div class="flow" markdown>
-
-    **Co-option**
-
-    1. **A vetted member proposes** someone they know
-    2. **Meeting with a secretary**, one-to-one or on the spot
-    3. **The proposing member is the voucher**
-    4. **HR's second check**
-    5. **Trusted group**
-
-    </div>
-
-    </div>
-
-=== "Table"
-
-    | Way in | **The open path** | **Co-option** |
-    | --- | --- | --- |
-    | **For whom** | Someone nobody knows yet | Someone a vetted member already knows (friend, colleague, union, seen in action at several actions) |
-    | **Through** | The public group, then an airlock group and a meeting | The vetted member **proposes** them directly to a secretary, without the public group or an airlock group |
-    | **Meeting** | In the airlock group, with the secretary | One-to-one, or on the spot during an action |
-    | **Voucher** | To be found: someone who knows them, or several actions together | The member who proposed them |
-    | **Adding** | By HR, from the cleaned airlock group | By HR, **by username**, from a private conversation (no link) |
-    | **Time** | A few days to a few weeks | The same day or the next |
-
-In both cases, the same checks: QR code scanned, settings done, a voucher and HR's second check (see [validating](signal-valider.md#validating-graduated-trust)).
+**Two ways into the trusted group**: the **open path** (public group, airlock, meeting in action, vouchers, HR's second check) and **co-option** (a vetted member proposes someone they know, often the same day). See [the two ways in](signal-valider.md#two-ways-into-the-trusted-group): diagram, table and detail of each route.
 
 ## The roles
 
