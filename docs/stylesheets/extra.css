@@ -1750,6 +1750,15 @@ select:focus-visible {
   border-bottom-color: var(--ap-silver);
 }
 
+/* Rendered as a link on some pages: in dark mode links are yellow, so keep the ink colour
+   on the yellow background in every state. */
+.md-typeset a.parcours__rotator,
+.md-typeset a.parcours__rotator:hover,
+.md-typeset a.parcours__rotator:focus,
+.md-typeset a.parcours__rotator:visited {
+  color: var(--ap-ink);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .parcours__rotator {
     animation: parcours-fade 2.5s ease-in-out infinite;
