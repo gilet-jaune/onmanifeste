@@ -1,5 +1,5 @@
 ---
-source_commit: 82367f8caba9978159a453add83c40343aa54736
+source_commit: be367bca5d6c71260601d5021fa0ba25060064a4
 review: juridique
 review_status: pending
 tags:
@@ -21,7 +21,8 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 
 1. **What is happening?**
     - **Someone is being taken away, or has lost their phone** → [precautionary removal](signal-groupe-compromis.md#precautionary-removal), straight away.
-    - **A stranger in the group, a leak, a serious doubt** → step 2.
+    - **A serious doubt about a person** → [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt), then two HR members decide within 24 hours.
+    - **A stranger in the group, a leak** → step 2.
 2. **Is the group compromised?** → see the list below.
 3. **Do you know where the leak is?**
     - **Yes, and it's removed** → [case A](signal-groupe-compromis.md#case-a-you-know-where-the-leak-is): the group carries on.

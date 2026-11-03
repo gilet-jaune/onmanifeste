@@ -1,5 +1,5 @@
 ---
-source_commit: d9c693670006b9a499b6f71cdfcfea709452dc93
+source_commit: be367bca5d6c71260601d5021fa0ba25060064a4
 review: juridique
 review_status: pending
 tags:
@@ -62,8 +62,8 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 
 1. **Public group** (one per city) → people join through the **public group's link** (the one exception: it holds nothing sensitive) or are added directly by a secretary or a recruiter; only admins (keyholders and secretaries) post: announcements, date, declared location, links to the guides.
     - **To move on to an airlock group**: set up your settings, make yourself known to a recruiter, write privately to a secretary (by username) to be added to an airlock group announced in the public group with its date and time of day, or suggest one.
-2. **Airlock group** (temporary) → suggested by **any member of the public group**, created and announced by a secretary, to organise **one** in-person meeting; only the time and place are written there.
-    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the cleaned airlock group.
+2. **Airlock group** (temporary) → suggested by **any member of the public group**, created and announced by a secretary, for **one** in-person meeting, then, if needed, a rendezvous at an action organised by others; only the time and place are written there, and it stays open while people await a decision.
+    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), at least two actions where vetted members watch you, **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the airlock (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
 3. **Trusted group** (vetted, `MVT-CTY-4K9-General`) → logistics, mutual aid, public information; nothing illegal.
     - **To move on to a sub-group**: a real need in the team, a period in the trusted group, and **two vouchers** if the sub-group is sensitive; the sub-group's keyholder adds them.
 4. **Sub-groups by topic**, in the same family (same ID) → each only sees what concerns its team:
