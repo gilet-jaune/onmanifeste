@@ -25,7 +25,7 @@ overrides:
       tabWidth: 2
       proseWrap: "always" # Keeps standard repository files clean and minimal
 
-  # README is an awesome list: one line per item (awesome-lint forbids wrapped items).
+  # README: one line per item in the generated resource list.
   - files: "README.md"
     options:
       proseWrap: "never"

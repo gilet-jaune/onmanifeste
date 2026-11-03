@@ -42,14 +42,6 @@ docs:quality:
     - npm run validate:data
     - npm run readme:check
 
-docs:awesome-lint:
-  stage: validate
-  image: node:24
-  # Submission rules for awesome lists; must not stop a publication.
-  allow_failure: true
-  script:
-    - npx --yes awesome-lint README.md
-
 docs:build:
   stage: validate
   image: python:3.13

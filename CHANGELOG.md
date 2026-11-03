@@ -7,6 +7,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Removed
+
+- The awesome-lint check (GitHub and GitLab CI, `lint:awesome` script): the project no longer aims at an "awesome" list listing.
+
 ### Added
 
 - Groupes Signal découpé en une vue d’ensemble et cinq pages ; fiches mémo Signal à imprimer ; mise en page d’impression et bouton « Imprimer cette page » sur les guides ; interdiction individuelle de manifester (juge) ; venir avec un enfant ou un animal ; fédérations syndicales du secteur social dans l’annuaire ; `npm run review:brief` (fiches de relecture).
@@ -48,7 +52,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Strict Content-Security-Policy on every page (`hooks/csp.py`, inline scripts allowed by hash only).
 - Repository widget no longer calls the GitHub API from visitors' browsers.
 - QR code to the published site on the pocket card (`hooks/qrcode.py`).
-- README passes awesome-lint (checked in CI).
+- README list kept to one line per item (the awesome-lint check was later dropped).
 - Guided search "Je suis… et je veux…" (`docs/data/parcours.json`): 19 profiles, 51 needs, each
 - Guide "Venir et repartir" (public transport, car-sharing, bike, on foot, exit plan), RATP traffic
 - Install suggestion is now a small card at the bottom of the screen, shown from the second page view

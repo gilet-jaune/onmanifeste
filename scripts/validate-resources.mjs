@@ -97,7 +97,7 @@ const SOCIALS = {
   if (!r.description?.fr) errors.push(`${at}: missing French description`);
   else if (!/^[A-Z0-9]/.test(r.description.fr)) {
     errors.push(
-      `${at}: description.fr must start with an ASCII uppercase letter or digit (required by awesome-lint)`,
+      `${at}: description.fr must start with an ASCII uppercase letter or digit (keeps the README list uniform)`,
     );
   }
   (r.sources ?? []).forEach((source, j) => {

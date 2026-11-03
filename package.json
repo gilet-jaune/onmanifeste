@@ -18,7 +18,6 @@
     "validate:data": "node scripts/validate-resources.mjs && node scripts/validate-history.mjs && node scripts/validate-victimes.mjs && node scripts/validate-parcours.mjs && node scripts/validate-rallier.mjs && node scripts/validate-guide-themes.mjs && node scripts/validate-check-levels.mjs && node scripts/validate-sources.mjs && node scripts/validate-pages.mjs",
     "readme": "node scripts/generate-readme.mjs",
     "readme:check": "node scripts/generate-readme.mjs --check",
-    "lint:awesome": "npx --yes awesome-lint README.md",
     "review:queue": "node scripts/review-queue.mjs",
     "review:brief": "node scripts/review-brief.mjs"
   },
