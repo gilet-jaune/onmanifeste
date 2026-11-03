@@ -1,5 +1,5 @@
 ---
-source_commit: 65fb53bd003815eae69bbaf44f1191fbaf4b3a16
+source_commit: cc468ba8ec4401b1da366471094725b5af864dcf
 review: juridique
 review_status: pending
 tags:
@@ -15,6 +15,7 @@ tags:
     - Taking part in an **undeclared** demonstration is not an offence; the risks fall on the organisers.
     - A ban must be **justified case by case** and can be challenged in an emergency hearing (référé-liberté).
     - **Banned** demonstration: **€135** fine, no police custody for that fine alone.
+    - A **personal** ban on demonstrating can only come from a **judge** (up to 3 years); breaking it is an offence.
 
 In France, demonstrating is a **freedom**, not a permission you ask for. The State can regulate it and, in specific cases, ban it, but under a judge's review.
 
@@ -41,6 +42,14 @@ In France, demonstrating is a **freedom**, not a permission you ask for. The Sta
 - **Taking part**: a petty offence, fixed fine of **€135** (up to €750 before a court). No arrest or police custody for this offence alone.[^ldh-manif-interdite]
 - **Contesting the fine**: possible, by arguing the ban order was unlawful.[^ldh-manif-interdite]
 - **Contesting the ban itself**: organisers, associations or unions can go to the administrative court with an emergency **"référé-liberté"**. The judge rules within **48 hours** if it is urgent and there is a serious and manifestly unlawful breach of a fundamental freedom.[^justice-refere-liberte]
+
+## Being banned from demonstrating personally
+
+- **A judge can order it, the prefect cannot.** In 2019, the Constitutional Council struck down the individual administrative ban on demonstrating, finding its grounds too broad.[^cc-2019-780] We found no article in force in the codes that restores it: if you are served one, speak to a lawyer straight away.
+- **After a conviction** for certain violent offences committed during a demonstration (Criminal Code articles 222-7 to 222-13, 222-14-2 and 222-14-5), the court can add a **ban on taking part in demonstrations** on the public highway as an additional penalty.[^cp-222-47] It lasts **at most 3 years**, applies to places the court determines, and only starts on release if the prison sentence is unsuspended.[^cp-131-32-1]
+- **Before trial**, a judge can impose it as part of **judicial supervision**, for places the judge determines, if you face a prison sentence. You can ask for it to be lifted at any time.[^cc-2019-780]
+- **Breaking it is an offence**: 1 year in prison and a €15,000 fine.[^cp-434-38-1]
+- [ ] Before a hearing or being brought before a prosecutor, ask your lawyer whether a ban on demonstrating may be requested, for which places and for how long.
 
 See also: [Organising a protest](organiser.md) · [ID checks and searches](controle-fouille.md) · [The Palestinian flag at protests](drapeau-palestinien.md).
 
