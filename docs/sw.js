@@ -14,7 +14,7 @@
 const VERSION = '__PWA_VERSION__';
 const PRECACHE = ['__PWA_PRECACHE__'];
 const ONLINE_ONLY = ['__PWA_ONLINE_ONLY__'];
-const CACHE = `onproteste-${VERSION}`;
+const CACHE = `onmanifeste-${VERSION}`;
 const NETWORK_FIRST = /(\/|\.html|(resources|parcours)\.json)$/;
 
 self.addEventListener('install', (event) => {
@@ -34,7 +34,7 @@ self.addEventListener('activate', (event) => {
       .then((keys) =>
         Promise.all(
           keys
-            .filter((key) => key.startsWith('onproteste-') && key !== CACHE)
+            .filter((key) => key.startsWith('onmanifeste-') && key !== CACHE)
             .map((key) => caches.delete(key)),
         ),
       )

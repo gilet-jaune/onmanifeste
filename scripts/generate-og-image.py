@@ -44,7 +44,7 @@ d.polygon([P(150, 300), P(220, 330), P(238, 410), P(180, 410)], fill=INK)
 for (x1, y1, x2, y2) in ((352, 170, 412, 140), (360, 256, 420, 256), (352, 342, 412, 372)):
     d.line([P(x1, y1), P(x2, y2)], fill=INK, width=12)
 
-d.text((80, 90), "On proteste", font=font(120), fill=INK)
+d.text((80, 90), "On manifeste", font=font(120), fill=INK)
 d.text((84, 240), "Boîte à outils pour manifester en France", font=font(52), fill=INK)
 d.text((84, 310), "Droits · Sécurité · Premiers secours · Hors ligne", font=font(38), fill=INK)
 

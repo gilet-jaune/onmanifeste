@@ -1,4 +1,4 @@
-# On proteste — Agent Guide
+# On manifeste — Agent Guide
 
 French-first toolkit for protesting in France: a sourced directory, guides, an SOS page, a printable pocket card and a history timeline, published with MkDocs Material as an offline-capable PWA. Entry point and validation baseline: [`AGENTS.md`](../AGENTS.md).
 

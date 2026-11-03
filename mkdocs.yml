@@ -1,4 +1,4 @@
-site_name: On proteste
+site_name: On manifeste
 # Custom domain; CI may override it with the GitHub Pages configuration.
 site_url: !ENV [SITE_URL, "https://onmanifeste.fr/"]
 site_description: Outils et ressources utiles pour manifester en France

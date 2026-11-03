@@ -1,4 +1,4 @@
-# On proteste
+# On manifeste
 
 > Une sélection d'outils libres, de guides juridiques et de ressources pratiques pour s'informer, s'organiser et se protéger lors des manifestations en France.
 

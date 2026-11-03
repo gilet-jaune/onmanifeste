@@ -1,6 +1,6 @@
-# Contributing to On proteste
+# Contributing to On manifeste
 
-Thank you for considering contributing to On proteste!
+Thank you for considering contributing to On manifeste!
 
 ## Working Locally
 

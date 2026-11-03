@@ -1,5 +1,5 @@
 # =========================================================================
-# ON PROTESTE - GitLab CI/CD (mirror of .github/workflows)
+# ON MANIFESTE - GitLab CI/CD (mirror of .github/workflows)
 # =========================================================================
 # Kept in case of a migration to GitLab. Equivalent of validate.yml +
 # deploy-pages.yml:

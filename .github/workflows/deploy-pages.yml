@@ -1,5 +1,5 @@
 # =========================================================================
-# ON PROTESTE - GitHub Pages Publication
+# ON MANIFESTE - GitHub Pages Publication
 # =========================================================================
 # On every push to main:
 # 1. Validation: reuses validate.yml (format, lint, spellcheck, registry,
