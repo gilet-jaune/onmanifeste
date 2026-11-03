@@ -1,5 +1,6 @@
 ---
-source_commit: 231d78d9a24fdb8150f92b250befd495134998c5
+description: 'Signal groups to organise while limiting leaks: public group, airlock group, trusted group. Overview.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

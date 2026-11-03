@@ -1,5 +1,6 @@
 ---
-source_commit: b89675c8b51d31919df07d2f7016eed18d97f1fa
+description: 'Strikes, protests and work: rights and obligations in the private and public sectors.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

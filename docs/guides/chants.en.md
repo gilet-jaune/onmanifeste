@@ -1,5 +1,6 @@
 ---
-source_commit: 1059316444b29e79c372ec40e2932daee1e64796
+description: 'Protest chants: keeping the march together by singing, repertoire and tips, without copying protected lyrics.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - guides
     - ambiance

@@ -1,5 +1,6 @@
 ---
-source_commit: 65fb53bd003815eae69bbaf44f1191fbaf4b3a16
+description: 'Never stay alone at a protest: buddy, meeting points, someone to alert.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - guides
     - safety

@@ -1,5 +1,6 @@
 ---
-source_commit: 65fb53bd003815eae69bbaf44f1191fbaf4b3a16
+description: 'Dispersal, warnings and kettling: when to leave, how to get out, what you risk by staying.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

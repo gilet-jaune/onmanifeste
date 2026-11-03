@@ -1,5 +1,6 @@
 ---
-source_commit: d740bc0ceeab174f832df0111c2d0c8c12717532
+description: 'Filming law enforcement: what the law allows, how to film, back up and publish without exposing anyone.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

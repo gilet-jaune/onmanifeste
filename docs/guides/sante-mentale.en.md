@@ -1,5 +1,6 @@
 ---
-source_commit: ac4f090943455755550ad6614675ed4dd5c02b00
+description: 'Emotional shock, anxiety and mental health after a protest: immediate steps, helplines, when to ask for help.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: medical
 review_status: pending
 tags:

@@ -1,5 +1,6 @@
 ---
-source_commit: efb9f4b7b2aa8b0529109032787f5e6c232462e8
+description: 'People injured and killed at protests: independent census databases and key historical landmarks, with legal outcomes and sources.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - repression
     - memory

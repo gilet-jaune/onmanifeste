@@ -1,5 +1,6 @@
 ---
-source_commit: f56cb06bfc6dc003c46ba45dc034dbc0fef30562
+description: 'Signal groups: running groups over time, roles, rotation and closing.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

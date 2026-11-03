@@ -1,5 +1,6 @@
 ---
-source_commit: ce40d1f132ab8c299d650779c16c9374904e30df
+description: 'Phone at a protest: lock screen, passcode, biometrics and what to do if it is seized.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

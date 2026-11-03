@@ -1,5 +1,6 @@
 ---
-source_commit: 32d6607ea31a0d0851de7c0b0be3673e52abd6ed
+description: 'Emergency numbers, legal teams and helplines for protesting in France: one tap to call, available offline.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - emergency
 hide:

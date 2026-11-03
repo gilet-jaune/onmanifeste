@@ -1,5 +1,6 @@
 ---
-source_commit: ab01770ef13d1dd99393315daff0d8a858917210
+description: 'Checklist before heading to a protest: phone, belongings, meeting points, people to tell. Prepare it the day before.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - guides
     - préparation

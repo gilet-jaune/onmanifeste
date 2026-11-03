@@ -1,5 +1,6 @@
 ---
-source_commit: 82367f8caba9978159a453add83c40343aa54736
+description: 'Signal groups: message templates to copy and paste for common situations.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

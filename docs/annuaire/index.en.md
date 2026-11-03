@@ -1,5 +1,6 @@
 ---
-source_commit: c232b73d3b8a82dd3da04094a66f27e1afea3b6e
+description: 'A directory of tools and resources for protesting in France: legal help, health, digital security, media, with checked sources.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - directory
 hide:

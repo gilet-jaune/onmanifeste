@@ -1,5 +1,6 @@
 ---
-source_commit: ec6c3b7c9f763624234f424192746fc5db3a9a22
+description: 'A pocket card to print, cut out and carry: useful numbers on the front, rights and reflexes on the back, even without a phone.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

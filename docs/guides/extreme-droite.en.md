@@ -1,5 +1,6 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+description: 'Far-right attacks around protests: prevent, travel in a group, react and report.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

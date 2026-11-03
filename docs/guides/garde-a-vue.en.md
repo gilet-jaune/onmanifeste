@@ -1,5 +1,6 @@
 ---
-source_commit: 8c383bb7c7dd780ea652c54511e87a6b84942eef
+description: 'Police custody: lawyer, doctor, right to remain silent, duration and rights to know from the moment of arrest.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 review: juridique
 review_status: pending
 tags:

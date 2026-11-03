@@ -1,5 +1,6 @@
 ---
-source_commit: ec6c3b7c9f763624234f424192746fc5db3a9a22
+description: 'Legal notice, host, personal data, licences and privacy policy of the On proteste site.'
+source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
 tags:
     - legal notice
 ---
