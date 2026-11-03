@@ -1,5 +1,5 @@
 ---
-source_commit: 7d9d5d7afc9bb106125ce0508bc658d421c804c7
+source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
 review: juridique
 review_status: pending
 tags:
@@ -40,6 +40,7 @@ tags:
 - [ ] **Each airlock group starts with its date and time of day** ("Thursday evening", "Saturday lunchtime"): people pick the one that suits them, with no poll or splitting afterwards. The secretary syncs it all: they create the airlock group (or become its admin if someone else created it) and post the announcement in the public group, where secretaries are admins: "Meeting on Thursday evening: airlock group" with the instruction to **write to them in private** (by username) to be added. **Never the place**: it is posted the day before in the airlock group.
 - [ ] **Date not set yet?** A Signal poll in the airlock group, with 2 or 3 slots; no outside tool, which would keep a record of who comes when. Votes are not anonymous: every member sees who chose what, which is fine for a date.[^signal-sondages]
 - [ ] **Two popular slots?** One meeting, one airlock group: the secretary creates a second one for the other slot, adds the people who chose it, then removes them from the first. A slot that only attracts one or two people isn't worth a group: keep the majority slot, and the others will come to the next meeting.
+- [ ] **When to give the place?** By default, **the day before**, with the time. The later it is given, the less long it is known, but the harder it is to organise. The group's choice: **the same morning** for a small airlock, or **in two steps** (area and time the day before, exact spot a few hours before, only to people who confirmed). These are organising choices: no source measures their effect.
 - [ ] **When to clean up**:
     - **before**: nobody is removed, but **entry is closed**: the day before, when posting the time and place, the secretary stops adding anyone; only people already added know the place;
     - **during**: no clean-up, phones are put away; an announced grace period for latecomers (30 minutes, for example), who do their settings and QR code at the end;

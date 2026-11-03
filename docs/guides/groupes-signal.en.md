@@ -1,5 +1,5 @@
 ---
-source_commit: 649b105eb62d7cee82e30c4e3b6a4722ed2c7c49
+source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
 review: juridique
 review_status: pending
 tags:
@@ -132,7 +132,7 @@ These roles keep the Signal network running (recruitment, onboarding, moderation
 | --- | --- | --- | --- |
 | **Recruiter** | Talks about the movement at protests, on roundabouts, at public meetings; points people to the public group and the airlock groups | Validate; vouch for their own recruits; write anything down about them | No |
 | **Secretary** (already-vetted member) | **Coordinates the meeting end to end**: announces the airlock group in the public group, comes to it, helps everyone set up Signal; **validates** once the conditions are met; cleans the airlock group and adds HR to it; stays the newcomers' contact | Validate without a voucher; **add anyone to the trusted group** (HR do the adding); keep an attendance list | Of the airlock group they run, and of the public group to announce meetings there |
-| **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs; settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
+| **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs (within 24 h after a [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)); settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
 | **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
 | **Moderation** | Reminds people of the charter, deals with issues privately | Accuse anyone in the group | No |
 | **"Lost group" lead** | Triggers the [compromised-group procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
@@ -147,12 +147,20 @@ These protest roles operate during protests according to your needs. They are sh
 | --- | --- | --- | --- |
 | **Medic** | First aid: gas, injuries, fainting | Medical procedures (stitching, removing fragments); giving medication | [First aid](premiers-secours.md) |
 | **Legal** | Observes arrests, lawyer contacts, follows up people arrested | Replace a lawyer | [Police custody](garde-a-vue.md) |
+| **Field watch** | Reports, from public space, where gas is being fired, where a line is advancing or pulling back, which streets are closed and which way out is clear; short factual messages ("gas on X street, exit clear on Y side") in a `Veille` sub-group | Point out, photograph or describe an officer; urge people to go towards a line or round it to confront it; note down people; act outside a declared demonstration | [Dispersal, warnings and kettling](dispersion.md) · [First aid](premiers-secours.md) |
 | **Protection and de-escalation** | Spots tension, talks, helps people out of a kettle, accompanies vulnerable people | Carry anything that could pass for a weapon; respond to provocation | [Dispersal, warnings and kettling](dispersion.md) · [Kit and what to wear](kit-manif.md) |
 | **Documentation** | Films arrests and violence, keeps the evidence | Publish without blurring protesters | [Film the police](filmer.md) |
 | **Support** | Listens and accompanies after a hard moment | Play therapist | [Mental health](sante-mentale.md) |
 | **Logistics** | Transport, food, water, storage | Store equipment that could pass for a weapon | [Getting there and back](venir-repartir.md) |
 | **Build** | Banners, placards, equipment | Equipment that could pass for a weapon | [Signs, banners, flags and leaflets](faire-sa-pancarte.md) · [Kit and what to wear](kit-manif.md) |
 | **Communication** | Visuals, announcements, social media | Repost far-right content | [Communicating at a protest](communiquer.md) · [Social media](reseaux-sociaux.md) |
+
+**Field watch: the framework.** This role is for **getting out in time and avoiding gas**, not for confrontation. In the texts we read, we found nothing banning the reporting of a deployment's position from public space; that is not a guarantee. Two limits:
+
+- knowingly taking part in a group that is preparing violence or damage is punishable by one year in prison and a €15,000 fine,[^cp-222-14-2] and written messages serve as evidence: the same message can read differently in a hostile context;
+- sharing information that identifies or locates a person in order to expose them to a risk is punishable by 3 years in prison and a €45,000 fine, or 5 years and €75,000 if the person holds public authority.[^cp-223-1-1]
+
+So report **zones and directions**, never **people**. Use a dedicated sub-group with disappearing messages.
 
 ### Key vocabulary and concepts
 

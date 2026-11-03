@@ -1,5 +1,5 @@
 ---
-source_commit: 7d9d5d7afc9bb106125ce0508bc658d421c804c7
+source_commit: 8d78713a8609d0f2a1271a601c245b0b3d4a89f0
 review: juridique
 review_status: pending
 tags:
@@ -81,6 +81,15 @@ Alert: [activist name] taken away.
 ```
 
 Removal protects the **future**, not the past: what was already on the phone stays there, including unread messages, whose timer has not started.[^signal-ephemeres]
+
+## Preventive pause when in doubt
+
+Precautionary removal also applies to a **serious doubt**, with no arrest. These are organising rules, not law.
+
+- **An HR member or a keyholder** with a serious doubt about someone removes them **immediately** from the sensitive groups (trusted group and sub-groups), **with no accusation or justification**. They stay in the public group.
+- **The message is the precautionary-removal one**: removed as a precaution, nothing personal. Nothing else in the group.
+- **Two HR members decide within 24 hours** whether the person comes back. If they cannot decide, they extend the pause together and note it in the register.
+- **Safeguards**: the register notes **who** triggered the pause and **when**, never **why**; the person who triggered it does not take part in the final decision; the person can turn to another HR member.
 
 ## Case A: you know where the leak is
 
