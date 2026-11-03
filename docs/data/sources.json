@@ -1021,6 +1021,18 @@
         "by": "ai"
       }
     },
+    "cp-223-1-1": {
+      "title": {
+        "fr": "Code pénal, art. 223-1-1 (diffusion d'informations permettant d'identifier ou de localiser une personne)",
+        "en": "French Criminal Code, art. 223-1-1 (sharing information that identifies or locates a person)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049312762",
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cp-222-14-2": {
       "title": {
         "fr": "Code pénal, art. 222-14-2 (groupement en vue de violences ou dégradations)",

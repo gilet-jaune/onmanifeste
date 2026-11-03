@@ -131,7 +131,7 @@ Ces rôles font fonctionner le réseau Signal (recrutement, accueil, modération
 | --- | --- | --- | --- |
 | **Recruteur·se** | Parle du mouvement en manif, sur les ronds-points, en réunion publique ; oriente vers le groupe public et les groupes sas | Valider ; être garant·e de ses propres recrues ; noter quoi que ce soit sur elles | Non |
 | **Secrétaire** (membre déjà vérifié·e) | **Coordonne la rencontre de bout en bout** : annonce le groupe sas dans le groupe public, y vient, aide chacun·e à régler Signal ; **valide** quand les conditions sont réunies ; nettoie le groupe sas et y ajoute les RH ; reste le ou la référent·e des nouvelles personnes | Valider sans garant·e ; **ajouter quelqu'un au groupe de confiance** (ce sont les RH qui ajoutent) ; tenir une liste de présence | Du groupe sas qu'il ou elle anime, et du groupe public pour y annoncer les rencontres |
-| **RH** (« ressources humaines ») | Comme au travail : font le **second contrôle** des personnes validées et les **ajoutent** au groupe de confiance ; reçoivent les doutes ; décident des retraits à deux ; tranchent quand un·e secrétaire hésite | Organiser les groupes sas ; décider seul·e d'un retrait ; être gardien·nes de tous les groupes | Oui, du groupe de confiance |
+| **RH** (« ressources humaines ») | Comme au travail : font le **second contrôle** des personnes validées et les **ajoutent** au groupe de confiance ; reçoivent les doutes ; décident des retraits à deux (sous 24 h après une [pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute)) ; tranchent quand un·e secrétaire hésite | Organiser les groupes sas ; décider seul·e d'un retrait ; être gardien·nes de tous les groupes | Oui, du groupe de confiance |
 | **Gardien·ne** | Garde les clés d'un groupe : **veille sur sa configuration** (délai d'effacement, permissions, aucun lien sauf pour le groupe public), ajoute et retire ; **ouvre l'œil** sur les arrivées et les interactions étranges et les signale aux RH. Les RH sont gardien·nes du groupe de confiance | Ajouter quelqu'un qui n'a pas été validé ; partir en action avec son téléphone de gardien·ne | Oui, au moins deux par groupe |
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe | Non |
 | **Référent·e « groupe perdu »** | Déclenche la [procédure « groupe compromis »](signal-groupe-compromis.md), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes |
@@ -146,12 +146,20 @@ Ces rôles de manif s'exercent en manifestation selon vos besoins. Ils se répar
 | --- | --- | --- | --- |
 | **Medic** | Premiers secours : gaz, blessures, malaises | Gestes médicaux (suture, retrait d'éclats) ; donner des médicaments | [Premiers secours](premiers-secours.md) |
 | **Legal** | Observation des interpellations, contacts avocat·es, suivi des personnes arrêtées | Remplacer un·e avocat·e | [Garde à vue](garde-a-vue.md) |
+| **Veille terrain** | Signale, depuis l'espace public, où des gaz sont tirés, où une ligne avance ou recule, quelles rues sont fermées et de quel côté sortir ; messages courts et factuels (« gaz rue X, sortie libre côté Y ») dans un sous-groupe `Veille` | Désigner, photographier ou décrire un·e agent·e ; inciter à aller vers une ligne ou à la contourner pour s'y opposer ; noter des personnes ; agir hors d'une manifestation déclarée | [Dispersion, sommations et nasse](dispersion.md) · [Premiers secours](premiers-secours.md) |
 | **Protection et désescalade** | Repère les tensions, dialogue, aide à sortir d'une nasse, accompagne les personnes vulnérables | S'équiper de ce qui peut passer pour une arme ; répondre à la provocation | [Dispersion, sommations et nasse](dispersion.md) · [Kit et tenue de manif](kit-manif.md) |
 | **Documentation** | Filme les interpellations et les violences, conserve les preuves | Publier sans flouter les manifestant·es | [Filmer les forces de l'ordre](filmer.md) |
 | **Soutien** | Écoute et accompagne après un moment difficile | Jouer le ou la thérapeute | [Santé mentale](sante-mentale.md) |
 | **Logistique** | Transport, nourriture, eau, stockage | Entreposer du matériel qui peut passer pour une arme | [Venir et repartir](venir-repartir.md) |
 | **Construction** | Banderoles, pancartes, matériel | Matériel qui peut passer pour une arme | [Pancartes, banderoles, drapeaux et tracts](faire-sa-pancarte.md) · [Kit et tenue de manif](kit-manif.md) |
 | **Communication** | Visuels, annonces, réseaux | Reprendre du contenu d'extrême droite | [Communiquer pendant une manif](communiquer.md) · [Réseaux sociaux](reseaux-sociaux.md) |
+
+**Veille terrain : le cadre.** Ce rôle sert à **sortir à temps et à éviter les gaz**, pas à s'opposer. Nous n'avons trouvé, dans les textes lus, aucune interdiction de signaler depuis l'espace public la position d'un dispositif ; ce n'est pas une garantie. Deux limites :
+
+- participer sciemment à un groupement qui prépare des violences ou des dégradations est puni d'un an de prison et de 15 000 € d'amende,[^cp-222-14-2] et les messages écrits servent de preuves : un même message peut se lire autrement dans un contexte hostile ;
+- diffuser des informations qui permettent d'identifier ou de localiser une personne pour l'exposer à un risque est puni de 3 ans de prison et 45 000 € d'amende, 5 ans et 75 000 € si elle est dépositaire de l'autorité publique.[^cp-223-1-1]
+
+Signalez donc des **zones et des directions**, jamais des **personnes**. Un sous-groupe dédié, messages éphémères.
 
 ### Vocabulaire et concepts clés
 

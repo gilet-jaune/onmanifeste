@@ -81,6 +81,15 @@ Alerte : [nom de militant·e] embarqué·e.
 
 Le retrait protège l'**avenir**, pas le passé : ce qui était déjà sur le téléphone y reste, y compris les messages non lus, dont le minuteur n'a pas commencé.[^signal-ephemeres]
 
+## Pause préventive en cas de doute
+
+Le retrait conservatoire vaut aussi pour un **doute sérieux**, sans arrestation. Ce sont des règles d'organisation, pas du droit.
+
+- **Un·e RH ou un·e gardien·ne** qui a un doute sérieux sur une personne la retire **tout de suite** des groupes sensibles (groupe de confiance et sous-groupes), **sans accusation ni justification**. Elle reste dans le groupe public.
+- **Le message est celui du retrait conservatoire** : retiré·e par précaution, rien de personnel. Rien d'autre dans le groupe.
+- **Deux RH décident sous 24 heures** si la personne revient. S'ils ne peuvent pas trancher, ils prolongent la pause à deux et le notent au registre.
+- **Garde-fous** : le registre note **qui** a déclenché la pause et **quand**, jamais **pourquoi** ; la personne qui l'a déclenchée ne participe pas à la décision finale ; la personne peut s'adresser à un·e autre RH.
+
 ## Cas A : on sait par où ça fuit
 
 1. **Vérifiez que la personne est bien retirée** de tous les groupes où elle était (registre).

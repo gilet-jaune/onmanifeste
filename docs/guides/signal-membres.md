@@ -67,7 +67,7 @@ Le même nom sur Signal **et en vrai**, en réunion comme en manif : on ne crie 
 - [ ] **Pas de localisation en direct** : un lieu de rendez-vous se donne en vrai, ou au dernier moment dans le groupe sas.
 - [ ] **Besoin d'aide ? Nommez quelqu'un** : « @Lou, tu peux t'occuper de la banderole samedi ? » plutôt que « quelqu'un peut… ? ». Plus un groupe est grand, moins chacun·e répond, sauf quand on nomme la personne.[^markey-2000][^darley-latane-1968] **Urgence** : le **15** ou le **112**, pas le groupe.
 - [ ] **Libellé** : Signal permet d'afficher votre rôle de manif (medic, legal…) à côté de votre nom, dans chaque groupe séparément ; mettez-le seulement si la charte le prévoit, et jamais un rôle d'organisation (voir [libellés de rôle](signal-gerer.md#libelles-de-role)).
-- [ ] **Un doute sur quelqu'un** : les RH, en privé. Jamais d'accusation dans le groupe : une rumeur de fuite détruit un groupe plus sûrement qu'une vraie fuite.
+- [ ] **Un doute sur quelqu'un** : les RH, en privé. Jamais d'accusation dans le groupe : une rumeur de fuite détruit un groupe plus sûrement qu'une vraie fuite. Un·e RH ou un·e gardien·ne peut retirer quelqu'un par précaution, le temps que deux RH tranchent ([pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute)).
 - [ ] **Ne partagez jamais le lien ni le code QR d'un groupe sas, de confiance ou d'un sous-groupe** (seul le lien du groupe public se partage) : donnez votre **nom d'utilisateur** à la personne qui doit vous ajouter, et ajoutez les autres de la même façon. Un lien aperçu quelque part : signalez-le aux gardien·nes, qui le **désactivent tout de suite**.[^signal-lien-groupe]
 
 ## Si vous êtes arrêté·e ou perdez votre téléphone
