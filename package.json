@@ -19,7 +19,8 @@
     "readme": "node scripts/generate-readme.mjs",
     "readme:check": "node scripts/generate-readme.mjs --check",
     "lint:awesome": "npx --yes awesome-lint README.md",
-    "review:queue": "node scripts/review-queue.mjs"
+    "review:queue": "node scripts/review-queue.mjs",
+    "review:brief": "node scripts/review-brief.mjs"
   },
   "devDependencies": {
     "cspell": "8.19.4",

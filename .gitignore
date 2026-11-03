@@ -35,3 +35,6 @@ tmp/
 
 # Local follow-up list (not published)
 todo.md
+
+# Generated review briefs (hand to a reviewer, do not publish)
+review-briefs/

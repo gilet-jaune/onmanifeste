@@ -53,6 +53,7 @@ French-first toolkit for protesting in France: a sourced directory, guides, an S
 - `phone` only for official public lines, and never when `check.result` is `unconfirmed`.
 - `check.result: unconfirmed` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry.
 - After editing: `npm run validate:data` then `npm run readme` (the README list is generated).
+- Legal or medical review: `npm run review:brief -- garde-a-vue` (or `-- --pending`) prints each sourced claim with its sources and a verdict line, to hand to the reviewer. Output goes in `review-briefs/` (git-ignored; do not publish).
 
 ## Workflows
 
