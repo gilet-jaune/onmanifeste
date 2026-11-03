@@ -523,6 +523,42 @@
         "by": "ai"
       }
     },
+    "cp-131-32-1": {
+      "title": {
+        "fr": "Code pénal, article 131-32-1 (interdiction de participer à des manifestations)",
+        "en": "Criminal Code, article 131-32-1 (ban on taking part in demonstrations)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382686",
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-222-47": {
+      "title": {
+        "fr": "Code pénal, article 222-47 (peines complémentaires, violences)",
+        "en": "Criminal Code, article 222-47 (additional penalties, violence)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049312656",
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-434-38-1": {
+      "title": {
+        "fr": "Code pénal, article 434-38-1 (violation de l'interdiction de manifester)",
+        "en": "Criminal Code, article 434-38-1 (breaching a ban on demonstrating)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038382833",
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ct-l2511-1": {
       "title": {
         "fr": "Code du travail, article L2511-1 (droit de grève et contrat de travail)",

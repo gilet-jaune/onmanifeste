@@ -14,6 +14,7 @@ tags:
     - Participer à une manif **non déclarée** n'est pas une infraction ; les risques pèsent sur les organisateur·ices.
     - Une interdiction doit être **justifiée au cas par cas** et peut être contestée en référé-liberté.
     - Manif **interdite** : amende de **135 €**, pas de garde à vue pour cette seule contravention.
+    - Une interdiction **personnelle** de manifester ne peut venir que d'un **juge** (jusqu'à 3 ans) ; la désobéir est un délit.
 
 En France, manifester est une **liberté**, pas une autorisation qu'on demande. L'État peut l'encadrer et, dans certains cas précis, l'interdire, mais sous le contrôle d'un juge.
 
@@ -40,6 +41,14 @@ En France, manifester est une **liberté**, pas une autorisation qu'on demande. 
 - **Participer** : contravention, amende forfaitaire de **135 €** (jusqu'à 750 € devant un tribunal). Pas d'interpellation ni de garde à vue pour cette seule contravention.[^ldh-manif-interdite]
 - **Contester l'amende** : c'est possible, en soulevant l'illégalité de l'arrêté.[^ldh-manif-interdite]
 - **Contester l'interdiction elle-même** : organisateur·ices, associations ou syndicats peuvent saisir le tribunal administratif en **référé-liberté**. Le juge statue en **48 heures** s'il y a urgence et une atteinte grave et manifestement illégale à une liberté fondamentale.[^justice-refere-liberte]
+
+## Être interdit·e de manifester à titre personnel
+
+- **Un·e juge peut l'ordonner, pas le préfet.** En 2019, le Conseil constitutionnel a censuré l'interdiction administrative individuelle de manifester, jugeant les motifs trop larges.[^cc-2019-780] Nous n'avons trouvé aucun article en vigueur des codes qui la rétablisse : si on vous en notifie une, parlez-en tout de suite à un·e avocat·e.
+- **Après une condamnation** pour certaines violences commises pendant une manifestation (articles 222-7 à 222-13, 222-14-2 et 222-14-5 du Code pénal), le tribunal peut prononcer, en peine complémentaire, l'**interdiction de participer à des manifestations** sur la voie publique.[^cp-222-47] Elle dure **3 ans au maximum**, vaut dans des lieux que le tribunal détermine, et ne commence qu'à la sortie de prison si la peine de prison est ferme.[^cp-131-32-1]
+- **Avant le jugement**, un juge peut l'imposer dans un **contrôle judiciaire**, dans des lieux qu'il détermine, si vous encourez une peine de prison. Vous pouvez demander la fin de la mesure à tout moment.[^cc-2019-780]
+- **La désobéir est un délit** : 1 an de prison et 15 000 € d'amende.[^cp-434-38-1]
+- [ ] Avant une audience ou un déferrement, demandez à l'avocat·e si une interdiction de manifester peut être requise, pour quels lieux et pour combien de temps.
 
 Voir aussi : [Organiser une manifestation](organiser.md) · [Contrôle et fouille](controle-fouille.md) · [Drapeau palestinien en manifestation](drapeau-palestinien.md).
 
