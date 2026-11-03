@@ -18,6 +18,10 @@ tags:
 
 En France, manifester est une **liberté**, pas une autorisation qu'on demande. L'État peut l'encadrer et, dans certains cas précis, l'interdire, mais sous le contrôle d'un juge.
 
+## En un coup d'œil : le calendrier
+
+{{ route("demonstration-calendar") }}
+
 ## Ce que dit le droit
 
 - La Constitution ne cite pas le mot « manifestation », mais le Conseil constitutionnel protège le **« droit d'expression collective des idées et des opinions »**, rattaché à la liberté d'expression de la Déclaration des droits de l'homme de 1789.[^cc-94-352]

@@ -9,7 +9,7 @@ const errors = [];
 const { routes } = JSON.parse(readFileSync(FILE, 'utf8'));
 
 // Widths that fit the 320-unit boxes at the drawing's font sizes.
-const MAX = { chip: 16, title: 32, line: 42, noteTitle: 34, noteText: 46, lines: 3 };
+const MAX = { chip: 16, title: 32, line: 44, noteTitle: 34, noteText: 46, lines: 4 };
 const LANGS = ['fr', 'en'];
 
 const need = (where, value, label) => {

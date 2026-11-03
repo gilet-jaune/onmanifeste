@@ -15,16 +15,28 @@
       },
       "steps": [
         {
-          "who": { "fr": "Secrétaire", "en": "Secretary" },
-          "title": { "fr": "Sas : première rencontre", "en": "Airlock: first meeting" },
+          "who": {
+            "fr": "Secrétaire",
+            "en": "Secretary"
+          },
+          "title": {
+            "fr": "Sas : première rencontre",
+            "en": "Airlock: first meeting"
+          },
           "lines": {
             "fr": ["Réglages, code QR scanné, au moins", "2 membres vérifié·es présent·es"],
             "en": ["Settings, QR code scanned, at least", "2 vetted members present"]
           }
         },
         {
-          "who": { "fr": "Secrétaire", "en": "Secretary" },
-          "title": { "fr": "Sas « nettoyé » et renommé", "en": "Airlock \"cleaned\" and renamed" },
+          "who": {
+            "fr": "Secrétaire",
+            "en": "Secretary"
+          },
+          "title": {
+            "fr": "Sas « nettoyé » et renommé",
+            "en": "Airlock \"cleaned\" and renamed"
+          },
           "lines": {
             "fr": [
               "On retire absent·es, non rencontré·es",
@@ -34,32 +46,56 @@
           }
         },
         {
-          "who": { "fr": "Vérifié·es", "en": "Vetted" },
-          "title": { "fr": "Se voir à une action d'autres", "en": "Meet at others' action" },
+          "who": {
+            "fr": "Vérifié·es",
+            "en": "Vetted"
+          },
+          "title": {
+            "fr": "Se voir à une action d'autres",
+            "en": "Meet at others' action"
+          },
           "lines": {
             "fr": ["Au moins 2 actions ; un binôme", "vérifié·e accompagne et observe"],
             "en": ["At least 2 actions; a vetted buddy", "goes along and watches"]
           }
         },
         {
-          "who": { "fr": "Vérifié·es", "en": "Vetted" },
-          "title": { "fr": "Retour privé aux RH", "en": "Private report to HR" },
+          "who": {
+            "fr": "Vérifié·es",
+            "en": "Vetted"
+          },
+          "title": {
+            "fr": "Retour privé aux RH",
+            "en": "Private report to HR"
+          },
           "lines": {
             "fr": ["Faits observés, à voix haute", "si possible ; pas de liste écrite"],
             "en": ["Observed facts, out loud", "if possible; no written list"]
           }
         },
         {
-          "who": { "fr": "Vérifié·es", "en": "Vetted" },
-          "title": { "fr": "Garant·e", "en": "Voucher" },
+          "who": {
+            "fr": "Vérifié·es",
+            "en": "Vetted"
+          },
+          "title": {
+            "fr": "Garant·e",
+            "en": "Voucher"
+          },
           "lines": {
             "fr": ["Au moins un·e vérifié·e qui a vu", "la personne agir lui-même ou elle-même"],
             "en": ["At least one vetted member who", "personally saw the person act"]
           }
         },
         {
-          "who": { "fr": "RH", "en": "HR" },
-          "title": { "fr": "Second contrôle des RH", "en": "HR second check" },
+          "who": {
+            "fr": "RH",
+            "en": "HR"
+          },
+          "title": {
+            "fr": "Second contrôle des RH",
+            "en": "HR second check"
+          },
           "lines": {
             "fr": ["Puis ajout au groupe de confiance", "par les RH"],
             "en": ["Then added to the trusted group", "by HR"]
@@ -68,7 +104,10 @@
       ],
       "notes": [
         {
-          "title": { "fr": "Signal d'alerte ou doute", "en": "Warning sign or doubt" },
+          "title": {
+            "fr": "Signal d'alerte ou doute",
+            "en": "Warning sign or doubt"
+          },
           "text": {
             "fr": "→ on attend ; pause préventive possible",
             "en": "→ wait; preventive pause possible"
@@ -87,7 +126,10 @@
       ]
     },
     "co-option": {
-      "title": { "fr": "Entrer par cooptation", "en": "Joining by co-option" },
+      "title": {
+        "fr": "Entrer par cooptation",
+        "en": "Joining by co-option"
+      },
       "desc": {
         "fr": "Cinq étapes : un membre vérifié propose quelqu'un qu'il connaît, rencontre avec un·e secrétaire, le membre est garant·e, second contrôle des RH, ajout au groupe de confiance. Sans passer par le groupe public ni le sas.",
         "en": "Five steps: a vetted member proposes someone they know, meeting with a secretary, the member is the voucher, HR second check, adding to the trusted group. Without going through the public group or the airlock."
@@ -98,40 +140,70 @@
       },
       "steps": [
         {
-          "who": { "fr": "Vérifié·e", "en": "Vetted" },
-          "title": { "fr": "Un membre vérifié propose", "en": "A vetted member proposes" },
+          "who": {
+            "fr": "Vérifié·e",
+            "en": "Vetted"
+          },
+          "title": {
+            "fr": "Un membre vérifié propose",
+            "en": "A vetted member proposes"
+          },
           "lines": {
             "fr": ["quelqu'un qu'il ou elle connaît déjà"],
             "en": ["someone they already know"]
           }
         },
         {
-          "who": { "fr": "Secrétaire", "en": "Secretary" },
-          "title": { "fr": "Rencontre avec un·e secrétaire", "en": "Meeting with a secretary" },
+          "who": {
+            "fr": "Secrétaire",
+            "en": "Secretary"
+          },
+          "title": {
+            "fr": "Rencontre avec un·e secrétaire",
+            "en": "Meeting with a secretary"
+          },
           "lines": {
             "fr": ["Tête-à-tête ou sur place ; code QR", "scanné, réglages faits"],
             "en": ["One-to-one or on the spot; QR code", "scanned, settings done"]
           }
         },
         {
-          "who": { "fr": "Vérifié·e", "en": "Vetted" },
-          "title": { "fr": "Le membre est garant·e", "en": "The member is the voucher" },
+          "who": {
+            "fr": "Vérifié·e",
+            "en": "Vetted"
+          },
+          "title": {
+            "fr": "Le membre est garant·e",
+            "en": "The member is the voucher"
+          },
           "lines": {
             "fr": ["Ou plusieurs, s'ils l'ont vue agir", "eux-mêmes"],
             "en": ["Or several, if they saw them", "act themselves"]
           }
         },
         {
-          "who": { "fr": "RH", "en": "HR" },
-          "title": { "fr": "Second contrôle des RH", "en": "HR second check" },
+          "who": {
+            "fr": "RH",
+            "en": "HR"
+          },
+          "title": {
+            "fr": "Second contrôle des RH",
+            "en": "HR second check"
+          },
           "lines": {
             "fr": ["Un seul doute sérieux suffit", "pour attendre"],
             "en": ["A single serious doubt is enough", "to wait"]
           }
         },
         {
-          "who": { "fr": "RH", "en": "HR" },
-          "title": { "fr": "Ajout au groupe de confiance", "en": "Adding to the trusted group" },
+          "who": {
+            "fr": "RH",
+            "en": "HR"
+          },
+          "title": {
+            "fr": "Ajout au groupe de confiance",
+            "en": "Adding to the trusted group"
+          },
           "lines": {
             "fr": ["Par nom d'utilisateur, depuis une", "conversation privée ; aucun lien"],
             "en": ["By username, from a private", "conversation; no link"]
@@ -140,15 +212,150 @@
       ],
       "notes": [
         {
-          "title": { "fr": "Sans groupe public ni sas", "en": "No public group or airlock" },
+          "title": {
+            "fr": "Sans groupe public ni sas",
+            "en": "No public group or airlock"
+          },
           "text": {
             "fr": "→ souvent le jour même ou le lendemain",
             "en": "→ often the same day or the next"
           }
         },
         {
-          "title": { "fr": "Jamais de garantie entre", "en": "Never vouching between" },
-          "text": { "fr": "nouvelles personnes, ni de vote", "en": "newcomers, nor a vote" }
+          "title": {
+            "fr": "Jamais de garantie entre",
+            "en": "Never vouching between"
+          },
+          "text": {
+            "fr": "nouvelles personnes, ni de vote",
+            "en": "newcomers, nor a vote"
+          }
+        }
+      ]
+    },
+    "demonstration-calendar": {
+      "title": {
+        "fr": "Manifester : le calendrier",
+        "en": "Demonstrating: the timeline"
+      },
+      "desc": {
+        "fr": "Quatre moments : la déclaration des organisateur·ices 3 à 15 jours francs avant ; un arrêté d'interdiction possible, motivé au cas par cas ; le référé-liberté devant le tribunal administratif, avec décision sous 48 heures en cas d'urgence ; le jour J, participer à une manifestation interdite est puni d'une amende de 135 euros, sans garde à vue pour cette seule contravention.",
+        "en": "Four moments: organisers declare 3 to 15 clear days before; a ban order is possible, justified case by case; the emergency hearing (référé-liberté) at the administrative court, with a decision within 48 hours if urgent; on the day, taking part in a banned demonstration is a €135 fine, with no police custody for that offence alone."
+      },
+      "caption": {
+        "fr": "Le calendrier d'une manifestation : déclaration, interdiction éventuelle, recours, le jour J. Détail et sources dans le texte.",
+        "en": "The timeline of a demonstration: declaration, possible ban, appeal, the day itself. Detail and sources in the text."
+      },
+      "steps": [
+        {
+          "who": {
+            "fr": "3 à 15 j avant",
+            "en": "3-15 days before"
+          },
+          "title": {
+            "fr": "Déclaration",
+            "en": "Declaration"
+          },
+          "lines": {
+            "fr": [
+              "Les organisateur·ices déclarent à la",
+              "mairie ou à la préfecture : objet, date,",
+              "heure, parcours"
+            ],
+            "en": [
+              "Organisers declare to the town hall or",
+              "the prefecture: purpose, date, time,",
+              "route"
+            ]
+          }
+        },
+        {
+          "who": {
+            "fr": "Avant",
+            "en": "Before"
+          },
+          "title": {
+            "fr": "Arrêté d'interdiction ?",
+            "en": "A ban order?"
+          },
+          "lines": {
+            "fr": [
+              "Le maire ou le préfet peut interdire s'il",
+              "craint un trouble à l'ordre public, au",
+              "cas par cas, pas pour la seule cause"
+            ],
+            "en": [
+              "The mayor or prefect can ban it if they",
+              "fear disorder, case by case, not for the",
+              "cause alone"
+            ]
+          }
+        },
+        {
+          "who": {
+            "fr": "Sous 48 h",
+            "en": "Within 48 h"
+          },
+          "title": {
+            "fr": "Référé-liberté",
+            "en": "Emergency hearing"
+          },
+          "lines": {
+            "fr": [
+              "Recours au tribunal administratif :",
+              "décision sous 48 h en cas d'urgence et",
+              "d'atteinte grave à une liberté"
+            ],
+            "en": [
+              "Appeal to the administrative court:",
+              "decision within 48 h if urgent and a",
+              "fundamental freedom is gravely harmed"
+            ]
+          }
+        },
+        {
+          "who": {
+            "fr": "Le jour J",
+            "en": "On the day"
+          },
+          "title": {
+            "fr": "Si elle est interdite",
+            "en": "If it is banned"
+          },
+          "lines": {
+            "fr": [
+              "Y participer : amende de 135 € (750 €",
+              "au plus devant un tribunal). Pas de garde",
+              "à vue pour cette seule contravention"
+            ],
+            "en": [
+              "Taking part: €135 fine (at most €750",
+              "before a court). No police custody for",
+              "this offence alone"
+            ]
+          }
+        }
+      ],
+      "notes": [
+        {
+          "title": {
+            "fr": "Manif non déclarée",
+            "en": "Undeclared demonstration"
+          },
+          "text": {
+            "fr": "→ pas une infraction pour les manifestant·es",
+            "en": "→ not an offence for demonstrators"
+          }
+        },
+        {
+          "title": {
+            "fr": "Si non déclarée ou interdite",
+            "en": "If undeclared or banned"
+          },
+          "text": {
+            "fr": "→ organisateur·ices : 6 mois et 7 500 € max",
+            "en": "→ organisers: up to 6 months and €7,500"
+          }
         }
       ]
     }
