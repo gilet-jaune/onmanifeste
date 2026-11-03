@@ -1,5 +1,5 @@
 ---
-source_commit: d9c693670006b9a499b6f71cdfcfea709452dc93
+source_commit: 32e282d760be66d4ca69b0bd519ae92f47c49b6e
 review: juridique
 review_status: pending
 tags:
@@ -115,77 +115,7 @@ A person comes in by the **open path** (nobody knows them yet) or by **co-option
 
 With open-door recruitment, most people have no voucher. The preferred route is to **watch them act**, rather than rely on the airlock conversation: a conversation can rule a person out (warning signs) but not vet them, because a story can be prepared. These are organising rules, not law.
 
-<figure class="route" markdown="1">
-<svg viewBox="0 0 360 722" role="img" aria-labelledby="route-en-t route-en-d" xmlns="http://www.w3.org/2000/svg">
-<title id="route-en-t">Open-door vetting through the airlock group</title>
-<desc id="route-en-d">Six steps: airlock, cleaned and renamed airlock, meeting at an action organised by others, private report to HR, voucher, then HR second check and adding to the trusted group. Two side cases: a warning sign or doubt means waiting, and someone already known to a vetted member takes the fast route.</desc>
-<rect class="route__box" x="20" y="14" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="40" r="12"/>
-<text class="route__num-label" x="38" y="45" text-anchor="middle">1</text>
-<text class="route__title" x="58" y="44">Airlock: first meeting</text>
-<text class="route__text" x="58" y="62">Settings, QR code scanned, at least</text>
-<text class="route__text" x="58" y="77">2 vetted members present</text>
-<rect class="route__chip" x="247.2" y="5" width="82.8" height="18" rx="9"/>
-<text class="route__chip-label" x="288.6" y="18" text-anchor="middle">Secretary</text>
-<path class="route__arrow" d="M180 86 V105"/>
-<path class="route__head" d="M173 104 L180 112 L187 104 Z"/>
-<rect class="route__box" x="20" y="112" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="138" r="12"/>
-<text class="route__num-label" x="38" y="143" text-anchor="middle">2</text>
-<text class="route__title" x="58" y="142">Airlock "cleaned" and renamed</text>
-<text class="route__text" x="58" y="160">Remove absentees, people not met, alerts.</text>
-<text class="route__text" x="58" y="175">Used only to arrange to meet</text>
-<rect class="route__chip" x="247.2" y="103" width="82.8" height="18" rx="9"/>
-<text class="route__chip-label" x="288.6" y="116" text-anchor="middle">Secretary</text>
-<path class="route__arrow" d="M180 184 V203"/>
-<path class="route__head" d="M173 202 L180 210 L187 202 Z"/>
-<rect class="route__box" x="20" y="210" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="236" r="12"/>
-<text class="route__num-label" x="38" y="241" text-anchor="middle">3</text>
-<text class="route__title" x="58" y="240">Meet at others' action</text>
-<text class="route__text" x="58" y="258">At least 2 actions; a vetted buddy</text>
-<text class="route__text" x="58" y="273">goes along and watches</text>
-<rect class="route__chip" x="266" y="201" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="214" text-anchor="middle">Vetted</text>
-<path class="route__arrow" d="M180 282 V301"/>
-<path class="route__head" d="M173 300 L180 308 L187 300 Z"/>
-<rect class="route__box" x="20" y="308" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="334" r="12"/>
-<text class="route__num-label" x="38" y="339" text-anchor="middle">4</text>
-<text class="route__title" x="58" y="338">Private report to HR</text>
-<text class="route__text" x="58" y="356">Observed facts, out loud</text>
-<text class="route__text" x="58" y="371">if possible; no written list</text>
-<rect class="route__chip" x="266" y="299" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="312" text-anchor="middle">Vetted</text>
-<path class="route__arrow" d="M180 380 V399"/>
-<path class="route__head" d="M173 398 L180 406 L187 398 Z"/>
-<rect class="route__box" x="20" y="406" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="432" r="12"/>
-<text class="route__num-label" x="38" y="437" text-anchor="middle">5</text>
-<text class="route__title" x="58" y="436">Voucher</text>
-<text class="route__text" x="58" y="454">At least one vetted member who</text>
-<text class="route__text" x="58" y="469">personally saw the person act</text>
-<rect class="route__chip" x="266" y="397" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="410" text-anchor="middle">Vetted</text>
-<path class="route__arrow" d="M180 478 V497"/>
-<path class="route__head" d="M173 496 L180 504 L187 496 Z"/>
-<rect class="route__box" x="20" y="504" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="530" r="12"/>
-<text class="route__num-label" x="38" y="535" text-anchor="middle">6</text>
-<text class="route__title" x="58" y="534">HR second check</text>
-<text class="route__text" x="58" y="552">Then added to the trusted group</text>
-<text class="route__text" x="58" y="567">by HR</text>
-<rect class="route__chip" x="266" y="495" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="508" text-anchor="middle">HR</text>
-<rect class="route__note" x="20" y="598" width="320" height="52" rx="6"/>
-<text class="route__title" x="34" y="620">Warning sign or doubt</text>
-<text class="route__text" x="34" y="638">→ wait; preventive pause possible</text>
-<rect class="route__note" x="20" y="660" width="320" height="52" rx="6"/>
-<text class="route__title" x="34" y="682">Already known to a vetted member</text>
-<text class="route__text" x="34" y="700">→ fast route: steps 1, 5, 6</text>
-</svg>
-<figcaption>Each person follows this route, the whole airlock is not vetted at once: the airlock is for the meeting then the rendezvous, vetting happens in action.</figcaption>
-</figure>
+{{ route("open-door") }}
 
 1. **The airlock**: meeting, settings, account QR code scanned (see [the airlock group](signal-recrutement.md#the-airlock-group)).
 2. **The airlock, cleaned and renamed**: it is used **only to arrange to meet in person** at an action or demonstration **organised by others** (a union, a collective). **No action is planned** there: the action is the organisers', and its time and place are already public. **Remove** absentees, people not yet met and anyone who triggered a warning sign; **keep** people who were met but are not yet vetted. The group takes a **neutral name**, with no movement or city, and one-day disappearing messages, set before anything else. Only the meeting point is written, **nothing about people**. It remains a list of the people who were met: assume the police can read it. It **stays open while people await a decision** (several actions, at least two): each person leaves it when added to the trusted group or ruled out, and it is **closed** when nobody is waiting any more (see also [the temporary group](signal-gerer.md#the-temporary-group), for organising without going through an airlock).
@@ -209,66 +139,7 @@ With open-door recruitment, most people have no voucher. The preferred route is 
 
 When a vetted member **already knows** the person (friend, colleague, union, seen in action at several actions), they do not need to go through the public group or the airlock: it is the fastest route, often the same day or the next. These are organising rules, not law.
 
-<figure class="route" markdown="1">
-<svg viewBox="0 0 360 628" role="img" aria-labelledby="route-coop-en-t route-coop-en-d" xmlns="http://www.w3.org/2000/svg">
-<title id="route-coop-en-t">Joining by co-option</title>
-<desc id="route-coop-en-d">Five steps: a vetted member proposes someone they know, meeting with a secretary, the member is the voucher, HR second check, adding to the trusted group. Without going through the public group or the airlock.</desc>
-<rect class="route__box" x="20" y="14" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="40" r="12"/>
-<text class="route__num-label" x="38" y="45" text-anchor="middle">1</text>
-<text class="route__title" x="58" y="44">A vetted member proposes</text>
-<text class="route__text" x="58" y="62">someone they already know</text>
-<rect class="route__chip" x="266" y="5" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="18" text-anchor="middle">Vetted</text>
-<path class="route__arrow" d="M180 86 V105"/>
-<path class="route__head" d="M173 104 L180 112 L187 104 Z"/>
-<rect class="route__box" x="20" y="112" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="138" r="12"/>
-<text class="route__num-label" x="38" y="143" text-anchor="middle">2</text>
-<text class="route__title" x="58" y="142">Meeting with a secretary</text>
-<text class="route__text" x="58" y="160">One-to-one or on the spot; QR code</text>
-<text class="route__text" x="58" y="175">scanned, settings done</text>
-<rect class="route__chip" x="247.2" y="103" width="82.8" height="18" rx="9"/>
-<text class="route__chip-label" x="288.6" y="116" text-anchor="middle">Secretary</text>
-<path class="route__arrow" d="M180 184 V203"/>
-<path class="route__head" d="M173 202 L180 210 L187 202 Z"/>
-<rect class="route__box" x="20" y="210" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="236" r="12"/>
-<text class="route__num-label" x="38" y="241" text-anchor="middle">3</text>
-<text class="route__title" x="58" y="240">The member is the voucher</text>
-<text class="route__text" x="58" y="258">Or several, if they saw them</text>
-<text class="route__text" x="58" y="273">act themselves</text>
-<rect class="route__chip" x="266" y="201" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="214" text-anchor="middle">Vetted</text>
-<path class="route__arrow" d="M180 282 V301"/>
-<path class="route__head" d="M173 300 L180 308 L187 300 Z"/>
-<rect class="route__box" x="20" y="308" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="334" r="12"/>
-<text class="route__num-label" x="38" y="339" text-anchor="middle">4</text>
-<text class="route__title" x="58" y="338">HR second check</text>
-<text class="route__text" x="58" y="356">A single serious doubt is enough</text>
-<text class="route__text" x="58" y="371">to wait</text>
-<rect class="route__chip" x="266" y="299" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="312" text-anchor="middle">HR</text>
-<path class="route__arrow" d="M180 380 V399"/>
-<path class="route__head" d="M173 398 L180 406 L187 398 Z"/>
-<rect class="route__box" x="20" y="406" width="320" height="72" rx="6"/>
-<circle class="route__num" cx="38" cy="432" r="12"/>
-<text class="route__num-label" x="38" y="437" text-anchor="middle">5</text>
-<text class="route__title" x="58" y="436">Adding to the trusted group</text>
-<text class="route__text" x="58" y="454">By username, from a private</text>
-<text class="route__text" x="58" y="469">conversation; no link</text>
-<rect class="route__chip" x="266" y="397" width="64" height="18" rx="9"/>
-<text class="route__chip-label" x="298" y="410" text-anchor="middle">HR</text>
-<rect class="route__note" x="20" y="500" width="320" height="52" rx="6"/>
-<text class="route__title" x="34" y="522">No public group or airlock</text>
-<text class="route__text" x="34" y="540">→ often the same day or the next</text>
-<rect class="route__note" x="20" y="562" width="320" height="52" rx="6"/>
-<text class="route__title" x="34" y="584">Never vouching between</text>
-<text class="route__text" x="34" y="602">newcomers, nor a vote</text>
-</svg>
-<figcaption>Joining by co-option: a vetted member who already knows the person proposes them, without going through the public group or the airlock.</figcaption>
-</figure>
+{{ route("co-option") }}
 
 - [ ] **The proposing member is the voucher**, and introduces the person privately to a secretary. Several members who saw them act themselves can vouch.
 - [ ] **The meeting** is one-to-one, or on the spot during an action (scanning a QR code takes 10 seconds): account QR code scanned, settings done.
