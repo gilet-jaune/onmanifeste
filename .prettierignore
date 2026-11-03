@@ -12,3 +12,4 @@ overrides/partials/
 todo.md
 .venv/
 review-briefs/
+tmp/
