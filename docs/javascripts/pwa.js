@@ -467,6 +467,24 @@ document.addEventListener('click', (event) => {
   if (event.target.closest('[data-action="print"]')) window.print();
 });
 
+// A print button under the title of each guide page (not the guides index).
+function addGuidePrintButton() {
+  if (document.querySelector('.guide-print')) return;
+  const h1 = document.querySelector('.md-content__inner h1');
+  if (!h1 || !/\/guides\/[^/]+\/?$/.test(location.pathname)) return;
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'md-button pocket__print guide-print';
+  button.dataset.action = 'print';
+  button.textContent =
+    document.documentElement.lang === 'en' ? 'Print this page' : 'Imprimer cette page';
+  h1.after(button);
+}
+addGuidePrintButton();
+if (window.document$ && typeof window.document$.subscribe === 'function') {
+  window.document$.subscribe(addGuidePrintButton);
+}
+
 // Printing: open collapsed blocks so the paper copy has all the text, then restore them.
 let printReopened = [];
 window.addEventListener('beforeprint', () => {
