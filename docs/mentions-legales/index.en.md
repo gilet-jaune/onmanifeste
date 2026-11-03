@@ -1,5 +1,5 @@
 ---
-source_commit: b7acac2b23d89952bfcf02c805c9065129a00067
+source_commit: c43845d06ad20738ab6c6e2b15951743b332f933
 tags:
     - legal notice
 ---
@@ -25,7 +25,7 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United S
 
 - **No analytics, no trackers, no accounts.** The site uses neither advertising cookies nor statistics tools.
 - **No third-party requests** from your browser: fonts and assets are served by the site itself.
-- **Local storage only**: the offline copy (service worker cache) and the choice to hide the install banner stay in your browser. The "Reinstall" button in the footer clears them.
+- **Local storage only**: the offline copy (service worker cache) and your choices (install banner hidden, offline mode turned off) stay in your browser. The [Settings](../parametres.md) page lets you manage them and delete the offline copy.
 - **Host logs**: like any server, GitHub Pages logs visitors' IP addresses for security purposes.[^github-pages] If this exposes you, browse the site with [Tor Browser](https://www.torproject.org/) or a VPN, or install it once and then use it offline.
 
 ## Content and liability
