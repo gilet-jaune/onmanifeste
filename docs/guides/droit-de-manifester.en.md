@@ -1,5 +1,5 @@
 ---
-source_commit: cc468ba8ec4401b1da366471094725b5af864dcf
+source_commit: fe2947c1e228c5bb3f40471bf418c0e762fbad78
 review: juridique
 review_status: pending
 tags:
@@ -18,6 +18,10 @@ tags:
     - A **personal** ban on demonstrating can only come from a **judge** (up to 3 years); breaking it is an offence.
 
 In France, demonstrating is a **freedom**, not a permission you ask for. The State can regulate it and, in specific cases, ban it, but under a judge's review.
+
+## At a glance: the timeline
+
+{{ route("demonstration-calendar") }}
 
 ## What the law says
 
