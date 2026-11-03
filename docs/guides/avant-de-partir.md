@@ -59,6 +59,17 @@ Téléchargez la zone de la manif **et** celle de votre trajet retour. Testez en
 - [ ] Pièce d'identité, eau, sérum physiologique, en-cas, médicaments : la liste complète est dans [« Kit et tenue de manif »](kit-manif.md).
 - [ ] Rien qui puisse passer pour une **arme** ([voir « À laisser à la maison »](kit-manif.md#a-laisser-a-la-maison)).
 
+## Venir avec un enfant ou un animal
+
+Nous n'avons trouvé aucune règle légale propre aux enfants en manifestation. Seule la règle sur les chiens est sourcée ; le reste est du **bon sens d'organisation**, pas du droit.
+
+- **Chiens de 1re et 2e catégorie** : sur la voie publique, ils doivent être **muselés et tenus en laisse par une personne majeure**.[^cr-l211-16]
+- [ ] **Deux adultes, si possible** : l'un s'occupe de l'enfant, l'autre du reste (sac, téléphone, repérage des sorties).
+- [ ] **Un point de rendez-vous** et un numéro d'adulte écrit sur l'enfant (bras ou vêtement), sans nom, si vous vous perdez.
+- [ ] **Partez dès les premiers signes de tension** plutôt que d'attendre : voir [dispersion](dispersion.md) et [gaz lacrymogène](premiers-secours.md).
+- [ ] **Un animal est exposé au bruit et aux gaz sans pouvoir fuir** : le laisser à la maison est le plus simple.
+- Un·e mineur·e interpellé·e : voir [lycéen·nes](lyceens.md).
+
 ## Sources
 
 Chaque note renvoie à la source de l'information.

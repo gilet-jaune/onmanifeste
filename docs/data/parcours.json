@@ -5742,6 +5742,64 @@
         }
       ],
       "group": "apres"
+    },
+    {
+      "id": "enfant-animal",
+      "label": {
+        "fr": "avec un enfant ou un animal",
+        "en": "with a child or an animal"
+      },
+      "keywords": [
+        "enfant",
+        "enfants",
+        "bebe",
+        "poussette",
+        "famille",
+        "chien",
+        "animal",
+        "animaux",
+        "child",
+        "baby",
+        "dog",
+        "pet"
+      ],
+      "needs": [
+        {
+          "id": "venir",
+          "label": {
+            "fr": "venir avec un enfant ou un animal",
+            "en": "come with a child or an animal"
+          },
+          "results": [
+            {
+              "guide": "avant-de-partir",
+              "anchor": {
+                "fr": "venir-avec-un-enfant-ou-un-animal",
+                "en": "bringing-a-child-or-an-animal"
+              },
+              "label": {
+                "fr": "Venir avec un enfant ou un animal",
+                "en": "Bringing a child or an animal"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "label": {
+                "fr": "Dispersion : partir à temps",
+                "en": "Dispersal: leaving in time"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "label": {
+                "fr": "Premiers secours, gaz lacrymogène",
+                "en": "First aid, tear gas"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "situation"
     }
   ]
 }
