@@ -1590,7 +1590,7 @@
         "date": "2026-11-03",
         "result": "unconfirmed",
         "by": "ai",
-        "note": "Page non lue : l’accès automatisé est bloqué par Cloudflare. Adresse relevée dans des communiqués intersyndicaux ; à ouvrir et confirmer depuis un navigateur."
+        "note": "Page non lue : Cloudflare bloque l’accès (« Sorry, you have been blocked »), y compris depuis un navigateur ordinaire, le 3 novembre 2026. Adresse relevée dans des communiqués intersyndicaux, non confirmée par une page de la fédération. À ouvrir depuis un autre réseau ou un autre appareil."
       }
     },
     {
