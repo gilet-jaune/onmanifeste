@@ -1,5 +1,5 @@
 ---
-source_commit: 82e75ba18ee88ac555db7de3fa2305f096015967
+source_commit: 16a03d1e0f7407f58458187f64156bc330f0c65e
 tags:
     - repression
     - disinformation
@@ -20,6 +20,8 @@ Violence committed during policing of protests, and official statements later co
 
 ## Documented repression
 
+When an official statement was later disproved, it appears **at the bottom of the card of the event it concerns**, with its date.
+
 {{ doc.repressions('en') }}
 
 ## Mass custody: many arrested, few prosecuted
@@ -37,7 +39,9 @@ Associations and lawyers see this as a way to **deter** people from protesting. 
 
 This selection brings together landmark policing cases where a public statement was later formally contradicted by a video, an inquiry, the courts or the author themselves. We do not maintain an exhaustive timeline of day-to-day political or media claims: ongoing monitoring is carried out by specialized observatories and newsrooms (below).
 
-{{ doc.debunked('en') }}
+Each disproved statement is attached, at the bottom of the card, to the event it concerns. Here they are, by date:
+
+{{ doc.debunked_index('en') }}
 
 These cases also appear in the [historical milestones](../histoire/index.md). People killed or injured are listed in [injured and killed at protests](../victimes/index.md). To check information yourself: [avoid disinformation](../guides/desinformation.md).
 
