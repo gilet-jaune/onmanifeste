@@ -2842,11 +2842,11 @@ dialog.contact-card {
     padding-top: 0.5rem;
     border-top: 1px solid currentcolor;
     font-size: 0.7rem;
-    content: 'Copie papier du site onproteste.fr : le contenu évolue, vérifiez la version en ligne.';
+    content: 'Copie papier du site onmanifeste.fr : le contenu évolue, vérifiez la version en ligne.';
   }
 
   html[lang='en'] .md-content__inner::after {
-    content: 'Paper copy from the onproteste.fr site: content changes, check the online version.';
+    content: 'Paper copy from the onmanifeste.fr site: content changes, check the online version.';
   }
 }
 
