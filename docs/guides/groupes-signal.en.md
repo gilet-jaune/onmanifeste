@@ -1,5 +1,5 @@
 ---
-source_commit: 7d9d5d7afc9bb106125ce0508bc658d421c804c7
+source_commit: 649b105eb62d7cee82e30c4e3b6a4722ed2c7c49
 review: juridique
 review_status: pending
 tags:
@@ -28,10 +28,10 @@ An encrypted messenger like {{ res("signal") }} protects your messages in transi
 
 !!! info "Where to start?"
 
-    - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [part 1: members](signal-membres.md).
+    - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [as a member](signal-membres.md).
     - **You are looking for a role at a protest** (medic, legal, logistics...) → [roles useful at protests](groupes-signal.md#roles-useful-at-protests).
-    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups), [organisation roles](groupes-signal.md#roles-for-organising-the-signal-groups), then [part 2: organising](signal-recrutement.md).
-    - **Someone has just been arrested, or a group is compromised** → [part 3: compromised group](signal-groupe-compromis.md).
+    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups), [organisation roles](groupes-signal.md#roles-for-organising-the-signal-groups), then [recruiting and vetting](signal-recrutement.md) and [running the groups](signal-gerer.md).
+    - **Someone has just been arrested, or a group is compromised** → [compromised group](signal-groupe-compromis.md).
     - **You organise and want to go straight to your role** (secretary, HR, keyholder, recruiter) → the [menu by role](groupes-signal.md#find-what-concerns-your-role).
     - **You just want the charter** → [copy-paste templates](signal-modeles.md).
 
@@ -135,7 +135,7 @@ These roles keep the Signal network running (recruitment, onboarding, moderation
 | **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs; settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
 | **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
 | **Moderation** | Reminds people of the charter, deals with issues privately | Accuse anyone in the group | No |
-| **"Lost group" lead** | Triggers the [part 3 procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
+| **"Lost group" lead** | Triggers the [compromised-group procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
 
 <a id="protest-roles"></a>
 
