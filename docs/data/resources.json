@@ -1594,6 +1594,29 @@
       }
     },
     {
+      "id": "caj-kit-amendes",
+      "name": "Collectif d'Action Judiciaire (CAJ)",
+      "url": "https://www.instagram.com/collectif_action_judiciaire/",
+      "category": "juridique",
+      "tags": ["antirepression", "amende", "guide"],
+      "description": {
+        "fr": "Collectif qui propose un kit pour contester les amendes pour manifestation interdite : stratégies, défense collective, modèles de courriers. Le kit se demande par e-mail ou via la bio de son compte Instagram. C'est l'avis d'un collectif, pas un texte de loi.",
+        "en": "Collective offering a kit to contest fines for taking part in a banned demonstration: strategies, collective defence, template letters. The kit is requested by e-mail or through its Instagram bio. It is a collective's view, not a statute."
+      },
+      "sources": [
+        {
+          "title": "CAJ — kit pour contester les amendes (publication Instagram)",
+          "url": "https://www.instagram.com/p/DfKv55MIZQA/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-03",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Publication lue (une image, première page du kit). Le kit complet et l'identité du collectif n'ont pas été vérifiés au-delà de ce compte."
+      }
+    },
+    {
       "id": "caisse-solidarite",
       "name": "Caisse de solidarité",
       "url": "https://www.caisse-solidarite.fr/",

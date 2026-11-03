@@ -48,6 +48,7 @@ En manifestation, la police verbalise parfois par amende forfaitaire (notamment 
 - **Ne payez jamais sur place** si vous envisagez de contester : le paiement vaut reconnaissance de l'infraction et éteint définitivement tout recours.[^sp-amende]
 - Vous n'avez rien à signer sur le terminal électronique si vous contestez les faits.
 - Attendez de recevoir l'**avis de contravention** par courrier à votre domicile : vous disposez de **45 jours** à compter de l'envoi pour formuler une **requête en exonération** (par courrier recommandé avec accusé de réception ou sur l'ANTAI) en joignant vos justificatifs (par exemple : absence d'arrêté publié, absence de sommations, impossibilité de quitter une nasse).[^sp-amende][^ce-snmo]
+- **Contester à plusieurs** : le {{ res("caj-kit-amendes", "Collectif d'Action Judiciaire") }} propose un kit pour contester ces amendes (stratégies, défense collective, modèles de courriers). Sur la première page du kit, il cite comme arguments possibles le défaut de base légale, la suspension ou l'expiration de l'arrêté et un mauvais périmètre, et conseille de contacter les autres personnes verbalisées pour le même fait.[^caj-kit-amendes] C'est l'avis d'un collectif, pas un texte de loi : demandez conseil à un·e avocat·e ou à une legal team.
 
 [:octicons-arrow-right-24: Guide « Dispersion, sommations et nasse »](dispersion.md) · [:octicons-arrow-right-24: Guide « Garde à vue »](garde-a-vue.md)
 

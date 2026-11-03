@@ -4968,6 +4968,18 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "caj-kit-amendes": {
+      "title": {
+        "fr": "Collectif d'Action Judiciaire — kit pour contester les amendes de manifestation interdite (publication Instagram)",
+        "en": "Collectif d'Action Judiciaire — kit to contest banned-demonstration fines (Instagram post)"
+      },
+      "url": "https://www.instagram.com/p/DfKv55MIZQA/",
+      "check": {
+        "date": "2026-11-03",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
