@@ -1,6 +1,6 @@
 ---
-description: 'Legal notice, host, personal data, licences and privacy policy of the On proteste site.'
-source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
+description: 'Legal notice, host, personal data, licences and privacy policy of the On manifeste site.'
+source_commit: 9b37eabab85f0cec8f4e238ca0fe63776a5c9030
 tags:
     - legal notice
 ---
@@ -41,6 +41,6 @@ AI has a cost (energy, resources) and several causes defended here oppose it: we
 
 ## Licenses
 
-The content and data of this site (texts, guides, `docs/data/*.json` files) are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit On proteste and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Logos, trademarks and quoted sources remain the property of their owners.
+The content and data of this site (texts, guides, `docs/data/*.json` files) are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit On manifeste and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Logos, trademarks and quoted sources remain the property of their owners.
 
 ## Sources

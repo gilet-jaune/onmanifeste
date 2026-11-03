@@ -1,6 +1,6 @@
 ---
 description: 'A pocket card to print, cut out and carry: useful numbers on the front, rights and reflexes on the back, even without a phone.'
-source_commit: a7b3a95c19882f9eb40af18aeef9ae5bf8f8fb34
+source_commit: 9b37eabab85f0cec8f4e238ca0fe63776a5c9030
 review: juridique
 review_status: pending
 tags:
@@ -36,7 +36,7 @@ _(On your arm: **10 digits under your sleeve, no name** — someone not protesti
 
 {% if config.site_url %}
 
-<p class="pocket__qr"><img src="{{ config.site_url }}assets/social/qr.svg" alt="QR code to the On proteste website" width="96" height="96"> <span>The site, offline once opened:<br><strong>{{ config.site_url }}</strong><br>Not sure what to do? <strong>{{ config.site_url }}parcours/</strong></span></p>
+<p class="pocket__qr"><img src="{{ config.site_url }}assets/social/qr.svg" alt="QR code to the On manifeste website" width="96" height="96"> <span>The site, offline once opened:<br><strong>{{ config.site_url }}</strong><br>Not sure what to do? <strong>{{ config.site_url }}parcours/</strong></span></p>
 {% endif %}
 
 </section>
