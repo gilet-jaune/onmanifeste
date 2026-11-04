@@ -1,7 +1,7 @@
 ---
 title: 'On manifeste | Guides, directory, understand'
 description: 'On manifeste: guides, rights, a directory and dossiers to understand (history, repression, media). Free, no account, no tracking, works offline.'
-source_commit: 151174b2dcf683d502049d3f715a30c39d16ab05
+source_commit: 5a13cb5abeb3a52aeaa9d7fa6883403e1f3e7780
 tags:
     - home
 ---
@@ -12,15 +12,23 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
 [:material-compass: I am… and I want to…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS: emergency numbers and legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Printable pocket card](carte/index.md){ .md-button }
 
+**Where are you at?**
+
+<div class="home-doors" markdown="1">
+
+- [First protest](parcours/index.md?je=premiere){ .md-button }
+- [Tear-gassed](parcours/index.md?je=gaze){ .md-button }
+- [Injured](parcours/index.md?je=blesse){ .md-button }
+- [Arrested](parcours/index.md?je=interpelle){ .md-button }
+- [Woman or someone with periods](parcours/index.md?je=femme){ .md-button }
+
+</div>
+
 !!! warning "Disclaimer and purpose of this site"
 
     This site is strictly **informational, educational, and organizational**: it documents legal rights, first aid guidance, and digital security tools.
 
     It does not constitute personalized legal advice, nor does it encourage or incite illegal acts, property damage, or violence. Always check information against official sources.
-
-!!! info "How this content is checked"
-
-    Data and texts were first **researched and sourced with the help of an AI**, and are being reviewed by humans step by step. Every entry says **who** checked it and **when**: not reviewed by a human, volunteer, lawyer, health professional or historian. Open the source before relying on any information, and [help us check](contribuer/index.md#check-an-entry).
 
 <div class="grid cards" markdown="1">
 
@@ -65,3 +73,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
     [:octicons-arrow-right-24: Add a resource](contribuer/index.md)
 
 </div>
+
+??? info "How this content is checked"
+
+    Data and texts were first **researched and sourced with the help of an AI**, and are being reviewed by humans step by step. Every entry says **who** checked it and **when**: not reviewed by a human, volunteer, lawyer, health professional or historian. Open the source before relying on any information, and [help us check](contribuer/index.md#check-an-entry).
