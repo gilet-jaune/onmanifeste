@@ -21,11 +21,11 @@ Act as a **Senior Documentation Engineer**:
 - **Page description:** every page has a `description:` (160 characters max). It is the meta
   description and the line shown under the title in the site search results.
 - **Guide illustration (optional):** `image:` + `image_alt:` in the front matter (`image_alt: ""` if
-  purely decorative), file under `docs/assets/guides/`, 80 KB at most (SVG, 40 KB, is preferred for
-  flat vector drawings: clean it with SVGO first, it must carry no editor metadata), no text inside
-  the picture (it cannot be translated or read), and only an image you have the right to publish
-  (your own, or a clear free licence with credit). Shown as a banner, a card thumbnail and the link
-  preview.
+  purely decorative), file under `docs/assets/guides/` (guides) or `docs/assets/covers/` (home and
+  section pages), 80 KB at most (SVG, 40 KB, is preferred for flat vector drawings: clean it with
+  SVGO first, it must carry no editor metadata), no text inside the picture (it cannot be translated
+  or read), and only an image you have the right to publish (your own, or a clear free licence with
+  credit). Shown as a banner, a card thumbnail and the link preview.
 - **No copying:** summarise, never copy a source's wording. A quoted passage is short, in quotes and
   attributed (footnote). Respect licences of reused material (e.g. CC BY-SA needs credit and
   share-alike).

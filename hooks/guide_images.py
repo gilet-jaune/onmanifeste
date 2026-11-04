@@ -6,7 +6,9 @@
 What it does, at build time (no JavaScript, works offline, no request to any other site):
 - a banner under the guide title (<figure class="guide-hero">);
 - a thumbnail at the top of the guide's card on the guides index (guides/index.md and its English copy);
-- the link-preview image (og:image) of the page (see overrides/main.html).
+- the link-preview image (og:image) of the page when it is a raster image (see overrides/main.html:
+  link previews cannot show an SVG, so those keep the default preview).
+Any page can have a banner (the home page, a section index), not only guides.
 Guides without `image` are untouched. The rules for the files (format, weight, rights, no text in
 the picture) are checked by scripts/validate-pages.mjs and written in AGENTS.md.
 """
@@ -84,7 +86,7 @@ def on_page_content(content, page, config, files, **kwargs):
         def block(m):
             return re.sub(r"<li>(.*?)</li>", card, m.group(0), flags=re.S)
 
-        return re.sub(r'<div class="grid cards">.*?</div>', block, content, flags=re.S)
+        content = re.sub(r'<div class="grid cards">.*?</div>', block, content, flags=re.S)
 
     # Banner under the title of the guide itself.
     entry = page.meta.get("image") and {

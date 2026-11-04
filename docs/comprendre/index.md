@@ -4,6 +4,8 @@ tags:
     - comprendre
     - médias
     - désinformation
+image: assets/covers/comprendre.svg
+image_alt: ''
 ---
 
 # Comprendre : histoire, médias, budget et élu·es

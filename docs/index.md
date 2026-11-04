@@ -3,6 +3,8 @@ title: 'On manifeste | Guides, annuaire, comprendre'
 description: 'On manifeste : guides, droits, annuaire et dossiers pour comprendre (histoire, répressions, médias). Gratuit, sans compte, sans pistage, hors ligne.'
 tags:
     - accueil
+image: assets/covers/accueil.svg
+image_alt: ''
 ---
 
 # On manifeste

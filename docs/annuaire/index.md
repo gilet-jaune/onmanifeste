@@ -4,6 +4,8 @@ tags:
     - annuaire
 hide:
     - toc
+image: assets/covers/annuaire.svg
+image_alt: ''
 ---
 
 # Annuaire des ressources
