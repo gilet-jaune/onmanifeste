@@ -1,6 +1,6 @@
 ---
 description: 'Review the sources of this site: open the source, give your verdict, export a batch. Pseudonym by default, nothing is sent automatically.'
-source_commit: 1d931e4845f2b40faf620b0c56f8d38acef36a94
+source_commit: 577592a89464c3ab32ada8aabaff84e5037ac7f6
 tags:
     - contributing
 ---
