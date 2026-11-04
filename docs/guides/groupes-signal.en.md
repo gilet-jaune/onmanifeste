@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups to organise while limiting leaks: public group, airlock group, trusted group. Overview.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: c0a51c04cdf7370fa4bcfeab0d5be9eb7fc9794a
 review: juridique
 review_status: pending
 tags:
@@ -140,6 +140,7 @@ So report **zones and directions**, never **people**. Use a dedicated sub-group 
 - [Running the groups](signal-gerer.md)
 - [Compromised group](signal-groupe-compromis.md)
 - [Copy-paste templates](signal-modeles.md)
+- [Memo sheets to print](../fiches/signal.md)
 
 ## When Signal is not enough
 
