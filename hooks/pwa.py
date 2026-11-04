@@ -28,6 +28,7 @@ ON_DEMAND = (
 # Paths are relative to the site root; the English copies live under "en/".
 ONLINE_ONLY = (
     "contribuer/",
+    "relire/",
     "mentions-legales/",
     "data/history.json",
     "data/victimes.json",

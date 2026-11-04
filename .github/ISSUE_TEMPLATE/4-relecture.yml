@@ -1,0 +1,45 @@
+name: ✅ Envoyer un lot de relecture
+description: Publier les avis d'une relecture faite sur la page « Relire une information ».
+title: "[Relecture] "
+labels: ["relecture", "a-trier"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Faites votre relecture sur la page **Relire une information**, téléchargez votre lot, puis collez-le ci-dessous.
+        ⚠️ **Cette issue est publique.** Un pseudonyme suffit. N'écrivez **aucune donnée personnelle**, et **ne joignez ni preuve, ni numéro d'inscription, ni document** : une qualité professionnelle se vérifie hors de cette issue (voir la page).
+        Si vous préférez ne pas avoir de compte GitHub, envoyez le fichier à l'adresse indiquée sur la page.
+  - type: input
+    id: reviewer
+    attributes:
+      label: Pseudonyme
+      description: Le même que dans votre lot.
+    validations:
+      required: true
+  - type: dropdown
+    id: role
+    attributes:
+      label: Qualité déclarée
+      description: Déclarative. Elle n'est reconnue qu'après vérification par le mainteneur ; sinon, vos avis comptent comme ceux d'un·e bénévole.
+      options:
+        - Bénévole
+        - Avocat·e / juriste
+        - Soignant·e
+        - Historien·ne
+    validations:
+      required: true
+  - type: textarea
+    id: batch
+    attributes:
+      label: Votre lot (contenu du fichier .json)
+      render: json
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Publication
+      options:
+        - label: J'accepte que cette issue, avec mon pseudonyme et mes commentaires, soit publique et serve de trace de ma relecture.
+          required: true
+        - label: Mon pseudonyme peut apparaître dans les crédits du site.

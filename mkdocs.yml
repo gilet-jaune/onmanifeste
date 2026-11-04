@@ -59,6 +59,8 @@ extra:
   #   src: assets/footer/mascot.webp
   #   alt: mascot
   #   credit: Illustration © Wankil Studio, utilisée avec autorisation
+  # Dedicated encrypted mailbox where reviewers send their batch (leave empty to hide it on /relire/).
+  review_email: onmanifest.cruelly430@passinbox.com
   repositories:
     docs:
       name: &doc_repo_name onmanifeste
@@ -101,6 +103,7 @@ plugins:
             Comprendre: Understand
             Voies démocratiques bafouées: Democratic channels flouted
             Le projet: About
+            Relire une information: Review a piece of information
             Annuaire: Directory
             Je suis… et je veux…: I am… and I want to…
             Checklist avant la manif: Pre-protest checklist
@@ -183,6 +186,7 @@ extra_javascript:
   - javascripts/pwa.js
   - javascripts/parcours.js
   - javascripts/guides-filter.js
+  - javascripts/relire.js
 
 hooks:
   - hooks/sources.py
@@ -268,6 +272,7 @@ nav:
   - Le projet:
       - Paramètres: parametres.md
       - Contribuer: contribuer/index.md
+      - Relire une information: relire/index.md
       - Mentions légales: mentions-legales/index.md
 
 markdown_extensions:

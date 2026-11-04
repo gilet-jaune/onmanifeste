@@ -152,7 +152,8 @@
     "Vélib",
     "Vélomagg",
     "Wikidata",
-    "Zucman"
+    "Zucman",
+    "RPPS"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

@@ -19,7 +19,8 @@
     "readme": "node scripts/generate-readme.mjs",
     "readme:check": "node scripts/generate-readme.mjs --check",
     "review:queue": "node scripts/review-queue.mjs",
-    "review:brief": "node scripts/review-brief.mjs"
+    "review:brief": "node scripts/review-brief.mjs",
+    "review:apply": "node scripts/apply-reviews.mjs"
   },
   "devDependencies": {
     "cspell": "8.19.4",

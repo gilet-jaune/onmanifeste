@@ -2863,3 +2863,84 @@ dialog.contact-card {
   background: var(--ap-vest);
   color: var(--ap-ink);
 }
+
+/* Review page (/relire/) */
+.relire__identity,
+.relire__filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin: 1rem 0;
+}
+
+.relire__identity input,
+.relire__identity select,
+.relire__filters input[type='search'],
+.relire__filters select,
+.relire__item textarea {
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.8rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font: inherit;
+}
+
+.relire__help,
+.relire__meta,
+.relire__status {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.relire__list {
+  padding: 0;
+  list-style: none;
+}
+
+.relire__item {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--ap-silver);
+}
+
+.relire__verdicts,
+.relire__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.5rem 0;
+}
+
+.relire__verdict,
+.relire__btn {
+  min-height: 2.5rem;
+  padding: 0 0.8rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: 1.25rem;
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.relire__verdict[aria-pressed='true'],
+.relire__btn--main {
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.relire__verdict:focus-visible,
+.relire__btn:focus-visible {
+  outline: 3px solid var(--ap-vest);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px var(--ap-ink);
+}
+
+.relire__item textarea[hidden],
+.relire__btn[hidden] {
+  display: none;
+}
