@@ -1,7 +1,7 @@
 """Generate the Open Graph share image (docs/assets/social/og.png, 1200x630).
 
 Run once after changing the design: python3 scripts/generate-og-image.py (requires Pillow).
-Uses a condensed bold system font when available (macOS: DIN Condensed; Windows: Arial Narrow Bold), else Pillow's default (tiny, no accents: do not commit that output).
+Uses a condensed bold system font when available (macOS: DIN Condensed; Windows: Bahnschrift Condensed), else Pillow's default (tiny, no accents: do not commit that output).
 """
 from pathlib import Path
 
@@ -16,7 +16,7 @@ SHEEN = (238, 240, 242)
 FONT_CANDIDATES = [
     "/System/Library/Fonts/Supplemental/DIN Condensed Bold.ttf",
     "/System/Library/Fonts/Supplemental/Impact.ttf",
-    "C:/Windows/Fonts/ARIALNB.TTF",
+    "C:/Windows/Fonts/bahnschrift.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
 ]
 
@@ -24,7 +24,10 @@ FONT_CANDIDATES = [
 def font(size):
     for path in FONT_CANDIDATES:
         if Path(path).exists():
-            return ImageFont.truetype(path, size)
+            f = ImageFont.truetype(path, size)
+            if "bahnschrift" in path.lower():  # variable font: pick the condensed cut (close to DIN Condensed)
+                f.set_variation_by_name("SemiBold Condensed")
+            return f
     return ImageFont.load_default()
 
 
