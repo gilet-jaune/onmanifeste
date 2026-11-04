@@ -1,8 +1,10 @@
 ---
 description: 'All the guides for protesting in France: before, during and after the protest, depending on your situation. Available offline.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 4637462e02618d6b3ce3bca1963244d3f6cef4be
 tags:
     - guides
+image: assets/covers/guides.svg
+image_alt: ''
 ---
 
 # Guides

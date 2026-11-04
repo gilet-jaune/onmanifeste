@@ -1,10 +1,12 @@
 ---
 description: 'Documented dossiers and independent watchdogs to understand mobilisations, check facts and follow elected officials.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 4637462e02618d6b3ce3bca1963244d3f6cef4be
 tags:
     - understand
     - media
     - disinformation
+image: assets/covers/comprendre.svg
+image_alt: ''
 ---
 
 # Understand: history, media, public finances and elected officials
