@@ -1,5 +1,7 @@
 // Page metadata checks:
 // - review: juridique|medical with review_status: pending|reviewed (reviewed_on required once reviewed)
+// - description: every page has one, 160 characters at most (meta description and line shown under
+//   the title in the site search results)
 // - translations: every page.en.md records the commit of the French page it translates
 //   (source_commit, as MDN does); a French page changed since then makes the translation outdated.
 // Usage: node scripts/validate-pages.mjs [--report file.md]   (outdated translations are warnings)
@@ -47,6 +49,10 @@ for (const file of walk('docs')) {
       errors.push(`${file}: reviewed pages need reviewed_on: YYYY-MM-DD`);
     }
   }
+  const description = (fm.description ?? '').replace(/^(['"])(.*)$/, '$2');
+  if (!description) errors.push(`${file}: missing description`);
+  else if (description.length > 160)
+    errors.push(`${file}: description is ${description.length} characters (160 max)`);
   if (file.endsWith('.en.md')) {
     const fr = file.replace(/\.en\.md$/, '.md');
     if (!existsSync(fr)) errors.push(`${file}: no French page ${fr}`);

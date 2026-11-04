@@ -7,6 +7,26 @@
 (function () {
   'use strict';
 
+  const SCRIPT = document.currentScript;
+  // Built by hooks/search_descriptions.py: page URL (relative to the site root) → description.
+  const DESC_URL = SCRIPT ? new URL('../data/search-descriptions.json', SCRIPT.src) : null;
+  const ROOT = SCRIPT ? new URL('../', SCRIPT.src).pathname : '/';
+  let descriptions = null;
+  const loadDescriptions = () => {
+    if (!descriptions) {
+      descriptions = DESC_URL
+        ? fetch(DESC_URL)
+            .then((r) => (r.ok ? r.json() : {}))
+            .catch(() => ({}))
+        : Promise.resolve({});
+    }
+    return descriptions;
+  };
+  const keyOf = (link) => {
+    const path = new URL(link.getAttribute('href'), location.href).pathname;
+    return path.startsWith(ROOT) ? path.slice(ROOT.length) : path.replace(/^\//, '');
+  };
+
   const BEFORE = 70;
   const AFTER = 130;
   const SKIP = 'h1, h2, h3, nav.md-tags, .md-search-result__terms, .md-search-result__icon';
@@ -86,11 +106,30 @@
     if (!terms.querySelector('del')) terms.remove();
   }
 
+  // Page results (h1) get their description under the title; the start of the page is then only
+  // worth showing when it contains the searched word.
+  function describe(article) {
+    const title = article.querySelector(':scope > h1');
+    const link = article.closest('a');
+    if (!title || !link) return;
+    const hasMatch = Boolean(article.querySelector('.md-search-result__snippet mark'));
+    loadDescriptions().then((map) => {
+      const text = map[keyOf(link)];
+      if (!text || !article.isConnected) return;
+      const p = document.createElement('p');
+      p.className = 'md-search-result__desc';
+      p.textContent = text;
+      title.after(p);
+      if (!hasMatch) article.querySelector('.md-search-result__snippet')?.remove();
+    });
+  }
+
   function process(root) {
     root.querySelectorAll('.md-search-result__article:not([data-snippet])').forEach((article) => {
       article.setAttribute('data-snippet', '1');
       excerpt(article);
       tidyTerms(article);
+      describe(article);
     });
   }
 
@@ -108,6 +147,10 @@
       });
     }).observe(results, { childList: true, subtree: true });
     process(results);
+    // Fetch the descriptions as soon as the search is used (a few KB, precached offline).
+    document
+      .querySelector('.md-search__input')
+      ?.addEventListener('focus', loadDescriptions, { once: true });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

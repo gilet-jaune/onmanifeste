@@ -18,6 +18,8 @@ Act as a **Senior Documentation Engineer**:
   (`mkdocs-static-i18n`, falls back to French when missing).
 - **Single registry:** tools/resources are added to `docs/data/resources.json` only, never hardcoded
   in pages. Run `npm run validate:data`, then `npm run readme` (the README list is generated).
+- **Page description:** every page has a `description:` (160 characters max). It is the meta
+  description and the line shown under the title in the site search results.
 - **No copying:** summarise, never copy a source's wording. A quoted passage is short, in quotes and
   attributed (footnote). Respect licences of reused material (e.g. CC BY-SA needs credit and
   share-alike).
