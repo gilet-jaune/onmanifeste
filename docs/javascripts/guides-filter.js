@@ -105,6 +105,21 @@
       return { h2, grid };
     });
 
+    // Keep the search and theme in the URL (?q=…&theme=…) so a filtered view can be shared or bookmarked.
+    function syncUrl() {
+      try {
+        const url = new URL(location.href);
+        const raw = input.value.trim();
+        if (raw) url.searchParams.set('q', raw);
+        else url.searchParams.delete('q');
+        if (theme) url.searchParams.set('theme', theme);
+        else url.searchParams.delete('theme');
+        if (url.href !== location.href) history.replaceState(history.state, '', url.href);
+      } catch (e) {
+        /* URL update is a convenience only */
+      }
+    }
+
     function apply() {
       const q = normalise(input.value.trim());
       let shown = 0;
@@ -124,6 +139,7 @@
       });
       buttons.forEach(({ b, id }) => b.setAttribute('aria-pressed', String(id === theme)));
       const filtering = Boolean(q || theme);
+      syncUrl();
       reset.hidden = !filtering;
       status.textContent = '';
       if (!shown) {
@@ -136,6 +152,13 @@
         status.textContent = t.count(shown, cards.length);
       }
     }
+
+    // Restore state from the URL (?q=…&theme=…).
+    const params = new URLSearchParams(location.search);
+    input.value = params.get('q') || '';
+    const wanted = params.get('theme');
+    if (wanted && data.themes.some((th) => th.id === wanted)) theme = wanted;
+    if (input.value || theme) apply();
 
     input.addEventListener('input', apply);
     input.addEventListener('keydown', (e) => {
