@@ -857,11 +857,28 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /*
-  Phone navigation bar (overrides/main.html): the "Menu" button opens the same drawer as the header
-  hamburger, which is hidden on phones so there is a single menu.
+  Phone navigation bar (overrides/main.html). The "Menu" button opens the same drawer as the header
+  hamburger (hidden on phones). On a page that has a table of contents the drawer opens on it, the
+  back arrow leads to the site menu. The bar hides while the on-screen keyboard is up.
 */
 document.addEventListener('click', function (e) {
   if (!e.target.closest('[data-ap-menu]')) return;
+  const toc = document.getElementById('__toc');
+  const drawer = document.getElementById('__drawer');
+  if (toc && !(drawer && drawer.checked)) toc.checked = true;
   const label = document.querySelector('label[for="__drawer"]');
   if (label) label.click();
 });
+
+if (window.visualViewport) {
+  const root = document.documentElement;
+  const viewport = window.visualViewport;
+  const update = function () {
+    // A keyboard shrinks the visual viewport a lot without any zoom; pinch-zoom changes the scale.
+    root.classList.toggle(
+      'ap-keyboard',
+      viewport.scale <= 1.05 && window.innerHeight - viewport.height > 140,
+    );
+  };
+  viewport.addEventListener('resize', update);
+}

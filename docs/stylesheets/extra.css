@@ -3234,9 +3234,9 @@ dialog.contact-card {
     display: none;
   }
 
-  /* No bar while typing (keyboard up) or while the search panel is open. */
-  body:has(#__search:checked) .ap-tabbar,
-  body:has(input:focus, textarea:focus, select:focus) .ap-tabbar {
+  /* No bar while the on-screen keyboard is up (class set in extra.js) or the search panel is open. */
+  .ap-keyboard .ap-tabbar,
+  body:has(#__search:checked) .ap-tabbar {
     display: none;
   }
 }
