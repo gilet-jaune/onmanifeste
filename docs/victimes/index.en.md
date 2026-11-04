@@ -1,8 +1,9 @@
 ---
 description: 'People injured and killed at protests: independent census databases and key historical landmarks, with legal outcomes and sources.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: fac26a1d8d9d37f4220add9fc45920033598bf31
 tags:
     - repression
+    - victims
     - memory
 hide:
     - toc

@@ -1,12 +1,14 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: fac26a1d8d9d37f4220add9fc45920033598bf31
 review: medical
 review_status: pending
 tags:
     - guides
     - health
     - flowchart
+search:
+    boost: 3
 ---
 
 # First aid
