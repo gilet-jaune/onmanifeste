@@ -18,6 +18,9 @@ Act as a **Senior Documentation Engineer**:
   (`mkdocs-static-i18n`, falls back to French when missing).
 - **Single registry:** tools/resources are added to `docs/data/resources.json` only, never hardcoded
   in pages. Run `npm run validate:data`, then `npm run readme` (the README list is generated).
+- **No copying:** summarise, never copy a source's wording. A quoted passage is short, in quotes and
+  attributed (footnote). Respect licences of reused material (e.g. CC BY-SA needs credit and
+  share-alike).
 - **Verified sources only:** every entry must link to an official, reachable page. No legal claims
   without a source. Record the check in `check: { date, result }` (`result`: `confirmed` or
   `unconfirmed` with a `note`).

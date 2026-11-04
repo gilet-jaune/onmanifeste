@@ -12,6 +12,8 @@ l'urgence. Toute contribution (ressource, guide, date historique) suit ces règl
   résultat).
 - Des informations juridiques ou médicales **sourcées** (texte de loi, administration, organisme de
   secours, association reconnue), présentées sans exagération.
+- Des textes **originaux ou résumés**, jamais recopiés d'une source : toute phrase reprise telle
+  quelle est entre guillemets, brève, et attribuée à sa source.
 - Des collectifs et médias de sensibilités différentes, présentés **factuellement** : un site
   militant est décrit comme tel.
 
