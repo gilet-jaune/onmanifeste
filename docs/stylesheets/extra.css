@@ -2394,12 +2394,11 @@ dialog.contact-card {
   font-size: 0.9em;
 }
 
-/* Profile names in the static parcours tree are headings (indexed by the search), shown inline. */
-.md-typeset .parcours__tree summary .parcours__profile {
-  display: inline;
-  margin: 0;
-  font-size: inherit;
-  font-weight: inherit;
+/* Profile names in the static parcours tree are headings (indexed by the search), above their needs. */
+.md-typeset .parcours__tree .parcours__profile {
+  margin: 1em 0 0.2em;
+  font-size: 1em;
+  font-weight: 700;
   letter-spacing: normal;
 }
 
@@ -3000,4 +2999,9 @@ dialog.contact-card {
   color: var(--md-typeset-a-color);
   font-weight: 700;
   text-decoration: underline;
+}
+
+/* The tab bar sits above the search panel by default (z-index 3): put the panel on top of it. */
+.md-search {
+  z-index: 4;
 }

@@ -1,6 +1,12 @@
 {#-
   Static rendering of docs/data/parcours.json (no-JS fallback, indexed by the site search: each
-  profile is a heading, so a search for "fonctionnaire" lands on #je-fonctionnaire).
+  profile is a heading, so a search for "fonctionnaire" lands on #je-fonctionnaire). The heading
+  must be a direct child of the block that holds its needs, not nested in <summary>: the search
+  indexer closes a section when a nested heading ends, and the needs would then be filed under
+  the page instead of the profile (so « règles » or « enceinte » would not find the profile).
+  What is indexed per profile: its name, its keywords (hidden) and the needs. The result lists are
+  excluded (data-search-exclude): their guide titles would make every profile match « gaz lacrymogène »
+  and push the guides down.
   docs/javascripts/parcours.js replaces it with the interactive two-step version.
 -#}
 {%- macro href(r, lang, up='../') -%}
@@ -13,12 +19,17 @@ to the site root from the page; level: heading level of the profile names (3 ins
 {%- macro tree(lang, data=none, iam=none, iwant=none, up='../', level=2) -%}
 <div class="parcours__tree">
 {%- for p in (data if data is not none else parcours) %}
-  <details>
-    <summary><h{{ level }} class="parcours__profile" id="je-{{ p.id }}">{{ iam or ('Je suis' if lang == 'fr' else 'I am') }} {{ p.label[lang] }}</h{{ level }}></summary>
+  <div class="parcours__item">
+    <h{{ level }} class="parcours__profile" id="je-{{ p.id }}">{{ iam or ('Je suis' if lang == 'fr' else 'I am') }} {{ p.label[lang] }}</h{{ level }}>
+    {%- if p.keywords %}
+    <p hidden>{{ p.keywords | join(' ') }}</p>
+    {%- endif %}
+    <details>
+    <summary>{{ iwant or ('… et je veux' if lang == 'fr' else '… and I want to') }}…</summary>
     <ul>
     {%- for n in p.needs %}
       <li><strong>{{ iwant or ('… et je veux' if lang == 'fr' else '… and I want to') }} {{ n.label[lang] }}</strong>
-        <ul>
+        <ul data-search-exclude>
         {%- for r in n.results %}
           {%- if r.resource %}
           {%- for res in resources if res.id == r.resource %}
@@ -32,7 +43,8 @@ to the site root from the page; level: heading level of the profile names (3 ins
       </li>
     {%- endfor %}
     </ul>
-  </details>
+    </details>
+  </div>
 {%- endfor %}
 </div>
 {%- endmacro -%}
