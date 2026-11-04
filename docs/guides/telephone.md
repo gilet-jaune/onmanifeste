@@ -4,6 +4,7 @@ review: juridique
 review_status: pending
 tags:
     - guides
+    - téléphone
     - sécurité
     - droits
 ---

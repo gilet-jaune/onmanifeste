@@ -6,6 +6,8 @@ tags:
     - guides
     - santé
     - schéma
+search:
+    boost: 3
 ---
 
 # Premiers secours

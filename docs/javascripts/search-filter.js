@@ -14,6 +14,13 @@
     );
   }
 
+  // Material weighs a tag match 1,000,000 against 1,000 for a title, so a page merely tagged "téléphone"
+  // beat the guide titled "Téléphone". Tags stay a strong signal, but only twice a title match.
+  const TAG_BOOST = 2000;
+  function softenTags(config) {
+    if (config && config.fields && config.fields.tags) config.fields.tags.boost = TAG_BOOST;
+  }
+
   function filterDocs(docs) {
     if (!Array.isArray(docs)) return docs;
     const isEn = isCurrentLangEn();
@@ -34,6 +41,7 @@
       worker.postMessage = function (msg, transfer) {
         if (msg && msg.type === 0 && msg.data && Array.isArray(msg.data.docs)) {
           msg.data.docs = filterDocs(msg.data.docs);
+          softenTags(msg.data.config);
         }
         return transfer !== undefined ? origPostMessage(msg, transfer) : origPostMessage(msg);
       };
@@ -54,6 +62,7 @@
       set: function (val) {
         if (val && Array.isArray(val.docs)) {
           val.docs = filterDocs(val.docs);
+          softenTags(val.config);
         }
         internalIndex = val;
       },

@@ -2,6 +2,7 @@
 description: 'Blessé·es et mort·es en manifestation : bases de recensement indépendantes et grands repères historiques, avec suites judiciaires et sources.'
 tags:
     - répression
+    - victimes
     - mémoire
 hide:
     - toc
