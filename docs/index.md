@@ -1,4 +1,5 @@
 ---
+title: "On manifeste | Guides, annuaire, numéros d'urgence"
 description: "On manifeste : guides, droits, numéros d'urgence et annuaire pour manifester en France. Gratuit, sans compte, sans pistage, utilisable hors ligne."
 tags:
     - accueil

@@ -1,4 +1,6 @@
-{% extends "base.html" %} {% block extrahead %}
+{% extends "base.html" %} {% block htmltitle %}{%- if page and page.meta and page.meta.title %}
+<title>{{ page.meta.title }}</title>
+{%- else %}{{ super() }}{%- endif %}{% endblock %} {% block extrahead %}
 <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}" />
 <meta name="theme-color" content="#ddf20f" />
 <link rel="apple-touch-icon" href="{{ 'assets/icons/apple-touch-icon.png' | url }}" />
