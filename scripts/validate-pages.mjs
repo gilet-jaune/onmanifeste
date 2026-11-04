@@ -2,7 +2,8 @@
 // - review: juridique|medical with review_status: pending|reviewed (reviewed_on required once reviewed)
 // - description: every page has one, 160 characters at most (meta description and line shown under
 //   the title in the site search results)
-// - image: a guide illustration exists, is webp/avif/png/jpg/svg, 80 KB at most, has image_alt
+// - image: a guide illustration exists, is webp/avif/png/jpg (80 KB) or svg (40 KB, no script, link,
+//   live text or editor metadata), and has image_alt
 // - translations: every page.en.md records the commit of the French page it translates
 //   (source_commit, as MDN does); a French page changed since then makes the translation outdated.
 // Usage: node scripts/validate-pages.mjs [--report file.md]   (outdated translations are warnings)
@@ -11,6 +12,22 @@ import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from '
 import { join } from 'node:path';
 
 const MAX_IMAGE_BYTES = 80 * 1024;
+const MAX_SVG_BYTES = 40 * 1024;
+// What must not ship inside an SVG illustration: code, external links, live text, and the editor
+// metadata (author, file paths, dates) that Inkscape, Illustrator or Figma write by default.
+const SVG_RULES = [
+  [/<script/i, 'a <script>'],
+  [/\son[a-z]+\s*=/i, 'an on…= event attribute'],
+  [/<foreignObject/i, 'a <foreignObject>'],
+  [/(?:href|src)\s*=\s*["']\s*(?:https?:)?\/\//i, 'an external link'],
+  [/url\(\s*["']?\s*(?:https?:)?\/\//i, 'an external url()'],
+  [/<text[\s>]/i, 'live <text> (convert it to outlines, or remove it)'],
+  [
+    /<metadata|<rdf:|<dc:|<cc:|sodipodi:|inkscape:|xmlns:(?:inkscape|sodipodi)/i,
+    'editor metadata (clean it with SVGO)',
+  ],
+  [/[A-Za-z]:\Users|\/Users\/|\/home\//, 'a local file path'],
+];
 
 const errors = [];
 const outdated = [];
@@ -63,8 +80,19 @@ for (const file of walk('docs')) {
     if (!/\.(webp|avif|png|jpe?g|svg)$/i.test(image))
       errors.push(`${file}: image must be webp, avif, png, jpg or svg`);
     else if (!existsSync(path)) errors.push(`${file}: image ${image} not found in docs/`);
-    else if (statSync(path).size > MAX_IMAGE_BYTES)
-      errors.push(`${file}: image is ${Math.round(statSync(path).size / 1024)} KB (80 KB max)`);
+    else {
+      const isSvg = /\.svg$/i.test(image);
+      const max = isSvg ? MAX_SVG_BYTES : MAX_IMAGE_BYTES;
+      if (statSync(path).size > max)
+        errors.push(
+          `${file}: image is ${Math.round(statSync(path).size / 1024)} KB (${max / 1024} KB max)`,
+        );
+      if (isSvg) {
+        const svg = readFileSync(path, 'utf8');
+        for (const [rule, what] of SVG_RULES)
+          if (rule.test(svg)) errors.push(`${file}: ${image} contains ${what}`);
+      }
+    }
     const raw = readFileSync(file, 'utf8').match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
     if (!/^image_alt:/m.test(raw))
       errors.push(`${file}: image needs image_alt (use "" when the picture is only decorative)`);
