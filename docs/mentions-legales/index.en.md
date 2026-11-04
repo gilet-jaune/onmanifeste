@@ -1,6 +1,6 @@
 ---
 description: 'Legal notice, host, personal data, licences and privacy policy of the On manifeste site.'
-source_commit: 9b37eabab85f0cec8f4e238ca0fe63776a5c9030
+source_commit: 92f1ef33d7e63c4ee1e15642ca33b5c0f6328408
 tags:
     - legal notice
 ---
@@ -31,16 +31,18 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United S
 
 ## Content and liability
 
-Information is general and does not replace a lawyer or a medical professional. Data and texts were first **researched and sourced with the help of an artificial intelligence**, and are being reviewed by humans step by step. Every statement is sourced and dated, and the check indicator (`check`) says who checked it: AI, volunteer, lawyer, health professional or historian. Content not yet reviewed by a professional or not confirmed carries a badge. See the [content policy]({{ repositories.docs.url }}/blob/main/MODERATION.md) (in French).
+Information is general and does not replace a lawyer or a medical professional. Data and texts were first **researched and sourced with the help of an artificial intelligence**, and are being reviewed by humans step by step. Every statement is sourced and dated, and the check indicator (`check`) says who checked it: nobody yet (not reviewed by a human), volunteer, lawyer, health professional or historian. Content not yet reviewed by a professional or not confirmed carries a badge. See the [content policy]({{ repositories.docs.url }}/blob/main/MODERATION.md) (in French).
 
 ## Why an AI?
 
+The aim is not to produce new information, but to **gather and make accessible, including offline**, useful information already published by public sources (laws, associations, public services, media). The AI was used to find and summarise them; every claim points to its source so that you can check it.
+
 This site aims to be **complete** and usable **offline**, by gathering content that already exists and pointing to it (laws, associations, media, public services). For a volunteer, anonymous project, an AI was used to **research, source and write** these summaries, and also to **build the site** (code, tooling, tests) quickly, on **free, reusable technologies** (MkDocs, Material for MkDocs): anyone can copy the site and adapt it.
 
-AI has a cost (energy, resources) and several causes defended here oppose it: we acknowledge that. What it produces has not yet been reviewed by humans. Each piece of information therefore carries its source, its date and a badge saying who checked it. If you can review a guide, see [Contribute](../contribuer/index.md).
+AI has a cost (energy, resources) and several causes defended here oppose it: we acknowledge that. What it produces has not yet been reviewed by humans. Each piece of information therefore carries its source, its date and a badge saying who checked it. AI does not replace review by humans, nor the expertise of collectives, lawyers and health professionals: this is why each entry says whether it has been reviewed, and by whom. We are looking for reviewers, and we point to the collectives whose work this is. If you can review a guide, see [Contribute](../contribuer/index.md).
 
 ## Licenses
 
-The content and data of this site (texts, guides, `docs/data/*.json` files) are licensed under [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit On manifeste and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Logos, trademarks and quoted sources remain the property of their owners.
+The content and data of this site (texts, guides, `docs/data/*.json` files) are placed, **to the extent of the rights we hold**, under the [Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/): you may copy, print, translate and adapt them, including for commercial use, as long as you credit On manifeste and share your versions under the same license. The code is under the [MIT license]({{ repositories.docs.url }}/blob/main/LICENSE-CODE). Passages produced solely by an AI may not be protected by copyright. Logos, trademarks and quoted sources remain the property of their owners: we summarise and quote briefly, naming the source, without copying their texts.
 
 ## Sources
