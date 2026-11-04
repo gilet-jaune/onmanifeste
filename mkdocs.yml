@@ -211,7 +211,6 @@ nav:
       - SOS: sos/index.md
       - Carte de poche: carte/index.md
       - Fiches mémo à imprimer: fiches/index.md
-      - Fiches mémo Signal à imprimer: fiches/signal.md
   - Trouver de l'aide:
       - Je suis… et je veux…: parcours/index.md
       - Annuaire: annuaire/index.md
@@ -256,6 +255,7 @@ nav:
               - Tenir les groupes: guides/signal-gerer.md
               - Groupe compromis: guides/signal-groupe-compromis.md
               - Modèles à copier-coller: guides/signal-modeles.md
+              - Fiches mémo Signal à imprimer: fiches/signal.md
           - Drapeau palestinien en manifestation: guides/drapeau-palestinien.md
           - "Réseaux sociaux : ne pas nourrir la haine": guides/reseaux-sociaux.md
           - Parler à la presse en manifestation: guides/parler-a-la-presse.md

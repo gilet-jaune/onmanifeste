@@ -139,6 +139,7 @@ Signalez donc des **zones et des directions**, jamais des **personnes**. Un sous
 - [Tenir les groupes](signal-gerer.md)
 - [Groupe compromis](signal-groupe-compromis.md)
 - [Modèles à copier-coller](signal-modeles.md)
+- [Fiches mémo à imprimer](../fiches/signal.md)
 
 ## Quand Signal ne suffit pas
 
