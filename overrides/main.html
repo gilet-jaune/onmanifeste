@@ -243,6 +243,66 @@ stays in the header). No JavaScript except the menu button. #} {%- set en = conf
     </li>
   </ul>
 </dialog>
+{#- Page-contents pager for phones (docs/javascripts/toc-pager.js): a floating pill "section 3/7"
+with arrows, and the sheet listing every section. Inert until the script finds a page with enough
+sections. #}
+<template id="ap-toc-template">
+  <div
+    class="ap-toc"
+    role="group"
+    aria-label="{{ 'Page contents' if en else 'Sommaire de la page' }}"
+  >
+    <button
+      class="ap-toc__nav"
+      type="button"
+      data-ap-toc-step="-1"
+      aria-label="{{ 'Previous section' if en else 'Section précédente' }}"
+    >
+      {% include ".icons/material/chevron-left.svg" %}
+    </button>
+    <button class="ap-toc__title" type="button" data-ap-toc-open aria-haspopup="dialog">
+      <span class="ap-toc__text"></span><span class="ap-toc__count"></span>
+    </button>
+    <button
+      class="ap-toc__nav"
+      type="button"
+      data-ap-toc-step="1"
+      aria-label="{{ 'Next section' if en else 'Section suivante' }}"
+    >
+      {% include ".icons/material/chevron-right.svg" %}
+    </button>
+    <button
+      class="ap-toc__fold"
+      type="button"
+      data-ap-toc-fold
+      aria-label="{{ 'Fold the contents' if en else 'Replier le sommaire' }}"
+    >
+      {% include ".icons/material/chevron-down.svg" %}
+    </button>
+    <button
+      class="ap-toc__chip"
+      type="button"
+      data-ap-toc-fold
+      aria-label="{{ 'Show the contents' if en else 'Afficher le sommaire' }}"
+    >
+      {% include ".icons/material/format-list-bulleted.svg" %}<span class="ap-toc__count"></span>
+    </button>
+  </div>
+  <dialog class="ap-more ap-toc-sheet" aria-labelledby="ap-toc-sheet-title">
+    <div class="ap-more__head">
+      <h2 id="ap-toc-sheet-title">{{ 'Contents' if en else 'Sommaire' }}</h2>
+      <button
+        class="ap-more__close"
+        type="button"
+        data-ap-toc-close
+        aria-label="{{ 'Close' if en else 'Fermer' }}"
+      >
+        {% include ".icons/material/close.svg" %}
+      </button>
+    </div>
+    <ul class="ap-more__list" data-ap-toc-list></ul>
+  </dialog>
+</template>
 {#- Bottom-right stack: SOS floating button (every page but SOS itself) above the install card. #}
 {%- set sos_en = config.theme.language == 'en' %}
 <div class="fab-stack">

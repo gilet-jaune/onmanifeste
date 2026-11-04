@@ -3223,6 +3223,11 @@ dialog.contact-card {
 
   .fab-stack {
     bottom: calc(var(--ap-tabbar-h) + env(safe-area-inset-bottom, 0px) + 0.8rem);
+    left: 1rem; /* full width so the contents pill can be centred */
+  }
+
+  .pwa-banner {
+    width: 100%; /* the stack is now full width: the card follows it */
   }
 
   .sos-fab {
@@ -3340,6 +3345,157 @@ dialog.contact-card {
 
 @media print {
   .ap-more {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   Page contents on phones (docs/javascripts/toc-pager.js): a floating pill above the SOS button.
+   ========================================================================== */
+.ap-toc {
+  display: none;
+}
+
+@media (max-width: 44.9375em) {
+  .ap-toc {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    box-sizing: border-box;
+    max-width: calc(100vw - 24px);
+    height: 48px;
+    margin-bottom: 12px; /* clears the raised SOS button */
+    padding: 0 2px;
+    border: 2px solid var(--ap-vest);
+    border-radius: 24px;
+    background: var(--ap-ink);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    color: #f2f3f4;
+  }
+
+  .ap-toc__nav,
+  .ap-toc__fold,
+  .ap-toc__chip {
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .ap-toc svg {
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
+  }
+
+  .ap-toc__nav:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  .ap-toc__fold {
+    color: #b9bdc2;
+  }
+
+  .ap-toc__title {
+    display: flex;
+    flex: 0 1 auto;
+    gap: 8px;
+    align-items: center;
+    min-width: 0;
+    max-width: 52vw;
+    height: 44px;
+    padding: 0 4px;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .ap-toc__text {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ap-toc__count {
+    flex: none;
+    color: var(--ap-vest);
+  }
+
+  .ap-toc__chip {
+    display: none;
+  }
+
+  /* Folded: only a small round "contents" button remains. */
+  .ap-toc.is-folded {
+    padding: 0;
+  }
+
+  .ap-toc.is-folded > :not(.ap-toc__chip) {
+    display: none;
+  }
+
+  .ap-toc.is-folded .ap-toc__chip {
+    display: flex;
+    gap: 6px;
+    width: auto;
+    padding: 0 14px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: 800;
+  }
+
+  .ap-toc button:focus-visible {
+    outline: 3px solid var(--ap-vest);
+    outline-offset: -3px;
+  }
+
+  .ap-keyboard .ap-toc,
+  body:has(#__search:checked) .ap-toc,
+  body:has(#__drawer:checked) .ap-toc {
+    display: none;
+  }
+
+  /* The contents sheet: one column, sub-sections indented, the section being read highlighted. */
+  .ap-toc-sheet .ap-more__list {
+    grid-template-columns: 1fr;
+  }
+
+  .ap-toc-sheet li[data-level='3'] a {
+    margin-left: 1.2rem;
+    border-style: dashed;
+    font-weight: 600;
+  }
+
+  .ap-toc-sheet a[aria-current='true'] {
+    border-color: var(--ap-vest);
+    background: var(--ap-vest);
+    color: var(--ap-ink);
+  }
+
+  /* Jumping to a section lands it under the sticky header. */
+  .md-content__inner :is(h2, h3)[id] {
+    scroll-margin-top: 4.2rem;
+  }
+}
+
+@media print {
+  .ap-toc {
     display: none !important;
   }
 }

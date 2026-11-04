@@ -188,6 +188,7 @@ extra_javascript:
   - javascripts/guides-filter.js
   - javascripts/relire.js
   - javascripts/search-snippet.js
+  - javascripts/toc-pager.js
 
 hooks:
   - hooks/sources.py

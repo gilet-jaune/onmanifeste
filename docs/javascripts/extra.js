@@ -858,24 +858,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /*
   Phone navigation (overrides/main.html).
-  - The header hamburger opens the drawer on the page's table of contents when it has one (the back
-    arrow leads to the site menu).
+  - The header hamburger opens the site menu; the page's table of contents is the pill (toc-pager.js).
   - The bar's "More" button opens a sheet with the other main pages (a native <dialog>).
   - The bar hides while the on-screen keyboard is up.
 */
-document.addEventListener(
-  'click',
-  function (e) {
-    if (!e.target.closest('label[for="__drawer"]')) return;
-    const toc = document.getElementById('__toc');
-    const drawer = document.getElementById('__drawer');
-    if (toc && !(drawer && drawer.checked)) toc.checked = true;
-  },
-  true,
-);
-
 document.addEventListener('click', function (e) {
-  const sheet = document.querySelector('.ap-more');
+  const sheet = document.querySelector('.ap-more:not(.ap-toc-sheet)');
   if (!sheet) return;
   if (e.target.closest('[data-ap-more-open]')) {
     if (!sheet.open) sheet.showModal();
