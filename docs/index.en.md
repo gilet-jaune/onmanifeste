@@ -1,7 +1,6 @@
 ---
-title: 'Guides, rights and emergency numbers for protesting'
 description: 'On manifeste: guides, rights, emergency numbers and a directory for protesting in France. Free, no account, no tracking, works offline.'
-source_commit: 9b37eabab85f0cec8f4e238ca0fe63776a5c9030
+source_commit: 6813908e76d72789abc764df2b7eae7527520351
 tags:
     - home
 ---
