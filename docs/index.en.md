@@ -1,14 +1,14 @@
 ---
-title: 'On manifeste | Guides, directory, emergency numbers'
-description: 'On manifeste: guides, rights, emergency numbers and a directory for protesting in France. Free, no account, no tracking, works offline.'
-source_commit: 405bf6ea623a80893d75438ad979b74aa6f7fcd0
+title: 'On manifeste | Guides, directory, understand'
+description: 'On manifeste: guides, rights, a directory and dossiers to understand (history, repression, media). Free, no account, no tracking, works offline.'
+source_commit: 55f68c72c9c093ba36089d8481982e0d8d2d08d2
 tags:
     - home
 ---
 
 # On manifeste
 
-A collaborative collection of **tools and resources for protesting in France**: secure communication, digital security, legal help (especially for high-school students), first aid, news and organising.
+A collaborative collection of **tools and resources for protesting in France**: guides (secure communication, digital security, first aid, legal help, especially for high-school students), emergency numbers, a directory, and dossiers to **understand** (history, repression, media).
 
 [:material-compass: I am… and I want to…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS: emergency numbers and legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Printable pocket card](carte/index.md){ .md-button }
 
