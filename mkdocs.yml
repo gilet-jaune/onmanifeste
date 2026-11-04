@@ -1,7 +1,7 @@
 site_name: On manifeste
 # Custom domain; CI may override it with the GitHub Pages configuration.
 site_url: !ENV [SITE_URL, "https://onmanifeste.fr/"]
-site_description: Outils et ressources utiles pour manifester en France
+site_description: Guides, annuaire et dossiers pour manifester en France et comprendre
 theme:
   name: material
   language: fr
@@ -87,7 +87,7 @@ plugins:
         - locale: en
           name: English
           build: true
-          site_description: Useful tools and resources for protesting in France
+          site_description: Guides, a directory and dossiers for protesting in France and understanding it
           nav_translations:
             Accueil: Home
             Urgence: Emergency

@@ -1,13 +1,13 @@
 ---
-title: "On manifeste | Guides, annuaire, numéros d'urgence"
-description: "On manifeste : guides, droits, numéros d'urgence et annuaire pour manifester en France. Gratuit, sans compte, sans pistage, utilisable hors ligne."
+title: 'On manifeste | Guides, annuaire, comprendre'
+description: 'On manifeste : guides, droits, annuaire et dossiers pour comprendre (histoire, répressions, médias). Gratuit, sans compte, sans pistage, hors ligne.'
 tags:
     - accueil
 ---
 
 # On manifeste
 
-Une liste collaborative d'**outils et de ressources utiles pour manifester en France** : communication sécurisée, sécurité numérique, aide juridique (notamment pour les lycéen·nes), information et organisation.
+Une liste collaborative d'**outils et de ressources utiles pour manifester en France** : des guides (communication sécurisée, sécurité numérique, premiers secours, aide juridique, notamment pour les lycéen·nes), les numéros d'urgence, un annuaire, et des dossiers pour **comprendre** (histoire, répressions, médias).
 
 [:material-compass: Je suis… et je veux…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS : numéros d'urgence et legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Carte de poche à imprimer](carte/index.md){ .md-button }
 

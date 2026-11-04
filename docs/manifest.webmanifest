@@ -1,7 +1,7 @@
 {
   "name": "On manifeste",
   "short_name": "On manifeste",
-  "description": "Outils et ressources utiles pour manifester en France, disponibles hors ligne.",
+  "description": "Guides, annuaire et dossiers pour manifester en France et comprendre. Disponible hors ligne.",
   "lang": "fr",
   "id": "./",
   "start_url": "./",
