@@ -3117,3 +3117,132 @@ dialog.contact-card {
     display: none;
   }
 }
+
+/* ==========================================================================
+   Phone navigation bar (overrides/main.html): home, parcours, round SOS raised at the centre,
+   guides, menu. Under 45em only; it replaces the floating SOS button and the header hamburger.
+   ========================================================================== */
+.ap-tabbar {
+  display: none;
+}
+
+@media (max-width: 44.9375em) {
+  :root {
+    --ap-tabbar-h: 56px;
+  }
+
+  .ap-tabbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.15fr 1fr 1fr;
+    align-items: stretch;
+    height: calc(var(--ap-tabbar-h) + env(safe-area-inset-bottom, 0px));
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    border-top: 3px solid var(--ap-vest);
+    background: var(--ap-ink);
+  }
+
+  .ap-tabbar__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #f2f3f4;
+    font: inherit;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.1;
+    cursor: pointer;
+  }
+
+  .ap-tabbar__item svg {
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
+  }
+
+  .ap-tabbar__item[aria-current='page'] {
+    color: var(--ap-vest);
+  }
+
+  .ap-tabbar__item:focus-visible,
+  .ap-tabbar__sos:focus-visible {
+    outline: 3px solid var(--ap-vest);
+    outline-offset: -3px;
+  }
+
+  /* The emergency button: round, yellow, raised above the bar. */
+  .ap-tabbar__sos {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: center;
+    justify-content: center;
+    align-self: start;
+    justify-self: center;
+    width: 64px;
+    height: 64px;
+    margin-top: -26px;
+    border: 4px solid var(--ap-ink);
+    border-radius: 50%;
+    background: var(--ap-vest);
+    box-shadow:
+      0 0 0 3px var(--ap-vest),
+      0 4px 10px rgba(0, 0, 0, 0.45);
+    color: var(--ap-ink) !important;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 1;
+  }
+
+  .ap-tabbar__sos svg {
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
+  }
+
+  .ap-tabbar__sos[aria-current='page'] {
+    background: #fff;
+  }
+
+  /* Content and messages stay clear of the bar; the floating SOS button is now in the bar. */
+  body {
+    padding-bottom: calc(var(--ap-tabbar-h) + env(safe-area-inset-bottom, 0px));
+  }
+
+  .fab-stack {
+    bottom: calc(var(--ap-tabbar-h) + env(safe-area-inset-bottom, 0px) + 0.8rem);
+  }
+
+  .sos-fab {
+    display: none;
+  }
+
+  /* One menu on phones: the bar's "Menu" tab opens the drawer, so the header hamburger goes. */
+  .md-header__button[for='__drawer'] {
+    display: none;
+  }
+
+  /* No bar while typing (keyboard up) or while the search panel is open. */
+  body:has(#__search:checked) .ap-tabbar,
+  body:has(input:focus, textarea:focus, select:focus) .ap-tabbar {
+    display: none;
+  }
+}
+
+@media print {
+  .ap-tabbar {
+    display: none;
+  }
+}

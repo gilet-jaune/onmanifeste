@@ -110,6 +110,46 @@ page.meta.review_status != 'reviewed' %}
     </div>
   </div>
 </footer>
+{#- Phone navigation bar (shown under 45em only, see extra.css): home, parcours, SOS (round, raised,
+centre), guides, menu. Replaces the floating SOS button and the header hamburger on phones (search
+stays in the header). No JavaScript except the menu button. #} {%- set en = config.theme.language ==
+'en' %} {%- set root = 'en/' if en else '' %} {%- set here = page.url if page else '' %}
+<nav class="ap-tabbar" aria-label="{{ 'Main navigation' if en else 'Navigation principale' }}">
+  <a
+    class="ap-tabbar__item"
+    href="{{ root | url }}"
+    aria-current="{{ 'page' if page and page.is_homepage else 'false' }}"
+  >
+    {% include ".icons/material/home.svg" %}<span>{{ 'Home' if en else 'Accueil' }}</span>
+  </a>
+  <a
+    class="ap-tabbar__item"
+    href="{{ (root ~ 'parcours/') | url }}"
+    aria-current="{{ 'page' if here.endswith('parcours/') else 'false' }}"
+  >
+    {% include ".icons/material/map-marker-path.svg" %}<span
+      >{{ 'Path' if en else 'Parcours' }}</span
+    >
+  </a>
+  <a
+    class="ap-tabbar__sos"
+    href="{{ (root ~ 'sos/') | url }}"
+    title="{{ 'Emergency numbers and legal teams' if en else 'Numéros d’urgence et legal teams' }}"
+    aria-current="{{ 'page' if here.endswith('sos/') else 'false' }}"
+  >
+    {% include ".icons/material/phone-alert.svg" %}<span>SOS</span>
+  </a>
+  <a
+    class="ap-tabbar__item"
+    href="{{ (root ~ 'guides/') | url }}"
+    aria-current="{{ 'page' if 'guides/' in here else 'false' }}"
+  >
+    {% include ".icons/material/book-open-variant.svg" %}<span>Guides</span>
+  </a>
+  <button class="ap-tabbar__item" type="button" data-ap-menu>
+    {% include ".icons/material/menu.svg" %}<span>{{ 'Menu' }}</span>
+  </button>
+</nav>
 {#- Bottom-right stack: SOS floating button (every page but SOS itself) above the install card. #}
 {%- set sos_en = config.theme.language == 'en' %}
 <div class="fab-stack">

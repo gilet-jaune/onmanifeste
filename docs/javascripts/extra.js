@@ -855,3 +855,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+
+/*
+  Phone navigation bar (overrides/main.html): the "Menu" button opens the same drawer as the header
+  hamburger, which is hidden on phones so there is a single menu.
+*/
+document.addEventListener('click', function (e) {
+  if (!e.target.closest('[data-ap-menu]')) return;
+  const label = document.querySelector('label[for="__drawer"]');
+  if (label) label.click();
+});
