@@ -442,6 +442,122 @@
       "group": "situation"
     },
     {
+      "id": "femme",
+      "label": {
+        "fr": "une femme ou une personne réglée",
+        "en": "a woman or someone who has periods"
+      },
+      "keywords": [
+        "femme",
+        "fille",
+        "regles",
+        "regle",
+        "reglee",
+        "menstruation",
+        "menstruelle",
+        "periode",
+        "serviette",
+        "tampon",
+        "enceinte",
+        "grossesse",
+        "sexiste",
+        "woman",
+        "girl",
+        "period",
+        "periods",
+        "pregnant",
+        "pregnancy"
+      ],
+      "needs": [
+        {
+          "id": "regles",
+          "label": {
+            "fr": "gérer mes règles en manif",
+            "en": "manage my period at a protest"
+          },
+          "results": [
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "dans-le-sac",
+                "en": "in-the-bag"
+              },
+              "label": {
+                "fr": "Dans le sac : des serviettes hygiéniques plutôt que des tampons",
+                "en": "In the bag: pads rather than tampons"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "apres-suivi-a-long-terme",
+                "en": "afterwards-long-term-follow-up"
+              },
+              "label": {
+                "fr": "Cycle perturbé après du gaz lacrymogène : quand consulter",
+                "en": "Disrupted cycle after tear gas: when to see a doctor"
+              }
+            }
+          ]
+        },
+        {
+          "id": "grossesse",
+          "label": {
+            "fr": "je suis enceinte",
+            "en": "I am pregnant"
+          },
+          "results": [
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "gaz-lacrymogene",
+                "en": "tear-gas"
+              },
+              "label": {
+                "fr": "Gaz lacrymogène : consulter un médecin en cas de grossesse",
+                "en": "Tear gas: see a doctor if you are pregnant"
+              }
+            }
+          ]
+        },
+        {
+          "id": "violences",
+          "label": {
+            "fr": "subir du harcèlement ou des violences sexistes",
+            "en": "face harassment or sexist violence"
+          },
+          "results": [
+            {
+              "resource": "violences-femmes-info"
+            },
+            {
+              "guide": "violences-harcelement",
+              "anchor": {
+                "fr": "en-manifestation",
+                "en": "at-the-protest"
+              },
+              "label": {
+                "fr": "En manifestation : réagir et se protéger",
+                "en": "At the protest: react and protect yourself"
+              }
+            },
+            {
+              "guide": "violences-harcelement",
+              "anchor": {
+                "fr": "en-ligne-harcelement-et-doxxing",
+                "en": "online-harassment-and-doxxing"
+              },
+              "label": {
+                "fr": "En ligne : harcèlement et doxxing",
+                "en": "Online: harassment and doxxing"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "situation"
+    },
+    {
       "id": "sommations",
       "label": {
         "fr": "face à des sommations ou une dispersion",
