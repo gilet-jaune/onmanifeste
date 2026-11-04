@@ -146,10 +146,103 @@ stays in the header). No JavaScript except the menu button. #} {%- set en = conf
   >
     {% include ".icons/material/book-open-variant.svg" %}<span>Guides</span>
   </a>
-  <button class="ap-tabbar__item" type="button" data-ap-menu>
-    {% include ".icons/material/menu.svg" %}<span>{{ 'Menu' }}</span>
+  <button class="ap-tabbar__item" type="button" data-ap-more-open aria-haspopup="dialog">
+    {% include ".icons/material/dots-horizontal.svg" %}<span>{{ 'More' if en else 'Plus' }}</span>
   </button>
 </nav>
+<dialog class="ap-more" aria-labelledby="ap-more-title">
+  <div class="ap-more__head">
+    <h2 id="ap-more-title">{{ 'More' if en else 'Plus' }}</h2>
+    <button
+      class="ap-more__close"
+      type="button"
+      data-ap-more-close
+      aria-label="{{ 'Close' if en else 'Fermer' }}"
+    >
+      {% include ".icons/material/close.svg" %}
+    </button>
+  </div>
+  <ul class="ap-more__list">
+    <li>
+      <a
+        href="{{ (root ~ 'annuaire/') | url }}"
+        aria-current="{{ 'page' if here.endswith('annuaire/') else 'false' }}"
+      >
+        {% include ".icons/material/book-search.svg" %}<span
+          >{{ 'Directory' if en else 'Annuaire' }}</span
+        >
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'comprendre/') | url }}"
+        aria-current="{{ 'page' if here.endswith('comprendre/') else 'false' }}"
+      >
+        {% include ".icons/material/book-open-page-variant.svg" %}<span
+          >{{ 'Understand' if en else 'Comprendre' }}</span
+        >
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'carte/') | url }}"
+        aria-current="{{ 'page' if here.endswith('carte/') else 'false' }}"
+      >
+        {% include ".icons/material/card-account-details-outline.svg" %}<span
+          >{{ 'Pocket card' if en else 'Carte de poche' }}</span
+        >
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'fiches/') | url }}"
+        aria-current="{{ 'page' if here.endswith('fiches/') else 'false' }}"
+      >
+        {% include ".icons/material/printer.svg" %}<span
+          >{{ 'Memo sheets' if en else 'Fiches mémo' }}</span
+        >
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'contribuer/') | url }}"
+        aria-current="{{ 'page' if here.endswith('contribuer/') else 'false' }}"
+      >
+        {% include ".icons/material/source-pull.svg" %}<span
+          >{{ 'Contribute' if en else 'Contribuer' }}</span
+        >
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'relire/') | url }}"
+        aria-current="{{ 'page' if here.endswith('relire/') else 'false' }}"
+      >
+        {% include ".icons/material/check-decagram.svg" %}<span
+          >{{ 'Review information' if en else 'Relire une information' }}</span
+        >
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'parametres/') | url }}"
+        aria-current="{{ 'page' if here.endswith('parametres/') else 'false' }}"
+      >
+        {% include ".icons/material/cog.svg" %}<span>{{ 'Settings' if en else 'Paramètres' }}</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{ (root ~ 'mentions-legales/') | url }}"
+        aria-current="{{ 'page' if here.endswith('mentions-legales/') else 'false' }}"
+      >
+        {% include ".icons/material/scale-balance.svg" %}<span
+          >{{ 'Legal notice' if en else 'Mentions légales' }}</span
+        >
+      </a>
+    </li>
+  </ul>
+</dialog>
 {#- Bottom-right stack: SOS floating button (every page but SOS itself) above the install card. #}
 {%- set sos_en = config.theme.language == 'en' %}
 <div class="fab-stack">

@@ -3120,7 +3120,7 @@ dialog.contact-card {
 
 /* ==========================================================================
    Phone navigation bar (overrides/main.html): home, parcours, round SOS raised at the centre,
-   guides, menu. Under 45em only; it replaces the floating SOS button and the header hamburger.
+   guides, more. Under 45em only; it replaces the floating SOS button.
    ========================================================================== */
 .ap-tabbar {
   display: none;
@@ -3229,11 +3229,6 @@ dialog.contact-card {
     display: none;
   }
 
-  /* One menu on phones: the bar's "Menu" tab opens the drawer, so the header hamburger goes. */
-  .md-header__button[for='__drawer'] {
-    display: none;
-  }
-
   /* No bar while the on-screen keyboard is up (class set in extra.js) or the search panel is open. */
   .ap-keyboard .ap-tabbar,
   body:has(#__search:checked) .ap-tabbar {
@@ -3244,5 +3239,107 @@ dialog.contact-card {
 @media print {
   .ap-tabbar {
     display: none;
+  }
+}
+
+/* "More" sheet (overrides/main.html): the other main pages, as a bottom sheet on phones. */
+.ap-more {
+  display: none;
+}
+
+@media (max-width: 44.9375em) {
+  .ap-more[open] {
+    position: fixed;
+    inset: auto 0 0;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: none;
+    max-height: 85vh;
+    margin: 0;
+    padding: 0 0 env(safe-area-inset-bottom, 0px);
+    overflow-y: auto;
+    border: 0;
+    border-top: 4px solid var(--ap-vest);
+    background: var(--ap-ink);
+    color: #f2f3f4;
+  }
+
+  .ap-more::backdrop {
+    background: rgba(0, 0, 0, 0.65);
+  }
+
+  .ap-more__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0.4rem 0.2rem 1rem;
+  }
+
+  .ap-more__head h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--ap-vest);
+  }
+
+  .ap-more__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    background: none;
+    color: #f2f3f4;
+    cursor: pointer;
+  }
+
+  .ap-more__close svg,
+  .ap-more__list svg {
+    width: 24px;
+    height: 24px;
+    fill: currentcolor;
+  }
+
+  .ap-more__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0.5rem 0.8rem 1rem;
+    list-style: none;
+  }
+
+  .ap-more__list a {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    box-sizing: border-box;
+    min-height: 56px;
+    padding: 0.4rem 0.7rem;
+    border: 2px solid #f2f3f4;
+    border-radius: var(--ap-radius);
+    color: #f2f3f4;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .ap-more__list a[aria-current='page'] {
+    border-color: var(--ap-vest);
+    background: var(--ap-vest);
+    color: var(--ap-ink);
+  }
+
+  .ap-more__list a:focus-visible,
+  .ap-more__close:focus-visible {
+    outline: 3px solid var(--ap-vest);
+    outline-offset: 2px;
+  }
+}
+
+@media print {
+  .ap-more {
+    display: none !important;
   }
 }

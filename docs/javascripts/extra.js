@@ -857,17 +857,32 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /*
-  Phone navigation bar (overrides/main.html). The "Menu" button opens the same drawer as the header
-  hamburger (hidden on phones). On a page that has a table of contents the drawer opens on it, the
-  back arrow leads to the site menu. The bar hides while the on-screen keyboard is up.
+  Phone navigation (overrides/main.html).
+  - The header hamburger opens the drawer on the page's table of contents when it has one (the back
+    arrow leads to the site menu).
+  - The bar's "More" button opens a sheet with the other main pages (a native <dialog>).
+  - The bar hides while the on-screen keyboard is up.
 */
+document.addEventListener(
+  'click',
+  function (e) {
+    if (!e.target.closest('label[for="__drawer"]')) return;
+    const toc = document.getElementById('__toc');
+    const drawer = document.getElementById('__drawer');
+    if (toc && !(drawer && drawer.checked)) toc.checked = true;
+  },
+  true,
+);
+
 document.addEventListener('click', function (e) {
-  if (!e.target.closest('[data-ap-menu]')) return;
-  const toc = document.getElementById('__toc');
-  const drawer = document.getElementById('__drawer');
-  if (toc && !(drawer && drawer.checked)) toc.checked = true;
-  const label = document.querySelector('label[for="__drawer"]');
-  if (label) label.click();
+  const sheet = document.querySelector('.ap-more');
+  if (!sheet) return;
+  if (e.target.closest('[data-ap-more-open]')) {
+    if (!sheet.open) sheet.showModal();
+  } else if (e.target.closest('[data-ap-more-close]') || e.target === sheet) {
+    // a tap on the backdrop targets the dialog itself
+    sheet.close();
+  }
 });
 
 if (window.visualViewport) {
