@@ -491,12 +491,16 @@
   }
 
   // One need: the chosen situation and need, urgent numbers and result cards.
-  function needBlock(profile, need, heading = H) {
+  function needBlock(profile, need, heading = H, saysWant = false) {
     const needId = `besoin-${need.id}`;
     return el(
       'section',
       { class: 'parcours__need', id: needId },
-      el(heading, { class: 'parcours__step' }, `… ${loc(need.label)}`),
+      el(
+        heading,
+        { class: 'parcours__step' },
+        saysWant ? `${T.iwant.replace(/…$/, '')} ${loc(need.label)}` : `… ${loc(need.label)}`,
+      ),
       need.urgent ? urgentBlock() : null,
       el('div', { class: 'parcours__results' }, ...need.results.map(resultNode).filter(Boolean)),
     );
@@ -571,10 +575,32 @@
           label: loc(n.label),
         })),
       );
+      const several = profile.needs.length > 1;
       append(
         view,
         crumb,
-        ...profile.needs.map((n) => needBlock(profile, n)),
+        // Few needs are all shown, but "I want…" stays visible and each need can be picked on its own.
+        several ? el(H, { class: 'parcours__step' }, T.iwant) : null,
+        several ? el('p', { class: 'parcours__hint' }, T.hintWant) : null,
+        several
+          ? el(
+              'div',
+              { class: 'parcours__choices', role: 'list' },
+              ...profile.needs.map((n) =>
+                el(
+                  'button',
+                  {
+                    type: 'button',
+                    class: 'parcours__choice',
+                    role: 'listitem',
+                    onclick: () => go({ je: profile.id, veux: n.id }),
+                  },
+                  loc(n.label),
+                ),
+              ),
+            )
+          : null,
+        ...profile.needs.map((n) => needBlock(profile, n, H, !several)),
         el('button', { type: 'button', class: 'parcours__link', onclick: () => go({}) }, T.restart),
       );
       root.replaceChildren(view);
