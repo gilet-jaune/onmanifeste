@@ -2944,3 +2944,10 @@ dialog.contact-card {
 .relire__btn[hidden] {
   display: none;
 }
+
+/* Search results: one short excerpt per hit (docs/javascripts/search-snippet.js) */
+.md-search-result__snippet {
+  margin: 0.2em 0 0.4em;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}

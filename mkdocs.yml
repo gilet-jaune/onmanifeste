@@ -187,6 +187,7 @@ extra_javascript:
   - javascripts/parcours.js
   - javascripts/guides-filter.js
   - javascripts/relire.js
+  - javascripts/search-snippet.js
 
 hooks:
   - hooks/sources.py
