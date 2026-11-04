@@ -27,6 +27,12 @@
     return path.startsWith(ROOT) ? path.slice(ROOT.length) : path.replace(/^\//, '');
   };
 
+  const LANG = document.documentElement.lang === 'en' ? 'en' : 'fr';
+  const T = {
+    fr: { unsure: 'Pas sûr·e du bon guide ?', link: 'Dites où vous en êtes' },
+    en: { unsure: 'Not sure which guide?', link: 'Tell us where you are' },
+  }[LANG];
+
   const BEFORE = 70;
   const AFTER = 130;
   const SKIP = 'h1, h2, h3, nav.md-tags, .md-search-result__terms, .md-search-result__icon';
@@ -124,7 +130,29 @@
     });
   }
 
+  // Under the result count: a way to the guided search ("I am… and I want to…") with the words typed.
+  // The click handler in extra.js appends them to the link (?q=) at click time.
+  function guidedSearchLink(root) {
+    const typed = document.querySelector('.md-search__input')?.value.trim();
+    const existing = root.querySelector('.md-search-result__parcours');
+    if (!typed) {
+      existing?.remove();
+      return;
+    }
+    const meta = root.querySelector('.md-search-result__meta');
+    if (!meta || existing || !SCRIPT) return;
+    const box = document.createElement('div');
+    box.className = 'md-search-result__parcours';
+    const link = document.createElement('a');
+    link.className = 'md-search-result__link';
+    link.href = new URL(`${LANG === 'en' ? 'en/' : ''}parcours/`, new URL('../', SCRIPT.src)).href;
+    link.textContent = `${T.link} →`;
+    box.append(`${T.unsure} `, link);
+    meta.after(box);
+  }
+
   function process(root) {
+    guidedSearchLink(root);
     root.querySelectorAll('.md-search-result__article:not([data-snippet])').forEach((article) => {
       article.setAttribute('data-snippet', '1');
       excerpt(article);

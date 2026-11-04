@@ -11,15 +11,23 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
 [:material-compass: Je suis… et je veux…](parcours/index.md){ .md-button .md-button--primary } [:material-phone-alert: SOS : numéros d'urgence et legal teams](sos/index.md){ .md-button .md-button--primary } [:material-printer: Carte de poche à imprimer](carte/index.md){ .md-button }
 
+**Où en êtes-vous ?**
+
+<div class="home-doors" markdown="1">
+
+- [Première manif](parcours/index.md?je=premiere){ .md-button }
+- [Gazé·e](parcours/index.md?je=gaze){ .md-button }
+- [Blessé·e](parcours/index.md?je=blesse){ .md-button }
+- [Interpellé·e](parcours/index.md?je=interpelle){ .md-button }
+- [Femme ou personne réglée](parcours/index.md?je=femme){ .md-button }
+
+</div>
+
 !!! warning "Avertissement et vocation du site"
 
     Ce site a une visée strictement **informative, préventive et organisationnelle** : il documente les droits légaux, les gestes de premiers secours et les outils de protection citoyenne.
 
     Il ne constitue ni un conseil juridique personnalisé, ni une incitation à des actes illégaux, à des dégradations ou à des violences. Vérifiez toujours les informations auprès des sources officielles.
-
-!!! info "Comment ce contenu est vérifié"
-
-    Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une IA**, puis sont relus peu à peu par des humains. Chaque fiche indique **qui** l'a vérifiée et **quand** : non relu par un humain, bénévole, avocat·e, soignant·e ou historien·ne. Ouvrez la source avant de vous fier à une information, et [aidez-nous à vérifier](contribuer/index.md#verifier-une-information).
 
 <div class="grid cards" markdown="1">
 
@@ -64,3 +72,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
     [:octicons-arrow-right-24: Ajouter une ressource](contribuer/index.md)
 
 </div>
+
+??? info "Comment ce contenu est vérifié"
+
+    Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une IA**, puis sont relus peu à peu par des humains. Chaque fiche indique **qui** l'a vérifiée et **quand** : non relu par un humain, bénévole, avocat·e, soignant·e ou historien·ne. Ouvrez la source avant de vous fier à une information, et [aidez-nous à vérifier](contribuer/index.md#verifier-une-information).
