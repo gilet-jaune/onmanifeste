@@ -3,7 +3,8 @@
 {%- else %}{{ super() }}{%- endif %}{% endblock %} {% block extrahead %}
 <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}" />
 <meta name="theme-color" content="#ddf20f" />
-<link rel="apple-touch-icon" href="{{ 'assets/icons/apple-touch-icon.png' | url }}" />
+<link rel="icon" href="{{ 'favicon.ico' | url }}" sizes="48x48" />
+<link rel="apple-touch-icon"href="{{ 'assets/icons/apple-touch-icon.png' | url }}" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="On manifeste" />
 {#- Open Graph / link previews (Signal, social networks). Absolute URLs need site_url (set by CI).
