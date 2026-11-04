@@ -56,7 +56,7 @@ Le contenu a d'abord été **recherché et sourcé avec l'aide d'une IA**. Chaqu
 
 | `by` | Affiché | Qui |
 | --- | --- | --- |
-| `ai` | Sourcé par IA, à vérifier par un humain | Valeur de départ : lien et contenu trouvés par une IA, aucune relecture humaine |
+| `ai` | Sourcé, non relu par un humain | Valeur de départ : lien et contenu trouvés par une IA, aucune relecture humaine |
 | `volunteer` | Vérifié par un·e bénévole | Une personne a ouvert la source et confirmé l'information |
 | `lawyer` | Vérifié par un·e avocat·e | Information juridique confirmée par un·e avocat·e |
 | `medical` | Vérifié par un·e soignant·e | Information médicale confirmée par un·e professionnel·le de santé |

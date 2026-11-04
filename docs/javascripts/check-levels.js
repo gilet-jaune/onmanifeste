@@ -27,7 +27,7 @@
       .replace('{y}', year);
   }
 
-  // "Sourcé par IA le <time>28 oct. 2026</time> · à vérifier par un humain" as DOM children.
+  // "Sourcé le <time>28 oct. 2026</time> · non relu par un humain" as DOM children.
   function line(levels, check, lang) {
     const who = (levels.by[check.by] || levels.by.ai)[lang];
     const time = document.createElement('time');

@@ -2,8 +2,8 @@
   "check_levels": {
     "by": {
       "ai": {
-        "fr": "Sourcé par IA le",
-        "en": "AI-sourced on"
+        "fr": "Sourcé le",
+        "en": "Sourced on"
       },
       "volunteer": {
         "fr": "Vérifié par un·e bénévole le",
@@ -23,8 +23,8 @@
       }
     },
     "ai_pending": {
-      "fr": "à vérifier par un humain",
-      "en": "awaiting human check"
+      "fr": "non relu par un humain",
+      "en": "not reviewed by a human"
     },
     "unconfirmed": {
       "fr": "Non confirmé",

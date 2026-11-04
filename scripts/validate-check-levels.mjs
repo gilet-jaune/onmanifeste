@@ -16,7 +16,7 @@ for (const lang of ['fr', 'en']) {
 
 // Wording that must live in the JSON file only.
 const HARD_CODED =
-  /Vérifié le|Checked on|Sourcé par IA|AI-sourced|à vérifier par un humain|awaiting human check/;
+  /Vérifié le|Checked on|Sourcé le|Sourced on|non relu par un humain|not reviewed by a human/;
 const ALLOWED = new Set([FILE]);
 const walk = (dir) =>
   readdirSync(dir).flatMap((name) => {

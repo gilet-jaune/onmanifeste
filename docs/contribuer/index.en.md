@@ -57,7 +57,7 @@ Content was first **researched and sourced with the help of an AI**. Every regis
 
 | `by` | Shown as | Who |
 | --- | --- | --- |
-| `ai` | AI-sourced, awaiting human check | Starting value: link and content found by an AI, no human review |
+| `ai` | Sourced, not reviewed by a human | Starting value: link and content found by an AI, no human review |
 | `volunteer` | Checked by a volunteer | Someone opened the source and confirmed the information |
 | `lawyer` | Checked by a lawyer | Legal information confirmed by a lawyer |
 | `medical` | Checked by a health professional | Medical information confirmed by a health professional |

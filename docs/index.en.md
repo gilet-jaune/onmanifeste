@@ -20,7 +20,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
 !!! info "How this content is checked"
 
-    Data and texts were first **researched and sourced with the help of an AI**, and are being reviewed by humans step by step. Every entry says **who** checked it and **when**: AI (awaiting human check), volunteer, lawyer, health professional or historian. Open the source before relying on any information, and [help us check](contribuer/index.md#check-an-entry).
+    Data and texts were first **researched and sourced with the help of an AI**, and are being reviewed by humans step by step. Every entry says **who** checked it and **when**: not reviewed by a human, volunteer, lawyer, health professional or historian. Open the source before relying on any information, and [help us check](contribuer/index.md#check-an-entry).
 
 <div class="grid cards" markdown="1">
 

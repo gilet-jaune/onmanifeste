@@ -19,7 +19,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
 !!! info "Comment ce contenu est vérifié"
 
-    Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une IA**, puis sont relus peu à peu par des humains. Chaque fiche indique **qui** l'a vérifiée et **quand** : IA (à vérifier par un humain), bénévole, avocat·e, soignant·e ou historien·ne. Ouvrez la source avant de vous fier à une information, et [aidez-nous à vérifier](contribuer/index.md#verifier-une-information).
+    Les données et les textes ont d'abord été **recherchés et sourcés avec l'aide d'une IA**, puis sont relus peu à peu par des humains. Chaque fiche indique **qui** l'a vérifiée et **quand** : non relu par un humain, bénévole, avocat·e, soignant·e ou historien·ne. Ouvrez la source avant de vous fier à une information, et [aidez-nous à vérifier](contribuer/index.md#verifier-une-information).
 
 <div class="grid cards" markdown="1">
 
