@@ -4,7 +4,8 @@
   must be a direct child of the block that holds its needs, not nested in <summary>: the search
   indexer closes a section when a nested heading ends, and the needs would then be filed under
   the page instead of the profile (so « règles » or « enceinte » would not find the profile).
-  What is indexed per profile: its name, its keywords (hidden) and the needs. The result lists are
+  What is indexed per profile: its name, its keywords (hidden, in <sub> so that search-snippet.js
+  leaves them out of the excerpt) and the needs. The result lists are
   excluded (data-search-exclude): their guide titles would make every profile match « gaz lacrymogène »
   and push the guides down.
   docs/javascripts/parcours.js replaces it with the interactive two-step version.
@@ -22,7 +23,7 @@ to the site root from the page; level: heading level of the profile names (3 ins
   <div class="parcours__item">
     <h{{ level }} class="parcours__profile" id="je-{{ p.id }}">{{ iam or ('Je suis' if lang == 'fr' else 'I am') }} {{ p.label[lang] }}</h{{ level }}>
     {%- if p.keywords %}
-    <p hidden>{{ p.keywords | join(' ') }}</p>
+    <p hidden><sub>{{ p.keywords | join(' ') }}</sub></p>
     {%- endif %}
     <details>
     <summary>{{ iwant or ('… et je veux' if lang == 'fr' else '… and I want to') }}…</summary>

@@ -3005,3 +3005,33 @@ dialog.contact-card {
 .md-search {
   z-index: 4;
 }
+
+/* Search results: the "more on this page" group is a visible row, not a small afterthought. */
+.md-search-result__more > summary {
+  cursor: pointer;
+}
+
+.md-search-result__more > summary > div,
+.md-search-result__more > summary {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.md-search-result__more > summary > div {
+  padding: 0.5rem 0.8rem;
+  background: var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color);
+}
+
+.md-search-result__more > summary > div strong {
+  color: var(--md-typeset-a-color);
+}
+
+.md-search-result__more > summary > div::before {
+  content: '▸ ';
+  color: var(--md-typeset-a-color);
+}
+
+.md-search-result__more[open] > summary > div::before {
+  content: '▾ ';
+}

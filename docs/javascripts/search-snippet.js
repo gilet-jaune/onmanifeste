@@ -29,8 +29,17 @@
 
   const LANG = document.documentElement.lang === 'en' ? 'en' : 'fr';
   const T = {
-    fr: { unsure: 'Pas sûr·e du bon guide ?', link: 'Dites où vous en êtes' },
-    en: { unsure: 'Not sure which guide?', link: 'Tell us where you are' },
+    fr: {
+      unsure: 'Pas sûr·e du bon guide ?',
+      link: 'Dites où vous en êtes',
+      more: (n) =>
+        n > 1 ? `${n} autres passages dans cette page` : '1 autre passage dans cette page',
+    },
+    en: {
+      unsure: 'Not sure which guide?',
+      link: 'Tell us where you are',
+      more: (n) => (n > 1 ? `${n} more matches in this page` : '1 more match in this page'),
+    },
   }[LANG];
 
   const BEFORE = 70;
@@ -48,6 +57,8 @@
         return;
       }
       if (node.nodeType !== 1) return;
+      // <sub> holds the hidden keywords of the parcours profiles: searchable, never shown.
+      if (node.tagName === 'SUB') return;
       const isMark = node.tagName === 'MARK';
       const start = text.length;
       if (BLOCK.test(node.tagName) && text && !text.endsWith(' ')) text += ' ';
@@ -63,7 +74,11 @@
     const blocks = [...article.children].filter((el) => !el.matches(SKIP));
     if (!blocks.length) return;
     const { text, marks } = flatten(blocks);
-    if (!text.trim()) return;
+    // Nothing readable left (only the hidden profile keywords): the title is enough.
+    if (!text.trim()) {
+      blocks.forEach((b) => b.remove());
+      return;
+    }
 
     const first = marks[0];
     let from = first ? Math.max(0, first[0] - BEFORE) : 0;
@@ -151,8 +166,34 @@
     meta.after(box);
   }
 
+  // « N de plus sur cette page » is where the right answer often hides (a profile under the parcours
+  // page, a section of a guide): say how many, name the first two, and open the group when it is small.
+  function groupMore(root) {
+    root.querySelectorAll('details.md-search-result__more:not([data-more])').forEach((details) => {
+      details.setAttribute('data-more', '1');
+      const links = [...details.querySelectorAll('.md-search-result__link')];
+      if (!links.length) return;
+      const titles = links
+        .slice(0, 2)
+        .map((l) => (l.querySelector('h2, h3, h4')?.textContent || '').trim())
+        .filter(Boolean)
+        .map((t) => (t.length > 36 ? `${t.slice(0, 35).trimEnd()}…` : t));
+      // Material puts the text in a <div> inside <summary>: keep it, its styles live there.
+      const label =
+        details.querySelector(':scope > summary > div') ||
+        details.querySelector(':scope > summary');
+      if (!label) return;
+      const count = document.createElement('strong');
+      count.textContent = T.more(links.length);
+      label.replaceChildren(count);
+      if (titles.length) label.append(` : ${titles.join(' · ')}`);
+      if (links.length <= 2) details.open = true;
+    });
+  }
+
   function process(root) {
     guidedSearchLink(root);
+    groupMore(root);
     root.querySelectorAll('.md-search-result__article:not([data-snippet])').forEach((article) => {
       article.setAttribute('data-snippet', '1');
       excerpt(article);
