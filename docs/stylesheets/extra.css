@@ -3035,3 +3035,85 @@ dialog.contact-card {
 .md-search-result__more[open] > summary > div::before {
   content: '▾ ';
 }
+
+/* Guide illustration (hooks/guide_images.py): a banner framed like the rest of the site (ink border,
+   hazard-stripe band, yellow while loading), with a light parallax where the browser supports
+   scroll-driven animations and the visitor has not asked for less motion. */
+.md-typeset .guide-hero {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: clamp(7rem, 16vw, 10rem);
+  margin: 0 0 1.4rem;
+  overflow: hidden;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  view-timeline: --guide-hero block;
+}
+
+.md-typeset .guide-hero::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0.7rem;
+  border-top: 2px solid var(--ap-ink);
+  background: repeating-linear-gradient(-45deg, var(--ap-vest) 0 10px, var(--ap-ink) 10px 20px);
+  content: '';
+}
+
+.md-typeset .guide-hero .guide-hero__img {
+  position: absolute;
+  top: -8%;
+  left: 0;
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: 116%;
+  object-fit: cover;
+}
+
+@keyframes guide-parallax {
+  from {
+    transform: translateY(5%);
+  }
+
+  to {
+    transform: translateY(-5%);
+  }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .md-typeset .guide-hero .guide-hero__img {
+      animation: guide-parallax linear both;
+      /* The banner clips its image (overflow), so the image's own view() would never move: follow the banner. */
+      animation-timeline: --guide-hero;
+      animation-range: cover;
+    }
+  }
+}
+
+.md-typeset .card-thumb {
+  display: block;
+  width: 100%;
+  margin: 0 0 0.6rem;
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+@media (max-width: 44.9375em) {
+  .md-typeset .card-thumb {
+    aspect-ratio: 21 / 9;
+  }
+}
+
+@media print {
+  .guide-hero,
+  .card-thumb {
+    display: none;
+  }
+}

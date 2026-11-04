@@ -196,6 +196,8 @@ hooks:
   - hooks/guide_digest.py
   # Page descriptions shown in the site search results (data/search-descriptions.json, before pwa.py).
   - hooks/search_descriptions.py
+  # Optional guide illustration (image: in the front matter): banner, card thumbnail, link preview.
+  - hooks/guide_images.py
   # "In this situation?" links at the bottom of each guide, from the guided-search data.
   - hooks/related_paths.py
   # Short share links <site>/rejoindre/<profile>/ (before pwa.py hashes the site).
