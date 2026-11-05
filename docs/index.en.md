@@ -1,7 +1,7 @@
 ---
 title: 'On manifeste | Guides, directory, understand'
 description: 'On manifeste: guides, rights, a directory and dossiers to understand (history, repression, media). Free, no account, no tracking, works offline.'
-source_commit: 4637462e02618d6b3ce3bca1963244d3f6cef4be
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 tags:
     - home
 image: assets/covers/accueil.svg
@@ -23,6 +23,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 - [Injured](parcours/index.md?je=blesse){ .md-button }
 - [Arrested](parcours/index.md?je=interpelle){ .md-button }
 - [Woman or someone with periods](parcours/index.md?je=femme){ .md-button }
+- [I can't go](parcours/index.md?je=soutien-distance){ .md-button }
 
 </div>
 

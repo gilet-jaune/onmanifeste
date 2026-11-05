@@ -1,6 +1,6 @@
 ---
 description: 'All the guides for protesting in France: before, during and after the protest, depending on your situation. Available offline.'
-source_commit: bafb08030758cfb5b267779e6a98117d2451ce7d
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 tags:
     - guides
 image: assets/covers/guides.svg
@@ -231,6 +231,14 @@ Guides to read before you go, **available offline** once the site has been opene
     Residence risks, rights in custody, useful contacts.
 
     [:octicons-arrow-right-24: Read](etrangers.md)
+
+- **Protesting without being in the heart of the march** [:material-account-multiple-outline:](hors-du-coeur-du-cortege.md)
+
+    ***
+
+    Choosing your place, leaving in time, calm gatherings, or supporting without going.
+
+    [:octicons-arrow-right-24: Read](hors-du-coeur-du-cortege.md)
 
 - **Disability or chronic condition** [:material-wheelchair-accessibility:](handicap.md)
 

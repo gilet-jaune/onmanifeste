@@ -1,6 +1,6 @@
 ---
 description: 'Protesting without French nationality: what the law says, residence permit risks and advice.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 review: juridique
 review_status: pending
 tags:
@@ -22,6 +22,8 @@ Peaceful protest is a right for everyone, whatever their nationality.[^amnesty-d
 ## Risks to know
 
 - Peaceful participation alone does not cost you a residence permit. However, facts considered a **threat to public order** can be taken into account by the prefecture at renewal or naturalisation.[^avocat-etrangers]
+- The notion of **threat to public order** is vague and undefined; according to La Cimade, the alleged facts need not have led to a criminal conviction. It cites the case of a man arrested at a climate march with a scarf over his face against the gas, whom police considered a threat to public order and who was released at the end of custody; he was protected from expulsion as the spouse of a French citizen.[^cimade-menace-ordre-public]
+- **Online too**: the Conseil d'État ruled on 2 October 2026 that withdrawing a residence card was justified for a person who had posted a message calling for a police officer's death and posted a photo again revealing the officer's identity and town, even though the message was removed very quickly and the behaviour was isolated.[^ce-2026-508967-message-en-ligne] These are extreme facts, but quickly deleting a message does not remove the threat: do not post calls for violence or officers' personal details (see [Filming law enforcement](filmer.md)). We read this decision only on an unofficial site.
 - A removal order (**OQTF**) requires a separate administrative decision: an arrest does not trigger it automatically.[^avocat-etrangers]
 - Without a valid permit, you can be **held to check your right of residence**, a supervised, time-limited measure.[^sp-retenue]
 
@@ -39,6 +41,8 @@ Peaceful protest is a right for everyone, whatever their nationality.[^amnesty-d
 - If you receive a prefecture decision (refusal of residence, OQTF), **appeal deadlines are very short**: contact a lawyer, La Cimade or GISTI immediately.[^avocat-etrangers][^gisti]
 
 [:octicons-arrow-right-24: Resources for foreign nationals in the directory](../annuaire/index.md?situation=etranger)
+
+[:octicons-arrow-right-24: Can't or don't want to go to a protest? Support without going](soutenir-a-distance.md)
 
 ## Sources
 

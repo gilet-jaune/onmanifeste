@@ -1,6 +1,6 @@
 ---
 description: 'Never stay alone at a protest: buddy, meeting points, someone to alert.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 tags:
     - guides
     - safety
@@ -49,6 +49,8 @@ Isolation is the first risk at a protest: no one to witness an arrest, alert a l
 - If someone is in custody, organise **someone to meet them** outside the police station: release can happen at any hour.
 
 [:octicons-arrow-right-24: Anti-repression contacts in the directory](../annuaire/index.md?tags=antirepression)
+
+[:octicons-arrow-right-24: Can't or don't want to go to a protest? Support without going](soutenir-a-distance.md)
 
 ## Sources
 

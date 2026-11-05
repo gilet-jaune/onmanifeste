@@ -1,6 +1,6 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: e59c80f3ada517303bb20b5f4fa4f617967a7ef9
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 tags:
     - guides
     - support
@@ -53,7 +53,7 @@ Preparing sandwiches, soup or supplies for a march or for people in struggle is 
 
 ## Relay online
 
-Sharing, commenting, saving and liking the content you want to see circulate (independent media, collectives, testimonies) is a real lever, within reach of anyone who cannot go out. Relaying a **notified** protest (date, place, organisers) carries no risk. The gestures that count, and those to avoid (do not "share" far-right content, do not publish names or faces) are in [Social media: understanding the algorithm](reseaux-sociaux.md#push-up-what-matters).
+Sharing, commenting, saving and liking the content you want to see circulate (independent media, collectives, testimonies) is a real lever, within reach of anyone who cannot go out. Relaying a **notified** protest (date, place, organisers) carries no risk. If you are a foreign national, first read [the risks to your residence](etrangers.md#risks-to-know) before posting. The gestures that count, and those to avoid (do not "share" far-right content, do not publish names or faces) are in [Social media: understanding the algorithm](reseaux-sociaux.md#push-up-what-matters).
 
 ## Vote
 
@@ -123,6 +123,7 @@ The guides advise alerting **someone who is not at the protest**: that can be yo
 - **Review and contribute to the site**: if you are a lawyer, health professional or translator, you can [review a piece of information](../relire/index.md) or [contribute](../contribuer/index.md).
 - **Accompany an injured person**: go with them to A&E, help them get the medical certificate and file a complaint ([filing a complaint](suites-judiciaires.md), [first aid](premiers-secours.md)).
 - **Relay** calls from legal teams and funds, without sharing names or photos of people ([film and publish](filmer.md)).
+- **Take part at the edge** rather than in the heart of the march: [Protesting without being in the heart of the march](hors-du-coeur-du-cortege.md).
 - **Look after** children, a pet, a home for someone who protests or leaves custody.
 - **Persuade** your circle, calmly ([convince your relatives](convaincre-ses-proches.md)).
 

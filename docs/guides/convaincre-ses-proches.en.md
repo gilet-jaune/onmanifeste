@@ -1,6 +1,6 @@
 ---
 description: 'Getting those close to you interested in the mobilisations: listening, shared values, lived stories.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 tags:
     - guides
     - dialogue
@@ -80,6 +80,8 @@ When a conversation turns to "who owns the media", "where public money goes" or 
 - **Tax fraud, tax havens and comparison with benefit fraud**: the {{ res("eu-tax-observatory", "EU Tax Observatory") }} and the {{ res("stop-paradis-fiscaux", "Plateforme Paradis Fiscaux et Judiciaires") }} document tax evasion by multinationals and ultra-high-net-worth individuals. On official orders of magnitude, _Vie publique_'s overview notes that tax fraud (and undeclared work by employers) far exceeds social-benefit fraud, which itself is smaller than **non-take-up** of benefits (eligible people not claiming RSA or activity bonuses).[^vie-publique-fraudes] On wealth distribution: {{ res("observatoire-inegalites", "Observatoire des inégalités") }} and {{ res("wid-world", "WID.world") }}.
 
 [:octicons-arrow-right-24: Historical milestones: rights won in the street](../histoire/index.md)
+
+[:octicons-arrow-right-24: Can't or don't want to go to a protest? Support without going](soutenir-a-distance.md)
 
 ## Sources
 

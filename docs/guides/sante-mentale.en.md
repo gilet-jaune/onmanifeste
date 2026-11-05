@@ -1,6 +1,6 @@
 ---
 description: 'Emotional shock, anxiety and mental health after a protest: immediate steps, helplines, when to ask for help.'
-source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 review: medical
 review_status: pending
 tags:
@@ -73,6 +73,8 @@ Faced with violent news or repression, sadness, anger or a feeling of powerlessn
 | {{ res("psycom") }} | Online | Complete directory of mental-health helplines and public care centres near you[^psycom-ecoute] |
 
 [:octicons-arrow-right-24: All "psychological support" resources in the directory](../annuaire/index.md?tags=soutien-psychologique)
+
+[:octicons-arrow-right-24: Can't or don't want to go to a protest? Support without going](soutenir-a-distance.md)
 
 ## Sources
 

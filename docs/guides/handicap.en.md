@@ -1,6 +1,6 @@
 ---
 description: 'Protesting with a disability or chronic illness: preparation, accessible emergency services, equipment and help.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 review: medical
 review_status: pending
 tags:
@@ -45,6 +45,8 @@ French law provides specific safeguards for your health and accessibility in pol
 3. **Adults under guardianship or curatorship (tutelle / curatelle)**: the senior police officer (OPJ) is legally required to **notify your guardian or curator**, who can appoint a lawyer or request a medical examination on your behalf.[^sp-gav]
 
 [:octicons-arrow-right-24: Read the "Protests and disability" report (Reporterre) and health resources in the directory](../annuaire/index.md?situation=blesse)
+
+[:octicons-arrow-right-24: Can't or don't want to go to a protest? Support without going](soutenir-a-distance.md)
 
 ## Sources
 

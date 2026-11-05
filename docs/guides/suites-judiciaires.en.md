@@ -1,6 +1,6 @@
 ---
 description: 'Filing a complaint, voluntary interview and trial after a protest: steps, evidence to keep, stages.'
-source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
+source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
 review: juridique
 review_status: pending
 tags:
@@ -57,6 +57,7 @@ tags:
     - Refer the case to the {{ res("defenseur-des-droits") }} (free, independent investigation into law-enforcement ethics).[^ddd]
     - Report the facts to the IGPN (police) or {{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn] According to the LDH, a report on the IGPN platform does not count as a complaint.[^ldh-fiche-manif-2026]
 5. Guides and support: {{ res("ldh-que-faire-violences", "LDH — What to do about police violence? (in French)") }} and {{ res("flagrant-deni") }} (legal guide and victim support).
+    - The collective {{ res("desarmons-les") }} offers an **information and support kit** for injured people and their relatives (booklets on care, complaints against the police, legal, financial, media and psychological support)[^desarmons-kit-blesses] and puts people in touch with a **team of lawyers** specialising in police violence (you have to contact them; the site does not say whether the support is free).[^desarmons-avocates] Reuse licence not stated: read the booklets on their site.
 
 ## Summoned for a "voluntary interview" (audition libre)
 
