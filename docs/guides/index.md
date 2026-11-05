@@ -253,6 +253,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](organiser.md)
 
+- **Soutenir sans aller en manif** [:material-hand-heart:](soutenir-a-distance.md)
+
+    ***
+
+    Caisse de solidarité, matériel pour les street-médics, relais à l'extérieur.
+
+    [:octicons-arrow-right-24: Lire](soutenir-a-distance.md)
+
 - **Groupes Signal : s'organiser en limitant les fuites** [:material-account-group:](groupes-signal.md)
 
     ***

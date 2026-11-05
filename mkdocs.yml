@@ -134,6 +134,7 @@ plugins:
             Agressions par l'extrême droite: Far-right attacks
             Grève, manif et travail: Strikes, protests and work
             Organiser une manifestation: Organising a protest
+            Soutenir sans aller en manif: Supporting without going to protests
             "Groupes Signal : s'organiser en limitant les fuites": "Signal groups: organising while limiting leaks"
             Vue d'ensemble: Overview
             Vous êtes membre: As a member
@@ -249,6 +250,7 @@ nav:
           - Handicap ou maladie chronique: guides/handicap.md
       - Mobiliser et informer:
           - Organiser une manifestation: guides/organiser.md
+          - Soutenir sans aller en manif: guides/soutenir-a-distance.md
           - "Groupes Signal : s'organiser en limitant les fuites":
               - Vue d'ensemble: guides/groupes-signal.md
               - Vous êtes membre: guides/signal-membres.md

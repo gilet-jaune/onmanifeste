@@ -95,6 +95,7 @@
       "lyceens": ["situation", "droits"],
       "ne-pas-rester-seul": ["preparer"],
       "organiser": ["organiser"],
+      "soutenir-a-distance": ["organiser", "situation"],
       "parler-a-la-presse": ["image", "informer"],
       "photographier-pour-la-presse": ["image"],
       "premiers-secours": ["sante"],

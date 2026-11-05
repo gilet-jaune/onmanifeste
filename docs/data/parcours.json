@@ -1924,6 +1924,44 @@
               }
             }
           ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "aider sans me mettre en danger ni sortir",
+            "en": "help without exposing myself or going out"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "signer-des-petitions",
+                "en": "sign-petitions"
+              },
+              "label": {
+                "fr": "Signer des pétitions",
+                "en": "Sign petitions"
+              }
+            }
+          ]
         }
       ],
       "group": "situation"
@@ -3265,6 +3303,200 @@
       "group": "agir"
     },
     {
+      "id": "soutien-distance",
+      "label": {
+        "fr": "dans l'impossibilité d'aller en manif mais je veux aider",
+        "en": "unable to go to protests but I want to help"
+      },
+      "keywords": [
+        "pas pouvoir",
+        "empeche",
+        "handicap",
+        "malade",
+        "enfants",
+        "travail",
+        "peur",
+        "papiers",
+        "aider",
+        "soutenir",
+        "soutien",
+        "caisse",
+        "solidarite",
+        "cagnotte",
+        "don",
+        "donner",
+        "materiel",
+        "ffp2",
+        "ffp3",
+        "serum",
+        "street medic",
+        "medic",
+        "relais",
+        "unable",
+        "help",
+        "support",
+        "donate",
+        "fund",
+        "supplies",
+        "voter",
+        "vote",
+        "procuration",
+        "petition",
+        "signer",
+        "reseaux",
+        "partager",
+        "repost",
+        "commenter",
+        "relayer en ligne",
+        "sign",
+        "share"
+      ],
+      "needs": [
+        {
+          "id": "argent",
+          "label": {
+            "fr": "donner de l'argent (caisse de solidarité)",
+            "en": "give money (solidarity fund)"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Donner à une caisse de solidarité",
+                "en": "Give to a solidarity fund"
+              },
+              "anchor": {
+                "fr": "donner-a-une-caisse-de-solidarite",
+                "en": "give-to-a-solidarity-fund"
+              }
+            },
+            {
+              "resource": "caisse-soutien-paris-idf"
+            },
+            {
+              "resource": "caisse-solidarite-lyon"
+            },
+            {
+              "resource": "caisse-solidarite"
+            }
+          ]
+        },
+        {
+          "id": "materiel",
+          "label": {
+            "fr": "acheter du matériel (FFP3, sérum physiologique…)",
+            "en": "buy supplies (FFP3, saline…)"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Équiper les street-médics",
+                "en": "Equip street medics"
+              },
+              "anchor": {
+                "fr": "equiper-les-street-medics",
+                "en": "equip-street-medics"
+              }
+            },
+            {
+              "resource": "medicaction-guides"
+            }
+          ]
+        },
+        {
+          "id": "relais",
+          "label": {
+            "fr": "servir de relais à l'extérieur",
+            "en": "act as a contact on the outside"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Être la personne ressource à l'extérieur",
+                "en": "Be the contact person outside"
+              },
+              "anchor": {
+                "fr": "etre-la-personne-ressource-a-lexterieur",
+                "en": "be-the-contact-person-outside"
+              }
+            },
+            {
+              "guide": "ne-pas-rester-seul",
+              "label": {
+                "fr": "Ne jamais rester seul·e",
+                "en": "Never stay alone"
+              }
+            }
+          ]
+        },
+        {
+          "id": "en-ligne",
+          "label": {
+            "fr": "relayer en ligne, voter, signer des pétitions",
+            "en": "relay online, vote, sign petitions"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "voter",
+                "en": "vote"
+              },
+              "label": {
+                "fr": "Voter",
+                "en": "Vote"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "signer-des-petitions",
+                "en": "sign-petitions"
+              },
+              "label": {
+                "fr": "Signer des pétitions",
+                "en": "Sign petitions"
+              }
+            }
+          ]
+        },
+        {
+          "id": "autrement",
+          "label": {
+            "fr": "aider autrement",
+            "en": "help in other ways"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Aider autrement",
+                "en": "Help in other ways"
+              },
+              "anchor": {
+                "fr": "aider-autrement",
+                "en": "help-in-other-ways"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "agir"
+    },
+    {
       "id": "nouveau-signal",
       "label": {
         "fr": "nouveau ou nouvelle dans les groupes Signal d'organisation",
@@ -3973,6 +4205,44 @@
               }
             }
           ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "soutenir sans pouvoir aller en manif",
+            "en": "support without being able to join a protest"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "signer-des-petitions",
+                "en": "sign-petitions"
+              },
+              "label": {
+                "fr": "Signer des pétitions",
+                "en": "Sign petitions"
+              }
+            }
+          ]
         }
       ],
       "group": "situation"
@@ -4109,6 +4379,44 @@
               "label": {
                 "fr": "Pourquoi ça casse en manif ?",
                 "en": "Why do protests turn to property damage?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "soutenir sans oser sortir",
+            "en": "support without daring to go out"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "signer-des-petitions",
+                "en": "sign-petitions"
+              },
+              "label": {
+                "fr": "Signer des pétitions",
+                "en": "Sign petitions"
               }
             }
           ]

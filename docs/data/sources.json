@@ -5088,6 +5088,198 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "medicaction-a-propos": {
+      "title": {
+        "fr": "Médic'Action — À propos (contact, matériel de premiers secours)",
+        "en": "Médic'Action — About (contact, first-aid supplies, in French)"
+      },
+      "url": "https://medicaction.org/a-propos/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "medicaction-appel-matos": {
+      "title": {
+        "fr": "Médic'Action — Appel à don : matos médic (octobre 2026)",
+        "en": "Médic'Action — Call for supply donations (October 2026, in French)"
+      },
+      "url": "https://medicaction.org/2026/10/12/appel-a-don-matos-medic-2026/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-inscription-electorale": {
+      "title": {
+        "fr": "Service-Public — Listes électorales : première inscription",
+        "en": "Service-Public — Electoral rolls: first registration (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-procuration": {
+      "title": {
+        "fr": "Service-Public — Vote par procuration",
+        "en": "Service-Public — Voting by proxy (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1604",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "petitions-senat": {
+      "title": {
+        "fr": "Sénat — Pétitions",
+        "en": "Senate — Petitions (in French)"
+      },
+      "url": "https://petitions.senat.fr/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "petitions-assemblee": {
+      "title": {
+        "fr": "Assemblée nationale — Parcours d'une pétition",
+        "en": "National Assembly — How a petition is handled (in French)"
+      },
+      "url": "https://petitions.assemblee-nationale.fr/pages/parcours_petition",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-vote-citoyen-europeen": {
+      "title": {
+        "fr": "Service-Public — Droit de vote d'un citoyen européen en France",
+        "en": "Service-Public — Voting rights of an EU citizen in France (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1937",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-inscription-delais": {
+      "title": {
+        "fr": "Service-Public — S'inscrire sur la liste électorale et voter la même année (délais)",
+        "en": "Service-Public — Registering and voting the same year: deadlines (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34240",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "petitions-assemblee-cgu": {
+      "title": {
+        "fr": "Assemblée nationale — Pétitions : conditions générales d'utilisation",
+        "en": "National Assembly — Petitions: terms of use (in French)"
+      },
+      "url": "https://petitions.assemblee-nationale.fr/pages/terms-and-conditions",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "petitions-senat-cgu": {
+      "title": {
+        "fr": "Sénat — Pétitions : conditions générales d'utilisation",
+        "en": "Senate — Petitions: terms of use (in French)"
+      },
+      "url": "https://petitions.senat.fr/pages/terms-and-conditions",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "change-confidentialite": {
+      "title": {
+        "fr": "Change.org — Politique de confidentialité",
+        "en": "Change.org — Privacy policy (in French)"
+      },
+      "url": "https://www.change.org/policies/privacy",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "change-signature-anonyme": {
+      "title": {
+        "fr": "Change.org — Retirer ou rendre anonyme sa signature",
+        "en": "Change.org — Removing your signature or making it anonymous (in French)"
+      },
+      "url": "https://help.change.org/fr_FR/signing-supporting/removing-your-signature-from-a-petition",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "avaaz-confidentialite": {
+      "title": {
+        "fr": "Avaaz — Politique de confidentialité",
+        "en": "Avaaz — Privacy policy (in French)"
+      },
+      "url": "https://secure.avaaz.org/fr/privacy_policy/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mypetition-confidentialite": {
+      "title": {
+        "fr": "MyPetition (ex-adresse MesOpinions) — Politique de confidentialité",
+        "en": "MyPetition (MesOpinions address redirects here) — Privacy policy (in French)"
+      },
+      "url": "https://www.mypetition.org/politique-confidentialite",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceconnect-conditions": {
+      "title": {
+        "fr": "FranceConnect — Est-ce que je remplis les conditions pour l'utiliser ?",
+        "en": "FranceConnect — Do I meet the conditions to use it? (in French)"
+      },
+      "url": "https://aide.franceconnect.gouv.fr/faq/comprendre-franceconnect/conditions-utilisation/est-ce-que-je-remplis-les-conditions-pour-utiliser-franceconnect/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceconnect-donnees": {
+      "title": {
+        "fr": "FranceConnect — Données transmises aux sites",
+        "en": "FranceConnect — Data passed to websites (in French)"
+      },
+      "url": "https://aide.franceconnect.gouv.fr/faq/comprendre-franceconnect/donnees-transmises/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
