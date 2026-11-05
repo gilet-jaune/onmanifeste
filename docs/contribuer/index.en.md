@@ -1,6 +1,6 @@
 ---
 description: 'How to contribute: add a resource, a guide or an event, review a page. Everything starts from a public, checked data registry.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 92bb397178e8f86c96730cbc6438ef45d8f1d992
 tags:
     - contributing
 ---
