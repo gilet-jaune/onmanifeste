@@ -13,6 +13,7 @@ tags:
     - Les paroles de ce guide ne sont **pas recopiées** : beaucoup de textes récents sont protégés par le droit d'auteur. Chaque chant renvoie vers la page qui le publie.
     - Les chants **anciens et anonymes** circulent librement ; les textes **récents** (parodies, traductions, arrangements) ont des auteur·es qui gardent leurs droits.
     - Une chanson **nommant des personnes** peut valoir une plainte en diffamation : chantez les faits, pas les noms.
+    - **Musicien·ne ou fanfare** : un vêtement à portée de main pour couvrir l'instrument, un instrument sans trop de valeur, l'étui près de soi.
 
 Ce guide ne liste pas tous les chants de manif. Il en présente quelques-uns, repris du recueil d'une fanfare militante[^fibzh-chants], qui publie les paroles complètes et des indications pour les jouer. La page ne précise ni auteur·es ni licence : **vérifiez les droits avant de reproduire un texte**.
 
@@ -32,6 +33,16 @@ Ce guide ne liste pas tous les chants de manif. Il en présente quelques-uns, re
 - **On n'en veut pas !** : sur la réforme des retraites. [Paroles](https://fibzh.org/chants/#oe).
 - **La révolte des sardinières** : [paroles](https://fibzh.org/chants/#rs).
 - **À bas l'État policier** : [paroles](https://fibzh.org/chants/#et). Le texte cite des victimes de violences policières ; relisez-le avant de le chanter.
+
+## Musiciens et fanfares
+
+Conseils d'un·e musicien·ne, issus de l'expérience du terrain. Ce ne sont pas des règles de droit et ils ne sont pas sourcés.
+
+- [ ] **Un vêtement supplémentaire à portée de main** pour couvrir rapidement votre instrument en cas de besoin.
+- [ ] **Si possible, un instrument qui n'a pas trop de valeur** ; sinon, restez vigilant·e.
+- [ ] **Gardez votre étui à proximité**, voire sur le dos.
+
+Le reste vaut aussi pour vous : un binôme et des sorties repérées ([Ne jamais rester seul·e](ne-pas-rester-seul.md)), des bouchons d'oreille ([Kit et tenue de manif](kit-manif.md#protection)) et la conduite à tenir à la dispersion ([Dispersion, sommations et nasse](dispersion.md)).
 
 ## Chanter sans s'exposer
 
