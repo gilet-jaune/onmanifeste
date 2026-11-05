@@ -1,6 +1,6 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: ce993e753dbf9e7c5c5cfd2b1f40be7474c9c081
 review: juridique
 review_status: pending
 tags:
@@ -42,6 +42,18 @@ Not all bag checks have the same legal basis:[^sp-fouille][^sm-guide]
 3. **Security pat-down (palpation de sécurité)** (over clothing, to look for dangerous objects): must be performed by an officer of the **same sex** as you.[^sp-fouille]
 
 - Stay calm and do not physically obstruct the search (risk of being charged with **resisting an officer / rébellion**), but if an item is confiscated without you being placed in custody, ask for a receipt or write down the time, place and badge number.[^sm-guide]
+
+## Saline, goggles, mask: can they be confiscated?
+
+Seizures of **saline solution**, **protective goggles** and **masks** are reported during bag searches, without it always being clear what they rely on.
+
+- **What has been reported.** In 2016 in Lyon, protesters said their saline had been confiscated; the Rhône prefecture denied giving any such instruction and said that only items hiding the face could be taken.[^buzzfeed-serum-lyon] In July 2024, near an action against the mega-reservoirs ("mégabassines"), gendarmes seized goggles, masks, saline solution and even sanitary pads ("which could serve as a mask"), citing "weapons by destination". According to the legal team present, the prefect's orders had not been shown to justify the vehicle searches.[^reporterre-bassines-saisies]
+- **What the texts we read say** (a reading to be confirmed by a lawyer):
+    - Near a demonstration, police can inspect or search bags **on the written order of the public prosecutor**, to look for the carrying of a weapon.[^cpp-78-2-5] The search takes place **in your presence**, and you can **ask for a report (procès-verbal)**, a copy of which is given to you.[^cpp-78-controles]
+    - A **weapon** is an object designed to kill or injure. Any other object is treated as a weapon only if it can be dangerous and is **used, or intended by the person carrying it**, to kill, injure or threaten.[^cp-132-75] In our reading, saline carried to rinse your eyes does not fit that definition. An officer may judge otherwise on the spot: you contest afterwards.
+    - These articles **do not expressly provide** for seizing objects or issuing a receipt. Other seizure rules exist, which we have not detailed here.
+- **What to do on the spot.** Stay calm and do not resist physically. Ask whether there is a **written order from the prosecutor**, **ask for the report** and a list of what is taken, note the time, place and badge number, and take photos if you can. Afterwards, talk to a legal team or a lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).
+- **Practical tip** (not a rule of law): carry **single doses** rather than a bottle, kept with your first-aid items in a pouch, to show a medical use.
 
 ## On-the-spot fine (€135): do not pay right away
 

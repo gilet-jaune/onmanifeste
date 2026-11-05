@@ -1,6 +1,6 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_commit: fac26a1d8d9d37f4220add9fc45920033598bf31
+source_commit: ce993e753dbf9e7c5c5cfd2b1f40be7474c9c081
 review: medical
 review_status: pending
 tags:
@@ -105,7 +105,7 @@ Don't perform a procedure you don't know: get trained with {{ res("medicaction-g
 - **Basics**: non-woven absorbent compresses, medical tape and adhesive plasters, **chlorhexidine**-type disinfectant (avoid iodine solutions such as Betadine), sterile gloves, ideally **latex-free** (stored in pairs in film canisters or Kinder egg capsules), something to "re-sugar" a faint person (a drinkable fruit compote for example).
 - **Depending on your training**: survival blanket (gold side out, for shock), cold pack and cold spray, bandage rolls and sterile compresses in several sizes, triangular bandages, tweezers, safety pin, spare torch and batteries, pen (to note the time a tourniquet was applied, for example), tulle gras dressing, **scissors**.
 - **Skin, mouth, nose**: Medicaction mentions **Maalox** (never on the eyes, for which saline solution is used).
-- **Beware of confiscation**: saline, Maalox, filtering masks, sealed eye goggles and scissors are **often seized**, or even objectionable depending on context, during searches ([see "Protest kit and outfit"](kit-manif.md)).[^medicaction-gestes]
+- **Beware of confiscation**: saline, Maalox, filtering masks, sealed eye goggles and scissors are **often seized** during searches.[^medicaction-gestes] A seizure is not an offence on your part, but an object can be judged dangerous depending on the context (scissors, for example): see [what the texts say and what to do](controle-fouille.md#saline-goggles-mask-can-they-be-confiscated).
 
 ## Injuries
 
