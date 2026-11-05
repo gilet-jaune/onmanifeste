@@ -56,6 +56,7 @@ tags:
     - Saisissez le {{ res("defenseur-des-droits") }} (gratuit, enquête indépendante sur la déontologie des forces de l'ordre).[^ddd]
     - Signalez les faits à l'IGPN (police) ou à l'{{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn] Selon la LDH, le signalement sur la plateforme de l'IGPN ne fait pas office de plainte.[^ldh-fiche-manif-2026]
 5. Guides et accompagnement : {{ res("ldh-que-faire-violences", "LDH — Que faire face aux violences policières ?") }} et l'ONG {{ res("flagrant-deni") }} (guide juridique et soutien aux victimes).
+    - Le collectif {{ res("desarmons-les") }} propose un **kit d'information et de soutien** pour les blessé·es et leurs proches (brochures sur les soins, la plainte contre la police, le soutien juridique, financier, médiatique et psychologique)[^desarmons-kit-blesses] et met en relation avec une **équipe d'avocat·es** spécialisée dans les violences policières (il faut les contacter ; le site ne précise pas si l'accompagnement est gratuit).[^desarmons-avocates] Licence de réutilisation non précisée : consultez les brochures sur leur site.
 
 ## Convoqué·e en « audition libre »
 

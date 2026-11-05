@@ -91,6 +91,7 @@
       "signal-groupe-compromis": ["organiser", "numerique"],
       "signal-modeles": ["organiser", "numerique"],
       "handicap": ["situation", "sante"],
+      "hors-du-coeur-du-cortege": ["situation", "preparer"],
       "kit-manif": ["preparer"],
       "lyceens": ["situation", "droits"],
       "ne-pas-rester-seul": ["preparer"],

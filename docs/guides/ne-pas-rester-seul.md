@@ -49,6 +49,8 @@ L'isolement est le premier risque en manifestation : personne pour témoigner d'
 
 [:octicons-arrow-right-24: Contacts antirépression dans l'annuaire](../annuaire/index.md?tags=antirepression)
 
+[:octicons-arrow-right-24: Vous ne pouvez pas ou ne voulez pas aller en manif ? Soutenir sans y aller](soutenir-a-distance.md)
+
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.

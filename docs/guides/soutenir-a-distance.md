@@ -52,7 +52,7 @@ Préparer des sandwichs, de la soupe ou un ravitaillement pour un cortège ou de
 
 ## Relayer en ligne
 
-Partager, commenter, enregistrer et « liker » les contenus que vous voulez voir circuler (médias indépendants, collectifs, témoignages) est un vrai levier, à la portée de toute personne qui ne peut pas sortir. Relayer une manifestation **déclarée** (date, lieu, organisateur·ices) est sans risque. Les gestes qui comptent, et ceux à éviter (ne pas « partager » les contenus d'extrême droite, ne pas publier de noms ni de visages) sont dans [Réseaux sociaux : comprendre l'algorithme](reseaux-sociaux.md#faire-monter-ce-qui-compte).
+Partager, commenter, enregistrer et « liker » les contenus que vous voulez voir circuler (médias indépendants, collectifs, témoignages) est un vrai levier, à la portée de toute personne qui ne peut pas sortir. Relayer une manifestation **déclarée** (date, lieu, organisateur·ices) est sans risque. Si vous êtes étranger·ère, lisez d'abord [les risques pour votre séjour](etrangers.md#les-risques-a-connaitre) avant de publier. Les gestes qui comptent, et ceux à éviter (ne pas « partager » les contenus d'extrême droite, ne pas publier de noms ni de visages) sont dans [Réseaux sociaux : comprendre l'algorithme](reseaux-sociaux.md#faire-monter-ce-qui-compte).
 
 ## Voter
 
@@ -122,6 +122,7 @@ Les guides conseillent de prévenir **une personne qui ne manifeste pas** : c'es
 - **Relire et contribuer au site** : si vous êtes avocat·e, soignant·e ou traducteur·ice, vous pouvez [relire une information](../relire/index.md) ou [contribuer](../contribuer/index.md).
 - **Accompagner une personne blessée** : venir avec elle aux urgences, l'aider à obtenir le certificat médical et à porter plainte ([porter plainte](suites-judiciaires.md), [premiers secours](premiers-secours.md)).
 - **Relayer** les appels des legal teams et des caisses, sans diffuser de noms ni de photos de personnes ([filmer et publier](filmer.md)).
+- **Participer en bordure** plutôt qu'au cœur du cortège : [Manifester sans être au cœur du cortège](hors-du-coeur-du-cortege.md).
 - **Garder** des enfants, un animal, un logement pour qui manifeste ou sort de garde à vue.
 - **Convaincre** vos proches, avec calme ([convaincre ses proches](convaincre-ses-proches.md)).
 

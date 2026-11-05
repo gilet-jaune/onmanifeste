@@ -231,6 +231,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](etrangers.md)
 
+- **Manifester sans être au cœur du cortège** [:material-account-multiple-outline:](hors-du-coeur-du-cortege.md)
+
+    ***
+
+    Choisir sa place, quitter à temps, rassemblements calmes, ou soutenir sans y aller.
+
+    [:octicons-arrow-right-24: Lire](hors-du-coeur-du-cortege.md)
+
 - **Handicap ou maladie chronique** [:material-wheelchair-accessibility:](handicap.md)
 
     ***

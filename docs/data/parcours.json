@@ -1853,6 +1853,13 @@
                 "fr": "Partir avant la dispersion",
                 "en": "Leave before dispersal"
               }
+            },
+            {
+              "guide": "hors-du-coeur-du-cortege",
+              "label": {
+                "fr": "Manifester sans être au cœur du cortège",
+                "en": "Protesting without being in the heart of the march"
+              }
             }
           ]
         },
@@ -4129,6 +4136,51 @@
                 "fr": "Partir à temps",
                 "en": "Leaving in time"
               }
+            },
+            {
+              "guide": "hors-du-coeur-du-cortege",
+              "label": {
+                "fr": "Manifester sans être au cœur du cortège",
+                "en": "Protesting without being in the heart of the march"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "soutenir sans aller en manif",
+            "en": "support without going to a protest"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "aider-autrement",
+                "en": "help-in-other-ways"
+              },
+              "label": {
+                "fr": "Aider autrement",
+                "en": "Help in other ways"
+              }
             }
           ]
         }
@@ -4312,6 +4364,13 @@
                 "fr": "Urgences : 114 par SMS pour les personnes sourdes",
                 "en": "Emergencies: 114 by text for deaf people"
               }
+            },
+            {
+              "guide": "hors-du-coeur-du-cortege",
+              "label": {
+                "fr": "Manifester sans être au cœur du cortège",
+                "en": "Protesting without being in the heart of the march"
+              }
             }
           ]
         },
@@ -4489,6 +4548,13 @@
                 "fr": "Pourquoi ça casse en manif ?",
                 "en": "Why do protests turn to property damage?"
               }
+            },
+            {
+              "guide": "hors-du-coeur-du-cortege",
+              "label": {
+                "fr": "Manifester sans être au cœur du cortège",
+                "en": "Protesting without being in the heart of the march"
+              }
             }
           ]
         },
@@ -4564,6 +4630,44 @@
             },
             {
               "resource": "organic-maps"
+            }
+          ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "soutenir sans pouvoir me déplacer",
+            "en": "support without being able to travel"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "aider-autrement",
+                "en": "help-in-other-ways"
+              },
+              "label": {
+                "fr": "Aider autrement",
+                "en": "Help in other ways"
+              }
             }
           ]
         }
@@ -5861,6 +5965,44 @@
               "resource": "eu-tax-observatory"
             }
           ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "soutenir sans avoir d'argent à donner",
+            "en": "support without money to give"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "aider-autrement",
+                "en": "help-in-other-ways"
+              },
+              "label": {
+                "fr": "Aider autrement",
+                "en": "Help in other ways"
+              }
+            }
+          ]
         }
       ],
       "group": "situation"
@@ -6338,6 +6480,51 @@
               "label": {
                 "fr": "Premiers secours, gaz lacrymogène",
                 "en": "First aid, tear gas"
+              }
+            },
+            {
+              "guide": "hors-du-coeur-du-cortege",
+              "label": {
+                "fr": "Manifester sans être au cœur du cortège",
+                "en": "Protesting without being in the heart of the march"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soutenir-a-distance",
+          "label": {
+            "fr": "soutenir sans pouvoir venir",
+            "en": "support without being able to come"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "relayer-en-ligne",
+                "en": "relay-online"
+              },
+              "label": {
+                "fr": "Relayer en ligne",
+                "en": "Relay online"
+              }
+            },
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "aider-autrement",
+                "en": "help-in-other-ways"
+              },
+              "label": {
+                "fr": "Aider autrement",
+                "en": "Help in other ways"
               }
             }
           ]

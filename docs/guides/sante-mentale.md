@@ -73,6 +73,8 @@ Face à la violence de l'actualité ou à la répression, la tristesse, la colè
 
 [:octicons-arrow-right-24: Toutes les ressources « soutien psychologique » dans l'annuaire](../annuaire/index.md?tags=soutien-psychologique)
 
+[:octicons-arrow-right-24: Vous ne pouvez pas ou ne voulez pas aller en manif ? Soutenir sans y aller](soutenir-a-distance.md)
+
 ## Sources
 
 Chaque note renvoie à la source de l'information. En cas d'urgence médicale ou psychologique, appelez le **3114** ou le **15**.

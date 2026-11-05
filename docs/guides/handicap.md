@@ -45,6 +45,8 @@ La loi prévoit des garanties spécifiques pour votre santé et votre accessibil
 
 [:octicons-arrow-right-24: Lire l'enquête « Manifs et handicap » (Reporterre) et les ressources santé dans l'annuaire](../annuaire/index.md?situation=blesse)
 
+[:octicons-arrow-right-24: Vous ne pouvez pas ou ne voulez pas aller en manif ? Soutenir sans y aller](soutenir-a-distance.md)
+
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.

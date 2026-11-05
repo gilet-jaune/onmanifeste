@@ -127,6 +127,7 @@ plugins:
             Filmer les forces de l'ordre: Film the police
             Dispersion, sommations et nasse: Dispersal, warnings and kettling
             Handicap ou maladie chronique: Disability or chronic condition
+            Manifester sans être au cœur du cortège: Protesting without being in the heart of the march
             Manifester sans la nationalité française: Protesting without French nationality
             Drapeau palestinien en manifestation: The Palestinian flag at protests
             "Lycéen·nes : blocus, absences, sanctions": "High-school students: blockades, absences, sanctions"
@@ -248,6 +249,7 @@ nav:
           - Grève, manif et travail: guides/travail.md
           - Manifester sans la nationalité française: guides/etrangers.md
           - Handicap ou maladie chronique: guides/handicap.md
+          - Manifester sans être au cœur du cortège: guides/hors-du-coeur-du-cortege.md
       - Mobiliser et informer:
           - Organiser une manifestation: guides/organiser.md
           - Soutenir sans aller en manif: guides/soutenir-a-distance.md

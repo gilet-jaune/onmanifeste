@@ -5496,6 +5496,55 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "cimade-menace-ordre-public": {
+      "title": {
+        "fr": "La Cimade — La menace à l'ordre public (loi asile et immigration 2023)",
+        "en": "La Cimade — The 'threat to public order' (2023 asylum and immigration bill, in French)"
+      },
+      "url": "https://www.lacimade.org/projet-de-loi-asile-et-immigration-2023-la-menace-a-lordre-public/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-2026-508967-message-en-ligne": {
+      "title": {
+        "fr": "Conseil d'État, 2 octobre 2026, n° 508967 (message en ligne et retrait de carte de séjour)",
+        "en": "Conseil d'État, 2 October 2026, no. 508967 (online message and withdrawal of a residence card, in French)"
+      },
+      "url": "https://www.justiweb.fr/conseil-etat/DCE_508967_20261002",
+      "check": {
+        "date": "2026-11-05",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Texte lu sur un site de jurisprudence non officiel (Justiweb) ; non retrouvé sur le site du Conseil d'État."
+      }
+    },
+    "desarmons-kit-blesses": {
+      "title": {
+        "fr": "Désarmons-les — Kit d'information et de soutien aux blessé·es et à leurs proches",
+        "en": "Désarmons-les — Information and support kit for injured people and their relatives (in French)"
+      },
+      "url": "https://desarmons.net/ressources/brochures-desarmons/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "desarmons-avocates": {
+      "title": {
+        "fr": "Désarmons-les — Équipe d'avocat·es engagé·es sur les dossiers de violences policières",
+        "en": "Désarmons-les — Team of lawyers working on police-violence cases (in French)"
+      },
+      "url": "https://desarmons.net/equipe-davocates-engagees-sur-les-dossiers-de-violences-policieres/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

@@ -80,6 +80,8 @@ Quand la discussion porte sur « qui possède les médias », « où passe l'arg
 
 [:octicons-arrow-right-24: Repères historiques : des droits gagnés dans la rue](../histoire/index.md)
 
+[:octicons-arrow-right-24: Vous ne pouvez pas ou ne voulez pas aller en manif ? Soutenir sans y aller](soutenir-a-distance.md)
+
 ## Sources
 
 Chaque note renvoie à la source de l'information. Les textes de loi évoluent : vérifiez la date de la source et, en cas de doute, demandez à un·e avocat·e.
