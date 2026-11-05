@@ -21,7 +21,7 @@ Le trajet compte autant que le cortège : on prépare l'aller **et le retour**, 
 - [ ] Préparez **deux itinéraires de retour**, à pied jusqu'à des stations éloignées du parcours.
 - [ ] Téléchargez une **carte hors ligne** ([Organic Maps](../annuaire/index.md#organic-maps)) : le réseau mobile sature souvent sur place. Tutoriels pour chaque appli dans la [checklist avant la manif](avant-de-partir.md#carte-hors-ligne).
 - [ ] Consultez l'**info trafic** le matin même : des stations peuvent être fermées sur demande de la préfecture, et la liste change jusqu'au dernier moment.[^ratp][^fermeture] Info trafic et vélos en libre-service des grandes villes (TCL, Vélo'v, RTM, Tisséo, TBM…) : [annuaire « info trafic »](../annuaire/index.md?tags=info-trafic) · [vélos](../annuaire/index.md?tags=velo).
-- [ ] Ayez un **titre de transport** et un peu d'argent liquide, téléphone chargé, batterie externe.
+- [ ] Ayez un **titre de transport** et un peu d'argent liquide ; le téléphone est dans la [checklist](avant-de-partir.md#telephone).
 - [ ] Fixez un **point de rendez-vous** avec votre groupe, loin du parcours ([ne jamais rester seul·e](ne-pas-rester-seul.md)).
 
 ## Y aller

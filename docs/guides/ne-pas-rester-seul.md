@@ -42,9 +42,7 @@ L'isolement est le premier risque en manifestation : personne pour témoigner d'
 
 ## Après
 
-- Ne rentrez pas seul·e, surtout de nuit : partez **à plusieurs**, ou faites-vous raccompagner jusqu'aux transports.
-- Envoyez un message « bien rentré·e » à votre contact.
-- **De retour chez vous** : si vous avez été exposé·e au gaz, prenez d'abord une douche **froide** (l'eau chaude rouvre les pores) et lavez vos vêtements séparément ([voir « Venir et repartir »](venir-repartir.md#de-retour-chez-soi-decontamination-et-soins)).[^medic-soins]
+- **Rentrez à plusieurs** et envoyez un message « bien rentré·e » à votre contact : le détail du retour et la décontamination à la maison sont dans [« Venir et repartir »](venir-repartir.md#repartir).
 - Si quelqu'un est en garde à vue, organisez un **accueil à la sortie** du commissariat : la sortie peut avoir lieu à n'importe quelle heure.
 
 [:octicons-arrow-right-24: Contacts antirépression dans l'annuaire](../annuaire/index.md?tags=antirepression)

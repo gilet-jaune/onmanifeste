@@ -67,8 +67,7 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 - [ ] **Sérum physiologique** en dosettes (rinçage des yeux), pansements, compresses ([trousse de soins détaillée](premiers-secours.md#trousse-de-soins)).
 - [ ] En-cas sucré, médicaments personnels avec **une copie de l'ordonnance** (utile en cas d'arrestation).[^medicaction-gestes]
 - [ ] Pour les personnes réglées : des **serviettes hygiéniques** plutôt que des tampons, jugés trop dangereux portés longtemps.[^medicaction-gestes]
-- [ ] Batterie externe ; téléphone chargé, verrouillé par **code** (pas l'empreinte ni le visage).[^eff-protest]
-- [ ] **Sauvegarde automatique** des photos activée en données mobiles, sur un service chiffré ([voir « Filmer les forces de l'ordre »](filmer.md)).
+- [ ] **Téléphone** (chargé, batterie externe, code de verrouillage, sauvegarde automatique des photos sur un service chiffré) : voir la [checklist avant la manif](avant-de-partir.md#telephone).[^eff-protest]
 - [ ] Papier avec les numéros utiles ([voir « Ne jamais rester seul·e »](ne-pas-rester-seul.md)).
 
 ## À laisser à la maison

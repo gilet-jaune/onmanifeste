@@ -16,6 +16,12 @@ tags:
     - **Cuisine** : préparer et distribuer de la nourriture, en respectant l'hygiène.
     - **Voix** : relayer en ligne, voter, signer des pétitions.
 
+!!! tip "Par où commencer ?"
+
+    - Argent : [caisse de solidarité](#donner-a-une-caisse-de-solidarite). Matériel : [street-médics](#equiper-les-street-medics). Nourriture : [cuisine et ravitaillement](#distribuer-de-la-nourriture).
+    - Sur place : [transport](#transporter-des-personnes), [groupe temporaire](#se-coordonner-pour-une-tache-precise), [personne ressource](#etre-la-personne-ressource-a-lexterieur).
+    - De chez vous : [relayer en ligne](#relayer-en-ligne), [voter](#voter), [pétitions](#signer-des-petitions), [autres idées](#aider-autrement).
+
 ## Donner à une caisse de solidarité
 
 Une caisse de solidarité ou antirépression aide les personnes poursuivies (frais d'avocat, amendes, déplacements) et les salarié·es en lutte.

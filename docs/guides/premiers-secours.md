@@ -67,7 +67,7 @@ Trois réflexes, dans l'ordre : **protéger** (se mettre et mettre la personne �
 5. **Rincez les yeux** abondamment au sérum physiologique ou à l'eau claire, tête penchée sur le côté, de l'intérieur vers l'extérieur de l'œil.[^medic-gestes]
 6. Retirez les lentilles de contact si vous en portez (mains propres).[^allodocteurs-proteger]
 7. Crachez, mouchez-vous, ne ravalez pas.
-8. Après la manif, une fois les résidus retirés : douche **froide** d'abord (l'eau chaude rouvre les pores), vêtements lavés séparément.[^medic-soins]
+8. Après la manif, une fois les résidus retirés : douche **froide** d'abord (l'eau chaude rouvre les pores), vêtements lavés séparément ([la procédure complète](venir-repartir.md#de-retour-chez-soi-decontamination-et-soins)).[^medic-soins]
 
 Si vous avez reçu un coup de **gazeuse** (gel, bien plus fort), retirez-le délicatement avec des **lingettes** (type bébé), en frottant le moins possible et en n'utilisant chaque zone de la lingette qu'une seule fois. Médic'Action déconseille de passer de l'eau sur le moment : elle dissoudrait les cristaux de CS et activerait encore plus le produit.[^medicaction-touxtes]
 
