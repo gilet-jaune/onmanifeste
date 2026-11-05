@@ -1,6 +1,6 @@
 ---
 description: 'All the guides for protesting in France: before, during and after the protest, depending on your situation. Available offline.'
-source_commit: 4637462e02618d6b3ce3bca1963244d3f6cef4be
+source_commit: bafb08030758cfb5b267779e6a98117d2451ce7d
 tags:
     - guides
 image: assets/covers/guides.svg
@@ -253,6 +253,14 @@ Guides to read before you go, **available offline** once the site has been opene
     Notify, prepare safety, risks for organisers.
 
     [:octicons-arrow-right-24: Read](organiser.md)
+
+- **Supporting without going to protests** [:material-hand-heart:](soutenir-a-distance.md)
+
+    ***
+
+    Solidarity fund, supplies for street medics, a relay on the outside.
+
+    [:octicons-arrow-right-24: Read](soutenir-a-distance.md)
 
 - **Signal groups: organising while limiting leaks** [:material-account-group:](groupes-signal.md)
 
