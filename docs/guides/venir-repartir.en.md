@@ -1,6 +1,6 @@
 ---
 description: 'Getting to and from a protest: return routes, transport, offline map, leaving without being isolated.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
 tags:
     - guides
     - transport
@@ -22,7 +22,7 @@ The journey matters as much as the march: plan the way there **and back**, with 
 - [ ] Prepare **two routes home**, on foot to stations away from the route.
 - [ ] Download an **offline map** ([Organic Maps](../annuaire/index.md#organic-maps)): the mobile network often saturates on site. Tutorials for each app in the [pre-protest checklist](avant-de-partir.md#offline-map).
 - [ ] Check **traffic information** the same morning: stations can be closed at the prefecture's request, and the list changes until the last minute.[^ratp][^fermeture] Traffic info and bike sharing in big cities (TCL, Vélo'v, RTM, Tisséo, TBM…): [directory "traffic info"](../annuaire/index.md?tags=info-trafic) · [bikes](../annuaire/index.md?tags=velo).
-- [ ] Carry a **ticket** and some cash, a charged phone and a power bank.
+- [ ] Carry a **ticket** and some cash; the phone is covered in the [checklist](avant-de-partir.md#phone).
 - [ ] Set a **meeting point** with your group, away from the route ([never stay alone](ne-pas-rester-seul.md)).
 
 ## Getting there

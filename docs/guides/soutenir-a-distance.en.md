@@ -1,6 +1,6 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
+source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
 tags:
     - guides
     - support
@@ -16,6 +16,12 @@ tags:
     - **Presence**: be the person who picks up, alerts the legal team or meets someone leaving custody.
     - **Kitchen**: prepare and hand out food, respecting hygiene.
     - **Voice**: relay online, vote, sign petitions.
+
+!!! tip "Where to start?"
+
+    - Money: [solidarity fund](#give-to-a-solidarity-fund). Supplies: [street medics](#equip-street-medics). Food: [kitchen and supplies](#hand-out-food).
+    - On the ground: [transport](#transport-people), [temporary group](#coordinate-for-a-specific-task), [contact person](#be-the-contact-person-outside).
+    - From home: [relay online](#relay-online), [vote](#vote), [petitions](#sign-petitions), [other ideas](#help-in-other-ways).
 
 ## Give to a solidarity fund
 

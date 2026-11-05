@@ -1,6 +1,6 @@
 ---
 description: 'Protest kit and clothing: clothes, eye and respiratory protection, what to bring and what to leave at home.'
-source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
+source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
 review: juridique
 review_status: pending
 tags:
@@ -68,8 +68,7 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 - [ ] **Saline** single doses (eye rinse), plasters, compresses ([detailed first-aid kit](premiers-secours.md#first-aid-kit)).
 - [ ] Sugary snack, personal medication with **a copy of the prescription** (useful if you are arrested).[^medicaction-gestes]
 - [ ] If you menstruate: **sanitary pads** rather than tampons, which are considered too risky when worn for a long time.[^medicaction-gestes]
-- [ ] Power bank; phone charged and locked with a **PIN** (not fingerprint or face).[^eff-protest]
-- [ ] **Automatic photo backup** on over mobile data, to an encrypted service ([see "Film the police"](filmer.md)).
+- [ ] **Phone** (charged, power bank, lock code, automatic photo backup to an encrypted service): see the [pre-protest checklist](avant-de-partir.md#phone).[^eff-protest]
 - [ ] Paper with useful numbers ([see "Never stay alone"](ne-pas-rester-seul.md)).
 
 ## Leave at home

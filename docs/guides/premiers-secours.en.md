@@ -1,6 +1,6 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
+source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
 review: medical
 review_status: pending
 tags:
@@ -68,7 +68,7 @@ Three reflexes, in order: **protect** (get yourself and the person to safety), *
 5. **Rinse the eyes** generously with saline or clean water, head tilted to the side, from the inner to the outer corner of the eye.[^medic-gestes]
 6. Remove contact lenses if you wear them (clean hands).[^allodocteurs-proteger]
 7. Spit, blow your nose, don't swallow.
-8. After the protest, once the residue is removed: **cold** shower first (hot water opens the pores), wash clothes separately.[^medic-soins]
+8. After the protest, once the residue is removed: **cold** shower first (hot water opens the pores), wash clothes separately ([the full procedure](venir-repartir.md#back-home-decontamination-and-care)).[^medic-soins]
 
 If you were hit by a **pepper gel spray** (much stronger), remove the gel gently with **wipes** (baby-wipe type), rubbing as little as possible and using each part of the wipe only once. Médic'Action advises against running water on the skin at that point: it would dissolve the CS crystals and activate the product even more.[^medicaction-touxtes]
 

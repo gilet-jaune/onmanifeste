@@ -1,6 +1,6 @@
 ---
 description: 'Never stay alone at a protest: buddy, meeting points, someone to alert.'
-source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
+source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
 tags:
     - guides
     - safety
@@ -43,9 +43,7 @@ Isolation is the first risk at a protest: no one to witness an arrest, alert a l
 
 ## After
 
-- Don't go home alone, especially at night: leave **together**, or get walked to public transport.
-- Send a "home safe" message to your contact.
-- **Back home**: if you were exposed to gas, take a **cold** shower first (hot water opens the pores) and wash your clothes separately ([see "Getting there and back"](venir-repartir.md#back-home-decontamination-and-care)).[^medic-soins]
+- **Go home together** and send a "home safe" message to your contact: the details of the way back and decontamination at home are in ["Getting there and back"](venir-repartir.md#getting-back).
 - If someone is in custody, organise **someone to meet them** outside the police station: release can happen at any hour.
 
 [:octicons-arrow-right-24: Anti-repression contacts in the directory](../annuaire/index.md?tags=antirepression)

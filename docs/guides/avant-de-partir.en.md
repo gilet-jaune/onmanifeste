@@ -1,6 +1,6 @@
 ---
 description: 'Checklist before heading to a protest: phone, belongings, meeting points, people to tell. Prepare it the day before.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
 tags:
     - guides
     - préparation
@@ -46,7 +46,7 @@ Download the protest area **and** your way home. Test in airplane mode: the map 
 
 ## On paper and on you
 
-- [ ] Useful numbers written in permanent marker **on your skin under clothing** (upper arm, stomach — out of sight) and on paper: **only the 10 digits, with no name** (a close contact who is not protesting and answers hidden numbers, the legal team, a lawyer). In police custody, your phone and belongings are confiscated ([see "Never stay alone"](ne-pas-rester-seul.md)).[^sm-guide]
+- [ ] Useful numbers written in permanent marker **on your skin under clothing** and on paper, **only the 10 digits, with no name**: the detail (which numbers, where to write them, why) is in ["Never stay alone"](ne-pas-rester-seul.md#before-you-go).[^sm-guide]
 - [ ] A **trusted contact who holds your supporting documents** (photos of your ID, proof of address, work contract or student certificate): in case of immediate trial (comparution immédiate), they hand them to the lawyer ([proof of ties](suites-judiciaires.md)).
 - [ ] The printed [pocket card](../carte/index.md).
 
