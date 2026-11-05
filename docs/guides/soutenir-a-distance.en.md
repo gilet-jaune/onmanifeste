@@ -1,6 +1,6 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: bafb08030758cfb5b267779e6a98117d2451ce7d
+source_commit: e59c80f3ada517303bb20b5f4fa4f617967a7ef9
 tags:
     - guides
     - support
@@ -14,6 +14,7 @@ tags:
     - **Money**: prefer a **solidarity fund** to a personal transfer.
     - **Supplies**: ask street medics **what they need** first.
     - **Presence**: be the person who picks up, alerts the legal team or meets someone leaving custody.
+    - **Kitchen**: prepare and hand out food, respecting hygiene.
     - **Voice**: relay online, vote, sign petitions.
 
 ## Give to a solidarity fund
@@ -37,6 +38,18 @@ Street-medic collectives run on donated supplies. Médic'Action says it can rece
 - For masks, see the [protest kit](kit-manif.md): surgical masks are useless against gas.[^abek]
 - Do not hand supplies to someone you do not know: go through the collective.
 - Nothing to donate? **Relay** the appeal to your circle, or offer a room, a lift, or storage.
+
+## Hand out food
+
+Preparing sandwiches, soup or supplies for a march or for people in struggle is a long-standing form of help: "struggle canteens" exist, such as the Rrave network, which served sandwiches, pancakes and soup "at a free price" near a roundabout during the call of 10 September 2025.[^reporterre-nourrir-greves] A few pointers, not legal advice:
+
+- **Declaration.** A DRAAF Occitanie document, written for food-aid associations, says that storing, handling and distributing meals by **volunteers** must be declared to the DDPP (Cerfa form 13984).[^draaf-aide-alimentaire] We found no text saying whether this applies to a **one-off** distribution at a protest: ask your département's DDPP, or go through an already organised collective.
+- **Hygiene** (pointers from the same document): wash your hands before and after each handling and keep sick or injured people away from preparation; keep chilled products cold (between 0 and +3 °C); cooked dishes that have been on display cannot be kept for the next day.[^draaf-aide-alimentaire] For preparations, the document asks that they be limited to immediate consumption and forbids those made in advance: a sandwich made the day before is therefore a point to check with the DDPP.
+- **If someone falls ill**: at least two grouped cases of symptoms (often digestive) linked to the same food make a collective food poisoning, to be reported to the ARS or the DDPP even if only suspected.[^draaf-aide-alimentaire]
+- **Allergens**: we could not verify whether the information is mandatory for free distribution. As a precaution (practical tip), display the list of ingredients of each preparation.
+- **On the spot**: the official page on notifying a protest says nothing about food or stalls.[^sp-declarer-manifestation] A distribution is not always tolerated: in March 2024, near the A69 motorway site, gendarmes dispersed with tear gas people who had come to bring food to opponents, just after the UN special rapporteur had asked that supplies be allowed through.[^linfodurable-a69-ravitaillement] Tell the organisers and choose a spot where you do not obstruct the march.
+- **Ask restaurants for unsold food**: nothing forbids asking, but the official pages we read organise donations towards **charities and food-aid associations**. The law requires agreements for supermarkets above 400 m² and for catering above 3,000 meals a day, not for ordinary restaurants, and these pages do not say that an informal group may receive cooked dishes.[^agri-gaspillage-lois] A donation of perishables is made at least 48 hours before the use-by date (unless a shorter agreement), and plate leftovers or a started tray cannot be given.[^agri-aide-alimentaire] Safer: go through an existing food-aid association.
+- **Selling** (even at a free price) is another procedure that we have not detailed: for drinks, Service-Public provides a specific form for a temporary association refreshment stand.
 
 ## Relay online
 
@@ -65,6 +78,27 @@ Petitions are a discreet way to weigh in without leaving home. They rarely have 
     - **Other platforms**: we have not read their policy. Assume a name and an email address are collected.
     - **In every case**, a private petition has no official standing: it applies pressure, it does not refer a matter to an assembly. Avoid them if your administrative situation is fragile.
 
+## Coordinate for a specific task
+
+To set up a team quickly (kitchen, transport, welcome), the Signal guide describes the **temporary group**, a disposable group to be used on the assumption that police may be in it ([the temporary group](signal-gerer.md#the-temporary-group)):
+
+- **For a day**: created on the spot, with the people present added by username, in person, with ephemeral messages of a few hours. **For a few days**: people join after meeting a secretary, with one-day ephemeral messages.
+- A **neutral name**, with no movement or city, and the deletion delay set **before inviting** anyone.
+- **Practical content only** ("need water", "leaving at 8"): no names, no photos of faces, no addresses.
+- **No link** with trusted groups, and the group is **closed at the end** of the task.
+
+For the rest (roles, trusted groups, airlock), see [Signal groups: overview](groupes-signal.md).
+
+## Transport people
+
+Driving people to a gathering, or back, helps those without a vehicle or who cannot walk far.
+
+- **Car or minibus**: with a category B licence, a vehicle of up to 3.5 t can carry up to **9 seated people, driver included**.[^sp-permis-b] **Above 9 seats** (coach), you need a **category D licence**, generally from age 24.[^sp-permis-d] **Carpooling**: it assumes a trip the driver makes for their own purposes and a simple **cost-sharing** (fuel, tolls, wear…, with a recommended maximum of €0.20/km per passenger); if the driver makes a profit, it is no longer carpooling. The passenger is covered by the driver's compulsory liability insurance, with no specific insurance needed.[^ecologie-covoiturage]
+- **Truck, van, flatbed**: the number of passengers is limited to the **seats** shown on the registration certificate, and each seat can be occupied by only one person (fourth-class fine and 3 points off the driver's licence).[^cr-r412-1-1] So people are not carried in the load area, which has no registered seat (our deduction from this text). **The seat belt is compulsory** wherever the seat has one.[^cr-r412-1] For children: every passenger under 18 must be restrained by a belt or an approved system, a child under 3 cannot travel on a seat without a belt, and a child under 10 must be in a suitable restraint.[^cr-r412-2]
+- **Rented or lent coach**: we found nothing on a coach hired by an association or on authorisation for free transport: ask the hire company.
+- **Vehicle searches**: vehicle searches near an action have been reported;[^reporterre-bassines-saisies] see [identity checks, bag searches and fines](controle-fouille.md). Leave on board only what you need.
+- **Organisation**: see the tips in [getting there and back](venir-repartir.md#car-sharing) (trusted people, route and return shared with a relative, parking away from the route).
+
 ## Be the contact person outside
 
 The guides advise alerting **someone who is not at the protest**: that can be you, if you offer.[^legal-team]
@@ -76,10 +110,21 @@ The guides advise alerting **someone who is not at the protest**: that can be yo
 
 ## Help in other ways
 
+- **Write to your deputy**: the National Assembly publishes the list of deputies, with a page for each showing the constituency, a postal address and an email address.[^assemblee-deputes] Write about a specific subject, in your own name. The Senate also publishes its list of senators; a senator's page gives an email contact link and a postal address at the Senate.[^senat-senateurs]
+- **Take first-aid training (PSC)**: the Red Cross offers a state-recognised "Premiers secours citoyen" course, 8 hours, €60, in person or hybrid, with registration by postcode or town.[^croix-rouge-psc] The Protection civile also offers it, with a certificate issued at the end of the full course.[^protection-civile-psc] Useful in daily life as in a march: see [first aid](premiers-secours.md).
+- **Observe and lend a hand to legal teams**: the LDH trains observers of public freedoms ({{ res("ldh-observatoires") }}). To help a legal team remotely (phone line, proofreading, translation), contact the one in your city from the [directory](../annuaire/index.md?tags=antirepression): we do not know what each accepts.
+- **Support independent media**: subscribe or donate to outlets that cover protests and police violence. To find them and check what you relay, see [stay informed](s-informer-se-former.md#stay-informed) and [avoiding disinformation](desinformation.md).
+- **Host or carpool**: see the tips in [getting there and back](venir-repartir.md#car-sharing). Practical tip, unsourced: offer it to people a collective or a trusted person knows, tell a relative, and do not publish your address.
+- **Make signs, banners and leaflets** at home: [signs, banners, flags and leaflets](faire-sa-pancarte.md).
+- **Listen** to someone coming back from a protest or custody: stay available, without rushing them. The gestures and helplines (3114, France Victimes on 116 006…) are in [emotional shock and mental health](sante-mentale.md).
+- **Testify**: if you saw or filmed violence, [keep the evidence](filmer.md#right-after-keep-the-evidence) and report it to an observatory or a legal team; see also [the censuses of injured people](../victimes/index.md).
+- **Attend hearings**: criminal hearings are public, unless the court decides otherwise.[^justice-procedure-penale] **From the opening of the hearing, any device able to record images or sound is forbidden** (phones included): two months' imprisonment and a €4,500 fine, with seizure of the equipment.[^loi-1881-38ter] Practical tip, unsourced: arrive early with ID; we found no official rule on entry checks. See [filing a complaint, voluntary interview and trial](suites-judiciaires.md).
+- **Support a detained person**: according to Service-Public, a convicted person can receive **one visit a week** with a permit requested from the prison governor (online or by post, with ID and proof of relationship, answer generally within 3 weeks, no answer within 2 months counting as a refusal). They can receive mail from anyone, which must not contain money, and money by transfer to their personal account with their prison number. For a person on remand the rules differ (request to the magistrate in charge): see the page.[^sp-vie-en-prison]
+- **Review and contribute to the site**: if you are a lawyer, health professional or translator, you can [review a piece of information](../relire/index.md) or [contribute](../contribuer/index.md).
+- **Accompany an injured person**: go with them to A&E, help them get the medical certificate and file a complaint ([filing a complaint](suites-judiciaires.md), [first aid](premiers-secours.md)).
 - **Relay** calls from legal teams and funds, without sharing names or photos of people ([film and publish](filmer.md)).
 - **Look after** children, a pet, a home for someone who protests or leaves custody.
 - **Persuade** your circle, calmly ([convince your relatives](convaincre-ses-proches.md)).
-- **Learn** first-aid basics, to use in daily life as in a march ([first aid](premiers-secours.md)).
 
 [:octicons-arrow-right-24: Solidarity funds and legal teams in the directory](../annuaire/index.md?tags=caisse-de-solidarite)
 
