@@ -42,6 +42,18 @@ Tous les contrôles de sac ne se valent pas juridiquement :[^sp-fouille][^sm-gui
 
 - Restez calme et n'entravez pas physiquement la fouille (risque de poursuites pour **rébellion**), mais si un objet vous est confisqué sans placement en garde à vue, demandez un justificatif ou notez l'heure, le lieu et le matricule.[^sm-guide]
 
+## Sérum physiologique, lunettes, masque : peut-on vous les confisquer ?
+
+Des saisies de **sérum physiologique**, de **lunettes de protection** et de **masques** sont rapportées lors de fouilles de sacs, sans qu'on voie toujours sur quoi elles reposent.
+
+- **Ce qui a été signalé.** En 2016 à Lyon, des manifestant·es ont dit s'être fait confisquer leur sérum ; la préfecture du Rhône a démenti toute consigne et affirmé que seuls les objets cachant le visage pouvaient l'être.[^buzzfeed-serum-lyon] En juillet 2024, aux abords d'une action contre les mégabassines, des gendarmes ont saisi des lunettes, des masques, du sérum physiologique et même des serviettes hygiéniques (« pouvant faire office de masque »), en invoquant des « armes par destination ». Selon la legal team présente, les réquisitions du préfet n'avaient pas été présentées pour justifier la fouille des véhicules.[^reporterre-bassines-saisies]
+- **Ce que disent les textes que nous avons lus** (lecture à faire confirmer par un·e juriste) :
+    - Aux abords d'une manifestation, la police peut inspecter ou fouiller les sacs **sur réquisitions écrites du procureur**, pour rechercher le port d'une arme.[^cpp-78-2-5] La fouille a lieu **en votre présence**, et vous pouvez **demander un procès-verbal**, dont un exemplaire vous est remis.[^cpp-78-controles]
+    - Une **arme** est un objet conçu pour tuer ou blesser. Un autre objet n'est assimilé à une arme que s'il peut présenter un danger et s'il est **utilisé ou destiné par son porteur** à tuer, blesser ou menacer.[^cp-132-75] À notre lecture, du sérum emporté pour se rincer les yeux ne correspond pas à cette définition. Un·e agent·e peut en juger autrement sur place : la contestation se fait ensuite.
+    - Ces articles **ne prévoient pas** expressément la saisie d'objets ni la remise d'un récépissé. D'autres règles de saisie existent, que nous n'avons pas détaillées ici.
+- **Que faire sur place.** Restez calme et ne résistez pas physiquement. Demandez s'il existe des **réquisitions écrites du procureur**, **demandez le procès-verbal** et la liste de ce qui est pris, notez l'heure, le lieu et le matricule, et photographiez si c'est possible. Ensuite, parlez-en à une legal team ou à un·e avocat·e ([voir « Porter plainte, audition libre et procès »](suites-judiciaires.md)).
+- **Conseil pratique** (ce n'est pas une règle de droit) : emportez des **dosettes** plutôt qu'un flacon, rangées avec les soins dans une trousse, pour montrer qu'il s'agit d'un usage médical.
+
 ## Amende sur place (135 €) : ne payez pas tout de suite
 
 En manifestation, la police verbalise parfois par amende forfaitaire (notamment **135 €** pour participation à une manifestation interdite par arrêté préfectoral) :[^amnesty-droits][^sp-amende]

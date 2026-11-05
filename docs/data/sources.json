@@ -4980,6 +4980,30 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "buzzfeed-serum-lyon": {
+      "title": {
+        "fr": "BuzzFeed — Des policiers accusés de confisquer le sérum physiologique des manifestants à Lyon (mai 2016)",
+        "en": "BuzzFeed — Police accused of confiscating protesters' saline solution in Lyon (May 2016)"
+      },
+      "url": "https://www.buzzfeed.com/fr/julesdarmanin/des-policiers-accuses-de-confisquer-le-serum-physiologique-d",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-bassines-saisies": {
+      "title": {
+        "fr": "Reporterre — Bottes, serviettes hygiéniques… ces objets absurdes confisqués aux antibassines (juillet 2024)",
+        "en": "Reporterre — Boots, sanitary pads… the absurd objects confiscated from anti-bassines protesters (July 2024)"
+      },
+      "url": "https://reporterre.net/Bottes-serviettes-hygieniques-ces-objets-absurdes-confisques-aux-antibassines",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

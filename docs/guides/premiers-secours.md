@@ -104,7 +104,7 @@ Ne faites pas de geste que vous ne connaissez pas : formez-vous auprès de {{ re
 - **Base** : compresses absorbantes non tissées, sparadrap et pansements adhésifs, désinfectant de type **chlorhexidine** (évitez les solutions iodées comme la Bétadine), gants stériles si possible **sans latex** (rangés par paire dans des boîtes de pellicule ou des œufs Kinder), de quoi « re-sucrer » un malaise (une compote à boire par exemple).
 - **Selon votre formation** : couverture de survie (côté doré vers l'extérieur, en cas de choc), poche et bombe de froid, rouleaux de bandage et compresses stériles de différentes tailles, bandages triangulaires, pince à épiler, épingle à nourrice, lampe torche et piles de rechange, stylo (pour noter l'heure de pose d'un garrot par exemple), tulle gras, **ciseaux**.
 - **Peau, bouche, nez** : Medicaction cite le **Maalox** (jamais sur les yeux, pour lesquels on utilise le sérum physiologique).
-- **Attention aux saisies** : sérum physiologique, Maalox, masque filtrant, masque hermétique pour les yeux et ciseaux sont **fréquemment saisis**, voire répréhensibles selon le contexte, lors des fouilles ([voir « Kit et tenue de manif »](kit-manif.md)).[^medicaction-gestes]
+- **Attention aux saisies** : sérum physiologique, Maalox, masque filtrant, masque hermétique pour les yeux et ciseaux sont **fréquemment saisis** lors des fouilles.[^medicaction-gestes] Une saisie n'est pas une infraction de votre part, mais un objet peut être jugé dangereux selon le contexte (des ciseaux, par exemple) : voir [ce que disent les textes et que faire](controle-fouille.md#serum-physiologique-lunettes-masque-peut-on-vous-les-confisquer).
 
 ## Blessures
 
