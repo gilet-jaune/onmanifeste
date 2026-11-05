@@ -3349,7 +3349,42 @@
         "commenter",
         "relayer en ligne",
         "sign",
-        "share"
+        "share",
+        "nourriture",
+        "sandwich",
+        "sandwichs",
+        "cantine",
+        "ravitaillement",
+        "soupe",
+        "repas",
+        "food",
+        "canteen",
+        "depute",
+        "elu",
+        "ecrire",
+        "psc1",
+        "secourisme",
+        "formation",
+        "presse",
+        "heberger",
+        "covoiturage",
+        "temoigner",
+        "ecoute",
+        "transport",
+        "transporter",
+        "voiture",
+        "minibus",
+        "camion",
+        "bus",
+        "autocar",
+        "invendus",
+        "restaurant",
+        "signal",
+        "equipe",
+        "audience",
+        "prison",
+        "detenu",
+        "parloir"
       ],
       "needs": [
         {
@@ -3432,6 +3467,77 @@
           ]
         },
         {
+          "id": "nourriture",
+          "label": {
+            "fr": "préparer et distribuer de la nourriture (sandwichs…)",
+            "en": "prepare and hand out food (sandwiches…)"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "distribuer-de-la-nourriture",
+                "en": "hand-out-food"
+              },
+              "label": {
+                "fr": "Distribuer de la nourriture",
+                "en": "Hand out food"
+              }
+            }
+          ]
+        },
+        {
+          "id": "transport",
+          "label": {
+            "fr": "transporter des personnes (voiture, minibus, camion)",
+            "en": "transport people (car, minibus, truck)"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "transporter-des-personnes",
+                "en": "transport-people"
+              },
+              "label": {
+                "fr": "Transporter des personnes",
+                "en": "Transport people"
+              }
+            }
+          ]
+        },
+        {
+          "id": "coordonner",
+          "label": {
+            "fr": "m'organiser en équipe temporaire (groupe Signal)",
+            "en": "organise a temporary team (Signal group)"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "anchor": {
+                "fr": "se-coordonner-pour-une-tache-precise",
+                "en": "coordinate-for-a-specific-task"
+              },
+              "label": {
+                "fr": "Se coordonner pour une tâche précise",
+                "en": "Coordinate for a specific task"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "anchor": {
+                "fr": "le-groupe-temporaire",
+                "en": "the-temporary-group"
+              },
+              "label": {
+                "fr": "Le groupe temporaire",
+                "en": "The temporary group"
+              }
+            }
+          ]
+        },
+        {
           "id": "en-ligne",
           "label": {
             "fr": "relayer en ligne, voter, signer des pétitions",
@@ -3490,6 +3596,9 @@
                 "fr": "aider-autrement",
                 "en": "help-in-other-ways"
               }
+            },
+            {
+              "resource": "ldh-observatoires"
             }
           ]
         }

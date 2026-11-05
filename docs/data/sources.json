@@ -5280,6 +5280,222 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "draaf-aide-alimentaire": {
+      "title": {
+        "fr": "DRAAF Occitanie — Associations caritatives : recevoir, stocker et redistribuer l'aide alimentaire en sécurité",
+        "en": "DRAAF Occitanie — Charities: receiving, storing and redistributing food aid safely (in French)"
+      },
+      "url": "https://draaf.occitanie.agriculture.gouv.fr/IMG/pdf/rappel_reglementaire_associations_caritatives_dons_vf4_occitanie_impression_cle0714c1.pdf",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-nourrir-greves": {
+      "title": {
+        "fr": "Reporterre — Nourrir les grèves, mode d'emploi (septembre 2025)",
+        "en": "Reporterre — Feeding the strikes, a how-to (September 2025, in French)"
+      },
+      "url": "https://reporterre.net/Nourrir-les-greves-mode-d-emploi",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "linfodurable-a69-ravitaillement": {
+      "title": {
+        "fr": "L'Info Durable (AFP) — A69 : les gendarmes empêchent le ravitaillement des opposants (mars 2024)",
+        "en": "L'Info Durable (AFP) — A69: gendarmes prevent supplies reaching opponents (March 2024, in French)"
+      },
+      "url": "https://www.linfodurable.fr/a69-les-gendarmes-empechent-le-ravitaillement-des-opposants-44100",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "assemblee-deputes": {
+      "title": {
+        "fr": "Assemblée nationale — Liste des députés et fiches de contact",
+        "en": "National Assembly — List of deputies and contact pages (in French)"
+      },
+      "url": "https://www2.assemblee-nationale.fr/deputes/liste/alphabetique",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "croix-rouge-psc": {
+      "title": {
+        "fr": "Croix-Rouge française — Formations aux premiers secours (PSC)",
+        "en": "French Red Cross — First-aid training (PSC, in French)"
+      },
+      "url": "https://www.croix-rouge.fr/formations",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "protection-civile-psc": {
+      "title": {
+        "fr": "Protection civile — Formez-vous au PSC",
+        "en": "Protection civile — Get PSC first-aid training (in French)"
+      },
+      "url": "https://www.protectioncivile.org/psc/",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "justice-procedure-penale": {
+      "title": {
+        "fr": "Justice.gouv.fr — La procédure pénale",
+        "en": "Justice.gouv.fr — Criminal procedure (in French)"
+      },
+      "url": "https://www.justice.gouv.fr/justice-france/justice-penale/procedure-penale",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-vie-en-prison": {
+      "title": {
+        "fr": "Service-Public — Vie en prison : droit de visite, téléphone, réception d'argent",
+        "en": "Service-Public — Life in prison: visits, phone, receiving money (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14149",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-permis-b": {
+      "title": {
+        "fr": "Service-Public — Permis B : véhicules autorisés",
+        "en": "Service-Public — Category B licence: permitted vehicles (in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2827",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "sp-permis-d": {
+      "title": {
+        "fr": "Service-Public — Permis D : transport de personnes (plus de 9 places)",
+        "en": "Service-Public — Category D licence: carrying passengers (more than 9 seats, in French)"
+      },
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2844",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "agri-aide-alimentaire": {
+      "title": {
+        "fr": "Agriculture.gouv.fr — Aide alimentaire : tout le monde peut agir",
+        "en": "Agriculture.gouv.fr — Food aid: everyone can act (in French)"
+      },
+      "url": "https://agriculture.gouv.fr/aide-alimentaire-particuliers-et-entreprises-tout-le-monde-peut-agir",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "agri-gaspillage-lois": {
+      "title": {
+        "fr": "Agriculture.gouv.fr — Lutte contre le gaspillage alimentaire : les lois françaises",
+        "en": "Agriculture.gouv.fr — Fighting food waste: French laws (in French)"
+      },
+      "url": "https://agriculture.gouv.fr/lutte-contre-le-gaspillage-alimentaire-les-lois-francaises",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-r412-1": {
+      "title": {
+        "fr": "Code de la route, art. R412-1 (ceinture de sécurité)",
+        "en": "Road Code, art. R412-1 (seat belt)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037411287",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-r412-1-1": {
+      "title": {
+        "fr": "Code de la route, art. R412-1-1 (nombre de passagers)",
+        "en": "Road Code, art. R412-1-1 (number of passengers)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037408311",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cr-r412-2": {
+      "title": {
+        "fr": "Code de la route, art. R412-2 (retenue des enfants)",
+        "en": "Road Code, art. R412-2 (child restraint)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006842111",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ecologie-covoiturage": {
+      "title": {
+        "fr": "Ecologie.gouv.fr — Le covoiturage en France : avantages et réglementation",
+        "en": "Ecologie.gouv.fr — Carpooling in France: benefits and rules (in French)"
+      },
+      "url": "https://www.ecologie.gouv.fr/politiques-publiques/covoiturage-france-ses-avantages-reglementation-vigueur",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "loi-1881-38ter": {
+      "title": {
+        "fr": "Loi du 29 juillet 1881, art. 38 ter (enregistrement des audiences)",
+        "en": "Law of 29 July 1881, art. 38 ter (recording of hearings)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044568152",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-senateurs": {
+      "title": {
+        "fr": "Sénat — Liste des sénateurs et fiches de contact",
+        "en": "Senate — List of senators and contact pages (in French)"
+      },
+      "url": "https://www.senat.fr/senateurs/senatl.html",
+      "check": {
+        "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

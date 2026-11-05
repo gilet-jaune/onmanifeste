@@ -13,6 +13,7 @@ tags:
     - **Argent** : préférez une **caisse de solidarité** à un virement personnel.
     - **Matériel** : demandez d'abord aux street-médics **ce dont ils ont besoin**.
     - **Présence** : être la personne qui décroche, qui prévient la legal team ou qui accueille à la sortie de garde à vue.
+    - **Cuisine** : préparer et distribuer de la nourriture, en respectant l'hygiène.
     - **Voix** : relayer en ligne, voter, signer des pétitions.
 
 ## Donner à une caisse de solidarité
@@ -36,6 +37,18 @@ Les collectifs de street-médics fonctionnent avec du matériel donné. Médic'A
 - Pour des masques, voyez le [kit de manif](kit-manif.md) : les chirurgicaux sont inutiles contre le gaz.[^abek]
 - Ne confiez pas de matériel à une personne que vous ne connaissez pas : passez par le collectif.
 - Pas de matériel à donner ? **Relayez** l'appel auprès de vos proches, ou proposez un local, un trajet, un stock à garder.
+
+## Distribuer de la nourriture
+
+Préparer des sandwichs, de la soupe ou un ravitaillement pour un cortège ou des personnes en lutte est une aide ancienne : des « cantines de lutte » existent, comme le réseau Rrave, qui a servi sandwichs, crêpes et soupe « à prix libre » près d'un rond-point lors de l'appel du 10 septembre 2025.[^reporterre-nourrir-greves] Quelques repères, sans prétendre à un avis juridique :
+
+- **Déclaration.** Un document de la DRAAF Occitanie, écrit pour les associations d'aide alimentaire, indique que l'entreposage, la manipulation et la distribution de repas par des **bénévoles** doivent être déclarés à la DDPP (formulaire Cerfa 13984).[^draaf-aide-alimentaire] Nous n'avons trouvé aucun texte qui dise si cela s'applique à une distribution **ponctuelle** pendant une manifestation : demandez à la DDPP de votre département, ou passez par un collectif déjà organisé.
+- **Hygiène** (repères du même document) : lavez-vous les mains avant et après chaque manipulation et écartez de la préparation les personnes malades ou blessées ; gardez au froid les produits réfrigérés (entre 0 et +3 °C) ; les plats cuisinés exposés ne se gardent pas pour le lendemain.[^draaf-aide-alimentaire] Pour les préparations, le document demande de les limiter à la consommation immédiate et interdit celles faites à l'avance : un sandwich préparé la veille est donc un point à vérifier avec la DDPP.
+- **Si quelqu'un tombe malade** : au moins deux cas groupés de symptômes (souvent digestifs) liés à un même aliment constituent une toxi-infection alimentaire collective, à déclarer à l'ARS ou à la DDPP, même en cas de simple suspicion.[^draaf-aide-alimentaire]
+- **Allergènes** : nous n'avons pas pu vérifier si l'information est obligatoire pour une distribution gratuite. Par prudence (conseil pratique), affichez la liste des ingrédients de chaque préparation.
+- **Sur place** : la fiche officielle sur la déclaration d'une manifestation ne parle ni de nourriture ni de stands.[^sp-declarer-manifestation] Une distribution n'est pas toujours tolérée : en mars 2024, près du chantier de l'A69, des gendarmes ont dispersé au gaz lacrymogène des personnes venues apporter de la nourriture à des opposants, alors que le rapporteur spécial de l'ONU venait de demander que le ravitaillement soit autorisé.[^linfodurable-a69-ravitaillement] Prévenez les organisateur·ices et choisissez un endroit où vous ne gênez pas le cortège.
+- **Demander des invendus aux restaurants** : rien n'interdit de demander, mais les pages officielles lues organisent le don vers des **associations caritatives et d'aide alimentaire**. La loi impose le conventionnement aux grandes surfaces de plus de 400 m² et à la restauration collective de plus de 3 000 repas par jour, pas aux restaurants classiques, et ces pages ne disent pas qu'un groupe informel peut recevoir des plats cuisinés.[^agri-gaspillage-lois] Un don de produits périssables se fait au moins 48 heures avant la date limite de consommation (sauf convention plus courte), et les restes d'assiettes ou un bac entamé ne peuvent pas être donnés.[^agri-aide-alimentaire] Plus sûr : passer par une association d'aide alimentaire existante.
+- **Vendre** (même à prix libre) est une autre démarche que nous n'avons pas détaillée : pour les boissons, Service-Public prévoit un formulaire spécifique de buvette associative temporaire.
 
 ## Relayer en ligne
 
@@ -64,6 +77,27 @@ Les pétitions sont un moyen discret de peser, sans quitter chez soi. Elles ont 
     - **Autres plateformes** : nous n'avons pas lu leur politique. Considérez qu'un nom et une adresse e-mail sont collectés.
     - **Dans tous les cas**, une pétition privée n'a aucune valeur officielle : elle sert à faire pression, pas à saisir une assemblée. Évitez-les si votre situation administrative est fragile.
 
+## Se coordonner pour une tâche précise
+
+Pour monter vite une équipe (cuisine, transport, accueil), le guide Signal décrit le **groupe temporaire**, un groupe jetable à utiliser en partant du principe que la police peut y être ([le groupe temporaire](signal-gerer.md#le-groupe-temporaire)) :
+
+- **Pour une journée** : créé sur place, on y ajoute les personnes présentes par nom d'utilisateur, en vrai, avec des messages éphémères de quelques heures. **Pour quelques jours** : on y entre après une rencontre avec un·e secrétaire, avec des messages éphémères d'un jour.
+- Un **nom neutre**, sans mouvement ni ville, et le délai d'effacement réglé **avant d'inviter** qui que ce soit.
+- **Seulement du pratique** (« besoin d'eau », « départ à 8 h ») : pas de noms, pas de photos de visages, pas d'adresses.
+- **Aucun lien** avec les groupes de confiance, et groupe **fermé à la fin** de la tâche.
+
+Pour le reste (rôles, groupes de confiance, sas), voir [Groupes Signal : vue d'ensemble](groupes-signal.md).
+
+## Transporter des personnes
+
+Conduire des gens vers un rassemblement, ou les ramener, aide celles et ceux qui n'ont pas de véhicule ou ne peuvent pas marcher longtemps.
+
+- **Voiture ou minibus** : avec le permis B, un véhicule de 3,5 t au plus peut transporter jusqu'à **9 personnes assises, conducteur compris**.[^sp-permis-b] **Au-delà de 9 places assises** (autocar), il faut le **permis D**, en général à partir de 24 ans.[^sp-permis-d] **Covoiturage** : il suppose un trajet que le conducteur fait pour son propre compte et un simple **partage des frais** (carburant, péages, usure…, avec une recommandation de 0,20 €/km par passager au plus) ; si le conducteur en tire un bénéfice, ce n'est plus du covoiturage. Le passager est couvert par l'assurance de responsabilité civile obligatoire du conducteur, sans assurance spécifique à prendre.[^ecologie-covoiturage]
+- **Camion, fourgon, benne** : le nombre de passagers est limité aux **places assises** inscrites sur le certificat d'immatriculation, et chaque siège ne peut être occupé que par une personne (amende de 4ᵉ classe et retrait de 3 points pour le conducteur).[^cr-r412-1-1] On n'y transporte donc pas de personnes dans la zone de chargement, qui n'a pas de siège enregistré (déduction de ce texte). **La ceinture est obligatoire** dès que le siège en est équipé.[^cr-r412-1] Pour les enfants : tout passager de moins de 18 ans doit être retenu par une ceinture ou un système homologué, un enfant de moins de 3 ans ne peut pas voyager sur un siège sans ceinture, et un enfant de moins de 10 ans doit être dans un système de retenue adapté.[^cr-r412-2]
+- **Autocar loué ou prêté** : nous n'avons rien trouvé sur la location d'un autocar par une association ni sur une autorisation de transport gratuit : renseignez-vous auprès du loueur.
+- **Fouilles de véhicules** : des fouilles de véhicules aux abords d'une action ont été rapportées ;[^reporterre-bassines-saisies] voir [contrôle d'identité, fouille de sac et amendes](controle-fouille.md). Ne laissez à bord que ce qui vous est utile.
+- **Organisation** : voir les conseils de [venir et repartir](venir-repartir.md#covoiturage) (personnes de confiance, trajet et retour partagés avec un proche, stationnement loin du parcours).
+
 ## Être la personne ressource à l'extérieur
 
 Les guides conseillent de prévenir **une personne qui ne manifeste pas** : c'est vous, si vous le proposez.[^legal-team]
@@ -75,10 +109,21 @@ Les guides conseillent de prévenir **une personne qui ne manifeste pas** : c'es
 
 ## Aider autrement
 
+- **Écrire à votre député·e** : l'Assemblée nationale publie la liste des députés, avec pour chacun·e une fiche indiquant la circonscription, une adresse postale et une adresse e-mail.[^assemblee-deputes] Écrivez sur un sujet précis, en votre nom. Le Sénat publie aussi la liste de ses sénateur·ices ; la fiche d'un·e sénateur·ice donne un lien de contact par courriel et une adresse postale au Sénat.[^senat-senateurs]
+- **Se former aux premiers secours (PSC)** : la Croix-Rouge propose une formation « Premiers secours citoyen » reconnue par l'État, de 8 h, à 60 €, en présentiel ou hybride, avec une inscription par code postal ou ville.[^croix-rouge-psc] La Protection civile en propose aussi, avec un certificat délivré à la fin du parcours complet.[^protection-civile-psc] Utile dans la vie quotidienne comme en cortège : voir [premiers secours](premiers-secours.md).
+- **Observer et donner un coup de main aux legal teams** : la LDH forme des observateur·ices des libertés publiques ({{ res("ldh-observatoires") }}). Pour aider une legal team à distance (permanence téléphonique, relecture, traduction), contactez celle de votre ville depuis l'[annuaire](../annuaire/index.md?tags=antirepression) : nous ne savons pas ce que chacune accepte.
+- **Soutenir la presse indépendante** : abonnez-vous ou donnez aux médias qui couvrent les manifestations et les violences policières. Pour les trouver et vérifier ce que vous relayez, voir [s'informer](s-informer-se-former.md#sinformer) et [éviter la désinformation](desinformation.md).
+- **Héberger ou covoiturer** : voir les conseils de [venir et repartir](venir-repartir.md#covoiturage). Conseil pratique, non sourcé : proposez-le à des personnes qu'un collectif ou une personne de confiance connaît, prévenez un proche, et ne publiez pas votre adresse.
+- **Fabriquer pancartes, banderoles et tracts** chez vous : [pancartes, banderoles, drapeaux et tracts](faire-sa-pancarte.md).
+- **Écouter** une personne qui revient de manif ou de garde à vue : restez disponible, sans la presser. Les gestes et les lignes d'écoute (3114, France Victimes au 116 006…) sont dans [choc émotionnel et santé mentale](sante-mentale.md).
+- **Témoigner** : si vous avez vu ou filmé une violence, [gardez la preuve](filmer.md#juste-apres-garder-la-preuve) et signalez-la à un observatoire ou à une legal team ; voir aussi [les recensements de blessé·es](../victimes/index.md).
+- **Assister aux audiences** : les audiences pénales sont publiques, sauf décision contraire du tribunal.[^justice-procedure-penale] **Dès l'ouverture de l'audience, tout appareil permettant d'enregistrer des images ou des sons est interdit** (téléphone compris) : deux mois d'emprisonnement et 4 500 € d'amende, avec saisie du matériel.[^loi-1881-38ter] Conseil pratique, non sourcé : arrivez tôt avec une pièce d'identité ; nous n'avons trouvé aucune règle officielle sur les contrôles à l'entrée. Voir [porter plainte, audition libre et procès](suites-judiciaires.md).
+- **Soutenir une personne détenue** : selon Service-Public, une personne condamnée peut recevoir **une visite par semaine** avec un permis demandé au chef de l'établissement (en ligne ou par courrier, avec pièce d'identité et justificatif de parenté, réponse en général sous 3 semaines, pas de réponse sous 2 mois valant refus). Elle peut recevoir du courrier de toute personne, qui ne doit pas contenir d'argent, et de l'argent par virement sur son compte nominatif avec son numéro d'écrou. Pour une personne prévenue, les règles diffèrent (demande au magistrat du dossier) : voir la fiche.[^sp-vie-en-prison]
+- **Relire et contribuer au site** : si vous êtes avocat·e, soignant·e ou traducteur·ice, vous pouvez [relire une information](../relire/index.md) ou [contribuer](../contribuer/index.md).
+- **Accompagner une personne blessée** : venir avec elle aux urgences, l'aider à obtenir le certificat médical et à porter plainte ([porter plainte](suites-judiciaires.md), [premiers secours](premiers-secours.md)).
 - **Relayer** les appels des legal teams et des caisses, sans diffuser de noms ni de photos de personnes ([filmer et publier](filmer.md)).
 - **Garder** des enfants, un animal, un logement pour qui manifeste ou sort de garde à vue.
 - **Convaincre** vos proches, avec calme ([convaincre ses proches](convaincre-ses-proches.md)).
-- **Apprendre** les gestes de premiers secours, pour les utiliser dans votre vie quotidienne comme en cortège ([premiers secours](premiers-secours.md)).
 
 [:octicons-arrow-right-24: Caisses de solidarité et legal teams dans l'annuaire](../annuaire/index.md?tags=caisse-de-solidarite)
 
