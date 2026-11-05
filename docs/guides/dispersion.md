@@ -41,6 +41,7 @@ Savoir reconnaître une dispersion, et partir à temps, évite une interpellatio
 - Un **attroupement** est un rassemblement sur la voie publique susceptible de troubler l'ordre public. Il peut être dispersé par la force après **deux sommations** restées sans effet.[^ldh-dispersion][^avocat-attroupement]
 - **Continuer volontairement** à participer à un attroupement après les sommations est puni d'un an d'emprisonnement et de 15 000 € d'amende ; jusqu'à 3 ans et 45 000 € avec le visage dissimulé.[^avocat-attroupement]
 - Participer à une manifestation simplement **non déclarée** n'est pas un délit ; participer à une manifestation **interdite** est passible d'une amende de 135 €.[^amnesty-droits]
+- Les forces de l'ordre peuvent faire usage de la force **sans sommation** si elles sont elles-mêmes attaquées (article L211-9 du Code de la sécurité intérieure) ou si elles ont l'ordre de défendre un lieu : restez vigilant·e, d'après la LDH.[^ldh-fiche-manif-2026]
 
 ## Reconnaître les sommations
 
@@ -63,6 +64,7 @@ L'**encerclement** (« nasse ») consiste à bloquer un groupe de manifestant·e
 - Demandez aux agents **une sortie** ; signalez toute personne malade, mineure ou en détresse.
 - **Filmez** et notez l'heure, le lieu et la durée : ces éléments comptent si la situation est contestée ensuite ([filmer les forces de l'ordre](filmer.md)).
 - Prévenez la **legal team** si on vous annonce des contrôles ou des interpellations à la sortie.
+- À la sortie d'une nasse, un **contrôle d'identité est illégal**, selon la LDH ; si vous avez une arme sur vous, vous pouvez en revanche être interpellé·e et placé·e en garde à vue.[^ldh-fiche-manif-2026]
 
 [:octicons-arrow-right-24: En cas d'interpellation : le guide garde à vue](garde-a-vue.md)
 

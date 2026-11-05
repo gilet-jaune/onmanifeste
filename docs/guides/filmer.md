@@ -19,6 +19,8 @@ tags:
 
 **Filmez les interventions policières, toujours.** C'est légal : les policiers et gendarmes en intervention n'ont pas de droit à l'image particulier, et la liberté d'informer prime.[^amnesty-filmer][^ldh-filmer] Ces images sont souvent la seule preuve en cas de violence ou de procès-verbal inexact ; la Défenseure des droits les juge « très utiles ».[^ddd-videos]
 
+La LDH ajoute que les forces de l'ordre n'ont pas le droit de vous interdire de les filmer, de vous interpeller pour ce motif, de confisquer ou détruire votre matériel ni de vous demander d'effacer du contenu, sous peine de sanctions disciplinaires et pénales. Seule exception à l'absence de droit à l'image : les agents des services d'intervention et de lutte antiterroriste énumérés par arrêté (GIGN, GIPN, BRI…), ainsi que les cas de diffamation ou d'injure à raison de leurs fonctions.[^ldh-fiche-manif-2026]
+
 Mais une vidéo peut aussi exposer les manifestant·es. Filmez la police, protégez les gens.
 
 ## Avant : sauvegarde automatique
@@ -53,6 +55,8 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 - [ ] **Supprimez les métadonnées** de la copie (mat2) : elles révèlent votre position et votre appareil.[^mat2]
 - [ ] **Floutez aussi le visage des policier·es** avant de diffuser, par prudence, sauf si leur visage est nécessaire à la preuve : gardez alors l'original intact et remettez-le à l'avocat·e ou à la legal team. Diffuser des informations qui permettent d'identifier ou de localiser une personne pour l'exposer à un risque direct d'atteinte est un délit ; flouter écarte toute ambiguïté.[^doxxing]
 - [ ] Ne publiez pas d'**informations personnelles** sur les agents (nom, adresse, famille) : les exposer à un risque est un délit, même si filmer leur intervention reste légal.[^doxxing]
+- [ ] **Images de violences** : enregistrer sciemment des images de certaines violences peut être traité comme de la complicité, et diffuser l'enregistrement est puni de 5 ans et 75 000 €, sauf dans l'exercice normal d'une profession d'information ou si l'enregistrement est réalisé **pour servir de preuve en justice**.[^cp-222-33-3] La LDH le résume ainsi : on peut être déclaré complice, sauf si les images sont destinées à la justice.[^ldh-fiche-manif-2026]
+- [ ] **Pas de fichier de policiers** : la LDH rappelle qu'il est interdit de constituer un fichier de photos de forces de l'ordre ; le texte qu'elle cite (article 226-16-2 du Code pénal) punit plus largement le traitement de données personnelles de fonctionnaires en raison de leur qualité, hors des cadres légaux (5 ans et 300 000 €).[^cp-226-16-2][^ldh-fiche-manif-2026]
 - [ ] **Archivez la publication** (la vôtre, ou une déclaration officielle) avec la Wayback Machine ou archive.today : elle restera consultable si elle est supprimée.[^wayback] N'envoyez pas de vidéo brute avec des visages sur une archive publique.
 
 ## Transmettre
