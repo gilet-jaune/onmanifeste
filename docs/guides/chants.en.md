@@ -1,6 +1,6 @@
 ---
 description: 'Protest chants: keeping the march together by singing, repertoire and tips, without copying protected lyrics.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 53d5418753bc9e331e4632bcdf9bc8e940a68faf
 tags:
     - guides
     - ambiance
@@ -14,6 +14,7 @@ tags:
     - Lyrics are **not copied** in this guide: many recent texts are protected by copyright. Each song links to the page that publishes it.
     - **Old, anonymous** songs circulate freely; **recent** texts (parodies, translations, arrangements) have authors who keep their rights.
     - A song that **names people** can lead to a defamation complaint: sing about facts, not names.
+    - **Musician or brass band**: a piece of clothing within reach to cover the instrument, an instrument that is not too valuable, the case close to you.
 
 This guide does not list every protest song. It presents a few, taken from the collection of an activist brass band[^fibzh-chants], which publishes full lyrics and playing notes. The page gives neither authors nor a licence: **check the rights before reproducing any text**. The lyrics are in French, Italian or Spanish.
 
@@ -33,6 +34,16 @@ This guide does not list every protest song. It presents a few, taken from the c
 - **On n'en veut pas !**: about the pension reform. [Lyrics](https://fibzh.org/chants/#oe).
 - **La révolte des sardinières**: [lyrics](https://fibzh.org/chants/#rs).
 - **À bas l'État policier**: [lyrics](https://fibzh.org/chants/#et). The text names victims of police violence; read it again before singing it.
+
+## Musicians and brass bands
+
+Advice from a musician, based on field experience. These are not legal rules and they are not sourced.
+
+- [ ] **An extra piece of clothing within reach** to quickly cover your instrument if needed.
+- [ ] **If possible, an instrument that is not too valuable**; otherwise, stay vigilant.
+- [ ] **Keep your case close**, or even on your back.
+
+The rest applies to you too: a buddy and exits spotted ([Never stay alone](ne-pas-rester-seul.md)), earplugs ([Protest kit and outfit](kit-manif.md#protection)) and what to do at a dispersal ([Dispersal, warnings and kettling](dispersion.md)).
 
 ## Singing without exposing yourself
 
