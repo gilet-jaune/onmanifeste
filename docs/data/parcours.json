@@ -2840,6 +2840,17 @@
             {
               "guide": "photographier-pour-la-presse",
               "anchor": {
+                "fr": "etre-identifiable-et-se-proteger",
+                "en": "be-identifiable-and-protect-yourself"
+              },
+              "label": {
+                "fr": "Être identifiable et se protéger (brassard, casque, masque)",
+                "en": "Be identifiable and protect yourself (armband, helmet, mask)"
+              }
+            },
+            {
+              "guide": "photographier-pour-la-presse",
+              "anchor": {
                 "fr": "photographier-des-personnes",
                 "en": "photographing-people"
               },

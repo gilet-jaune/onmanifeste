@@ -21,7 +21,7 @@ Ce guide complète [Filmer les forces de l'ordre](filmer.md), qui détaille la s
 
 !!! tip "Par où commencer ?"
 
-    - Vous couvrez une manifestation pour un média : [votre statut](#votre-statut), puis [la dispersion](#en-cas-de-dispersion).
+    - Vous couvrez une manifestation pour un média : [votre statut](#votre-statut), [être identifiable et se protéger](#etre-identifiable-et-se-proteger), puis [la dispersion](#en-cas-de-dispersion).
     - Vous publiez vos photos : [photographier des personnes](#photographier-des-personnes), puis [protéger vos images](#proteger-vos-images-et-vos-sources).
 
 ## Votre statut
@@ -36,6 +36,16 @@ Ce guide complète [Filmer les forces de l'ordre](filmer.md), qui détaille la s
 - [ ] **Le Conseil d'État a annulé l'obligation de s'éloigner** faite aux journalistes en cas d'ordre de dispersion, l'obligation d'accréditation pour accéder aux informations en temps réel, et certaines conditions de port d'équipements de protection.[^ce-snmo-actualite]
 - [ ] **Ce n'est pas une garantie sur le terrain.** Restez identifiable comme presse, ne gênez pas l'action des forces de l'ordre, gardez votre carte et vos papiers, et filmez en continu.
 - [ ] **Si vous êtes interpellé·e**, demandez à contacter un·e avocat·e et un média ou un syndicat de journalistes : voir [Garde à vue](garde-a-vue.md).
+
+## Être identifiable et se protéger
+
+- [ ] **Le brassard « PRESSE » et les signes distinctifs sont autorisés, pas obligatoires.** C'est ce que rapporte la CFDT-Journalistes, qui cite le schéma national du maintien de l'ordre de 2021 (nous n'avons pas pu lire le texte officiel). Pour établir votre qualité, on peut présenter la carte de presse française, la carte de presse internationale ou une attestation de l'employeur.[^cfdt-journalistes-faq]
+- [ ] **Le porter ou non est un arbitrage.** RSF conseille d'avoir un brassard facilement accessible et de ne le mettre que lorsque le risque d'être confondu·e avec un·e manifestant·e lors d'une charge de la police est supérieur à celui d'être agressé·e parce que vous êtes journaliste. Quand c'est possible, elle recommande aussi de vous identifier auprès des forces de l'ordre au début de la manifestation.[^rsf-guide-2017]
+- [ ] **Casque** : léger, de type escalade ou ski, facile à mettre et à retirer, de préférence sans trous d'aération.[^rsf-guide-2017] **Masque** : masque à gaz ou, à défaut, lunettes de natation, masque de ski, voire masque de peinture à cartouches couvrant le nez et la bouche ; un foulard aide contre de faibles concentrations de gaz.[^rsf-guide-2017] Détails sur les modèles : [Kit et tenue de manif](kit-manif.md#protection).
+- [ ] **Sortez le matériel quand la situation se dégrade**, pas dès le début : RSF note que des manifestant·es pacifiques peuvent mal le prendre.[^rsf-guide-2017]
+- [ ] **Gilet de protection** : pesez les risques. Caché, vous pouvez être pris·e pour un·e policier·e en civil ; avec « PRESSE » affiché, vous vous exposez à des manifestant·es hostiles aux journalistes.[^rsf-guide-2017]
+- [ ] **Le ministre de l'Intérieur ne peut pas imposer de conditions au port de protections** par les journalistes, comme par toute personne qui manifeste ou y assiste (Conseil d'État, 2021).[^ce-snmo-actualite] Ce n'est pas une garantie sur le terrain : du matériel peut être saisi lors d'une fouille et un arrêté préfectoral peut interdire certaines protections (voir [Kit et tenue de manif](kit-manif.md#protection) et [contrôle et fouille](controle-fouille.md)).
+- Le guide de RSF date de **2017**, avant la décision du Conseil d'État de 2021 : il ne reflète pas les évolutions récentes.
 
 ## Photographier des personnes
 

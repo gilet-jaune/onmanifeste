@@ -5545,6 +5545,30 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "rsf-guide-2017": {
+      "title": {
+        "fr": "Reporters sans frontières — Guide pratique de sécurité des journalistes (2017), chapitre « Foules, manifestations et émeutes »",
+        "en": "Reporters Without Borders — Safety guide for journalists (2017), chapter on crowds, demonstrations and riots (in French)"
+      },
+      "url": "https://rsf.org/sites/default/files/guide_fr_2017_1.pdf",
+      "check": {
+        "date": "2026-11-06",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cfdt-journalistes-faq": {
+      "title": {
+        "fr": "CFDT-Journalistes — Droits des journalistes en manif : la FAQ à emporter sur le terrain (20 avril 2023)",
+        "en": "CFDT-Journalistes — Journalists' rights at protests: the field FAQ (20 April 2023, in French)"
+      },
+      "url": "https://cfdt-journalistes.fr/2023/04/20/droits-des-journalistes-en-manif-la-faq-a-emporter-sur-le-terrain/",
+      "check": {
+        "date": "2026-11-06",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
