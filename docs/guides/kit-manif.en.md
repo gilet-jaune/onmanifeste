@@ -1,6 +1,6 @@
 ---
 description: 'Protest kit and clothing: clothes, eye and respiratory protection, what to bring and what to leave at home.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: juridique
 review_status: pending
 tags:
@@ -42,16 +42,20 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 | **Ski goggles** (preferably) or sealed safety goggles | Protect the eyes from gas, shards and projectiles | Wide, fit over prescription glasses. Foam vents let gas through: choose a model without vents (safety goggles **EN 166 marked "5"**, gas and fine dust) or tape over the vents. Impact-certified protection also carries an impact marking (F, B or A). [^en166][^allodocteurs-proteger] |
 | Suction swim goggles | **Avoid if you have better** | They block gas, but they are not protective equipment: no impact certification, small cups pressed on the eye socket, fog up quickly, narrow field of view. [^en166] |
 | Sunglasses or glasses alone | Do not protect | Gas gets in around the lenses. [^allodocteurs-proteger] |
-| Half mask with **A2P3** or **ABEK1P3** cartridges | Filter particles and vapours of tear gas (CS) | **P3** filters more than 99.95 % of fine particles; the **A/ABEK** part captures vapours. A full-face mask also protects the eyes and leaks less. [^abek] |
-| **FFP2/FFP3** mask (filtering site mask) | Particles and dust | Does **not** filter vapours: useful, but not enough against dense gas. **Surgical masks are useless** against gas. [^abek][^medicaction-gestes] |
+| Half mask with **A2P3** or **ABEK1P3** cartridges | Filter particles and vapours of tear gas (CS) | **P3** filters more than 99.95 % of fine particles; the **A/ABEK** part captures vapours. A full-face mask also protects the eyes and leaks less, but it leads more easily to a seizure or to custody (Médic'Action). [^abek][^medicaction-touxtes] |
+| **FFP2/FFP3** mask (filtering site mask) | Particles and dust | Does **not** filter vapours: useful, but not enough against dense gas. **Surgical masks are useless** against gas. According to Médic'Action, FFP2 protect rather little and FFP3 rather well. [^abek][^medicaction-gestes][^medicaction-touxtes] |
 | Earplugs | Protect hearing from explosive grenades | Foam ones, always in a pocket. |
 | Body protection: knee pads, elbow pads, wrist guards (roller type), shin guards | Cushion falls, crushes, blows and projectiles on the limbs | Wear them **under your clothes**, discreet and flexible; street medics use them too. [^se-proteger] |
-| Helmet (bike, ski) | Protect the head from falls and projectiles | The most visible item: often debated and may be confiscated at checks. [^outside] |
+| Helmet (bike, ski) | Protect the head from falls and projectiles | The most visible item: often debated and may be confiscated at checks. Médic'Action recommends a **light** helmet (ski type), adjustable and comfortable, without an aggressive look: it protects against limited impacts (batons, LBD, falls), not firearms. [^outside][^medicaction-touxtes] |
 | Scarf | Last resort against gas | Barely effective; no substitute for a mask. |
 
 !!! warning "Protective gear: not banned, but sometimes confiscated"
 
     No law bans wearing protection. But during searches before marches, police have **confiscated** goggles, masks and pads, and gear found in a bag has been used as evidence to prosecute people for "taking part in a group preparing violence" (article 222-14-2 of the Criminal Code). Prefer **discreet protection under your clothes**, and carry **nothing that could pass for a weapon**.[^franceinfo-protections][^amnesty-force]
+
+    The LDH specifies that goggles, scarves and other protection are not banned **as long as they do not hide your face**, and that a confiscation can be challenged with evidence (witnesses, videos).[^ldh-fiche-manif-2026] **A prefectoral order can nevertheless ban protective gear** (helmet, mask…) on the day of a protest: read the one that applies to you. The LDH considers their legality doubtful and reports that an administrative court annulled one in 2024 (Paris administrative court, 29 November 2024); we could not verify that decision. For its part, the Conseil d'État ruled in 2021 that the Interior Minister has no power to set, by circular, conditions on wearing protective equipment, whether for journalists or for anyone taking part in a protest.[^ce-snmo]
+
+    Médic'Action warns that police and courts may see it as premeditation of illegal acts or an intent to hide one's face, that there is a strong chance the gear will be seized at a check, even a risk of arrest, and that a full-face cartridge mask leads to it more easily.[^medicaction-touxtes]
 
 !!! warning "Keep your face uncovered until you are exposed"
 

@@ -1,6 +1,6 @@
 ---
 description: 'What the law forbids at a protest and what you risk: weapons, face covering, group offences, penalties.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: juridique
 review_status: pending
 tags:
@@ -36,6 +36,7 @@ Knowing what is punished avoids finding yourself in custody without knowing it. 
 | **Violence against a person holding public authority** | Violence causing no more than eight days' incapacity for work, or none, against a person holding public authority (police officer, gendarme).[^cp-222-13] | 3 years and €45,000 |
 | **Contempt (outrage)** | Words, gestures or threats, writings or images not made public, or sending objects addressed to a person holding public authority in the course of or because of their duties.[^cp-433-5] | 1 year and €15,000 |
 | **Resisting officials (rébellion)** | Violent resistance to a person holding public authority acting to enforce the law or an order of the authorities.[^cp-433-6] | 2 years and €30,000; 3 years and €45,000 if committed by a group[^cp-433-7] |
+| **Inciting rebellion** | **Directly** inciting rebellion through public shouting or speeches, writings or images (example given by the LDH: shouting at someone being arrested "Don't let them do it!").[^cp-433-10][^ldh-fiche-manif-2026] | 2 months and €7,500 |
 | **Damage** | Destroying, defacing or damaging another person's property; marking inscriptions, signs or drawings without permission on facades, vehicles, public roads or street furniture.[^cp-322-1] | 2 years and €30,000, unless the damage is slight; €3,750 and community service for inscriptions when the damage is slight |
 | **Organising an undeclared or banned protest** | Organising a protest on the public road without prior declaration, or despite a ban, or having filed an incomplete declaration.[^cp-431-9] | 6 months and €7,500 |
 

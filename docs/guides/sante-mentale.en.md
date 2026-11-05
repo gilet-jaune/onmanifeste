@@ -1,6 +1,6 @@
 ---
 description: 'Emotional shock, anxiety and mental health after a protest: immediate steps, helplines, when to ask for help.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: medical
 review_status: pending
 tags:
@@ -48,7 +48,7 @@ After a police charge, grenade blasts, kettling or in a custody cell, your body 
 It is completely normal to experience an **emotional backlash** 24 to 72 hours after violence, an arrest or police custody (sudden exhaustion, crying, irritability, insomnia, images replaying on a loop):[^cn2r][^france-victimes]
 
 - **Do not stay alone**: talk about what you went through with your buddy, loved ones or a support group, without downplaying how you feel.[^cn2r]
-- **Release the pressure to "compartmentalise"**: a protest can be a gruelling time and, if poorly handled, leave long-term trauma. Take time to unwind, then talk it over with others if needed (_defusing_, then _debriefing_).[^medicaction-gestes]
+- **Release the pressure to "compartmentalise"**: a protest can be a gruelling time and, if poorly handled, leave long-term trauma. Take time to unwind, then talk it over with others if needed (_defusing_, then _debriefing_).[^medicaction-gestes] Médic'Action suggests doing the _defusing_ within **24 hours** of the action (sit down with friends, eat, laugh) and the _debriefing_, ideally collective, **2 to 10 days** after.[^medicaction-touxtes]
 - **Take care of your body**: sleep, warm meals, limit alcohol and stimulants, and step away from videos of violence for a few days.
 - **When to see a professional**: if nightmares, startling at the slightest noise, flashbacks, anxiety or avoiding public places last **more than a month** after the events, it may be post-traumatic stress disorder (PTSD), which responds very well to care. Talk to a doctor or a regional trauma centre ({{ res("cn2r") }}).[^cn2r]
 

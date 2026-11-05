@@ -1,6 +1,6 @@
 ---
 description: 'Filing a complaint, voluntary interview and trial after a protest: steps, evidence to keep, stages.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: juridique
 review_status: pending
 tags:
@@ -46,14 +46,16 @@ tags:
 
 ## After violence: document injuries and file a complaint
 
-1. **Detailed medical certificate**: see a doctor (GP, hospital A&E or forensic medical unit) as soon as possible. Ask for a detailed description of every injury (dimensions, typical pattern), its psychological impact and the number of days of **ITT** (total incapacity for work, even if you are not employed).[^ldh-violences]
+1. **Detailed medical certificate**: see a doctor (GP, hospital A&E or forensic medical unit) as soon as possible. Ask for a detailed description of every injury (dimensions, typical pattern), its psychological impact and the number of days of **ITT** (total incapacity for work, even if you are not employed).[^ldh-violences] According to the LDH, certificates from GPs or A&E carry little weight in the procedure: to have your injuries recorded in a **forensic medical unit (UMJ)**, you need a **requisition**, which you get by filing a complaint.[^ldh-fiche-manif-2026]
 2. **Physical evidence**: photograph your injuries with a ruler for scale, photograph and keep **cooled munition debris** (LBD rubber bullets, GENL pellets, red GM2L or black GL-304 fragments, batch markings — [see "Police weapons: effects, injuries and debris"](armes-police.md)), keep stained or torn clothes (unwashed), and gather witness contact details and videos.[^ldh-violences][^witness-preuve][^desarmons-armements-2020]
 3. **File a criminal complaint (plainte)**:
     - Every police or gendarmerie station is **legally required** to take your complaint, regardless of where the events took place (refusing to take a complaint is unlawful).[^sp-plainte]
     - **To avoid being turned away or pressured at the desk**: send your complaint directly by **registered letter with acknowledgement of receipt (LRAR)** to the **public prosecutor (procureur de la République)** at the court of the place where the events occurred (dated and signed account, copy of the medical certificate and evidence).[^sp-plainte][^ldh-violences]
+    - The LDH advises filing the complaint with the **IGPN** (in Paris) or the **IGGN** (if a gendarme is involved), or at a police station outside Paris, to obtain the UMJ requisition and the seizure of CCTV recordings: mind the **retention period of the images**. State the circumstances, your injuries and the number of days of ITT, attach the forensic medical certificate and, with a lawyer's help, the legal basis.[^ldh-fiche-manif-2026]
+    - **Investigating judge**: for a crime, you can refer the matter directly; for a lesser offence (délit), a complaint with civil-party application is admissible only if the prosecutor has said they will not prosecute, or **3 months** after your complaint filed against a receipt or by registered letter. Go through a lawyer.[^cpp-85][^ldh-fiche-manif-2026]
 4. **Additional reports** (do **not** replace a criminal complaint):
     - Refer the case to the {{ res("defenseur-des-droits") }} (free, independent investigation into law-enforcement ethics).[^ddd]
-    - Report the facts to the IGPN (police) or {{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn]
+    - Report the facts to the IGPN (police) or {{ res("iggn-signalement", "IGGN") }} (gendarmerie).[^iggn] According to the LDH, a report on the IGPN platform does not count as a complaint.[^ldh-fiche-manif-2026]
 5. Guides and support: {{ res("ldh-que-faire-violences", "LDH — What to do about police violence? (in French)") }} and {{ res("flagrant-deni") }} (legal guide and victim support).
 
 ## Summoned for a "voluntary interview" (audition libre)

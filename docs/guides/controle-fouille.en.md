@@ -1,6 +1,6 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: ce993e753dbf9e7c5c5cfd2b1f40be7474c9c081
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: juridique
 review_status: pending
 tags:
@@ -52,7 +52,8 @@ Seizures of **saline solution**, **protective goggles** and **masks** are report
     - Near a demonstration, police can inspect or search bags **on the written order of the public prosecutor**, to look for the carrying of a weapon.[^cpp-78-2-5] The search takes place **in your presence**, and you can **ask for a report (procès-verbal)**, a copy of which is given to you.[^cpp-78-controles]
     - A **weapon** is an object designed to kill or injure. Any other object is treated as a weapon only if it can be dangerous and is **used, or intended by the person carrying it**, to kill, injure or threaten.[^cp-132-75] In our reading, saline carried to rinse your eyes does not fit that definition. An officer may judge otherwise on the spot: you contest afterwards.
     - These articles **do not expressly provide** for seizing objects or issuing a receipt. Other seizure rules exist, which we have not detailed here.
-- **What to do on the spot.** Stay calm and do not resist physically. Ask whether there is a **written order from the prosecutor**, **ask for the report** and a list of what is taken, note the time, place and badge number, and take photos if you can. Afterwards, talk to a legal team or a lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).
+- **Watch for prefectoral orders.** An order can ban protective gear on the day of a protest: see [Protest kit and outfit](kit-manif.md).
+- **What to do on the spot.** Stay calm and do not resist physically. You can ask whether there is a **written order from the prosecutor**, but you cannot always find out on the spot. **Ask for the report** and a list of what is taken. Note the time, the place, the type of officer (alone or with colleagues) and the badge number, and take photos or film if you can: a confiscation can be challenged, but evidence is needed (witnesses, videos).[^ldh-fiche-manif-2026] Afterwards, talk to a legal team or a lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).
 - **Practical tip** (not a rule of law): carry **single doses** rather than a bottle, kept with your first-aid items in a pouch, to show a medical use.
 
 ## On-the-spot fine (€135): do not pay right away

@@ -1,6 +1,6 @@
 ---
 description: 'Dispersal, warnings and kettling: when to leave, how to get out, what you risk by staying.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: juridique
 review_status: pending
 tags:
@@ -42,6 +42,7 @@ Recognising a dispersal order, and leaving in time, avoids arrest: staying after
 - An **unlawful assembly** (attroupement) is a gathering on the public highway likely to disturb public order. It can be dispersed by force after **two warnings** (sommations) go unheeded.[^ldh-dispersion][^avocat-attroupement]
 - **Voluntarily staying** in an unlawful assembly after the warnings carries up to one year in prison and a €15,000 fine; up to 3 years and €45,000 with a covered face.[^avocat-attroupement]
 - Taking part in a protest that was simply **not notified** is not an offence; taking part in a **banned** protest carries a €135 fine.[^amnesty-droits]
+- Law enforcement may use force **without warning** if they are themselves attacked (article L211-9 of the Internal Security Code) or if they are ordered to defend a place: stay alert, according to the LDH.[^ldh-fiche-manif-2026]
 
 ## Recognising the warnings
 
@@ -64,6 +65,7 @@ Recognising a dispersal order, and leaving in time, avoids arrest: staying after
 - Ask officers for **a way out**; point out anyone ill, underage or in distress.
 - **Film** and note the time, place and duration: it matters if the situation is challenged later ([film the police](filmer.md)).
 - Alert the **legal team** if checks or arrests are announced at the exit.
+- On leaving a kettle, an **identity check is unlawful**, according to the LDH; if you are carrying a weapon, however, you can be arrested and placed in custody.[^ldh-fiche-manif-2026]
 
 [:octicons-arrow-right-24: If you are arrested: the custody guide](garde-a-vue.md)
 

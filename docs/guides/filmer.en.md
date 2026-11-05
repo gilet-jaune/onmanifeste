@@ -1,6 +1,6 @@
 ---
 description: 'Filming law enforcement: what the law allows, how to film, back up and publish without exposing anyone.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: juridique
 review_status: pending
 tags:
@@ -19,6 +19,8 @@ tags:
     - Before publishing: **blur** anything that identifies a person and remove metadata.
 
 **Film police interventions, always.** It is legal in France: officers on duty have no special right over their image, and the freedom to inform prevails.[^amnesty-filmer][^ldh-filmer] This footage is often the only evidence of violence or of an inaccurate police report; France's Défenseure des droits calls it "very useful".[^ddd-videos]
+
+The LDH adds that law enforcement officers have no right to forbid you from filming them, to arrest you for that reason, to confiscate or destroy your equipment or to ask you to delete content, on pain of disciplinary and criminal sanctions. The only exception to the absence of image rights: agents of the intervention and counter-terrorism units listed by ministerial order (GIGN, GIPN, BRI…), and cases of defamation or insult because of their duties.[^ldh-fiche-manif-2026]
 
 But footage can also expose protesters. Film the police, protect the people.
 
@@ -54,6 +56,8 @@ If your phone is seized, broken or stolen, footage that wasn't backed up is lost
 - [ ] **Strip the metadata** from the copy (mat2): it reveals your location and device.[^mat2]
 - [ ] **Also blur police officers' faces** before sharing, as a precaution, unless their face is needed as evidence: then keep the original intact and give it to your lawyer or the legal team. Sharing information that identifies or locates a person in order to expose them to a direct risk of harm is an offence; blurring removes any ambiguity.[^doxxing]
 - [ ] Don't publish officers' **personal details** (name, address, family): exposing them to a risk is an offence, even though filming their intervention is legal.[^doxxing]
+- [ ] **Images of violence**: knowingly recording images of certain violent acts can be treated as complicity, and sharing the recording is punished by 5 years and €75,000, except in the normal exercise of a profession of informing the public or if the recording is made **to serve as evidence in court**.[^cp-222-33-3] The LDH sums it up: you can be declared an accomplice, unless the images are meant for the justice system.[^ldh-fiche-manif-2026]
+- [ ] **No file on police officers**: the LDH reminds that creating a file of photos of law enforcement is forbidden; the text it cites (article 226-16-2 of the Criminal Code) more broadly punishes the processing of public officials' personal data because of their status, outside the legal frameworks (5 years and €300,000).[^cp-226-16-2][^ldh-fiche-manif-2026]
 - [ ] **Archive the post** (yours, or an official statement) with the Wayback Machine or archive.today: it stays available if deleted.[^wayback] Never upload raw footage showing faces to a public archive.
 
 ## Pass it on

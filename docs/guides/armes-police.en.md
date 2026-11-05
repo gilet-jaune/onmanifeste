@@ -1,6 +1,6 @@
 ---
 description: 'Police weapons at protests: effects, injuries and debris, to adapt care and document evidence.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: medical
 review_status: pending
 tags:
@@ -79,7 +79,7 @@ When treated by **street medics**, at hospital A&E or by the doctor writing your
 
 Munition remnants (GENL rubber pellets, LBD bullets, red GM2L shards, GL-304 rubber fragments, casings bearing a batch number) are key physical evidence to identify the weapon and firing unit.[^desarmons-armements-2020][^ldh-violences]
 
-1. **Never touch an unexploded or burning munition.** If an intact grenade is on the ground, move away immediately and warn everyone nearby. Wait until a tear-gas puck has completely cooled before handling it (risk of severe burns).[^medic-gestes][^cr-brulure]
+1. **Never touch an unexploded or burning munition.** If an intact grenade is on the ground, move away immediately and warn everyone nearby. Do not pick it up or push it away: the LDH reminds that it may be an offensive grenade, able to cause a mutilation.[^ldh-fiche-manif-2026] Wait until a tear-gas puck has completely cooled before handling it (risk of severe burns).[^medic-gestes][^cr-brulure]
 2. **Photograph the debris in place before moving it.** First take a **wide shot** showing the exact location (street corner, shopfront, street furniture), then a **close-up** with a ruler, coin or key next to it for **scale**.[^ldh-violences][^witness-preuve]
 3. **Frame the markings and batch numbers.** Take sharp photos of all printed or stamped markings on the cylinder body, base or spoon (`SAE`, `Alsetex`, `Nobel Sport`, `Condor`, `GL-304`, `GM2L`, `GENL`, `EF-SON`, `40 mm` or `56 mm` calibre, batch number and date).[^desarmons-armements-2020][^desarmons-marches-2026]
 4. **Keep cooled debris and clothing.** Place cooled shards, pellets or casings in a clean bag noting the exact time and place they were found. Also keep torn, melted or blood-stained clothes **unwashed** in a paper bag, and hand them to your lawyer, a legal team or the collective {{ res("desarmons-les") }}.[^ldh-violences][^desarmons-victimes]

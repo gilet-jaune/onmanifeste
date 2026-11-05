@@ -1,6 +1,6 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_commit: ce993e753dbf9e7c5c5cfd2b1f40be7474c9c081
+source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
 review: medical
 review_status: pending
 tags:
@@ -68,7 +68,9 @@ Three reflexes, in order: **protect** (get yourself and the person to safety), *
 5. **Rinse the eyes** generously with saline or clean water, head tilted to the side, from the inner to the outer corner of the eye.[^medic-gestes]
 6. Remove contact lenses if you wear them (clean hands).[^allodocteurs-proteger]
 7. Spit, blow your nose, don't swallow.
-8. After the protest: **cold** shower first (hot water opens the pores), wash clothes separately.[^medic-soins]
+8. After the protest, once the residue is removed: **cold** shower first (hot water opens the pores), wash clothes separately.[^medic-soins]
+
+If you were hit by a **pepper gel spray** (much stronger), remove the gel gently with **wipes** (baby-wipe type), rubbing as little as possible and using each part of the wipe only once. Médic'Action advises against running water on the skin at that point: it would dissolve the CS crystals and activate the product even more.[^medicaction-touxtes]
 
 If you are struggling or disoriented, **wave an arm** to signal it. If you are doing better, **help** others: tap the person's shoulder to show you are there to help (and not a cop), invite them not to run and to leave calmly.[^medicaction-gestes]
 
@@ -78,13 +80,19 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 
 !!! info "When in doubt, call 15"
 
-    Better to call for nothing than too late. You can give **first aid** (chest compressions, recovery position, quick disinfection, pressure point): these are first-aider skills. **Medical procedures** (stitching, removing fragments) are on the other hand **strongly discouraged**, and **do not give medication**. One exception: an asthmatic person in respiratory distress who asks for their inhaler. They know their treatment, **help them take it**, do not refuse it.[^medicaction-gestes][^pse-recueil]
+    Better to call for nothing than too late. You can give **first aid** (chest compressions, recovery position, quick disinfection, pressure point): these are first-aider skills. **Medical procedures** (stitching, blood sampling, tracheotomy, removing fragments) are on the other hand **strongly discouraged**, and **do not give medication**. One exception: an asthmatic person in respiratory distress who asks for their inhaler. They know their treatment, **help them take it**, do not refuse it.[^medicaction-gestes][^pse-recueil]
+
+    According to Médic'Action, first aid given does not fall, in practice, under the offence of practising medicine illegally, and it knows of no prosecution for it.[^medicaction-touxtes] **Helping a person in danger**, when you can do so without risk to yourself or others, is not optional: deliberately failing to do so is an offence (5 years and €75,000).[^cp-223-6] Médic'Action adds that if you hold a first-aid diploma (PSE1/PSE2) or are a health professional, you are all the more bound to assist an injured person.[^medicaction-touxtes]
 
 **First contact**: channel the crowd by speaking clearly and **assigning tasks to specific people** ("you in the red T-shirt, call 15"), to avoid the bystander effect. Priorities depend on the situation: form a **safety perimeter** if the area is dangerous, watch the surroundings, call the emergency services.[^medicaction-gestes]
 
 - Ask people **not to photograph the victim** ("respect the victim's privacy, their safety comes first, thank you").
 - Someone able to give care takes charge of it; another takes care of the **psychological side**: introduce yourself calmly, try to find one of their acquaintances.
 - Ask the calmest bystanders to explain what happened, to assess the causes and consequences of the injury.
+
+**Consent and introduction**: if the person is conscious, ask for their agreement, say who you are and what you are about to do ("I'm a street medic, do you want me to put saline in your eyes?"), including for a possible transfer to hospital. If dialogue is impossible (shock, panic, deafness, foreign language), watch their behaviour: struggling, crying or freezing may express discomfort, whose cause is not necessarily an injury. If they do not want to be touched or treated, point them to what suits them best: leaving the protest, seeing a doctor or A&E, staying with friends or family.[^medicaction-touxtes]
+
+**If medics are already there**: offer your help without insisting, help set up a **protective perimeter**, protect the privacy of the victim and of the medics from photographers and, if the medics suggest it and the victim agrees, take care of the **call to the emergency services** (address, approximate age, name, medical condition). Avoid crowding around the victim.[^medicaction-touxtes]
 
 **Assessment, in order (the ABC)**:[^medicaction-gestes]
 
@@ -96,6 +104,8 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 
 **Unconscious** (does not respond): check their breathing for 10 seconds. They **are breathing**: put them in the **recovery position (PLS)**, call 15 and keep watching their breathing, unless there was a violent blow to the head, neck or back (see below).[^cr-pls] They **are not breathing normally** or have no pulse: call 15, start **chest compressions straight away** (centre of the chest, hard and fast), **without stopping** until help arrives; if there are several of you, **swap every 2 minutes** with as little interruption as possible, and use a defibrillator if there is one.[^cr-arret-cardiaque][^pse-recueil]
 
+**Calling the emergency services (112, or 114 if you are deaf or hard of hearing)**: say that you are a volunteer first aider at a protest and that you are with a person who has… (a diploma reassures, but the call takes very little knowledge); give the **exact address and how to get there**, so that the ambulance leaves while you finish the assessment; describe the symptoms, consciousness, breathing, pulse and the actions already taken; with several victims, group the calls; **never hang up first** and follow the instructions.[^medicaction-touxtes]
+
 **Give nothing to eat or drink** to a seriously injured or half-conscious person: risk of inhalation, and they must stay fasting if they need surgery.
 
 ## First-aid kit
@@ -104,23 +114,25 @@ Don't perform a procedure you don't know: get trained with {{ res("medicaction-g
 
 - **Basics**: non-woven absorbent compresses, medical tape and adhesive plasters, **chlorhexidine**-type disinfectant (avoid iodine solutions such as Betadine), sterile gloves, ideally **latex-free** (stored in pairs in film canisters or Kinder egg capsules), something to "re-sugar" a faint person (a drinkable fruit compote for example).
 - **Depending on your training**: survival blanket (gold side out, for shock), cold pack and cold spray, bandage rolls and sterile compresses in several sizes, triangular bandages, tweezers, safety pin, spare torch and batteries, pen (to note the time a tourniquet was applied, for example), tulle gras dressing, **scissors**.
-- **Skin, mouth, nose**: Medicaction mentions **Maalox** (never on the eyes, for which saline solution is used).
-- **Beware of confiscation**: saline, Maalox, filtering masks, sealed eye goggles and scissors are **often seized** during searches.[^medicaction-gestes] A seizure is not an offence on your part, but an object can be judged dangerous depending on the context (scissors, for example): see [what the texts say and what to do](controle-fouille.md#saline-goggles-mask-can-they-be-confiscated).
+- **Skin, mouth, nose**: Medicaction mentions **Maalox** (never on the eyes, for which saline solution is used). Médic'Action dilutes it: about one single dose per litre of water, beyond that there is a risk of a burning sensation.[^medicaction-touxtes]
+- **Beware of confiscation**: saline, Maalox, filtering masks, sealed eye goggles and scissors are **often seized** during searches.[^medicaction-gestes] Médic'Action warns that police and courts may see protective gear as premeditation of illegal acts or an intent to hide one's face: risk of seizure, even of arrest; it advises finding out about the area before you go.[^medicaction-touxtes] A seizure is not an offence on your part, but an object can be judged dangerous depending on the context (scissors, for example): see [what the texts say and what to do](controle-fouille.md#saline-goggles-mask-can-they-be-confiscated).
 
 ## Injuries
 
-- **Bleeding**: press hard with a compress or clean cloth, without letting go, until help arrives.[^cr-hemorragie]
+- **Bleeding**: press hard with a compress or clean cloth, without letting go, until help arrives.[^cr-hemorragie] If the bleeding stops, make a pressure dressing (new compress and bandage); if it continues or is too heavy, call 112.[^medicaction-touxtes]
 - **Grenade shrapnel peppering (GM2L, GL-304, stun munition)**: tell emergency staff that red/orange plastic or black rubber fragments are **invisible on standard X-rays** (ask for an ultrasound or CT scan) and watch for shortness of breath or dizziness from the **blast effect** ([see "Police weapons: effects, injuries and debris"](armes-police.md)).[^desarmons-grenades-2024]
 - **Violent blow to the head, neck or back** (hard hit, serious fall): **do not move them**, ask them not to move, hold their head with both hands **in line with neck and trunk**, call 112. Do not remove their helmet unless you are trained: a trained team removes it with two people, or alone if the person is unconscious, to check breathing.[^pse-recueil]
 - **Head blow** (baton, projectile, minor fall): have the person sit or lie down, don't leave them alone, call 112 if they vomit, are confused, drowsy or lost consciousness, even briefly.[^medic-gestes]
 - **Eye injury**: don't rinse or touch an eye hurt by a projectile; cover it without pressing and call 112.
-- **Burn** (grenade, tear-gas puck): cool with lukewarm water for 10 to 20 minutes; don't burst blisters.[^cr-brulure]
+- **Burn** (grenade, tear-gas puck): cool with lukewarm water for 10 to 20 minutes; don't burst blisters.[^cr-brulure] Do not remove clothing that sticks. Peeling skin (2nd degree): cool, greasy gauze and dressing, see a doctor. White, leathery, hard skin or a painless burn (3rd degree): cool and call the emergency services without delay.[^medicaction-touxtes]
+- **Bruise** (contusion, bump): apply cold (pack or spray) **through a compress**, never directly; avoid putting weight on the limb and rest it. See a doctor if the skull or lungs are hit, if the area becomes red, hot and painful, if movement becomes difficult or if it has not improved after 48 to 72 hours; go to A&E if there is a loss of feeling or mobility.[^medicaction-touxtes]
 - **Explosion noise** and ringing ears: see someone quickly, hearing damage is better treated early.
 
 ## Fainting, heat, panic attack
 
 - Move the person **into the shade, somewhere calm**, seated; loosen clothing; give small sips of water if conscious and with no other injury.
-- Panic attack: speak calmly, offer to breathe slowly together, stay with them.
+- **Unconscious after fainting**: check how long and in what conditions they collapsed, put them in the recovery position (PLS); if the loss of consciousness lasts, call the emergency services. **Heatstroke**: repeated loss of consciousness; rehydrate and cool down, protect from heat or rain (survival blanket, umbrella) and have them evacuated if it lasts.[^medicaction-touxtes]
+- Panic attack: speak calmly, offer to breathe slowly together, stay with them. Touch can make a crisis worse: check their agreement first; there is no universal method, and being there often is enough.[^medicaction-touxtes]
 
 ## Afterwards: long-term follow-up
 
