@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups to organise while limiting leaks: public group, airlock group, trusted group. Overview.'
-source_commit: c0a51c04cdf7370fa4bcfeab0d5be9eb7fc9794a
+source_commit: 990e90a64f8c238e0ed738df90fe900dea06f190
 review: juridique
 review_status: pending
 tags:
@@ -101,26 +101,7 @@ These roles keep the Signal network running (recruitment, onboarding, moderation
 
 ### Roles useful at protests
 
-These protest roles operate during protests according to your needs. They are shared out **among the members already there**, according to each person's skills and availability, and can change from one action to the next: you don't recruit for a role. Each relies on a sub-group (`Medic`, `Legal`…) and on a guide on this site:
-
-| Role | What they do | What they don't do | Learn more |
-| --- | --- | --- | --- |
-| **Medic** | First aid: gas, injuries, fainting | Medical procedures (stitching, removing fragments); giving medication | [First aid](premiers-secours.md) |
-| **Legal** | Observes arrests, lawyer contacts, follows up people arrested | Replace a lawyer | [Police custody](garde-a-vue.md) |
-| **Field watch** | Reports, from public space, where gas is being fired, where a line is advancing or pulling back, which streets are closed and which way out is clear; short factual messages ("gas on X street, exit clear on Y side") in a `Veille` sub-group | Point out, photograph or describe an officer; urge people to go towards a line or round it to confront it; note down people; act outside a declared demonstration | [Dispersal, warnings and kettling](dispersion.md) · [First aid](premiers-secours.md) |
-| **Protection and de-escalation** | Spots tension, talks, helps people out of a kettle, accompanies vulnerable people | Carry anything that could pass for a weapon; respond to provocation | [Dispersal, warnings and kettling](dispersion.md) · [Kit and what to wear](kit-manif.md) |
-| **Documentation** | Films arrests and violence, keeps the evidence | Publish without blurring protesters | [Film the police](filmer.md) |
-| **Support** | Listens and accompanies after a hard moment | Play therapist | [Mental health](sante-mentale.md) |
-| **Logistics** | Transport, food, water, storage | Store equipment that could pass for a weapon | [Getting there and back](venir-repartir.md) |
-| **Build** | Banners, placards, equipment | Equipment that could pass for a weapon | [Signs, banners, flags and leaflets](faire-sa-pancarte.md) · [Kit and what to wear](kit-manif.md) |
-| **Communication** | Visuals, announcements, social media | Repost far-right content | [Communicating at a protest](communiquer.md) · [Social media](reseaux-sociaux.md) |
-
-**Field watch: the framework.** This role is for **getting out in time and avoiding gas**, not for confrontation. In the texts we read, we found nothing banning the reporting of a deployment's position from public space; that is not a guarantee. Two limits:
-
-- knowingly taking part in a group that is preparing violence or damage is punishable by one year in prison and a €15,000 fine,[^cp-222-14-2] and written messages serve as evidence: the same message can read differently in a hostile context;
-- sharing information that identifies or locates a person in order to expose them to a risk is punishable by 3 years in prison and a €45,000 fine, or 5 years and €75,000 if the person holds public authority.[^cp-223-1-1]
-
-So report **zones and directions**, never **people**. Use a dedicated sub-group with disappearing messages.
+The roles played at protests (`Medic`, `Legal`, `Veille`, protection and de-escalation, documentation…) are described in [Roles in a mobilisation](roles.md), with what each does, what they don't do, and whether it is played on the ground or remotely. Each relies on a Signal sub-group of the same name.
 
 ### Key vocabulary and concepts
 

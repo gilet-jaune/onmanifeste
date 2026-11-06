@@ -1,6 +1,6 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
+source_commit: 990e90a64f8c238e0ed738df90fe900dea06f190
 tags:
     - guides
     - support
@@ -19,9 +19,14 @@ tags:
 
 !!! tip "Where to start?"
 
+    - Not sure? [Which remote role suits you](#which-remote-role-suits-me).
     - Money: [solidarity fund](#give-to-a-solidarity-fund). Supplies: [street medics](#equip-street-medics). Food: [kitchen and supplies](#hand-out-food).
     - On the ground: [transport](#transport-people), [temporary group](#coordinate-for-a-specific-task), [contact person](#be-the-contact-person-outside).
     - From home: [relay online](#relay-online), [vote](#vote), [petitions](#sign-petitions), [other ideas](#help-in-other-ways).
+
+## Which remote role suits me?
+
+Choosing your role helps turn the wish to act into a specific gesture. The table in [Roles in a mobilisation](roles.md) says, for each role, whether it is played **on the ground**, **remotely** or **both**: look for those marked "Remote" or "Both". The sections below detail each one.
 
 ## Give to a solidarity fund
 
@@ -118,7 +123,7 @@ The guides advise alerting **someone who is not at the protest**: that can be yo
 
 - **Write to your deputy**: the National Assembly publishes the list of deputies, with a page for each showing the constituency, a postal address and an email address.[^assemblee-deputes] Write about a specific subject, in your own name. The Senate also publishes its list of senators; a senator's page gives an email contact link and a postal address at the Senate.[^senat-senateurs]
 - **Take first-aid training (PSC)**: the Red Cross offers a state-recognised "Premiers secours citoyen" course, 8 hours, €60, in person or hybrid, with registration by postcode or town.[^croix-rouge-psc] The Protection civile also offers it, with a certificate issued at the end of the full course.[^protection-civile-psc] Useful in daily life as in a march: see [first aid](premiers-secours.md).
-- **Observe and lend a hand to legal teams**: the LDH trains observers of public freedoms ({{ res("ldh-observatoires") }}). To help a legal team remotely (phone line, proofreading, translation), contact the one in your city from the [directory](../annuaire/index.md?tags=antirepression): we do not know what each accepts.
+- **Help a legal team remotely** (phone line, proofreading, translation): contact the one in your city from the [directory](../annuaire/index.md?tags=antirepression); we do not know what each accepts. _(Observing on the ground is a different role: the LDH trains observers of public freedoms, {{ res("ldh-observatoires") }}.)_
 - **Support independent media**: subscribe or donate to outlets that cover protests and police violence. To find them and check what you relay, see [stay informed](s-informer-se-former.md#stay-informed) and [avoiding disinformation](desinformation.md).
 - **Host or carpool**: see the tips in [getting there and back](venir-repartir.md#car-sharing). Practical tip, unsourced: offer it to people a collective or a trusted person knows, tell a relative, and do not publish your address.
 - **Make signs, banners and leaflets** at home: [signs, banners, flags and leaflets](faire-sa-pancarte.md).
