@@ -26,14 +26,14 @@ Une messagerie chiffrée comme {{ res("signal") }} protège vos messages pendant
 !!! info "Par où commencer ?"
 
     - **Quelqu'un vient d'être arrêté, ou un groupe est compromis** → [groupe compromis](signal-groupe-compromis.md).
-    - **Vous rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), puis [vous êtes membre](signal-membres.md).
-    - **Vous organisez** (secrétaire, RH, gardien·ne) → [les groupes](groupes-signal.md#les-groupes) et [les rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal), puis [recruter et rencontrer](signal-recrutement.md), [valider](signal-valider.md), [créer et régler les groupes](signal-creer.md) et [tenir les groupes](signal-gerer.md). Pour aller droit à votre rôle : le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
-    - **Vous cherchez un rôle en manif** (medic, legal, logistique...) → [les rôles utiles en manif](groupes-signal.md#roles-utiles-en-manif).
+    - **Vous découvrez ou rejoignez des groupes** → [les groupes](groupes-signal.md#les-groupes), [rejoindre ou proposer un groupe sas](signal-recrutement.md#proposer-une-date-une-heure-et-un-lieu), puis [vous êtes membre](signal-membres.md).
+    - **Vous avez un rôle dans les groupes Signal** (membre, recruteur·se, secrétaire, RH, gardien·ne, liaison, modération, référent·e « groupe perdu ») → le [menu par rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role) ci-dessous, ou le [tableau des rôles d'organisation](groupes-signal.md#roles-dorganisation-des-groupes-signal) avec les liens vers chaque consigne.
+    - **Vous cherchez un rôle en manif ou à distance** (medic, legal, veille, logistique...) → [les rôles dans une mobilisation](roles.md).
     - **Vous voulez juste la charte** → [modèles à copier-coller](signal-modeles.md).
 
 ## Trouver ce qui concerne votre rôle
 
-Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardien·ne, recruteur·se), puis ce que vous voulez faire : le menu vous emmène directement à la bonne partie de ce guide. Fonctionne **hors ligne**.
+Choisissez votre rôle (nouveau membre, membre, recruteur·se, secrétaire, RH, gardien·ne, liaison, modération ou référent·e « groupe perdu »), puis ce que vous voulez faire : le menu vous emmène directement à la bonne consigne (voir aussi le [tableau récapitulatif des rôles](groupes-signal.md#roles-dorganisation-des-groupes-signal)). Fonctionne **hors ligne**.
 
 {% import "overrides/partials/parcours-tree.html" as pt with context %}
 
@@ -61,10 +61,10 @@ Vous organisez des groupes ? Dites quel est votre rôle (secrétaire, RH, gardie
 <div class="flow flow--funnel" markdown>
 
 1. **Groupe public** (un par ville) → on y entre par le **lien du groupe public** (seule exception : il ne contient rien de sensible) ou par ajout direct d'un·e secrétaire ou d'un·e recruteur·se ; seul·es les admins (gardien·nes et secrétaires) écrivent : annonces, date, lieu déclaré, liens vers les guides.
-    - **Pour passer au groupe sas** : faire ses réglages, se faire connaître d'un·e recruteur·se, écrire en privé à un·e secrétaire (par nom d'utilisateur) pour être ajouté·e à un groupe sas annoncé dans le groupe public, avec sa date et sa tranche horaire, ou en proposer un.
-2. **Groupe sas** (temporaire) → proposé par **n'importe quel membre du groupe public**, créé et annoncé par un·e secrétaire, pour **une** rencontre en vrai, puis, au besoin, un rendez-vous à une action organisée par d'autres ; on n'y écrit que l'heure et le lieu, et il reste ouvert tant que des personnes attendent une décision.
-    - **Pour passer au groupe de confiance** : rencontre en vrai avec un·e secrétaire (réglages, code QR scanné), {{ default("actions") }} où des membres vérifié·es vous observent, **un·e garant·e**, puis le second contrôle des RH, qui vous ajoutent au groupe de confiance **par nom d'utilisateur**, depuis le sas (voir [les voir agir](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir)).
-3. **Groupe de confiance** (vérifié, `MVT-VIL-4K9-General`) → logistique, entraide, infos publiques ; rien d'illégal.
+    - **Pour passer au groupe sas** : faire [ses réglages](signal-membres.md#vos-reglages), se faire connaître d'un·e recruteur·se, écrire en privé à un·e secrétaire (par nom d'utilisateur) pour être ajouté·e à un [groupe sas](signal-recrutement.md#le-groupe-sas) annoncé dans le groupe public, avec sa date et sa tranche horaire, ou [en proposer un](signal-recrutement.md#proposer-une-date-une-heure-et-un-lieu).
+2. **Groupe sas** (temporaire) → proposé par **n'importe quel membre du groupe public**, créé et [annoncé par un·e secrétaire](signal-recrutement.md#proposer-une-date-une-heure-et-un-lieu), pour **[une rencontre en vrai](signal-recrutement.md#la-rencontre-en-vrai-etape-par-etape)**, puis, au besoin, un rendez-vous à une action organisée par d'autres ; on n'y écrit que l'heure et le lieu, et il reste ouvert tant que des personnes attendent une décision.
+    - **Pour passer au groupe de confiance** : [rencontre en vrai](signal-recrutement.md#la-rencontre-en-vrai-etape-par-etape) avec un·e secrétaire (réglages, code QR scanné, [contrôles](signal-recrutement.md#ce-quon-verifie-a-la-rencontre)), {{ default("actions") }} où des membres vérifié·es vous observent, **un·e garant·e**, puis le second contrôle des RH, qui vous ajoutent au groupe de confiance **par nom d'utilisateur**, depuis le sas (voir [les voir agir](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir)).
+3. **Groupe de confiance** (vérifié, `MVT-VIL-4K9-General`) → logistique, entraide, infos publiques ; [rien d'illégal](signal-membres.md#dans-les-groupes).
     - **Pour passer à un sous-groupe** : un besoin réel dans l'équipe, une période dans le groupe de confiance, et **deux garant·es** si le sous-groupe est sensible ; le ou la gardien·ne du sous-groupe ajoute.
 4. **Sous-groupes par thème**, dans la même famille (même identifiant) → chacun ne voit que ce qui concerne son équipe :
     - `4K9-Medic`
@@ -79,7 +79,7 @@ Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés*
 
 ## Les rôles
 
-Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne réunit toutes les personnes clés** (voir [se coordonner](signal-gerer.md#se-coordonner)).
+Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne réunit toutes les personnes clés** (voir [se coordonner](signal-gerer.md#se-coordonner)). Pour filtrer selon votre rôle et votre besoin : [Trouver ce qui concerne votre rôle](groupes-signal.md#trouver-ce-qui-concerne-votre-role).
 
 <a id="roles-organisation"></a>
 
@@ -87,14 +87,15 @@ Personne n'a tous les rôles, et les rôles **tournent**. Et **aucun groupe ne r
 
 Ces rôles font fonctionner le réseau Signal (recrutement, accueil, modération, sécurité) :
 
-| Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Admin dans Signal |
-| --- | --- | --- | --- |
-| **Recruteur·se** | Parle du mouvement en manif, sur les ronds-points, en réunion publique ; oriente vers le groupe public et les groupes sas | Valider ; être garant·e de ses propres recrues ; noter quoi que ce soit sur elles | Non |
-| **Secrétaire** (membre déjà vérifié·e) | **Coordonne la rencontre de bout en bout** : annonce le groupe sas dans le groupe public, y vient, aide chacun·e à régler Signal ; **valide** quand les conditions sont réunies ; nettoie le groupe sas et y ajoute les RH ; reste le ou la référent·e des nouvelles personnes | Valider sans garant·e ; **ajouter quelqu'un au groupe de confiance** (ce sont les RH qui ajoutent) ; tenir une liste de présence | Du groupe sas qu'il ou elle anime, et du groupe public pour y annoncer les rencontres |
-| **RH** (« ressources humaines ») | Comme au travail : font le **second contrôle** des personnes validées et les **ajoutent** au groupe de confiance ; reçoivent les doutes ; décident des retraits à deux ({{ default("decision_delay") }} après une [pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute)) ; tranchent quand un·e secrétaire hésite | Organiser les groupes sas ; décider seul·e d'un retrait ; être gardien·nes de tous les groupes | Oui, du groupe de confiance |
-| **Gardien·ne** | Garde les clés d'un groupe : **veille sur sa configuration** (délai d'effacement, permissions, aucun lien sauf pour le groupe public), ajoute et retire ; **ouvre l'œil** sur les arrivées et les interactions étranges et les signale aux RH. Les RH sont gardien·nes du groupe de confiance | Ajouter quelqu'un qui n'a pas été validé ; partir en action avec son téléphone de gardien·ne | Oui, au moins deux par groupe |
-| **Modération** | Rappelle la [charte](signal-modeles.md#charte-complete), recadre en privé | Accuser quelqu'un dans le groupe | Non |
-| **Référent·e « groupe perdu »** | Déclenche la [procédure « groupe compromis »](signal-groupe-compromis.md), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes |
+| Rôle | Ce qu'il fait | Ce qu'il ne fait pas | Admin dans Signal | Pour en savoir plus |
+| --- | --- | --- | --- | --- |
+| **Recruteur·se** | Parle du mouvement en manif, sur les ronds-points, en réunion publique ; oriente vers le groupe public et les groupes sas | Valider ; être garant·e de ses propres recrues ; noter quoi que ce soit sur elles | Non | [Recruteur·ses et secrétaires](signal-recrutement.md#recruteurses-et-secretaires) · [Proposer une date et un lieu](signal-recrutement.md#proposer-une-date-une-heure-et-un-lieu) · [Vos réglages](signal-membres.md#vos-reglages) |
+| **Secrétaire** (membre déjà vérifié·e) | **Coordonne la rencontre de bout en bout** : annonce le groupe sas dans le groupe public, y vient, aide chacun·e à régler Signal ; **valide** quand les conditions sont réunies ; nettoie le groupe sas et y ajoute les RH ; reste le ou la référent·e des nouvelles personnes | Valider sans garant·e ; **ajouter quelqu'un au groupe de confiance** (ce sont les RH qui ajoutent) ; tenir une liste de présence | Du groupe sas qu'il ou elle anime, et du groupe public pour y annoncer les rencontres | [Parcours Secrétaire (schéma)](signal-recrutement.md#parcours-secretaire) · [Proposer une date et un lieu](signal-recrutement.md#proposer-une-date-une-heure-et-un-lieu) · [La rencontre en vrai](signal-recrutement.md#la-rencontre-en-vrai-etape-par-etape) · [Ce qu'on vérifie](signal-recrutement.md#ce-quon-verifie-a-la-rencontre) · [Nettoyer le sas](signal-recrutement.md#nettoyer-le-groupe-sas-apres-la-rencontre) · [Valider](signal-valider.md#valider-la-confiance-graduee) |
+| **RH** (« ressources humaines ») | Comme au travail : font le **second contrôle** des personnes validées et les **ajoutent** au groupe de confiance ; reçoivent les doutes ; décident des retraits à deux ({{ default("decision_delay") }} après une [pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute)) ; tranchent quand un·e secrétaire hésite | Organiser les groupes sas ; décider seul·e d'un retrait ; être gardien·nes de tous les groupes | Oui, du groupe de confiance | [Parcours RH (schéma)](signal-recrutement.md#parcours-rh) · [Valider](signal-valider.md#valider-la-confiance-graduee) · [Pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute) · [Retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire) · [Groupe compromis](signal-groupe-compromis.md) |
+| **Gardien·ne** | Garde les clés d'un groupe : **veille sur sa configuration** (délai d'effacement, permissions, aucun lien sauf pour le groupe public), ajoute et retire ; **ouvre l'œil** sur les arrivées et les interactions étranges et les signale aux RH. Les RH sont gardien·nes du groupe de confiance | Ajouter quelqu'un qui n'a pas été validé ; partir en action avec son téléphone de gardien·ne | Oui, au moins deux par groupe | [Nommer et registre](signal-creer.md#nommer-les-groupes) · [Régler les groupes](signal-creer.md#regler-les-groupes) · [Créer ou diviser](signal-creer.md#quand-creer-ou-diviser-un-groupe) · [Libellés de rôle](signal-gerer.md#libelles-de-role) · [Fermer un groupe](signal-gerer.md#fermer-un-groupe) · [Groupe compromis](signal-groupe-compromis.md) |
+| **Agent de liaison** | Transmet un lieu, une heure, une décision entre familles dans un groupe de liaison dédié | Être dans deux familles ; être RH ou gardien·ne ; transmettre une liste de membres ou des identités | Non (2 gardien·nes de familles différentes) | [Relier plusieurs familles](signal-gerer.md#relier-plusieurs-familles) · [Régler les groupes](signal-creer.md#regler-les-groupes) |
+| **Modération** | Rappelle la [charte](signal-modeles.md#charte-complete), recadre en privé | Accuser quelqu'un dans le groupe | Non | [Charte complète](signal-modeles.md#charte-complete) · [Dans les groupes](signal-membres.md#dans-les-groupes) · [Pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute) |
+| **Référent·e « groupe perdu »** | Déclenche la [procédure « groupe compromis »](signal-groupe-compromis.md), prévient la [legal team locale](../annuaire/index.md?tags=antirepression) | Commenter une arrestation par écrit | Selon les groupes | [Que faire ?](signal-groupe-compromis.md#que-faire) · [Retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire) · [Cas A](signal-groupe-compromis.md#cas-a-on-sait-par-ou-ca-fuit) · [Cas B : déménager](signal-groupe-compromis.md#cas-b-on-ne-sait-pas-demenager) |
 
 <a id="roles-en-manif"></a>
 
@@ -104,12 +105,12 @@ Les rôles exercés en manifestation (`Medic`, `Legal`, `Veille`, protection et 
 
 ### Vocabulaire et concepts clés
 
-- **Garant·e** : membre vérifié·e qui connaît vraiment une nouvelle personne (en dehors du groupe sas : ami·e, collègue, voisin·e, ou vue agir sur plusieurs actions) et se porte garant·e pour elle, en privé, auprès du ou de la secrétaire.
-- **Nom de militant·e** : le pseudo utilisé sur Signal et en vrai.
-- **Registre** : la liste, tenue par deux ou trois personnes hors des groupes, des groupes actifs et perdus, et de qui est dans quel groupe.
-- **Point de repli** : un lieu et un moment réguliers, convenus de vive voix, pour se retrouver si les groupes tombent.
-- **Retrait conservatoire** : retirer quelqu'un de ses groupes par précaution, par exemple quand il ou elle est interpellé·e.
-- **Fuite** : la personne ou le téléphone par lequel quelqu'un d'extérieur accède à un groupe.
+- **Garant·e** : membre vérifié·e qui connaît vraiment une nouvelle personne (en dehors du groupe sas : ami·e, collègue, voisin·e, ou vue agir sur plusieurs actions) et se porte garant·e pour elle, en privé, auprès du ou de la secrétaire ([valider la confiance](signal-valider.md#valider-la-confiance-graduee), [les voir agir](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir), [coopter](signal-valider.md#recruter-par-cooptation-un-membre-verifie-propose)).
+- **Nom de militant·e** : le pseudo utilisé sur Signal et en vrai ([choisir son nom de militant·e](signal-membres.md#votre-nom-de-militante)).
+- **Registre** : la liste, tenue par deux ou trois personnes hors des groupes, des groupes actifs et perdus, et de qui est dans quel groupe ([nommer les groupes et tenir le registre](signal-creer.md#nommer-les-groupes)).
+- **Point de repli** : un lieu et un moment réguliers, convenus de vive voix, pour se retrouver si les groupes tombent ([si le groupe disparaît](signal-membres.md#si-le-groupe-disparait-ou-si-on-vous-retire)).
+- **Retrait conservatoire** : retirer quelqu'un de ses groupes par précaution, par exemple quand il ou elle est interpellé·e ([retrait conservatoire](signal-groupe-compromis.md#retrait-conservatoire)).
+- **Fuite** : la personne ou le téléphone par lequel quelqu'un d'extérieur accède à un groupe ([quand un groupe est-il compromis ?](signal-groupe-compromis.md#quand-un-groupe-est-il-compromis)).
 
 ## Dans ce guide
 

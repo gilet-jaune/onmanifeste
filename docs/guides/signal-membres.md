@@ -19,14 +19,14 @@ Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, 
 
 <div class="flow" markdown>
 
-1. **Se préparer** → nom de militant·e, numéro caché, messages éphémères (voir ci-dessous).
+1. **Se préparer** → [nom de militant·e](signal-membres.md#votre-nom-de-militante), numéro caché, messages éphémères (voir [vos réglages](signal-membres.md#vos-reglages)).
 2. **Rejoindre le groupe public** → lire les annonces.
-3. **Rejoindre un groupe sas** annoncé dans le groupe public, ou en proposer un à un·e secrétaire, pour se rencontrer en vrai. Si un membre vérifié vous connaît déjà, il peut aussi vous **coopter** : il vous propose directement à un·e secrétaire.
-4. **Venir aux rencontres et aux actions** → un·e secrétaire vérifié·e vous aide à régler Signal et scanne le code QR de votre compte.
-5. **Validation** → quand un·e membre vérifié·e qui vous connaît se porte garant·e auprès du ou de la secrétaire ; sinon, continuez à venir aux actions : c'est là qu'on apprend à se connaître.
+3. **Rejoindre un [groupe sas](signal-recrutement.md#le-groupe-sas)** annoncé dans le groupe public, ou [en proposer un](signal-recrutement.md#proposer-une-date-une-heure-et-un-lieu) à un·e secrétaire, pour se rencontrer en vrai. Si un membre vérifié vous connaît déjà, il peut aussi vous **[coopter](signal-valider.md#recruter-par-cooptation-un-membre-verifie-propose)** : il vous propose directement à un·e secrétaire.
+4. **Venir aux [rencontres](signal-recrutement.md#la-rencontre-en-vrai-etape-par-etape) et aux actions** → un·e secrétaire vérifié·e vous aide à régler Signal et scanne le code QR de votre compte.
+5. **[Validation](signal-valider.md#valider-la-confiance-graduee)** → quand un·e membre vérifié·e qui vous connaît se porte garant·e auprès du ou de la secrétaire ; sinon, continuez à [venir aux actions](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir) : c'est là qu'on apprend à se connaître.
 6. **Rejoindre le groupe de confiance** → une personne des RH vous rejoint dans le groupe sas, vérifie votre profil, vous fait valider la [charte complète](signal-modeles.md#charte-complete), puis vous ajoute au groupe de confiance **par votre nom d'utilisateur** : aucun lien à demander ni à suivre.
-7. **Vivre le groupe** → rien d'illégal par écrit ; un doute sur quelqu'un : les RH, en privé.
-8. **Arrêté·e, téléphone perdu, groupe disparu** → voir plus bas.
+7. **[Vivre le groupe](signal-membres.md#dans-les-groupes)** → rien d'illégal par écrit ; un doute sur quelqu'un : les RH, en privé ([pause préventive](signal-groupe-compromis.md#pause-preventive-en-cas-de-doute)).
+8. **Arrêté·e, téléphone perdu, groupe disparu** → voir [si vous êtes arrêté·e](signal-membres.md#si-vous-etes-arretee-ou-perdez-votre-telephone) et [si le groupe disparaît](signal-membres.md#si-le-groupe-disparait-ou-si-on-vous-retire).
 
 </div>
 

@@ -17,7 +17,7 @@ Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, 
 
 ## Valider : la confiance graduée
 
-La rencontre est un **premier contact**. **On valide chaque personne, pas le sas** : un sas peut compter des personnes validées le jour même et d'autres qui attendent, et les nouvelles personnes ne se garantissent jamais entre elles. On valide ensuite selon le niveau du groupe :
+La rencontre est un **premier contact**. **On valide chaque personne, pas le sas** : un sas peut compter des personnes validées le jour même et d'autres qui attendent, et les nouvelles personnes ne se garantissent jamais entre elles (voir les étapes côté [Secrétaire](signal-recrutement.md#parcours-secretaire) et côté [RH](signal-recrutement.md#parcours-rh)). On valide ensuite selon le niveau du groupe :
 
 !!! info "Critères publics, seuils privés"
 

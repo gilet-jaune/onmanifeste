@@ -74,10 +74,12 @@ Les rôles **tournent** ; personne n'a tous les rôles, et aucun groupe ne réun
 | **Secrétaire** | Coordonne la rencontre, **valide** quand les conditions sont réunies, nettoie le groupe sas et y ajoute les RH | Valider sans garant·e ; **ajouter** au groupe de confiance ; tenir une liste de présence |
 | **RH** | Second contrôle, **ajoutent** au groupe de confiance, reçoivent les doutes, décident des retraits **à deux**, {{ default("decision_delay") }} après une pause préventive | Organiser les groupes sas ; décider seul·e d'un retrait |
 | **Gardien·ne** | Veille sur la configuration du groupe (au moins deux par groupe), signale aux RH les arrivées étranges | Ajouter quelqu'un de non validé ; partir en action avec son téléphone de gardien·ne |
+| **Agent de liaison** | Transmet un lieu, une heure ou une décision entre familles dans un groupe de liaison dédié | Être dans deux familles ; être RH ou gardien·ne ; transmettre une liste de membres ou des identités |
 | **Modération** | Rappelle la charte, recadre en privé | Accuser quelqu'un dans le groupe |
+| **Référent·e « groupe perdu »** | Déclenche la procédure « groupe compromis », prévient la legal team locale | Commenter une arrestation par écrit |
 
 </section>
 
 </div>
 
-Pour le détail, voir le guide [Groupes Signal](../guides/groupes-signal.md) et ses pages [membre](../guides/signal-membres.md), [recrutement](../guides/signal-recrutement.md), [groupes](../guides/signal-gerer.md) et [groupe compromis](../guides/signal-groupe-compromis.md).
+Pour le détail, voir le guide [Groupes Signal](../guides/groupes-signal.md) et ses pages [membre](../guides/signal-membres.md), [recrutement](../guides/signal-recrutement.md), [valider](../guides/signal-valider.md), [créer et régler](../guides/signal-creer.md), [tenir les groupes](../guides/signal-gerer.md) et [groupe compromis](../guides/signal-groupe-compromis.md).

@@ -15,6 +15,8 @@
         "rejoindre",
         "entrer",
         "anonyme",
+        "date",
+        "sas",
         "new",
         "newcomer",
         "join",
@@ -27,6 +29,7 @@
             "fr": "comprendre comment ça marche",
             "en": "understand how it works"
           },
+          "keywords": ["groupes", "entonnoir", "etapes", "roles", "groups", "funnel", "steps"],
           "results": [
             {
               "guide": "groupes-signal",
@@ -37,6 +40,17 @@
               "anchor": {
                 "fr": "les-groupes",
                 "en": "the-groups"
+              }
+            },
+            {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Votre parcours, étape par étape",
+                "en": "Your path, step by step"
+              },
+              "anchor": {
+                "fr": "votre-parcours",
+                "en": "your-path"
               }
             },
             {
@@ -55,9 +69,19 @@
         {
           "id": "anonyme",
           "label": {
-            "fr": "rester anonyme",
-            "en": "stay anonymous"
+            "fr": "choisir mon nom de militant·e et régler Signal",
+            "en": "choose my activist name and set up Signal"
           },
+          "keywords": [
+            "anonyme",
+            "pseudo",
+            "nom",
+            "reglages",
+            "numero",
+            "pin",
+            "notifications",
+            "settings"
+          ],
           "results": [
             {
               "guide": "signal-membres",
@@ -89,10 +113,33 @@
         {
           "id": "sas",
           "label": {
-            "fr": "aller à une rencontre (groupe sas)",
-            "en": "go to a meeting (airlock group)"
+            "fr": "rejoindre un groupe sas ou proposer une date de rencontre",
+            "en": "join an airlock group or propose a meeting date"
           },
+          "keywords": [
+            "sas",
+            "date",
+            "creneau",
+            "sondage",
+            "lieu",
+            "rencontre",
+            "proposer",
+            "airlock",
+            "meeting",
+            "poll"
+          ],
           "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Proposer une date, une heure et un lieu (sans exposer le groupe)",
+                "en": "Proposing a date, time and place (without exposing the group)"
+              },
+              "anchor": {
+                "fr": "proposer-une-date-une-heure-et-un-lieu",
+                "en": "proposing-a-date-time-and-place"
+              }
+            },
             {
               "guide": "signal-recrutement",
               "label": {
@@ -103,16 +150,59 @@
                 "fr": "le-groupe-sas",
                 "en": "the-airlock-group"
               }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "La rencontre en vrai, étape par étape",
+                "en": "The in-person meeting, step by step"
+              },
+              "anchor": {
+                "fr": "la-rencontre-en-vrai-etape-par-etape",
+                "en": "the-in-person-meeting-step-by-step"
+              }
             }
           ]
         },
         {
           "id": "confiance",
           "label": {
-            "fr": "entrer dans le groupe de confiance",
-            "en": "join the trusted group"
+            "fr": "entrer dans le groupe de confiance (voie ouverte ou cooptation)",
+            "en": "join the trusted group (open path or co-option)"
           },
+          "keywords": [
+            "confiance",
+            "valider",
+            "garant",
+            "cooptation",
+            "porte ouverte",
+            "actions",
+            "trusted",
+            "voucher"
+          ],
           "results": [
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Deux portes : la voie ouverte et la cooptation",
+                "en": "Two ways in: the open path and co-option"
+              },
+              "anchor": {
+                "fr": "deux-portes-pour-entrer-dans-le-groupe-de-confiance",
+                "en": "two-ways-into-the-trusted-group"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Recruter à porte ouverte : venir aux actions pour se faire connaître",
+                "en": "Open-door recruitment: coming to actions to get known"
+              },
+              "anchor": {
+                "fr": "recruter-a-porte-ouverte-les-voir-agir",
+                "en": "open-door-recruitment-watching-them-act"
+              }
+            },
             {
               "guide": "signal-valider",
               "label": {
@@ -138,11 +228,15 @@
         "membre",
         "groupe",
         "ecrire",
+        "coopter",
+        "garant",
+        "libelle",
         "telephone",
         "quitter",
         "member",
         "group",
         "write",
+        "voucher",
         "phone",
         "leave"
       ],
@@ -153,6 +247,7 @@
             "fr": "savoir quoi écrire ou pas",
             "en": "know what to write and what not to"
           },
+          "keywords": ["ecrire", "messages", "vocaux", "liens", "photos", "charte", "write"],
           "results": [
             {
               "guide": "signal-membres",
@@ -168,12 +263,109 @@
             {
               "guide": "signal-modeles",
               "label": {
-                "fr": "La charte",
-                "en": "The charter"
+                "fr": "La charte complète",
+                "en": "The full charter"
               },
               "anchor": {
                 "fr": "charte-complete",
                 "en": "full-charter"
+              }
+            }
+          ]
+        },
+        {
+          "id": "coopter",
+          "label": {
+            "fr": "proposer quelqu'un (cooptation), me porter garant·e ou proposer une date de sas",
+            "en": "propose someone (co-option), vouch for someone or propose an airlock date"
+          },
+          "keywords": [
+            "coopter",
+            "cooptation",
+            "garant",
+            "garante",
+            "parrainer",
+            "proposer",
+            "date",
+            "sas",
+            "accompagner",
+            "voucher",
+            "co-opt"
+          ],
+          "results": [
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Recruter par cooptation : un membre vérifié propose",
+                "en": "Recruiting by co-option: a vetted member proposes"
+              },
+              "anchor": {
+                "fr": "recruter-par-cooptation-un-membre-verifie-propose",
+                "en": "recruiting-by-co-option-a-vetted-member-proposes"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Accompagner en action et se porter garant·e (porte ouverte)",
+                "en": "Going along to actions and vouching (open door)"
+              },
+              "anchor": {
+                "fr": "recruter-a-porte-ouverte-les-voir-agir",
+                "en": "open-door-recruitment-watching-them-act"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Proposer une date, une heure et un lieu de rencontre (groupe sas)",
+                "en": "Proposing a meeting date, time and place (airlock group)"
+              },
+              "anchor": {
+                "fr": "proposer-une-date-une-heure-et-un-lieu",
+                "en": "proposing-a-date-time-and-place"
+              }
+            }
+          ]
+        },
+        {
+          "id": "role-manif",
+          "label": {
+            "fr": "choisir un rôle en manif ou afficher mon libellé (medic, legal…)",
+            "en": "choose a protest role or display my label (medic, legal…)"
+          },
+          "keywords": [
+            "role",
+            "roles",
+            "libelle",
+            "libelles",
+            "medic",
+            "legal",
+            "veille",
+            "logistique",
+            "label"
+          ],
+          "results": [
+            {
+              "guide": "roles",
+              "label": {
+                "fr": "Les rôles dans une mobilisation (sur place, à distance)",
+                "en": "Roles in a mobilisation (on the ground, remote)"
+              },
+              "anchor": {
+                "fr": "le-tableau-des-roles",
+                "en": "the-roles-table"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Libellés de rôle dans Signal",
+                "en": "Role labels in Signal"
+              },
+              "anchor": {
+                "fr": "libelles-de-role",
+                "en": "role-labels"
               }
             }
           ]
@@ -184,6 +376,7 @@
             "fr": "protéger mon téléphone et mes contacts",
             "en": "protect my phone and contacts"
           },
+          "keywords": ["telephone", "contacts", "carnet", "code", "verrouillage", "phone", "lock"],
           "results": [
             {
               "guide": "signal-membres",
@@ -208,9 +401,20 @@
         {
           "id": "arrete",
           "label": {
-            "fr": "réagir si je suis arrêté·e ou si je perds mon téléphone",
-            "en": "know what to do if I'm arrested or lose my phone"
+            "fr": "réagir si je suis arrêté·e, si quelqu'un est embarqué ou si je perds mon téléphone",
+            "en": "know what to do if I'm arrested, someone is taken away or I lose my phone"
           },
+          "keywords": [
+            "arrete",
+            "arrestation",
+            "embarque",
+            "garde a vue",
+            "perdu",
+            "saisi",
+            "alerte",
+            "arrested",
+            "seized"
+          ],
           "results": [
             {
               "guide": "signal-membres",
@@ -221,6 +425,17 @@
               "anchor": {
                 "fr": "si-vous-etes-arretee-ou-perdez-votre-telephone",
                 "en": "if-you-are-arrested-or-lose-your-phone"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Si quelqu'un se fait embarquer devant vous : alerter et retrait conservatoire",
+                "en": "If someone is taken away in front of you: alert and precautionary removal"
+              },
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
               }
             },
             {
@@ -250,6 +465,7 @@
             "fr": "savoir quoi faire si le groupe disparaît ou si on me retire",
             "en": "know what to do if the group disappears or I'm removed"
           },
+          "keywords": ["disparu", "retire", "exclus", "repli", "removed", "fallback"],
           "results": [
             {
               "guide": "signal-membres",
@@ -270,6 +486,7 @@
             "fr": "quitter un groupe proprement",
             "en": "leave a group properly"
           },
+          "keywords": ["quitter", "partir", "supprimer", "historique", "leave", "delete"],
           "results": [
             {
               "guide": "signal-membres",
@@ -287,6 +504,99 @@
       ]
     },
     {
+      "id": "recruteur",
+      "label": {
+        "fr": "recruteur·se",
+        "en": "a recruiter"
+      },
+      "keywords": [
+        "recruteur",
+        "recruteuse",
+        "recruter",
+        "orienter",
+        "accueil",
+        "recruiter",
+        "recruit"
+      ],
+      "needs": [
+        {
+          "id": "orienter",
+          "label": {
+            "fr": "orienter des personnes vers les groupes et envoyer les réglages",
+            "en": "point people to the groups and send the settings"
+          },
+          "keywords": ["orienter", "public", "sas", "reglages", "settings"],
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Recruteur·ses et secrétaires : ce qu'on fait et ce qu'on ne fait pas",
+                "en": "Recruiters and secretaries: what they do and don't do"
+              },
+              "anchor": {
+                "fr": "recruteurses-et-secretaires",
+                "en": "recruiters-and-secretaries"
+              }
+            },
+            {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Les réglages à envoyer avant la rencontre",
+                "en": "The settings to send before the meeting"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "label": {
+                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
+                "en": "The groups: public group, airlock group, trusted group, sub-groups"
+              },
+              "anchor": {
+                "fr": "les-groupes",
+                "en": "the-groups"
+              }
+            }
+          ]
+        },
+        {
+          "id": "date",
+          "label": {
+            "fr": "proposer une date de rencontre (groupe sas)",
+            "en": "propose a meeting date (airlock group)"
+          },
+          "keywords": ["date", "creneau", "sondage", "lieu", "sas", "rencontre", "poll"],
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Proposer une date, une heure et un lieu",
+                "en": "Proposing a date, time and place"
+              },
+              "anchor": {
+                "fr": "proposer-une-date-une-heure-et-un-lieu",
+                "en": "proposing-a-date-time-and-place"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Le groupe sas",
+                "en": "The airlock group"
+              },
+              "anchor": {
+                "fr": "le-groupe-sas",
+                "en": "the-airlock-group"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "secretaire",
       "label": {
         "fr": "secrétaire",
@@ -296,7 +606,14 @@
         "secretaire",
         "accueil",
         "rencontre",
+        "sas",
+        "date",
+        "sondage",
+        "lieu",
+        "qr",
         "valider",
+        "menage",
+        "nettoyer",
         "secretary",
         "welcome",
         "meeting",
@@ -304,12 +621,76 @@
       ],
       "needs": [
         {
-          "id": "rencontre",
+          "id": "parcours",
           "label": {
-            "fr": "animer une rencontre au groupe sas",
-            "en": "host a meeting in the airlock group"
+            "fr": "voir toutes mes étapes de secrétaire dans l'ordre (schéma)",
+            "en": "see all my secretary steps in order (diagram)"
           },
+          "keywords": [
+            "parcours",
+            "schema",
+            "etapes",
+            "secretaire",
+            "checklist",
+            "path",
+            "diagram",
+            "steps"
+          ],
           "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Parcours Secrétaire : les 5 étapes du sas à la transmission aux RH",
+                "en": "Secretary path: the 5 steps from the airlock to handing over to HR"
+              },
+              "anchor": {
+                "fr": "parcours-secretaire",
+                "en": "secretary-path"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Recruteur·ses et secrétaires : ce qu'on fait et ce qu'on ne fait pas",
+                "en": "Recruiters and secretaries: what they do and don't do"
+              },
+              "anchor": {
+                "fr": "recruteurses-et-secretaires",
+                "en": "recruiters-and-secretaries"
+              }
+            }
+          ]
+        },
+        {
+          "id": "sas",
+          "label": {
+            "fr": "créer un groupe sas, proposer une date et donner le lieu",
+            "en": "create an airlock group, propose a date and give the place"
+          },
+          "keywords": [
+            "sas",
+            "date",
+            "creneau",
+            "sondage",
+            "lieu",
+            "annonce",
+            "annoncer",
+            "airlock",
+            "poll",
+            "place"
+          ],
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Proposer une date, une heure et un lieu (sondage Signal, annonce, lieu la veille)",
+                "en": "Proposing a date, time and place (Signal poll, announcement, place the day before)"
+              },
+              "anchor": {
+                "fr": "proposer-une-date-une-heure-et-un-lieu",
+                "en": "proposing-a-date-time-and-place"
+              }
+            },
             {
               "guide": "signal-recrutement",
               "label": {
@@ -322,14 +703,66 @@
               }
             },
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-creer",
               "label": {
-                "fr": "Le recrutement, rôle par rôle",
-                "en": "Recruitment, role by role"
+                "fr": "Régler le groupe sas avant toute invitation",
+                "en": "Setting up the airlock group before any invitation"
               },
               "anchor": {
-                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
-                "en": "recruitment-end-to-end-role-by-role"
+                "fr": "regler-les-groupes",
+                "en": "setting-up-the-groups"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rencontre",
+          "label": {
+            "fr": "animer la rencontre en vrai, étape par étape",
+            "en": "host the in-person meeting, step by step"
+          },
+          "keywords": [
+            "rencontre",
+            "animer",
+            "accueil",
+            "qr",
+            "reglages",
+            "conversation",
+            "meeting",
+            "host"
+          ],
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "La rencontre en vrai, étape par étape (avant, pendant, à éviter, après)",
+                "en": "The in-person meeting, step by step (before, during, to avoid, after)"
+              },
+              "anchor": {
+                "fr": "la-rencontre-en-vrai-etape-par-etape",
+                "en": "the-in-person-meeting-step-by-step"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Recruteur·ses et secrétaires",
+                "en": "Recruiters and secretaries"
+              },
+              "anchor": {
+                "fr": "recruteurses-et-secretaires",
+                "en": "recruiters-and-secretaries"
+              }
+            },
+            {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Les réglages à vérifier avec chaque personne",
+                "en": "The settings to check with each person"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
               }
             }
           ]
@@ -337,19 +770,20 @@
         {
           "id": "verifier",
           "label": {
-            "fr": "savoir quoi vérifier",
-            "en": "know what to check"
+            "fr": "savoir quoi vérifier (sans demander l'identité)",
+            "en": "know what to check (without asking for ID)"
           },
+          "keywords": ["verifier", "controle", "qr", "charte", "signaux", "alerte", "check"],
           "results": [
             {
               "guide": "signal-recrutement",
               "label": {
-                "fr": "Le groupe sas",
-                "en": "The airlock group"
+                "fr": "Ce qu'on vérifie à la rencontre (compte, garant·e, charte, signaux d'alerte)",
+                "en": "What to check at the meeting (account, voucher, charter, warning signs)"
               },
               "anchor": {
-                "fr": "le-groupe-sas",
-                "en": "the-airlock-group"
+                "fr": "ce-quon-verifie-a-la-rencontre",
+                "en": "what-to-check-at-the-meeting"
               }
             },
             {
@@ -368,9 +802,18 @@
         {
           "id": "valider",
           "label": {
-            "fr": "valider et passer la main aux RH",
-            "en": "validate and hand over to HR"
+            "fr": "valider (garant·e, porte ouverte, cooptation) et passer la main aux RH",
+            "en": "validate (voucher, open door, co-option) and hand over to HR"
           },
+          "keywords": [
+            "valider",
+            "garant",
+            "cooptation",
+            "porte ouverte",
+            "rh",
+            "validate",
+            "voucher"
+          ],
           "results": [
             {
               "guide": "signal-valider",
@@ -384,14 +827,88 @@
               }
             },
             {
-              "guide": "signal-recrutement",
+              "guide": "signal-valider",
               "label": {
-                "fr": "Le recrutement, rôle par rôle",
-                "en": "Recruitment, role by role"
+                "fr": "Recruter à porte ouverte : les voir agir",
+                "en": "Open-door recruitment: watching them act"
               },
               "anchor": {
-                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
-                "en": "recruitment-end-to-end-role-by-role"
+                "fr": "recruter-a-porte-ouverte-les-voir-agir",
+                "en": "open-door-recruitment-watching-them-act"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Recruter par cooptation : un membre vérifié propose",
+                "en": "Recruiting by co-option: a vetted member proposes"
+              },
+              "anchor": {
+                "fr": "recruter-par-cooptation-un-membre-verifie-propose",
+                "en": "recruiting-by-co-option-a-vetted-member-proposes"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Parcours Secrétaire (schéma)",
+                "en": "Secretary path (diagram)"
+              },
+              "anchor": {
+                "fr": "parcours-secretaire",
+                "en": "secretary-path"
+              }
+            }
+          ]
+        },
+        {
+          "id": "nettoyer",
+          "label": {
+            "fr": "nettoyer le groupe sas après la rencontre (rendez-vous, secours ou fermeture)",
+            "en": "clean up the airlock group after the meeting (rendezvous, backup or closing)"
+          },
+          "keywords": [
+            "nettoyer",
+            "menage",
+            "retirer",
+            "absents",
+            "secours",
+            "fermer",
+            "clean",
+            "backup"
+          ],
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Nettoyer le groupe sas après la rencontre",
+                "en": "Cleaning up the airlock group after the meeting"
+              },
+              "anchor": {
+                "fr": "nettoyer-le-groupe-sas-apres-la-rencontre",
+                "en": "cleaning-up-the-airlock-group-after-the-meeting"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Réutiliser le sas nettoyé et renommé pour se donner rendez-vous",
+                "en": "Reusing the cleaned and renamed airlock to arrange to meet"
+              },
+              "anchor": {
+                "fr": "recruter-a-porte-ouverte-les-voir-agir",
+                "en": "open-door-recruitment-watching-them-act"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Fermer un groupe",
+                "en": "Closing a group"
+              },
+              "anchor": {
+                "fr": "fermer-un-groupe",
+                "en": "closing-a-group"
               }
             }
           ]
@@ -401,37 +918,53 @@
     {
       "id": "rh",
       "label": {
-        "fr": "RH",
-        "en": "HR"
+        "fr": "RH (ressources humaines)",
+        "en": "HR (human resources)"
       },
       "keywords": [
         "rh",
         "ressources humaines",
         "verification",
         "retrait",
+        "pause",
         "doute",
+        "registre",
         "hr",
         "vetting",
         "removal",
-        "doubt"
+        "doubt",
+        "register"
       ],
       "needs": [
         {
           "id": "ajouter",
           "label": {
-            "fr": "faire le second contrôle et ajouter",
-            "en": "do the second check and add people"
+            "fr": "voir le parcours RH : second contrôle, ajout au groupe de confiance et registre (schéma)",
+            "en": "see the HR path: second check, adding to the trusted group and register (diagram)"
           },
+          "keywords": [
+            "parcours",
+            "schema",
+            "ajouter",
+            "controle",
+            "profil",
+            "charte",
+            "registre",
+            "path",
+            "diagram",
+            "add",
+            "check"
+          ],
           "results": [
             {
               "guide": "signal-recrutement",
               "label": {
-                "fr": "Le recrutement, rôle par rôle",
-                "en": "Recruitment, role by role"
+                "fr": "Parcours RH : les 4 étapes de l'intégration (schéma)",
+                "en": "HR path: the 4 onboarding steps (diagram)"
               },
               "anchor": {
-                "fr": "le-recrutement-de-bout-en-bout-role-par-role",
-                "en": "recruitment-end-to-end-role-by-role"
+                "fr": "parcours-rh",
+                "en": "hr-path"
               }
             },
             {
@@ -444,21 +977,44 @@
                 "fr": "valider-la-confiance-graduee",
                 "en": "validating-graduated-trust"
               }
+            },
+            {
+              "guide": "signal-modeles",
+              "label": {
+                "fr": "La charte complète à faire valider avant l'ajout",
+                "en": "The full charter to have reviewed before adding"
+              },
+              "anchor": {
+                "fr": "charte-complete",
+                "en": "full-charter"
+              }
             }
           ]
         },
         {
           "id": "doute",
           "label": {
-            "fr": "traiter un doute sur quelqu'un",
-            "en": "handle a doubt about someone"
+            "fr": "traiter un doute sur quelqu'un (pause préventive)",
+            "en": "handle a doubt about someone (preventive pause)"
           },
+          "keywords": ["doute", "pause", "preventive", "signaux", "alerte", "doubt", "pause"],
           "results": [
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Pause préventive en cas de doute",
+                "en": "Preventive pause when in doubt"
+              },
+              "anchor": {
+                "fr": "pause-preventive-en-cas-de-doute",
+                "en": "preventive-pause-when-in-doubt"
+              }
+            },
             {
               "guide": "signal-valider",
               "label": {
-                "fr": "Valider : la confiance graduée",
-                "en": "Validating: graduated trust"
+                "fr": "Signaux d'alerte et confiance graduée",
+                "en": "Warning signs and graduated trust"
               },
               "anchor": {
                 "fr": "valider-la-confiance-graduee",
@@ -481,15 +1037,26 @@
         {
           "id": "retrait",
           "label": {
-            "fr": "décider d'un retrait",
-            "en": "decide on a removal"
+            "fr": "réagir à une arrestation, une fuite ou décider d'un retrait",
+            "en": "respond to an arrest, a leak or decide on a removal"
           },
+          "keywords": [
+            "retrait",
+            "conservatoire",
+            "arrestation",
+            "embarque",
+            "debrief",
+            "fuite",
+            "demenager",
+            "removal",
+            "leak"
+          ],
           "results": [
             {
               "guide": "signal-groupe-compromis",
               "label": {
-                "fr": "Retrait conservatoire",
-                "en": "Precautionary removal"
+                "fr": "Retrait conservatoire et débrief à la sortie",
+                "en": "Precautionary removal and debrief on release"
               },
               "anchor": {
                 "fr": "retrait-conservatoire",
@@ -506,6 +1073,72 @@
                 "fr": "que-faire",
                 "en": "what-to-do"
               }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Cas A : on sait par où ça fuit",
+                "en": "Case A: you know where the leak is"
+              },
+              "anchor": {
+                "fr": "cas-a-on-sait-par-ou-ca-fuit",
+                "en": "case-a-you-know-where-the-leak-is"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Cas B : on ne sait pas, déménager",
+                "en": "Case B: you don't know, move out"
+              },
+              "anchor": {
+                "fr": "cas-b-on-ne-sait-pas-demenager",
+                "en": "case-b-you-dont-know-move-out"
+              }
+            }
+          ],
+          "urgent": true
+        },
+        {
+          "id": "registre",
+          "label": {
+            "fr": "tenir le registre et relier plusieurs familles (agents de liaison)",
+            "en": "keep the register and link several families (liaison agents)"
+          },
+          "keywords": ["registre", "famille", "familles", "liaison", "coordonner", "register"],
+          "results": [
+            {
+              "guide": "signal-creer",
+              "label": {
+                "fr": "Nommer les groupes et tenir le registre",
+                "en": "Naming groups and keeping the register"
+              },
+              "anchor": {
+                "fr": "nommer-les-groupes",
+                "en": "naming-groups"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Relier plusieurs familles (agents de liaison)",
+                "en": "Linking several families (liaison agents)"
+              },
+              "anchor": {
+                "fr": "relier-plusieurs-familles",
+                "en": "linking-several-families"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Se coordonner sans réunir toutes les personnes clés",
+                "en": "Coordinating without gathering all key people"
+              },
+              "anchor": {
+                "fr": "se-coordonner",
+                "en": "coordinating"
+              }
             }
           ]
         }
@@ -519,9 +1152,11 @@
       },
       "keywords": [
         "gardien",
+        "gardienne",
         "admin",
         "regler",
         "creer",
+        "diviser",
         "fermer",
         "nommer",
         "keyholder",
@@ -534,15 +1169,24 @@
         {
           "id": "creer",
           "label": {
-            "fr": "créer et régler un groupe",
-            "en": "create and set up a group"
+            "fr": "créer, nommer et régler un groupe",
+            "en": "create, name and set up a group"
           },
+          "keywords": [
+            "creer",
+            "regler",
+            "nommer",
+            "parametres",
+            "permissions",
+            "ephemeres",
+            "lien"
+          ],
           "results": [
             {
               "guide": "signal-creer",
               "label": {
-                "fr": "Régler les groupes",
-                "en": "Setting up the groups"
+                "fr": "Régler les groupes (messages éphémères, permissions, aucun lien)",
+                "en": "Setting up the groups (disappearing messages, permissions, no link)"
               },
               "anchor": {
                 "fr": "regler-les-groupes",
@@ -552,8 +1196,8 @@
             {
               "guide": "signal-creer",
               "label": {
-                "fr": "Nommer les groupes",
-                "en": "Naming groups"
+                "fr": "Nommer les groupes et tenir le registre",
+                "en": "Naming groups and keeping the register"
               },
               "anchor": {
                 "fr": "nommer-les-groupes",
@@ -572,19 +1216,20 @@
         {
           "id": "veiller",
           "label": {
-            "fr": "veiller sur les groupes et les rôles",
-            "en": "watch over groups and roles"
+            "fr": "veiller sur les groupes, les rôles et les libellés",
+            "en": "watch over groups, roles and labels"
           },
+          "keywords": ["veiller", "roles", "libelles", "mineurs", "coordonner", "labels", "minors"],
           "results": [
             {
               "guide": "groupes-signal",
               "label": {
-                "fr": "Les rôles",
-                "en": "The roles"
+                "fr": "Rôles d'organisation des groupes Signal",
+                "en": "Roles for organising the Signal groups"
               },
               "anchor": {
-                "fr": "les-roles",
-                "en": "the-roles"
+                "fr": "roles-dorganisation-des-groupes-signal",
+                "en": "roles-for-organising-the-signal-groups"
               }
             },
             {
@@ -597,15 +1242,46 @@
                 "fr": "libelles-de-role",
                 "en": "role-labels"
               }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Se coordonner",
+                "en": "Coordinating"
+              },
+              "anchor": {
+                "fr": "se-coordonner",
+                "en": "coordinating"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Mineur·es dans les groupes",
+                "en": "Minors in the groups"
+              },
+              "anchor": {
+                "fr": "mineures-dans-les-groupes",
+                "en": "minors-in-the-groups"
+              }
             }
           ]
         },
         {
           "id": "compromis",
           "label": {
-            "fr": "réagir à une arrestation ou une fuite",
-            "en": "respond to an arrest or a leak"
+            "fr": "réagir à une arrestation, un doute ou une fuite",
+            "en": "respond to an arrest, a doubt or a leak"
           },
+          "keywords": [
+            "arrestation",
+            "embarque",
+            "retrait",
+            "pause",
+            "fuite",
+            "compromis",
+            "demenager"
+          ],
           "results": [
             {
               "guide": "signal-groupe-compromis",
@@ -621,12 +1297,45 @@
             {
               "guide": "signal-groupe-compromis",
               "label": {
+                "fr": "Pause préventive en cas de doute",
+                "en": "Preventive pause when in doubt"
+              },
+              "anchor": {
+                "fr": "pause-preventive-en-cas-de-doute",
+                "en": "preventive-pause-when-in-doubt"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
                 "fr": "Groupe compromis : que faire ?",
                 "en": "Compromised group: what to do?"
               },
               "anchor": {
                 "fr": "que-faire",
                 "en": "what-to-do"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Cas A : on sait par où ça fuit",
+                "en": "Case A: you know where the leak is"
+              },
+              "anchor": {
+                "fr": "cas-a-on-sait-par-ou-ca-fuit",
+                "en": "case-a-you-know-where-the-leak-is"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Cas B : on ne sait pas, déménager",
+                "en": "Case B: you don't know, move out"
+              },
+              "anchor": {
+                "fr": "cas-b-on-ne-sait-pas-demenager",
+                "en": "case-b-you-dont-know-move-out"
               }
             }
           ],
@@ -635,10 +1344,22 @@
         {
           "id": "fermer",
           "label": {
-            "fr": "fermer un groupe",
-            "en": "close a group"
+            "fr": "diviser un groupe trop grand ou fermer un groupe",
+            "en": "split an overgrown group or close a group"
           },
+          "keywords": ["fermer", "diviser", "taille", "famille", "supprimer", "close", "split"],
           "results": [
+            {
+              "guide": "signal-creer",
+              "label": {
+                "fr": "Quand créer ou diviser un groupe",
+                "en": "When to create or split a group"
+              },
+              "anchor": {
+                "fr": "quand-creer-ou-diviser-un-groupe",
+                "en": "when-to-create-or-split-a-group"
+              }
+            },
             {
               "guide": "signal-gerer",
               "label": {
@@ -655,9 +1376,10 @@
         {
           "id": "vite",
           "label": {
-            "fr": "m'organiser vite en manif",
-            "en": "organise quickly at a protest"
+            "fr": "m'organiser vite en manif (groupe temporaire)",
+            "en": "organise quickly at a protest (temporary group)"
           },
+          "keywords": ["temporaire", "jetable", "manif", "journee", "sans reseau", "temporary"],
           "results": [
             {
               "guide": "signal-gerer",
@@ -686,54 +1408,153 @@
       ]
     },
     {
-      "id": "recruteur",
+      "id": "autre-role",
       "label": {
-        "fr": "recruteur·se",
-        "en": "a recruiter"
+        "fr": "agent de liaison, modération ou référent·e « groupe perdu »",
+        "en": "a liaison agent, moderator or 'lost group' lead"
       },
-      "keywords": ["recruteur", "recruter", "orienter", "recruiter", "recruit"],
+      "keywords": [
+        "liaison",
+        "moderation",
+        "moderateur",
+        "moderatrice",
+        "referent",
+        "groupe perdu",
+        "charte",
+        "familles",
+        "moderator",
+        "lost group"
+      ],
       "needs": [
         {
-          "id": "orienter",
+          "id": "liaison",
           "label": {
-            "fr": "orienter des personnes vers les groupes",
-            "en": "point people to the groups"
+            "fr": "relier plusieurs familles sans les exposer (agent de liaison)",
+            "en": "link several families without exposing them (liaison agent)"
           },
+          "keywords": ["liaison", "famille", "familles", "coordonner", "families"],
           "results": [
             {
-              "guide": "groupes-signal",
+              "guide": "signal-gerer",
               "label": {
-                "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
-                "en": "The groups: public group, airlock group, trusted group, sub-groups"
+                "fr": "Relier plusieurs familles",
+                "en": "Linking several families"
               },
               "anchor": {
-                "fr": "les-groupes",
-                "en": "the-groups"
+                "fr": "relier-plusieurs-familles",
+                "en": "linking-several-families"
               }
             },
             {
-              "guide": "groupes-signal",
+              "guide": "signal-creer",
               "label": {
-                "fr": "Les rôles",
-                "en": "The roles"
+                "fr": "Régler le groupe de liaison",
+                "en": "Setting up the liaison group"
               },
               "anchor": {
-                "fr": "les-roles",
-                "en": "the-roles"
-              }
-            },
-            {
-              "guide": "signal-recrutement",
-              "label": {
-                "fr": "Le groupe sas",
-                "en": "The airlock group"
-              },
-              "anchor": {
-                "fr": "le-groupe-sas",
-                "en": "the-airlock-group"
+                "fr": "regler-les-groupes",
+                "en": "setting-up-the-groups"
               }
             }
           ]
+        },
+        {
+          "id": "moderation",
+          "label": {
+            "fr": "rappeler la charte et recadrer en privé (modération)",
+            "en": "remind people of the charter and step in privately (moderation)"
+          },
+          "keywords": ["moderation", "charte", "recadrer", "conflit", "doute", "charter"],
+          "results": [
+            {
+              "guide": "signal-modeles",
+              "label": {
+                "fr": "La charte complète",
+                "en": "The full charter"
+              },
+              "anchor": {
+                "fr": "charte-complete",
+                "en": "full-charter"
+              }
+            },
+            {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Dans les groupes : ce qu'on écrit et ce qu'on n'écrit pas",
+                "en": "In the groups: what to write and what not to"
+              },
+              "anchor": {
+                "fr": "dans-les-groupes",
+                "en": "in-the-groups"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Pause préventive en cas de doute",
+                "en": "Preventive pause when in doubt"
+              },
+              "anchor": {
+                "fr": "pause-preventive-en-cas-de-doute",
+                "en": "preventive-pause-when-in-doubt"
+              }
+            }
+          ]
+        },
+        {
+          "id": "perdu",
+          "label": {
+            "fr": "déclencher la procédure « groupe compromis » (référent·e « groupe perdu »)",
+            "en": "trigger the 'compromised group' procedure ('lost group' lead)"
+          },
+          "keywords": ["perdu", "compromis", "retrait", "fuite", "demenager", "legal team"],
+          "results": [
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Groupe compromis : que faire ?",
+                "en": "Compromised group: what to do?"
+              },
+              "anchor": {
+                "fr": "que-faire",
+                "en": "what-to-do"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Retrait conservatoire",
+                "en": "Precautionary removal"
+              },
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Cas A : on sait par où ça fuit",
+                "en": "Case A: you know where the leak is"
+              },
+              "anchor": {
+                "fr": "cas-a-on-sait-par-ou-ca-fuit",
+                "en": "case-a-you-know-where-the-leak-is"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Cas B : on ne sait pas, déménager",
+                "en": "Case B: you don't know, move out"
+              },
+              "anchor": {
+                "fr": "cas-b-on-ne-sait-pas-demenager",
+                "en": "case-b-you-dont-know-move-out"
+              }
+            }
+          ],
+          "urgent": true
         }
       ]
     }

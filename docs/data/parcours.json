@@ -2650,9 +2650,24 @@
             "infiltration",
             "infiltré",
             "sas",
-            "confiance"
+            "confiance",
+            "roles",
+            "secretaire",
+            "rh",
+            "gardien"
           ],
           "results": [
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "trouver-ce-qui-concerne-votre-role",
+                "en": "find-what-concerns-your-role"
+              },
+              "label": {
+                "fr": "Menu par rôle : secrétaire, RH, gardien·ne, recruteur·se, membre",
+                "en": "Menu by role: secretary, HR, keyholder, recruiter, member"
+              }
+            },
             {
               "guide": "groupes-signal",
               "anchor": {
@@ -2662,6 +2677,17 @@
               "label": {
                 "fr": "Les groupes : groupe public, groupe sas, groupe de confiance, sous-groupes",
                 "en": "The groups: public group, airlock group, trusted group, sub-groups"
+              }
+            },
+            {
+              "guide": "groupes-signal",
+              "anchor": {
+                "fr": "roles-dorganisation-des-groupes-signal",
+                "en": "roles-for-organising-the-signal-groups"
+              },
+              "label": {
+                "fr": "Rôles d'organisation des groupes Signal",
+                "en": "Roles for organising the Signal groups"
               }
             },
             {
@@ -3663,6 +3689,7 @@
       "keywords": [
         "anonyme",
         "anonymous",
+        "date",
         "debutant",
         "entrer",
         "groupe",
@@ -3673,6 +3700,7 @@
         "nouveau",
         "nouvelle",
         "rejoindre",
+        "sas",
         "signal"
       ],
       "needs": [
@@ -3695,6 +3723,17 @@
               }
             },
             {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Votre parcours, étape par étape",
+                "en": "Your path, step by step"
+              },
+              "anchor": {
+                "fr": "votre-parcours",
+                "en": "your-path"
+              }
+            },
+            {
               "guide": "signal-recrutement",
               "label": {
                 "fr": "Le recrutement, rôle par rôle",
@@ -3710,8 +3749,8 @@
         {
           "id": "anonyme",
           "label": {
-            "fr": "rester anonyme",
-            "en": "stay anonymous"
+            "fr": "choisir mon nom de militant·e et régler Signal",
+            "en": "choose my activist name and set up Signal"
           },
           "results": [
             {
@@ -3744,10 +3783,21 @@
         {
           "id": "sas",
           "label": {
-            "fr": "aller à une rencontre (groupe sas)",
-            "en": "go to a meeting (airlock group)"
+            "fr": "rejoindre un groupe sas ou proposer une date de rencontre",
+            "en": "join an airlock group or propose a meeting date"
           },
           "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Proposer une date, une heure et un lieu (sans exposer le groupe)",
+                "en": "Proposing a date, time and place (without exposing the group)"
+              },
+              "anchor": {
+                "fr": "proposer-une-date-une-heure-et-un-lieu",
+                "en": "proposing-a-date-time-and-place"
+              }
+            },
             {
               "guide": "signal-recrutement",
               "label": {
@@ -3757,6 +3807,17 @@
               "anchor": {
                 "fr": "le-groupe-sas",
                 "en": "the-airlock-group"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "La rencontre en vrai, étape par étape",
+                "en": "The in-person meeting, step by step"
+              },
+              "anchor": {
+                "fr": "la-rencontre-en-vrai-etape-par-etape",
+                "en": "the-in-person-meeting-step-by-step"
               }
             }
           ]
@@ -3771,12 +3832,303 @@
             {
               "guide": "signal-valider",
               "label": {
+                "fr": "Deux portes : la voie ouverte et la cooptation",
+                "en": "Two ways in: the open path and co-option"
+              },
+              "anchor": {
+                "fr": "deux-portes-pour-entrer-dans-le-groupe-de-confiance",
+                "en": "two-ways-into-the-trusted-group"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Recruter à porte ouverte : venir aux actions pour se faire connaître",
+                "en": "Open-door recruitment: coming to actions to get known"
+              },
+              "anchor": {
+                "fr": "recruter-a-porte-ouverte-les-voir-agir",
+                "en": "open-door-recruitment-watching-them-act"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
                 "fr": "Valider : la confiance graduée",
                 "en": "Validating: graduated trust"
               },
               "anchor": {
                 "fr": "valider-la-confiance-graduee",
                 "en": "validating-graduated-trust"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "agir"
+    },
+    {
+      "id": "role-signal",
+      "label": {
+        "fr": "membre, secrétaire, RH, gardien·ne ou recruteur·se d'un groupe Signal",
+        "en": "a member, secretary, HR, keyholder or recruiter in a Signal group"
+      },
+      "keywords": [
+        "admin",
+        "cooptation",
+        "coopter",
+        "date",
+        "gardien",
+        "gardienne",
+        "garant",
+        "garante",
+        "groupe",
+        "groupes",
+        "keyholder",
+        "liaison",
+        "membre",
+        "moderation",
+        "recruteur",
+        "recruteuse",
+        "recruiter",
+        "rh",
+        "role",
+        "roles",
+        "sas",
+        "secretaire",
+        "secretary",
+        "signal",
+        "sondage"
+      ],
+      "needs": [
+        {
+          "id": "membre",
+          "label": {
+            "fr": "savoir quoi écrire, coopter quelqu'un ou me porter garant·e (membre)",
+            "en": "know what to write, co-opt someone or vouch for someone (member)"
+          },
+          "results": [
+            {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Dans les groupes : ce qu'on écrit et ce qu'on n'écrit pas",
+                "en": "In the groups: what to write and what not to"
+              },
+              "anchor": {
+                "fr": "dans-les-groupes",
+                "en": "in-the-groups"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Recruter par cooptation : proposer quelqu'un qu'on connaît",
+                "en": "Recruiting by co-option: proposing someone you know"
+              },
+              "anchor": {
+                "fr": "recruter-par-cooptation-un-membre-verifie-propose",
+                "en": "recruiting-by-co-option-a-vetted-member-proposes"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Accompagner en action et se porter garant·e (porte ouverte)",
+                "en": "Going along to actions and vouching (open door)"
+              },
+              "anchor": {
+                "fr": "recruter-a-porte-ouverte-les-voir-agir",
+                "en": "open-door-recruitment-watching-them-act"
+              }
+            }
+          ]
+        },
+        {
+          "id": "recruteur",
+          "label": {
+            "fr": "orienter vers les groupes et envoyer les réglages (recruteur·se)",
+            "en": "point people to the groups and send the settings (recruiter)"
+          },
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Recruteur·ses et secrétaires",
+                "en": "Recruiters and secretaries"
+              },
+              "anchor": {
+                "fr": "recruteurses-et-secretaires",
+                "en": "recruiters-and-secretaries"
+              }
+            },
+            {
+              "guide": "signal-membres",
+              "label": {
+                "fr": "Les réglages à envoyer avant la rencontre",
+                "en": "The settings to send before the meeting"
+              },
+              "anchor": {
+                "fr": "vos-reglages",
+                "en": "your-settings"
+              }
+            }
+          ]
+        },
+        {
+          "id": "secretaire",
+          "label": {
+            "fr": "proposer une date de sas, animer la rencontre, vérifier et nettoyer (secrétaire)",
+            "en": "propose an airlock date, host the meeting, check and clean up (secretary)"
+          },
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Parcours Secrétaire : les 5 étapes du sas à la transmission aux RH (schéma)",
+                "en": "Secretary path: the 5 steps from the airlock to handing over to HR (diagram)"
+              },
+              "anchor": {
+                "fr": "parcours-secretaire",
+                "en": "secretary-path"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Proposer une date, une heure et un lieu (sondage Signal, annonce, lieu la veille)",
+                "en": "Proposing a date, time and place (Signal poll, announcement, place the day before)"
+              },
+              "anchor": {
+                "fr": "proposer-une-date-une-heure-et-un-lieu",
+                "en": "proposing-a-date-time-and-place"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "La rencontre en vrai, étape par étape",
+                "en": "The in-person meeting, step by step"
+              },
+              "anchor": {
+                "fr": "la-rencontre-en-vrai-etape-par-etape",
+                "en": "the-in-person-meeting-step-by-step"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Ce qu'on vérifie à la rencontre (sans demander l'identité)",
+                "en": "What to check at the meeting (without asking for ID)"
+              },
+              "anchor": {
+                "fr": "ce-quon-verifie-a-la-rencontre",
+                "en": "what-to-check-at-the-meeting"
+              }
+            },
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Nettoyer le groupe sas après la rencontre",
+                "en": "Cleaning up the airlock group after the meeting"
+              },
+              "anchor": {
+                "fr": "nettoyer-le-groupe-sas-apres-la-rencontre",
+                "en": "cleaning-up-the-airlock-group-after-the-meeting"
+              }
+            }
+          ]
+        },
+        {
+          "id": "rh",
+          "label": {
+            "fr": "faire le second contrôle, ajouter, traiter un doute ou un retrait (RH)",
+            "en": "do the second check, add, handle a doubt or a removal (HR)"
+          },
+          "results": [
+            {
+              "guide": "signal-recrutement",
+              "label": {
+                "fr": "Parcours RH : les 4 étapes de l'intégration (schéma)",
+                "en": "HR path: the 4 onboarding steps (diagram)"
+              },
+              "anchor": {
+                "fr": "parcours-rh",
+                "en": "hr-path"
+              }
+            },
+            {
+              "guide": "signal-valider",
+              "label": {
+                "fr": "Valider : la confiance graduée",
+                "en": "Validating: graduated trust"
+              },
+              "anchor": {
+                "fr": "valider-la-confiance-graduee",
+                "en": "validating-graduated-trust"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Pause préventive en cas de doute",
+                "en": "Preventive pause when in doubt"
+              },
+              "anchor": {
+                "fr": "pause-preventive-en-cas-de-doute",
+                "en": "preventive-pause-when-in-doubt"
+              }
+            },
+            {
+              "guide": "signal-groupe-compromis",
+              "label": {
+                "fr": "Retrait conservatoire et débrief",
+                "en": "Precautionary removal and debrief"
+              },
+              "anchor": {
+                "fr": "retrait-conservatoire",
+                "en": "precautionary-removal"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gardien",
+          "label": {
+            "fr": "créer, régler, diviser ou fermer un groupe (gardien·ne)",
+            "en": "create, set up, split or close a group (keyholder)"
+          },
+          "results": [
+            {
+              "guide": "signal-creer",
+              "label": {
+                "fr": "Régler les groupes (messages éphémères, permissions, aucun lien)",
+                "en": "Setting up the groups (disappearing messages, permissions, no link)"
+              },
+              "anchor": {
+                "fr": "regler-les-groupes",
+                "en": "setting-up-the-groups"
+              }
+            },
+            {
+              "guide": "signal-creer",
+              "label": {
+                "fr": "Quand créer ou diviser un groupe",
+                "en": "When to create or split a group"
+              },
+              "anchor": {
+                "fr": "quand-creer-ou-diviser-un-groupe",
+                "en": "when-to-create-or-split-a-group"
+              }
+            },
+            {
+              "guide": "signal-gerer",
+              "label": {
+                "fr": "Fermer un groupe",
+                "en": "Closing a group"
+              },
+              "anchor": {
+                "fr": "fermer-un-groupe",
+                "en": "closing-a-group"
               }
             }
           ]

@@ -64,6 +64,8 @@ Un groupe se règle **vide**, avant la première invitation : le délai d'efface
 
 </div>
 
+### Quand créer ou diviser un groupe
+
 **Un groupe qui dépasse sa taille se divise, il ne grossit pas** : plus un groupe est grand, plus il a de chances de contenir une fuite, et plus une fuite expose de monde. Ces tailles sont des repères de bon sens : tout le monde doit pouvoir se reconnaître au moins de vue dans le groupe de confiance, et vraiment se connaître dans un sous-groupe. Groupe sas trop plein : deux rencontres.
 
 | Créer | Quand |
