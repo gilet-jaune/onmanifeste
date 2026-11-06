@@ -1,6 +1,6 @@
 ---
 description: 'Three A4 memo sheets to print on Signal groups: member, arrest or compromised group, and keeper roles.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: f8117637d66717ee6a6acddd6d50dc5c0282b765
 review: juridique
 review_status: pending
 tags:
@@ -75,10 +75,12 @@ Roles **rotate**; nobody holds every role, and no group brings together all the 
 | **Secretary** | Coordinates the meeting, **vets** when conditions are met, cleans the airlock group and adds HR | Vet without a voucher; **add** to the trusted group; keep an attendance list |
 | **HR** | Second check, **add** to the trusted group, receive doubts, decide removals **in pairs**, {{ default("decision_delay") }} after a preventive pause | Run airlock groups; decide a removal alone |
 | **Keyholder** | Watches over the group's settings (at least two per group), flags odd arrivals to HR | Add someone who has not been vetted; go on an action with their keyholder phone |
+| **Liaison agent** | Passes on a place, a time or a decision between families in a dedicated liaison group | Belong to two families; be HR or a keyholder; pass on a member list or identities |
 | **Moderation** | Reminds people of the charter, deals with issues in private | Accuse someone in the group |
+| **"Lost group" lead** | Triggers the compromised-group procedure, alerts the local legal team | Discuss an arrest in writing |
 
 </section>
 
 </div>
 
-For details, see the [Signal groups](../guides/groupes-signal.md) guide and its pages: [member](../guides/signal-membres.md), [recruitment](../guides/signal-recrutement.md), [running the groups](../guides/signal-gerer.md) and [compromised group](../guides/signal-groupe-compromis.md).
+For details, see the [Signal groups](../guides/groupes-signal.md) guide and its pages: [member](../guides/signal-membres.md), [recruitment](../guides/signal-recrutement.md), [vetting](../guides/signal-valider.md), [creating and configuring](../guides/signal-creer.md), [running the groups](../guides/signal-gerer.md) and [compromised group](../guides/signal-groupe-compromis.md).

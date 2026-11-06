@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: building trust before admitting someone to a trusted group.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: f8117637d66717ee6a6acddd6d50dc5c0282b765
 review: juridique
 review_status: pending
 tags:
@@ -18,7 +18,7 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 
 ## Validating: graduated trust
 
-The meeting is a **first contact**. **Each person is vetted, not the airlock**: an airlock can include people vetted the same day and others who are waiting, and newcomers never vouch for each other. Validation then depends on the group's level:
+The meeting is a **first contact**. **Each person is vetted, not the airlock**: an airlock can include people vetted the same day and others who are waiting, and newcomers never vouch for each other (see the steps for [Secretary](signal-recrutement.md#secretary-path) and for [HR](signal-recrutement.md#hr-path)). Validation then depends on the group's level:
 
 !!! info "Public criteria, private thresholds"
 
@@ -32,7 +32,7 @@ The meeting is a **first contact**. **Each person is vetted, not the airlock**: 
 | **The person** | Does someone reliable really know them? | A **voucher** who knows them outside the movement, or has seen them act at several actions, confirms it privately to the secretary | Immediate if someone knows them; a few weeks otherwise |
 | **The settings** | Might they expose the group through carelessness? | The secretary, then HR: activist name, no photo, hidden number, no duplicate name | 5 minutes |
 
-- **Fast path**, when someone already knows them: meeting in the airlock group (15 minutes of settings and QR scan), the voucher's confirmation, cleaning the airlock group, HR's second check, the trusted group's link. **The same day.**
+- **Fast path**, when someone already knows them: meeting in the airlock group (15 minutes of settings and QR scan), the voucher's confirmation, cleaning the airlock group, HR's second check, adding to the trusted group. **The same day.**
 - **Slow path**, when nobody knows them: they come to actions for a few weeks. This time can't be shortened: it is the only way to get to know someone.
 - **What vetting doesn't guarantee**: intentions. A malicious person with a genuine voucher will get through; hence "nothing illegal in writing" and compartmentalising into sub-groups.
 

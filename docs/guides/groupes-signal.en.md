@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups to organise while limiting leaks: public group, airlock group, trusted group. Overview.'
-source_commit: 990e90a64f8c238e0ed738df90fe900dea06f190
+source_commit: f8117637d66717ee6a6acddd6d50dc5c0282b765
 review: juridique
 review_status: pending
 tags:
@@ -27,14 +27,14 @@ An encrypted messenger like {{ res("signal") }} protects your messages in transi
 !!! info "Where to start?"
 
     - **Someone has just been arrested, or a group is compromised** → [compromised group](signal-groupe-compromis.md).
-    - **You are joining groups** → [the groups](groupes-signal.md#the-groups), then [as a member](signal-membres.md).
-    - **You organise** (secretary, HR, keyholder) → [the groups](groupes-signal.md#the-groups) and [organisation roles](groupes-signal.md#roles-for-organising-the-signal-groups), then [recruiting and meeting](signal-recrutement.md), [vetting](signal-valider.md), [creating and configuring groups](signal-creer.md) and [running the groups](signal-gerer.md). To go straight to your role: the [menu by role](groupes-signal.md#find-what-concerns-your-role).
-    - **You are looking for a protest role** (medic, legal, logistics...) → [roles useful at protests](groupes-signal.md#roles-useful-at-protests).
+    - **You are discovering or joining groups** → [the groups](groupes-signal.md#the-groups), [join or suggest an airlock group](signal-recrutement.md#proposing-a-date-time-and-place), then [as a member](signal-membres.md).
+    - **You have a role in the Signal groups** (member, recruiter, secretary, HR, keyholder, liaison, moderation, "lost group" lead) → the [menu by role](groupes-signal.md#find-what-concerns-your-role) below, or the [organising roles table](groupes-signal.md#roles-for-organising-the-signal-groups) with links to every instruction.
+    - **You are looking for a role at a protest or from afar** (medic, legal, field watch, logistics...) → [roles in a mobilisation](roles.md).
     - **You just want the charter** → [copy-paste templates](signal-modeles.md).
 
 ## Find what concerns your role
 
-Do you organise groups? Say what your role is (secretary, HR, keyholder, recruiter), then what you want to do: the menu takes you straight to the right part of this guide. Works **offline**.
+Pick your role (new member, member, recruiter, secretary, HR, keyholder, liaison, moderation or "lost group" lead), then what you want to do: the menu takes you straight to the right instruction (see also the [summary table of roles](groupes-signal.md#roles-for-organising-the-signal-groups)). Works **offline**.
 
 {% import "overrides/partials/parcours-tree.html" as pt with context %}
 
@@ -62,10 +62,10 @@ Do you organise groups? Say what your role is (secretary, HR, keyholder, recruit
 <div class="flow flow--funnel" markdown>
 
 1. **Public group** (one per city) → people join through the **public group's link** (the one exception: it holds nothing sensitive) or are added directly by a secretary or a recruiter; only admins (keyholders and secretaries) post: announcements, date, declared location, links to the guides.
-    - **To move on to an airlock group**: set up your settings, make yourself known to a recruiter, write privately to a secretary (by username) to be added to an airlock group announced in the public group with its date and time of day, or suggest one.
-2. **Airlock group** (temporary) → suggested by **any member of the public group**, created and announced by a secretary, for **one** in-person meeting, then, if needed, a rendezvous at an action organised by others; only the time and place are written there, and it stays open while people await a decision.
-    - **To move on to the trusted group**: an in-person meeting with a secretary (settings, QR code scanned), {{ default("actions") }} where vetted members watch you, **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the airlock (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
-3. **Trusted group** (vetted, `MVT-CTY-4K9-General`) → logistics, mutual aid, public information; nothing illegal.
+    - **To move on to an airlock group**: set up [your settings](signal-membres.md#your-settings), make yourself known to a recruiter, write privately to a secretary (by username) to be added to an [airlock group](signal-recrutement.md#the-airlock-group) announced in the public group with its date and time of day, or [suggest one](signal-recrutement.md#proposing-a-date-time-and-place).
+2. **Airlock group** (temporary) → suggested by **any member of the public group**, created and [announced by a secretary](signal-recrutement.md#proposing-a-date-time-and-place), for **[one in-person meeting](signal-recrutement.md#the-in-person-meeting-step-by-step)**, then, if needed, a rendezvous at an action organised by others; only the time and place are written there, and it stays open while people await a decision.
+    - **To move on to the trusted group**: [an in-person meeting](signal-recrutement.md#the-in-person-meeting-step-by-step) with a secretary (settings, QR code scanned, [checks](signal-recrutement.md#what-to-check-at-the-meeting)), {{ default("actions") }} where vetted members watch you, **one voucher**, then HR's second check, who add you to the trusted group **by username**, from the airlock (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
+3. **Trusted group** (vetted, `MVT-CTY-4K9-General`) → logistics, mutual aid, public information; [nothing illegal](signal-membres.md#in-the-groups).
     - **To move on to a sub-group**: a real need in the team, a period in the trusted group, and **two vouchers** if the sub-group is sensitive; the sub-group's keyholder adds them.
 4. **Sub-groups by topic**, in the same family (same ID) → each only sees what concerns its team:
     - `4K9-Medic`
@@ -80,7 +80,7 @@ The **trusted group and its sub-groups** are the **vetted groups**, and a **fami
 
 ## The roles
 
-Nobody holds every role, and roles **rotate**. And **no group brings together every key person** (see [coordinating](signal-gerer.md#coordinating)).
+Nobody holds every role, and roles **rotate**. And **no group brings together every key person** (see [coordinating](signal-gerer.md#coordinating)). To filter by your role and what you need: [Find what concerns your role](groupes-signal.md#find-what-concerns-your-role).
 
 <a id="organisation-roles"></a>
 
@@ -88,14 +88,15 @@ Nobody holds every role, and roles **rotate**. And **no group brings together ev
 
 These roles keep the Signal network running (recruitment, onboarding, moderation, security):
 
-| Role | What they do | What they don't do | Admin in Signal |
-| --- | --- | --- | --- |
-| **Recruiter** | Talks about the movement at protests, on roundabouts, at public meetings; points people to the public group and the airlock groups | Validate; vouch for their own recruits; write anything down about them | No |
-| **Secretary** (already-vetted member) | **Coordinates the meeting end to end**: announces the airlock group in the public group, comes to it, helps everyone set up Signal; **validates** once the conditions are met; cleans the airlock group and adds HR to it; stays the newcomers' contact | Validate without a voucher; **add anyone to the trusted group** (HR do the adding); keep an attendance list | Of the airlock group they run, and of the public group to announce meetings there |
-| **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs ({{ default("decision_delay") }} after a [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)); settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group |
-| **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group |
-| **Moderation** | Reminds people of the [charter](signal-modeles.en.md#full-charter), deals with issues privately | Accuse anyone in the group | No |
-| **"Lost group" lead** | Triggers the [compromised-group procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group |
+| Role | What they do | What they don't do | Admin in Signal | Find out more |
+| --- | --- | --- | --- | --- |
+| **Recruiter** | Talks about the movement at protests, on roundabouts, at public meetings; points people to the public group and the airlock groups | Validate; vouch for their own recruits; write anything down about them | No | [Recruiters and secretaries](signal-recrutement.md#recruiters-and-secretaries) · [Propose a date and place](signal-recrutement.md#proposing-a-date-time-and-place) · [Your settings](signal-membres.md#your-settings) |
+| **Secretary** (already-vetted member) | **Coordinates the meeting end to end**: announces the airlock group in the public group, comes to it, helps everyone set up Signal; **validates** once the conditions are met; cleans the airlock group and adds HR to it; stays the newcomers' contact | Validate without a voucher; **add anyone to the trusted group** (HR do the adding); keep an attendance list | Of the airlock group they run, and of the public group to announce meetings there | [Secretary path (diagram)](signal-recrutement.md#secretary-path) · [Propose a date and place](signal-recrutement.md#proposing-a-date-time-and-place) · [In-person meeting](signal-recrutement.md#the-in-person-meeting-step-by-step) · [What to check](signal-recrutement.md#what-to-check-at-the-meeting) · [Clean up the airlock](signal-recrutement.md#cleaning-up-the-airlock-group-after-the-meeting) · [Validate](signal-valider.md#validating-graduated-trust) |
+| **HR** ("human resources") | Like at work: do the **second check** on validated people and **add** them to the trusted group; receive doubts; decide on removals in pairs ({{ default("decision_delay") }} after a [preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)); settle cases when a secretary hesitates | Run airlock groups; decide a removal alone; be keyholders of every group | Yes, of the trusted group | [HR path (diagram)](signal-recrutement.md#hr-path) · [Validate](signal-valider.md#validating-graduated-trust) · [Preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt) · [Precautionary removal](signal-groupe-compromis.md#precautionary-removal) · [Compromised group](signal-groupe-compromis.md) |
+| **Keyholder** | Holds a group's keys: **watches over its configuration** (message timer, permissions, no link except for the public group), adds and removes; **keeps an eye out** for unusual arrivals and interactions and reports them to HR. HR are keyholders of the trusted group | Add someone who hasn't been validated; go to an action with their keyholder phone | Yes, at least two per group | [Naming and register](signal-creer.md#naming-groups) · [Set up groups](signal-creer.md#setting-up-the-groups) · [Create or split](signal-creer.md#when-to-create-or-split-a-group) · [Role labels](signal-gerer.md#role-labels) · [Close a group](signal-gerer.md#closing-a-group) · [Compromised group](signal-groupe-compromis.md) |
+| **Liaison agent** | Passes on a place, a time or a decision between families in a dedicated liaison group | Belong to two families; be HR or a keyholder; pass on a member list or identities | No (2 keyholders from different families) | [Linking several families](signal-gerer.md#linking-several-families) · [Set up groups](signal-creer.md#setting-up-the-groups) |
+| **Moderation** | Reminds people of the [charter](signal-modeles.en.md#full-charter), deals with issues privately | Accuse anyone in the group | No | [Full charter](signal-modeles.en.md#full-charter) · [In the groups](signal-membres.md#in-the-groups) · [Preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt) |
+| **"Lost group" lead** | Triggers the [compromised-group procedure](signal-groupe-compromis.md), alerts the [local legal team](../annuaire/index.md?tags=antirepression) | Discuss an arrest in writing | Depends on the group | [What to do?](signal-groupe-compromis.md#what-to-do) · [Precautionary removal](signal-groupe-compromis.md#precautionary-removal) · [Case A](signal-groupe-compromis.md#case-a-you-know-where-the-leak-is) · [Case B: move out](signal-groupe-compromis.md#case-b-you-dont-know-move-out) |
 
 <a id="protest-roles"></a>
 
@@ -105,12 +106,12 @@ The roles played at protests (`Medic`, `Legal`, `Veille`, protection and de-esca
 
 ### Key vocabulary and concepts
 
-- **Voucher**: a vetted member who really knows a new person (outside the airlock group: friend, colleague, neighbour, or seen in action at several protests) and vouches for them, privately, to the secretary.
-- **Activist name**: the pseudonym used on Signal and in person.
-- **Register**: the list, kept by two or three people outside the groups, of active and lost groups and of who is in which group.
-- **Fallback point**: a regular place and time, agreed in person, to meet up if the groups go down.
-- **Precautionary removal**: removing someone from their groups as a precaution, for example when they are arrested.
-- **Leak**: the person or phone through which an outsider gets into a group.
+- **Voucher**: a vetted member who really knows a new person (outside the airlock group: friend, colleague, neighbour, or seen in action at several protests) and vouches for them, privately, to the secretary ([validating trust](signal-valider.md#validating-graduated-trust), [watching them act](signal-valider.md#open-door-recruitment-watching-them-act), [co-option](signal-valider.md#recruiting-by-co-option-a-vetted-member-proposes)).
+- **Activist name**: the pseudonym used on Signal and in person ([choosing your activist name](signal-membres.md#your-activist-name)).
+- **Register**: the list, kept by two or three people outside the groups, of active and lost groups and of who is in which group ([naming groups and keeping the register](signal-creer.md#naming-groups)).
+- **Fallback point**: a regular place and time, agreed in person, to meet up if the groups go down ([if the group disappears](signal-membres.md#if-the-group-disappears-or-you-are-removed)).
+- **Precautionary removal**: removing someone from their groups as a precaution, for example when they are arrested ([precautionary removal](signal-groupe-compromis.md#precautionary-removal)).
+- **Leak**: the person or phone through which an outsider gets into a group ([when is a group compromised?](signal-groupe-compromis.md#when-is-a-group-compromised)).
 
 ## In this guide
 

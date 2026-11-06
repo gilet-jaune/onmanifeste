@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: creating and configuring groups with the right settings from the start.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: f8117637d66717ee6a6acddd6d50dc5c0282b765
 review: juridique
 review_status: pending
 tags:
@@ -64,6 +64,8 @@ A group is set up **empty**, before the first invitation: the message timer only
 8. **Only then** add the members.
 
 </div>
+
+### When to create or split a group
 
 **A group that outgrows its size is split, it doesn't keep growing**: the bigger a group, the more likely it contains a leak, and the more people a leak exposes. These sizes are common-sense benchmarks: everyone in the trusted group should at least recognise each other by sight, and really know each other in a sub-group. Airlock group too full: two meetings.
 

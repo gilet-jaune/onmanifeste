@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups, member side: settings, good habits and what is expected of you in a trusted group.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: f8117637d66717ee6a6acddd6d50dc5c0282b765
 review: juridique
 review_status: pending
 tags:
@@ -20,14 +20,14 @@ Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, tr
 
 <div class="flow" markdown>
 
-1. **Get ready** → activist name, hidden number, disappearing messages (see below).
+1. **Get ready** → [activist name](signal-membres.md#your-activist-name), hidden number, disappearing messages (see [your settings](signal-membres.md#your-settings)).
 2. **Join the public group** → read the announcements.
-3. **Join an airlock group** announced in the public group, or suggest one to a secretary, to meet in person. If a vetted member already knows you, they can also **co-opt** you: they propose you directly to a secretary.
-4. **Come to meetings and actions** → a vetted secretary helps you set up Signal and scans your account's QR code.
-5. **Validation** → once a vetted member who knows you vouches for you to the secretary; otherwise, keep coming to actions: that is where people get to know each other.
+3. **Join an [airlock group](signal-recrutement.md#the-airlock-group)** announced in the public group, or [suggest one](signal-recrutement.md#proposing-a-date-time-and-place) to a secretary, to meet in person. If a vetted member already knows you, they can also **[co-opt](signal-valider.md#recruiting-by-co-option-a-vetted-member-proposes)** you: they propose you directly to a secretary.
+4. **Come to [meetings](signal-recrutement.md#the-in-person-meeting-step-by-step) and actions** → a vetted secretary helps you set up Signal and scans your account's QR code.
+5. **[Validation](signal-valider.md#validating-graduated-trust)** → once a vetted member who knows you vouches for you to the secretary; otherwise, keep [coming to actions](signal-valider.md#open-door-recruitment-watching-them-act): that is where people get to know each other.
 6. **Join the trusted group** → an HR member joins you in the airlock group, checks your profile, has you review the [full charter](signal-modeles.en.md#full-charter), then adds you to the trusted group **by your username**: no link to ask for or follow.
-7. **Take part** → nothing illegal in writing; doubts about someone: HR, privately.
-8. **Arrested, lost your phone, group gone** → see below.
+7. **[Take part](signal-membres.md#in-the-groups)** → nothing illegal in writing; doubts about someone: HR, privately ([preventive pause](signal-groupe-compromis.md#preventive-pause-when-in-doubt)).
+8. **Arrested, lost your phone, group gone** → see [if you are arrested](signal-membres.md#if-you-are-arrested-or-lose-your-phone) and [if the group disappears](signal-membres.md#if-the-group-disappears-or-you-are-removed).
 
 </div>
 
