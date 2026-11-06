@@ -854,6 +854,26 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
   }
+
+  // Open the matching tab when the URL hash points to an element inside a .tabbed-block.
+  const activateTabForHash = () => {
+    const id = decodeURIComponent(window.location.hash.slice(1));
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    const block = target.closest('.tabbed-block');
+    const set = block && block.closest('.tabbed-set');
+    if (!block || !block.parentElement || !set) return;
+    const index = [...block.parentElement.children].indexOf(block);
+    const input = set.querySelectorAll(':scope > input[type="radio"]')[index];
+    if (input && !input.checked) {
+      input.checked = true;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+      set.scrollIntoView({ block: 'start' });
+    }
+  };
+  activateTabForHash();
+  window.addEventListener('hashchange', activateTabForHash);
 });
 
 /*

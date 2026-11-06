@@ -32,13 +32,19 @@ const slug = (text) =>
 const anchorsCache = new Map();
 function anchorsOf(file) {
   if (!anchorsCache.has(file)) {
-    const ids = existsSync(file)
-      ? readFileSync(file, 'utf8')
+    if (!existsSync(file)) {
+      anchorsCache.set(file, null);
+    } else {
+      const text = readFileSync(file, 'utf8');
+      const ids = new Set(
+        text
           .split('\n')
           .filter((l) => /^#{1,4} /.test(l))
-          .map((l) => slug(l.replace(/^#+ /, '')))
-      : null;
-    anchorsCache.set(file, ids && new Set(ids));
+          .map((l) => slug(l.replace(/^#+ /, ''))),
+      );
+      for (const m of text.matchAll(/\bid="([^"]+)"/g)) ids.add(m[1]);
+      anchorsCache.set(file, ids);
+    }
   }
   return anchorsCache.get(file);
 }

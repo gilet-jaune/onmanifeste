@@ -86,13 +86,32 @@ def _find(node, pred):
     return None
 
 
+def _table_points(tbl):
+    tbody = _find(tbl, lambda n: n.tag == "tbody") or tbl
+    rows = [c for c in tbody.children if not isinstance(c, str) and c.tag == "tr"]
+    out = []
+    for tr in rows[:MAX_POINTS]:
+        cells = [_inner(c) for c in tr.children if not isinstance(c, str) and c.tag in ("td", "th")]
+        cells = [c for c in cells if c and c != "—"]
+        if len(cells) >= 2:
+            out.append(_clip(f"{cells[0]} : {cells[1]}"))
+        elif cells:
+            out.append(_clip(cells[0]))
+    return out
+
+
 def _points(nodes):
-    """First list items of a run of sibling nodes, or the first paragraph."""
+    """First list items or table rows of a run of sibling nodes, or the first paragraph."""
     for node in nodes:
         lst = node if node.tag in ("ul", "ol") else _find(node, lambda n: n.tag in ("ul", "ol"))
         items = [c for c in lst.children if not isinstance(c, str) and c.tag == "li"] if lst else []
         if items:
             return [_clip(_inner(li)) for li in items[:MAX_POINTS]]
+        tbl = node if node.tag == "table" else _find(node, lambda n: n.tag == "table")
+        if tbl:
+            pts = _table_points(tbl)
+            if pts:
+                return pts
     for node in nodes:
         if node.tag == "p":
             return [_clip(_inner(node))]
@@ -117,12 +136,35 @@ def on_page_content(content, page, **kwargs):
     for i, node in enumerate(top):
         if node.tag not in ("h2", "h3") or node.attrs.get("id") in (None, "sources"):
             continue
-        body = []
+        direct = []
+        full = []
+        seen_h3 = False
         for nxt in top[i + 1:]:
-            if nxt.tag in ("h2",) or (node.tag == "h3" and nxt.tag == "h3"):
+            if nxt.tag == "h2" or (node.tag == "h3" and nxt.tag == "h3"):
                 break
-            body.append(nxt)
-        sections[node.attrs["id"]] = {"title": _inner(node), "points": _points(body)}
+            if nxt.tag == "h3":
+                seen_h3 = True
+            if not seen_h3:
+                direct.append(nxt)
+            full.append(nxt)
+        pts = _points(direct) or _points(full)
+        sections[node.attrs["id"]] = {"title": _inner(node), "points": pts}
+
+    for node in top:
+        if node.tag == "div" and "tabbed-set" in node.classes():
+            labels_box = _find(node, lambda n: n.tag == "div" and "tabbed-labels" in n.classes())
+            content_box = _find(node, lambda n: n.tag == "div" and "tabbed-content" in n.classes())
+            if not labels_box or not content_box:
+                continue
+            labels = [c for c in labels_box.children if not isinstance(c, str) and c.tag == "label"]
+            blocks = [c for c in content_box.children if not isinstance(c, str) and "tabbed-block" in c.classes()]
+            for lbl, blk in zip(labels, blocks):
+                target = _find(blk, lambda n: n.attrs.get("id") is not None)
+                if target:
+                    sections[target.attrs["id"]] = {
+                        "title": _inner(lbl),
+                        "points": _points([target]),
+                    }
 
     _digest[lang][slug] = {"title": page.title, "essentiel": essentiel, "sections": sections}
     return content
