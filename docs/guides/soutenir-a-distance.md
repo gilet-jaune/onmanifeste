@@ -18,9 +18,14 @@ tags:
 
 !!! tip "Par où commencer ?"
 
+    - Pas sûr·e ? [Quel rôle à distance vous convient](#quel-role-a-distance-me-convient).
     - Argent : [caisse de solidarité](#donner-a-une-caisse-de-solidarite). Matériel : [street-médics](#equiper-les-street-medics). Nourriture : [cuisine et ravitaillement](#distribuer-de-la-nourriture).
     - Sur place : [transport](#transporter-des-personnes), [groupe temporaire](#se-coordonner-pour-une-tache-precise), [personne ressource](#etre-la-personne-ressource-a-lexterieur).
     - De chez vous : [relayer en ligne](#relayer-en-ligne), [voter](#voter), [pétitions](#signer-des-petitions), [autres idées](#aider-autrement).
+
+## Quel rôle, à distance, me convient ?
+
+Choisir son rôle aide à passer de l'envie d'agir à un geste précis. Le tableau de [Les rôles dans une mobilisation](roles.md) indique, pour chaque rôle, s'il se joue **sur place**, **à distance** ou **les deux** : repérez ceux marqués « À distance » ou « Les deux ». Les sections ci-dessous détaillent chacun.
 
 ## Donner à une caisse de solidarité
 
@@ -117,7 +122,7 @@ Les guides conseillent de prévenir **une personne qui ne manifeste pas** : c'es
 
 - **Écrire à votre député·e** : l'Assemblée nationale publie la liste des députés, avec pour chacun·e une fiche indiquant la circonscription, une adresse postale et une adresse e-mail.[^assemblee-deputes] Écrivez sur un sujet précis, en votre nom. Le Sénat publie aussi la liste de ses sénateur·ices ; la fiche d'un·e sénateur·ice donne un lien de contact par courriel et une adresse postale au Sénat.[^senat-senateurs]
 - **Se former aux premiers secours (PSC)** : la Croix-Rouge propose une formation « Premiers secours citoyen » reconnue par l'État, de 8 h, à 60 €, en présentiel ou hybride, avec une inscription par code postal ou ville.[^croix-rouge-psc] La Protection civile en propose aussi, avec un certificat délivré à la fin du parcours complet.[^protection-civile-psc] Utile dans la vie quotidienne comme en cortège : voir [premiers secours](premiers-secours.md).
-- **Observer et donner un coup de main aux legal teams** : la LDH forme des observateur·ices des libertés publiques ({{ res("ldh-observatoires") }}). Pour aider une legal team à distance (permanence téléphonique, relecture, traduction), contactez celle de votre ville depuis l'[annuaire](../annuaire/index.md?tags=antirepression) : nous ne savons pas ce que chacune accepte.
+- **Aider une legal team à distance** (permanence téléphonique, relecture, traduction) : contactez celle de votre ville depuis l'[annuaire](../annuaire/index.md?tags=antirepression) ; nous ne savons pas ce que chacune accepte. _(Observer sur place est un autre rôle : la LDH forme des observateur·ices des libertés publiques, {{ res("ldh-observatoires") }}.)_
 - **Soutenir la presse indépendante** : abonnez-vous ou donnez aux médias qui couvrent les manifestations et les violences policières. Pour les trouver et vérifier ce que vous relayez, voir [s'informer](s-informer-se-former.md#sinformer) et [éviter la désinformation](desinformation.md).
 - **Héberger ou covoiturer** : voir les conseils de [venir et repartir](venir-repartir.md#covoiturage). Conseil pratique, non sourcé : proposez-le à des personnes qu'un collectif ou une personne de confiance connaît, prévenez un proche, et ne publiez pas votre adresse.
 - **Fabriquer pancartes, banderoles et tracts** chez vous : [pancartes, banderoles, drapeaux et tracts](faire-sa-pancarte.md).

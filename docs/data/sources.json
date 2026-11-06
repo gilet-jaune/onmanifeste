@@ -5569,6 +5569,18 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "bmp-ecosystem-map": {
+      "title": {
+        "fr": "Building Movement Project — Social Change Ecosystem Map (Deepa Iyer, 2017)",
+        "en": "Building Movement Project — Social Change Ecosystem Map (Deepa Iyer, 2017)"
+      },
+      "url": "https://buildingmovement.org/social-change-ecosystem-map/",
+      "check": {
+        "date": "2026-11-06",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

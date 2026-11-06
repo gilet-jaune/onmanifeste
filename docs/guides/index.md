@@ -261,6 +261,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](organiser.md)
 
+- **Les rôles dans une mobilisation** [:material-account-group-outline:](roles.md)
+
+    ***
+
+    Sur place, à distance ou les deux : ce que chacun fait et ne fait pas.
+
+    [:octicons-arrow-right-24: Lire](roles.md)
+
 - **Soutenir sans aller en manif** [:material-hand-heart:](soutenir-a-distance.md)
 
     ***

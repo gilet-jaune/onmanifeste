@@ -135,6 +135,7 @@ plugins:
             Agressions par l'extrême droite: Far-right attacks
             Grève, manif et travail: Strikes, protests and work
             Organiser une manifestation: Organising a protest
+            Les rôles dans une mobilisation: Roles in a mobilisation
             Soutenir sans aller en manif: Supporting without going to protests
             "Groupes Signal : s'organiser en limitant les fuites": "Signal groups: organising while limiting leaks"
             Vue d'ensemble: Overview
@@ -252,6 +253,7 @@ nav:
           - Manifester sans être au cœur du cortège: guides/hors-du-coeur-du-cortege.md
       - Mobiliser et informer:
           - Organiser une manifestation: guides/organiser.md
+          - Les rôles dans une mobilisation: guides/roles.md
           - Soutenir sans aller en manif: guides/soutenir-a-distance.md
           - "Groupes Signal : s'organiser en limitant les fuites":
               - Vue d'ensemble: guides/groupes-signal.md

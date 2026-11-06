@@ -3314,6 +3314,13 @@
                 "fr": "Pancartes, banderoles, drapeaux et tracts",
                 "en": "Signs, banners, flags and leaflets"
               }
+            },
+            {
+              "guide": "roles",
+              "label": {
+                "fr": "Les rôles dans une mobilisation (sur place, à distance)",
+                "en": "Roles in a mobilisation (on the ground, remote)"
+              }
             }
           ]
         }
@@ -3402,9 +3409,33 @@
         "audience",
         "prison",
         "detenu",
-        "parloir"
+        "parloir",
+        "role",
+        "roles",
+        "quel role",
+        "utile",
+        "comment aider",
+        "je ne sais pas par ou commencer",
+        "where to start",
+        "which role"
       ],
       "needs": [
+        {
+          "id": "role",
+          "label": {
+            "fr": "trouver quel rôle à distance me convient",
+            "en": "find which remote role suits me"
+          },
+          "results": [
+            {
+              "guide": "roles",
+              "label": {
+                "fr": "Les rôles dans une mobilisation (sur place, à distance)",
+                "en": "Roles in a mobilisation (on the ground, remote)"
+              }
+            }
+          ]
+        },
         {
           "id": "argent",
           "label": {
