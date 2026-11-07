@@ -1,6 +1,6 @@
 ---
 description: 'Never stay alone at a protest: buddy, meeting points, someone to alert.'
-source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
+source_commit: 8a9025d
 tags:
     - guides
     - safety
@@ -21,10 +21,9 @@ Isolation is the first risk at a protest: no one to witness an arrest, alert a l
 
 - [ ] Come with a **buddy** (or a small group) and agree never to split up.
 - [ ] Set **two meeting points**: one near the march, one further away, somewhere quiet.
-- [ ] Tell someone **who is not protesting**: your route, when you expect to be back, who to call if they don't hear from you. Make sure they **answer hidden or unknown numbers** (police stations often call from a withheld number) and know your **full name, date and place of birth** (essential for the legal team or lawyer to locate you).[^sm-guide][^legal-team]
+- [ ] Tell someone **who is not protesting** (route, expected return time, full identity and, if the risk of arrest is high, **representation folder** and lawyer's name): their exact role is detailed in [Be the contact person outside](soutenir-a-distance.md#be-the-contact-person-outside).[^sm-guide][^legal-team][^medicaction-gestes]
 - [ ] Write with permanent marker **on your skin, under clothing** (upper arm, stomach or ankle — not on a bare forearm, which can draw attention during a stop) **and** on paper the number of a close contact and of the **legal team**. In police custody, your phone, bag and papers are taken during the search: without a number written on you, you won't be able to give it. Write **only the 10 digits, with no name or label** ("Mum", first name, "legal team"), so you expose no one.[^eff-protest][^sm-guide][^legal-team]
 - [ ] Write down your medication, allergies or chronic conditions on a piece of paper in your pocket.
-- [ ] If the risk of arrest is **high**: tell a relative you will be there and give them a **representation folder** (employment contract, proof of address, etc.) along with the name of your chosen lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).[^medicaction-gestes]
 - [ ] Find out about the gathering to know the risks, and eat and drink before you leave.[^medicaction-gestes]
 
 ## During

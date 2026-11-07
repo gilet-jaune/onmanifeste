@@ -1,6 +1,6 @@
 ---
 description: 'Why does property get damaged at protests? The facts on damage, targeted symbols and how the media cover it.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 8a9025d
 review: juridique
 review_status: pending
 tags:
@@ -63,11 +63,7 @@ There is no simple answer: studies describe a **dilemma**.
 
 ## What you risk
 
-- Destroying or damaging someone else's property: up to **2 years in prison and a €30,000 fine**.[^sp-vandalisme]
-- **5 years and €75,000** if committed by several people, or by someone deliberately hiding their face.[^sp-vandalisme]
-- The victim can also claim compensation for the damage.[^sp-vandalisme]
-- **Knowingly** joining a group, even a temporary one, that prepares violence or damage: **1 year and €15,000**, even without breaking anything. The prosecution must prove intent and material acts of preparation.[^senat-222-14-2]
-- Covering your face without a legitimate reason at a demonstration: up to **1 year and €15,000**.[^cp-431-9-1]
+The legal texts and maximum penalties (property damage up to **2 years and €30,000** or **5 years and €75,000** when committed by several people or with a hidden face plus civil compensation, taking part in a group preparing damage even without breaking anything, covering your face without a legitimate reason) are detailed in [What the law forbids at a protest, and what you risk](risques-penaux.md#the-most-common-offences).[^sp-vandalisme][^senat-222-14-2][^cp-431-9-1]
 
 ## If smashing breaks out near you
 

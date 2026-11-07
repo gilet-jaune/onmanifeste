@@ -1,6 +1,6 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: ac8c9d9
+source_commit: 8a9025d
 tags:
     - guides
     - support
@@ -91,14 +91,7 @@ Petitions are a discreet way to weigh in without leaving home. They rarely have 
 
 ## Coordinate for a specific task
 
-To set up a team quickly (kitchen, transport, welcome), the Signal guide describes the **temporary group**, a disposable group to be used on the assumption that police may be in it ([the temporary group](signal-gerer.md#the-temporary-group)):
-
-- **For a day**: created on the spot, with the people present added by username, in person, with ephemeral messages of a few hours. **For a few days**: people join after meeting a secretary, with one-day ephemeral messages.
-- A **neutral name**, with no movement or city, and the deletion delay set **before inviting** anyone.
-- **Practical content only** ("need water", "leaving at 8"): no names, no photos of faces, no addresses.
-- **No link** with trusted groups, and the group is **closed at the end** of the task.
-
-For the rest (roles, trusted groups, airlock), see [Signal groups: overview](groupes-signal.md).
+To set up a team quickly (kitchen, transport, welcome) on the assumption that police may be in it, use a disposable **temporary group** (neutral name, ephemeral messages enabled before inviting anyone, practical information only with no names or faces, closed as soon as the task ends): the full procedure is in [The temporary group](signal-gerer.md#the-temporary-group) and the overview in [Signal groups](groupes-signal.md).
 
 ## Transport people
 
@@ -112,10 +105,11 @@ Driving people to a gathering, or back, helps those without a vehicle or who can
 
 ## Be the contact person outside
 
-The guides advise alerting **someone who is not at the protest**: that can be you, if you offer.[^legal-team]
+The guides advise alerting **someone who is not at the protest** ([Never stay alone](ne-pas-rester-seul.md)): that can be you, if you offer.[^sm-guide][^legal-team]
 
 - **Answer withheld or unknown numbers**: the police station often calls that way.
-- Keep the person's **full name, date and place of birth**: the legal team needs them to locate the person ([Never stay alone](ne-pas-rester-seul.md)).
+- Keep the person's **full name, date and place of birth**, route and expected return time: the legal team and lawyer need them to locate the person.
+- If the risk of arrest is high, also hold their **representation folder** (copy of ID, proof of address, employment contract or student certificate) and the name of their chosen lawyer ([see "Fast-track trial and court"](suites-judiciaires.md#fast-track-trial-and-court-documents-to-gather-urgently)).[^medicaction-gestes]
 - If they do not check in on time: call the **legal team**, not the police.
 - Plan a **welcome at the exit of custody**: water, food, a charged phone, a place to sleep (see [Custody](garde-a-vue.md)). Release can happen at any hour.
 

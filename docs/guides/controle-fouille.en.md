@@ -1,6 +1,6 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: 31eefb7df7649ce691233396aecc5ff7202900b1
+source_commit: 8a9025d
 review: juridique
 review_status: pending
 tags:
@@ -45,16 +45,16 @@ Not all bag checks have the same legal basis:[^sp-fouille][^sm-guide]
 
 ## Saline, goggles, mask: can they be confiscated?
 
-Seizures of **saline solution**, **protective goggles** and **masks** are reported during bag searches, without it always being clear what they rely on.
+No law bans wearing protection as long as it does not hide your face, but seizures of **saline solution**, **Maalox**, **scissors**, **protective goggles**, **masks** and **helmets** are frequently reported during bag searches, and gear found in a bag has been used as evidence to prosecute people for "taking part in a group preparing violence" (article 222-14-2 of the Criminal Code).[^franceinfo-protections][^amnesty-force][^medicaction-gestes][^ldh-fiche-manif-2026]
 
-- **What has been reported.** In 2016 in Lyon, protesters said their saline had been confiscated; the Rhône prefecture denied giving any such instruction and said that only items hiding the face could be taken.[^buzzfeed-serum-lyon] In July 2024, near an action against the mega-reservoirs ("mégabassines"), gendarmes seized goggles, masks, saline solution and even sanitary pads ("which could serve as a mask"), citing "weapons by destination". According to the legal team present, the prefect's orders had not been shown to justify the vehicle searches.[^reporterre-bassines-saisies]
+- **What has been reported.** In 2016 in Lyon, protesters said their saline had been confiscated; the Rhône prefecture denied giving any such instruction and said that only items hiding the face could be taken.[^buzzfeed-serum-lyon] In July 2024, near an action against the mega-reservoirs ("mégabassines"), gendarmes seized goggles, masks, saline solution and even sanitary pads ("which could serve as a mask"), citing "weapons by destination". According to the legal team present, the prefect's orders had not been shown to justify the vehicle searches.[^reporterre-bassines-saisies] Médic'Action warns that police and courts may see protective gear (especially a full-face cartridge mask) as premeditation of illegal acts or an intent to hide one's face, with a risk of seizure or even arrest.[^medicaction-touxtes]
 - **What the texts we read say** (a reading to be confirmed by a lawyer):
     - Near a demonstration, police can inspect or search bags **on the written order of the public prosecutor**, to look for the carrying of a weapon.[^cpp-78-2-5] The search takes place **in your presence**, and you can **ask for a report (procès-verbal)**, a copy of which is given to you.[^cpp-78-controles]
     - A **weapon** is an object designed to kill or injure. Any other object is treated as a weapon only if it can be dangerous and is **used, or intended by the person carrying it**, to kill, injure or threaten.[^cp-132-75] In our reading, saline carried to rinse your eyes does not fit that definition. An officer may judge otherwise on the spot: you contest afterwards.
     - These articles **do not expressly provide** for seizing objects or issuing a receipt. Other seizure rules exist, which we have not detailed here.
-- **Watch for prefectoral orders.** An order can ban protective gear on the day of a protest: see [Protest kit and outfit](kit-manif.md).
+- **Prefectoral orders and circulars.** A prefectoral order can ban protective gear (helmet, mask…) on the day of a protest: read the one that applies to you. The LDH considers their legality doubtful and reports that an administrative court annulled one in 2024 (Paris administrative court, 29 November 2024); we could not verify that decision.[^ldh-fiche-manif-2026] For its part, the Conseil d'État ruled in 2021 that the Interior Minister has no power to set, by circular, conditions on wearing protective equipment, whether for journalists or for anyone taking part in a protest.[^ce-snmo]
 - **What to do on the spot.** Stay calm and do not resist physically. You can ask whether there is a **written order from the prosecutor**, but you cannot always find out on the spot. **Ask for the report** and a list of what is taken. Note the time, the place, the type of officer (alone or with colleagues) and the badge number, and take photos or film if you can: a confiscation can be challenged, but evidence is needed (witnesses, videos).[^ldh-fiche-manif-2026] Afterwards, talk to a legal team or a lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).
-- **Practical tip** (not a rule of law): carry **single doses** rather than a bottle, kept with your first-aid items in a pouch, to show a medical use.
+- **Practical tips** (not rules of law): prefer **discreet protection under your clothes**, carry **nothing that could pass for a weapon** ([see "Protest kit and outfit"](kit-manif.md)), and carry saline in **single doses** rather than a bottle, kept with your first-aid items in a pouch, to show a medical use.
 
 ## On-the-spot fine (€135): do not pay right away
 

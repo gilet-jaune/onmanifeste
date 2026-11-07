@@ -1,6 +1,6 @@
 ---
 description: 'What the law forbids at a protest and what you risk: weapons, face covering, group offences, penalties.'
-source_commit: 47b4a85d62fb675a64cb7dcbce92ec3be3f7b18c
+source_commit: 8a9025d
 review: juridique
 review_status: pending
 tags:
@@ -32,12 +32,12 @@ Knowing what is punished avoids finding yourself in custody without knowing it. 
 | **Taking part in a gathering while carrying a weapon** | Same basis, with a weapon.[^cp-431-5] | 3 years and €45,000; 5 years and €75,000 if you continue after the summonses; more still if the face is hidden |
 | **Taking part in a protest or public meeting while carrying a weapon** | No summonses are needed.[^cp-431-10] | 3 years and €45,000 |
 | **Hiding your face** | Voluntarily hiding all or part of your face, without a legitimate reason, within or right next to a protest on the public road during or after which public-order disturbances are committed or likely to be.[^cp-431-9-1] | 1 year and €15,000 |
-| **Taking part in a group preparing violence or damage** | Knowingly taking part in a group, even a temporary one, formed to prepare, through one or more material acts, deliberate violence against people or destruction or damage of property.[^cp-222-14-2] | 1 year and €15,000 |
+| **Taking part in a group preparing violence or damage** | Knowingly taking part in a group, even a temporary one, formed to prepare, through one or more material acts, deliberate violence against people or destruction or damage of property (the prosecution must prove intent and material acts of preparation, even without breaking anything).[^cp-222-14-2][^senat-222-14-2] | 1 year and €15,000 |
 | **Violence against a person holding public authority** | Violence causing no more than eight days' incapacity for work, or none, against a person holding public authority (police officer, gendarme).[^cp-222-13] | 3 years and €45,000 |
 | **Contempt (outrage)** | Words, gestures or threats, writings or images not made public, or sending objects addressed to a person holding public authority in the course of or because of their duties.[^cp-433-5] | 1 year and €15,000 |
 | **Resisting officials (rébellion)** | Violent resistance to a person holding public authority acting to enforce the law or an order of the authorities.[^cp-433-6] | 2 years and €30,000; 3 years and €45,000 if committed by a group[^cp-433-7] |
 | **Inciting rebellion** | **Directly** inciting rebellion through public shouting or speeches, writings or images (example given by the LDH: shouting at someone being arrested "Don't let them do it!").[^cp-433-10][^ldh-fiche-manif-2026] | 2 months and €7,500 |
-| **Damage (or disabling equipment, often called "sabotage")** | Destroying, defacing or damaging another person's property; marking inscriptions, signs or drawings without permission on facades, vehicles, public roads or street furniture.[^cp-322-1] | 2 years and €30,000, unless the damage is slight; €3,750 and community service for inscriptions when the damage is slight |
+| **Damage (or disabling equipment, often called "sabotage")** | Destroying, defacing or damaging another person's property; marking inscriptions, signs or drawings without permission on facades, vehicles, public roads or street furniture (the victim can also claim compensation for the damage).[^cp-322-1][^sp-vandalisme] | 2 years and €30,000 (5 years and €75,000 if by several people or with the face hidden); €3,750 and community service for inscriptions when the damage is slight |
 | **Obstructing traffic (barricade, obstacle on the road)** | Placing or attempting to place, on a road open to public traffic, an object obstructing the passage of vehicles in order to hinder or obstruct traffic.[^cdr-l412-1] | 2 years and €4,500 |
 | **Organising an undeclared or banned protest** | Organising a protest on the public road without prior declaration, or despite a ban, or having filed an incomplete declaration.[^cp-431-9] | 6 months and €7,500 |
 

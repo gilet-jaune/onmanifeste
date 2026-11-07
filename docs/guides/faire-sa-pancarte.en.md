@@ -1,6 +1,6 @@
 ---
 description: 'Making your sign, banner, flag or leaflet: message, materials and rules to know.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 8a9025d
 review: juridique
 review_status: pending
 tags:
@@ -52,7 +52,7 @@ A stencil lets you reproduce the same message quickly on several items (banner, 
 
 - [ ] **A simple design and large letters**: fine details get lost in a stencil.
 - [ ] **Thin cardboard or plastic film**, cut with a craft knife and held flat (painter's tape) while you paint.
-- [ ] **On fabric or cardboard, never on the public highway.** Drawing inscriptions, signs or pictures without prior authorisation on facades, vehicles, public roads or street furniture is punishable by a €3,750 fine and community service when the damage is slight. If property is damaged, the penalty can reach two years in prison and €30,000.[^cp-322-1]
+- [ ] **On fabric or cardboard, never on the public highway.** Drawing inscriptions, signs or pictures without prior authorisation on facades, vehicles, public roads or street furniture is an offence (see the penalties in [What the law forbids at a protest](risques-penaux.md#the-most-common-offences)).[^cp-322-1]
 - [ ] **Let it dry before folding or rolling** the banner or sign, to avoid smudges.
 
 ## The flag
@@ -95,8 +95,7 @@ A leaflet or poster is meant to **invite, inform, or point to a reliable source*
 ### Posting
 
 - [ ] **Use the opinion-posting boards.** The mayor must set up one or more spaces for opinion posting and non-profit associations' notices, free of charge.[^env-l581-13]
-- [ ] **Outside those boards, don't post anything without consent**: the Environment Code punishes with a €7,500 fine placing advertising in banned places or locations.[^env-l581-34] Whether it applies to an opinion poster is something to confirm with a lawyer.
-- [ ] **Never on private property without consent, and no tags**: see the stencil section in [Make your sign](#the-stencil) (article 322-1 of the Criminal Code).[^cp-322-1]
+- [ ] **Outside those boards, don't post anything without consent, nor on private property, and no tags**: fly-posting and unauthorised inscriptions are punished under the Environment Code and the Criminal Code (see the details and penalties in [What the law forbids at a protest](risques-penaux.md#a-few-cases-people-talk-about)).[^env-l581-34][^cp-322-1]
 
 ### Stickers
 
