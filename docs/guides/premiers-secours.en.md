@@ -1,6 +1,6 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
+source_commit: ac8c9d9
 review: medical
 review_status: pending
 tags:
@@ -112,9 +112,9 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 
 Don't perform a procedure you don't know: get trained with {{ res("medicaction-guides") }}.[^medicaction-gestes]
 
-- **Basics**: non-woven absorbent compresses, medical tape and adhesive plasters, **chlorhexidine**-type disinfectant (avoid iodine solutions such as Betadine), sterile gloves, ideally **latex-free** (stored in pairs in film canisters or Kinder egg capsules), something to "re-sugar" a faint person (a drinkable fruit compote for example).
-- **Depending on your training**: survival blanket (gold side out, for shock), cold pack and cold spray, bandage rolls and sterile compresses in several sizes, triangular bandages, tweezers, safety pin, spare torch and batteries, pen (to note the time a tourniquet was applied, for example), tulle gras dressing, **scissors**.
-- **Skin, mouth, nose**: Medicaction mentions **Maalox** (never on the eyes, for which saline solution is used). Médic'Action dilutes it: about one single dose per litre of water, beyond that there is a risk of a burning sensation.[^medicaction-touxtes]
+- **Basics**: single-dose **saline solution**, sterile or non-woven absorbent compresses, bandages, tubular net bandage, medical tape and adhesive plasters, colourless **chlorhexidine**-type disinfectant (_Biseptine_-type spray after cleaning with saline or soap and water, never mixing two different antiseptics; Médic'Action advises against iodine solutions on open wounds, though some collectives collect foaming _Betadine Scrub_), hand sanitiser, **100% water fragrance-free baby wipes** (for tear-gas gel), **FFP2 or FFP3** masks, single-use gloves, ideally **latex-free** (stored in pairs in film canisters or Kinder egg capsules), water bottles and something to "re-sugar" a faint person (drinkable fruit compote, cereal or energy bars).[^medicaction-gestes][^medicaction-appel-matos][^streetmedic-lyon-collecte][^ameli-soigner-plaie][^ameli-trousse-secours][^vidal-biseptine][^vidal-betadine-scrub]
+- **Depending on your training and collective**: survival blanket (gold side out, for shock), cold pack and cold spray, absorbent and **haemostatic** dressings, support bandages, triangular bandages, post-op dressing sets and sterile drapes, burn hydrogel (_Burnshield_ or _Burncare_) and **tulle gras** dressing, topical creams or gels for bruises or burns (_Hemoclar_, _Flector_, _Ialuset_, always checking consent, contraindications and allergies first), tweezers, safety pin, pen (to note the time a tourniquet was applied, for example), **scissors**, as well as assessment gear (penlight or headlamp and spare batteries, blood-pressure monitor, thermometer, blood-glucose meter, pulse oximeter).[^medicaction-gestes][^medicaction-appel-matos][^streetmedic-lyon-collecte][^vidal-flector]
+- **Skin, mouth, nose**: Médic'Action and Street Medic Lyon mention **Maalox** (in bottles or sticks, **never on the eyes**, for which only saline solution is used) or a CS-gas decontaminant. Médic'Action dilutes Maalox: about one single dose per litre of water, beyond that there is a risk of a burning sensation.[^medicaction-touxtes][^streetmedic-lyon-collecte]
 - **Beware of confiscation**: saline, Maalox, filtering masks, sealed eye goggles and scissors are **often seized** during searches.[^medicaction-gestes] Médic'Action warns that police and courts may see protective gear as premeditation of illegal acts or an intent to hide one's face: risk of seizure, even of arrest; it advises finding out about the area before you go.[^medicaction-touxtes] A seizure is not an offence on your part, but an object can be judged dangerous depending on the context (scissors, for example): see [what the texts say and what to do](controle-fouille.md#saline-goggles-mask-can-they-be-confiscated).
 
 ## Injuries

@@ -1,6 +1,6 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: 990e90a64f8c238e0ed738df90fe900dea06f190
+source_commit: ac8c9d9
 tags:
     - guides
     - support
@@ -42,12 +42,12 @@ A solidarity or anti-repression fund helps people being prosecuted (lawyers' fee
 
 ## Equip street medics
 
-Street-medic collectives run on donated supplies. Médic'Action says it can receive **consumable first-aid supplies** (compresses, gloves…) and invites people to contact it for that.[^medicaction-a-propos] Its 2026 appeal lists, by price range, **FFP2 or FFP3** masks, survival blankets, compresses, **saline solution**, dressings, cold packs and hand sanitiser.[^medicaction-appel-matos]
+Street-medic collectives run on donated supplies (consumable first-aid items, care and decontamination products, as well as water bottles and energy bars for refreshment teams).[^medicaction-a-propos][^medicaction-appel-matos][^streetmedic-lyon-collecte] The full list of products is in [the first-aid kit section of the First aid guide](premiers-secours.md#first-aid-kit).
 
-- **Ask before you buy**: contact the street-medic collective in your city (or {{ res("medicaction-guides", "Médic'Action") }}, whose "About" page gives a contact) and ask what is missing. An appeal may be over, and stock quickly becomes redundant.
-- **New, sealed and in date**: saline in single doses, sterile compresses, masks in their packaging. Check expiry dates.
+- **Ask before you buy**: contact the collective in your city (or {{ res("medicaction-guides", "Médic'Action") }}, whose "About" page gives a contact) to check what is missing. An appeal may be over, and stock quickly becomes redundant.[^medicaction-a-propos]
+- **New, sealed and in date**: everything must be in its original, unopened packaging with a valid expiry date (including water bottles and energy bars).[^streetmedic-lyon-collecte]
+- **Go through the collective or its announced drop-off points**: some collectives do not take money and instead rely on a **partner community venue** where supplies can be dropped off during opening hours.[^medicaction-appel-matos][^streetmedic-lyon-collecte] Never hand supplies to someone you do not know.
 - For masks, see the [protest kit](kit-manif.md): surgical masks are useless against gas.[^abek]
-- Do not hand supplies to someone you do not know: go through the collective.
 - Nothing to donate? **Relay** the appeal to your circle, or offer a room, a lift, or storage.
 
 ## Hand out food
