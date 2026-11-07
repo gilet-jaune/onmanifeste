@@ -41,12 +41,12 @@ Une caisse de solidarité ou antirépression aide les personnes poursuivies (fra
 
 ## Équiper les street-médics
 
-Les collectifs de street-médics fonctionnent avec du matériel donné. Médic'Action indique pouvoir recevoir du **matériel de premiers secours consommable** (compresses, gants…) et invite à la contacter pour cela.[^medicaction-a-propos] Son appel de 2026 liste, par gamme de prix, des masques **FFP2 ou FFP3**, des couvertures de survie, des compresses, du **sérum physiologique**, des pansements, des poches de froid ou du gel hydroalcoolique.[^medicaction-appel-matos]
+Les collectifs de street-médics fonctionnent avec du matériel donné (premiers secours consommables, produits de soin et de décontamination, ainsi que bouteilles d'eau et barres énergétiques pour le ravitaillement).[^medicaction-a-propos][^medicaction-appel-matos][^streetmedic-lyon-collecte] La liste complète des produits figure dans [la trousse de soins du guide Premiers secours](premiers-secours.md#trousse-de-soins).
 
-- **Demandez avant d'acheter** : contactez le collectif de street-médics de votre ville (ou {{ res("medicaction-guides", "Médic'Action") }}, dont la page « À propos » donne un contact) et demandez ce qui manque. Un appel peut être terminé, et le stock est vite redondant.
-- **Neuf, emballé et non périmé** : sérum en dosettes, compresses stériles, masques dans leur emballage. Regardez les dates de péremption.
+- **Demandez avant d'acheter** : contactez le collectif de votre ville (ou {{ res("medicaction-guides", "Médic'Action") }}, dont la page « À propos » donne un contact) pour savoir ce qui manque. Un appel peut être terminé, et le stock est vite redondant.[^medicaction-a-propos]
+- **Neuf, scellé et non périmé** : tout doit être dans son emballage d'origine, jamais ouvert et avec une date de validité en cours (y compris pour l'eau et les barres énergétiques).[^streetmedic-lyon-collecte]
+- **Passez par le collectif ou ses points de collecte annoncés** : certains collectifs ne prennent pas d'argent mais déposent leurs besoins dans un **lieu associatif ou solidaire partenaire** qui réceptionne les fournitures aux horaires d'ouverture.[^medicaction-appel-matos][^streetmedic-lyon-collecte] Ne confiez jamais de matériel à une personne que vous ne connaissez pas.
 - Pour des masques, voyez le [kit de manif](kit-manif.md) : les chirurgicaux sont inutiles contre le gaz.[^abek]
-- Ne confiez pas de matériel à une personne que vous ne connaissez pas : passez par le collectif.
 - Pas de matériel à donner ? **Relayez** l'appel auprès de vos proches, ou proposez un local, un trajet, un stock à garder.
 
 ## Distribuer de la nourriture

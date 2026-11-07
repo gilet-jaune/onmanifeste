@@ -169,7 +169,13 @@
     "Wikidata",
     "Zucman",
     "RPPS",
-    "mégabassines"
+    "mégabassines",
+    "Biseptine",
+    "Burncare",
+    "Burnshield",
+    "Hemoclar",
+    "Flector",
+    "Ialuset"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

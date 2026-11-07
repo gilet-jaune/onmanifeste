@@ -5581,6 +5581,78 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "streetmedic-lyon-collecte": {
+      "title": {
+        "fr": "Street Medic Lyon — Collecte solidaire : matériel de secours, produits recherchés et ravitaillement (Instagram)",
+        "en": "Street Medic Lyon — Solidarity drive: first-aid supplies, care products and refreshments (Instagram, in French)"
+      },
+      "url": "https://www.instagram.com/p/Dfag-xcDJsx/",
+      "check": {
+        "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ameli-soigner-plaie": {
+      "title": {
+        "fr": "Assurance Maladie (ameli.fr) — Comment bien soigner une plaie ?",
+        "en": "French Health Insurance (ameli.fr) — How to properly treat a wound (in French)"
+      },
+      "url": "https://www.ameli.fr/assure/sante/bons-gestes/soins/soigner-plaie",
+      "check": {
+        "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ameli-trousse-secours": {
+      "title": {
+        "fr": "Assurance Maladie (ameli.fr) — Bien préparer sa trousse pharmacie",
+        "en": "French Health Insurance (ameli.fr) — Preparing a first-aid kit (in French)"
+      },
+      "url": "https://www.ameli.fr/assure/actualites/bien-preparer-sa-trousse-pharmacie-pour-les-vacances",
+      "check": {
+        "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "vidal-biseptine": {
+      "title": {
+        "fr": "Vidal — Gamme Biseptine (chlorhexidine, antisepsie des plaies superficielles)",
+        "en": "Vidal — Biseptine range (chlorhexidine, antisepsis of superficial wounds, in French)"
+      },
+      "url": "https://www.vidal.fr/medicaments/gammes/biseptine-1224.html",
+      "check": {
+        "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "vidal-betadine-scrub": {
+      "title": {
+        "fr": "Vidal — Bétadine Scrub 4 % (solution moussante antiseptique à la povidone iodée)",
+        "en": "Vidal — Betadine Scrub 4% (povidone-iodine foaming antiseptic solution, in French)"
+      },
+      "url": "https://www.vidal.fr/medicaments/gammes/betadine-scrub-15159.html",
+      "check": {
+        "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "vidal-flector": {
+      "title": {
+        "fr": "Vidal — Flector 1 % gel (anti-inflammatoire local pour traumatismes bénins)",
+        "en": "Vidal — Flector 1% gel (topical anti-inflammatory for minor trauma, in French)"
+      },
+      "url": "https://www.vidal.fr/medicaments/flector-1-gel-6841.html",
+      "check": {
+        "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
