@@ -50,11 +50,7 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 
 !!! warning "Protections : pas interdites, mais parfois confisquées"
 
-    Aucun texte n'interdit de porter des protections. Mais lors de fouilles avant les cortèges, la police a déjà **confisqué** lunettes, masques et protections, et du matériel trouvé dans un sac a servi d'élément pour poursuivre des personnes pour « groupement en vue de commettre des violences » (article 222-14-2 du Code pénal). Privilégiez des protections **discrètes, sous les vêtements**, et n'ayez sur vous **rien qui puisse passer pour une arme**.[^franceinfo-protections][^amnesty-force]
-
-    La LDH précise que lunettes, écharpes et autres protections ne sont pas interdites **tant qu'elles ne dissimulent pas le visage**, et qu'une confiscation peut être contestée avec des preuves (témoignages, vidéos).[^ldh-fiche-manif-2026] **Un arrêté préfectoral peut toutefois interdire le port de matériel de protection** (casque, masque…) le jour d'une manifestation : lisez celui qui vous concerne. La LDH en juge la légalité douteuse et signale qu'un tribunal administratif en a annulé un en 2024 (TA Paris, 29 novembre 2024) ; nous n'avons pas pu vérifier cette décision. De son côté, le Conseil d'État a jugé en 2021 que le ministre de l'Intérieur n'est pas compétent pour fixer, par circulaire, des conditions au port d'équipements de protection, pour les journalistes comme pour toute personne participant à une manifestation.[^ce-snmo]
-
-    Médic'Action prévient que la police et la justice peuvent y voir une préméditation d'actes illégaux ou une volonté de cacher son visage, qu'il y a de fortes chances que le matériel soit saisi lors d'un contrôle, voire un risque d'interpellation, et qu'un masque complet à cartouche y mène plus facilement.[^medicaction-touxtes]
+    Aucun texte n'interdit de porter des protections tant qu'elles ne dissimulent pas le visage, mais lunettes, masques, casques et sérum sont fréquemment saisis lors des fouilles (ou visés par un arrêté préfectoral le jour J). Privilégiez des protections **discrètes, sous les vêtements**, et n'ayez sur vous **rien qui puisse passer pour une arme** : voir [ce que disent les textes et que faire en cas de confiscation](controle-fouille.md#serum-physiologique-lunettes-masque-peut-on-vous-les-confisquer).
 
 !!! warning "Visage découvert tant que vous n'êtes pas exposé·e"
 

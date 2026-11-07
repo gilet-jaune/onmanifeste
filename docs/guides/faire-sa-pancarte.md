@@ -51,7 +51,7 @@ Un pochoir sert à reproduire vite le même message sur plusieurs supports (band
 
 - [ ] **Un dessin simple et des lettres grosses** : les détails fins se perdent dans le pochoir.
 - [ ] **Du carton fin ou un film plastique**, découpé au cutter, maintenu bien à plat (ruban adhésif de peintre) pendant qu'on peint.
-- [ ] **Sur tissu ou carton, jamais sur la voie publique.** Tracer des inscriptions, des signes ou des dessins sans autorisation sur les façades, les véhicules, les voies publiques ou le mobilier urbain est puni de 3 750 € d'amende et d'une peine de travail d'intérêt général, si le dommage est léger. S'il y a dégradation d'un bien, la peine peut aller jusqu'à deux ans d'emprisonnement et 30 000 €.[^cp-322-1]
+- [ ] **Sur tissu ou carton, jamais sur la voie publique.** Tracer des inscriptions, signes ou dessins sans autorisation sur les façades, les véhicules, les voies publiques ou le mobilier urbain est un délit (voir les peines dans [Ce que la loi interdit en manifestation](risques-penaux.md#les-delits-les-plus-frequents)).[^cp-322-1]
 - [ ] **Faites sécher avant de plier ou de rouler** la banderole ou la pancarte, pour ne pas la tacher.
 
 ## Le drapeau
@@ -94,8 +94,7 @@ Un tract ou une affiche sert à **inviter, informer, ou renvoyer vers une source
 ### Afficher
 
 - [ ] **Utilisez les emplacements d'affichage d'opinion.** Le maire doit aménager un ou plusieurs emplacements destinés à l'affichage d'opinion et à la publicité des associations à but non lucratif, sans redevance.[^env-l581-13]
-- [ ] **Hors de ces emplacements, ne posez rien sans accord** : le code de l'environnement punit de 7 500 € d'amende la publicité apposée dans des lieux ou sur des emplacements interdits.[^env-l581-34] Son application à une affiche d'opinion est à confirmer avec un·e juriste.
-- [ ] **Jamais sur un bien privé sans accord, ni de tag** : voir la section sur le pochoir dans [Faire sa pancarte](#le-pochoir) (article 322-1 du Code pénal).[^cp-322-1]
+- [ ] **Hors de ces emplacements, ne posez rien sans accord, ni sur un bien privé, ni de tag** : l'affichage sauvage et les inscriptions sans autorisation sont punis par le code de l'environnement et le Code pénal (voir le détail et les peines dans [Ce que la loi interdit en manifestation](risques-penaux.md#quelques-cas-dont-on-parle)).[^env-l581-34][^cp-322-1]
 
 ### Autocollants
 

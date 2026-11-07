@@ -62,11 +62,7 @@ Pas de réponse simple : les études décrivent un **dilemme**.
 
 ## Ce que vous risquez
 
-- Détruire ou dégrader le bien d'autrui : jusqu'à **2 ans de prison et 30 000 € d'amende**.[^sp-vandalisme]
-- **5 ans et 75 000 €** si c'est commis à plusieurs, ou par une personne qui dissimule volontairement son visage.[^sp-vandalisme]
-- La victime peut en plus demander la réparation de son préjudice.[^sp-vandalisme]
-- Participer **sciemment** à un groupement, même temporaire, qui prépare des violences ou des dégradations : **1 an et 15 000 €**, même sans avoir rien cassé. L'accusation doit prouver l'intention et des faits matériels de préparation.[^senat-222-14-2]
-- Dissimuler son visage sans motif légitime dans une manifestation : jusqu'à **1 an et 15 000 €**.[^cp-431-9-1]
+Les textes et peines maximales (dégradation de biens jusqu'à **2 ans et 30 000 €** ou **5 ans et 75 000 €** à plusieurs ou visage caché avec réparation du préjudice civil, participation à un groupement en vue de dégradations même sans avoir rien cassé, dissimulation du visage sans motif légitime) sont détaillés dans [Ce que la loi interdit en manifestation, et ce qu'on risque](risques-penaux.md#les-delits-les-plus-frequents).[^sp-vandalisme][^senat-222-14-2][^cp-431-9-1]
 
 ## Si la casse éclate près de vous
 

@@ -90,14 +90,7 @@ Les pétitions sont un moyen discret de peser, sans quitter chez soi. Elles ont 
 
 ## Se coordonner pour une tâche précise
 
-Pour monter vite une équipe (cuisine, transport, accueil), le guide Signal décrit le **groupe temporaire**, un groupe jetable à utiliser en partant du principe que la police peut y être ([le groupe temporaire](signal-gerer.md#le-groupe-temporaire)) :
-
-- **Pour une journée** : créé sur place, on y ajoute les personnes présentes par nom d'utilisateur, en vrai, avec des messages éphémères de quelques heures. **Pour quelques jours** : on y entre après une rencontre avec un·e secrétaire, avec des messages éphémères d'un jour.
-- Un **nom neutre**, sans mouvement ni ville, et le délai d'effacement réglé **avant d'inviter** qui que ce soit.
-- **Seulement du pratique** (« besoin d'eau », « départ à 8 h ») : pas de noms, pas de photos de visages, pas d'adresses.
-- **Aucun lien** avec les groupes de confiance, et groupe **fermé à la fin** de la tâche.
-
-Pour le reste (rôles, groupes de confiance, sas), voir [Groupes Signal : vue d'ensemble](groupes-signal.md).
+Pour monter vite une équipe (cuisine, transport, accueil) en partant du principe que la police peut y être, utilisez un **groupe temporaire** jetable (nom neutre, messages éphémères activés avant d'inviter, uniquement des infos pratiques sans noms ni visages, fermé dès la tâche finie) : la procédure complète est dans [Le groupe temporaire](signal-gerer.md#le-groupe-temporaire) et la vue d'ensemble dans [Groupes Signal](groupes-signal.md).
 
 ## Transporter des personnes
 
@@ -111,10 +104,11 @@ Conduire des gens vers un rassemblement, ou les ramener, aide celles et ceux qui
 
 ## Être la personne ressource à l'extérieur
 
-Les guides conseillent de prévenir **une personne qui ne manifeste pas** : c'est vous, si vous le proposez.[^legal-team]
+Les guides conseillent de prévenir **une personne qui ne manifeste pas** ([Ne jamais rester seul·e](ne-pas-rester-seul.md)) : c'est vous, si vous le proposez.[^sm-guide][^legal-team]
 
 - **Décrochez les numéros masqués ou inconnus** : le commissariat appelle souvent ainsi.
-- Gardez le **nom complet, la date et le lieu de naissance** de la personne : la legal team en a besoin pour la localiser ([Ne jamais rester seul·e](ne-pas-rester-seul.md)).
+- Gardez le **nom complet, la date et le lieu de naissance** de la personne, son trajet et son heure prévue de retour : la legal team et l'avocat·e en ont besoin pour la localiser.
+- Si le risque d'interpellation est élevé, gardez aussi sa **pochette de garanties de représentation** (copie de pièce d'identité, justificatif de domicile, contrat de travail ou certificat de scolarité) et le nom de l'avocat·e choisi·e ([voir « Comparution immédiate et procès »](suites-judiciaires.md#comparution-immediate-et-proces-les-justificatifs-a-reunir-durgence)).[^medicaction-gestes]
 - Si elle ne donne pas de nouvelles à l'heure dite : appelez la **legal team**, pas la police.
 - Prévoyez un **accueil à la sortie de garde à vue** : de l'eau, à manger, un téléphone chargé, un endroit où dormir (voir [Garde à vue](garde-a-vue.md)). La sortie peut avoir lieu à n'importe quelle heure.
 
