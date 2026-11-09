@@ -83,7 +83,8 @@
     },
   };
 
-  const normalise = (text) => text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const normalise = (text) =>
+    text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae');
   const loc = (v, lang) => (v && typeof v === 'object' ? v[lang] || v.fr : v) || '';
 
   function load() {

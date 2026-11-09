@@ -1,0 +1,48 @@
+{
+  "$comment": "Synonyms for the site search (docs/javascripts/search-filter.js). Each group lists words that mean the same thing for a visitor; searching one also finds the others. Lowercase, no accents, single words (Lunr adds a trailing * to each: 'police' alone does not match 'policier'). Keep groups short: a long group blurs the ranking. Checked by scripts/validate-search-synonyms.mjs.",
+  "groups": [
+    ["gaz", "lacrymo", "lacrymos", "lacrymogene", "lacrymogenes"],
+    ["lbd", "flashball", "flashballs"],
+    [
+      "police",
+      "policier",
+      "policiere",
+      "policiers",
+      "policieres",
+      "flic",
+      "flics",
+      "keuf",
+      "keufs"
+    ],
+    [
+      "mineur",
+      "mineure",
+      "mineurs",
+      "mineures",
+      "ado",
+      "ados",
+      "adolescent",
+      "adolescente",
+      "adolescents",
+      "adolescentes"
+    ],
+    ["lyceen", "lyceenne", "lyceens", "lyceennes", "jeune", "jeunes"],
+    ["regles", "reglee", "reglees", "menstruation", "menstruelle", "menstruelles"],
+    ["enceinte", "enceintes", "grossesse"],
+    ["blesse", "blessee", "blessure", "blessures"],
+    ["arrestation", "arrete", "arretee", "interpellation", "interpelle", "interpellee"],
+    [
+      "mutile",
+      "mutilee",
+      "mutiles",
+      "mutilation",
+      "mutilations",
+      "eborgne",
+      "eborgnee",
+      "eborgnes",
+      "eborgnement"
+    ],
+    ["telephone", "portable", "smartphone"],
+    ["amende", "amendes", "contravention", "contraventions", "verbalise", "verbalisee"]
+  ]
+}

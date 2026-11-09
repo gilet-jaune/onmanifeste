@@ -34,11 +34,62 @@
       link: 'Dites où vous en êtes',
       more: (n) =>
         n > 1 ? `${n} autres passages dans cette page` : '1 autre passage dans cette page',
+      filters: {
+        label: 'Filtrer les résultats',
+        all: 'Tout',
+        guides: 'Guides',
+        annuaire: 'Annuaire',
+        comprendre: 'Comprendre',
+      },
+      // First folder of the page address → label shown before the title of a page result.
+      kinds: {
+        guides: 'Guide',
+        annuaire: 'Annuaire',
+        parcours: 'Parcours',
+        rallier: 'Arguments',
+        carte: 'Carte de poche',
+        fiches: 'Fiche',
+        sos: 'Urgence',
+        victimes: 'Comprendre',
+        'securite-libertes': 'Comprendre',
+        histoire: 'Comprendre',
+        confiance: 'Comprendre',
+        repressions: 'Comprendre',
+        comprendre: 'Comprendre',
+        contribuer: 'Contribuer',
+        relire: 'Relecture',
+        'mentions-legales': 'Mentions légales',
+      },
     },
     en: {
       unsure: 'Not sure which guide?',
       link: 'Tell us where you are',
       more: (n) => (n > 1 ? `${n} more matches in this page` : '1 more match in this page'),
+      filters: {
+        label: 'Filter the results',
+        all: 'All',
+        guides: 'Guides',
+        annuaire: 'Directory',
+        comprendre: 'Understand',
+      },
+      kinds: {
+        guides: 'Guide',
+        annuaire: 'Directory',
+        parcours: 'Guided search',
+        rallier: 'Arguments',
+        carte: 'Pocket card',
+        fiches: 'Sheet',
+        sos: 'Emergency',
+        victimes: 'Understand',
+        'securite-libertes': 'Understand',
+        histoire: 'Understand',
+        confiance: 'Understand',
+        repressions: 'Understand',
+        comprendre: 'Understand',
+        contribuer: 'Contribute',
+        relire: 'Review',
+        'mentions-legales': 'Legal notice',
+      },
     },
   }[LANG];
 
@@ -163,7 +214,45 @@
     link.href = new URL(`${LANG === 'en' ? 'en/' : ''}parcours/`, new URL('../', SCRIPT.src)).href;
     link.textContent = `${T.link} →`;
     box.append(`${T.unsure} `, link);
-    meta.after(box);
+    (root.querySelector('.md-search-result__filters') || meta).after(box);
+  }
+
+  // Under the result count: choose what kind of page to see (all, guides, directory, "understand"
+  // files). The choice is applied to the whole list by docs/javascripts/search-filter.js; the counts
+  // are those of the unfiltered list. Only shown when there is something to choose between.
+  function filterBar(root) {
+    const api = window.apSearch;
+    const typed = document.querySelector('.md-search__input')?.value.trim();
+    const existing = root.querySelector('.md-search-result__filters');
+    const counts = api && api.counts;
+    const kinds = counts ? ['guides', 'annuaire', 'comprendre'].filter((k) => counts[k] > 0) : [];
+    if (!typed || !counts || (kinds.length < 2 && !api.kind)) {
+      existing?.remove();
+      return;
+    }
+    const signature = `${api.kind}|${kinds.map((k) => `${k}:${counts[k]}`).join(',')}|${counts.all}`;
+    if (existing && existing.dataset.signature === signature) return;
+    const meta = root.querySelector('.md-search-result__meta');
+    if (!meta) return;
+    const bar = existing || document.createElement('div');
+    bar.className = 'md-search-result__filters';
+    bar.setAttribute('role', 'group');
+    bar.setAttribute('aria-label', T.filters.label);
+    bar.dataset.signature = signature;
+    const chip = (kind, label, count) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'md-search-result__chip';
+      button.setAttribute('aria-pressed', String(api.kind === kind));
+      button.textContent = `${label} (${count})`;
+      button.addEventListener('click', () => api.setKind(kind));
+      return button;
+    };
+    bar.replaceChildren(
+      chip('', T.filters.all, counts.all),
+      ...kinds.map((k) => chip(k, T.filters[k], counts[k])),
+    );
+    if (!existing) meta.after(bar);
   }
 
   // « N de plus sur cette page » is where the right answer often hides (a profile under the parcours
@@ -191,13 +280,30 @@
     });
   }
 
+  // A result says what kind of page it is (a guide, the directory, a guided search…) before its title,
+  // from the first folder of its address. Section results and the home page get none.
+  function kind(article) {
+    const title = article.querySelector(':scope > h1');
+    const link = article.closest('a');
+    if (!title || !link || title.querySelector('.md-search-result__kind')) return;
+    const folder = keyOf(link).replace(/^en\//, '').split('/')[0];
+    const label = T.kinds[folder];
+    if (!label) return;
+    const badge = document.createElement('span');
+    badge.className = `md-search-result__kind md-search-result__kind--${folder}`;
+    badge.textContent = label;
+    title.prepend(badge, ' ');
+  }
+
   function process(root) {
+    filterBar(root);
     guidedSearchLink(root);
     groupMore(root);
     root.querySelectorAll('.md-search-result__article:not([data-snippet])').forEach((article) => {
       article.setAttribute('data-snippet', '1');
       excerpt(article);
       tidyTerms(article);
+      kind(article);
       describe(article);
     });
   }
@@ -216,6 +322,7 @@
       });
     }).observe(results, { childList: true, subtree: true });
     process(results);
+    document.addEventListener('ap-search', () => process(results));
     // Fetch the descriptions as soon as the search is used (a few KB, precached offline).
     document
       .querySelector('.md-search__input')

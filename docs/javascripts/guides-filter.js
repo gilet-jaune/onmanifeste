@@ -26,7 +26,8 @@
     },
   };
 
-  const normalise = (text) => text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const normalise = (text) =>
+    text.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae');
 
   function slugOf(card) {
     const link = card.querySelector('a[href]');

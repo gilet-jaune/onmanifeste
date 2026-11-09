@@ -18,7 +18,7 @@ const DIRECTORY_I18N = {
     situations: 'Votre situation',
     search: 'Rechercher : avocat, GAV, lacrymo, Signal…',
     searchLabel: 'Rechercher dans l’annuaire',
-    all: 'Toutes les catégories',
+    all: 'Tous les types d’aide',
     results: (n) => `${n} résultat${n > 1 ? 's' : ''}`,
     empty: 'Aucune ressource ne correspond. Essayez un autre mot ou une situation :',
     clear: 'Réinitialiser',
@@ -26,14 +26,14 @@ const DIRECTORY_I18N = {
     sources: 'Sources :',
     socials: 'Réseaux :',
     install: 'Installer :',
-    moreTags: (n) => `Tous les tags (${n})`,
-    lessTags: 'Moins de tags',
+    moreTags: (n) => `Tous les mots-clés (${n})`,
+    lessTags: 'Moins de mots-clés',
   },
   en: {
     situations: 'Your situation',
     search: 'Search: lawyer, custody, tear gas, Signal…',
     searchLabel: 'Search the directory',
-    all: 'All categories',
+    all: 'All types of help',
     results: (n) => `${n} result${n > 1 ? 's' : ''}`,
     empty: 'No resource matches. Try another word or a situation:',
     clear: 'Reset',
@@ -41,8 +41,8 @@ const DIRECTORY_I18N = {
     sources: 'Sources:',
     socials: 'Social:',
     install: 'Install:',
-    moreTags: (n) => `All tags (${n})`,
-    lessTags: 'Fewer tags',
+    moreTags: (n) => `All keywords (${n})`,
+    lessTags: 'Fewer keywords',
   },
 };
 
@@ -64,7 +64,8 @@ const TOP_TAGS = 14;
 const WEIGHTS = { name: 8, tag: 5, category: 3, description: 1 };
 
 // Lowercase and strip accents so "securite" matches "Sécurité".
-const normalize = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const normalize = (s) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae');
 const words = (s) =>
   normalize(s)
     .split(/[^a-z0-9]+/)
@@ -116,16 +117,25 @@ function el(tag, attrs = {}, ...children) {
 // Wraps the parts of `text` matching any query term in <mark>.
 function highlight(text, terms) {
   if (!terms.length) return [text];
-  const norm = normalize(text); // same length as text for Latin scripts (NFD + strip marks)
+  // Normalise character by character (œ becomes two letters), remembering where each one came from.
+  let norm = '';
+  const origin = [];
+  for (let i = 0; i < text.length; i++) {
+    for (const c of normalize(text[i])) {
+      norm += c;
+      origin.push(i);
+    }
+  }
+  origin.push(text.length);
   const ranges = [];
   for (const term of terms) {
     let at = norm.indexOf(term);
     while (at !== -1) {
-      ranges.push([at, at + term.length]);
+      ranges.push([origin[at], origin[at + term.length - 1] + 1]);
       at = norm.indexOf(term, at + term.length);
     }
   }
-  if (!ranges.length || norm.length !== text.length) return [text];
+  if (!ranges.length) return [text];
   ranges.sort((a, b) => a[0] - b[0]);
   const out = [];
   let cursor = 0;

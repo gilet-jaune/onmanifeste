@@ -1,0 +1,11 @@
+{#- Replaces Material's tags partial. Under a guide's title: its THEMES, as links to the Guides page
+filtered on each one (hooks/themes.py). The `tags:` of the front matter are search keywords: never
+shown. -#}
+{% if page and page.meta and page.meta.themes %}
+<nav class="md-tags ap-themes" aria-label="{{ 'Thèmes de ce guide' if config.theme.language == 'fr' else 'Themes of this guide' }}">
+  <span class="ap-themes__label">{{ 'Thèmes :' if config.theme.language == 'fr' else 'Themes:' }}</span>
+  {% for theme in page.meta.themes %}
+  <a class="md-tag" href="{{ theme.url | url }}">{{ theme.label }}</a>
+  {% endfor %}
+</nav>
+{% endif %}

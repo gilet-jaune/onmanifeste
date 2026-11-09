@@ -104,7 +104,8 @@
     github: 'GitHub',
   };
 
-  const normalize = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const normalize = (s) =>
+    s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/œ/g, 'oe').replace(/æ/g, 'ae');
   const loc = (o) => (o && (o[lang] || o.fr)) || '';
 
   function el(tag, attrs = {}, ...children) {

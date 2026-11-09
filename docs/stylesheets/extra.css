@@ -322,6 +322,24 @@ select:focus-visible {
   color: var(--ap-ink);
 }
 
+/* Themes of a guide, under its title: links to the Guides page filtered on each one
+   (overrides/partials/tags.html). A label says what the chips are; the focus ring is visible. */
+.md-typeset .ap-themes {
+  align-items: center;
+}
+
+.md-typeset .ap-themes__label {
+  color: var(--ap-muted);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+
+.md-typeset .md-tag[href]:focus-visible,
+.md-search-result__chip:focus-visible {
+  outline: 2px solid var(--ap-ink);
+  outline-offset: 2px;
+}
+
 /* --- Anchor "copy link" on headings (docs/javascripts/extra.js) ---------- */
 .md-content .headerlink {
   position: relative;
@@ -2971,6 +2989,75 @@ dialog.contact-card {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   line-clamp: 2;
+}
+
+/* Search results: the kind of page (guide, directory, guided search…) before its title */
+.md-search-result__kind {
+  display: inline-block;
+  margin-inline-end: 0.15rem;
+  padding: 0.05rem 0.4rem;
+  border: 0.05rem solid var(--md-default-fg-color--lighter);
+  border-radius: 0.6rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  text-transform: uppercase;
+  vertical-align: 0.1em;
+}
+
+/* Search results: filter by kind of page (docs/javascripts/search-snippet.js) */
+.md-search-result__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.5rem 0.8rem;
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+}
+
+.md-search-result__chip {
+  min-height: 1.75rem;
+  padding: 0.2rem 0.7rem;
+  touch-action: manipulation;
+  border: 1.5px solid var(--ap-line);
+  border-radius: 1rem;
+  background: transparent;
+  color: var(--md-default-fg-color);
+  font: inherit;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.md-search-result__chip[aria-pressed='true'] {
+  border-color: var(--ap-ink);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+  font-weight: 700;
+}
+
+/* Search results: the labels of a page are plain text (#santé), never pills. Pills are for what you can
+   click to filter (the kind-of-page chips above, the themes of the guides page). */
+.md-search-result .md-tags:not([hidden]) {
+  gap: 0 0.7em;
+  margin: 0.1rem 0 0.3rem;
+}
+
+.md-search-result .md-tags .md-tag {
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.65rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.md-search-result .md-tags .md-tag::before {
+  content: '#';
 }
 
 /* Home page: one door per situation, straight into the guided search */
