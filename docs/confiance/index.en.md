@@ -1,6 +1,6 @@
 ---
 description: "Bypassed referendum, citizens' convention, laws without a vote: sourced facts on the democratic routes protesters say were ignored."
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
 tags:
     - comprendre
     - démocratie

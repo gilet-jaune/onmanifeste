@@ -1,6 +1,6 @@
 ---
 description: 'Protesting without French nationality: what the law says, residence permit risks and advice.'
-source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
+source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
 review: juridique
 review_status: pending
 tags:

@@ -1,6 +1,6 @@
 ---
 description: 'Documented dossiers and independent watchdogs to understand mobilisations, check facts and follow elected officials.'
-source_commit: 4637462e02618d6b3ce3bca1963244d3f6cef4be
+source_commit: dc530bcaf7c0c1afa4b9a5045cb53b02683d0879
 tags:
     - understand
     - media

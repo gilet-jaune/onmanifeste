@@ -1,7 +1,7 @@
 ---
 title: 'On manifeste | Guides, directory, understand'
 description: 'On manifeste: guides, rights, a directory and dossiers to understand (history, repression, media). Free, no account, no tracking, works offline.'
-source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
+source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
 tags:
     - home
 image: assets/covers/accueil.svg
