@@ -27,6 +27,22 @@ French-first toolkit for protesting in France: a sourced directory, guides, an S
 | `scripts/` | Registry validators, README generator, stale report, icon and OG image generators. |
 | `.github/workflows/` | `validate` (PRs), `deploy-pages` (push to main), `maintenance` (weekly links and checks). |
 
+## Vocabulary (one word, one meaning)
+
+Visitors read French (or English) words, never code names. Do not mix them.
+
+| On screen (FR / EN) | Code | What it answers | List | Where it lives |
+| --- | --- | --- | --- | --- |
+| Type de contenu / Content type | folder of the page | What kind of page? | closed, one per page | search badge and filter chips (`search-filter.js`, `search-snippet.js`) |
+| Thème / Theme | `guide_themes` | What is this guide about? | closed, 1 to 3 per guide | `docs/data/guide-themes.json`; links under the title (`hooks/themes.py`, `overrides/partials/tags.html`) |
+| Type d'aide / Type of help | `category` | What help does this resource give? | closed, one per resource | `resources.json` → `categories`; select in the directory |
+| Situation | `situations`, `parcours` | Where am I? | closed | "Je suis…" |
+| Mot-clé / Keyword | `tags` | (nothing to browse) used to find | free | `tags:` in a page's front matter (invisible, search only); `tags` of a resource |
+
+- A closed list lives in one JSON file and is validated. A free word is a keyword and is never displayed as a classification.
+- Never use "tag", "catégorie" or "chip" in the interface or the content.
+- Pills (rounded buttons) are for what can be clicked to filter; `# keyword` text is information; an uppercase badge is a content type.
+
 ## Resource entries
 
 ```json

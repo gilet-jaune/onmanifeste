@@ -15,6 +15,7 @@
 {%- set guide_labels = {
   'controle-fouille': ["Contrôle d'identité et fouille", 'ID checks and searches'],
   'desinformation': ['Éviter la désinformation', 'Avoid disinformation'],
+  'armes-police': ['Armes de la police', 'Police weapons'],
   'dispersion': ['Dispersion, sommations et nasse', 'Dispersal, warnings and kettling'],
   'droit-de-manifester': ['Le droit de manifester', 'The right to protest'],
   'extreme-droite': ["Agressions par l'extrême droite", 'Far-right attacks'],
@@ -68,8 +69,11 @@
 {%- endmacro -%}
 
 {#- only: optional list of event kinds to show (default: all). -#}
-{%- macro timeline(lang, only=none) -%}
+{#- `only`: kinds to show; `also`: ids of events of other kinds to add (a dossier that follows one theme
+across kinds, e.g. the security-and-freedoms page). -#}
+{%- macro timeline(lang, only=none, also=none) -%}
 {%- set shown = events | selectattr('kind', 'in', only) | list if only else events -%}
+{%- if also %}{% set shown = events | selectattr('id', 'in', (shown | map(attribute='id') | list) + also) | list %}{% endif -%}
 {%- set shown_kinds = shown | map(attribute='kind') | unique | list -%}
 {%- set shown_ids = shown | map(attribute='id') | list -%}
 {%- set shown_periods = [] -%}

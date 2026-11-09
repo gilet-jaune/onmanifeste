@@ -36,6 +36,10 @@
     "privatisation": {
       "fr": "Privatisation et marchés",
       "en": "Privatisation and markets"
+    },
+    "securite-libertes": {
+      "fr": "Sécurité et libertés",
+      "en": "Security and freedoms"
     }
   },
   "events": [
@@ -254,6 +258,27 @@
       }
     },
     {
+      "id": "1935-la-manifestation-dans-le-droit-sous-declaration-prealable",
+      "date": "1935-10-23",
+      "title": {
+        "fr": "1935 : la manifestation entre dans le droit, sous déclaration préalable",
+        "en": "1935: demonstrations enter the law, subject to prior declaration"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.vie-publique.fr/fiches/23886-en-quoi-consiste-la-liberte-de-manifestation",
+      "description": {
+        "fr": "La liberté de manifester est inscrite dans le droit français depuis 1935 : pour prévenir les troubles à l'ordre public, une manifestation doit être déclarée à l'avance, avec son parcours et ses organisateurs. Ce régime de déclaration préalable est le socle sur lequel viendront s'ajouter les textes ultérieurs.",
+        "en": "The freedom to demonstrate has been written into French law since 1935: to prevent public disorder, a demonstration must be declared in advance, with its route and organisers. This prior-declaration regime is the foundation on which later texts are added."
+      },
+      "guides": ["droit-de-manifester"],
+      "evidence": ["vie-publique-liberte-manifestation"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "1936-front-populaire-et-greves-de",
       "date": "1936-06-07",
       "title": {
@@ -291,6 +316,27 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1955-loi-sur-l-etat-d-urgence",
+      "date": "1955-04-03",
+      "title": {
+        "fr": "Loi du 3 avril 1955 : l'état d'urgence",
+        "en": "Law of 3 April 1955: the state of emergency"
+      },
+      "kind": "securite-libertes",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tat_d%27urgence_en_France",
+      "description": {
+        "fr": "Créé en 1955 pour faire face aux événements liés à la guerre d'Algérie, le régime de l'état d'urgence permet notamment les assignations à résidence, la fermeture de certains lieux, l'interdiction de manifester et les perquisitions administratives, en dessaisissant l'autorité judiciaire de certaines de ses prérogatives. Il est déclaré à trois reprises pendant la guerre d'Algérie, puis pendant les émeutes de 2005, de novembre 2015 à novembre 2017, et en Nouvelle-Calédonie en 1985 et 2024.",
+        "en": "Created in 1955 to deal with events linked to the Algerian War, the state-of-emergency regime allows in particular house arrests, closure of certain premises, bans on demonstrating and administrative searches, taking some powers away from the judiciary. It is declared three times during the Algerian War, then during the 2005 riots, from November 2015 to November 2017, and in New Caledonia in 1985 and 2024."
+      },
+      "related": ["2015-etat-d-urgence-reunions-et-manifestations"],
+      "evidence": ["wiki-etat-urgence-france"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -375,6 +421,28 @@
         "by": "ai"
       },
       "evidence": ["wiki-accords-de-grenelle"]
+    },
+    {
+      "id": "1970-loi-anticasseurs-responsabilite-collective",
+      "date": "1970-06-08",
+      "title": {
+        "fr": "Loi « anticasseurs » de 1970 : une responsabilité collective, abrogée en 1981",
+        "en": "The 1970 “anti-rioters” law: collective liability, repealed in 1981"
+      },
+      "kind": "securite-libertes",
+      "url": "https://fr.wikipedia.org/wiki/Loi_tendant_%C3%A0_r%C3%A9primer_certaines_formes_nouvelles_de_d%C3%A9linquance",
+      "description": {
+        "fr": "Votée au début du septennat de Georges Pompidou, la loi n° 70-480 du 8 juin 1970, dite « anticasseurs », réprime les actions collectives de violences contre les personnes ou les biens. Ses détracteurs, qui la jugent « liberticide », lui reprochent d'instituer une responsabilité pénale et pécuniaire qui touche aussi de simples manifestant·es étrangers aux violences. François Mitterrand promet de l'abroger ; les député·es votent son abrogation dans la nuit du 25 au 26 novembre 1981 (334 voix contre 134).",
+        "en": "Passed early in Georges Pompidou's presidency, law no. 70-480 of 8 June 1970, known as the “anti-rioters” law, punishes collective acts of violence against people or property. Its critics, who call it “freedom-killing”, object that it creates criminal and financial liability that also hits mere demonstrators who had nothing to do with the violence. François Mitterrand promises to repeal it; MPs vote its repeal in the night of 25-26 November 1981 (334 votes to 134)."
+      },
+      "end": "1981-11-26",
+      "related": ["2019-loi-anticasseurs-fouilles-visage-et-casseur-payeur"],
+      "evidence": ["wiki-loi-anticasseurs-1970", "universalis-abrogation-anticasseurs-1981"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
     },
     {
       "id": "1970-naissance-du-mlf",
@@ -496,6 +564,27 @@
       "evidence": ["jean-jaures-marche-egalite-1983"]
     },
     {
+      "id": "1986-loi-contre-le-terrorisme",
+      "date": "1986-09-09",
+      "title": {
+        "fr": "Loi du 9 septembre 1986 : un régime pénal et procédural propre au terrorisme",
+        "en": "Law of 9 September 1986: a criminal and procedural regime specific to terrorism"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.vie-publique.fr/eclairage/18530-chronologie-de-la-legislation-antiterroriste-1986-2024",
+      "description": {
+        "fr": "La loi du 9 septembre 1986 définit la notion de terrorisme et en tire des conséquences procédurales : garde à vue portée à quatre jours avec report de l'avocat à la 72e heure, peines alourdies, apologie du terrorisme incriminée, perquisitions possibles sans l'assentiment des personnes, et un corps spécialisé de juges et de procureurs à Paris. D'autres textes s'y ajoutent ensuite (Vie publique en recense plus d'une vingtaine depuis 1986).",
+        "en": "The law of 9 September 1986 defines terrorism and draws procedural consequences: police custody extended to four days with the lawyer’s access postponed to the 72nd hour, heavier sentences, defending terrorism made an offence, searches possible without the consent of those concerned, and a specialised body of judges and prosecutors in Paris. Other texts follow (Vie publique lists more than twenty since 1986)."
+      },
+      "related": ["2001-loi-sur-la-securite-quotidienne"],
+      "evidence": ["vie-publique-chronologie-antiterroriste"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "1986-mort-de-malik-oussekine",
       "date": "1986-12-06",
       "title": {
@@ -520,6 +609,27 @@
       }
     },
     {
+      "id": "1995-plan-vigipirate",
+      "date": "1995-10-06",
+      "title": {
+        "fr": "Plan Vigipirate : une vigilance antiterroriste permanente",
+        "en": "Vigipirate plan: permanent counter-terrorism vigilance"
+      },
+      "kind": "securite-libertes",
+      "url": "https://fr.wikipedia.org/wiki/Plan_Vigipirate",
+      "description": {
+        "fr": "Une première instruction interministérielle de vigilance contre le terrorisme date de 1978 ; le plan prend le nom de Vigipirate en 1995 et, réactivé après les attentats de 1995, il est appliqué sans interruption depuis. Depuis la refonte du 1er décembre 2016, il comporte trois niveaux, dont « urgence attentat », où des mesures contraignantes peuvent être prises ; une nouvelle échelle d'alerte est entrée en vigueur le 22 juin 2026. Le 7 mai 2024, tout le territoire est placé au niveau maximal « urgence attentat » pour l'été-automne 2024. Le plan prévoit un volet « rassemblements » et des mesures pouvant inclure des filtrages et des fouilles.",
+        "en": "A first interministerial instruction on counter-terrorism vigilance dates from 1978; the plan takes the name Vigipirate in 1995 and, reactivated after the 1995 attacks, has been applied without interruption since. Since the overhaul of 1 December 2016 it has three levels, including “attack emergency”, where constraining measures may be taken; a new alert scale came into force on 22 June 2026. On 7 May 2024 the whole territory is placed at the maximum “attack emergency” level for summer-autumn 2024. The plan has a “gatherings” component and measures that may include screening and searches."
+      },
+      "related": ["2015-etat-d-urgence-reunions-et-manifestations"],
+      "evidence": ["wiki-vigipirate", "vie-publique-chronologie-antiterroriste"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "1995-greves-de-1995",
       "date": "1995-11-24",
       "end": "1995-12",
@@ -539,6 +649,27 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2001-loi-sur-la-securite-quotidienne",
+      "date": "2001-11-15",
+      "title": {
+        "fr": "Loi sur la sécurité quotidienne : contrôles et fouilles renforcés",
+        "en": "Everyday security law: stronger checks and searches"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.vie-publique.fr/eclairage/18530-chronologie-de-la-legislation-antiterroriste-1986-2024",
+      "description": {
+        "fr": "Adoptée dans le contexte de la lutte antiterroriste, la loi du 15 novembre 2001 renforce les pouvoirs de contrôle d'identité et de fouille (fouille de véhicules dans certaines zones, fouilles et palpations par des agents de sécurité privés habilités), crée le délit de financement du terrorisme et la peine de confiscation générale des biens. Les lois du 18 mars 2003 sur la sécurité intérieure et du 9 mars 2004 poursuivent ce mouvement.",
+        "en": "Adopted in the context of the fight against terrorism, the law of 15 November 2001 strengthens powers of identity checks and searches (vehicle searches in certain areas, searches and pat-downs by authorised private security staff), creates the offence of financing terrorism and the penalty of general confiscation of assets. The laws of 18 March 2003 on internal security and 9 March 2004 continue this trend."
+      },
+      "guides": ["controle-fouille"],
+      "evidence": ["vie-publique-chronologie-antiterroriste"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -580,6 +711,27 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2006-loi-antiterroriste-garde-a-vue-et-donnees-de-connexion",
+      "date": "2006-01-23",
+      "title": {
+        "fr": "Loi du 23 janvier 2006 : garde à vue de six jours et conservation des données",
+        "en": "Law of 23 January 2006: six-day custody and data retention"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.vie-publique.fr/eclairage/18530-chronologie-de-la-legislation-antiterroriste-1986-2024",
+      "description": {
+        "fr": "La loi relative à la lutte contre le terrorisme autorise une garde à vue de six jours en cas de risque d'attentat et impose aux opérateurs télécoms, aux fournisseurs d'accès et aux lieux proposant Internet de conserver les données de connexion pendant un an, dont l'accès par la police ne relève plus d'un magistrat mais d'une personnalité désignée par l'administration. Le Conseil constitutionnel juge que la prévention du terrorisme n'est pas du domaine judiciaire.",
+        "en": "The counter-terrorism law allows six-day police custody where there is a risk of attack and requires telecom operators, internet providers and venues offering internet access to keep connection data for one year, with police access no longer subject to a magistrate but to a figure appointed within the administration. The Constitutional Council rules that preventing terrorism is not a judicial matter."
+      },
+      "guides": ["garde-a-vue"],
+      "evidence": ["vie-publique-chronologie-antiterroriste"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -682,6 +834,29 @@
       }
     },
     {
+      "id": "2015-etat-d-urgence-reunions-et-manifestations",
+      "date": "2015-11-14",
+      "title": {
+        "fr": "État d'urgence : manifestations interdisables et mesures administratives",
+        "en": "State of emergency: demonstrations can be banned and administrative measures apply"
+      },
+      "kind": "securite-libertes",
+      "url": "https://conseil-etat.fr/actualites/assignations-a-residence-prononcees-a-l-occasion-de-la-cop-21-dans-le-cadre-de-l-etat-d-urgence",
+      "description": {
+        "fr": "Déclaré après les attentats du 13 novembre 2015, l'état d'urgence est prorogé jusqu'au 1er novembre 2017. Il permet aux autorités d'interdire les réunions de nature à provoquer ou entretenir le désordre, en particulier les manifestations, ainsi que de décider des assignations à résidence, des interdictions de séjour et des perquisitions administratives, sans passer par un juge. Du 14 novembre 2015 au 25 février 2016 : 400 assignations à résidence, 3 594 perquisitions et 540 interdictions de séjour. À l'occasion de la COP21, des personnes jugées susceptibles de participer à des actions revendicatives sont assignées à résidence ; saisi en référé, le Conseil d'État examine sept de ces mesures et ne prononce pas de mesure de sauvegarde.",
+        "en": "Declared after the attacks of 13 November 2015, the state of emergency is extended until 1 November 2017. It lets the authorities ban gatherings likely to provoke or sustain disorder, in particular demonstrations, and order house arrests, exclusion orders and administrative searches without going through a judge. From 14 November 2015 to 25 February 2016: 400 house arrests, 3,594 searches and 540 exclusion orders. Around COP21, people judged likely to take part in protest actions are placed under house arrest; asked to rule urgently, the Council of State examines seven of these measures and orders no protective measure."
+      },
+      "end": "2017-11-01",
+      "related": ["2017-loi-silt-l-etat-d-urgence-dans-le-droit-commun"],
+      "guides": ["droit-de-manifester"],
+      "evidence": ["wiki-etat-urgence-france", "ce-cop21-assignations"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2016-nuit-debout",
       "date": "2016-03-31",
       "title": {
@@ -696,6 +871,28 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2016-etat-d-urgence-cortege-interdits-faute-de-moyens",
+      "date": "2016-07-21",
+      "title": {
+        "fr": "Prorogation de l'état d'urgence : cortèges interdits si la sécurité n'est pas assurable",
+        "en": "State of emergency extended: marches can be banned if security cannot be ensured"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.vie-publique.fr/eclairage/18530-chronologie-de-la-legislation-antiterroriste-1986-2024",
+      "description": {
+        "fr": "Après l'attentat de Nice, la loi du 21 juillet 2016 prolonge l'état d'urgence et précise que les cortèges, défilés et rassemblements sur la voie publique peuvent être interdits dès lors que l'autorité administrative justifie ne pas être en mesure d'en assurer la sécurité compte tenu des moyens dont elle dispose.",
+        "en": "After the Nice attack, the law of 21 July 2016 extends the state of emergency and provides that marches, parades and gatherings on the public highway may be banned where the administrative authority shows it cannot ensure their security given the resources available to it."
+      },
+      "related": ["2015-etat-d-urgence-reunions-et-manifestations"],
+      "guides": ["droit-de-manifester"],
+      "evidence": ["vie-publique-chronologie-antiterroriste"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -717,6 +914,57 @@
       "evidence": ["politis-facies-2016", "hrw-facies-2016", "ddd-controles-2017"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2017-loi-securite-publique-usage-des-armes",
+      "date": "2017-02-28",
+      "title": {
+        "fr": "Loi sécurité publique : un cadre commun d'usage des armes (art. L. 435-1)",
+        "en": "Public security law: a common framework for the use of weapons (Art. L. 435-1)"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.ldh-france.org/utilisation-des-armes-par-les-forces-de-lordre/",
+      "description": {
+        "fr": "La loi du 28 février 2017 crée l'article L. 435-1 du Code de la sécurité intérieure, qui énumère les cas où les forces de police peuvent faire usage de leurs armes, renforce les sanctions pour refus d'obtempérer et la protection de l'identité des forces de sécurité. Il devait rassurer les forces de l'ordre ; la LDH estime qu'il a plutôt ouvert la voie à des interprétations dangereuses, certains policiers allant jusqu'à réclamer une présomption de légitime défense, ce qu'elle juge inacceptable, et demande aux parlementaires de le supprimer. En juin 2023, elle réclame encore son abrogation.",
+        "en": "The law of 28 February 2017 creates Article L. 435-1 of the Internal Security Code, which lists the cases in which police may use their weapons, and strengthens penalties for refusing to comply and protection of security forces' identity. It was meant to reassure officers; the Human Rights League (LDH) considers it has instead opened the way to dangerous interpretations, some officers even asking for a presumption of self-defence, which it finds unacceptable, and asks MPs to remove it. In June 2023 it was still calling for its repeal."
+      },
+      "guides": ["armes-police"],
+      "evidence": [
+        "ldh-armes-forces-ordre",
+        "ldh-onu-2023",
+        "vie-publique-chronologie-antiterroriste"
+      ],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      },
+      "related": ["2026-presomption-de-legitime-defense-des-forces-de-l-ordre"]
+    },
+    {
+      "id": "2017-loi-silt-l-etat-d-urgence-dans-le-droit-commun",
+      "date": "2017-10-30",
+      "title": {
+        "fr": "Loi SILT : des mesures de l'état d'urgence dans le droit commun",
+        "en": "SILT law: state-of-emergency measures written into ordinary law"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.cncdh.fr/publications/avis-sur-le-projet-de-loi-visant-renforcer-la-securite-interieure-et-la-lutte-contre",
+      "description": {
+        "fr": "La loi du 30 octobre 2017 met fin à plusieurs mesures de l'état d'urgence, dont l'interdiction de manifester, mais en reprend d'autres : périmètres de protection, assignations individuelles à un périmètre géographique et perquisitions, décidés comme sous l'état d'urgence par l'autorité administrative et non judiciaire. Saisie avant le vote, la CNCDH avait recommandé en juillet 2017 d'abandonner le projet, qui incorpore selon elle de manière définitive l'état d'urgence dans l'ordre juridique. Le 29 mars 2018, le Conseil constitutionnel précise que les vérifications dans les périmètres de protection doivent exclure toute discrimination.",
+        "en": "The law of 30 October 2017 ends several state-of-emergency measures, including the ban on demonstrating, but carries others over: protection perimeters, individual orders to stay within a geographic area and searches, decided as under the state of emergency by the administrative rather than the judicial authority. In July 2017 the CNCDH had recommended dropping the bill, which in its view permanently writes the state of emergency into the legal order. On 29 March 2018 the Constitutional Council specifies that checks in protection perimeters must exclude any discrimination."
+      },
+      "related": ["2015-etat-d-urgence-reunions-et-manifestations"],
+      "evidence": [
+        "wiki-loi-silt",
+        "cncdh-avis-silt-2017",
+        "vie-publique-chronologie-antiterroriste"
+      ],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -859,6 +1107,34 @@
       }
     },
     {
+      "id": "2019-gilets-jaunes-l-onu-et-le-conseil-de-l-europe-alertent",
+      "date": "2019-02-14",
+      "title": {
+        "fr": "Gilets jaunes : l'ONU et le Conseil de l'Europe alertent sur le maintien de l'ordre",
+        "en": "Yellow vests: the UN and the Council of Europe sound the alarm on policing"
+      },
+      "kind": "securite-libertes",
+      "url": "https://news.un.org/en/story/2019/02/1032741",
+      "description": {
+        "fr": "Le 14 février 2019, des expert·es indépendant·es de l'ONU jugent que les droits des manifestant·es ont été « disproportionnellement restreints » : plus de 1 700 personnes auraient été blessées, avec de nombreuses interpellations, fouilles et confiscations et un usage disproportionné d'armes dites « non létales » ; ils s'inquiètent aussi d'une proposition de loi sur le maintien de l'ordre. Le 26 février, la commissaire aux droits de l'homme du Conseil de l'Europe demande de suspendre l'usage du LBD, de ne pas introduire d'interdiction administrative de manifester, de renoncer au délit de dissimulation du visage et de ne pas réintroduire les fouilles décidées par les préfets, et s'inquiète des gardes à vue sans suite de personnes se rendant à une manifestation. Le 6 mars, la Haute-Commissaire de l'ONU, Michelle Bachelet, demande aux autorités françaises d'enquêter sur les violences commises en marge des manifestations. La loi d'avril 2019 retiendra le délit de dissimulation du visage ; l'interdiction administrative sera censurée.",
+        "en": "On 14 February 2019, independent UN experts judge that protesters' rights have been “disproportionately curtailed”: more than 1,700 people reportedly injured, many arrests, searches and confiscations, and disproportionate use of so-called “non-lethal” weapons; they also voice concern about a bill on policing protests. On 26 February, the Council of Europe's human rights commissioner calls for suspending the LBD, for no administrative ban on demonstrating, for dropping the face-covering offence and for not reintroducing searches ordered by prefects, and worries about custody without follow-up of people travelling to a demonstration. On 6 March, UN High Commissioner Michelle Bachelet asks the French authorities to investigate the violence on the sidelines of the protests. The April 2019 law will keep the face-covering offence; the administrative ban will be struck down."
+      },
+      "end": "2019-03-06",
+      "related": ["2018-gilets-jaunes", "2019-loi-anticasseurs-fouilles-visage-et-casseur-payeur"],
+      "guides": ["armes-police"],
+      "evidence": [
+        "un-news-gilets-jaunes-2019",
+        "unric-experts-gilets-jaunes-2019",
+        "coe-commissaire-memorandum-2019",
+        "cdj-bachelet-2019"
+      ],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2019-le-ric-rejete-a-l",
       "date": "2019-02-21",
       "title": {
@@ -907,6 +1183,34 @@
       "evidence": ["legay-poussee", "legay-condamnation", "legay-etat-responsable"],
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2019-loi-anticasseurs-fouilles-visage-et-casseur-payeur",
+      "date": "2019-04-10",
+      "title": {
+        "fr": "Loi « anticasseurs » : fouilles, délit de dissimulation du visage et « casseur-payeur »",
+        "en": "“Anti-rioters” law: searches, a face-covering offence and “rioter pays”"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm",
+      "description": {
+        "fr": "Née d'une proposition sénatoriale après le 1er mai 2018, reprise par le gouvernement après l'acte 8 des Gilets jaunes, la loi du 10 avril 2019 autorise des fouilles de bagages et des visites de véhicules aux abords des manifestations sur réquisition du procureur, crée un délit de dissimulation volontaire du visage sans motif légitime (1 an de prison, 15 000 €), élargit l'interdiction judiciaire de manifester (jusqu'à trois ans, sous peine d'un an de prison et de 15 000 € si elle est violée) et permet à l'État d'agir contre les auteurs de dégâts, même sans condamnation pénale (principe « casseur-payeur »). Le 4 avril, le Conseil constitutionnel censure l'interdiction administrative de manifester (article 3) et valide les autres dispositions contestées. La CNCDH avait jugé plusieurs dispositions disproportionnées.",
+        "en": "Born from a Senate bill after 1 May 2018 and taken up by the government after “Act 8” of the yellow vests, the law of 10 April 2019 authorises bag searches and vehicle checks around demonstrations on the prosecutor’s written order, creates an offence of deliberately covering one’s face without legitimate reason (1 year in prison, €15,000), widens the judicial ban on demonstrating (up to three years, punishable by one year in prison and €15,000 if breached) and lets the State act against those who cause damage, even without a criminal conviction (the “rioter pays” principle). On 4 April, the Constitutional Council strikes down the administrative ban on demonstrating (Article 3) and upholds the other contested provisions. The CNCDH had judged several provisions disproportionate."
+      },
+      "related": ["2026-projet-de-loi-casseurs-payeurs"],
+      "guides": ["controle-fouille", "droit-de-manifester"],
+      "evidence": [
+        "legifrance-loi-2019-290",
+        "wiki-loi-anticasseurs-2019",
+        "cc-2019-780",
+        "cncdh-amicus-anticasseurs-2019",
+        "landot-casseur-payeur-2026"
+      ],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1041,6 +1345,70 @@
       }
     },
     {
+      "id": "2020-conseil-d-etat-suspend-l-interdiction-de-manifester",
+      "date": "2020-06-13",
+      "title": {
+        "fr": "13 juin 2020 : le Conseil d'État suspend l'interdiction générale de manifester",
+        "en": "13 June 2020: the Council of State suspends the general ban on demonstrating"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-etat.fr/content/download/156017/document/Ordonnance%20440846-440856-441015.pdf",
+      "description": {
+        "fr": "Pendant l'état d'urgence sanitaire (Covid-19), le décret du 31 mai 2020 interdisait tout rassemblement de plus de dix personnes sur la voie publique, manifestations comprises. Saisi notamment par la LDH et des syndicats, le juge des référés du Conseil d'État suspend cette interdiction pour les manifestations soumises à déclaration préalable, en rappelant que les restrictions aux libertés doivent être nécessaires, adaptées et proportionnées.",
+        "en": "During the Covid-19 health emergency, the decree of 31 May 2020 banned any gathering of more than ten people on the public road, demonstrations included. On a petition from the LDH and trade unions among others, the Council of State's urgent-applications judge suspends this ban for demonstrations subject to prior declaration, recalling that restrictions on freedoms must be necessary, appropriate and proportionate."
+      },
+      "guides": ["droit-de-manifester"],
+      "evidence": ["ce-ordonnance-2020-06-13"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2020-conseil-d-etat-suspend-le-regime-d-autorisation",
+      "date": "2020-07-06",
+      "title": {
+        "fr": "6 juillet 2020 : le Conseil d'État suspend l'autorisation préalable des manifestations",
+        "en": "6 July 2020: the Council of State suspends prior authorisation for demonstrations"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-etat.fr/content/download/156260/document/441257-441263-441384%20-%20CGT%20et%20autres%20et%20SOS%20Racisme.pdf",
+      "description": {
+        "fr": "Le décret du 31 mai 2020, modifié le 14 juin, avait remplacé la déclaration préalable par une interdiction des manifestations de plus de 5 000 personnes et un régime d'autorisation. Saisi par des syndicats et SOS Racisme, le juge des référés suspend ces dispositions pour les manifestations soumises à déclaration préalable.",
+        "en": "The decree of 31 May 2020, amended on 14 June, had replaced prior declaration with a ban on demonstrations of more than 5,000 people and an authorisation regime. On a petition from unions and SOS Racisme, the urgent-applications judge suspends these provisions for demonstrations subject to prior declaration."
+      },
+      "guides": ["droit-de-manifester"],
+      "evidence": ["ce-ordonnance-2020-07-06"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2020-schema-national-du-maintien-de-l-ordre",
+      "date": "2020-09-16",
+      "title": {
+        "fr": "Schéma national du maintien de l'ordre : LBD maintenu, encerclement annulé",
+        "en": "National policing scheme: LBD kept, encirclement struck down"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-etat.fr/actualites/manaeuvre-d-encerclement-accreditation-des-journalistes-le-conseil-d-etat-annule-plusieurs-points-du-schema-du-maintien-de-l-ordre",
+      "description": {
+        "fr": "Publié le 16 septembre 2020, le schéma maintient le LBD avec un nouveau cadre d'emploi (un superviseur auprès des tireurs), alors que la Défenseure des droits recommande d'en interdire l'usage en maintien de l'ordre (avis du 30 novembre 2020). Saisi notamment par la CGT, la LDH et le Syndicat de la magistrature, le Conseil d'État annule le 10 juin 2021 la possibilité de recourir à l'encerclement des manifestants (« nasse »), faute de conditions assez précises, ainsi que des règles visant les journalistes.",
+        "en": "Published on 16 September 2020, the scheme keeps the LBD with a new framework for its use (a supervisor alongside shooters), while the Defender of Rights recommends banning its use in policing protests (opinion of 30 November 2020). Challenged notably by the CGT, the LDH and the Magistrates’ Union, the Council of State on 10 June 2021 strikes down the possibility of encircling demonstrators (“kettling”) for lack of sufficiently precise conditions, as well as rules aimed at journalists."
+      },
+      "end": "2021-06-10",
+      "guides": ["dispersion", "armes-police"],
+      "evidence": ["ce-snmo-actualite", "ce-snmo", "ddd-avis-20-08"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2020-autoroutes-privatisees-des-profits-au",
       "date": "2020-09-18",
       "title": {
@@ -1080,6 +1448,49 @@
       "guides": ["filmer"],
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2021-conseil-d-etat-annule-l-interdiction-de-manifester",
+      "date": "2021-01-15",
+      "title": {
+        "fr": "15 janvier 2021 : le Conseil d'État annule l'interdiction de manifester du décret Covid",
+        "en": "15 January 2021: the Council of State annuls the Covid decree's ban on demonstrating"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-01-15/441265",
+      "description": {
+        "fr": "Statuant sur le fond, le Conseil d'État annule les dispositions du décret du 31 mai 2020 (dans sa version du 14 juin 2020) qui s'appliquaient aux manifestations sur la voie publique soumises à déclaration préalable.",
+        "en": "Ruling on the merits, the Council of State annuls the provisions of the decree of 31 May 2020 (in its 14 June 2020 version) that applied to demonstrations on the public road subject to prior declaration."
+      },
+      "guides": ["droit-de-manifester"],
+      "evidence": ["ce-decision-2021-01-15"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2021-securite-globale-censure-du-conseil-constitutionnel",
+      "date": "2021-05-20",
+      "title": {
+        "fr": "Sécurité globale : censure partielle par le Conseil constitutionnel",
+        "en": "“Global security” law: partially struck down by the Constitutional Council"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm",
+      "description": {
+        "fr": "Le 20 mai 2021, le Conseil constitutionnel déclare contraires à la Constitution plusieurs dispositions de la loi, dont des alinéas de l'article 47 sur la captation d'images par caméras (au titre du droit au respect de la vie privée), l'article 48 et le paragraphe I de l'article 52, qui visait la diffusion d'images de policiers.",
+        "en": "On 20 May 2021, the Constitutional Council declares several provisions of the law unconstitutional, including paragraphs of Article 47 on image capture by cameras (on privacy grounds), Article 48 and paragraph I of Article 52, which targeted the sharing of images of police."
+      },
+      "related": ["2020-loi-securite-globale"],
+      "guides": ["filmer"],
+      "evidence": ["cc-2021-817"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1157,6 +1568,52 @@
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-loi-jo-2024-videosurveillance-algorithmique",
+      "date": "2023-05-19",
+      "title": {
+        "fr": "Loi JO 2024 : la vidéosurveillance algorithmique expérimentée",
+        "en": "2024 Olympics law: algorithmic video surveillance trialled"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023850DC.htm",
+      "description": {
+        "fr": "La loi du 19 mai 2023 relative aux Jeux olympiques (article 10) autorise, à titre expérimental jusqu'au 31 mars 2025, le traitement algorithmique d'images de vidéoprotection ou de caméras installées sur des aéronefs afin de détecter et signaler certains événements. Saisi par des député·es qui invoquaient notamment le droit de manifester, le Conseil constitutionnel valide l'article 10 sous réserve (décision du 17 mai 2023). Amnesty International France dénonce un tremplin pour normaliser des technologies de surveillance.",
+        "en": "The law of 19 May 2023 on the Olympic Games (Article 10) authorises, as a trial until 31 March 2025, algorithmic processing of images from video protection or from cameras mounted on aircraft in order to detect and report certain events. Challenged by MPs who invoked among other things the right to demonstrate, the Constitutional Council upholds Article 10 with a reservation (decision of 17 May 2023). Amnesty International France calls it a springboard for normalising surveillance technologies."
+      },
+      "related": [
+        "2025-videosurveillance-algorithmique-prolongation-censuree",
+        "2026-videosurveillance-algorithmique-jusqu-en-2027"
+      ],
+      "evidence": ["cc-2023-850", "amnesty-vsa-prolongation-2026"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-l-onu-s-inquiete-du-manque-de-retenue-dans-l-usage-de-la-force",
+      "date": "2023-06-16",
+      "title": {
+        "fr": "L'ONU s'inquiète du « manque de retenue » dans l'usage de la force",
+        "en": "UN experts worry about a “lack of restraint” in the use of force"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.politis.fr/articles/2023/06/onu-etrille-la-france-pour-son-maintien-de-lordre/",
+      "description": {
+        "fr": "Dans une déclaration publiée mi-juin 2023 (15 ou 16 juin selon les médias), sept expert·es mandaté·es par l'ONU expriment leur inquiétude devant le manque de retenue dans l'usage de la force sur les manifestant·es et la « rhétorique criminalisante » visant des défenseur·es des droits humains et de l'environnement. La LDH reprend ces préoccupations et demande notamment l'interdiction des nasses, un matricule visible, un service d'enquête indépendant et l'abrogation de l'article L. 435-1.",
+        "en": "In a statement published in mid-June 2023 (15 or 16 June depending on the outlet), seven experts mandated by the UN express concern about the lack of restraint in the use of force on protesters and the “criminalising rhetoric” aimed at human rights and environmental defenders. The LDH echoes these concerns and calls in particular for a ban on kettling, a visible officer ID number, an independent investigation service and repeal of Article L. 435-1."
+      },
+      "related": ["2017-loi-securite-publique-usage-des-armes", "2023-sainte-soline-pas-de-lbd"],
+      "evidence": ["politis-onu-2023", "ldh-onu-2023"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "unconfirmed",
+        "note": "Texte original du HCDH non retrouvé ; contenu recoupé par Politis, Reporterre et The Local, mais la date varie (15 ou 16 juin 2023).",
         "by": "ai"
       }
     },
@@ -1295,6 +1752,47 @@
       }
     },
     {
+      "id": "2025-videosurveillance-algorithmique-prolongation-censuree",
+      "date": "2025-04-24",
+      "title": {
+        "fr": "Vidéosurveillance algorithmique : une première prolongation censurée",
+        "en": "Algorithmic video surveillance: a first extension struck down"
+      },
+      "kind": "securite-libertes",
+      "url": "https://lcp.fr/actualites/securite-dans-les-transports-le-conseil-constitutionnel-censure-la-prolongation-de-l",
+      "description": {
+        "fr": "Le Conseil constitutionnel censure, comme « cavalier législatif » sans lien avec le texte initial, la prolongation jusqu'en 2027 de l'expérimentation, insérée dans la loi sur la sûreté dans les transports. L'expérimentation issue de la loi JO 2024 prend fin en mars 2025.",
+        "en": "The Constitutional Council strikes down, as a legislative “rider” with no link to the original text, the extension until 2027 of the trial, inserted into the transport security law. The trial created by the 2024 Olympics law ends in March 2025."
+      },
+      "related": ["2023-loi-jo-2024-videosurveillance-algorithmique"],
+      "evidence": ["lcp-vsa-transports-2025", "amnesty-vsa-prolongation-2026"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2025-cncdh-la-restriction-de-l-espace-civique",
+      "date": "2025-06-17",
+      "title": {
+        "fr": "CNCDH : la restriction de l'espace civique",
+        "en": "CNCDH: the shrinking of civic space"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.cncdh.fr/sites/default/files/2025-06/A%20-%202025%20-%207%20-%20CNCDH%20-%20Avis%20R%C3%A9duction%20de%20l%27espace%20civique_0.pdf",
+      "description": {
+        "fr": "Dans un avis du 17 juin 2025, la CNCDH estime que plusieurs dispositifs législatifs et réglementaires contribuent à restreindre l'espace civique plutôt qu'à garantir son intégrité : surveillance accrue des acteurs syndicaux et associatifs, nouvelles règles administratives, stratégies de maintien de l'ordre et judiciarisation croissante des mobilisations, au détriment de la liberté de manifestation. Elle relève aussi que les discours menaçants et la répression dissuadent des personnes de participer à des manifestations.",
+        "en": "In an opinion of 17 June 2025, the CNCDH finds that several legislative and regulatory measures help restrict civic space rather than protect its integrity: increased surveillance of union and association actors, new administrative rules, policing strategies and growing judicialisation of mobilisations, to the detriment of the freedom to demonstrate. It also notes that threatening rhetoric and repression deter people from taking part in demonstrations."
+      },
+      "evidence": ["cncdh-avis-espace-civique-2025"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-conclave-des-retraites-sans-tabou",
       "date": "2025-06-23",
       "title": {
@@ -1357,6 +1855,78 @@
       "evidence": ["linfodurable-duplomb-2026", "cc-duplomb-2025"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-videosurveillance-algorithmique-jusqu-en-2027",
+      "date": "2026-03-19",
+      "title": {
+        "fr": "Loi JO 2030 : le Conseil constitutionnel valide la prolongation jusqu'en 2027",
+        "en": "2030 Olympics law: the Constitutional Council upholds the extension to 2027"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026902DC.htm",
+      "description": {
+        "fr": "Saisi par des député·es de gauche, le Conseil constitutionnel valide, dans la loi relative aux Jeux olympiques d'hiver de 2030, la prolongation jusqu'en 2027 de l'expérimentation de vidéosurveillance algorithmique, qui avait pris fin en mars 2025, ainsi que le régime d'interdiction de paraître à proximité d'un grand événement. Une première tentative avait été censurée en avril 2025.",
+        "en": "Challenged by left-wing MPs, the Constitutional Council upholds, in the law on the 2030 Winter Olympics, the extension until 2027 of the algorithmic video surveillance trial, which had ended in March 2025, as well as the regime of bans on being near a major event. A first attempt had been struck down in April 2025."
+      },
+      "related": ["2025-videosurveillance-algorithmique-prolongation-censuree"],
+      "evidence": ["cc-2026-902", "lcp-loi-jo-2030-2026", "amnesty-vsa-prolongation-2026"],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-presomption-de-legitime-defense-des-forces-de-l-ordre",
+      "date": "2026-07-07",
+      "title": {
+        "fr": "Présomption de légitime défense des forces de l'ordre : adoptée par l'Assemblée, critiquée par la Défenseure des droits et l'ONU",
+        "en": "Presumption of self-defence for law enforcement: passed by the Assembly, criticised by the Defender of Rights and the UN"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/presomption_legitime_defense_forces_ordre",
+      "description": {
+        "fr": "La proposition de loi n° 691 (Éric Pauget et collègues, déposée en décembre 2024) insérerait dans le Code pénal une présomption selon laquelle les policiers nationaux et municipaux et les gendarmes agissent en légitime défense lorsqu'ils font usage de leur arme dans les conditions du Code de la sécurité intérieure, renversable si l'enquête démontre un usage manifestement disproportionné ou contraire à la nécessité absolue. Rejetée par la commission, puis adoptée en première lecture par l'Assemblée nationale le 7 juillet 2026, elle est transmise au Sénat. Le 26 juin, la Défenseure des droits alerte sur des risques pour le droit à la vie, l'accès au juge et les voies de recours. Le 7 juillet, le rapporteur spécial de l'ONU sur les exécutions extrajudiciaires demande à la France de rejeter le texte et s'inquiète aussi d'une modification supprimant, dans certains cas, l'obligation de porter un uniforme ou un signe distinctif visible.",
+        "en": "Bill no. 691 (Éric Pauget and colleagues, tabled in December 2024) would insert into the Criminal Code a presumption that national and municipal police and gendarmes act in self-defence when they use their weapon under the conditions of the Internal Security Code, rebuttable if the investigation shows manifestly disproportionate use or use contrary to absolute necessity. Rejected by the committee, then passed at first reading by the National Assembly on 7 July 2026, it goes to the Senate. On 26 June the Defender of Rights warns of risks to the right to life, access to a judge and remedies. On 7 July the UN Special Rapporteur on extrajudicial executions urges France to reject the text and also voices concern about an amendment removing, in some cases, the obligation to wear a uniform or visible insignia."
+      },
+      "related": [
+        "2017-loi-securite-publique-usage-des-armes",
+        "2023-l-onu-s-inquiete-du-manque-de-retenue-dans-l-usage-de-la-force"
+      ],
+      "guides": ["armes-police"],
+      "evidence": [
+        "an-ppl-presomption-legitime-defense",
+        "ddd-avis-26-05-presomption",
+        "ohchr-france-presomption-tirs-2026"
+      ],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-loi-ripost-videosurveillance-algorithmique-jusqu-en-2030",
+      "date": "2026-08-14",
+      "title": {
+        "fr": "Loi Ripost : vidéosurveillance algorithmique jusqu'à fin 2030, drones en urgence",
+        "en": "Ripost law: algorithmic video surveillance until end 2030, drones in urgent cases"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm",
+      "description": {
+        "fr": "La loi « visant à offrir des réponses immédiates aux phénomènes troublant l'ordre public, la sécurité et la tranquillité » (dite Ripost) reporte au 31 décembre 2030 le terme de l'expérimentation de vidéosurveillance algorithmique et l'étend aux images captées dans certains bâtiments et lieux ouverts au public (article 50), et institue une procédure d'urgence pour l'usage de caméras installées sur des drones, notamment pour le maintien de l'ordre et de la sécurité publics (article 42). Dans sa décision n° 2026-915 DC du 14 août 2026 (non-conformité partielle, avec réserves), le Conseil constitutionnel censure plusieurs dispositions de la loi, mais valide l'extension de la vidéosurveillance algorithmique en plafonnant à trois mois renouvelables la durée d'autorisation pour les lieux exposés à un risque permanent, au nom de la vie privée, et valide sous réserve la procédure d'urgence pour les drones. La loi est publiée au Journal officiel le 19 août.",
+        "en": "The law “to offer immediate responses to phenomena disturbing public order, security and tranquillity” (known as Ripost) postpones to 31 December 2030 the end of the algorithmic video surveillance trial and extends it to images captured in certain buildings and places open to the public (Article 50), and creates an urgent procedure for using cameras mounted on drones, notably for maintaining public order and security (Article 42). In its decision no. 2026-915 DC of 14 August 2026 (partial non-conformity, with reservations), the Constitutional Council strikes down several provisions of the law but upholds the extension of algorithmic video surveillance, capping at three renewable months the authorisation for places exposed to a permanent risk, in the name of privacy, and upholds with a reservation the urgent procedure for drones. The law is published in the Official Journal on 19 August."
+      },
+      "end": "2026-08-19",
+      "related": ["2026-videosurveillance-algorithmique-jusqu-en-2027"],
+      "evidence": ["cc-2026-915", "fnms-ripost-promulgation-2026"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1449,6 +2019,57 @@
       "evidence": ["maire-info-agora-2026", "france3-agora-2026", "reporterre-consultations-2026"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-projet-de-loi-casseurs-payeurs",
+      "date": "2026-10-27",
+      "title": {
+        "fr": "Projet de loi « casseurs-payeurs » : responsabilité solidaire des participant·es, drones et prestations sociales",
+        "en": "“Casseurs-payeurs” bill: joint liability for participants, drones and social benefits"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.senat.fr/leg/pjl26-087.html",
+      "description": {
+        "fr": "Le projet de loi (procédure accélérée) examiné en premier par le Sénat crée une responsabilité solidaire, plafonnée à 10 000 €, pour toute personne ayant participé sciemment à un groupement ayant commis des violences, vols ou dégradations, ou ayant continué à participer à un attroupement malgré les sommations en sachant que des violences y étaient commises (sauf motif légitime). Il élargit l'action récursoire de l'État créée en 2019, permet à l'État de transiger avec les débiteurs, y compris mineur·es, pour des obligations d'intérêt général, et prévoit la saisie de prestations sociales (allocations familiales, aides au logement) pour recouvrer les dommages et intérêts. Le texte de la commission des lois du 21 octobre 2026 y ajoute notamment l'usage de caméras sur des aéronefs, sur réquisition du procureur, aux abords des manifestations pour poursuivre les infractions, une peine d'interdiction du territoire pour certains étrangers condamnés et le passage du délit de participation à un groupement en vue de violences d'un an et 15 000 € à trois ans et 45 000 €. Le Sénat adopte l'article premier le 27 octobre 2026. Selon le ministre de l'Intérieur, il s'agit de dissuader les casseurs et de mieux réparer les victimes ; la gauche et des syndicats le dénoncent comme une atteinte au droit de manifester.",
+        "en": "The bill (accelerated procedure), examined first by the Senate, creates joint liability, capped at €10,000, for anyone who knowingly took part in a group that committed violence, theft or damage, or who kept taking part in an unlawful gathering after warnings while knowing violence was being committed (unless for a legitimate reason). It widens the State's right of recourse created in 2019, lets the State settle with debtors, including minors, for public-interest obligations, and provides for seizing social benefits (family allowances, housing aid) to recover damages. The Senate law committee's text of 21 October 2026 adds in particular the use of cameras on aircraft, on the prosecutor's order, around demonstrations to prosecute offences, a ban from French territory for certain convicted foreigners and raising the offence of taking part in a group formed to commit violence from one year and €15,000 to three years and €45,000. The Senate adopts Article 1 on 27 October 2026. According to the Interior Minister, the aim is to deter rioters and better compensate victims; the left and unions denounce it as an attack on the right to demonstrate."
+      },
+      "related": [
+        "2019-loi-anticasseurs-fouilles-visage-et-casseur-payeur",
+        "2026-manifestations-des-17-et-24-octobre"
+      ],
+      "guides": ["droit-de-manifester", "suites-judiciaires"],
+      "evidence": [
+        "senat-pjl-dommages-espace-public-2026",
+        "publicsenat-casseurs-payeurs-2026",
+        "landot-casseur-payeur-2026"
+      ],
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-l-onu-s-alarme-de-la-reponse-aux-manifestations-etudiantes",
+      "date": "2026-10-28",
+      "title": {
+        "fr": "L'ONU s'alarme de la réponse aux manifestations étudiantes",
+        "en": "UN experts alarmed by the response to student protests"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.ohchr.org/en/press-releases/2026/10/france-un-experts-appalled-crackdown-student-protests",
+      "description": {
+        "fr": "Quatre rapporteurs spéciaux de l'ONU (éducation, liberté de réunion pacifique et d'association, liberté d'opinion et d'expression, torture) estiment que les violences et les arrestations en masse ne sont pas des réponses appropriées à un mouvement social. Ils jugent inacceptables et injustifiables les blessures graves, parfois irréversibles, subies par des mineur·es lors des opérations de maintien de l'ordre, et que l'ampleur des arrestations et détentions, touchant plusieurs milliers de personnes, surtout des mineur·es, paraît disproportionnée et dissuade d'exercer les libertés d'expression et de réunion. Ils regrettent aussi des policiers blessés et des dégradations, qu'ils condamnent, et notent que la priorité donnée à une réponse d'abord sécuritaire a mis de côté les causes de la mobilisation.",
+        "en": "Four UN special rapporteurs (education, peaceful assembly and association, freedom of opinion and expression, torture) say that excessive force, violence and mass arrests are not appropriate responses to a social movement. They find the serious, sometimes irreversible, injuries suffered by minors during law-enforcement operations unacceptable and unjustifiable, and say the scale of arrests and detentions, affecting several thousand people, mainly minors, appears disproportionate and deters people from exercising freedom of expression and assembly. They also regret police officers injured and buildings damaged, which they condemn, and note that the priority given to a primarily security-focused response has sidelined the root causes of the mobilisation."
+      },
+      "related": ["2026-manifestations-des-17-et-24-octobre"],
+      "guides": ["lyceens", "droit-de-manifester"],
+      "evidence": ["ohchr-france-etudiants-2026"],
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }

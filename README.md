@@ -72,11 +72,13 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [mat2](https://0xacab.org/jvoisin/mat2) - Supprime les métadonnées (position GPS, appareil, date) des photos, vidéos et documents avant de les publier.
 - [PHAROS — Signaler un contenu illicite](https://www.internet-signalement.gouv.fr/) - Plateforme officielle pour signaler un contenu illicite en ligne : menaces, appels à la violence, diffusion de données personnelles.
 - [CNIL — Droit à l'effacement](https://www.cnil.fr/fr/le-droit-leffacement-supprimer-vos-donnees-en-ligne) - Comment demander la suppression de vos données personnelles publiées en ligne (photos, adresse, informations exposées).
+- [CNIL — Caméras « augmentées » dans les espaces publics (position de 2022)](https://www.cnil.fr/fr/deploiement-de-cameras-augmentees-dans-les-espaces-publics-la-cnil-publie-sa-position) - Position de la CNIL (19 juillet 2022) sur les caméras dites « augmentées » ou « intelligentes » dans les espaces publics : risques pour les libertés et cadre juridique.
 
 ## Filmer & archiver
 
 - [ProofMode](https://proofmode.org/) - Application (Guardian Project et WITNESS) qui ajoute à vos photos et vidéos des données de vérification (empreinte, date, appareil) pour prouver qu'elles n'ont pas été modifiées.
 - [eyeWitness to Atrocities](https://www.eyewitness.global/) - Application de l'International Bar Association : capture vérifiable et envoi vers un stockage sécurisé, séparé de la galerie du téléphone. Conçue pour documenter les crimes internationaux.
+- [SurLeFait](https://surlefait.com/a-propos) - Carte collaborative de vidéos de violences, visages floutés. L'original, daté et géolocalisé, est gardé chiffré et transmissible à un·e avocat·e. ⚠️ _Non confirmé._
 - [WITNESS — Video as Evidence Field Guide](https://library.witness.org/product/video-as-evidence-compiled-sections/) - Guide de référence (en anglais) pour que vos vidéos puissent servir de preuve : cadrage, contexte, chaîne de conservation, protection des personnes filmées.
 - [WITNESS — Archiver ses vidéos](https://witness.org/our-work/video-archiving) - Ressources de WITNESS pour conserver ses vidéos dans le temps : copies, nommage, métadonnées, sauvegarde hors du téléphone.
 - [Wayback Machine — Save Page Now](https://web.archive.org/save) - Archive publiquement une page web (publication, article, déclaration officielle) pour en garder une trace datée même si elle est supprimée ensuite.
@@ -104,6 +106,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [LDH — Filmer les forces de l'ordre (fiche)](https://www.ldh-france.org/wp-content/uploads/2022/04/Filmer-les-FDO_juillet2021.pdf) - Fiche pratique de la Ligue des droits de l'Homme sur le droit de filmer et de diffuser des images d'interventions policières.
 - [LDH — Que faire face aux violences policières ? (2026)](https://www.ldh-france.org/wp-content/uploads/2026/05/Que-faire_ViolencesPO_avril-2026.pdf) - Fiche pratique de la LDH (avril 2026) : démarches après des violences policières (certificat médical, plainte, signalement, témoins).
 - [IGGN — Plateforme de signalement (gendarmerie)](https://www.gendarmerie.interieur.gouv.fr/contact/reclamation-aupres-de-l-inspection-generale-de-la-gendarmerie-nationale-iggn) - Signalement en ligne du comportement d'un·e gendarme à l'Inspection générale de la gendarmerie. Un signalement n'est pas une plainte.
+- [IGPN — Plateforme de signalement (police nationale)](https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/plateforme-administrative-signalement-inspection-generale-police-nationale-igpn) - Signalement en ligne du comportement d'un·e agent·e de la police nationale à l'IGPN, par une victime ou un témoin. Ce n'est ni une plainte, ni une urgence.
 - [Legal Team Marseille](https://legalteammarseille.nublogs.org/contact/) - Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. Courriel : legalteam-marseille@riseup.net. Tél. : 07 53 05 25 30.
 - [Legal Team Lyon — Caisse de solidarité de Lyon](https://rebellyon.info/+-caissedeso-+) - Collectif antirépression lyonnais, qui fait office de legal team : signaler une interpellation, liste d'avocat·es à désigner en garde à vue, soutien financier. Joignable par Signal ; permanence le premier jeudi du mois. Tél. : 06 43 08 50 32.
 - [CLAJ — Collectif lillois d'autodéfense juridique](https://clajlille.wordpress.com/) - Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net. Tél. : 07 53 65 49 52.
@@ -125,6 +128,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Service-Public — Audition libre](https://www.service-public.gouv.fr/particuliers/vosdroits/F32124) - Fiche officielle : vos droits si vous êtes convoqué·e par la police pour une « audition libre » (partir à tout moment, avocat·e, silence).
 - [Défenseur des droits — Lanceurs d'alerte](https://www.defenseurdesdroits.fr/orienter-et-proteger-les-lanceurs-dalerte-180) - Oriente et protège les lanceurs et lanceuses d'alerte, y compris contre les représailles liées au signalement.
 - [Flagrant déni](https://www.flagrant-deni.fr/) - ONG d'investigation pour les droits des victimes de violences policières : guide juridique « du 17 », enquêtes sur l'impunité et l'indemnisation, mise en lien avec des avocat·es et des collectifs.
+- [Conseil constitutionnel — Les décisions](https://www.conseil-constitutionnel.fr/decisions) - Toutes les décisions du Conseil constitutionnel : pour vérifier ce qu'il a validé ou censuré dans une loi (ex. loi « anticasseurs » de 2019, « sécurité globale » de 2021).
+- [Légifrance](https://www.legifrance.gouv.fr/) - Service public de la diffusion du droit : lois, décrets et jurisprudence. Le texte officiel de référence.
 
 ## Santé & premiers secours
 
@@ -197,6 +202,8 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [La Horde](https://lahorde.samizdat.net/) - Site militant antifasciste qui recense et documente l'activité des groupes d'extrême droite. Contenus engagés, non édités par une rédaction professionnelle.
 - [Désarmons-les](https://desarmons.net/) - Collectif qui recense les blessures graves et mutilations causées par les armes du maintien de l'ordre (LBD, grenades) et accompagne les personnes blessées.
 - [Mutilés pour l'exemple](https://www.politis.fr/articles/2019/06/les-mutiles-pour-lexemple-marchent-et-accusent-40479) - Collectif de personnes mutilées par des armes de maintien de l'ordre (LBD, grenades) pendant le mouvement des gilets jaunes, qui tient un décompte des mutilations et accompagne les blessé·es.
+- [Assemblée nationale — Dossiers législatifs](https://www.assemblee-nationale.fr/dyn/17/dossiers) - Suivre un projet ou une proposition de loi (17e législature) étape par étape : textes, amendements, rapports et comptes rendus.
+- [Sénat — Textes législatifs](https://www.senat.fr/leg/) - Tous les textes législatifs examinés par le Sénat (projets et propositions de loi, textes de commission), avec leur dossier législatif.
 
 ## Médias & vérification
 
@@ -253,6 +260,10 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Greenpeace France — Groupes locaux](https://www.greenpeace.fr/groupes-locaux/) - Rejoindre l'un des groupes locaux de bénévoles et militant·es de Greenpeace en France.
 - [LDH — Observatoires des libertés publiques](https://www.ldh-france.org/wp-content/uploads/2020/10/HL190-Actualit%C3%A9-3.-Les-observatoires-citoyens-d%C3%A9crire-t%C3%A9moigner-d%C3%A9noncer.pdf) - Les observatoires citoyens de la LDH documentent les pratiques policières en manifestation ; les observateur·ices sont formé·es et identifiables (chasubles).
 - [Amnesty — Manifestation : tes droits en action](https://www.amnesty.fr/formations/manifestation-tes-droits-en-action-livret/) - Livret de formation d'Amnesty sur le droit de manifester : connaître ses droits et les faire respecter.
+- [CNCDH — Commission nationale consultative des droits de l'homme](https://www.cncdh.fr/) - Institution nationale indépendante qui conseille le gouvernement et le Parlement : avis et rapports sur les libertés, dont la liberté de manifester (avis de 2025 sur l'espace civique).
+- [ONU Droits de l'homme (HCDH) — page France](https://www.ohchr.org/en/countries/france) - Communiqués des expert·es indépendant·es de l'ONU sur la France, dont le maintien de l'ordre, les violences policières et le droit de manifester (2026). Surtout en anglais.
+- [Conseil de l'Europe — Commissaire aux droits de l'homme](https://www.coe.int/fr/web/commissioner) - Mémorandums et recommandations sur la liberté de réunion et le maintien de l'ordre en France (ex. mémorandum du 26 février 2019 sur les « gilets jaunes »).
+- [Vie publique](https://www.vie-publique.fr/) - Site d'information du service public : fiches et chronologies sur les lois et les institutions, dont la liberté de manifestation et la législation antiterroriste.
 
 ## Réseaux sociaux
 

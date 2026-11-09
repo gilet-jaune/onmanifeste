@@ -102,6 +102,7 @@ plugins:
             Pourquoi nous rejoindre ?: Why join us?
             Comprendre: Understand
             Voies démocratiques bafouées: Democratic channels flouted
+            Sécurité et libertés: Security and freedoms
             Le projet: About
             Relire une information: Review a piece of information
             Annuaire: Directory
@@ -204,6 +205,8 @@ hooks:
   - hooks/guide_images.py
   # "In this situation?" links at the bottom of each guide, from the guided-search data.
   - hooks/related_paths.py
+  # Themes of a guide (guide-themes.json): shown as links under the title, added to the search keywords.
+  - hooks/themes.py
   # Short share links <site>/rejoindre/<profile>/ (before pwa.py hashes the site).
   - hooks/short_links.py
   # Order matters: the CSP is injected before the service worker hashes the final HTML.
@@ -278,6 +281,7 @@ nav:
       - comprendre/index.md
       - Repères historiques: histoire/index.md
       - Voies démocratiques bafouées: confiance/index.md
+      - Sécurité et libertés: securite-libertes/index.md
       - Pourquoi ça casse en manif ?: guides/casse.md
       - Répressions documentées: repressions/index.md
       - Blessé·es et mort·es: victimes/index.md

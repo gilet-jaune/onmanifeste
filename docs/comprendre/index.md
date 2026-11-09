@@ -32,6 +32,14 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
     [:octicons-arrow-right-24: Voir la frise](../confiance/index.md)
 
+- **Sécurité et libertés** [:material-shield-lock-outline:](../securite-libertes/index.md)
+
+    ***
+
+    État d'urgence, loi anticasseurs, caméras algorithmiques, « casseurs-payeurs » : les lois depuis 2015 et ce qu'elles changent pour manifester, avec les avis de l'ONU, du Conseil de l'Europe et de la LDH.
+
+    [:octicons-arrow-right-24: Voir la frise](../securite-libertes/index.md)
+
 - **Répressions et déclarations démenties** [:material-file-document-alert:](../repressions/index.md)
 
     ***

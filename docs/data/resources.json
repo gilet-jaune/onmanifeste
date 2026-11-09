@@ -790,6 +790,22 @@
       }
     },
     {
+      "id": "cnil-cameras-augmentees",
+      "name": "CNIL — Caméras « augmentées » dans les espaces publics (position de 2022)",
+      "url": "https://www.cnil.fr/fr/deploiement-de-cameras-augmentees-dans-les-espaces-publics-la-cnil-publie-sa-position",
+      "category": "securite-numerique",
+      "tags": ["videosurveillance", "droits", "officiel"],
+      "description": {
+        "fr": "Position de la CNIL (19 juillet 2022) sur les caméras dites « augmentées » ou « intelligentes » dans les espaces publics : risques pour les libertés et cadre juridique.",
+        "en": "The data protection authority's position (19 July 2022) on so-called “augmented” or “smart” cameras in public spaces: risks to freedoms and legal framework. In French."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "proofmode",
       "name": "ProofMode",
       "url": "https://proofmode.org/",
@@ -828,6 +844,23 @@
         "date": "2026-10-28",
         "result": "confirmed",
         "by": "ai"
+      }
+    },
+    {
+      "id": "surlefait",
+      "name": "SurLeFait",
+      "url": "https://surlefait.com/a-propos",
+      "category": "documenter",
+      "tags": ["filmer", "preuve", "violences-policieres"],
+      "description": {
+        "fr": "Carte collaborative de vidéos de violences, visages floutés. L'original, daté et géolocalisé, est gardé chiffré et transmissible à un·e avocat·e.",
+        "en": "Collaborative map of videos of violence, faces blurred. The original, dated and geolocated, is kept encrypted and can be passed to a lawyer."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Pages « à propos », « valeurs », FAQ, mentions légales et conditions d'utilisation lues (mises à jour le 19 octobre 2026) : l'original non flouté est conservé chiffré 6 ans et montré seulement, après examen manuel et vérification d'identité, à un·e avocat·e accrédité·e, à la personne concernée ou à l'autorité judiciaire (« Dossier & accès »). Hébergeur netcup (Allemagne), Cloudflare en relais. Reste non confirmé : l'association est déclarée « en cours d'enregistrement » (pas encore de numéro RNA, siège à Paris 8e) ; aucune trace dans l'API publique des entreprises et associations (recherche du 9 novembre 2026, une association sans salarié peut ne pas y figurer) ni mention par un média ou une autre organisation. À revérifier quand le numéro RNA sera publié. Le site ne garantit pas l'admission d'une vidéo en justice."
       }
     },
     {
@@ -1274,6 +1307,22 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "igpn-signalement",
+      "name": "IGPN — Plateforme de signalement (police nationale)",
+      "url": "https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/plateforme-administrative-signalement-inspection-generale-police-nationale-igpn",
+      "category": "juridique",
+      "tags": ["violences-policieres", "plainte", "officiel"],
+      "description": {
+        "fr": "Signalement en ligne du comportement d'un·e agent·e de la police nationale à l'IGPN, par une victime ou un témoin. Ce n'est ni une plainte, ni une urgence.",
+        "en": "Online report of a national police officer's conduct to the police inspectorate (IGPN), by a victim or witness. It is neither a criminal complaint nor an emergency service."
+      },
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1911,6 +1960,38 @@
       ],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "conseil-constitutionnel-decisions",
+      "name": "Conseil constitutionnel — Les décisions",
+      "url": "https://www.conseil-constitutionnel.fr/decisions",
+      "category": "juridique",
+      "tags": ["droits", "loi", "officiel"],
+      "description": {
+        "fr": "Toutes les décisions du Conseil constitutionnel : pour vérifier ce qu'il a validé ou censuré dans une loi (ex. loi « anticasseurs » de 2019, « sécurité globale » de 2021).",
+        "en": "All Constitutional Council decisions: to check what it upheld or struck down in a law (e.g. the 2019 “anti-rioters” law, the 2021 “global security” law). In French."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "legifrance",
+      "name": "Légifrance",
+      "url": "https://www.legifrance.gouv.fr/",
+      "category": "juridique",
+      "tags": ["loi", "droits", "officiel"],
+      "description": {
+        "fr": "Service public de la diffusion du droit : lois, décrets et jurisprudence. Le texte officiel de référence.",
+        "en": "Public legal information service: laws, decrees and case law. The official reference text. In French."
+      },
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3087,6 +3168,38 @@
       }
     },
     {
+      "id": "an-dossiers-legislatifs",
+      "name": "Assemblée nationale — Dossiers législatifs",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers",
+      "category": "information",
+      "tags": ["loi", "officiel", "depute"],
+      "description": {
+        "fr": "Suivre un projet ou une proposition de loi (17e législature) étape par étape : textes, amendements, rapports et comptes rendus.",
+        "en": "Follow a government or private member bill (17th legislature) step by step: texts, amendments, reports and records. In French."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "senat-textes-legislatifs",
+      "name": "Sénat — Textes législatifs",
+      "url": "https://www.senat.fr/leg/",
+      "category": "information",
+      "tags": ["loi", "officiel", "senat"],
+      "description": {
+        "fr": "Tous les textes législatifs examinés par le Sénat (projets et propositions de loi, textes de commission), avec leur dossier législatif.",
+        "en": "All legislative texts examined by the Senate (government and private member bills, committee texts), with their legislative file. In French."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "organic-maps",
       "name": "Organic Maps",
       "url": "https://organicmaps.app/fr/",
@@ -3517,6 +3630,70 @@
       },
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "cncdh",
+      "name": "CNCDH — Commission nationale consultative des droits de l'homme",
+      "url": "https://www.cncdh.fr/",
+      "category": "se-former",
+      "tags": ["institution", "droits", "officiel"],
+      "description": {
+        "fr": "Institution nationale indépendante qui conseille le gouvernement et le Parlement : avis et rapports sur les libertés, dont la liberté de manifester (avis de 2025 sur l'espace civique).",
+        "en": "Independent national institution advising the government and Parliament: opinions and reports on freedoms, including the freedom to demonstrate (2025 opinion on civic space). In French."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "ohchr-france",
+      "name": "ONU Droits de l'homme (HCDH) — page France",
+      "url": "https://www.ohchr.org/en/countries/france",
+      "category": "se-former",
+      "tags": ["onu", "institution", "droits", "violences-policieres"],
+      "description": {
+        "fr": "Communiqués des expert·es indépendant·es de l'ONU sur la France, dont le maintien de l'ordre, les violences policières et le droit de manifester (2026). Surtout en anglais.",
+        "en": "Statements by independent UN experts on France, including policing, police violence and the right to demonstrate (2026)."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "coe-commissaire-droits-homme",
+      "name": "Conseil de l'Europe — Commissaire aux droits de l'homme",
+      "url": "https://www.coe.int/fr/web/commissioner",
+      "category": "se-former",
+      "tags": ["institution", "droits", "officiel"],
+      "description": {
+        "fr": "Mémorandums et recommandations sur la liberté de réunion et le maintien de l'ordre en France (ex. mémorandum du 26 février 2019 sur les « gilets jaunes »).",
+        "en": "Memoranda and recommendations on freedom of assembly and policing in France (e.g. the 26 February 2019 memorandum on the “yellow vests”)."
+      },
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "vie-publique",
+      "name": "Vie publique",
+      "url": "https://www.vie-publique.fr/",
+      "category": "se-former",
+      "tags": ["loi", "institution", "officiel"],
+      "description": {
+        "fr": "Site d'information du service public : fiches et chronologies sur les lois et les institutions, dont la liberté de manifestation et la législation antiterroriste.",
+        "en": "Public-service information site: factsheets and timelines on laws and institutions, including the freedom to demonstrate and counter-terrorism legislation. In French."
+      },
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }

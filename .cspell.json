@@ -27,6 +27,7 @@
     "cacatov",
     "Caulfield",
     "CCAS",
+    "CNCDH",
     "CCFD",
     "CDJM",
     "CICE",
@@ -58,6 +59,7 @@
     "Eurométropole",
     "FAED",
     "FIPECO",
+    "FIPN",
     "Flagrant",
     "FNAEG",
     "Framadate",
@@ -175,7 +177,14 @@
     "Burnshield",
     "Hemoclar",
     "Flector",
-    "Ialuset"
+    "Ialuset",
+    "libertes",
+    "securite",
+    "telescreens",
+    "HCDH",
+    "OHCHR",
+    "Fraisse",
+    "Ciivise"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

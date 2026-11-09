@@ -34,6 +34,18 @@ Ajoutez une entrée dans le tableau `resources` :
 }
 ```
 
+!!! info "Vocabulaire : type d'aide, thème, mot-clé, situation"
+
+    Chaque mot désigne une seule chose ; le code garde ses noms anglais.
+
+    - **Type d'aide** (`category`) : liste fermée de l'annuaire, un seul par ressource (« Aide juridique », « Santé & premiers secours »).
+    - **Thème** : liste fermée des guides (`docs/data/guide-themes.json`), un à trois par guide. Affiché sous le titre du guide, il renvoie au filtre de la page Guides.
+    - **Mot-clé** (`tags`) : mot libre qui sert à retrouver une page ou une ressource. Il n'est jamais présenté comme une classification : dans l'en-tête d'une page, `tags:` est invisible et ne sert qu'à la recherche.
+    - **Situation** : « Je suis… » (annuaire et parcours).
+    - **Type de contenu** : guide, annuaire ou « comprendre », déduit du dossier de la page.
+
+    Un même mot ne désigne jamais deux de ces notions. Dans l'interface, on écrit « thème », « mot-clé » et « type d'aide » : pas « tag », « catégorie » ni « chip ».
+
 Règles :
 
 - `id` et `tags` en minuscules, sans accents, séparés par des tirets (`hors-ligne`).

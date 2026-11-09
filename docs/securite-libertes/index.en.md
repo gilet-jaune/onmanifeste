@@ -1,0 +1,82 @@
+---
+description: 'Security and counter-terrorism laws since 1935 (state of emergency, anti-rioters, algorithmic cameras, "casseurs-payeurs") and what they change for protesting.'
+source_commit: 17f779e68307853af1eb28d4fc7e84e7f4324bbe
+review: juridique
+review_status: pending
+tags:
+    - comprendre
+    - libertés
+    - sécurité
+    - terrorisme
+    - casseur payeur
+    - vidéosurveillance
+---
+
+# Security and freedoms: what the laws change for protesting
+
+The texts governing demonstrations and security are not new: a declaration regime in 1935, the state of emergency in 1955, the "anti-rioters" law in 1970, counter-terrorism legislation since 1986. Since 2015, a series of laws, plans and trials has widened the powers of control, prevention and punishment around demonstrations: the state of emergency, the 2019 "anti-rioters" law, cameras with algorithmic processing, the "casseurs-payeurs" ("rioters pay") bill. Their supporters point to the fight against terrorism and violence; their critics (the UN, the Council of Europe, the CNCDH, the Defender of Rights, the LDH) see a rollback of freedoms. This page does not take sides: it dates each text, says what it changes and reports what the Constitutional Council and these bodies have said about it. Whether a law is "freedom-killing" is a political judgement: we cite who says so rather than asserting it.
+
+!!! abstract "Key points"
+
+    - **Every measure is dated and sourced.** We separate what the law says, what the court upheld or struck down, and what observers criticise.
+    - **The Constitutional Council struck down** the administrative ban on demonstrating (2019), provisions of the "global security" law (2021) and a first extension of algorithmic video surveillance (2025), but **upheld** searches around protests, the face-covering offence and the trial of these cameras.
+    - **In practice**, this affects searches, faces, bans on demonstrating, financial liability, cameras and the use of force: the matching practical guides are linked below.
+
+## Not new: earlier precedents
+
+Every era has had its texts; what changes since 2015 is mostly the pace and the number.
+
+- **1935**: demonstrations enter the law, subject to prior declaration.[^vie-publique-liberte-manifestation]
+- **1955**: the state-of-emergency law, created for the Algerian War, allows among other things bans on demonstrations and house arrests; it will be applied again in 1985, 2005, 2015-2017 and 2024.[^wiki-etat-urgence-france]
+- **1970-1981**: the "anti-rioters" law creates criminal and financial liability that also hits mere demonstrators; its critics call it "freedom-killing", and it is repealed in November 1981.[^wiki-loi-anticasseurs-1970][^universalis-abrogation-anticasseurs-1981] The 2019 law is known by the same nickname.[^wiki-loi-anticasseurs-2019]
+- **1986-2006**: counter-terrorism legislation takes shape: a definition of terrorism and longer police custody (1986), stronger checks and searches (2001), six-day custody and retention of connection data (2006).[^vie-publique-chronologie-antiterroriste]
+- **2016**: during the state of emergency, marches can be banned if the authority cannot ensure their security for lack of resources.[^vie-publique-chronologie-antiterroriste]
+
+## What these texts change, in practice
+
+- **Searches and checks nearby.** Since 2019, on the prosecutor's written order, officers may inspect and search bags and check vehicles around a demonstration; the Constitutional Council upheld this provision.[^cc-2019-780][^wiki-loi-anticasseurs-2019] See [ID checks, bag searches and fines](../guides/controle-fouille.md).
+- **Your face.** Deliberately covering one's face without legitimate reason, around a demonstration where disorder occurs or is likely, is punishable by one year in prison and a €15,000 fine. For the Constitutional Council, the text targets the intent to prevent identification, and covering for a legitimate reason falls outside the offence.[^cc-2019-780] See [Protest kit and outfit](../guides/kit-manif.md) (protecting yourself from gas).
+- **Being banned from demonstrating.** The individual administrative ban was struck down in 2019; a ban ordered by a judge (additional penalty, judicial supervision) remains possible, for up to three years, and breaching it is punishable by one year in prison and a €15,000 fine;[^legifrance-loi-2019-290] these bans are entered in the wanted-persons file.[^wiki-loi-anticasseurs-2019][^cc-2019-780] Under the state of emergency (2015-2017), the authorities could ban gatherings likely to provoke or sustain disorder, in particular demonstrations;[^wiki-etat-urgence-france] the 2017 SILT law ended that ban on demonstrating, while keeping other state-of-emergency measures (protection perimeters, house orders).[^vie-publique-chronologie-antiterroriste] See [The right to protest](../guides/droit-de-manifester.md).
+- **Paying for damage.** Since 2019, the State can take action against those who cause damage during unlawful gatherings, even without a criminal conviction (the "rioter pays" principle).[^legifrance-loi-2019-290][^landot-casseur-payeur-2026] The bill examined by the Senate in October 2026 adds joint liability (capped at €10,000) for anyone who knowingly took part in a violent group, or who kept taking part in an unlawful gathering after warnings while knowing violence was being committed, unless for a legitimate reason; it also provides for seizing social benefits to recover damages.[^senat-pjl-dommages-espace-public-2026] The Interior Minister sees it as a way to deter rioters and better compensate victims; the left and unions denounce it as an attack on the right to demonstrate.[^publicsenat-casseurs-payeurs-2026] See [Dispersal, warnings and kettling](../guides/dispersion.md).
+- **Cameras.** Since 2023, a trial has allowed algorithmic processing of images from video protection or from cameras mounted on aircraft to detect and report certain events. It was extended until 2027 and then, by the Ripost law, until 31 December 2030 and to other places open to the public; that law also creates an urgent procedure for using cameras on drones.[^cc-2023-850][^cc-2026-902][^lcp-loi-jo-2030-2026][^cc-2026-915] Amnesty International France sees a normalisation of surveillance technologies.[^amnesty-vsa-prolongation-2026] The same "casseurs-payeurs" bill, in the Senate committee's text, would also authorise cameras on aircraft, on the prosecutor's order, around demonstrations to prosecute offences.[^senat-pjl-dommages-espace-public-2026] See [Film the police](../guides/filmer.md).
+- **Force and weapons.** The Defender of Rights recommends banning the LBD in policing protests; the 2020 scheme keeps it with a supervisor alongside shooters, and in 2021 the Council of State struck down the possibility of encircling demonstrators for lack of precise conditions.[^ddd-avis-20-08][^ce-snmo-actualite] Article L. 435-1 of the Internal Security Code (2017), which lists the cases in which police may use their weapons, is contested by the LDH.[^ldh-armes-forces-ordre] In 2026, a bill creating a presumption of self-defence for law enforcement was passed by the National Assembly (7 July) and sent to the Senate; the Defender of Rights warns of its risks to the right to life and access to a judge, and a UN special rapporteur asks that it be rejected.[^an-ppl-presomption-legitime-defense][^ddd-avis-26-05-presomption][^ohchr-france-presomption-tirs-2026] See [Police weapons](../guides/armes-police.md).
+- **A chilling effect.** UN experts (2019, 2026) and the CNCDH (2025) consider that restrictions, arrests and threatening rhetoric deter people from demonstrating.[^unric-experts-gilets-jaunes-2019][^cncdh-avis-espace-civique-2025][^ohchr-france-etudiants-2026] If that is you: [afraid, but I want to act](../parcours/index.md?je=peur).
+
+## The example of the health crisis (Covid-19)
+
+A health state of emergency was in force in 2020. The decree of 31 May 2020 banned any gathering of more than ten people on the public road, demonstrations included; on 13 June 2020 the Council of State's urgent-applications judge suspended that ban for demonstrations subject to prior declaration, recalling that any restriction must be necessary, appropriate and proportionate to the public-health aim.[^ce-ordonnance-2020-06-13] On 6 July 2020 it also suspended the authorisation regime and the ban above 5,000 people for declared demonstrations,[^ce-ordonnance-2020-07-06] and on 15 January 2021 the Council of State annulled those provisions of the decree on the merits.[^ce-decision-2021-01-15] On communication, the Senate noted in December 2020 a lack of preparation, a lack of consistency in strategy and a lack of suitable communication, citing the government's wavering on wearing masks among the causes of public incomprehension; it attributes the mask shortage to the 2018 decision by the Director-General of Health not to renew the stock of surgical masks.[^senat-covid-rapport-199-synthese] These are findings of a parliamentary inquiry committee, not a judgement about intentions.
+
+## The timeline
+
+The texts and decisions, in order. Events of other kinds (rights won, repression) were added when they are part of the same thread.
+
+{% import "overrides/partials/history-timeline.html" as h with context %}
+
+{{ h.timeline('en', only=['securite-libertes'], also=['2020-loi-securite-globale', '2026-manifestations-des-17-et-24-octobre']) }}
+
+## What observatories and institutions say
+
+To check for yourself, here are those who publish opinions and reports on these subjects:
+
+- **UN** ({{ res("ohchr-france", "OHCHR France page") }}): rapporteurs and experts mandated by the Human Rights Council have spoken on policing in France in 2019, 2023 and 2026.[^un-news-gilets-jaunes-2019][^politis-onu-2023][^ohchr-france-etudiants-2026][^ohchr-france-presomption-tirs-2026]
+- {{ res("coe-commissaire-droits-homme") }}: in 2019, the human rights commissioner asked for the LBD to be suspended and recommended against an administrative ban on demonstrating and a face-covering offence.[^coe-commissaire-memorandum-2019]
+- {{ res("cncdh", "CNCDH") }} (national consultative human rights commission): opinion on the SILT law (2017), brief on the anti-rioters law (2019), opinion on civic space (2025).[^cncdh-avis-silt-2017][^cncdh-amicus-anticasseurs-2019][^cncdh-avis-espace-civique-2025]
+- {{ res("defenseur-des-droits") }}: opinion on the national policing scheme (2020).[^ddd-avis-20-08]
+- {{ res("ldh") }} and {{ res("ldh-observatoires") }}: observation of demonstrations and police practices, recommendations (2023).[^ldh-onu-2023]
+- {{ res("amnesty-droits-manifestation") }}: protesters' rights. Amnesty International France also publishes on algorithmic video surveillance.[^amnesty-vsa-prolongation-2026]
+- {{ res("la-quadrature-du-net") }}: surveillance and digital technologies.
+
+## A cultural reference: _1984_
+
+Published in 1949, George Orwell's dystopian novel _Nineteen Eighty-Four_ imagines a society where machines called "telescreens" monitor all behaviour and where posters proclaim "Big Brother is watching you"; it deals notably with mass surveillance.[^wiki-1984-roman] A literary reference helps name a worry; it proves nothing. What this page establishes are texts, court decisions and opinions of bodies, with their sources.
+
+## Going further
+
+- [Documented repression](../repressions/index.md) and [historical milestones](../histoire/index.md).
+- To check a text: {{ res("legifrance") }}, {{ res("conseil-constitutionnel-decisions") }}, {{ res("vie-publique") }}. To follow a bill: {{ res("an-dossiers-legislatifs") }}, {{ res("senat-textes-legislatifs") }}. Algorithmic cameras: {{ res("cnil-cameras-augmentees") }}.
+- [Democratic channels flouted](../confiance/index.md).
+- The guides: [the right to protest](../guides/droit-de-manifester.md), [dispersal](../guides/dispersion.md), [police custody](../guides/garde-a-vue.md), [filing a complaint](../guides/suites-judiciaires.md).
+
+## Sources
+
+Each note links to the source of the information. Most sources are in French. Laws change: check the date of the source and, if in doubt, ask a lawyer.

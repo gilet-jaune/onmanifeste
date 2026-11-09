@@ -85,6 +85,18 @@
         "by": "ai"
       }
     },
+    "acteurspublics-participation-2024": {
+      "title": {
+        "fr": "Acteurs publics — 66,63 % de participation au second tour des législatives (7 juillet 2024)",
+        "en": "Acteurs publics — 66.63% turnout in the second round of the legislative elections (7 July 2024; in French)"
+      },
+      "url": "https://acteurspublics.fr/articles/66-63-de-participation/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "afa-probite-stats": {
       "title": {
         "fr": "Agence française anticorruption — Atteintes à la probité dans les décisions de justice, données nationales agrégées 2021-2025 (data.gouv.fr)",
@@ -229,6 +241,18 @@
         "by": "ai"
       }
     },
+    "amnesty-vsa-prolongation-2026": {
+      "title": {
+        "fr": "Amnesty International France — Comment le gouvernement a voulu prolonger la vidéosurveillance algorithmique",
+        "en": "Amnesty International France — How the government sought to extend algorithmic video surveillance (in French)"
+      },
+      "url": "https://www.amnesty.fr/actualites/voici-comment-le-gouvernement-a-prolonge-la-videosurveillance-algorithmique/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "amnesty-zineb-redouane": {
       "title": {
         "fr": "Amnesty International France — Justice pour Zineb Redouane",
@@ -237,6 +261,66 @@
       "url": "https://www.amnesty.fr/petitions/10jps2022-redouane-zineb-france/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-ppl-presomption-legitime-defense": {
+      "title": {
+        "fr": "Assemblée nationale — Dossier législatif : proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l'ordre (n° 691)",
+        "en": "National Assembly — Legislative file: bill to recognise a presumption of self-defence for law enforcement (no. 691; in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/presomption_legitime_defense_forces_ordre",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-qe-16653-gli-f4": {
+      "title": {
+        "fr": "Assemblée nationale — Question écrite n° 16653 « Interdiction des grenades GLI-F4 » et réponse du ministère de l'Intérieur (JO du 16 février 2021)",
+        "en": "National Assembly — Written question no. 16653 “Ban on GLI-F4 grenades” and Interior Ministry answer (Official Journal, 16 February 2021; in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE16653.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-qe-17735-gm2l": {
+      "title": {
+        "fr": "Assemblée nationale — Question écrite n° 17735 et réponse du ministère de l'Intérieur sur le retrait de la GLI-F4 et son remplacement par la GM2L",
+        "en": "National Assembly — Written question no. 17735 and Interior Ministry answer on withdrawing the GLI-F4 and replacing it with the GM2L (in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/15/questions/QANR5L15QE17735.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-rapport-49-3-2024": {
+      "title": {
+        "fr": "Assemblée nationale — Rapport n° 2407 de la commission des lois sur la proposition de loi constitutionnelle pour un article 49 respectueux de la représentation nationale (mars 2024)",
+        "en": "National Assembly — Law Committee report no. 2407 on the constitutional bill for an Article 49 that respects national representation (March 2024, in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/16/rapports/cion_lois/l16b2407_rapport-fond.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-rapport-attentats-2016": {
+      "title": {
+        "fr": "Assemblée nationale — Rapport n° 3922 de la commission d'enquête sur les moyens de l'État contre le terrorisme depuis janvier 2015 (juillet 2016)",
+        "en": "National Assembly — Report no. 3922 of the inquiry into the State's means against terrorism since January 2015 (July 2016, in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/14/pdf/rap-enq/r3922-t1.pdf",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -459,6 +543,114 @@
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137388",
       "check": {
         "date": "2026-11-02",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2021-817": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2021-817 DC du 20 mai 2021 (loi pour une sécurité globale préservant les libertés)",
+        "en": "Constitutional Council — Decision no. 2021-817 DC of 20 May 2021 (“global security” law; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2023-850": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2023-850 DC du 17 mai 2023 (loi relative aux jeux Olympiques et Paralympiques de 2024)",
+        "en": "Constitutional Council — Decision no. 2023-850 DC of 17 May 2023 (2024 Olympic and Paralympic Games law; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023850DC.htm",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2026-915": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2026-915 DC du 14 août 2026 (loi visant à offrir des réponses immédiates aux phénomènes troublant l’ordre public, dite « Ripost »)",
+        "en": "Constitutional Council — Decision no. 2026-915 DC of 14 August 2026 (“Ripost” law on public-order disturbances; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026915DC.htm",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cdj-bachelet-2019": {
+      "title": {
+        "fr": "Club des juristes — Gilets jaunes : l'ONU réclame une enquête suite aux violences en marge des manifestations (8 mars 2019)",
+        "en": "Club des juristes — Yellow vests: the UN calls for an investigation into the violence at protests (8 March 2019; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/archives-cdj/gilets-jaunes-lonu-reclame-une-enquete-suite-aux-violences-en-marge-des-manifestations-2372/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-cop21-assignations": {
+      "title": {
+        "fr": "Conseil d'État — Assignations à résidence prononcées à l'occasion de la COP 21 (état d'urgence)",
+        "en": "Council of State — House arrests ordered during COP 21 under the state of emergency (in French)"
+      },
+      "url": "https://conseil-etat.fr/actualites/assignations-a-residence-prononcees-a-l-occasion-de-la-cop-21-dans-le-cadre-de-l-etat-d-urgence",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cncdh-amicus-anticasseurs-2019": {
+      "title": {
+        "fr": "CNCDH — Mémoire d'amicus curiae au Conseil constitutionnel sur la loi « anticasseurs » (22 mars 2019)",
+        "en": "CNCDH — Amicus curiae brief to the Constitutional Council on the “anti-rioters” law (22 March 2019; in French)"
+      },
+      "url": "https://www.cncdh.fr/sites/default/files/2021-05/2019_03_21_observations_loi_anti-casseurs_vf.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cncdh-avis-espace-civique-2025": {
+      "title": {
+        "fr": "CNCDH — Avis A-2025-7 sur la restriction de l'espace civique : un enjeu majeur pour la démocratie et les droits humains (17 juin 2025)",
+        "en": "CNCDH — Opinion A-2025-7 on the restriction of civic space: a major issue for democracy and human rights (17 June 2025; in French)"
+      },
+      "url": "https://www.cncdh.fr/sites/default/files/2025-06/A%20-%202025%20-%207%20-%20CNCDH%20-%20Avis%20R%C3%A9duction%20de%20l'espace%20civique_0.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cncdh-avis-silt-2017": {
+      "title": {
+        "fr": "CNCDH — Avis sur le projet de loi visant à renforcer la sécurité intérieure et la lutte contre le terrorisme (6 juillet 2017)",
+        "en": "CNCDH — Opinion on the bill strengthening internal security and the fight against terrorism (6 July 2017; in French)"
+      },
+      "url": "https://www.cncdh.fr/publications/avis-sur-le-projet-de-loi-visant-renforcer-la-securite-interieure-et-la-lutte-contre",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "coe-commissaire-memorandum-2019": {
+      "title": {
+        "fr": "Conseil de l'Europe — Maintien de l'ordre et liberté de réunion dans le contexte du mouvement des « gilets jaunes » : recommandations de la Commissaire aux droits de l'homme (26 février 2019)",
+        "en": "Council of Europe — Maintaining public order and freedom of assembly in the context of the yellow vest movement: recommendations by the Commissioner for Human Rights (26 February 2019; in French)"
+      },
+      "url": "https://www.coe.int/fr/web/commissioner/-/maintaining-public-order-and-freedom-of-assembly-in-the-context-of-the-yellow-vest-movement-recommendations-by-the-council-of-europe-commissioner-for-",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1762,6 +1954,30 @@
         "by": "ai"
       }
     },
+    "ddd-avis-20-08": {
+      "title": {
+        "fr": "Défenseure des droits — Avis n° 20-08 du 30 novembre 2020 sur le nouveau schéma national du maintien de l’ordre",
+        "en": "Defender of Rights — Opinion no. 20-08 of 30 November 2020 on the new national policing scheme (in French)"
+      },
+      "url": "https://juridique.defenseurdesdroits.fr/doc_num.php?explnum_id=20299",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ddd-avis-26-05-presomption": {
+      "title": {
+        "fr": "Défenseur des droits — Avis 26-05 sur la proposition de loi visant à reconnaître une présomption de légitime défense pour les forces de l’ordre (26 juin 2026)",
+        "en": "Defender of Rights — Opinion 26-05 on the bill recognising a presumption of self-defence for law enforcement (26 June 2026; in French)"
+      },
+      "url": "https://www.defenseurdesdroits.fr/avis-sur-la-proposition-de-loi-visant-reconnaitre-une-presomption-de-legitime-defense-pour-les-1199",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "ddd-controles-2017": {
       "title": {
         "fr": "Défenseur des droits — Enquête sur l'accès aux droits, vol. 1 : relations police/population (janvier 2017)",
@@ -2146,6 +2362,18 @@
         "by": "ai"
       }
     },
+    "fnms-ripost-promulgation-2026": {
+      "title": {
+        "fr": "FNMS — Vidéosurveillance algorithmique : la loi Ripost promulguée après la réserve du Conseil constitutionnel (1er septembre 2026)",
+        "en": "FNMS — Algorithmic video surveillance: the Ripost law promulgated after the Constitutional Council’s reservation (1 September 2026; in French)"
+      },
+      "url": "https://www.fnms.fr/videosurveillance-algorithmique-la-loi-ripost-promulguee-apres-la-reserve-du-conseil-constitutionnel/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "france-victimes": {
       "title": {
         "fr": "France Victimes — 116 006",
@@ -2361,6 +2589,30 @@
       "url": "https://arxiv.org/abs/2110.11010",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ici-reims-street-medics-2026": {
+      "title": {
+        "fr": "ICI Champagne-Ardenne — « Ça m'a rassuré » : dans les cortèges à Reims, les street medics soignent les manifestants blessés (18 octobre 2026)",
+        "en": "ICI Champagne-Ardenne — “It reassured me”: in the Reims marches, street medics treat injured demonstrators (18 October 2026; in French)"
+      },
+      "url": "https://www.ici.fr/grand-est/marne-51/reims/ca-m-a-rassure-dans-les-corteges-a-reims-les-street-medics-soignent-les-manifestants-blesses-6447029",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ici-strasbourg-street-medics-2026": {
+      "title": {
+        "fr": "ICI Alsace — Bandages, masques, sérum physiologique… Les « street-médics » au chevet des blessés dans les manifestations en Alsace (2026)",
+        "en": "ICI Alsace — Bandages, masks, saline… Street medics at the side of the injured in Alsace protests (2026; in French)"
+      },
+      "url": "https://www.ici.fr/grand-est/alsace-cea/bandages-masques-serums-physiologique-les-street-medics-au-chevet-des-blesses-dans-les-manifestations-4136468",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2587,6 +2839,18 @@
         "by": "ai"
       }
     },
+    "landot-casseur-payeur-2026": {
+      "title": {
+        "fr": "Landot & associés — Survol du projet de loi « réparation des dommages résultant de violences ou de dégradations commises dans l’espace public » (18 septembre 2026)",
+        "en": "Landot & associés — Overview of the “compensation for damage caused by violence or vandalism in public space” bill (18 September 2026; in French)"
+      },
+      "url": "https://blog.landot-avocats.net/2026/09/18/survol-du-projet-de-loi-reparation-des-dommages-resultant-de-violences-ou-de-degradations-commises-dans-lespace-public/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "larousse-17-octobre-1961": {
       "title": {
         "fr": "Larousse — Massacre du 17 octobre 1961",
@@ -2647,6 +2911,18 @@
         "by": "ai"
       }
     },
+    "lcp-loi-jo-2030-2026": {
+      "title": {
+        "fr": "LCP — Vidéosurveillance, environnement, travail : le Conseil constitutionnel donne son feu vert à la loi JO 2030 (19 mars 2026)",
+        "en": "LCP — Video surveillance, environment, work: the Constitutional Council approves the 2030 Olympics law (19 March 2026; in French)"
+      },
+      "url": "https://lcp.fr/actualites/videosurveillance-environnement-travail-le-conseil-constitutionnel-donne-son-feu-vert-a",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "lcp-resolution-17-octobre-2024": {
       "title": {
         "fr": "LCP — L'Assemblée nationale reconnaît et condamne le « massacre des Algériens du 17 octobre 1961 à Paris »",
@@ -2655,6 +2931,30 @@
       "url": "https://lcp.fr/actualites/l-assemblee-nationale-reconnait-et-condamne-le-massacre-des-algeriens-du-17-octobre-1961",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-vsa-transports-2025": {
+      "title": {
+        "fr": "LCP — Sécurité dans les transports : le Conseil constitutionnel censure la prolongation de l'expérimentation de la vidéosurveillance algorithmique (24 avril 2025)",
+        "en": "LCP — Transport security: the Constitutional Council strikes down the extension of the algorithmic video surveillance experiment (24 April 2025; in French)"
+      },
+      "url": "https://lcp.fr/actualites/securite-dans-les-transports-le-conseil-constitutionnel-censure-la-prolongation-de-l",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-armes-forces-ordre": {
+      "title": {
+        "fr": "LDH — Utilisation des armes par les forces de l'ordre (lettre aux parlementaires et préconisations)",
+        "en": "LDH — Use of weapons by law enforcement (letter to MPs and recommendations; in French)"
+      },
+      "url": "https://www.ldh-france.org/utilisation-des-armes-par-les-forces-de-lordre/",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2715,6 +3015,18 @@
       "url": "https://www.ldh-france.org/wp-content/uploads/2020/10/HL190-Actualit%C3%A9-3.-Les-observatoires-citoyens-d%C3%A9crire-t%C3%A9moigner-d%C3%A9noncer.pdf",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-onu-2023": {
+      "title": {
+        "fr": "LDH — « Pour l'ONU, notre maintien de l'ordre fait désordre » (communiqué du 16 juin 2023)",
+        "en": "LDH — “For the UN, our policing is in disorder” (press release of 16 June 2023; in French)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2023/06/CP-LDH-Pour-lONU-notre-maintien-de-lordre-fait-desordre-DEF-1.pdf",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2811,6 +3123,18 @@
       "url": "https://www.lavenir.net/actu/monde/2019/03/29/la-manifestante-septuagenaire-blessee-a-nice-a-bien-ete-poussee-par-un-policier-XPH2ATWJ4RDWBLSFBKXM5C5Z6M/",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "legifrance-loi-2019-290": {
+      "title": {
+        "fr": "Légifrance — Loi n° 2019-290 du 10 avril 2019 visant à renforcer et garantir le maintien de l'ordre public lors des manifestations (texte officiel)",
+        "en": "Légifrance — Law no. 2019-290 of 10 April 2019 strengthening and guaranteeing public order during demonstrations (official text; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038358582",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3061,6 +3385,18 @@
         "by": "ai"
       }
     },
+    "amnesty-gaz-lacrymogene-fiche": {
+      "title": {
+        "fr": "Amnesty International — Armes à létalité réduite : le gaz lacrymogène (fiche hébergée par amnesty.nl)",
+        "en": "Amnesty International — Less-lethal weapons: tear gas (fact sheet hosted by amnesty.nl, in French)"
+      },
+      "url": "https://www.amnesty.nl/content/uploads/2024/03/Le-gaz-lacrymogene-.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "medicaction-gestes": {
       "title": {
         "fr": "Medicaction — Les gestes à adopter en manif (fiche recto-verso, juillet 2024)",
@@ -3141,6 +3477,30 @@
       "url": "https://3114.fr/",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ohchr-france-etudiants-2026": {
+      "title": {
+        "fr": "OHCHR — France: UN experts appalled by crackdown on student protests (28 octobre 2026)",
+        "en": "OHCHR — France: UN experts appalled by crackdown on student protests (28 October 2026)"
+      },
+      "url": "https://www.ohchr.org/en/press-releases/2026/10/france-un-experts-appalled-crackdown-student-protests",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ohchr-france-presomption-tirs-2026": {
+      "title": {
+        "fr": "OHCHR — France: Proposed presumption of lawful police shootings could fuel impunity, UN expert warns (7 juillet 2026)",
+        "en": "OHCHR — France: Proposed presumption of lawful police shootings could fuel impunity, UN expert warns (7 July 2026)"
+      },
+      "url": "https://www.ohchr.org/en/press-releases/2026/07/france-proposed-presumption-lawful-police-shootings-could-fuel-impunity-un",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3292,6 +3652,18 @@
         "by": "ai"
       }
     },
+    "politis-onu-2023": {
+      "title": {
+        "fr": "Politis — L'ONU étrille la France pour son maintien de l'ordre (16 juin 2023)",
+        "en": "Politis — The UN slams France over its policing of protests (16 June 2023; in French)"
+      },
+      "url": "https://www.politis.fr/articles/2023/06/onu-etrille-la-france-pour-son-maintien-de-lordre/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "politis-palestine-2025": {
       "title": {
         "fr": "Politis — La France reconnaît l'État de Palestine mais continue de réprimer ses soutiens",
@@ -3423,6 +3795,18 @@
       "url": "https://www.publicsenat.fr/actualites/politique/les-black-blocs-une-contestation-violente-qui-vise-surtout-les-symboles-85616",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-casseurs-payeurs-2026": {
+      "title": {
+        "fr": "Public Sénat — Projet de loi « casseurs-payeurs » : le Sénat adopte le nouveau régime de responsabilité civile solidaire pour les participants à une manifestation violente (27 octobre 2026)",
+        "en": "Public Sénat — “Casseurs-payeurs” bill: the Senate adopts the new joint civil liability regime for participants in a violent demonstration (27 October 2026; in French)"
+      },
+      "url": "https://www.publicsenat.fr/actualites/parlementaire/projet-de-loi-casseurs-payeurs-le-senat-adopte-le-nouveau-regime-de-responsabilite-civile-solidaire-pour-les-participants-a-une-manifestation-violente",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3691,6 +4075,18 @@
         "by": "ai"
       }
     },
+    "rpp-ric-morel-2019": {
+      "title": {
+        "fr": "Revue Politique et Parlementaire — Benjamin Morel, « Le RIC, droit de suite » (8 août 2019)",
+        "en": "Revue Politique et Parlementaire — Benjamin Morel, “Le RIC, droit de suite” (8 August 2019; in French)"
+      },
+      "url": "https://www.revuepolitique.fr/?p=9077",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "rsf-photographers-checklist": {
       "title": {
         "fr": "RSF — A digital safety checklist for press photographers",
@@ -3759,6 +4155,18 @@
       "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-pjl-dommages-espace-public-2026": {
+      "title": {
+        "fr": "Sénat — Projet de loi relatif à la réparation des dommages résultant de violences ou de dégradations commises dans l'espace public : texte de la commission n° 87 (21 octobre 2026)",
+        "en": "Senate — Bill on compensation for damage caused by violence or vandalism in public space: committee text no. 87 (21 October 2026; in French)"
+      },
+      "url": "https://www.senat.fr/leg/pjl26-087.html",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -4214,7 +4622,7 @@
       },
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31136",
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -4339,6 +4747,18 @@
         "by": "ai"
       }
     },
+    "terranova-vie-republique-2017": {
+      "title": {
+        "fr": "Terra Nova — Jean-Luc Mélenchon, ou la VIe République introuvable (10 avril 2017)",
+        "en": "Terra Nova — Jean-Luc Mélenchon, or the elusive Sixth Republic (10 April 2017; in French)"
+      },
+      "url": "https://tnova.fr/site/assets/files/11818/10042017_-_jean-luc_m_lenchon__ou_la_vie_r_publique_introuvable.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "tiktok-recommandation": {
       "title": {
         "fr": "TikTok — How TikTok recommends videos #ForYou",
@@ -4375,6 +4795,42 @@
         "by": "ai"
       }
     },
+    "un-news-gilets-jaunes-2019": {
+      "title": {
+        "fr": "ONU Info (UN News) — Rights of “gilets jaunes” protesters in France “disproportionately curtailed”, say UN independent experts (14 février 2019)",
+        "en": "UN News — Rights of “gilets jaunes” protesters in France “disproportionately curtailed”, say UN independent experts (14 February 2019)"
+      },
+      "url": "https://news.un.org/en/story/2019/02/1032741",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "universalis-abrogation-anticasseurs-1981": {
+      "title": {
+        "fr": "Encyclopædia Universalis — France. Abrogation de la loi « anticasseurs » (26 novembre 1981)",
+        "en": "Encyclopædia Universalis — France. Repeal of the “anti-rioters” law (26 November 1981; in French)"
+      },
+      "url": "https://www.universalis.fr/evenement/26-novembre-1981-abrogation-de-la-loi-anticasseurs/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "unric-experts-gilets-jaunes-2019": {
+      "title": {
+        "fr": "ONU France (UNRIC) — France : des experts de l’ONU dénoncent des restrictions graves aux droits des manifestants « gilets jaunes » (février 2019)",
+        "en": "UN France (UNRIC) — France: UN experts denounce severe restrictions on “yellow vest” protesters’ rights (February 2019; in French)"
+      },
+      "url": "https://unric.org/fr/france-des-experts-de-lonu-denoncent-des-restrictions-graves-aux-droits-des-manifestants-gilets-jaunes/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "urgence-114": {
       "title": {
         "fr": "Urgence 114 — Numéro d'urgence pour les personnes sourdes et malentendantes",
@@ -4399,6 +4855,18 @@
         "by": "ai"
       }
     },
+    "vie-publique-chronologie-antiterroriste": {
+      "title": {
+        "fr": "Vie publique — Chronologie de la législation antiterroriste depuis les années 1980 (dernière modification : 24 juillet 2024)",
+        "en": "Vie publique — Timeline of counter-terrorism legislation since the 1980s (last modified 24 July 2024; in French)"
+      },
+      "url": "https://www.vie-publique.fr/eclairage/18530-chronologie-de-la-legislation-antiterroriste-1986-2024",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "vie-publique-fraudes": {
       "title": {
         "fr": "Vie publique — Fraude fiscale, fraude sociale : état des lieux",
@@ -4407,6 +4875,18 @@
       "url": "https://www.vie-publique.fr/eclairage/289639-fraude-fiscale-fraude-sociale-etat-des-lieux",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "vie-publique-liberte-manifestation": {
+      "title": {
+        "fr": "Vie publique — En quoi consiste la liberté de manifestation ? (5 janvier 2023)",
+        "en": "Vie publique — What does the freedom to demonstrate consist of? (5 January 2023; in French)"
+      },
+      "url": "https://www.vie-publique.fr/fiches/23886-en-quoi-consiste-la-liberte-de-manifestation",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -4479,6 +4959,18 @@
       "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026_en_France",
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-1984-roman": {
+      "title": {
+        "fr": "Wikipédia — 1984 (roman)",
+        "en": "Wikipedia — Nineteen Eighty-Four (novel; in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/1984_(roman)",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -4591,6 +5083,18 @@
         "by": "ai"
       }
     },
+    "wiki-etat-urgence-france": {
+      "title": {
+        "fr": "Wikipédia — État d'urgence en France",
+        "en": "Wikipedia — State of emergency in France (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tat_d%27urgence_en_France",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-fourmies": {
       "title": {
         "fr": "Wikipédia — Fusillade de Fourmies",
@@ -4663,6 +5167,18 @@
         "by": "ai"
       }
     },
+    "wiki-grenade-of-f1": {
+      "title": {
+        "fr": "Wikipédia — Grenade OF F1",
+        "en": "Wikipedia — OF F1 grenade (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Grenade_OF_F1",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-lbd": {
       "title": {
         "fr": "Wikipédia — Lanceur de balle de défense (LBD 40×46)",
@@ -4687,6 +5203,30 @@
         "by": "ai"
       }
     },
+    "wiki-loi-anticasseurs-1970": {
+      "title": {
+        "fr": "Wikipédia — Loi tendant à réprimer certaines formes nouvelles de délinquance (loi « anticasseurs » de 1970)",
+        "en": "Wikipedia — Law to repress certain new forms of delinquency (the 1970 “anti-rioters” law; in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_tendant_%C3%A0_r%C3%A9primer_certaines_formes_nouvelles_de_d%C3%A9linquance",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-loi-anticasseurs-2019": {
+      "title": {
+        "fr": "Wikipédia — Loi visant à renforcer et garantir le maintien de l'ordre public lors des manifestations (2019)",
+        "en": "Wikipedia — Law strengthening and guaranteeing public order during demonstrations (2019; in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_visant_%C3%A0_renforcer_et_garantir_le_maintien_de_l%27ordre_public_lors_des_manifestations",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "wiki-loi-devaquet": {
       "title": {
         "fr": "Projet de loi Devaquet (Wikipédia)",
@@ -4695,6 +5235,18 @@
       "url": "https://fr.wikipedia.org/wiki/Loi_Devaquet",
       "check": {
         "date": "2026-10-31",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-loi-silt": {
+      "title": {
+        "fr": "Wikipédia — Loi renforçant la sécurité intérieure et la lutte contre le terrorisme (SILT, 2017)",
+        "en": "Wikipedia — Law strengthening internal security and the fight against terrorism (SILT, 2017; in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Loi_renfor%C3%A7ant_la_s%C3%A9curit%C3%A9_int%C3%A9rieure_et_la_lutte_contre_le_terrorisme",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -4815,6 +5367,18 @@
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Steve_Maia_Cani%C3%A7o",
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "wiki-vigipirate": {
+      "title": {
+        "fr": "Wikipédia — Plan Vigipirate",
+        "en": "Wikipedia — Vigipirate plan (in French)"
+      },
+      "url": "https://fr.wikipedia.org/wiki/Plan_Vigipirate",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -4964,7 +5528,7 @@
         "en": "https://www.cnil.fr/fr/taj-comment-exercer-vos-droits"
       },
       "check": {
-        "date": "2026-11-02",
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -5097,6 +5661,18 @@
       "url": "https://medicaction.org/a-propos/",
       "check": {
         "date": "2026-11-05",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "medicaction-protections": {
+      "title": {
+        "fr": "Médic'Action — Les protections (wiki : lunettes, masques, casque, prix indicatifs)",
+        "en": "Médic'Action — Protections (wiki: goggles, masks, helmet, indicative prices; in French)"
+      },
+      "url": "https://medicaction.org/wiki/protections/",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }
@@ -5650,6 +6226,199 @@
       "url": "https://www.vidal.fr/medicaments/flector-1-gel-6841.html",
       "check": {
         "date": "2026-11-07",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-ordonnance-2020-06-13": {
+      "title": {
+        "fr": "Conseil d'État — Ordonnance du 13 juin 2020, nos 440846, 440856, 441015 (interdiction de manifester et état d'urgence sanitaire)",
+        "en": "Council of State — Order of 13 June 2020, nos. 440846, 440856, 441015 (ban on demonstrating and health emergency, in French)"
+      },
+      "url": "https://www.conseil-etat.fr/content/download/156017/document/Ordonnance%20440846-440856-441015.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-covid-rapport-199-synthese": {
+      "title": {
+        "fr": "Sénat — Commission d'enquête sur les grandes pandémies, rapport n° 199 (2020-2021), synthèse « Santé publique : pour un nouveau départ »",
+        "en": "Senate — Inquiry committee on major pandemics, report no. 199 (2020-2021), summary (in French)"
+      },
+      "url": "https://www.senat.fr/rap/r20-199-1/r20-199-1-syn.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-ordonnance-2020-07-06": {
+      "title": {
+        "fr": "Conseil d'État — Ordonnance du 6 juillet 2020, nos 441257, 441263, 441384 (régime d'autorisation des manifestations)",
+        "en": "Council of State — Order of 6 July 2020, nos. 441257, 441263, 441384 (authorisation regime for demonstrations, in French)"
+      },
+      "url": "https://www.conseil-etat.fr/content/download/156260/document/441257-441263-441384%20-%20CGT%20et%20autres%20et%20SOS%20Racisme.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ce-decision-2021-01-15": {
+      "title": {
+        "fr": "Conseil d'État — Décision n° 441265 du 15 janvier 2021 (annulation de l'interdiction de manifester du décret du 31 mai 2020)",
+        "en": "Council of State — Decision no. 441265 of 15 January 2021 (annulment of the ban on demonstrating, in French)"
+      },
+      "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2021-01-15/441265",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "jean-jaures-tf1-jt-2026": {
+      "title": {
+        "fr": "Fondation Jean-Jaurès — Colère lycéenne : TF1, le mauvais élève des JT (Matthieu Deprieck)",
+        "en": "Fondation Jean-Jaurès — High-school anger: TF1, the worst pupil of the TV news (in French)"
+      },
+      "url": "https://www.jean-jaures.org/publication/colere-lyceenne-tf1-le-mauvais-eleve-des-jt/",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "acrimed-lfi-17-octobre-2026": {
+      "title": {
+        "fr": "Acrimed — LFI et le 17 octobre : les médias relaient la propagande d'État",
+        "en": "Acrimed — LFI and 17 October: the media relay state propaganda (media-criticism association, in French)"
+      },
+      "url": "https://www.acrimed.org/LFI-et-le-17-octobre-les-medias-relaient-la",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mediapart-bouc-emissaire-2026": {
+      "title": {
+        "fr": "Mediapart — « On nous demande d'écrire que LFI est derrière le mouvement » : autour du 17 octobre, la fabrique d'un bouc émissaire (19 octobre 2026, article payant, début consulté)",
+        "en": "Mediapart — 'We are asked to write that LFI is behind the movement': around 17 October, the making of a scapegoat (paywalled, opening read, in French)"
+      },
+      "url": "https://www.mediapart.fr/journal/france/191026/nous-demande-d-ecrire-que-lfi-est-derriere-le-mouvement-autour-du-17-octobre-la-fabrique-d-un-bouc-emissai",
+      "check": {
+        "date": "2026-11-09",
+        "result": "unconfirmed",
+        "note": "Article payant : seuls le titre, le chapô et le début sont lisibles ; la consigne rapportée repose sur le témoignage d'un commissaire non nommé et le ministère la dément.",
+        "by": "ai"
+      }
+    },
+    "lcp-lfi-renseignement-dementi-2026": {
+      "title": {
+        "fr": "LCP — LFI accuse le gouvernement de détourner le renseignement contre elle, Lecornu et Nuñez démentent (20 octobre 2026)",
+        "en": "LCP — LFI accuses the government of diverting intelligence against it; Lecornu and Nuñez deny it (in French)"
+      },
+      "url": "https://lcp.fr/actualites/lfi-accuse-le-gouvernement-de-detourner-le-renseignement-contre-elle-lecornu-et-nunez",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ipp-note-107-violences-sexuelles-2024": {
+      "title": {
+        "fr": "Institut des politiques publiques — Note n° 107 (avril 2024), Le traitement judiciaire des violences sexuelles et conjugales en France",
+        "en": "Institute of Public Policies — Note no. 107 (April 2024), The judicial treatment of sexual and domestic violence in France (in French)"
+      },
+      "url": "https://www.ipp.eu/wp-content/uploads/2024/04/Note_IPP_Violences_aux_femmes-5.pdf",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "euronews-epstein-enquete-2019": {
+      "title": {
+        "fr": "Euronews (avec AFP) — Affaire Epstein : une enquête en France (23 août 2019)",
+        "en": "Euronews (with AFP) — Epstein affair: an investigation in France (23 August 2019, in French)"
+      },
+      "url": "https://fr.euronews.com/2019/08/23/affaire-epstein-une-enquete-en-france",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-epstein-parquet-2026": {
+      "title": {
+        "fr": "France 24 — Affaire Epstein : des magistrats enquêtent sur d'éventuelles infractions liées à des Français (14 février 2026)",
+        "en": "France 24 — Epstein affair: magistrates examine possible offences involving French nationals (14 February 2026, in French)"
+      },
+      "url": "https://www.france24.com/fr/france/20260214-affaire-epstein-des-magistrats-enqu%C3%AAtent-sur-d-%C3%A9ventuelles-infractions-li%C3%A9es-%C3%A0-des-fran%C3%A7ais",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-dossier-epstein-2026": {
+      "title": {
+        "fr": "Assemblée nationale — Les implications en France de l'affaire Epstein (proposition de résolution n° 2452, dépôt le 5 février 2026)",
+        "en": "National Assembly — The implications in France of the Epstein affair (draft resolution no. 2452, tabled 5 February 2026, in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/implications_en_France_affaire_Epstein",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-138": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 138 (contrôle judiciaire, dont la remise des documents d'identité)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 138 (judicial supervision, including handing over identity documents; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGIARTI000048447162/2024-06-23",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2026-902": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2026-902 DC du 19 mars 2026 (loi relative à l'organisation des Jeux olympiques et paralympiques de 2030)",
+        "en": "Constitutional Council — Decision no. 2026-902 DC of 19 March 2026 (2030 Olympic and Paralympic Games law; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026902DC.htm",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-230-9": {
+      "title": {
+        "fr": "Légifrance — Code de procédure pénale, art. 230-9 (magistrat référent des fichiers d'antécédents)",
+        "en": "Légifrance — Code of Criminal Procedure, art. 230-9 (lead magistrate for the criminal-records files; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037825598/2026-11-09",
+      "check": {
+        "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "arcom-communique-2026-10-22": {
+      "title": {
+        "fr": "Arcom — Couverture médiatique des manifestations : l'Arcom rappelle aux chaînes leurs obligations (communiqué du 22 octobre 2026)",
+        "en": "Arcom — Media coverage of demonstrations: Arcom reminds channels of their obligations (press release of 22 October 2026; in French)"
+      },
+      "url": "https://www.arcom.fr/presse/couverture-mediatique-des-manifestations-larcom-rappelle-aux-chaines-leurs-obligations",
+      "check": {
+        "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
       }

@@ -33,6 +33,14 @@ Documented files and a selection of independent observatories to understand what
 
     [:octicons-arrow-right-24: See the timeline](../confiance/index.md)
 
+- **Security and freedoms** [:material-shield-lock-outline:](../securite-libertes/index.md)
+
+    ***
+
+    State of emergency, the anti-rioters law, algorithmic cameras, "casseurs-payeurs": the laws since 2015 and what they change for protesting, with opinions from the UN, the Council of Europe and the LDH.
+
+    [:octicons-arrow-right-24: See the timeline](../securite-libertes/index.md)
+
 - **Documented repression and debunked claims** [:material-file-document-alert:](../repressions/index.md)
 
     ***

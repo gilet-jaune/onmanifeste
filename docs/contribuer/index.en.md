@@ -35,6 +35,18 @@ Add an entry to the `resources` array:
 }
 ```
 
+!!! info "Vocabulary: type of help, theme, keyword, situation"
+
+    Each word means one thing; the code keeps its English names.
+
+    - **Type of help** (`category`): the directory's closed list, exactly one per resource ("Legal aid", "Health & first aid").
+    - **Theme**: the guides' closed list (`docs/data/guide-themes.json`), one to three per guide. Shown under a guide's title, it links to the Guides page filter.
+    - **Keyword** (`tags`): a free word used to find a page or a resource. It is never presented as a classification: in a page's front matter, `tags:` is invisible and only feeds the search.
+    - **Situation**: "I am…" (directory and guided search).
+    - **Content type**: guide, directory or "understand", deduced from the page's folder.
+
+    One word never names two of these. In the interface, write "theme", "keyword" and "type of help", not "tag", "category" or "chip".
+
 Rules:
 
 - `id` and `tags` in lowercase, without accents, separated by hyphens (`hors-ligne`).
