@@ -7,6 +7,7 @@ tags:
     - guides
     - health
     - flowchart
+    - tear gas
 search:
     boost: 3
 ---

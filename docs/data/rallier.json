@@ -67,11 +67,212 @@
                 "en": "The right to protest"
               }
             }
+          },
+          {
+            "question": {
+              "fr": "« Le jour d'un attentat, on sera content d'avoir la police. »",
+              "en": "\"The day there's an attack, we'll be glad to have the police.\""
+            },
+            "answer": {
+              "fr": "Oui, et critiquer des pratiques de maintien de l’ordre ne s’y oppose pas : on demande aussi que les policier·ères soient formé·es, équipé·es et responsables de leurs actes.",
+              "en": "Yes, and criticising crowd-policing practices does not contradict that: we also ask that officers be trained, equipped and accountable for their actions."
+            },
+            "link": {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "le-jour-ou-on-aura-besoin-de-la-police",
+                "en": "the-day-we-need-the-police"
+              },
+              "label": {
+                "fr": "Répondre sans opposer",
+                "en": "Answering without setting sides"
+              }
+            }
           }
         ],
         "step": {
           "fr": "Vérifier avant chaque manif s'il existe un arrêté d'interdiction, et soutenir les recours des associations.",
           "en": "Check before each protest whether there is a ban order, and support associations' legal challenges."
+        }
+      },
+      {
+        "id": "electeur",
+        "label": {
+          "fr": "attaché·e au vote et aux institutions",
+          "en": "someone who believes in voting and institutions"
+        },
+        "stakes": [
+          {
+            "text": {
+              "fr": "Un « non » au référendum de 2005, contourné en 2008 sans nouveau vote.",
+              "en": "A \"no\" in the 2005 referendum, bypassed in 2008 without a new vote."
+            },
+            "link": {
+              "page": "confiance",
+              "anchor": {
+                "fr": "evt-2005-le-non-au-referendum-europeen",
+                "en": "evt-2005-le-non-au-referendum-europeen"
+              },
+              "label": {
+                "fr": "Les faits sourcés",
+                "en": "The sourced facts"
+              }
+            }
+          },
+          {
+            "text": {
+              "fr": "Retraites 2023 : une réforme adoptée sans vote de l’Assemblée (49.3) et un référendum refusé.",
+              "en": "Pensions 2023: a reform passed without a vote in the Assembly (49.3) and a referendum refused."
+            },
+            "link": {
+              "page": "confiance",
+              "anchor": {
+                "fr": "evt-2023-retraites-quatorze-journees-de-mobilisation",
+                "en": "evt-2023-retraites-quatorze-journees-de-mobilisation"
+              },
+              "label": {
+                "fr": "Les faits sourcés",
+                "en": "The sourced facts"
+              }
+            }
+          },
+          {
+            "text": {
+              "fr": "Législatives 2024 : la coalition arrivée en tête n’obtient pas Matignon.",
+              "en": "2024 legislative elections: the coalition that came first does not get the premiership."
+            },
+            "link": {
+              "page": "confiance",
+              "anchor": {
+                "fr": "evt-2024-legislatives-2024-la-coalition-arrivee",
+                "en": "evt-2024-legislatives-2024-la-coalition-arrivee"
+              },
+              "label": {
+                "fr": "Les faits sourcés",
+                "en": "The sourced facts"
+              }
+            }
+          },
+          {
+            "text": {
+              "fr": "Au second tour des législatives de 2024, 66,63 % des inscrit·es ont voté : le vote n’est pas déserté, c’est ce qu’il produit qui est en cause.",
+              "en": "In the second round of the 2024 legislative elections, 66.63% of registered voters turned out: voting is not being abandoned, what it produces is what is questioned."
+            },
+            "sources": ["acteurspublics-participation-2024"]
+          },
+          {
+            "text": {
+              "fr": "Le 49.3 est prévu par la Constitution (budget, plus un autre texte par session), mais un rapport de la commission des lois de 2024, sur une proposition du groupe écologiste, y voit une procédure exceptionnelle devenue habituelle pour les textes financiers.",
+              "en": "Article 49.3 is provided for by the Constitution (budget bills, plus one other text per session), but a 2024 Law Committee report, on a bill from the Green group, sees an exceptional procedure that has become routine for finance bills."
+            },
+            "sources": ["wiki-article-49", "an-rapport-49-3-2024"]
+          },
+          {
+            "text": {
+              "fr": "RIC rejeté, référendum sur Aéroports de Paris sans suite, pétition record débattue sans vote : les outils de parole citoyenne n’aboutissent pas.",
+              "en": "Citizens’ initiative referendum rejected, Aéroports de Paris referendum going nowhere, record petition debated without a vote: tools for citizens’ voice do not deliver."
+            },
+            "link": {
+              "page": "confiance",
+              "label": {
+                "fr": "Toute la frise",
+                "en": "The full timeline"
+              }
+            }
+          },
+          {
+            "text": {
+              "fr": "Le référendum d’initiative partagée et les pétitions officielles existent : on peut s’en saisir sans renoncer au vote.",
+              "en": "The shared-initiative referendum and official petitions exist: you can use them without giving up voting."
+            },
+            "link": {
+              "page": "annuaire",
+              "label": {
+                "fr": "Démocratie directe, pétitions, collectifs",
+                "en": "Direct democracy, petitions, groups"
+              }
+            }
+          },
+          {
+            "text": {
+              "fr": "Défendre le vote, c’est aussi défendre ses conditions : le droit de se réunir, de débattre et de s’informer librement. Or les couvre-feux, interdictions de rassemblement et projets de coupure des réseaux sociaux de 2026 les touchent.",
+              "en": "Defending the vote also means defending its conditions: the right to assemble, debate and be informed freely. Yet the 2026 curfews, gathering bans and plans to cut social media affect them."
+            },
+            "link": {
+              "page": "rallier",
+              "anchor": {
+                "fr": "pourquoi-citoyen",
+                "en": "pourquoi-citoyen"
+              },
+              "label": {
+                "fr": "Les faits sourcés",
+                "en": "The sourced facts"
+              }
+            }
+          },
+          {
+            "text": {
+              "fr": "Beaucoup de droits ont été portés dans la rue avant d’être votés : le vote tranche, la mobilisation met les sujets à l’ordre du jour.",
+              "en": "Many rights were carried by the street before being voted: the vote decides, mobilisation puts issues on the agenda."
+            },
+            "link": {
+              "page": "histoire",
+              "anchor": {
+                "fr": "ce-que-la-rue-a-obtenu",
+                "en": "what-the-street-won"
+              },
+              "label": {
+                "fr": "Ce que la rue a obtenu",
+                "en": "What the street won"
+              }
+            }
+          }
+        ],
+        "objections": [
+          {
+            "question": {
+              "fr": "« Si vous n’êtes pas content, votez. »",
+              "en": "\"If you’re not happy, vote.\""
+            },
+            "answer": {
+              "fr": "Voter et manifester ne s’excluent pas : le vote tranche tous les cinq ans, la rue permet de se faire entendre entre deux scrutins, et c’est un droit protégé par la Constitution. Les faits ci-dessus montrent que même un vote ne suffit pas toujours à être entendu.",
+              "en": "Voting and protesting are not mutually exclusive: the vote decides every five years, the street lets you be heard between elections, and it is a right protected by the Constitution. The facts above show that even a vote is not always enough to be heard."
+            },
+            "sources": ["cc-94-352"],
+            "link": {
+              "page": "confiance",
+              "label": {
+                "fr": "Vote ou parole ignorés",
+                "en": "Votes or voices ignored"
+              }
+            }
+          },
+          {
+            "question": {
+              "fr": "« Une nouvelle République, c’est irréaliste. »",
+              "en": "\"A new Republic is unrealistic.\""
+            },
+            "answer": {
+              "fr": "Le sujet est débattu, pas tranché. La constituante, la proportionnelle et le référendum d’initiative citoyenne figurent dans le programme de la France insoumise de 2017, que Terra Nova juge très imprécis. Le politiste Benjamin Morel estime qu’une démocratie directe bien pensée pourrait renforcer la démocratie représentative, mais pas sans repenser l’ensemble des institutions.",
+              "en": "The subject is debated, not settled. A constituent assembly, proportional representation and the citizens’ initiative referendum are in the 2017 programme of La France insoumise, which Terra Nova finds very vague. Political scientist Benjamin Morel argues that well-designed direct democracy could strengthen representative democracy, but not without rethinking the institutions as a whole."
+            },
+            "sources": ["terranova-vie-republique-2017", "rpp-ric-morel-2019"]
+          },
+          {
+            "question": {
+              "fr": "« Manifester, c’est refuser la démocratie. »",
+              "en": "\"Protesting means rejecting democracy.\""
+            },
+            "answer": {
+              "fr": "C’est souvent l’inverse : on se mobilise parce qu’on tient à ce que le vote et la parole des citoyen·nes soient respectés. Défendre le droit de manifester, c’est défendre une liberté que la démocratie garantit.",
+              "en": "It is often the opposite: people mobilise because they want citizens’ votes and voices to be respected. Defending the right to protest means defending a freedom that democracy guarantees."
+            },
+            "sources": ["cc-94-352"]
+          }
+        ],
+        "step": {
+          "fr": "Continuer à voter, et y ajouter une action entre deux scrutins : signer une pétition, soutenir un référendum d’initiative partagée, venir à un rassemblement calme.",
+          "en": "Keep voting, and add an action between elections: sign a petition, back a shared-initiative referendum, come to a calm rally."
         }
       },
       {
@@ -163,6 +364,27 @@
                 "en": "Yellow vests (history)"
               }
             }
+          },
+          {
+            "question": {
+              "fr": "« Le jour d'un attentat, on sera content d'avoir la police. »",
+              "en": "\"The day there's an attack, we'll be glad to have the police.\""
+            },
+            "answer": {
+              "fr": "Oui, et critiquer des pratiques de maintien de l’ordre ne s’y oppose pas : on demande aussi que les policier·ères soient formé·es, équipé·es et responsables de leurs actes.",
+              "en": "Yes, and criticising crowd-policing practices does not contradict that: we also ask that officers be trained, equipped and accountable for their actions."
+            },
+            "link": {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "le-jour-ou-on-aura-besoin-de-la-police",
+                "en": "the-day-we-need-the-police"
+              },
+              "label": {
+                "fr": "Répondre sans opposer",
+                "en": "Answering without setting sides"
+              }
+            }
           }
         ],
         "step": {
@@ -221,6 +443,27 @@
               "label": {
                 "fr": "Accueillir à la sortie d'une garde à vue",
                 "en": "Welcoming someone out of custody"
+              }
+            }
+          },
+          {
+            "question": {
+              "fr": "« Le jour d'un attentat, on sera content d'avoir la police. »",
+              "en": "\"The day there's an attack, we'll be glad to have the police.\""
+            },
+            "answer": {
+              "fr": "Oui, et critiquer des pratiques de maintien de l’ordre ne s’y oppose pas : on demande aussi que les policier·ères soient formé·es, équipé·es et responsables de leurs actes.",
+              "en": "Yes, and criticising crowd-policing practices does not contradict that: we also ask that officers be trained, equipped and accountable for their actions."
+            },
+            "link": {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "le-jour-ou-on-aura-besoin-de-la-police",
+                "en": "the-day-we-need-the-police"
+              },
+              "label": {
+                "fr": "Répondre sans opposer",
+                "en": "Answering without setting sides"
               }
             }
           }
@@ -313,6 +556,27 @@
                 "en": "Duty of discretion and neutrality"
               }
             }
+          },
+          {
+            "question": {
+              "fr": "« Le jour d'un attentat, on sera content d'avoir la police. »",
+              "en": "\"The day there's an attack, we'll be glad to have the police.\""
+            },
+            "answer": {
+              "fr": "Oui, et critiquer des pratiques de maintien de l’ordre ne s’y oppose pas : on demande aussi que les policier·ères soient formé·es, équipé·es et responsables de leurs actes.",
+              "en": "Yes, and criticising crowd-policing practices does not contradict that: we also ask that officers be trained, equipped and accountable for their actions."
+            },
+            "link": {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "le-jour-ou-on-aura-besoin-de-la-police",
+                "en": "the-day-we-need-the-police"
+              },
+              "label": {
+                "fr": "Répondre sans opposer",
+                "en": "Answering without setting sides"
+              }
+            }
           }
         ],
         "step": {
@@ -361,6 +625,27 @@
               "label": {
                 "fr": "Si votre enfant est interpellé·e",
                 "en": "If your child is arrested"
+              }
+            }
+          },
+          {
+            "question": {
+              "fr": "« Le jour d'un attentat, on sera content d'avoir la police. »",
+              "en": "\"The day there's an attack, we'll be glad to have the police.\""
+            },
+            "answer": {
+              "fr": "Oui, et critiquer des pratiques de maintien de l’ordre ne s’y oppose pas : on demande aussi que les policier·ères soient formé·es, équipé·es et responsables de leurs actes.",
+              "en": "Yes, and criticising crowd-policing practices does not contradict that: we also ask that officers be trained, equipped and accountable for their actions."
+            },
+            "link": {
+              "guide": "convaincre-ses-proches",
+              "anchor": {
+                "fr": "le-jour-ou-on-aura-besoin-de-la-police",
+                "en": "the-day-we-need-the-police"
+              },
+              "label": {
+                "fr": "Répondre sans opposer",
+                "en": "Answering without setting sides"
               }
             }
           }

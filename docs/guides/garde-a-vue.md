@@ -93,6 +93,7 @@ Les phrases à dire **mot pour mot** : « Je veux voir un avocat. » · « Je ve
 
 - Notez **à chaud** ce qui s'est passé : heures, lieux, propos, noms ou matricules, conditions de détention.
 - Gardez **tous les documents** remis (convocation, rappel à la loi, notification de comparution).
+- **Vos affaires et papiers** : les textes que nous avons lus (article 63-5 du Code de procédure pénale) n'imposent que des mesures de sécurité strictement nécessaires et ne détaillent ni inventaire ni restitution des objets. Conseil pratique, pas une règle de droit : avant de partir, vérifiez que tout vous est rendu (pièce d'identité, téléphone, clés), demandez que ce qui est gardé soit listé par écrit, et signalez toute disparition à une legal team ou à un·e avocat·e ; un retrait abusif peut être signalé au {{ res("defenseur-des-droits") }}.[^cpp-63-5]
 - **Comparution immédiate** : vous pouvez demander un **délai** pour préparer votre défense.[^sp-ci]
 - Contactez une **legal team** ou un collectif antirépression local ({{ res("rajcol", "liste des collectifs locaux") }}) pour le suivi, et une **caisse de solidarité** pour les frais.[^legal-team]
 - Frais d'avocat : vous pouvez avoir droit à l'{{ res("sp-aide-juridictionnelle", "aide juridictionnelle") }} selon vos ressources.[^sp-aj]

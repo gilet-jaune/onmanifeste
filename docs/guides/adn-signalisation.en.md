@@ -57,7 +57,7 @@ The **TAJ** (_traitement d'antécédents judiciaires_, criminal records processi
 - The TAJ is fed by data collected **during investigations** (preliminary, flagrante delicto, letters rogatory) for **any crime or offence**, and for some fifth-class contraventions.[^cpp-230-6] The article does not tie registration to the photo: the procedure data is enough, so refusing to be photographed does not guarantee you will not be registered.
 - The prosecutor oversees the file. At your request, they can order **erasure**, **rectification** or a **note**, and must answer within **2 months**.[^cpp-230-8] After a **final acquittal**, the data is **erased**, unless the prosecutor orders it kept; after a **dismissal or a case closed without action**, it carries a **note** (so it can no longer be consulted for administrative inquiries), unless erasure is ordered.[^cpp-230-8] A refusal can be challenged before the president of the investigating chamber.[^cpp-230-8]
 
-- **What the Constitutional Council said (27 October 2017).** The file lists **everyone investigated** for a crime, an offence or certain fifth-class contraventions. It can hold a **photograph suitable for facial recognition**, and its data could then be kept **from five to forty years**, and also be consulted for administrative inquiries. The Council struck down the rule that denied any erasure to people investigated other than those acquitted, or benefiting from a dismissal or a case closed without action, as a **disproportionate infringement of privacy**.[^cc-2017-670] Current retention periods are not verified here: ask your lawyer.
+- **What the Constitutional Council said (27 October 2017).** The file lists **everyone investigated** for a crime, an offence or certain fifth-class contraventions. It can hold a **photograph suitable for facial recognition**, and its data could then be kept **from five to forty years**, and also be consulted for administrative inquiries. The Council struck down the rule that denied any erasure to people investigated other than those acquitted, or benefiting from a dismissal or a case closed without action, as a **disproportionate infringement of privacy**.[^cc-2017-670] Current retention periods are in the section below.
 
 - **What the European Court of Human Rights said (18 September 2014).** In _Brunet v. France_, about the STIC file (the TAJ's predecessor), it unanimously held that France violated the right to respect for private life (Article 8). The applicant, whose case had been closed without action after a criminal mediation, had **no real possibility of asking for erasure** of his data. A twenty-year retention period was, in that case, "assimilable" to indefinite retention.[^cedh-brunet]
 
@@ -70,6 +70,19 @@ Some activists refuse signalisation and DNA **so as not to contribute to registr
 - **Your situation matters**: a record, being a minor, a foreign or precarious person do not carry the same risks.
 
 Decide **with your lawyer**, not in the cell.
+
+## Checking what the TAJ holds after police custody
+
+After police custody you may appear in the TAJ as a person investigated, even without prosecution. The CNIL describes the steps; ideally take them with a lawyer.[^cnil-taj-droits]
+
+1. **Ask for access (do this first).** Write to the Ministry of the Interior (place Beauvau, 75008 Paris) stating that the request concerns the TAJ file, with a double-sided copy of your ID. Registered post is not mandatory but preferable. You will learn whether the cases in which you are investigated appear, for how long and for what purpose. The ministry has **2 months** to answer; access may be restricted so as not to hinder a procedure, and no answer after 2 months counts as a restriction. In that case, refer the matter to the CNIL (indirect access) with your ID, your request and any reply.[^cnil-taj-droits]
+2. **Ask for rectification if data is inaccurate.** If the facts have been **reclassified in law**, rectification cannot be refused. Send the request by registered post to the **public prosecutor** where the events took place (or, if several departments are involved, to the **TAJ lead magistrate** at the Paris prosecutor general's office), or to the Ministry of the Interior; this magistrate may act on their own initiative or on request, has the same powers as the prosecutor, and rules within 2 months.[^cpp-230-9] Attach favourable decisions (acquittal, dismissal, case closed).[^cnil-taj-droits]
+3. **Ask for erasure** if you benefited from an acquittal, a dismissal, a case closed without action, or a conviction with exemption from penalty or from entry in the criminal record. After an acquittal, the prosecutor may refuse and keep the data with a **mention** of the decision.[^cnil-taj-droits]
+4. **No answer from the prosecutor, or a refusal**: you have **1 month** to appeal to the president of the investigating chamber (the Paris court of appeal's if you wrote to the lead magistrate).[^cnil-taj-droits]
+
+**Retention periods** (general rule): 20 years for adults, with exceptions from 5 years (certain offences and minor offences) to 40 years (certain crimes and offences); 5 years for minors, up to 10 or 20 years for certain offences; 15 years for victims. If you are registered for old offences and commit a new one, the new offence's period applies to all.[^cnil-taj-droits]
+
+**Why check**: the TAJ is consulted for administrative inquiries, notably for private-security professional cards, certain public jobs or jobs linked to security and defence, SNCF, RATP, customs, or naturalisation. Favourable outcomes (case closed, acquittal, exemption from entry) are then not viewable.[^cnil-taj-droits] A TAJ entry is not a criminal record.
 
 ## Asking for erasure
 

@@ -501,6 +501,59 @@
           ]
         },
         {
+          "id": "gaz",
+          "label": {
+            "fr": "me protéger du gaz lacrymogène",
+            "en": "protect myself from tear gas"
+          },
+          "results": [
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "protection",
+                "en": "protection"
+              },
+              "label": {
+                "fr": "Masques et lunettes : lesquels protègent vraiment",
+                "en": "Masks and goggles: which ones really protect"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "petit-budget-et-entraide",
+                "en": "low-budget-and-mutual-aid"
+              },
+              "label": {
+                "fr": "Petit budget : protections et entraide en cortège",
+                "en": "Low budget: protection and mutual aid in the march"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "gaz-lacrymogene",
+                "en": "tear-gas"
+              },
+              "label": {
+                "fr": "Gaz lacrymogène : les gestes tout de suite",
+                "en": "Tear gas: what to do right away"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "reconnaitre-les-sommations",
+                "en": "recognising-the-warnings"
+              },
+              "label": {
+                "fr": "Reconnaître les sommations et partir à temps",
+                "en": "Recognise the warnings and leave in time"
+              }
+            }
+          ]
+        },
+        {
           "id": "grossesse",
           "label": {
             "fr": "je suis enceinte",
@@ -1513,6 +1566,59 @@
               "label": {
                 "fr": "Pourquoi ça casse en manif ?",
                 "en": "Why do protests turn to property damage?"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gaz",
+          "label": {
+            "fr": "me protéger du gaz lacrymogène",
+            "en": "protect myself from tear gas"
+          },
+          "results": [
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "protection",
+                "en": "protection"
+              },
+              "label": {
+                "fr": "Masques et lunettes : lesquels protègent vraiment",
+                "en": "Masks and goggles: which ones really protect"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "petit-budget-et-entraide",
+                "en": "low-budget-and-mutual-aid"
+              },
+              "label": {
+                "fr": "Petit budget : protections et entraide en cortège",
+                "en": "Low budget: protection and mutual aid in the march"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "gaz-lacrymogene",
+                "en": "tear-gas"
+              },
+              "label": {
+                "fr": "Gaz lacrymogène : les gestes tout de suite",
+                "en": "Tear gas: what to do right away"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "reconnaitre-les-sommations",
+                "en": "recognising-the-warnings"
+              },
+              "label": {
+                "fr": "Reconnaître les sommations et partir à temps",
+                "en": "Recognise the warnings and leave in time"
               }
             }
           ]
@@ -4690,6 +4796,59 @@
               "label": {
                 "fr": "Mes droits si je suis arrêté·e",
                 "en": "My rights if arrested"
+              }
+            }
+          ]
+        },
+        {
+          "id": "gaz",
+          "label": {
+            "fr": "me protéger du gaz lacrymogène",
+            "en": "protect myself from tear gas"
+          },
+          "results": [
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "protection",
+                "en": "protection"
+              },
+              "label": {
+                "fr": "Masques et lunettes : lesquels protègent vraiment",
+                "en": "Masks and goggles: which ones really protect"
+              }
+            },
+            {
+              "guide": "kit-manif",
+              "anchor": {
+                "fr": "petit-budget-et-entraide",
+                "en": "low-budget-and-mutual-aid"
+              },
+              "label": {
+                "fr": "Petit budget : protections et entraide en cortège",
+                "en": "Low budget: protection and mutual aid in the march"
+              }
+            },
+            {
+              "guide": "premiers-secours",
+              "anchor": {
+                "fr": "gaz-lacrymogene",
+                "en": "tear-gas"
+              },
+              "label": {
+                "fr": "Gaz lacrymogène : les gestes tout de suite",
+                "en": "Tear gas: what to do right away"
+              }
+            },
+            {
+              "guide": "dispersion",
+              "anchor": {
+                "fr": "reconnaitre-les-sommations",
+                "en": "recognising-the-warnings"
+              },
+              "label": {
+                "fr": "Reconnaître les sommations et partir à temps",
+                "en": "Recognise the warnings and leave in time"
               }
             }
           ]

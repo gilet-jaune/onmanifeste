@@ -55,6 +55,17 @@ Aucun texte n'interdit de porter des protections tant qu'elles ne dissimulent pa
 - **Que faire sur place.** Restez calme et ne résistez pas physiquement. Vous pouvez demander s'il existe des **réquisitions écrites du procureur**, mais vous ne pourrez pas toujours le savoir sur le moment. **Demandez le procès-verbal** et la liste de ce qui est pris. Notez l'heure, le lieu, le type d'agent (seul ou accompagné) et le matricule, et photographiez ou filmez si possible : une confiscation peut être contestée, mais il faut des preuves (témoignages, vidéos).[^ldh-fiche-manif-2026] Ensuite, parlez-en à une legal team ou à un·e avocat·e ([voir « Porter plainte, audition libre et procès »](suites-judiciaires.md)).
 - **Conseils pratiques** (ce ne sont pas des règles de droit) : privilégiez des protections **discrètes, sous les vêtements**, n'ayez sur vous **rien qui puisse passer pour une arme** ([voir « Kit et tenue de manif »](kit-manif.md)), et emportez le sérum en **dosettes** plutôt qu'en flacon, rangées avec les soins dans une trousse, pour montrer qu'il s'agit d'un usage médical.
 
+## Peut-on vous confisquer votre pièce d'identité ?
+
+Le texte lu ne prévoit la remise d'un papier d'identité que dans quelques cas précis :
+
+- **Pendant le contrôle** : vous pouvez prouver votre identité **par tous moyens** (carte, passeport, permis, mais aussi acte de naissance, carte d'étudiant·e, ou le témoignage d'une personne qui vous accompagne). Si vous ne pouvez pas ou refusez de le faire, vous pouvez être **retenu·e** pour une vérification d'identité, **4 heures au plus**, avec le droit de faire prévenir le procureur et une personne de votre choix, et une copie du procès-verbal vous est remise à la fin.[^sp-controle][^cpp-78-3]
+- **Relevé d'identité** (agents de police municipale, douanes, SNCF, RATP…) : on vous demande de justifier de votre identité pour établir un procès-verbal. Si vous refusez, l'agent doit prévenir un OPJ ; s'il est injoignable, l'agent **n'a pas le droit de vous retenir**.[^sp-controle]
+- **Personnes étrangères** sans document de séjour : conduites dans un local de police pour une vérification de leur droit au séjour.[^sp-controle]
+- **Contrôle judiciaire** (décidé par un juge d'instruction ou un juge des libertés et de la détention, jamais par un agent sur la voie publique) : le juge peut exiger de **remettre au greffe, à la police ou à la gendarmerie** tous les documents d'identité, notamment le passeport, **contre un récépissé qui vaut justification d'identité**.[^cpp-138]
+
+Nous n'avons trouvé aucun texte autorisant à garder votre carte d'identité au-delà d'un de ces cas, ni service public qui l'explique. Si un agent la conserve : **demandez un récépissé ou un procès-verbal** qui le mentionne, notez l'heure, le lieu et le matricule, et réclamez-la ; sans réponse, parlez-en à une legal team ou à un·e avocat·e, et signalez les faits au {{ res("defenseur-des-droits") }} ou à l'{{ res("igpn-signalement", "IGPN") }}. Pour refaire ses papiers en attendant, voir la démarche de déclaration de perte sur Service-Public. Pour vos effets et vos papiers pendant une garde à vue, voir [Garde à vue, à la sortie](garde-a-vue.md#a-la-sortie).
+
 ## Amende sur place (135 €) : ne payez pas tout de suite
 
 En manifestation, la police verbalise parfois par amende forfaitaire (notamment **135 €** pour participation à une manifestation interdite par arrêté préfectoral) :[^amnesty-droits][^sp-amende]

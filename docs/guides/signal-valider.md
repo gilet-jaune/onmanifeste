@@ -80,7 +80,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 
     <div class="flow" markdown>
 
-    **La voie ouverte**
+    **[La voie ouverte](#recruter-a-porte-ouverte-les-voir-agir)**
 
     1. **Groupe public**
     2. **Groupe sas** : rencontre, puis rendez-vous à une action d'autres
@@ -91,7 +91,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 
     <div class="flow" markdown>
 
-    **La cooptation**
+    **[La cooptation](#recruter-par-cooptation-un-membre-verifie-propose)**
 
     1. **Un membre vérifié propose** quelqu'un qu'il connaît
     2. **Rencontre avec un·e secrétaire**, en tête-à-tête ou sur place
@@ -104,7 +104,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 
 === "Tableau"
 
-    | Porte | **La voie ouverte** | **La cooptation** |
+    | Porte | **[La voie ouverte](#recruter-a-porte-ouverte-les-voir-agir)** | **[La cooptation](#recruter-par-cooptation-un-membre-verifie-propose)** |
     | --- | --- | --- |
     | **Pour qui** | Une personne que personne ne connaît encore | Une personne qu'un membre vérifié connaît déjà (ami·e, collègue, syndicat, vue agir sur plusieurs actions) |
     | **Par où** | Groupe public, puis groupe sas et rencontre | Le membre vérifié la **propose** directement à un·e secrétaire, sans passer par le groupe public ni le groupe sas |

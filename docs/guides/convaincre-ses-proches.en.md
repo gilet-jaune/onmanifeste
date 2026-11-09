@@ -26,6 +26,8 @@ Sourced arguments depending on the person (woman, retiree, teacher, small busine
     - Sending a link: [links to share](#links-to-share).
     - Verified figures: [orders of magnitude](#where-to-find-verified-orders-of-magnitude).
     - The "rioters" debate: [stepping out of the media trap](#stepping-out-of-the-media-trap-over-rioters).
+    - Someone who believes in voting: [don't set it against the street](#facing-someone-who-believes-in-voting).
+    - "The day we need the police…": [answering without setting sides](#the-day-we-need-the-police).
 
 ## Before
 
@@ -55,10 +57,34 @@ Sourced arguments depending on the person (woman, retiree, teacher, small busine
 
 ## Stepping out of the media trap over "rioters"
 
-- **Don't get trapped in a "for or against property damage" debate** or in pitting working-class neighbourhoods against small towns and rural areas: in October 2026, France's broadcast regulator Arcom called on TV and radio channels to exercise "the utmost vigilance", as their airtime devoted to violence was seen as disproportionate ([why property gets smashed at protests](casse.md)).[^wiki-17-octobre-2026]
+- **Don't get trapped in a "for or against property damage" debate** or in pitting working-class neighbourhoods against small towns and rural areas: in October 2026, France's broadcast regulator Arcom called on TV and radio channels to exercise "the utmost vigilance" and a "rigorous and balanced" treatment, especially when information may provoke fear, and opened proceedings on several broadcast sequences.[^arcom-communique-2026-10-22] Viewers and journalists' societies judged the airtime devoted to violence disproportionate ([why property gets smashed at protests](casse.md)).[^wiki-17-octobre-2026] On the evening news of 28 September to 8 October 2026, the Fondation Jean-Jaurès found sharp differences: M6 and France 2 ran an item on the students' demands on 1 and 2 October, TF1 its first on 7 October.[^jean-jaures-tf1-jt-2026] The media-criticism association Acrimed argues that most major outlets relayed without distance the account that LFI was responsible for the 17 October disorder, while, according to Mediapart, an intelligence commissioner says they were instructed to target that party; the Interior Minister and the Prime Minister deny it. This is an unnamed testimony and a denial, not an established fact.[^acrimed-lfi-17-octobre-2026][^mediapart-bouc-emissaire-2026][^lcp-lfi-renseignement-dementi-2026]
 - **Start from shared material interests**: fuel and grocery prices, wages, pensions, the state of schools and hospitals. Ask what concretely weighs on their daily life.
 - **Show what the security crackdown changes for everyone**: curfews, blanket protest bans, plans to shut down social media or algorithmic video surveillance end up applying to every cause.[^amnesty-surenchere-2026][^amnesty-7-signes-2026][^blast-coupure-reseaux-2026]
 - **Offer calm, accessible local ways to act**: if someone is afraid of tense city-centre marches, invite them to stop by a friendly roundabout or local market for a chat, put a yellow vest on their dashboard, or contribute to a strike fund ([organising locally](organiser.md#organising-locally-beyond-city-centres)).
+
+## Facing someone who believes in voting
+
+Don't say "voting is pointless": the person would hear contempt for their convictions and shut down. Start from what they already defend, democracy.
+
+- **Don't set it against voting**: "Keep voting, and let's add something else between elections." Protesting is a right guaranteed by the Constitution, not an alternative to the ballot.
+- **Ask what should happen when a vote isn't respected** rather than hammering a conclusion.
+- **Rely on dated, sourced facts**, not on "we're ignored": the timeline [Democratic channels flouted](../confiance/index.md) and the profile [someone who believes in voting](../rallier/index.md#pourquoi-electeur).
+- **If you bring up a new Republic**, present it as an open debate, not a dogma: the proposals (constituent assembly, proportional representation, citizens' initiative referendum) are discussed and criticised, including by specialists (sourced answer in the [profile](../rallier/index.md#pourquoi-electeur)).
+- **Offer a small step that respects their convictions**: sign a petition, back a shared-initiative referendum, come to a calm rally.
+
+## "The day we need the police…"
+
+The typical objection after an attack: "Criticise them all you like, the day there's an attack you'll be glad they're there." Don't dispute it: **it is fair**. Show that criticising crowd policing does not contradict it.
+
+- **Start by agreeing**: facing an attack, we want trained, equipped and protected police and gendarmes. Criticising a flash-ball launcher (LBD) or kettling does not mean wanting them not to intervene.
+- **These are not the same jobs.** Facing a mass shooting, the response relies on specialised units (BRI, RAID, GIGN, coordinated by the FIPN), backed by the first officers on the scene. Policing a demonstration is a different skill. Saying you challenge a **practice**, not a **person**, is fairer and more convincing than "the cops".
+- **Don't say "those who maim would never be sent".** That is false: on 13 November 2015, the first officers into the Bataclan were night-shift BAC (anti-crime brigade) officers, arriving 11 minutes after the attack began, before the elite units. Everyday police units like these also work at demonstrations, and there is no clean line between "those who injure" and "those who protect".[^an-rapport-attentats-2016]
+- **Turn the argument toward resources.** The parliamentary inquiry found that these first officers lacked the equipment to face heavily armed terrorists, and that BAC training and weaponry were strengthened afterwards.[^an-rapport-attentats-2016] Ask: "If we want them ready on the day, what is better to fund: training hours and protective gear, or crowd-control grenades?"
+- **Talk about exhaustion, not blame.** Officers worn out by months of demonstrations are less available and less clear-headed in a crisis: defending their working conditions and de-escalation also protects them (sourced figures: [police officer profile](../rallier/index.md#pourquoi-policier)).
+- **Acknowledge what deserves it.** The medical responders heard by the inquiry praised "extraordinary" officers who shielded them.[^an-rapport-attentats-2016] Saying "thank you to those who ran toward danger" takes nothing away from the demand that weapons and demonstration tactics be regulated ([police weapons](armes-police.md)).
+- **Ask rather than answer**: "You want them to be the ones who protect us? Then we want the same things: that they be trained, respected and accountable for their actions."
+
+To talk to a police officer or gendarme: [Why join us?](../rallier/index.md).
 
 ## Links to share
 

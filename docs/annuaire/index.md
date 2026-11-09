@@ -10,7 +10,7 @@ image_alt: ''
 
 # Annuaire des ressources
 
-Recherchez un outil par nom, description ou étiquette, puis affinez avec la catégorie et les tags. Le filtre est conservé dans l'URL : vous pouvez partager une recherche.
+Recherchez un outil par nom, description ou mot-clé, puis affinez avec le type d'aide et les mots-clés. Le filtre est conservé dans l'URL : vous pouvez partager une recherche.
 
 {% import "overrides/partials/resource-cards.html" as rc with context %}
 

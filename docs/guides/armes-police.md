@@ -8,6 +8,8 @@ tags:
     - droits
     - répression
     - schéma
+    - LBD
+    - grenades
 ---
 
 # Armes de la police : effets, blessures et débris
@@ -64,6 +66,11 @@ Les forces de l'ordre emploient des armes dites de « force intermédiaire » et
 | **GM2L** (« Effets combinés » : lacrymogène + assourdissante)[^wiki-gm2l][^desarmons-grenades-2024][^publicsenat-gli-f4-retrait] | Tirée au lanceur **Cougar 56 mm** (remplace la GLI-F4) : **forte explosion** (~160 dB à 10 m), nuage de **gaz lacrymogène CS** (15 g de poudre)[^mdo-gm2l] et projection de **débris rouges/orangés** | **Polycriblage**, **plaies délabrantes**, hémorragies, **mutilations** (main, pied, visage), avec **forte probabilité de corps étrangers visibles ou non** (plastique radiotransparent)[^franceinfo-lens-igpn-2026] | Effets du gaz lacrymogène, perte d'équilibre, **forte surdité**, **effet _blast_** (lésions aux poumons, à la tête et aux viscères liées à l'onde de choc), choc psychologique | **Éclats irréguliers de plastique dur rouge ou orange vif** (réservoir éjectable orange vif portant un pictogramme « ne pas ramasser »), corps extérieur en plastique gris, couvercle brun, ruban adhésif rouge, petit ressort métallique, cuillère[^mdo-gm2l] |
 | **GL-304** (« Condor », « la brésilienne ») et **ASSD**[^desarmons-grenades-2024][^desarmons-marches-2026] | Grenade déflagrante lancée à la main : première détonation d'éjection du bouchon puis **forte explosion** (jusqu'à 175 dB à 2 m selon le fabricant), **débris noirs type « pneu »**[^mdo-gl304] | **Polycriblage**, **plaies délabrantes**, hémorragies, **mutilations**, avec **forte probabilité de corps étrangers visibles ou non** (caoutchouc radiotransparent) | Perte d'équilibre, **forte surdité**, **effet _blast_** (poumons, tête, viscères liés à l'explosion), choc psychologique | **Fragments de caoutchouc noir épais déchiqueté (« pneu »)** (corps souple en élastomère noir, nuage de poudre blanche inerte), rondelles métalliques, culot rond et bouchon allumeur noir marqués `GL-304` / `Condor` ou `ASSD` |
 | **EF-SON** (« Assourdissante » 40 mm)[^desarmons-grenades-2024][^desarmons-marches-2026] | Cartouche-grenade sonore tirée au lanceur **Cobra 40 mm** ou LMC/Cougar 40 mm (un seul bloc avec son propulseur) : **forte explosion** (~161 dB à 10 m, portée ~80 m), distribuée aux CRS depuis 2025 ; son emploi a été **suspendu à titre conservatoire** après la mutilation de la main d'un adolescent de 15 ans à Lens (5 octobre 2026)[^mdo-efson][^franceinfo-lens-igpn-2026] | **Plaies délabrantes**, hémorragies, **polycriblage** (modèle récent pour lequel peu de données de terrain sont encore consolidées) | Perte d'équilibre, **forte surdité**, **effet _blast_** (poumons, tête, viscères liés à l'explosion), choc psychologique | Cylindre noir de 40 mm formant un seul bloc avec son propulseur, fragments plastiques et métalliques |
+
+!!! info "Munitions retirées : GLI-F4 et OF-F1"
+
+    - **GLI-F4** : selon le ministère de l'Intérieur, les forces de sécurité intérieure ne l'utilisent plus depuis janvier 2020 ; elle est remplacée par la GM2L, dont le corps est éjecté pour éviter les éclats, et dont l'emploi est soumis à une habilitation individuelle.[^an-qe-16653-gli-f4][^an-qe-17735-gm2l] Le ministère affirme que la GM2L n'a plus d'effet de souffle ; le tableau ci-dessus reprend les observations de terrain du collectif Désarmons-les, qui décrit pourtant une forte explosion.
+    - **OF-F1** (grenade offensive à charge explosive) : suspendue après la mort de Rémi Fraisse en octobre 2014, elle a été définitivement interdite par un décret du 10 mai 2017.[^wiki-grenade-of-f1]
 
 ## Que signaler aux urgences et au médecin
 

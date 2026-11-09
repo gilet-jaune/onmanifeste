@@ -81,7 +81,7 @@ A person comes in by the **open path** (nobody knows them yet) or by **co-option
 
     <div class="flow" markdown>
 
-    **The open path**
+    **[The open path](#open-door-recruitment-watching-them-act)**
 
     1. **Public group**
     2. **Airlock group**: a meeting, then a rendezvous at others' action
@@ -92,7 +92,7 @@ A person comes in by the **open path** (nobody knows them yet) or by **co-option
 
     <div class="flow" markdown>
 
-    **Co-option**
+    **[Co-option](#recruiting-by-co-option-a-vetted-member-proposes)**
 
     1. **A vetted member proposes** someone they know
     2. **Meeting with a secretary**, one-to-one or on the spot
@@ -105,7 +105,7 @@ A person comes in by the **open path** (nobody knows them yet) or by **co-option
 
 === "Table"
 
-    | Way in | **The open path** | **Co-option** |
+    | Way in | **[The open path](#open-door-recruitment-watching-them-act)** | **[Co-option](#recruiting-by-co-option-a-vetted-member-proposes)** |
     | --- | --- | --- |
     | **For whom** | Someone nobody knows yet | Someone a vetted member already knows (friend, colleague, union, seen in action at several actions) |
     | **Through** | The public group, then an airlock group and a meeting | The vetted member **proposes** them directly to a secretary, without the public group or an airlock group |

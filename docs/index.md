@@ -21,6 +21,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 - [Gazé·e](parcours/index.md?je=gaze){ .md-button }
 - [Blessé·e](parcours/index.md?je=blesse){ .md-button }
 - [Interpellé·e](parcours/index.md?je=interpelle){ .md-button }
+- [Jeune ou étudiant·e](parcours/index.md?je=jeune){ .md-button }
 - [Femme ou personne réglée](parcours/index.md?je=femme){ .md-button }
 - [Je ne peux pas y aller](parcours/index.md?je=soutien-distance){ .md-button }
 

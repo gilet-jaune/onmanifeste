@@ -94,6 +94,7 @@ Say these **word for word** (in French): "Je veux voir un avocat." · "Je veux v
 
 - Write down **straight away** what happened: times, places, words, names or badge numbers, conditions of detention.
 - Keep **all documents** given to you (summons, warning, notice of trial).
+- **Your belongings and papers**: the texts we read (article 63-5 of the Code of Criminal Procedure) only require strictly necessary security measures and do not detail an inventory or the return of items. Practical advice, not a rule of law: before leaving, check that everything is returned (ID, phone, keys), ask for anything kept to be listed in writing, and report any loss to a legal team or a lawyer; an improper withdrawal can be reported to the {{ res("defenseur-des-droits") }}.[^cpp-63-5]
 - **Fast-track trial (comparution immédiate)**: you can ask for **more time** to prepare your defence.[^sp-ci]
 - Contact a **legal team** or a local anti-repression collective ({{ res("rajcol", "list of local collectives") }}) for follow-up, and a **solidarity fund** for costs.[^legal-team]
 - Lawyer's fees: you may be entitled to {{ res("sp-aide-juridictionnelle", "legal aid") }} depending on your income.[^sp-aj]

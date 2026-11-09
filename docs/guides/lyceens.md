@@ -5,6 +5,7 @@ review_status: pending
 tags:
     - guides
     - lycéens
+    - jeunes
 ---
 
 # Lycéen·nes : blocus, absences, sanctions
@@ -31,6 +32,7 @@ Devant le lycée, sur la voie publique, ce sont les règles de toute manifestati
 - [ ] Ne restez **jamais seul·e** : venez et repartez en groupe ([ne jamais rester seul·e](ne-pas-rester-seul.md)).
 - [ ] Ayez sur vous le **numéro d'un·e adulte de confiance** et d'une legal team, écrit sur papier ([checklist avant la manif](avant-de-partir.md)).
 - [ ] Si la police intervient, éloignez-vous et ne ramassez **jamais** une grenade, même tombée au sol : des manifestant·es y ont perdu une main.[^publicsenat-gli-f4-retrait] Voir [dispersion, sommations et nasse](dispersion.md).
+- [ ] **Le gaz lacrymogène** : Amnesty International signale des effets possiblement plus graves pour les enfants, les personnes âgées et les femmes enceintes, et demande qu'un enfant gazé soit pris en charge médicalement sans attendre.[^amnesty-gaz-lacrymogene-fiche] Partez dès les premiers signes de tension, et consultez si un·e camarade est touché·e ([gestes à faire](premiers-secours.md#gaz-lacrymogene), [protections à petit budget](kit-manif.md#petit-budget-et-entraide)).
 - [ ] Témoin d'une interpellation ou d'une violence : filmez de loin, sans montrer les visages des lycéen·nes ([filmer les forces de l'ordre](filmer.md)).
 
 ## Les sanctions possibles

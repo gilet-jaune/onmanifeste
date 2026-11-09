@@ -22,6 +22,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 - [Tear-gassed](parcours/index.md?je=gaze){ .md-button }
 - [Injured](parcours/index.md?je=blesse){ .md-button }
 - [Arrested](parcours/index.md?je=interpelle){ .md-button }
+- [Young or a student](parcours/index.md?je=jeune){ .md-button }
 - [Woman or someone with periods](parcours/index.md?je=femme){ .md-button }
 - [I can't go](parcours/index.md?je=soutien-distance){ .md-button }
 

@@ -65,6 +65,8 @@ If your phone is seized, broken or stolen, footage that wasn't backed up is lost
 - To the **legal team** and the arrested person's lawyer: footage can change the outcome of a trial.
 - To the **Défenseur des droits** for misconduct by security forces.[^ddd]
 - To a media outlet or an observatory (LDH) if you want to document publicly.
+- **Finding footage filmed by a bystander** (an assault, police violence): the collaborative map {{ res("surlefait") }} publishes blurred copies but keeps the original with its date and location, which the publisher passes, after manual review and identity checks, to a lawyer, the person concerned or the judicial authority ("File & access"). Go through your lawyer: admissibility in court is a matter of procedure, not of the site. It is not a tool for identifying an officer. The project is new and its association is "being registered": don't rely on it as the only copy.
+- **If you upload your own footage there**: keep your original yourself. The account is pseudonymous but linked to your uploads, the IP address is kept for 1 year (disclosed only on a judicial requisition) and the person filmed can ask for the original to be erased.
 
 [:octicons-arrow-right-24: Tools to film and archive in the directory](../annuaire/index.md?situation=filmer)
 

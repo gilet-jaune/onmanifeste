@@ -16,6 +16,7 @@ tags:
 
     - **Public** announcement group → **airlock group** to meet in person (suggested by anyone, announced by a secretary) → vetted **trusted group** → team **sub-groups**.
     - **Open door**, with no voucher: airlock → "cleaned" airlock → acting together → vouchers → HR second check → trusted group (see [watching them act](signal-valider.md#open-door-recruitment-watching-them-act)).
+    - **By co-option**: a vetted member proposes someone they already know, meeting with a secretary, that member is the voucher, then HR's second check (see [co-option](signal-valider.md#recruiting-by-co-option-a-vetted-member-proposes)).
     - **Graduated trust**: a **vetted secretary**, **one voucher** and a **second check by HR** for the trusted group; **two vouchers** for a sensitive sub-group. Never through a group link or QR code, **except for the public group** (announcements, nothing sensitive): people are added **by username**, from a private conversation.
     - **No vetting stops a determined leak**: write nothing you wouldn't want read out in police custody.
     - Before joining: a short **activist name**, also used in person; number hidden from **everyone**; **disappearing** messages, in every group from its creation.
@@ -76,7 +77,7 @@ Pick your role (new member, member, recruiter, secretary, HR, keyholder, liaison
 
 The **trusted group and its sub-groups** are the **vetted groups**, and a **family** sharing the same ID (see [naming groups](signal-creer.md#naming-groups)). A malicious person who gets into one sub-group does not see the others. Next to the funnel, the [temporary group](signal-gerer.md#the-temporary-group), for an action day or a mobilisation, leads nowhere: it is disposable.
 
-**Two ways into the trusted group**: the **open path** (public group, airlock, meeting in action, vouchers, HR's second check) and **co-option** (a vetted member proposes someone they know, often the same day). See [the two ways in](signal-valider.md#two-ways-into-the-trusted-group): diagram, table and detail of each route.
+**Two ways into the trusted group**: the [**open path**](signal-valider.md#open-door-recruitment-watching-them-act) (public group, airlock, meeting in action, vouchers, HR's second check) and [**co-option**](signal-valider.md#recruiting-by-co-option-a-vetted-member-proposes) (a vetted member proposes someone they know, often the same day). See [the two ways in](signal-valider.md#two-ways-into-the-trusted-group): diagram, table and detail of each route.
 
 ## The roles
 

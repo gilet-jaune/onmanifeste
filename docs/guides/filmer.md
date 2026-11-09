@@ -64,6 +64,8 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 - À la **legal team** et à l'avocat·e de la personne interpellée : la vidéo peut changer l'issue d'un procès.
 - Au **Défenseur des droits** en cas de manquement à la déontologie.[^ddd]
 - À un média ou un observatoire (LDH) si vous souhaitez documenter publiquement.
+- **Retrouver une vidéo filmée par un tiers** (agression, violence policière) : la carte collaborative {{ res("surlefait") }} publie des copies floutées, mais conserve l'original daté et géolocalisé, que l'éditeur transmet, après examen manuel et vérification d'identité, à un·e avocat·e, à la personne concernée ou à l'autorité judiciaire (« Dossier & accès »). Passez par votre avocat·e : l'admission en justice relève de la procédure, pas du site. Ce n'est pas un outil pour identifier un agent. Le projet est récent et son association est « en cours d'enregistrement » : ne comptez pas dessus comme seule copie.
+- **Si vous y envoyez votre propre vidéo** : gardez votre original de votre côté. Le compte est pseudonyme mais relié à vos envois, l'adresse IP est conservée 1 an (communiquée seulement sur réquisition judiciaire) et la personne filmée peut demander l'effacement de l'original.
 
 [:octicons-arrow-right-24: Outils pour filmer et archiver dans l'annuaire](../annuaire/index.md?situation=filmer)
 

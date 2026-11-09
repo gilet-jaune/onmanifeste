@@ -6,6 +6,7 @@ review_status: pending
 tags:
     - guides
     - high-school students
+    - young people
 ---
 
 # High-school students: blockades, absences, sanctions
@@ -32,6 +33,7 @@ In front of the school, on the public road, the rules of any demonstration apply
 - [ ] **Never stay alone**: come and leave as a group ([never stay alone](ne-pas-rester-seul.md)).
 - [ ] Carry the **number of a trusted adult** and of a legal team, written on paper ([pre-protest checklist](avant-de-partir.md)).
 - [ ] If the police step in, move away and **never** pick up a grenade, even one lying on the ground: demonstrators have lost a hand that way.[^publicsenat-gli-f4-retrait] See [dispersal, warnings and kettling](dispersion.md).
+- [ ] **Tear gas**: Amnesty International points to possibly more serious effects for children, older people and pregnant women, and asks that a gassed child receive medical care without delay.[^amnesty-gaz-lacrymogene-fiche] Leave at the first signs of tension, and get a check-up if a classmate is hit ([what to do](premiers-secours.md#tear-gas), [low-budget protection](kit-manif.md#low-budget-and-mutual-aid)).
 - [ ] If you witness an arrest or violence: film from a distance, without showing students' faces ([film the police](filmer.md)).
 
 ## Possible sanctions

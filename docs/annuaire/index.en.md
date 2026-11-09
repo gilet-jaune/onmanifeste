@@ -11,7 +11,7 @@ image_alt: ''
 
 # Resource Directory
 
-Search a tool by name, description or tag, then refine by category and tags. Filters are kept in the URL so you can share a search.
+Search a tool by name, description or keyword, then refine by type of help and keywords. Filters are kept in the URL so you can share a search.
 
 {% import "overrides/partials/resource-cards.html" as rc with context %}
 

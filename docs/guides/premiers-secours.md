@@ -6,6 +6,7 @@ tags:
     - guides
     - santé
     - schéma
+    - gaz lacrymogène
 search:
     boost: 3
 ---

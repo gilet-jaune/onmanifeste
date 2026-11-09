@@ -15,6 +15,7 @@ tags:
 
     - **Groupe public** d'annonces → **groupe sas** pour se rencontrer en vrai (proposé par n'importe qui, annoncé par un·e secrétaire) → **groupe de confiance** vérifié → **sous-groupes** par équipe.
     - **À porte ouverte**, sans garant·e : sas → sas « nettoyé » → agir ensemble → garant·es → second contrôle des RH → groupe de confiance (voir [les voir agir](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir)).
+    - **Par cooptation** : un membre vérifié propose quelqu'un qu'il connaît déjà, rencontre avec un·e secrétaire, ce membre est le ou la garant·e, puis second contrôle des RH (voir [la cooptation](signal-valider.md#recruter-par-cooptation-un-membre-verifie-propose)).
     - **Confiance graduée** : un·e **secrétaire vérifié·e**, **un·e garant·e** et un **second contrôle des RH** pour le groupe de confiance ; **deux garant·es** pour un sous-groupe sensible. Jamais par un lien ni un code QR de groupe, **sauf pour le groupe public** (annonces, rien de sensible) : on ajoute les personnes **par nom d'utilisateur**, depuis une conversation privée.
     - **Aucune vérification n'arrête une fuite déterminée** : n'écrivez rien que vous ne voudriez pas voir lu en garde à vue.
     - Avant d'entrer : un **nom de militant·e** court, utilisé aussi en vrai ; numéro caché à **tout le monde** ; messages **éphémères**, dans chaque groupe dès sa création.
@@ -75,7 +76,7 @@ Choisissez votre rôle (nouveau membre, membre, recruteur·se, secrétaire, RH, 
 
 Le **groupe de confiance et ses sous-groupes** forment les **groupes vérifiés**, et une **famille** qui partage le même identifiant (voir [nommer les groupes](signal-creer.md#nommer-les-groupes)). Une personne malintentionnée entrée dans un sous-groupe ne voit pas les autres. À côté de l'entonnoir, le [groupe temporaire](signal-gerer.md#le-groupe-temporaire), pour une journée d'action ou une mobilisation, ne mène nulle part : il est jetable.
 
-**Deux portes pour entrer dans le groupe de confiance** : la **voie ouverte** (groupe public, sas, se voir en action, garant·es, second contrôle des RH) et la **cooptation** (un membre vérifié propose quelqu'un qu'il connaît, souvent le jour même). Voir [les deux portes](signal-valider.md#deux-portes-pour-entrer-dans-le-groupe-de-confiance) : schéma, tableau et détail de chaque parcours.
+**Deux portes pour entrer dans le groupe de confiance** : la [**voie ouverte**](signal-valider.md#recruter-a-porte-ouverte-les-voir-agir) (groupe public, sas, se voir en action, garant·es, second contrôle des RH) et la [**cooptation**](signal-valider.md#recruter-par-cooptation-un-membre-verifie-propose) (un membre vérifié propose quelqu'un qu'il connaît, souvent le jour même). Voir [les deux portes](signal-valider.md#deux-portes-pour-entrer-dans-le-groupe-de-confiance) : schéma, tableau et détail de chaque parcours.
 
 ## Les rôles
 

@@ -56,6 +56,17 @@ No law bans wearing protection as long as it does not hide your face, but seizur
 - **What to do on the spot.** Stay calm and do not resist physically. You can ask whether there is a **written order from the prosecutor**, but you cannot always find out on the spot. **Ask for the report** and a list of what is taken. Note the time, the place, the type of officer (alone or with colleagues) and the badge number, and take photos or film if you can: a confiscation can be challenged, but evidence is needed (witnesses, videos).[^ldh-fiche-manif-2026] Afterwards, talk to a legal team or a lawyer ([see "Filing a complaint, voluntary interview and trial"](suites-judiciaires.md)).
 - **Practical tips** (not rules of law): prefer **discreet protection under your clothes**, carry **nothing that could pass for a weapon** ([see "Protest kit and outfit"](kit-manif.md)), and carry saline in **single doses** rather than a bottle, kept with your first-aid items in a pouch, to show a medical use.
 
+## Can they confiscate your ID?
+
+The sources we read provide for handing over an identity document only in a few specific cases:
+
+- **During the check**: you can prove your identity **by any means** (ID card, passport, licence, but also a birth certificate, a student card, or the word of someone with you). If you cannot or refuse to, you can be **held** for an identity verification, **4 hours at most**, with the right to have the prosecutor and a person of your choice informed, and a copy of the record is given to you at the end.[^sp-controle][^cpp-78-3]
+- **Identity recording** (municipal police, customs, SNCF, RATP…): you are asked to justify your identity so a fine can be recorded. If you refuse, the officer must alert a judicial police officer (OPJ); if none can be reached, the officer **has no right to hold you**.[^sp-controle]
+- **Foreign nationals** without a residence document: taken to a police station to check their right to stay.[^sp-controle]
+- **Judicial supervision** (ordered by an investigating judge or a judge of liberties and detention, never by an officer on the street): the judge may require you to **hand over to the court registry, police or gendarmerie** all identity documents, notably the passport, **in exchange for a receipt that serves as proof of identity**.[^cpp-138]
+
+We found no text allowing an officer to keep your ID card beyond one of these cases, and no public-service page explaining it. If an officer keeps it: **ask for a receipt or a record** mentioning it, note the time, place and badge number, and ask for it back; if nothing happens, talk to a legal team or a lawyer, and report the facts to the {{ res("defenseur-des-droits") }} or the {{ res("igpn-signalement", "IGPN") }}. For your belongings and papers during police custody, see [Police custody, on release](garde-a-vue.md#on-release).
+
 ## On-the-spot fine (€135): do not pay right away
 
 At protests, police sometimes issue fixed penalty fines (in particular **€135** for taking part in a protest banned by prefectural order):[^amnesty-droits][^sp-amende]

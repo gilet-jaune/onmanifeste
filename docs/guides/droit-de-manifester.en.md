@@ -56,7 +56,7 @@ In France, demonstrating is a **freedom**, not a permission you ask for. The Sta
 - **Breaking it is an offence**: 1 year in prison and a €15,000 fine.[^cp-434-38-1]
 - [ ] Before a hearing or being brought before a prosecutor, ask your lawyer whether a ban on demonstrating may be requested, for which places and for how long.
 
-See also: [Organising a protest](organiser.md) · [ID checks and searches](controle-fouille.md) · [The Palestinian flag at protests](drapeau-palestinien.md).
+See also: [Security and freedoms: what the laws change](../securite-libertes/index.md) · [Organising a protest](organiser.md) · [ID checks and searches](controle-fouille.md) · [The Palestinian flag at protests](drapeau-palestinien.md).
 
 ## Sources
 

@@ -6,6 +6,8 @@ review_status: pending
 tags:
     - guides
     - equipment
+    - tear gas
+    - mask
 ---
 
 # Protest kit and outfit
@@ -25,6 +27,7 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
     - What to wear: [clothes](#clothes).
     - Protecting yourself from gas and impacts: [protection](#protection).
     - Packing your bag: [in the bag](#in-the-bag), then [leave at home](#leave-at-home).
+    - Short on money: [low budget and mutual aid](#low-budget-and-mutual-aid).
 
 ## Clothes
 
@@ -66,6 +69,15 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 - [ ] If you menstruate: **sanitary pads** rather than tampons, which are considered too risky when worn for a long time.[^medicaction-gestes]
 - [ ] **Phone** (charged, power bank, lock code, automatic photo backup to an encrypted service): see the [pre-protest checklist](avant-de-partir.md#phone).[^eff-protest]
 - [ ] Paper with useful numbers ([see "Never stay alone"](ne-pas-rester-seul.md)).
+
+## Low budget and mutual aid
+
+Full kit is expensive, and many young people and people who have periods arrive with little protection. The useful minimum and ways to ask for help:
+
+- **Disposable work-site masks are cheap, but protect unevenly.** Médic'Action's orders of magnitude (undated page, indicative prices): FFP1 about €18 for 10 (very limited protection), FFP2 about €22 for 10, FFP3 €10 to €15 for three. They are disposable, rarely last more than one protest and lose effectiveness when wet.[^medicaction-protections] In Strasbourg, street medics quote FFP3 masks at €7 each in 2026.[^ici-strasbourg-street-medics-2026]
+- **Swimming goggles: only as a last resort.** Médic'Action considers them unsafe against a hard impact (risk of eye loss, notably from an LBD) and keeps them for the edge of a protest when you have nothing else.[^medicaction-protections]
+- **Ask the street medics.** In Reims on 17 October 2026, one said he could supply masks and saline to demonstrators.[^ici-reims-street-medics-2026] In Strasbourg, a group buys FFP3 masks to hand out, funded by a kitty its members fill (over €100 spent since 17 October).[^ici-strasbourg-street-medics-2026] Whether it is free depends on the group and its means: ask politely, and give if you can (see {{ res("medicaction-guides") }} and their [call for supply donations](https://medicaction.org/2026/10/12/appel-a-don-matos-medic-2026/)).
+- **Also ask around you in the march** (practical advice, not a rule): saline or a mask is something you can ask for, and many demonstrators carry some. Accept only **new, sealed supplies** (closed single-dose vial, mask in its packaging), never share a mask that has been worn or an opened vial, and bring one or two extra vials to give away.
 
 ## Leave at home
 

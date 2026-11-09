@@ -9,6 +9,8 @@ tags:
     - rights
     - repression
     - flowchart
+    - LBD
+    - grenades
 ---
 
 # Police weapons: effects, injuries and debris
@@ -65,6 +67,11 @@ French law enforcement uses so-called "intermediate force" weapons and pyrotechn
 | **GM2L** ("Combined effects": tear gas + stun)[^wiki-gm2l][^desarmons-grenades-2024][^publicsenat-gli-f4-retrait] | Fired from a **56 mm Cougar** launcher (replaced the GLI-F4): **loud explosion** (~160 dB at 10 m), **CS tear-gas** cloud (15 g of powder)[^mdo-gm2l] and projection of **red/orange debris** | **Shrapnel peppering (polycriblage)**, **tearing wounds**, bleeding, **mutilations** (hand, foot, face), with **high probability of visible or hidden foreign bodies** (radiolucent plastic)[^franceinfo-lens-igpn-2026] | Tear-gas effects, loss of balance, **severe hearing loss**, **blast effect** (internal damage to lungs, head and viscera from the shockwave), psychological shock | **Irregular fragments of bright red or orange hard plastic** (bright orange ejectable canister bearing a "do not pick up" pictogram), grey plastic outer body, brown lid, red adhesive tape, small metal spring, spoon[^mdo-gm2l] |
 | **GL-304** ("Condor", "the Brazilian") and **ASSD**[^desarmons-grenades-2024][^desarmons-marches-2026] | Hand-thrown blast grenade: first fuse-ejection pop then **very loud explosion** (up to 175 dB at 2 m according to the manufacturer), **black "tyre-like" debris**[^mdo-gl304] | **Shrapnel peppering**, **tearing wounds**, bleeding, **mutilations**, with **high probability of visible or hidden foreign bodies** (radiolucent rubber) | Loss of balance, **severe hearing loss**, **blast effect** (lungs, head, viscera from the explosion), psychological shock | **Shredded thick black rubber fragments ("tyre")** (soft black elastomer body, cloud of inert white powder), metal washers, round base and black fuse head marked `GL-304` / `Condor` or `ASSD` |
 | **EF-SON** (40 mm "Stun" cartridge)[^desarmons-grenades-2024][^desarmons-marches-2026] | Sound cartridge-grenade fired from a **40 mm Cobra** or 40 mm LMC/Cougar launcher (single block with its propellant): **loud explosion** (~161 dB at 10 m, range ~80 m), issued to the CRS since 2025; its use was **provisionally suspended** after a 15-year-old's hand was blown off in Lens (5 October 2026)[^mdo-efson][^franceinfo-lens-igpn-2026] | **Tearing wounds**, bleeding, **shrapnel peppering** (recent munition with limited consolidated field data so far) | Loss of balance, **severe hearing loss**, **blast effect** (lungs, head, viscera from the explosion), psychological shock | Black 40 mm cylinder forming a single block with its propellant, plastic and metal fragments |
+
+!!! info "Withdrawn munitions: GLI-F4 and OF-F1"
+
+    - **GLI-F4**: according to the Interior Ministry, internal security forces have not used it since January 2020; it is replaced by the GM2L, whose body is ejected to avoid fragments and whose use requires individual authorisation.[^an-qe-16653-gli-f4][^an-qe-17735-gm2l] The ministry says the GM2L no longer has a blast effect; the table above reflects field observations by the Désarmons-les collective, which nonetheless describes a strong explosion.
+    - **OF-F1** (offensive grenade with an explosive charge): suspended after the death of Rémi Fraisse in October 2014, it was definitively banned by a decree of 10 May 2017.[^wiki-grenade-of-f1]
 
 ## What to tell emergency staff and the doctor
 

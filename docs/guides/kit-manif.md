@@ -5,6 +5,8 @@ review_status: pending
 tags:
     - guides
     - équipement
+    - gaz lacrymogène
+    - masque
 ---
 
 # Kit et tenue de manif
@@ -24,6 +26,7 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
     - Que porter : [la tenue](#tenue).
     - Vous protéger des gaz et des chocs : [la protection](#protection).
     - Préparer votre sac : [dans le sac](#dans-le-sac), puis [à laisser à la maison](#a-laisser-a-la-maison).
+    - Peu de moyens : [petit budget et entraide](#petit-budget-et-entraide).
 
 ## Tenue
 
@@ -65,6 +68,15 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 - [ ] Pour les personnes réglées : des **serviettes hygiéniques** plutôt que des tampons, jugés trop dangereux portés longtemps.[^medicaction-gestes]
 - [ ] **Téléphone** (chargé, batterie externe, code de verrouillage, sauvegarde automatique des photos sur un service chiffré) : voir la [checklist avant la manif](avant-de-partir.md#telephone).[^eff-protest]
 - [ ] Papier avec les numéros utiles ([voir « Ne jamais rester seul·e »](ne-pas-rester-seul.md)).
+
+## Petit budget et entraide
+
+S'équiper complètement coûte cher, et beaucoup de jeunes ou de personnes réglées arrivent avec peu de protection. Le minimum utile et les façons de demander de l'aide :
+
+- **Les masques de chantier jetables coûtent peu, mais protègent inégalement.** Ordres de grandeur de Médic'Action (page non datée, prix indicatifs) : FFP1 environ 18 € les 10 (protection très limitée), FFP2 environ 22 € les 10, FFP3 de 10 à 15 € les trois. Ils sont jetables, durent rarement plus d'une manifestation et perdent leur efficacité mouillés.[^medicaction-protections] À Strasbourg, des street medics citent des FFP3 à 7 € l'unité en 2026.[^ici-strasbourg-street-medics-2026]
+- **Lunettes de piscine : à défaut de mieux.** Médic'Action les juge peu sûres en cas de choc fort (risque d'énucléation, notamment par un LBD) et les réserve à un usage en bordure d'une manifestation, quand on n'a rien d'autre.[^medicaction-protections]
+- **Demandez aux street medics.** À Reims, le 17 octobre 2026, l'un d'eux a indiqué pouvoir fournir masques et sérum physiologique aux manifestant·es.[^ici-reims-street-medics-2026] À Strasbourg, un groupe achète des FFP3 pour les distribuer, avec une cagnotte alimentée par ses membres (plus de 100 € dépensés depuis le 17 octobre).[^ici-strasbourg-street-medics-2026] La gratuité dépend du groupe et de ses moyens : demandez poliment, et donnez si vous le pouvez (voir {{ res("medicaction-guides") }} et leur [appel à dons de matériel](https://medicaction.org/2026/10/12/appel-a-don-matos-medic-2026/)).
+- **Demandez aussi autour de vous dans le cortège** (conseil pratique, pas une règle) : un sérum physiologique ou un masque, ça se demande, et beaucoup de manifestant·es en ont. N'acceptez que du **matériel neuf et scellé** (dosette fermée, masque sous emballage), ne partagez jamais un masque déjà porté ni une dosette entamée, et emportez une ou deux dosettes en plus pour en donner.
 
 ## À laisser à la maison
 
