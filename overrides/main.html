@@ -4,6 +4,20 @@
 <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}" />
 <meta name="theme-color" content="#ddf20f" />
 <link rel="icon" href="{{ 'favicon.ico' | url }}" sizes="48x48" />
+<link rel="icon" type="image/png" href="{{ 'assets/icons/icon-192.png' | url }}" sizes="192x192" />
+{%- if page and page.is_homepage and config.site_url %}
+<script type="application/ld+json">
+  {{ {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": config.site_name,
+    "alternateName": "onmanifeste.fr",
+    "url": config.site_url,
+    "inLanguage": "en" if config.theme.language == "en" else "fr",
+    "description": config.site_description
+  } | tojson }}
+</script>
+{%- endif %}
 <link rel="apple-touch-icon" href="{{ 'assets/icons/apple-touch-icon.png' | url }}" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-title" content="On manifeste" />
