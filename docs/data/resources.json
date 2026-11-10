@@ -2253,6 +2253,23 @@
       }
     },
     {
+      "id": "mediamanif",
+      "name": "Média Manif",
+      "url": "https://www.mediamanif.org/",
+      "category": "navigation",
+      "tags": ["carte", "manifestations"],
+      "description": {
+        "fr": "Cartes interactives collaboratives des manifestations et grèves, par ville (Paris, Toulouse, Nantes, Lille, Rennes, Lyon, Strasbourg), alimentées par les signalements des utilisateur·ices (affluence, dangers, gaz lacrymogène). L'absence de signalement ne signifie pas qu'il ne se passe rien, et rien n'indique que les signalements soient modérés : recoupez avec une autre source avant de vous déplacer. Le site indique ne collecter aucune donnée personnelle ; les photos ajoutées sur la carte sont placées dans le domaine public (CC0).",
+        "en": "Collaborative interactive maps of protests and strikes, by city (Paris, Toulouse, Nantes, Lille, Rennes, Lyon, Strasbourg), fed by users' reports (crowd size, hazards, tear gas). No report on the map does not mean nothing is happening, and nothing says reports are moderated: cross-check with another source before going. The site states it collects no personal data; photos added to the map are placed in the public domain (CC0)."
+      },
+      "check": {
+        "date": "2026-11-10",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Site actif ; mentions légales présentes (initiative citoyenne, hébergeur, contact) mais éditeur non nommé et modération des signalements non précisée : lieux et événements à recouper."
+      }
+    },
+    {
       "id": "reporterre-manifs-handicap",
       "name": "Manifs et handicap (Reporterre)",
       "url": "https://reporterre.net/Manifs-et-handicap-le-long-parcours-du-combattant",
