@@ -6842,6 +6842,18 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "franceinfo-lens-grenade-2026": {
+      "title": {
+        "fr": "franceinfo (avec AFP) — Un adolescent de 15 ans a eu la main arrachée par une grenade à Lens, une enquête de l'IGPN ouverte (5 octobre 2026)",
+        "en": "franceinfo (with AFP) — A 15-year-old had his hand torn off by a grenade in Lens, an IGPN inquiry is opened (5 October 2026; in French)"
+      },
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/un-adolescent-de-15-ans-a-eu-la-main-arrachee-par-une-grenade-a-lens-une-enquete-de-l-igpn-ouverte-annonce-le-procureur-de-bethune_8223337.html",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
