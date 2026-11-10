@@ -1860,6 +1860,27 @@
       }
     },
     {
+      "id": "2026-referes-cnews-conseil-d-etat-rejet",
+      "date": "2026-03-10",
+      "title": {
+        "fr": "CNews : le Conseil d'État rejette le référé de juristes contre l'inaction de l'Arcom",
+        "en": "CNews: the Council of State rejects jurists' emergency appeal over Arcom's inaction"
+      },
+      "kind": "deni-democratique",
+      "url": "https://www.leclubdesjuristes.com/en-bref/pluralisme-des-medias-le-conseil-detat-rejette-le-refere-duniversitaires-contre-cnews-et-europe-1-14883/",
+      "description": {
+        "fr": "Le 4 mars 2026, une soixantaine d'universitaires et de juristes (57 à 60 selon les sources) saisissent le Conseil d'État en référé-liberté pour obliger l'Arcom à agir contre CNews et Europe 1 au nom du pluralisme, lui reprochant une « carence délibérée ». Le 10 mars, le juge des référés rejette la demande : selon le Club des juristes, la condition d'urgence n'est pas remplie, et les éléments avancés ne justifient pas son intervention. Les requérants préparent un recours au fond. Ce rejet ne juge pas le fond : il ne dit pas que les chaînes respectent le pluralisme.",
+        "en": "On 4 March 2026, some sixty academics and jurists (57 to 60 depending on the source) ask the Council of State, by emergency procedure, to force the media regulator Arcom to act against CNews and Europe 1 in the name of pluralism, accusing it of a 'deliberate failure to act'. On 10 March the interim-relief judge rejects the request: according to the Club des juristes, the urgency condition is not met, and the evidence put forward does not justify intervention. The applicants are preparing a challenge on the merits. This rejection does not rule on the substance: it does not say that the channels comply with pluralism."
+      },
+      "related": ["2026-petition-supprimer-cnews-classee"],
+      "evidence": ["clubdesjuristes-refere-cnews-2026", "decideurs-refere-cnews-2026"],
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-videosurveillance-algorithmique-jusqu-en-2027",
       "date": "2026-03-19",
       "title": {

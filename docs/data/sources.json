@@ -6447,6 +6447,30 @@
         "by": "ai"
       }
     },
+    "clubdesjuristes-refere-cnews-2026": {
+      "title": {
+        "fr": "Club des juristes — Pluralisme des médias : le Conseil d'État rejette le référé d'universitaires contre CNews et Europe 1 (11 mars 2026)",
+        "en": "Club des juristes — Media pluralism: the Council of State rejects academics' emergency appeal against CNews and Europe 1 (11 March 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/pluralisme-des-medias-le-conseil-detat-rejette-le-refere-duniversitaires-contre-cnews-et-europe-1-14883/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "decideurs-refere-cnews-2026": {
+      "title": {
+        "fr": "Décideurs Juridiques — CNews, Europe 1 : le Conseil d'État rejette le référé-liberté des 57 professionnels du droit contre l'Arcom (16 mars 2026)",
+        "en": "Décideurs Juridiques — CNews, Europe 1: the Council of State rejects the emergency appeal of 57 legal professionals against Arcom (16 March 2026; in French)"
+      },
+      "url": "https://www.decideurs-juridiques.com/regulation-juridiques/63836-cnews-europe-1-le-conseil-d-etat-rejette-le-refere-liberte-des-57-professionnels-du-droit-contre-l-arcom.html",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "clubdesjuristes-petition-cnews-2026": {
       "title": {
         "fr": "Club des juristes — Pétition pour la suppression de CNews : quelles suites possibles ? (10 novembre 2026)",
