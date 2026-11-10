@@ -1,5 +1,10 @@
 {% extends "base.html" %} {% block htmltitle %}{%- if page and page.meta and page.meta.title %}
 <title>{{ page.meta.title }}</title>
+{#- Search engines cut titles past about 60 characters: drop the site-name suffix when it would
+exceed that (the site name is declared separately in the WebSite structured data). #} {%- elif page
+and page.title and not page.is_homepage and ((page.title | striptags) ~ " - " ~ config.site_name) |
+length > 60 %}
+<title>{{ page.title | striptags }}</title>
 {%- else %}{{ super() }}{%- endif %}{% endblock %} {% block extrahead %}
 <link rel="manifest" href="{{ 'manifest.webmanifest' | url }}" />
 <meta name="theme-color" content="#ddf20f" />
