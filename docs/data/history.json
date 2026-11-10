@@ -2125,6 +2125,32 @@
       ]
     },
     {
+      "id": "2026-grenades-assourdissantes-suspendues-mouvement-lyceen",
+      "date": "2026-10-07",
+      "title": {
+        "fr": "Mouvement lycéen : le ministre de l'Intérieur suspend les grenades assourdissantes après une blessure à Lens",
+        "en": "Student movement: the Interior Minister suspends stun grenades after an injury in Lens"
+      },
+      "kind": "repression",
+      "url": "https://actu.orange.fr/france/mobilisation-des-lyceens-laurent-nunez-suspend-l-usage-des-grenades-assourdissantes-magic-CNT000002snusk.html",
+      "description": {
+        "fr": "Le 5 octobre 2026 à Lens, un lycéen de 15 ans a la main arrachée par une grenade ; une enquête de l'IGPN est ouverte. Invité de RTL le 7 octobre, Laurent Nuñez déclare : « Je suspends leur usage pour le mouvement des lycéens », tant que la lumière n'a pas été faite sur ce qui s'est passé. Un télégramme de la direction générale de la police nationale suspend « à titre conservatoire » la grenade ASSD, qui pourrait être impliquée. La mesure est ciblée sur le mouvement lycéen : ce n'est pas une interdiction générale. Le modèle de la grenade de Lens reste disputé (GM2L selon RTL, ASSD selon le télégramme, EF-SON selon Le Monde cité par un site local), tout comme les circonstances : le parquet ne peut pas dire si le jeune l'a ramassée ou si elle a été lancée sur lui. Le ministre comptait alors 18 enquêtes de l'IGPN ; des élu·es de gauche demandent l'interdiction de ces armes.",
+        "en": "On 5 October 2026 in Lens, a 15-year-old student had his hand torn off by a grenade; an IGPN inquiry is opened. Guest on RTL on 7 October, Laurent Nuñez says: 'I am suspending their use for the students' movement', until light has been shed on what happened. A telegram from the national police directorate suspends the ASSD grenade 'as a precaution', which may be involved. The measure is targeted at the student movement: it is not a general ban. The model of the Lens grenade remains disputed (GM2L according to RTL, ASSD according to the telegram, EF-SON according to Le Monde as cited by a local site), as do the circumstances: the prosecutor cannot say whether the teenager picked it up or it was thrown at him. The minister then counted 18 IGPN inquiries; left-wing politicians call for a ban on these weapons."
+      },
+      "related": ["2026-mouvement-lyceen-de-2026"],
+      "evidence": [
+        "orange-nunez-grenades-assourdissantes-2026",
+        "brut-nunez-grenades-assourdissantes-2026",
+        "franceinfo-lens-grenade-2026",
+        "pandore-nunez-grenades-assourdissantes-2026"
+      ],
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-manifestations-des-17-et-24-octobre",
       "date": "2026-10-17",
       "end": "2026-10-24",

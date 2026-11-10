@@ -6854,6 +6854,78 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "actu17-justice-gav-lyceens-2026": {
+      "title": {
+        "fr": "Actu17 — Blocages de lycées : 5 060 gardes à vue, dont 87 % de mineurs, selon le ministère de la Justice (5 octobre 2026)",
+        "en": "Actu17 — High-school blockades: 5,060 police custodies, 87% of them minors, according to the Justice Ministry (5 October 2026; in French)"
+      },
+      "url": "https://actu17.fr/justice/blocages-de-lycees-5-060-gardes-a-vue-dont-87-de-mineurs-selon-le-ministere-de-la-justice.html",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "laclepublique-lyceens-justice-2026": {
+      "title": {
+        "fr": "La Clé publique — Mouvement lycéen : un mineur gardé à vue sur trois poursuivi (6 octobre 2026)",
+        "en": "La Clé publique — High-school movement: one in three minors held in custody is prosecuted (6 October 2026; in French)"
+      },
+      "url": "https://laclepublique.fr/national/articles/2026/2026-10-06-lyceens-police-justice/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "basta-interpellations-lyceens-2026": {
+      "title": {
+        "fr": "Basta! — Mouvement lycéen : plus de 6 500 interpellations et des centaines d'adolescents traumatisés par leurs gardes à vue (8 octobre 2026, mis à jour le 4 novembre)",
+        "en": "Basta! — High-school movement: over 6,500 arrests and hundreds of teenagers traumatised by their custody (8 October 2026, updated 4 November; in French)"
+      },
+      "url": "https://basta.media/Mouvement-lyceen-6500-interpellations-adolescents-traumatises-garde-a-vue",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "orange-nunez-grenades-assourdissantes-2026": {
+      "title": {
+        "fr": "Orange / L'Express — Mobilisation des lycéens : Laurent Nuñez suspend l'usage des grenades assourdissantes (7 octobre 2026)",
+        "en": "Orange / L'Express — Student mobilisation: Laurent Nuñez suspends the use of stun grenades (7 October 2026; in French)"
+      },
+      "url": "https://actu.orange.fr/france/mobilisation-des-lyceens-laurent-nunez-suspend-l-usage-des-grenades-assourdissantes-magic-CNT000002snusk.html",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "brut-nunez-grenades-assourdissantes-2026": {
+      "title": {
+        "fr": "Brut (texte AFP) — Face au mouvement lycéen, Nuñez suspend l'usage des grenades assourdissantes (octobre 2026)",
+        "en": "Brut (AFP text) — Facing the student movement, Nuñez suspends the use of stun grenades (October 2026; in French)"
+      },
+      "url": "https://brut-5857f8.brut.media/fr/articles/face-au-mouvement-lyceen-nunez-suspend-l-usage-des-grenades-assourdissantes",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "pandore-nunez-grenades-assourdissantes-2026": {
+      "title": {
+        "fr": "Le Pandore et la Gendarmerie (site d'information locale) — Laurent Nuñez suspend les grenades assourdissantes face aux lycéens (12 octobre 2026)",
+        "en": "Le Pandore et la Gendarmerie (local news site) — Laurent Nuñez suspends stun grenades facing high-school students (12 October 2026; in French)"
+      },
+      "url": "https://www.pandore-gendarmerie.org/laurent-nunez-suspend-grenades-assourdissantes-mouvement-lyceen/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
