@@ -6422,6 +6422,42 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "lcp-petition-cnews-classement-2026": {
+      "title": {
+        "fr": "LCP — Pétition contre CNews : la commission classe le texte et demande un débat plus large dans l'hémicycle (10 novembre 2026)",
+        "en": "LCP — Petition against CNews: the committee files the text and asks for a wider debate in the chamber (10 November 2026; in French)"
+      },
+      "url": "https://lcp.fr/actualites/petition-contre-cnews-la-commission-classe-le-texte-et-demande-un-debat-plus-large-dans",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "pressecitron-petition-cnews-2026": {
+      "title": {
+        "fr": "Presse-citron — Pétition anti-CNews : malgré un million de signatures, pourquoi la chaîne ne fermera pas (9 novembre 2026)",
+        "en": "Presse-citron — Anti-CNews petition: despite a million signatures, why the channel will not close (9 November 2026; in French)"
+      },
+      "url": "https://presse-citron.net/petition-anti-cnews-malgre-million-signatures-pourquoi-chaine-fermera-pas",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubdesjuristes-petition-cnews-2026": {
+      "title": {
+        "fr": "Club des juristes — Pétition pour la suppression de CNews : quelles suites possibles ? (10 novembre 2026)",
+        "en": "Club des juristes — Petition to remove CNews: what follow-up is possible? (10 November 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/droit/petition-pour-la-suppression-de-cnews-quelles-suites-possibles-18334/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

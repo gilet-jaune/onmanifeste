@@ -2073,6 +2073,31 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    {
+      "id": "2026-petition-supprimer-cnews-classee",
+      "date": "2026-11-10",
+      "title": {
+        "fr": "Pétition « Supprimer CNews » : plus d'un million de signatures, classée en commission",
+        "en": "'Remove CNews' petition: over a million signatures, filed by committee"
+      },
+      "kind": "deni-democratique",
+      "url": "https://lcp.fr/actualites/petition-contre-cnews-la-commission-classe-le-texte-et-demande-un-debat-plus-large-dans",
+      "description": {
+        "fr": "Déposée le 10 juin 2026 sur le site de pétitions de l'Assemblée nationale, la pétition n° 5820 demande la suppression de CNews de l'audiovisuel français et dépasse le million de signatures. Le 10 novembre 2026, la commission des affaires culturelles, réunie à 13 h, vote son classement par 28 voix contre 25 (résultat publié par LCP à 14 h 23), sur proposition du rapporteur Alexandre Portier (LR), qui demande à la place un débat plus large en séance publique sur la presse, la liberté d'expression et la régulation des médias ; la Conférence des présidents doit décider de l'organiser ou non. Une pétition n'ouvre aucun recours et l'Assemblée n'a pas à motiver sa décision ; seule l'Arcom peut agir sur l'autorisation de diffusion d'une chaîne. Des pétitions en sens inverse, pour défendre CNews, ont aussi été déposées.",
+        "en": "Filed on 10 June 2026 on the National Assembly's petitions site, petition no. 5820 asks for CNews to be removed from French broadcasting and passes one million signatures. On 10 November 2026 the cultural affairs committee, meeting at 1 pm, votes to file it, by 28 votes to 25 (result published by LCP at 2:23 pm), on the proposal of rapporteur Alexandre Portier (LR), who asks instead for a wider debate in the chamber on the press, freedom of expression and media regulation; the Conference of Presidents must decide whether to hold it. A petition opens no legal remedy and the Assembly does not have to give reasons for its decision; only the media regulator Arcom can act on a channel's broadcasting authorisation. Counter-petitions defending CNews have also been filed."
+      },
+      "related": ["2026-petition-contre-la-loi-duplomb"],
+      "evidence": [
+        "lcp-petition-cnews-classement-2026",
+        "pressecitron-petition-cnews-2026",
+        "clubdesjuristes-petition-cnews-2026"
+      ],
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   ]
 }
