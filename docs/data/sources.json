@@ -6770,6 +6770,78 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "ldh-communique-commun-jeunes-2026": {
+      "title": {
+        "fr": "LDH et 11 organisations — Stop à la répression des jeunes : l'école n'est pas un champ de bataille (communiqué commun du 5 octobre 2026)",
+        "en": "LDH and 11 organisations — Stop the repression of young people: school is not a battlefield (joint statement of 5 October 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/stop-a-la-repression-des-jeunes-lecole-nest-pas-un-champ-de-bataille-2/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-prefets-procureurs-2026": {
+      "title": {
+        "fr": "LDH — Mobilisations lycéennes : les préfets jouent les procureurs (4 novembre 2026)",
+        "en": "LDH — High-school mobilisations: prefects play prosecutors (4 November 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/mobilisations-lyceennes-les-prefets-jouent-les-procureurs/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "olm-police-municipale-montpellier-2026": {
+      "title": {
+        "fr": "Observatoire des libertés publiques de Montpellier — Rapport d'observation sur la place de la police municipale dans le maintien de l'ordre à Montpellier (septembre 2025 – octobre 2026)",
+        "en": "Montpellier Public Liberties Observatory — Observation report on the role of municipal police in policing demonstrations in Montpellier (September 2025 – October 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2026/10/Police-municipale-et-maintien-de-lordre-a-Montpellier.pdf",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "observatoires-sainte-soline-2025": {
+      "title": {
+        "fr": "Cinq observatoires des libertés publiques et des pratiques policières — Sainte-Soline : des informations inédites confirment des pratiques policières choquantes (communiqué, novembre 2025)",
+        "en": "Five public-liberties and police-practices observatories — Sainte-Soline: new information confirms shocking police practices (press release, November 2025; in French)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2025/11/CP-10-11-25.pdf",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-tribune-numerique-2026": {
+      "title": {
+        "fr": "LDH et une cinquantaine de signataires — Numérique : les politiques sécuritaires et liberticides n'ont jamais permis de lutter contre les violences (tribune du 12 février 2026)",
+        "en": "LDH and about fifty signatories — Digital: security-driven, freedom-restricting policies have never helped fight violence (op-ed of 12 February 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/numerique-les-politiques-securitaires-et-liberticides-nont-jamais-permis-de-lutter-contre-les-violences/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-hongrie-reconnaissance-faciale-2025": {
+      "title": {
+        "fr": "EDRi, ECNL, HCLU et 47 signataires dont la LDH — Il est temps d'agir maintenant : la Commission européenne doit défendre les droits fondamentaux en Hongrie (lettre ouverte du 24 juin 2025)",
+        "en": "EDRi, ECNL, HCLU and 47 signatories including the LDH — Time to act now: the European Commission must defend fundamental rights in Hungary (open letter of 24 June 2025; in French)"
+      },
+      "url": "https://www.ldh-france.org/il-est-temps-dagir-maintenant-la-commission-europeenne-doit-defendre-les-droits-fondamentaux-en-hongrie/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
