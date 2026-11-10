@@ -1731,6 +1731,26 @@
       }
     },
     {
+      "id": "2025-ia-interdiction-identification-biometrique-temps-reel",
+      "date": "2025-02-02",
+      "title": {
+        "fr": "Règlement sur l'IA : l'identification biométrique en temps réel dans l'espace public est interdite, avec trois exceptions",
+        "en": "AI Act: real-time biometric identification in public spaces is banned, with three exceptions"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1689",
+      "description": {
+        "fr": "Depuis le 2 février 2025, l'article 5 du règlement (UE) 2024/1689 interdit l'utilisation de systèmes d'identification biométrique à distance en temps réel dans les espaces accessibles au public à des fins répressives, sauf si elle est strictement nécessaire pour retrouver des victimes (enlèvement, traite, personnes disparues), prévenir une menace spécifique, substantielle et imminente ou une attaque terroriste, ou localiser un suspect d'une infraction grave (annexe II, au moins quatre ans de prison). Chaque usage exige l'autorisation préalable d'une autorité judiciaire ou administrative indépendante (sauf urgence) et une analyse d'impact sur les droits fondamentaux. Le texte ne cite pas les manifestations et exclut de son champ la sécurité nationale (art. 2) ; l'ONG EDRi alertait dès 2023, pendant les négociations, sur le risque de contournement des règles par ce biais.",
+        "en": "Since 2 February 2025, Article 5 of Regulation (EU) 2024/1689 bans the use of real-time remote biometric identification in publicly accessible spaces for law enforcement, unless strictly necessary to find victims (abduction, trafficking, missing persons), prevent a specific, substantial and imminent threat or a terrorist attack, or locate a suspect of a serious offence (Annex II, at least four years' imprisonment). Each use requires prior authorisation by a judicial or independent administrative authority (except in urgent cases) and a fundamental-rights impact assessment. The text does not mention demonstrations and excludes national security from its scope (Art. 2); the NGO EDRi warned in 2023, during the negotiations, that this could be used to circumvent the rules."
+      },
+      "evidence": ["eurlex-reglement-2024-1689", "edri-ia-securite-nationale-2023"],
+      "kind": "securite-libertes",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-cahiers-de-doleances-six-ans",
       "date": "2025-03-11",
       "title": {
@@ -1809,6 +1829,46 @@
       "evidence": ["publicsenat-conclave-2025", "lemondedudroit-suspension-retraites"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2025-feuille-de-route-acces-aux-donnees-protecteu",
+      "date": "2025-06-24",
+      "title": {
+        "fr": "ProtectEU : la Commission publie sa feuille de route sur l'accès aux données, y compris chiffrées",
+        "en": "ProtectEU: the Commission publishes its roadmap on access to data, including encrypted data"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52025DC0349",
+      "description": {
+        "fr": "La communication COM(2025) 349 est un plan, pas une loi. La Commission annonce une analyse d'impact pour actualiser, s'il y a lieu, les règles de conservation des données, charge un groupe d'experts de préparer une feuille de route technologique sur le chiffrement pour un accès licite aux données chiffrées « tout en préservant la cybersécurité et les droits fondamentaux », et veut soutenir la recherche pour qu'Europol puisse déchiffrer après 2030. Elle rapporte la recommandation du groupe de haut niveau de ne pas affaiblir le chiffrement de façon généralisée ou systémique, l'accès devant rester ciblé. L'ONG EDRi y voit une porte ouverte à des portes dérobées. Nous n'avons pas trouvé de proposition législative publiée à ce jour (vérification non exhaustive).",
+        "en": "Communication COM(2025) 349 is a plan, not a law. The Commission announces an impact assessment to update, where appropriate, data-retention rules, tasks an expert group with preparing a technology roadmap on encryption for lawful access to encrypted data 'while preserving cybersecurity and fundamental rights', and wants to support research so that Europol can decrypt after 2030. It reports the high-level group's recommendation not to weaken encryption across the board or systemically, access remaining targeted. The NGO EDRi sees this as opening the door to backdoors. We found no legislative proposal published to date (non-exhaustive check)."
+      },
+      "evidence": ["eurlex-com-2025-349", "edri-protecteu-2025"],
+      "kind": "securite-libertes",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2025-liberte-des-medias-protection-des-sources-et-logiciels-espions",
+      "date": "2025-08-08",
+      "title": {
+        "fr": "Loi européenne sur la liberté des médias : protection des sources et limites aux logiciels espions",
+        "en": "European Media Freedom Act: protection of sources and limits on spyware"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1083",
+      "description": {
+        "fr": "Le règlement (UE) 2024/1083 s'applique depuis le 8 août 2025 (certaines dispositions de l'article 4 dès février 2025). Son article 4 interdit aux États d'obliger les journalistes à révéler leurs sources, de les détenir, sanctionner, perquisitionner ou surveiller pour les obtenir, ou de déployer un logiciel espion intrusif sur leurs appareils. Des dérogations sont possibles si elles sont prévues par la loi, justifiées au cas par cas par une raison impérieuse d'intérêt général, proportionnées et autorisées au préalable par une autorité judiciaire ou indépendante (a posteriori en cas d'urgence) ; le logiciel espion n'est permis que pour des infractions graves (au moins trois ou cinq ans de prison selon les cas). La Fédération européenne des journalistes salue ce progrès mais juge qu'il reste « un long chemin » avant sa mise en œuvre dans la plupart des États. Nous n'avons pas vérifié son application en France.",
+        "en": "Regulation (EU) 2024/1083 has applied since 8 August 2025 (some provisions of Article 4 from February 2025). Article 4 bars States from forcing journalists to reveal their sources, detaining, sanctioning, searching or surveilling them to obtain them, or deploying intrusive spyware on their devices. Exceptions are possible if provided by law, justified case by case by an overriding reason of public interest, proportionate and authorised in advance by a judicial or independent authority (afterwards in urgent cases); spyware is allowed only for serious offences (at least three or five years' imprisonment depending on the case). The European Federation of Journalists welcomes this step but says there is 'a long way' to go before implementation in most States. We have not checked its application in France."
+      },
+      "evidence": ["eurlex-reglement-2024-1083", "efj-emfa-2025"],
+      "kind": "securite-libertes",
+      "check": {
+        "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1931,6 +1991,26 @@
       }
     },
     {
+      "id": "2026-chat-control-derogation-temporaire-chiffrement",
+      "date": "2026-07-24",
+      "title": {
+        "fr": "« Chat Control » : un règlement temporaire relance l'analyse des messageries, le texte permanent reste en négociation",
+        "en": "'Chat Control': a temporary regulation revives message scanning, the permanent text is still under negotiation"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1881",
+      "description": {
+        "fr": "Le règlement (UE) 2026/1881, signé le 24 juillet 2026 et valable jusqu'au 3 avril 2028, institue une dérogation temporaire à la directive ePrivacy pour la lutte contre les abus sexuels sur enfants en ligne. Selon l'ONG EDRi, il permet de nouveau aux fournisseurs d'analyser des messages privés après l'expiration du régime précédent début avril 2026 ; le Parlement avait refusé de le prolonger le 26 mars 2026. Le considérant 32 précise qu'aucune disposition ne doit être interprétée comme une interdiction ou un affaiblissement du chiffrement de bout en bout. Le règlement permanent proposé par la Commission le 11 mai 2022 est toujours en négociation.",
+        "en": "Regulation (EU) 2026/1881, signed on 24 July 2026 and valid until 3 April 2028, sets up a temporary derogation from the ePrivacy Directive for combating online child sexual abuse. According to the NGO EDRi, it again allows providers to scan private messages after the previous regime expired in early April 2026; Parliament had refused to extend it on 26 March 2026. Recital 32 states that nothing in it should be read as banning or weakening end-to-end encryption. The permanent regulation proposed by the Commission on 11 May 2022 is still under negotiation."
+      },
+      "evidence": ["eurlex-reglement-2026-1881", "edri-chat-control-2026", "oeil-csar-2022"],
+      "kind": "securite-libertes",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-loi-ripost-videosurveillance-algorithmique-jusqu-en-2030",
       "date": "2026-08-14",
       "title": {
@@ -1948,6 +2028,31 @@
       "evidence": ["cc-2026-915", "fnms-ripost-promulgation-2026"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-e-evidence-injonctions-europeennes-de-production",
+      "date": "2026-08-18",
+      "title": {
+        "fr": "e-Evidence : les injonctions européennes de production de preuves électroniques s'appliquent",
+        "en": "e-Evidence: European production orders for electronic evidence start to apply"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R1543",
+      "description": {
+        "fr": "Depuis le 18 août 2026, le règlement (UE) 2023/1543 permet à un juge ou à un procureur d'un pays de l'UE d'exiger directement d'un prestataire d'un autre pays des données pour une procédure pénale, sous dix jours (huit heures en urgence). Pour le contenu et le trafic, l'ordre émane d'un juge ou est validé par un juge, pour des infractions punies d'au moins trois ans de prison (ou certaines infractions numériques), avec notification de l'État d'exécution, qui peut refuser pour immunités, liberté de la presse ou violation manifeste d'un droit fondamental. Le texte n'impose pas de déchiffrer. EDRi (2023) juge la notification peu efficace et le secret professionnel mal protégé ; un avocat (2026) estime le recours « amputé ». En France, le Club des juristes note en octobre 2026 que le système n'est pas encore mis en œuvre. Aucune source ne relie ce règlement aux manifestations.",
+        "en": "Since 18 August 2026, Regulation (EU) 2023/1543 lets a judge or prosecutor in one EU country demand data directly from a provider in another country for criminal proceedings, within ten days (eight hours in urgent cases). For content and traffic data, the order comes from a judge or is validated by one, for offences punishable by at least three years' imprisonment (or certain cyber offences), with notification of the enforcing State, which may refuse on grounds of immunities, press freedom or a manifest breach of a fundamental right. The text does not require decryption. EDRi (2023) finds the notification ineffective and professional secrecy poorly protected; a lawyer (2026) calls the remedy 'amputated'. In France, the Club des juristes notes in October 2026 that the system is not yet implemented. No source links this regulation to demonstrations."
+      },
+      "evidence": [
+        "eurlex-reglement-2023-1543",
+        "edri-eevidence-compromis-2023",
+        "villagejustice-eevidence-defense-2026",
+        "clubjuristes-eevidence-france-2026"
+      ],
+      "kind": "securite-libertes",
+      "check": {
+        "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1983,15 +2088,20 @@
       "kind": "mouvement-social",
       "url": "https://www.amnesty.fr/actualites/france-mouvement-lyceens-blocus-lycees-point-sur-la-situation/",
       "description": {
-        "fr": "Blocus de lycées pour plus d'enseignant·es et de moyens ; des milliers de gardes à vue, très majoritairement de mineur·es.",
-        "en": "School blockades for more teachers and resources; thousands taken into custody, mostly minors."
+        "fr": "Blocus de lycées pour plus d'enseignant·es et de moyens. Bilan annoncé mi-octobre 2026 : 7 950 gardes à vue, dont 6 773 mineur·es et 1 177 majeur·es, 2 735 poursuites, 2 225 alternatives aux poursuites et 1 263 classements sans suite (chiffres attribués au ministère de la Justice, période non précisée). Le Défenseur des droits parle d'une ampleur « inédite » des interpellations. Pour la mobilisation élargie depuis le 17 octobre, le garde des Sceaux annonce le 3 novembre 4 914 gardes à vue (dont 30 % de mineur·es) : ces chiffres ne se comparent pas, car périodes et périmètres diffèrent.",
+        "en": "High-school blockades for more teachers and resources. Figures announced in mid-October 2026: 7,950 police custodies, 6,773 of them minors and 1,177 adults, 2,735 prosecutions, 2,225 alternatives to prosecution and 1,263 cases dropped (figures attributed to the Justice Ministry, period not specified). The Defender of Rights speaks of an 'unprecedented' scale of arrests. For the wider mobilisation since 17 October, the Justice Minister announces on 3 November 4,914 police custodies (30% of them minors): these figures are not comparable, because periods and scopes differ."
       },
       "guides": ["lyceens"],
       "check": {
         "date": "2026-10-28",
         "result": "confirmed",
         "by": "ai"
-      }
+      },
+      "evidence": [
+        "titrespresse-gav-lyceens-2026",
+        "ici-darmanin-gav-2026",
+        "ddd-mobilisations-lyceennes-2026"
+      ]
     },
     {
       "id": "2026-manifestations-des-17-et-24-octobre",

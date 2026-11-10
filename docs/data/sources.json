@@ -6482,6 +6482,234 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "eurlex-reglement-2023-1543": {
+      "title": {
+        "fr": "EUR-Lex — Règlement (UE) 2023/1543 relatif aux injonctions européennes de production et de conservation de preuves électroniques en matière pénale",
+        "en": "EUR-Lex — Regulation (EU) 2023/1543 on European Production and Preservation Orders for electronic evidence in criminal proceedings (in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32023R1543",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "edri-eevidence-compromis-2023": {
+      "title": {
+        "fr": "EDRi — e-Evidence compromise blows a hole in fundamental rights safeguards (7 février 2023)",
+        "en": "EDRi — e-Evidence compromise blows a hole in fundamental rights safeguards (7 February 2023)"
+      },
+      "url": "https://edri.org/our-work/e-evidence-compromise-blows-a-hole-in-fundamental-rights-safeguards/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-eevidence-france-2026": {
+      "title": {
+        "fr": "Le Club des juristes — E-evidence : où en est la France dans l'accès aux preuves électroniques ? (13 octobre 2026)",
+        "en": "Le Club des juristes — E-evidence: where does France stand on access to electronic evidence? (13 October 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/societe/numerique/e-evidence-ou-en-est-la-france-dans-lacces-aux-preuves-electroniques-17804/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "villagejustice-eevidence-defense-2026": {
+      "title": {
+        "fr": "Village de la Justice — Règlement e-Evidence et coopération judiciaire pénale : premières observations pour la défense (17 août 2026)",
+        "en": "Village de la Justice — e-Evidence Regulation and criminal judicial cooperation: first observations for the defence (17 August 2026; in French)"
+      },
+      "url": "https://www.village-justice.com/articles/contentieux-sky-ecc-reglement-evidence-vers-nouveau-droit-europeen-preuve,58605.html",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-reglement-2024-1689": {
+      "title": {
+        "fr": "EUR-Lex — Règlement (UE) 2024/1689 établissant des règles harmonisées concernant l'intelligence artificielle (art. 2, 5 et 113)",
+        "en": "EUR-Lex — Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (art. 2, 5 and 113; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1689",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "edri-ia-securite-nationale-2023": {
+      "title": {
+        "fr": "EDRi — Potential loopholes in the AI Act could allow use of intrusive tech on national security grounds (27 septembre 2023, pendant les négociations)",
+        "en": "EDRi — Potential loopholes in the AI Act could allow use of intrusive tech on national security grounds (27 September 2023, during the negotiations)"
+      },
+      "url": "https://edri.org/our-work/potential-loopholes-in-the-ai-act-could-allow-use-of-intrusive-tech-on-national-security-grounds/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-reglement-2024-1083": {
+      "title": {
+        "fr": "EUR-Lex — Règlement (UE) 2024/1083 établissant un cadre commun pour les services de médias (loi européenne sur la liberté des médias, art. 4 et 29)",
+        "en": "EUR-Lex — Regulation (EU) 2024/1083 establishing a common framework for media services (European Media Freedom Act, art. 4 and 29; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1083",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "efj-emfa-2025": {
+      "title": {
+        "fr": "Fédération européenne des journalistes — Now in force, the EMFA must become a reality for journalists (8 août 2025)",
+        "en": "European Federation of Journalists — Now in force, the EMFA must become a reality for journalists (8 August 2025)"
+      },
+      "url": "https://europeanjournalists.org/blog/2025/08/08/now-in-force-the-emfa-must-become-a-reality-for-journalists/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-reglement-2026-1881": {
+      "title": {
+        "fr": "EUR-Lex — Règlement (UE) 2026/1881 du 24 juillet 2026 : dérogation temporaire à la directive 2002/58/CE pour la lutte contre les abus sexuels commis contre des enfants en ligne",
+        "en": "EUR-Lex — Regulation (EU) 2026/1881 of 24 July 2026: temporary derogation from Directive 2002/58/EC for combating online child sexual abuse (in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1881",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "edri-chat-control-2026": {
+      "title": {
+        "fr": "EDRi — The « Chat Control 1.0 » saga (4 août 2026)",
+        "en": "EDRi — The \"Chat Control 1.0\" saga (4 August 2026)"
+      },
+      "url": "https://edri.org/our-work/the-chat-control-1-0-saga-big-tech-can-scan-our-private-messages-again-but-parliament-sent-a-strong-signal-against-mass-surveillance/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "oeil-csar-2022": {
+      "title": {
+        "fr": "Parlement européen, Observatoire législatif — Procédure 2022/0155(COD) : lutte contre les abus sexuels sur des enfants en ligne",
+        "en": "European Parliament, Legislative Observatory — Procedure 2022/0155(COD): combating child sexual abuse online"
+      },
+      "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2022/0155(COD)",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-com-2025-349": {
+      "title": {
+        "fr": "Commission européenne — Feuille de route pour un accès licite et effectif aux données à des fins répressives, COM(2025) 349 (24 juin 2025)",
+        "en": "European Commission — Roadmap for lawful and effective access to data for law enforcement, COM(2025) 349 (24 June 2025; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:52025DC0349",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "edri-protecteu-2025": {
+      "title": {
+        "fr": "EDRi — « ProtectEU » security strategy: a step further towards a digital dystopian future (30 avril 2025)",
+        "en": "EDRi — \"ProtectEU\" security strategy: a step further towards a digital dystopian future (30 April 2025)"
+      },
+      "url": "https://edri.org/our-work/protecteu-security-strategy-a-step-further-towards-a-digital-dystopian-future/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cncdh-casseurs-payeurs-2026": {
+      "title": {
+        "fr": "CNCDH — Projet de loi dit « casseurs-payeurs » : un risque d'arbitraire (lettre du 23 octobre 2026)",
+        "en": "CNCDH — So-called \"casseurs-payeurs\" bill: a risk of arbitrariness (letter of 23 October 2026; in French)"
+      },
+      "url": "https://www.cncdh.fr/publications/projet-de-loi-dit-casseurs-payeurs-un-risque-darbitraire",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-casseurs-payeurs-2026": {
+      "title": {
+        "fr": "Amnesty International France — Le projet de loi « casseurs-payeurs » violerait les obligations internationales de la France et doit être rejeté (26 octobre 2026)",
+        "en": "Amnesty International France — The \"casseurs-payeurs\" bill would breach France's international obligations and must be rejected (26 October 2026; in French)"
+      },
+      "url": "https://www.amnesty.fr/communiques/le-projet-de-loi-casseurs-payeurs-doit-etre-rejete/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-tribune-casseurs-payeurs-2026": {
+      "title": {
+        "fr": "LDH — Tribune collective : « Le projet de loi casseurs-payeurs créerait un risque financier pour toute personne se rendant dans une manifestation » (23 octobre 2026)",
+        "en": "LDH — Collective op-ed: \"The casseurs-payeurs bill would create a financial risk for anyone going to a demonstration\" (23 October 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/23-octobre-2026-tribune-collective-le-projet-de-loi-casseurs-payeurs-creerait-un-risque-financier-pour-toute-personne-se-rendant-dans-une-manifestation-publiee-sur-le/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "titrespresse-gav-lyceens-2026": {
+      "title": {
+        "fr": "Titres de presse (d'après Libération) — Manifestations de lycéens : 7 950 gardes à vue dont une large majorité de mineurs, annonce le ministère de la Justice (mi-octobre 2026)",
+        "en": "Titres de presse (from Libération) — High-school protests: 7,950 police custodies, a large majority minors, announces the Justice Ministry (mid-October 2026; in French)"
+      },
+      "url": "https://www.titrespresse.com/25161002603/manifestations-lyceens-gardes",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ici-darmanin-gav-2026": {
+      "title": {
+        "fr": "ICI (Radio France, dépêche AFP) — Mobilisations sociales : près de 5 000 gardes à vue et 329 personnes incarcérées depuis le 17 octobre (3 novembre 2026)",
+        "en": "ICI (Radio France, AFP wire) — Social protests: nearly 5,000 police custodies and 329 people jailed since 17 October (3 November 2026; in French)"
+      },
+      "url": "https://www.ici.fr/infos/faits-divers-justice/mobilisations-sociales-pres-de-5-000-gardes-a-vue-et-329-personnes-incarcerees-depuis-le-17-octobre-6054731",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ddd-mobilisations-lyceennes-2026": {
+      "title": {
+        "fr": "Défenseur des droits — Mobilisations lycéennes : le Défenseur des droits appelle à respecter les droits de l'enfant (23 octobre 2026)",
+        "en": "Defender of Rights — High-school mobilisations: the Defender of Rights calls for respect of children's rights (23 October 2026; in French)"
+      },
+      "url": "https://www.defenseurdesdroits.fr/mobilisations-lyceennes-le-defenseur-des-droits-appelle-respecter-les-droits-de-lenfant-1254",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
