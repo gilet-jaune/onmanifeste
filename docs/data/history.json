@@ -1075,6 +1075,27 @@
       }
     },
     {
+      "id": "2018-gendarmerie-blindes-vbrg-gilets-jaunes",
+      "date": "2018-12-08",
+      "title": {
+        "fr": "Gilets jaunes : la gendarmerie engage ses blindés en métropole",
+        "en": "Yellow vests: the gendarmerie deploys its armoured vehicles in mainland France"
+      },
+      "url": "https://www.gendarmerie.interieur.gouv.fr/gendinfo/temoignages/centaure-vbrg-un-parc-blinde-polyvalent-operationnel-en-metropole-et-en-outre-mer",
+      "description": {
+        "fr": "Après la prise d'assaut de l'Arc de Triomphe le 1er décembre 2018, l'ordre est donné le 8 décembre de déployer la composante blindée de la gendarmerie : une vingtaine d'engins (VBRG), dont quatorze à Paris et les autres à Marseille, Toulouse et Montpellier. Selon la gendarmerie, ces véhicules étaient jusque-là rarement employés en métropole, contrairement à l'Outre-mer. Leur engagement est décidé au niveau du Premier ministre, puis les préfets de zone fixent les missions ; la doctrine officielle repose sur la gradation, la proportionnalité et le maintien à distance. Le successeur du VBRG, le Centaure, est commandé à 90 exemplaires à partir de 2021. Nous n'avons pas trouvé de source indépendante sur les effets de ces engagements en 2018.",
+        "en": "After the Arc de Triomphe was stormed on 1 December 2018, the order is given on 8 December to deploy the gendarmerie's armoured component: about twenty vehicles (VBRG), fourteen of them in Paris and the others in Marseille, Toulouse and Montpellier. According to the gendarmerie, these vehicles were until then rarely used in mainland France, unlike overseas. Their use is decided at Prime Minister level, then zone prefects set the missions; official doctrine rests on gradation, proportionality and keeping at a distance. The VBRG's successor, the Centaure, is ordered in 90 units from 2021. We found no independent source on the effects of these deployments in 2018."
+      },
+      "related": ["2018-gilets-jaunes"],
+      "evidence": ["gendinfo-centaure-vbrg-2025"],
+      "kind": "repression",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2019-castaner-aucun-policier-n-a",
       "date": "2019-01-16",
       "title": {
@@ -2201,6 +2222,31 @@
       "evidence": ["ohchr-france-etudiants-2026"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-bordeaux-avertisseur-sonore-centaure",
+      "date": "2026-11-07",
+      "title": {
+        "fr": "Bordeaux : polémique sur un avertisseur sonore de blindé, démentie par la gendarmerie",
+        "en": "Bordeaux: dispute over an armoured vehicle siren, denied by the gendarmerie"
+      },
+      "url": "https://www.gendarmerie.interieur.gouv.fr/gendinfo/vrai-faux/vrai-faux-non-la-gendarmerie-nationale-n-utilise-pas-de-canons-a-son",
+      "description": {
+        "fr": "Lors de la manifestation contre la vie chère du 7 novembre 2026 à Bordeaux, une vidéo diffusée sur X fait craindre l'usage d'un canon à son de type LRAD. Le 9 novembre, la gendarmerie répond qu'il s'agit de l'avertisseur sonore des véhicules Centaure, soumis au même cadre que les autres sirènes, et qu'elle ne possède pas de LRAD. Le ministère de l'Intérieur avait indiqué le 25 juin 2026, en réponse à une question sénatoriale, que les forces n'utilisent pas de LRAD en opération sur la voie publique et décrit un dispositif filmé en 2021 comme un mégaphone doté d'un signal de type sirène. Ce démenti vise le LRAD, pas tout dispositif sonore. Amnesty International France écrit de son côté que le gouvernement nie tout usage d'armes acoustiques. Nous n'avons trouvé ni étude indépendante sur les effets de ces avertisseurs, ni source indépendante sur ce qui s'est passé à Bordeaux.",
+        "en": "At the cost-of-living demonstration in Bordeaux on 7 November 2026, a video posted on X raises fears of a LRAD-type sound cannon. On 9 November the gendarmerie replies that it is the siren fitted to Centaure vehicles, subject to the same rules as other sirens, and that it owns no LRAD. The Interior Ministry had stated on 25 June 2026, answering a Senate question, that the forces do not use LRADs in street operations, and described a device filmed in 2021 as a megaphone with a siren-type signal. This denial covers the LRAD, not every sound device. Amnesty International France writes that the government denies any use of acoustic weapons. We found no independent study of the effects of these sirens, and no independent source on what happened in Bordeaux."
+      },
+      "related": ["2026-manifestations-des-17-et-24-octobre"],
+      "evidence": [
+        "gendinfo-vrai-faux-canons-a-son-2026",
+        "senat-question-lrad-2026",
+        "amnesty-armes-soniques-deni-2025"
+      ],
+      "kind": "repression",
+      "check": {
+        "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
       }

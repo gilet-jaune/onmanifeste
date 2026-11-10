@@ -6710,6 +6710,66 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "gendinfo-centaure-vbrg-2025": {
+      "title": {
+        "fr": "Gendarmerie nationale (Gendinfo) — Centaure - VBRG : un parc blindé polyvalent, opérationnel en métropole et en Outre-mer (11 juillet 2025)",
+        "en": "Gendarmerie nationale (Gendinfo) — Centaure - VBRG: a versatile armoured fleet, operational in mainland France and overseas (11 July 2025; in French)"
+      },
+      "url": "https://www.gendarmerie.interieur.gouv.fr/gendinfo/temoignages/centaure-vbrg-un-parc-blinde-polyvalent-operationnel-en-metropole-et-en-outre-mer",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "gendinfo-vrai-faux-canons-a-son-2026": {
+      "title": {
+        "fr": "Gendarmerie nationale (Gendinfo) — Vrai / Faux : Non, la Gendarmerie nationale n'utilise pas de canons à son (9 novembre 2026)",
+        "en": "Gendarmerie nationale (Gendinfo) — True / False: No, the Gendarmerie does not use sound cannons (9 November 2026; in French)"
+      },
+      "url": "https://www.gendarmerie.interieur.gouv.fr/gendinfo/vrai-faux/vrai-faux-non-la-gendarmerie-nationale-n-utilise-pas-de-canons-a-son",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-question-lrad-2026": {
+      "title": {
+        "fr": "Sénat — Question écrite n° 06768 (Didier Marie, 20 novembre 2025) et réponse du ministère de l'Intérieur (25 juin 2026) : réglementation des armes soniques",
+        "en": "Senate — Written question no. 06768 (Didier Marie, 20 November 2025) and Interior Ministry answer (25 June 2026): regulation of sonic weapons (in French)"
+      },
+      "url": "https://www.senat.fr/questions/base/2025/qSEQ251106768.html",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-armes-soniques-deni-2025": {
+      "title": {
+        "fr": "Amnesty International France — Armes soniques : le déni (La Chronique, 2025)",
+        "en": "Amnesty International France — Sonic weapons: the denial (La Chronique, 2025; in French)"
+      },
+      "url": "https://www.amnesty.fr/chronique/armes-soniques-le-deni/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "politis-centaure-mitrailleuses-2022": {
+      "title": {
+        "fr": "Politis — Maintien de l'ordre : des mitrailleuses sur 90 blindés commandés par la gendarmerie (26 juillet 2022)",
+        "en": "Politis — Policing: machine guns on 90 armoured vehicles ordered by the gendarmerie (26 July 2022; in French)"
+      },
+      "url": "https://www.politis.fr/articles/2022/07/maintien-de-lordre-des-mitrailleuses-sur-90-blindes-commandes-par-la-gendarmerie-44723/",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
