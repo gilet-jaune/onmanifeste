@@ -85,6 +85,18 @@ L'objection typique après un attentat : « Critiquez-les tant que vous voulez, 
 
 Pour parler à un·e policier·ère ou gendarme : [Pourquoi nous rejoindre ?](../rallier/index.md).
 
+## « Les jeunes ne veulent plus travailler » (et « vous avez tout eu »)
+
+Une discussion qui revient souvent : « de mon temps, on s'est sacrifié », répond « vous avez eu plus facile ». Ne cherchez pas à départager les générations : **chaque camp dit une part de vrai**, et des chiffres officiels aident à le montrer sans se disputer.
+
+- **Commencez par reconnaître l'effort.** Beaucoup de personnes ont travaillé dur toute leur vie, et ce n'est pas ce qu'on conteste. On peut respecter ce travail et refuser qu'il devienne une obligation pour d'autres.
+- **« Ils ne veulent plus travailler » : les chiffres disent autre chose.** En 2025, 34,5 % des 15-24 ans ont un emploi (au sens du BIT : au moins une heure travaillée), soit 4,6 points de plus qu'en 2019, et 30,5 % de ceux qui travaillent sont en alternance ou en stage. Mais seuls 39,8 % ont un CDI (76,2 % chez les 25 ans et plus) et 19,8 % des actifs de 15-24 ans sont au chômage.[^insee-premiere-2096-emploi-2025] Les jeunes travaillent, souvent dans des emplois moins stables.
+- **« Avec un SMIC, on vivait mieux » : vrai en partie.** Depuis mars 1990, le SMIC horaire brut a été multiplié par 2,6 et les prix par 1,8, soit environ 40 % de pouvoir d'achat brut en plus (calcul à partir des indices publiés).[^insee-smic-2026] Mais, de 2001 à 2020, les prix des logements anciens ont été multipliés par 2,3 en métropole, contre 1,3 à 1,4 pour les prix à la consommation, les loyers et le revenu disponible des ménages.[^insee-logement-revenus-2021] Le SMIC achète davantage de biens courants, mais le logement a nettement plus augmenté que les revenus (séries arrêtées au deuxième trimestre 2020).
+- **« Les retraités ont tout eu » : un raccourci.** D'après le COR (février 2026, document de travail), le niveau de vie des retraités est en 2023 comparable à celui de l'ensemble de la population : 6,5 % plus élevé avec les loyers imputés, car ils sont plus souvent propriétaires. Leur taux de pauvreté est de 10,5 %, contre 15,4 % pour l'ensemble et 21,9 % pour les moins de 18 ans. Leur niveau de vie relatif est stable depuis 1996 après une forte hausse depuis 1970, et devrait diminuer à long terme.[^cor-niveau-vie-retraites-2026]
+- **Ce sont des moyennes.** Elles cachent de grands écarts (région, diplôme, patrimoine, âge à l'intérieur des retraités) : dites « en moyenne », donnez l'année et la source.
+- **Ramenez la discussion aux causes communes.** Salaires, logement et services publics concernent plusieurs générations à la fois ; c'est ce que montrent les [profils](../rallier/index.md) selon la situation de chacun·e.
+- **Posez la question plutôt que la réponse** : « Qu'est-ce qui te paraît juste, entre ce qu'on doit à son travail et ce qu'on doit à sa vie ? »
+
 ## Liens à partager
 
 Un lien court, lisible et sur ce site (pas de raccourcisseur qui inquiète ou qui piste), à envoyer avec un message bienveillant. Chacun ouvre les arguments sourcés pour ce profil :
@@ -99,6 +111,8 @@ Un lien court, lisible et sur ce site (pas de raccourcisseur qui inquiète ou qu
 
 Quand la discussion porte sur « qui possède les médias », « où passe l'argent public » ou « la fraude », appuyez-vous sur des observatoires indépendants et des rapports publics (cliquez sur un nom pour ouvrir sa **fiche de contact**) :
 
+- **Revenus, emploi, logement, retraites** : l'{{ res("insee", "INSEE") }} publie les statistiques officielles (regardez toujours l'année et la définition), et le {{ res("cor-retraites", "COR") }} celles sur les pensions et le niveau de vie des retraités.
+- **Prix et inflation** : l'{{ res("insee", "INSEE") }} publie chaque mois l'indice des prix à la consommation. D'après son estimation provisoire du 30 octobre 2026, les prix auraient augmenté de 3,4 % sur un an en octobre (énergie : +24,1 %, alimentation : +1,2 %) ; ces chiffres provisoires doivent être confirmés par les résultats définitifs du 13 novembre.[^insee-ipc-oct-2026-provisoire] Pour comparer avec d'autres pays européens, l'indice harmonisé (+3,8 % sur la même période) est celui à utiliser.
 - **Liens entre milliardaires et médias** : la carte {{ res("medias-qui-possede-quoi", "« Médias français : qui possède quoi ? »") }} (_Le Monde diplomatique_ & {{ res("acrimed", "Acrimed") }}) montre quels groupes industriels (luxe, BTP, armement, télécoms, transport maritime) détiennent les principaux journaux, chaînes et radios.
 - **Répartition du budget public et des impôts** : {{ res("fipeco", "FIPECO") }} (anciens magistrats de la Cour des comptes et cadres de l'INSEE) détaille en fiches accessibles d'où viennent les recettes publiques (poids de la TVA face à l'impôt sur le revenu et sur les sociétés) et où vont les dépenses.
 - **Aides publiques aux entreprises sans contrepartie (ex. CICE, CIR, exonérations)** : l'étude universitaire de référence de l'{{ res("ires-capitalisme-perfusion", "IRES (« Un capitalisme sous perfusion »)") }} recense l'ensemble des aides publiques aux entreprises (~157 Md€ en 2019, premier poste budgétaire) et leur absence de conditionnalité sociale ou écologique[^ires-capitalisme-perfusion], tandis que l'{{ res("observatoire-multinationales", "Observatoire des multinationales") }} suit les dividendes et plans sociaux des grands groupes bénéficiaires.

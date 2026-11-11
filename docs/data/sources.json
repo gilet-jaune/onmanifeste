@@ -6926,6 +6926,66 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "insee-smic-2026": {
+      "title": {
+        "fr": "INSEE — Salaire minimum interprofessionnel de croissance (Smic), édition de septembre 2026 : évolution du Smic et des prix depuis mars 1990",
+        "en": "INSEE — Minimum wage (Smic), September 2026 edition: evolution of the Smic and of prices since March 1990 (in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/1375188",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-logement-revenus-2021": {
+      "title": {
+        "fr": "INSEE — Prix des logements anciens et loyers, Revenus et patrimoine des ménages (édition 2021, séries jusqu'au deuxième trimestre 2020)",
+        "en": "INSEE — Prices of existing homes and rents, Household income and wealth (2021 edition, series to Q2 2020; in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/5371271?sommaire=5371304",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-premiere-2096-emploi-2025": {
+      "title": {
+        "fr": "INSEE — Une photographie du marché du travail en 2025, Insee Première n° 2096 (25 mars 2026)",
+        "en": "INSEE — A snapshot of the labour market in 2025, Insee Première no. 2096 (25 March 2026; in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/8901327",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cor-niveau-vie-retraites-2026": {
+      "title": {
+        "fr": "Conseil d'orientation des retraites — Le niveau de vie des retraités : décomposition et évolutions sur longue période (document de travail, séance du 5 février 2026)",
+        "en": "Pensions Advisory Council (COR) — Retirees' standard of living: breakdown and long-run trends (working paper, session of 5 February 2026; in French)"
+      },
+      "url": "https://www.cor-retraites.fr/sites/default/files/2026-02/Doc_02_Niveau%20vie%20des%20retrait%C3%A9s_SGCOR.pdf",
+      "check": {
+        "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-ipc-oct-2026-provisoire": {
+      "title": {
+        "fr": "INSEE — En octobre 2026, les prix à la consommation augmenteraient de 3,4 % sur un an, Informations rapides n° 266 (30 octobre 2026, résultats provisoires)",
+        "en": "INSEE — In October 2026, consumer prices should increase by 3.4% year on year, Informations rapides no. 266 (30 October 2026, provisional results; in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/9107965",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

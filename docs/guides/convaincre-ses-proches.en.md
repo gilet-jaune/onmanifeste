@@ -1,6 +1,6 @@
 ---
 description: 'Getting those close to you interested in the mobilisations: listening, shared values, lived stories.'
-source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
+source_commit: 56dbcd82b77677c67f923033bfc0cc98dc020091
 tags:
     - guides
     - dialogue
@@ -86,6 +86,18 @@ The typical objection after an attack: "Criticise them all you like, the day the
 
 To talk to a police officer or gendarme: [Why join us?](../rallier/index.md).
 
+## "Young people don't want to work any more" (and "you had it all")
+
+A conversation that keeps coming back: "in my day, we made sacrifices", answered by "you had it easier". Don't try to rank the generations: **each side says part of the truth**, and official figures help show it without arguing.
+
+- **Start by acknowledging the effort.** Many people worked hard all their lives, and that is not what is being challenged. You can respect that work and refuse to let it become an obligation for others.
+- **"They don't want to work": the figures say otherwise.** In 2025, 34.5% of 15-24 year-olds are in employment (ILO definition: at least one hour worked), 4.6 points more than in 2019, and 30.5% of those who work are in work-study or internships. But only 39.8% are on permanent contracts (76.2% among those aged 25 and over) and 19.8% of the active 15-24 year-olds are unemployed.[^insee-premiere-2096-emploi-2025] Young people work, often in less stable jobs.
+- **"With the minimum wage, life was better": partly true.** Since March 1990, the gross hourly minimum wage has been multiplied by 2.6 and prices by 1.8, about 40% more gross purchasing power (calculated from the published indices).[^insee-smic-2026] But from 2001 to 2020, existing-home prices were multiplied by 2.3 in mainland France, against 1.3 to 1.4 for consumer prices, rents and household disposable income.[^insee-logement-revenus-2021] The minimum wage buys more everyday goods, but housing rose much more than incomes (series ending in the second quarter of 2020).
+- **"Retirees had it all": a shortcut.** According to the COR (February 2026, working paper), retirees' standard of living in 2023 is comparable to that of the whole population: 6.5% higher once imputed rents are counted, because they are more often homeowners. Their poverty rate is 10.5%, against 15.4% for the whole population and 21.9% for under-18s. Their relative standard of living has been stable since 1996 after a sharp rise since 1970, and is expected to fall in the long run.[^cor-niveau-vie-retraites-2026]
+- **These are averages.** They hide large gaps (region, qualifications, wealth, age among retirees): say "on average", give the year and the source.
+- **Bring the discussion back to common causes.** Wages, housing and public services affect several generations at once; that is what the [profiles](../rallier/index.md) show, depending on each person's situation.
+- **Ask the question rather than give the answer**: "What seems fair to you, between what we owe to our work and what we owe to our life?"
+
 ## Links to share
 
 A short, readable link on this site (no shortener that worries people or tracks them), to send with a kind message. Each one opens the sourced arguments for that profile:
@@ -100,6 +112,8 @@ A short, readable link on this site (no shortener that worries people or tracks 
 
 When a conversation turns to "who owns the media", "where public money goes" or "benefit fraud", rely on independent observatories and public reports (click any name to open its **contact card**):
 
+- **Income, employment, housing, pensions**: {{ res("insee", "INSEE") }} publishes the official statistics (always check the year and the definition), and the {{ res("cor-retraites", "COR") }} those on pensions and retirees' standard of living.
+- **Prices and inflation**: {{ res("insee", "INSEE") }} publishes the consumer price index every month. According to its provisional estimate of 30 October 2026, prices rose 3.4% year on year in October (energy: +24.1%, food: +1.2%); these provisional figures are to be confirmed by the final results of 13 November.[^insee-ipc-oct-2026-provisoire] To compare with other European countries, use the harmonised index (+3.8% over the same period).
 - **Ties between billionaires and media outlets**: the chart {{ res("medias-qui-possede-quoi", "“French media: who owns what?”") }} (_Le Monde diplomatique_ & {{ res("acrimed", "Acrimed") }}) maps which industrial conglomerates (luxury goods, construction, defence, telecoms, shipping) own major newspapers, TV channels and radio stations.
 - **Public budget and tax breakdown**: {{ res("fipeco", "FIPECO") }} (former Court of Audit magistrates and INSEE statisticians) explains in plain-language sheets where public revenue comes from (the weight of VAT compared with income and corporate tax) and where spending goes.
 - **Unconditional corporate subsidies (e.g. CICE, R&D tax credit, social-contribution cuts)**: the reference academic study by {{ res("ires-capitalisme-perfusion", "IRES (“Capitalism on life support”)") }} catalogues all public subsidies to businesses (~€157bn in 2019, the largest budget item) and the lack of social or environmental conditions[^ires-capitalisme-perfusion], while the {{ res("observatoire-multinationales", "Observatoire des multinationales") }} tracks dividends and layoffs at major recipient corporations.
