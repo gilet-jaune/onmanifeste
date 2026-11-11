@@ -9,13 +9,14 @@ const warnings = [];
 const STALE_DAYS = 365; // same threshold as resources.json and the weekly maintenance report
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const kinds = Object.keys(data.kinds ?? {});
+const natures = Object.keys(data.natures ?? {});
 const sources = JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sources;
 
 let previous = '';
 const ids = new Set();
 (data.events ?? []).forEach((e, i) => {
   const at = `events[${i}] (${e.id ?? e.title?.fr ?? '?'})`;
-  for (const field of ['id', 'date', 'title', 'kind', 'url', 'description', 'check']) {
+  for (const field of ['id', 'date', 'title', 'kinds', 'url', 'description', 'check']) {
     if (e[field] === undefined) errors.push(`${at}: missing "${field}"`);
   }
   if (e.date && (!/^\d{4}-\d{2}-\d{2}$/.test(e.date) || Number.isNaN(Date.parse(e.date)))) {
@@ -31,7 +32,27 @@ const ids = new Set();
     ids.add(e.id);
   }
   if (e.title && (!e.title.fr || !e.title.en)) errors.push(`${at}: title needs fr and en`);
-  if (e.kind && !kinds.includes(e.kind)) errors.push(`${at}: unknown kind "${e.kind}"`);
+  if (e.natures !== undefined) {
+    if (!Array.isArray(e.natures) || e.natures.length === 0)
+      errors.push(`${at}: natures must be a non-empty list when present`);
+    else {
+      e.natures.forEach((n) => {
+        if (!natures.includes(n)) errors.push(`${at}: unknown nature "${n}"`);
+      });
+      if (new Set(e.natures).size !== e.natures.length)
+        errors.push(`${at}: natures has duplicates`);
+    }
+  }
+  if (e.kinds !== undefined) {
+    if (!Array.isArray(e.kinds) || e.kinds.length === 0)
+      errors.push(`${at}: kinds must be a non-empty list (the first is the main theme)`);
+    else {
+      e.kinds.forEach((k) => {
+        if (!kinds.includes(k)) errors.push(`${at}: unknown kind "${k}"`);
+      });
+      if (new Set(e.kinds).size !== e.kinds.length) errors.push(`${at}: kinds has duplicates`);
+    }
+  }
   if (e.url && !e.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (!e.description?.fr) errors.push(`${at}: missing French description`);
   (e.evidence ?? []).forEach((id) => {

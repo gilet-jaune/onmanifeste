@@ -7862,6 +7862,54 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "publicsenat-mckinsey-saisie-65-millions-2026": {
+      "title": {
+        "fr": "Public Sénat — Cabinet de conseils : le PNF annonce une saisie de 65 millions d’euros dans l’enquête pour fraude fiscale autour de McKinsey (4 septembre 2026)",
+        "en": "Public Sénat — Consulting firm: the national financial prosecutor announces a €65 million seizure in the tax-fraud investigation around McKinsey (4 September 2026; in French)"
+      },
+      "url": "https://www.publicsenat.fr/actualites/politique/cabinet-de-conseils-le-parquet-national-financier-annonce-une-saisie-de-65-millions-deuros-dans-lenquete-pour-fraude-fiscale-autour-de-mckinsey",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "brusselstimes-mckinsey-saisie-2026": {
+      "title": {
+        "fr": "The Brussels Times — Belgique : un pas majeur dans l’enquête fiscale française visant McKinsey (7 septembre 2026, en anglais)",
+        "en": "The Brussels Times — Belgium takes major step in French McKinsey tax fraud probe (7 September 2026)"
+      },
+      "url": "https://www.brusselstimes.com/2306439/belgium-takes-major-step-in-french-mckinsey-tax-fraud-probe",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "francetv-cash-investigation-mckinsey-communique-2024": {
+      "title": {
+        "fr": "France Télévisions — Communiqué : « Cash Investigation » : « McKinsey, une firme au cœur du pouvoir » (3 septembre 2024)",
+        "en": "France Télévisions — Press release: “Cash Investigation”: “McKinsey, a firm at the heart of power” (3 September 2024; in French)"
+      },
+      "url": "https://www.francetvpro.fr/contenu-de-presse/67619791",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-cash-investigation-impots-mckinsey-2024": {
+      "title": {
+        "fr": "franceinfo — « Cash Investigation ». Les impôts envolés de McKinsey ? (16 septembre 2024)",
+        "en": "franceinfo — “Cash Investigation”: McKinsey’s vanished taxes? (16 September 2024; in French)"
+      },
+      "url": "https://www.franceinfo.fr/replay-magazine/france-2/cash-investigation/video-cash-investigation-les-impots-envoles-de-mckinsey_6777553.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

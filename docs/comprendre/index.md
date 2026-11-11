@@ -14,6 +14,8 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
 ## Dossiers documentés sur ce site
 
+### Démocratie et élus
+
 <div class="grid cards" markdown="1">
 
 - **Repères historiques** [:material-timeline-clock:](../histoire/index.md)
@@ -31,14 +33,6 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
     Référendum de 2005 contourné, Convention citoyenne pour le climat vidée, 49.3, cahiers de doléances jamais publiés, valse des gouvernements.
 
     [:octicons-arrow-right-24: Voir la frise](../confiance/index.md)
-
-- **Environnement et santé** [:material-leaf:](../environnement-sante/index.md)
-
-    ***
-
-    Affaire du siècle, glyphosate, néonicotinoïdes : les décisions de justice et les textes datés et sourcés, avec les lectures des ONG et du gouvernement.
-
-    [:octicons-arrow-right-24: Voir la frise](../environnement-sante/index.md)
 
 - **Probité et justice des élus** [:material-scale-balance:](../probite/index.md)
 
@@ -63,6 +57,34 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
     Définition légale (modifiée en 2025), rôle et limites de la HATVP, cabinets de conseil, affaire Epstein : les faits sourcés et ce qui n'est pas tranché.
 
     [:octicons-arrow-right-24: Voir la page](../conflits-interets/index.md)
+
+</div>
+
+### Argent public et environnement
+
+<div class="grid cards" markdown="1">
+
+- **Environnement et santé** [:material-leaf:](../environnement-sante/index.md)
+
+    ***
+
+    Affaire du siècle, glyphosate, néonicotinoïdes : les décisions de justice et les textes datés et sourcés, avec les lectures des ONG et du gouvernement.
+
+    [:octicons-arrow-right-24: Voir la frise](../environnement-sante/index.md)
+
+- **Dette, privatisations et argent public** [:material-bank-outline:](../dette-privatisations/index.md)
+
+    ***
+
+    Dette de l'État et financement, privatisations, autoroutes, dépense publique et évasion fiscale : des événements datés et sourcés, à filtrer par thème.
+
+    [:octicons-arrow-right-24: Voir la frise](../dette-privatisations/index.md)
+
+</div>
+
+### Libertés et maintien de l'ordre
+
+<div class="grid cards" markdown="1">
 
 - **Sécurité et libertés** [:material-shield-lock-outline:](../securite-libertes/index.md)
 

@@ -209,7 +209,12 @@
     "deuxieme",
     "etat",
     "hatvp",
-    "interets"
+    "interets",
+    "mckinsey",
+    "belgique",
+    "Télécom",
+    "l'UGAP",
+    "UGAP"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

@@ -51,9 +51,9 @@ In short: the HATVP must assess all the interests a minister held during the fiv
 
 ## Case 1: consulting firms and McKinsey
 
-{{ h.timeline('en', only=['aucun'], also=['2022-senat-rapport-sur-les-cabinets-de-conseil', '2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes', '2024-senat-cabinets-de-conseil-proposition-de-loi-deuxieme-lecture']) }}
+{{ h.timeline('en', only=['aucun'], also=['2022-senat-rapport-sur-les-cabinets-de-conseil', '2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes', '2024-senat-cabinets-de-conseil-proposition-de-loi-deuxieme-lecture', '2024-cash-investigation-mckinsey-une-firme-au-coeur-du-pouvoir', '2026-pnf-mckinsey-saisie-de-65-millions-en-belgique']) }}
 
-The link with conflicts of interest rests on two questions: whether help given during a campaign was exchanged for public contracts afterwards, the subject of one of the two judicial investigations, and the ethics of consultants, the subject of the bill. No court decision has settled the first in the sources read.
+The link with conflicts of interest rests on two questions: whether help given during a campaign was exchanged for public contracts afterwards, the subject of one of the two judicial investigations, and the ethics of consultants, the subject of the bill. The tax strand, which is separate, targets McKinsey as a company: it has not led to a ruling either, but a seizure of about €65 million was announced in September 2026. Independent investigations (the Senate report, "Cash Investigation") shed light on these facts without ruling on them: only the courts can say whether an offence was committed. No court decision has settled these questions in the sources read.
 
 ## Case 2: the Epstein case
 

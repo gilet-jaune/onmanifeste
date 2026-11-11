@@ -106,6 +106,10 @@ plugins:
             Probité et justice des élus: Integrity and justice for elected officials
             Avantages et moyens des élus: Benefits and resources of elected officials
             Conflits d'intérêts: Conflicts of interest
+            Démocratie et élus: Democracy and elected officials
+            Argent public et environnement: Public money and environment
+            Libertés et maintien de l'ordre: Freedoms and policing
+            Dette, privatisations et argent public: Debt, privatisations and public money
             Sécurité et libertés: Security and freedoms
             Le projet: About
             Relire une information: Review a piece of information
@@ -283,16 +287,23 @@ nav:
           - S'informer et se former: guides/s-informer-se-former.md
   - Comprendre:
       - comprendre/index.md
-      - Repères historiques: histoire/index.md
-      - Voies démocratiques bafouées: confiance/index.md
-      - Environnement et santé: environnement-sante/index.md
-      - Probité et justice des élus: probite/index.md
-      - Avantages et moyens des élus: avantages-elus/index.md
-      - Conflits d'intérêts: conflits-interets/index.md
-      - Sécurité et libertés: securite-libertes/index.md
-      - Pourquoi ça casse en manif ?: guides/casse.md
-      - Répressions documentées: repressions/index.md
-      - Blessé·es et mort·es: victimes/index.md
+      - Démocratie et élus:
+          - comprendre/democratie-elus/index.md
+          - Repères historiques: histoire/index.md
+          - Voies démocratiques bafouées: confiance/index.md
+          - Probité et justice des élus: probite/index.md
+          - Avantages et moyens des élus: avantages-elus/index.md
+          - Conflits d'intérêts: conflits-interets/index.md
+      - Argent public et environnement:
+          - comprendre/argent-public-environnement/index.md
+          - Dette, privatisations et argent public: dette-privatisations/index.md
+          - Environnement et santé: environnement-sante/index.md
+      - Libertés et maintien de l'ordre:
+          - comprendre/libertes-maintien-ordre/index.md
+          - Sécurité et libertés: securite-libertes/index.md
+          - Répressions documentées: repressions/index.md
+          - Blessé·es et mort·es: victimes/index.md
+          - Pourquoi ça casse en manif ?: guides/casse.md
   - Le projet:
       - Paramètres: parametres.md
       - Contribuer: contribuer/index.md

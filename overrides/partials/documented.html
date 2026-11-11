@@ -7,7 +7,7 @@
 {%- set card_kinds = ['repression', 'discrimination', 'soulevement', 'mouvement-social'] -%}
 {#- Events that are cards of the timeline. -#}
 {%- set rep_ids = [] -%}
-{%- for e in events if e.evidence and e.kind in card_kinds %}{% set _ = rep_ids.append(e.id) %}{% endfor -%}
+{%- for e in events if e.evidence and e.kinds[0] in card_kinds %}{% set _ = rep_ids.append(e.id) %}{% endfor -%}
 {#- Disproved statements that are neither a card nor related to a card: they get their own card. -#}
 {%- set solo_ids = [] -%}
 {%- for d in events if d.debunked and d.id not in rep_ids %}
@@ -45,7 +45,7 @@
 {%- macro repressions(lang) -%}
 <ol class="timeline">
 {%- for e in events if e.id in rep_ids or e.id in solo_ids %}
-  <li class="timeline__event timeline__event--{{ e.kind }}" id="repression-{{ e.date }}">
+  <li class="timeline__event timeline__event--{{ e.kinds[0] }}" id="repression-{{ e.date }}">
     {{ event_date(e) }}
     <div class="timeline__body">
       <h3 class="timeline__title">{{ e.title[lang] or e.title.fr }}</h3>

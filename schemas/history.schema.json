@@ -13,11 +13,18 @@
         "$ref": "resources.schema.json#/$defs/localized"
       }
     },
+    "natures": {
+      "type": "object",
+      "description": "What kind of source an event rests on (decision, ongoing proceedings, parliamentary, journalistic or NGO investigation).",
+      "additionalProperties": {
+        "$ref": "resources.schema.json#/$defs/localized"
+      }
+    },
     "events": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "date", "title", "kind", "url", "description", "check"],
+        "required": ["id", "date", "title", "kinds", "url", "description", "check"],
         "additionalProperties": false,
         "properties": {
           "id": {
@@ -37,8 +44,23 @@
           "title": {
             "$ref": "resources.schema.json#/$defs/localized"
           },
-          "kind": {
-            "type": "string"
+          "kinds": {
+            "type": "array",
+            "description": "Themes of the event, keys of the top-level `kinds`. The first is the main one (label, dot colour); the others make the event appear under those themes too (filters, thematic pages).",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "natures": {
+            "type": "array",
+            "description": "Nature of the event, keys of the top-level `natures`; several are allowed (the first is the main one). A journalistic or NGO investigation is not a decision: say which it is.",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
           },
           "url": {
             "type": "string",

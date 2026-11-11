@@ -50,9 +50,9 @@ En résumé : la HATVP doit apprécier l'ensemble des intérêts détenus par un
 
 ## Cas 1 : les cabinets de conseil et McKinsey
 
-{{ h.timeline('fr', only=['aucun'], also=['2022-senat-rapport-sur-les-cabinets-de-conseil', '2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes', '2024-senat-cabinets-de-conseil-proposition-de-loi-deuxieme-lecture']) }}
+{{ h.timeline('fr', only=['aucun'], also=['2022-senat-rapport-sur-les-cabinets-de-conseil', '2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes', '2024-senat-cabinets-de-conseil-proposition-de-loi-deuxieme-lecture', '2024-cash-investigation-mckinsey-une-firme-au-coeur-du-pouvoir', '2026-pnf-mckinsey-saisie-de-65-millions-en-belgique']) }}
 
-Le lien avec les conflits d'intérêts tient à deux questions : celle de l'éventuelle contrepartie entre une aide pendant une campagne et des commandes publiques ensuite, objet de l'une des deux informations judiciaires, et celle de la déontologie des consultants, objet de la proposition de loi. Aucune décision de justice n'a tranché la première dans les sources lues.
+Le lien avec les conflits d'intérêts tient à deux questions : celle de l'éventuelle contrepartie entre une aide pendant une campagne et des commandes publiques ensuite, objet de l'une des deux informations judiciaires, et celle de la déontologie des consultants, objet de la proposition de loi. Le volet fiscal, distinct, vise McKinsey en tant que société : il n'a pas non plus abouti à une décision, mais une saisie d'environ 65 millions d'euros a été annoncée en septembre 2026. Les enquêtes indépendantes (rapport du Sénat, « Cash Investigation ») éclairent ces faits sans les juger : seule la justice peut dire s'il y a eu une infraction. Aucune décision de justice n'a tranché ces questions dans les sources lues.
 
 ## Cas 2 : l'affaire Epstein
 

@@ -1030,6 +1030,18 @@ select:focus-visible {
   color: var(--ap-muted);
 }
 
+.md-typeset .timeline__nature {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--ap-muted);
+}
+
+.md-typeset .timeline-filters__count {
+  font-size: 0.7rem;
+  color: var(--ap-muted);
+}
+
 .md-typeset .timeline-filters__chip,
 .md-typeset .timeline-periods a {
   padding: 0.2rem 0.7rem;

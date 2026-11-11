@@ -321,6 +321,11 @@
     repressions: 'comprendre',
     victimes: 'comprendre',
     'securite-libertes': 'comprendre',
+    'environnement-sante': 'comprendre',
+    probite: 'comprendre',
+    'avantages-elus': 'comprendre',
+    'conflits-interets': 'comprendre',
+    'dette-privatisations': 'comprendre',
   };
   const kindOf = (location) =>
     KIND_OF_FOLDER[String(location).replace(/^en\//, '').split(/[/#]/)[0]] || null;

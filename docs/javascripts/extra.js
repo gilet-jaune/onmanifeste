@@ -657,20 +657,68 @@ document.addEventListener('DOMContentLoaded', function () {
   match the selected kind.
 */
 document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('[data-timeline-filters]').forEach((filters) => {
+  // Themes (data-kind chips) and natures (data-nature chips) can each be multi-selected: an event
+  // is shown when it matches one selected theme AND one selected nature (a group with nothing
+  // selected lets everything through). The selection is kept in the URL (#kind=a,b&nature=c) so
+  // a filtered view can be shared. Only the first timeline of a page reads or writes the hash.
+  const GROUPS = [
+    { attr: 'data-kind', key: 'kind', data: 'data-kinds' },
+    { attr: 'data-nature', key: 'nature', data: 'data-natures' },
+  ];
+  const fr = document.documentElement.lang !== 'en';
+
+  const readHash = () => {
+    const out = { kind: [], nature: [] };
+    if (!/^#(kind|nature)=[a-z0-9,-]*(&(kind|nature)=[a-z0-9,-]*)?$/.test(location.hash))
+      return out;
+    new URLSearchParams(location.hash.slice(1)).forEach((value, key) => {
+      if (key in out) out[key] = value.split(',').filter(Boolean);
+    });
+    return out;
+  };
+  const writeHash = (selected) => {
+    const parts = GROUPS.filter((g) => selected[g.key].length).map(
+      (g) => `${g.key}=${selected[g.key].join(',')}`,
+    );
+    history.replaceState(
+      null,
+      '',
+      location.pathname + location.search + (parts.length ? `#${parts.join('&')}` : ''),
+    );
+  };
+
+  document.querySelectorAll('[data-timeline-filters]').forEach((filters, index) => {
     const list = filters.parentElement.querySelector('ol.timeline');
     if (!list) return;
-    const chips = filters.querySelectorAll('[data-kind]');
+    const all = filters.querySelector('[data-kind=""]');
+    const chips = {};
+    const selected = {};
+    const fromHash = index === 0 ? readHash() : { kind: [], nature: [] };
+    GROUPS.forEach((g) => {
+      chips[g.key] = [...filters.querySelectorAll(`[${g.attr}]:not([${g.attr}=""])`)];
+      const known = chips[g.key].map((c) => c.getAttribute(g.attr));
+      selected[g.key] = fromHash[g.key].filter((k) => known.includes(k));
+    });
+    const count = document.createElement('span');
+    count.className = 'timeline-filters__count';
+    count.setAttribute('role', 'status');
+    filters.append(count);
     filters.hidden = false;
 
-    filters.addEventListener('click', (e) => {
-      const chip = e.target.closest('[data-kind]');
-      if (!chip) return;
-      const kind = chip.getAttribute('data-kind');
-      chips.forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+    const anySelected = () => GROUPS.some((g) => selected[g.key].length);
+
+    const apply = () => {
+      GROUPS.forEach((g) =>
+        chips[g.key].forEach((c) =>
+          c.setAttribute('aria-pressed', String(selected[g.key].includes(c.getAttribute(g.attr)))),
+        ),
+      );
+      all.setAttribute('aria-pressed', String(!anySelected()));
 
       let heading = null;
       let headingHasMatch = false;
+      let shown = 0;
+      let total = 0;
       const closeHeading = () => {
         if (heading) heading.hidden = !headingHasMatch;
       };
@@ -681,12 +729,40 @@ document.addEventListener('DOMContentLoaded', function () {
           headingHasMatch = false;
           return;
         }
-        const match = !kind || li.getAttribute('data-kind') === kind;
+        total += 1;
+        const match = GROUPS.every((g) => {
+          if (!selected[g.key].length) return true;
+          const values = (li.getAttribute(g.data) || '').split(' ');
+          return values.some((v) => selected[g.key].includes(v));
+        });
         li.hidden = !match;
-        if (match) headingHasMatch = true;
+        if (match) {
+          headingHasMatch = true;
+          shown += 1;
+        }
       });
       closeHeading();
+      count.textContent = anySelected()
+        ? fr
+          ? `${shown} événement${shown > 1 ? 's' : ''} sur ${total}`
+          : `${shown} of ${total} events`
+        : '';
+    };
+
+    filters.addEventListener('click', (e) => {
+      const chip = e.target.closest('[data-kind], [data-nature]');
+      if (!chip) return;
+      const g = GROUPS.find((x) => chip.hasAttribute(x.attr));
+      const value = chip.getAttribute(g.attr);
+      if (!value) GROUPS.forEach((x) => (selected[x.key] = []));
+      else if (selected[g.key].includes(value))
+        selected[g.key] = selected[g.key].filter((k) => k !== value);
+      else selected[g.key] = [...selected[g.key], value];
+      apply();
+      if (index === 0 && /^(#(kind|nature)=.*)?$/.test(location.hash)) writeHash(selected);
     });
+
+    apply();
   });
 });
 

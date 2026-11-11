@@ -1,6 +1,6 @@
 ---
 description: 'Documented dossiers and independent watchdogs to understand mobilisations, check facts and follow elected officials.'
-source_commit: 0f07521c990e315d38cc079078d479f7c49e1532
+source_commit: e5c482263e373c59dfca41aa6ee0babdd2729f9b
 tags:
     - understand
     - media
@@ -14,6 +14,8 @@ image_alt: ''
 Documented files and a selection of independent observatories to understand what social movements have won, check who owns the media, find verified public-finance figures and track elected officials. Click any organization to open its **contact card** (website, thematic files and social media).
 
 ## Documented files on this site
+
+### Democracy and elected officials
 
 <div class="grid cards" markdown="1">
 
@@ -32,14 +34,6 @@ Documented files and a selection of independent observatories to understand what
     The 2005 referendum bypassed, the Citizens' Convention for Climate emptied, 49.3, grievance books never published, governments in quick succession.
 
     [:octicons-arrow-right-24: See the timeline](../confiance/index.md)
-
-- **Environment and health** [:material-leaf:](../environnement-sante/index.md)
-
-    ***
-
-    Affaire du Siècle, glyphosate, neonicotinoids: dated, sourced court decisions and texts, with the readings of NGOs and the government.
-
-    [:octicons-arrow-right-24: See the timeline](../environnement-sante/index.md)
 
 - **Integrity and justice for elected officials** [:material-scale-balance:](../probite/index.md)
 
@@ -64,6 +58,34 @@ Documented files and a selection of independent observatories to understand what
     Legal definition (amended in 2025), role and limits of the HATVP, consulting firms, the Epstein case: sourced facts and what remains undecided.
 
     [:octicons-arrow-right-24: See the page](../conflits-interets/index.md)
+
+</div>
+
+### Public money and environment
+
+<div class="grid cards" markdown="1">
+
+- **Environment and health** [:material-leaf:](../environnement-sante/index.md)
+
+    ***
+
+    Affaire du Siècle, glyphosate, neonicotinoids: dated, sourced court decisions and texts, with the readings of NGOs and the government.
+
+    [:octicons-arrow-right-24: See the timeline](../environnement-sante/index.md)
+
+- **Debt, privatisations and public money** [:material-bank-outline:](../dette-privatisations/index.md)
+
+    ***
+
+    State debt and financing, privatisations, motorways, public spending and tax evasion: dated, sourced events you can filter by theme.
+
+    [:octicons-arrow-right-24: See the timeline](../dette-privatisations/index.md)
+
+</div>
+
+### Freedoms and policing
+
+<div class="grid cards" markdown="1">
 
 - **Security and freedoms** [:material-shield-lock-outline:](../securite-libertes/index.md)
 

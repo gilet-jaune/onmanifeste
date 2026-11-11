@@ -57,5 +57,6 @@ Une peine prononcée peut prendre fin avant son terme sans qu'il s'agisse d'une 
 
 ## Pour aller plus loin
 
+- [Conflits d'intérêts](../conflits-interets/index.md) et [Avantages et moyens des élus](../avantages-elus/index.md) : le cadre légal et les moyens des élu·es, à côté des décisions de justice de cette page.
 - {{ res("anticor","Anticor") }} : association de lutte contre la corruption, pour s'informer sur les affaires ou les signaler.
 - [Les voies démocratiques bafouées](../confiance/index.md) et [Repères historiques](../histoire/index.md) : le contexte de la défiance, avec les affaires de fraude fiscale (Panama Papers).
