@@ -114,7 +114,7 @@ across kinds, e.g. the security-and-freedoms page). -#}
 </nav>
 {%- endif %}
 
-<ol class="timeline">
+<ol class="timeline" data-timeline-detail>
   {%- set ns = namespace(period=-1) %}
   {%- for e in shown %} {%- set year, month, day = e.date.split('-') %}
   {%- set p = period_of(year | int) | int %}
@@ -129,7 +129,11 @@ across kinds, e.g. the security-and-freedoms page). -#}
       <span class="timeline__nature">{% for n in e.natures %}{{ ' · ' if not loop.first }}{{ natures[n][lang] or natures[n].fr }}{% endfor %}</span>
       {%- endif %}
       <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title[lang] or e.title.fr }}</a> <a class="timeline__permalink" href="#evt-{{ e.id }}" aria-label="{{ 'Lien vers cet événement' if lang == 'fr' else 'Link to this event' }}">#</a></h3>
-      <p class="timeline__desc">{{ e.description[lang] or e.description.fr }}</p>
+      {#- A card shows the summary when there is one, otherwise the description (folded by CSS once the script runs). -#}
+      <p class="timeline__desc">{% if e.summary %}{{ e.summary[lang] or e.summary.fr }}{% else %}{{ e.description[lang] or e.description.fr }}{% endif %}</p>
+      {%- if e.summary %}
+      <details class="timeline__full"><summary>{{ 'Texte complet' if lang == 'fr' else 'Full text' }}</summary><p>{{ e.description[lang] or e.description.fr }}</p></details>
+      {%- endif %}
       {%- if e.gains %}{{ gains_line(e, lang) }}{% endif %}
       {{ links_line(e, lang, shown_ids) }}
       {{ sources_line(e, lang) }}

@@ -53,6 +53,15 @@ const ids = new Set();
       if (new Set(e.kinds).size !== e.kinds.length) errors.push(`${at}: kinds has duplicates`);
     }
   }
+  if (e.summary !== undefined) {
+    if (!e.summary.fr) errors.push(`${at}: summary needs a French text`);
+    for (const lang of ['fr', 'en']) {
+      const s = e.summary[lang];
+      if (s && s.length > 280) errors.push(`${at}: summary.${lang} is over 280 characters`);
+      if (s && e.description?.[lang] && s.length >= e.description[lang].length)
+        errors.push(`${at}: summary.${lang} must be shorter than the description`);
+    }
+  }
   if (e.url && !e.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (!e.description?.fr) errors.push(`${at}: missing French description`);
   (e.evidence ?? []).forEach((id) => {

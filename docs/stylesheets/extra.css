@@ -967,9 +967,9 @@ select:focus-visible {
 .md-typeset .timeline__event--impunite::before,
 .md-typeset .timeline__event--deni-democratique::before,
 .md-typeset .timeline__event--privatisation::before,
-.md-typeset .timeline__event--environnement-sante::before,
 .md-typeset .timeline__event--finances::before,
-.md-typeset .timeline__event--probite::before {
+.md-typeset .timeline__event--probite::before,
+.md-typeset .timeline__event--environnement-sante::before {
   background: var(--ap-ink);
   border-color: var(--ap-silver);
 }
@@ -1102,25 +1102,141 @@ select:focus-visible {
   font-size: 0.7rem;
 }
 
-/* Long descriptions are folded on phones (docs/javascripts/extra.js adds the toggle). */
-.md-typeset .timeline__desc.is-folded {
+/* Timeline cards: once docs/javascripts/extra.js has run (class timeline--enhanced), a card keeps a
+   short text and a "Details and sources" button; the full text, links, sources and the verification
+   line open in a dialog. Without the script, everything stays visible. */
+.md-typeset .timeline--enhanced .timeline__desc {
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4;
-  line-clamp: 4;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
 }
 
-.md-typeset .timeline__more {
-  padding: 0;
-  border: 0;
-  background: none;
-  color: var(--md-typeset-a-color);
+.md-typeset .timeline--enhanced .timeline__full,
+.md-typeset .timeline--enhanced .timeline__links,
+.md-typeset .timeline--enhanced .timeline__sources,
+.md-typeset .timeline--enhanced .victims__checked {
+  display: none;
+}
+
+.md-typeset .timeline__open {
+  margin-top: 0.2rem;
+  padding: 0.2rem 0.7rem;
+  border: 1.5px solid var(--ap-line);
+  border-radius: 1rem;
+  background: transparent;
+  color: var(--ap-text);
   font: inherit;
   font-size: 0.7rem;
   font-weight: 700;
-  text-decoration: underline;
   cursor: pointer;
+}
+
+.md-typeset .timeline__open:hover,
+.md-typeset .timeline__open:focus-visible {
+  border-color: var(--ap-ink);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+}
+
+.timeline-dialog {
+  width: min(40rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 3rem);
+  padding: 0;
+  border: 2px solid var(--ap-ink, #000);
+  border-radius: 0.4rem;
+  background: var(--md-default-bg-color, #fff);
+  color: var(--md-default-fg-color, #000);
+  font-size: 0.85rem;
+  line-height: 1.65;
+  overflow: auto;
+}
+
+.timeline-dialog::backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.timeline-dialog__inner {
+  position: relative;
+  padding: 1.4rem 1.5rem 1.2rem;
+}
+
+.timeline-dialog__close {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.7rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.timeline-dialog .timeline__date {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.timeline-dialog .timeline__kind,
+.timeline-dialog .timeline__nature {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.timeline-dialog .timeline__permalink {
+  display: none;
+}
+
+.timeline-dialog .timeline__title {
+  margin: 0.4rem 2.2rem 1rem 0;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.timeline-dialog p {
+  margin: 0.8rem 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.timeline-dialog .timeline__links {
+  font-size: 0.8rem;
+}
+
+.timeline-dialog__sources {
+  margin-top: 1.1rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--ap-line);
+}
+
+.timeline-dialog__sources h3 {
+  margin: 0 0 0.4rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ap-muted);
+}
+
+.timeline-dialog__sources ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.8rem;
+}
+
+.timeline-dialog__sources li {
+  margin: 0.25rem 0;
+}
+
+.timeline-dialog .victims__checked {
+  margin-top: 0.9rem;
+  font-size: 0.72rem;
+  color: var(--ap-muted);
 }
 
 @media screen and (max-width: 44.9375em) {

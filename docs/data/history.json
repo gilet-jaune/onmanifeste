@@ -41,10 +41,6 @@
       "fr": "Sécurité et libertés",
       "en": "Security and freedoms"
     },
-    "environnement-sante": {
-      "fr": "Environnement et santé",
-      "en": "Environment and health"
-    },
     "finances": {
       "fr": "Dette, impôts et fraude",
       "en": "Debt, taxes and fraud"
@@ -52,6 +48,10 @@
     "probite": {
       "fr": "Probité et justice des élus",
       "en": "Integrity and justice for elected officials"
+    },
+    "environnement-sante": {
+      "fr": "Environnement et santé",
+      "en": "Environment and health"
     }
   },
   "natures": {
@@ -398,6 +398,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Loi née de la guerre d'Algérie : assignations à résidence, interdiction de manifester et perquisitions administratives, sans passer par un juge. Déclarée pendant la guerre d'Algérie, en 2005, 2015-2017, et en Nouvelle-Calédonie (1985, 2024).",
+        "en": "Law born of the Algerian war: house arrest, protest bans and administrative searches without a judge. Declared during the Algerian war, in 2005, 2015-2017, and in New Caledonia (1985, 2024)."
       }
     },
     {
@@ -434,6 +438,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Environ 22 000 Algérien·nes manifestent à Paris contre un couvre-feu discriminatoire. Sous le préfet Papon, plus de 11 000 arrestations et des manifestant·es tué·es. Bilan : de 32 à plus de 200 morts selon les sources.",
+        "en": "About 22,000 Algerians march in Paris against a discriminatory curfew. Under Prefect Papon: over 11,000 arrests and protesters killed. Toll: from 32 to over 200 dead depending on the source."
       }
     },
     {
@@ -501,6 +509,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi « anticasseurs » du 8 juin 1970 institue une responsabilité pénale et pécuniaire collective, qui touche aussi des manifestant·es étrangers aux violences. Abrogée par les député·es en novembre 1981 (334 voix contre 134).",
+        "en": "The 1970 'anti-rioter' law creates collective criminal and financial liability, which also reaches protesters uninvolved in the violence. Repealed by deputies in November 1981 (334 votes to 134)."
       }
     },
     {
@@ -570,6 +582,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "L'article 25 interdit au Trésor d'escompter ses effets à la Banque de France. Souvent présenté comme la rupture avec la banque centrale, il est surtout, selon La Vie des idées, une rationalisation : des concours subsistent jusqu'en 1993.",
+        "en": "Article 25 bars the Treasury from discounting its bills at the Banque de France. Often cited as the break with the central bank, it is mostly a rationalisation according to La Vie des idées: central bank support continued until 1993."
       }
     },
     {
@@ -662,6 +678,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La part du déficit financée par les marchés double en 1984 et celle du financement monétaire est divisée par deux. Pour La Vie des idées, c'est un choix des années 1980 (inflation, système monétaire européen), non un effet de la loi de 1973.",
+        "en": "The share of the deficit financed by markets doubles in 1984 while monetary financing is halved. La Vie des idées sees a 1980s policy choice (inflation, European monetary system), not an effect of the 1973 law."
       }
     },
     {
@@ -683,6 +703,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Après les nationalisations de 1982, les entreprises publiques emploient 1,9 million de personnes fin 1984, plus de 10 % de l'emploi salarié, et près de 20 % de la valeur ajoutée, selon un rapport du Sénat. Les privatisations réduiront ce périmètre.",
+        "en": "After the 1982 nationalisations, public companies employ 1.9 million people at end-1984, over 10% of paid employment and nearly 20% of value added, per a Senate report. Privatisations will shrink this scope."
       }
     },
     {
@@ -707,6 +731,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Première vague de privatisations (1986-1988). Selon le Sénat, la loi prévoit des avantages pour les petits porteurs et pour les salarié·es (10 % de l'offre réservés, décote jusqu'à 20 %). Elle sert encore de cadre en 2014 pour l'aéroport de Toulouse.",
+        "en": "First wave of privatisations (1986-1988). Per the Senate, the law gives advantages to small shareholders and employees (10% of the offer reserved, discount up to 20%). It still frames the 2014 Toulouse airport sale."
       }
     },
     {
@@ -728,6 +756,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi du 9 septembre 1986 définit le terrorisme : garde à vue de quatre jours avec avocat reporté à la 72e heure, apologie du terrorisme incriminée, perquisitions sans assentiment, juges spécialisés à Paris. D'autres textes suivront.",
+        "en": "The 9 September 1986 law defines terrorism: four-day police custody with the lawyer delayed to hour 72, glorification of terrorism criminalised, searches without consent, specialised judges in Paris. More laws follow."
       }
     },
     {
@@ -773,6 +805,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le Sénat y voit la confirmation du choix de 1986 : BNP, Rhône-Poulenc, Elf Aquitaine, UAP, avec des millions de particuliers souscripteurs. Il relève en 2003 que quatre sociétés de la liste n'étaient pas privatisées, et un recul des actionnaires individuels.",
+        "en": "The Senate sees it as confirming the 1986 choice: BNP, Rhône-Poulenc, Elf Aquitaine, UAP, with millions of individual subscribers. In 2003 it notes four listed firms were not yet privatised, and a fall in individual shareholders."
       }
     },
     {
@@ -797,6 +833,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Votée dans le cadre de Maastricht, elle abroge l'article 25 de 1973 au 1er janvier 1994 et consacre l'indépendance de la Banque. Selon La Vie des idées, la fin du financement de l'État par la banque centrale date donc de 1993, non de 1973.",
+        "en": "Passed under the Maastricht framework, it repeals the 1973 Article 25 from 1 January 1994 and enshrines the Bank's independence. Per La Vie des idées, the end of central-bank financing of the State dates from 1993, not 1973."
       }
     },
     {
@@ -821,6 +861,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le traité entre en vigueur. La règle, aujourd'hui à l'article 123 du TFUE, interdit à la BCE et aux banques centrales de financer directement les États. Elle vise les banques centrales, pas toutes les banques publiques.",
+        "en": "The treaty enters into force. The rule, now Article 123 TFEU, bars the ECB and national central banks from directly financing states. It targets central banks, not all public banks."
       }
     },
     {
@@ -842,6 +886,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le plan de vigilance contre le terrorisme, nommé Vigipirate en 1995, est appliqué sans interruption depuis. Il prévoit un volet « rassemblements » et, au niveau « urgence attentat », des filtrages et fouilles possibles.",
+        "en": "The anti-terrorism vigilance plan, named Vigipirate in 1995, has applied without interruption since. It includes a 'gatherings' section and, at the 'attack emergency' level, possible screening and searches."
       }
     },
     {
@@ -887,6 +935,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi du 13 février 1997 crée Réseau ferré de France, qui reçoit le réseau et la dette qui l'a financé (la dette de la SNCF baisse de 20,6 Md€). Le Sénat juge en 2022 que cette réforme n'a pas enrayé la spirale de la dette ferroviaire.",
+        "en": "The 13 February 1997 law creates Réseau ferré de France, which receives the network and the debt that financed it (SNCF debt falls by €20.6bn). The Senate judged in 2022 it did not stop the rail debt spiral."
       }
     },
     {
@@ -908,6 +960,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le gouvernement Jospin ouvre le capital de France Télécom : 20 % mis en vente dès le 22 septembre 1997. La CGT refuse toute ouverture, SUD organise un référendum interne, FO n'est pas opposée à une privatisation partielle.",
+        "en": "The Jospin government opens France Télécom's capital: 20% for sale from 22 September 1997. The CGT rejects any opening, SUD holds an internal referendum, FO is not opposed to partial privatisation."
       }
     },
     {
@@ -929,6 +985,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Adoptée dans le contexte antiterroriste, la loi du 15 novembre 2001 renforce les contrôles d'identité et les fouilles (y compris par des agents privés habilités) et crée le délit de financement du terrorisme.",
+        "en": "Adopted in an anti-terrorism context, the 15 November 2001 law strengthens ID checks and searches (including by authorised private guards) and creates the offence of terrorist financing."
       }
     },
     {
@@ -950,6 +1010,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un projet de loi (loi du 31 décembre 2003) invoque la crise financière de France Télécom en 2000-2002, que l'obligation de détention majoritaire par l'État aurait aggravée. C'est l'argument du gouvernement ; la loi finale n'a pas été relue ici.",
+        "en": "A bill (law of 31 December 2003) cites France Télécom's 2000-2002 financial crisis, which the State's majority-holding obligation allegedly worsened. This is the government's argument; the final law was not reread here."
       }
     },
     {
@@ -971,6 +1035,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,36 %). Le Parlement ouvre en 2008 la voie au traité de Lisbonne sans nouveau référendum.",
+        "en": "54.67% of voters reject the European constitutional treaty (turnout 69.36%). In 2008 Parliament opens the way to the Lisbon Treaty without a new referendum."
       }
     },
     {
@@ -1012,6 +1080,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi autorise une garde à vue de six jours en cas de risque d'attentat et impose la conservation des données de connexion un an, avec un accès policier décidé par une personnalité désignée par l'administration, non par un magistrat.",
+        "en": "The law allows six-day custody when an attack is feared and requires connection data to be kept one year, with police access decided by an administration-appointed official, not a magistrate."
       }
     },
     {
@@ -1060,6 +1132,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi du 7 décembre 2006 prévoit que l'État détient plus de 70 % d'EDF mais seulement plus du tiers de Gaz de France. Le Conseil constitutionnel juge que GDF perd son caractère de service public national à compter de juillet 2007.",
+        "en": "The 7 December 2006 law sets State ownership above 70% of EDF but only above one third of Gaz de France. The Constitutional Council finds GDF loses its national public service status from July 2007."
       }
     },
     {
@@ -1080,6 +1156,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi NOME impose à EDF de vendre jusqu'à 100 TWh par an de son électricité nucléaire à ses concurrents, à prix fixé. En 2018, le régulateur (CRE) conclut que le dispositif n'a produit aucune des incitations à investir annoncées.",
+        "en": "The NOME law forces EDF to sell up to 100 TWh a year of nuclear power to competitors at a set price. In 2018 the regulator (CRE) concluded it produced none of the promised investment incentives."
       }
     },
     {
@@ -1154,6 +1234,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La BCE lance un programme d'achat de titres publics sur les marchés secondaires, non directement aux États, ce que l'article 123 interdit. La Cour de justice de l'UE n'y voit aucun élément affectant sa validité (arrêt Weiss, 2018).",
+        "en": "The ECB launches a public-sector asset purchase programme on secondary markets, not directly from states, which Article 123 prohibits. The EU Court of Justice finds nothing affecting its validity (Weiss ruling, 2018)."
       }
     },
     {
@@ -1177,6 +1261,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Déclaré après le 13 novembre 2015 et prorogé jusqu'en 2017, l'état d'urgence permet d'interdire des manifestations et d'ordonner assignations et perquisitions sans juge. Autour de la COP21, des militant·es sont assigné·es à résidence.",
+        "en": "Declared after 13 November 2015 and extended to 2017, the state of emergency allows banning protests and ordering house arrests and searches without a judge. Around COP21, activists are placed under house arrest."
       }
     },
     {
@@ -1221,6 +1309,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "L'ICIJ, la Süddeutsche Zeitung et plus de cent médias dont Le Monde publient une enquête tirée de 11,5 millions de documents : plus de 214 000 sociétés offshore. L'ICIJ lui attribue la chute de dirigeants et des enquêtes dans des dizaines de pays.",
+        "en": "The ICIJ, Süddeutsche Zeitung and over 100 outlets including Le Monde publish an investigation from 11.5 million documents: over 214,000 offshore companies. The ICIJ credits it with toppling leaders and probes in dozens of countries."
       }
     },
     {
@@ -1263,6 +1355,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "L'État vend ses 60 % d'Aéroports de Lyon et de la Côte d'Azur (2,06 Md€ au total), après Toulouse en 2015. La Cour des comptes juge les objectifs financiers dépassés, mais relève de graves insuffisances dans la procédure de Toulouse.",
+        "en": "The State sells its 60% of Lyon and Côte d'Azur airports (€2.06bn in total), after Toulouse in 2015. The Court of Audit finds financial targets exceeded but serious shortcomings in the Toulouse procedure."
       }
     },
     {
@@ -1284,6 +1380,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La Cour de cassation condamne définitivement l'État pour « faute lourde » dans trois dossiers de contrôles d'identité au faciès. En 2017, le Défenseur des droits établit que les jeunes hommes perçus comme noirs ou arabes ont 20 fois plus de risque d'être contrôlés.",
+        "en": "The Court of Cassation definitively convicts the State of 'gross negligence' in three profiling ID-check cases. In 2017 the Defender of Rights finds young men seen as Black or Arab are 20 times more likely to be checked."
       }
     },
     {
@@ -1310,7 +1410,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "related": ["2026-presomption-de-legitime-defense-des-forces-de-l-ordre"]
+      "related": ["2026-presomption-de-legitime-defense-des-forces-de-l-ordre"],
+      "summary": {
+        "fr": "La loi du 28 février 2017 crée l'article L. 435-1 du Code de la sécurité intérieure sur l'usage des armes par la police. La LDH estime qu'il a ouvert la voie à des interprétations dangereuses et réclame encore son abrogation en 2023.",
+        "en": "The 28 February 2017 law creates Article L. 435-1 of the Internal Security Code on police use of weapons. The LDH says it opened the way to dangerous interpretations and still calls for its repeal in 2023."
+      }
     },
     {
       "id": "2017-panama-papers-parquet-national-financier",
@@ -1331,6 +1435,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un an après les révélations, le parquet national financier enquête pour « blanchiment de fraudes fiscales aggravées » et se penche sur 26 dossiers. Les suites judiciaires françaises ne sont pas documentées ici.",
+        "en": "A year after the revelations, the national financial prosecutor investigates 'laundering of aggravated tax fraud' and examines 26 cases. French judicial follow-up is not documented here."
       }
     },
     {
@@ -1356,6 +1464,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi du 30 octobre 2017 met fin à l'interdiction de manifester de l'état d'urgence mais en reprend d'autres mesures (périmètres de protection, assignations, perquisitions), décidées par l'administration. La CNCDH y voyait une incorporation définitive de l'état d'urgence.",
+        "en": "The 30 October 2017 law ends the state of emergency's protest ban but keeps other measures (protection perimeters, house arrest, searches), decided by the administration. The CNCDH saw a permanent incorporation of the state of emergency."
       }
     },
     {
@@ -1482,6 +1594,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Après l'Arc de Triomphe, une vingtaine de blindés de la gendarmerie (VBRG), dont quatorze à Paris, sont déployés le 8 décembre 2018. Nous n'avons pas trouvé de source indépendante sur les effets de cet engagement.",
+        "en": "After the Arc de Triomphe, about twenty gendarmerie armoured vehicles (VBRG), fourteen in Paris, are deployed on 8 December 2018. We found no independent source on the effects of this deployment."
       }
     },
     {
@@ -1543,7 +1659,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["avis-instance"]
+      "natures": ["avis-instance"],
+      "summary": {
+        "fr": "Début 2019, des expert·es de l'ONU, la commissaire aux droits de l'homme du Conseil de l'Europe puis la Haute-Commissaire de l'ONU alertent sur des restrictions disproportionnées, l'usage du LBD et les violences. La loi d'avril 2019 retiendra le délit de dissimulation du visage.",
+        "en": "In early 2019 UN experts, the Council of Europe human rights commissioner and then the UN High Commissioner warn of disproportionate restrictions, use of the LBD and violence. The April 2019 law keeps the face-covering offence."
+      }
     },
     {
       "id": "2019-le-ric-rejete-a-l",
@@ -1624,6 +1744,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi du 10 avril 2019 autorise des fouilles aux abords des manifestations, crée le délit de dissimulation du visage, élargit l'interdiction judiciaire de manifester et le principe « casseur-payeur ». Le Conseil constitutionnel censure l'interdiction administrative.",
+        "en": "The 10 April 2019 law allows searches near protests, creates the face-covering offence, widens the judicial protest ban and the 'breaker pays' principle. The Constitutional Council strikes down the administrative ban."
       }
     },
     {
@@ -1656,6 +1780,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le grand débat réunit plus de 1,5 million de participant·es. Le 25 avril 2019, Emmanuel Macron écarte le RIC et promet d'abaisser le seuil du référendum d'initiative partagée à un million de signatures : promesse non tenue.",
+        "en": "The great national debate draws over 1.5 million participants. On 25 April 2019 Emmanuel Macron rules out the RIC and promises to lower the shared-initiative referendum threshold to one million signatures: a promise not kept."
       }
     },
     {
@@ -1708,6 +1836,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi PACTE autorise la privatisation majoritaire d'Aéroports de Paris. Le Conseil constitutionnel juge qu'ADP n'est ni un monopole de fait ni un service public national : la privatisation est possible.",
+        "en": "The PACTE law authorises majority privatisation of Aéroports de Paris. The Constitutional Council finds ADP is neither a de facto monopoly nor a national public service: privatisation is allowed."
       }
     },
     {
@@ -1753,6 +1885,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "150 citoyen·nes tiré·es au sort rédigent 149 propositions, promises « sans filtre » avec trois exceptions. Selon Reporterre, seules 15 sont reprises telles quelles et 54 % abandonnées ou modifiées ; le référendum promis est abandonné en 2021.",
+        "en": "150 citizens chosen by lot draft 149 proposals, promised 'unfiltered' with three exceptions. Per Reporterre only 15 are adopted as is and 54% dropped or changed; the promised referendum is abandoned in 2021."
       }
     },
     {
@@ -1774,6 +1910,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "L'État reprend 35 Md€ de dette de SNCF Réseau (25 en 2020, 10 en 2022). Selon le Sénat, cela allège les frais financiers mais solde surtout des déficits passés d'investissement ; la maîtrise de la dette reste incertaine.",
+        "en": "The State takes over €35bn of SNCF Réseau debt (25 in 2020, 10 in 2022). Per the Senate this eases financial costs but mostly settles past investment deficits; controlling the debt remains uncertain."
       }
     },
     {
@@ -1795,6 +1935,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Premier référendum d'initiative partagée, contre la privatisation d'ADP : 1 093 030 soutiens, mais 4 717 396 étaient requis. Pas de référendum ; l'outil se révèle quasi impossible à utiliser.",
+        "en": "First shared-initiative referendum, against the ADP privatisation: 1,093,030 supporters, but 4,717,396 were needed. No referendum; the tool proves nearly impossible to use."
       }
     },
     {
@@ -1816,6 +1960,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Saisi notamment par la LDH et des syndicats, le Conseil d'État suspend l'interdiction de tout rassemblement de plus de dix personnes de l'état d'urgence sanitaire, pour les manifestations déclarées : une restriction doit être nécessaire et proportionnée.",
+        "en": "Seized notably by the LDH and unions, the Council of State suspends the health emergency ban on gatherings over ten people for declared protests: a restriction must be necessary and proportionate."
       }
     },
     {
@@ -1859,6 +2007,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le schéma garde le LBD avec un nouveau cadre, malgré la recommandation contraire de la Défenseure des droits. Le Conseil d'État annule en 2021 le recours à l'encerclement (« nasse ») et des règles visant les journalistes.",
+        "en": "The scheme keeps the LBD with a new framework despite the Defender of Rights' opposing recommendation. In 2021 the Council of State annuls the use of encirclement ('kettling') and rules aimed at journalists."
       }
     },
     {
@@ -1879,6 +2031,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Vendues en 2006 pour environ 15 Md€, les sociétés d'autoroutes se révèlent plus rentables que prévu (commission d'enquête du Sénat, 2020) : Vinci atteint dès 2023 la rentabilité visée sur toute la concession, avec environ 32 Md€ de surprofits attendus.",
+        "en": "Sold in 2006 for about €15bn, the motorway companies prove more profitable than forecast (Senate inquiry, 2020): Vinci hits its whole-concession target return by 2023, with about €32bn of excess profit expected."
       }
     },
     {
@@ -1948,6 +2104,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Saisi par quatre ONG, le tribunal administratif de Paris reconnaît un préjudice écologique lié au climat et la responsabilité de l'État pour carence partielle. Il accorde 1 € aux associations et ordonne un supplément d'instruction.",
+        "en": "Seized by four NGOs, the Paris administrative court recognises climate-related ecological harm and the State's responsibility for partial failure. It awards the associations €1 and orders further investigation."
       }
     },
     {
@@ -1963,6 +2123,10 @@
       "description": {
         "fr": "Fin avril 2021 (le 27 selon Amnesty), après la saisine du Conseil constitutionnel contre la loi votée le 15 avril, Amnesty International France lui adresse ses observations sur deux articles. Sur l'article 22 (nouvel article 47 : caméras et drones), elle invoque un défaut de nécessité et de proportionnalité, une incompétence négative du législateur et un défaut d'information et de contrôle. Sur l'article 24 (nouvel article 52 : diffusion d'images de policiers), elle invoque une atteinte à la clarté et à l'intelligibilité de la loi et à la liberté d'information et de communication. Elle demande de déclarer ces articles contraires à la Constitution. C'est l'argumentaire d'une ONG, pas une décision : le Conseil statue le 20 mai.",
         "en": "In late April 2021 (the 27th according to Amnesty), after the Constitutional Council was seized against the law passed on 15 April, Amnesty International France sends it observations on two articles. On Article 22 (new Article 47: cameras and drones), it invokes a lack of necessity and proportionality, a negative incompetence of the legislator and a lack of information and oversight. On Article 24 (new Article 52: publishing images of police officers), it invokes a breach of the clarity and intelligibility of the law and of freedom of information and communication. It asks that these articles be declared unconstitutional. This is an NGO's argument, not a decision: the Council rules on 20 May."
+      },
+      "summary": {
+        "fr": "Amnesty demande au Conseil constitutionnel de déclarer contraires à la Constitution les articles 22 (drones, caméras) et 24 (images de policiers) de la loi sécurité globale.",
+        "en": "Amnesty asks the Constitutional Council to strike down Articles 22 (drones, cameras) and 24 (images of police officers) of the Global Security law."
       },
       "related": ["2021-securite-globale-censure-du-conseil-constitutionnel"],
       "evidence": ["amnesty-fr-observations-cc-securite-globale-2021"],
@@ -2008,6 +2172,10 @@
         "fr": "Le 20 mai 2021, Amnesty International France réagit à la décision du Conseil constitutionnel : elle relève la censure de sept articles, dont l'article 24 (devenu 52), censuré pour atteinte au principe de légalité, et l'article 22 (devenu 47) sur les drones, censuré pour atteinte disproportionnée à la vie privée. Le 25 mai, la LDH, membre de la coordination contre la loi, juge que la mobilisation et la saisine ont permis la censure de l'ancien article 24, des drones, des caméras embarquées et d'autres dispositions ; elle regrette que le reste soit déclaré conforme, par exemple l'article 50 sur les crédits de réduction de peine et l'article 53 sur l'accès des policiers armés aux établissements recevant du public, et voit dans la volonté du ministère de l'Intérieur de proposer à nouveau ces mesures une défiance envers la Constitution. Ce sont des lectures d'ONG de la décision, dont la portée juridique est donnée par l'événement du 20 mai.",
         "en": "On 20 May 2021, Amnesty International France reacts to the Constitutional Council's ruling: it notes the striking down of seven articles, including Article 24 (now 52), struck down for breaching the principle of legality, and Article 22 (now 47) on drones, struck down for a disproportionate interference with privacy. On 25 May, the LDH, a member of the coalition against the law, finds that the mobilisation and the referral led to the striking down of the former Article 24, the drones, the vehicle-mounted cameras and other provisions; it regrets that the rest was declared constitutional, for example Article 50 on sentence-reduction credits and Article 53 on armed police officers' access to public venues, and sees in the Interior Ministry's intention to propose these measures again a distrust of the Constitution. These are NGOs' readings of the ruling; its legal scope is given by the 20 May event."
       },
+      "summary": {
+        "fr": "Amnesty et la LDH commentent la décision du 20 mai 2021 : elles retiennent les censures et regrettent que le reste de la loi soit validé.",
+        "en": "Amnesty and the LDH comment on the 20 May 2021 ruling: they note the strikings-down and regret that the rest of the law was upheld."
+      },
       "related": ["2021-securite-globale-censure-du-conseil-constitutionnel"],
       "evidence": [
         "ldh-cp-securite-globale-censure-2021",
@@ -2041,6 +2209,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Pour la première fois, le tribunal enjoint à l'État de réparer sa carence climatique : le premier budget carbone a été dépassé de 62 Mt, dont 15 Mt restent à réparer au 31 décembre 2022, sans astreinte. Le choix des mesures reste libre.",
+        "en": "For the first time the court orders the State to repair its climate failure: the first carbon budget was exceeded by 62 Mt, 15 Mt still to be repaired by 31 December 2022, with no penalty. The choice of measures stays free."
       }
     },
     {
@@ -2063,7 +2235,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["enquete-parlementaire"]
+      "natures": ["enquete-parlementaire"],
+      "summary": {
+        "fr": "Le Sénat relève que les dépenses de conseil de l'État ont dépassé le milliard d'euros en 2021 et plus que doublé depuis 2018. McKinsey n'aurait versé aucun impôt sur les sociétés en France depuis au moins dix ans. La réponse du cabinet n'a pas pu être lue ici.",
+        "en": "The Senate notes State consulting spending exceeded €1bn in 2021 and more than doubled since 2018. McKinsey is said to have paid no corporate tax in France for at least ten years. The firm's reply could not be read here."
+      }
     },
     {
       "id": "2022-balkany-liberation-conditionnelle-confirmee",
@@ -2084,6 +2260,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La cour d'appel de Paris confirme la libération conditionnelle de Patrick Balkany à compter du 5 août 2022, sans bracelet, malgré l'appel du parquet. Elle parle d'un « ultime avertissement » et fixe des obligations.",
+        "en": "The Paris appeal court confirms Patrick Balkany's parole from 5 August 2022, with no tag, despite the prosecutor's appeal. It speaks of an 'ultimate warning' and sets obligations."
       }
     },
     {
@@ -2106,7 +2286,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["procedure"]
+      "natures": ["procedure"],
+      "summary": {
+        "fr": "Le parquet national financier ouvre deux informations judiciaires sur le rôle des cabinets de conseil dans les campagnes de 2017 et 2022 (comptes de campagne ; favoritisme). Procédures en cours : ni mise en examen ni décision dans les sources lues.",
+        "en": "The national financial prosecutor opens two judicial investigations into consultancies' role in the 2017 and 2022 campaigns (campaign accounts; favouritism). Ongoing procedures: no indictment or ruling in the sources read."
+      }
     },
     {
       "id": "2023-cjue-semences-traitees-aux-neonicotinoides",
@@ -2127,6 +2311,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La Cour de justice de l'UE juge qu'un État membre ne peut autoriser des semences traitées aux néonicotinoïdes dont l'usage est expressément interdit par un règlement de l'Union. Ces substances sont à risques élevés pour les abeilles.",
+        "en": "The EU Court of Justice rules a member state cannot authorise neonicotinoid-treated seeds whose use is expressly banned by an EU regulation. These substances pose high risks to bees."
       }
     },
     {
@@ -2141,6 +2329,10 @@
       "description": {
         "fr": "Pour la sixième journée de mobilisation contre la réforme des retraites, la CGT annonce 3,5 millions de manifestants dans 270 lieux, dont 700 000 à Paris. D'après Reuters, le ministère de l'Intérieur en compte environ 1,28 million. Quatre jours plus tard, le 11 mars, Reuters rapporte 368 000 manifestants selon le ministère (48 000 à Paris) et plus d'un million selon la CGT. Les deux décomptes diffèrent donc du simple au triple : la frise ne tranche pas et attribue chaque chiffre à son auteur. Aucune des deux sources lues ne donne de chiffre pour les autres journées.",
         "en": "For the sixth day of mobilisation against the pension reform, the CGT announces 3.5 million protesters in 270 places, including 700,000 in Paris. According to Reuters, the Interior Ministry counts about 1.28 million. Four days later, on 11 March, Reuters reports 368,000 protesters according to the ministry (48,000 in Paris) and over one million according to the CGT. The two counts therefore differ by a factor of about three: the timeline does not settle it and attributes each figure to its author. Neither source read gives figures for the other days."
+      },
+      "summary": {
+        "fr": "Le 7 mars 2023, le ministère de l'Intérieur compte environ 1,28 million de manifestants, la CGT 3,5 millions : deux décomptes, attribués chacun à leur auteur.",
+        "en": "On 7 March 2023 the Interior Ministry counts about 1.28 million protesters, the CGT 3.5 million: two counts, each attributed to its author."
       },
       "related": ["2023-retraites-quatorze-journees-de-mobilisation"],
       "evidence": ["cgt-communique-7-mars-2023", "reuters-boursorama-retraites-recul-2023"],
@@ -2171,6 +2363,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Quatorze journées de grève et de manifestation à partir du 19 janvier 2023. La réforme passe par le 49.3 ; la motion de censure échoue à 9 voix ; le Conseil constitutionnel rejette deux demandes de référendum d'initiative partagée.",
+        "en": "Fourteen days of strikes and demonstrations from 19 January 2023. The reform passes via the 49.3; the no-confidence motion fails by 9 votes; the Constitutional Council rejects two shared-initiative referendum requests."
       }
     },
     {
@@ -2248,6 +2444,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi du 19 mai 2023 autorise à titre expérimental jusqu'au 31 mars 2025 l'analyse algorithmique d'images de vidéoprotection. Le Conseil constitutionnel valide sous réserve ; Amnesty y voit un tremplin pour normaliser la surveillance.",
+        "en": "The 19 May 2023 law allows, as an experiment until 31 March 2025, algorithmic analysis of CCTV images. The Constitutional Council upholds it with reservations; Amnesty sees a springboard to normalise surveillance."
       }
     },
     {
@@ -2269,6 +2469,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Après l'offre publique d'achat simplifiée, le retrait obligatoire intervient le 8 juin 2023 : l'État détient 100 % du capital et des droits de vote d'EDF. Aucun montant n'est repris ici faute de source primaire lue.",
+        "en": "After the simplified takeover bid, the squeeze-out takes place on 8 June 2023: the State holds 100% of EDF's capital and voting rights. No amount is given here for lack of a primary source."
       }
     },
     {
@@ -2292,7 +2496,11 @@
         "note": "Texte original du HCDH non retrouvé ; contenu recoupé par Politis, Reporterre et The Local, mais la date varie (15 ou 16 juin 2023).",
         "by": "ai"
       },
-      "natures": ["avis-instance"]
+      "natures": ["avis-instance"],
+      "summary": {
+        "fr": "Mi-juin 2023, sept expert·es mandaté·es par l'ONU s'inquiètent du manque de retenue dans l'usage de la force et d'une « rhétorique criminalisante » visant des défenseur·es des droits. La LDH reprend ces préoccupations.",
+        "en": "In mid-June 2023, seven UN-appointed experts voice concern about the lack of restraint in the use of force and 'criminalising rhetoric' aimed at rights defenders. The LDH takes up these concerns."
+      }
     },
     {
       "id": "2023-mort-de-nahel-merzouk",
@@ -2348,6 +2556,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Saisi par des associations, le tribunal administratif de Paris reconnaît la carence fautive de l'État sur les pesticides et lui enjoint de réparer d'ici au 30 juin 2024. En appel (2025), la faute liée aux plans Ecophyto est écartée mais l'ANSES est jugée fautive.",
+        "en": "Seized by associations, the Paris administrative court finds the State at fault on pesticides and orders repair by 30 June 2024. On appeal (2025), the Ecophyto-plan fault is dismissed but ANSES is found at fault."
       }
     },
     {
@@ -2368,6 +2580,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La commission indépendante sur l'inceste (Ciivise) remet son rapport après 30 000 témoignages : 160 000 enfants victimes de violences sexuelles par an, 19 % de plaintes, 3 % des mis en cause pour viol sur mineur condamnés. Son président parle d'un « régime d'impunité ».",
+        "en": "The independent commission on incest (Ciivise) delivers its report after 30,000 testimonies: 160,000 child victims of sexual violence a year, 19% file a complaint, 3% of those accused of raping a minor are convicted. Its chair speaks of a 'regime of impunity'."
       }
     },
     {
@@ -2388,6 +2604,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Faute de majorité qualifiée, la Commission renouvelle l'approbation du glyphosate jusqu'au 15 décembre 2033 ; la France s'était abstenue. Le CIRC le classe « cancérogène probable », l'EFSA ne voit pas de préoccupation critique. Des ONG dénoncent une promesse non tenue.",
+        "en": "With no qualified majority, the Commission renews glyphosate's approval until 15 December 2033; France had abstained. The IARC classes it 'probably carcinogenic', EFSA finds no critical concern. Foodwatch and Générations futures denounce a broken promise."
       }
     },
     {
@@ -2413,6 +2633,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Saisi pour obtenir une astreinte, le tribunal juge que le jugement de 2021 n'est pas totalement exécuté mais refuse toute mesure supplémentaire. Les associations dénoncent la décision et se pourvoient en cassation ; le ministère y voit une réparation dans les délais.",
+        "en": "Asked for a penalty payment, the court finds the 2021 judgment not fully executed but refuses any extra measure. The associations denounce the decision and appeal to the Court of Cassation; the ministry sees repair within the deadline."
       }
     },
     {
@@ -2434,6 +2658,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Pour mettre en œuvre les recommandations du Sénat, une proposition de loi vise à encadrer le recours aux consultants. Adoptée à l'unanimité par le Sénat en deuxième lecture (28 mai 2024), elle est toujours « en cours » le 11 novembre 2026.",
+        "en": "A bill to implement the Senate's recommendations aims to regulate the use of consultants. Passed unanimously by the Senate at second reading (28 May 2024), it is still 'in progress' on 11 November 2026."
       }
     },
     {
@@ -2475,6 +2703,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un tribunal panaméen acquitte 28 personnes, dont les deux fondateurs de Mossack Fonseca, poursuivies pour blanchiment. La juge estime que les éléments issus des serveurs du cabinet n'ont pas été recueillis dans le respect de la procédure.",
+        "en": "A Panamanian court acquits 28 people, including Mossack Fonseca's two founders, prosecuted for money laundering. The judge finds the evidence from the firm's servers was not gathered in line with procedure."
       }
     },
     {
@@ -2524,6 +2756,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "« Cash Investigation » (France 2, 17 septembre 2024) affirme que des consultants de McKinsey ont travaillé gratuitement pour la campagne de 2017. La dirigeante du cabinet répond qu'il n'a pas été rentable en France. Enquête journalistique, sans condamnation.",
+        "en": "'Cash Investigation' (France 2, 17 September 2024) claims McKinsey consultants worked for free on the 2017 campaign. The firm's head replies it was not profitable in France. Journalistic investigation, no conviction."
       }
     },
     {
@@ -2548,6 +2784,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un rapport du Sénat relève une rentabilité de certaines sociétés d'autoroutes très supérieure aux prévisions, due surtout au refinancement. Il juge pourtant plus raisonnable d'aller au bout des contrats : une résiliation anticipée pourrait coûter 40 à 50 Md€.",
+        "en": "A Senate report notes some motorway companies' returns far above forecasts, mostly from refinancing gains. It still judges seeing the contracts through more reasonable: early termination could cost €40-50bn."
       }
     },
     {
@@ -2569,6 +2809,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Privatisée en 2019, la FDJ obtient 25 ans de droits exclusifs contre 380 M€. Après relèvement de la rémunération à 477 M€, la Commission conclut le 31 octobre 2024 que la mesure ne constitue pas une aide d'État.",
+        "en": "Privatised in 2019, FDJ gets 25 years of exclusive rights for €380m. After the fee is raised to €477m, the Commission concludes on 31 October 2024 that the measure is not State aid."
       }
     },
     {
@@ -2593,6 +2837,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "L'Autorité de régulation des transports calcule une rentabilité de 7,9 % pour les sociétés d'autoroutes historiques, contre un coût du capital d'environ 7,0 %, un écart qu'elle juge non significatif. Lecture différente de celle du Sénat en 2020.",
+        "en": "The transport regulator calculates a 7.9% return for the historic motorway companies against a cost of capital of about 7.0%, a gap it deems not significant. A different reading from the Senate's in 2020."
       }
     },
     {
@@ -2614,6 +2862,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La Cour de cassation rend définitive la condamnation de Nicolas Sarkozy dans l'affaire des écoutes : corruption active et trafic d'influence, trois ans dont deux avec sursis. La partie ferme, un an, est exécutée sous bracelet électronique.",
+        "en": "The Court of Cassation makes Nicolas Sarkozy's conviction final in the wiretap case: active corruption and influence peddling, three years with two suspended. The one-year firm part is served under an electronic tag."
       }
     },
     {
@@ -2635,6 +2887,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Pour clore une enquête européenne sur environ 5,3 Md€ d'aides publiques, Fret SNCF est remplacé par deux sociétés, cède 23 flux (environ 20 % de son activité) et supprime près de 500 postes.",
+        "en": "To close a European probe into about €5.3bn of public aid, Fret SNCF is replaced by two companies, gives up 23 flows (about 20% of its business) and cuts nearly 500 jobs."
       }
     },
     {
@@ -2655,6 +2911,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Depuis le 2 février 2025, le règlement européen sur l'IA interdit l'identification biométrique à distance en temps réel dans l'espace public à des fins répressives, sauf exceptions strictes. La sécurité nationale est hors champ ; EDRi alerte sur un contournement.",
+        "en": "Since 2 February 2025 the EU AI Act bans real-time remote biometric identification in public spaces for law enforcement, except strict exceptions with prior authorisation. National security is out of scope; EDRi warns of circumvention."
       }
     },
     {
@@ -2676,6 +2936,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Les 19 247 cahiers de doléances du grand débat, promis comme un « trésor national », ne sont jamais publiés. Le 11 mars 2025, l'Assemblée adopte à l'unanimité une résolution pour les rendre accessibles ; le gouvernement s'engage à ouvrir les cahiers numérisés.",
+        "en": "The 19,247 grievance books from the great debate, promised as a 'national treasure', are never published. On 11 March 2025 the Assembly unanimously passes a resolution to make them accessible; the government pledges to open the digitised books."
       }
     },
     {
@@ -2697,6 +2961,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le tribunal correctionnel de Paris condamne Marine Le Pen en première instance pour détournement de fonds publics (assistants d'eurodéputés) : quatre ans dont deux ferme sous bracelet, cinq ans d'inéligibilité avec exécution provisoire. Elle fait appel et conteste.",
+        "en": "The Paris criminal court convicts Marine Le Pen at first instance of embezzling public funds (MEP assistants): four years, two firm under a tag, five years of ineligibility with immediate effect. She appeals and disputes it."
       }
     },
     {
@@ -2738,6 +3006,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Dans un avis du 17 juin 2025, la CNCDH estime que plusieurs dispositifs restreignent l'espace civique (surveillance des syndicats et associations, maintien de l'ordre, judiciarisation) au détriment de la liberté de manifestation.",
+        "en": "In a 17 June 2025 opinion, the CNCDH finds that several measures restrict civic space (surveillance of unions and associations, policing, growing prosecution) at the expense of freedom to protest."
       }
     },
     {
@@ -2758,6 +3030,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La cour d'appel de Paris, rejugeant la peine, condamne François Fillon à quatre ans avec sursis, 375 000 € d'amende et cinq ans d'inéligibilité. Il se désiste de son pourvoi le 16 février 2026 : la peine est définitive, sans prison ferme.",
+        "en": "Re-sentencing, the Paris appeal court gives François Fillon four suspended years, a €375,000 fine and five years of ineligibility. He withdraws his appeal on 16 February 2026: the sentence is final, with no firm prison term."
       }
     },
     {
@@ -2779,6 +3055,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le conclave censé rouvrir la réforme des retraites échoue le 23 juin 2025 après quatre mois : FO et la CGT l'ont quitté, le Premier ministre refuse de revenir à 62 ans. La loi de financement 2026 ne fait que suspendre le recul de l'âge jusqu'en janvier 2028.",
+        "en": "The conclave meant to reopen the pension reform fails on 23 June 2025 after four months: FO and the CGT left, the Prime Minister refuses to return to 62. The 2026 social security law only suspends the age increase until January 2028."
       }
     },
     {
@@ -2799,6 +3079,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un plan de la Commission européenne (COM(2025) 349), pas une loi, prévoit de revoir la conservation des données et de préparer l'accès licite aux données chiffrées. EDRi y voit une porte ouverte aux portes dérobées. Aucune proposition législative trouvée à ce jour.",
+        "en": "A European Commission plan (COM(2025) 349), not a law, would review data retention and prepare lawful access to encrypted data. EDRi sees an opening for backdoors. No legislative proposal found to date."
       }
     },
     {
@@ -2823,6 +3107,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La commission d'enquête du Sénat sur la commande publique formule 67 recommandations, dont une sur le pilotage politique de l'UGAP, la principale centrale d'achat publique (tutelle unique, mandats limités). Taux de marge moyen de l'UGAP : 3,76 % en 2024.",
+        "en": "The Senate inquiry into public procurement makes 67 recommendations, one on political oversight of UGAP, the main public purchasing body (single ministry, limited terms, parliamentarians on the board). UGAP's average margin: 3.76% in 2024."
       }
     },
     {
@@ -2847,6 +3135,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le Conseil constitutionnel (décision 2025-891 DC) censure la dérogation à l'interdiction des néonicotinoïdes de la loi Duplomb, qui privait de garanties le droit à un environnement sain. Le reste de la loi est en grande partie validé, sous réserves.",
+        "en": "The Constitutional Council (decision 2025-891 DC) strikes down the Duplomb law's exemption from the neonicotinoid ban, which left the right to a healthy environment without safeguards. The rest of the law is largely upheld, with reservations."
       }
     },
     {
@@ -2867,6 +3159,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le règlement européen sur la liberté des médias, applicable depuis le 8 août 2025, interdit d'obliger les journalistes à révéler leurs sources ou d'utiliser un logiciel espion contre eux, sauf dérogations encadrées. Application en France non vérifiée.",
+        "en": "The EU media freedom regulation, applicable since 8 August 2025, bars forcing journalists to reveal sources or using spyware on them, except under strict exemptions. Application in France not verified."
       }
     },
     {
@@ -2888,6 +3184,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La cour administrative d'appel reconnaît un préjudice écologique lié aux pesticides, juge l'ANSES fautive dans l'évaluation et ordonne un réexamen des autorisations sous 24 mois, mais écarte la faute liée aux plans Ecophyto. Un pourvoi a été enregistré le 23 octobre 2025.",
+        "en": "The administrative appeal court recognises ecological harm from pesticides, finds ANSES at fault in its assessments and orders a review of authorisations within 24 months, but dismisses the Ecophyto-plan fault. An appeal was filed on 23 October 2025."
       }
     },
     {
@@ -2912,6 +3212,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le tribunal correctionnel de Paris condamne Nicolas Sarkozy à cinq ans de prison pour association de malfaiteurs (financement libyen de 2007) et le relaxe des trois autres chefs. Jugement non définitif ; aucun arrêt d'appel trouvé au 11 novembre 2026.",
+        "en": "The Paris criminal court sentences Nicolas Sarkozy to five years for criminal conspiracy (2007 Libyan financing) and acquits him on three other counts. Not final; no appeal ruling found as of 11 November 2026."
       }
     },
     {
@@ -2938,6 +3242,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Barnier est renversé le 4 décembre 2024, une première depuis 1962 ; Bayrou perd la confiance le 8 septembre 2025 ; Lecornu, nommé le 9 septembre, démissionne le 6 octobre quelques heures après la formation de son gouvernement, puis est renommé le 10 octobre.",
+        "en": "Barnier is toppled on 4 December 2024, a first since 1962; Bayrou loses a confidence vote on 8 September 2025; Lecornu, appointed on 9 September, resigns on 6 October hours after forming his government, then is reappointed on 10 October."
       }
     },
     {
@@ -2953,6 +3261,10 @@
       "description": {
         "fr": "Le 14 octobre 2025, la Commission nationale consultative des droits de l'homme adopte l'avis « Les libertés à l'épreuve des grands événements ». Selon la présentation qu'en donne un de ses conseillers juridiques dans Droits & Libertés (janvier 2026), elle y exprime ses préoccupations sur la « stratégie d'entrave » des Jeux de 2024 : un recours aux Micas quatre à cinq fois supérieur aux années précédentes, des mesures reposant souvent sur des « notes blanches » non sourcées, un élargissement des profils visés (convictions religieuses, origine, activités politiques et syndicales). Elle relève aussi que, d'après les parlementaires et le comité d'évaluation, la vidéosurveillance algorithmique n'a pas contribué de façon significative au succès des Jeux, ce qui n'empêche pas sa prolongation. Nous n'avons pas lu l'avis lui-même, seulement cette présentation.",
         "en": "On 14 October 2025, the National Consultative Commission on Human Rights adopts the opinion “Freedoms put to the test by major events”. According to the presentation given by one of its legal advisers in Droits & Libertés (January 2026), it voices concerns about the 2024 Games' “obstruction strategy”: use of Micas four to five times higher than in previous years, measures often based on unsourced “white notes”, a broadening of the profiles targeted (religious beliefs, origin, political and trade-union activities). It also notes that, according to parliamentarians and the evaluation committee, algorithmic video surveillance did not contribute significantly to the Games' success, which does not stop its extension. We have not read the opinion itself, only this presentation."
+      },
+      "summary": {
+        "fr": "La CNCDH s'inquiète d'une « stratégie d'entrave » pendant les Jeux de 2024, avec un recours aux Micas quatre à cinq fois supérieur. Nous n'avons lu que sa présentation.",
+        "en": "The CNCDH voices concern about an “obstruction strategy” during the 2024 Games, with Micas used four to five times more. We read only its presentation."
       },
       "related": ["2025-cncdh-la-restriction-de-l-espace-civique"],
       "evidence": ["cncdh-libertes-grands-evenements-droits-libertes-212"],
@@ -2981,6 +3293,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La cour d'appel de Paris remet Nicolas Sarkozy en liberté sous contrôle judiciaire. Ni grâce ni fin de peine : sa condamnation de première instance n'est pas définitive, et la détention avant jugement définitif ne peut être maintenue qu'à des conditions strictes.",
+        "en": "The Paris appeal court releases Nicolas Sarkozy under judicial supervision. Not a pardon or end of sentence: his first-instance conviction is not final, and detention before final judgment can only be kept under strict conditions."
       }
     },
     {
@@ -3002,6 +3318,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un reportage de France 2 relève des écarts de prix sur quelques produits achetés via l'UGAP (cafetière, papier, vidéoprojecteur). L'UGAP répond que ses prix sont majoritairement plus bas que ceux du marché. Ces exemples ne mesurent pas l'écart moyen du catalogue.",
+        "en": "A France 2 report finds price gaps on a few products bought via UGAP (coffee maker, paper, projector). UGAP replies its prices are mostly below market. These examples do not measure the catalogue's average gap."
       }
     },
     {
@@ -3023,6 +3343,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le tribunal de l'application des peines d'Évreux accorde une libération conditionnelle à Patrick Balkany pour les dix-huit mois restants de sa peine de 2023 (fraude fiscale, prise illégale d'intérêts). Motifs : âge, santé, faible risque de récidive, effort financier.",
+        "en": "The Évreux sentence-enforcement court grants Patrick Balkany parole for the remaining eighteen months of his 2023 sentence (tax fraud, illegal taking of interest). Grounds: age, health, low risk of reoffending, financial effort."
       }
     },
     {
@@ -3044,7 +3368,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "related": ["2025-cc-loi-duplomb-censure-de-la-derogation"]
+      "related": ["2025-cc-loi-duplomb-censure-de-la-derogation"],
+      "summary": {
+        "fr": "La pétition contre la loi Duplomb (réintroduction de l'acétamipride) dépasse 2,1 millions de signatures. Le Conseil constitutionnel censure la dérogation en août 2025 ; la pétition est débattue le 11 février 2026 sans vote, et un nouveau texte est déposé.",
+        "en": "The petition against the Duplomb law (reintroducing acetamiprid) exceeds 2.1 million signatures. The Constitutional Council strikes down the exemption in August 2025; the petition is debated on 11 February 2026 with no vote, and a new bill is filed."
+      }
     },
     {
       "id": "2026-referes-cnews-conseil-d-etat-rejet",
@@ -3065,6 +3393,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Des universitaires et juristes demandent en référé au Conseil d'État d'obliger l'Arcom à agir contre CNews et Europe 1. Le juge rejette le 10 mars 2026 faute d'urgence ; ce rejet ne juge pas le fond.",
+        "en": "Academics and jurists ask the Council of State in summary proceedings to force Arcom to act against CNews and Europe 1. The judge rejects on 10 March 2026 for lack of urgency; this does not rule on the substance."
       }
     },
     {
@@ -3086,6 +3418,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Dans la loi sur les Jeux d'hiver de 2030, le Conseil constitutionnel valide la prolongation jusqu'en 2027 de l'expérimentation de vidéosurveillance algorithmique, terminée en mars 2025. Une première tentative avait été censurée en avril 2025.",
+        "en": "In the 2030 Winter Games law, the Constitutional Council upholds extending the algorithmic video surveillance experiment to 2027, which ended in March 2025. A first attempt had been struck down in April 2025."
       }
     },
     {
@@ -3107,6 +3443,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La DGFiP indique que les contrôles et régularisations liés aux Panama Papers représentent 271 M€ de droits et pénalités pour 230 dossiers. Ce n'est pas la somme effectivement recouvrée, que la DGFiP n'a pas pu fournir.",
+        "en": "The tax administration says Panama Papers checks and settlements amount to €271m in duties and penalties across 230 cases. This is not the sum actually recovered, which it could not provide."
       }
     },
     {
@@ -3127,6 +3467,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Selon l'INSEE, la dette publique atteint 3 460,5 Md€ fin 2025, soit 115,7 % du PIB (97,9 % en 2019). La charge d'intérêts s'établit à 64,7 Md€ en 2025 (+11,2 %), sous l'effet de la hausse de l'encours et des taux.",
+        "en": "According to INSEE, public debt reaches €3,460.5bn at end-2025, or 115.7% of GDP (97.9% in 2019). Interest costs reach €64.7bn in 2025 (+11.2%), driven by higher debt and rates."
       }
     },
     {
@@ -3156,6 +3500,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Adoptée en première lecture par l'Assemblée le 7 juillet 2026, la proposition de loi n° 691 crée une présomption de légitime défense pour les forces de l'ordre, renversable en cas d'usage manifestement disproportionné. La Défenseure des droits et un rapporteur de l'ONU alertent.",
+        "en": "Passed at first reading by the Assembly on 7 July 2026, bill no. 691 creates a presumption of self-defence for law enforcement, rebuttable in case of manifestly disproportionate use. The Defender of Rights and a UN rapporteur warn against it."
       }
     },
     {
@@ -3177,6 +3525,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "En appel, Marine Le Pen est condamnée à trois ans dont deux avec sursis, 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis, déjà en partie purgés : elle peut se présenter en 2027. Elle s'est pourvue en cassation ; la décision n'est pas définitive.",
+        "en": "On appeal, Marine Le Pen gets three years with two suspended, a €100,000 fine and 45 months of ineligibility with 30 suspended, already partly served: she can run in 2027. She has appealed to the Court of Cassation; not final."
       }
     },
     {
@@ -3189,8 +3541,12 @@
       "kinds": ["deni-democratique", "securite-libertes"],
       "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1120742/file/EAT%20P%C3%A9tition%20Pr%C3%A9somption%20l%C3%A9gitime%20d%C3%A9fense%20FDO.pdf",
       "description": {
-        "fr": "Ouverte le 26 juin 2026 sur le site de l'Assemblée, la pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » recueille 717 627 signatures au 20 juillet (la presse en cite ensuite 720 000 à plus de 730 000), bien au-delà du seuil de 500 000 prévu par le Règlement. Dans son document du 21 juillet, le rapporteur propose à la commission des lois de poursuivre l'examen. Dans la nuit du 21 au 22 juillet, la commission en décide autrement : selon LCP, elle classe la pétition par 35 voix contre 21, sans débat en séance, en invoquant notamment la proposition de loi déjà en cours d'examen (adoptée en première lecture le 7 juillet) ; les groupes de gauche et LIOT demandaient de ne pas la classer. Les chiffres de signatures divergent selon les sources : celui du rapporteur est le seul daté.",
-        "en": "Opened on 26 June 2026 on the Assembly's website, petition no. 6334 “Against the presumption of self-defence for law enforcement” gathers 717,627 signatures as of 20 July (the press later cites 720,000 to over 730,000), well above the 500,000 threshold in the Assembly's rules. In his 21 July paper, the rapporteur proposes that the Law Committee continue the examination. In the night of 21 to 22 July the committee decides otherwise: according to LCP, it files the petition away by 35 votes to 21, with no plenary debate, citing in particular the bill already under examination (adopted at first reading on 7 July); the left-wing groups and LIOT asked that it not be filed away. Signature counts differ between sources: the rapporteur's is the only dated one."
+        "fr": "Ouverte le 26 juin 2026 sur le site de l'Assemblée, la pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » recueille 717 627 signatures au 20 juillet (la presse en cite ensuite 720 000 à plus de 730 000), bien au-delà du seuil de 500 000 prévu par le Règlement. Dans son document du 21 juillet, le rapporteur propose à la commission des lois de poursuivre l'examen. Dans la nuit du 21 au 22 juillet, la commission en décide autrement : selon LCP, elle classe la pétition par 35 voix contre 21, sans débat en séance, en invoquant notamment la proposition de loi déjà en cours d'examen (adoptée en première lecture le 7 juillet) ; les groupes de gauche et LIOT demandaient de ne pas la classer. Le ministre de l'Intérieur avait répondu le jour même aux députés que le texte crée une présomption simple, qui peut être renversée, et réfute l'expression « permis de tuer ». LCP rappelle qu'une pétition contre la loi Yadan (700 000 signatures) avait été classée pour le même motif. Les chiffres de signatures divergent selon les sources : celui du rapporteur est le seul daté.",
+        "en": "Opened on 26 June 2026 on the Assembly's website, petition no. 6334 “Against the presumption of self-defence for law enforcement” gathers 717,627 signatures as of 20 July (the press later cites 720,000 to over 730,000), well above the 500,000 threshold in the Assembly's rules. In his 21 July paper, the rapporteur proposes that the Law Committee continue the examination. In the night of 21 to 22 July the committee decides otherwise: according to LCP, it files the petition away by 35 votes to 21, with no plenary debate, citing in particular the bill already under examination (adopted at first reading on 7 July); the left-wing groups and LIOT asked that it not be filed away. The Interior Minister had replied to deputies the same day that the text creates a simple presumption that can be overturned, and rejects the phrase “licence to kill”. LCP recalls that a petition against the Yadan law (700,000 signatures) was filed away for the same reason. Signature counts differ between sources: the rapporteur's is the only dated one."
+      },
+      "summary": {
+        "fr": "La pétition n° 6334 (717 627 signatures au 20 juillet) est classée sans débat en séance par la commission des lois, par 35 voix contre 21.",
+        "en": "Petition no. 6334 (717,627 signatures on 20 July) is filed away without a plenary debate by the Law Committee, by 35 votes to 21."
       },
       "related": ["2026-presomption-de-legitime-defense-des-forces-de-l-ordre"],
       "evidence": [
@@ -3222,6 +3578,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un règlement européen valable jusqu'au 3 avril 2028 permet à nouveau aux fournisseurs d'analyser des messages privés contre les abus sexuels sur enfants, selon EDRi. Il précise ne pas affaiblir le chiffrement de bout en bout. Le règlement permanent est toujours en négociation.",
+        "en": "An EU regulation valid until 3 April 2028 again lets providers scan private messages for child sexual abuse, per EDRi. It states it does not weaken end-to-end encryption. The permanent regulation is still under negotiation."
       }
     },
     {
@@ -3244,6 +3604,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La loi Ripost reporte à fin 2030 l'expérimentation de vidéosurveillance algorithmique et crée une procédure d'urgence pour les drones. Le Conseil constitutionnel censure plusieurs dispositions mais valide l'extension (trois mois) et les drones sous réserve.",
+        "en": "The Ripost law extends the algorithmic video surveillance trial to end-2030 and creates an urgent procedure for drones. The Constitutional Council strikes some provisions but upholds the extension (authorisations capped at three months) and drones with reservations."
       }
     },
     {
@@ -3265,6 +3629,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le Conseil constitutionnel valide la quasi-totalité de la loi d'urgence agricole, dont, selon Reporterre, la réintroduction dérogatoire de l'acétamipride et du flupyradifurone, sous conditions strictes et pour trois ans. Des élu·es dénonçaient l'impact sur les pollinisateurs.",
+        "en": "The Constitutional Council upholds almost all of the agricultural emergency law, including, per Reporterre, the exemption-based return of acetamiprid and flupyradifurone, with strict conditions and repeal after three years. MPs had denounced the impact on pollinators."
       }
     },
     {
@@ -3290,6 +3658,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Depuis le 18 août 2026, un juge ou procureur de l'UE peut exiger directement d'un prestataire d'un autre pays des données pour une procédure pénale, sous dix jours (huit heures en urgence). Le texte n'impose pas de déchiffrer ; aucune source ne le relie aux manifestations.",
+        "en": "Since 18 August 2026, an EU judge or prosecutor can demand data directly from a provider in another country for criminal proceedings, within ten days (eight hours in emergencies). The text does not require decryption; no source links it to protests."
       }
     },
     {
@@ -3315,7 +3687,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["procedure"]
+      "natures": ["procedure"],
+      "summary": {
+        "fr": "Le PNF et le parquet de Bruxelles annoncent une saisie d'environ 65 M€ dans l'enquête sur McKinsey pour blanchiment de fraude fiscale aggravée, soit 96 % du préjudice fiscal selon le PNF. Une saisie n'est pas une condamnation : aucune mise en examen trouvée.",
+        "en": "The PNF and the Brussels prosecutor announce a seizure of about €65m in the McKinsey probe for laundering aggravated tax fraud, 96% of the tax loss per the PNF. A seizure is not a conviction: no indictment found."
+      }
     },
     {
       "id": "2026-carcassonne-propos-racistes-filmes-par",
@@ -3361,7 +3737,11 @@
         "titrespresse-gav-lyceens-2026",
         "ici-darmanin-gav-2026",
         "ddd-mobilisations-lyceennes-2026"
-      ]
+      ],
+      "summary": {
+        "fr": "Blocus de lycées pour plus d'enseignant·es et de moyens. Bilan annoncé mi-octobre : 7 950 gardes à vue, dont 6 773 mineur·es (chiffres attribués au ministère de la Justice). Le Défenseur des droits parle d'une ampleur « inédite ». Les chiffres de novembre ne se comparent pas.",
+        "en": "High-school blockades for more teachers and resources. Mid-October tally: 7,950 police custodies, 6,773 of them minors (figures attributed to the Justice Ministry). The Defender of Rights calls the scale 'unprecedented'. November figures are not comparable."
+      }
     },
     {
       "id": "2026-amnesty-usage-disproportionne-de-la-force-mouvement-lyceen",
@@ -3374,8 +3754,12 @@
       "natures": ["constat-ong"],
       "url": "https://www.amnesty.fr/communiques/amnesty-international-denonce-lusage-disproportionne-de-la-force-contre-les-manifestations-lyceennes/",
       "description": {
-        "fr": "Le 2 octobre 2026, Amnesty International France dénonce un usage disproportionné de la force contre les manifestations lycéennes : étranglements, tirs de LBD, gaz poivré à bout portant. Dans son point de situation, elle cite des chiffres du ministère de l'Intérieur (plus de 5 000 interpellations entre le 21 septembre et le 2 octobre, dont 85 % de mineur·es) et des cas rapportés par la presse ou des procureurs : un lycéen de 14 ans touché au visage par un tir de lance-grenades (séquence authentifiée par Le Monde, selon Amnesty), un jeune de 16 ans qui a perdu l'usage d'un œil, dont la procureure juge les lésions compatibles avec un tir de LBD, et le cas de Lens, avec une enquête de l'IGPN. Elle demande des enquêtes indépendantes, la suspension des LBD et, pour les grenades assourdissantes, une interdiction. C'est un constat d'ONG et non une décision ; aucune réponse du gouvernement n'y figure (voir l'événement du 7 octobre pour la suspension annoncée des grenades).",
-        "en": "On 2 October 2026, Amnesty International France denounces a disproportionate use of force against high-school protests: chokeholds, LBD shots, pepper spray at point-blank range. In its situation report it cites Interior Ministry figures (over 5,000 arrests between 21 September and 2 October, 85% of them minors) and cases reported by the press or prosecutors: a 14-year-old hit in the face by a grenade-launcher shot (footage authenticated by Le Monde, according to Amnesty), a 16-year-old who lost the sight of an eye, whose injuries the prosecutor finds consistent with an LBD shot, and the Lens case, under IGPN investigation. It asks for independent investigations, the suspension of LBDs and a ban on stun grenades. This is an NGO finding, not a decision; no government reply appears in it (see the 7 October event for the announced suspension of the grenades)."
+        "fr": "Le 2 octobre 2026, Amnesty International France dénonce un usage disproportionné de la force contre les manifestations lycéennes : techniques d'étranglement, tirs de LBD, gaz poivrés. Dans son point de situation, elle cite le ministère de l'Intérieur pour plus de 5 000 interpellations entre le 21 septembre et le 2 octobre, et indique que 85 % des personnes interpellées sont mineures et des cas rapportés par la presse ou des procureurs : un lycéen de 14 ans touché au visage par un tir de lance-grenades (séquence authentifiée par Le Monde, selon Amnesty), un jeune de 16 ans qui a perdu l'usage d'un œil, dont la procureure juge les lésions compatibles avec un tir de LBD, et le cas de Lens, avec une enquête de l'IGPN. Elle demande des enquêtes indépendantes, la suspension des LBD et, pour les grenades assourdissantes, une interdiction. C'est un constat d'ONG et non une décision ; aucune réponse du gouvernement n'y figure (voir l'événement du 7 octobre pour la suspension annoncée des grenades).",
+        "en": "On 2 October 2026, Amnesty International France denounces a disproportionate use of force against high-school protests: chokeholds, LBD shots, pepper spray. In its situation report it cites the Interior Ministry for over 5,000 arrests between 21 September and 2 October, and states that 85% of those arrested are minors and cases reported by the press or prosecutors: a 14-year-old hit in the face by a grenade-launcher shot (footage authenticated by Le Monde, according to Amnesty), a 16-year-old who lost the sight of an eye, whose injuries the prosecutor finds consistent with an LBD shot, and the Lens case, under IGPN investigation. It asks for independent investigations, the suspension of LBDs and a ban on stun grenades. This is an NGO finding, not a decision; no government reply appears in it (see the 7 October event for the announced suspension of the grenades)."
+      },
+      "summary": {
+        "fr": "Amnesty dénonce un usage disproportionné de la force contre les manifestations lycéennes et demande la suspension des LBD. C'est un constat d'ONG, pas une décision.",
+        "en": "Amnesty denounces a disproportionate use of force against high-school protests and calls for LBD launchers to be suspended. An NGO finding, not a decision."
       },
       "related": [
         "2026-mouvement-lyceen-de-2026",
@@ -3412,6 +3796,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Après qu'un lycéen de 15 ans a eu la main arrachée à Lens le 5 octobre 2026, le ministre de l'Intérieur suspend l'usage des grenades pour le mouvement lycéen. Mesure ciblée, non une interdiction générale ; le modèle de la grenade et les circonstances restent disputés.",
+        "en": "After a 15-year-old student lost a hand in Lens on 5 October 2026, the Interior Minister suspends use of the grenades for the student movement. A targeted measure, not a general ban; the grenade model and circumstances remain disputed."
       }
     },
     {
@@ -3442,6 +3830,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Les 17 et 24 octobre 2026, des centaines de milliers de personnes manifestent contre la vie chère. Couvre-feux et interdictions de rassemblement dans de nombreuses villes ; Emmanuel Macron annonce l'interdiction des rassemblements non syndicaux, jugée illégale par la LDH.",
+        "en": "On 17 and 24 October 2026, hundreds of thousands protest against the cost of living. Curfews and gathering bans in many cities; Emmanuel Macron announces a ban on non-union gatherings, deemed illegal by the LDH."
       }
     },
     {
@@ -3455,8 +3847,12 @@
       "natures": ["constat-ong"],
       "url": "https://www.ldh-france.org/larmee-contre-la-jeunesse-la-ldh-demande-a-lonu-une-mission-dobservation-en-france/",
       "description": {
-        "fr": "Dans un communiqué signé du 22 octobre 2026, la Ligue des droits de l'Homme juge le maintien de l'ordre du 17 octobre chaotique et critique les armes dites sublétales, déjà à l'origine de mutilations. Elle saisit le Comité des droits de l'enfant de l'ONU et appelle le Haut-Commissaire aux droits de l'Homme à envoyer une mission d'observation des manifestations, en invoquant la Convention internationale des droits de l'enfant, la liberté de manifester et l'intégrité physique. C'est la position d'une ONG, et le communiqué ne cite aucune réponse des autorités.",
-        "en": "In a statement signed on 22 October 2026, the Ligue des droits de l'Homme finds the policing of 17 October chaotic and criticises so-called sub-lethal weapons, which have already caused mutilations. It refers the matter to the UN Committee on the Rights of the Child and calls on the High Commissioner for Human Rights to send an observation mission to the protests, invoking the Convention on the Rights of the Child, freedom to protest and physical integrity. This is an NGO's position, and the statement cites no reply from the authorities."
+        "fr": "Dans un communiqué signé du 22 octobre 2026 (mis en ligne le 1er novembre), la Ligue des droits de l'Homme juge le maintien de l'ordre du 17 octobre « chaotique et incohérent » et critique les armes dites sublétales, déjà à l'origine de mutilations. Elle dénonce aussi, d'après l'annonce qu'elle attribue au ministre de l'Intérieur, le déploiement pour le 24 octobre de 500 militaires de l'opération Sentinelle et d'unités comme la BRI, le Raid et le GIGN, non formées au maintien de l'ordre selon elle. Elle saisit le Comité des droits de l'enfant de l'ONU et appelle le Haut-Commissaire aux droits de l'Homme à envoyer une mission d'observation des manifestations, en invoquant la Convention internationale des droits de l'enfant, la liberté de manifester et l'intégrité physique. C'est la position d'une ONG, et le communiqué ne cite aucune réponse des autorités.",
+        "en": "In a statement signed on 22 October 2026 (posted online on 1 November), the Ligue des droits de l'Homme finds the policing of 17 October “chaotic and incoherent” and criticises so-called sub-lethal weapons, which have already caused mutilations. It also denounces, citing an announcement it attributes to the Interior Minister, the deployment for 24 October of 500 soldiers of Operation Sentinelle and of units such as the BRI, Raid and GIGN, which in its view are not trained for policing protests. It refers the matter to the UN Committee on the Rights of the Child and calls on the High Commissioner for Human Rights to send an observation mission to the protests, invoking the Convention on the Rights of the Child, freedom to protest and physical integrity. This is an NGO's position, and the statement cites no reply from the authorities."
+      },
+      "summary": {
+        "fr": "La LDH saisit le Comité des droits de l'enfant de l'ONU et demande une mission d'observation des manifestations, après un maintien de l'ordre qu'elle juge chaotique le 17 octobre.",
+        "en": "The LDH refers the matter to the UN Committee on the Rights of the Child and asks for an observation mission on protests, after policing it finds chaotic on 17 October."
       },
       "related": [
         "2026-manifestations-des-17-et-24-octobre",
@@ -3488,6 +3884,10 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Lancée en 2023 puis relancée en juin 2026, l'application Agora accueille la consultation des lycéen·nes (environ 100 000 contributions). Une chercheuse y voit une « participation autoritaire » ; des participant·es redoutent une nouvelle promesse sans suite.",
+        "en": "Launched in 2023 and relaunched in June 2026, the Agora app hosts the student consultation (about 100,000 contributions). A researcher sees 'authoritarian participation'; participants fear another promise left unfulfilled."
       }
     },
     {
@@ -3503,6 +3903,10 @@
       "description": {
         "fr": "Le 23 octobre 2026, le Défenseur des droits, autorité administrative indépendante chargée aussi de la déontologie des forces de sécurité, dit avoir reçu 55 saisines liées à la mobilisation lycéenne, dont 21 concernent des mineurs et mettent en cause la déontologie des forces de sécurité : 19 dénoncent le recours à la force (dont l'usage d'armes et les nasses), 2 la confiscation de pancartes, 3 des atteintes aux droits procéduraux et des conditions indignes en garde à vue (plusieurs motifs pouvant se cumuler). Il exprime sa vive préoccupation sur l'ampleur inédite des interpellations et gardes à vue, rappelle les exigences de nécessité et de proportionnalité de l'usage de la force et demande de clarifier le cadre juridique de la confiscation d'objets. Ces chiffres sont ceux de l'institution et portent sur des saisines, pas sur des faits établis.",
         "en": "On 23 October 2026, the Defender of Rights, an independent administrative authority that also oversees the conduct of security forces, says it has received 55 referrals related to the high-school mobilisation, 21 of which concern minors and question the conduct of security forces: 19 denounce the use of force (including weapons and kettling), 2 the confiscation of signs, 3 breaches of procedural rights and degrading conditions in police custody (several grounds may overlap). It expresses deep concern at the unprecedented scale of arrests and custody, recalls the requirements of necessity and proportionality in the use of force and asks for the legal framework on confiscating objects to be clarified. These figures are the institution's own and concern referrals, not established facts."
+      },
+      "summary": {
+        "fr": "Le Défenseur des droits indique 55 saisines liées à la mobilisation lycéenne, dont 21 de mineurs, et s'inquiète de l'ampleur inédite des interpellations.",
+        "en": "The Defender of Rights reports 55 referrals linked to the high-school mobilisation, 21 of them from minors, and is concerned by the unprecedented scale of arrests."
       },
       "related": [
         "2026-mouvement-lyceen-de-2026",
@@ -3542,6 +3946,10 @@
         "date": "2026-11-09",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Le projet de loi crée une responsabilité solidaire plafonnée à 10 000 €, pour les participant·es à un groupement violent, avec saisie de prestations. Le Sénat adopte l'article 1 le 27 octobre 2026 ; gauche et syndicats y voient une atteinte au droit de manifester.",
+        "en": "The bill creates joint liability, capped at €10,000, for participants in a violent group, and allows seizure of social benefits. The Senate adopts Article 1 on 27 October 2026; the left and unions denounce an attack on the right to protest."
       }
     },
     {
@@ -3565,7 +3973,11 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["avis-instance"]
+      "natures": ["avis-instance"],
+      "summary": {
+        "fr": "Quatre rapporteurs spéciaux de l'ONU jugent que violences et arrestations en masse ne sont pas des réponses appropriées à un mouvement social, et les blessures de mineur·es injustifiables. Ils condamnent aussi les dégradations et les policiers blessés.",
+        "en": "Four UN special rapporteurs say violence and mass arrests are not appropriate responses to a social movement, and minors' injuries unjustifiable. They also condemn the damage and injured police officers."
+      }
     },
     {
       "id": "2026-conseil-d-etat-hatvp-conflits-d-interets-et-pantouflage",
@@ -3586,6 +3998,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Pour la première fois, le Conseil d'État précise comment la HATVP contrôle la déclaration d'intérêts d'un ministre (intensité des intérêts sur cinq ans, hors risque pénal) et le départ vers le privé. Il annule trois délibérations de la HATVP.",
+        "en": "For the first time the Council of State specifies how the HATVP checks a minister's declaration of interests (intensity of interests over five years, excluding criminal risk) and moves to the private sector. It annuls three HATVP deliberations."
       }
     },
     {
@@ -3601,6 +4017,10 @@
       "description": {
         "fr": "Après l'adoption du projet de loi « casseurs-payeurs » par le Sénat le 27 octobre 2026 (procédure accélérée, texte annoncé après les violences de la finale de la Ligue des champions en mai 2026), Amnesty International France en demande le retrait. Elle décrit un texte qui tiendrait pour responsables, jusqu'à 10 000 euros par personne, ceux qui auraient « sciemment » participé à un rassemblement où des dégradations sont commises ou se seraient maintenus malgré les sommations, avec saisie possible de prestations sociales (dont le RSA), responsabilité civile des parents et peine complémentaire d'interdiction du territoire pour les étrangers majeurs condamnés pour certaines infractions graves. Elle estime que le droit international n'admet de responsabilité que pour sa propre conduite, prouvée. Le texte doit encore passer devant l'Assemblée. C'est la position d'une ONG ; l'article ne cite pas de réponse du gouvernement.",
         "en": "After the Senate adopted the “rioters pay” bill on 27 October 2026 (accelerated procedure, announced after the violence at the Champions League final in May 2026), Amnesty International France calls for its withdrawal. It describes a text that would hold liable, up to 10,000 euros per person, those who “knowingly” took part in a gathering where damage is done or who stayed despite dispersal warnings, with possible seizure of social benefits (including the RSA), civil liability of parents and an additional penalty of a ban from French territory for adult foreigners convicted of certain serious offences. It argues that international law accepts liability only for one's own proven conduct. The text still has to go before the Assembly. This is an NGO's position; the article cites no government reply."
+      },
+      "summary": {
+        "fr": "Après le vote du Sénat le 27 octobre, Amnesty demande le retrait du projet « casseurs-payeurs » : jusqu'à 10 000 € par personne, selon elle même sans faute personnelle.",
+        "en": "After the Senate vote on 27 October, Amnesty calls for the “rioters pay” bill to be withdrawn: up to €10,000 per person, in its view even without personal fault."
       },
       "related": ["2026-projet-de-loi-casseurs-payeurs"],
       "evidence": ["amnesty-fr-casseurs-payeurs-2026"],
@@ -3633,6 +4053,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Autour de la manifestation du 31 octobre 2026, le ministère de l'Intérieur assigne des militants à résidence (Micas, loi SILT). Avocats et ONG dénoncent un détournement ; le ministère n'a pas donné le nombre d'arrêtés. En 2024, 52 mesures sur 547 avaient été annulées.",
+        "en": "Around the 31 October 2026 protest, the Interior Ministry places activists under house arrest (Micas, SILT law). Lawyers and NGOs denounce a misuse; the ministry gave no number of orders. In 2024, 52 of 547 measures were annulled."
       }
     },
     {
@@ -3648,6 +4072,10 @@
       "description": {
         "fr": "Dans un communiqué commun du 4 novembre 2026, l'Adelico, la CGT, la FSU, la LDH, le Syndicat des avocats de France, Solidaires, l'Unef et le Syndicat de la magistrature dénoncent une « bascule autoritaire ». Ils affirment que des préfets prennent des arrêtés d'interdiction au dernier moment, sans permettre en général un recours, et que le gouvernement détourne la législation antiterroriste : selon eux, les Micas (loi SILT) produisent le même effet que l'interdiction préfectorale de manifester censurée par le Conseil constitutionnel en 2019, puisqu'elles empêchent de sortir d'un périmètre ; elles seraient prises pour chaque mobilisation et viseraient surtout des militant·es. Ils signalent aussi un amendement du gouvernement au projet « casseurs-payeurs » qui permettrait à l'exécutif d'interdire individuellement de paraître en manifestation. Ils saisissent le Conseil d'État pour qu'il prévoie des permanences permettant d'exercer les recours. Ce sont des positions d'organisations ; le communiqué ne cite aucune réponse du gouvernement et aucun chiffre.",
         "en": "In a joint statement of 4 November 2026, Adelico, the CGT, the FSU, the LDH, the Syndicat des avocats de France, Solidaires, Unef and the Syndicat de la magistrature denounce an “authoritarian shift”. They state that prefects issue ban orders at the last minute, generally without allowing an appeal, and that the government is diverting counter-terrorism legislation: according to them, Micas (SILT law) have the same effect as the prefectoral protest ban struck down by the Constitutional Council in 2019, since they prevent leaving a perimeter; they say they are issued for each mobilisation and mostly target activists. They also point to a government amendment to the “rioters pay” bill that would let the executive ban individuals from attending protests. They ask the Council of State to provide duty arrangements so that appeals can be made. These are the organisations' positions; the statement cites no government reply and no figures."
+      },
+      "summary": {
+        "fr": "La LDH et sept organisations dénoncent un détournement de la législation antiterroriste (Micas) pour empêcher de manifester, et saisissent le Conseil d'État.",
+        "en": "The LDH and seven organisations denounce a diversion of counter-terrorism law (Micas) to prevent people from protesting, and refer the matter to the Council of State."
       },
       "related": ["2026-assignations-a-residence-de-manifestants-micas"],
       "evidence": ["ldh-illegalismes-administratifs-2026"],
@@ -3680,6 +4108,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "À Bordeaux le 7 novembre 2026, une vidéo fait craindre un canon à son (LRAD). La gendarmerie répond qu'il s'agit de l'avertisseur sonore des véhicules Centaure et qu'elle ne possède pas de LRAD. Aucune source indépendante n'a été trouvée sur les faits.",
+        "en": "In Bordeaux on 7 November 2026, a video raises fears of a sound cannon (LRAD). The gendarmerie replies it is the Centaure vehicles' warning horn and that it owns no LRAD. No independent source on the facts was found."
       }
     },
     {
@@ -3693,8 +4125,12 @@
       "natures": ["constat-ong"],
       "url": "https://www.ldh-france.org/lintersyndicale-lyceenne-et-etudiante-a-ete-recue-le-29-octobre-par-le-ministere-de-linterieur-apres-plusieurs-semaines-de-mobilisation-de-la-jeunesse-marquees-par-des-violences-p/",
       "description": {
-        "fr": "Dans un communiqué commun du 9 novembre 2026, la LDH, l'Unef et l'USL rendent compte de la réception de l'intersyndicale lycéenne et étudiante par le ministère de l'Intérieur le 29 octobre. Elles dénoncent des violences policières, des blessures graves chez des jeunes et des interdictions de manifester publiées si tard qu'un recours devant le juge administratif devient quasi impossible, et critiquent la proposition de loi sur la responsabilité du fait d'autrui des manifestants, votée au Sénat. Selon elles, le ministère a refusé de reconnaître les violences et de s'engager à publier plus tôt les arrêtés d'interdiction, en maintenant que la force employée était nécessaire et proportionnée. Elles saisissent le Haut-Commissariat de l'ONU et le Comité des droits de l'enfant. La version du ministère n'est connue ici que par ce communiqué.",
-        "en": "In a joint statement of 9 November 2026, the LDH, Unef and USL report on the meeting between the high-school and student union alliance and the Interior Ministry on 29 October. They denounce police violence, serious injuries among young people and protest bans published so late that an appeal to the administrative judge becomes almost impossible, and criticise the bill on protesters' liability for others' acts, passed by the Senate. According to them, the ministry refused to acknowledge the violence or commit to publishing the bans earlier, maintaining that the force used was necessary and proportionate. They refer the matter to the UN High Commissioner's office and the Committee on the Rights of the Child. The ministry's version is known here only through this statement."
+        "fr": "Dans un communiqué commun du 9 novembre 2026, la LDH, l'Unef et l'USL rendent compte de la réception de l'intersyndicale lycéenne et étudiante par le ministère de l'Intérieur le 29 octobre. Elles dénoncent des violences policières, des blessures graves chez des jeunes et des interdictions de manifester publiées si tard qu'un recours devant le juge administratif devient quasi impossible, et critiquent le projet de loi qui ferait peser sur les manifestant·es la réparation des dommages par responsabilité du fait d'autrui, voté au Sénat. Selon elles, le ministère a refusé de reconnaître les violences et de s'engager à publier plus tôt les arrêtés d'interdiction, en maintenant que la force employée était toujours « nécessaire et proportionnée » et en renvoyant à la justice la responsabilité des recours impossibles, qui « aurait pu avoir le temps de statuer » selon le ministère tel que le rapportent les signataires. Elles saisissent une nouvelle fois le Haut-Commissariat de l'ONU et le Comité des droits de l'enfant. La version du ministère n'est connue ici que par ce communiqué.",
+        "en": "In a joint statement of 9 November 2026, the LDH, Unef and USL report on the meeting between the high-school and student union alliance and the Interior Ministry on 29 October. They denounce police violence, serious injuries among young people and protest bans published so late that an appeal to the administrative judge becomes almost impossible, and criticise the bill that would make protesters liable for damage caused by others, passed by the Senate. According to them, the ministry refused to acknowledge the violence or commit to publishing the bans earlier, maintaining that the force used had always been “necessary and proportionate” and putting the responsibility for the impossible appeals on the courts, which “could have had time to rule” according to the ministry as the signatories report it. They again refer the matter to the UN High Commissioner's office and the Committee on the Rights of the Child. The ministry's version is known here only through this statement."
+      },
+      "summary": {
+        "fr": "Après leur réception au ministère de l'Intérieur, la LDH, l'Unef et l'USL disent que le ministre a nié les violences et maintenu que la force était proportionnée ; elles saisissent l'ONU.",
+        "en": "After being received at the Interior Ministry, the LDH, Unef and USL say the minister denied the violence and maintained the force was proportionate; they refer the matter to the UN."
       },
       "related": [
         "2026-ldh-demande-a-l-onu-une-mission-d-observation",
@@ -3730,6 +4166,10 @@
         "date": "2026-11-10",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "La pétition n° 5820 demande la suppression de CNews et dépasse le million de signatures. La commission des affaires culturelles la classe le 10 novembre 2026 (28 voix contre 25) et propose un débat plus large. Une pétition n'ouvre aucun recours ; seule l'Arcom peut agir.",
+        "en": "Petition no. 5820 calls for CNews to be removed and passes one million signatures. The cultural affairs committee files it on 10 November 2026 (28 votes to 25) and proposes a broader debate. A petition opens no legal remedy; only Arcom can act."
       }
     },
     {
@@ -3751,6 +4191,10 @@
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "D'après le résumé public de Mediapart, les premiers recours contre les Micas visant des manifestants ont été examinés sur le fond le 10 novembre 2026. L'article complet n'a pas été lu : ni audiences ni décisions ne sont documentées.",
+        "en": "Per Mediapart's public summary, the first appeals against Micas targeting protesters were heard on the merits on 10 November 2026. The full article was not read: neither hearings nor decisions are documented."
       }
     }
   ]

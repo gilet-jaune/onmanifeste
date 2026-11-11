@@ -66,6 +66,10 @@
             "type": "string",
             "pattern": "^https://"
           },
+          "summary": {
+            "$ref": "resources.schema.json#/$defs/localized",
+            "description": "Optional short text shown on the timeline card (about 200 characters); the full description opens in a dialog."
+          },
           "description": {
             "$ref": "resources.schema.json#/$defs/localized"
           },

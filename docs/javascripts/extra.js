@@ -767,31 +767,144 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /*
-  Timeline descriptions (overrides/partials/history-timeline.html): on phones, long texts are folded
-  to four lines with a "read more" toggle. Without JavaScript, everything stays unfolded.
+  Timeline cards (overrides/partials/history-timeline.html): once this script has run, a card keeps
+  a short text (CSS folds it to three lines, or the summary when there is one) and gets a
+  "Details and sources" button. The button opens one shared <dialog> with the full text, the links,
+  the sources and the verification line of the event. Without JavaScript, everything stays on the page.
 */
 document.addEventListener('DOMContentLoaded', function () {
-  if (!window.matchMedia('(max-width: 44.9375em)').matches) return;
+  const lists = document.querySelectorAll('ol.timeline[data-timeline-detail]');
+  if (!lists.length || typeof HTMLDialogElement === 'undefined') return;
   const fr = document.documentElement.lang !== 'en';
-  const more = fr ? 'Lire la suite' : 'Read more';
-  const less = fr ? 'Réduire' : 'Show less';
-  document.querySelectorAll('.timeline__desc').forEach((desc) => {
-    desc.classList.add('is-folded');
-    if (desc.scrollHeight <= desc.clientHeight + 2) {
-      desc.classList.remove('is-folded');
-      return;
+  const label = fr ? 'Détail et sources' : 'Details and sources';
+
+  const dialog = document.createElement('dialog');
+  dialog.className = 'timeline-dialog';
+  const inner = document.createElement('div');
+  inner.className = 'timeline-dialog__inner';
+  const close = document.createElement('button');
+  close.type = 'button';
+  close.className = 'timeline-dialog__close';
+  close.setAttribute('aria-label', fr ? 'Fermer' : 'Close');
+  close.textContent = '×';
+  const content = document.createElement('div');
+  content.className = 'timeline-dialog__content';
+  inner.append(close, content);
+  dialog.append(inner);
+  document.body.append(dialog);
+
+  let opener = null;
+
+  // Cuts a long description into short paragraphs (about three sentences each), without
+  // splitting after an abbreviation such as "M." or "art.".
+  function paragraphs(text) {
+    const sentences = [];
+    const re = /([.!?…»])\s+(?=[A-ZÀÂÄÉÈÊËÎÏÔÖÛÜÇ«“"(])/g;
+    let start = 0;
+    let m;
+    while ((m = re.exec(text))) {
+      const end = m.index + 1;
+      const last = text.slice(start, end).trim().split(/\s+/).pop();
+      if (/^(?:M|Mme|MM|Mmes|Dr|St|Ste|art|al|n|p|vs|cf|env)\.$/i.test(last)) continue;
+      sentences.push(text.slice(start, end).trim());
+      start = m.index + m[0].length;
     }
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = 'timeline__more';
-    button.textContent = more;
-    button.setAttribute('aria-expanded', 'false');
-    button.addEventListener('click', () => {
-      const folded = desc.classList.toggle('is-folded');
-      button.textContent = folded ? more : less;
-      button.setAttribute('aria-expanded', String(!folded));
+    sentences.push(text.slice(start).trim());
+    const out = [];
+    let cur = '';
+    sentences.forEach((s) => {
+      if (cur && cur.length + s.length + 1 > 440) {
+        out.push(cur);
+        cur = s;
+      } else cur = cur ? `${cur} ${s}` : s;
     });
-    desc.after(button);
+    if (cur) out.push(cur);
+    return out;
+  }
+
+  // The sources of the card (one inline paragraph) become a titled list in the dialog.
+  function sourcesSection(li) {
+    const node = li.querySelector('.timeline__sources');
+    const links = node ? [...node.querySelectorAll('a')] : [];
+    if (!links.length) return null;
+    const section = document.createElement('section');
+    section.className = 'timeline-dialog__sources';
+    const h = document.createElement('h3');
+    h.textContent = fr ? 'Sources' : 'Sources';
+    const ul = document.createElement('ul');
+    links.forEach((a) => {
+      const item = document.createElement('li');
+      item.append(a.cloneNode(true));
+      ul.append(item);
+    });
+    section.append(h, ul);
+    return section;
+  }
+  const clone = (root, selector) => {
+    const node = root.querySelector(selector);
+    return node ? node.cloneNode(true) : null;
+  };
+
+  function open(li, trigger) {
+    opener = trigger;
+    const title = li.querySelector('.timeline__title');
+    const heading = document.createElement('h2');
+    heading.className = 'timeline__title';
+    heading.id = 'timeline-dialog-title';
+    heading.append(...[...title.childNodes].map((n) => n.cloneNode(true)));
+    dialog.setAttribute('aria-labelledby', heading.id);
+    const full = li.querySelector('.timeline__full p') || li.querySelector('.timeline__desc');
+    const text = document.createDocumentFragment();
+    paragraphs(full.textContent.trim()).forEach((chunk) => {
+      const p = document.createElement('p');
+      p.textContent = chunk;
+      text.append(p);
+    });
+    content.replaceChildren(
+      ...[
+        clone(li, '.timeline__date'),
+        clone(li, '.timeline__kind'),
+        clone(li, '.timeline__nature'),
+        heading,
+        text,
+        clone(li, '.timeline__gains'),
+        clone(li, '.timeline__links'),
+        sourcesSection(li),
+        clone(li, '.directory__unconfirmed'),
+        clone(li, '.victims__checked'),
+      ].filter(Boolean),
+    );
+    dialog.showModal();
+    dialog.scrollTop = 0;
+  }
+
+  lists.forEach((list) => {
+    list.classList.add('timeline--enhanced');
+    list.querySelectorAll(':scope > li.timeline__event').forEach((li) => {
+      const desc = li.querySelector('.timeline__desc');
+      if (!desc || !li.querySelector('.timeline__title')) return;
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'timeline__open';
+      button.textContent = label;
+      button.setAttribute('aria-haspopup', 'dialog');
+      const name = li.querySelector('.timeline__title a');
+      if (name) button.setAttribute('aria-label', `${label} : ${name.textContent.trim()}`);
+      button.addEventListener('click', () => open(li, button));
+      (li.querySelector('.timeline__full') || desc).after(button);
+    });
+  });
+
+  close.addEventListener('click', () => dialog.close());
+  // A click on the backdrop (outside the inner box) closes the dialog; a link to another event
+  // on the page closes it too, so the jump is visible.
+  dialog.addEventListener('click', (e) => {
+    if (e.target === dialog) dialog.close();
+    const link = e.target.closest('a[href^="#"]');
+    if (link) dialog.close();
+  });
+  dialog.addEventListener('close', () => {
+    if (opener) opener.focus();
   });
 });
 
