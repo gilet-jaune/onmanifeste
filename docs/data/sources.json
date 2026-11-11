@@ -7910,6 +7910,174 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "an-rapport-petition-6334-legitime-defense-2026": {
+      "title": {
+        "fr": "Assemblée nationale — Pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » : document du rapporteur (21 juillet 2026)",
+        "en": "National Assembly — Petition no. 6334 “Against the presumption of self-defence for law enforcement”: rapporteur’s paper (21 July 2026; in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1120742/file/EAT%20P%C3%A9tition%20Pr%C3%A9somption%20l%C3%A9gitime%20d%C3%A9fense%20FDO.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-petition-legitime-defense-classee-2026": {
+      "title": {
+        "fr": "LCP — Contre la présomption de légitime défense pour les forces de l'ordre, l'Assemblée classe (22 juillet 2026)",
+        "en": "LCP — Against the presumption of self-defence for law enforcement, the Assembly files the petition away (22 July 2026; in French)"
+      },
+      "url": "https://lcp.fr/actualites/contre-la-presomption-de-legitime-defense-pour-les-forces-de-l-ordre-l-assemblee-classe",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubdesjuristes-petition-legitime-defense-2026": {
+      "title": {
+        "fr": "Le Club des juristes — Présomption de légitime défense par les forces de l'ordre : la pétition ne sera pas débattue à l'Assemblée nationale (23 juillet 2026)",
+        "en": "Le Club des juristes — Presumption of self-defence for law enforcement: the petition will not be debated in the National Assembly (23 July 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/presomption-de-legitime-defense-par-les-forces-de-lordre-la-petition-ne-sera-pas-debattue-a-lassemblee-nationale-17119/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cgt-communique-7-mars-2023": {
+      "title": {
+        "fr": "CGT — Communiqué : « Toujours plus nombreuses et nombreux » (7 mars 2023)",
+        "en": "CGT — Press release: “More and more of us” (7 March 2023; in French)"
+      },
+      "url": "https://retraite.cgt.fr/sites/retraite.cgt.fr/files/2023-03/26%20-%20CP%20de%20la%20CGT%20-%20Toujours%20plus%20nombreuses%20et%20nombreux%20-%2007-03%20%281%29.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reuters-boursorama-retraites-recul-2023": {
+      "title": {
+        "fr": "Reuters (Boursorama) — La mobilisation contre la réforme des retraites en net recul (11 mars 2023)",
+        "en": "Reuters (Boursorama) — Mobilisation against the pension reform sharply down (11 March 2023; in French)"
+      },
+      "url": "https://www.boursorama.com/actualite-economique/actualites/france-la-mobilisation-contre-la-reforme-des-retraites-en-net-recul-b529adf7e4dfe288682c87b8e6bcf56a",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-fr-usage-disproportionne-lyceens-2026": {
+      "title": {
+        "fr": "Amnesty International France — Usage disproportionné de la force contre les manifestations lycéennes : demande de suspension des LBD (2 octobre 2026)",
+        "en": "Amnesty International France — Disproportionate use of force against high-school protests: call to suspend LBD launchers (2 October 2026; in French)"
+      },
+      "url": "https://www.amnesty.fr/communiques/amnesty-international-denonce-lusage-disproportionne-de-la-force-contre-les-manifestations-lyceennes/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-armee-contre-la-jeunesse-onu-2026": {
+      "title": {
+        "fr": "LDH — L'armée contre la jeunesse : la LDH demande à l'ONU une mission d'observation en France (communiqué du 22 octobre 2026)",
+        "en": "LDH — The army against youth: the LDH asks the UN for an observation mission in France (statement of 22 October 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/larmee-contre-la-jeunesse-la-ldh-demande-a-lonu-une-mission-dobservation-en-france/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-unef-usl-intersyndicale-recue-interieur-2026": {
+      "title": {
+        "fr": "LDH, Unef et USL — L'intersyndicale lycéenne et étudiante a été reçue le 29 octobre par le ministère de l'Intérieur (9 novembre 2026)",
+        "en": "LDH, Unef and USL — The high-school and student union alliance was received by the Interior Ministry on 29 October (9 November 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/lintersyndicale-lyceenne-et-etudiante-a-ete-recue-le-29-octobre-par-le-ministere-de-linterieur-apres-plusieurs-semaines-de-mobilisation-de-la-jeunesse-marquees-par-des-violences-p/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-fr-observations-cc-securite-globale-2021": {
+      "title": {
+        "fr": "Amnesty International France — Observations au Conseil constitutionnel sur la loi pour une sécurité globale préservant les libertés (avril 2021)",
+        "en": "Amnesty International France — Observations to the Constitutional Council on the Global Security law (April 2021; in French)"
+      },
+      "url": "https://www.amnesty.fr/documents/observations-amnesty-international-france-loi-sur-la-securite-globale",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-fr-cc-censure-sept-articles-2021": {
+      "title": {
+        "fr": "Amnesty International France — Loi Sécurité globale : le Conseil constitutionnel censure sept articles (20 mai 2021)",
+        "en": "Amnesty International France — Global Security law: the Constitutional Council strikes down seven articles (20 May 2021; in French)"
+      },
+      "url": "https://www.amnesty.fr/actualites/loi-securite-globale-le-conseil-constitutionnel-censure-sept-articles/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-cp-securite-globale-censure-2021": {
+      "title": {
+        "fr": "LDH — Communiqué : Censure de la loi « Sécurité globale » (25 mai 2021)",
+        "en": "LDH — Statement: Censure of the “Global Security” law (25 May 2021; in French)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2021/05/CP-LDH-Loi-securite-globale-25-05-2021.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cncdh-libertes-grands-evenements-droits-libertes-212": {
+      "title": {
+        "fr": "Droits & Libertés n° 212 (LDH, janvier 2026) — « Les libertés à l'épreuve des JO », présentation de l'avis de la CNCDH du 14 octobre 2025",
+        "en": "Droits & Libertés no. 212 (LDH, January 2026) — “Freedoms put to the test by the Olympics”, presentation of the CNCDH opinion of 14 October 2025 (in French)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2026/07/DL212-Actualite-2.-Les-libertes-a-lerpeuve-des-JO.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-fr-casseurs-payeurs-2026": {
+      "title": {
+        "fr": "Amnesty International France — Loi « casseurs-payeurs » : une menace pour le droit de manifester (octobre 2026)",
+        "en": "Amnesty International France — “Rioters pay” law: a threat to the right to protest (October 2026; in French)"
+      },
+      "url": "https://www.amnesty.fr/actualites/loi-casseurs-payeurs-menace-droit-manifester-france/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-illegalismes-administratifs-2026": {
+      "title": {
+        "fr": "LDH et sept organisations — Atteinte à l'État de droit : illégalismes administratifs (communiqué commun du 4 novembre 2026)",
+        "en": "LDH and seven organisations — Attack on the rule of law: administrative illegalities (joint statement of 4 November 2026; in French)"
+      },
+      "url": "https://www.ldh-france.org/atteinte-a-letat-de-droit-illegalismes-administratifs/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

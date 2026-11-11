@@ -67,17 +67,17 @@
       "fr": "Enquête parlementaire",
       "en": "Parliamentary inquiry"
     },
-    "avis-international": {
-      "fr": "Avis d’une instance internationale",
-      "en": "Opinion of an international body"
+    "avis-instance": {
+      "fr": "Avis d’une instance indépendante",
+      "en": "Opinion of an independent body"
     },
     "enquete-journalistique": {
       "fr": "Enquête journalistique",
       "en": "Journalistic investigation"
     },
-    "enquete-ong": {
-      "fr": "Enquête d’ONG",
-      "en": "NGO investigation"
+    "constat-ong": {
+      "fr": "Constat d’ONG",
+      "en": "NGO finding"
     }
   },
   "events": [
@@ -1543,7 +1543,7 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["avis-international"]
+      "natures": ["avis-instance"]
     },
     {
       "id": "2019-le-ric-rejete-a-l",
@@ -1951,6 +1951,28 @@
       }
     },
     {
+      "id": "2021-amnesty-observations-au-conseil-constitutionnel-securite-globale",
+      "date": "2021-04-27",
+      "title": {
+        "fr": "Sécurité globale : Amnesty adresse ses observations au Conseil constitutionnel",
+        "en": "Global Security law: Amnesty sends its observations to the Constitutional Council"
+      },
+      "kinds": ["securite-libertes"],
+      "natures": ["constat-ong"],
+      "url": "https://www.amnesty.fr/documents/observations-amnesty-international-france-loi-sur-la-securite-globale",
+      "description": {
+        "fr": "Fin avril 2021 (le 27 selon Amnesty), après la saisine du Conseil constitutionnel contre la loi votée le 15 avril, Amnesty International France lui adresse ses observations sur deux articles. Sur l'article 22 (nouvel article 47 : caméras et drones), elle invoque un défaut de nécessité et de proportionnalité, une incompétence négative du législateur et un défaut d'information et de contrôle. Sur l'article 24 (nouvel article 52 : diffusion d'images de policiers), elle invoque une atteinte à la clarté et à l'intelligibilité de la loi et à la liberté d'information et de communication. Elle demande de déclarer ces articles contraires à la Constitution. C'est l'argumentaire d'une ONG, pas une décision : le Conseil statue le 20 mai.",
+        "en": "In late April 2021 (the 27th according to Amnesty), after the Constitutional Council was seized against the law passed on 15 April, Amnesty International France sends it observations on two articles. On Article 22 (new Article 47: cameras and drones), it invokes a lack of necessity and proportionality, a negative incompetence of the legislator and a lack of information and oversight. On Article 24 (new Article 52: publishing images of police officers), it invokes a breach of the clarity and intelligibility of the law and of freedom of information and communication. It asks that these articles be declared unconstitutional. This is an NGO's argument, not a decision: the Council rules on 20 May."
+      },
+      "related": ["2021-securite-globale-censure-du-conseil-constitutionnel"],
+      "evidence": ["amnesty-fr-observations-cc-securite-globale-2021"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2021-securite-globale-censure-du-conseil-constitutionnel",
       "date": "2021-05-20",
       "title": {
@@ -1968,6 +1990,31 @@
       "evidence": ["cc-2021-817"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2021-securite-globale-amnesty-et-la-ldh-apres-la-censure",
+      "date": "2021-05-25",
+      "title": {
+        "fr": "Sécurité globale : ce que disent Amnesty et la LDH après la censure",
+        "en": "Global Security law: what Amnesty and the LDH say after the ruling"
+      },
+      "kinds": ["securite-libertes"],
+      "natures": ["constat-ong"],
+      "url": "https://www.ldh-france.org/wp-content/uploads/2021/05/CP-LDH-Loi-securite-globale-25-05-2021.pdf",
+      "description": {
+        "fr": "Le 20 mai 2021, Amnesty International France réagit à la décision du Conseil constitutionnel : elle relève la censure de sept articles, dont l'article 24 (devenu 52), censuré pour atteinte au principe de légalité, et l'article 22 (devenu 47) sur les drones, censuré pour atteinte disproportionnée à la vie privée. Le 25 mai, la LDH, membre de la coordination contre la loi, juge que la mobilisation et la saisine ont permis la censure de l'ancien article 24, des drones, des caméras embarquées et d'autres dispositions ; elle regrette que le reste soit déclaré conforme, par exemple l'article 50 sur les crédits de réduction de peine et l'article 53 sur l'accès des policiers armés aux établissements recevant du public, et voit dans la volonté du ministère de l'Intérieur de proposer à nouveau ces mesures une défiance envers la Constitution. Ce sont des lectures d'ONG de la décision, dont la portée juridique est donnée par l'événement du 20 mai.",
+        "en": "On 20 May 2021, Amnesty International France reacts to the Constitutional Council's ruling: it notes the striking down of seven articles, including Article 24 (now 52), struck down for breaching the principle of legality, and Article 22 (now 47) on drones, struck down for a disproportionate interference with privacy. On 25 May, the LDH, a member of the coalition against the law, finds that the mobilisation and the referral led to the striking down of the former Article 24, the drones, the vehicle-mounted cameras and other provisions; it regrets that the rest was declared constitutional, for example Article 50 on sentence-reduction credits and Article 53 on armed police officers' access to public venues, and sees in the Interior Ministry's intention to propose these measures again a distrust of the Constitution. These are NGOs' readings of the ruling; its legal scope is given by the 20 May event."
+      },
+      "related": ["2021-securite-globale-censure-du-conseil-constitutionnel"],
+      "evidence": [
+        "ldh-cp-securite-globale-censure-2021",
+        "amnesty-fr-cc-censure-sept-articles-2021"
+      ],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2076,6 +2123,27 @@
       },
       "related": ["2025-cc-loi-duplomb-censure-de-la-derogation"],
       "evidence": ["eurlex-arret-c-162-21-neonicotinoides"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-retraites-7-mars-deux-decomptes",
+      "date": "2023-03-07",
+      "title": {
+        "fr": "Retraites, 7 mars 2023 : 1,28 million de manifestants selon le ministère, 3,5 millions selon la CGT",
+        "en": "Pensions, 7 March 2023: 1.28 million protesters according to the ministry, 3.5 million according to the CGT"
+      },
+      "kinds": ["mouvement-social"],
+      "url": "https://www.boursorama.com/actualite-economique/actualites/france-la-mobilisation-contre-la-reforme-des-retraites-en-net-recul-b529adf7e4dfe288682c87b8e6bcf56a",
+      "description": {
+        "fr": "Pour la sixième journée de mobilisation contre la réforme des retraites, la CGT annonce 3,5 millions de manifestants dans 270 lieux, dont 700 000 à Paris. D'après Reuters, le ministère de l'Intérieur en compte environ 1,28 million. Quatre jours plus tard, le 11 mars, Reuters rapporte 368 000 manifestants selon le ministère (48 000 à Paris) et plus d'un million selon la CGT. Les deux décomptes diffèrent donc du simple au triple : la frise ne tranche pas et attribue chaque chiffre à son auteur. Aucune des deux sources lues ne donne de chiffre pour les autres journées.",
+        "en": "For the sixth day of mobilisation against the pension reform, the CGT announces 3.5 million protesters in 270 places, including 700,000 in Paris. According to Reuters, the Interior Ministry counts about 1.28 million. Four days later, on 11 March, Reuters reports 368,000 protesters according to the ministry (48,000 in Paris) and over one million according to the CGT. The two counts therefore differ by a factor of about three: the timeline does not settle it and attributes each figure to its author. Neither source read gives figures for the other days."
+      },
+      "related": ["2023-retraites-quatorze-journees-de-mobilisation"],
+      "evidence": ["cgt-communique-7-mars-2023", "reuters-boursorama-retraites-recul-2023"],
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
@@ -2224,7 +2292,7 @@
         "note": "Texte original du HCDH non retrouvé ; contenu recoupé par Politis, Reporterre et The Local, mais la date varie (15 ou 16 juin 2023).",
         "by": "ai"
       },
-      "natures": ["avis-international"]
+      "natures": ["avis-instance"]
     },
     {
       "id": "2023-mort-de-nahel-merzouk",
@@ -2873,6 +2941,28 @@
       }
     },
     {
+      "id": "2025-cncdh-avis-les-libertes-a-l-epreuve-des-grands-evenements",
+      "date": "2025-10-14",
+      "title": {
+        "fr": "La CNCDH adopte un avis sur les libertés pendant les Jeux olympiques de 2024",
+        "en": "The CNCDH adopts an opinion on freedoms during the 2024 Olympic Games"
+      },
+      "kinds": ["securite-libertes"],
+      "natures": ["avis-instance"],
+      "url": "https://www.ldh-france.org/wp-content/uploads/2026/07/DL212-Actualite-2.-Les-libertes-a-lerpeuve-des-JO.pdf",
+      "description": {
+        "fr": "Le 14 octobre 2025, la Commission nationale consultative des droits de l'homme adopte l'avis « Les libertés à l'épreuve des grands événements ». Selon la présentation qu'en donne un de ses conseillers juridiques dans Droits & Libertés (janvier 2026), elle y exprime ses préoccupations sur la « stratégie d'entrave » des Jeux de 2024 : un recours aux Micas quatre à cinq fois supérieur aux années précédentes, des mesures reposant souvent sur des « notes blanches » non sourcées, un élargissement des profils visés (convictions religieuses, origine, activités politiques et syndicales). Elle relève aussi que, d'après les parlementaires et le comité d'évaluation, la vidéosurveillance algorithmique n'a pas contribué de façon significative au succès des Jeux, ce qui n'empêche pas sa prolongation. Nous n'avons pas lu l'avis lui-même, seulement cette présentation.",
+        "en": "On 14 October 2025, the National Consultative Commission on Human Rights adopts the opinion “Freedoms put to the test by major events”. According to the presentation given by one of its legal advisers in Droits & Libertés (January 2026), it voices concerns about the 2024 Games' “obstruction strategy”: use of Micas four to five times higher than in previous years, measures often based on unsourced “white notes”, a broadening of the profiles targeted (religious beliefs, origin, political and trade-union activities). It also notes that, according to parliamentarians and the evaluation committee, algorithmic video surveillance did not contribute significantly to the Games' success, which does not stop its extension. We have not read the opinion itself, only this presentation."
+      },
+      "related": ["2025-cncdh-la-restriction-de-l-espace-civique"],
+      "evidence": ["cncdh-libertes-grands-evenements-droits-libertes-212"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-sarkozy-remis-en-liberte-apres-vingt-jours",
       "date": "2025-11-10",
       "title": {
@@ -3090,6 +3180,31 @@
       }
     },
     {
+      "id": "2026-petition-legitime-defense-classee-par-la-commission-des-lois",
+      "date": "2026-07-21",
+      "title": {
+        "fr": "Pétition contre la présomption de légitime défense : classée par la commission des lois",
+        "en": "Petition against the presumption of self-defence: filed away by the Law Committee"
+      },
+      "kinds": ["deni-democratique", "securite-libertes"],
+      "url": "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1120742/file/EAT%20P%C3%A9tition%20Pr%C3%A9somption%20l%C3%A9gitime%20d%C3%A9fense%20FDO.pdf",
+      "description": {
+        "fr": "Ouverte le 26 juin 2026 sur le site de l'Assemblée, la pétition n° 6334 « Contre la présomption de légitime défense pour les forces de l'ordre » recueille 717 627 signatures au 20 juillet (la presse en cite ensuite 720 000 à plus de 730 000), bien au-delà du seuil de 500 000 prévu par le Règlement. Dans son document du 21 juillet, le rapporteur propose à la commission des lois de poursuivre l'examen. Dans la nuit du 21 au 22 juillet, la commission en décide autrement : selon LCP, elle classe la pétition par 35 voix contre 21, sans débat en séance, en invoquant notamment la proposition de loi déjà en cours d'examen (adoptée en première lecture le 7 juillet) ; les groupes de gauche et LIOT demandaient de ne pas la classer. Les chiffres de signatures divergent selon les sources : celui du rapporteur est le seul daté.",
+        "en": "Opened on 26 June 2026 on the Assembly's website, petition no. 6334 “Against the presumption of self-defence for law enforcement” gathers 717,627 signatures as of 20 July (the press later cites 720,000 to over 730,000), well above the 500,000 threshold in the Assembly's rules. In his 21 July paper, the rapporteur proposes that the Law Committee continue the examination. In the night of 21 to 22 July the committee decides otherwise: according to LCP, it files the petition away by 35 votes to 21, with no plenary debate, citing in particular the bill already under examination (adopted at first reading on 7 July); the left-wing groups and LIOT asked that it not be filed away. Signature counts differ between sources: the rapporteur's is the only dated one."
+      },
+      "related": ["2026-presomption-de-legitime-defense-des-forces-de-l-ordre"],
+      "evidence": [
+        "an-rapport-petition-6334-legitime-defense-2026",
+        "lcp-petition-legitime-defense-classee-2026",
+        "clubdesjuristes-petition-legitime-defense-2026"
+      ],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-chat-control-derogation-temporaire-chiffrement",
       "date": "2026-07-24",
       "title": {
@@ -3249,6 +3364,31 @@
       ]
     },
     {
+      "id": "2026-amnesty-usage-disproportionne-de-la-force-mouvement-lyceen",
+      "date": "2026-10-02",
+      "title": {
+        "fr": "Mouvement lycéen : Amnesty dénonce un usage disproportionné de la force et demande la suspension des LBD",
+        "en": "High-school movement: Amnesty denounces disproportionate use of force and calls for LBD suspension"
+      },
+      "kinds": ["repression", "securite-libertes"],
+      "natures": ["constat-ong"],
+      "url": "https://www.amnesty.fr/communiques/amnesty-international-denonce-lusage-disproportionne-de-la-force-contre-les-manifestations-lyceennes/",
+      "description": {
+        "fr": "Le 2 octobre 2026, Amnesty International France dénonce un usage disproportionné de la force contre les manifestations lycéennes : étranglements, tirs de LBD, gaz poivré à bout portant. Dans son point de situation, elle cite des chiffres du ministère de l'Intérieur (plus de 5 000 interpellations entre le 21 septembre et le 2 octobre, dont 85 % de mineur·es) et des cas rapportés par la presse ou des procureurs : un lycéen de 14 ans touché au visage par un tir de lance-grenades (séquence authentifiée par Le Monde, selon Amnesty), un jeune de 16 ans qui a perdu l'usage d'un œil, dont la procureure juge les lésions compatibles avec un tir de LBD, et le cas de Lens, avec une enquête de l'IGPN. Elle demande des enquêtes indépendantes, la suspension des LBD et, pour les grenades assourdissantes, une interdiction. C'est un constat d'ONG et non une décision ; aucune réponse du gouvernement n'y figure (voir l'événement du 7 octobre pour la suspension annoncée des grenades).",
+        "en": "On 2 October 2026, Amnesty International France denounces a disproportionate use of force against high-school protests: chokeholds, LBD shots, pepper spray at point-blank range. In its situation report it cites Interior Ministry figures (over 5,000 arrests between 21 September and 2 October, 85% of them minors) and cases reported by the press or prosecutors: a 14-year-old hit in the face by a grenade-launcher shot (footage authenticated by Le Monde, according to Amnesty), a 16-year-old who lost the sight of an eye, whose injuries the prosecutor finds consistent with an LBD shot, and the Lens case, under IGPN investigation. It asks for independent investigations, the suspension of LBDs and a ban on stun grenades. This is an NGO finding, not a decision; no government reply appears in it (see the 7 October event for the announced suspension of the grenades)."
+      },
+      "related": [
+        "2026-mouvement-lyceen-de-2026",
+        "2026-grenades-assourdissantes-suspendues-mouvement-lyceen"
+      ],
+      "evidence": ["amnesty-fr-usage-disproportionne-lyceens-2026", "amnesty-lyceens-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-grenades-assourdissantes-suspendues-mouvement-lyceen",
       "date": "2026-10-07",
       "title": {
@@ -3305,6 +3445,31 @@
       }
     },
     {
+      "id": "2026-ldh-demande-a-l-onu-une-mission-d-observation",
+      "date": "2026-10-22",
+      "title": {
+        "fr": "La LDH demande à l'ONU une mission d'observation des manifestations en France",
+        "en": "The LDH asks the UN for an observation mission on protests in France"
+      },
+      "kinds": ["repression", "securite-libertes"],
+      "natures": ["constat-ong"],
+      "url": "https://www.ldh-france.org/larmee-contre-la-jeunesse-la-ldh-demande-a-lonu-une-mission-dobservation-en-france/",
+      "description": {
+        "fr": "Dans un communiqué signé du 22 octobre 2026, la Ligue des droits de l'Homme juge le maintien de l'ordre du 17 octobre chaotique et critique les armes dites sublétales, déjà à l'origine de mutilations. Elle saisit le Comité des droits de l'enfant de l'ONU et appelle le Haut-Commissaire aux droits de l'Homme à envoyer une mission d'observation des manifestations, en invoquant la Convention internationale des droits de l'enfant, la liberté de manifester et l'intégrité physique. C'est la position d'une ONG, et le communiqué ne cite aucune réponse des autorités.",
+        "en": "In a statement signed on 22 October 2026, the Ligue des droits de l'Homme finds the policing of 17 October chaotic and criticises so-called sub-lethal weapons, which have already caused mutilations. It refers the matter to the UN Committee on the Rights of the Child and calls on the High Commissioner for Human Rights to send an observation mission to the protests, invoking the Convention on the Rights of the Child, freedom to protest and physical integrity. This is an NGO's position, and the statement cites no reply from the authorities."
+      },
+      "related": [
+        "2026-manifestations-des-17-et-24-octobre",
+        "2026-l-onu-s-alarme-de-la-reponse-aux-manifestations-etudiantes"
+      ],
+      "evidence": ["ldh-armee-contre-la-jeunesse-onu-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-agora-la-plateforme-de-participation",
       "date": "2026-10-23",
       "title": {
@@ -3321,6 +3486,31 @@
       "evidence": ["maire-info-agora-2026", "france3-agora-2026", "reporterre-consultations-2026"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-defenseur-des-droits-mobilisations-lyceennes-droits-de-l-enfant",
+      "date": "2026-10-23",
+      "title": {
+        "fr": "Le Défenseur des droits appelle à respecter les droits de l'enfant dans les mobilisations lycéennes",
+        "en": "The Defender of Rights calls for respect of children's rights in the high-school mobilisations"
+      },
+      "kinds": ["repression", "securite-libertes"],
+      "natures": ["avis-instance"],
+      "url": "https://www.defenseurdesdroits.fr/mobilisations-lyceennes-le-defenseur-des-droits-appelle-respecter-les-droits-de-lenfant-1254",
+      "description": {
+        "fr": "Le 23 octobre 2026, le Défenseur des droits, autorité administrative indépendante chargée aussi de la déontologie des forces de sécurité, dit avoir reçu 55 saisines liées à la mobilisation lycéenne, dont 21 concernent des mineurs et mettent en cause la déontologie des forces de sécurité : 19 dénoncent le recours à la force (dont l'usage d'armes et les nasses), 2 la confiscation de pancartes, 3 des atteintes aux droits procéduraux et des conditions indignes en garde à vue (plusieurs motifs pouvant se cumuler). Il exprime sa vive préoccupation sur l'ampleur inédite des interpellations et gardes à vue, rappelle les exigences de nécessité et de proportionnalité de l'usage de la force et demande de clarifier le cadre juridique de la confiscation d'objets. Ces chiffres sont ceux de l'institution et portent sur des saisines, pas sur des faits établis.",
+        "en": "On 23 October 2026, the Defender of Rights, an independent administrative authority that also oversees the conduct of security forces, says it has received 55 referrals related to the high-school mobilisation, 21 of which concern minors and question the conduct of security forces: 19 denounce the use of force (including weapons and kettling), 2 the confiscation of signs, 3 breaches of procedural rights and degrading conditions in police custody (several grounds may overlap). It expresses deep concern at the unprecedented scale of arrests and custody, recalls the requirements of necessity and proportionality in the use of force and asks for the legal framework on confiscating objects to be clarified. These figures are the institution's own and concern referrals, not established facts."
+      },
+      "related": [
+        "2026-mouvement-lyceen-de-2026",
+        "2026-amnesty-usage-disproportionne-de-la-force-mouvement-lyceen"
+      ],
+      "evidence": ["ddd-mobilisations-lyceennes-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3375,7 +3565,7 @@
         "result": "confirmed",
         "by": "ai"
       },
-      "natures": ["avis-international"]
+      "natures": ["avis-instance"]
     },
     {
       "id": "2026-conseil-d-etat-hatvp-conflits-d-interets-et-pantouflage",
@@ -3399,6 +3589,28 @@
       }
     },
     {
+      "id": "2026-amnesty-casseurs-payeurs-adopte-par-le-senat",
+      "date": "2026-10-30",
+      "title": {
+        "fr": "« Casseurs-payeurs » : Amnesty demande le retrait du projet de loi adopté par le Sénat",
+        "en": "“Rioters pay”: Amnesty calls for the withdrawal of the bill adopted by the Senate"
+      },
+      "kinds": ["securite-libertes"],
+      "natures": ["constat-ong"],
+      "url": "https://www.amnesty.fr/actualites/loi-casseurs-payeurs-menace-droit-manifester-france/",
+      "description": {
+        "fr": "Après l'adoption du projet de loi « casseurs-payeurs » par le Sénat le 27 octobre 2026 (procédure accélérée, texte annoncé après les violences de la finale de la Ligue des champions en mai 2026), Amnesty International France en demande le retrait. Elle décrit un texte qui tiendrait pour responsables, jusqu'à 10 000 euros par personne, ceux qui auraient « sciemment » participé à un rassemblement où des dégradations sont commises ou se seraient maintenus malgré les sommations, avec saisie possible de prestations sociales (dont le RSA), responsabilité civile des parents et peine complémentaire d'interdiction du territoire pour les étrangers majeurs condamnés pour certaines infractions graves. Elle estime que le droit international n'admet de responsabilité que pour sa propre conduite, prouvée. Le texte doit encore passer devant l'Assemblée. C'est la position d'une ONG ; l'article ne cite pas de réponse du gouvernement.",
+        "en": "After the Senate adopted the “rioters pay” bill on 27 October 2026 (accelerated procedure, announced after the violence at the Champions League final in May 2026), Amnesty International France calls for its withdrawal. It describes a text that would hold liable, up to 10,000 euros per person, those who “knowingly” took part in a gathering where damage is done or who stayed despite dispersal warnings, with possible seizure of social benefits (including the RSA), civil liability of parents and an additional penalty of a ban from French territory for adult foreigners convicted of certain serious offences. It argues that international law accepts liability only for one's own proven conduct. The text still has to go before the Assembly. This is an NGO's position; the article cites no government reply."
+      },
+      "related": ["2026-projet-de-loi-casseurs-payeurs"],
+      "evidence": ["amnesty-fr-casseurs-payeurs-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-assignations-a-residence-de-manifestants-micas",
       "date": "2026-10-31",
       "title": {
@@ -3412,7 +3624,33 @@
         "en": "On the sidelines of the 31 October 2026 demonstration, the Interior Ministry issues house-arrest orders against activists, a practice tested from 24 October. It relies on the SILT law (Micas, the transposition of state-of-emergency house arrests) and on Article L. 226-2 of the Internal Security Code, from the March 2026 Olympic Games law. An activist in Belfort says she was served at 10:10 pm the evening before; the Besançon administrative court notes on 2 November that the order ceased to have effect on 1 November and that the application is moot. Several lawyers and NGOs denounce a misuse of the mechanism and an equation of terrorism with activism; the ministry did not give the number of orders. The Club des Juristes recalls that from July to September 2024, of 547 measures of the same kind, 178 were challenged and 52 annulled (figures from Le Monde), and that the late announcement of the orders makes an emergency application difficult."
       },
       "related": ["2026-premiers-recours-contre-les-micas-examines-sur-le-fond"],
-      "evidence": ["clubjuristes-micas-manifestants-2026", "france3-micas-belfort-2026"],
+      "evidence": [
+        "clubjuristes-micas-manifestants-2026",
+        "france3-micas-belfort-2026",
+        "ldh-illegalismes-administratifs-2026"
+      ],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-ldh-et-sept-organisations-micas-illegalismes-administratifs",
+      "date": "2026-11-04",
+      "title": {
+        "fr": "Micas et interdictions de manifester : la LDH et sept organisations saisissent le Conseil d'État",
+        "en": "Micas and protest bans: the LDH and seven organisations refer the matter to the Council of State"
+      },
+      "kinds": ["securite-libertes", "repression"],
+      "natures": ["constat-ong"],
+      "url": "https://www.ldh-france.org/atteinte-a-letat-de-droit-illegalismes-administratifs/",
+      "description": {
+        "fr": "Dans un communiqué commun du 4 novembre 2026, l'Adelico, la CGT, la FSU, la LDH, le Syndicat des avocats de France, Solidaires, l'Unef et le Syndicat de la magistrature dénoncent une « bascule autoritaire ». Ils affirment que des préfets prennent des arrêtés d'interdiction au dernier moment, sans permettre en général un recours, et que le gouvernement détourne la législation antiterroriste : selon eux, les Micas (loi SILT) produisent le même effet que l'interdiction préfectorale de manifester censurée par le Conseil constitutionnel en 2019, puisqu'elles empêchent de sortir d'un périmètre ; elles seraient prises pour chaque mobilisation et viseraient surtout des militant·es. Ils signalent aussi un amendement du gouvernement au projet « casseurs-payeurs » qui permettrait à l'exécutif d'interdire individuellement de paraître en manifestation. Ils saisissent le Conseil d'État pour qu'il prévoie des permanences permettant d'exercer les recours. Ce sont des positions d'organisations ; le communiqué ne cite aucune réponse du gouvernement et aucun chiffre.",
+        "en": "In a joint statement of 4 November 2026, Adelico, the CGT, the FSU, the LDH, the Syndicat des avocats de France, Solidaires, Unef and the Syndicat de la magistrature denounce an “authoritarian shift”. They state that prefects issue ban orders at the last minute, generally without allowing an appeal, and that the government is diverting counter-terrorism legislation: according to them, Micas (SILT law) have the same effect as the prefectoral protest ban struck down by the Constitutional Council in 2019, since they prevent leaving a perimeter; they say they are issued for each mobilisation and mostly target activists. They also point to a government amendment to the “rioters pay” bill that would let the executive ban individuals from attending protests. They ask the Council of State to provide duty arrangements so that appeals can be made. These are the organisations' positions; the statement cites no government reply and no figures."
+      },
+      "related": ["2026-assignations-a-residence-de-manifestants-micas"],
+      "evidence": ["ldh-illegalismes-administratifs-2026"],
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
@@ -3440,6 +3678,31 @@
       "kinds": ["repression"],
       "check": {
         "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-ldh-unef-usl-apres-la-reception-au-ministere-de-l-interieur",
+      "date": "2026-11-09",
+      "title": {
+        "fr": "LDH, Unef et USL après la réception au ministère de l'Intérieur : le ministère maintient que la force est proportionnée",
+        "en": "LDH, Unef and USL after the Interior Ministry meeting: the ministry maintains the force was proportionate"
+      },
+      "kinds": ["repression", "securite-libertes"],
+      "natures": ["constat-ong"],
+      "url": "https://www.ldh-france.org/lintersyndicale-lyceenne-et-etudiante-a-ete-recue-le-29-octobre-par-le-ministere-de-linterieur-apres-plusieurs-semaines-de-mobilisation-de-la-jeunesse-marquees-par-des-violences-p/",
+      "description": {
+        "fr": "Dans un communiqué commun du 9 novembre 2026, la LDH, l'Unef et l'USL rendent compte de la réception de l'intersyndicale lycéenne et étudiante par le ministère de l'Intérieur le 29 octobre. Elles dénoncent des violences policières, des blessures graves chez des jeunes et des interdictions de manifester publiées si tard qu'un recours devant le juge administratif devient quasi impossible, et critiquent la proposition de loi sur la responsabilité du fait d'autrui des manifestants, votée au Sénat. Selon elles, le ministère a refusé de reconnaître les violences et de s'engager à publier plus tôt les arrêtés d'interdiction, en maintenant que la force employée était nécessaire et proportionnée. Elles saisissent le Haut-Commissariat de l'ONU et le Comité des droits de l'enfant. La version du ministère n'est connue ici que par ce communiqué.",
+        "en": "In a joint statement of 9 November 2026, the LDH, Unef and USL report on the meeting between the high-school and student union alliance and the Interior Ministry on 29 October. They denounce police violence, serious injuries among young people and protest bans published so late that an appeal to the administrative judge becomes almost impossible, and criticise the bill on protesters' liability for others' acts, passed by the Senate. According to them, the ministry refused to acknowledge the violence or commit to publishing the bans earlier, maintaining that the force used was necessary and proportionate. They refer the matter to the UN High Commissioner's office and the Committee on the Rights of the Child. The ministry's version is known here only through this statement."
+      },
+      "related": [
+        "2026-ldh-demande-a-l-onu-une-mission-d-observation",
+        "2026-l-onu-s-alarme-de-la-reponse-aux-manifestations-etudiantes"
+      ],
+      "evidence": ["ldh-unef-usl-intersyndicale-recue-interieur-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
