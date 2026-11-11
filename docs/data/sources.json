@@ -7142,6 +7142,342 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "legifrance-loi-1973-art-25": {
+      "title": {
+        "fr": "Légifrance — Article 25 de la loi n° 73-7 du 3 janvier 1973 sur la Banque de France (abrogé par la loi n° 93-980 du 4 août 1993, en vigueur le 1er janvier 1994)",
+        "en": "Légifrance — Article 25 of Act no. 73-7 of 3 January 1973 on the Banque de France (repealed by Act no. 93-980 of 4 August 1993, in force on 1 January 1994; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006701383/1973-01-04",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "vie-des-idees-loi-1973": {
+      "title": {
+        "fr": "La Vie des idées — « L'État livré aux financiers ? » : la loi du 3 janvier 1973 sur la Banque de France replacée dans l'histoire du financement de l'État (2014)",
+        "en": "La Vie des idées — \"Is the State at the mercy of financiers?\": the 3 January 1973 Banque de France Act put back in the history of State financing (2014; in French)"
+      },
+      "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-tfue-art-123": {
+      "title": {
+        "fr": "EUR-Lex — Traité sur le fonctionnement de l'Union européenne, article 123 (interdiction des découverts et crédits des banques centrales aux autorités publiques)",
+        "en": "EUR-Lex — Treaty on the Functioning of the European Union, Article 123 (ban on central-bank overdrafts and credit to public authorities; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:12016E123",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-tfue-art-124": {
+      "title": {
+        "fr": "EUR-Lex — Traité sur le fonctionnement de l'Union européenne, article 124 (accès privilégié des autorités publiques aux institutions financières)",
+        "en": "EUR-Lex — Treaty on the Functioning of the European Union, Article 124 (privileged access of public authorities to financial institutions; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:12016E124",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-maastricht-synthese": {
+      "title": {
+        "fr": "EUR-Lex — Traité de Maastricht sur l'Union européenne : synthèse (signé le 7 février 1992, en vigueur le 1er novembre 1993)",
+        "en": "EUR-Lex — Maastricht Treaty on European Union: summary (signed 7 February 1992, in force 1 November 1993; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/FR/legal-content/summary/treaty-of-maastricht-on-european-union.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-arret-weiss-2018": {
+      "title": {
+        "fr": "Cour de justice de l'Union européenne — Arrêt du 11 décembre 2018, Weiss e.a., affaire C-493/17 (programme d'achats d'actifs du secteur public sur les marchés secondaires)",
+        "en": "Court of Justice of the European Union — Judgment of 11 December 2018, Weiss and Others, Case C-493/17 (public sector asset purchase programme on secondary markets; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62017CJ0493",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "insee-premiere-2106-apu-2025": {
+      "title": {
+        "fr": "INSEE — Le compte des administrations publiques en 2025, Insee Première n° 2106 (29 mai 2026)",
+        "en": "INSEE — The general government account in 2025, Insee Première no. 2106 (29 May 2026; in French)"
+      },
+      "url": "https://www.insee.fr/fr/statistiques/8997691",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-privatisations-actionnariat-2003": {
+      "title": {
+        "fr": "Sénat — Les Français et les actions : pour une relation de confiance au service de la croissance, rapport d'information n° 367 (2002-2003), « Le levier des privatisations »",
+        "en": "Senate — The French and shares: a relationship of trust to serve growth, information report no. 367 (2002-2003), \"The lever of privatisations\" (in French)"
+      },
+      "url": "https://www.senat.fr/rap/r02-367/r02-36712.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ccomptes-privatisation-aeroports-2018": {
+      "title": {
+        "fr": "Cour des comptes — Le processus de privatisation des aéroports de Toulouse, Lyon et Nice (novembre 2018)",
+        "en": "Cour des comptes — The privatisation process of the Toulouse, Lyon and Nice airports (November 2018; in French)"
+      },
+      "url": "https://www.ccomptes.fr/system/files/2018-11/20181113-processus-privatisation-aeroports-Toulouse-Lyon-Nice.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2019-781-dc-pacte": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2019-781 DC du 16 mai 2019, loi relative à la croissance et la transformation des entreprises (loi PACTE)",
+        "en": "Constitutional Council — Decision no. 2019-781 DC of 16 May 2019, Act on business growth and transformation (PACTE Act; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019781DC.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2019-1-rip-adp": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2019-1 RIP du 9 mai 2019, proposition de loi visant à affirmer le caractère de service public national de l'exploitation des aérodromes de Paris",
+        "en": "Constitutional Council — Decision no. 2019-1 RIP of 9 May 2019, bill declaring the operation of the Paris airports a national public service (in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/20191RIP.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-sncf-situation-2022": {
+      "title": {
+        "fr": "Sénat — Situation de la SNCF et ses perspectives, rapport d'information n° 570 (2021-2022), déposé le 9 mars 2022",
+        "en": "Senate — The situation of the SNCF and its outlook, information report no. 570 (2021-2022), filed 9 March 2022 (in French)"
+      },
+      "url": "https://www.senat.fr/rap/r21-570/r21-570_mono.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-ce-commande-publique-auditions-2025": {
+      "title": {
+        "fr": "Sénat — Commission d'enquête sur la commande publique : comptes rendus des auditions de la semaine du 17 mars 2025",
+        "en": "Senate — Inquiry committee on public procurement: records of the hearings of the week of 17 March 2025 (in French)"
+      },
+      "url": "https://www.senat.fr/compte-rendu-commissions/20250317/ce_commande_publique.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-rapport-830-commande-publique-2025": {
+      "title": {
+        "fr": "Sénat — L'urgence d'agir pour éviter la sortie de route : piloter la commande publique au service de la souveraineté économique, rapport n° 830 (2024-2025), tome I, déposé le 8 juillet 2025",
+        "en": "Senate — Urgent action is needed to avoid going off the road: steering public procurement in the service of economic sovereignty, report no. 830 (2024-2025), volume I, filed 8 July 2025 (in French)"
+      },
+      "url": "https://www.senat.fr/rap/r24-830-1/r24-830-1_mono.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-centrales-achat-2025": {
+      "title": {
+        "fr": "franceinfo / France 2 — Commandes publiques d'équipements : polémique autour des centrales d'achats (JT du 13 décembre 2025)",
+        "en": "franceinfo / France 2 — Public equipment orders: controversy over central purchasing bodies (news report of 13 December 2025; in French)"
+      },
+      "url": "https://www.franceinfo.fr/economie/commandes-publiques-d-equipements-polemique-autour-des-centrales-d-achats_7677400.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-autoroutes-echeance-2024": {
+      "title": {
+        "fr": "Sénat — Préparation de l'échéance des contrats de concessions autoroutières, rapport d'information n° 65 (2024-2025), déposé le 23 octobre 2024",
+        "en": "Senate — Preparing for the end of the motorway concession contracts, information report no. 65 (2024-2025), filed 23 October 2024 (in French)"
+      },
+      "url": "https://www.senat.fr/rap/r24-065/r24-065_mono.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "art-autoroutes-fin-des-concessions-2024": {
+      "title": {
+        "fr": "Autorité de régulation des transports — Fin des concessions d'autoroutes historiques : communiqué du 30 novembre 2024 sur son troisième rapport relatif à l'économie générale des concessions",
+        "en": "Transport Regulatory Authority (ART) — End of the historic motorway concessions: press release of 30 November 2024 on its third report on the general economics of concessions (in French)"
+      },
+      "url": "https://www.autorite-transports.fr/communiques/fin-des-concessions-dautoroutes-historiques-le-maintien-de-lequilibre-economique-des-contrats-necessite-de-preciser-a-breve-echeance-les-obligations-des-societes-concessionnai/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "icij-panama-papers": {
+      "title": {
+        "fr": "ICIJ — The Panama Papers : Exposing the Rogue Offshore Finance Industry (3 avril 2016)",
+        "en": "ICIJ — The Panama Papers: Exposing the Rogue Offshore Finance Industry (3 April 2016; in English)"
+      },
+      "url": "https://www.icij.org/investigations/panama-papers/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "icij-panama-papers-dix-ans": {
+      "title": {
+        "fr": "ICIJ — Ten years after the Panama Papers, enablers and tax cheats are still being brought to justice",
+        "en": "ICIJ — Ten years after the Panama Papers, enablers and tax cheats are still being brought to justice (in English)"
+      },
+      "url": "https://www.icij.org/investigations/panama-papers/ten-years-after-the-panama-papers-enablers-and-tax-cheats-are-still-being-brought-to-justice/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-panama-pnf-2017": {
+      "title": {
+        "fr": "franceinfo — « Panama Papers » : un an après, la justice française s'intéresse à 26 dossiers liés aux révélations (5 avril 2017)",
+        "en": "franceinfo — \"Panama Papers\": a year on, French justice looks at 26 cases linked to the revelations (5 April 2017; in French)"
+      },
+      "url": "https://www.franceinfo.fr/economie/fraude/panama-papers/panama-papers-un-an-apres-la-justice-francaise-s-interesse-a-26-dossiers-lies-aux-revelations_2130811.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-panama-acquittement-2024": {
+      "title": {
+        "fr": "France 24 / AFP — Panamanian court acquits 28 people tied to 'Panama Papers' scandal (29 juin 2024)",
+        "en": "France 24 / AFP — Panamanian court acquits 28 people tied to 'Panama Papers' scandal (29 June 2024; in English)"
+      },
+      "url": "https://www.france24.com/en/live-news/20240629-panamanian-court-acquits-28-defendants-in-panama-papers-trial",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-panama-fisc-francais-2026": {
+      "title": {
+        "fr": "France 24 / AFP — « Panama papers » : 271 millions d'euros mis en recouvrement par le fisc français depuis les révélations (3 avril 2026)",
+        "en": "France 24 / AFP — \"Panama papers\": €271 million assessed by the French tax authority since the revelations (3 April 2026; in French)"
+      },
+      "url": "https://www.france24.com/fr/info-en-continu/20260403-panama-papers-271-millions-d-euros-mis-en-recouvrement-par-le-fisc-fran%C3%A7ais-depuis-les-r%C3%A9v%C3%A9lations",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurofound-france-telecom-1997": {
+      "title": {
+        "fr": "Eurofound — Unions respond to partial privatisation of France Telecom (27 septembre 1997)",
+        "en": "Eurofound — Unions respond to partial privatisation of France Telecom (27 September 1997; in English)"
+      },
+      "url": "https://www.eurofound.europa.eu/en/publications/all/unions-respond-partial-privatisation-france-telecom",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-france-telecom-2003": {
+      "title": {
+        "fr": "Sénat — Projet de loi relatif aux obligations de service public des télécommunications et à France Télécom (texte n° 421, 2002-2003) et dossier législatif (loi n° 2003-1365 du 31 décembre 2003)",
+        "en": "Senate — Bill on public service obligations of telecommunications and France Télécom (text no. 421, 2002-2003) and legislative file (Act no. 2003-1365 of 31 December 2003; in French)"
+      },
+      "url": "https://www.senat.fr/leg/pjl02-421.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-dossier-loi-energie-2006": {
+      "title": {
+        "fr": "Sénat — Dossier législatif : loi n° 2006-1537 du 7 décembre 2006 relative au secteur de l'énergie",
+        "en": "Senate — Legislative file: Act no. 2006-1537 of 7 December 2006 on the energy sector (in French)"
+      },
+      "url": "https://www.senat.fr/dossier-legislatif/pjl06-003.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2006-543-dc-secteur-energie": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2006-543 DC du 30 novembre 2006, loi relative au secteur de l'énergie",
+        "en": "Constitutional Council — Decision no. 2006-543 DC of 30 November 2006, Act on the energy sector (in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2006/2006543DC.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "edf-retrait-obligatoire-2023": {
+      "title": {
+        "fr": "EDF — Mise en œuvre du retrait obligatoire des titres de capital d'EDF (communiqué du 8 juin 2023)",
+        "en": "EDF — Implementation of the squeeze-out of EDF equity securities (press release of 8 June 2023; in French)"
+      },
+      "url": "https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/mise-en-oeuvre-du-retrait-obligatoire-des-titres-de-capital-dedf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "commission-europeenne-fdj-2024": {
+      "title": {
+        "fr": "Commission européenne (Représentation en France) — La Commission estime que les droits exclusifs dont bénéficie la Française des Jeux, après avoir été modifiés, ne constituent pas une aide d'État (31 octobre 2024)",
+        "en": "European Commission (Representation in France) — The Commission finds that the exclusive rights of the Française des Jeux, as modified, are not State aid (31 October 2024; in French)"
+      },
+      "url": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-commission-estime-que-les-droits-exclusifs-dont-beneficie-la-francaise-des-jeux-fdj-apres-avoir-2024-10-31_fr",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

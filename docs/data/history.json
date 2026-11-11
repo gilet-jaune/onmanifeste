@@ -44,6 +44,10 @@
     "environnement-sante": {
       "fr": "Environnement et santé",
       "en": "Environment and health"
+    },
+    "finances": {
+      "fr": "Dette, impôts et fraude",
+      "en": "Debt, taxes and fraud"
     }
   },
   "events": [
@@ -306,6 +310,27 @@
       }
     },
     {
+      "id": "1937-creation-de-la-sncf",
+      "date": "1937-08-31",
+      "title": {
+        "fr": "Création de la SNCF",
+        "en": "Creation of the SNCF"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r21-570/r21-570_mono.html",
+      "description": {
+        "fr": "La Société nationale des chemins de fer français est créée le 31 août 1937. Elle assure à la fois la gestion du réseau et l'exploitation des trains jusqu'à la réforme de 1997. Elle devient un établissement public à caractère industriel et commercial (EPIC) à partir de 1983, l'État en étant l'actionnaire majoritaire.",
+        "en": "The Société nationale des chemins de fer français is created on 31 August 1937. It runs both the network and train operations until the 1997 reform. It becomes a public industrial and commercial establishment (EPIC) from 1983, with the State as majority shareholder."
+      },
+      "related": ["1997-loi-creant-reseau-ferre-de-france"],
+      "evidence": ["senat-sncf-situation-2022"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "1946-preambule-de-la-constitution-de",
       "date": "1946-10-27",
       "title": {
@@ -497,6 +522,27 @@
       }
     },
     {
+      "id": "1973-loi-banque-de-france-escompte-du-tresor",
+      "date": "1973-01-03",
+      "title": {
+        "fr": "Loi sur la Banque de France : fin de l'escompte des effets du Trésor",
+        "en": "Banque de France Act: end of the discounting of Treasury bills"
+      },
+      "kind": "finances",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006701383/1973-01-04",
+      "description": {
+        "fr": "L'article 25 interdit au Trésor public de présenter ses propres effets à l'escompte de la Banque de France. On cite souvent cette loi comme celle qui aurait coupé l'État de sa banque centrale. Une étude historique publiée par La Vie des idées conclut au contraire à une rationalisation : une convention de septembre 1973 maintient des concours de la Banque au Trésor, plafonnés à 20,5 milliards de francs dont la moitié gratuits, et l'État peut s'y financer jusqu'à la loi du 4 août 1993.",
+        "en": "Article 25 bars the Treasury from presenting its own bills for discount at the Banque de France. The Act is often cited as the one that cut the State off from its central bank. A historical study in La Vie des idées concludes instead that it streamlined the system: a September 1973 agreement kept the Bank's credit to the Treasury, capped at 20.5 billion francs with half of it free, and the State could still finance itself there until the Act of 4 August 1993."
+      },
+      "related": ["1993-loi-banque-de-france-independance"],
+      "evidence": ["legifrance-loi-1973-art-25", "vie-des-idees-loi-1973"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "1980-plogoff",
       "date": "1980-01-30",
       "end": "1981",
@@ -568,6 +614,72 @@
       "evidence": ["jean-jaures-marche-egalite-1983"]
     },
     {
+      "id": "1984-le-financement-de-l-etat-bascule-vers-les-marches",
+      "date": "1984-01-01",
+      "title": {
+        "fr": "Vers 1984, l'État se finance surtout sur les marchés",
+        "en": "Around 1984, the State finances itself mainly on the markets"
+      },
+      "kind": "finances",
+      "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
+      "description": {
+        "fr": "Selon l'étude de La Vie des idées, la part du déficit financée par les marchés double en 1984 par rapport à 1983, alors que la part du financement monétaire est divisée par deux. L'étude y voit un choix des années 1980, lié à la lutte contre l'inflation et à la convergence au sein du système monétaire européen, et non un effet de la loi de 1973. Elle note que la quasi-totalité des banques françaises étaient alors publiques, après les nationalisations de 1982.",
+        "en": "According to the La Vie des idées study, the share of the deficit financed by the markets doubled in 1984 compared with 1983, while the share of monetary financing was halved. The study sees a choice of the 1980s, tied to the fight against inflation and to convergence within the European Monetary System, rather than an effect of the 1973 Act. It notes that nearly all French banks were then publicly owned, after the 1982 nationalisations."
+      },
+      "related": ["1973-loi-banque-de-france-escompte-du-tresor"],
+      "evidence": ["vie-des-idees-loi-1973"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1984-le-secteur-public-pese-10-de-l-emploi-salarie",
+      "date": "1984-12-31",
+      "title": {
+        "fr": "Fin 1984 : le secteur public emploie 1,9 million de personnes",
+        "en": "End of 1984: the public sector employs 1.9 million people"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r02-367/r02-36712.html",
+      "description": {
+        "fr": "D'après un rapport du Sénat, le secteur des entreprises publiques, élargi par la vague de nationalisations de 1982, emploie fin 1984 1,9 million de personnes, soit plus de 10 % de l'emploi salarié, et réalise près de 20 % de la valeur ajoutée. Les lois de privatisation de 1986 et de 1993 réduiront ce périmètre : le même rapport constate en 2003 que le champ des entreprises contrôlées par l'État s'est considérablement réduit.",
+        "en": "According to a Senate report, the public-enterprise sector, enlarged by the 1982 wave of nationalisations, employs 1.9 million people at the end of 1984, over 10% of employee jobs, and produces nearly 20% of value added. The privatisation laws of 1986 and 1993 would shrink this scope: the same report notes in 2003 that the range of State-controlled companies had shrunk considerably."
+      },
+      "related": ["1986-loi-de-privatisation-du-6-aout-1986"],
+      "evidence": ["senat-privatisations-actionnariat-2003"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1986-loi-de-privatisation-du-6-aout-1986",
+      "date": "1986-08-06",
+      "title": {
+        "fr": "Loi de privatisation du 6 août 1986",
+        "en": "Privatisation Act of 6 August 1986"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r02-367/r02-36712.html",
+      "description": {
+        "fr": "La loi relative aux modalités d'application des privatisations ouvre une première vague (1986-1988). Selon le Sénat, elle prévoit des avantages pour les petits porteurs (droit de priorité, une action gratuite pour dix achetées et conservées dix-huit mois) et pour les salariés (10 % de l'offre réservés, décote pouvant aller jusqu'à 20 %), toujours en vigueur en 2003. En 2014, elle sert encore de cadre, avec une ordonnance, à la procédure de cession de l'aéroport de Toulouse.",
+        "en": "The Act on the arrangements for privatisations opens a first wave (1986-1988). According to the Senate, it provides advantages for small investors (priority right, one free share for ten bought and held for eighteen months) and for employees (10% of the offer reserved, discount of up to 20%), still in force in 2003. In 2014 it still provides, with an ordinance, the framework for the sale procedure of Toulouse airport."
+      },
+      "related": ["1993-loi-de-privatisation-du-19-juillet-1993"],
+      "evidence": [
+        "senat-privatisations-actionnariat-2003",
+        "ccomptes-privatisation-aeroports-2018"
+      ],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "1986-loi-contre-le-terrorisme",
       "date": "1986-09-09",
       "title": {
@@ -608,6 +720,75 @@
       "evidence": ["wiki-malik-oussekine", "wiki-loi-devaquet"],
       "check": {
         "date": "2026-10-28",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1993-loi-de-privatisation-du-19-juillet-1993",
+      "date": "1993-07-19",
+      "title": {
+        "fr": "Loi de privatisation du 19 juillet 1993 : deuxième vague",
+        "en": "Privatisation Act of 19 July 1993: second wave"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r02-367/r02-36712.html",
+      "description": {
+        "fr": "Le Sénat voit dans cette loi la confirmation du choix de 1986. Il cite parmi les opérations la BNP en 1993 (2,8 millions de particuliers souscripteurs), Rhône-Poulenc (2,9 millions), Elf Aquitaine (3 millions) et l'UAP en 1994 (1,9 million). En 2003 il relève que quatre sociétés de la liste annexée n'étaient pas encore privatisées (Air France, Caisse centrale de réassurance, CNP Assurances, Snecma) et note, depuis 2000, une baisse du nombre d'actionnaires individuels de sociétés privatisées (4,7 millions en mai 2000, 4,3 millions en mai 2002, estimations).",
+        "en": "The Senate sees this Act as confirming the 1986 choice. Among the operations it cites BNP in 1993 (2.8 million individual subscribers), Rhône-Poulenc (2.9 million), Elf Aquitaine (3 million) and UAP in 1994 (1.9 million). In 2003 it notes that four companies on the annexed list were not yet privatised (Air France, Caisse centrale de réassurance, CNP Assurances, Snecma) and that, since 2000, the number of individual shareholders in privatised companies had fallen (4.7 million in May 2000, 4.3 million in May 2002, estimates)."
+      },
+      "related": ["1986-loi-de-privatisation-du-6-aout-1986"],
+      "evidence": ["senat-privatisations-actionnariat-2003"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1993-loi-banque-de-france-independance",
+      "date": "1993-08-04",
+      "title": {
+        "fr": "Loi du 4 août 1993 : indépendance de la Banque de France",
+        "en": "Act of 4 August 1993: independence of the Banque de France"
+      },
+      "kind": "finances",
+      "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
+      "description": {
+        "fr": "Votée dans le cadre des dispositions du traité de Maastricht, elle abroge l'article 25 de la loi de 1973 à compter du 1er janvier 1994 (Légifrance). Selon La Vie des idées, elle consacre l'indépendance de la Banque et met fin à toute possibilité de financement de l'État par la banque centrale : la rupture que l'on attribue souvent à 1973 date donc de 1993.",
+        "en": "Passed under the Maastricht Treaty provisions, it repeals Article 25 of the 1973 Act from 1 January 1994 (Légifrance). According to La Vie des idées, it establishes the Bank's independence and ends any possibility of State financing by the central bank: the break often attributed to 1973 therefore dates from 1993."
+      },
+      "related": [
+        "1973-loi-banque-de-france-escompte-du-tresor",
+        "1993-traite-de-maastricht-entree-en-vigueur"
+      ],
+      "evidence": ["legifrance-loi-1973-art-25", "vie-des-idees-loi-1973"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1993-traite-de-maastricht-entree-en-vigueur",
+      "date": "1993-11-01",
+      "title": {
+        "fr": "Maastricht : l'interdiction du financement monétaire",
+        "en": "Maastricht: the ban on monetary financing"
+      },
+      "kind": "finances",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:12016E123",
+      "description": {
+        "fr": "Le traité de Maastricht entre en vigueur et prépare la monnaie unique. La règle, aujourd'hui à l'article 123 du TFUE, interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout autre crédit aux États, collectivités, autres autorités publiques et entreprises publiques, et d'acquérir directement leur dette. Elle vise les banques centrales, pas toutes les banques publiques : le § 2 traite les établissements publics de crédit comme les établissements privés pour la liquidité fournie par la banque centrale, et l'article 124 interdit tout accès privilégié des autorités publiques aux institutions financières, sauf raison prudentielle.",
+        "en": "The Maastricht Treaty enters into force and prepares the single currency. The rule, now in Article 123 TFEU, bars the ECB and national central banks from granting overdrafts or any other credit to States, local authorities, other public authorities and public companies, and from directly acquiring their debt. It targets central banks, not all public banks: paragraph 2 treats public credit institutions like private ones for central-bank liquidity, and Article 124 bars any privileged access of public authorities to financial institutions, except on prudential grounds."
+      },
+      "related": [
+        "1993-loi-banque-de-france-independance",
+        "2015-bce-achats-de-titres-publics-sur-les-marches-secondaires"
+      ],
+      "evidence": ["eurlex-maastricht-synthese", "eurlex-tfue-art-123", "eurlex-tfue-art-124"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -658,6 +839,48 @@
       }
     },
     {
+      "id": "1997-loi-creant-reseau-ferre-de-france",
+      "date": "1997-02-13",
+      "title": {
+        "fr": "Création de Réseau ferré de France : 20,6 Md€ de dette transférés",
+        "en": "Réseau ferré de France created: €20.6 billion of debt transferred"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r21-570/r21-570_mono.html",
+      "description": {
+        "fr": "Dans le cadre de la directive européenne 91/440/CEE de 1991 et d'un endettement croissant du groupe, la loi du 13 février 1997 crée l'EPIC Réseau ferré de France, qui reçoit la gestion du réseau, la propriété des voies et la dette qui les a financées : la dette de la SNCF diminue de 20,6 Md€. La commission des finances du Sénat juge, en 2022, que cette réforme, comme celle de 2014, n'a pas enrayé la spirale de la dette ferroviaire.",
+        "en": "Under the 1991 European directive 91/440/EEC and with the group's debt growing, the Act of 13 February 1997 creates the EPIC Réseau ferré de France, which takes over network management, ownership of the tracks and the debt that financed them: SNCF's debt falls by €20.6 billion. The Senate Finance Committee judges in 2022 that this reform, like the 2014 one, did not stop the spiral of rail debt."
+      },
+      "related": ["1937-creation-de-la-sncf", "2018-sncf-fin-du-statut-et"],
+      "evidence": ["senat-sncf-situation-2022"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "1997-france-telecom-ouverture-du-capital",
+      "date": "1997-09-22",
+      "title": {
+        "fr": "France Télécom : ouverture du capital, 20 % mis en vente",
+        "en": "France Télécom: capital opened up, 20% put up for sale"
+      },
+      "kind": "privatisation",
+      "url": "https://www.eurofound.europa.eu/en/publications/all/unions-respond-partial-privatisation-france-telecom",
+      "description": {
+        "fr": "Devenue société anonyme au 1er janvier 1997 (loi votée en 1996), France Télécom voit son capital ouvert par le gouvernement de Lionel Jospin, après une suspension en juin 1997. Selon Eurofound, 20 % du capital sont mis en vente à partir du 22 septembre 1997, avec une première cotation prévue le 20 octobre, 3 à 4 % réservés aux salariés et un échange de 7,5 % du capital avec Deutsche Telekom ; une hausse de capital supplémentaire est prévue au second semestre 1998. Son président invoque la déréglementation européenne du 1er janvier 1998. La CGT refuse toute ouverture du capital, SUD organise un référendum interne (plus de 80 % contre dans les lieux déjà consultés), FO n'est pas opposée à une privatisation partielle.",
+        "en": "Having become a public limited company on 1 January 1997 (law voted in 1996), France Télécom has its capital opened up by Lionel Jospin's government, after a suspension in June 1997. According to Eurofound, 20% of the capital is put up for sale from 22 September 1997, with a first listing planned for 20 October, 3-4% reserved for employees and a 7.5% cross-holding exchange with Deutsche Telekom; a further capital increase is planned for the second half of 1998. Its chairman cites European deregulation on 1 January 1998. The CGT rejects any opening of the capital, SUD organises an internal referendum (over 80% against in the places already polled), FO is not opposed to partial privatisation."
+      },
+      "related": ["2003-france-telecom-loi-sur-l-obligation-de-detention-par-l-etat"],
+      "evidence": ["eurofound-france-telecom-1997"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2001-loi-sur-la-securite-quotidienne",
       "date": "2001-11-15",
       "title": {
@@ -674,6 +897,27 @@
       "evidence": ["vie-publique-chronologie-antiterroriste"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2003-france-telecom-loi-sur-l-obligation-de-detention-par-l-etat",
+      "date": "2003-12-31",
+      "title": {
+        "fr": "France Télécom : la loi du 31 décembre 2003 et l'obligation de détention majoritaire par l'État",
+        "en": "France Télécom: the Act of 31 December 2003 and the obligation of majority State ownership"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/leg/pjl02-421.html",
+      "description": {
+        "fr": "Le gouvernement dépose le 31 juillet 2003 un projet de loi sur les obligations de service public des télécommunications et sur France Télécom (loi n° 2003-1365 du 31 décembre 2003). Son exposé des motifs invoque la crise financière du groupe entre 2000 et 2002, dont l'obligation de détention majoritaire du capital par l'État aurait été l'un des facteurs, et indique que le groupe emploie 240 000 personnes dont 106 000 fonctionnaires. C'est l'argument du gouvernement ; les dispositions finales de la loi n'ont pas été relues ici.",
+        "en": "On 31 July 2003 the government files a bill on telecommunications public service obligations and on France Télécom (Act no. 2003-1365 of 31 December 2003). Its explanatory memorandum cites the group's financial crisis of 2000-2002, of which the obligation of majority State ownership of the capital is said to have been a factor, and states that the group employs 240,000 people including 106,000 civil servants. This is the government's argument; the final provisions of the Act were not re-read here."
+      },
+      "related": ["1997-france-telecom-ouverture-du-capital"],
+      "evidence": ["senat-france-telecom-2003"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -765,6 +1009,30 @@
       }
     },
     {
+      "id": "2006-gaz-de-france-perd-son-caractere-de-service-public-national",
+      "date": "2006-12-07",
+      "title": {
+        "fr": "Gaz de France : la loi sur l’énergie ouvre la voie à la privatisation",
+        "en": "Gaz de France: the energy law opens the way to privatisation"
+      },
+      "kind": "privatisation",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2006/2006543DC.htm",
+      "description": {
+        "fr": "La loi n° 2006-1537 du 7 décembre 2006 relative au secteur de l'énergie, partiellement validée par le Conseil constitutionnel le 30 novembre 2006 (décision 2006-543 DC), prévoit que l'État détient plus de 70 % du capital d'EDF mais seulement plus du tiers de celui de Gaz de France. En 2004, le Conseil avait constaté que Gaz de France conservait la qualité de service public national par la loi et que l'abandon de la participation majoritaire de l'État ne pouvait résulter que d'une loi ultérieure l'en privant. En 2006, il juge que la loi fait perdre à Gaz de France, à compter du 1er juillet 2007, son caractère de service public national, et examine ensuite la notion de monopole de fait.",
+        "en": "Act no. 2006-1537 of 7 December 2006 on the energy sector, partially upheld by the Constitutional Council on 30 November 2006 (decision 2006-543 DC), provides that the State holds over 70% of EDF's capital but only over a third of Gaz de France's. In 2004 the Council had found that Gaz de France kept its status as a national public service by law and that abandoning the State's majority holding could only result from a later law depriving it of that status. In 2006 it rules that the Act makes Gaz de France lose, from 1 July 2007, its character as a national public service, and then examines the notion of de facto monopoly."
+      },
+      "related": [
+        "2019-loi-pacte-privatisation-d-adp-et-conseil-constitutionnel",
+        "2010-electricite-edf-oblige-de-ceder"
+      ],
+      "evidence": ["senat-dossier-loi-energie-2006", "cc-2006-543-dc-secteur-energie"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2010-electricite-edf-oblige-de-ceder",
       "date": "2010-12-07",
       "title": {
@@ -838,6 +1106,27 @@
       }
     },
     {
+      "id": "2015-bce-achats-de-titres-publics-sur-les-marches-secondaires",
+      "date": "2015-03-04",
+      "title": {
+        "fr": "BCE : achats de titres publics sur les marchés secondaires",
+        "en": "ECB: purchases of public bonds on secondary markets"
+      },
+      "kind": "finances",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62017CJ0493",
+      "description": {
+        "fr": "La décision (UE) 2015/774 de la BCE du 4 mars 2015 crée un programme d'achats d'actifs du secteur public sur les marchés secondaires : l'Eurosystème rachète des titres déjà émis, et non des titres acquis directement auprès des États, ce que l'article 123 interdit. Saisie par la Cour constitutionnelle allemande, la Cour de justice juge le 11 décembre 2018 (affaire Weiss) que l'examen des questions posées, dont celle de l'interdiction du financement monétaire, n'a révélé aucun élément de nature à affecter la validité de la décision.",
+        "en": "ECB Decision (EU) 2015/774 of 4 March 2015 creates a public sector asset purchase programme on secondary markets: the Eurosystem buys bonds already issued, not bonds acquired directly from States, which Article 123 bars. Referred to it by the German Federal Constitutional Court, the Court of Justice ruled on 11 December 2018 (Weiss case) that examining the questions raised, including the ban on monetary financing, revealed nothing capable of affecting the validity of the decision."
+      },
+      "related": ["1993-traite-de-maastricht-entree-en-vigueur"],
+      "evidence": ["eurlex-arret-weiss-2018", "eurlex-tfue-art-123"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2015-etat-d-urgence-reunions-et-manifestations",
       "date": "2015-11-14",
       "title": {
@@ -880,6 +1169,31 @@
       }
     },
     {
+      "id": "2016-panama-papers",
+      "date": "2016-04-03",
+      "title": {
+        "fr": "Panama Papers : 11,5 millions de documents sur les sociétés offshore",
+        "en": "Panama Papers: 11.5 million documents on offshore companies"
+      },
+      "kind": "finances",
+      "url": "https://www.icij.org/investigations/panama-papers/",
+      "description": {
+        "fr": "Le Consortium international de journalistes d'investigation (ICIJ), le quotidien allemand Süddeutsche Zeitung et plus de cent médias partenaires, dont Le Monde, publient des articles tirés de plus de 11,5 millions de documents du cabinet panaméen Mossack Fonseca. Selon l'AFP, ils détaillent plus de 214 000 sociétés offshore et mettent en cause quelque 150 milliardaires, personnalités et responsables politiques pour avoir caché des biens ou des capitaux au fisc. L'ICIJ attribue à l'enquête la chute de dirigeants politiques en Islande et au Pakistan, ainsi que des arrestations, de nouvelles lois et des enquêtes dans des dizaines de pays.",
+        "en": "The International Consortium of Investigative Journalists (ICIJ), the German daily Süddeutsche Zeitung and over a hundred media partners, including Le Monde, publish stories based on more than 11.5 million documents from the Panamanian firm Mossack Fonseca. According to AFP, they detail more than 214,000 offshore companies and implicate some 150 billionaires, public figures and political leaders for hiding assets or capital from tax authorities. ICIJ credits the investigation with the downfall of political leaders in Iceland and Pakistan, and with arrests, new laws and probes in dozens of countries."
+      },
+      "related": ["2017-panama-papers-parquet-national-financier"],
+      "evidence": [
+        "icij-panama-papers",
+        "icij-panama-papers-dix-ans",
+        "france24-panama-fisc-francais-2026"
+      ],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2016-etat-d-urgence-cortege-interdits-faute-de-moyens",
       "date": "2016-07-21",
       "title": {
@@ -897,6 +1211,26 @@
       "evidence": ["vie-publique-chronologie-antiterroriste"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2016-aeroports-de-lyon-et-de-nice-cedes",
+      "date": "2016-11-03",
+      "title": {
+        "fr": "Aéroports de Lyon et de Nice : l'État cède ses parts",
+        "en": "Lyon and Nice airports: the State sells its stakes"
+      },
+      "kind": "privatisation",
+      "url": "https://www.ccomptes.fr/system/files/2018-11/20181113-processus-privatisation-aeroports-Toulouse-Lyon-Nice.pdf",
+      "description": {
+        "fr": "Après Toulouse en avril 2015 (49,99 % pour 308 M€, à un consortium dont 51 % revenaient à une entreprise publique chinoise), l'État vend ses 60 % d'Aéroports de Lyon (535 M€, consortium mené par Vinci Airports) et de la Côte d'Azur (1,222 Md€, consortium mené par Atlantia). Total : 2,06 Md€. Dans son rapport de novembre 2018, la Cour des comptes juge les objectifs financiers dépassés, mais relève de graves insuffisances dans la procédure de Toulouse et demande un meilleur suivi des engagements des acquéreurs. Elle rappelle que ce produit ne pouvait aller qu'à des investissements au capital d'entreprises publiques ou au désendettement de l'État.",
+        "en": "After Toulouse in April 2015 (49.99% for €308 million, to a consortium 51% held by a Chinese state-owned company), the State sells its 60% of Aéroports de Lyon (€535 million, consortium led by Vinci Airports) and of the Côte d'Azur airports (€1.222 billion, consortium led by Atlantia). Total: €2.06 billion. In its November 2018 report the Cour des comptes finds the State's financial objectives exceeded, but notes serious shortcomings in the Toulouse procedure and calls for better monitoring of the buyers' commitments. It reminds that these proceeds could only go to investments in the capital of public companies or to reducing State debt."
+      },
+      "evidence": ["ccomptes-privatisation-aeroports-2018"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -947,6 +1281,27 @@
         "by": "ai"
       },
       "related": ["2026-presomption-de-legitime-defense-des-forces-de-l-ordre"]
+    },
+    {
+      "id": "2017-panama-papers-parquet-national-financier",
+      "date": "2017-04-05",
+      "title": {
+        "fr": "Panama Papers : le parquet national financier examine 26 dossiers",
+        "en": "Panama Papers: the national financial prosecutor examines 26 cases"
+      },
+      "kind": "finances",
+      "url": "https://www.franceinfo.fr/economie/fraude/panama-papers/panama-papers-un-an-apres-la-justice-francaise-s-interesse-a-26-dossiers-lies-aux-revelations_2130811.html",
+      "description": {
+        "fr": "Un an après les révélations, le parquet national financier, qui a ouvert une enquête préliminaire pour « blanchiment de fraudes fiscales aggravées », se penche sur 26 dossiers, selon un point d'étape publié par Le Monde et confirmé à franceinfo de source proche du dossier. Les suites judiciaires françaises de ces dossiers ne sont pas documentées ici.",
+        "en": "A year after the revelations, the national financial prosecutor's office, which opened a preliminary investigation for 'laundering of aggravated tax fraud', is looking at 26 cases, according to a progress report published by Le Monde and confirmed to franceinfo by a source close to the case. The French judicial outcome of these cases is not documented here."
+      },
+      "related": ["2016-panama-papers", "2026-panama-papers-fisc-francais-271-millions"],
+      "evidence": ["franceinfo-panama-pnf-2017"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     },
     {
       "id": "2017-loi-silt-l-etat-d-urgence-dans-le-droit-commun",
@@ -1304,6 +1659,27 @@
       }
     },
     {
+      "id": "2019-loi-pacte-privatisation-d-adp-et-conseil-constitutionnel",
+      "date": "2019-05-16",
+      "title": {
+        "fr": "Loi PACTE : le Conseil constitutionnel valide la privatisation d'ADP",
+        "en": "PACTE Act: the Constitutional Council upholds the privatisation of ADP"
+      },
+      "kind": "privatisation",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019781DC.htm",
+      "description": {
+        "fr": "La loi PACTE autorise le transfert au secteur privé de la majorité du capital d'Aéroports de Paris. Saisi par des parlementaires, le Conseil constitutionnel juge qu'ADP n'est pas un monopole de fait (concurrence d'autres aéroports et modes de transport) ni un service public national, les deux cas où le préambule de 1946 impose la propriété publique. Il avait jugé le 9 mai recevable le référendum d'initiative partagée contre cette privatisation, qui échouera faute de soutiens suffisants (voir 2020).",
+        "en": "The PACTE Act authorises transferring the majority of Aéroports de Paris's capital to the private sector. Referred to by MPs, the Constitutional Council rules that ADP is neither a de facto monopoly (competition from other airports and modes of transport) nor a national public service, the two cases where the 1946 Preamble requires public ownership. On 9 May it had ruled admissible the shared-initiative referendum against this privatisation, which would fail for lack of enough supporters (see 2020)."
+      },
+      "related": ["2020-referendum-adp-un-million-de", "1946-preambule-de-la-constitution-de"],
+      "evidence": ["cc-2019-781-dc-pacte", "cc-2019-1-rip-adp"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2019-mort-de-steve-maia-canico",
       "date": "2019-06-21",
       "title": {
@@ -1344,6 +1720,27 @@
       ],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2020-l-etat-reprend-35-milliards-de-dette-de-sncf-reseau",
+      "date": "2020-01-01",
+      "title": {
+        "fr": "L'État reprend 35 Md€ de la dette de SNCF Réseau",
+        "en": "The State takes over €35 billion of SNCF Réseau debt"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r21-570/r21-570_mono.html",
+      "description": {
+        "fr": "La reprise se fait en deux temps : 25 Md€ au 1er janvier 2020, puis 10 Md€ au 1er janvier 2022. Selon la commission des finances du Sénat (mars 2022), elle allège nettement les frais financiers de SNCF Réseau, mais elle vient surtout solder a posteriori l'historique des déficits d'investissement de l'État dans ses infrastructures ; la dette du groupe reste supérieure à 26 Md€ et sa maîtrise demeure un objectif très incertain. Une règle d'or renforcée par la réforme de 2018 doit éviter que la dette se reconstitue.",
+        "en": "The takeover happens in two stages: €25 billion on 1 January 2020, then €10 billion on 1 January 2022. According to the Senate Finance Committee (March 2022), it clearly lightens SNCF Réseau's financial costs, but it mainly settles after the fact the State's history of investment deficits in its infrastructure; the group's debt stays above €26 billion and bringing it under control remains a very uncertain objective. A golden rule strengthened by the 2018 reform is meant to prevent the debt from building up again."
+      },
+      "related": ["2018-sncf-fin-du-statut-et", "2025-fret-sncf-liquide"],
+      "evidence": ["senat-sncf-situation-2022"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1690,6 +2087,27 @@
       }
     },
     {
+      "id": "2023-edf-detenu-a-100-pour-cent-par-l-etat",
+      "date": "2023-06-08",
+      "title": {
+        "fr": "EDF : l'État détient à nouveau 100 % du capital",
+        "en": "EDF: the State again holds 100% of the capital"
+      },
+      "kind": "privatisation",
+      "url": "https://www.edf.fr/groupe-edf/espaces-dedies/journalistes/tous-les-communiques-de-presse/mise-en-oeuvre-du-retrait-obligatoire-des-titres-de-capital-dedf",
+      "description": {
+        "fr": "À la suite de l'offre publique d'achat simplifiée de l'État sur les titres d'EDF et de son avis du 26 mai 2023, l'Autorité des marchés financiers voit le retrait obligatoire des actions et des OCEANEs intervenir le 8 juin 2023 : les titres non apportés sont transférés à l'État, les actions sont radiées d'Euronext Paris, et l'État détient l'intégralité du capital et des droits de vote d'EDF, selon le communiqué du groupe. Aucun montant n'est repris ici faute de source primaire lue.",
+        "en": "Following the State's simplified tender offer for EDF securities and its opinion of 26 May 2023, the Financial Markets Authority sees the compulsory withdrawal of shares and OCEANE bonds take place on 8 June 2023: unsubmitted securities are transferred to the State, the shares are delisted from Euronext Paris, and the State holds the entire capital and voting rights of EDF, according to the group's release. No amount is given here for lack of a primary source read."
+      },
+      "related": ["2006-gaz-de-france-perd-son-caractere-de-service-public-national"],
+      "evidence": ["edf-retrait-obligatoire-2023"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2023-l-onu-s-inquiete-du-manque-de-retenue-dans-l-usage-de-la-force",
       "date": "2023-06-16",
       "title": {
@@ -1853,6 +2271,27 @@
       }
     },
     {
+      "id": "2024-panama-acquittement-des-28-accuses",
+      "date": "2024-06-28",
+      "title": {
+        "fr": "Panama : acquittement des 28 accusés dans le procès du cabinet Mossack Fonseca",
+        "en": "Panama: all 28 defendants acquitted in the Mossack Fonseca trial"
+      },
+      "kind": "finances",
+      "url": "https://www.france24.com/en/live-news/20240629-panamanian-court-acquits-28-defendants-in-panama-papers-trial",
+      "description": {
+        "fr": "Un tribunal panaméen acquitte 28 personnes poursuivies pour blanchiment d'argent en lien avec Mossack Fonseca, dont les deux fondateurs du cabinet (l'un d'eux est mort en mai 2024). La juge estime que les éléments tirés des serveurs du cabinet n'ont pas été recueillis dans le respect de la procédure. C'est l'issue du procès tenu à Panama à partir d'avril 2024.",
+        "en": "A Panamanian court acquits 28 people charged with money laundering in connection with Mossack Fonseca, including the firm's two founders (one of whom died in May 2024). The judge rules that evidence taken from the firm's servers had not been collected in line with due process. This is the outcome of the trial held in Panama from April 2024."
+      },
+      "related": ["2016-panama-papers"],
+      "evidence": ["france24-panama-acquittement-2024"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2024-legislatives-2024-la-coalition-arrivee",
       "date": "2024-07-07",
       "title": {
@@ -1869,6 +2308,75 @@
       "evidence": ["wiki-legislatives-2024"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2024-senat-autoroutes-surrentabilite-et-resiliation",
+      "date": "2024-10-23",
+      "title": {
+        "fr": "Autoroutes : le Sénat confirme une rentabilité supérieure aux prévisions, mais conseille d'aller au bout des contrats",
+        "en": "Motorways: the Senate confirms returns above forecasts, but advises seeing the contracts through"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r24-065/r24-065_mono.html",
+      "description": {
+        "fr": "Un rapport de la commission des finances du Sénat relève que les analyses de la direction générale du Trésor confirment que la rentabilité de certaines sociétés d'autoroutes sera vraisemblablement très supérieure aux anticipations initiales, et l'attribue essentiellement aux gains de refinancement de leur dette. Il estime pourtant que la décision la plus raisonnable est d'aller au bout des contrats historiques, car la résiliation anticipée pourrait coûter à l'État de 40 à 50 Md€. Il chiffre à environ 1,2 Md€ par an la fiscalité spécifique du secteur.",
+        "en": "A Senate Finance Committee report notes that the Treasury's analyses confirm that the profitability of some motorway companies will probably be well above initial expectations, and mainly attributes it to gains from refinancing their debt. It nevertheless judges that the most reasonable decision is to see the historic contracts through, since early termination could cost the State €40 to 50 billion. It puts the sector's specific taxation at about €1.2 billion a year."
+      },
+      "related": [
+        "2020-autoroutes-privatisees-des-profits-au",
+        "2024-art-autoroutes-rentabilite-non-excessive"
+      ],
+      "evidence": ["senat-autoroutes-echeance-2024"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2024-fdj-la-commission-europeenne-conclut-a-l-absence-d-aide-d-etat",
+      "date": "2024-10-31",
+      "title": {
+        "fr": "FDJ : la Commission européenne conclut à l'absence d'aide d'État, après une rémunération relevée à 477 M€",
+        "en": "FDJ: the European Commission finds no State aid, after the fee is raised to €477 million"
+      },
+      "kind": "privatisation",
+      "url": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-commission-estime-que-les-droits-exclusifs-dont-beneficie-la-francaise-des-jeux-fdj-apres-avoir-2024-10-31_fr",
+      "description": {
+        "fr": "En 2019, la France privatise la FDJ et lui garantit pour 25 ans (2019-2044) des droits exclusifs sur les loteries en ligne et hors ligne et les paris sportifs hors ligne, contre une rémunération de 380 M€ (15,2 M€ par an). Deux plaintes de 2020 y voyaient une aide d'État ; la Commission ouvre une enquête approfondie en juillet 2021. Après des modifications de la méthode de calcul, la rémunération passe à 477 M€ (+97 M€) et la Commission conclut le 31 octobre 2024 que la mesure ne constitue pas une aide d'État.",
+        "en": "In 2019 France privatises FDJ and grants it for 25 years (2019-2044) exclusive rights over online and offline lotteries and offline sports betting, in exchange for a fee of €380 million (€15.2 million a year). Two 2020 complaints saw this as State aid; the Commission opens an in-depth investigation in July 2021. After changes to the calculation method, the fee rises to €477 million (+€97 million) and the Commission concludes on 31 October 2024 that the measure is not State aid."
+      },
+      "related": ["2019-loi-pacte-privatisation-d-adp-et-conseil-constitutionnel"],
+      "evidence": ["commission-europeenne-fdj-2024"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2024-art-autoroutes-rentabilite-non-excessive",
+      "date": "2024-11-30",
+      "title": {
+        "fr": "Autoroutes : le régulateur juge la rentabilité des concessions historiques non excessive",
+        "en": "Motorways: the regulator judges the historic concessions’ profitability not excessive"
+      },
+      "kind": "privatisation",
+      "url": "https://www.autorite-transports.fr/communiques/fin-des-concessions-dautoroutes-historiques-le-maintien-de-lequilibre-economique-des-contrats-necessite-de-preciser-a-breve-echeance-les-obligations-des-societes-concessionnai/",
+      "description": {
+        "fr": "Dans son troisième rapport sur l'économie générale des concessions, l'Autorité de régulation des transports calcule, avec des hypothèses prudentes, un taux de rentabilité interne de 7,9 % pour les sept sociétés historiques privées, contre un coût du capital de l'ordre de 7,0 % : un écart qu'elle juge non significatif. Elle chiffre aussi à 0,4-5,1 Md€ les investissements de seconde phase encore possiblement dus selon la lecture des contrats, et à environ 1,2 Md€ l'effort d'entretien supplémentaire en fin de concession. Cette lecture diffère de celle de la commission d'enquête du Sénat de 2020.",
+        "en": "In its third report on the general economics of concessions, the Transport Regulatory Authority calculates, with prudent assumptions, an internal rate of return of 7.9% for the seven historic private companies, against a cost of capital of about 7.0%: a gap it judges not significant. It also puts at €0.4-5.1 billion the second-phase investments possibly still owed depending on how the contracts are read, and at about €1.2 billion the extra maintenance effort at the end of the concessions. This reading differs from that of the 2020 Senate inquiry committee."
+      },
+      "related": [
+        "2020-autoroutes-privatisees-des-profits-au",
+        "2024-senat-autoroutes-surrentabilite-et-resiliation"
+      ],
+      "evidence": ["art-autoroutes-fin-des-concessions-2024"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2018,6 +2526,30 @@
       }
     },
     {
+      "id": "2025-commission-d-enquete-du-senat-sur-la-commande-publique",
+      "date": "2025-07-08",
+      "title": {
+        "fr": "Commande publique : le Sénat demande de remédier au défaut de pilotage de l'UGAP",
+        "en": "Public procurement: the Senate asks to fix the lack of steering of UGAP"
+      },
+      "kind": "privatisation",
+      "url": "https://www.senat.fr/rap/r24-830-1/r24-830-1_mono.html",
+      "description": {
+        "fr": "La commission d'enquête du Sénat sur la commande publique dépose son rapport avec 67 recommandations. La n° 30 vise à remédier au défaut de pilotage politique de l'UGAP, la principale centrale d'achat publique : tutelle confiée à un seul ministère, deux mandats successifs au plus pour les administrateurs, deux parlementaires au conseil d'administration. Lors des auditions de mars 2025, l'UGAP a indiqué un taux de marge moyen de 3,76 % sur les commandes enregistrées en 2024.",
+        "en": "The Senate inquiry committee on public procurement files its report with 67 recommendations. No. 30 aims to fix the lack of political steering of UGAP, the main public central purchasing body: a single supervising ministry, at most two successive terms for board members, two MPs on the board. At the March 2025 hearings, UGAP stated an average margin rate of 3.76% on orders recorded in 2024."
+      },
+      "related": ["2025-reportage-france-2-sur-les-prix-des-centrales-d-achat"],
+      "evidence": [
+        "senat-rapport-830-commande-publique-2025",
+        "senat-ce-commande-publique-auditions-2025"
+      ],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-cc-loi-duplomb-censure-de-la-derogation",
       "date": "2025-08-07",
       "title": {
@@ -2109,6 +2641,27 @@
       }
     },
     {
+      "id": "2025-reportage-france-2-sur-les-prix-des-centrales-d-achat",
+      "date": "2025-12-13",
+      "title": {
+        "fr": "Centrales d'achat : des prix parfois supérieurs à ceux du commerce",
+        "en": "Central purchasing bodies: prices sometimes above retail"
+      },
+      "kind": "privatisation",
+      "url": "https://www.franceinfo.fr/economie/commandes-publiques-d-equipements-polemique-autour-des-centrales-d-achats_7677400.html",
+      "description": {
+        "fr": "Un reportage de France 2 (franceinfo) relève des écarts sur quelques produits : une cafetière payée près de 160 € par une mairie contre environ 60 € en magasin, une ramette de papier facturée 6,22 € contre 3,90-4 € (chiffres de la maire concernée) ; sur le site de l'UGAP, un vidéoprojecteur à 1 390,14 € contre 1 249,90 € en enseigne et un stylo à 2 € contre 1,59 € en supermarché (relevé de France Télévisions). L'UGAP répond que, sur la majorité de son catalogue, ses prix sont plus bas que ceux du marché, tout en reconnaissant qu'elle ne peut garantir le meilleur prix sur 500 000 références. Ces exemples ne mesurent pas l'écart moyen du catalogue ; le reportage place les commandes publiques de ce type à plus de 230 Md€ par an.",
+        "en": "A France 2 (franceinfo) report finds gaps on a few products: a coffee machine paid almost €160 by a town hall against about €60 in shops, a ream of paper invoiced at €6.22 against €3.90-4 (figures from the mayor concerned); on UGAP's website, a video projector at €1,390.14 against €1,249.90 at a retailer and a pen at €2 against €1.59 in a supermarket (France Télévisions's check). UGAP replies that on most of its catalogue its prices are lower than the market's, while acknowledging it cannot guarantee the best price across 500,000 references. These examples do not measure the catalogue's average gap; the report puts public orders of this kind at over €230 billion a year."
+      },
+      "related": ["2025-commission-d-enquete-du-senat-sur-la-commande-publique"],
+      "evidence": ["franceinfo-centrales-achat-2025"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-petition-contre-la-loi-duplomb",
       "date": "2026-02-11",
       "title": {
@@ -2167,6 +2720,47 @@
       "evidence": ["cc-2026-902", "lcp-loi-jo-2030-2026", "amnesty-vsa-prolongation-2026"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-panama-papers-fisc-francais-271-millions",
+      "date": "2026-04-03",
+      "title": {
+        "fr": "Panama Papers, dix ans après : 271 M€ mis en recouvrement en France",
+        "en": "Panama Papers, ten years on: €271 million assessed in France"
+      },
+      "kind": "finances",
+      "url": "https://www.france24.com/fr/info-en-continu/20260403-panama-papers-271-millions-d-euros-mis-en-recouvrement-par-le-fisc-fran%C3%A7ais-depuis-les-r%C3%A9v%C3%A9lations",
+      "description": {
+        "fr": "La direction générale des finances publiques indique à l'AFP que les régularisations et contrôles terminés au 31 décembre 2025 représentent 271 M€ de droits et pénalités pour 230 dossiers, sur plus de 600 examinés depuis avril 2016. Ce montant n'est pas la somme effectivement recouvrée, que la DGFiP n'a pas pu fournir. L'ONG Oxfam estime, elle, à 3 550 Md$ en 2024 les avoirs non imposés abrités dans des paradis fiscaux et des comptes non déclarés (estimation de l'ONG).",
+        "en": "The French tax authority (DGFiP) tells AFP that settlements and audits completed by 31 December 2025 amount to €271 million in duties and penalties across 230 cases, out of over 600 examined since April 2016. This is not the sum actually recovered, which the DGFiP could not provide. The NGO Oxfam estimates untaxed assets held in tax havens and undeclared accounts at $3,550 billion in 2024 (NGO estimate)."
+      },
+      "related": ["2016-panama-papers", "2017-panama-papers-parquet-national-financier"],
+      "evidence": ["france24-panama-fisc-francais-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-dette-publique-fin-2025-et-charge-d-interets",
+      "date": "2026-05-29",
+      "title": {
+        "fr": "Dette publique fin 2025 : 3 460,5 Md€ et 64,7 Md€ d'intérêts",
+        "en": "Public debt at end-2025: €3,460.5 billion and €64.7 billion in interest"
+      },
+      "kind": "finances",
+      "url": "https://www.insee.fr/fr/statistiques/8997691",
+      "description": {
+        "fr": "Selon l'INSEE, la dette publique au sens de Maastricht atteint 3 460,5 Md€ fin 2025, soit 115,7 % du PIB (112,6 % fin 2024, 97,9 % en 2019). La charge d'intérêts s'établit à 64,7 Md€ en 2025 (+11,2 %), sous l'effet de la hausse de l'encours et de la remontée des taux depuis 2022. La hausse de la dette de l'État (+136,2 Md€) passe surtout par des titres de long terme (+140,8 Md€), émis sur les marchés.",
+        "en": "According to INSEE, public debt in the Maastricht sense reaches €3,460.5 billion at end-2025, or 115.7% of GDP (112.6% at end-2024, 97.9% in 2019). Interest payments reach €64.7 billion in 2025 (+11.2%), driven by the larger debt stock and rising rates since 2022. The increase in State debt (+€136.2 billion) mostly comes from long-term securities (+€140.8 billion), issued on the markets."
+      },
+      "evidence": ["insee-premiere-2106-apu-2025"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
