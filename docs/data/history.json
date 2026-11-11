@@ -3057,6 +3057,27 @@
       }
     },
     {
+      "id": "2026-assignations-a-residence-de-manifestants-micas",
+      "date": "2026-10-31",
+      "title": {
+        "fr": "Manifestants assignés à résidence avec des outils antiterroristes (Micas)",
+        "en": "Protesters placed under house arrest with counter-terrorism tools (Micas)"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.leclubdesjuristes.com/en-bref/assignations-a-residence-de-manifestants-par-le-biais-doutils-prevus-pour-lutter-contre-le-terrorisme-18186/",
+      "description": {
+        "fr": "En marge de la manifestation du 31 octobre 2026, le ministère de l'Intérieur prend des arrêtés d'assignation à résidence contre des militants, une pratique testée dès le 24 octobre. Il s'appuie sur la loi SILT (les Micas, transposition des assignations de l'état d'urgence) et sur l'article L. 226-2 du code de la sécurité intérieure, issu de la loi sur les Jeux olympiques de mars 2026. Une militante de Belfort raconte avoir reçu la notification à 22 h 10 la veille ; le tribunal administratif de Besançon constate le 2 novembre que l'arrêté a cessé ses effets le 1er novembre et que la requête est sans objet. Plusieurs avocats et ONG dénoncent un détournement du dispositif et une assimilation entre terrorisme et militantisme ; le ministère n'a pas donné le nombre d'arrêtés. Le Club des Juristes rappelle que de juillet à septembre 2024, sur 547 mesures du même type, 178 avaient été contestées et 52 annulées (chiffres du Monde), et que l'annonce tardive des arrêtés complique le référé-liberté.",
+        "en": "On the sidelines of the 31 October 2026 demonstration, the Interior Ministry issues house-arrest orders against activists, a practice tested from 24 October. It relies on the SILT law (Micas, the transposition of state-of-emergency house arrests) and on Article L. 226-2 of the Internal Security Code, from the March 2026 Olympic Games law. An activist in Belfort says she was served at 10:10 pm the evening before; the Besançon administrative court notes on 2 November that the order ceased to have effect on 1 November and that the application is moot. Several lawyers and NGOs denounce a misuse of the mechanism and an equation of terrorism with activism; the ministry did not give the number of orders. The Club des Juristes recalls that from July to September 2024, of 547 measures of the same kind, 178 were challenged and 52 annulled (figures from Le Monde), and that the late announcement of the orders makes an emergency application difficult."
+      },
+      "related": ["2026-premiers-recours-contre-les-micas-examines-sur-le-fond"],
+      "evidence": ["clubjuristes-micas-manifestants-2026", "france3-micas-belfort-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2026-bordeaux-avertisseur-sonore-centaure",
       "date": "2026-11-07",
       "title": {
@@ -3102,6 +3123,27 @@
       ],
       "check": {
         "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-premiers-recours-contre-les-micas-examines-sur-le-fond",
+      "date": "2026-11-10",
+      "title": {
+        "fr": "Micas contre des manifestants : premiers recours examinés sur le fond",
+        "en": "Micas against protesters: first appeals examined on the merits"
+      },
+      "kind": "securite-libertes",
+      "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
+      "description": {
+        "fr": "Selon le résumé public de Mediapart, les premiers recours contre les Micas utilisées pour assigner des manifestants à résidence ont été examinés sur le fond, le mardi 10 novembre 2026, par les tribunaux administratifs. L'article complet est réservé aux abonnés et n'a pas été lu ici : ni le détail des audiences ni les décisions ne sont documentés.",
+        "en": "According to Mediapart's public summary, the first appeals against the Micas used to place protesters under house arrest were examined on the merits on Tuesday 10 November 2026 by the administrative courts. The full article is subscribers-only and was not read here: neither the details of the hearings nor the rulings are documented."
+      },
+      "related": ["2026-assignations-a-residence-de-manifestants-micas"],
+      "evidence": ["mediapart-micas-recours-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }

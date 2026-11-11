@@ -7478,6 +7478,42 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "clubjuristes-micas-manifestants-2026": {
+      "title": {
+        "fr": "Le Club des Juristes — Assignations à résidence de manifestants par le biais d'outils prévus pour lutter contre le terrorisme (2 novembre 2026)",
+        "en": "Le Club des Juristes — House arrest of protesters through counter-terrorism tools (2 November 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/assignations-a-residence-de-manifestants-par-le-biais-doutils-prevus-pour-lutter-contre-le-terrorisme-18186/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france3-micas-belfort-2026": {
+      "title": {
+        "fr": "France 3 Régions / AFP — « On m'associe à du terrorisme » : à Belfort, une militante assignée à résidence avant une manifestation dénonce une mesure abusive (2 novembre 2026)",
+        "en": "France 3 Régions / AFP — \"I am being linked to terrorism\": in Belfort, an activist placed under house arrest before a demonstration denounces an abusive measure (2 November 2026; in French)"
+      },
+      "url": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/territoire-de-belfort/on-m-associe-a-du-terrorisme-a-belfort-une-militante-assignee-a-residence-avant-une-manifestation-denonce-une-mesure-abusive-du-ministere-de-l-interieur-3442836.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mediapart-micas-recours-2026": {
+      "title": {
+        "fr": "Mediapart — Assignations à résidence de manifestants : l'usage de l'antiterrorisme démonté devant la justice (11 novembre 2026 ; article réservé aux abonnés, résumé public seul lu)",
+        "en": "Mediapart — House arrest of protesters: the use of counter-terrorism dismantled before the courts (11 November 2026; subscribers only, only the public summary was read; in French)"
+      },
+      "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
