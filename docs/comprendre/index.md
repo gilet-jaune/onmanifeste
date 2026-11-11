@@ -32,6 +32,14 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
     [:octicons-arrow-right-24: Voir la frise](../confiance/index.md)
 
+- **Environnement et santé** [:material-leaf:](../environnement-sante/index.md)
+
+    ***
+
+    Affaire du siècle, glyphosate, néonicotinoïdes : les décisions de justice et les textes datés et sourcés, avec les lectures des ONG et du gouvernement.
+
+    [:octicons-arrow-right-24: Voir la frise](../environnement-sante/index.md)
+
 - **Sécurité et libertés** [:material-shield-lock-outline:](../securite-libertes/index.md)
 
     ***

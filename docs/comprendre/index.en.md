@@ -1,6 +1,6 @@
 ---
 description: 'Documented dossiers and independent watchdogs to understand mobilisations, check facts and follow elected officials.'
-source_commit: dc530bcaf7c0c1afa4b9a5045cb53b02683d0879
+source_commit: 98c6fef2f291677f6e08a3d8e21b556f8810ddc4
 tags:
     - understand
     - media
@@ -32,6 +32,14 @@ Documented files and a selection of independent observatories to understand what
     The 2005 referendum bypassed, the Citizens' Convention for Climate emptied, 49.3, grievance books never published, governments in quick succession.
 
     [:octicons-arrow-right-24: See the timeline](../confiance/index.md)
+
+- **Environment and health** [:material-leaf:](../environnement-sante/index.md)
+
+    ***
+
+    Affaire du Siècle, glyphosate, neonicotinoids: dated, sourced court decisions and texts, with the readings of NGOs and the government.
+
+    [:octicons-arrow-right-24: See the timeline](../environnement-sante/index.md)
 
 - **Security and freedoms** [:material-shield-lock-outline:](../securite-libertes/index.md)
 

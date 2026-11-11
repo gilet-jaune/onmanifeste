@@ -6986,6 +6986,162 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "ta-paris-affaire-du-siecle-2021-02": {
+      "title": {
+        "fr": "Tribunal administratif de Paris — L'Affaire du Siècle : l'État reconnu responsable de manquements dans la lutte contre le réchauffement climatique (jugement du 3 février 2021)",
+        "en": "Paris Administrative Court — The Affaire du Siècle: the State held responsible for failures in the fight against global warming (judgment of 3 February 2021; in French)"
+      },
+      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ta-paris-affaire-du-siecle-2021-10": {
+      "title": {
+        "fr": "Tribunal administratif de Paris — L'Affaire du Siècle : l'État devra réparer le préjudice écologique dont il est responsable (jugement du 14 octobre 2021)",
+        "en": "Paris Administrative Court — The Affaire du Siècle: the State must repair the ecological damage it is responsible for (judgment of 14 October 2021; in French)"
+      },
+      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle-l-etat-devra-reparer-le-prejudice-ecologique-dont-il-est-responsable",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "greenpeace-affaire-du-siecle-2023": {
+      "title": {
+        "fr": "Greenpeace France — Décision du tribunal administratif dans l'Affaire du siècle : l'État n'a pas exécuté le jugement de 2021 (communiqué du 22 décembre 2023)",
+        "en": "Greenpeace France — Administrative court decision in the Affaire du Siècle: the State did not execute the 2021 judgment (press release of 22 December 2023; in French)"
+      },
+      "url": "https://www.greenpeace.fr/espace-presse/decision-du-tribunal-administratif-dans-laffaire-du-siecle-letat-na-pas-execute-le-jugement-de-2021/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ecologie-affaire-du-siecle-2023": {
+      "title": {
+        "fr": "Ministères de la Transition écologique — Affaire du siècle : la décision du tribunal administratif confirme que l'action du Gouvernement porte ses fruits (communiqué du 22 décembre 2023)",
+        "en": "Ministries of Ecological Transition — Affaire du Siècle: the administrative court decision confirms the Government's action is bearing fruit (press release of 22 December 2023; in French)"
+      },
+      "url": "https://www.ecologie.gouv.fr/presse/affaire-du-siecle-decision-du-tribunal-administratif-confirme-que-laction-determinee-du",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "naat-fiche-affaire-du-siecle-2023": {
+      "title": {
+        "fr": "Notre Affaire à Tous — Fiche sur le jugement du tribunal administratif de Paris du 22 décembre 2023 (n° 2321828/4-1)",
+        "en": "Notre Affaire à Tous — Note on the Paris Administrative Court judgment of 22 December 2023 (no. 2321828/4-1; in French)"
+      },
+      "url": "https://notreaffaireatous.org/wp-content/uploads/2024/05/ADS-TA-Paris-22-dec.-2023.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-glyphosate-2023-2660": {
+      "title": {
+        "fr": "EUR-Lex — Règlement d'exécution (UE) 2023/2660 de la Commission du 28 novembre 2023 renouvelant l'approbation de la substance active « glyphosate »",
+        "en": "EUR-Lex — Commission Implementing Regulation (EU) 2023/2660 of 28 November 2023 renewing the approval of the active substance \"glyphosate\" (in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=OJ:L_202302660",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-glyphosate-renouvellement-2023": {
+      "title": {
+        "fr": "France 24 — La Commission européenne renouvelle l'autorisation du glyphosate pour dix ans (16 novembre 2023)",
+        "en": "France 24 — The European Commission renews the authorisation of glyphosate for ten years (16 November 2023; in French)"
+      },
+      "url": "https://www.france24.com/fr/europe/20231116-herbicides-la-commission-europ%C3%A9enne-renouvelle-l-autorisation-du-glyphosate-pour-dix-ans",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-arret-c-162-21-neonicotinoides": {
+      "title": {
+        "fr": "Cour de justice de l'Union européenne — Arrêt du 19 janvier 2023, Pesticide Action Network Europe e.a., affaire C-162/21 (semences traitées aux néonicotinoïdes)",
+        "en": "Court of Justice of the European Union — Judgment of 19 January 2023, Pesticide Action Network Europe and Others, Case C-162/21 (neonicotinoid-treated seeds; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62021CJ0162",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "naat-justice-pour-le-vivant-jugement": {
+      "title": {
+        "fr": "Notre Affaire à Tous — Justice pour le Vivant : le jugement en première instance et les sujets d'actualité sur les pesticides",
+        "en": "Notre Affaire à Tous — Justice pour le Vivant: the first-instance judgment and current pesticide issues (in French)"
+      },
+      "url": "https://notreaffaireatous.org/justice-pour-le-vivant-le-jugement-en-premiere-instance-et-les-sujets-dactualite-sur-les-pesticides/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "actu-environnement-ta-paris-2023-jpv": {
+      "title": {
+        "fr": "Actu-Environnement — Tribunal administratif de Paris, 29 juin 2023, n° 2200534/4-1 (Justice pour le vivant ; accès abonnés)",
+        "en": "Actu-Environnement — Paris Administrative Court, 29 June 2023, no. 2200534/4-1 (Justice pour le vivant; subscribers only; in French)"
+      },
+      "url": "https://www.actu-environnement.com/droit/jurisprudence/tribunal-administratif-de-paris-29-juin-2023-n-2200534.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2026-914-dc-urgence-agricole": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2026-914 DC du 14 août 2026 (loi d'urgence pour la protection et la souveraineté agricoles)",
+        "en": "Constitutional Council — Decision no. 2026-914 DC of 14 August 2026 (emergency law for agricultural protection and sovereignty; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026914DC.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-cc-urgence-agricole-2026": {
+      "title": {
+        "fr": "Reporterre — Le Conseil constitutionnel valide la loi d'urgence agricole, dont le retour de l'acétamipride (août 2026)",
+        "en": "Reporterre — The Constitutional Council upholds the agricultural emergency law, including the return of acetamiprid (August 2026; in French)"
+      },
+      "url": "https://reporterre.net/Le-Conseil-constitutionnel-valide-la-loi-d-urgence-agricole-dont-le-retour-de-l",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "caa-paris-2025-jpv": {
+      "title": {
+        "fr": "Cour administrative d'appel de Paris — La Cour reconnaît la responsabilité de l'Etat dans l'existence d'un préjudice écologique résultant de l'usage des produits phytopharmaceutiques (arrêts du 3 septembre 2025)",
+        "en": "Paris Administrative Court of Appeal — The Court recognises the State’s responsibility for ecological damage resulting from the use of plant protection products (rulings of 3 September 2025; in French)"
+      },
+      "url": "https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/la-cour-reconnait-la-responsabilite-de-l-etat-dans-l-existence-d-un-prejudice-ecologique-resultant-de-l-usage-des-produits-phytopharmaceutiques",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

@@ -191,7 +191,16 @@
     "HCDH",
     "OHCHR",
     "Fraisse",
-    "Ciivise"
+    "Ciivise",
+    "sante",
+    "duplomb",
+    "Duplomb",
+    "acétamipride",
+    "acetamiprid",
+    "l'acétamipride",
+    "flupyradifurone",
+    "Foodwatch",
+    "Ecophyto"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

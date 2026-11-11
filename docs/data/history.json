@@ -40,6 +40,10 @@
     "securite-libertes": {
       "fr": "Sécurité et libertés",
       "en": "Security and freedoms"
+    },
+    "environnement-sante": {
+      "fr": "Environnement et santé",
+      "en": "Environment and health"
     }
   },
   "events": [
@@ -1495,6 +1499,30 @@
       }
     },
     {
+      "id": "2021-affaire-du-siecle-l-etat-reconnu-responsable",
+      "date": "2021-02-03",
+      "title": {
+        "fr": "Affaire du siècle : l'État reconnu responsable de sa carence climatique",
+        "en": "Affaire du Siècle: the State held responsible for its climate failure"
+      },
+      "kind": "environnement-sante",
+      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle",
+      "description": {
+        "fr": "Oxfam France, Notre Affaire à tous, la Fondation pour la Nature et l'Homme et Greenpeace France ont saisi le tribunal administratif de Paris en mars 2019. Le tribunal reconnaît un préjudice écologique lié au changement climatique et juge que la carence partielle de l'État à respecter ses propres objectifs de réduction des émissions engage sa responsabilité. Il accorde 1 € à chaque association pour préjudice moral, rejette une réparation en argent et ordonne un supplément d'instruction de deux mois pour définir la réparation en nature.",
+        "en": "Oxfam France, Notre Affaire à tous, the Fondation pour la Nature et l'Homme and Greenpeace France brought the case before the Paris Administrative Court in March 2019. The court recognises ecological damage linked to climate change and rules that the State's partial failure to meet its own emission-reduction targets makes it liable. It awards €1 to each association for moral damage, rejects monetary compensation and orders a two-month further inquiry to define repair in kind."
+      },
+      "related": [
+        "2019-convention-citoyenne-pour-le-climat",
+        "2021-affaire-du-siecle-injonction-de-reparer"
+      ],
+      "evidence": ["ta-paris-affaire-du-siecle-2021-02"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2021-securite-globale-censure-du-conseil-constitutionnel",
       "date": "2021-05-20",
       "title": {
@@ -1512,6 +1540,51 @@
       "evidence": ["cc-2021-817"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2021-affaire-du-siecle-injonction-de-reparer",
+      "date": "2021-10-14",
+      "title": {
+        "fr": "Affaire du siècle : l'État doit réparer le préjudice avant fin 2022",
+        "en": "Affaire du Siècle: the State must repair the damage by end-2022"
+      },
+      "kind": "environnement-sante",
+      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle-l-etat-devra-reparer-le-prejudice-ecologique-dont-il-est-responsable",
+      "description": {
+        "fr": "Pour la première fois, le tribunal enjoint à l'État de réparer les conséquences de sa carence climatique. Le premier budget carbone (2015-2018) a été dépassé de 62 Mt CO2eq ; le tribunal retient que le préjudice perdure à hauteur de 15 Mt, une partie ayant été compensée par la baisse de 2020, liée surtout à la crise sanitaire. Il ordonne que la réparation soit effective au 31 décembre 2022 au plus tard, sans astreinte à ce stade. Le choix des mesures reste libre pour le gouvernement, et le tribunal ne se prononce pas sur l'objectif de 2030, déjà examiné par le Conseil d'État (Grande-Synthe, 1er juillet 2021).",
+        "en": "For the first time, the court orders the State to repair the consequences of its climate failure. The first carbon budget (2015-2018) was exceeded by 62 Mt CO2eq; the court finds that the damage persists at 15 Mt, part having been offset by the 2020 fall, mainly due to the health crisis. It orders repair to be effective by 31 December 2022 at the latest, without a penalty payment at this stage. The choice of measures is left to the government, and the court does not rule on the 2030 target, already examined by the Conseil d'État (Grande-Synthe, 1 July 2021)."
+      },
+      "related": [
+        "2021-affaire-du-siecle-l-etat-reconnu-responsable",
+        "2023-affaire-du-siecle-jugement-d-execution"
+      ],
+      "evidence": ["ta-paris-affaire-du-siecle-2021-10"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-cjue-semences-traitees-aux-neonicotinoides",
+      "date": "2023-01-19",
+      "title": {
+        "fr": "Néonicotinoïdes : la Cour de justice de l’UE ferme la porte aux dérogations pour semences traitées",
+        "en": "Neonicotinoids: the EU Court of Justice closes the door to exemptions for treated seeds"
+      },
+      "kind": "environnement-sante",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62021CJ0162",
+      "description": {
+        "fr": "Dans l'affaire C-162/21, la Cour juge que l'article 53 du règlement (CE) n° 1107/2009 ne permet pas à un État membre d'autoriser la mise sur le marché de produits destinés au traitement de semences, ni de semences ainsi traitées, lorsque la mise sur le marché et l'utilisation de ces semences ont été expressément interdites par un règlement d'exécution. L'arrêt concerne les néonicotinoïdes, substances à risques élevés pour les abeilles.",
+        "en": "In Case C-162/21 the Court rules that Article 53 of Regulation (EC) No 1107/2009 does not allow a Member State to authorise placing on the market products for treating seeds, or seeds so treated, where placing on the market and use of such treated seeds have been expressly banned by an implementing regulation. The judgment concerns neonicotinoids, substances posing high risks to bees."
+      },
+      "related": ["2025-cc-loi-duplomb-censure-de-la-derogation"],
+      "evidence": ["eurlex-arret-c-162-21-neonicotinoides"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1670,6 +1743,31 @@
       }
     },
     {
+      "id": "2023-justice-pour-le-vivant-jugement-du-29-juin",
+      "date": "2023-06-29",
+      "title": {
+        "fr": "Justice pour le vivant : l’État condamné pour carence fautive sur les pesticides",
+        "en": "Justice pour le vivant: the State held at fault on pesticides"
+      },
+      "kind": "environnement-sante",
+      "url": "https://notreaffaireatous.org/justice-pour-le-vivant-le-jugement-en-premiere-instance-et-les-sujets-dactualite-sur-les-pesticides/",
+      "description": {
+        "fr": "Saisi par une coalition d'associations (dont Notre Affaire à Tous, Pollinis et l'ASPAS), le tribunal administratif de Paris reconnaît la carence fautive de l'État à propos de l'usage des produits phytopharmaceutiques ayant conduit à un préjudice écologique. Selon la coalition, il enjoint au gouvernement de rétablir la cohérence du rythme de baisse des pesticides avec la trajectoire des plans Ecophyto et de protéger les eaux souterraines, avec une réparation effective au 30 juin 2024 au plus tard ; il n'enjoint pas à l'État de corriger l'évaluation des risques, ce pourquoi les associations ont fait appel. En appel, la cour écartera en 2025 la faute tirée du non-respect des plans Ecophyto, mais jugera l'ANSES fautive dans l'évaluation des produits.",
+        "en": "Brought by a coalition of associations (including Notre Affaire à Tous, Pollinis and ASPAS), the Paris Administrative Court recognises the State's culpable failure regarding the use of plant protection products leading to ecological damage. According to the coalition, it orders the government to restore consistency between the pace of pesticide reduction and the Ecophyto plans' trajectory and to protect groundwater, with repair effective by 30 June 2024 at the latest; it does not order the State to fix risk assessment, which is why the associations appealed. On appeal, the court will set aside in 2025 the fault based on non-compliance with the Ecophyto plans, but will find ANSES at fault in assessing products."
+      },
+      "related": ["2025-justice-pour-le-vivant-cour-d-appel"],
+      "evidence": [
+        "actu-environnement-ta-paris-2023-jpv",
+        "naat-justice-pour-le-vivant-jugement",
+        "caa-paris-2025-jpv"
+      ],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2023-ciivise-3-des-mis-en",
       "date": "2023-11-17",
       "title": {
@@ -1685,6 +1783,51 @@
       "evidence": ["publicsenat-ciivise-impunite"],
       "check": {
         "date": "2026-10-29",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-glyphosate-renouvele-pour-dix-ans",
+      "date": "2023-11-28",
+      "title": {
+        "fr": "Glyphosate : l’approbation renouvelée pour dix ans dans l’UE",
+        "en": "Glyphosate: approval renewed for ten years in the EU"
+      },
+      "kind": "environnement-sante",
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=OJ:L_202302660",
+      "description": {
+        "fr": "Faute de majorité qualifiée parmi les États membres (le comité permanent puis le comité d'appel n'ont pas émis d'avis), la Commission adopte le règlement d'exécution (UE) 2023/2660 : l'approbation du glyphosate est renouvelée du 16 décembre 2023 au 15 décembre 2033, pour les seuls usages d'herbicide, avec des restrictions comme l'interdiction de la dessiccation. La France s'était abstenue. Le glyphosate avait été classé « cancérogène probable » par le CIRC en 2015, tandis que l'EFSA n'a pas identifié de « domaine de préoccupation critique » en 2023, tout en reconnaissant un manque de données. Foodwatch et Générations futures dénoncent une trahison d'une promesse faite en 2017 par le président de la République.",
+        "en": "With no qualified majority among Member States (the standing committee then the appeal committee issued no opinion), the Commission adopts Implementing Regulation (EU) 2023/2660: glyphosate's approval is renewed from 16 December 2023 to 15 December 2033, for herbicide uses only, with restrictions such as a ban on desiccation. France had abstained. Glyphosate was classed as 'probably carcinogenic' by IARC in 2015, while EFSA found no 'critical area of concern' in 2023, while acknowledging data gaps. Foodwatch and Générations futures denounce a betrayal of a promise made in 2017 by the President."
+      },
+      "evidence": ["eurlex-glyphosate-2023-2660", "france24-glyphosate-renouvellement-2023"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-affaire-du-siecle-jugement-d-execution",
+      "date": "2023-12-22",
+      "title": {
+        "fr": "Affaire du siècle : le jugement n'est pas totalement exécuté, mais pas d'astreinte",
+        "en": "Affaire du Siècle: the judgment is not fully executed, but no penalty payment"
+      },
+      "kind": "environnement-sante",
+      "url": "https://www.greenpeace.fr/espace-presse/decision-du-tribunal-administratif-dans-laffaire-du-siecle-letat-na-pas-execute-le-jugement-de-2021/",
+      "description": {
+        "fr": "Saisi en juin 2023 par les associations, qui demandaient une astreinte, le tribunal juge, selon la fiche de Notre Affaire à tous, que l'État a pris des mesures mais que le jugement de 2021 n'est pas totalement exécuté ; vu le rythme de baisse des émissions, il refuse toute mesure supplémentaire et toute astreinte. Les associations dénoncent une décision qui laisse de côté les baisses dues à des facteurs extérieurs (crise sanitaire, énergie) et le retard pris sur le deuxième budget carbone ; selon Notre Affaire à tous, elles ont formé un pourvoi en cassation. Le ministère de la Transition écologique, lui, présente la décision comme la confirmation d'une réparation dans les délais. Les deux lectures divergent : le jugement lui-même n'a pas été relu ici.",
+        "en": "Asked in June 2023 by the associations, which sought a penalty payment, the court rules, according to Notre Affaire à tous's note, that the State has taken measures but the 2021 judgment is not fully executed; given the pace of emission cuts, it refuses any further measure and any penalty. The associations criticise a decision that sets aside the cuts due to external factors (health crisis, energy) and the lag on the second carbon budget; according to Notre Affaire à tous, they lodged an appeal on points of law. The Ministry of Ecological Transition presents the decision as confirming repair within the deadlines. The two readings differ: the judgment itself was not re-read here."
+      },
+      "related": ["2021-affaire-du-siecle-injonction-de-reparer"],
+      "evidence": [
+        "greenpeace-affaire-du-siecle-2023",
+        "ecologie-affaire-du-siecle-2023",
+        "naat-fiche-affaire-du-siecle-2023"
+      ],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1875,6 +2018,30 @@
       }
     },
     {
+      "id": "2025-cc-loi-duplomb-censure-de-la-derogation",
+      "date": "2025-08-07",
+      "title": {
+        "fr": "Loi Duplomb : le Conseil constitutionnel censure la dérogation aux néonicotinoïdes",
+        "en": "Duplomb law: the Constitutional Council strikes down the neonicotinoid exemption"
+      },
+      "kind": "environnement-sante",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025891DC.htm",
+      "description": {
+        "fr": "Dans sa décision 2025-891 DC, le Conseil juge que le législateur, en permettant de déroger dans de telles conditions à l'interdiction des produits contenant des néonicotinoïdes ou des substances assimilées, a privé de garanties légales le droit de vivre dans un environnement équilibré et respectueux de la santé garanti par l'article 1er de la Charte de l'environnement. Les dispositions concernées sont déclarées contraires à la Constitution, le reste de la loi étant en grande partie validé, sous réserves.",
+        "en": "In decision 2025-891 DC the Council rules that Parliament, by allowing exemptions to the ban on products containing neonicotinoids or similar substances under such conditions, deprived of legal safeguards the right to live in a balanced environment that respects health, guaranteed by Article 1 of the Environmental Charter. The provisions concerned are declared unconstitutional, the rest of the law being largely upheld, with reservations."
+      },
+      "related": [
+        "2026-petition-contre-la-loi-duplomb",
+        "2026-cc-loi-d-urgence-agricole-retour-de-l-acetamipride"
+      ],
+      "evidence": ["cc-duplomb-2025"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-liberte-des-medias-protection-des-sources-et-logiciels-espions",
       "date": "2025-08-08",
       "title": {
@@ -1890,6 +2057,27 @@
       "kind": "securite-libertes",
       "check": {
         "date": "2026-11-10",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2025-justice-pour-le-vivant-cour-d-appel",
+      "date": "2025-09-03",
+      "title": {
+        "fr": "Justice pour le vivant : la cour d'appel juge l'ANSES fautive et ordonne un réexamen des autorisations",
+        "en": "Justice pour le vivant: the court of appeal finds ANSES at fault and orders a review of authorisations"
+      },
+      "kind": "environnement-sante",
+      "url": "https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/la-cour-reconnait-la-responsabilite-de-l-etat-dans-l-existence-d-un-prejudice-ecologique-resultant-de-l-usage-des-produits-phytopharmaceutiques",
+      "description": {
+        "fr": "La cour administrative d'appel de Paris reconnaît l'existence d'un préjudice écologique résultant de l'usage des produits phytopharmaceutiques, apprécié notamment pour la santé humaine, même si d'autres facteurs peuvent intervenir. Elle juge que l'ANSES a commis une faute en ne se prononçant pas systématiquement au regard du dernier état des connaissances scientifiques, et ordonne à l'État de mettre en œuvre une évaluation conforme (notamment pour les espèces non ciblées) et de réexaminer, sous vingt-quatre mois, les autorisations de mise sur le marché déjà délivrées. Elle écarte en revanche la faute tirée du non-respect des plans Ecophyto, leurs objectifs chiffrés n'étant pas contraignants, et accorde un euro symbolique à chaque association. Un pourvoi a été enregistré le 23 octobre 2025 ; son issue n'est pas documentée ici.",
+        "en": "The Paris Administrative Court of Appeal recognises ecological damage resulting from the use of plant protection products, assessed notably for human health, even if other factors may play a part. It rules that ANSES was at fault for not systematically deciding in light of the latest scientific knowledge, and orders the State to implement a compliant assessment (notably for non-target species) and to review, within twenty-four months, marketing authorisations already granted. It dismisses, however, the fault based on non-compliance with the Ecophyto plans, their numerical targets not being binding, and awards one symbolic euro to each association. An appeal on points of law was registered on 23 October 2025; its outcome is not documented here."
+      },
+      "related": ["2023-justice-pour-le-vivant-jugement-du-29-juin"],
+      "evidence": ["caa-paris-2025-jpv"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1938,7 +2126,8 @@
         "date": "2026-10-29",
         "result": "confirmed",
         "by": "ai"
-      }
+      },
+      "related": ["2025-cc-loi-duplomb-censure-de-la-derogation"]
     },
     {
       "id": "2026-referes-cnews-conseil-d-etat-rejet",
@@ -2049,6 +2238,27 @@
       "evidence": ["cc-2026-915", "fnms-ripost-promulgation-2026"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-cc-loi-d-urgence-agricole-retour-de-l-acetamipride",
+      "date": "2026-08-14",
+      "title": {
+        "fr": "Loi d’urgence agricole : le Conseil constitutionnel valide le retour dérogatoire de l’acétamipride",
+        "en": "Agricultural emergency law: the Constitutional Council upholds the derogatory return of acetamiprid"
+      },
+      "kind": "environnement-sante",
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026914DC.htm",
+      "description": {
+        "fr": "Saisi le 24 juillet par des député·es écologistes, socialistes et insoumis·es, le Conseil constitutionnel rend la décision 2026-914 DC (non-conformité partielle, avec réserves) et valide la quasi-totalité de la loi, y compris, d'après Reporterre, la réintroduction dérogatoire de l'acétamipride (noisettes) et du flupyradifurone (betteraves, cerises, pommes), deux pesticides interdits en France. Dans ses motifs, le Conseil relève que la dérogation, accordée par l'ANSES, exige une menace grave pour la production, l'absence d'alternatives et un plan de recherche, ne peut être accordée en cas de risques significatifs pour la santé humaine ou d'atteinte grave et irréversible à l'environnement, et que ces dispositions sont abrogées au bout de trois ans. Les requérant·es dénonçaient l'incidence sur les pollinisateurs, les oiseaux et la santé humaine. En 2025, il avait censuré la dérogation de la loi Duplomb au motif que le législateur avait privé de garanties légales le droit à un environnement sain.",
+        "en": "Referred on 24 July by green, socialist and La France insoumise MPs, the Constitutional Council issues decision 2026-914 DC (partial non-conformity, with reservations) and upholds almost the entire law, including, according to Reporterre, the derogatory reintroduction of acetamiprid (hazelnuts) and flupyradifurone (sugar beet, cherries, apples), two pesticides banned in France. In its reasoning the Council notes that the exemption, granted by ANSES, requires a serious threat to production, no alternatives and a research plan, cannot be granted where there are significant risks to human health or serious and irreversible harm to the environment, and that these provisions are repealed after three years. The applicants denounced the impact on pollinators, birds and human health. In 2025 it had struck down the Duplomb law's exemption on the ground that Parliament had deprived the right to a healthy environment of legal safeguards."
+      },
+      "related": ["2025-cc-loi-duplomb-censure-de-la-derogation"],
+      "evidence": ["cc-2026-914-dc-urgence-agricole", "reporterre-cc-urgence-agricole-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }

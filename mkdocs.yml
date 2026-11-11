@@ -102,6 +102,7 @@ plugins:
             Pourquoi nous rejoindre ?: Why join us?
             Comprendre: Understand
             Voies démocratiques bafouées: Democratic channels flouted
+            Environnement et santé: Environment and health
             Sécurité et libertés: Security and freedoms
             Le projet: About
             Relire une information: Review a piece of information
@@ -281,6 +282,7 @@ nav:
       - comprendre/index.md
       - Repères historiques: histoire/index.md
       - Voies démocratiques bafouées: confiance/index.md
+      - Environnement et santé: environnement-sante/index.md
       - Sécurité et libertés: securite-libertes/index.md
       - Pourquoi ça casse en manif ?: guides/casse.md
       - Répressions documentées: repressions/index.md
