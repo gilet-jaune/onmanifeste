@@ -48,6 +48,10 @@
     "finances": {
       "fr": "Dette, impôts et fraude",
       "en": "Debt, taxes and fraud"
+    },
+    "probite": {
+      "fr": "Probité et justice des élus",
+      "en": "Integrity and justice for elected officials"
     }
   },
   "events": [
@@ -1966,6 +1970,69 @@
       }
     },
     {
+      "id": "2022-senat-rapport-sur-les-cabinets-de-conseil",
+      "date": "2022-03-16",
+      "title": {
+        "fr": "Cabinets de conseil : le Sénat chiffre à plus d'un milliard d'euros les dépenses de l'État en 2021",
+        "en": "Consulting firms: the Senate puts State spending at over €1 billion in 2021"
+      },
+      "kind": "finances",
+      "url": "https://www.senat.fr/rap/r21-578-1/r21-578-1_mono.html",
+      "description": {
+        "fr": "Le rapport de la commission d'enquête du Sénat relève que les dépenses de conseil de l'État, au sens large, ont dépassé le milliard d'euros en 2021 (dont 893,9 M€ pour les ministères) et ont plus que doublé depuis 2018. Il constate aussi que McKinsey, assujetti à l'impôt sur les sociétés en France, n'en a versé aucun depuis au moins dix ans, pour un chiffre d'affaires français de 329 M€ en 2020 (dont environ 5 % dans le secteur public) et environ 600 salariés. La réponse du cabinet n'a pas pu être lue ici.",
+        "en": "The Senate inquiry report notes that State consulting spending, broadly defined, exceeded €1 billion in 2021 (including €893.9 million for ministries) and more than doubled since 2018. It also finds that McKinsey, which is subject to corporate income tax in France, has paid none for at least ten years, on French revenue of €329 million in 2020 (about 5% in the public sector) and about 600 employees. The firm's reply could not be read here."
+      },
+      "related": ["2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes"],
+      "evidence": ["senat-rapport-578-cabinets-de-conseil-2022"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2022-balkany-liberation-conditionnelle-confirmee",
+      "date": "2022-08-04",
+      "title": {
+        "fr": "Balkany : la cour d'appel confirme sa libération conditionnelle, sans bracelet",
+        "en": "Balkany: the Court of Appeal confirms his conditional release, without an electronic tag"
+      },
+      "kind": "probite",
+      "url": "https://www.lalibre.be/international/europe/2022/08/04/patrick-balkany-autorise-a-sortir-de-prison-vendredi-BFO7UYFVKVCQVKVDODA3XEUMEI/",
+      "description": {
+        "fr": "La cour d'appel de Paris confirme la décision du tribunal d'application des peines d'Évry du 30 mai 2022 : libération conditionnelle de Patrick Balkany à compter du 5 août 2022, sans bracelet électronique. Le parquet avait fait appel, ce qui l'avait maintenu en détention entre-temps. Ses avocats soulignent qu'il avait purgé les deux tiers de sa peine ; la cour parle d'un « ultime avertissement » et fixe des obligations (réparer les dommages, justifier du paiement régulier des impôts).",
+        "en": "The Paris Court of Appeal confirms the 30 May 2022 decision of the Évry sentence enforcement court: conditional release for Patrick Balkany from 5 August 2022, without an electronic tag. The prosecution had appealed, which kept him in detention meanwhile. His lawyers point out he had served two thirds of his sentence; the court speaks of a 'final warning' and sets obligations (repair the damage, prove regular payment of taxes)."
+      },
+      "related": ["2026-balkany-liberation-conditionnelle-evreux"],
+      "evidence": ["lalibre-balkany-liberation-conditionnelle-2022"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes",
+      "date": "2022-10-20",
+      "title": {
+        "fr": "Cabinets de conseil et campagnes présidentielles : deux informations judiciaires du PNF",
+        "en": "Consulting firms and presidential campaigns: two judicial investigations by the national financial prosecutor"
+      },
+      "kind": "finances",
+      "url": "https://www.lexbase.fr/article-juridique/90099136-a-la-une-affaire-mckinsey-le-pnf-confirme-l-ouverture-de-deux-informations-ciblant-les-campagnes-d",
+      "description": {
+        "fr": "Les 20 et 21 octobre 2022, le parquet national financier ouvre deux informations judiciaires sur le rôle des cabinets de conseil dans les campagnes présidentielles de 2017 et 2022 : l'une pour « tenue non conforme de comptes de campagne » et « minoration d'éléments comptables », l'autre pour « favoritisme » et « recel de favoritisme ». Il les confirme le 24 novembre dans un communiqué qui ne désigne aucune personne. Une enquête préliminaire pour fraude fiscale aggravée visant McKinsey avait déjà été ouverte après le rapport du Sénat. Ce sont des procédures en cours, pas des condamnations ; aucune mise en examen ni décision n'a été trouvée dans les sources lues.",
+        "en": "On 20 and 21 October 2022, the national financial prosecutor opens two judicial investigations into the role of consulting firms in the 2017 and 2022 presidential campaigns: one for \"non-compliant campaign accounts\" and \"understatement of accounting items\", the other for \"favouritism\" and \"receiving the proceeds of favouritism\". It confirms them on 24 November in a statement that names no individual. A preliminary investigation for aggravated tax fraud targeting McKinsey had already been opened after the Senate report. These are ongoing proceedings, not convictions; no formal charge or ruling was found in the sources read."
+      },
+      "related": ["2022-senat-rapport-sur-les-cabinets-de-conseil"],
+      "evidence": ["lexbase-mckinsey-pnf-informations-2022"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2023-cjue-semences-traitees-aux-neonicotinoides",
       "date": "2023-01-19",
       "title": {
@@ -2251,6 +2318,27 @@
       }
     },
     {
+      "id": "2024-senat-cabinets-de-conseil-proposition-de-loi-deuxieme-lecture",
+      "date": "2024-05-28",
+      "title": {
+        "fr": "Cabinets de conseil : le Sénat adopte à l'unanimité en deuxième lecture la proposition de loi qui les encadre",
+        "en": "Consulting firms: the Senate unanimously adopts on second reading the bill regulating them"
+      },
+      "kind": "finances",
+      "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-encadrant-lintervention-des-cabinets-de-conseil-prives-dans-les-politiques-publiques.html",
+      "description": {
+        "fr": "Déposée le 21 juin 2022 pour mettre en œuvre les recommandations de la commission d'enquête, la proposition de loi vise à mettre fin à l'opacité des prestations, à mieux encadrer le recours aux consultants, à renforcer leurs obligations déontologiques et à protéger les données de l'administration. Le 28 mai 2024, le Sénat l'adopte à l'unanimité avec modifications en deuxième lecture (contrôle sur place et sanctions administratives de la HATVP, exclusion des collectivités) et la transmet à l'Assemblée nationale. Selon la page du Sénat, relue le 11 novembre 2026, le texte est toujours « en cours » : il n'est pas adopté définitivement.",
+        "en": "Filed on 21 June 2022 to implement the inquiry committee's recommendations, the bill aims to end the opacity of consulting services, to better regulate the use of consultants, to strengthen their ethical obligations and to protect the administration's data. On 28 May 2024 the Senate unanimously adopts it with amendments on second reading (on-site checks and administrative sanctions by the HATVP, exclusion of local authorities) and sends it to the National Assembly. According to the Senate page, read on 11 November 2026, the text is still \"ongoing\": it has not been finally adopted."
+      },
+      "related": ["2022-senat-rapport-sur-les-cabinets-de-conseil"],
+      "evidence": ["senat-ppl-cabinets-de-conseil-en-cours"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2024-manifestations-contre-l-extreme-droite",
       "date": "2024-06-15",
       "title": {
@@ -2382,6 +2470,27 @@
       }
     },
     {
+      "id": "2024-sarkozy-ecoutes-condamnation-definitive-bracelet",
+      "date": "2024-12-18",
+      "title": {
+        "fr": "Affaire des écoutes : Nicolas Sarkozy définitivement condamné, un an ferme sous bracelet",
+        "en": "Wiretapping case: Nicolas Sarkozy finally sentenced, one year firm under an electronic tag"
+      },
+      "kind": "probite",
+      "url": "https://www.courdecassation.fr/decision/67626d77d9347f6c9aef808c",
+      "description": {
+        "fr": "La chambre criminelle de la Cour de cassation rejette les pourvois et rend définitive la condamnation de l'ancien président dans l'affaire dite des écoutes (« Bismuth ») : l'arrêt de la cour d'appel de Paris du 17 mai 2023 le condamnait pour corruption active d'un magistrat et trafic d'influence actif à trois ans d'emprisonnement dont deux avec sursis et trois ans de privation de droits civiques, civils et de famille. La partie ferme, un an, est exécutée sous bracelet électronique, une première pour un ancien chef de l'État selon Public Sénat.",
+        "en": "The criminal chamber of the Court of Cassation rejects the appeals and makes the former president's conviction in the so-called wiretapping ('Bismuth') case final: the Paris Court of Appeal ruling of 17 May 2023 had sentenced him for active corruption of a magistrate and active influence peddling to three years in prison including two suspended and three years' loss of civil, civic and family rights. The firm part, one year, is served under an electronic tag, a first for a former head of state according to Public Sénat."
+      },
+      "related": ["2025-sarkozy-financement-libyen-premiere-instance"],
+      "evidence": ["courcassation-bismuth-2024", "publicsenat-sarkozy-ecoutes-definitif-2024"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-fret-sncf-liquide",
       "date": "2025-01-01",
       "title": {
@@ -2444,6 +2553,27 @@
       }
     },
     {
+      "id": "2025-le-pen-assistants-parlementaires-premiere-instance",
+      "date": "2025-03-31",
+      "title": {
+        "fr": "Assistants parlementaires du FN : Marine Le Pen condamnée en première instance",
+        "en": "FN parliamentary assistants: Marine Le Pen sentenced at first instance"
+      },
+      "kind": "probite",
+      "url": "https://lcp.fr/actualites/justice-marine-le-pen-condamnee-a-cinq-ans-d-ineligibilite-avec-execution-immediate-pour",
+      "description": {
+        "fr": "Le tribunal correctionnel de Paris reconnaît Marine Le Pen coupable de détournement de fonds publics (assistants d'eurodéputés, 2004-2016) et la condamne à quatre ans de prison dont deux ferme aménagés sous bracelet, 100 000 € d'amende et cinq ans d'inéligibilité avec exécution provisoire. Elle fait appel. Marine Le Pen conteste les accusations et dénonce une décision politique.",
+        "en": "The Paris criminal court finds Marine Le Pen guilty of embezzlement of public funds (MEPs' assistants, 2004-2016) and sentences her to four years in prison including two firm served under an electronic tag, a €100,000 fine and five years of ineligibility with provisional enforcement. She appeals. Marine Le Pen disputes the charges and denounces a political decision."
+      },
+      "related": ["2026-le-pen-assistants-parlementaires-appel"],
+      "evidence": ["lcp-le-pen-premiere-instance-2025", "lcp-le-pen-appel-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-videosurveillance-algorithmique-prolongation-censuree",
       "date": "2025-04-24",
       "title": {
@@ -2480,6 +2610,26 @@
       "evidence": ["cncdh-avis-espace-civique-2025"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2025-fillon-troisieme-proces-peine-sans-prison-ferme",
+      "date": "2025-06-17",
+      "title": {
+        "fr": "Fillon : à l'issue d'un troisième procès, quatre ans avec sursis",
+        "en": "Fillon: after a third trial, four years suspended"
+      },
+      "kind": "probite",
+      "url": "https://www.franceinfo.fr/politique/francois-fillon/affaires-fillon/emplois-fictifs-francois-fillon-se-desiste-de-son-pourvoi-en-cassation-sa-peine-devient-definitive_7809797.html",
+      "description": {
+        "fr": "La cour d'appel de Paris, rejugeant la peine, condamne François Fillon à quatre ans de prison avec sursis, 375 000 € d'amende et cinq ans d'inéligibilité. Le 16 février 2026, il se désiste de son pourvoi en cassation : la peine devient définitive, sa culpabilité l'étant déjà. La peine finale ne comporte donc plus de prison ferme, alors que l'arrêt de 2022 prévoyait un an ferme et dix ans d'inéligibilité.",
+        "en": "The Paris Court of Appeal, retrying the sentence, sentences François Fillon to four years in prison suspended, a €375,000 fine and five years of ineligibility. On 16 February 2026 he withdraws his appeal on points of law: the sentence becomes final, his guilt already being so. The final sentence therefore no longer includes any firm prison term, whereas the 2022 ruling provided one firm year and ten years of ineligibility."
+      },
+      "evidence": ["franceinfo-fillon-desistement-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -2615,6 +2765,30 @@
       }
     },
     {
+      "id": "2025-sarkozy-financement-libyen-premiere-instance",
+      "date": "2025-09-25",
+      "title": {
+        "fr": "Financement libyen : Nicolas Sarkozy condamné à cinq ans en première instance",
+        "en": "Libyan financing: Nicolas Sarkozy sentenced to five years at first instance"
+      },
+      "kind": "probite",
+      "url": "https://www.leclubdesjuristes.com/en-bref/nicolas-sarkozy-remis-en-liberte-sous-controle-judiciaire-12884/",
+      "description": {
+        "fr": "Le tribunal correctionnel de Paris reconnaît Nicolas Sarkozy coupable d'association de malfaiteurs dans l'affaire du financement libyen de sa campagne de 2007 et le condamne à cinq ans de prison, avec mandat de dépôt et exécution provisoire. Il le relaxe des trois autres chefs (corruption passive, recel de détournement de fonds publics, financement illégal de campagne). Le jugement n'est pas définitif : en appel, au printemps 2026, le parquet général a requis la condamnation sur les quatre chefs, avec sept ans de prison, 300 000 € d'amende et cinq ans d'inéligibilité. À la date de vérification (11 novembre 2026), aucun arrêt d'appel n'a été trouvé.",
+        "en": "The Paris criminal court finds Nicolas Sarkozy guilty of criminal conspiracy in the case of the Libyan financing of his 2007 campaign and sentences him to five years in prison, with a detention warrant and provisional enforcement. It acquits him of the other three counts (passive corruption, concealment of embezzled public funds, illegal campaign financing). The judgment is not final: on appeal, in spring 2026, the prosecutor general requested conviction on all four counts, with seven years in prison, a €300,000 fine and five years of ineligibility. At the verification date (11 November 2026), no appeal ruling had been found."
+      },
+      "related": [
+        "2025-sarkozy-remis-en-liberte-apres-vingt-jours",
+        "2024-sarkozy-ecoutes-condamnation-definitive-bracelet"
+      ],
+      "evidence": ["clubjuristes-sarkozy-liberte-2025", "clubjuristes-sarkozy-libye-appel-2026"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-trois-premiers-ministres-en-un",
       "date": "2025-10-06",
       "title": {
@@ -2641,6 +2815,27 @@
       }
     },
     {
+      "id": "2025-sarkozy-remis-en-liberte-apres-vingt-jours",
+      "date": "2025-11-10",
+      "title": {
+        "fr": "Sarkozy remis en liberté sous contrôle judiciaire après vingt jours de détention",
+        "en": "Sarkozy released under judicial supervision after twenty days in detention"
+      },
+      "kind": "probite",
+      "url": "https://www.leclubdesjuristes.com/en-bref/nicolas-sarkozy-remis-en-liberte-sous-controle-judiciaire-12884/",
+      "description": {
+        "fr": "La cour d'appel de Paris, suivant les réquisitions du parquet général, remet Nicolas Sarkozy en liberté sous contrôle judiciaire (interdiction de quitter le territoire et d'entrer en contact avec les autres prévenus). Il n'a pas été libéré par grâce ni par fin de peine : sa condamnation de première instance n'est pas définitive et, selon l'article 144 du code de procédure pénale cité par le Club des Juristes, la détention avant jugement définitif ne peut être maintenue que si elle est l'unique moyen d'éviter la disparition des preuves, les pressions, la fuite ou la récidive.",
+        "en": "The Paris Court of Appeal, following the prosecution's requests, releases Nicolas Sarkozy under judicial supervision (ban on leaving the country and on contacting the other defendants). He was not released by pardon or at the end of a sentence: his first-instance conviction is not final and, under Article 144 of the Code of Criminal Procedure as cited by the Club des Juristes, detention before a final judgment can be maintained only if it is the sole means of preventing evidence from disappearing, pressure, flight or reoffending."
+      },
+      "related": ["2025-sarkozy-financement-libyen-premiere-instance"],
+      "evidence": ["clubjuristes-sarkozy-liberte-2025"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2025-reportage-france-2-sur-les-prix-des-centrales-d-achat",
       "date": "2025-12-13",
       "title": {
@@ -2655,6 +2850,27 @@
       },
       "related": ["2025-commission-d-enquete-du-senat-sur-la-commande-publique"],
       "evidence": ["franceinfo-centrales-achat-2025"],
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-balkany-liberation-conditionnelle-evreux",
+      "date": "2026-01-12",
+      "title": {
+        "fr": "Balkany : libération conditionnelle accordée pour les 18 mois restants",
+        "en": "Balkany: conditional release granted for the remaining 18 months"
+      },
+      "kind": "probite",
+      "url": "https://www.leclubdesjuristes.com/en-bref/fraude-fiscale-patrick-balkany-obtient-la-liberation-conditionnelle-13667/",
+      "description": {
+        "fr": "Le tribunal de l'application des peines d'Évreux accorde une libération conditionnelle à Patrick Balkany pour l'exécution de la peine de quatre ans et demi prononcée le 9 janvier 2023 (fraude fiscale, dissimulation d'avoirs, déclaration patrimoniale mensongère, prise illégale d'intérêts), dont dix-huit mois restaient à exécuter. Motifs : son âge, son état de santé, le faible risque de récidive, le respect de la mesure et l'effort financier ; la probation est prolongée jusqu'en juillet 2028 pour garantir le remboursement des sommes dues.",
+        "en": "The Évreux sentence enforcement court grants Patrick Balkany conditional release for the enforcement of the four-and-a-half-year sentence handed down on 9 January 2023 (tax fraud, concealment of assets, false asset declaration, unlawful taking of interest), of which eighteen months remained to be served. Grounds: his age, health, low risk of reoffending, compliance and financial effort; probation is extended to July 2028 to ensure repayment of the sums owed."
+      },
+      "related": ["2022-balkany-liberation-conditionnelle-confirmee"],
+      "evidence": ["clubjuristes-balkany-liberation-conditionnelle-2026"],
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
@@ -2790,6 +3006,27 @@
       ],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-le-pen-assistants-parlementaires-appel",
+      "date": "2026-07-07",
+      "title": {
+        "fr": "Assistants parlementaires du FN : en appel, trois ans dont un ferme pour Marine Le Pen",
+        "en": "FN parliamentary assistants: on appeal, three years including one firm for Marine Le Pen"
+      },
+      "kind": "probite",
+      "url": "https://lcp.fr/actualites/marine-le-pen-condamnee-dans-l-affaire-des-assistants-parlementaires-reste-eligible-pour",
+      "description": {
+        "fr": "La cour d'appel de Paris condamne Marine Le Pen pour détournement de fonds publics à trois ans de prison dont deux avec sursis (un an ferme aménageable sous bracelet), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. Compte tenu de l'exécution provisoire prononcée en première instance, les 15 mois fermes d'inéligibilité sont déjà purgés, ce qui lui laisse la possibilité de se présenter en 2027. La peine est donc réduite par rapport au jugement de 2025. La décision n'est pas définitive : Marine Le Pen s'est pourvue en cassation, et la Cour de cassation a annoncé qu'elle pourrait statuer d'ici début avril 2027 (avant le premier tour du 18 avril), calendrier susceptible d'évoluer.",
+        "en": "The Paris Court of Appeal sentences Marine Le Pen for embezzlement of public funds to three years in prison including two suspended (one firm year that can be served under an electronic tag), a €100,000 fine and 45 months of ineligibility of which 30 suspended. Given the provisional enforcement ordered at first instance, the 15 firm months of ineligibility have already been served, leaving her able to stand in 2027. The sentence is therefore reduced compared with the 2025 judgment. The decision is not final: Marine Le Pen has appealed on points of law, and the Court of Cassation has said it could rule by early April 2027 (before the 18 April first round), a timetable that may change."
+      },
+      "related": ["2025-le-pen-assistants-parlementaires-premiere-instance"],
+      "evidence": ["lcp-le-pen-appel-2026", "clubjuristes-le-pen-cassation-calendrier-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
@@ -3052,6 +3289,27 @@
       "evidence": ["ohchr-france-etudiants-2026"],
       "check": {
         "date": "2026-11-09",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2026-conseil-d-etat-hatvp-conflits-d-interets-et-pantouflage",
+      "date": "2026-10-29",
+      "title": {
+        "fr": "Conseil d'État : ce que la HATVP peut et ne peut pas juger sur les conflits d'intérêts",
+        "en": "Conseil d'État: what the HATVP can and cannot rule on regarding conflicts of interest"
+      },
+      "kind": "probite",
+      "url": "https://www.conseil-etat.fr/actualites/prevention-des-conflits-d-interets-le-conseil-d-etat-precise-les-regles-et-l-office-de-la-haute-autorite-pour-la-transparence-de-la-vie-publique",
+      "description": {
+        "fr": "Saisi de deux recours contre trois délibérations de la HATVP, le Conseil d'État (assemblée du contentieux, décisions n° 505836 et n° 514106) se prononce pour la première fois sur le contrôle de la déclaration d'intérêts d'un ministre. Il juge que la HATVP doit rechercher si l'ensemble des intérêts détenus par un ministre au cours des cinq années précédant sa nomination est d'une intensité suffisante pour influencer, ou sembler influencer, ses fonctions, mais qu'il ne lui appartient pas de se prononcer sur un risque pénal, réservé au juge pénal. Il juge aussi qu'un mandat d'administrateur d'une société lucrative, même bénévole, est une activité lucrative dans le privé, et que pour un projet de départ vers le privé la HATVP doit apprécier le risque, sous le contrôle du juge, que le délit de prise illégale d'intérêts soit constitué. Il annule les trois délibérations contestées, qui concernaient un ministre et un ancien directeur général de la Caisse des dépôts.",
+        "en": "Hearing two appeals against three HATVP deliberations, the Conseil d'État (litigation assembly, decisions no. 505836 and no. 514106) rules for the first time on the review of a minister's declaration of interests. It holds that the HATVP must examine whether all the interests a minister held in the five years before appointment are of sufficient intensity to influence, or appear to influence, their functions, but that it is not for it to rule on criminal risk, which is reserved to the criminal judge. It also holds that a board seat in a for-profit company, even unpaid, is a for-profit activity in the private sector, and that for a planned move to the private sector the HATVP must assess, under the court's review, the risk that the offence of unlawful taking of interest would be committed. It annuls the three contested deliberations, which concerned a minister and a former chief executive of the Caisse des dépôts."
+      },
+      "related": ["2022-pnf-informations-judiciaires-sur-les-cabinets-de-conseil-et-les-campagnes"],
+      "evidence": ["conseil-etat-hatvp-conflits-interets-2026"],
+      "check": {
+        "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }

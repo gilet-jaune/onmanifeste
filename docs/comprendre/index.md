@@ -40,6 +40,30 @@ Des dossiers documentés et une sélection d'observatoires indépendants pour co
 
     [:octicons-arrow-right-24: Voir la frise](../environnement-sante/index.md)
 
+- **Probité et justice des élus** [:material-scale-balance:](../probite/index.md)
+
+    ***
+
+    Fillon, Sarkozy, Le Pen, Balkany : les décisions de justice rendues, leur statut (définitif ou non) et les peines écourtées, avec les sources.
+
+    [:octicons-arrow-right-24: Voir la frise](../probite/index.md)
+
+- **Avantages et moyens des élus** [:material-cash-multiple:](../avantages-elus/index.md)
+
+    ***
+
+    Indemnité, frais de mandat, collaborateurs et retraite des député·es, fin des avantages à vie des anciens Premiers ministres : les montants officiels et leurs limites.
+
+    [:octicons-arrow-right-24: Voir la page](../avantages-elus/index.md)
+
+- **Conflits d'intérêts** [:material-handshake-outline:](../conflits-interets/index.md)
+
+    ***
+
+    Définition légale (modifiée en 2025), rôle et limites de la HATVP, cabinets de conseil, affaire Epstein : les faits sourcés et ce qui n'est pas tranché.
+
+    [:octicons-arrow-right-24: Voir la page](../conflits-interets/index.md)
+
 - **Sécurité et libertés** [:material-shield-lock-outline:](../securite-libertes/index.md)
 
     ***

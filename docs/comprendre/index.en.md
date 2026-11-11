@@ -1,6 +1,6 @@
 ---
 description: 'Documented dossiers and independent watchdogs to understand mobilisations, check facts and follow elected officials.'
-source_commit: 98c6fef2f291677f6e08a3d8e21b556f8810ddc4
+source_commit: 0f07521c990e315d38cc079078d479f7c49e1532
 tags:
     - understand
     - media
@@ -40,6 +40,30 @@ Documented files and a selection of independent observatories to understand what
     Affaire du Siècle, glyphosate, neonicotinoids: dated, sourced court decisions and texts, with the readings of NGOs and the government.
 
     [:octicons-arrow-right-24: See the timeline](../environnement-sante/index.md)
+
+- **Integrity and justice for elected officials** [:material-scale-balance:](../probite/index.md)
+
+    ***
+
+    Fillon, Sarkozy, Le Pen, Balkany: the court decisions handed down, their status (final or not) and the sentences cut short, with sources.
+
+    [:octicons-arrow-right-24: See the timeline](../probite/index.md)
+
+- **Benefits and resources of elected officials** [:material-cash-multiple:](../avantages-elus/index.md)
+
+    ***
+
+    Allowance, expense funds, staff and pension of deputies, end of lifetime benefits for former Prime Ministers: the official amounts and their limits.
+
+    [:octicons-arrow-right-24: See the page](../avantages-elus/index.md)
+
+- **Conflicts of interest** [:material-handshake-outline:](../conflits-interets/index.md)
+
+    ***
+
+    Legal definition (amended in 2025), role and limits of the HATVP, consulting firms, the Epstein case: sourced facts and what remains undecided.
+
+    [:octicons-arrow-right-24: See the page](../conflits-interets/index.md)
 
 - **Security and freedoms** [:material-shield-lock-outline:](../securite-libertes/index.md)
 

@@ -968,7 +968,8 @@ select:focus-visible {
 .md-typeset .timeline__event--deni-democratique::before,
 .md-typeset .timeline__event--privatisation::before,
 .md-typeset .timeline__event--environnement-sante::before,
-.md-typeset .timeline__event--finances::before {
+.md-typeset .timeline__event--finances::before,
+.md-typeset .timeline__event--probite::before {
   background: var(--ap-ink);
   border-color: var(--ap-silver);
 }

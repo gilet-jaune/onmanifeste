@@ -200,7 +200,16 @@
     "l'acétamipride",
     "flupyradifurone",
     "Foodwatch",
-    "Ecophyto"
+    "Ecophyto",
+    "Fillon",
+    "Balkany",
+    "Bygmalion",
+    "probite",
+    "senat",
+    "deuxieme",
+    "etat",
+    "hatvp",
+    "interets"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

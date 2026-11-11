@@ -103,6 +103,9 @@ plugins:
             Comprendre: Understand
             Voies démocratiques bafouées: Democratic channels flouted
             Environnement et santé: Environment and health
+            Probité et justice des élus: Integrity and justice for elected officials
+            Avantages et moyens des élus: Benefits and resources of elected officials
+            Conflits d'intérêts: Conflicts of interest
             Sécurité et libertés: Security and freedoms
             Le projet: About
             Relire une information: Review a piece of information
@@ -283,6 +286,9 @@ nav:
       - Repères historiques: histoire/index.md
       - Voies démocratiques bafouées: confiance/index.md
       - Environnement et santé: environnement-sante/index.md
+      - Probité et justice des élus: probite/index.md
+      - Avantages et moyens des élus: avantages-elus/index.md
+      - Conflits d'intérêts: conflits-interets/index.md
       - Sécurité et libertés: securite-libertes/index.md
       - Pourquoi ça casse en manif ?: guides/casse.md
       - Répressions documentées: repressions/index.md

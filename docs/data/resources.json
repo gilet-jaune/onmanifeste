@@ -2757,6 +2757,22 @@
       }
     },
     {
+      "id": "hatvp",
+      "name": "HATVP — Haute Autorité pour la transparence de la vie publique",
+      "url": "https://www.hatvp.fr/",
+      "category": "democratie",
+      "tags": ["officiel", "transparence", "declarations", "lobbying"],
+      "description": {
+        "fr": "Autorité administrative indépendante qui contrôle les déclarations de patrimoine et d'intérêts des responsables publics, les départs vers le privé (pantouflage) et le registre des représentants d'intérêts ; publie ses rapports d'activité et ses propositions.",
+        "en": "Independent administrative authority that checks public officials' asset and interest declarations, moves to the private sector (revolving doors) and the register of interest representatives; publishes its activity reports and proposals."
+      },
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "casier-politique",
       "name": "Casier Politique",
       "url": "https://casier-politique.fr/",

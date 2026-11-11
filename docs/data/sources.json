@@ -6975,174 +6975,6 @@
         "by": "ai"
       }
     },
-    "insee-ipc-oct-2026-provisoire": {
-      "title": {
-        "fr": "INSEE — En octobre 2026, les prix à la consommation augmenteraient de 3,4 % sur un an, Informations rapides n° 266 (30 octobre 2026, résultats provisoires)",
-        "en": "INSEE — In October 2026, consumer prices should increase by 3.4% year on year, Informations rapides no. 266 (30 October 2026, provisional results; in French)"
-      },
-      "url": "https://www.insee.fr/fr/statistiques/9107965",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ta-paris-affaire-du-siecle-2021-02": {
-      "title": {
-        "fr": "Tribunal administratif de Paris — L'Affaire du Siècle : l'État reconnu responsable de manquements dans la lutte contre le réchauffement climatique (jugement du 3 février 2021)",
-        "en": "Paris Administrative Court — The Affaire du Siècle: the State held responsible for failures in the fight against global warming (judgment of 3 February 2021; in French)"
-      },
-      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ta-paris-affaire-du-siecle-2021-10": {
-      "title": {
-        "fr": "Tribunal administratif de Paris — L'Affaire du Siècle : l'État devra réparer le préjudice écologique dont il est responsable (jugement du 14 octobre 2021)",
-        "en": "Paris Administrative Court — The Affaire du Siècle: the State must repair the ecological damage it is responsible for (judgment of 14 October 2021; in French)"
-      },
-      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle-l-etat-devra-reparer-le-prejudice-ecologique-dont-il-est-responsable",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "greenpeace-affaire-du-siecle-2023": {
-      "title": {
-        "fr": "Greenpeace France — Décision du tribunal administratif dans l'Affaire du siècle : l'État n'a pas exécuté le jugement de 2021 (communiqué du 22 décembre 2023)",
-        "en": "Greenpeace France — Administrative court decision in the Affaire du Siècle: the State did not execute the 2021 judgment (press release of 22 December 2023; in French)"
-      },
-      "url": "https://www.greenpeace.fr/espace-presse/decision-du-tribunal-administratif-dans-laffaire-du-siecle-letat-na-pas-execute-le-jugement-de-2021/",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "ecologie-affaire-du-siecle-2023": {
-      "title": {
-        "fr": "Ministères de la Transition écologique — Affaire du siècle : la décision du tribunal administratif confirme que l'action du Gouvernement porte ses fruits (communiqué du 22 décembre 2023)",
-        "en": "Ministries of Ecological Transition — Affaire du Siècle: the administrative court decision confirms the Government's action is bearing fruit (press release of 22 December 2023; in French)"
-      },
-      "url": "https://www.ecologie.gouv.fr/presse/affaire-du-siecle-decision-du-tribunal-administratif-confirme-que-laction-determinee-du",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "naat-fiche-affaire-du-siecle-2023": {
-      "title": {
-        "fr": "Notre Affaire à Tous — Fiche sur le jugement du tribunal administratif de Paris du 22 décembre 2023 (n° 2321828/4-1)",
-        "en": "Notre Affaire à Tous — Note on the Paris Administrative Court judgment of 22 December 2023 (no. 2321828/4-1; in French)"
-      },
-      "url": "https://notreaffaireatous.org/wp-content/uploads/2024/05/ADS-TA-Paris-22-dec.-2023.pdf",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "eurlex-glyphosate-2023-2660": {
-      "title": {
-        "fr": "EUR-Lex — Règlement d'exécution (UE) 2023/2660 de la Commission du 28 novembre 2023 renouvelant l'approbation de la substance active « glyphosate »",
-        "en": "EUR-Lex — Commission Implementing Regulation (EU) 2023/2660 of 28 November 2023 renewing the approval of the active substance \"glyphosate\" (in French)"
-      },
-      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=OJ:L_202302660",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "france24-glyphosate-renouvellement-2023": {
-      "title": {
-        "fr": "France 24 — La Commission européenne renouvelle l'autorisation du glyphosate pour dix ans (16 novembre 2023)",
-        "en": "France 24 — The European Commission renews the authorisation of glyphosate for ten years (16 November 2023; in French)"
-      },
-      "url": "https://www.france24.com/fr/europe/20231116-herbicides-la-commission-europ%C3%A9enne-renouvelle-l-autorisation-du-glyphosate-pour-dix-ans",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "eurlex-arret-c-162-21-neonicotinoides": {
-      "title": {
-        "fr": "Cour de justice de l'Union européenne — Arrêt du 19 janvier 2023, Pesticide Action Network Europe e.a., affaire C-162/21 (semences traitées aux néonicotinoïdes)",
-        "en": "Court of Justice of the European Union — Judgment of 19 January 2023, Pesticide Action Network Europe and Others, Case C-162/21 (neonicotinoid-treated seeds; in French)"
-      },
-      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62021CJ0162",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "naat-justice-pour-le-vivant-jugement": {
-      "title": {
-        "fr": "Notre Affaire à Tous — Justice pour le Vivant : le jugement en première instance et les sujets d'actualité sur les pesticides",
-        "en": "Notre Affaire à Tous — Justice pour le Vivant: the first-instance judgment and current pesticide issues (in French)"
-      },
-      "url": "https://notreaffaireatous.org/justice-pour-le-vivant-le-jugement-en-premiere-instance-et-les-sujets-dactualite-sur-les-pesticides/",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "actu-environnement-ta-paris-2023-jpv": {
-      "title": {
-        "fr": "Actu-Environnement — Tribunal administratif de Paris, 29 juin 2023, n° 2200534/4-1 (Justice pour le vivant ; accès abonnés)",
-        "en": "Actu-Environnement — Paris Administrative Court, 29 June 2023, no. 2200534/4-1 (Justice pour le vivant; subscribers only; in French)"
-      },
-      "url": "https://www.actu-environnement.com/droit/jurisprudence/tribunal-administratif-de-paris-29-juin-2023-n-2200534.html",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "cc-2026-914-dc-urgence-agricole": {
-      "title": {
-        "fr": "Conseil constitutionnel — Décision n° 2026-914 DC du 14 août 2026 (loi d'urgence pour la protection et la souveraineté agricoles)",
-        "en": "Constitutional Council — Decision no. 2026-914 DC of 14 August 2026 (emergency law for agricultural protection and sovereignty; in French)"
-      },
-      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026914DC.htm",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "reporterre-cc-urgence-agricole-2026": {
-      "title": {
-        "fr": "Reporterre — Le Conseil constitutionnel valide la loi d'urgence agricole, dont le retour de l'acétamipride (août 2026)",
-        "en": "Reporterre — The Constitutional Council upholds the agricultural emergency law, including the return of acetamiprid (August 2026; in French)"
-      },
-      "url": "https://reporterre.net/Le-Conseil-constitutionnel-valide-la-loi-d-urgence-agricole-dont-le-retour-de-l",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
-    "caa-paris-2025-jpv": {
-      "title": {
-        "fr": "Cour administrative d'appel de Paris — La Cour reconnaît la responsabilité de l'Etat dans l'existence d'un préjudice écologique résultant de l'usage des produits phytopharmaceutiques (arrêts du 3 septembre 2025)",
-        "en": "Paris Administrative Court of Appeal — The Court recognises the State’s responsibility for ecological damage resulting from the use of plant protection products (rulings of 3 September 2025; in French)"
-      },
-      "url": "https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/la-cour-reconnait-la-responsabilite-de-l-etat-dans-l-existence-d-un-prejudice-ecologique-resultant-de-l-usage-des-produits-phytopharmaceutiques",
-      "check": {
-        "date": "2026-11-11",
-        "result": "confirmed",
-        "by": "ai"
-      }
-    },
     "legifrance-loi-1973-art-25": {
       "title": {
         "fr": "Légifrance — Article 25 de la loi n° 73-7 du 3 janvier 1973 sur la Banque de France (abrogé par la loi n° 93-980 du 4 août 1993, en vigueur le 1er janvier 1994)",
@@ -7347,6 +7179,66 @@
         "by": "ai"
       }
     },
+    "ta-paris-affaire-du-siecle-2021-02": {
+      "title": {
+        "fr": "Tribunal administratif de Paris — L'Affaire du Siècle : l'État reconnu responsable de manquements dans la lutte contre le réchauffement climatique (jugement du 3 février 2021)",
+        "en": "Paris Administrative Court — The Affaire du Siècle: the State held responsible for failures in the fight against global warming (judgment of 3 February 2021; in French)"
+      },
+      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ta-paris-affaire-du-siecle-2021-10": {
+      "title": {
+        "fr": "Tribunal administratif de Paris — L'Affaire du Siècle : l'État devra réparer le préjudice écologique dont il est responsable (jugement du 14 octobre 2021)",
+        "en": "Paris Administrative Court — The Affaire du Siècle: the State must repair the ecological damage it is responsible for (judgment of 14 October 2021; in French)"
+      },
+      "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle-l-etat-devra-reparer-le-prejudice-ecologique-dont-il-est-responsable",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "greenpeace-affaire-du-siecle-2023": {
+      "title": {
+        "fr": "Greenpeace France — Décision du tribunal administratif dans l'Affaire du siècle : l'État n'a pas exécuté le jugement de 2021 (communiqué du 22 décembre 2023)",
+        "en": "Greenpeace France — Administrative court decision in the Affaire du Siècle: the State did not execute the 2021 judgment (press release of 22 December 2023; in French)"
+      },
+      "url": "https://www.greenpeace.fr/espace-presse/decision-du-tribunal-administratif-dans-laffaire-du-siecle-letat-na-pas-execute-le-jugement-de-2021/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ecologie-affaire-du-siecle-2023": {
+      "title": {
+        "fr": "Ministères de la Transition écologique — Affaire du siècle : la décision du tribunal administratif confirme que l'action du Gouvernement porte ses fruits (communiqué du 22 décembre 2023)",
+        "en": "Ministries of Ecological Transition — Affaire du Siècle: the administrative court decision confirms the Government's action is bearing fruit (press release of 22 December 2023; in French)"
+      },
+      "url": "https://www.ecologie.gouv.fr/presse/affaire-du-siecle-decision-du-tribunal-administratif-confirme-que-laction-determinee-du",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "naat-fiche-affaire-du-siecle-2023": {
+      "title": {
+        "fr": "Notre Affaire à Tous — Fiche sur le jugement du tribunal administratif de Paris du 22 décembre 2023 (n° 2321828/4-1)",
+        "en": "Notre Affaire à Tous — Note on the Paris Administrative Court judgment of 22 December 2023 (no. 2321828/4-1; in French)"
+      },
+      "url": "https://notreaffaireatous.org/wp-content/uploads/2024/05/ADS-TA-Paris-22-dec.-2023.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "icij-panama-papers": {
       "title": {
         "fr": "ICIJ — The Panama Papers : Exposing the Rogue Offshore Finance Industry (3 avril 2016)",
@@ -7401,6 +7293,282 @@
         "en": "France 24 / AFP — \"Panama papers\": €271 million assessed by the French tax authority since the revelations (3 April 2026; in French)"
       },
       "url": "https://www.france24.com/fr/info-en-continu/20260403-panama-papers-271-millions-d-euros-mis-en-recouvrement-par-le-fisc-fran%C3%A7ais-depuis-les-r%C3%A9v%C3%A9lations",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-le-pen-premiere-instance-2025": {
+      "title": {
+        "fr": "LCP — Justice : Marine Le Pen condamnée à cinq ans d'inéligibilité, avec exécution immédiate, pour détournement de fonds publics (31 mars 2025)",
+        "en": "LCP — Justice: Marine Le Pen sentenced to five years of ineligibility, with immediate effect, for embezzlement of public funds (31 March 2025; in French)"
+      },
+      "url": "https://lcp.fr/actualites/justice-marine-le-pen-condamnee-a-cinq-ans-d-ineligibilite-avec-execution-immediate-pour",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-le-pen-appel-2026": {
+      "title": {
+        "fr": "LCP — Marine Le Pen condamnée dans l'affaire des assistants parlementaires, reste éligible pour 2027 (7 juillet 2026)",
+        "en": "LCP — Marine Le Pen sentenced in the parliamentary assistants case, remains eligible for 2027 (7 July 2026; in French)"
+      },
+      "url": "https://lcp.fr/actualites/marine-le-pen-condamnee-dans-l-affaire-des-assistants-parlementaires-reste-eligible-pour",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "publicsenat-sarkozy-ecoutes-definitif-2024": {
+      "title": {
+        "fr": "Public Sénat — Affaire des écoutes : Nicolas Sarkozy définitivement condamné à un an sous bracelet électronique, une première pour un ex-président (18 décembre 2024)",
+        "en": "Public Sénat — Wiretapping case: Nicolas Sarkozy finally sentenced to one year under electronic tag, a first for a former president (18 December 2024; in French)"
+      },
+      "url": "https://www.publicsenat.fr/actualites/societe/affaire-des-ecoutes-nicolas-sarkozy-condamne-definitivement-a-un-an-sous-bracelet-electronique-une-premiere-pour-un-ex-president",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-sarkozy-liberte-2025": {
+      "title": {
+        "fr": "Le Club des Juristes — Nicolas Sarkozy remis en liberté sous contrôle judiciaire (10 novembre 2025)",
+        "en": "Le Club des Juristes — Nicolas Sarkozy released under judicial supervision (10 November 2025; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/nicolas-sarkozy-remis-en-liberte-sous-controle-judiciaire-12884/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-fillon-cassation-2024": {
+      "title": {
+        "fr": "France 24 — Emplois fictifs : l'ancien Premier ministre François Fillon définitivement jugé coupable (24 avril 2024)",
+        "en": "France 24 — Fake jobs: former Prime Minister François Fillon finally found guilty (24 April 2024; in French)"
+      },
+      "url": "https://www.france24.com/fr/info-en-continu/20240424-emplois-fictifs-l-ancien-premier-ministre-fran%C3%A7ois-fillon-d%C3%A9finitivement-jug%C3%A9-coupable",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-fillon-desistement-2026": {
+      "title": {
+        "fr": "franceinfo — Emplois fictifs : François Fillon se désiste de son pourvoi en cassation, sa peine devient définitive (16 février 2026)",
+        "en": "franceinfo — Fake jobs: François Fillon withdraws his appeal on points of law, his sentence becomes final (16 February 2026; in French)"
+      },
+      "url": "https://www.franceinfo.fr/politique/francois-fillon/affaires-fillon/emplois-fictifs-francois-fillon-se-desiste-de-son-pourvoi-en-cassation-sa-peine-devient-definitive_7809797.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lalibre-balkany-liberation-conditionnelle-2022": {
+      "title": {
+        "fr": "La Libre / AFP — Patrick Balkany autorisé à sortir de prison vendredi après un « ultime avertissement » de la justice (4 août 2022)",
+        "en": "La Libre / AFP — Patrick Balkany allowed to leave prison on Friday after a \"final warning\" from the court (4 August 2022; in French)"
+      },
+      "url": "https://www.lalibre.be/international/europe/2022/08/04/patrick-balkany-autorise-a-sortir-de-prison-vendredi-BFO7UYFVKVCQVKVDODA3XEUMEI/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-balkany-liberation-conditionnelle-2026": {
+      "title": {
+        "fr": "Le Club des Juristes — Fraude fiscale : Patrick Balkany obtient la libération conditionnelle (14 janvier 2026)",
+        "en": "Le Club des Juristes — Tax fraud: Patrick Balkany granted conditional release (14 January 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/fraude-fiscale-patrick-balkany-obtient-la-liberation-conditionnelle-13667/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-glyphosate-2023-2660": {
+      "title": {
+        "fr": "EUR-Lex — Règlement d'exécution (UE) 2023/2660 de la Commission du 28 novembre 2023 renouvelant l'approbation de la substance active « glyphosate »",
+        "en": "EUR-Lex — Commission Implementing Regulation (EU) 2023/2660 of 28 November 2023 renewing the approval of the active substance \"glyphosate\" (in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=OJ:L_202302660",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-glyphosate-renouvellement-2023": {
+      "title": {
+        "fr": "France 24 — La Commission européenne renouvelle l'autorisation du glyphosate pour dix ans (16 novembre 2023)",
+        "en": "France 24 — The European Commission renews the authorisation of glyphosate for ten years (16 November 2023; in French)"
+      },
+      "url": "https://www.france24.com/fr/europe/20231116-herbicides-la-commission-europ%C3%A9enne-renouvelle-l-autorisation-du-glyphosate-pour-dix-ans",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "eurlex-arret-c-162-21-neonicotinoides": {
+      "title": {
+        "fr": "Cour de justice de l'Union européenne — Arrêt du 19 janvier 2023, Pesticide Action Network Europe e.a., affaire C-162/21 (semences traitées aux néonicotinoïdes)",
+        "en": "Court of Justice of the European Union — Judgment of 19 January 2023, Pesticide Action Network Europe and Others, Case C-162/21 (neonicotinoid-treated seeds; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62021CJ0162",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "naat-justice-pour-le-vivant-jugement": {
+      "title": {
+        "fr": "Notre Affaire à Tous — Justice pour le Vivant : le jugement en première instance et les sujets d'actualité sur les pesticides",
+        "en": "Notre Affaire à Tous — Justice pour le Vivant: the first-instance judgment and current pesticide issues (in French)"
+      },
+      "url": "https://notreaffaireatous.org/justice-pour-le-vivant-le-jugement-en-premiere-instance-et-les-sujets-dactualite-sur-les-pesticides/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "actu-environnement-ta-paris-2023-jpv": {
+      "title": {
+        "fr": "Actu-Environnement — Tribunal administratif de Paris, 29 juin 2023, n° 2200534/4-1 (Justice pour le vivant ; accès abonnés)",
+        "en": "Actu-Environnement — Paris Administrative Court, 29 June 2023, no. 2200534/4-1 (Justice pour le vivant; subscribers only; in French)"
+      },
+      "url": "https://www.actu-environnement.com/droit/jurisprudence/tribunal-administratif-de-paris-29-juin-2023-n-2200534.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-2026-914-dc-urgence-agricole": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2026-914 DC du 14 août 2026 (loi d'urgence pour la protection et la souveraineté agricoles)",
+        "en": "Constitutional Council — Decision no. 2026-914 DC of 14 August 2026 (emergency law for agricultural protection and sovereignty; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026914DC.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "reporterre-cc-urgence-agricole-2026": {
+      "title": {
+        "fr": "Reporterre — Le Conseil constitutionnel valide la loi d'urgence agricole, dont le retour de l'acétamipride (août 2026)",
+        "en": "Reporterre — The Constitutional Council upholds the agricultural emergency law, including the return of acetamiprid (August 2026; in French)"
+      },
+      "url": "https://reporterre.net/Le-Conseil-constitutionnel-valide-la-loi-d-urgence-agricole-dont-le-retour-de-l",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "caa-paris-2025-jpv": {
+      "title": {
+        "fr": "Cour administrative d'appel de Paris — La Cour reconnaît la responsabilité de l'Etat dans l'existence d'un préjudice écologique résultant de l'usage des produits phytopharmaceutiques (arrêts du 3 septembre 2025)",
+        "en": "Paris Administrative Court of Appeal — The Court recognises the State’s responsibility for ecological damage resulting from the use of plant protection products (rulings of 3 September 2025; in French)"
+      },
+      "url": "https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/la-cour-reconnait-la-responsabilite-de-l-etat-dans-l-existence-d-un-prejudice-ecologique-resultant-de-l-usage-des-produits-phytopharmaceutiques",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "courcassation-bismuth-2024": {
+      "title": {
+        "fr": "Cour de cassation, chambre criminelle — Arrêt du 18 décembre 2024, pourvoi n° 23-83.178 (affaire dite des écoutes, publié au Bulletin)",
+        "en": "Court of Cassation, criminal chamber — Ruling of 18 December 2024, appeal no. 23-83.178 (so-called wiretapping case, published in the Bulletin; in French)"
+      },
+      "url": "https://www.courdecassation.fr/decision/67626d77d9347f6c9aef808c",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-sarkozy-bygmalion-cassation-2025": {
+      "title": {
+        "fr": "Le Club des Juristes — Affaire Bygmalion : la Cour de cassation rejette le pourvoi de Nicolas Sarkozy (26 novembre 2025)",
+        "en": "Le Club des Juristes — Bygmalion case: the Court of Cassation rejects Nicolas Sarkozy’s appeal (26 November 2025; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/affaire-bygmalion-la-cour-de-cassation-rejette-le-pourvoi-de-nicolas-sarkozy-13123/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-sarkozy-libye-appel-2026": {
+      "title": {
+        "fr": "Le Club des Juristes — Procès libyen en appel : les infractions retenues contre Nicolas Sarkozy (27 mai 2026)",
+        "en": "Le Club des Juristes — Libyan trial on appeal: the offences alleged against Nicolas Sarkozy (27 May 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/societe/proces-libyen-en-appel-les-infractions-retenues-contre-nicolas-sarkozy-16032/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-le-pen-cassation-calendrier-2026": {
+      "title": {
+        "fr": "Le Club des Juristes — Marine Le Pen : qui maîtrise le calendrier devant la Cour de cassation ? (9 juillet 2026)",
+        "en": "Le Club des Juristes — Marine Le Pen: who controls the timetable before the Court of Cassation? (9 July 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/justice/marine-le-pen-qui-maitrise-le-calendrier-devant-la-cour-de-cassation-16888/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-micas-manifestants-2026": {
+      "title": {
+        "fr": "Le Club des Juristes — Assignations à résidence de manifestants par le biais d'outils prévus pour lutter contre le terrorisme (2 novembre 2026)",
+        "en": "Le Club des Juristes — House arrest of protesters through counter-terrorism tools (2 November 2026; in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/assignations-a-residence-de-manifestants-par-le-biais-doutils-prevus-pour-lutter-contre-le-terrorisme-18186/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france3-micas-belfort-2026": {
+      "title": {
+        "fr": "France 3 Régions / AFP — « On m'associe à du terrorisme » : à Belfort, une militante assignée à résidence avant une manifestation dénonce une mesure abusive (2 novembre 2026)",
+        "en": "France 3 Régions / AFP — \"I am being linked to terrorism\": in Belfort, an activist placed under house arrest before a demonstration denounces an abusive measure (2 November 2026; in French)"
+      },
+      "url": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/territoire-de-belfort/on-m-associe-a-du-terrorisme-a-belfort-une-militante-assignee-a-residence-avant-une-manifestation-denonce-une-mesure-abusive-du-ministere-de-l-interieur-3442836.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "mediapart-micas-recours-2026": {
+      "title": {
+        "fr": "Mediapart — Assignations à résidence de manifestants : l'usage de l'antiterrorisme démonté devant la justice (11 novembre 2026 ; article réservé aux abonnés, résumé public seul lu)",
+        "en": "Mediapart — House arrest of protesters: the use of counter-terrorism dismantled before the courts (11 November 2026; subscribers only, only the public summary was read; in French)"
+      },
+      "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
@@ -7479,36 +7647,216 @@
         "by": "ai"
       }
     },
-    "clubjuristes-micas-manifestants-2026": {
+    "insee-ipc-oct-2026-provisoire": {
       "title": {
-        "fr": "Le Club des Juristes — Assignations à résidence de manifestants par le biais d'outils prévus pour lutter contre le terrorisme (2 novembre 2026)",
-        "en": "Le Club des Juristes — House arrest of protesters through counter-terrorism tools (2 November 2026; in French)"
+        "fr": "INSEE — En octobre 2026, les prix à la consommation augmenteraient de 3,4 % sur un an, Informations rapides n° 266 (30 octobre 2026, résultats provisoires)",
+        "en": "INSEE — In October 2026, consumer prices should increase by 3.4% year on year, Informations rapides no. 266 (30 October 2026, provisional results; in French)"
       },
-      "url": "https://www.leclubdesjuristes.com/en-bref/assignations-a-residence-de-manifestants-par-le-biais-doutils-prevus-pour-lutter-contre-le-terrorisme-18186/",
+      "url": "https://www.insee.fr/fr/statistiques/9107965",
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
     },
-    "france3-micas-belfort-2026": {
+    "an-fiche-7-situation-materielle-depute-2026": {
       "title": {
-        "fr": "France 3 Régions / AFP — « On m'associe à du terrorisme » : à Belfort, une militante assignée à résidence avant une manifestation dénonce une mesure abusive (2 novembre 2026)",
-        "en": "France 3 Régions / AFP — \"I am being linked to terrorism\": in Belfort, an activist placed under house arrest before a demonstration denounces an abusive measure (2 November 2026; in French)"
+        "fr": "Assemblée nationale — Fiche de synthèse n° 7 : La situation matérielle du député (janvier 2026)",
+        "en": "National Assembly — Summary sheet no. 7: The material situation of the deputy (January 2026; in French)"
       },
-      "url": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/territoire-de-belfort/on-m-associe-a-du-terrorisme-a-belfort-une-militante-assignee-a-residence-avant-une-manifestation-denonce-une-mesure-abusive-du-ministere-de-l-interieur-3442836.html",
+      "url": "https://www.assemblee-nationale.fr/dyn/contenu/telechargement/631144/file/Fiche%207%20-%20Situation%20mat%C3%A9rielle%20du%20d%C3%A9put%C3%A9.pdf",
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
         "by": "ai"
       }
     },
-    "mediapart-micas-recours-2026": {
+    "legifrance-decret-2025-965-anciens-pm": {
       "title": {
-        "fr": "Mediapart — Assignations à résidence de manifestants : l'usage de l'antiterrorisme démonté devant la justice (11 novembre 2026 ; article réservé aux abonnés, résumé public seul lu)",
-        "en": "Mediapart — House arrest of protesters: the use of counter-terrorism dismantled before the courts (11 November 2026; subscribers only, only the public summary was read; in French)"
+        "fr": "Légifrance — Décret n° 2025-965 du 16 septembre 2025 modifiant le décret n° 2019-973 relatif à la situation des anciens Premiers ministres",
+        "en": "Légifrance — Decree no. 2025-965 of 16 September 2025 amending decree no. 2019-973 on the situation of former Prime Ministers (in French)"
       },
-      "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052249875",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-fin-avantages-a-vie-pm-2026": {
+      "title": {
+        "fr": "franceinfo — Les avantages à vie des Premiers ministres supprimés à partir du 1er janvier 2026 (31 décembre 2025)",
+        "en": "franceinfo — Prime Ministers' lifetime benefits abolished from 1 January 2026 (31 December 2025; in French)"
+      },
+      "url": "https://www.franceinfo.fr/politique/gouvernement-de-sebastien-lecornu/gouvernement-de-sebastien-lecornu-fin-des-avantages-a-vie-pour-les-premiers-ministres_7712851.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-question-17117-anciens-presidents": {
+      "title": {
+        "fr": "Assemblée nationale — Question écrite n° 17117 : Moyens matériels et humains accordés aux anciens Présidents de la République (publiée au JO du 21 juillet 2026)",
+        "en": "National Assembly — Written question no. 17117: Material and human resources granted to former Presidents of the Republic (published in the Official Journal of 21 July 2026; in French)"
+      },
+      "url": "https://questions.assemblee-nationale.fr/q17/17-17117QE.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "transparence-citoyenne-petition-frais-mandat": {
+      "title": {
+        "fr": "Transparence Citoyenne — Pétition pour la transparence des frais de mandat parlementaires",
+        "en": "Transparence Citoyenne — Petition for transparency of parliamentary expense allowances (NGO; in French)"
+      },
+      "url": "https://transparencecitoyenne.fr/petitions/frais-mandat-parlementaires/",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-brochure-le-senat-aujourdhui-2026": {
+      "title": {
+        "fr": "Sénat — Brochure « Le Sénat aujourd'hui » (édition d'octobre 2026) : moyens mis à la disposition des sénateurs et indemnités",
+        "en": "Senate — Brochure \"The Senate today\" (October 2026 edition): resources available to senators and allowances (in French)"
+      },
+      "url": "https://www.senat.fr/fileadmin/Connaitre_le_Senat/brochure_le_Senat_aujourd_hui.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-question-9580-anciens-presidents-2023": {
+      "title": {
+        "fr": "Assemblée nationale — Question écrite n° 9580 et réponse du Gouvernement (JO du 10 octobre 2023) : Moyens matériels et humains alloués aux anciens présidents de la République",
+        "en": "National Assembly — Written question no. 9580 and Government reply (Official Journal of 10 October 2023): Material and human resources allocated to former Presidents of the Republic (in French)"
+      },
+      "url": "https://questions.assemblee-nationale.fr/q16/16-9580QE.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-question-33559-remuneration-ministres": {
+      "title": {
+        "fr": "Assemblée nationale — Question écrite n° 33559 : Rémunération des membres du Gouvernement (publiée le 3 novembre 2020, clôturée le 21 juin 2022 sans réponse)",
+        "en": "National Assembly — Written question no. 33559: Remuneration of members of the Government (published 3 November 2020, closed 21 June 2022 without a reply; in French)"
+      },
+      "url": "https://questions.assemblee-nationale.fr/q15/15-33559QE.htm",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "dgcl-indemnite-de-fonction-elus-locaux": {
+      "title": {
+        "fr": "Direction générale des collectivités locales — Indemnité de fonction des élus locaux",
+        "en": "Directorate-General for Local Authorities — Function allowance of local elected officials (in French)"
+      },
+      "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/elus-locaux/conditions-dexercice-des-mandats-locaux/indemnite-de-fonction",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-rapport-578-cabinets-de-conseil-2022": {
+      "title": {
+        "fr": "Sénat — Un phénomène tentaculaire : l'influence croissante des cabinets de conseil sur les politiques publiques, rapport n° 578 (2021-2022), tome I, déposé le 16 mars 2022",
+        "en": "Senate — A tentacular phenomenon: the growing influence of consulting firms on public policy, report no. 578 (2021-2022), volume I, filed 16 March 2022 (in French)"
+      },
+      "url": "https://www.senat.fr/rap/r21-578-1/r21-578-1_mono.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lexbase-mckinsey-pnf-informations-2022": {
+      "title": {
+        "fr": "Lexbase — Affaire McKinsey : le PNF confirme l'ouverture de deux informations ciblant les campagnes d'Emmanuel Macron (29 novembre 2022)",
+        "en": "Lexbase — McKinsey case: the national financial prosecutor confirms the opening of two judicial investigations targeting Emmanuel Macron’s campaigns (29 November 2022; in French)"
+      },
+      "url": "https://www.lexbase.fr/article-juridique/90099136-a-la-une-affaire-mckinsey-le-pnf-confirme-l-ouverture-de-deux-informations-ciblant-les-campagnes-d",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-ppl-cabinets-de-conseil-en-cours": {
+      "title": {
+        "fr": "Sénat — Proposition de loi encadrant l'intervention des cabinets de conseil privés dans les politiques publiques (la loi en clair ; statut « en cours »)",
+        "en": "Senate — Bill regulating the involvement of private consulting firms in public policy (\"the law in plain terms\"; status \"ongoing\"; in French)"
+      },
+      "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-encadrant-lintervention-des-cabinets-de-conseil-prives-dans-les-politiques-publiques.html",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "dgcl-prevention-conflits-interets-2025": {
+      "title": {
+        "fr": "Direction générale des collectivités locales — La prévention des conflits d'intérêts (loi n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local)",
+        "en": "Directorate-General for Local Authorities — Preventing conflicts of interest (Act no. 2025-1249 of 22 December 2025 creating a status for the local elected official; in French)"
+      },
+      "url": "https://www.collectivites-locales.gouv.fr/connaitre-les-acteurs-et-les-institutions/elus-locaux/la-prevention-des-conflits-dinterets",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-hatvp-rapport-2025": {
+      "title": {
+        "fr": "LCP — Patrimoine, pantouflage, lobbying : ce que la HATVP veut changer pour mieux contrôler les responsables publics (28 mai 2026)",
+        "en": "LCP — Wealth, revolving doors, lobbying: what the HATVP wants to change to better oversee public officials (28 May 2026; in French)"
+      },
+      "url": "https://lcp.fr/actualites/patrimoine-pantouflage-lobbying-ce-que-la-hatvp-veut-changer-pour-mieux-controler-les",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "hatvp-rapport-activite-2025": {
+      "title": {
+        "fr": "HATVP — Rapport d'activité 2025 de la Haute Autorité",
+        "en": "HATVP — 2025 activity report of the High Authority (in French)"
+      },
+      "url": "https://www.hatvp.fr/wordpress/wp-content/uploads/2026/05/HATVP_Rapport-dactivite-2025-planches.pdf",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "legifrance-code-penal-432-12": {
+      "title": {
+        "fr": "Légifrance — Article 432-12 du Code pénal (version en vigueur depuis le 24 décembre 2025, modifiée par la loi n° 2025-1249, art. 30)",
+        "en": "Légifrance — Article 432-12 of the Criminal Code (version in force since 24 December 2025, amended by Act no. 2025-1249, art. 30; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044569907",
+      "check": {
+        "date": "2026-11-11",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "conseil-etat-hatvp-conflits-interets-2026": {
+      "title": {
+        "fr": "Conseil d'État — Prévention des conflits d'intérêts : le Conseil d'État précise les règles et l'office de la HATVP (décisions n° 505836 et n° 514106 du 29 octobre 2026)",
+        "en": "Conseil d'État — Preventing conflicts of interest: the Conseil d'État clarifies the rules and the HATVP's role (decisions no. 505836 and no. 514106 of 29 October 2026; in French)"
+      },
+      "url": "https://www.conseil-etat.fr/actualites/prevention-des-conflits-d-interets-le-conseil-d-etat-precise-les-regles-et-l-office-de-la-haute-autorite-pour-la-transparence-de-la-vie-publique",
       "check": {
         "date": "2026-11-11",
         "result": "confirmed",
