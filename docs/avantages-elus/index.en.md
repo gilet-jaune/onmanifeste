@@ -1,6 +1,6 @@
 ---
 description: 'Allowance, expenses and staff of deputies and senators; former Prime Ministers and presidents; ministers and local officials: official amounts.'
-source_commit: 136de5b79c40866ba6738af1b152c2814e6d2342
+source_commit: f126d0e22e8726e82801f3756ec1016fd4157d4e
 review: juridique
 review_status: pending
 tags:

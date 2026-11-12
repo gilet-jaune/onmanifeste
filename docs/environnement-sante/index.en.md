@@ -1,6 +1,6 @@
 ---
 description: 'Climate and pesticides: dated, sourced court decisions and official texts, with the readings of NGOs and public authorities.'
-source_commit: deb98264e6c06420934025f0709c4a2298e452a5
+source_commit: 9706ceeec989aa55937bc742181477b3c6b3c9e7
 review: juridique
 review_status: pending
 tags:

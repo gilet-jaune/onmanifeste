@@ -1,6 +1,6 @@
 ---
 description: 'Getting those close to you interested in the mobilisations: listening, shared values, lived stories.'
-source_commit: 56dbcd82b77677c67f923033bfc0cc98dc020091
+source_commit: 4f88a84c31d89bee2e463c65656b13103fb0009b
 tags:
     - guides
     - dialogue
