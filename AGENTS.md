@@ -52,6 +52,7 @@ npm run format:check   # Prettier
 npm run lint            # markdownlint-cli2
 npm run spellcheck      # cspell
 npm run validate:data    # resources.json registry
+npm run test:unit        # search helpers (node --test)
 npm test                 # mkdocs build --strict
 ```
 

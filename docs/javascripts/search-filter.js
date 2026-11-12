@@ -195,6 +195,14 @@
         if (sure || word.text.length > 4) from = first + 1;
       }
     });
+    // The next word after each part, computed once: searching for it inside the loop made long
+    // pages (hundreds of passages) take seconds.
+    const nextWord = new Array(parts.length);
+    let following = null;
+    for (let i = parts.length - 1; i >= 0; i--) {
+      nextWord[i] = following;
+      if (parts[i].k === 'word') following = parts[i];
+    }
     let out = '';
     let previous = null;
     for (let i = 0; i < parts.length; i++) {
@@ -205,7 +213,7 @@
       } else if (part.k === 'space') {
         // "l'avocat" was folded to "l avocat": the apostrophe or dot goes back where the folded
         // text had its one-character gap.
-        const next = parts.slice(i + 1).find((x) => x.k === 'word');
+        const next = nextWord[i];
         let text = part.text;
         if (previous && next && previous.at >= 0 && next.at === previous.at + 1 && text === ' ') {
           const a = words[previous.at].e;

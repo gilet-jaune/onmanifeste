@@ -62,6 +62,10 @@ jobs:
         id: readme
         run: npm run readme:check
 
+      - name: Search Unit Tests 🔎
+        id: unit
+        run: npm run test:unit
+
       - name: Set Up Python 🔧
         uses: actions/setup-python@v6
         with:
@@ -100,5 +104,6 @@ jobs:
             echo "| 📝 Spell Check (CSpell) | $(map_outcome ${{ steps.spellcheck.outcome }}) |"
             echo "| 🗂️ Resources Registry | $(map_outcome ${{ steps.data.outcome }}) |"
             echo "| 📋 README List | $(map_outcome ${{ steps.readme.outcome }}) |"
+            echo "| 🔎 Search Unit Tests | $(map_outcome ${{ steps.unit.outcome }}) |"
             echo "| 🔗 Link Integrity | $(map_outcome ${{ steps.link_integrity.outcome }}) |"
           } >> $GITHUB_STEP_SUMMARY
