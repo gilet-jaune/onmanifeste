@@ -11,9 +11,8 @@ tags:
 
 The files in this section date and source what frames the right to protest and how protests are policed: the laws, the violence and disproved statements, the victims, and the reasons for property damage.
 
-- [Security and freedoms](../../securite-libertes/index.md): state of emergency, the anti-rioters law, algorithmic cameras, "casseurs-payeurs" and what they change for protesting.
-- [Documented repression](../../repressions/index.md): violence during policing and official statements contradicted by the facts.
-- [Injured and killed](../../victimes/index.md): reference censuses and established cases.
-- [Why property gets smashed at protests](../../guides/casse.md): who smashes, why, what studies say, what you risk.
+{% import "overrides/partials/dossiers.html" as d with context %}
+
+{{ d.list('en', 'libertes-maintien-ordre', '../..') }}
 
 [:octicons-arrow-left-24: Back to Understand](../index.md)

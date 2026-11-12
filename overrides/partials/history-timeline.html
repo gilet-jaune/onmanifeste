@@ -143,6 +143,11 @@ across kinds, e.g. the security-and-freedoms page). -#}
 </div>
 {%- endif %}
 
+{#- A thematic page points to the same theme in the full timeline (the filter is read from the URL hash). -#}
+{%- if only and (only | select('in', kinds) | list | length) == (only | length) %}
+<p class="timeline__all"><a href="../histoire/#kind={{ only | join(',') }}">{{ "Voir ce thème dans tous les repères historiques" if lang == 'fr' else 'See this theme within the full timeline' }}</a></p>
+{%- endif %}
+
 {%- if shown_periods | length > 1 %}
 <nav class="timeline-periods" aria-label="{{ 'Périodes' if lang == 'fr' else 'Periods' }}">
   {%- for p in shown_periods %}

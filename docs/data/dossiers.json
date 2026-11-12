@@ -1,0 +1,205 @@
+{
+  "$comment": "Dossiers of the Comprendre section: one source for the hub cards and the three section pages (overrides/partials/dossiers.html).",
+  "dossiers": {
+    "democratie-elus": {
+      "title": {
+        "fr": "Démocratie et élus",
+        "en": "Democracy and elected officials"
+      },
+      "items": [
+        {
+          "page": "histoire/index.md",
+          "icon": "material-timeline-clock",
+          "title": {
+            "fr": "Repères historiques",
+            "en": "Historical milestones"
+          },
+          "blurb": {
+            "fr": "De la prise de la Bastille aux mobilisations d'aujourd'hui, et ce que la rue a obtenu : congés payés, droit de vote, lois retirées.",
+            "en": "From the storming of the Bastille to today's movements, and what the street won: paid holidays, the right to vote, bills withdrawn."
+          },
+          "cta": {
+            "fr": "Voir la frise",
+            "en": "See the timeline"
+          }
+        },
+        {
+          "page": "confiance/index.md",
+          "icon": "material-vote-outline",
+          "title": {
+            "fr": "Les voies démocratiques bafouées",
+            "en": "Democratic channels flouted"
+          },
+          "blurb": {
+            "fr": "Référendum de 2005 contourné, Convention citoyenne pour le climat vidée, 49.3, cahiers de doléances jamais publiés, valse des gouvernements.",
+            "en": "The 2005 referendum bypassed, the Citizens' Convention for Climate emptied, 49.3, grievance books never published, governments in quick succession."
+          },
+          "cta": {
+            "fr": "Voir la frise",
+            "en": "See the timeline"
+          }
+        },
+        {
+          "page": "probite/index.md",
+          "icon": "material-scale-balance",
+          "title": {
+            "fr": "Probité et justice des élus",
+            "en": "Integrity and justice for elected officials"
+          },
+          "blurb": {
+            "fr": "Fillon, Sarkozy, Le Pen, Balkany : les décisions de justice rendues, leur statut (définitif ou non) et les peines écourtées, avec les sources.",
+            "en": "Fillon, Sarkozy, Le Pen, Balkany: the court decisions handed down, their status (final or not) and the sentences cut short, with sources."
+          },
+          "cta": {
+            "fr": "Voir la frise",
+            "en": "See the timeline"
+          }
+        },
+        {
+          "page": "avantages-elus/index.md",
+          "icon": "material-cash-multiple",
+          "title": {
+            "fr": "Avantages et moyens des élus",
+            "en": "Benefits and resources of elected officials"
+          },
+          "blurb": {
+            "fr": "Indemnité, frais de mandat, collaborateurs et retraite des député·es, fin des avantages à vie des anciens Premiers ministres : les montants officiels et leurs limites.",
+            "en": "Allowance, expense funds, staff and pension of deputies, end of lifetime benefits for former Prime Ministers: the official amounts and their limits."
+          },
+          "cta": {
+            "fr": "Voir la page",
+            "en": "See the page"
+          }
+        },
+        {
+          "page": "conflits-interets/index.md",
+          "icon": "material-handshake-outline",
+          "title": {
+            "fr": "Conflits d'intérêts",
+            "en": "Conflicts of interest"
+          },
+          "blurb": {
+            "fr": "Définition légale (modifiée en 2025), rôle et limites de la HATVP, cabinets de conseil, affaire Epstein : les faits sourcés et ce qui n'est pas tranché.",
+            "en": "Legal definition (amended in 2025), role and limits of the HATVP, consulting firms, the Epstein case: sourced facts and what remains undecided."
+          },
+          "cta": {
+            "fr": "Voir la page",
+            "en": "See the page"
+          }
+        }
+      ]
+    },
+    "argent-public-environnement": {
+      "title": {
+        "fr": "Argent public et environnement",
+        "en": "Public money and environment"
+      },
+      "items": [
+        {
+          "page": "environnement-sante/index.md",
+          "icon": "material-leaf",
+          "title": {
+            "fr": "Environnement et santé",
+            "en": "Environment and health"
+          },
+          "blurb": {
+            "fr": "Affaire du siècle, glyphosate, néonicotinoïdes : les décisions de justice et les textes datés et sourcés, avec les lectures des ONG et du gouvernement.",
+            "en": "Affaire du Siècle, glyphosate, neonicotinoids: dated, sourced court decisions and texts, with the readings of NGOs and the government."
+          },
+          "cta": {
+            "fr": "Voir la frise",
+            "en": "See the timeline"
+          }
+        },
+        {
+          "page": "dette-privatisations/index.md",
+          "icon": "material-bank-outline",
+          "title": {
+            "fr": "Dette, privatisations et argent public",
+            "en": "Debt, privatisations and public money"
+          },
+          "blurb": {
+            "fr": "Dette de l'État et financement, privatisations, autoroutes, dépense publique et évasion fiscale : des événements datés et sourcés, à filtrer par thème.",
+            "en": "State debt and financing, privatisations, motorways, public spending and tax evasion: dated, sourced events you can filter by theme."
+          },
+          "cta": {
+            "fr": "Voir la frise",
+            "en": "See the timeline"
+          }
+        }
+      ]
+    },
+    "libertes-maintien-ordre": {
+      "title": {
+        "fr": "Libertés et maintien de l'ordre",
+        "en": "Freedoms and policing"
+      },
+      "items": [
+        {
+          "page": "securite-libertes/index.md",
+          "icon": "material-shield-lock-outline",
+          "title": {
+            "fr": "Sécurité et libertés",
+            "en": "Security and freedoms"
+          },
+          "blurb": {
+            "fr": "État d'urgence, loi anticasseurs, caméras algorithmiques, « casseurs-payeurs » : les lois depuis 2015 et ce qu'elles changent pour manifester, avec les avis de l'ONU, du Conseil de l'Europe et de la LDH.",
+            "en": "State of emergency, the anti-rioters law, algorithmic cameras, \"casseurs-payeurs\": the laws since 2015 and what they change for protesting, with opinions from the UN, the Council of Europe and the LDH."
+          },
+          "cta": {
+            "fr": "Voir la frise",
+            "en": "See the timeline"
+          }
+        },
+        {
+          "page": "repressions/index.md",
+          "icon": "material-file-document-alert",
+          "title": {
+            "fr": "Répressions et déclarations démenties",
+            "en": "Documented repression and debunked claims"
+          },
+          "blurb": {
+            "fr": "Violences commises lors du maintien de l'ordre et déclarations officielles contredites ensuite par les faits, avec leurs preuves.",
+            "en": "Violence committed during policing of protests and official statements later contradicted by the facts, with their evidence."
+          },
+          "cta": {
+            "fr": "Voir les cas",
+            "en": "See the cases"
+          }
+        },
+        {
+          "page": "victimes/index.md",
+          "icon": "material-hospital-box",
+          "title": {
+            "fr": "Blessé·es et mort·es en manifestation",
+            "en": "Injured and killed at protests"
+          },
+          "blurb": {
+            "fr": "Recensements de référence et cas établis de personnes tuées ou grièvement blessées lors d'opérations de maintien de l'ordre.",
+            "en": "Reference censuses and established cases of people killed or seriously injured during policing operations."
+          },
+          "cta": {
+            "fr": "Voir le recensement",
+            "en": "See the records"
+          }
+        },
+        {
+          "page": "guides/casse.md",
+          "icon": "material-fire",
+          "title": {
+            "fr": "Pourquoi ça casse en manif ?",
+            "en": "Why property gets smashed at protests"
+          },
+          "blurb": {
+            "fr": "Qui casse, pourquoi, ce que disent les études et ce que vous risquez.",
+            "en": "Who smashes, why, what studies say and what you risk."
+          },
+          "cta": {
+            "fr": "Lire le guide",
+            "en": "Read the guide"
+          }
+        }
+      ]
+    }
+  }
+}

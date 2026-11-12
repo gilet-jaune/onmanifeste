@@ -1,0 +1,22 @@
+{#- Dossiers of the "Comprendre" section (docs/data/dossiers.json): one source for the cards of the hub and
+the lists of the three section pages. `up` is the relative path from the calling page to docs/ (".." or "../.."). -#}
+
+{%- macro cards(lang, section, up) -%}
+<div class="grid cards" markdown="1">
+{% for it in dossiers[section]['items'] %}
+- **{{ it.title[lang] }}** [:{{ it.icon }}:]({{ up }}/{{ it.page }})
+
+    ***
+
+    {{ it.blurb[lang] }}
+
+    [:octicons-arrow-right-24: {{ it.cta[lang] }}]({{ up }}/{{ it.page }})
+{% endfor %}
+</div>
+{%- endmacro -%}
+
+{%- macro list(lang, section, up) -%}
+{% for it in dossiers[section]['items'] %}
+- [{{ it.title[lang] }}]({{ up }}/{{ it.page }}){{ ' :' if lang == 'fr' else ':' }} {{ it.blurb[lang] }}
+{%- endfor %}
+{%- endmacro -%}

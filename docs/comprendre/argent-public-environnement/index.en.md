@@ -11,7 +11,8 @@ tags:
 
 The files in this section date and source the choices that commit public finances and everyone's health: how the State finances itself and privatises, how it spends, and what court decisions say about the environment and health.
 
-- [Debt, privatisations and public money](../../dette-privatisations/index.md): State financing, privatisations, motorways, public spending and tax evasion.
-- [Environment and health](../../environnement-sante/index.md): Affaire du Siècle, glyphosate, neonicotinoids, with the readings of NGOs and the government.
+{% import "overrides/partials/dossiers.html" as d with context %}
+
+{{ d.list('en', 'argent-public-environnement', '../..') }}
 
 [:octicons-arrow-left-24: Back to Understand](../index.md)

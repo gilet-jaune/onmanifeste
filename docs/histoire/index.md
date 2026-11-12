@@ -20,6 +20,8 @@ Congés payés, droit de vote, retrait de lois : bien des droits d'aujourd'hui o
 
 ## La frise
 
+Chaque thème a aussi son dossier détaillé, avec ses propres filtres : voir [Comprendre](../comprendre/index.md).
+
 {{ h.timeline('fr') }}
 
 Une date manque ? [Proposez-la]({{ repositories.docs.url }}/issues/new?template=1-nouvelle-ressource.yml) ou modifiez `docs/data/history.json`.

@@ -183,6 +183,7 @@ plugins:
         - docs/data/rallier.json
         - docs/data/guide-themes.json
         - docs/data/routes.json
+        - docs/data/dossiers.json
         - docs/data/defaults.json
         - docs/data/check-levels.json
 

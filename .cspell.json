@@ -217,7 +217,9 @@
     "belgique",
     "Télécom",
     "l'UGAP",
-    "UGAP"
+    "UGAP",
+    "democratie",
+    "elus"
   ],
   "ignoreRegExpList": [
     "/^\\s*```[\\s\\S]*?```/gm",

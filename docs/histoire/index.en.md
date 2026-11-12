@@ -21,4 +21,6 @@ Paid holidays, the right to vote, bills withdrawn: many of today's rights were w
 
 ## The timeline
 
+Each theme also has its own detailed file, with its own filters: see [Understand](../comprendre/index.md).
+
 {{ h.timeline('en') }}

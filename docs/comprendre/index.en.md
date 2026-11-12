@@ -13,113 +13,21 @@ image_alt: ''
 
 Documented files and a selection of independent observatories to understand what social movements have won, check who owns the media, find verified public-finance figures and track elected officials. Click any organization to open its **contact card** (website, thematic files and social media).
 
+{% import "overrides/partials/dossiers.html" as d with context %}
+
 ## Documented files on this site
 
 ### Democracy and elected officials
 
-<div class="grid cards" markdown="1">
-
-- **Historical milestones** [:material-timeline-clock:](../histoire/index.md)
-
-    ***
-
-    From the storming of the Bastille to today's movements, and what the street won: paid holidays, the right to vote, bills withdrawn.
-
-    [:octicons-arrow-right-24: See the timeline](../histoire/index.md)
-
-- **Democratic channels flouted** [:material-vote-outline:](../confiance/index.md)
-
-    ***
-
-    The 2005 referendum bypassed, the Citizens' Convention for Climate emptied, 49.3, grievance books never published, governments in quick succession.
-
-    [:octicons-arrow-right-24: See the timeline](../confiance/index.md)
-
-- **Integrity and justice for elected officials** [:material-scale-balance:](../probite/index.md)
-
-    ***
-
-    Fillon, Sarkozy, Le Pen, Balkany: the court decisions handed down, their status (final or not) and the sentences cut short, with sources.
-
-    [:octicons-arrow-right-24: See the timeline](../probite/index.md)
-
-- **Benefits and resources of elected officials** [:material-cash-multiple:](../avantages-elus/index.md)
-
-    ***
-
-    Allowance, expense funds, staff and pension of deputies, end of lifetime benefits for former Prime Ministers: the official amounts and their limits.
-
-    [:octicons-arrow-right-24: See the page](../avantages-elus/index.md)
-
-- **Conflicts of interest** [:material-handshake-outline:](../conflits-interets/index.md)
-
-    ***
-
-    Legal definition (amended in 2025), role and limits of the HATVP, consulting firms, the Epstein case: sourced facts and what remains undecided.
-
-    [:octicons-arrow-right-24: See the page](../conflits-interets/index.md)
-
-</div>
+{{ d.cards('en', 'democratie-elus', '..') }}
 
 ### Public money and environment
 
-<div class="grid cards" markdown="1">
-
-- **Environment and health** [:material-leaf:](../environnement-sante/index.md)
-
-    ***
-
-    Affaire du Siècle, glyphosate, neonicotinoids: dated, sourced court decisions and texts, with the readings of NGOs and the government.
-
-    [:octicons-arrow-right-24: See the timeline](../environnement-sante/index.md)
-
-- **Debt, privatisations and public money** [:material-bank-outline:](../dette-privatisations/index.md)
-
-    ***
-
-    State debt and financing, privatisations, motorways, public spending and tax evasion: dated, sourced events you can filter by theme.
-
-    [:octicons-arrow-right-24: See the timeline](../dette-privatisations/index.md)
-
-</div>
+{{ d.cards('en', 'argent-public-environnement', '..') }}
 
 ### Freedoms and policing
 
-<div class="grid cards" markdown="1">
-
-- **Security and freedoms** [:material-shield-lock-outline:](../securite-libertes/index.md)
-
-    ***
-
-    State of emergency, the anti-rioters law, algorithmic cameras, "casseurs-payeurs": the laws since 2015 and what they change for protesting, with opinions from the UN, the Council of Europe and the LDH.
-
-    [:octicons-arrow-right-24: See the timeline](../securite-libertes/index.md)
-
-- **Documented repression and debunked claims** [:material-file-document-alert:](../repressions/index.md)
-
-    ***
-
-    Violence committed during policing of protests and official statements later contradicted by the facts, with their evidence.
-
-    [:octicons-arrow-right-24: See the cases](../repressions/index.md)
-
-- **Injured and killed at protests** [:material-hospital-box:](../victimes/index.md)
-
-    ***
-
-    Reference censuses and established cases of people killed or seriously injured during policing operations.
-
-    [:octicons-arrow-right-24: See the records](../victimes/index.md)
-
-- **Why property gets smashed at protests** [:material-hammer:](../guides/casse.md)
-
-    ***
-
-    Who smashes, why, what studies say about effectiveness, what you risk.
-
-    [:octicons-arrow-right-24: Read](../guides/casse.md)
-
-</div>
+{{ d.cards('en', 'libertes-maintien-ordre', '..') }}
 
 ## Who owns the media and how to check information
 

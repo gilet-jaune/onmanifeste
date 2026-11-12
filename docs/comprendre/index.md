@@ -12,113 +12,21 @@ image_alt: ''
 
 Des dossiers documentés et une sélection d'observatoires indépendants pour comprendre ce que les mobilisations ont obtenu, vérifier qui possède les médias, retrouver les ordres de grandeur du budget public et suivre l'action des élu·es. Cliquez sur un organisme pour ouvrir sa **fiche de contact** (site, dossiers thématiques et réseaux sociaux).
 
+{% import "overrides/partials/dossiers.html" as d with context %}
+
 ## Dossiers documentés sur ce site
 
 ### Démocratie et élus
 
-<div class="grid cards" markdown="1">
-
-- **Repères historiques** [:material-timeline-clock:](../histoire/index.md)
-
-    ***
-
-    De la prise de la Bastille aux mobilisations d'aujourd'hui, et ce que la rue a obtenu : congés payés, droit de vote, lois retirées.
-
-    [:octicons-arrow-right-24: Voir la frise](../histoire/index.md)
-
-- **Les voies démocratiques bafouées** [:material-vote-outline:](../confiance/index.md)
-
-    ***
-
-    Référendum de 2005 contourné, Convention citoyenne pour le climat vidée, 49.3, cahiers de doléances jamais publiés, valse des gouvernements.
-
-    [:octicons-arrow-right-24: Voir la frise](../confiance/index.md)
-
-- **Probité et justice des élus** [:material-scale-balance:](../probite/index.md)
-
-    ***
-
-    Fillon, Sarkozy, Le Pen, Balkany : les décisions de justice rendues, leur statut (définitif ou non) et les peines écourtées, avec les sources.
-
-    [:octicons-arrow-right-24: Voir la frise](../probite/index.md)
-
-- **Avantages et moyens des élus** [:material-cash-multiple:](../avantages-elus/index.md)
-
-    ***
-
-    Indemnité, frais de mandat, collaborateurs et retraite des député·es, fin des avantages à vie des anciens Premiers ministres : les montants officiels et leurs limites.
-
-    [:octicons-arrow-right-24: Voir la page](../avantages-elus/index.md)
-
-- **Conflits d'intérêts** [:material-handshake-outline:](../conflits-interets/index.md)
-
-    ***
-
-    Définition légale (modifiée en 2025), rôle et limites de la HATVP, cabinets de conseil, affaire Epstein : les faits sourcés et ce qui n'est pas tranché.
-
-    [:octicons-arrow-right-24: Voir la page](../conflits-interets/index.md)
-
-</div>
+{{ d.cards('fr', 'democratie-elus', '..') }}
 
 ### Argent public et environnement
 
-<div class="grid cards" markdown="1">
-
-- **Environnement et santé** [:material-leaf:](../environnement-sante/index.md)
-
-    ***
-
-    Affaire du siècle, glyphosate, néonicotinoïdes : les décisions de justice et les textes datés et sourcés, avec les lectures des ONG et du gouvernement.
-
-    [:octicons-arrow-right-24: Voir la frise](../environnement-sante/index.md)
-
-- **Dette, privatisations et argent public** [:material-bank-outline:](../dette-privatisations/index.md)
-
-    ***
-
-    Dette de l'État et financement, privatisations, autoroutes, dépense publique et évasion fiscale : des événements datés et sourcés, à filtrer par thème.
-
-    [:octicons-arrow-right-24: Voir la frise](../dette-privatisations/index.md)
-
-</div>
+{{ d.cards('fr', 'argent-public-environnement', '..') }}
 
 ### Libertés et maintien de l'ordre
 
-<div class="grid cards" markdown="1">
-
-- **Sécurité et libertés** [:material-shield-lock-outline:](../securite-libertes/index.md)
-
-    ***
-
-    État d'urgence, loi anticasseurs, caméras algorithmiques, « casseurs-payeurs » : les lois depuis 2015 et ce qu'elles changent pour manifester, avec les avis de l'ONU, du Conseil de l'Europe et de la LDH.
-
-    [:octicons-arrow-right-24: Voir la frise](../securite-libertes/index.md)
-
-- **Répressions et déclarations démenties** [:material-file-document-alert:](../repressions/index.md)
-
-    ***
-
-    Violences commises lors du maintien de l'ordre et déclarations officielles contredites ensuite par les faits, avec leurs preuves.
-
-    [:octicons-arrow-right-24: Voir les cas](../repressions/index.md)
-
-- **Blessé·es et mort·es en manifestation** [:material-hospital-box:](../victimes/index.md)
-
-    ***
-
-    Recensements de référence et cas établis de personnes tuées ou grièvement blessées lors d'opérations de maintien de l'ordre.
-
-    [:octicons-arrow-right-24: Voir le recensement](../victimes/index.md)
-
-- **Pourquoi ça casse en manif ?** [:material-hammer:](../guides/casse.md)
-
-    ***
-
-    Qui casse, pourquoi, ce que disent les études sur l'efficacité, ce que vous risquez.
-
-    [:octicons-arrow-right-24: Lire](../guides/casse.md)
-
-</div>
+{{ d.cards('fr', 'libertes-maintien-ordre', '..') }}
 
 ## Qui possède les médias et comment décrypter l'information
 
