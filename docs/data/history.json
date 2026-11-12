@@ -81,25 +81,17 @@
     }
   },
   "actors": {
-    "gouvernement": {
-      "fr": "Gouvernement et administration",
-      "en": "Government and administration"
-    },
-    "parlement": {
-      "fr": "Parlement",
-      "en": "Parliament"
-    },
-    "justice": {
-      "fr": "Justice",
-      "en": "Courts"
-    },
     "forces-de-l-ordre": {
       "fr": "Policiers et gendarmes",
       "en": "Police and gendarmes"
     },
-    "instances-internationales": {
-      "fr": "ONU et Europe",
-      "en": "UN and Europe"
+    "gouvernement": {
+      "fr": "Gouvernement et administration",
+      "en": "Government and administration"
+    },
+    "elus": {
+      "fr": "Élu·es et responsables politiques",
+      "en": "Elected officials and political leaders"
     },
     "entreprises": {
       "fr": "Entreprises",
@@ -600,7 +592,6 @@
         "en": "Banque de France Act: end of the discounting of Treasury bills"
       },
       "kinds": ["finances"],
-      "actors": ["parlement"],
       "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006701383/1973-01-04",
       "description": {
         "fr": "L'article 25 interdit au Trésor public de présenter ses propres effets à l'escompte de la Banque de France. On cite souvent cette loi comme celle qui aurait coupé l'État de sa banque centrale. Une étude historique publiée par La Vie des idées conclut au contraire à une rationalisation : une convention de septembre 1973 maintient des concours de la Banque au Trésor, plafonnés à 20,5 milliards de francs dont la moitié gratuits, et l'État peut s'y financer jusqu'à la loi du 4 août 1993.",
@@ -697,7 +688,6 @@
         "en": "Around 1984, the State finances itself mainly on the markets"
       },
       "kinds": ["finances"],
-      "actors": ["gouvernement"],
       "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
       "description": {
         "fr": "Selon l'étude de La Vie des idées, la part du déficit financée par les marchés double en 1984 par rapport à 1983, alors que la part du financement monétaire est divisée par deux. L'étude y voit un choix des années 1980, lié à la lutte contre l'inflation et à la convergence au sein du système monétaire européen, et non un effet de la loi de 1973. Elle note que la quasi-totalité des banques françaises étaient alors publiques, après les nationalisations de 1982.",
@@ -851,7 +841,6 @@
         "en": "Act of 4 August 1993: independence of the Banque de France"
       },
       "kinds": ["finances"],
-      "actors": ["parlement"],
       "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
       "description": {
         "fr": "Votée dans le cadre des dispositions du traité de Maastricht, elle abroge l'article 25 de la loi de 1973 à compter du 1er janvier 1994 (Légifrance). Selon La Vie des idées, elle consacre l'indépendance de la Banque et met fin à toute possibilité de financement de l'État par la banque centrale : la rupture que l'on attribue souvent à 1973 date donc de 1993.",
@@ -880,7 +869,6 @@
         "en": "Maastricht: the ban on monetary financing"
       },
       "kinds": ["finances"],
-      "actors": ["instances-internationales"],
       "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:12016E123",
       "description": {
         "fr": "Le traité de Maastricht entre en vigueur et prépare la monnaie unique. La règle, aujourd'hui à l'article 123 du TFUE, interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout autre crédit aux États, collectivités, autres autorités publiques et entreprises publiques, et d'acquérir directement leur dette. Elle vise les banques centrales, pas toutes les banques publiques : le § 2 traite les établissements publics de crédit comme les établissements privés pour la liquidité fournie par la banque centrale, et l'article 124 interdit tout accès privilégié des autorités publiques aux institutions financières, sauf raison prudentielle.",
@@ -1204,7 +1192,7 @@
         "en": "Death of Rémi Fraisse"
       },
       "kinds": ["repression"],
-      "actors": ["forces-de-l-ordre", "instances-internationales"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
       "description": {
         "fr": "Militant écologiste de 21 ans tué par une grenade de gendarmerie au barrage de Sivens. La grenade OF-F1 est interdite en 2017 ; la Cour européenne des droits de l'homme condamne la France pour violation du droit à la vie.",
@@ -1227,6 +1215,7 @@
         "en": "Rémi Fraisse: the backpack theory"
       },
       "kinds": ["desinformation"],
+      "actors": ["gouvernement", "forces-de-l-ordre"],
       "url": "https://fr.wikipedia.org/wiki/Mort_de_R%C3%A9mi_Fraisse",
       "description": {
         "fr": "Au barrage de Sivens, un militant écologiste de 21 ans est tué dans la nuit du 25 au 26 octobre 2014 par une explosion.",
@@ -1258,7 +1247,6 @@
         "en": "ECB: purchases of public bonds on secondary markets"
       },
       "kinds": ["finances"],
-      "actors": ["instances-internationales"],
       "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62017CJ0493",
       "description": {
         "fr": "La décision (UE) 2015/774 de la BCE du 4 mars 2015 crée un programme d'achats d'actifs du secteur public sur les marchés secondaires : l'Eurosystème rachète des titres déjà émis, et non des titres acquis directement auprès des États, ce que l'article 123 interdit. Saisie par la Cour constitutionnelle allemande, la Cour de justice juge le 11 décembre 2018 (affaire Weiss) que l'examen des questions posées, dont celle de l'interdiction du financement monétaire, n'a révélé aucun élément de nature à affecter la validité de la décision.",
@@ -1330,7 +1318,7 @@
         "en": "Panama Papers: 11.5 million documents on offshore companies"
       },
       "kinds": ["finances"],
-      "actors": ["entreprises"],
+      "actors": ["entreprises", "elus"],
       "url": "https://www.icij.org/investigations/panama-papers/",
       "description": {
         "fr": "Le Consortium international de journalistes d'investigation (ICIJ), le quotidien allemand Süddeutsche Zeitung et plus de cent médias partenaires, dont Le Monde, publient des articles tirés de plus de 11,5 millions de documents du cabinet panaméen Mossack Fonseca. Selon l'AFP, ils détaillent plus de 214 000 sociétés offshore et mettent en cause quelque 150 milliardaires, personnalités et responsables politiques pour avoir caché des biens ou des capitaux au fisc. L'ICIJ attribue à l'enquête la chute de dirigeants politiques en Islande et au Pakistan, ainsi que des arrestations, de nouvelles lois et des enquêtes dans des dizaines de pays.",
@@ -1406,7 +1394,7 @@
         "en": "Racial profiling: the State definitively convicted"
       },
       "kinds": ["discrimination"],
-      "actors": ["justice", "forces-de-l-ordre"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://www.politis.fr/articles/2016/11/controles-au-facies-letat-condamne-35791",
       "description": {
         "fr": "La Cour de cassation condamne définitivement l'État pour « faute lourde » dans trois dossiers de contrôles d'identité réalisés en fonction de l'apparence physique : une première. En janvier 2017, l'enquête du Défenseur des droits établit que les jeunes hommes perçus comme noirs ou arabes ont une probabilité 20 fois plus élevée d'être contrôlés que le reste de la population.",
@@ -1487,7 +1475,6 @@
         "en": "Panama Papers: the national financial prosecutor examines 26 cases"
       },
       "kinds": ["finances"],
-      "actors": ["justice"],
       "url": "https://www.franceinfo.fr/economie/fraude/panama-papers/panama-papers-un-an-apres-la-justice-francaise-s-interesse-a-26-dossiers-lies-aux-revelations_2130811.html",
       "description": {
         "fr": "Un an après les révélations, le parquet national financier, qui a ouvert une enquête préliminaire pour « blanchiment de fraudes fiscales aggravées », se penche sur 26 dossiers, selon un point d'étape publié par Le Monde et confirmé à franceinfo de source proche du dossier. Les suites judiciaires françaises de ces dossiers ne sont pas documentées ici.",
@@ -1616,6 +1603,7 @@
         "en": "Zineb Redouane: 'the police did not kill'"
       },
       "kinds": ["desinformation"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Zineb_Redouane",
       "description": {
         "fr": "À Marseille, une femme de 80 ans touchée au visage par une grenade lacrymogène alors qu'elle fermait ses volets meurt le lendemain à l'hôpital.",
@@ -1673,6 +1661,7 @@
         "en": "Castaner: 'no police officer attacked protesters'"
       },
       "kinds": ["desinformation"],
+      "actors": ["gouvernement", "forces-de-l-ordre"],
       "url": "https://questions.assemblee-nationale.fr/q15/15-1544QG.htm",
       "description": {
         "fr": "Pendant le mouvement des gilets jaunes, le ministre de l'Intérieur nie toute violence policière devant l'Assemblée nationale.",
@@ -1725,7 +1714,7 @@
         "by": "ai"
       },
       "natures": ["avis-instance"],
-      "actors": ["forces-de-l-ordre", "gouvernement"],
+      "actors": ["gouvernement", "forces-de-l-ordre"],
       "summary": {
         "fr": "Début 2019, des expert·es de l'ONU, la commissaire aux droits de l'homme du Conseil de l'Europe puis la Haute-Commissaire de l'ONU alertent sur des restrictions disproportionnées, l'usage du LBD et les violences. La loi d'avril 2019 retiendra le délit de dissimulation du visage.",
         "en": "In early 2019 UN experts, the Council of Europe human rights commissioner and then the UN High Commissioner warn of disproportionate restrictions, use of the LBD and violence. The April 2019 law keeps the face-covering offence."
@@ -1761,7 +1750,7 @@
         "en": "Geneviève Legay (Nice)"
       },
       "kinds": ["repression"],
-      "actors": ["forces-de-l-ordre", "justice"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://www.politis.fr/articles/2024/05/affaire-genevieve-legay-letat-juge-responsable/",
       "description": {
         "fr": "Une militante de 73 ans est grièvement blessée à la tête lors d'une charge policière. Le commissaire ayant ordonné la charge est condamné ; l'État est jugé responsable.",
@@ -1861,6 +1850,7 @@
         "en": "The Pitié-Salpêtrière 'attack'"
       },
       "kinds": ["desinformation"],
+      "actors": ["gouvernement"],
       "url": "https://www.allodocteurs.fr/se-soigner-hopital-non-il-ny-a-pas-eu-dattaque-de-la-pitie-salpetriere-1-27032.html",
       "description": {
         "fr": "Le 1er Mai, des manifestant·es entrent dans l'enceinte de l'hôpital ; le ministre de l'Intérieur parle d'une « attaque ».",
@@ -1967,7 +1957,6 @@
         "en": "The State takes over €35 billion of SNCF Réseau debt"
       },
       "kinds": ["privatisation", "finances"],
-      "actors": ["gouvernement"],
       "url": "https://www.senat.fr/rap/r21-570/r21-570_mono.html",
       "description": {
         "fr": "La reprise se fait en deux temps : 25 Md€ au 1er janvier 2020, puis 10 Md€ au 1er janvier 2022. Selon la commission des finances du Sénat (mars 2022), elle allège nettement les frais financiers de SNCF Réseau, mais elle vient surtout solder a posteriori l'historique des déficits d'investissement de l'État dans ses infrastructures ; la dette du groupe reste supérieure à 26 Md€ et sa maîtrise demeure un objectif très incertain. Une règle d'or renforcée par la réforme de 2018 doit éviter que la dette se reconstitue.",
@@ -2090,7 +2079,7 @@
         "en": "Privatised motorways: profits beyond forecasts"
       },
       "kinds": ["privatisation", "finances"],
-      "actors": ["gouvernement", "entreprises"],
+      "actors": ["entreprises", "gouvernement"],
       "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
       "description": {
         "fr": "En 2006, le gouvernement de Dominique de Villepin vend les sociétés d'autoroutes pour environ 15 milliards d'euros. En 2020, une commission d'enquête du Sénat montre que leur rentabilité dépasse les prévisions. La suite lui donne raison : Vinci atteint dès 2023 et Eiffage fin 2024 la rentabilité visée pour toute la durée de concessions qui courent jusqu'en 2031-2036, avec environ 32 milliards d'euros de surprofits attendus.",
@@ -2320,7 +2309,7 @@
         "en": "Balkany: the Court of Appeal confirms his conditional release, without an electronic tag"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://www.lalibre.be/international/europe/2022/08/04/patrick-balkany-autorise-a-sortir-de-prison-vendredi-BFO7UYFVKVCQVKVDODA3XEUMEI/",
       "description": {
         "fr": "La cour d'appel de Paris confirme la décision du tribunal d'application des peines d'Évry du 30 mai 2022 : libération conditionnelle de Patrick Balkany à compter du 5 août 2022, sans bracelet électronique. Le parquet avait fait appel, ce qui l'avait maintenu en détention entre-temps. Ses avocats soulignent qu'il avait purgé les deux tiers de sa peine ; la cour parle d'un « ultime avertissement » et fixe des obligations (réparer les dommages, justifier du paiement régulier des impôts).",
@@ -2359,7 +2348,7 @@
         "by": "ai"
       },
       "natures": ["procedure"],
-      "actors": ["justice", "entreprises"],
+      "actors": ["entreprises", "elus"],
       "summary": {
         "fr": "Le parquet national financier ouvre deux informations judiciaires sur le rôle des cabinets de conseil dans les campagnes de 2017 et 2022 (comptes de campagne ; favoritisme). Procédures en cours : ni mise en examen ni décision dans les sources lues.",
         "en": "The national financial prosecutor opens two judicial investigations into consultancies' role in the 2017 and 2022 campaigns (campaign accounts; favouritism). Ongoing procedures: no indictment or ruling in the sources read."
@@ -2473,6 +2462,7 @@
         "en": "Sainte-Soline: 'no LBD fired from quad bikes'"
       },
       "kinds": ["desinformation"],
+      "actors": ["gouvernement"],
       "url": "https://www.politis.fr/articles/2023/03/repression-a-sainte-soline-les-trois-mensonges-de-letat/",
       "description": {
         "fr": "Après la manifestation contre les méga-bassines, le ministre de l'Intérieur dément l'usage de LBD par les gendarmes à quad.",
@@ -2585,7 +2575,7 @@
         "en": "Death of Nahel Merzouk"
       },
       "kinds": ["soulevement", "repression", "impunite"],
-      "actors": ["forces-de-l-ordre", "justice"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Nahel_Merzouk",
       "description": {
         "fr": "Le 27 juin 2023, un adolescent de 17 ans est tué d'un tir à bout portant par un policier lors d'un contrôle routier à Nanterre ; plusieurs nuits de révoltes urbaines suivent. La version policière initiale est contredite par une vidéo amateur. Le parquet de Nanterre requiert un procès pour meurtre en mars 2025 ; la procédure se poursuit (voir l'événement du 10 juin 2026). Le policier est présumé innocent tant qu'il n'est pas jugé.",
@@ -2676,7 +2666,6 @@
         "en": "Ciivise: 3% of those accused of raping a minor convicted"
       },
       "kinds": ["impunite"],
-      "actors": ["justice"],
       "url": "https://www.ciivise.fr/",
       "description": {
         "fr": "La Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants remet son rapport après 30 000 témoignages : 160 000 enfants sont victimes de violences sexuelles chaque année, seuls 19 % des victimes portent plainte (12 % en cas d'inceste) et seuls 3 % des mis en cause pour viol sur mineur sont condamnés. Son président parle d'un « régime d'impunité ».",
@@ -2755,7 +2744,7 @@
       },
       "kinds": ["impunite", "repression"],
       "natures": ["decision"],
-      "actors": ["justice", "forces-de-l-ordre"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://www.lagazettefrance.fr/article/affaire-theo-trois-policiers-condamnes-a-des-peines-de-3-a-12-mois-de-prison-avec-sursis",
       "description": {
         "fr": "Le 19 janvier 2024, après plus de neuf heures de délibéré, la cour d'assises de Seine-Saint-Denis condamne les trois policiers pour violences volontaires : douze mois de prison avec sursis et cinq ans d'interdiction d'exercer sur la voie publique pour l'auteur du coup de matraque, trois mois avec sursis chacun pour les deux autres. Elle n'a pas retenu la qualification de violences ayant entraîné une mutilation ou infirmité permanente, et les peines sont inférieures aux réquisitions de l'avocat général (de trois mois à trois ans avec sursis). Selon l'AFP, l'avocat de la victime parle d'une décision d'apaisement qu'il prend comme une victoire, la défense d'un immense soulagement. La préfecture de police annonce de possibles sanctions disciplinaires. Les sources lues ne disent pas si le jugement est devenu définitif.",
@@ -2805,7 +2794,7 @@
         "en": "Consulting firms: the Senate unanimously adopts on second reading the bill regulating them"
       },
       "kinds": ["finances"],
-      "actors": ["parlement"],
+      "actors": ["entreprises"],
       "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-encadrant-lintervention-des-cabinets-de-conseil-prives-dans-les-politiques-publiques.html",
       "description": {
         "fr": "Déposée le 21 juin 2022 pour mettre en œuvre les recommandations de la commission d'enquête, la proposition de loi vise à mettre fin à l'opacité des prestations, à mieux encadrer le recours aux consultants, à renforcer leurs obligations déontologiques et à protéger les données de l'administration. Le 28 mai 2024, le Sénat l'adopte à l'unanimité avec modifications en deuxième lecture (contrôle sur place et sanctions administratives de la HATVP, exclusion des collectivités) et la transmet à l'Assemblée nationale. Selon la page du Sénat, relue le 11 novembre 2026, le texte est toujours « en cours » : il n'est pas adopté définitivement.",
@@ -2851,7 +2840,7 @@
         "en": "Panama: all 28 defendants acquitted in the Mossack Fonseca trial"
       },
       "kinds": ["finances"],
-      "actors": ["justice"],
+      "actors": ["entreprises"],
       "url": "https://www.france24.com/en/live-news/20240629-panamanian-court-acquits-28-defendants-in-panama-papers-trial",
       "description": {
         "fr": "Un tribunal panaméen acquitte 28 personnes poursuivies pour blanchiment d'argent en lien avec Mossack Fonseca, dont les deux fondateurs du cabinet (l'un d'eux est mort en mai 2024). La juge estime que les éléments tirés des serveurs du cabinet n'ont pas été recueillis dans le respect de la procédure. C'est l'issue du procès tenu à Panama à partir d'avril 2024.",
@@ -3012,7 +3001,7 @@
         "en": "Wiretapping case: Nicolas Sarkozy finally sentenced, one year firm under an electronic tag"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://www.courdecassation.fr/decision/67626d77d9347f6c9aef808c",
       "description": {
         "fr": "La chambre criminelle de la Cour de cassation rejette les pourvois et rend définitive la condamnation de l'ancien président dans l'affaire dite des écoutes (« Bismuth ») : l'arrêt de la cour d'appel de Paris du 17 mai 2023 le condamnait pour corruption active d'un magistrat et trafic d'influence actif à trois ans d'emprisonnement dont deux avec sursis et trois ans de privation de droits civiques, civils et de famille. La partie ferme, un an, est exécutée sous bracelet électronique, une première pour un ancien chef de l'État selon Public Sénat.",
@@ -3112,7 +3101,7 @@
         "en": "FN parliamentary assistants: Marine Le Pen sentenced at first instance"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://lcp.fr/actualites/justice-marine-le-pen-condamnee-a-cinq-ans-d-ineligibilite-avec-execution-immediate-pour",
       "description": {
         "fr": "Le tribunal correctionnel de Paris reconnaît Marine Le Pen coupable de détournement de fonds publics (assistants d'eurodéputés, 2004-2016) et la condamne à quatre ans de prison dont deux ferme aménagés sous bracelet, 100 000 € d'amende et cinq ans d'inéligibilité avec exécution provisoire. Elle fait appel. Marine Le Pen conteste les accusations et dénonce une décision politique.",
@@ -3183,7 +3172,7 @@
         "en": "Fillon: after a third trial, four years suspended"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://www.franceinfo.fr/politique/francois-fillon/affaires-fillon/emplois-fictifs-francois-fillon-se-desiste-de-son-pourvoi-en-cassation-sa-peine-devient-definitive_7809797.html",
       "description": {
         "fr": "La cour d'appel de Paris, rejugeant la peine, condamne François Fillon à quatre ans de prison avec sursis, 375 000 € d'amende et cinq ans d'inéligibilité. Le 16 février 2026, il se désiste de son pourvoi en cassation : la peine devient définitive, sa culpabilité l'étant déjà. La peine finale ne comporte donc plus de prison ferme, alors que l'arrêt de 2022 prévoyait un an ferme et dix ans d'inéligibilité.",
@@ -3363,7 +3352,7 @@
         "en": "Libyan financing: Nicolas Sarkozy sentenced to five years at first instance"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://www.leclubdesjuristes.com/en-bref/nicolas-sarkozy-remis-en-liberte-sous-controle-judiciaire-12884/",
       "description": {
         "fr": "Le tribunal correctionnel de Paris reconnaît Nicolas Sarkozy coupable d'association de malfaiteurs dans l'affaire du financement libyen de sa campagne de 2007 et le condamne à cinq ans de prison, avec mandat de dépôt et exécution provisoire. Il le relaxe des trois autres chefs (corruption passive, recel de détournement de fonds publics, financement illégal de campagne). Le jugement n'est pas définitif : en appel, au printemps 2026, le parquet général a requis la condamnation sur les quatre chefs, avec sept ans de prison, 300 000 € d'amende et cinq ans d'inéligibilité. À la date de vérification (11 novembre 2026), aucun arrêt d'appel n'a été trouvé.",
@@ -3448,7 +3437,7 @@
         "en": "Sarkozy released under judicial supervision after twenty days in detention"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://www.leclubdesjuristes.com/en-bref/nicolas-sarkozy-remis-en-liberte-sous-controle-judiciaire-12884/",
       "description": {
         "fr": "La cour d'appel de Paris, suivant les réquisitions du parquet général, remet Nicolas Sarkozy en liberté sous contrôle judiciaire (interdiction de quitter le territoire et d'entrer en contact avec les autres prévenus). Il n'a pas été libéré par grâce ni par fin de peine : sa condamnation de première instance n'est pas définitive et, selon l'article 144 du code de procédure pénale cité par le Club des Juristes, la détention avant jugement définitif ne peut être maintenue que si elle est l'unique moyen d'éviter la disparition des preuves, les pressions, la fuite ou la récidive.",
@@ -3500,7 +3489,7 @@
         "en": "Balkany: conditional release granted for the remaining 18 months"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://www.leclubdesjuristes.com/en-bref/fraude-fiscale-patrick-balkany-obtient-la-liberation-conditionnelle-13667/",
       "description": {
         "fr": "Le tribunal de l'application des peines d'Évreux accorde une libération conditionnelle à Patrick Balkany pour l'exécution de la peine de quatre ans et demi prononcée le 9 janvier 2023 (fraude fiscale, dissimulation d'avoirs, déclaration patrimoniale mensongère, prise illégale d'intérêts), dont dix-huit mois restaient à exécuter. Motifs : son âge, son état de santé, le faible risque de récidive, le respect de la mesure et l'effort financier ; la probation est prolongée jusqu'en juillet 2028 pour garantir le remboursement des sommes dues.",
@@ -3601,7 +3590,6 @@
         "en": "Panama Papers, ten years on: €271 million assessed in France"
       },
       "kinds": ["finances"],
-      "actors": ["gouvernement"],
       "url": "https://www.france24.com/fr/info-en-continu/20260403-panama-papers-271-millions-d-euros-mis-en-recouvrement-par-le-fisc-fran%C3%A7ais-depuis-les-r%C3%A9v%C3%A9lations",
       "description": {
         "fr": "La direction générale des finances publiques indique à l'AFP que les régularisations et contrôles terminés au 31 décembre 2025 représentent 271 M€ de droits et pénalités pour 230 dossiers, sur plus de 600 examinés depuis avril 2016. Ce montant n'est pas la somme effectivement recouvrée, que la DGFiP n'a pas pu fournir. L'ONG Oxfam estime, elle, à 3 550 Md$ en 2024 les avoirs non imposés abrités dans des paradis fiscaux et des comptes non déclarés (estimation de l'ONG).",
@@ -3627,7 +3615,6 @@
         "en": "Public debt at end-2025: €3,460.5 billion and €64.7 billion in interest"
       },
       "kinds": ["finances"],
-      "actors": ["gouvernement"],
       "url": "https://www.insee.fr/fr/statistiques/8997691",
       "description": {
         "fr": "Selon l'INSEE, la dette publique au sens de Maastricht atteint 3 460,5 Md€ fin 2025, soit 115,7 % du PIB (112,6 % fin 2024, 97,9 % en 2019). La charge d'intérêts s'établit à 64,7 Md€ en 2025 (+11,2 %), sous l'effet de la hausse de l'encours et de la remontée des taux depuis 2022. La hausse de la dette de l'État (+136,2 Md€) passe surtout par des titres de long terme (+140,8 Md€), émis sur les marchés.",
@@ -3653,7 +3640,7 @@
       },
       "kinds": ["impunite", "repression"],
       "natures": ["decision", "procedure"],
-      "actors": ["justice", "forces-de-l-ordre"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://index.ngo/veille/mort-de-nahel-la-cour-de-cassation-annule-l-arret-qui-ecartait-la-qualification-de-meurtre",
       "description": {
         "fr": "Le 3 juin 2025, deux juges d'instruction ordonnent le renvoi du policier devant la cour d'assises pour meurtre, comme l'avait demandé le parquet de Nanterre, d'après l'AFP. Le 5 mars 2026, la chambre de l'instruction de la cour d'appel de Versailles écarte l'intention de donner la mort et le renvoie pour violences ayant entraîné la mort sans intention de la donner. Le 10 juin 2026 (pourvoi n° 26-81.675), la chambre criminelle de la Cour de cassation annule cette décision pour défaut de motivation ; elle confirme le non-lieu du second policier. L'affaire est renvoyée devant la chambre de l'instruction de Versailles, autrement composée ; la légalité du tir au regard de l'article L. 435-1 du code de la sécurité intérieure reste à examiner. Le Club des juristes indique un réexamen le 29 septembre 2026 ; nous n'avons trouvé aucune décision depuis, ni date de procès. Aucun jugement sur le fond n'est intervenu : le policier est présumé innocent.",
@@ -3715,7 +3702,7 @@
         "en": "FN parliamentary assistants: on appeal, three years including one firm for Marine Le Pen"
       },
       "kinds": ["probite"],
-      "actors": ["justice"],
+      "actors": ["elus"],
       "url": "https://lcp.fr/actualites/marine-le-pen-condamnee-dans-l-affaire-des-assistants-parlementaires-reste-eligible-pour",
       "description": {
         "fr": "La cour d'appel de Paris condamne Marine Le Pen pour détournement de fonds publics à trois ans de prison dont deux avec sursis (un an ferme aménageable sous bracelet), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. Compte tenu de l'exécution provisoire prononcée en première instance, les 15 mois fermes d'inéligibilité sont déjà purgés, ce qui lui laisse la possibilité de se présenter en 2027. La peine est donc réduite par rapport au jugement de 2025. La décision n'est pas définitive : Marine Le Pen s'est pourvue en cassation, et la Cour de cassation a annoncé qu'elle pourrait statuer d'ici début avril 2027 (avant le premier tour du 18 avril), calendrier susceptible d'évoluer.",
@@ -3890,7 +3877,7 @@
         "by": "ai"
       },
       "natures": ["procedure"],
-      "actors": ["justice", "entreprises"],
+      "actors": ["entreprises"],
       "summary": {
         "fr": "Le PNF et le parquet de Bruxelles annoncent une saisie d'environ 65 M€ dans l'enquête sur McKinsey pour blanchiment de fraude fiscale aggravée, soit 96 % du préjudice fiscal selon le PNF. Une saisie n'est pas une condamnation : aucune mise en examen trouvée.",
         "en": "The PNF and the Brussels prosecutor announce a seizure of about €65m in the McKinsey probe for laundering aggravated tax fraud, 96% of the tax loss per the PNF. A seizure is not a conviction: no indictment found."
@@ -3904,7 +3891,7 @@
         "en": "Carcassonne: racist remarks caught on a body camera"
       },
       "kinds": ["discrimination"],
-      "actors": ["forces-de-l-ordre", "justice"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://www.france24.com/fr/info-en-continu/20260909-propos-racistes-d-un-policier-de-carcassonne-une-enqu%C3%AAte-ouverte",
       "description": {
         "fr": "Une vidéo de novembre 2025, enregistrée par la caméra-piéton d'un agent et révélée par Midi Libre, montre des policiers municipaux de Carcassonne tenir des propos racistes, sexistes et complotistes. Le parquet ouvre une enquête ; les agents sont suspendus et leurs agréments retirés.",
@@ -3985,7 +3972,7 @@
         "en": "Student movement: the Interior Minister suspends stun grenades after an injury in Lens"
       },
       "kinds": ["repression"],
-      "actors": ["gouvernement", "forces-de-l-ordre"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://actu.orange.fr/france/mobilisation-des-lyceens-laurent-nunez-suspend-l-usage-des-grenades-assourdissantes-magic-CNT000002snusk.html",
       "description": {
         "fr": "Le 5 octobre 2026 à Lens, un lycéen de 15 ans a la main arrachée par une grenade ; une enquête de l'IGPN est ouverte. Invité de RTL le 7 octobre, Laurent Nuñez déclare : « Je suspends leur usage pour le mouvement des lycéens », tant que la lumière n'a pas été faite sur ce qui s'est passé. Un télégramme de la direction générale de la police nationale suspend « à titre conservatoire » la grenade ASSD, qui pourrait être impliquée. La mesure est ciblée sur le mouvement lycéen : ce n'est pas une interdiction générale. Le modèle de la grenade de Lens reste disputé (GM2L selon RTL, ASSD selon le télégramme, EF-SON selon Le Monde cité par un site local), tout comme les circonstances : le parquet ne peut pas dire si le jeune l'a ramassée ou si elle a été lancée sur lui. Le ministre comptait alors 18 enquêtes de l'IGPN ; des élu·es de gauche demandent l'interdiction de ces armes.",
@@ -4197,7 +4184,7 @@
         "en": "Conseil d'État: what the HATVP can and cannot rule on regarding conflicts of interest"
       },
       "kinds": ["probite"],
-      "actors": ["justice", "gouvernement"],
+      "actors": ["elus"],
       "url": "https://www.conseil-etat.fr/actualites/prevention-des-conflits-d-interets-le-conseil-d-etat-precise-les-regles-et-l-office-de-la-haute-autorite-pour-la-transparence-de-la-vie-publique",
       "description": {
         "fr": "Saisi de deux recours contre trois délibérations de la HATVP, le Conseil d'État (assemblée du contentieux, décisions n° 505836 et n° 514106) se prononce pour la première fois sur le contrôle de la déclaration d'intérêts d'un ministre. Il juge que la HATVP doit rechercher si l'ensemble des intérêts détenus par un ministre au cours des cinq années précédant sa nomination est d'une intensité suffisante pour influencer, ou sembler influencer, ses fonctions, mais qu'il ne lui appartient pas de se prononcer sur un risque pénal, réservé au juge pénal. Il juge aussi qu'un mandat d'administrateur d'une société lucrative, même bénévole, est une activité lucrative dans le privé, et que pour un projet de départ vers le privé la HATVP doit apprécier le risque, sous le contrôle du juge, que le délit de prise illégale d'intérêts soit constitué. Il annule les trois délibérations contestées, qui concernaient un ministre et un ancien directeur général de la Caisse des dépôts.",
@@ -4395,7 +4382,7 @@
         "en": "Micas against protesters: first appeals examined on the merits"
       },
       "kinds": ["securite-libertes", "repression"],
-      "actors": ["justice", "gouvernement"],
+      "actors": ["gouvernement"],
       "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
       "description": {
         "fr": "Selon le résumé public de Mediapart, les premiers recours contre les Micas utilisées pour assigner des manifestants à résidence ont été examinés sur le fond, le mardi 10 novembre 2026, par les tribunaux administratifs. L'article complet est réservé aux abonnés et n'a pas été lu ici : ni le détail des audiences ni les décisions ne sont documentés.",

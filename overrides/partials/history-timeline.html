@@ -90,10 +90,11 @@ across kinds, e.g. the security-and-freedoms page). -#}
     mostly untagged timeline it would look exhaustive while hiding most events. -#}
 {%- set tagged = shown | selectattr('natures') | list | length -%}
 {%- set show_natures = shown_natures | length > 1 and tagged * 2 >= shown | length -%}
-{#- The "who" filter (who an event is about) exists only for the accountability events (offences, fraud,
-    killings, impunity, discrimination): protest events carry no actor and simply drop out when it is
-    used. It is offered when at least three actors appear among the shown events. -#}
-{%- set show_actors = shown_actors | length > 2 -%}
+{#- The "implicated" filter lists who is put in question by an event (not who judges, investigates or
+    reports on it), only for accountability events (offences, fraud, killings, impunity,
+    discrimination). Other events carry no actor and drop out when it is used. It is offered when at
+    least two appear among the shown events. -#}
+{%- set show_actors = shown_actors | length > 1 -%}
 {%- set shown_ids = shown | map(attribute='id') | list -%}
 {%- set shown_periods = [] -%}
 {%- for e in shown %}{% set p = period_of(e.date[:4] | int) | int %}{% if p not in shown_periods %}{% set _ = shown_periods.append(p) %}{% endif %}{% endfor -%}
@@ -111,7 +112,7 @@ across kinds, e.g. the security-and-freedoms page). -#}
   <button type="button" class="timeline-filters__chip" data-nature="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
   {%- endfor %}{% endif %}
   {%- if show_actors %}
-  <span class="timeline-filters__label">{{ 'Chez qui :' if lang == 'fr' else 'Who:' }}</span>
+  <span class="timeline-filters__label">{{ 'Mis en cause :' if lang == 'fr' else 'Implicated:' }}</span>
   {%- for k, label in actors.items() if k in shown_actors %}
   <button type="button" class="timeline-filters__chip" data-actor="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
   {%- endfor %}{% endif %}
@@ -141,7 +142,7 @@ across kinds, e.g. the security-and-freedoms page). -#}
       <span class="timeline__nature">{% for n in e.natures %}{{ ' · ' if not loop.first }}{{ natures[n][lang] or natures[n].fr }}{% endfor %}</span>
       {%- endif %}
       {%- if e.actors %}
-      <span class="timeline__actor">{{ 'Chez : ' if lang == 'fr' else 'Who: ' }}{% for a in e.actors %}{{ ' · ' if not loop.first }}{{ actors[a][lang] or actors[a].fr }}{% endfor %}</span>
+      <span class="timeline__actor">{{ 'Mis en cause : ' if lang == 'fr' else 'Implicated: ' }}{% for a in e.actors %}{{ ' · ' if not loop.first }}{{ actors[a][lang] or actors[a].fr }}{% endfor %}</span>
       {%- endif %}
       <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title[lang] or e.title.fr }}</a> <a class="timeline__permalink" href="#evt-{{ e.id }}" aria-label="{{ 'Lien vers cet événement' if lang == 'fr' else 'Link to this event' }}">#</a></h3>
       {#- A card shows the summary when there is one, otherwise the description (folded by CSS once the script runs). -#}
