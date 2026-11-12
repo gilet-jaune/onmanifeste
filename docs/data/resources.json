@@ -4378,6 +4378,39 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    {
+      "id": "presidentielle-2027-comparatif",
+      "name": "Présidentielle 2027 : comparatif des propositions",
+      "url": "https://presidentielle-2027-comparatif.netlify.app/",
+      "category": "democratie",
+      "tags": ["elections", "programmes", "votes", "comparatif", "gratuit"],
+      "description": {
+        "fr": "Comparatif des propositions de neuf partis ou candidats pour 2027 sur onze thèmes, avec coûts annoncés, sources liées et votes à l'Assemblée depuis 2018. Les chiffres sont ceux des partis eux-mêmes ; éditeur non identifié.",
+        "en": "Comparison of nine parties' or candidates' 2027 proposals across eleven themes, with announced costs, linked sources and Assembly votes since 2018. Figures are the parties' own; publisher not identified. In French."
+      },
+      "check": {
+        "date": "2026-11-12",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Éditeur non nommé (site anonyme sur netlify.app), page lue en partie (sections Méthode et sources liées non ouvertes) ; chiffres des partis non vérifiés. Dit être « sans publicité, sans consigne de vote »."
+      }
+    },
+    {
+      "id": "deborder-bollore",
+      "name": "Déborder Bolloré",
+      "url": "https://deborderbollore.fr/",
+      "category": "medias",
+      "tags": ["concentration-medias", "edition", "livres", "gratuit"],
+      "description": {
+        "fr": "Recueil collectif coédité par plus d'une centaine d'éditeurices indépendant·es sur la concentration des médias et de l'édition : tome 1 publié en juin 2025, tome 2 annoncé pour février 2027, en librairie et en téléchargement gratuit. Point de vue militant.",
+        "en": "Collective anthology co-published by over a hundred independent publishers on media and publishing concentration: volume 1 out in June 2025, volume 2 announced for February 2027, in bookshops and as a free download. An activist viewpoint. In French."
+      },
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   ]
 }

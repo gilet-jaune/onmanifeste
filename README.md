@@ -196,6 +196,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Pétitions de l'Assemblée nationale](https://petitions.assemblee-nationale.fr/) - Plateforme officielle pour déposer ou signer une pétition adressée aux député·es : mise en avant à 100 000 signatures, débat possible en séance à partir de 500 000.
 - [E-pétitions du Sénat](https://petitions.senat.fr/) - Plateforme officielle des pétitions adressées au Sénat.
 - [Initiative citoyenne européenne](https://citizens-initiative.europa.eu/_fr) - Un million de signatures dans au moins sept pays de l'Union européenne pour demander à la Commission européenne de proposer une loi.
+- [Présidentielle 2027 : comparatif des propositions](https://presidentielle-2027-comparatif.netlify.app/) - Comparatif des propositions de neuf partis ou candidats pour 2027 sur onze thèmes, avec coûts annoncés, sources liées et votes à l'Assemblée depuis 2018. Les chiffres sont ceux des partis eux-mêmes ; éditeur non identifié. ⚠️ _Non confirmé._
 
 ## Information & agenda
 
@@ -245,6 +246,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [FIPECO — Finances publiques et économie](https://www.fipeco.fr/) - Association indépendante animée par d'anciens magistrats de la Cour des comptes et cadres de l'INSEE : fiches pédagogiques et chiffres vérifiés sur la répartition du budget de l'État, de la Sécurité sociale, des impôts (TVA, IR, IS, CSG) et des dépenses publiques.
 - [Basta! — Portail des violences policières](https://basta.media/webdocs/police/) - Base de données de Basta! recensant les personnes mortes à la suite d'une intervention des forces de l'ordre en France depuis 1977 (plus de 860 cas documentés avec leurs suites judiciaires, téléchargeables en CSV).
 - [Allô Place Beauvau (Mediapart)](https://www.mediapart.fr/studio/panoramique/allo-place-beauvau-cest-pour-un-bilan) - Recensement vérifié, image par image, par le journaliste David Dufresne de 990 signalements de violences policières pendant le mouvement des gilets jaunes (2018-2020), lancé sur les réseaux sociaux en interpelant le ministère de l'Intérieur (@Place_Beauvau).
+- [Déborder Bolloré](https://deborderbollore.fr/) - Recueil collectif coédité par plus d'une centaine d'éditeurices indépendant·es sur la concentration des médias et de l'édition : tome 1 publié en juin 2025, tome 2 annoncé pour février 2027, en librairie et en téléchargement gratuit. Point de vue militant.
 
 ## Organisation
 
