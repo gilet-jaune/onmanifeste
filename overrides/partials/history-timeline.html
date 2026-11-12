@@ -90,9 +90,10 @@ across kinds, e.g. the security-and-freedoms page). -#}
     mostly untagged timeline it would look exhaustive while hiding most events. -#}
 {%- set tagged = shown | selectattr('natures') | list | length -%}
 {%- set show_natures = shown_natures | length > 1 and tagged * 2 >= shown | length -%}
-{#- Same rule for the "who" filter (institution an event comes from), and at least three of them: two would split a page in halves for nothing. -#}
-{%- set tagged_actors = shown | selectattr('actors') | list | length -%}
-{%- set show_actors = shown_actors | length > 2 and tagged_actors * 2 >= shown | length -%}
+{#- The "who" filter (who an event is about) exists only for the accountability events (offences, fraud,
+    killings, impunity, discrimination): protest events carry no actor and simply drop out when it is
+    used. It is offered when at least three actors appear among the shown events. -#}
+{%- set show_actors = shown_actors | length > 2 -%}
 {%- set shown_ids = shown | map(attribute='id') | list -%}
 {%- set shown_periods = [] -%}
 {%- for e in shown %}{% set p = period_of(e.date[:4] | int) | int %}{% if p not in shown_periods %}{% set _ = shown_periods.append(p) %}{% endif %}{% endfor -%}

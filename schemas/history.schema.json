@@ -22,7 +22,7 @@
     },
     "actors": {
       "type": "object",
-      "description": "Who the event is about: the institutions that decided or acted in it (government, Parliament, courts, police, companies, UN and Europe, civil society). Not those who report on it (NGOs, UN experts, parliamentary reports, journalists): an NGO report on police violence is about the police. Institutions, never named people.",
+      "description": "Only for accountability events (offences, fraud, killings, impunity, discrimination, repression), not for protest events. Who the event is about: the institutions that decided or acted in it (government, Parliament, courts, police, companies, UN and Europe). Not those who report on it (NGOs, UN experts, parliamentary reports, journalists): an NGO report on police violence is about the police. Institutions, never named people.",
       "additionalProperties": {
         "$ref": "resources.schema.json#/$defs/localized"
       }
