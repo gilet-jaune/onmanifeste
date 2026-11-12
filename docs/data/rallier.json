@@ -385,6 +385,24 @@
                 "en": "Answering without setting sides"
               }
             }
+          },
+          {
+            "question": {
+              "fr": "« La gauche ne valorise pas le travail, contrairement à la droite. »",
+              "en": "\"The left doesn't value work, unlike the right.\""
+            },
+            "answer": {
+              "fr": "Demandez ce que « valoriser » veut dire pour la personne. Valoriser le travail, c'est aussi le payer correctement et ne pas y laisser sa santé : c'est ce que portent la plupart des mobilisations, menées par des gens qui travaillent. En 2024, 764 salarié·es du régime général sont mort·es d'un accident du travail (Assurance maladie). Les congés payés et la semaine de 40 heures de 1936 ont suivi un mouvement de grèves.",
+              "en": "Ask what \"valuing\" work means to the person. Valuing work also means paying it properly and not losing your health to it: that is what most mobilisations stand for, led by people who work. In 2024, 764 employees of the general scheme died in a workplace accident (health insurer). The paid leave and 40-hour week of 1936 followed a wave of strikes."
+            },
+            "sources": ["franceinfo-accidents-travail-2024", "an-front-populaire-1936"],
+            "link": {
+              "guide": "travail",
+              "label": {
+                "fr": "Guide Travail et grève",
+                "en": "Work and strike guide"
+              }
+            }
           }
         ],
         "step": {
@@ -464,6 +482,24 @@
               "label": {
                 "fr": "Répondre sans opposer",
                 "en": "Answering without setting sides"
+              }
+            }
+          },
+          {
+            "question": {
+              "fr": "« La gauche ne valorise pas le travail, contrairement à la droite. »",
+              "en": "\"The left doesn't value work, unlike the right.\""
+            },
+            "answer": {
+              "fr": "Demandez ce que « valoriser » veut dire pour la personne. Valoriser le travail, c'est aussi le payer correctement et ne pas y laisser sa santé : c'est ce que portent la plupart des mobilisations, menées par des gens qui travaillent. En 2024, 764 salarié·es du régime général sont mort·es d'un accident du travail (Assurance maladie). Les congés payés et la semaine de 40 heures de 1936 ont suivi un mouvement de grèves.",
+              "en": "Ask what \"valuing\" work means to the person. Valuing work also means paying it properly and not losing your health to it: that is what most mobilisations stand for, led by people who work. In 2024, 764 employees of the general scheme died in a workplace accident (health insurer). The paid leave and 40-hour week of 1936 followed a wave of strikes."
+            },
+            "sources": ["franceinfo-accidents-travail-2024", "an-front-populaire-1936"],
+            "link": {
+              "guide": "travail",
+              "label": {
+                "fr": "Guide Travail et grève",
+                "en": "Work and strike guide"
               }
             }
           }
@@ -750,6 +786,24 @@
                 "en": "Striking in the private sector"
               }
             }
+          },
+          {
+            "question": {
+              "fr": "« La gauche ne valorise pas le travail, contrairement à la droite. »",
+              "en": "\"The left doesn't value work, unlike the right.\""
+            },
+            "answer": {
+              "fr": "Demandez ce que « valoriser » veut dire pour la personne. Valoriser le travail, c'est aussi le payer correctement et ne pas y laisser sa santé : c'est ce que portent la plupart des mobilisations, menées par des gens qui travaillent. En 2024, 764 salarié·es du régime général sont mort·es d'un accident du travail (Assurance maladie). Les congés payés et la semaine de 40 heures de 1936 ont suivi un mouvement de grèves.",
+              "en": "Ask what \"valuing\" work means to the person. Valuing work also means paying it properly and not losing your health to it: that is what most mobilisations stand for, led by people who work. In 2024, 764 employees of the general scheme died in a workplace accident (health insurer). The paid leave and 40-hour week of 1936 followed a wave of strikes."
+            },
+            "sources": ["franceinfo-accidents-travail-2024", "an-front-populaire-1936"],
+            "link": {
+              "guide": "travail",
+              "label": {
+                "fr": "Guide Travail et grève",
+                "en": "Work and strike guide"
+              }
+            }
           }
         ],
         "step": {
@@ -828,6 +882,27 @@
               "en": "The median living standard of farming households (€22,700 a year) is close to that of working households (€22,800), but varies a lot by production: €27,000 in wine-growing, €19,500 in beef cattle."
             },
             "sources": ["insee-menages-agricoles-2020"]
+          },
+          {
+            "text": {
+              "fr": "Depuis 2012, la maladie de Parkinson provoquée par les pesticides est reconnue maladie professionnelle du régime agricole (tableau 58 : diagnostic par un neurologue, 10 ans d'exposition, 20 ans de délai de prise en charge).",
+              "en": "Since 2012, Parkinson's disease caused by pesticides has been recognised as an occupational disease in the agricultural scheme (table 58: neurologist's diagnosis, 10 years of exposure, 20-year window for claims)."
+            },
+            "sources": ["inrs-parkinson-pesticides-ra58"]
+          },
+          {
+            "text": {
+              "fr": "Le Sénat (2021) cite une étude de Santé publique France qui relève, en 2010, un excès de 20 % de suicides chez les exploitants agricoles par rapport à la population générale ; les études varient, mais toutes concluent à un excès. En cas de détresse : 3114.",
+              "en": "The Senate (2021) cites a Santé publique France study finding, in 2010, 20% more suicides among farm operators than in the general population; studies vary, but all find an excess. If you are in distress: 3114."
+            },
+            "sources": ["senat-suicides-agriculture-2021"]
+          },
+          {
+            "text": {
+              "fr": "Après les mobilisations agricoles de l'hiver 2024, le gouvernement a abandonné la hausse du gazole non routier agricole dès 2024 (taux maintenu à 3,86 €/L) et pris 70 engagements, dont 60 faits ou avancés en septembre 2024. C'est le bilan du gouvernement, non celui des syndicats.",
+              "en": "After the farmers' mobilisations of winter 2024, the government dropped the rise in agricultural off-road diesel tax from 2024 (rate kept at €3.86/L) and made 70 commitments, 60 of them done or under way by September 2024. This is the government's own assessment, not the unions'."
+            },
+            "sources": ["gouv-agriculteurs-suivi-mesures-2024"]
           }
         ],
         "objections": [
@@ -851,6 +926,35 @@
                 "en": "Organising locally"
               }
             }
+          },
+          {
+            "question": {
+              "fr": "« Les mobilisations, c'est pour d'autres que nous. »",
+              "en": "\"Mobilisations are for other people, not us.\""
+            },
+            "answer": {
+              "fr": "Commencez par ce qui vous touche : revenu, santé, charges. Les risques du métier (Parkinson reconnu maladie professionnelle, détresse) ne sont le sujet de personne d'autre. Demandez ce qui compte pour la personne et cherchez ce que vous partagez.",
+              "en": "Start with what affects you: income, health, costs. The job's risks (Parkinson's recognised as an occupational disease, distress) are no one else's issue. Ask what matters to the person and look for what you share."
+            },
+            "sources": ["inrs-parkinson-pesticides-ra58", "senat-suicides-agriculture-2021"],
+            "link": {
+              "guide": "convaincre-ses-proches",
+              "label": {
+                "fr": "Convaincre ses proches",
+                "en": "Convincing your loved ones"
+              }
+            }
+          },
+          {
+            "question": {
+              "fr": "« Manifester ne change rien. »",
+              "en": "\"Protesting changes nothing.\""
+            },
+            "answer": {
+              "fr": "Pas toujours, ni vite, mais ça arrive : en 2024, la hausse du gazole non routier agricole a été abandonnée après la mobilisation du monde agricole (suivi du gouvernement). Ce qui a été obtenu reste à juger sur le terrain, et chaque mesure n'a pas la même portée.",
+              "en": "Not always, nor quickly, but it happens: in 2024 the rise in agricultural off-road diesel tax was dropped after the farming world mobilised (government follow-up). What was obtained is for farmers to judge on the ground, and each measure has a different reach."
+            },
+            "sources": ["gouv-agriculteurs-suivi-mesures-2024"]
           }
         ],
         "step": {

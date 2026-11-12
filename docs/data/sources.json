@@ -8162,6 +8162,66 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "franceinfo-accidents-travail-2024": {
+      "title": {
+        "fr": "franceinfo — Accidents du travail : près de 550 000 cas en 2024, dont 764 mortels selon l'Assurance maladie",
+        "en": "franceinfo — Workplace accidents: nearly 550,000 cases in 2024, 764 fatal according to the health insurer (in French)"
+      },
+      "url": "https://www.franceinfo.fr/economie/emploi/carriere/vie-professionnelle/sante-au-travail/accidents-du-travail-pres-de-550-000-cas-en-2024-dont-764-mortels-selon-l-assurance-maladie_7638812.html",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-front-populaire-1936": {
+      "title": {
+        "fr": "Assemblée nationale — 1935-1936 : programme du Rassemblement populaire et victoire du Front populaire",
+        "en": "Assemblée nationale — 1935-1936: the Popular Front programme and victory (in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/troisieme-republique/adoption-et-publication-du-programme-du-rassemblement-populaire-victoire-du-front-populaire",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "inrs-parkinson-pesticides-ra58": {
+      "title": {
+        "fr": "INRS — Maladie de Parkinson provoquée par les pesticides (tableau 58 du régime agricole)",
+        "en": "INRS — Parkinson's disease caused by pesticides (agricultural scheme table 58; in French)"
+      },
+      "url": "https://www.inrs.fr/publications/bdd/mp/tableau.html?refINRS=RA+58",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "senat-suicides-agriculture-2021": {
+      "title": {
+        "fr": "Sénat — Suicides en agriculture : mieux prévenir, identifier et accompagner les situations de détresse (rapport d'information n° 451, 2020-2021)",
+        "en": "Senate — Suicides in agriculture: better prevent, identify and support distress (information report no. 451, 2020-2021; in French)"
+      },
+      "url": "https://www.senat.fr/rap/r20-451/r20-4513.html",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "gouv-agriculteurs-suivi-mesures-2024": {
+      "title": {
+        "fr": "Ministère de l'Agriculture — Suivi des mesures en faveur des agriculteurs (état au 13 septembre 2024)",
+        "en": "Ministry of Agriculture — Follow-up of measures for farmers (as of 13 September 2024; in French)"
+      },
+      "url": "https://agriculture.gouv.fr/telecharger/143109",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
