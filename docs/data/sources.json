@@ -8150,6 +8150,18 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "senat-rapport-emeutes-juin-2023": {
+      "title": {
+        "fr": "Sénat — Émeutes de juin 2023 : comprendre, évaluer, réagir (rapport d'information n° 521, 2023-2024)",
+        "en": "Senate — June 2023 riots: understand, assess, respond (information report no. 521, 2023-2024; in French)"
+      },
+      "url": "https://www.senat.fr/rap/r23-521/r23-5218.html",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

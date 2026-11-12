@@ -2718,6 +2718,31 @@
       }
     },
     {
+      "id": "2024-senat-rapport-sur-les-emeutes-de-juin-2023",
+      "date": "2024-04-09",
+      "title": {
+        "fr": "Le Sénat publie son rapport sur les émeutes de juin 2023",
+        "en": "The Senate publishes its report on the June 2023 riots"
+      },
+      "kinds": ["soulevement", "securite-libertes"],
+      "natures": ["enquete-parlementaire"],
+      "url": "https://www.senat.fr/rap/r23-521/r23-5218.html",
+      "description": {
+        "fr": "Le rapport d'information n° 521 de la commission des lois du Sénat (rapporteur : François-Noël Buffet, 77 personnes entendues en 27 auditions) retient pour la période du 27 juin au 7 juillet 2023 : 672 communes touchées, environ 50 000 émeutier·es estimé·es, 45 000 membres des forces de l'ordre mobilisés, 4 282 gardes à vue, 2 décès et plus de 1 000 blessés dont 782 parmi les forces de l'ordre, 12 031 véhicules et 2 508 bâtiments incendiés ou dégradés, et près d'un milliard d'euros de dommages aux biens. Il voit dans la mort de Nahel Merzouk l'élément déclencheur d'un mouvement sans revendications identifiées, qui ne procédait pas d'une volonté d'action politique nationale, et note l'isolement des quartiers défavorisés. Ses 25 propositions portent surtout sur le maintien de l'ordre (formation, équipement), les mortiers d'artifice, les réseaux sociaux (dont l'état d'urgence), les polices municipales, la réponse judiciaire et l'assurance. Ce sont des chiffres de l'institution et non des constats indépendants ; nous n'avons lu qu'une partie du rapport et n'y avons pas trouvé de bilan judiciaire.",
+        "en": "Information report no. 521 of the Senate's law committee (rapporteur: François-Noël Buffet, 77 people heard in 27 hearings) records for 27 June to 7 July 2023: 672 municipalities affected, about 50,000 estimated rioters, 45,000 law enforcement personnel mobilised, 4,282 police custodies, 2 deaths and over 1,000 injured including 782 law enforcement officers, 12,031 vehicles and 2,508 buildings burned or damaged, and nearly one billion euros of property damage. It sees Nahel Merzouk's death as the trigger of a movement with no identified demands, not driven by a national political agenda, and notes the isolation of disadvantaged neighbourhoods. Its 25 proposals mainly concern riot policing (training, equipment), fireworks mortars, social networks (including the state of emergency), municipal police, the judicial response and insurance. These are the institution's figures, not independent findings; we read only part of the report and found no judicial toll in it."
+      },
+      "summary": {
+        "fr": "Le Sénat chiffre les émeutes du 27 juin au 7 juillet 2023 (2 décès, plus de 1 000 blessés, 4 282 gardes à vue, près d'un milliard d'euros de dégâts) et formule 25 propositions.",
+        "en": "The Senate tallies the 27 June-7 July 2023 riots (2 deaths, over 1,000 injured, 4,282 police custodies, nearly €1bn of damage) and makes 25 proposals."
+      },
+      "evidence": ["senat-rapport-emeutes-juin-2023"],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2024-senat-cabinets-de-conseil-proposition-de-loi-deuxieme-lecture",
       "date": "2024-05-28",
       "title": {
