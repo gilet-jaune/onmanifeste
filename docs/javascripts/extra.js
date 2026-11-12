@@ -669,7 +669,7 @@ document.addEventListener('DOMContentLoaded', function () {
   ];
   const fr = document.documentElement.lang !== 'en';
   // A panel with more chips than this starts closed behind the "Filter" button.
-  const COLLAPSE_ABOVE = 6;
+  const COLLAPSE_ABOVE = 8;
   const plural = (n, one, many) => (n > 1 ? many : one);
 
   const readHash = () => {
