@@ -8222,6 +8222,42 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "senat-fonds-marianne-synthese": {
+      "title": {
+        "fr": "Sénat — L'essentiel sur le rapport d'information « Le fonds Marianne : la dérive d'un coup politique » (juillet 2023)",
+        "en": "Senate — Summary of the information report on the Marianne fund (July 2023; in French)"
+      },
+      "url": "https://www.senat.fr/rap/r22-829-1/r22-829-1-syn.pdf",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-fonds-marianne-pnf-2023": {
+      "title": {
+        "fr": "franceinfo — Fonds Marianne : une information judiciaire ouverte par le Parquet national financier (4 mai 2023)",
+        "en": "franceinfo — Marianne fund: the national financial prosecutor opens a judicial investigation (4 May 2023; in French)"
+      },
+      "url": "https://www.franceinfo.fr/societe/justice/fonds-marianne-une-information-judiciaire-ouverte-par-le-parquet-national-financier_5807165.html",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-fonds-marianne-pnf-2023": {
+      "title": {
+        "fr": "France 24 — Fonds Marianne : le PNF ouvre une information judiciaire pour détournement de fonds publics (5 mai 2023)",
+        "en": "France 24 — Marianne fund: the PNF opens a judicial investigation (5 May 2023; in French)"
+      },
+      "url": "https://www.france24.com/fr/france/20230505-fonds-marianne-le-pnf-ouvre-une-information-judiciaire-pour-d%C3%A9tournement-de-fonds-publics",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

@@ -2487,6 +2487,32 @@
       }
     },
     {
+      "id": "2023-fonds-marianne-information-judiciaire-du-pnf",
+      "date": "2023-05-04",
+      "title": {
+        "fr": "Fonds Marianne : le Parquet national financier ouvre une information judiciaire",
+        "en": "Marianne fund: the national financial prosecutor opens a judicial investigation"
+      },
+      "kinds": ["finances", "probite"],
+      "natures": ["procedure"],
+      "actors": ["gouvernement"],
+      "url": "https://www.franceinfo.fr/societe/justice/fonds-marianne-une-information-judiciaire-ouverte-par-le-parquet-national-financier_5807165.html",
+      "description": {
+        "fr": "Le 4 mai 2023, le Parquet national financier confirme l'ouverture d'une information judiciaire sur le fonds Marianne, un appel à projets de 2,5 millions d'euros lancé en avril 2021, après l'assassinat de Samuel Paty, pour financer des associations de « contre-discours républicain » en ligne. Selon franceinfo, les faits visés sont le détournement de fonds publics par négligence, l'abus de confiance et la prise illégale d'intérêts ; France 24 ajoute le détournement de fonds publics. L'enquête fait suite à des révélations de presse de fin mars 2023 et à des signalements de la mairie de Paris et d'une présidente de groupe parlementaire. Une information judiciaire n'est pas une condamnation : nous n'avons trouvé dans nos sources ni mise en examen, ni renvoi en procès, ni classement, et nous ne nommons personne. Nous n'avons pas lu le communiqué du PNF lui-même.",
+        "en": "On 4 May 2023 the national financial prosecutor (PNF) confirmed a judicial investigation into the Marianne fund, a EUR 2.5 million call for projects launched in April 2021, after the murder of Samuel Paty, to pay associations for online 'republican counter-speech'. According to franceinfo the offences under investigation are misappropriation of public funds through negligence, breach of trust and unlawful taking of interest; France 24 adds misappropriation of public funds. The inquiry followed press revelations in late March 2023 and referrals by the City of Paris and a parliamentary group leader. A judicial investigation is not a conviction: our sources show no indictment, trial or dismissal, and we name no one. We did not read the PNF's own statement."
+      },
+      "summary": {
+        "fr": "Le PNF ouvre une information judiciaire sur le fonds Marianne (2,5 M€ de subventions à des associations de contre-discours). Aucune mise en examen ni condamnation dans nos sources.",
+        "en": "The PNF opens a judicial investigation into the Marianne fund (EUR 2.5m for counter-speech associations). No indictment or conviction in our sources."
+      },
+      "evidence": ["franceinfo-fonds-marianne-pnf-2023", "france24-fonds-marianne-pnf-2023"],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2023-loi-jo-2024-videosurveillance-algorithmique",
       "date": "2023-05-19",
       "title": {
@@ -2652,6 +2678,32 @@
         "en": "The UN human rights office urges France to address racism and discrimination in law enforcement and to respect proportionality in the use of force."
       },
       "evidence": ["unnews-onu-racisme-forces-de-l-ordre-2023"],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
+      "id": "2023-senat-rapport-sur-le-fonds-marianne",
+      "date": "2023-07-04",
+      "title": {
+        "fr": "Le Sénat publie son rapport sur le fonds Marianne : « la dérive d'un coup politique »",
+        "en": "The Senate report on the Marianne fund: 'the drift of a political stunt'"
+      },
+      "kinds": ["finances", "probite"],
+      "natures": ["enquete-parlementaire"],
+      "actors": ["gouvernement"],
+      "url": "https://www.senat.fr/rap/r22-829-1/r22-829-1-syn.pdf",
+      "description": {
+        "fr": "Le 4 juillet 2023, la commission des finances du Sénat examine le rapport d'information n° 829 de son rapporteur Jean-François Husson, issu d'une mission dotée des prérogatives d'une commission d'enquête. Le fonds, annoncé le 20 avril 2021 par la ministre déléguée à la citoyenneté de l'époque, aurait été conçu comme une opération de communication. Le rapport retient un cahier des charges rédigé dans l'urgence et réécrit par le cabinet de la ministre, un délai de candidature raccourci de sept semaines, un jury sans personnalité extérieure et sans compte rendu, et seulement 1,4 million d'euros sur 2,5 réellement consacrés à des projets non arbitrés auparavant. Les plus grosses subventions sont allées à des associations sans garantie de sérieux : 355 000 euros à l'USEPPM (budget annuel d'environ 50 000 euros ; 1 763 abonnés au total sur trois réseaux) et 330 000 euros à Reconstruire le commun, dont des vidéos ont visé des personnalités politiques. Le suivi par le secrétariat général du CIPDR est jugé lacunaire (contrôle sur pièces de l'USEPPM engagé en mars 2023) et le rapport conclut que l'autorité politique n'a pas joué un rôle « effacé » et engage sa responsabilité politique. C'est une conclusion parlementaire de responsabilité politique, pas un jugement pénal : la mission écarte les questions relevant des autorités judiciaires. Nous avons lu la synthèse du rapport, pas le rapport complet ; le rapport de l'inspection générale de l'administration, qui présente une lecture plus favorable à la ministre selon la presse, n'est pas lu.",
+        "en": "On 4 July 2023 the Senate finance committee examined information report no. 829 by rapporteur Jean-François Husson, from a mission given the powers of an inquiry committee. The fund, announced on 20 April 2021 by the then junior minister for citizenship, was in the report's view designed as a communication operation. It notes a call for projects drafted in a hurry and rewritten by the minister's office, an application window cut by seven weeks, a jury with no outside expert and no minutes, and only EUR 1.4 million of the 2.5 million actually going to projects not already decided. The largest grants went to associations with no record of seriousness: EUR 355,000 to the USEPPM (annual budget about EUR 50,000; 1,763 followers across three networks) and EUR 330,000 to Reconstruire le commun, whose videos targeted politicians. Monitoring by the CIPDR secretariat is judged deficient (a document check of the USEPPM only began in March 2023) and the report concludes that political authority did not play an 'effaced' role and bears political responsibility. This is a parliamentary finding of political responsibility, not a criminal judgment: the mission leaves questions for the courts. We read the report's summary, not the full report; the inspectorate's (IGA) report, which press accounts describe as more favourable to the minister, was not read."
+      },
+      "summary": {
+        "fr": "Le Sénat juge le fonds Marianne (2,5 M€) conçu comme une opération de communication, avec une sélection opaque et un contrôle lacunaire ; il retient une responsabilité politique, sans jugement pénal.",
+        "en": "The Senate finds the Marianne fund (EUR 2.5m) was built as a communication operation, with opaque selection and weak oversight; it finds political responsibility, not criminal liability."
+      },
+      "evidence": ["senat-fonds-marianne-synthese"],
       "check": {
         "date": "2026-11-12",
         "result": "confirmed",
