@@ -97,10 +97,6 @@
       "fr": "Policiers et gendarmes",
       "en": "Police and gendarmes"
     },
-    "autorites-independantes": {
-      "fr": "Autorités indépendantes",
-      "en": "Independent bodies"
-    },
     "instances-internationales": {
       "fr": "ONU et Europe",
       "en": "UN and Europe"
@@ -109,9 +105,9 @@
       "fr": "Société civile",
       "en": "Civil society"
     },
-    "medias": {
-      "fr": "Médias et enquêtes",
-      "en": "Media and investigations"
+    "entreprises": {
+      "fr": "Entreprises",
+      "en": "Companies"
     }
   },
   "events": [
@@ -753,7 +749,7 @@
         "en": "End of 1984: the public sector employs 1.9 million people"
       },
       "kinds": ["privatisation"],
-      "actors": ["parlement"],
+      "actors": ["gouvernement", "entreprises"],
       "url": "https://www.senat.fr/rap/r02-367/r02-36712.html",
       "description": {
         "fr": "D'après un rapport du Sénat, le secteur des entreprises publiques, élargi par la vague de nationalisations de 1982, emploie fin 1984 1,9 million de personnes, soit plus de 10 % de l'emploi salarié, et réalise près de 20 % de la valeur ajoutée. Les lois de privatisation de 1986 et de 1993 réduiront ce périmètre : le même rapport constate en 2003 que le champ des entreprises contrôlées par l'État s'est considérablement réduit.",
@@ -1379,7 +1375,7 @@
         "en": "Panama Papers: 11.5 million documents on offshore companies"
       },
       "kinds": ["finances"],
-      "actors": ["medias"],
+      "actors": ["entreprises"],
       "url": "https://www.icij.org/investigations/panama-papers/",
       "description": {
         "fr": "Le Consortium international de journalistes d'investigation (ICIJ), le quotidien allemand Süddeutsche Zeitung et plus de cent médias partenaires, dont Le Monde, publient des articles tirés de plus de 11,5 millions de documents du cabinet panaméen Mossack Fonseca. Selon l'AFP, ils détaillent plus de 214 000 sociétés offshore et mettent en cause quelque 150 milliardaires, personnalités et responsables politiques pour avoir caché des biens ou des capitaux au fisc. L'ICIJ attribue à l'enquête la chute de dirigeants politiques en Islande et au Pakistan, ainsi que des arrestations, de nouvelles lois et des enquêtes dans des dizaines de pays.",
@@ -1457,7 +1453,7 @@
         "en": "Racial profiling: the State definitively convicted"
       },
       "kinds": ["discrimination"],
-      "actors": ["justice", "autorites-independantes"],
+      "actors": ["justice", "forces-de-l-ordre"],
       "url": "https://www.politis.fr/articles/2016/11/controles-au-facies-letat-condamne-35791",
       "description": {
         "fr": "La Cour de cassation condamne définitivement l'État pour « faute lourde » dans trois dossiers de contrôles d'identité réalisés en fonction de l'apparence physique : une première. En janvier 2017, l'enquête du Défenseur des droits établit que les jeunes hommes perçus comme noirs ou arabes ont une probabilité 20 fois plus élevée d'être contrôlés que le reste de la population.",
@@ -1483,7 +1479,7 @@
         "en": "The Théo case: an arrest in Aulnay-sous-Bois goes tragically wrong"
       },
       "kinds": ["repression", "impunite"],
-      "actors": ["forces-de-l-ordre", "autorites-independantes"],
+      "actors": ["forces-de-l-ordre"],
       "url": "https://www.france24.com/fr/info-en-continu/20240119-%F0%9F%94%B4-affaire-th%C3%A9o-les-trois-policiers-condamn%C3%A9s-%C3%A0-des-peines-de-3-%C3%A0-12-mois-de-prison-avec-sursis",
       "description": {
         "fr": "Le 2 février 2017, dans la cité des 3 000 à Aulnay-sous-Bois, trois policiers de la brigade spécialisée de terrain interpellent un jeune homme de 22 ans, Théo Luhaka. Il reçoit un coup de matraque télescopique qui provoque une plaie de dix centimètres et une rupture du sphincter ; après deux opérations, des séquelles irréversibles (incontinence) subsistent, selon les expertises médicales rapportées par l'AFP. L'enquête administrative de l'IGPN conclut à un usage disproportionné de la force. Le Défenseur des droits dénonce, d'après France 24, une accumulation de manquements et recommande une inspection des pratiques de ces brigades, qui avaient fait l'objet de plusieurs plaintes. Les policiers ont été jugés en janvier 2024.",
@@ -1783,7 +1779,7 @@
         "by": "ai"
       },
       "natures": ["avis-instance"],
-      "actors": ["instances-internationales"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "summary": {
         "fr": "Début 2019, des expert·es de l'ONU, la commissaire aux droits de l'homme du Conseil de l'Europe puis la Haute-Commissaire de l'ONU alertent sur des restrictions disproportionnées, l'usage du LBD et les violences. La loi d'avril 2019 retiendra le délit de dissimulation du visage.",
         "en": "In early 2019 UN experts, the Council of Europe human rights commissioner and then the UN High Commissioner warn of disproportionate restrictions, use of the LBD and violence. The April 2019 law keeps the face-covering offence."
@@ -2158,7 +2154,7 @@
         "en": "Privatised motorways: profits beyond forecasts"
       },
       "kinds": ["privatisation", "finances"],
-      "actors": ["parlement", "gouvernement"],
+      "actors": ["gouvernement", "entreprises"],
       "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
       "description": {
         "fr": "En 2006, le gouvernement de Dominique de Villepin vend les sociétés d'autoroutes pour environ 15 milliards d'euros. En 2020, une commission d'enquête du Sénat montre que leur rentabilité dépasse les prévisions. La suite lui donne raison : Vinci atteint dès 2023 et Eiffage fin 2024 la rentabilité visée pour toute la durée de concessions qui courent jusqu'en 2031-2036, avec environ 32 milliards d'euros de surprofits attendus.",
@@ -2230,7 +2226,7 @@
         "en": "Affaire du Siècle: the State held responsible for its climate failure"
       },
       "kinds": ["environnement-sante"],
-      "actors": ["justice", "societe-civile"],
+      "actors": ["justice", "gouvernement", "societe-civile"],
       "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle",
       "description": {
         "fr": "Oxfam France, Notre Affaire à tous, la Fondation pour la Nature et l'Homme et Greenpeace France ont saisi le tribunal administratif de Paris en mars 2019. Le tribunal reconnaît un préjudice écologique lié au changement climatique et juge que la carence partielle de l'État à respecter ses propres objectifs de réduction des émissions engage sa responsabilité. Il accorde 1 € à chaque association pour préjudice moral, rejette une réparation en argent et ordonne un supplément d'instruction de deux mois pour définir la réparation en nature.",
@@ -2260,7 +2256,7 @@
       },
       "kinds": ["securite-libertes"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile"],
+      "actors": ["parlement"],
       "url": "https://www.amnesty.fr/documents/observations-amnesty-international-france-loi-sur-la-securite-globale",
       "description": {
         "fr": "Fin avril 2021 (le 27 selon Amnesty), après la saisine du Conseil constitutionnel contre la loi votée le 15 avril, Amnesty International France lui adresse ses observations sur deux articles. Sur l'article 22 (nouvel article 47 : caméras et drones), elle invoque un défaut de nécessité et de proportionnalité, une incompétence négative du législateur et un défaut d'information et de contrôle. Sur l'article 24 (nouvel article 52 : diffusion d'images de policiers), elle invoque une atteinte à la clarté et à l'intelligibilité de la loi et à la liberté d'information et de communication. Elle demande de déclarer ces articles contraires à la Constitution. C'est l'argumentaire d'une ONG, pas une décision : le Conseil statue le 20 mai.",
@@ -2310,7 +2306,7 @@
       },
       "kinds": ["securite-libertes"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile"],
+      "actors": ["parlement"],
       "url": "https://www.ldh-france.org/wp-content/uploads/2021/05/CP-LDH-Loi-securite-globale-25-05-2021.pdf",
       "description": {
         "fr": "Le 20 mai 2021, Amnesty International France réagit à la décision du Conseil constitutionnel : elle relève la censure de sept articles, dont l'article 24 (devenu 52), censuré pour atteinte au principe de légalité, et l'article 22 (devenu 47) sur les drones, censuré pour atteinte disproportionnée à la vie privée. Le 25 mai, la LDH, membre de la coordination contre la loi, juge que la mobilisation et la saisine ont permis la censure de l'ancien article 24, des drones, des caméras embarquées et d'autres dispositions ; elle regrette que le reste soit déclaré conforme, par exemple l'article 50 sur les crédits de réduction de peine et l'article 53 sur l'accès des policiers armés aux établissements recevant du public, et voit dans la volonté du ministère de l'Intérieur de proposer à nouveau ces mesures une défiance envers la Constitution. Ce sont des lectures d'ONG de la décision, dont la portée juridique est donnée par l'événement du 20 mai.",
@@ -2339,7 +2335,7 @@
         "en": "Affaire du Siècle: the State must repair the damage by end-2022"
       },
       "kinds": ["environnement-sante"],
-      "actors": ["justice", "societe-civile"],
+      "actors": ["justice", "gouvernement", "societe-civile"],
       "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle-l-etat-devra-reparer-le-prejudice-ecologique-dont-il-est-responsable",
       "description": {
         "fr": "Pour la première fois, le tribunal enjoint à l'État de réparer les conséquences de sa carence climatique. Le premier budget carbone (2015-2018) a été dépassé de 62 Mt CO2eq ; le tribunal retient que le préjudice perdure à hauteur de 15 Mt, une partie ayant été compensée par la baisse de 2020, liée surtout à la crise sanitaire. Il ordonne que la réparation soit effective au 31 décembre 2022 au plus tard, sans astreinte à ce stade. Le choix des mesures reste libre pour le gouvernement, et le tribunal ne se prononce pas sur l'objectif de 2030, déjà examiné par le Conseil d'État (Grande-Synthe, 1er juillet 2021).",
@@ -2381,7 +2377,7 @@
         "by": "ai"
       },
       "natures": ["enquete-parlementaire"],
-      "actors": ["parlement"],
+      "actors": ["entreprises", "gouvernement"],
       "summary": {
         "fr": "Le Sénat relève que les dépenses de conseil de l'État ont dépassé le milliard d'euros en 2021 et plus que doublé depuis 2018. McKinsey n'aurait versé aucun impôt sur les sociétés en France depuis au moins dix ans. La réponse du cabinet n'a pas pu être lue ici.",
         "en": "The Senate notes State consulting spending exceeded €1bn in 2021 and more than doubled since 2018. McKinsey is said to have paid no corporate tax in France for at least ten years. The firm's reply could not be read here."
@@ -2434,7 +2430,7 @@
         "by": "ai"
       },
       "natures": ["procedure"],
-      "actors": ["justice"],
+      "actors": ["justice", "entreprises"],
       "summary": {
         "fr": "Le parquet national financier ouvre deux informations judiciaires sur le rôle des cabinets de conseil dans les campagnes de 2017 et 2022 (comptes de campagne ; favoritisme). Procédures en cours : ni mise en examen ni décision dans les sources lues.",
         "en": "The national financial prosecutor opens two judicial investigations into consultancies' role in the 2017 and 2022 campaigns (campaign accounts; favouritism). Ongoing procedures: no indictment or ruling in the sources read."
@@ -2652,7 +2648,7 @@
         "by": "ai"
       },
       "natures": ["avis-instance"],
-      "actors": ["instances-internationales", "societe-civile"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "summary": {
         "fr": "Mi-juin 2023, sept expert·es mandaté·es par l'ONU s'inquiètent du manque de retenue dans l'usage de la force et d'une « rhétorique criminalisante » visant des défenseur·es des droits. La LDH reprend ces préoccupations.",
         "en": "In mid-June 2023, seven UN-appointed experts voice concern about the lack of restraint in the use of force and 'criminalising rhetoric' aimed at rights defenders. The LDH takes up these concerns."
@@ -2702,7 +2698,7 @@
         "en": "Justice pour le vivant: the State held at fault on pesticides"
       },
       "kinds": ["environnement-sante"],
-      "actors": ["justice", "societe-civile"],
+      "actors": ["justice", "gouvernement", "societe-civile"],
       "url": "https://notreaffaireatous.org/justice-pour-le-vivant-le-jugement-en-premiere-instance-et-les-sujets-dactualite-sur-les-pesticides/",
       "description": {
         "fr": "Saisi par une coalition d'associations (dont Notre Affaire à Tous, Pollinis et l'ASPAS), le tribunal administratif de Paris reconnaît la carence fautive de l'État à propos de l'usage des produits phytopharmaceutiques ayant conduit à un préjudice écologique. Selon la coalition, il enjoint au gouvernement de rétablir la cohérence du rythme de baisse des pesticides avec la trajectoire des plans Ecophyto et de protéger les eaux souterraines, avec une réparation effective au 30 juin 2024 au plus tard ; il n'enjoint pas à l'État de corriger l'évaluation des risques, ce pourquoi les associations ont fait appel. En appel, la cour écartera en 2025 la faute tirée du non-respect des plans Ecophyto, mais jugera l'ANSES fautive dans l'évaluation des produits.",
@@ -2733,7 +2729,7 @@
       },
       "kinds": ["discrimination", "repression"],
       "natures": ["avis-instance"],
-      "actors": ["instances-internationales"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://news.un.org/en/story/2023/06/1138247",
       "description": {
         "fr": "Le 30 juin 2023, la porte-parole du Haut-Commissariat de l'ONU aux droits de l'homme déclare, d'après ONU Info, que c'est le moment pour le pays de s'attaquer sérieusement aux problèmes profonds de racisme et de discrimination dans les forces de l'ordre. Elle rappelle l'importance du droit de réunion pacifique et demande que l'usage de la force respecte légalité, nécessité, proportionnalité, non-discrimination, précaution et responsabilité. ONU Info cite aussi 37 décès lors d'opérations de police en 2021, dont dix par balle, selon l'IGPN. Nous n'avons pas pu lire la note originale du Haut-Commissariat ni la réponse du gouvernement.",
@@ -2758,7 +2754,7 @@
         "en": "Ciivise: 3% of those accused of raping a minor convicted"
       },
       "kinds": ["impunite"],
-      "actors": ["autorites-independantes"],
+      "actors": ["justice"],
       "url": "https://www.ciivise.fr/",
       "description": {
         "fr": "La Commission indépendante sur l'inceste et les violences sexuelles faites aux enfants remet son rapport après 30 000 témoignages : 160 000 enfants sont victimes de violences sexuelles chaque année, seuls 19 % des victimes portent plainte (12 % en cas d'inceste) et seuls 3 % des mis en cause pour viol sur mineur sont condamnés. Son président parle d'un « régime d'impunité ».",
@@ -2808,7 +2804,7 @@
         "en": "Affaire du Siècle: the judgment is not fully executed, but no penalty payment"
       },
       "kinds": ["environnement-sante"],
-      "actors": ["justice", "societe-civile"],
+      "actors": ["justice", "gouvernement", "societe-civile"],
       "url": "https://www.greenpeace.fr/espace-presse/decision-du-tribunal-administratif-dans-laffaire-du-siecle-letat-na-pas-execute-le-jugement-de-2021/",
       "description": {
         "fr": "Saisi en juin 2023 par les associations, qui demandaient une astreinte, le tribunal juge, selon la fiche de Notre Affaire à tous, que l'État a pris des mesures mais que le jugement de 2021 n'est pas totalement exécuté ; vu le rythme de baisse des émissions, il refuse toute mesure supplémentaire et toute astreinte. Les associations dénoncent une décision qui laisse de côté les baisses dues à des facteurs extérieurs (crise sanitaire, énergie) et le retard pris sur le deuxième budget carbone ; selon Notre Affaire à tous, elles ont formé un pourvoi en cassation. Le ministère de la Transition écologique, lui, présente la décision comme la confirmation d'une réparation dans les délais. Les deux lectures divergent : le jugement lui-même n'a pas été relu ici.",
@@ -2865,7 +2861,7 @@
       },
       "kinds": ["soulevement", "securite-libertes"],
       "natures": ["enquete-parlementaire"],
-      "actors": ["parlement"],
+      "actors": ["societe-civile", "forces-de-l-ordre"],
       "url": "https://www.senat.fr/rap/r23-521/r23-5218.html",
       "description": {
         "fr": "Le rapport d'information n° 521 de la commission des lois du Sénat (rapporteur : François-Noël Buffet, 77 personnes entendues en 27 auditions) retient pour la période du 27 juin au 7 juillet 2023 : 672 communes touchées, environ 50 000 émeutier·es estimé·es, 45 000 membres des forces de l'ordre mobilisés, 4 282 gardes à vue, 2 décès et plus de 1 000 blessés dont 782 parmi les forces de l'ordre, 12 031 véhicules et 2 508 bâtiments incendiés ou dégradés, et près d'un milliard d'euros de dommages aux biens. Il voit dans la mort de Nahel Merzouk l'élément déclencheur d'un mouvement sans revendications identifiées, qui ne procédait pas d'une volonté d'action politique nationale, et note l'isolement des quartiers défavorisés. Ses 25 propositions portent surtout sur le maintien de l'ordre (formation, équipement), les mortiers d'artifice, les réseaux sociaux (dont l'état d'urgence), les polices municipales, la réponse judiciaire et l'assurance. Ce sont des chiffres de l'institution et non des constats indépendants ; nous n'avons lu qu'une partie du rapport et n'y avons pas trouvé de bilan judiciaire.",
@@ -2986,7 +2982,7 @@
       },
       "kinds": ["finances"],
       "natures": ["enquete-journalistique"],
-      "actors": ["medias"],
+      "actors": ["entreprises", "gouvernement"],
       "url": "https://www.francetvpro.fr/contenu-de-presse/67619791",
       "description": {
         "fr": "Le 17 septembre 2024, France 2 diffuse « McKinsey, une firme au cœur du pouvoir », un numéro de « Cash Investigation » réalisé avec Le Nouvel Obs. Selon France Télévisions, l’équipe a eu accès à des rapports de missions commandées par des ministères et des organismes publics, et à des documents et témoignages qui montreraient que des consultants du cabinet ont travaillé gratuitement pour la campagne présidentielle de 2017 ; elle reprend aussi le constat de la commission d’enquête du Sénat selon lequel McKinsey n’a pas payé d’impôt sur les sociétés en France pendant dix ans. La dirigeante de McKinsey France, interrogée après des mois de demandes d’interview, répond que le cabinet n’a pas été rentable en France et qu’il a payé l’impôt sur les sociétés en 2021 et certaines années ; elle ne se souvient pas des montants, et le cabinet a ensuite refusé de communiquer celui de 2021. C’est une enquête journalistique, pas une décision de justice : ses éléments relèvent de procédures judiciaires toujours en cours, sans condamnation.",
@@ -3018,7 +3014,7 @@
         "en": "Motorways: the Senate confirms returns above forecasts, but advises seeing the contracts through"
       },
       "kinds": ["privatisation"],
-      "actors": ["parlement"],
+      "actors": ["gouvernement", "entreprises"],
       "url": "https://www.senat.fr/rap/r24-065/r24-065_mono.html",
       "description": {
         "fr": "Un rapport de la commission des finances du Sénat relève que les analyses de la direction générale du Trésor confirment que la rentabilité de certaines sociétés d'autoroutes sera vraisemblablement très supérieure aux anticipations initiales, et l'attribue essentiellement aux gains de refinancement de leur dette. Il estime pourtant que la décision la plus raisonnable est d'aller au bout des contrats historiques, car la résiliation anticipée pourrait coûter à l'État de 40 à 50 Md€. Il chiffre à environ 1,2 Md€ par an la fiscalité spécifique du secteur.",
@@ -3047,7 +3043,7 @@
         "en": "FDJ: the European Commission finds no State aid, after the fee is raised to €477 million"
       },
       "kinds": ["privatisation"],
-      "actors": ["instances-internationales"],
+      "actors": ["gouvernement", "entreprises"],
       "url": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/la-commission-estime-que-les-droits-exclusifs-dont-beneficie-la-francaise-des-jeux-fdj-apres-avoir-2024-10-31_fr",
       "description": {
         "fr": "En 2019, la France privatise la FDJ et lui garantit pour 25 ans (2019-2044) des droits exclusifs sur les loteries en ligne et hors ligne et les paris sportifs hors ligne, contre une rémunération de 380 M€ (15,2 M€ par an). Deux plaintes de 2020 y voyaient une aide d'État ; la Commission ouvre une enquête approfondie en juillet 2021. Après des modifications de la méthode de calcul, la rémunération passe à 477 M€ (+97 M€) et la Commission conclut le 31 octobre 2024 que la mesure ne constitue pas une aide d'État.",
@@ -3073,7 +3069,7 @@
         "en": "Motorways: the regulator judges the historic concessions’ profitability not excessive"
       },
       "kinds": ["privatisation"],
-      "actors": ["autorites-independantes"],
+      "actors": ["entreprises", "gouvernement"],
       "url": "https://www.autorite-transports.fr/communiques/fin-des-concessions-dautoroutes-historiques-le-maintien-de-lequilibre-economique-des-contrats-necessite-de-preciser-a-breve-echeance-les-obligations-des-societes-concessionnai/",
       "description": {
         "fr": "Dans son troisième rapport sur l'économie générale des concessions, l'Autorité de régulation des transports calcule, avec des hypothèses prudentes, un taux de rentabilité interne de 7,9 % pour les sept sociétés historiques privées, contre un coût du capital de l'ordre de 7,0 % : un écart qu'elle juge non significatif. Elle chiffre aussi à 0,4-5,1 Md€ les investissements de seconde phase encore possiblement dus selon la lecture des contrats, et à environ 1,2 Md€ l'effort d'entretien supplémentaire en fin de concession. Cette lecture diffère de celle de la commission d'enquête du Sénat de 2020.",
@@ -3128,7 +3124,7 @@
         "en": "Fret SNCF wound up"
       },
       "kinds": ["privatisation"],
-      "actors": ["instances-internationales", "gouvernement"],
+      "actors": ["instances-internationales", "entreprises"],
       "url": "https://www.politis.fr/articles/2024/11/transports-liquidation-de-fret-sncf-les-syndicats-preparent-la-riposte/",
       "description": {
         "fr": "Pour clore une enquête de la Commission européenne sur environ 5,3 milliards d'euros d'aides publiques jugées contraires à la concurrence, Fret SNCF est remplacé par deux sociétés (Hexafret et Technis). Il doit céder 23 flux à ses concurrents, environ 20 % de son activité, et supprimer près de 500 postes, alors que le rail ne transporte que 10 % des marchandises en France.",
@@ -3253,7 +3249,7 @@
         "en": "CNCDH: the shrinking of civic space"
       },
       "kinds": ["securite-libertes"],
-      "actors": ["autorites-independantes"],
+      "actors": ["gouvernement", "parlement"],
       "url": "https://www.cncdh.fr/sites/default/files/2025-06/A%20-%202025%20-%207%20-%20CNCDH%20-%20Avis%20R%C3%A9duction%20de%20l%27espace%20civique_0.pdf",
       "description": {
         "fr": "Dans un avis du 17 juin 2025, la CNCDH estime que plusieurs dispositifs législatifs et réglementaires contribuent à restreindre l'espace civique plutôt qu'à garantir son intégrité : surveillance accrue des acteurs syndicaux et associatifs, nouvelles règles administratives, stratégies de maintien de l'ordre et judiciarisation croissante des mobilisations, au détriment de la liberté de manifestation. Elle relève aussi que les discours menaçants et la répression dissuadent des personnes de participer à des manifestations.",
@@ -3354,7 +3350,7 @@
         "en": "Public procurement: the Senate asks to fix the lack of steering of UGAP"
       },
       "kinds": ["privatisation", "finances"],
-      "actors": ["parlement"],
+      "actors": ["gouvernement"],
       "url": "https://www.senat.fr/rap/r24-830-1/r24-830-1_mono.html",
       "description": {
         "fr": "La commission d'enquête du Sénat sur la commande publique dépose son rapport avec 67 recommandations. La n° 30 vise à remédier au défaut de pilotage politique de l'UGAP, la principale centrale d'achat publique : tutelle confiée à un seul ministère, deux mandats successifs au plus pour les administrateurs, deux parlementaires au conseil d'administration. Lors des auditions de mars 2025, l'UGAP a indiqué un taux de marge moyen de 3,76 % sur les commandes enregistrées en 2024.",
@@ -3437,7 +3433,7 @@
         "en": "Justice pour le vivant: the court of appeal finds ANSES at fault and orders a review of authorisations"
       },
       "kinds": ["environnement-sante"],
-      "actors": ["justice"],
+      "actors": ["justice", "gouvernement"],
       "url": "https://paris.cour-administrative-appel.fr/decisions-de-justice/dernieres-decisions/la-cour-reconnait-la-responsabilite-de-l-etat-dans-l-existence-d-un-prejudice-ecologique-resultant-de-l-usage-des-produits-phytopharmaceutiques",
       "description": {
         "fr": "La cour administrative d'appel de Paris reconnaît l'existence d'un préjudice écologique résultant de l'usage des produits phytopharmaceutiques, apprécié notamment pour la santé humaine, même si d'autres facteurs peuvent intervenir. Elle juge que l'ANSES a commis une faute en ne se prononçant pas systématiquement au regard du dernier état des connaissances scientifiques, et ordonne à l'État de mettre en œuvre une évaluation conforme (notamment pour les espèces non ciblées) et de réexaminer, sous vingt-quatre mois, les autorisations de mise sur le marché déjà délivrées. Elle écarte en revanche la faute tirée du non-respect des plans Ecophyto, leurs objectifs chiffrés n'étant pas contraignants, et accorde un euro symbolique à chaque association. Un pourvoi a été enregistré le 23 octobre 2025 ; son issue n'est pas documentée ici.",
@@ -3524,7 +3520,7 @@
       },
       "kinds": ["securite-libertes"],
       "natures": ["avis-instance"],
-      "actors": ["autorites-independantes"],
+      "actors": ["gouvernement", "parlement"],
       "url": "https://www.ldh-france.org/wp-content/uploads/2026/07/DL212-Actualite-2.-Les-libertes-a-lerpeuve-des-JO.pdf",
       "description": {
         "fr": "Le 14 octobre 2025, la Commission nationale consultative des droits de l'homme adopte l'avis « Les libertés à l'épreuve des grands événements ». Selon la présentation qu'en donne un de ses conseillers juridiques dans Droits & Libertés (janvier 2026), elle y exprime ses préoccupations sur la « stratégie d'entrave » des Jeux de 2024 : un recours aux Micas quatre à cinq fois supérieur aux années précédentes, des mesures reposant souvent sur des « notes blanches » non sourcées, un élargissement des profils visés (convictions religieuses, origine, activités politiques et syndicales). Elle relève aussi que, d'après les parlementaires et le comité d'évaluation, la vidéosurveillance algorithmique n'a pas contribué de façon significative au succès des Jeux, ce qui n'empêche pas sa prolongation. Nous n'avons pas lu l'avis lui-même, seulement cette présentation.",
@@ -3576,7 +3572,7 @@
         "en": "Central purchasing bodies: prices sometimes above retail"
       },
       "kinds": ["privatisation", "finances"],
-      "actors": ["medias"],
+      "actors": ["gouvernement"],
       "url": "https://www.franceinfo.fr/economie/commandes-publiques-d-equipements-polemique-autour-des-centrales-d-achats_7677400.html",
       "description": {
         "fr": "Un reportage de France 2 (franceinfo) relève des écarts sur quelques produits : une cafetière payée près de 160 € par une mairie contre environ 60 € en magasin, une ramette de papier facturée 6,22 € contre 3,90-4 € (chiffres de la maire concernée) ; sur le site de l'UGAP, un vidéoprojecteur à 1 390,14 € contre 1 249,90 € en enseigne et un stylo à 2 € contre 1,59 € en supermarché (relevé de France Télévisions). L'UGAP répond que, sur la majorité de son catalogue, ses prix sont plus bas que ceux du marché, tout en reconnaissant qu'elle ne peut garantir le meilleur prix sur 500 000 références. Ces exemples ne mesurent pas l'écart moyen du catalogue ; le reportage place les commandes publiques de ce type à plus de 230 Md€ par an.",
@@ -3758,7 +3754,7 @@
       },
       "kinds": ["impunite", "repression"],
       "natures": ["decision", "procedure"],
-      "actors": ["justice"],
+      "actors": ["justice", "forces-de-l-ordre"],
       "url": "https://index.ngo/veille/mort-de-nahel-la-cour-de-cassation-annule-l-arret-qui-ecartait-la-qualification-de-meurtre",
       "description": {
         "fr": "Le 3 juin 2025, deux juges d'instruction ordonnent le renvoi du policier devant la cour d'assises pour meurtre, comme l'avait demandé le parquet de Nanterre, d'après l'AFP. Le 5 mars 2026, la chambre de l'instruction de la cour d'appel de Versailles écarte l'intention de donner la mort et le renvoie pour violences ayant entraîné la mort sans intention de la donner. Le 10 juin 2026 (pourvoi n° 26-81.675), la chambre criminelle de la Cour de cassation annule cette décision pour défaut de motivation ; elle confirme le non-lieu du second policier. L'affaire est renvoyée devant la chambre de l'instruction de Versailles, autrement composée ; la légalité du tir au regard de l'article L. 435-1 du code de la sécurité intérieure reste à examiner. Le Club des juristes indique un réexamen le 29 septembre 2026 ; nous n'avons trouvé aucune décision depuis, ni date de procès. Aucun jugement sur le fond n'est intervenu : le policier est présumé innocent.",
@@ -3787,7 +3783,7 @@
         "en": "Presumption of self-defence for law enforcement: passed by the Assembly, criticised by the Defender of Rights and the UN"
       },
       "kinds": ["securite-libertes"],
-      "actors": ["parlement", "autorites-independantes", "instances-internationales"],
+      "actors": ["parlement"],
       "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/presomption_legitime_defense_forces_ordre",
       "description": {
         "fr": "La proposition de loi n° 691 (Éric Pauget et collègues, déposée en décembre 2024) insérerait dans le Code pénal une présomption selon laquelle les policiers nationaux et municipaux et les gendarmes agissent en légitime défense lorsqu'ils font usage de leur arme dans les conditions du Code de la sécurité intérieure, renversable si l'enquête démontre un usage manifestement disproportionné ou contraire à la nécessité absolue. Rejetée par la commission, puis adoptée en première lecture par l'Assemblée nationale le 7 juillet 2026, elle est transmise au Sénat. Le 26 juin, la Défenseure des droits alerte sur des risques pour le droit à la vie, l'accès au juge et les voies de recours. Le 7 juillet, le rapporteur spécial de l'ONU sur les exécutions extrajudiciaires demande à la France de rejeter le texte et s'inquiète aussi d'une modification supprimant, dans certains cas, l'obligation de porter un uniforme ou un signe distinctif visible.",
@@ -4001,7 +3997,7 @@
         "by": "ai"
       },
       "natures": ["procedure"],
-      "actors": ["justice"],
+      "actors": ["justice", "entreprises"],
       "summary": {
         "fr": "Le PNF et le parquet de Bruxelles annoncent une saisie d'environ 65 M€ dans l'enquête sur McKinsey pour blanchiment de fraude fiscale aggravée, soit 96 % du préjudice fiscal selon le PNF. Une saisie n'est pas une condamnation : aucune mise en examen trouvée.",
         "en": "The PNF and the Brussels prosecutor announce a seizure of about €65m in the McKinsey probe for laundering aggravated tax fraud, 96% of the tax loss per the PNF. A seizure is not a conviction: no indictment found."
@@ -4068,7 +4064,7 @@
       },
       "kinds": ["repression", "securite-libertes"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://www.amnesty.fr/communiques/amnesty-international-denonce-lusage-disproportionne-de-la-force-contre-les-manifestations-lyceennes/",
       "description": {
         "fr": "Le 2 octobre 2026, Amnesty International France dénonce un usage disproportionné de la force contre les manifestations lycéennes : techniques d'étranglement, tirs de LBD, gaz poivrés. Dans son point de situation, elle cite le ministère de l'Intérieur pour plus de 5 000 interpellations entre le 21 septembre et le 2 octobre, et indique que 85 % des personnes interpellées sont mineures et des cas rapportés par la presse ou des procureurs : un lycéen de 14 ans touché au visage par un tir de lance-grenades (séquence authentifiée par Le Monde, selon Amnesty), un jeune de 16 ans qui a perdu l'usage d'un œil, dont la procureure juge les lésions compatibles avec un tir de LBD, et le cas de Lens, avec une enquête de l'IGPN. Elle demande des enquêtes indépendantes, la suspension des LBD et, pour les grenades assourdissantes, une interdiction. C'est un constat d'ONG et non une décision ; aucune réponse du gouvernement n'y figure (voir l'événement du 7 octobre pour la suspension annoncée des grenades).",
@@ -4164,7 +4160,7 @@
       },
       "kinds": ["repression", "securite-libertes"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://www.ldh-france.org/larmee-contre-la-jeunesse-la-ldh-demande-a-lonu-une-mission-dobservation-en-france/",
       "description": {
         "fr": "Dans un communiqué signé du 22 octobre 2026 (mis en ligne le 1er novembre), la Ligue des droits de l'Homme juge le maintien de l'ordre du 17 octobre « chaotique et incohérent » et critique les armes dites sublétales, déjà à l'origine de mutilations. Elle dénonce aussi, d'après l'annonce qu'elle attribue au ministre de l'Intérieur, le déploiement pour le 24 octobre de 500 militaires de l'opération Sentinelle et d'unités comme la BRI, le Raid et le GIGN, non formées au maintien de l'ordre selon elle. Elle saisit le Comité des droits de l'enfant de l'ONU et appelle le Haut-Commissaire aux droits de l'Homme à envoyer une mission d'observation des manifestations, en invoquant la Convention internationale des droits de l'enfant, la liberté de manifester et l'intégrité physique. C'est la position d'une ONG, et le communiqué ne cite aucune réponse des autorités.",
@@ -4220,7 +4216,7 @@
       },
       "kinds": ["repression", "securite-libertes"],
       "natures": ["avis-instance"],
-      "actors": ["autorites-independantes"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "url": "https://www.defenseurdesdroits.fr/mobilisations-lyceennes-le-defenseur-des-droits-appelle-respecter-les-droits-de-lenfant-1254",
       "description": {
         "fr": "Le 23 octobre 2026, le Défenseur des droits, autorité administrative indépendante chargée aussi de la déontologie des forces de sécurité, dit avoir reçu 55 saisines liées à la mobilisation lycéenne, dont 21 concernent des mineurs et mettent en cause la déontologie des forces de sécurité : 19 dénoncent le recours à la force (dont l'usage d'armes et les nasses), 2 la confiscation de pancartes, 3 des atteintes aux droits procéduraux et des conditions indignes en garde à vue (plusieurs motifs pouvant se cumuler). Il exprime sa vive préoccupation sur l'ampleur inédite des interpellations et gardes à vue, rappelle les exigences de nécessité et de proportionnalité de l'usage de la force et demande de clarifier le cadre juridique de la confiscation d'objets. Ces chiffres sont ceux de l'institution et portent sur des saisines, pas sur des faits établis.",
@@ -4297,7 +4293,7 @@
         "by": "ai"
       },
       "natures": ["avis-instance"],
-      "actors": ["instances-internationales"],
+      "actors": ["forces-de-l-ordre", "gouvernement"],
       "summary": {
         "fr": "Quatre rapporteurs spéciaux de l'ONU jugent que violences et arrestations en masse ne sont pas des réponses appropriées à un mouvement social, et les blessures de mineur·es injustifiables. Ils condamnent aussi les dégradations et les policiers blessés.",
         "en": "Four UN special rapporteurs say violence and mass arrests are not appropriate responses to a social movement, and minors' injuries unjustifiable. They also condemn the damage and injured police officers."
@@ -4311,7 +4307,7 @@
         "en": "Conseil d'État: what the HATVP can and cannot rule on regarding conflicts of interest"
       },
       "kinds": ["probite"],
-      "actors": ["justice", "autorites-independantes"],
+      "actors": ["justice", "gouvernement"],
       "url": "https://www.conseil-etat.fr/actualites/prevention-des-conflits-d-interets-le-conseil-d-etat-precise-les-regles-et-l-office-de-la-haute-autorite-pour-la-transparence-de-la-vie-publique",
       "description": {
         "fr": "Saisi de deux recours contre trois délibérations de la HATVP, le Conseil d'État (assemblée du contentieux, décisions n° 505836 et n° 514106) se prononce pour la première fois sur le contrôle de la déclaration d'intérêts d'un ministre. Il juge que la HATVP doit rechercher si l'ensemble des intérêts détenus par un ministre au cours des cinq années précédant sa nomination est d'une intensité suffisante pour influencer, ou sembler influencer, ses fonctions, mais qu'il ne lui appartient pas de se prononcer sur un risque pénal, réservé au juge pénal. Il juge aussi qu'un mandat d'administrateur d'une société lucrative, même bénévole, est une activité lucrative dans le privé, et que pour un projet de départ vers le privé la HATVP doit apprécier le risque, sous le contrôle du juge, que le délit de prise illégale d'intérêts soit constitué. Il annule les trois délibérations contestées, qui concernaient un ministre et un ancien directeur général de la Caisse des dépôts.",
@@ -4338,7 +4334,7 @@
       },
       "kinds": ["securite-libertes"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile", "parlement"],
+      "actors": ["parlement"],
       "url": "https://www.amnesty.fr/actualites/loi-casseurs-payeurs-menace-droit-manifester-france/",
       "description": {
         "fr": "Après l'adoption du projet de loi « casseurs-payeurs » par le Sénat le 27 octobre 2026 (procédure accélérée, texte annoncé après les violences de la finale de la Ligue des champions en mai 2026), Amnesty International France en demande le retrait. Elle décrit un texte qui tiendrait pour responsables, jusqu'à 10 000 euros par personne, ceux qui auraient « sciemment » participé à un rassemblement où des dégradations sont commises ou se seraient maintenus malgré les sommations, avec saisie possible de prestations sociales (dont le RSA), responsabilité civile des parents et peine complémentaire d'interdiction du territoire pour les étrangers majeurs condamnés pour certaines infractions graves. Elle estime que le droit international n'admet de responsabilité que pour sa propre conduite, prouvée. Le texte doit encore passer devant l'Assemblée. C'est la position d'une ONG ; l'article ne cite pas de réponse du gouvernement.",
@@ -4395,7 +4391,7 @@
       },
       "kinds": ["securite-libertes", "repression"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile"],
+      "actors": ["gouvernement"],
       "url": "https://www.ldh-france.org/atteinte-a-letat-de-droit-illegalismes-administratifs/",
       "description": {
         "fr": "Dans un communiqué commun du 4 novembre 2026, l'Adelico, la CGT, la FSU, la LDH, le Syndicat des avocats de France, Solidaires, l'Unef et le Syndicat de la magistrature dénoncent une « bascule autoritaire ». Ils affirment que des préfets prennent des arrêtés d'interdiction au dernier moment, sans permettre en général un recours, et que le gouvernement détourne la législation antiterroriste : selon eux, les Micas (loi SILT) produisent le même effet que l'interdiction préfectorale de manifester censurée par le Conseil constitutionnel en 2019, puisqu'elles empêchent de sortir d'un périmètre ; elles seraient prises pour chaque mobilisation et viseraient surtout des militant·es. Ils signalent aussi un amendement du gouvernement au projet « casseurs-payeurs » qui permettrait à l'exécutif d'interdire individuellement de paraître en manifestation. Ils saisissent le Conseil d'État pour qu'il prévoie des permanences permettant d'exercer les recours. Ce sont des positions d'organisations ; le communiqué ne cite aucune réponse du gouvernement et aucun chiffre.",
@@ -4452,7 +4448,7 @@
       },
       "kinds": ["repression", "securite-libertes"],
       "natures": ["constat-ong"],
-      "actors": ["societe-civile", "gouvernement"],
+      "actors": ["gouvernement"],
       "url": "https://www.ldh-france.org/lintersyndicale-lyceenne-et-etudiante-a-ete-recue-le-29-octobre-par-le-ministere-de-linterieur-apres-plusieurs-semaines-de-mobilisation-de-la-jeunesse-marquees-par-des-violences-p/",
       "description": {
         "fr": "Dans un communiqué commun du 9 novembre 2026, la LDH, l'Unef et l'USL rendent compte de la réception de l'intersyndicale lycéenne et étudiante par le ministère de l'Intérieur le 29 octobre. Elles dénoncent des violences policières, des blessures graves chez des jeunes et des interdictions de manifester publiées si tard qu'un recours devant le juge administratif devient quasi impossible, et critiquent le projet de loi qui ferait peser sur les manifestant·es la réparation des dommages par responsabilité du fait d'autrui, voté au Sénat. Selon elles, le ministère a refusé de reconnaître les violences et de s'engager à publier plus tôt les arrêtés d'interdiction, en maintenant que la force employée était toujours « nécessaire et proportionnée » et en renvoyant à la justice la responsabilité des recours impossibles, qui « aurait pu avoir le temps de statuer » selon le ministère tel que le rapportent les signataires. Elles saisissent une nouvelle fois le Haut-Commissariat de l'ONU et le Comité des droits de l'enfant. La version du ministère n'est connue ici que par ce communiqué.",
@@ -4511,7 +4507,7 @@
         "en": "Micas against protesters: first appeals examined on the merits"
       },
       "kinds": ["securite-libertes", "repression"],
-      "actors": ["justice"],
+      "actors": ["justice", "gouvernement"],
       "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
       "description": {
         "fr": "Selon le résumé public de Mediapart, les premiers recours contre les Micas utilisées pour assigner des manifestants à résidence ont été examinés sur le fond, le mardi 10 novembre 2026, par les tribunaux administratifs. L'article complet est réservé aux abonnés et n'a pas été lu ici : ni le détail des audiences ni les décisions ne sont documentés.",
