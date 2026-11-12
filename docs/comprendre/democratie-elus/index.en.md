@@ -1,6 +1,6 @@
 ---
-description: 'History of mobilisations, democratic channels flouted, court decisions on elected officials, their resources and conflicts of interest.'
-source_commit: 2b08992231f76ba63a9e98cdc00c76fba96a8ff6
+description: 'History of mobilisations, votes and voices ignored, court decisions on elected officials, their resources and conflicts of interest.'
+source_commit: bd8a6f039052181ec739e0f719f18bb62f7d26e9
 tags:
     - understand
     - democracy
@@ -9,7 +9,7 @@ tags:
 
 # Democracy and elected officials
 
-The files in this section date and source what concerns power and those who hold it: what the street won, democratic channels flouted, court decisions on elected officials, their resources and conflict-of-interest situations.
+The files in this section date and source what concerns power and those who hold it: what the street won, votes and voices ignored, court decisions on elected officials, their resources and conflict-of-interest situations.
 
 {% import "overrides/partials/dossiers.html" as d with context %}
 

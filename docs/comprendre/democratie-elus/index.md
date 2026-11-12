@@ -1,5 +1,5 @@
 ---
-description: "Histoire des mobilisations, voies démocratiques contournées, décisions de justice visant des élus, moyens des élus et conflits d'intérêts."
+description: "Histoire des mobilisations, votes et paroles ignorés, décisions de justice visant des élus, moyens des élus et conflits d'intérêts."
 tags:
     - comprendre
     - démocratie
@@ -8,7 +8,7 @@ tags:
 
 # Démocratie et élus
 
-Les dossiers de cette section datent et sourcent ce qui concerne le pouvoir et ceux qui l'exercent : ce que la rue a obtenu, les voies démocratiques contournées, les décisions de justice visant des élu·es, leurs moyens et les situations de conflit d'intérêts.
+Les dossiers de cette section datent et sourcent ce qui concerne le pouvoir et ceux qui l'exercent : ce que la rue a obtenu, les votes et paroles ignorés, les décisions de justice visant des élu·es, leurs moyens et les situations de conflit d'intérêts.
 
 {% import "overrides/partials/dossiers.html" as d with context %}
 

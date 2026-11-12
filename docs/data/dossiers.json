@@ -27,8 +27,8 @@
           "page": "confiance/index.md",
           "icon": "material-vote-outline",
           "title": {
-            "fr": "Les voies démocratiques bafouées",
-            "en": "Democratic channels flouted"
+            "fr": "Votes et paroles ignorés",
+            "en": "Votes and voices ignored"
           },
           "blurb": {
             "fr": "Référendum de 2005 contourné, Convention citoyenne pour le climat vidée, 49.3, cahiers de doléances jamais publiés, valse des gouvernements.",
@@ -139,8 +139,8 @@
           "page": "securite-libertes/index.md",
           "icon": "material-shield-lock-outline",
           "title": {
-            "fr": "Sécurité et libertés",
-            "en": "Security and freedoms"
+            "fr": "Lois et libertés",
+            "en": "Laws and freedoms"
           },
           "blurb": {
             "fr": "État d'urgence, loi anticasseurs, caméras algorithmiques, « casseurs-payeurs » : les lois depuis 2015 et ce qu'elles changent pour manifester, avec les avis de l'ONU, du Conseil de l'Europe et de la LDH.",
@@ -155,8 +155,8 @@
           "page": "repressions/index.md",
           "icon": "material-file-document-alert",
           "title": {
-            "fr": "Répressions et déclarations démenties",
-            "en": "Documented repression and debunked claims"
+            "fr": "Répressions et démentis",
+            "en": "Repression and debunked claims"
           },
           "blurb": {
             "fr": "Violences commises lors du maintien de l'ordre et déclarations officielles contredites ensuite par les faits, avec leurs preuves.",

@@ -11,7 +11,7 @@ tags:
     - vidéosurveillance
 ---
 
-# Sécurité et libertés : ce que les lois changent pour manifester
+# Lois et libertés : ce qui change pour manifester
 
 Les textes qui encadrent la manifestation et la sécurité ne datent pas d'hier : régime de déclaration en 1935, état d'urgence en 1955, loi « anticasseurs » en 1970, législation antiterroriste depuis 1986. Depuis 2015, une série de lois, de plans et d'expérimentations a élargi les pouvoirs de contrôle, de prévention et de sanction autour des manifestations : état d'urgence, loi « anticasseurs » de 2019, caméras à traitement algorithmique, projet « casseurs-payeurs ». Leurs défenseurs invoquent la lutte contre le terrorisme et contre les violences ; leurs critiques (ONU, Conseil de l'Europe, CNCDH, Défenseure des droits, LDH) y voient un recul des libertés. Cette page ne tranche pas : elle date chaque texte, dit ce qu'il change et rapporte ce que le Conseil constitutionnel et ces organismes en ont dit. Qu'une loi soit « liberticide » est un jugement politique : on cite donc qui le dit plutôt que de l'affirmer.
 
@@ -106,9 +106,9 @@ Publié en 1949, le roman dystopique _1984_ de George Orwell imagine une sociét
 
 ## Pour aller plus loin
 
-- [Répressions documentées](../repressions/index.md) et [repères historiques](../histoire/index.md).
+- [Répressions et démentis](../repressions/index.md) et [repères historiques](../histoire/index.md).
 - Vérifier un texte : {{ res("legifrance") }}, {{ res("conseil-constitutionnel-decisions") }}, {{ res("vie-publique") }}. Suivre une loi en cours : {{ res("an-dossiers-legislatifs") }}, {{ res("senat-textes-legislatifs") }}. Caméras algorithmiques : {{ res("cnil-cameras-augmentees") }}.
-- [Les voies démocratiques bafouées](../confiance/index.md).
+- [Votes et paroles ignorés](../confiance/index.md).
 - Les guides : [le droit de manifester](../guides/droit-de-manifester.md), [dispersion](../guides/dispersion.md), [garde à vue](../guides/garde-a-vue.md), [porter plainte](../guides/suites-judiciaires.md).
 
 ## Sources

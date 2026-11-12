@@ -1,6 +1,6 @@
 ---
 description: 'Climate and pesticides: dated, sourced court decisions and official texts, with the readings of NGOs and public authorities.'
-source_commit: 9706ceeec989aa55937bc742181477b3c6b3c9e7
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 review: juridique
 review_status: pending
 tags:
@@ -43,6 +43,6 @@ Climate, glyphosate, neonicotinoids: this timeline gathers dated decisions (cour
 
 ## Going further
 
-- [Democratic channels flouted](../confiance/index.md): the petition against the Duplomb law (2.1 million signatures, debate without a vote) also appears there.
+- [Votes and voices ignored](../confiance/index.md): the petition against the Duplomb law (2.1 million signatures, debate without a vote) also appears there.
 - [Historical landmarks](../histoire/index.md): all the dates on the site.
 - [Verify information and avoid disinformation](../guides/desinformation.md): for the figures and quotes circulating on these topics.

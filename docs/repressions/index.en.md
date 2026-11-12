@@ -1,6 +1,6 @@
 ---
 description: 'Violence during policing and official statements later disproved by the facts: a dated, sourced timeline.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 tags:
     - repression
     - disinformation
@@ -8,7 +8,7 @@ hide:
     - toc
 ---
 
-# Documented repression and disinformation
+# Repression and debunked claims
 
 Violence committed during policing of protests, and official statements later contradicted by the facts.
 

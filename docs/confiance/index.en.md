@@ -1,6 +1,6 @@
 ---
 description: "Bypassed referendum, citizens' convention, laws without a vote: sourced facts on the democratic routes protesters say were ignored."
-source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
+source_commit: bd8a6f039052181ec739e0f719f18bb62f7d26e9
 tags:
     - comprendre
     - démocratie
@@ -8,7 +8,7 @@ hide:
     - toc
 ---
 
-# Democratic channels flouted: how we got here
+# Votes and voices ignored: how we got here
 
 A referendum bypassed, a citizens' convention emptied of its substance, laws passed without a vote, the coalition that came first set aside, a great debate with no follow-up, grievance books never published, a pensions conclave that led nowhere, a record petition debated without a vote, governments replaced within months. This timeline gathers the moments when **citizens' votes or voices were not acted upon**. They go a long way to explain distrust of institutions. If so many people take to the streets, it is not out of a taste for insurrection: it is often because the other channels led nowhere.
 

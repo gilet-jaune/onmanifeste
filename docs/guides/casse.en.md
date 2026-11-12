@@ -1,6 +1,6 @@
 ---
 description: 'Why does property get damaged at protests? The facts on damage, targeted symbols and how the media cover it.'
-source_commit: 8a9025d
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 review: juridique
 review_status: pending
 tags:
@@ -36,13 +36,13 @@ Broken shop windows, bus shelters, burnt cars: at every major mobilisation, prop
 ## "The language of the unheard"
 
 - In 1966, Martin Luther King put it this way: "a riot is the language of the unheard". In the same interview, he hoped riots could be avoided because they are "self-defeating and socially destructive".[^cbs-king-1966] He was not justifying them: he was asking what society had refused to hear.
-- Many yellow vests and high-school students share this feeling of not being listened to: a shared-initiative referendum that cannot be triggered, grievance books left in a drawer, repeated use of Article 49.3. See [Democratic channels flouted](../confiance/index.md).
+- Many yellow vests and high-school students share this feeling of not being listened to: a shared-initiative referendum that cannot be triggered, grievance books left in a drawer, repeated use of Article 49.3. See [Votes and voices ignored](../confiance/index.md).
 
 ## When repression raises the tension
 
 - Crowd research shows that policing **perceived as illegitimate and indiscriminate** (violent dispersal, kettling everyone) **unites the crowd and radicalises it**: people who came peacefully become willing to resist the police.[^sussex-esim]
 - In the United Kingdom, this work led the police to favour dialogue and to **differentiate** between people instead of treating the crowd as one block.[^sussex-esim]
-- See [Documented repression and disinformation](../repressions/index.md).
+- See [Repression and debunked claims](../repressions/index.md).
 
 ## Does it work? What the studies say
 

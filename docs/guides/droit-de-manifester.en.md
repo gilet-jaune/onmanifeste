@@ -1,6 +1,6 @@
 ---
 description: 'The right to protest in France: declaration, undeclared or banned protests, what the law says.'
-source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 review: juridique
 review_status: pending
 tags:
@@ -56,7 +56,7 @@ In France, demonstrating is a **freedom**, not a permission you ask for. The Sta
 - **Breaking it is an offence**: 1 year in prison and a €15,000 fine.[^cp-434-38-1]
 - [ ] Before a hearing or being brought before a prosecutor, ask your lawyer whether a ban on demonstrating may be requested, for which places and for how long.
 
-See also: [Security and freedoms: what the laws change](../securite-libertes/index.md) · [Organising a protest](organiser.md) · [ID checks and searches](controle-fouille.md) · [The Palestinian flag at protests](drapeau-palestinien.md).
+See also: [Laws and freedoms: what changes](../securite-libertes/index.md) · [Organising a protest](organiser.md) · [ID checks and searches](controle-fouille.md) · [The Palestinian flag at protests](drapeau-palestinien.md).
 
 ## Sources
 

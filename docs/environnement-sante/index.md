@@ -42,6 +42,6 @@ Climat, glyphosate, néonicotinoïdes : cette frise rassemble les décisions dat
 
 ## Pour aller plus loin
 
-- [Les voies démocratiques bafouées](../confiance/index.md) : la pétition contre la loi Duplomb (2,1 millions de signatures, débat sans vote) y figure aussi.
+- [Votes et paroles ignorés](../confiance/index.md) : la pétition contre la loi Duplomb (2,1 millions de signatures, débat sans vote) y figure aussi.
 - [Repères historiques](../histoire/index.md) : l'ensemble des dates du site.
 - [Vérifier une info et éviter la désinformation](../guides/desinformation.md) : pour les chiffres et les citations qui circulent sur ces sujets.

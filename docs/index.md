@@ -59,7 +59,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Comprendre les enjeux](comprendre/index.md)
 
-- **Répressions et désinformation documentées** [:material-file-document-alert:](repressions/index.md)
+- **Répressions et démentis** [:material-file-document-alert:](repressions/index.md)
 
     ***
 

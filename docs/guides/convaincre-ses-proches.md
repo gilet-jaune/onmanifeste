@@ -67,7 +67,7 @@ Ne dites pas « voter ne sert à rien » : la personne y verrait un mépris de s
 
 - **Ne l'opposez pas au vote** : « Continue à voter, et ajoutons autre chose entre deux élections. » Manifester est un droit garanti par la Constitution, pas une alternative au scrutin.
 - **Demandez ce qui devrait se passer quand un vote n'est pas respecté** plutôt que d'asséner une conclusion.
-- **Appuyez-vous sur des faits datés et sourcés**, pas sur « on nous ignore » : la frise [Les voies démocratiques bafouées](../confiance/index.md) et le profil [attaché·e au vote](../rallier/index.md#pourquoi-electeur).
+- **Appuyez-vous sur des faits datés et sourcés**, pas sur « on nous ignore » : la frise [Votes et paroles ignorés](../confiance/index.md) et le profil [attaché·e au vote](../rallier/index.md#pourquoi-electeur).
 - **Si vous parlez d'une nouvelle République**, présentez-la comme un débat ouvert, pas comme un dogme : les propositions (constituante, proportionnelle, référendum d'initiative citoyenne) sont discutées et critiquées, y compris par des spécialistes (réponse sourcée dans le [profil](../rallier/index.md#pourquoi-electeur)).
 - **Proposez un petit pas qui respecte ses convictions** : signer une pétition, soutenir un référendum d'initiative partagée, venir à un rassemblement calme.
 

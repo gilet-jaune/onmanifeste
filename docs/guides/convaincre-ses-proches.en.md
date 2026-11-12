@@ -1,6 +1,6 @@
 ---
 description: 'Getting those close to you interested in the mobilisations: listening, shared values, lived stories.'
-source_commit: 4f88a84c31d89bee2e463c65656b13103fb0009b
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 tags:
     - guides
     - dialogue
@@ -68,7 +68,7 @@ Don't say "voting is pointless": the person would hear contempt for their convic
 
 - **Don't set it against voting**: "Keep voting, and let's add something else between elections." Protesting is a right guaranteed by the Constitution, not an alternative to the ballot.
 - **Ask what should happen when a vote isn't respected** rather than hammering a conclusion.
-- **Rely on dated, sourced facts**, not on "we're ignored": the timeline [Democratic channels flouted](../confiance/index.md) and the profile [someone who believes in voting](../rallier/index.md#pourquoi-electeur).
+- **Rely on dated, sourced facts**, not on "we're ignored": the timeline [Votes and voices ignored](../confiance/index.md) and the profile [someone who believes in voting](../rallier/index.md#pourquoi-electeur).
 - **If you bring up a new Republic**, present it as an open debate, not a dogma: the proposals (constituent assembly, proportional representation, citizens' initiative referendum) are discussed and criticised, including by specialists (sourced answer in the [profile](../rallier/index.md#pourquoi-electeur)).
 - **Offer a small step that respects their convictions**: sign a petition, back a shared-initiative referendum, come to a calm rally.
 

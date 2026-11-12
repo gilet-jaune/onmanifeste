@@ -1,7 +1,7 @@
 ---
 title: 'On manifeste | Guides, directory, understand'
 description: 'On manifeste: guides, rights, a directory and dossiers to understand (history, repression, media). Free, no account, no tracking, works offline.'
-source_commit: 938f841e5cde7f657165a8e00b9d91e6a5fc119a
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 tags:
     - home
 image: assets/covers/accueil.svg
@@ -60,7 +60,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     [:octicons-arrow-right-24: Understand the issues](comprendre/index.md)
 
-- **Documented repression and disinformation** [:material-file-document-alert:](repressions/index.md)
+- **Repression and debunked claims** [:material-file-document-alert:](repressions/index.md)
 
     ***
 

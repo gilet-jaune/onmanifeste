@@ -35,13 +35,13 @@ Vitrines brisées, abribus, voitures brûlées : à chaque grande mobilisation, 
 ## « Le langage de ceux qu'on n'entend pas »
 
 - En 1966, Martin Luther King résume : « une émeute est le langage de ceux qu'on n'entend pas ». Dans le même entretien, il espère qu'on les évitera, car elles sont « autodestructrices et socialement destructrices ».[^cbs-king-1966] Il ne justifie pas la casse : il demande ce que la société a refusé d'entendre.
-- Beaucoup de gilets jaunes et de lycéen·nes partagent ce sentiment de ne pas être écouté·es : référendum d'initiative partagée impossible à déclencher, cahiers de doléances restés dans les tiroirs, 49.3 à répétition. Voir [Les voies démocratiques bafouées](../confiance/index.md).
+- Beaucoup de gilets jaunes et de lycéen·nes partagent ce sentiment de ne pas être écouté·es : référendum d'initiative partagée impossible à déclencher, cahiers de doléances restés dans les tiroirs, 49.3 à répétition. Voir [Votes et paroles ignorés](../confiance/index.md).
 
 ## Quand la répression fait monter la tension
 
 - La recherche sur les foules montre qu'un maintien de l'ordre **perçu comme illégitime et indiscriminé** (dispersion violente, encerclement de tout le monde) **soude la foule et la radicalise** : des personnes venues pacifiquement deviennent prêtes à résister à la police.[^sussex-esim]
 - Au Royaume-Uni, ces travaux ont conduit la police à privilégier le dialogue et à **distinguer** les personnes au lieu de traiter la foule comme un bloc.[^sussex-esim]
-- Voir [Répressions documentées](../repressions/index.md).
+- Voir [Répressions et démentis](../repressions/index.md).
 
 ## Est-ce que ça marche ? Ce que disent les études
 

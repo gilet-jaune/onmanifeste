@@ -55,7 +55,7 @@ En France, manifester est une **liberté**, pas une autorisation qu'on demande. 
 - **La désobéir est un délit** : 1 an de prison et 15 000 € d'amende.[^cp-434-38-1]
 - [ ] Avant une audience ou un déferrement, demandez à l'avocat·e si une interdiction de manifester peut être requise, pour quels lieux et pour combien de temps.
 
-Voir aussi : [Sécurité et libertés : ce que les lois changent](../securite-libertes/index.md) · [Organiser une manifestation](organiser.md) · [Contrôle et fouille](controle-fouille.md) · [Drapeau palestinien en manifestation](drapeau-palestinien.md).
+Voir aussi : [Lois et libertés : ce qui change](../securite-libertes/index.md) · [Organiser une manifestation](organiser.md) · [Contrôle et fouille](controle-fouille.md) · [Drapeau palestinien en manifestation](drapeau-palestinien.md).
 
 ## Sources
 

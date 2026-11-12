@@ -1,6 +1,6 @@
 ---
 description: 'A timeline of uprisings, social movements and rights won in the street, with sources.'
-source_commit: 49d88b2a7f78ef2b3b59ece100ccf548a8cfdf33
+source_commit: 023ae8d7b29df1fdea0e6122395f435bac3b57f9
 tags:
     - history
 hide:

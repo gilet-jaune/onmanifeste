@@ -1,6 +1,6 @@
 ---
 description: 'Security and counter-terrorism laws since 1935 (state of emergency, anti-rioters, algorithmic cameras, "casseurs-payeurs") and what they change for protesting.'
-source_commit: 18a00a94cafbc53a30cfc5ecfee6c0c2216d334e
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 review: juridique
 review_status: pending
 tags:
@@ -12,7 +12,7 @@ tags:
     - vidéosurveillance
 ---
 
-# Security and freedoms: what the laws change for protesting
+# Laws and freedoms: what changes for protesting
 
 The texts governing demonstrations and security are not new: a declaration regime in 1935, the state of emergency in 1955, the "anti-rioters" law in 1970, counter-terrorism legislation since 1986. Since 2015, a series of laws, plans and trials has widened the powers of control, prevention and punishment around demonstrations: the state of emergency, the 2019 "anti-rioters" law, cameras with algorithmic processing, the "casseurs-payeurs" ("rioters pay") bill. Their supporters point to the fight against terrorism and violence; their critics (the UN, the Council of Europe, the CNCDH, the Defender of Rights, the LDH) see a rollback of freedoms. This page does not take sides: it dates each text, says what it changes and reports what the Constitutional Council and these bodies have said about it. Whether a law is "freedom-killing" is a political judgement: we cite who says so rather than asserting it.
 
@@ -107,9 +107,9 @@ Published in 1949, George Orwell's dystopian novel _Nineteen Eighty-Four_ imagin
 
 ## Going further
 
-- [Documented repression](../repressions/index.md) and [historical milestones](../histoire/index.md).
+- [Repression and debunked claims](../repressions/index.md) and [historical milestones](../histoire/index.md).
 - To check a text: {{ res("legifrance") }}, {{ res("conseil-constitutionnel-decisions") }}, {{ res("vie-publique") }}. To follow a bill: {{ res("an-dossiers-legislatifs") }}, {{ res("senat-textes-legislatifs") }}. Algorithmic cameras: {{ res("cnil-cameras-augmentees") }}.
-- [Democratic channels flouted](../confiance/index.md).
+- [Votes and voices ignored](../confiance/index.md).
 - The guides: [the right to protest](../guides/droit-de-manifester.md), [dispersal](../guides/dispersion.md), [police custody](../guides/garde-a-vue.md), [filing a complaint](../guides/suites-judiciaires.md).
 
 ## Sources

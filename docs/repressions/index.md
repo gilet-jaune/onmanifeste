@@ -7,7 +7,7 @@ hide:
     - toc
 ---
 
-# Répressions et désinformation documentées
+# Répressions et démentis
 
 Des violences commises lors du maintien de l'ordre, et des déclarations officielles démenties ensuite par les faits.
 

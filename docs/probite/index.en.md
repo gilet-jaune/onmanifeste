@@ -1,6 +1,6 @@
 ---
 description: 'Court decisions concerning elected officials (Fillon, Sarkozy, Le Pen, Balkany): what is judged, what is final, sentences cut short, with sources.'
-source_commit: 2b08992231f76ba63a9e98cdc00c76fba96a8ff6
+source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
 review: juridique
 review_status: pending
 tags:
@@ -60,4 +60,4 @@ A sentence can end before its term without being a favour or a pardon. These are
 
 - [Conflicts of interest](../conflits-interets/index.md) and [Benefits and resources of elected officials](../avantages-elus/index.md): the legal framework and the resources of elected officials, alongside the court decisions on this page.
 - {{ res("anticor","Anticor") }}: an anti-corruption association, to learn about cases or report them.
-- [Democratic channels flouted](../confiance/index.md) and [Historical landmarks](../histoire/index.md): the background to the distrust, including tax-fraud cases (Panama Papers).
+- [Votes and voices ignored](../confiance/index.md) and [Historical landmarks](../histoire/index.md): the background to the distrust, including tax-fraud cases (Panama Papers).
