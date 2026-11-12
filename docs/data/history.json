@@ -1387,6 +1387,30 @@
       }
     },
     {
+      "id": "2017-affaire-theo-interpellation-a-aulnay-sous-bois",
+      "date": "2017-02-02",
+      "title": {
+        "fr": "Affaire Théo : une interpellation à Aulnay-sous-Bois tourne au drame",
+        "en": "The Théo case: an arrest in Aulnay-sous-Bois goes tragically wrong"
+      },
+      "kinds": ["repression", "impunite"],
+      "url": "https://www.france24.com/fr/info-en-continu/20240119-%F0%9F%94%B4-affaire-th%C3%A9o-les-trois-policiers-condamn%C3%A9s-%C3%A0-des-peines-de-3-%C3%A0-12-mois-de-prison-avec-sursis",
+      "description": {
+        "fr": "Le 2 février 2017, dans la cité des 3 000 à Aulnay-sous-Bois, trois policiers de la brigade spécialisée de terrain interpellent un jeune homme de 22 ans, Théo Luhaka. Il reçoit un coup de matraque télescopique qui provoque une plaie de dix centimètres et une rupture du sphincter ; après deux opérations, des séquelles irréversibles (incontinence) subsistent, selon les expertises médicales rapportées par l'AFP. L'enquête administrative de l'IGPN conclut à un usage disproportionné de la force. Le Défenseur des droits dénonce, d'après France 24, une accumulation de manquements et recommande une inspection des pratiques de ces brigades, qui avaient fait l'objet de plusieurs plaintes. Les policiers ont été jugés en janvier 2024.",
+        "en": "On 2 February 2017, in the cité des 3 000 in Aulnay-sous-Bois, three officers of the brigade spécialisée de terrain arrest a 22-year-old man, Théo Luhaka. He is struck with a telescopic baton, causing a ten-centimetre wound and a ruptured sphincter; after two operations, irreversible after-effects (incontinence) remain, according to medical expert reports relayed by the AFP. The IGPN's administrative inquiry finds a disproportionate use of force. The Defender of Rights denounces, according to France 24, an accumulation of failings and recommends an inspection of the practices of these brigades, which had been the subject of several complaints. The officers were tried in January 2024."
+      },
+      "summary": {
+        "fr": "Un jeune homme de 22 ans est gravement blessé par un coup de matraque télescopique lors d'une interpellation. L'IGPN conclut à un usage disproportionné de la force ; les policiers seront jugés en 2024.",
+        "en": "A 22-year-old is gravely injured by a telescopic baton blow during an arrest. The IGPN finds a disproportionate use of force; the officers will be tried in 2024."
+      },
+      "evidence": ["france24-theo-condamnes-2024", "gazette-theo-condamnes-2024"],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "2017-loi-securite-publique-usage-des-armes",
       "date": "2017-02-28",
       "title": {
@@ -2509,11 +2533,11 @@
         "fr": "Mort de Nahel Merzouk",
         "en": "Death of Nahel Merzouk"
       },
-      "kinds": ["soulevement"],
+      "kinds": ["soulevement", "repression", "impunite"],
       "url": "https://fr.wikipedia.org/wiki/Mort_de_Nahel_Merzouk",
       "description": {
-        "fr": "Un adolescent de 17 ans est tué par un policier lors d'un contrôle routier à Nanterre ; plusieurs nuits de révoltes urbaines suivent.",
-        "en": "A 17-year-old is killed by a police officer during a traffic stop in Nanterre; several nights of urban uprisings follow."
+        "fr": "Le 27 juin 2023, un adolescent de 17 ans est tué d'un tir à bout portant par un policier lors d'un contrôle routier à Nanterre ; plusieurs nuits de révoltes urbaines suivent. La version policière initiale est contredite par une vidéo amateur. Le parquet de Nanterre requiert un procès pour meurtre en mars 2025 ; la procédure se poursuit (voir l'événement du 10 juin 2026). Le policier est présumé innocent tant qu'il n'est pas jugé.",
+        "en": "On 27 June 2023, a 17-year-old is killed by a point-blank shot from a police officer during a traffic stop in Nanterre; several nights of urban uprisings follow. The initial police account is contradicted by an amateur video. The Nanterre prosecutor sought a murder trial in March 2025; proceedings continue (see the 10 June 2026 event). The officer is presumed innocent until tried."
       },
       "debunked": {
         "claim": {
@@ -2531,6 +2555,10 @@
         "date": "2026-10-28",
         "result": "confirmed",
         "by": "ai"
+      },
+      "summary": {
+        "fr": "Un adolescent de 17 ans est tué par un policier à Nanterre ; la vidéo contredit la version policière, des révoltes urbaines suivent. Procédure en cours, le policier est présumé innocent.",
+        "en": "A 17-year-old is killed by a police officer in Nanterre; a video contradicts the police account and urban uprisings follow. Proceedings continue; the officer is presumed innocent."
       }
     },
     {
@@ -2560,6 +2588,31 @@
       "summary": {
         "fr": "Saisi par des associations, le tribunal administratif de Paris reconnaît la carence fautive de l'État sur les pesticides et lui enjoint de réparer d'ici au 30 juin 2024. En appel (2025), la faute liée aux plans Ecophyto est écartée mais l'ANSES est jugée fautive.",
         "en": "Seized by associations, the Paris administrative court finds the State at fault on pesticides and orders repair by 30 June 2024. On appeal (2025), the Ecophyto-plan fault is dismissed but ANSES is found at fault."
+      }
+    },
+    {
+      "id": "2023-l-onu-appelle-la-france-a-traiter-le-racisme-dans-les-forces-de-l-ordre",
+      "date": "2023-06-30",
+      "title": {
+        "fr": "Après la mort de Nahel, l'ONU appelle la France à traiter le racisme dans les forces de l'ordre",
+        "en": "After Nahel's death, the UN urges France to address racism in law enforcement"
+      },
+      "kinds": ["discrimination", "repression"],
+      "natures": ["avis-instance"],
+      "url": "https://news.un.org/en/story/2023/06/1138247",
+      "description": {
+        "fr": "Le 30 juin 2023, la porte-parole du Haut-Commissariat de l'ONU aux droits de l'homme déclare, d'après ONU Info, que c'est le moment pour le pays de s'attaquer sérieusement aux problèmes profonds de racisme et de discrimination dans les forces de l'ordre. Elle rappelle l'importance du droit de réunion pacifique et demande que l'usage de la force respecte légalité, nécessité, proportionnalité, non-discrimination, précaution et responsabilité. ONU Info cite aussi 37 décès lors d'opérations de police en 2021, dont dix par balle, selon l'IGPN. Nous n'avons pas pu lire la note originale du Haut-Commissariat ni la réponse du gouvernement.",
+        "en": "On 30 June 2023, the spokesperson of the UN human rights office says, according to UN News, that this is a moment for the country to seriously address deep issues of racism and discrimination in law enforcement. She stresses the importance of peaceful assembly and asks that use of force respect legality, necessity, proportionality, non-discrimination, precaution and accountability. UN News also cites 37 deaths during police operations in 2021, ten of them shot, according to the IGPN. We could not read the UN office's original note or the government's reply."
+      },
+      "summary": {
+        "fr": "Le Haut-Commissariat de l'ONU aux droits de l'homme appelle la France à traiter le racisme et la discrimination dans les forces de l'ordre et à respecter la proportionnalité de la force.",
+        "en": "The UN human rights office urges France to address racism and discrimination in law enforcement and to respect proportionality in the use of force."
+      },
+      "evidence": ["unnews-onu-racisme-forces-de-l-ordre-2023"],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -2637,6 +2690,31 @@
       "summary": {
         "fr": "Saisi pour obtenir une astreinte, le tribunal juge que le jugement de 2021 n'est pas totalement exécuté mais refuse toute mesure supplémentaire. Les associations dénoncent la décision et se pourvoient en cassation ; le ministère y voit une réparation dans les délais.",
         "en": "Asked for a penalty payment, the court finds the 2021 judgment not fully executed but refuses any extra measure. The associations denounce the decision and appeal to the Court of Cassation; the ministry sees repair within the deadline."
+      }
+    },
+    {
+      "id": "2024-affaire-theo-trois-policiers-condamnes-avec-sursis",
+      "date": "2024-01-19",
+      "title": {
+        "fr": "Affaire Théo : trois policiers condamnés à des peines de 3 à 12 mois de prison avec sursis",
+        "en": "The Théo case: three police officers given 3 to 12 months' suspended sentences"
+      },
+      "kinds": ["impunite", "repression"],
+      "natures": ["decision"],
+      "url": "https://www.lagazettefrance.fr/article/affaire-theo-trois-policiers-condamnes-a-des-peines-de-3-a-12-mois-de-prison-avec-sursis",
+      "description": {
+        "fr": "Le 19 janvier 2024, après plus de neuf heures de délibéré, la cour d'assises de Seine-Saint-Denis condamne les trois policiers pour violences volontaires : douze mois de prison avec sursis et cinq ans d'interdiction d'exercer sur la voie publique pour l'auteur du coup de matraque, trois mois avec sursis chacun pour les deux autres. Elle n'a pas retenu la qualification de violences ayant entraîné une mutilation ou infirmité permanente, et les peines sont inférieures aux réquisitions de l'avocat général (de trois mois à trois ans avec sursis). Selon l'AFP, l'avocat de la victime parle d'une décision d'apaisement qu'il prend comme une victoire, la défense d'un immense soulagement. La préfecture de police annonce de possibles sanctions disciplinaires. Les sources lues ne disent pas si le jugement est devenu définitif.",
+        "en": "On 19 January 2024, after more than nine hours of deliberation, the Seine-Saint-Denis assize court convicts the three officers of intentional violence: twelve months' suspended prison and a five-year ban from working on the public highway for the one who struck the blow, three months' suspended each for the other two. It did not retain the charge of violence causing permanent mutilation or disability, and the sentences are below the advocate general's requests (three months to three years suspended). According to the AFP, the victim's lawyer calls it an appeasing decision he takes as a victory, the defence an immense relief. The Paris police prefecture announces possible disciplinary sanctions. The sources read do not say whether the judgment became final."
+      },
+      "summary": {
+        "fr": "Trois policiers sont condamnés pour violences volontaires à 3 à 12 mois de prison avec sursis ; la qualification de mutilation ou infirmité permanente n'est pas retenue. Finalité du jugement non précisée dans les sources lues.",
+        "en": "Three officers are convicted of intentional violence and given 3 to 12 months' suspended sentences; the permanent-mutilation charge is not retained. Whether the judgment is final is not stated in the sources read."
+      },
+      "evidence": ["france24-theo-condamnes-2024", "gazette-theo-condamnes-2024"],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -3471,6 +3549,35 @@
       "summary": {
         "fr": "Selon l'INSEE, la dette publique atteint 3 460,5 Md€ fin 2025, soit 115,7 % du PIB (97,9 % en 2019). La charge d'intérêts s'établit à 64,7 Md€ en 2025 (+11,2 %), sous l'effet de la hausse de l'encours et des taux.",
         "en": "According to INSEE, public debt reaches €3,460.5bn at end-2025, or 115.7% of GDP (97.9% in 2019). Interest costs reach €64.7bn in 2025 (+11.2%), driven by higher debt and rates."
+      }
+    },
+    {
+      "id": "2026-nahel-cassation-annule-la-requalification",
+      "date": "2026-06-10",
+      "title": {
+        "fr": "Mort de Nahel : la Cour de cassation annule la requalification des faits en violences",
+        "en": "Death of Nahel: the Court of Cassation overturns the requalification as violence"
+      },
+      "kinds": ["impunite", "repression"],
+      "natures": ["decision", "procedure"],
+      "url": "https://index.ngo/veille/mort-de-nahel-la-cour-de-cassation-annule-l-arret-qui-ecartait-la-qualification-de-meurtre",
+      "description": {
+        "fr": "Le 3 juin 2025, deux juges d'instruction ordonnent le renvoi du policier devant la cour d'assises pour meurtre, comme l'avait demandé le parquet de Nanterre, d'après l'AFP. Le 5 mars 2026, la chambre de l'instruction de la cour d'appel de Versailles écarte l'intention de donner la mort et le renvoie pour violences ayant entraîné la mort sans intention de la donner. Le 10 juin 2026 (pourvoi n° 26-81.675), la chambre criminelle de la Cour de cassation annule cette décision pour défaut de motivation ; elle confirme le non-lieu du second policier. L'affaire est renvoyée devant la chambre de l'instruction de Versailles, autrement composée ; la légalité du tir au regard de l'article L. 435-1 du code de la sécurité intérieure reste à examiner. Le Club des juristes indique un réexamen le 29 septembre 2026 ; nous n'avons trouvé aucune décision depuis, ni date de procès. Aucun jugement sur le fond n'est intervenu : le policier est présumé innocent.",
+        "en": "On 3 June 2025, two investigating judges order the officer sent to the assize court for murder, as the Nanterre prosecutor had requested, according to the AFP. On 5 March 2026, the investigating chamber of the Versailles appeal court rules out intent to kill and sends him for violence causing death without intent to kill. On 10 June 2026 (appeal no. 26-81.675), the criminal chamber of the Court of Cassation quashes that decision for lack of reasoning; it upholds the non-suit of the second officer. The case returns to the Versailles investigating chamber, differently composed; the legality of the shot under Article L. 435-1 of the Internal Security Code remains to be examined. The Club des juristes reports a re-examination on 29 September 2026; we found no decision since, nor a trial date. No ruling on the merits has been made: the officer is presumed innocent."
+      },
+      "summary": {
+        "fr": "La Cour de cassation annule la requalification en violences et renvoie l'affaire à Versailles. Pas de procès à ce jour ni de jugement sur le fond : le policier est présumé innocent.",
+        "en": "The Court of Cassation overturns the requalification as violence and sends the case back to Versailles. No trial or ruling on the merits to date: the officer is presumed innocent."
+      },
+      "evidence": [
+        "france24-nahel-cassation-2026",
+        "index-nahel-cassation-2026",
+        "clubjuristes-nahel-versailles-2026"
+      ],
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {

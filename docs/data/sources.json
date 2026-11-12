@@ -8078,6 +8078,78 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "france24-theo-condamnes-2024": {
+      "title": {
+        "fr": "France 24 (AFP) — Affaire Théo : les trois policiers condamnés à des peines de 3 à 12 mois de prison avec sursis",
+        "en": "France 24 (AFP) — Théo case: the three police officers given 3 to 12 months' suspended sentences (in French)"
+      },
+      "url": "https://www.france24.com/fr/info-en-continu/20240119-%F0%9F%94%B4-affaire-th%C3%A9o-les-trois-policiers-condamn%C3%A9s-%C3%A0-des-peines-de-3-%C3%A0-12-mois-de-prison-avec-sursis",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "gazette-theo-condamnes-2024": {
+      "title": {
+        "fr": "La Gazette France (AFP) — Affaire Théo : trois policiers condamnés à des peines de 3 à 12 mois de prison avec sursis",
+        "en": "La Gazette France (AFP) — Théo case: three police officers given 3 to 12 months' suspended sentences (in French)"
+      },
+      "url": "https://www.lagazettefrance.fr/article/affaire-theo-trois-policiers-condamnes-a-des-peines-de-3-a-12-mois-de-prison-avec-sursis",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "france24-nahel-cassation-2026": {
+      "title": {
+        "fr": "France 24 (AFP) — Mort de Nahel Merzouk : la Cour de cassation annule la requalification des faits pour le policier",
+        "en": "France 24 (AFP) — Death of Nahel Merzouk: the Court of Cassation overturns the requalification of the officer's acts (in French)"
+      },
+      "url": "https://www.france24.com/fr/info-en-continu/20260612-mort-de-nahel-merzouk-la-cour-de-cassation-annule-la-requalification-des-faits-pour-le-policier",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "index-nahel-cassation-2026": {
+      "title": {
+        "fr": "Index — Mort de Nahel : la Cour de cassation annule l'arrêt qui écartait la qualification de meurtre",
+        "en": "Index — Death of Nahel: the Court of Cassation overturns the ruling that had ruled out a murder charge (in French)"
+      },
+      "url": "https://index.ngo/veille/mort-de-nahel-la-cour-de-cassation-annule-l-arret-qui-ecartait-la-qualification-de-meurtre",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "clubjuristes-nahel-versailles-2026": {
+      "title": {
+        "fr": "Club des juristes — Meurtre de Nahel Merzouk : réexamen du chef d'accusation par la cour d'appel de Versailles",
+        "en": "Club des juristes — Murder of Nahel Merzouk: Versailles appeal court to re-examine the charge (in French)"
+      },
+      "url": "https://www.leclubdesjuristes.com/en-bref/meurtre-de-nahel-merzouk-reexamen-du-chef-daccusation-par-la-cour-dappel-de-versailles-17507/",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "unnews-onu-racisme-forces-de-l-ordre-2023": {
+      "title": {
+        "fr": "ONU Info (UN News) — UN rights office calls on France to address 'deep issues' of racism in policing",
+        "en": "UN News — UN rights office calls on France to address 'deep issues' of racism in policing"
+      },
+      "url": "https://news.un.org/en/story/2023/06/1138247",
+      "check": {
+        "date": "2026-11-12",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }
