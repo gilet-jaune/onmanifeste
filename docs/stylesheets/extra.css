@@ -1011,7 +1011,6 @@ select:focus-visible {
 }
 
 /* Kind filters (shown by docs/javascripts/extra.js) and period jump links. */
-.md-typeset .timeline-filters,
 .md-typeset .timeline-periods {
   display: flex;
   flex-wrap: wrap;
@@ -1020,14 +1019,164 @@ select:focus-visible {
   margin: 1rem 0;
 }
 
-.md-typeset .timeline-filters[hidden] {
+.md-typeset .timeline-filters {
+  margin: 1rem 0;
+}
+
+.md-typeset .timeline-filters[hidden],
+.md-typeset .timeline-filters [hidden] {
   display: none;
+}
+
+.md-typeset .timeline-filters__bar,
+.md-typeset .timeline-filters__summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.6rem;
+  align-items: center;
+}
+
+.md-typeset .timeline-filters__summary {
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .timeline-filters__summary li {
+  margin: 0;
+}
+
+.md-typeset .timeline-filters__toggle,
+.md-typeset .timeline-filters__clear,
+.md-typeset .timeline-filters__apply,
+.md-typeset .timeline-filters__tag {
+  font: inherit;
+  cursor: pointer;
+}
+
+.md-typeset .timeline-filters__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: 1.4rem;
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.md-typeset .timeline-filters__icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.md-typeset .timeline-filters__badge {
+  min-width: 1.3rem;
+  padding: 0 0.3rem;
+  border-radius: 0.65rem;
+  background: var(--ap-ink);
+  color: var(--ap-vest);
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  text-align: center;
+}
+
+.md-typeset .timeline-filters__clear {
+  padding: 0.3rem 0.2rem;
+  border: 0;
+  background: none;
+  color: var(--ap-text);
+  font-size: 0.75rem;
+  text-decoration: underline;
+}
+
+.md-typeset .timeline-filters__tag {
+  padding: 0.25rem 0.7rem;
+  border: 1.5px solid var(--ap-ink);
+  border-radius: 1rem;
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.md-typeset .timeline-filters__panel {
+  margin-top: 0.6rem;
+  padding: 0.8rem 1rem 1rem;
+  border: 1.5px solid var(--ap-line);
+  border-radius: var(--ap-radius);
+}
+
+.md-typeset .timeline-filters__help {
+  margin: 0 0 0.6rem;
+  font-size: 0.7rem;
+  color: var(--ap-muted);
+}
+
+.md-typeset .timeline-filters__group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  min-width: 0;
+  margin: 0 0 0.7rem;
+  padding: 0;
+  border: 0;
+}
+
+.md-typeset .timeline-filters__group legend {
+  width: 100%;
+  margin-bottom: 0.3rem;
+  padding: 0;
+}
+
+.md-typeset .timeline-filters__apply {
+  display: none;
+  min-height: 2.75rem;
+  padding: 0 1rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: 1.4rem;
+  background: var(--ap-ink);
+  color: var(--ap-vest);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.md-typeset .timeline-filters__toggle:focus-visible,
+.md-typeset .timeline-filters__clear:focus-visible,
+.md-typeset .timeline-filters__apply:focus-visible,
+.md-typeset .timeline-filters__tag:focus-visible,
+.md-typeset .timeline-filters__chip:focus-visible {
+  outline: 3px solid var(--ap-ink);
+  outline-offset: 2px;
 }
 
 .md-typeset .timeline-filters__label {
   font-size: 0.7rem;
   font-weight: 700;
   color: var(--ap-muted);
+}
+
+.md-typeset .timeline-filters__n {
+  margin-left: 0.3rem;
+  font-size: 0.65rem;
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.md-typeset .timeline-filters__chip:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* The "see the events" button only helps on a phone, where the open panel covers the list. */
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .timeline-filters__panel:not([hidden]) .timeline-filters__apply:not([hidden]) {
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
 .md-typeset .timeline__nature {

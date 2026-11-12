@@ -100,22 +100,46 @@ across kinds, e.g. the security-and-freedoms page). -#}
 {%- for e in shown %}{% set p = period_of(e.date[:4] | int) | int %}{% if p not in shown_periods %}{% set _ = shown_periods.append(p) %}{% endif %}{% endfor -%}
 
 {%- if shown_kinds | length > 1 or show_natures or show_actors %}
+{#- Hidden until docs/javascripts/extra.js enhances it: without JavaScript every event stays visible. -#}
 <div class="timeline-filters" data-timeline-filters hidden>
-  <span class="timeline-filters__label">{{ 'Afficher :' if lang == 'fr' else 'Show:' }}</span>
-  <button type="button" class="timeline-filters__chip" data-kind="" aria-pressed="true">{{ 'Tout' if lang == 'fr' else 'All' }}</button>
-  {%- if shown_kinds | length > 1 %}{% for k, label in kinds.items() if k in shown_kinds %}
-  <button type="button" class="timeline-filters__chip" data-kind="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
-  {%- endfor %}{% endif %}
-  {%- if show_natures %}
-  <span class="timeline-filters__label">{{ 'Nature :' if lang == 'fr' else 'Nature:' }}</span>
-  {%- for k, label in natures.items() if k in shown_natures %}
-  <button type="button" class="timeline-filters__chip" data-nature="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
-  {%- endfor %}{% endif %}
-  {%- if show_actors %}
-  <span class="timeline-filters__label">{{ 'Concerne :' if lang == 'fr' else 'Concerns:' }}</span>
-  {%- for k, label in actors.items() if k in shown_actors %}
-  <button type="button" class="timeline-filters__chip" data-actor="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
-  {%- endfor %}{% endif %}
+  <div class="timeline-filters__bar">
+    <button type="button" class="timeline-filters__toggle" data-filters-toggle aria-expanded="true">
+      <svg class="timeline-filters__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 4h18l-7 9v6l-4 2v-8z" fill="currentColor"/></svg>
+      <span>{{ 'Filtrer' if lang == 'fr' else 'Filter' }}</span>
+      <span class="timeline-filters__badge" data-filters-badge hidden></span>
+    </button>
+    <button type="button" class="timeline-filters__clear" data-filters-clear hidden>{{ 'Effacer les filtres' if lang == 'fr' else 'Clear filters' }}</button>
+    <span class="timeline-filters__count" role="status" data-filters-count></span>
+  </div>
+  <ul class="timeline-filters__summary" data-filters-summary hidden aria-label="{{ 'Filtres actifs' if lang == 'fr' else 'Active filters' }}"></ul>
+  <div class="timeline-filters__panel" data-filters-panel>
+    <p class="timeline-filters__help">{{ "Dans un même groupe, un événement correspond à l'un des choix ; entre groupes, il doit correspondre à chacun." if lang == 'fr' else 'Within a group an event matches any choice; across groups it must match each one.' }}</p>
+    {%- if shown_kinds | length > 1 %}
+    <fieldset class="timeline-filters__group">
+      <legend class="timeline-filters__label">{{ 'Thème' if lang == 'fr' else 'Theme' }}</legend>
+      {%- for k, label in kinds.items() if k in shown_kinds %}
+      <button type="button" class="timeline-filters__chip" data-kind="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
+      {%- endfor %}
+    </fieldset>
+    {%- endif %}
+    {%- if show_natures %}
+    <fieldset class="timeline-filters__group">
+      <legend class="timeline-filters__label">Nature</legend>
+      {%- for k, label in natures.items() if k in shown_natures %}
+      <button type="button" class="timeline-filters__chip" data-nature="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
+      {%- endfor %}
+    </fieldset>
+    {%- endif %}
+    {%- if show_actors %}
+    <fieldset class="timeline-filters__group">
+      <legend class="timeline-filters__label">{{ 'Concerne' if lang == 'fr' else 'Concerns' }}</legend>
+      {%- for k, label in actors.items() if k in shown_actors %}
+      <button type="button" class="timeline-filters__chip" data-actor="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
+      {%- endfor %}
+    </fieldset>
+    {%- endif %}
+    <button type="button" class="timeline-filters__apply" data-filters-apply>{{ 'Voir les' if lang == 'fr' else 'Show' }} <span data-filters-n></span> {{ 'événements' if lang == 'fr' else 'events' }}</button>
+  </div>
 </div>
 {%- endif %}
 

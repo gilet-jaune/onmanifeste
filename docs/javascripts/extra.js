@@ -652,22 +652,25 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /*
-  Timeline filters (overrides/partials/history-timeline.html): the buttons stay hidden without
-  JavaScript, so every event remains visible. A period heading is hidden when none of its events
-  match the selected kind.
+  Timeline filters (overrides/partials/history-timeline.html). Without JavaScript the filter block
+  stays hidden and every event is visible. With it: a "Filter" button (with the number of active
+  values) opens a panel of chips in up to three groups (theme, nature, who it concerns). A panel with
+  many chips starts closed, a small one stays open. Active values are listed under the bar, each one
+  removable. Inside a group an event matches ANY selected value; between groups it must match EVERY
+  group used. Each chip shows how many events it would give with the other groups' selection and is
+  disabled at zero. The selection is kept in the URL (#kind=a,b&nature=c&actor=d) so a filtered view
+  can be shared; only the first timeline of a page reads or writes the hash.
 */
 document.addEventListener('DOMContentLoaded', function () {
-  // Themes (data-kind chips), natures (data-nature chips) and actors (data-actor chips) can each be
-  // multi-selected: an event is shown when it matches one selected value of EACH group used (a
-  // group with nothing selected lets everything through). The selection is kept in the URL
-  // (#kind=a,b&nature=c&actor=d) so a filtered view can be shared. Only the first timeline of a
-  // page reads or writes the hash.
   const GROUPS = [
     { attr: 'data-kind', key: 'kind', data: 'data-kinds' },
     { attr: 'data-nature', key: 'nature', data: 'data-natures' },
     { attr: 'data-actor', key: 'actor', data: 'data-actors' },
   ];
   const fr = document.documentElement.lang !== 'en';
+  // A panel with more chips than this starts closed behind the "Filter" button.
+  const COLLAPSE_ABOVE = 6;
+  const plural = (n, one, many) => (n > 1 ? many : one);
 
   const readHash = () => {
     const out = { kind: [], nature: [], actor: [] };
@@ -696,35 +699,87 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('[data-timeline-filters]').forEach((filters, index) => {
     const list = filters.parentElement.querySelector('ol.timeline');
     if (!list) return;
-    const all = filters.querySelector('[data-kind=""]');
+    const q = (selector) => filters.querySelector(selector);
+    const toggle = q('[data-filters-toggle]');
+    const badge = q('[data-filters-badge]');
+    const clear = q('[data-filters-clear]');
+    const count = q('[data-filters-count]');
+    const summary = q('[data-filters-summary]');
+    const panel = q('[data-filters-panel]');
+    const apply = q('[data-filters-apply]');
+    const applyN = q('[data-filters-n]');
+
+    const items = [...list.querySelectorAll(':scope > li:not(.timeline__period)')];
+    items.forEach((li) => {
+      li.filterValues = {};
+      GROUPS.forEach((g) => {
+        li.filterValues[g.key] = (li.getAttribute(g.data) || '').split(' ').filter(Boolean);
+      });
+    });
+
     const chips = {};
     const selected = {};
     const fromHash = index === 0 ? readHash() : { kind: [], nature: [], actor: [] };
     GROUPS.forEach((g) => {
-      chips[g.key] = [...filters.querySelectorAll(`[${g.attr}]:not([${g.attr}=""])`)];
+      chips[g.key] = [...panel.querySelectorAll(`[${g.attr}]`)];
+      chips[g.key].forEach((chip) => {
+        chip.dataset.label = chip.textContent.trim();
+        const n = document.createElement('span');
+        n.className = 'timeline-filters__n';
+        chip.append(n);
+      });
       const known = chips[g.key].map((c) => c.getAttribute(g.attr));
       selected[g.key] = fromHash[g.key].filter((k) => known.includes(k));
     });
-    const count = document.createElement('span');
-    count.className = 'timeline-filters__count';
-    count.setAttribute('role', 'status');
-    filters.append(count);
+    const chipTotal = GROUPS.reduce((sum, g) => sum + chips[g.key].length, 0);
+    const collapsible = chipTotal > COLLAPSE_ABOVE;
+
+    const panelId = `timeline-filters-panel-${index}`;
+    panel.id = panelId;
+    toggle.setAttribute('aria-controls', panelId);
+    toggle.hidden = !collapsible;
+    apply.hidden = !collapsible;
+    panel.hidden = collapsible;
+    toggle.setAttribute('aria-expanded', String(!collapsible));
     filters.hidden = false;
 
-    const anySelected = () => GROUPS.some((g) => selected[g.key].length);
-
-    const apply = () => {
-      GROUPS.forEach((g) =>
-        chips[g.key].forEach((c) =>
-          c.setAttribute('aria-pressed', String(selected[g.key].includes(c.getAttribute(g.attr)))),
-        ),
+    const total = () => GROUPS.reduce((sum, g) => sum + selected[g.key].length, 0);
+    // Does the event match the selection of every group but `skip` (used for the chip counts)?
+    const matches = (li, skip) =>
+      GROUPS.every(
+        (g) =>
+          g.key === skip ||
+          !selected[g.key].length ||
+          li.filterValues[g.key].some((v) => selected[g.key].includes(v)),
       );
-      all.setAttribute('aria-pressed', String(!anySelected()));
 
+    const renderSummary = () => {
+      summary.replaceChildren();
+      GROUPS.forEach((g) =>
+        selected[g.key].forEach((value) => {
+          const chip = chips[g.key].find((c) => c.getAttribute(g.attr) === value);
+          const li = document.createElement('li');
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'timeline-filters__tag';
+          button.dataset.remove = `${g.key}:${value}`;
+          button.setAttribute(
+            'aria-label',
+            `${fr ? 'Retirer le filtre' : 'Remove filter'} : ${chip.dataset.label}`,
+          );
+          button.textContent = `${chip.dataset.label} ×`;
+          li.append(button);
+          summary.append(li);
+        }),
+      );
+      // The summary only matters while the panel is closed: open, the pressed chips say it all.
+      summary.hidden = !total() || !panel.hidden;
+    };
+
+    const update = () => {
       let heading = null;
       let headingHasMatch = false;
       let shown = 0;
-      let total = 0;
       const closeHeading = () => {
         if (heading) heading.hidden = !headingHasMatch;
       };
@@ -735,12 +790,7 @@ document.addEventListener('DOMContentLoaded', function () {
           headingHasMatch = false;
           return;
         }
-        total += 1;
-        const match = GROUPS.every((g) => {
-          if (!selected[g.key].length) return true;
-          const values = (li.getAttribute(g.data) || '').split(' ');
-          return values.some((v) => selected[g.key].includes(v));
-        });
+        const match = matches(li, null);
         li.hidden = !match;
         if (match) {
           headingHasMatch = true;
@@ -748,27 +798,97 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       });
       closeHeading();
-      count.textContent = anySelected()
+
+      GROUPS.forEach((g) =>
+        chips[g.key].forEach((chip) => {
+          const value = chip.getAttribute(g.attr);
+          const on = selected[g.key].includes(value);
+          const n = items.filter(
+            (li) => matches(li, g.key) && li.filterValues[g.key].includes(value),
+          ).length;
+          chip.setAttribute('aria-pressed', String(on));
+          chip.disabled = n === 0 && !on;
+          chip.querySelector('.timeline-filters__n').textContent = String(n);
+          chip.setAttribute(
+            'aria-label',
+            `${chip.dataset.label}, ${n} ${fr ? plural(n, 'événement', 'événements') : plural(n, 'event', 'events')}`,
+          );
+        }),
+      );
+
+      const active = total();
+      badge.hidden = !active;
+      badge.textContent = String(active);
+      toggle.setAttribute(
+        'aria-label',
+        active
+          ? fr
+            ? `Filtrer, ${active} filtre${active > 1 ? 's' : ''} actif${active > 1 ? 's' : ''}`
+            : `Filter, ${active} active filter${active > 1 ? 's' : ''}`
+          : fr
+            ? 'Filtrer'
+            : 'Filter',
+      );
+      clear.hidden = !active;
+      count.textContent = active
         ? fr
-          ? `${shown} événement${shown > 1 ? 's' : ''} sur ${total}`
-          : `${shown} of ${total} events`
+          ? `${shown} événement${shown > 1 ? 's' : ''} sur ${items.length}`
+          : `${shown} of ${items.length} events`
         : '';
+      applyN.textContent = String(active ? shown : items.length);
+      renderSummary();
     };
 
-    filters.addEventListener('click', (e) => {
-      const chip = e.target.closest('[data-kind], [data-nature], [data-actor]');
+    const setSelection = (key, value) => {
+      selected[key] = selected[key].includes(value)
+        ? selected[key].filter((k) => k !== value)
+        : [...selected[key], value];
+    };
+    const persist = () => {
+      if (index === 0 && /^(#(kind|nature|actor)=.*)?$/.test(location.hash)) writeHash(selected);
+    };
+    const setOpen = (open) => {
+      panel.hidden = !open;
+      toggle.setAttribute('aria-expanded', String(open));
+      renderSummary();
+    };
+
+    toggle.addEventListener('click', () => setOpen(panel.hidden));
+    apply.addEventListener('click', () => {
+      setOpen(false);
+      toggle.focus();
+      filters.scrollIntoView({ block: 'start' });
+    });
+    clear.addEventListener('click', () => {
+      GROUPS.forEach((g) => (selected[g.key] = []));
+      update();
+      persist();
+    });
+    panel.addEventListener('click', (e) => {
+      const chip = e.target.closest('button[data-kind], button[data-nature], button[data-actor]');
       if (!chip) return;
       const g = GROUPS.find((x) => chip.hasAttribute(x.attr));
-      const value = chip.getAttribute(g.attr);
-      if (!value) GROUPS.forEach((x) => (selected[x.key] = []));
-      else if (selected[g.key].includes(value))
-        selected[g.key] = selected[g.key].filter((k) => k !== value);
-      else selected[g.key] = [...selected[g.key], value];
-      apply();
-      if (index === 0 && /^(#(kind|nature|actor)=.*)?$/.test(location.hash)) writeHash(selected);
+      setSelection(g.key, chip.getAttribute(g.attr));
+      update();
+      persist();
+    });
+    summary.addEventListener('click', (e) => {
+      const tag = e.target.closest('[data-remove]');
+      if (!tag) return;
+      const [key, value] = tag.dataset.remove.split(':');
+      setSelection(key, value);
+      update();
+      persist();
+      (summary.querySelector('button') || toggle).focus();
+    });
+    filters.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && collapsible && !panel.hidden) {
+        setOpen(false);
+        toggle.focus();
+      }
     });
 
-    apply();
+    update();
   });
 });
 
