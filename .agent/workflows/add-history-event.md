@@ -14,7 +14,7 @@
      one). Not those who judge, investigate or report on it: an Amnesty or UN report on police
      violence is about the police and the government, a journalistic investigation about the firm it
      investigates, a trial about the person tried. Never for protest events, never named people; the
-     "Mis en cause" filter reads it;
+     "Concerne" filter reads it;
    - optionally `end` (end of a period), `related` (ids of related events, "see also") and `guides`
      (slugs of useful guides; labels live in `overrides/partials/history-timeline.html`);
    - a `check` (`date`, `result`, `by: "ai"` when added by an agent).
