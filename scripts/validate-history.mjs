@@ -10,6 +10,7 @@ const STALE_DAYS = 365; // same threshold as resources.json and the weekly maint
 const data = JSON.parse(readFileSync(FILE, 'utf8'));
 const kinds = Object.keys(data.kinds ?? {});
 const natures = Object.keys(data.natures ?? {});
+const actors = Object.keys(data.actors ?? {});
 const sources = JSON.parse(readFileSync('docs/data/sources.json', 'utf8')).sources;
 
 let previous = '';
@@ -41,6 +42,16 @@ const ids = new Set();
       });
       if (new Set(e.natures).size !== e.natures.length)
         errors.push(`${at}: natures has duplicates`);
+    }
+  }
+  if (e.actors !== undefined) {
+    if (!Array.isArray(e.actors) || e.actors.length === 0)
+      errors.push(`${at}: actors must be a non-empty list when present`);
+    else {
+      e.actors.forEach((x) => {
+        if (!actors.includes(x)) errors.push(`${at}: unknown actor "${x}"`);
+      });
+      if (new Set(e.actors).size !== e.actors.length) errors.push(`${at}: actors has duplicates`);
     }
   }
   if (e.kinds !== undefined) {

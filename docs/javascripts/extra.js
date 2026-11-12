@@ -657,19 +657,25 @@ document.addEventListener('DOMContentLoaded', function () {
   match the selected kind.
 */
 document.addEventListener('DOMContentLoaded', function () {
-  // Themes (data-kind chips) and natures (data-nature chips) can each be multi-selected: an event
-  // is shown when it matches one selected theme AND one selected nature (a group with nothing
-  // selected lets everything through). The selection is kept in the URL (#kind=a,b&nature=c) so
-  // a filtered view can be shared. Only the first timeline of a page reads or writes the hash.
+  // Themes (data-kind chips), natures (data-nature chips) and actors (data-actor chips) can each be
+  // multi-selected: an event is shown when it matches one selected value of EACH group used (a
+  // group with nothing selected lets everything through). The selection is kept in the URL
+  // (#kind=a,b&nature=c&actor=d) so a filtered view can be shared. Only the first timeline of a
+  // page reads or writes the hash.
   const GROUPS = [
     { attr: 'data-kind', key: 'kind', data: 'data-kinds' },
     { attr: 'data-nature', key: 'nature', data: 'data-natures' },
+    { attr: 'data-actor', key: 'actor', data: 'data-actors' },
   ];
   const fr = document.documentElement.lang !== 'en';
 
   const readHash = () => {
-    const out = { kind: [], nature: [] };
-    if (!/^#(kind|nature)=[a-z0-9,-]*(&(kind|nature)=[a-z0-9,-]*)?$/.test(location.hash))
+    const out = { kind: [], nature: [], actor: [] };
+    if (
+      !/^#(kind|nature|actor)=[a-z0-9,-]*(&(kind|nature|actor)=[a-z0-9,-]*){0,2}$/.test(
+        location.hash,
+      )
+    )
       return out;
     new URLSearchParams(location.hash.slice(1)).forEach((value, key) => {
       if (key in out) out[key] = value.split(',').filter(Boolean);
@@ -693,7 +699,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const all = filters.querySelector('[data-kind=""]');
     const chips = {};
     const selected = {};
-    const fromHash = index === 0 ? readHash() : { kind: [], nature: [] };
+    const fromHash = index === 0 ? readHash() : { kind: [], nature: [], actor: [] };
     GROUPS.forEach((g) => {
       chips[g.key] = [...filters.querySelectorAll(`[${g.attr}]:not([${g.attr}=""])`)];
       const known = chips[g.key].map((c) => c.getAttribute(g.attr));
@@ -750,7 +756,7 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 
     filters.addEventListener('click', (e) => {
-      const chip = e.target.closest('[data-kind], [data-nature]');
+      const chip = e.target.closest('[data-kind], [data-nature], [data-actor]');
       if (!chip) return;
       const g = GROUPS.find((x) => chip.hasAttribute(x.attr));
       const value = chip.getAttribute(g.attr);
@@ -759,7 +765,7 @@ document.addEventListener('DOMContentLoaded', function () {
         selected[g.key] = selected[g.key].filter((k) => k !== value);
       else selected[g.key] = [...selected[g.key], value];
       apply();
-      if (index === 0 && /^(#(kind|nature)=.*)?$/.test(location.hash)) writeHash(selected);
+      if (index === 0 && /^(#(kind|nature|actor)=.*)?$/.test(location.hash)) writeHash(selected);
     });
 
     apply();
@@ -865,6 +871,7 @@ document.addEventListener('DOMContentLoaded', function () {
         clone(li, '.timeline__date'),
         clone(li, '.timeline__kind'),
         clone(li, '.timeline__nature'),
+        clone(li, '.timeline__actor'),
         heading,
         text,
         clone(li, '.timeline__gains'),

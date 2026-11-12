@@ -83,15 +83,21 @@ across kinds, e.g. the security-and-freedoms page). -#}
 {%- set ns_n = namespace(items=[]) -%}
 {%- for e in shown %}{% for n in e.natures or [] %}{% if n not in ns_n.items %}{% set ns_n.items = ns_n.items + [n] %}{% endif %}{% endfor %}{% endfor -%}
 {%- set shown_natures = ns_n.items -%}
+{%- set ns_a = namespace(items=[]) -%}
+{%- for e in shown %}{% for a in e.actors or [] %}{% if a not in ns_a.items %}{% set ns_a.items = ns_a.items + [a] %}{% endif %}{% endfor %}{% endfor -%}
+{%- set shown_actors = ns_a.items -%}
 {#- The nature filter is offered only when at least half of the shown events carry a nature: on a
     mostly untagged timeline it would look exhaustive while hiding most events. -#}
 {%- set tagged = shown | selectattr('natures') | list | length -%}
 {%- set show_natures = shown_natures | length > 1 and tagged * 2 >= shown | length -%}
+{#- Same rule for the "who" filter (institution an event comes from), and at least three of them: two would split a page in halves for nothing. -#}
+{%- set tagged_actors = shown | selectattr('actors') | list | length -%}
+{%- set show_actors = shown_actors | length > 2 and tagged_actors * 2 >= shown | length -%}
 {%- set shown_ids = shown | map(attribute='id') | list -%}
 {%- set shown_periods = [] -%}
 {%- for e in shown %}{% set p = period_of(e.date[:4] | int) | int %}{% if p not in shown_periods %}{% set _ = shown_periods.append(p) %}{% endif %}{% endfor -%}
 
-{%- if shown_kinds | length > 1 or show_natures %}
+{%- if shown_kinds | length > 1 or show_natures or show_actors %}
 <div class="timeline-filters" data-timeline-filters hidden>
   <span class="timeline-filters__label">{{ 'Afficher :' if lang == 'fr' else 'Show:' }}</span>
   <button type="button" class="timeline-filters__chip" data-kind="" aria-pressed="true">{{ 'Tout' if lang == 'fr' else 'All' }}</button>
@@ -102,6 +108,11 @@ across kinds, e.g. the security-and-freedoms page). -#}
   <span class="timeline-filters__label">{{ 'Nature :' if lang == 'fr' else 'Nature:' }}</span>
   {%- for k, label in natures.items() if k in shown_natures %}
   <button type="button" class="timeline-filters__chip" data-nature="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
+  {%- endfor %}{% endif %}
+  {%- if show_actors %}
+  <span class="timeline-filters__label">{{ 'Chez qui :' if lang == 'fr' else 'Who:' }}</span>
+  {%- for k, label in actors.items() if k in shown_actors %}
+  <button type="button" class="timeline-filters__chip" data-actor="{{ k }}" aria-pressed="false">{{ label[lang] or label.fr }}</button>
   {%- endfor %}{% endif %}
 </div>
 {%- endif %}
@@ -121,12 +132,15 @@ across kinds, e.g. the security-and-freedoms page). -#}
   {%- if p != ns.period and shown_periods | length > 1 %}{% set ns.period = p %}
   <li class="timeline__period" id="periode-{{ periods[p][0] }}"><h3>{{ periods[p][2] if lang == 'fr' else periods[p][3] }}</h3></li>
   {%- endif %}
-  <li class="timeline__event timeline__event--{{ e.kinds[0] }}" id="evt-{{ e.id }}" data-kinds="{{ e.kinds | join(' ') }}"{% if e.natures %} data-natures="{{ e.natures | join(' ') }}"{% endif %}>
+  <li class="timeline__event timeline__event--{{ e.kinds[0] }}" id="evt-{{ e.id }}" data-kinds="{{ e.kinds | join(' ') }}"{% if e.natures %} data-natures="{{ e.natures | join(' ') }}"{% endif %}{% if e.actors %} data-actors="{{ e.actors | join(' ') }}"{% endif %}>
     <time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}{{ end_label(e) }}</time>
     <div class="timeline__body">
       <span class="timeline__kind">{% for k in e.kinds %}{{ ' · ' if not loop.first }}{{ kinds[k][lang] or kinds[k].fr }}{% endfor %}</span>
       {%- if e.natures %}
       <span class="timeline__nature">{% for n in e.natures %}{{ ' · ' if not loop.first }}{{ natures[n][lang] or natures[n].fr }}{% endfor %}</span>
+      {%- endif %}
+      {%- if e.actors %}
+      <span class="timeline__actor">{{ 'Chez : ' if lang == 'fr' else 'Who: ' }}{% for a in e.actors %}{{ ' · ' if not loop.first }}{{ actors[a][lang] or actors[a].fr }}{% endfor %}</span>
       {%- endif %}
       <h3 class="timeline__title"><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.title[lang] or e.title.fr }}</a> <a class="timeline__permalink" href="#evt-{{ e.id }}" aria-label="{{ 'Lien vers cet événement' if lang == 'fr' else 'Link to this event' }}">#</a></h3>
       {#- A card shows the summary when there is one, otherwise the description (folded by CSS once the script runs). -#}

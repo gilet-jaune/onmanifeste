@@ -1037,6 +1037,13 @@ select:focus-visible {
   color: var(--ap-muted);
 }
 
+.md-typeset .timeline__actor {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--ap-muted);
+}
+
 .md-typeset .timeline-filters__count {
   font-size: 0.7rem;
   color: var(--ap-muted);
@@ -1183,7 +1190,8 @@ select:focus-visible {
 }
 
 .timeline-dialog .timeline__kind,
-.timeline-dialog .timeline__nature {
+.timeline-dialog .timeline__nature,
+.timeline-dialog .timeline__actor {
   display: block;
   font-size: 0.72rem;
   line-height: 1.4;
