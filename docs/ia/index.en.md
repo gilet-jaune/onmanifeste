@@ -32,7 +32,7 @@ It is a deliberate choice, with trade-offs, set out below.
 - **Translate** French into English. French remains the reference version.
 - **Write and test the code** of the site (MkDocs, check scripts, tests).
 
-The tools used are language models of the Claude family (Anthropic), used through a coding assistant. Many commits carry the matching co-author line in the repository's public history.
+The tools used are language models of the Claude family (Anthropic), used through a coding assistant.
 
 ## What the AI does not do
 

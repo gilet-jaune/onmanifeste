@@ -31,7 +31,7 @@ C'est un choix assumé, avec ses contreparties, détaillées ci-dessous.
 - **Traduire** le français vers l'anglais. Le français reste la version de référence.
 - **Écrire et tester le code** du site (MkDocs, scripts de contrôle, tests).
 
-Les outils employés sont des modèles de langage de la famille Claude (Anthropic), utilisés par l'intermédiaire d'un assistant de programmation. De nombreux commits portent la mention de co-auteur correspondante dans l'historique public du dépôt.
+Les outils employés sont des modèles de langage de la famille Claude (Anthropic), utilisés par l'intermédiaire d'un assistant de programmation.
 
 ## Ce que l'IA ne fait pas
 
