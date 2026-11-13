@@ -1,6 +1,6 @@
 ---
 description: 'How and why this site uses AI: what it does, what it does not do, its limits, its cost, and what still needs human review.'
-source_commit: e2863095d0e40aed7e0c87e2edca0aaa2a1f9939
+source_commit: 296e0a1284682c6ade71009abcd4a2f4ce15cfe3
 tags:
     - ai
     - transparency
@@ -9,18 +9,21 @@ tags:
 
 # How we use AI
 
-{% set ai_n = namespace(total=0, ai=0) %} {%- for list in [resources, events, sources.values() | list, victimes.victims] %} {%- for e in list %}{% set ai_n.total = ai_n.total + 1 %}{% if e.check.by == 'ai' %}{% set ai_n.ai = ai_n.ai + 1 %}{% endif %}{% endfor %} {%- endfor %}
-
 !!! info "In short"
 
     - **Yes, this site is largely built with the help of an AI**: finding sources, summaries, drafting, translation and code.
+    - **The site's engine is not made by an AI**: it is [MkDocs](https://www.mkdocs.org/) with the Material theme, free software that converts text files (Markdown) into web pages. But the custom layer (timeline filters, search, offline mode, check scripts) was written with an AI.
     - **No AI runs on the site or on your device.** The site is static: it sends none of your data to any AI service.
-    - **Nothing has been reviewed by a human yet**: {{ ai_n.ai }} of the {{ ai_n.total }} records in the registries (directory, events, sources, victims) carry the level "sourced, not reviewed by a human". Every record shows its level.
+    - **Nothing has been reviewed by a human yet**: every record (directory, events, sources, victims) shows its verification level, currently "sourced, not reviewed by a human". Human review is still to be done: see below.
     - **Legal and medical pages** are marked "not yet reviewed" until a professional has reviewed them.
 
 ## Why use AI?
 
 This project is **volunteer-run and anonymous**. Its aim is not to produce new information but to **gather, in French and offline, information that is already published** (laws, administrations, associations, media) for people who protest, sometimes in an emergency. Without AI, the research, writing and updating would have been much slower, and the site probably would not exist at this scale.
+
+**A question of scale.** The site now has {{ resources | length }} resources, over forty guides and {{ events | length }} sourced events, in two languages, with automated checks and an offline mode. For a very small volunteer team with jobs and lives of their own, that is out of reach without an assistive tool: without AI, a site like this could not have been built at this scale, and in the maintainer's view **the idea would simply never have seen the light of day**. AI is used here to **defend a cause quickly**, with few means, and to make useful information accessible to people who protest.
+
+**What this does not mean.** Going fast is not a reason to check less: that is why every record shows its source, its date and its review level, and why we call for human review. AI makes it possible to exist; it does not replace trust, which is earned through verification.
 
 It is a deliberate choice, with trade-offs, set out below.
 
@@ -30,7 +33,7 @@ It is a deliberate choice, with trade-offs, set out below.
 - **Summarise with sources**: texts are reworded, never copied, and every fact points to its dated source.
 - **Draft** guides, timeline events and directory entries from those sources.
 - **Translate** French into English. French remains the reference version.
-- **Write and test the code** of the site (MkDocs, check scripts, tests).
+- **Write and test the custom code** of the site: page templates, scripts (filters, search, offline mode), data-check scripts and tests. The MkDocs engine and the Material theme are not involved: they are existing free software used as they are.
 
 The tools used are language models of the Claude family (Anthropic), used through a coding assistant.
 

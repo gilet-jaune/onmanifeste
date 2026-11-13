@@ -8,18 +8,21 @@ tags:
 
 # Comment nous utilisons l'IA
 
-{% set ai_n = namespace(total=0, ai=0) %} {%- for list in [resources, events, sources.values() | list, victimes.victims] %} {%- for e in list %}{% set ai_n.total = ai_n.total + 1 %}{% if e.check.by == 'ai' %}{% set ai_n.ai = ai_n.ai + 1 %}{% endif %}{% endfor %} {%- endfor %}
-
 !!! info "En bref"
 
     - **Oui, ce site est largement fait avec l'aide d'une IA** : recherche des sources, résumés, rédaction, traduction et code.
+    - **Le moteur du site n'est pas fait par une IA** : c'est [MkDocs](https://www.mkdocs.org/) avec le thème Material, des logiciels libres qui convertissent des fichiers texte (Markdown) en pages web. Mais la couche personnalisée (filtres de la frise, recherche, mode hors ligne, scripts de contrôle) a été écrite avec une IA.
     - **Aucune IA ne fonctionne sur le site ni sur votre appareil.** Le site est statique : il n'envoie aucune de vos données à un service d'IA.
-    - **Rien n'est encore relu par un humain** : {{ ai_n.ai }} des {{ ai_n.total }} fiches des référentiels (annuaire, événements, sources, victimes) portent le niveau « sourcé, non relu par un humain ». Chaque fiche affiche ce niveau.
+    - **Rien n'est encore relu par un humain** : chaque fiche (annuaire, événements, sources, victimes) affiche son niveau de vérification, aujourd'hui « sourcé, non relu par un humain ». La relecture humaine reste à faire : voir plus bas.
     - **Les pages juridiques et médicales** sont marquées « pas encore relu » tant qu'un·e professionnel·le ne les a pas relues.
 
 ## Pourquoi une IA ?
 
 Ce projet est **bénévole et anonyme**. Son but n'est pas de produire une information nouvelle mais de **rassembler, en français et hors ligne, des informations déjà publiées** (textes de loi, administrations, associations, médias) pour des personnes qui manifestent, parfois dans l'urgence. Sans IA, ce travail de recherche, de rédaction et de mise à jour aurait été beaucoup plus lent, et le site n'existerait sans doute pas à cette échelle.
+
+**Une question d'échelle.** Ce site compte aujourd'hui {{ resources | length }} ressources, plus de quarante guides, {{ events | length }} événements sourcés, en deux langues, avec des contrôles automatiques et un mode hors ligne. Pour une équipe bénévole très réduite, qui a un travail et une vie à côté, c'est hors de portée sans outil d'assistance : sans IA, un tel site n'aurait pas pu être construit à cette échelle, et de l'avis du mainteneur, **l'idée n'aurait tout simplement pas vu le jour**. L'IA sert ici à **défendre une cause rapidement**, avec peu de moyens, et à rendre accessibles des informations utiles à des personnes qui manifestent.
+
+**Ce que cela ne veut pas dire.** Aller vite n'est pas une raison de moins vérifier : c'est pourquoi chaque fiche montre sa source, sa date et son niveau de relecture, et pourquoi nous appelons à la relecture humaine. L'IA permet d'exister ; elle ne remplace pas la confiance, qui se gagne par la vérification.
 
 C'est un choix assumé, avec ses contreparties, détaillées ci-dessous.
 
@@ -29,7 +32,7 @@ C'est un choix assumé, avec ses contreparties, détaillées ci-dessous.
 - **Résumer avec les sources** : les textes sont reformulés, jamais recopiés, et chaque fait renvoie à sa source datée.
 - **Rédiger** des guides, des événements de la frise et des fiches de l'annuaire, à partir de ces sources.
 - **Traduire** le français vers l'anglais. Le français reste la version de référence.
-- **Écrire et tester le code** du site (MkDocs, scripts de contrôle, tests).
+- **Écrire et tester le code personnalisé** du site : modèles de page, scripts (filtres, recherche, mode hors ligne), scripts de contrôle des données et tests. Le moteur MkDocs et le thème Material ne sont pas concernés : ce sont des logiciels libres existants, que le site utilise tels quels.
 
 Les outils employés sont des modèles de langage de la famille Claude (Anthropic), utilisés par l'intermédiaire d'un assistant de programmation.
 
