@@ -1,6 +1,6 @@
 ---
 description: 'Climate and pesticides: dated, sourced court decisions and official texts, with the readings of NGOs and public authorities.'
-source_commit: 64f8cfb476eed958065d64357a85abb9f4243143
+source_commit: e6a41162ebafc0f20f36388b73a8636de5414f64
 review: juridique
 review_status: pending
 tags:
@@ -38,8 +38,13 @@ Climate, glyphosate, neonicotinoids: this timeline gathers dated decisions (cour
 
 ## Climate: the Affaire du Siècle
 
-- **2021.** After a case filed in March 2019 by four associations, the Paris Administrative Court recognises on 3 February ecological damage and the State's liability for its partial failure.[^ta-paris-affaire-du-siecle-2021-02] On 14 October it orders the repair of an overrun of the first carbon budget by 31 December 2022 at the latest.[^ta-paris-affaire-du-siecle-2021-10]
-- **2023: two readings.** On 22 December the court rejects the request for a penalty payment. According to Notre Affaire à Tous's note, it rules that the 2021 judgment is not fully executed but refuses any further measure;[^naat-fiche-affaire-du-siecle-2023] Greenpeace concludes that the State "did not execute the judgment",[^greenpeace-affaire-du-siecle-2023] whereas the Ministry of Ecological Transition sees confirmation of repair within the deadlines.[^ecologie-affaire-du-siecle-2023]
+- **2021.** After a case filed in March 2019 by four associations, the Paris Administrative Court recognises on 3 February ecological damage and the State's liability for its partial failure.[^ta-paris-affaire-du-siecle-2021-02] On 14 October it orders the repair of an overrun of the first carbon budget by 31 December 2022 at the latest.[^ta-paris-affaire-du-siecle-2021-10] **2023.** On 22 December the court rejects the request for a penalty payment.[^naat-fiche-affaire-du-siecle-2023] Three actors draw different readings from it, attributed below:
+
+| Who | Reading of the decision |
+| --- | --- |
+| Notre Affaire à Tous | The court rules that the 2021 judgment is not fully executed, but refuses any further measure.[^naat-fiche-affaire-du-siecle-2023] |
+| Greenpeace | The State "did not execute the judgment".[^greenpeace-affaire-du-siecle-2023] |
+| Ministry of Ecological Transition | The decision confirms repair within the deadlines.[^ecologie-affaire-du-siecle-2023] |
 
 ## Going further
 

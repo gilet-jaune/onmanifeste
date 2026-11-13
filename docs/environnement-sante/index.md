@@ -37,8 +37,13 @@ Climat, glyphosate, néonicotinoïdes : cette frise rassemble les décisions dat
 
 ## Climat : l'Affaire du siècle
 
-- **2021.** Après un recours déposé en mars 2019 par quatre associations, le tribunal administratif de Paris reconnaît le 3 février un préjudice écologique et la responsabilité de l'État pour sa carence partielle.[^ta-paris-affaire-du-siecle-2021-02] Le 14 octobre, il ordonne la réparation d'un dépassement du premier budget carbone au 31 décembre 2022 au plus tard.[^ta-paris-affaire-du-siecle-2021-10]
-- **2023 : deux lectures.** Le 22 décembre, le tribunal rejette la demande d'astreinte. Selon la fiche de Notre Affaire à Tous, il juge que le jugement de 2021 n'est pas totalement exécuté mais refuse toute mesure supplémentaire ;[^naat-fiche-affaire-du-siecle-2023] Greenpeace en tire que l'État « n'a pas exécuté le jugement »,[^greenpeace-affaire-du-siecle-2023] tandis que le ministère de la Transition écologique y voit la confirmation d'une réparation dans les délais.[^ecologie-affaire-du-siecle-2023]
+- **2021.** Après un recours déposé en mars 2019 par quatre associations, le tribunal administratif de Paris reconnaît le 3 février un préjudice écologique et la responsabilité de l'État pour sa carence partielle.[^ta-paris-affaire-du-siecle-2021-02] Le 14 octobre, il ordonne la réparation d'un dépassement du premier budget carbone au 31 décembre 2022 au plus tard.[^ta-paris-affaire-du-siecle-2021-10] **2023.** Le 22 décembre, le tribunal rejette la demande d'astreinte.[^naat-fiche-affaire-du-siecle-2023] Trois acteurs en tirent des lectures différentes, attribuées ci-dessous :
+
+| Qui | Lecture de la décision |
+| --- | --- |
+| Notre Affaire à Tous | Le tribunal juge que le jugement de 2021 n'est pas totalement exécuté, mais refuse toute mesure supplémentaire.[^naat-fiche-affaire-du-siecle-2023] |
+| Greenpeace | L'État « n'a pas exécuté le jugement ».[^greenpeace-affaire-du-siecle-2023] |
+| Ministère de la Transition écologique | La décision confirme une réparation dans les délais.[^ecologie-affaire-du-siecle-2023] |
 
 ## Pour aller plus loin
 
