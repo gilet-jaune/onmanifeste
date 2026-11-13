@@ -784,6 +784,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (heading) heading.hidden = !headingHasMatch;
       };
       list.querySelectorAll(':scope > li').forEach((li) => {
+        if (li.classList.contains('timeline__group')) return;
         if (li.classList.contains('timeline__period')) {
           closeHeading();
           heading = li;
@@ -817,6 +818,7 @@ document.addEventListener('DOMContentLoaded', function () {
       );
 
       const active = total();
+      list.classList.toggle('timeline--filtering', active > 0);
       badge.hidden = !active;
       badge.textContent = String(active);
       toggle.setAttribute(
@@ -889,6 +891,134 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     update();
+  });
+});
+
+/*
+  Timeline groups (overrides/partials/history-timeline.html). On the full timeline the major events keep
+  their dot and their card; the other events between two major ones (inside one period) are folded into a
+  group. A group is one row on the spine: its node (two chevrons) and a label open and close it. Without
+  JavaScript nothing is folded. While a filter is active every matching event stays visible, and a link to
+  an event (#evt-...) opens the group it belongs to.
+*/
+document.addEventListener('DOMContentLoaded', function () {
+  const fr = document.documentElement.lang !== 'en';
+  const MIN_EVENTS = 40; // a short timeline is shown whole
+  const MIN_GROUP = 2; // a lone minor event stays visible rather than hide behind a row
+
+  // Two stacked chevrons: pointing away from each other = unfold, toward each other = fold.
+  const foldIcon = (kind) => {
+    const ns = 'http://www.w3.org/2000/svg';
+    const svg = document.createElementNS(ns, 'svg');
+    svg.setAttribute('viewBox', '0 0 24 24');
+    svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('focusable', 'false');
+    svg.setAttribute('class', `timeline__fold-icon timeline__fold-icon--${kind}`);
+    const path = document.createElementNS(ns, 'path');
+    path.setAttribute(
+      'd',
+      kind === 'more'
+        ? 'M12 5.83 15.17 9l1.41-1.41L12 3 7.41 7.59 8.83 9 12 5.83zm0 12.34L8.83 15l-1.41 1.41L12 21l4.59-4.59L15.17 15 12 18.17z'
+        : 'M7.41 18.59 8.83 20 12 16.83 15.17 20l1.41-1.41L12 15 7.41 18.59zm9.18-13.18L15.17 4 12 7.17 8.83 4 7.41 5.41 12 10l4.59-4.59z',
+    );
+    svg.append(path);
+    return svg;
+  };
+  const yearOf = (li) => (li.querySelector('time')?.getAttribute('datetime') || '').slice(0, 4);
+  const mainKinds = (items) => {
+    const counts = new Map();
+    items.forEach((li) => {
+      const name = (li.querySelector('.timeline__kind')?.textContent || '').split(' · ')[0].trim();
+      if (name) counts.set(name, (counts.get(name) || 0) + 1);
+    });
+    return [...counts.entries()].sort((x, y) => y[1] - x[1]);
+  };
+
+  document.querySelectorAll('ol.timeline[data-timeline-detail]').forEach((list) => {
+    const events = [...list.querySelectorAll(':scope > li.timeline__event')];
+    if (events.length < MIN_EVENTS || !events.some((li) => li.hasAttribute('data-major'))) return;
+    list.classList.add('timeline--foldable');
+
+    // Runs of minor events, cut by a major event, by a period heading or by a change of century.
+    const runs = [];
+    let run = [];
+    const flush = () => {
+      if (run.length >= MIN_GROUP) runs.push(run);
+      run = [];
+    };
+    const centuryOf = (li) => Math.floor(Number(yearOf(li)) / 100);
+    [...list.children].forEach((li) => {
+      if (li.classList.contains('timeline__event') && !li.hasAttribute('data-major')) {
+        if (run.length && centuryOf(run[0]) !== centuryOf(li)) flush();
+        run.push(li);
+      } else flush();
+    });
+    flush();
+
+    const groups = runs.map((items) => {
+      const n = items.length;
+      const noun = fr ? `événement${n > 1 ? 's' : ''}` : `event${n > 1 ? 's' : ''}`;
+      const first = yearOf(items[0]);
+      const last = yearOf(items[n - 1]);
+      const row = document.createElement('li');
+      row.className = 'timeline__group';
+      const date = document.createElement('span');
+      date.className = 'timeline__date';
+      date.textContent = first === last ? first : `${first} – ${last}`;
+      const toggle = document.createElement('button');
+      toggle.type = 'button';
+      toggle.className = 'timeline__group-toggle';
+      const node = document.createElement('span');
+      node.className = 'timeline__group-node';
+      node.append(foldIcon('more'), foldIcon('less'));
+      const text = document.createElement('span');
+      text.className = 'timeline__group-text';
+      const label = document.createElement('span');
+      label.className = 'timeline__group-label';
+      const kinds = mainKinds(items)
+        .slice(0, 3)
+        .map(([name, c]) => `${name} (${c})`);
+      const themes = document.createElement('span');
+      themes.className = 'timeline__kind';
+      themes.textContent = kinds.join(' · ');
+      text.append(label, themes);
+      toggle.append(node, text);
+      row.append(date, toggle);
+      items[0].before(row);
+      const group = { row, items, toggle, label, n, noun };
+      toggle.addEventListener('click', () =>
+        setFolded(group, toggle.getAttribute('aria-expanded') === 'true'),
+      );
+      return group;
+    });
+
+    function setFolded(group, folded) {
+      group.items.forEach((li) => li.classList.toggle('timeline__event--folded', folded));
+      group.toggle.setAttribute('aria-expanded', String(!folded));
+      group.row.classList.toggle('timeline__group--open', !folded);
+      group.label.textContent = folded
+        ? fr
+          ? `${group.n} autres ${group.noun}`
+          : `${group.n} other ${group.noun}`
+        : fr
+          ? `Replier les ${group.n} ${group.noun}`
+          : `Fold the ${group.n} ${group.noun}`;
+    }
+    groups.forEach((group) => setFolded(group, true));
+
+    // A link to an event opens the group it belongs to.
+    const revealForHash = () => {
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (!id) return;
+      const target = document.getElementById(id);
+      if (!target || !list.contains(target)) return;
+      const group = groups.find((g) => g.items.includes(target));
+      if (!group || group.toggle.getAttribute('aria-expanded') === 'true') return;
+      setFolded(group, false);
+      target.scrollIntoView({ block: 'start' });
+    };
+    revealForHash();
+    window.addEventListener('hashchange', revealForHash);
   });
 });
 

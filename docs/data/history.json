@@ -164,6 +164,7 @@
         "en": "February Revolution of 1848"
       },
       "kinds": ["soulevement"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9volution_fran%C3%A7aise_de_1848",
       "description": {
         "fr": "Les interdictions de banquets républicains déclenchent une révolution : fin de la monarchie de Juillet, suffrage universel masculin, abolition de l'esclavage.",
@@ -343,6 +344,7 @@
         "en": "Popular Front and the 1936 strikes"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Front_populaire_%28France%29",
       "description": {
         "fr": "Grèves avec occupations d'usines ; les accords de Matignon obtiennent congés payés, semaine de 40 heures et conventions collectives.",
@@ -406,7 +408,7 @@
         "en": "Law of 3 April 1955: the state of emergency"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://fr.wikipedia.org/wiki/%C3%89tat_d%27urgence_en_France",
       "description": {
         "fr": "Créé en 1955 pour faire face aux événements liés à la guerre d'Algérie, le régime de l'état d'urgence permet notamment les assignations à résidence, la fermeture de certains lieux, l'interdiction de manifester et les perquisitions administratives, en dessaisissant l'autorité judiciaire de certaines de ses prérogatives. Il est déclaré à trois reprises pendant la guerre d'Algérie, puis pendant les émeutes de 2005, de novembre 2015 à novembre 2017, et en Nouvelle-Calédonie en 1985 et 2024.",
@@ -495,6 +497,7 @@
         "en": "May 68"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Mai_68",
       "description": {
         "fr": "Révolte étudiante puis grève générale de millions de salarié·es ; hausse des salaires et droits syndicaux en entreprise.",
@@ -545,6 +548,7 @@
         "en": "Birth of the Women's Liberation Movement (MLF)"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Mouvement_de_lib%C3%A9ration_des_femmes",
       "description": {
         "fr": "Des militantes déposent une gerbe « à la femme du soldat inconnu » à l'Arc de Triomphe : acte fondateur du Mouvement de libération des femmes.",
@@ -570,6 +574,7 @@
         "en": "Larzac struggle"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Lutte_du_Larzac",
       "description": {
         "fr": "Dix ans de mobilisation de paysans et de soutiens contre l'extension d'un camp militaire sur le plateau du Larzac.",
@@ -619,6 +624,7 @@
         "en": "Plogoff"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Projet_de_centrale_nucl%C3%A9aire_de_Plogoff",
       "description": {
         "fr": "Les habitant·es de Plogoff (Finistère) s'opposent pendant des mois à l'enquête publique pour une centrale nucléaire.",
@@ -642,6 +648,7 @@
         "en": "First major gay march in Paris"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Marche_des_fiert%C3%A9s_de_Paris",
       "description": {
         "fr": "Marche nationale pour les droits et libertés des homosexuel·les, ancêtre de la Marche des fiertés.",
@@ -665,6 +672,7 @@
         "en": "March for Equality and Against Racism"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Marche_pour_l%27%C3%A9galit%C3%A9_et_contre_le_racisme",
       "description": {
         "fr": "Partie de Marseille, elle rassemble 100 000 personnes à Paris le 3 décembre 1983.",
@@ -689,7 +697,7 @@
         "en": "Around 1984, the State finances itself mainly on the markets"
       },
       "kinds": ["finances"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
       "description": {
         "fr": "Selon l'étude de La Vie des idées, la part du déficit financée par les marchés double en 1984 par rapport à 1983, alors que la part du financement monétaire est divisée par deux. L'étude y voit un choix des années 1980, lié à la lutte contre l'inflation et à la convergence au sein du système monétaire européen, et non un effet de la loi de 1973. Elle note que la quasi-totalité des banques françaises étaient alors publiques, après les nationalisations de 1982.",
@@ -740,7 +748,7 @@
         "en": "Privatisation Act of 6 August 1986"
       },
       "kinds": ["privatisation"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "url": "https://www.senat.fr/rap/r02-367/r02-36712.html",
       "description": {
         "fr": "La loi relative aux modalités d'application des privatisations ouvre une première vague (1986-1988). Selon le Sénat, elle prévoit des avantages pour les petits porteurs (droit de priorité, une action gratuite pour dix achetées et conservées dix-huit mois) et pour les salariés (10 % de l'offre réservés, décote pouvant aller jusqu'à 20 %), toujours en vigueur en 2003. En 2014, elle sert encore de cadre, avec une ordonnance, à la procédure de cession de l'aéroport de Toulouse.",
@@ -795,6 +803,7 @@
       },
       "kinds": ["repression"],
       "actors": ["forces-de-l-ordre"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Affaire_Malik_Oussekine",
       "description": {
         "fr": "Étudiant de 22 ans tué par des policiers en marge du mouvement contre la loi Devaquet ; la loi est retirée. Deux policiers sont condamnés à de la prison avec sursis.",
@@ -844,7 +853,7 @@
         "en": "Act of 4 August 1993: independence of the Banque de France"
       },
       "kinds": ["finances"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "url": "https://laviedesidees.fr/L-Etat-livre-aux-financiers.html",
       "description": {
         "fr": "Votée dans le cadre des dispositions du traité de Maastricht, elle abroge l'article 25 de la loi de 1973 à compter du 1er janvier 1994 (Légifrance). Selon La Vie des idées, elle consacre l'indépendance de la Banque et met fin à toute possibilité de financement de l'État par la banque centrale : la rupture que l'on attribue souvent à 1973 date donc de 1993.",
@@ -927,6 +936,7 @@
         "en": "1995 strikes"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Gr%C3%A8ves_de_1995_en_France",
       "description": {
         "fr": "Grève massive contre le plan Juppé sur la Sécurité sociale et les retraites ; la réforme des régimes spéciaux est abandonnée.",
@@ -1050,7 +1060,7 @@
         "en": "The 'no' in the European referendum bypassed"
       },
       "kinds": ["deni-democratique"],
-      "highlights": ["confiance"],
+      "highlights": ["confiance", "histoire"],
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe",
       "description": {
         "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,37 %). Le 4 février 2008, le Parlement réuni en Congrès ouvre la voie au traité de Lisbonne sans nouveau référendum, et la loi du 13 février 2008 en autorise la ratification ; ce 29 mai 2005 reste le dernier référendum national de la Ve République (tableau du Conseil constitutionnel) ; selon Valéry Giscard d'Estaing, auteur du premier texte, « les outils sont exactement les mêmes, seul l'ordre a été changé dans la boîte à outils ».",
@@ -1128,6 +1138,7 @@
         "en": "Anti-CPE movement"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Mouvement_anti-CPE",
       "description": {
         "fr": "Lycéen·nes et étudiant·es obtiennent le retrait du contrat première embauche.",
@@ -1283,7 +1294,7 @@
         "en": "State of emergency: demonstrations can be banned and administrative measures apply"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://conseil-etat.fr/actualites/assignations-a-residence-prononcees-a-l-occasion-de-la-cop-21-dans-le-cadre-de-l-etat-d-urgence",
       "description": {
         "fr": "Déclaré après les attentats du 13 novembre 2015, l'état d'urgence est prorogé jusqu'au 1er novembre 2017. Il permet aux autorités d'interdire les réunions de nature à provoquer ou entretenir le désordre, en particulier les manifestations, ainsi que de décider des assignations à résidence, des interdictions de séjour et des perquisitions administratives, sans passer par un juge. Du 14 novembre 2015 au 25 février 2016 : 400 assignations à résidence, 3 594 perquisitions et 540 interdictions de séjour. À l'occasion de la COP21, des personnes jugées susceptibles de participer à des actions revendicatives sont assignées à résidence ; saisi en référé, le Conseil d'État examine sept de ces mesures et ne prononce pas de mesure de sauvegarde.",
@@ -1512,7 +1523,7 @@
         "en": "SILT law: state-of-emergency measures written into ordinary law"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://www.cncdh.fr/publications/avis-sur-le-projet-de-loi-visant-renforcer-la-securite-interieure-et-la-lutte-contre",
       "description": {
         "fr": "La loi du 30 octobre 2017 met fin à plusieurs mesures de l'état d'urgence, dont l'interdiction de manifester, mais en reprend d'autres : périmètres de protection, assignations individuelles à un périmètre géographique et perquisitions, décidés comme sous l'état d'urgence par l'autorité administrative et non judiciaire. Saisie avant le vote, la CNCDH avait recommandé en juillet 2017 d'abandonner le projet, qui incorpore selon elle de manière définitive l'état d'urgence dans l'ordre juridique. Le 29 mars 2018, le Conseil constitutionnel précise que les vérifications dans les périmètres de protection doivent exclure toute discrimination.",
@@ -1542,6 +1553,7 @@
         "en": "Notre-Dame-des-Landes"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Projet_d%27a%C3%A9roport_du_Grand_Ouest",
       "description": {
         "fr": "Après des décennies d'opposition et l'occupation de la ZAD, le gouvernement renonce à l'aéroport du Grand Ouest.",
@@ -1586,6 +1598,7 @@
         "en": "Yellow vests"
       },
       "kinds": ["mouvement-social"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Mouvement_des_Gilets_jaunes",
       "description": {
         "fr": "Né contre la hausse des taxes sur le carburant, le mouvement occupe les ronds-points chaque samedi ; nombreuses blessures graves par LBD et grenades. Plus de 13 000 tirs de LBD en quelques mois ; le Défenseur des droits demande la suspension de cette arme.",
@@ -1795,7 +1808,7 @@
         "en": "“Anti-rioters” law: searches, a face-covering offence and “rioter pays”"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019780DC.htm",
       "description": {
         "fr": "Née d'une proposition sénatoriale après le 1er mai 2018, reprise par le gouvernement après l'acte 8 des Gilets jaunes, la loi du 10 avril 2019 autorise des fouilles de bagages et des visites de véhicules aux abords des manifestations sur réquisition du procureur, crée un délit de dissimulation volontaire du visage sans motif légitime (1 an de prison, 15 000 €), élargit l'interdiction judiciaire de manifester (jusqu'à trois ans, sous peine d'un an de prison et de 15 000 € si elle est violée) et permet à l'État d'agir contre les auteurs de dégâts, même sans condamnation pénale (principe « casseur-payeur »). Le 4 avril, le Conseil constitutionnel censure l'interdiction administrative de manifester (article 3) et valide les autres dispositions contestées. La CNCDH avait jugé plusieurs dispositions disproportionnées.",
@@ -1828,7 +1841,7 @@
         "en": "Great national debate: the RIC ruled out, the referendum promise forgotten"
       },
       "kinds": ["deni-democratique"],
-      "highlights": ["confiance"],
+      "highlights": ["confiance", "histoire"],
       "url": "https://www.publicsenat.fr/actualites/politique/macron-veut-faciliter-le-referendum-a-l-initiative-du-peuple-mais-ecarte-le-ric",
       "description": {
         "fr": "Réponse à la crise des gilets jaunes, le grand débat national réunit pendant deux mois plus de 1,5 million de participant·es : plateforme en ligne, réunions publiques, cahiers et courriers. Le 25 avril 2019, Emmanuel Macron écarte le RIC, qui lui « semble remettre en cause la démocratie représentative », et ne rétablit pas l'ISF (une évaluation est promise pour 2020). Il promet d'abaisser à un million de signatures le seuil du référendum d'initiative partagée. Promesse non tenue : en 2020, le référendum ADP réunit 1 093 030 soutiens, mais il en faut toujours plus de 4,7 millions ; en 2023, il promet de nouveau de simplifier ce référendum.",
@@ -1897,7 +1910,7 @@
         "en": "PACTE Act: the Constitutional Council upholds the privatisation of ADP"
       },
       "kinds": ["privatisation"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019781DC.htm",
       "description": {
         "fr": "La loi PACTE autorise le transfert au secteur privé de la majorité du capital d'Aéroports de Paris. Saisi par des parlementaires, le Conseil constitutionnel juge qu'ADP n'est pas un monopole de fait (concurrence d'autres aéroports et modes de transport) ni un service public national, les deux cas où le préambule de 1946 impose la propriété publique. Il avait jugé le 9 mai recevable le référendum d'initiative partagée contre cette privatisation, qui échouera faute de soutiens suffisants (voir 2020).",
@@ -1943,7 +1956,7 @@
         "en": "Citizens' Climate Convention: 'unfiltered' promise broken"
       },
       "kinds": ["deni-democratique", "environnement-sante"],
-      "highlights": ["confiance", "environnement-sante"],
+      "highlights": ["confiance", "environnement-sante", "histoire"],
       "url": "https://fr.wikipedia.org/wiki/Convention_citoyenne_pour_le_climat",
       "description": {
         "fr": "150 citoyen·nes tiré·es au sort rédigent 149 propositions. Emmanuel Macron promet de les transmettre « sans filtre », sauf trois « jokers » qu'il écarte le 29 juin 2020 : la réécriture du préambule de la Constitution, le 110 km/h sur autoroute et une taxe de 4 % sur les dividendes. Selon le décompte de Reporterre (mars 2021), seules 15 propositions sont reprises telles quelles et 54 % sont abandonnées ou profondément modifiées : abandon du crime d'écocide, de l'interdiction de la publicité pour les produits polluants, de la rénovation globale obligatoire des logements et de la taxe sur les engrais azotés ; interdiction des vols intérieurs limitée à 8 lignes (moins de 10 % du trafic) ; malus au poids des voitures réservé aux plus de 1 800 kg (2 % des véhicules). En février 2021, les membres de la Convention notent la réponse du gouvernement 3,3 sur 10. Le référendum promis pour inscrire le climat dans l'article 1 de la Constitution est abandonné le 6 juillet 2021.",
@@ -2097,7 +2110,7 @@
       },
       "kinds": ["privatisation", "finances"],
       "actors": ["entreprises", "gouvernement"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "url": "https://www.senat.fr/rap/r19-709-1/r19-709-11.pdf",
       "description": {
         "fr": "En 2006, le gouvernement de Dominique de Villepin vend les sociétés d'autoroutes pour environ 15 milliards d'euros. En 2020, une commission d'enquête du Sénat montre que leur rentabilité dépasse les prévisions. La suite lui donne raison : Vinci atteint dès 2023 et Eiffage fin 2024 la rentabilité visée pour toute la durée de concessions qui courent jusqu'en 2031-2036, avec environ 32 milliards d'euros de surprofits attendus.",
@@ -2122,6 +2135,7 @@
         "en": "'Global security' law"
       },
       "kinds": ["droit"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Loi_pour_une_s%C3%A9curit%C3%A9_globale_pr%C3%A9servant_les_libert%C3%A9s",
       "description": {
         "fr": "Mobilisation contre l'article pénalisant la diffusion d'images de policiers ; le Conseil constitutionnel le censure en 2021.",
@@ -2167,7 +2181,7 @@
         "en": "Affaire du Siècle: the State held responsible for its climate failure"
       },
       "kinds": ["environnement-sante"],
-      "highlights": ["environnement-sante"],
+      "highlights": ["environnement-sante", "histoire"],
       "url": "https://paris.tribunal-administratif.fr/decisions-de-justice/dernieres-decisions/l-affaire-du-siecle",
       "description": {
         "fr": "Oxfam France, Notre Affaire à tous, la Fondation pour la Nature et l'Homme et Greenpeace France ont saisi le tribunal administratif de Paris en mars 2019. Le tribunal reconnaît un préjudice écologique lié au changement climatique et juge que la carence partielle de l'État à respecter ses propres objectifs de réduction des émissions engage sa responsabilité. Il accorde 1 € à chaque association pour préjudice moral, rejette une réparation en argent et ordonne un supplément d'instruction de deux mois pour définir la réparation en nature.",
@@ -2222,7 +2236,7 @@
         "en": "“Global security” law: partially struck down by the Constitutional Council"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm",
       "description": {
         "fr": "Le 20 mai 2021, le Conseil constitutionnel déclare contraires à la Constitution plusieurs dispositions de la loi, dont des alinéas de l'article 47 sur la captation d'images par caméras (au titre du droit au respect de la vie privée), l'article 48 et le paragraphe I de l'article 52, qui visait la diffusion d'images de policiers.",
@@ -2316,7 +2330,7 @@
       },
       "natures": ["enquete-parlementaire"],
       "actors": ["entreprises", "gouvernement"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "summary": {
         "fr": "Le Sénat relève que les dépenses de conseil de l'État ont dépassé le milliard d'euros en 2021 et plus que doublé depuis 2018. McKinsey n'aurait versé aucun impôt sur les sociétés en France depuis au moins dix ans. La réponse du cabinet n'a pas pu être lue ici.",
         "en": "The Senate notes State consulting spending exceeded €1bn in 2021 and more than doubled since 2018. McKinsey is said to have paid no corporate tax in France for at least ten years. The firm's reply could not be read here."
@@ -2383,7 +2397,7 @@
         "en": "Neonicotinoids: the EU Court of Justice closes the door to exemptions for treated seeds"
       },
       "kinds": ["environnement-sante"],
-      "highlights": ["environnement-sante"],
+      "highlights": ["environnement-sante", "histoire"],
       "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62021CJ0162",
       "description": {
         "fr": "Dans l'affaire C-162/21, la Cour juge que l'article 53 du règlement (CE) n° 1107/2009 ne permet pas à un État membre d'autoriser la mise sur le marché de produits destinés au traitement de semences, ni de semences ainsi traitées, lorsque la mise sur le marché et l'utilisation de ces semences ont été expressément interdites par un règlement d'exécution. L'arrêt concerne les néonicotinoïdes, substances à risques élevés pour les abeilles.",
@@ -2435,7 +2449,7 @@
         "en": "Pensions: fourteen days of protest, 49.3 and referendum refused"
       },
       "kinds": ["deni-democratique"],
-      "highlights": ["confiance"],
+      "highlights": ["confiance", "histoire"],
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9forme_des_retraites_en_France_en_2023",
       "description": {
         "fr": "À partir du 19 janvier 2023, quatorze journées nationales de grève et de manifestation. Malgré cette mobilisation massive, la réforme des retraites est adoptée sans vote de l'Assemblée grâce à l'article 49.3 ; la motion de censure échoue à 9 voix le 20 mars. Le Conseil constitutionnel rejette ensuite deux demandes de référendum d'initiative partagée (14 avril et 3 mai 2023). Le gouvernement d'Élisabeth Borne recourt 23 fois au 49.3.",
@@ -2543,7 +2557,7 @@
         "en": "2024 Olympics law: algorithmic video surveillance trialled"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023850DC.htm",
       "description": {
         "fr": "La loi du 19 mai 2023 relative aux Jeux olympiques (article 10) autorise, à titre expérimental jusqu'au 31 mars 2025, le traitement algorithmique d'images de vidéoprotection ou de caméras installées sur des aéronefs afin de détecter et signaler certains événements. Saisi par des député·es qui invoquaient notamment le droit de manifester, le Conseil constitutionnel valide l'article 10 sous réserve (décision du 17 mai 2023). Amnesty International France dénonce un tremplin pour normaliser des technologies de surveillance.",
@@ -2661,7 +2675,7 @@
         "en": "Justice pour le vivant: the State held at fault on pesticides"
       },
       "kinds": ["environnement-sante"],
-      "highlights": ["environnement-sante"],
+      "highlights": ["environnement-sante", "histoire"],
       "url": "https://notreaffaireatous.org/justice-pour-le-vivant-le-jugement-en-premiere-instance-et-les-sujets-dactualite-sur-les-pesticides/",
       "description": {
         "fr": "Saisi par une coalition d'associations (dont Notre Affaire à Tous, Pollinis et l'ASPAS), le tribunal administratif de Paris reconnaît la carence fautive de l'État à propos de l'usage des produits phytopharmaceutiques ayant conduit à un préjudice écologique. Selon la coalition, il enjoint au gouvernement de rétablir la cohérence du rythme de baisse des pesticides avec la trajectoire des plans Ecophyto et de protéger les eaux souterraines, avec une réparation effective au 30 juin 2024 au plus tard ; il n'enjoint pas à l'État de corriger l'évaluation des risques, ce pourquoi les associations ont fait appel. En appel, la cour écartera en 2025 la faute tirée du non-respect des plans Ecophyto, mais jugera l'ANSES fautive dans l'évaluation des produits.",
@@ -2719,7 +2733,7 @@
       "kinds": ["finances", "probite"],
       "natures": ["enquete-parlementaire"],
       "actors": ["gouvernement"],
-      "highlights": ["probite"],
+      "highlights": ["probite", "histoire"],
       "url": "https://www.senat.fr/rap/r22-829-1/r22-829-1-syn.pdf",
       "description": {
         "fr": "Le 4 juillet 2023, la commission des finances du Sénat examine le rapport d'information n° 829 de son rapporteur Jean-François Husson, issu d'une mission dotée des prérogatives d'une commission d'enquête. Le fonds, annoncé le 20 avril 2021 par la ministre déléguée à la citoyenneté de l'époque, aurait été conçu comme une opération de communication. Le rapport retient un cahier des charges rédigé dans l'urgence et réécrit par le cabinet de la ministre, un délai de candidature raccourci de sept semaines, un jury sans personnalité extérieure et sans compte rendu, et seulement 1,4 million d'euros sur 2,5 réellement consacrés à des projets non arbitrés auparavant. Les plus grosses subventions sont allées à des associations sans garantie de sérieux : 355 000 euros à l'USEPPM (budget annuel d'environ 50 000 euros ; 1 763 abonnés au total sur trois réseaux) et 330 000 euros à Reconstruire le commun, dont des vidéos ont visé des personnalités politiques. Le suivi par le secrétariat général du CIPDR est jugé lacunaire (contrôle sur pièces de l'USEPPM engagé en mars 2023) et le rapport conclut que l'autorité politique n'a pas joué un rôle « effacé » et engage sa responsabilité politique. C'est une conclusion parlementaire de responsabilité politique, pas un jugement pénal : la mission écarte les questions relevant des autorités judiciaires. Nous avons lu la synthèse du rapport, pas le rapport complet ; le rapport de l'inspection générale de l'administration, qui présente une lecture plus favorable à la ministre selon la presse, n'est pas lu.",
@@ -2768,7 +2782,7 @@
         "en": "Glyphosate: approval renewed for ten years in the EU"
       },
       "kinds": ["environnement-sante"],
-      "highlights": ["environnement-sante"],
+      "highlights": ["environnement-sante", "histoire"],
       "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=OJ:L_202302660",
       "description": {
         "fr": "Faute de majorité qualifiée parmi les États membres (le comité permanent puis le comité d'appel n'ont pas émis d'avis), la Commission adopte le règlement d'exécution (UE) 2023/2660 : l'approbation du glyphosate est renouvelée du 16 décembre 2023 au 15 décembre 2033, pour les seuls usages d'herbicide, avec des restrictions comme l'interdiction de la dessiccation. La France s'était abstenue. Le glyphosate avait été classé « cancérogène probable » par le CIRC en 2015, tandis que l'EFSA n'a pas identifié de « domaine de préoccupation critique » en 2023, tout en reconnaissant un manque de données. Foodwatch et Générations futures dénoncent une trahison d'une promesse faite en 2017 par le président de la République.",
@@ -2945,7 +2959,7 @@
         "en": "2024 legislative elections: the coalition that came first set aside"
       },
       "kinds": ["deni-democratique"],
-      "highlights": ["confiance"],
+      "highlights": ["confiance", "histoire"],
       "url": "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_fran%C3%A7aises_de_2024",
       "description": {
         "fr": "Après la dissolution du 9 juin, le Nouveau Front populaire arrive en tête avec 193 sièges, devant Ensemble (168) et le RN (143). Emmanuel Macron refuse de nommer Lucie Castets, sa candidate, et nomme le 5 septembre Michel Barnier, issu des Républicains.",
@@ -3082,7 +3096,7 @@
       },
       "kinds": ["probite"],
       "actors": ["elus"],
-      "highlights": ["probite"],
+      "highlights": ["probite", "histoire"],
       "url": "https://www.courdecassation.fr/decision/67626d77d9347f6c9aef808c",
       "description": {
         "fr": "La chambre criminelle de la Cour de cassation rejette les pourvois et rend définitive la condamnation de l'ancien président dans l'affaire dite des écoutes (« Bismuth ») : l'arrêt de la cour d'appel de Paris du 17 mai 2023 le condamnait pour corruption active d'un magistrat et trafic d'influence actif à trois ans d'emprisonnement dont deux avec sursis et trois ans de privation de droits civiques, civils et de famille. La partie ferme, un an, est exécutée sous bracelet électronique, une première pour un ancien chef de l'État selon Public Sénat.",
@@ -3157,7 +3171,7 @@
         "en": "Grievance books: six years unpublished"
       },
       "kinds": ["deni-democratique"],
-      "highlights": ["confiance"],
+      "highlights": ["confiance", "histoire"],
       "url": "https://lcp.fr/actualites/gilets-jaunes-repondant-a-l-appel-de-l-assemblee-le-gouvernement-s-engage-a-reprendre-l",
       "description": {
         "fr": "Pendant le grand débat de 2018-2019, les citoyen·nes remplissent 19 247 cahiers de doléances dans 16 337 communes. Promis comme un « trésor national » à rendre aux Français·es, ils ne sont jamais publiés. Le 11 mars 2025, l'Assemblée nationale adopte à l'unanimité une résolution pour les rendre accessibles ; le gouvernement s'engage à ouvrir l'accès aux cahiers numérisés.",
@@ -3255,7 +3269,7 @@
       },
       "kinds": ["probite"],
       "actors": ["elus"],
-      "highlights": ["probite"],
+      "highlights": ["probite", "histoire"],
       "url": "https://www.franceinfo.fr/politique/francois-fillon/affaires-fillon/emplois-fictifs-francois-fillon-se-desiste-de-son-pourvoi-en-cassation-sa-peine-devient-definitive_7809797.html",
       "description": {
         "fr": "La cour d'appel de Paris, rejugeant la peine, condamne François Fillon à quatre ans de prison avec sursis, 375 000 € d'amende et cinq ans d'inéligibilité. Le 16 février 2026, il se désiste de son pourvoi en cassation : la peine devient définitive, sa culpabilité l'étant déjà. La peine finale ne comporte donc plus de prison ferme, alors que l'arrêt de 2022 prévoyait un an ferme et dix ans d'inéligibilité.",
@@ -3358,7 +3372,7 @@
         "en": "Duplomb law: the Constitutional Council strikes down the neonicotinoid exemption"
       },
       "kinds": ["environnement-sante"],
-      "highlights": ["environnement-sante"],
+      "highlights": ["environnement-sante", "histoire"],
       "url": "https://www.conseil-constitutionnel.fr/decision/2025/2025891DC.htm",
       "description": {
         "fr": "Dans sa décision 2025-891 DC, le Conseil juge que le législateur, en permettant de déroger dans de telles conditions à l'interdiction des produits contenant des néonicotinoïdes ou des substances assimilées, a privé de garanties légales le droit de vivre dans un environnement équilibré et respectueux de la santé garanti par l'article 1er de la Charte de l'environnement. Les dispositions concernées sont déclarées contraires à la Constitution, le reste de la loi étant en grande partie validé, sous réserves.",
@@ -3437,7 +3451,7 @@
       },
       "kinds": ["probite"],
       "actors": ["elus"],
-      "highlights": ["probite"],
+      "highlights": ["probite", "histoire"],
       "url": "https://www.leclubdesjuristes.com/en-bref/nicolas-sarkozy-remis-en-liberte-sous-controle-judiciaire-12884/",
       "description": {
         "fr": "Le tribunal correctionnel de Paris reconnaît Nicolas Sarkozy coupable d'association de malfaiteurs dans l'affaire du financement libyen de sa campagne de 2007 et le condamne à cinq ans de prison, avec mandat de dépôt et exécution provisoire. Il le relaxe des trois autres chefs (corruption passive, recel de détournement de fonds publics, financement illégal de campagne). Le jugement n'est pas définitif : en appel, au printemps 2026, le parquet général a requis la condamnation sur les quatre chefs, avec sept ans de prison, 300 000 € d'amende et cinq ans d'inéligibilité. À la date de vérification (11 novembre 2026), aucun arrêt d'appel n'a été trouvé.",
@@ -3575,7 +3589,7 @@
       },
       "kinds": ["probite"],
       "actors": ["elus"],
-      "highlights": ["probite"],
+      "highlights": ["probite", "histoire"],
       "url": "https://www.leclubdesjuristes.com/en-bref/fraude-fiscale-patrick-balkany-obtient-la-liberation-conditionnelle-13667/",
       "description": {
         "fr": "Le tribunal de l'application des peines d'Évreux accorde une libération conditionnelle à Patrick Balkany pour l'exécution de la peine de quatre ans et demi prononcée le 9 janvier 2023 (fraude fiscale, dissimulation d'avoirs, déclaration patrimoniale mensongère, prise illégale d'intérêts), dont dix-huit mois restaient à exécuter. Motifs : son âge, son état de santé, le faible risque de récidive, le respect de la mesure et l'effort financier ; la probation est prolongée jusqu'en juillet 2028 pour garantir le remboursement des sommes dues.",
@@ -3601,7 +3615,7 @@
         "en": "Petition against the Duplomb law: 2.1 million signatures, a debate without a vote"
       },
       "kinds": ["deni-democratique", "environnement-sante"],
-      "highlights": ["confiance", "environnement-sante"],
+      "highlights": ["confiance", "environnement-sante", "histoire"],
       "url": "https://www.linfodurable.fr/petition-contre-la-loi-duplomb-debat-inedit-mais-sans-vote-lassemblee-54510",
       "description": {
         "fr": "Adoptée en juillet 2025, la loi Duplomb réintroduit notamment l'acétamipride, un pesticide néonicotinoïde interdit en France. Une pétition déposée sur le site de l'Assemblée par une étudiante dépasse 2,1 millions de signatures. Le 7 août 2025, le Conseil constitutionnel censure la dérogation aux néonicotinoïdes. Le 11 février 2026, la pétition est débattue dans l'hémicycle, une première, mais sans vote ; entre-temps, le sénateur Laurent Duplomb a déposé un nouveau texte pour réintroduire l'acétamipride.",
@@ -3702,7 +3716,7 @@
         "en": "Public debt at end-2025: €3,460.5 billion and €64.7 billion in interest"
       },
       "kinds": ["finances"],
-      "highlights": ["dette-privatisations"],
+      "highlights": ["dette-privatisations", "histoire"],
       "url": "https://www.insee.fr/fr/statistiques/8997691",
       "description": {
         "fr": "Selon l'INSEE, la dette publique au sens de Maastricht atteint 3 460,5 Md€ fin 2025, soit 115,7 % du PIB (112,6 % fin 2024, 97,9 % en 2019). La charge d'intérêts s'établit à 64,7 Md€ en 2025 (+11,2 %), sous l'effet de la hausse de l'encours et de la remontée des taux depuis 2022. La hausse de la dette de l'État (+136,2 Md€) passe surtout par des titres de long terme (+140,8 Md€), émis sur les marchés.",
@@ -3791,7 +3805,7 @@
       },
       "kinds": ["probite"],
       "actors": ["elus"],
-      "highlights": ["probite"],
+      "highlights": ["probite", "histoire"],
       "url": "https://lcp.fr/actualites/marine-le-pen-condamnee-dans-l-affaire-des-assistants-parlementaires-reste-eligible-pour",
       "description": {
         "fr": "La cour d'appel de Paris condamne Marine Le Pen pour détournement de fonds publics à trois ans de prison dont deux avec sursis (un an ferme aménageable sous bracelet), 100 000 € d'amende et 45 mois d'inéligibilité dont 30 avec sursis. Compte tenu de l'exécution provisoire prononcée en première instance, les 15 mois fermes d'inéligibilité sont déjà purgés, ce qui lui laisse la possibilité de se présenter en 2027. La peine est donc réduite par rapport au jugement de 2025. La décision n'est pas définitive : Marine Le Pen s'est pourvue en cassation, et la Cour de cassation a annoncé qu'elle pourrait statuer d'ici début avril 2027 (avant le premier tour du 18 avril), calendrier susceptible d'évoluer.",
@@ -4094,7 +4108,7 @@
       },
       "kinds": ["repression"],
       "actors": ["gouvernement"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://fr.wikipedia.org/wiki/Manifestations_du_17_octobre_2026_en_France",
       "description": {
         "fr": "Le 17 octobre 2026, de 550 000 à 800 000 personnes manifestent contre la vie chère à l'appel de coordinations de Gilets jaunes, de lycéen·nes, d'étudiant·es et de syndicats (2 397 interpellations). Avant l'acte II du 24 octobre (410 000 à 800 000 manifestant·es, 70 000 policiers et gendarmes appuyés par des militaires de l'opération Sentinelle), des couvre-feux et des interdictions de rassemblement sont instaurés dans de nombreuses villes. Le 22 octobre, Emmanuel Macron annonce que les rassemblements non organisés par des syndicats seront interdits « partout où on le peut », distinction jugée illégale par la LDH et dénoncée par Amnesty International comme une « surenchère sécuritaire ». Le même jour, Matignon demande par courrier aux quatre grands opérateurs télécoms de se préparer à suspendre par filtrage DNS l'accès à TikTok, Instagram, Snapchat et X.",
@@ -4213,7 +4227,7 @@
         "en": "“Casseurs-payeurs” bill: joint liability for participants, drones and social benefits"
       },
       "kinds": ["securite-libertes"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://www.senat.fr/leg/pjl26-087.html",
       "description": {
         "fr": "Le projet de loi (procédure accélérée) examiné en premier par le Sénat crée une responsabilité solidaire, plafonnée à 10 000 €, pour toute personne ayant participé sciemment à un groupement ayant commis des violences, vols ou dégradations, ou ayant continué à participer à un attroupement malgré les sommations en sachant que des violences y étaient commises (sauf motif légitime). Il élargit l'action récursoire de l'État créée en 2019, permet à l'État de transiger avec les débiteurs, y compris mineur·es, pour des obligations d'intérêt général, et prévoit la saisie de prestations sociales (allocations familiales, aides au logement) pour recouvrer les dommages et intérêts. Le texte de la commission des lois du 21 octobre 2026 y ajoute notamment l'usage de caméras sur des aéronefs, sur réquisition du procureur, aux abords des manifestations pour poursuivre les infractions, une peine d'interdiction du territoire pour certains étrangers condamnés et le passage du délit de participation à un groupement en vue de violences d'un an et 15 000 € à trois ans et 45 000 €. Le Sénat adopte l'article premier le 27 octobre 2026. Selon le ministre de l'Intérieur, il s'agit de dissuader les casseurs et de mieux réparer les victimes ; la gauche et des syndicats le dénoncent comme une atteinte au droit de manifester.",
@@ -4474,7 +4488,7 @@
       },
       "kinds": ["securite-libertes", "repression"],
       "actors": ["gouvernement"],
-      "highlights": ["securite-libertes"],
+      "highlights": ["securite-libertes", "histoire"],
       "url": "https://www.mediapart.fr/journal/france/111126/assignations-residence-de-manifestants-l-usage-de-l-antiterrorisme-demonte-devant-la-justice",
       "description": {
         "fr": "Selon le résumé public de Mediapart, les premiers recours contre les Micas utilisées pour assigner des manifestants à résidence ont été examinés sur le fond, le mardi 10 novembre 2026, par les tribunaux administratifs. L'article complet est réservé aux abonnés et n'a pas été lu ici : ni le détail des audiences ni les décisions ne sont documentés.",

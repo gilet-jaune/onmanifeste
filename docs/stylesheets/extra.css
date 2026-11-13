@@ -977,7 +977,7 @@ select:focus-visible {
 .md-typeset .timeline__date {
   text-align: right;
   font-family: 'Barlow Condensed', 'Barlow', sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   line-height: 1.1;
   color: var(--ap-muted);
@@ -991,7 +991,7 @@ select:focus-visible {
 }
 
 .md-typeset .timeline__kind {
-  font-size: 0.66rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: var(--ap-muted);
 }
@@ -1217,24 +1217,150 @@ select:focus-visible {
   font-weight: 700;
 }
 
+/* A period is only a landmark: the jump links of the period navigation land here, and screen readers get a heading. */
 .md-typeset ol.timeline > li.timeline__period {
-  margin: 2rem 0 1rem;
-  padding-left: 7rem;
+  height: 0;
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
 .md-typeset ol.timeline > li.timeline__period h3 {
-  display: inline-block;
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: 0;
-  padding: 0.1rem 0.6rem;
-  background: var(--ap-ink);
-  color: var(--ap-vest);
-  font-family: 'Barlow Condensed', 'Barlow', sans-serif;
-  font-size: 1rem;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .md-typeset ol.timeline > li[hidden] {
   display: none;
+}
+
+/* Groups of minor events of the full timeline (docs/javascripts/extra.js): folded unless a filter is active. */
+.md-typeset ol.timeline:not(.timeline--filtering) > li.timeline__event--folded {
+  display: none;
+}
+
+.md-typeset ol.timeline > li.timeline__group {
+  position: relative;
+  display: grid;
+  grid-template-columns: 5.4rem 1fr;
+  gap: 1.8rem;
+  margin: 0 0 1.4rem;
+  list-style: none;
+}
+
+.md-typeset ol.timeline.timeline--filtering > li.timeline__group {
+  display: none;
+}
+
+.md-typeset .timeline__group .timeline__date {
+  padding-top: 0.35rem;
+  padding-right: 0.7rem;
+}
+
+.md-typeset .timeline__group-toggle {
+  display: flex;
+  align-items: flex-start;
+  min-height: 2.75rem;
+  padding: 0 0 0 0.7rem;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* The node sits on the spine, where an event has its dot. */
+.md-typeset .timeline__group-node {
+  position: absolute;
+  top: 0.1rem;
+  left: calc(6.2rem + var(--ap-band) / 2 - 0.8rem);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border: 2px solid var(--ap-silver);
+  border-radius: 50%;
+  background: var(--md-default-bg-color);
+  color: var(--ap-text);
+}
+
+.md-typeset .timeline__group-toggle:hover .timeline__group-node {
+  border-color: var(--ap-text);
+}
+
+.md-typeset .timeline__group-toggle:focus-visible {
+  outline: 3px solid var(--ap-ink);
+  outline-offset: 2px;
+}
+
+.md-typeset .timeline__fold-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  fill: currentcolor;
+}
+
+.md-typeset .timeline__group-toggle[aria-expanded='true'] .timeline__fold-icon--more,
+.md-typeset .timeline__group-toggle[aria-expanded='false'] .timeline__fold-icon--less {
+  display: none;
+}
+
+.md-typeset .timeline__group-text {
+  display: block;
+  padding-top: 0.25rem;
+}
+
+.md-typeset .timeline__group-label {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.md-typeset .timeline__group-toggle:hover .timeline__group-label {
+  text-decoration: underline;
+}
+
+.md-typeset .timeline__group .timeline__kind {
+  display: block;
+  color: var(--ap-muted);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset ol.timeline > li.timeline__group {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
+    padding-left: 1.6rem;
+  }
+
+  .md-typeset .timeline__group .timeline__date {
+    text-align: left;
+    padding: 0;
+  }
+
+  .md-typeset .timeline__group-toggle {
+    padding-left: 0;
+  }
+
+  .md-typeset .timeline__group-node {
+    left: calc(0.3rem + var(--ap-band) / 2 - 0.8rem);
+  }
+}
+
+@media print {
+  .md-typeset ol.timeline > li.timeline__event--folded {
+    display: block;
+  }
+
+  .md-typeset ol.timeline > li.timeline__group {
+    display: none;
+  }
 }
 
 .md-typeset .timeline__sources {
@@ -1277,23 +1403,23 @@ select:focus-visible {
 }
 
 .md-typeset .timeline__open {
-  margin-top: 0.2rem;
-  padding: 0.2rem 0.7rem;
-  border: 1.5px solid var(--ap-line);
-  border-radius: 1rem;
+  margin-top: 0.1rem;
+  padding: 0.35rem 0;
+  border: 0;
   background: transparent;
-  color: var(--ap-text);
+  color: var(--ap-muted);
   font: inherit;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
   cursor: pointer;
 }
 
 .md-typeset .timeline__open:hover,
 .md-typeset .timeline__open:focus-visible {
-  border-color: var(--ap-ink);
-  background: var(--ap-vest);
-  color: var(--ap-ink);
+  color: var(--ap-text);
+  text-decoration-thickness: 2px;
 }
 
 .timeline-dialog {
@@ -1412,10 +1538,6 @@ select:focus-visible {
     left: 0;
   }
 
-  .md-typeset ol.timeline > li.timeline__period {
-    padding-left: 1.6rem;
-  }
-
   .md-typeset .timeline__date {
     text-align: left;
   }
@@ -1428,6 +1550,64 @@ select:focus-visible {
   .md-typeset .timeline__end {
     display: inline;
     margin-left: 0.3em;
+  }
+}
+
+/* Full timeline: a major event stands out (bigger dot and title, more room above), the others stay light. */
+.md-typeset ol.timeline--foldable > li.timeline__event {
+  margin-bottom: 1.1rem;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event[data-major] {
+  margin-top: 2.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event[data-major]::before {
+  top: 0.4rem;
+  left: calc(6.2rem - 7px);
+  width: calc(var(--ap-band) + 14px);
+  height: calc(var(--ap-band) + 14px);
+  border-width: 3px;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event[data-major] .timeline__title {
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event[data-major] .timeline__desc {
+  font-size: 0.95rem;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event:not([data-major]) .timeline__year {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event:not([data-major]) .timeline__title {
+  font-size: 1.05rem;
+}
+
+.md-typeset ol.timeline--foldable > li.timeline__event:not([data-major])::before {
+  top: 0.65rem;
+  left: calc(6.2rem - 2px);
+  width: calc(var(--ap-band) + 4px);
+  height: calc(var(--ap-band) + 4px);
+  border-width: 1.5px;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset ol.timeline--foldable > li.timeline__event[data-major]::before {
+    left: calc(0.3rem + var(--ap-band) / 2 - (var(--ap-band) + 14px) / 2);
+  }
+
+  .md-typeset ol.timeline--foldable > li.timeline__event:not([data-major])::before {
+    left: calc(0.3rem + var(--ap-band) / 2 - (var(--ap-band) + 4px) / 2);
+  }
+
+  .md-typeset ol.timeline--foldable > li.timeline__event[data-major] .timeline__title {
+    font-size: 1.3rem;
   }
 }
 
@@ -1965,10 +2145,9 @@ select:focus-visible {
 /* --- Gains (history page) ------------------------------------------------- */
 .md-typeset .timeline__gains {
   margin-top: 0.4rem;
-  padding: 0.35rem 0.6rem;
-  border-left: 4px solid var(--ap-vest-deep);
-  background: var(--md-accent-fg-color--transparent);
-  font-size: 0.75rem;
+  padding: 0.1rem 0 0.1rem 0.7rem;
+  border-left: 3px solid var(--ap-vest-deep);
+  font-size: 0.85rem;
 }
 
 [dir] .md-typeset ul.gains {

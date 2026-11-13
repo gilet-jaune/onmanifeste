@@ -18,7 +18,8 @@
    - optionally `highlights` (slugs of thematic pages such as `probite` or `securite-libertes`, i.e.
      folders `docs/<slug>/`): a key event of that page, which shows only its key events (4 to 9) and
      links to the full timeline. Keep it for the events a reader needs to follow the page's
-     explanation;
+     explanation. The slug `histoire` marks a major event of the full timeline: it keeps its dot and
+     card, while the other events between two major ones are folded into a group;
    - optionally `end` (end of a period), `related` (ids of related events, "see also") and `guides`
      (slugs of useful guides; labels live in `overrides/partials/history-timeline.html`);
    - a `check` (`date`, `result`, `by: "ai"` when added by an agent).

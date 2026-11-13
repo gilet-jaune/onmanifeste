@@ -3,8 +3,7 @@
 
 {#- Periods used for the "jump to" links: [first year, last year, fr, en]. -#}
 {%- set periods = [
-  [0, 1899, 'Avant 1900', 'Before 1900'],
-  [1900, 1967, '1900-1967', '1900-1967'],
+  [0, 1967, "Jusqu'en 1967", 'Until 1967'],
   [1968, 1999, '1968-1999', '1968-1999'],
   [2000, 2016, '2000-2016', '2000-2016'],
   [2017, 9999, 'Depuis 2017', 'Since 2017'],
@@ -170,7 +169,7 @@ across kinds, e.g. the security-and-freedoms page). -#}
   {%- if p != ns.period and shown_periods | length > 1 %}{% set ns.period = p %}
   <li class="timeline__period" id="periode-{{ periods[p][0] }}"><h3>{{ periods[p][2] if lang == 'fr' else periods[p][3] }}</h3></li>
   {%- endif %}
-  <li class="timeline__event timeline__event--{{ e.kinds[0] }}" id="evt-{{ e.id }}" data-kinds="{{ e.kinds | join(' ') }}"{% if e.natures %} data-natures="{{ e.natures | join(' ') }}"{% endif %}{% if e.actors %} data-actors="{{ e.actors | join(' ') }}"{% endif %}>
+  <li class="timeline__event timeline__event--{{ e.kinds[0] }}" id="evt-{{ e.id }}" data-kinds="{{ e.kinds | join(' ') }}"{% if e.natures %} data-natures="{{ e.natures | join(' ') }}"{% endif %}{% if e.actors %} data-actors="{{ e.actors | join(' ') }}"{% endif %}{% if not highlights and 'histoire' in (e.highlights or []) %} data-major{% endif %}>
     <time class="timeline__date" datetime="{{ e.date }}"><span class="timeline__year">{{ year }}</span> {{ day | int }}/{{ month }}{{ end_label(e) }}</time>
     <div class="timeline__body">
       <span class="timeline__kind">{% for k in e.kinds %}{{ ' · ' if not loop.first }}{{ kinds[k][lang] or kinds[k].fr }}{% endfor %}</span>
