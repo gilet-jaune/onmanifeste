@@ -35,6 +35,8 @@ Information is general and does not replace a lawyer or a medical professional. 
 
 ## Why an AI?
 
+The details (what the AI does, what it does not do, its limits) are on the page [How we use AI](../ia/index.md).
+
 The aim is not to produce new information, but to **gather and make accessible, including offline**, useful information already published by public sources (laws, associations, public services, media). The AI was used to find and summarise them; every claim points to its source so that you can check it.
 
 This site aims to be **complete** and usable **offline**, by gathering content that already exists and pointing to it (laws, associations, media, public services). For a volunteer, anonymous project, an AI was used to **research, source and write** these summaries, and also to **build the site** (code, tooling, tests) quickly, on **free, reusable technologies** (MkDocs, Material for MkDocs): anyone can copy the site and adapt it.

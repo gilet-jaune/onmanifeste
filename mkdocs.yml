@@ -170,6 +170,7 @@ plugins:
             Fiches mémo à imprimer: Memo sheets to print
             Fiches mémo Signal à imprimer: Signal memo sheets to print
             Mentions légales: Legal notice
+            Utilisation de l'IA: How we use AI
   - macros:
       include_dir: .
       # Data registries exposed to pages (JSON is valid YAML): kinds, events, categories, resources…
@@ -309,6 +310,7 @@ nav:
       - Paramètres: parametres.md
       - Contribuer: contribuer/index.md
       - Relire une information: relire/index.md
+      - Utilisation de l'IA: ia/index.md
       - Mentions légales: mentions-legales/index.md
 
 markdown_extensions:

@@ -91,7 +91,10 @@ page.meta.review_status != 'reviewed' %}
             <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener"
               >Material for MkDocs</a
             >
-            &bull; <a href="{{ 'mentions-legales/' | url }}">Mentions légales</a>
+            &bull; <a href="{{ 'mentions-legales/' | url }}">Mentions légales</a> &bull;
+            <a href="{{ 'ia/' | url }}"
+              >{{ "Utilisation de l'IA" if config.theme.language == 'fr' else 'How we use AI' }}</a
+            >
             {%- if config.extra.footer_mascot and config.extra.footer_mascot.credit %}
             <small class="md-footer-love__credit">{{ config.extra.footer_mascot.credit }}</small>
             {%- endif %}

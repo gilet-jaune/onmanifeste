@@ -30,6 +30,7 @@ ONLINE_ONLY = (
     "contribuer/",
     "relire/",
     "mentions-legales/",
+    "ia/",
     "data/history.json",
     "data/victimes.json",
     "data/sources.json",

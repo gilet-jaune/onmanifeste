@@ -34,6 +34,8 @@ Les informations sont générales et ne remplacent pas un·e avocat·e ou un·e 
 
 ## Pourquoi une IA ?
 
+Le détail (ce que fait l'IA, ce qu'elle ne fait pas, ses limites) est sur la page [Comment nous utilisons l'IA](../ia/index.md).
+
 Le but n'est pas de produire une information nouvelle, mais de **rassembler et rendre accessible, y compris hors ligne**, des informations utiles déjà publiées par des sources publiques (textes de loi, associations, services publics, médias). L'IA a servi à les chercher et à les résumer ; chaque affirmation renvoie à sa source pour que vous puissiez la vérifier.
 
 Ce site vise à être **complet** et utilisable **hors ligne**, en rassemblant des contenus qui existent déjà et en renvoyant vers eux (textes de loi, associations, médias, services publics). Pour un projet bénévole et anonyme, une IA a servi à **chercher, sourcer et rédiger** ces synthèses, et aussi à **développer le site** (code, outils, tests) rapidement, à partir de **technologies libres et réutilisables** (MkDocs, Material for MkDocs) : tout le monde peut copier le site et l'adapter.

@@ -64,6 +64,7 @@
         contribuer: 'Contribuer',
         relire: 'Relecture',
         'mentions-legales': 'Mentions légales',
+        ia: "Utilisation de l'IA",
       },
     },
     en: {
@@ -99,6 +100,7 @@
         contribuer: 'Contribute',
         relire: 'Review',
         'mentions-legales': 'Legal notice',
+        ia: 'How we use AI',
       },
     },
   }[LANG];
