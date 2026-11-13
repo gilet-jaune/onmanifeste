@@ -1,6 +1,6 @@
 ---
 description: 'The right to protest in France: declaration, undeclared or banned protests, what the law says.'
-source_commit: c08e282604104e28b40b4ee55f4b79ce1cf48fac
+source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
 review: juridique
 review_status: pending
 tags:
