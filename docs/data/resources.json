@@ -3792,8 +3792,8 @@
       "category": "democratie",
       "tags": ["extreme-droite", "elections", "arguments", "gratuit"],
       "description": {
-        "fr": "Site militant contre l'extrême droite, en version bêta, publié par une personne non identifiée : fiches « Quoi répondre » (arguments avec sources), comparatif des mesures des partis, calendrier électoral et kits pratiques pour fonctionnaires et associations. Il se dit non partisan, sans publicité ni cookie, et reconnaît ne pas avoir été relu par des juristes. Il conseille aussi des relais coordonnés sur les réseaux, qui peuvent enfreindre les règles de certaines plateformes : à utiliser avec discernement.",
-        "en": "Activist site against the far right, in beta, published by an unidentified person: \"What to answer\" cards (arguments with sources), a comparison of party proposals, an election calendar and practical kits for civil servants and associations. It says it is non-partisan, with no ads or cookies, and acknowledges it has not been reviewed by lawyers. It also advises coordinated relaying on social networks, which may breach some platforms' rules: use with discernment."
+        "fr": "Site militant contre l'extrême droite, en version bêta, publié par une personne non identifiée : fiches « Quoi répondre » (arguments avec sources), comparatif des mesures des partis, calendrier électoral et kits pratiques pour fonctionnaires et associations. Textes sous licence CC BY-SA 4.0. Il se dit non partisan, sans publicité ni cookie (avec une mesure d'audience maison, anonyme selon lui), et reconnaît ne pas avoir été relu par des juristes. Il conseille aussi des relais coordonnés sur les réseaux, qui peuvent enfreindre les règles de certaines plateformes : à utiliser avec discernement.",
+        "en": "Activist site against the far right, in beta, published by an unidentified person: \"What to answer\" cards (arguments with sources), a comparison of party proposals, an election calendar and practical kits for civil servants and associations. Texts under CC BY-SA 4.0. It says it is non-partisan, with no ads or cookies (but with its own in-house audience measurement, anonymous by its account), and acknowledges it has not been reviewed by lawyers. It also advises coordinated relaying on social networks, which may breach some platforms' rules: use with discernment."
       },
       "sources": [
         {
@@ -3802,10 +3802,10 @@
         }
       ],
       "check": {
-        "date": "2026-11-10",
+        "date": "2026-11-13",
         "result": "unconfirmed",
         "by": "ai",
-        "note": "Éditeur anonyme (personne physique), site récent en version bêta, contenus non relus par des juristes selon le site ; déclarations sur le financement et l'absence de cookie non vérifiées. Vérifier les sources citées avant de reprendre un fait."
+        "note": "Éditeur anonyme (personne physique non professionnelle, hébergée chez Cloudflare), site récent en version bêta, contenus non relus par des juristes selon le site. Page d'accueil et mentions légales relues le 13/11/2026 : déclarations sur le financement, l'absence de cookie et la mesure d'audience anonyme non vérifiées ; scripts et requêtes réseau non inspectés. Vérifier les sources citées avant de reprendre un fait."
       }
     },
     {
