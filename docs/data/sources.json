@@ -8258,6 +8258,54 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "cc-decision-2005-38-ref": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2005-38 REF du 1er juin 2005 (proclamation des résultats du référendum du 29 mai 2005)",
+        "en": "Constitutional Council — Decision no. 2005-38 REF of 1 June 2005 (results of the 29 May 2005 referendum; in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/decision/2005/200538REF.htm",
+      "check": {
+        "date": "2026-11-13",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cc-referendums-ve-republique": {
+      "title": {
+        "fr": "Conseil constitutionnel — Tableau récapitulatif des référendums de la Ve République",
+        "en": "Constitutional Council — Table of the referendums of the Fifth Republic (in French)"
+      },
+      "url": "https://www.conseil-constitutionnel.fr/referendum-sous-la-ve-republique/tableau-recapitulatif-des-referendums-de-la-veme-republique",
+      "check": {
+        "date": "2026-11-13",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "legifrance-loi-2008-125-lisbonne": {
+      "title": {
+        "fr": "Légifrance — Loi n° 2008-125 du 13 février 2008 autorisant la ratification du traité de Lisbonne",
+        "en": "Légifrance — Law no. 2008-125 of 13 February 2008 authorising ratification of the Lisbon Treaty (in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000018117824",
+      "check": {
+        "date": "2026-11-13",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "an-congres-lisbonne-2008": {
+      "title": {
+        "fr": "Assemblée nationale — Congrès du 4 février 2008 : révision de la Constitution pour le traité de Lisbonne",
+        "en": "National Assembly — Congress of 4 February 2008: constitutional revision for the Lisbon Treaty (in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/congres/revisions-constitution/traite-de-lisbonne-2008",
+      "check": {
+        "date": "2026-11-13",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

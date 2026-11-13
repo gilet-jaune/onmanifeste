@@ -1048,19 +1048,25 @@
       "kinds": ["deni-democratique"],
       "url": "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_fran%C3%A7ais_sur_le_trait%C3%A9_%C3%A9tablissant_une_Constitution_pour_l%27Europe",
       "description": {
-        "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,36 %). Le 4 février 2008, le Parlement réuni en Congrès ouvre la voie au traité de Lisbonne sans nouveau référendum ; selon Valéry Giscard d'Estaing, auteur du premier texte, « les outils sont exactement les mêmes, seul l'ordre a été changé dans la boîte à outils ».",
-        "en": "54.67% of voters reject the European constitutional treaty (turnout: 69.36%). On 4 February 2008, Parliament meeting in Congress paves the way for the Lisbon Treaty without a new referendum; according to Valéry Giscard d'Estaing, author of the first text, 'the tools are exactly the same, only the order in the toolbox has changed'."
+        "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,37 %). Le 4 février 2008, le Parlement réuni en Congrès ouvre la voie au traité de Lisbonne sans nouveau référendum, et la loi du 13 février 2008 en autorise la ratification ; ce 29 mai 2005 reste le dernier référendum national de la Ve République (tableau du Conseil constitutionnel) ; selon Valéry Giscard d'Estaing, auteur du premier texte, « les outils sont exactement les mêmes, seul l'ordre a été changé dans la boîte à outils ».",
+        "en": "54.67% of voters reject the European constitutional treaty (turnout: 69.37%). On 4 February 2008, Parliament meeting in Congress paves the way for the Lisbon Treaty without a new referendum, and a law of 13 February 2008 authorises its ratification; 29 May 2005 remains the last national referendum of the Fifth Republic (Constitutional Council table); according to Valéry Giscard d'Estaing, author of the first text, 'the tools are exactly the same, only the order in the toolbox has changed'."
       },
       "related": ["2020-referendum-adp-un-million-de"],
-      "evidence": ["wiki-referendum-2005"],
+      "evidence": [
+        "wiki-referendum-2005",
+        "cc-decision-2005-38-ref",
+        "cc-referendums-ve-republique",
+        "legifrance-loi-2008-125-lisbonne",
+        "an-congres-lisbonne-2008"
+      ],
       "check": {
-        "date": "2026-10-29",
+        "date": "2026-11-13",
         "result": "confirmed",
         "by": "ai"
       },
       "summary": {
-        "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,36 %). Le Parlement ouvre en 2008 la voie au traité de Lisbonne sans nouveau référendum.",
-        "en": "54.67% of voters reject the European constitutional treaty (turnout 69.36%). In 2008 Parliament opens the way to the Lisbon Treaty without a new referendum."
+        "fr": "54,67 % des votant·es rejettent le traité constitutionnel européen (participation : 69,37 %). Le Parlement ouvre en 2008 la voie au traité de Lisbonne sans nouveau référendum.",
+        "en": "54.67% of voters reject the European constitutional treaty (turnout 69.37%). In 2008 Parliament opens the way to the Lisbon Treaty without a new referendum."
       }
     },
     {
