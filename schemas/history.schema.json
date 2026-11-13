@@ -69,6 +69,15 @@
             "minItems": 1,
             "uniqueItems": true
           },
+          "highlights": {
+            "type": "array",
+            "description": "Slugs of the thematic pages (docs/<slug>/) where this event is a key event: such a page shows only its key events, with a link to the full timeline. Empty or absent: the event appears only in the full timeline.",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
           "natures": {
             "type": "array",
             "description": "Nature of the event, keys of the top-level `natures`; several are allowed (the first is the main one). A journalistic or NGO investigation is not a decision: say which it is.",

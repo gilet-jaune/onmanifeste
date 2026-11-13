@@ -71,12 +71,16 @@
 {#- only: optional list of event kinds to show (default: all). -#}
 {#- `only`: kinds to show; `also`: ids of events of other kinds to add (a dossier that follows one theme
 across kinds, e.g. the security-and-freedoms page). -#}
-{%- macro timeline(lang, only=none, also=none) -%}
+{#- `highlights`: slug of a thematic page: only the events that list it in their own `highlights` are shown, without
+    filters, with a link to the full timeline (which lists every event). -#}
+{%- macro timeline(lang, only=none, also=none, highlights=none) -%}
 {#- An event has one or more kinds (the first is the main one): it matches `only` through any of them. -#}
 {%- set sel = namespace(items=[]) -%}
 {%- for e in events %}{% if not only or e.kinds | select('in', only) | list %}{% set sel.items = sel.items + [e] %}{% endif %}{% endfor -%}
 {%- set shown = sel.items -%}
 {%- if also %}{% set shown = events | selectattr('id', 'in', (shown | map(attribute='id') | list) + also) | list %}{% endif -%}
+{%- set all_count = shown | length -%}
+{%- if highlights %}{% set hl = namespace(items=[]) %}{% for e in shown %}{% if highlights in (e.highlights or []) %}{% set hl.items = hl.items + [e] %}{% endif %}{% endfor %}{% set shown = hl.items %}{% endif -%}
 {%- set ks = namespace(items=[]) -%}
 {%- for e in shown %}{% for k in e.kinds %}{% if k not in ks.items %}{% set ks.items = ks.items + [k] %}{% endif %}{% endfor %}{% endfor -%}
 {%- set shown_kinds = ks.items -%}
@@ -99,7 +103,7 @@ across kinds, e.g. the security-and-freedoms page). -#}
 {%- set shown_periods = [] -%}
 {%- for e in shown %}{% set p = period_of(e.date[:4] | int) | int %}{% if p not in shown_periods %}{% set _ = shown_periods.append(p) %}{% endif %}{% endfor -%}
 
-{%- if shown_kinds | length > 1 or show_natures or show_actors %}
+{%- if not highlights and (shown_kinds | length > 1 or show_natures or show_actors) %}
 {#- Hidden until docs/javascripts/extra.js enhances it: without JavaScript every event stays visible. -#}
 <div class="timeline-filters" data-timeline-filters hidden>
   <div class="timeline-filters__bar">
@@ -145,10 +149,13 @@ across kinds, e.g. the security-and-freedoms page). -#}
 
 {#- A thematic page points to the same theme in the full timeline (the filter is read from the URL hash). -#}
 {%- if only and (only | select('in', kinds) | list | length) == (only | length) %}
-<p class="timeline__all"><a href="../histoire/#kind={{ only | join(',') }}">{{ "Voir ce thème dans tous les repères historiques" if lang == 'fr' else 'See this theme within the full timeline' }}</a></p>
+<p class="timeline__all"><a href="../histoire/#kind={{ only | join(',') }}">{% if highlights %}{{ ('Voir les ' ~ all_count ~ ' événements de ce thème dans la frise complète') if lang == 'fr' else ('See all ' ~ all_count ~ ' events of this theme in the full timeline') }}{% else %}{{ "Voir ce thème dans tous les repères historiques" if lang == 'fr' else 'See this theme within the full timeline' }}{% endif %}</a></p>
+{%- elif highlights %}
+<p class="timeline__all"><a href="../histoire/">{{ ('Voir les ' ~ all_count ~ ' événements de ce dossier dans la frise complète') if lang == 'fr' else ('See all ' ~ all_count ~ ' events of this dossier in the full timeline') }}</a></p>
 {%- endif %}
 
-{%- if shown_periods | length > 1 %}
+
+{%- if not highlights and shown_periods | length > 1 %}
 <nav class="timeline-periods" aria-label="{{ 'Périodes' if lang == 'fr' else 'Periods' }}">
   {%- for p in shown_periods %}
   <a href="#periode-{{ periods[p][0] }}">{{ periods[p][2] if lang == 'fr' else periods[p][3] }}</a>

@@ -73,6 +73,18 @@ const ids = new Set();
         errors.push(`${at}: summary.${lang} must be shorter than the description`);
     }
   }
+  if (e.highlights !== undefined) {
+    if (!Array.isArray(e.highlights) || e.highlights.length === 0)
+      errors.push(`${at}: highlights must be a non-empty list of page slugs`);
+    else {
+      e.highlights.forEach((slug) => {
+        if (!existsSync(`docs/${slug}/index.md`))
+          errors.push(`${at}: highlights "${slug}" is not a page (docs/${slug}/index.md)`);
+      });
+      if (new Set(e.highlights).size !== e.highlights.length)
+        errors.push(`${at}: highlights has duplicates`);
+    }
+  }
   if (e.url && !e.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (!e.description?.fr) errors.push(`${at}: missing French description`);
   (e.evidence ?? []).forEach((id) => {

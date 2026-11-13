@@ -1,6 +1,6 @@
 ---
 description: 'Court decisions concerning elected officials (Fillon, Sarkozy, Le Pen, Balkany): what is judged, what is final, sentences cut short, with sources.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_commit: 64f8cfb476eed958065d64357a85abb9f4243143
 review: juridique
 review_status: pending
 tags:
@@ -41,7 +41,7 @@ Part of the distrust of institutions comes from the idea that politicians are ju
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('en', only=['probite']) }}
+{{ h.timeline('en', only=['probite'], highlights='probite') }}
 
 ## Sentences cut short: which mechanisms, which examples
 

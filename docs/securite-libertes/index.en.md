@@ -1,6 +1,6 @@
 ---
 description: 'Security and counter-terrorism laws since 1935 (state of emergency, anti-rioters, algorithmic cameras, "casseurs-payeurs") and what they change for protesting.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_commit: 64f8cfb476eed958065d64357a85abb9f4243143
 review: juridique
 review_status: pending
 tags:
@@ -24,13 +24,7 @@ The texts governing demonstrations and security are not new: a declaration regim
 
 ## Not new: earlier precedents
 
-Every era has had its texts; what changes since 2015 is mostly the pace and the number.
-
-- **1935**: demonstrations enter the law, subject to prior declaration.[^vie-publique-liberte-manifestation]
-- **1955**: the state-of-emergency law, created for the Algerian War, allows among other things bans on demonstrations and house arrests; it will be applied again in 1985, 2005, 2015-2017 and 2024.[^wiki-etat-urgence-france]
-- **1970-1981**: the "anti-rioters" law creates criminal and financial liability that also hits mere demonstrators; its critics call it "freedom-killing", and it is repealed in November 1981.[^wiki-loi-anticasseurs-1970][^universalis-abrogation-anticasseurs-1981] The 2019 law is known by the same nickname.[^wiki-loi-anticasseurs-2019]
-- **1986-2006**: counter-terrorism legislation takes shape: a definition of terrorism and longer police custody (1986), stronger checks and searches (2001), six-day custody and retention of connection data (2006).[^vie-publique-chronologie-antiterroriste]
-- **2016**: during the state of emergency, marches can be banned if the authority cannot ensure their security for lack of resources.[^vie-publique-chronologie-antiterroriste]
+Every era has had its texts; what has changed since 2015 is mostly the pace and the number. The precedents (the 1935 prior declaration, the 1955 state of emergency, the 1970 'anti-rioters' law repealed in 1981, counter-terrorism law from 1986 to 2006, and the 2016 ban on marches for lack of resources) are dated and sourced in the [full timeline](../histoire/index.md#kind=securite-libertes), where each has its own card.
 
 ## What these texts change, in practice
 
@@ -87,7 +81,7 @@ The texts and decisions, in order. Events of other kinds (rights won, repression
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('en', only=['securite-libertes'], also=['2020-loi-securite-globale', '2026-manifestations-des-17-et-24-octobre']) }}
+{{ h.timeline('en', only=['securite-libertes'], also=['2020-loi-securite-globale', '2026-manifestations-des-17-et-24-octobre'], highlights='securite-libertes') }}
 
 ## What observatories and institutions say
 

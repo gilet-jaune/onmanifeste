@@ -15,6 +15,10 @@
      violence is about the police and the government, a journalistic investigation about the firm it
      investigates, a trial about the person tried. Never for protest events, never named people; the
      "Concerne" filter reads it;
+   - optionally `highlights` (slugs of thematic pages such as `probite` or `securite-libertes`, i.e.
+     folders `docs/<slug>/`): a key event of that page, which shows only its key events (4 to 9) and
+     links to the full timeline. Keep it for the events a reader needs to follow the page's
+     explanation;
    - optionally `end` (end of a period), `related` (ids of related events, "see also") and `guides`
      (slugs of useful guides; labels live in `overrides/partials/history-timeline.html`);
    - a `check` (`date`, `result`, `by: "ai"` when added by an agent).

@@ -23,13 +23,7 @@ Les textes qui encadrent la manifestation et la sécurité ne datent pas d'hier 
 
 ## Ce n'est pas nouveau : des précédents
 
-Chaque époque a eu ses textes ; ce qui change depuis 2015, c'est surtout le rythme et le nombre.
-
-- **1935** : la manifestation entre dans le droit, sous déclaration préalable.[^vie-publique-liberte-manifestation]
-- **1955** : la loi sur l'état d'urgence, créée pour la guerre d'Algérie, permet notamment d'interdire des manifestations et d'assigner à résidence ; elle sera de nouveau appliquée en 1985, en 2005, de 2015 à 2017 et en 2024.[^wiki-etat-urgence-france]
-- **1970-1981** : la loi « anticasseurs » instaure une responsabilité pénale et pécuniaire qui touche aussi de simples manifestant·es ; ses détracteurs la jugent « liberticide », et elle est abrogée en novembre 1981.[^wiki-loi-anticasseurs-1970][^universalis-abrogation-anticasseurs-1981] La loi de 2019 reprend la même appellation courante.[^wiki-loi-anticasseurs-2019]
-- **1986-2006** : la législation antiterroriste se met en place : définition du terrorisme et garde à vue allongée (1986), contrôles et fouilles renforcés (2001), garde à vue de six jours et conservation des données de connexion (2006).[^vie-publique-chronologie-antiterroriste]
-- **2016** : pendant l'état d'urgence, les cortèges peuvent être interdits si l'autorité ne peut en assurer la sécurité faute de moyens.[^vie-publique-chronologie-antiterroriste]
+Chaque époque a eu ses textes ; ce qui change depuis 2015, c'est surtout le rythme et le nombre. Les précédents (déclaration préalable de 1935, état d'urgence de 1955, loi « anticasseurs » de 1970 abrogée en 1981, législation antiterroriste de 1986 à 2006, interdiction des cortèges faute de moyens en 2016) sont datés et sourcés dans la [frise complète](../histoire/index.md#kind=securite-libertes), où chacun a sa carte.
 
 ## Ce que ces textes changent, concrètement
 
@@ -86,7 +80,7 @@ Les textes et décisions, dans l'ordre. Les événements d'autres types (conquê
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('fr', only=['securite-libertes'], also=['2020-loi-securite-globale', '2026-manifestations-des-17-et-24-octobre']) }}
+{{ h.timeline('fr', only=['securite-libertes'], also=['2020-loi-securite-globale', '2026-manifestations-des-17-et-24-octobre'], highlights='securite-libertes') }}
 
 ## Ce que disent les observatoires et les institutions
 

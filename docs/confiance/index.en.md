@@ -1,6 +1,6 @@
 ---
 description: "Bypassed referendum, citizens' convention, laws without a vote: sourced facts on the democratic routes protesters say were ignored."
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_commit: 64f8cfb476eed958065d64357a85abb9f4243143
 tags:
     - comprendre
     - démocratie
@@ -18,7 +18,7 @@ A referendum bypassed, a citizens' convention emptied of its substance, laws pas
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('en', only=['deni-democratique']) }}
+{{ h.timeline('en', only=['deni-democratique'], highlights='confiance') }}
 
 ## When justice does not prosecute: what the figures say
 

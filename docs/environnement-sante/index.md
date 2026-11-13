@@ -22,7 +22,7 @@ Climat, glyphosate, néonicotinoïdes : cette frise rassemble les décisions dat
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('fr', only=['environnement-sante'], also=['2019-convention-citoyenne-pour-le-climat', '2026-petition-contre-la-loi-duplomb']) }}
+{{ h.timeline('fr', only=['environnement-sante'], also=['2019-convention-citoyenne-pour-le-climat', '2026-petition-contre-la-loi-duplomb'], highlights='environnement-sante') }}
 
 ## Pesticides : « autorisé, interdit, puis autorisé »
 

@@ -17,7 +17,7 @@ Référendum contourné, convention citoyenne vidée de son contenu, lois adopt�
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('fr', only=['deni-democratique']) }}
+{{ h.timeline('fr', only=['deni-democratique'], highlights='confiance') }}
 
 ## Quand la justice ne poursuit pas : ce que disent les chiffres
 

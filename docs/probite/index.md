@@ -40,7 +40,7 @@ Une partie de la défiance envers les institutions vient de l'idée que les resp
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('fr', only=['probite']) }}
+{{ h.timeline('fr', only=['probite'], highlights='probite') }}
 
 ## Peines écourtées : quels mécanismes, quels exemples
 

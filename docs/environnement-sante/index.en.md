@@ -1,6 +1,6 @@
 ---
 description: 'Climate and pesticides: dated, sourced court decisions and official texts, with the readings of NGOs and public authorities.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_commit: 64f8cfb476eed958065d64357a85abb9f4243143
 review: juridique
 review_status: pending
 tags:
@@ -23,7 +23,7 @@ Climate, glyphosate, neonicotinoids: this timeline gathers dated decisions (cour
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
-{{ h.timeline('en', only=['environnement-sante'], also=['2019-convention-citoyenne-pour-le-climat', '2026-petition-contre-la-loi-duplomb']) }}
+{{ h.timeline('en', only=['environnement-sante'], also=['2019-convention-citoyenne-pour-le-climat', '2026-petition-contre-la-loi-duplomb'], highlights='environnement-sante') }}
 
 ## Pesticides: "authorised, banned, then authorised again"
 
