@@ -15,6 +15,13 @@ tags:
 
 Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
 
+!!! abstract "L'essentiel"
+
+    - **Quelqu'un est embarqué ou perd son téléphone** : le premier ou la première gardien·ne qui voit l'alerte le ou la retire du groupe tout de suite, sans attendre de vote ; les RH font retirer la personne des autres groupes grâce au registre.
+    - **Un doute sérieux, sans arrestation** : pause préventive, puis deux RH décident.
+    - **La question clé : sait-on par où ça fuit ?** Oui, et c'est retiré : cas A, le groupe continue. Non : cas B, on déménage (nouvelle famille, on réinvite un par un, ancien groupe fermé ensuite).
+    - **Le retrait protège l'avenir, pas le passé** : ce qui était déjà sur le téléphone y reste.
+
 ## Que faire ?
 
 <div class="flow" markdown>

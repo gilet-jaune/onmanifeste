@@ -16,6 +16,13 @@ tags:
 
 Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
+!!! abstract "Key points"
+
+    - **Someone is taken away or loses their phone**: the first keeper who sees the alert removes them from the group straight away, without waiting for a vote; HR have them removed from the other groups using the register.
+    - **A serious doubt, with no arrest**: precautionary pause, then two HR decide.
+    - **The key question: do we know where it leaks?** Yes, and it is removed: case A, the group goes on. No: case B, we move (new family, re-invite one by one, close the old group afterwards).
+    - **Removal protects the future, not the past**: what was already on the phone stays there.
+
 ## What to do?
 
 <div class="flow" markdown>

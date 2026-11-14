@@ -16,6 +16,14 @@ tags:
 
 Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
+!!! abstract "Key points"
+
+    - **Each airlock group is born with a date and a time slot**, announced by a secretary in the public group. **Never the place**: it is given the day before in the airlock group, with nobody added after that.
+    - **The in-person meeting** takes place in a public place, with at least two verified members: settings checked on the screen, safety-number QR code scanned. **Identity is not checked** (no papers, no real name) and nothing is promised on the spot.
+    - **The same evening, within 48 hours at the latest**, the airlock group is cleaned: people who are not validated (absentees included) are removed, then someone from HR takes over.
+    - **Recruiters and secretaries** are several, rotate, do not validate and are not guarantors of their own recruits. No list, no notes with names.
+    - **A single serious doubt is enough to wait**: the person stays in the public group.
+
 ## Recruitment end to end, role by role
 
 Pick your role to see your step-by-step checklist, or open the full table to see who does what at each step:

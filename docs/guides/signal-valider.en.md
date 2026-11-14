@@ -16,6 +16,14 @@ tags:
 
 Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
+!!! abstract "Key points"
+
+    - **We validate each person, not the airlock group**, with three checks: the account (safety-number QR code), the person (a guarantor who knows them) and the settings (name, no photo, hidden number).
+    - **For the trusted group**: a secretary who met the person, a guarantor, then the HR second check. **For a sensitive subgroup**: two guarantors, after a period in the trusted group.
+    - **Two doors**: the open door (nobody knows them: we see them act over several actions) and co-option (a verified member knows them and proposes them: often the same day).
+    - **Never a guarantee between new people**, nor a vote, nor a written trust list.
+    - **Verification does not guarantee intentions**: an ill-intentioned person with a real guarantor will get through, hence "nothing illegal in writing".
+
 ## Validating: graduated trust
 
 The meeting is a **first contact**. **Each person is vetted, not the airlock**: an airlock can include people vetted the same day and others who are waiting, and newcomers never vouch for each other (see the steps for [Secretary](signal-recrutement.md#secretary-path) and for [HR](signal-recrutement.md#hr-path)). Validation then depends on the group's level:

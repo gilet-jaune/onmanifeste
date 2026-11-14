@@ -15,6 +15,14 @@ tags:
 
 Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
 
+!!! abstract "L'essentiel"
+
+    - **Un nom court, codé et tiré au hasard** pour chaque famille de groupes (`MVT-VIL-4K9-Medic`) : jamais séquentiel, jamais un mot qui désigne un niveau.
+    - **Réglez le groupe vide, avant la première invitation** : messages éphémères, permissions réservées aux admins, aucun lien ni code QR (seule exception : le groupe public), un deuxième gardien·ne dès le départ.
+    - **Un groupe qui dépasse sa taille se divise, il ne grossit pas** : 25 personnes de préférence et 50 au plus pour le groupe de confiance.
+    - **Quelques heures avant une action**, réglez les messages éphémères du groupe de confiance sur quelques heures, et gardez le point de rendez-vous sur papier.
+    - **Tenez un registre** des familles et des groupes, à deux ou trois personnes, hors des groupes.
+
 ## Nommer les groupes
 
 Un nom court et codé aide à s'y retrouver et à **remplacer** des groupes sans confusion. Exemple fictif : `MVT-VIL-4K9-Medic`. Le groupe de confiance et ses sous-groupes forment une **famille**, qui partage le même identifiant : `MVT-VIL-4K9-General`, `MVT-VIL-4K9-Medic`, `MVT-VIL-4K9-Legal`. Dans le nom, le groupe de confiance s'appelle simplement `General` : un mot neutre, qui ne désigne pas un niveau.

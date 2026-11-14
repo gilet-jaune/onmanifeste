@@ -16,6 +16,14 @@ tags:
 
 Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
+!!! abstract "Key points"
+
+    - **Signal cannot delete a group for everyone**: closing it means removing members one by one, then leaving. Close the airlock group after its meeting, the temporary group when it ends, and any group that is no longer used.
+    - **A label shows only a protest role** (medic, legal…), never an organising role (HR, secretary, keeper): it is an indication, not proof.
+    - **Nobody is in all the subgroups**, and there is no "organising" group gathering all the HR or all the keepers: a single seized phone would hand over everything.
+    - **To link several families**: two liaisons per family, in a liaison group with its own identifier.
+    - **With minors**: never push them to an illegal action, separate groups when possible, no photos.
+
 ## Closing a group
 
 Signal cannot delete a group for everyone: **closing** it means removing members one by one, then leaving it, after comparing its list with the new group's if there is one (see [case B](signal-groupe-compromis.md#case-b-you-dont-know-move-out)). Then record the ID as closed in the register.

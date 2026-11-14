@@ -15,6 +15,14 @@ tags:
 
 Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
 
+!!! abstract "L'essentiel"
+
+    - **Chaque groupe sas naît avec une date et une tranche horaire**, annoncées par un·e secrétaire dans le groupe public. **Jamais le lieu** : il est donné la veille dans le groupe sas, sans plus ajouter personne.
+    - **La rencontre en vrai** se tient dans un lieu public, avec au moins deux membres vérifié·es : réglages contrôlés sur l'écran, code QR du numéro de sécurité scanné. **On ne vérifie pas l'identité** (ni papiers, ni vrai nom) et on ne promet rien sur place.
+    - **Le soir même, au plus tard sous 48 h**, on nettoie le groupe sas : les personnes non validées (absent·es compris) sont retirées, puis une personne des RH prend le relais.
+    - **Les recruteur·ses et secrétaires** sont plusieurs, tournent, ne valident pas et ne sont pas garant·es de leurs propres recrues. Aucune liste, aucune note avec des noms.
+    - **Un seul doute sérieux suffit pour attendre** : la personne reste dans le groupe public.
+
 ## Le recrutement de bout en bout, rôle par rôle
 
 Choisissez votre rôle pour voir votre checklist étape par étape, ou ouvrez le tableau complet pour voir qui fait quoi à chaque étape :

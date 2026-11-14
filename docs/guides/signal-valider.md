@@ -15,6 +15,14 @@ tags:
 
 Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
 
+!!! abstract "L'essentiel"
+
+    - **On valide chaque personne, pas le sas**, avec trois contrôles : le compte (code QR du numéro de sécurité), la personne (un·e garant·e qui la connaît) et les réglages (nom, pas de photo, numéro caché).
+    - **Pour le groupe de confiance** : un·e secrétaire qui a rencontré la personne, un·e garant·e, puis le second contrôle des RH. **Pour un sous-groupe sensible** : deux garant·es, après une période dans le groupe de confiance.
+    - **Deux portes** : la voie ouverte (personne ne la connaît : on la voit agir sur plusieurs actions) et la cooptation (un membre vérifié la connaît et la propose : souvent le jour même).
+    - **Jamais de garantie entre nouvelles personnes**, ni de vote, ni de liste de confiance écrite.
+    - **La vérification ne garantit pas les intentions** : une personne malintentionnée avec un·e vrai·e garant·e passera, d'où « rien d'illégal par écrit ».
+
 ## Valider : la confiance graduée
 
 La rencontre est un **premier contact**. **On valide chaque personne, pas le sas** : un sas peut compter des personnes validées le jour même et d'autres qui attendent, et les nouvelles personnes ne se garantissent jamais entre elles (voir les étapes côté [Secrétaire](signal-recrutement.md#parcours-secretaire) et côté [RH](signal-recrutement.md#parcours-rh)). On valide ensuite selon le niveau du groupe :

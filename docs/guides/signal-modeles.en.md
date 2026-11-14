@@ -24,6 +24,12 @@ Replace what is in square brackets.
 
     This is why the **group description** (permanent, visible to all members and upon join request) must contain the disclaimer and vital rules. The detailed charter is shared and validated **in the airlock group** before admission to the trusted group.
 
+!!! abstract "Key points"
+
+    - **Three copy-and-paste templates**: the introduction of a trusted group, that of a subgroup and the full charter. Replace what is in brackets.
+    - **The group description, not a pinned message, carries the disclaimer and vital rules**: a disappearing message is unpinned and deleted when it expires, and someone who joins later does not see messages pinned before their arrival.
+    - **The full charter is validated in the airlock group**, before being added to the trusted group.
+
 ## Description of a trusted group
 
 **Group name**: `[MVT]-[CTY]-[ID]-General`

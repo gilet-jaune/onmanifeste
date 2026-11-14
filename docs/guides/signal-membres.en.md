@@ -16,6 +16,14 @@ tags:
 
 Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
+!!! abstract "Key points"
+
+    - **Before entering a first group**: an activist name (the same on Signal and in person), no photo, hidden number, username, disappearing messages by default, notifications without name or message, PIN code.
+    - **In the groups**: nothing illegal in writing, no voice messages, cleaned links, blurred faces, no live location. Never share the link or QR code of an airlock, trusted or subgroup.
+    - **Arrested or phone lost**: in custody, name nobody; tell HR; recover your account with your PIN and remove unknown linked devices.
+    - **A doubt about someone**: HR, in private, never an accusation in the group.
+    - **If the group disappears**: remember, without writing it down, the name of someone in HR and a fallback point; do not leave the group on your own and do not create a replacement group.
+
 ## Your path
 
 <div class="flow" markdown>

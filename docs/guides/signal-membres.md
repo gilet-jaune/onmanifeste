@@ -15,6 +15,14 @@ tags:
 
 Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
 
+!!! abstract "L'essentiel"
+
+    - **Avant d'entrer dans un premier groupe** : un nom de militant·e (le même sur Signal et en vrai), pas de photo, numéro caché, nom d'utilisateur, messages éphémères par défaut, notifications sans nom ni message, code PIN.
+    - **Dans les groupes** : rien d'illégal par écrit, pas de messages vocaux, liens nettoyés, visages floutés, pas de localisation en direct. Ne partagez jamais le lien ni le code QR d'un groupe sas, de confiance ou d'un sous-groupe.
+    - **Arrêté·e ou téléphone perdu** : en garde à vue, ne parlez de personne ; prévenez les RH ; récupérez votre compte avec votre code PIN et supprimez les appareils associés inconnus.
+    - **Un doute sur quelqu'un** : les RH, en privé, jamais d'accusation dans le groupe.
+    - **Si le groupe disparaît** : retenez sans l'écrire le nom d'une personne des RH et un point de repli ; ne quittez pas le groupe de vous-même et ne créez pas de groupe de remplacement.
+
 ## Votre parcours
 
 <div class="flow" markdown>

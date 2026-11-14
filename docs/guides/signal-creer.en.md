@@ -16,6 +16,14 @@ tags:
 
 Terms used here: [the groups](groupes-signal.md#the-groups) (public, airlock, trusted), [the roles](groupes-signal.md#the-roles) (HR, keyholder…) and the [vocabulary](groupes-signal.md#key-vocabulary-and-concepts).
 
+!!! abstract "Key points"
+
+    - **A short, coded, randomly drawn name** for each family of groups (`MVT-VIL-4K9-Medic`): never sequential, never a word that signals a level.
+    - **Set the group up empty, before the first invitation**: disappearing messages, permissions reserved to admins, no link or QR code (the only exception: the public group), a second keeper from the start.
+    - **A group that outgrows its size is split, not enlarged**: 25 people preferably and 50 at most for the trusted group.
+    - **A few hours before an action**, set the trusted group's disappearing messages to a few hours, and keep the meeting point on paper.
+    - **Keep a register** of families and groups, among two or three people, outside the groups.
+
 ## Naming groups
 
 A short, coded name helps you find your way and **replace** groups without confusion. Fictional example: `MVT-CTY-4K9-Medic`. The trusted group and its sub-groups form a **family**, which shares the same ID: `MVT-CTY-4K9-General`, `MVT-CTY-4K9-Medic`, `MVT-CTY-4K9-Legal`. In the name, the trusted group is simply called `General`: a neutral word that doesn't reveal a level.

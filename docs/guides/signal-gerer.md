@@ -15,6 +15,14 @@ tags:
 
 Mots utilisés ici : [les groupes](groupes-signal.md#les-groupes) (public, sas, confiance), [les rôles](groupes-signal.md#les-roles) (RH, gardien·ne…) et le [vocabulaire](groupes-signal.md#vocabulaire-et-concepts-cles).
 
+!!! abstract "L'essentiel"
+
+    - **Signal ne supprime pas un groupe pour tout le monde** : fermer, c'est retirer les membres un par un puis quitter. On ferme le groupe sas après sa rencontre, le groupe temporaire à la fin, et tout groupe qui ne sert plus.
+    - **Un libellé n'indique qu'un rôle de manif** (medic, legal…), jamais un rôle d'organisation (RH, secrétaire, gardien·ne) : c'est une indication, pas une preuve.
+    - **Personne n'est dans tous les sous-groupes**, et pas de groupe « orga » qui réunit toutes les RH ou tous les gardien·nes : un seul téléphone saisi livrerait tout.
+    - **Pour relier plusieurs familles** : deux liaisons par famille, dans un groupe de liaison à l'identifiant propre.
+    - **Avec des mineur·es** : jamais de poussée vers une action illégale, des groupes séparés quand c'est possible, aucune photo.
+
 ## Fermer un groupe
 
 Signal ne permet pas de supprimer un groupe pour tout le monde : le **fermer**, c'est retirer les membres un par un puis le quitter, après avoir comparé sa liste avec celle du nouveau groupe s'il y en a un (voir le [cas B](signal-groupe-compromis.md#cas-b-on-ne-sait-pas-demenager)). Notez ensuite l'identifiant comme fermé au registre.

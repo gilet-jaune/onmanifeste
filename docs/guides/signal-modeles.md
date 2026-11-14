@@ -23,6 +23,12 @@ Remplacez ce qui est entre crochets.
 
     C'est pourquoi la **description du groupe** (permanente, visible par tous et dès la demande d'entrée) doit contenir le *disclaimer* et les règles vitales. La charte détaillée, elle, est transmise et validée **dans le groupe sas** avant l'entrée dans le groupe de confiance.
 
+!!! abstract "L'essentiel"
+
+    - **Trois modèles à copier-coller** : la présentation d'un groupe de confiance, celle d'un sous-groupe et la charte complète. Remplacez ce qui est entre crochets.
+    - **La description du groupe, pas un message épinglé, porte l'avertissement et les règles vitales** : un message éphémère est désépinglé et supprimé à l'expiration, et une personne qui arrive après ne voit pas les messages épinglés avant son arrivée.
+    - **La charte complète se valide dans le groupe sas**, avant l'ajout au groupe de confiance.
+
 ## Présentation d'un groupe de confiance
 
 **Nom du groupe** : `[MVT]-[VIL]-[ID]-General`
