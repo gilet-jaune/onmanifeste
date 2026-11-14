@@ -1,6 +1,6 @@
 ---
 description: 'Legal notice, host, personal data, licences and privacy policy of the On manifeste site.'
-source_commit: a650627b2cb0274ed0589392181f3491e044fe50
+source_commit: 3d8db0f740ccf73ce63808e81841208ef8f8aafa
 tags:
     - legal notice
 ---
