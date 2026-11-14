@@ -28,6 +28,10 @@ const DIRECTORY_I18N = {
     install: 'Installer :',
     moreTags: (n) => `Tous les mots-clés (${n})`,
     lessTags: 'Moins de mots-clés',
+    allShort: 'Tous',
+    categories: 'Type d’aide',
+    showing: (shown, total) => `${shown} affiché${shown > 1 ? 's' : ''} sur ${total}`,
+    more: (n, rest) => `Afficher les ${n} suivantes (il en reste ${rest})`,
   },
   en: {
     situations: 'Your situation',
@@ -43,6 +47,10 @@ const DIRECTORY_I18N = {
     install: 'Install:',
     moreTags: (n) => `All keywords (${n})`,
     lessTags: 'Fewer keywords',
+    allShort: 'All',
+    categories: 'Type of help',
+    showing: (shown, total) => `${shown} of ${total} shown`,
+    more: (n, rest) => `Show the next ${n} (${rest} left)`,
   },
 };
 
@@ -61,6 +69,7 @@ const SOCIAL_LABELS = {
 };
 
 const TOP_TAGS = 14;
+const PAGE_SIZE = 24; // cards drawn at first and added by each "show more"
 const WEIGHTS = { name: 8, tag: 5, category: 3, description: 1 };
 
 // Lowercase and strip accents so "securite" matches "Sécurité".
@@ -188,6 +197,7 @@ async function initDirectory(root) {
     category: params.get('category') || '',
     tags: new Set((params.get('tags') || '').split(',').filter(Boolean)),
     showAllTags: false,
+    shown: PAGE_SIZE,
   };
 
   // Each query term becomes a list of alternatives: itself, its synonyms, and close spellings.
@@ -272,12 +282,31 @@ async function initDirectory(root) {
   });
   input.value = state.q;
 
-  const select = el('select', { class: 'directory__category', 'aria-label': t.all });
-  select.append(el('option', { value: '' }, t.all));
-  for (const [key, label] of Object.entries(data.categories)) {
-    select.append(el('option', { value: key }, loc(label)));
+  // Categories as one row of chips (one tap), each with the number of results it would leave.
+  const categoryBar = el('div', {
+    class: 'directory__categories',
+    role: 'group',
+    'aria-label': t.categories,
+  });
+  const categoryChips = new Map();
+  for (const [key, label] of [
+    ['', { fr: t.allShort, en: t.allShort }],
+    ...Object.entries(data.categories),
+  ]) {
+    const badge = el('span', { class: 'directory__tag-count' });
+    const btn = el(
+      'button',
+      { type: 'button', class: 'directory__chip' },
+      el('span', {}, loc(label)),
+      badge,
+    );
+    btn.addEventListener('click', () => {
+      state.category = state.category === key ? '' : key;
+      render();
+    });
+    categoryChips.set(key, { btn, badge });
+    categoryBar.append(btn);
   }
-  select.value = state.category;
 
   const clear = el('button', { type: 'button', class: 'directory__clear' }, t.clear);
   const tagBar = el('div', { class: 'directory__tags' });
@@ -320,7 +349,6 @@ async function initDirectory(root) {
     Object.assign(state, { situation: '', q: '', category: '' });
     state.tags.clear();
     input.value = '';
-    select.value = '';
     render();
   }
 
@@ -433,17 +461,84 @@ async function initDirectory(root) {
     );
   }
 
-  function render() {
+  // The cards drawn so far (PAGE_SIZE at first, more on demand): 200 cards at once make a very long page.
+  let current = { matches: [], terms: [] };
+  function paint(focusFrom = -1) {
+    const { matches, terms } = current;
+    const visible = matches.slice(0, state.shown);
+    const rest = matches.length - visible.length;
+    count.textContent = rest
+      ? `${t.results(matches.length)} · ${t.showing(visible.length, matches.length)}`
+      : t.results(matches.length);
+    list.replaceChildren(
+      ...(matches.length
+        ? [
+            ...visible.map((r) => cardFor(r, terms)),
+            ...(rest ? [moreButton(Math.min(PAGE_SIZE, rest), rest)] : []),
+          ]
+        : [
+            el(
+              'div',
+              { class: 'directory__empty' },
+              el('p', {}, t.empty),
+              el(
+                'div',
+                { class: 'directory__suggestions' },
+                ...situations.map((s) =>
+                  el(
+                    'button',
+                    {
+                      type: 'button',
+                      class: 'directory__situation',
+                      onclick: () => {
+                        Object.assign(state, { situation: s.id, q: '', category: '' });
+                        state.tags.clear();
+                        input.value = '';
+                        render();
+                      },
+                    },
+                    loc(s.label),
+                  ),
+                ),
+                el(
+                  'button',
+                  { type: 'button', class: 'directory__clear', onclick: reset },
+                  t.clear,
+                ),
+              ),
+            ),
+          ]),
+    );
+    if (focusFrom >= 0)
+      list.querySelectorAll('.directory__card')[focusFrom]?.querySelector('a')?.focus();
+  }
+
+  function moreButton(n, rest) {
+    return el(
+      'button',
+      {
+        type: 'button',
+        class: 'directory__more',
+        onclick: () => {
+          const from = state.shown;
+          state.shown += PAGE_SIZE;
+          paint(from);
+          syncUrl();
+        },
+      },
+      t.more(n, rest),
+    );
+  }
+
+  function render(fresh = true) {
     const groups = expandQuery(state.q);
     const terms = groups.flatMap((g) => g.display);
 
     // Everything except tags, so tag counts show how many results each tag would leave.
-    const base = resources
+    const scored = resources
       .map((r) => ({ r, score: groups.length ? scoreFor(r, groups) : 1 }))
-      .filter(
-        ({ r, score }) =>
-          score > 0 && situationMatches(r) && (!state.category || r.category === state.category),
-      );
+      .filter(({ r, score }) => score > 0 && situationMatches(r));
+    const base = scored.filter(({ r }) => !state.category || r.category === state.category);
     const matches = base
       .filter(({ r }) => [...state.tags].every((tag) => r.tags.includes(tag)))
       .sort((a, b) => b.score - a.score || a.r.order - b.r.order)
@@ -463,47 +558,24 @@ async function initDirectory(root) {
       // Selected tags always stay visible; others hide when collapsed or leading nowhere.
       btn.hidden = !active && (n === 0 || (!state.showAllTags && !topTags.has(tag)));
     }
+    // Category chips: results per category with the current search, situation and tags.
+    const afterTags = scored.filter(({ r }) =>
+      [...state.tags].every((tag) => r.tags.includes(tag)),
+    );
+    for (const [key, { btn, badge }] of categoryChips) {
+      const active = state.category === key;
+      const n = key ? afterTags.filter(({ r }) => r.category === key).length : afterTags.length;
+      btn.classList.toggle('is-active', active || (!key && !state.category));
+      btn.setAttribute('aria-pressed', String(active || (!key && !state.category)));
+      badge.textContent = String(n);
+      btn.hidden = !!key && !active && n === 0;
+    }
     tagsToggle.textContent = state.showAllTags ? t.lessTags : t.moreTags(allTags.length);
     tagsToggle.setAttribute('aria-expanded', String(state.showAllTags));
 
-    count.textContent = t.results(matches.length);
-    list.replaceChildren(
-      ...(matches.length
-        ? matches.map((r) => cardFor(r, terms))
-        : [
-            el(
-              'div',
-              { class: 'directory__empty' },
-              el('p', {}, t.empty),
-              el(
-                'div',
-                { class: 'directory__suggestions' },
-                ...situations.map((s) =>
-                  el(
-                    'button',
-                    {
-                      type: 'button',
-                      class: 'directory__situation',
-                      onclick: () => {
-                        Object.assign(state, { situation: s.id, q: '', category: '' });
-                        state.tags.clear();
-                        input.value = '';
-                        select.value = '';
-                        render();
-                      },
-                    },
-                    loc(s.label),
-                  ),
-                ),
-                el(
-                  'button',
-                  { type: 'button', class: 'directory__clear', onclick: reset },
-                  t.clear,
-                ),
-              ),
-            ),
-          ]),
-    );
+    current = { matches, terms };
+    state.shown = fresh ? PAGE_SIZE : state.shown;
+    paint();
     syncUrl();
   }
 
@@ -520,23 +592,38 @@ async function initDirectory(root) {
       render();
     }
   });
-  select.addEventListener('change', () => {
-    state.category = select.value;
-    render();
-  });
   clear.addEventListener('click', reset);
 
   root.replaceChildren(
     situationBar,
-    el('div', { class: 'directory__controls' }, input, select, clear),
+    el('div', { class: 'directory__controls' }, input, clear),
+    categoryBar,
     tagBar,
     count,
     list,
   );
   render();
 
+  // A printed directory is complete: draw every card for the print, then go back.
+  let shownBeforePrint = 0;
+  window.addEventListener('beforeprint', () => {
+    shownBeforePrint = state.shown;
+    state.shown = Infinity;
+    paint();
+  });
+  window.addEventListener('afterprint', () => {
+    state.shown = shownBeforePrint || PAGE_SIZE;
+    paint();
+  });
+
   // Arriving from the site search (#ressource-signal) or a shared card link (#signal).
   const target = decodeURIComponent(window.location.hash.slice(1)).replace(/^ressource-/, '');
+  // A linked card that is not drawn yet: show as many batches as needed to reach it.
+  const at = current.matches.findIndex((r) => r.id === target);
+  if (at >= state.shown) {
+    state.shown = Math.ceil((at + 1) / PAGE_SIZE) * PAGE_SIZE;
+    paint();
+  }
   const card = target && document.getElementById(target);
   if (card) {
     card.classList.add('is-target');

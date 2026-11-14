@@ -20,7 +20,7 @@ French-first toolkit for protesting in France: a sourced directory, guides, an S
 | `docs/guides/` | Guides (FR + EN). `review: juridique\|medical` front matter shows a "not yet reviewed" badge. |
 | `docs/annuaire/`, `docs/sos/`, `docs/carte/` | Directory, SOS page and pocket card, all rendered from the registry (`overrides/partials/*.html`). |
 | `docs/data/parcours.json`, `docs/javascripts/parcours.js` | Guided search "Je suis… / et je veux…": profiles → needs → results (guide sections, resources, pages). Validated by `scripts/validate-parcours.mjs` (anchors checked FR and EN). |
-| `docs/javascripts/directory.js` | Live search: situations, synonyms, typo tolerance, ranking, tag counts. |
+| `docs/javascripts/directory.js` | Live search: situations, category chips, synonyms, typo tolerance, ranking, tag counts, 24 cards at a time. |
 | `docs/javascripts/pwa.js`, `docs/sw.js`, `hooks/pwa.py` | Offline mode: service worker precache list and version injected at build. |
 | `hooks/csp.py`, `hooks/qrcode.py` | Per-page Content-Security-Policy (inline scripts by hash); QR code to the site for the pocket card. Hook order matters: qrcode, csp, then pwa. |
 | `overrides/main.html` | Head (manifest, Open Graph), review badge, install banner slot, footer. |
@@ -35,7 +35,7 @@ Visitors read French (or English) words, never code names. Do not mix them.
 | --- | --- | --- | --- | --- |
 | Type de contenu / Content type | folder of the page | What kind of page? | closed, one per page | search badge and filter chips (`search-filter.js`, `search-snippet.js`) |
 | Thème / Theme | `guide_themes` | What is this guide about? | closed, 1 to 3 per guide | `docs/data/guide-themes.json`; links under the title (`hooks/themes.py`, `overrides/partials/tags.html`) |
-| Type d'aide / Type of help | `category` | What help does this resource give? | closed, one per resource | `resources.json` → `categories`; select in the directory |
+| Type d'aide / Type of help | `category` | What help does this resource give? | closed, one per resource | `resources.json` → `categories`; chips in the directory |
 | Situation | `situations`, `parcours` | Where am I? | closed | "Je suis…" |
 | Mot-clé / Keyword | `tags` | (nothing to browse) used to find | free | `tags:` in a page's front matter (invisible, search only); `tags` of a resource |
 

@@ -632,7 +632,6 @@ select:focus-visible {
 }
 
 .directory__search,
-.directory__category,
 .directory__clear {
   min-height: 2.4rem;
   padding: 0.45rem 0.75rem;
@@ -657,6 +656,94 @@ select:focus-visible {
 .directory__clear:hover {
   background: var(--ap-vest);
   color: var(--ap-ink);
+}
+
+/* Category chips: one row that scrolls sideways on phones, wraps on wide screens. */
+.directory__categories {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0 0 0.9rem;
+  padding: 0.15rem 0 0.35rem;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+}
+
+.directory__chip {
+  display: inline-flex;
+  flex: none;
+  gap: 0.4rem;
+  align-items: center;
+  min-height: 2.4rem;
+  padding: 0.3rem 0.8rem;
+  border: 2px solid var(--ap-line);
+  border-radius: 1.2rem;
+  background: var(--ap-surface);
+  color: var(--ap-text);
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  scroll-snap-align: start;
+}
+
+.directory__chip:hover {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.directory__chip.is-active {
+  background: var(--ap-vest);
+  border-color: var(--ap-ink);
+  color: var(--ap-ink);
+}
+
+.directory__chip[hidden] {
+  display: none;
+}
+
+@media screen and (min-width: 45em) {
+  .directory__categories {
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+
+  .directory__chip {
+    min-height: 2rem;
+    padding: 0.15rem 0.65rem;
+    font-size: 0.75rem;
+  }
+}
+
+.directory__more {
+  display: block;
+  width: 100%;
+  min-height: 3rem;
+  margin: 1rem 0;
+  padding: 0.6rem 1rem;
+  border: 2px solid var(--ap-ink);
+  border-radius: var(--ap-radius);
+  background: var(--ap-vest);
+  color: var(--ap-ink);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.directory__more:hover {
+  background: var(--ap-ink);
+  color: var(--ap-vest);
+}
+
+.directory__more:focus-visible {
+  outline: 3px solid var(--ap-ink);
+  outline-offset: 2px;
+}
+
+@media print {
+  .directory__more,
+  .directory__categories {
+    display: none;
+  }
 }
 
 .directory__tags,
