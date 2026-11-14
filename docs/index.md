@@ -33,6 +33,10 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     Il ne constitue ni un conseil juridique personnalisé, ni une incitation à des actes illégaux, à des dégradations ou à des violences. Vérifiez toujours les informations auprès des sources officielles.
 
+!!! info "Qui finance ce site ?"
+
+    Personne d'extérieur : aucun financement, ni publicité, ni don, ni subvention. Les frais de fonctionnement (surtout le nom de domaine) sont payés par l'éditeur. [Détails dans les mentions légales](mentions-legales/index.md#financement-et-independance).
+
 <div class="grid cards" markdown="1">
 
 - **Annuaire** [:material-magnify:](annuaire/index.md){ aria-label="Annuaire" }

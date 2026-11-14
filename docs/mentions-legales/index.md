@@ -21,6 +21,10 @@ Pour toute demande légitime (exercice d'un droit de retrait, signalement d'un c
 
 GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — service **GitHub Pages**.[^github-hq]
 
+## Financement et indépendance
+
+Ce site ne reçoit **aucun financement extérieur** : ni subvention, ni publicité, ni don, ni partenariat commercial. Les frais de fonctionnement, surtout le nom de domaine, sont payés par l'éditeur (l'hébergement lui-même est assuré par GitHub Pages, voir ci-dessus). Personne ne tire de revenu du site, et il ne dépend d'aucun parti, syndicat, média ou entreprise.
+
 ## Données personnelles et confidentialité
 
 - **Aucune mesure d'audience, aucun traceur, aucun compte.** Le site n'utilise ni cookie publicitaire ni outil de statistiques.

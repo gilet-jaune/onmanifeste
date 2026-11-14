@@ -34,6 +34,10 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     It does not constitute personalized legal advice, nor does it encourage or incite illegal acts, property damage, or violence. Always check information against official sources.
 
+!!! info "Who funds this site?"
+
+    Nobody outside: no funding, no advertising, no donations, no grants. The running costs (mainly the domain name) are paid by the publisher. [Details in the legal notice](mentions-legales/index.md#funding-and-independence).
+
 <div class="grid cards" markdown="1">
 
 - **Directory** [:material-magnify:](annuaire/index.md){ aria-label="Directory" }
