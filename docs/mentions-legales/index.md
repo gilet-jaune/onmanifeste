@@ -23,7 +23,7 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-U
 
 ## Financement et indépendance
 
-Ce site ne reçoit **aucun financement extérieur** : ni subvention, ni publicité, ni don, ni partenariat commercial. Les frais de fonctionnement, surtout le nom de domaine, sont payés par l'éditeur (l'hébergement lui-même est assuré par GitHub Pages, voir ci-dessus). Personne ne tire de revenu du site, et il ne dépend d'aucun parti, syndicat, média ou entreprise.
+Ce site ne reçoit **aucun financement extérieur** : ni subvention, ni publicité, ni don, ni partenariat commercial. Les frais de fonctionnement sont payés par les éditeurs : surtout le nom de domaine, et un abonnement classique à un outil d'IA (l'hébergement lui-même est assuré par GitHub Pages, voir ci-dessus). Personne ne tire de revenu du site, et il ne dépend d'aucun parti, syndicat, média ou entreprise.
 
 ## Données personnelles et confidentialité
 

@@ -57,7 +57,7 @@ Pour les questions juridiques ou de santé, ne vous fiez pas à ce site seul : a
 
 ## Coût et désaccords possibles
 
-L'IA a un **coût énergétique et matériel**, et plusieurs causes défendues sur ce site, comme l'écologie ou la concentration des pouvoirs économiques, s'y opposent. Nous le reconnaissons : l'usage de l'IA ici est un compromis entre cette critique et la possibilité d'offrir gratuitement une information sourcée et hors ligne. On peut le contester. Si vous le faites, dites-le nous : c'est une discussion légitime.
+L'IA a un **coût énergétique et matériel**, et plusieurs causes défendues sur ce site, comme l'écologie ou la concentration des pouvoirs économiques, s'y opposent. Nous le reconnaissons : l'usage de l'IA ici est un compromis entre cette critique et la possibilité d'offrir gratuitement une information sourcée et hors ligne. On peut le contester. Côté argent, l'outil d'IA est un abonnement classique payé par les éditeurs, sans financement extérieur ([détails](../mentions-legales/index.md#financement-et-independance)). Si vous le faites, dites-le nous : c'est une discussion légitime.
 
 ## Ce qui reste à faire : la relecture humaine
 

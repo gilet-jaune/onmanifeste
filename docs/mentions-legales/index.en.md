@@ -24,7 +24,7 @@ GitHub, Inc. — 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United S
 
 ## Funding and independence
 
-This site receives **no outside funding**: no grant, no advertising, no donation, no commercial partnership. The running costs, mainly the domain name, are paid by the publisher (the hosting itself is provided by GitHub Pages, see above). Nobody earns an income from the site, and it depends on no party, union, media outlet or company.
+This site receives **no outside funding**: no grant, no advertising, no donation, no commercial partnership. The running costs are paid by the publishers: mainly the domain name, and an ordinary subscription to an AI tool (the hosting itself is provided by GitHub Pages, see above). Nobody earns an income from the site, and it depends on no party, union, media outlet or company.
 
 ## Personal data and privacy
 

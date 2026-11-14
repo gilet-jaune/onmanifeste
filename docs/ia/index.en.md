@@ -58,7 +58,7 @@ For legal or health questions, do not rely on this site alone: call a lawyer, a 
 
 ## Cost and possible disagreement
 
-AI has an **energy and hardware cost**, and several causes defended on this site, such as ecology or the concentration of economic power, oppose it. We acknowledge this: using AI here is a compromise between that criticism and the ability to offer free, sourced, offline information. You can challenge it. If you do, tell us: it is a legitimate discussion.
+AI has an **energy and hardware cost**, and several causes defended on this site, such as ecology or the concentration of economic power, oppose it. We acknowledge this: using AI here is a compromise between that criticism and the ability to offer free, sourced, offline information. You can challenge it. As for money, the AI tool is an ordinary subscription paid by the publishers, with no outside funding ([details](../mentions-legales/index.md#funding-and-independence)). If you do, tell us: it is a legitimate discussion.
 
 ## What remains: human review
 

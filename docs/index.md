@@ -35,7 +35,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
 !!! info "Qui finance ce site ?"
 
-    Personne d'extérieur : aucun financement, ni publicité, ni don, ni subvention. Les frais de fonctionnement (surtout le nom de domaine) sont payés par l'éditeur. [Détails dans les mentions légales](mentions-legales/index.md#financement-et-independance).
+    Personne d'extérieur : aucun financement, ni publicité, ni don, ni subvention. Les frais de fonctionnement (le nom de domaine et un abonnement classique à un outil d'IA) sont payés par les éditeurs. [Détails dans les mentions légales](mentions-legales/index.md#financement-et-independance).
 
 <div class="grid cards" markdown="1">
 
