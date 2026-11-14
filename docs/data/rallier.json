@@ -395,7 +395,11 @@
               "fr": "Demandez ce que « valoriser » veut dire pour la personne. Valoriser le travail, c'est aussi le payer correctement et ne pas y laisser sa santé : c'est ce que portent la plupart des mobilisations, menées par des gens qui travaillent. En 2024, 764 salarié·es du régime général sont mort·es d'un accident du travail (Assurance maladie). Les congés payés et la semaine de 40 heures de 1936 ont suivi un mouvement de grèves.",
               "en": "Ask what \"valuing\" work means to the person. Valuing work also means paying it properly and not losing your health to it: that is what most mobilisations stand for, led by people who work. In 2024, 764 employees of the general scheme died in a workplace accident (health insurer). The paid leave and 40-hour week of 1936 followed a wave of strikes."
             },
-            "sources": ["franceinfo-accidents-travail-2024", "an-front-populaire-1936"],
+            "sources": [
+              "vie-publique-accidents-travail-mortels-2024",
+              "franceinfo-accidents-travail-2024",
+              "an-front-populaire-1936"
+            ],
             "link": {
               "guide": "travail",
               "label": {
@@ -494,7 +498,11 @@
               "fr": "Demandez ce que « valoriser » veut dire pour la personne. Valoriser le travail, c'est aussi le payer correctement et ne pas y laisser sa santé : c'est ce que portent la plupart des mobilisations, menées par des gens qui travaillent. En 2024, 764 salarié·es du régime général sont mort·es d'un accident du travail (Assurance maladie). Les congés payés et la semaine de 40 heures de 1936 ont suivi un mouvement de grèves.",
               "en": "Ask what \"valuing\" work means to the person. Valuing work also means paying it properly and not losing your health to it: that is what most mobilisations stand for, led by people who work. In 2024, 764 employees of the general scheme died in a workplace accident (health insurer). The paid leave and 40-hour week of 1936 followed a wave of strikes."
             },
-            "sources": ["franceinfo-accidents-travail-2024", "an-front-populaire-1936"],
+            "sources": [
+              "vie-publique-accidents-travail-mortels-2024",
+              "franceinfo-accidents-travail-2024",
+              "an-front-populaire-1936"
+            ],
             "link": {
               "guide": "travail",
               "label": {
@@ -796,7 +804,11 @@
               "fr": "Demandez ce que « valoriser » veut dire pour la personne. Valoriser le travail, c'est aussi le payer correctement et ne pas y laisser sa santé : c'est ce que portent la plupart des mobilisations, menées par des gens qui travaillent. En 2024, 764 salarié·es du régime général sont mort·es d'un accident du travail (Assurance maladie). Les congés payés et la semaine de 40 heures de 1936 ont suivi un mouvement de grèves.",
               "en": "Ask what \"valuing\" work means to the person. Valuing work also means paying it properly and not losing your health to it: that is what most mobilisations stand for, led by people who work. In 2024, 764 employees of the general scheme died in a workplace accident (health insurer). The paid leave and 40-hour week of 1936 followed a wave of strikes."
             },
-            "sources": ["franceinfo-accidents-travail-2024", "an-front-populaire-1936"],
+            "sources": [
+              "vie-publique-accidents-travail-mortels-2024",
+              "franceinfo-accidents-travail-2024",
+              "an-front-populaire-1936"
+            ],
             "link": {
               "guide": "travail",
               "label": {

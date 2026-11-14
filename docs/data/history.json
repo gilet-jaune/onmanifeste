@@ -107,6 +107,7 @@
         "en": "Storming of the Bastille"
       },
       "kinds": ["soulevement"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille",
       "description": {
         "fr": "Le peuple de Paris prend la forteresse-prison de la Bastille, symbole de l'arbitraire royal. Acte fondateur de la Révolution française, devenu fête nationale.",
@@ -126,6 +127,7 @@
         "en": "Declaration of the Rights of Man and of the Citizen"
       },
       "kinds": ["droit"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/D%C3%A9claration_des_droits_de_l%27homme_et_du_citoyen_de_1789",
       "description": {
         "fr": "Ses articles 10 et 11 garantissent la liberté d'opinion et d'expression ; elle fait toujours partie de la Constitution.",
@@ -189,6 +191,7 @@
         "en": "Paris Commune"
       },
       "kinds": ["soulevement"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Commune_de_Paris",
       "description": {
         "fr": "Paris se gouverne pendant 72 jours ; la « Semaine sanglante » réprime la Commune dans le sang en mai 1871.",
@@ -247,6 +250,7 @@
       },
       "kinds": ["repression"],
       "actors": ["forces-de-l-ordre"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Fusillade_de_Fourmies",
       "description": {
         "fr": "La troupe tire sur une manifestation ouvrière du 1er Mai pour la journée de huit heures : neuf morts, dont des jeunes.",
@@ -323,6 +327,7 @@
         "en": "1935: demonstrations enter the law, subject to prior declaration"
       },
       "kinds": ["securite-libertes"],
+      "highlights": ["histoire"],
       "url": "https://www.vie-publique.fr/fiches/23886-en-quoi-consiste-la-liberte-de-manifestation",
       "description": {
         "fr": "La liberté de manifester est inscrite dans le droit français depuis 1935 : pour prévenir les troubles à l'ordre public, une manifestation doit être déclarée à l'avance, avec son parcours et ses organisateurs. Ce régime de déclaration préalable est le socle sur lequel viendront s'ajouter les textes ultérieurs.",
@@ -435,6 +440,7 @@
       },
       "kinds": ["repression"],
       "actors": ["forces-de-l-ordre", "gouvernement"],
+      "highlights": ["histoire"],
       "url": "https://fr.wikipedia.org/wiki/Massacre_du_17_octobre_1961",
       "description": {
         "fr": "Contre un couvre-feu imposé le 5 octobre aux seuls « Français musulmans d'Algérie », environ 22 000 Algérien·nes manifestent pacifiquement à Paris à l'appel du FLN. Sous l'autorité du préfet de police Maurice Papon, la répression est d'une extrême violence : plus de 11 000 personnes arrêtées, des manifestant·es tué·es par balle ou jeté·es dans la Seine. Le bilan, de 32 à plus de 200 morts selon les sources, reste inconnu ; seuls 3 décès ont été reconnus à l'époque.",
@@ -2865,16 +2871,16 @@
       "natures": ["enquete-parlementaire"],
       "url": "https://www.senat.fr/rap/r23-521/r23-5218.html",
       "description": {
-        "fr": "Le rapport d'information n° 521 de la commission des lois du Sénat (rapporteur : François-Noël Buffet, 77 personnes entendues en 27 auditions) retient pour la période du 27 juin au 7 juillet 2023 : 672 communes touchées, environ 50 000 émeutier·es estimé·es, 45 000 membres des forces de l'ordre mobilisés, 4 282 gardes à vue, 2 décès et plus de 1 000 blessés dont 782 parmi les forces de l'ordre, 12 031 véhicules et 2 508 bâtiments incendiés ou dégradés, et près d'un milliard d'euros de dommages aux biens. Il voit dans la mort de Nahel Merzouk l'élément déclencheur d'un mouvement sans revendications identifiées, qui ne procédait pas d'une volonté d'action politique nationale, et note l'isolement des quartiers défavorisés. Ses 25 propositions portent surtout sur le maintien de l'ordre (formation, équipement), les mortiers d'artifice, les réseaux sociaux (dont l'état d'urgence), les polices municipales, la réponse judiciaire et l'assurance. Ce sont des chiffres de l'institution et non des constats indépendants ; nous n'avons lu qu'une partie du rapport et n'y avons pas trouvé de bilan judiciaire.",
-        "en": "Information report no. 521 of the Senate's law committee (rapporteur: François-Noël Buffet, 77 people heard in 27 hearings) records for 27 June to 7 July 2023: 672 municipalities affected, about 50,000 estimated rioters, 45,000 law enforcement personnel mobilised, 4,282 police custodies, 2 deaths and over 1,000 injured including 782 law enforcement officers, 12,031 vehicles and 2,508 buildings burned or damaged, and nearly one billion euros of property damage. It sees Nahel Merzouk's death as the trigger of a movement with no identified demands, not driven by a national political agenda, and notes the isolation of disadvantaged neighbourhoods. Its 25 proposals mainly concern riot policing (training, equipment), fireworks mortars, social networks (including the state of emergency), municipal police, the judicial response and insurance. These are the institution's figures, not independent findings; we read only part of the report and found no judicial toll in it."
+        "fr": "Le rapport d'information n° 521 de la commission des lois du Sénat (rapporteur : François-Noël Buffet, 77 personnes entendues en 27 auditions) retient pour l'été 2023 (période du 27 juin au 7 juillet, sauf les gardes à vue : jusqu'au 10 juillet) : 672 communes touchées, environ 50 000 émeutier·es estimé·es, 45 000 membres des forces de l'ordre mobilisés, 4 282 gardes à vue, 2 décès et plus de 1 000 blessés dont 782 parmi les forces de l'ordre, 12 031 véhicules et 2 508 bâtiments incendiés ou dégradés, et près d'un milliard d'euros de dommages aux biens. Il voit dans la mort de Nahel Merzouk l'élément déclencheur d'un mouvement sans revendications identifiées, qui ne procédait pas d'une volonté d'action politique nationale, et note l'isolement des quartiers défavorisés. Ses 25 propositions portent surtout sur le maintien de l'ordre (formation, équipement), les mortiers d'artifice, les réseaux sociaux (dont l'état d'urgence), les polices municipales, la réponse judiciaire et l'assurance. Ce sont des chiffres de l'institution et non des constats indépendants. Le ministère de la Justice compte de son côté 4 481 gardes à vue du 27 juin au 7 juillet (dont 1 319 mineur·es) et, pour les infractions commises sur cette période et les jugements rendus jusqu'au 30 septembre 2023, 1 863 personnes condamnées à une peine, dont 1 530 à de l'emprisonnement (82 %) ; ces chiffres viennent d'une réponse à une question écrite (5 décembre 2023), fondée sur des remontées non exhaustives des parquets. Les périmètres et les dates diffèrent : les deux séries de gardes à vue ne se comparent pas.",
+        "en": "Information report no. 521 of the Senate's law committee (rapporteur: François-Noël Buffet, 77 people heard in 27 hearings) records for summer 2023 (27 June to 7 July, except police custody: up to 10 July): 672 municipalities affected, about 50,000 estimated rioters, 45,000 law enforcement personnel mobilised, 4,282 police custodies, 2 deaths and over 1,000 injured including 782 law enforcement officers, 12,031 vehicles and 2,508 buildings burned or damaged, and nearly one billion euros of property damage. It sees Nahel Merzouk's death as the trigger of a movement with no identified demands, not driven by a national political agenda, and notes the isolation of disadvantaged neighbourhoods. Its 25 proposals mainly concern riot policing (training, equipment), fireworks mortars, social networks (including the state of emergency), municipal police, the judicial response and insurance. These are the institution's figures, not independent findings. The Ministry of Justice counts, for its part, 4,481 police custodies from 27 June to 7 July (including 1,319 minors) and, for offences committed in that period and judgments delivered up to 30 September 2023, 1,863 people given a sentence, 1,530 of them prison (82%); these figures come from an answer to a written question (5 December 2023), based on non-exhaustive reports from prosecutors. Scopes and dates differ: the two custody series cannot be compared."
       },
       "summary": {
-        "fr": "Le Sénat chiffre les émeutes du 27 juin au 7 juillet 2023 (2 décès, plus de 1 000 blessés, 4 282 gardes à vue, près d'un milliard d'euros de dégâts) et formule 25 propositions.",
-        "en": "The Senate tallies the 27 June-7 July 2023 riots (2 deaths, over 1,000 injured, 4,282 police custodies, nearly €1bn of damage) and makes 25 proposals."
+        "fr": "Le Sénat chiffre les émeutes de l'été 2023 (2 décès, plus de 1 000 blessés, 4 282 gardes à vue, près d'un milliard d'euros de dégâts) et formule 25 propositions.",
+        "en": "The Senate tallies the summer 2023 riots (2 deaths, over 1,000 injured, 4,282 police custodies, nearly €1bn of damage) and makes 25 proposals."
       },
-      "evidence": ["senat-rapport-emeutes-juin-2023"],
+      "evidence": ["senat-rapport-emeutes-juin-2023", "an-qe-11587-violences-urbaines-2023"],
       "check": {
-        "date": "2026-11-12",
+        "date": "2026-11-14",
         "result": "confirmed",
         "by": "ai"
       }

@@ -8306,6 +8306,30 @@
         "result": "confirmed",
         "by": "ai"
       }
+    },
+    "an-qe-11587-violences-urbaines-2023": {
+      "title": {
+        "fr": "Assemblée nationale — Question écrite n° 11587 : violences urbaines du 27 juin au 18 juillet 2023 (réponse du ministère de la Justice, 5 décembre 2023)",
+        "en": "National Assembly — Written question no. 11587: urban violence from 27 June to 18 July 2023 (Ministry of Justice answer, 5 December 2023; in French)"
+      },
+      "url": "https://www.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE11587",
+      "check": {
+        "date": "2026-11-14",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "vie-publique-accidents-travail-mortels-2024": {
+      "title": {
+        "fr": "Vie-publique.fr — Accidents du travail mortels : 764 décès en 2024",
+        "en": "Vie-publique.fr — Fatal workplace accidents: 764 deaths in 2024 (in French)"
+      },
+      "url": "https://www.vie-publique.fr/en-bref/301137-accidents-du-travail-mortels-764-deces-en-2024",
+      "check": {
+        "date": "2026-11-14",
+        "result": "confirmed",
+        "by": "ai"
+      }
     }
   }
 }

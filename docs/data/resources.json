@@ -3802,10 +3802,10 @@
         }
       ],
       "check": {
-        "date": "2026-11-13",
+        "date": "2026-11-14",
         "result": "unconfirmed",
         "by": "ai",
-        "note": "Éditeur anonyme (personne physique non professionnelle, hébergée chez Cloudflare), site récent en version bêta, contenus non relus par des juristes selon le site. Page d'accueil et mentions légales relues le 13/11/2026 : déclarations sur le financement, l'absence de cookie et la mesure d'audience anonyme non vérifiées ; scripts et requêtes réseau non inspectés. Vérifier les sources citées avant de reprendre un fait."
+        "note": "Éditeur anonyme (personne physique non professionnelle selon les mentions légales ; « citoyen·ne·s bénévoles » selon la section À propos), hébergé chez Cloudflare, site récent en version bêta, non relu par des juristes ni des chercheurs selon lui. Relu le 14/11/2026 : licence CC BY-SA 4.0 pour les textes, absence de cookie et mesure d'audience maison anonyme (sans cookie, sans identifiant, 25 mois au plus) confirmées comme DÉCLARATIONS du site ; code non publié, version française seulement. Le « calendrier électoral » et les relais coordonnés cités dans la description n'ont pas été revus dans cette lecture ; scripts et requêtes réseau non inspectés. Vérifier les sources citées avant de reprendre un fait."
       }
     },
     {
