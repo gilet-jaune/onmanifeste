@@ -36,17 +36,18 @@ Chiffres du rapport d'activité 2025 de la HATVP :
 
 ## Les limites, selon son président et la Cour des comptes
 
-Dans son bilan du 28 mai 2026, le président de la HATVP propose notamment un pouvoir d'injonction sous astreinte puis une sanction pécuniaire en cas de défaut de déclaration : selon lui, la Haute Autorité ne peut aujourd'hui qu'adresser un signalement à la justice, au-delà des relances et injonctions de déposer qu'elle envoie déjà. Il relève aussi que les déclarations de patrimoine des parlementaires, consultables seulement en préfecture, le sont une vingtaine de fois par an en moyenne.[^lcp-hatvp-rapport-2025]
+Deux constats sur les limites du contrôle, attribués à leurs auteurs :
 
-Sur le pantouflage, un rapport de la Cour des comptes de mai 2025 cité par LCP juge le suivi des réserves insuffisant et leur méconnaissance en partie laissée sans sanction.[^lcp-hatvp-rapport-2025] Nous n'avons pas lu ce rapport à la source.
+| Qui | Constat |
+| --- | --- |
+| Président de la HATVP (bilan du 28 mai 2026) | Propose un pouvoir d'injonction sous astreinte puis une sanction pécuniaire en cas de défaut de déclaration : selon lui, la Haute Autorité ne peut aujourd'hui qu'adresser un signalement à la justice, au-delà des relances et injonctions de déposer qu'elle envoie déjà. Il relève aussi que les déclarations de patrimoine des parlementaires, consultables seulement en préfecture, le sont une vingtaine de fois par an en moyenne.[^lcp-hatvp-rapport-2025] |
+| Cour des comptes (rapport de mai 2025, cité par LCP) | Sur le pantouflage, juge le suivi des réserves insuffisant et leur méconnaissance en partie laissée sans sanction.[^lcp-hatvp-rapport-2025] Nous n'avons pas lu ce rapport à la source. |
 
 ## Ce que juge le Conseil d'État (29 octobre 2026)
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
 {{ h.timeline('fr', only=['aucun'], also=['2026-conseil-d-etat-hatvp-conflits-d-interets-et-pantouflage']) }}
-
-En résumé : la HATVP doit apprécier l'ensemble des intérêts détenus par un ministre pendant les cinq années précédant sa nomination, mais **ne peut pas se prononcer sur un risque pénal**, réservé au juge pénal.[^conseil-etat-hatvp-conflits-interets-2026]
 
 ## Cas 1 : les cabinets de conseil et McKinsey
 

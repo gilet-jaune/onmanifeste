@@ -37,17 +37,18 @@ Figures from the HATVP's 2025 activity report:
 
 ## The limits, according to its president and the Court of Audit
 
-In his 28 May 2026 review, the HATVP's president proposes in particular a power of injunction with periodic penalties and then a financial sanction in case of failure to file: according to him, the High Authority can today only report to the courts, beyond the reminders and injunctions to file that it already sends. He also notes that parliamentarians' asset declarations, which can be consulted only at the prefecture, are consulted about twenty times a year on average.[^lcp-hatvp-rapport-2025]
+Two findings on the limits of oversight, attributed to their authors:
 
-On revolving doors, a May 2025 Court of Audit report cited by LCP finds that follow-up of the reservations is insufficient and that breaches of them are partly left unpunished.[^lcp-hatvp-rapport-2025] We have not read that report at source.
+| Who | Finding |
+| --- | --- |
+| HATVP president (28 May 2026 review) | Proposes a power of injunction with periodic penalties and then a financial sanction in case of failure to file: according to him, the High Authority can today only report to the courts, beyond the reminders and injunctions to file that it already sends. He also notes that parliamentarians' asset declarations, which can be consulted only at the prefecture, are consulted about twenty times a year on average.[^lcp-hatvp-rapport-2025] |
+| Court of Audit (May 2025 report, cited by LCP) | On revolving doors, finds that follow-up of the reservations is insufficient and that breaches of them are partly left unpunished.[^lcp-hatvp-rapport-2025] We have not read that report at source. |
 
 ## What the Conseil d'État rules (29 October 2026)
 
 {% import "overrides/partials/history-timeline.html" as h with context %}
 
 {{ h.timeline('en', only=['aucun'], also=['2026-conseil-d-etat-hatvp-conflits-d-interets-et-pantouflage']) }}
-
-In short: the HATVP must assess all the interests a minister held during the five years before appointment, but **cannot rule on criminal risk**, which is reserved to the criminal judge.[^conseil-etat-hatvp-conflits-interets-2026]
 
 ## Case 1: consulting firms and McKinsey
 
