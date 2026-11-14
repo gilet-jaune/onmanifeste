@@ -1611,6 +1611,67 @@ select:focus-visible {
   }
 }
 
+/* Wide screens: the header and the page grid are a little wider than Material's default (61rem). */
+@media screen and (min-width: 100em) {
+  .md-grid {
+    max-width: 68rem;
+  }
+}
+
+/* Touch targets (WCAG 2.2: at least 24 px): the looks stay, the hit area grows. */
+.md-typeset .timeline__permalink {
+  display: inline-block;
+  padding: 0.45em 0.6em;
+  margin: -0.45em -0.3em;
+}
+
+/* The icon link next to a card title: a bigger hit area, same looks. */
+.md-typeset .grid.cards > ul > li > p:first-child > a {
+  display: inline-block;
+  padding: 0.35rem;
+  margin: -0.35rem;
+}
+
+@media screen and (max-width: 44.9375em) {
+  .md-typeset .headerlink {
+    display: inline-block;
+    min-width: 1.5rem;
+    text-align: center;
+  }
+
+  .md-footer-love a,
+  .md-footer-love .md-copyright a {
+    display: inline-block;
+    padding: 0.5rem 0.15rem;
+  }
+
+  /* The offline status pill: its box is the hit area, the pill itself is drawn by ::before. */
+  .md-header__option.pwa-status {
+    position: relative;
+    isolation: isolate;
+    min-height: 2.4rem;
+    padding: 0.55rem 0.75rem;
+    margin: 0 -0.2rem;
+    background: transparent !important;
+    border-color: transparent !important;
+  }
+
+  .md-header__option.pwa-status::before {
+    content: '';
+    position: absolute;
+    inset: 0.55rem 0.3rem;
+    z-index: -1;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+    border-radius: 9999px;
+    background: rgba(0, 0, 0, 0.08);
+  }
+
+  .md-header__option.pwa-status.pwa-status--offline::before {
+    border-color: var(--ap-ink);
+    background: var(--ap-ink);
+  }
+}
+
 /* ==========================================================================
    Install suggestion: small card at the bottom of the screen (docs/javascripts/pwa.js)
    Shown now and then, never over emergency pages; closing it snoozes it for 14 days.

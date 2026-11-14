@@ -4,7 +4,7 @@ the lists of the three section pages. `up` is the relative path from the calling
 {%- macro cards(lang, section, up) -%}
 <div class="grid cards" markdown="1">
 {% for it in dossiers[section]['items'] %}
-- **{{ it.title[lang] }}** [:{{ it.icon }}:]({{ up }}/{{ it.page }})
+- **{{ it.title[lang] }}** [:{{ it.icon }}:]({{ up }}/{{ it.page }}){ aria-label="{{ it.title[lang] | replace('"', '&quot;') }}" }
 
     ***
 

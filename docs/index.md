@@ -35,7 +35,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
 <div class="grid cards" markdown="1">
 
-- **Annuaire** [:material-magnify:](annuaire/index.md)
+- **Annuaire** [:material-magnify:](annuaire/index.md){ aria-label="Annuaire" }
 
     ***
 
@@ -43,7 +43,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Chercher un outil](annuaire/index.md)
 
-- **Guides** [:material-lightning-bolt:](guides/index.md)
+- **Guides** [:material-lightning-bolt:](guides/index.md){ aria-label="Guides" }
 
     ***
 
@@ -51,7 +51,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Lire les guides](guides/index.md)
 
-- **Comprendre : histoire, médias, budget et élu·es** [:material-book-open-page-variant:](comprendre/index.md)
+- **Comprendre : histoire, médias, budget et élu·es** [:material-book-open-page-variant:](comprendre/index.md){ aria-label="Comprendre : histoire, médias, budget et élu·es" }
 
     ***
 
@@ -59,7 +59,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Comprendre les enjeux](comprendre/index.md)
 
-- **Répressions et démentis** [:material-file-document-alert:](repressions/index.md)
+- **Répressions et démentis** [:material-file-document-alert:](repressions/index.md){ aria-label="Répressions et démentis" }
 
     ***
 
@@ -67,7 +67,7 @@ Une liste collaborative d'**outils et de ressources utiles pour manifester en Fr
 
     [:octicons-arrow-right-24: Voir les cas](repressions/index.md)
 
-- **Contribuer** [:material-source-pull:](contribuer/index.md)
+- **Contribuer** [:material-source-pull:](contribuer/index.md){ aria-label="Contribuer" }
 
     ***
 

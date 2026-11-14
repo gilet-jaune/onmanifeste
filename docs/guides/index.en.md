@@ -22,7 +22,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
 <div class="grid cards" markdown="1">
 
-- **Pre-protest checklist** [:material-clipboard-check:](avant-de-partir.md)
+- **Pre-protest checklist** [:material-clipboard-check:](avant-de-partir.md){ aria-label="Pre-protest checklist" }
 
     ***
 
@@ -30,7 +30,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](avant-de-partir.md)
 
-- **The right to protest** [:material-scale-balance:](droit-de-manifester.md)
+- **The right to protest** [:material-scale-balance:](droit-de-manifester.md){ aria-label="The right to protest" }
 
     ***
 
@@ -38,7 +38,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](droit-de-manifester.md)
 
-- **What the law forbids at a protest** [:material-gavel:](risques-penaux.md)
+- **What the law forbids at a protest** [:material-gavel:](risques-penaux.md){ aria-label="What the law forbids at a protest" }
 
     ***
 
@@ -46,7 +46,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](risques-penaux.md)
 
-- **Why property gets smashed at protests** [:material-comment-question:](casse.md)
+- **Why property gets smashed at protests** [:material-comment-question:](casse.md){ aria-label="Why property gets smashed at protests" }
 
     ***
 
@@ -54,7 +54,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](casse.md)
 
-- **Protest kit and outfit** [:material-bag-personal:](kit-manif.md)
+- **Protest kit and outfit** [:material-bag-personal:](kit-manif.md){ aria-label="Protest kit and outfit" }
 
     ***
 
@@ -62,7 +62,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](kit-manif.md)
 
-- **Signs, banners, flags and leaflets** [:material-sign-text:](faire-sa-pancarte.md)
+- **Signs, banners, flags and leaflets** [:material-sign-text:](faire-sa-pancarte.md){ aria-label="Signs, banners, flags and leaflets" }
 
     ***
 
@@ -70,7 +70,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](faire-sa-pancarte.md)
 
-- **Getting there and back** [:material-bicycle:](venir-repartir.md)
+- **Getting there and back** [:material-bicycle:](venir-repartir.md){ aria-label="Getting there and back" }
 
     ***
 
@@ -78,7 +78,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](venir-repartir.md)
 
-- **Communicating at a protest** [:material-radio-tower:](communiquer.md)
+- **Communicating at a protest** [:material-radio-tower:](communiquer.md){ aria-label="Communicating at a protest" }
 
     ***
 
@@ -86,7 +86,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](communiquer.md)
 
-- **Phone: emergency lock, passcode and seizure** [:material-cellphone-lock:](telephone.md)
+- **Phone: emergency lock, passcode and seizure** [:material-cellphone-lock:](telephone.md){ aria-label="Phone: emergency lock, passcode and seizure" }
 
     ***
 
@@ -94,7 +94,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](telephone.md)
 
-- **Never stay alone** [:material-account-group:](ne-pas-rester-seul.md)
+- **Never stay alone** [:material-account-group:](ne-pas-rester-seul.md){ aria-label="Never stay alone" }
 
     ***
 
@@ -108,7 +108,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
 <div class="grid cards" markdown="1">
 
-- **Dispersal, warnings and kettling** [:material-run-fast:](dispersion.md)
+- **Dispersal, warnings and kettling** [:material-run-fast:](dispersion.md){ aria-label="Dispersal, warnings and kettling" }
 
     ***
 
@@ -116,7 +116,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](dispersion.md)
 
-- **ID checks, bag searches and fines** [:material-badge-account-horizontal:](controle-fouille.md)
+- **ID checks, bag searches and fines** [:material-badge-account-horizontal:](controle-fouille.md){ aria-label="ID checks, bag searches and fines" }
 
     ***
 
@@ -124,7 +124,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](controle-fouille.md)
 
-- **First aid** [:material-medical-bag:](premiers-secours.md)
+- **First aid** [:material-medical-bag:](premiers-secours.md){ aria-label="First aid" }
 
     ***
 
@@ -132,7 +132,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](premiers-secours.md)
 
-- **Police weapons: effects, injuries and debris** [:material-shield-search:](armes-police.md)
+- **Police weapons: effects, injuries and debris** [:material-shield-search:](armes-police.md){ aria-label="Police weapons: effects, injuries and debris" }
 
     ***
 
@@ -140,7 +140,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](armes-police.md)
 
-- **Film the police** [:material-video:](filmer.md)
+- **Film the police** [:material-video:](filmer.md){ aria-label="Film the police" }
 
     ***
 
@@ -148,7 +148,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](filmer.md)
 
-- **Far-right attacks** [:material-shield-alert:](extreme-droite.md)
+- **Far-right attacks** [:material-shield-alert:](extreme-droite.md){ aria-label="Far-right attacks" }
 
     ***
 
@@ -162,7 +162,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
 <div class="grid cards" markdown="1">
 
-- **DNA, fingerprints and photos in police custody** [:material-fingerprint:](adn-signalisation.md)
+- **DNA, fingerprints and photos in police custody** [:material-fingerprint:](adn-signalisation.md){ aria-label="DNA, fingerprints and photos in police custody" }
 
     ***
 
@@ -170,7 +170,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](adn-signalisation.md)
 
-- **Police custody** [:material-scale-balance:](garde-a-vue.md)
+- **Police custody** [:material-scale-balance:](garde-a-vue.md){ aria-label="Police custody" }
 
     ***
 
@@ -178,7 +178,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](garde-a-vue.md)
 
-- **Filing a complaint, voluntary interview and trial** [:material-gavel:](suites-judiciaires.md)
+- **Filing a complaint, voluntary interview and trial** [:material-gavel:](suites-judiciaires.md){ aria-label="Filing a complaint, voluntary interview and trial" }
 
     ***
 
@@ -186,7 +186,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](suites-judiciaires.md)
 
-- **Emotional shock, anxiety and mental health** [:material-heart-pulse:](sante-mentale.md)
+- **Emotional shock, anxiety and mental health** [:material-heart-pulse:](sante-mentale.md){ aria-label="Emotional shock, anxiety and mental health" }
 
     ***
 
@@ -194,7 +194,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](sante-mentale.md)
 
-- **Sexist violence and online harassment** [:material-hand-back-left-off:](violences-harcelement.md)
+- **Sexist violence and online harassment** [:material-hand-back-left-off:](violences-harcelement.md){ aria-label="Sexist violence and online harassment" }
 
     ***
 
@@ -208,7 +208,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
 <div class="grid cards" markdown="1">
 
-- **High-school students: blockades, absences, sanctions** [:material-school:](lyceens.md)
+- **High-school students: blockades, absences, sanctions** [:material-school:](lyceens.md){ aria-label="High-school students: blockades, absences, sanctions" }
 
     ***
 
@@ -216,7 +216,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](lyceens.md)
 
-- **Strikes, protests and work** [:material-briefcase:](travail.md)
+- **Strikes, protests and work** [:material-briefcase:](travail.md){ aria-label="Strikes, protests and work" }
 
     ***
 
@@ -224,7 +224,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](travail.md)
 
-- **Protesting without French nationality** [:material-passport:](etrangers.md)
+- **Protesting without French nationality** [:material-passport:](etrangers.md){ aria-label="Protesting without French nationality" }
 
     ***
 
@@ -232,7 +232,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](etrangers.md)
 
-- **Protesting without being in the heart of the march** [:material-account-multiple-outline:](hors-du-coeur-du-cortege.md)
+- **Protesting without being in the heart of the march** [:material-account-multiple-outline:](hors-du-coeur-du-cortege.md){ aria-label="Protesting without being in the heart of the march" }
 
     ***
 
@@ -240,7 +240,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](hors-du-coeur-du-cortege.md)
 
-- **Disability or chronic condition** [:material-wheelchair-accessibility:](handicap.md)
+- **Disability or chronic condition** [:material-wheelchair-accessibility:](handicap.md){ aria-label="Disability or chronic condition" }
 
     ***
 
@@ -254,7 +254,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
 <div class="grid cards" markdown="1">
 
-- **Organising a protest** [:material-bullhorn:](organiser.md)
+- **Organising a protest** [:material-bullhorn:](organiser.md){ aria-label="Organising a protest" }
 
     ***
 
@@ -262,7 +262,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](organiser.md)
 
-- **Roles in a mobilisation** [:material-account-group-outline:](roles.md)
+- **Roles in a mobilisation** [:material-account-group-outline:](roles.md){ aria-label="Roles in a mobilisation" }
 
     ***
 
@@ -270,7 +270,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](roles.md)
 
-- **Supporting without going to protests** [:material-hand-heart:](soutenir-a-distance.md)
+- **Supporting without going to protests** [:material-hand-heart:](soutenir-a-distance.md){ aria-label="Supporting without going to protests" }
 
     ***
 
@@ -278,7 +278,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](soutenir-a-distance.md)
 
-- **Signal groups: organising while limiting leaks** [:material-account-group:](groupes-signal.md)
+- **Signal groups: organising while limiting leaks** [:material-account-group:](groupes-signal.md){ aria-label="Signal groups: organising while limiting leaks" }
 
     ***
 
@@ -286,7 +286,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](groupes-signal.md)
 
-- **The Palestinian flag at protests** [:material-flag:](drapeau-palestinien.md)
+- **The Palestinian flag at protests** [:material-flag:](drapeau-palestinien.md){ aria-label="The Palestinian flag at protests" }
 
     ***
 
@@ -294,7 +294,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](drapeau-palestinien.md)
 
-- **Social media: don't feed hate** [:material-account-cancel:](reseaux-sociaux.md)
+- **Social media: don't feed hate** [:material-account-cancel:](reseaux-sociaux.md){ aria-label="Social media: don't feed hate" }
 
     ***
 
@@ -302,7 +302,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](reseaux-sociaux.md)
 
-- **Talking to the press at a protest** [:material-microphone:](parler-a-la-presse.md)
+- **Talking to the press at a protest** [:material-microphone:](parler-a-la-presse.md){ aria-label="Talking to the press at a protest" }
 
     ***
 
@@ -310,7 +310,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](parler-a-la-presse.md)
 
-- **Photographing and filming for the press** [:material-camera:](photographier-pour-la-presse.md)
+- **Photographing and filming for the press** [:material-camera:](photographier-pour-la-presse.md){ aria-label="Photographing and filming for the press" }
 
     ***
 
@@ -318,13 +318,13 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](photographier-pour-la-presse.md)
 
-- **Check a story and avoid disinformation** [:material-magnify-scan:](desinformation.md)
+- **Check a story and avoid disinformation** [:material-magnify-scan:](desinformation.md){ aria-label="Check a story and avoid disinformation" }
 
     ***
 
     Check a story, an image or a toll; write a short, sourced debunk.
 
-- **Talk to your loved ones** [:material-forum:](convaincre-ses-proches.md)
+- **Talk to your loved ones** [:material-forum:](convaincre-ses-proches.md){ aria-label="Talk to your loved ones" }
 
     ***
 
@@ -332,7 +332,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](convaincre-ses-proches.md)
 
-- **Protest songs** [:material-music:](chants.md)
+- **Protest songs** [:material-music:](chants.md){ aria-label="Protest songs" }
 
     ***
 
@@ -340,7 +340,7 @@ Guides to read before you go, **available offline** once the site has been opene
 
     [:octicons-arrow-right-24: Read](chants.md)
 
-- **Stay informed, get trained** [:material-school:](s-informer-se-former.md)
+- **Stay informed, get trained** [:material-school:](s-informer-se-former.md){ aria-label="Stay informed, get trained" }
 
     ***
 

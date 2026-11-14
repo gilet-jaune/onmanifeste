@@ -36,7 +36,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
 <div class="grid cards" markdown="1">
 
-- **Directory** [:material-magnify:](annuaire/index.md)
+- **Directory** [:material-magnify:](annuaire/index.md){ aria-label="Directory" }
 
     ***
 
@@ -44,7 +44,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     [:octicons-arrow-right-24: Find a tool](annuaire/index.md)
 
-- **Guides** [:material-lightning-bolt:](guides/index.md)
+- **Guides** [:material-lightning-bolt:](guides/index.md){ aria-label="Guides" }
 
     ***
 
@@ -52,7 +52,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     [:octicons-arrow-right-24: Read the guides](guides/index.md)
 
-- **Understand: history, media, public finances and elected officials** [:material-book-open-page-variant:](comprendre/index.md)
+- **Understand: history, media, public finances and elected officials** [:material-book-open-page-variant:](comprendre/index.md){ aria-label="Understand: history, media, public finances and elected officials" }
 
     ***
 
@@ -60,7 +60,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     [:octicons-arrow-right-24: Understand the issues](comprendre/index.md)
 
-- **Repression and debunked claims** [:material-file-document-alert:](repressions/index.md)
+- **Repression and debunked claims** [:material-file-document-alert:](repressions/index.md){ aria-label="Repression and debunked claims" }
 
     ***
 
@@ -68,7 +68,7 @@ A collaborative collection of **tools and resources for protesting in France**: 
 
     [:octicons-arrow-right-24: See the cases](repressions/index.md)
 
-- **Contributing** [:material-source-pull:](contribuer/index.md)
+- **Contributing** [:material-source-pull:](contribuer/index.md){ aria-label="Contributing" }
 
     ***
 

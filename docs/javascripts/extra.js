@@ -5,6 +5,16 @@
 const EXTRA_RESOURCES_URL = new URL('../data/resources.json', document.currentScript.src);
 const EXTRA_SITE_ROOT_URL = new URL('../', document.currentScript.src);
 
+// Material's search panel is a dialog without a name: give it one (accessibility).
+(function nameSearchDialog() {
+  const run = () =>
+    document
+      .querySelector('.md-search[role="dialog"]')
+      ?.setAttribute('aria-label', document.documentElement.lang === 'en' ? 'Search' : 'Recherche');
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);
+  else run();
+})();
+
 document.addEventListener('DOMContentLoaded', function () {
   // Select all permalinks
   const headerLinks = document.querySelectorAll('.headerlink');

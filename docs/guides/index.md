@@ -21,7 +21,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
 <div class="grid cards" markdown="1">
 
-- **Checklist avant la manif** [:material-clipboard-check:](avant-de-partir.md)
+- **Checklist avant la manif** [:material-clipboard-check:](avant-de-partir.md){ aria-label="Checklist avant la manif" }
 
     ***
 
@@ -29,7 +29,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](avant-de-partir.md)
 
-- **Le droit de manifester** [:material-scale-balance:](droit-de-manifester.md)
+- **Le droit de manifester** [:material-scale-balance:](droit-de-manifester.md){ aria-label="Le droit de manifester" }
 
     ***
 
@@ -37,7 +37,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](droit-de-manifester.md)
 
-- **Ce que la loi interdit en manifestation** [:material-gavel:](risques-penaux.md)
+- **Ce que la loi interdit en manifestation** [:material-gavel:](risques-penaux.md){ aria-label="Ce que la loi interdit en manifestation" }
 
     ***
 
@@ -45,7 +45,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](risques-penaux.md)
 
-- **Pourquoi ça casse en manif ?** [:material-comment-question:](casse.md)
+- **Pourquoi ça casse en manif ?** [:material-comment-question:](casse.md){ aria-label="Pourquoi ça casse en manif ?" }
 
     ***
 
@@ -53,7 +53,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](casse.md)
 
-- **Kit et tenue de manif** [:material-bag-personal:](kit-manif.md)
+- **Kit et tenue de manif** [:material-bag-personal:](kit-manif.md){ aria-label="Kit et tenue de manif" }
 
     ***
 
@@ -61,7 +61,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](kit-manif.md)
 
-- **Pancartes, banderoles, drapeaux et tracts** [:material-sign-text:](faire-sa-pancarte.md)
+- **Pancartes, banderoles, drapeaux et tracts** [:material-sign-text:](faire-sa-pancarte.md){ aria-label="Pancartes, banderoles, drapeaux et tracts" }
 
     ***
 
@@ -69,7 +69,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](faire-sa-pancarte.md)
 
-- **Venir et repartir** [:material-bicycle:](venir-repartir.md)
+- **Venir et repartir** [:material-bicycle:](venir-repartir.md){ aria-label="Venir et repartir" }
 
     ***
 
@@ -77,7 +77,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](venir-repartir.md)
 
-- **Communiquer pendant une manif** [:material-radio-tower:](communiquer.md)
+- **Communiquer pendant une manif** [:material-radio-tower:](communiquer.md){ aria-label="Communiquer pendant une manif" }
 
     ***
 
@@ -85,7 +85,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](communiquer.md)
 
-- **Téléphone : verrouillage, code et saisie** [:material-cellphone-lock:](telephone.md)
+- **Téléphone : verrouillage, code et saisie** [:material-cellphone-lock:](telephone.md){ aria-label="Téléphone : verrouillage, code et saisie" }
 
     ***
 
@@ -93,7 +93,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](telephone.md)
 
-- **Ne jamais rester seul·e** [:material-account-group:](ne-pas-rester-seul.md)
+- **Ne jamais rester seul·e** [:material-account-group:](ne-pas-rester-seul.md){ aria-label="Ne jamais rester seul·e" }
 
     ***
 
@@ -107,7 +107,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
 <div class="grid cards" markdown="1">
 
-- **Dispersion, sommations et nasse** [:material-run-fast:](dispersion.md)
+- **Dispersion, sommations et nasse** [:material-run-fast:](dispersion.md){ aria-label="Dispersion, sommations et nasse" }
 
     ***
 
@@ -115,7 +115,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](dispersion.md)
 
-- **Contrôle d'identité, fouille de sac et amendes** [:material-badge-account-horizontal:](controle-fouille.md)
+- **Contrôle d'identité, fouille de sac et amendes** [:material-badge-account-horizontal:](controle-fouille.md){ aria-label="Contrôle d'identité, fouille de sac et amendes" }
 
     ***
 
@@ -123,7 +123,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](controle-fouille.md)
 
-- **Premiers secours** [:material-medical-bag:](premiers-secours.md)
+- **Premiers secours** [:material-medical-bag:](premiers-secours.md){ aria-label="Premiers secours" }
 
     ***
 
@@ -131,7 +131,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](premiers-secours.md)
 
-- **Armes de la police : effets, blessures et débris** [:material-shield-search:](armes-police.md)
+- **Armes de la police : effets, blessures et débris** [:material-shield-search:](armes-police.md){ aria-label="Armes de la police : effets, blessures et débris" }
 
     ***
 
@@ -139,7 +139,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](armes-police.md)
 
-- **Filmer les forces de l'ordre** [:material-video:](filmer.md)
+- **Filmer les forces de l'ordre** [:material-video:](filmer.md){ aria-label="Filmer les forces de l'ordre" }
 
     ***
 
@@ -147,7 +147,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](filmer.md)
 
-- **Agressions par l'extrême droite** [:material-shield-alert:](extreme-droite.md)
+- **Agressions par l'extrême droite** [:material-shield-alert:](extreme-droite.md){ aria-label="Agressions par l'extrême droite" }
 
     ***
 
@@ -161,7 +161,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
 <div class="grid cards" markdown="1">
 
-- **ADN, empreintes et photos en garde à vue** [:material-fingerprint:](adn-signalisation.md)
+- **ADN, empreintes et photos en garde à vue** [:material-fingerprint:](adn-signalisation.md){ aria-label="ADN, empreintes et photos en garde à vue" }
 
     ***
 
@@ -169,7 +169,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](adn-signalisation.md)
 
-- **Garde à vue** [:material-scale-balance:](garde-a-vue.md)
+- **Garde à vue** [:material-scale-balance:](garde-a-vue.md){ aria-label="Garde à vue" }
 
     ***
 
@@ -177,7 +177,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](garde-a-vue.md)
 
-- **Porter plainte, audition libre et procès** [:material-gavel:](suites-judiciaires.md)
+- **Porter plainte, audition libre et procès** [:material-gavel:](suites-judiciaires.md){ aria-label="Porter plainte, audition libre et procès" }
 
     ***
 
@@ -185,7 +185,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](suites-judiciaires.md)
 
-- **Choc émotionnel, angoisse et santé mentale** [:material-heart-pulse:](sante-mentale.md)
+- **Choc émotionnel, angoisse et santé mentale** [:material-heart-pulse:](sante-mentale.md){ aria-label="Choc émotionnel, angoisse et santé mentale" }
 
     ***
 
@@ -193,7 +193,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](sante-mentale.md)
 
-- **Violences sexistes et harcèlement en ligne** [:material-hand-back-left-off:](violences-harcelement.md)
+- **Violences sexistes et harcèlement en ligne** [:material-hand-back-left-off:](violences-harcelement.md){ aria-label="Violences sexistes et harcèlement en ligne" }
 
     ***
 
@@ -207,7 +207,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
 <div class="grid cards" markdown="1">
 
-- **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md)
+- **Lycéen·nes : blocus, absences, sanctions** [:material-school:](lyceens.md){ aria-label="Lycéen·nes : blocus, absences, sanctions" }
 
     ***
 
@@ -215,7 +215,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](lyceens.md)
 
-- **Grève, manif et travail** [:material-briefcase:](travail.md)
+- **Grève, manif et travail** [:material-briefcase:](travail.md){ aria-label="Grève, manif et travail" }
 
     ***
 
@@ -223,7 +223,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](travail.md)
 
-- **Manifester sans la nationalité française** [:material-passport:](etrangers.md)
+- **Manifester sans la nationalité française** [:material-passport:](etrangers.md){ aria-label="Manifester sans la nationalité française" }
 
     ***
 
@@ -231,7 +231,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](etrangers.md)
 
-- **Manifester sans être au cœur du cortège** [:material-account-multiple-outline:](hors-du-coeur-du-cortege.md)
+- **Manifester sans être au cœur du cortège** [:material-account-multiple-outline:](hors-du-coeur-du-cortege.md){ aria-label="Manifester sans être au cœur du cortège" }
 
     ***
 
@@ -239,7 +239,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](hors-du-coeur-du-cortege.md)
 
-- **Handicap ou maladie chronique** [:material-wheelchair-accessibility:](handicap.md)
+- **Handicap ou maladie chronique** [:material-wheelchair-accessibility:](handicap.md){ aria-label="Handicap ou maladie chronique" }
 
     ***
 
@@ -253,7 +253,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
 <div class="grid cards" markdown="1">
 
-- **Organiser une manifestation** [:material-bullhorn:](organiser.md)
+- **Organiser une manifestation** [:material-bullhorn:](organiser.md){ aria-label="Organiser une manifestation" }
 
     ***
 
@@ -261,7 +261,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](organiser.md)
 
-- **Les rôles dans une mobilisation** [:material-account-group-outline:](roles.md)
+- **Les rôles dans une mobilisation** [:material-account-group-outline:](roles.md){ aria-label="Les rôles dans une mobilisation" }
 
     ***
 
@@ -269,7 +269,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](roles.md)
 
-- **Soutenir sans aller en manif** [:material-hand-heart:](soutenir-a-distance.md)
+- **Soutenir sans aller en manif** [:material-hand-heart:](soutenir-a-distance.md){ aria-label="Soutenir sans aller en manif" }
 
     ***
 
@@ -277,7 +277,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](soutenir-a-distance.md)
 
-- **Groupes Signal : s'organiser en limitant les fuites** [:material-account-group:](groupes-signal.md)
+- **Groupes Signal : s'organiser en limitant les fuites** [:material-account-group:](groupes-signal.md){ aria-label="Groupes Signal : s'organiser en limitant les fuites" }
 
     ***
 
@@ -285,7 +285,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](groupes-signal.md)
 
-- **Drapeau palestinien en manifestation** [:material-flag:](drapeau-palestinien.md)
+- **Drapeau palestinien en manifestation** [:material-flag:](drapeau-palestinien.md){ aria-label="Drapeau palestinien en manifestation" }
 
     ***
 
@@ -293,7 +293,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](drapeau-palestinien.md)
 
-- **Réseaux sociaux : ne pas nourrir la haine** [:material-account-cancel:](reseaux-sociaux.md)
+- **Réseaux sociaux : ne pas nourrir la haine** [:material-account-cancel:](reseaux-sociaux.md){ aria-label="Réseaux sociaux : ne pas nourrir la haine" }
 
     ***
 
@@ -301,7 +301,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](reseaux-sociaux.md)
 
-- **Parler à la presse en manifestation** [:material-microphone:](parler-a-la-presse.md)
+- **Parler à la presse en manifestation** [:material-microphone:](parler-a-la-presse.md){ aria-label="Parler à la presse en manifestation" }
 
     ***
 
@@ -309,7 +309,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](parler-a-la-presse.md)
 
-- **Photographier et filmer pour la presse** [:material-camera:](photographier-pour-la-presse.md)
+- **Photographier et filmer pour la presse** [:material-camera:](photographier-pour-la-presse.md){ aria-label="Photographier et filmer pour la presse" }
 
     ***
 
@@ -317,13 +317,13 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](photographier-pour-la-presse.md)
 
-- **Vérifier une info et éviter la désinformation** [:material-magnify-scan:](desinformation.md)
+- **Vérifier une info et éviter la désinformation** [:material-magnify-scan:](desinformation.md){ aria-label="Vérifier une info et éviter la désinformation" }
 
     ***
 
     Vérifier une info, une image ou un bilan ; faire un démenti court et sourcé.
 
-- **Convaincre ses proches** [:material-forum:](convaincre-ses-proches.md)
+- **Convaincre ses proches** [:material-forum:](convaincre-ses-proches.md){ aria-label="Convaincre ses proches" }
 
     ***
 
@@ -331,7 +331,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](convaincre-ses-proches.md)
 
-- **Chants de manifestation** [:material-music:](chants.md)
+- **Chants de manifestation** [:material-music:](chants.md){ aria-label="Chants de manifestation" }
 
     ***
 
@@ -339,7 +339,7 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](chants.md)
 
-- **S'informer et se former** [:material-school:](s-informer-se-former.md)
+- **S'informer et se former** [:material-school:](s-informer-se-former.md){ aria-label="S'informer et se former" }
 
     ***
 
