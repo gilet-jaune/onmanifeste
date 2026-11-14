@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: what to do when a group is compromised (seized phone, leak, arrest).'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 8c023733f33fae4f875336a8514b4ec8d2e95247
 review: juridique
 review_status: pending
 tags:
