@@ -761,7 +761,7 @@ select:focus-visible {
   background: transparent;
   color: var(--ap-text);
   font: inherit;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -830,7 +830,7 @@ select:focus-visible {
   border-radius: 2px;
   background: var(--ap-vest);
   color: var(--ap-ink);
-  font-size: 0.66rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 
@@ -844,7 +844,7 @@ select:focus-visible {
 .md-typeset .directory__card .directory__checked {
   margin: auto 0 0.5rem;
   color: var(--ap-muted);
-  font-size: 0.64rem;
+  font-size: 0.7rem;
 }
 
 .directory__empty {
@@ -906,7 +906,7 @@ select:focus-visible {
   border-radius: 9999px;
   color: var(--ap-ink);
   font-family: var(--md-text-font-family);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 700;
   line-height: 1;
   cursor: pointer;
@@ -1248,7 +1248,7 @@ select:focus-visible {
 
 .md-typeset .timeline-filters__n {
   margin-left: 0.3rem;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 400;
   opacity: 0.75;
 }
@@ -1268,14 +1268,14 @@ select:focus-visible {
 
 .md-typeset .timeline__nature {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--ap-muted);
 }
 
 .md-typeset .timeline__actor {
   display: block;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 700;
   color: var(--ap-muted);
 }
@@ -1451,7 +1451,7 @@ select:focus-visible {
 }
 
 .md-typeset .timeline__sources {
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   color: var(--ap-muted);
 }
 
@@ -1757,6 +1757,19 @@ select:focus-visible {
     border-color: var(--ap-ink);
     background: var(--ap-ink);
   }
+}
+
+/* Material's smallest texts are raised: box text (it was 0.64rem, much smaller than the page text),
+   box titles and tags (14 px at the usual root size). */
+.md-typeset .admonition,
+.md-typeset details {
+  font-size: 0.78rem;
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary,
+.md-typeset .md-tag {
+  font-size: 0.7rem;
 }
 
 /* ==========================================================================
@@ -2079,7 +2092,7 @@ select:focus-visible {
 .md-typeset .parcours__result .directory__sources {
   margin: 0.2rem 0 0.4rem;
   color: var(--ap-muted);
-  font-size: 0.64rem;
+  font-size: 0.7rem;
 }
 
 /* Footnotes act as the page's source list. */
@@ -2147,7 +2160,7 @@ select:focus-visible {
   display: block;
   margin-top: 0.25rem;
   color: var(--ap-muted);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
 }
 
 .md-typeset .sos__numbers--legal .sos__number {
@@ -2243,7 +2256,7 @@ select:focus-visible {
 .md-footer-love__credit {
   display: block;
   color: #9ea3a9;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 /* --- Review / verification badges --------------------------------------- */
@@ -2273,7 +2286,7 @@ select:focus-visible {
   border: 1.5px dashed var(--ap-line);
   border-radius: 2px;
   color: var(--ap-text);
-  font-size: 0.66rem;
+  font-size: 0.7rem;
   font-weight: 700;
 }
 
@@ -2526,7 +2539,7 @@ select:focus-visible {
 .md-typeset .victims__checked {
   margin: 0;
   color: var(--ap-muted);
-  font-size: 0.64rem;
+  font-size: 0.7rem;
 }
 
 .md-typeset .victims__censuses li {
@@ -2714,7 +2727,7 @@ dialog.contact-card {
   padding-top: 0.6rem;
   border-top: 1px dashed var(--md-default-fg-color--lightest);
   color: var(--ap-muted);
-  font-size: 0.68rem;
+  font-size: 0.7rem;
 }
 
 /* ==========================================================================
@@ -3054,7 +3067,7 @@ dialog.contact-card {
   border-radius: 1rem;
   background: var(--ap-vest);
   color: var(--ap-ink);
-  font-size: 0.62rem;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -3222,7 +3235,7 @@ dialog.contact-card {
 
 .md-typeset .rallier__picker .rallier__hint {
   margin: 0.3rem 0 0;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
 }
 
 .md-typeset .rallier__rotator-line .parcours__rotator {
@@ -3614,7 +3627,7 @@ dialog.contact-card {
   border: 0.05rem solid var(--md-default-fg-color--lighter);
   border-radius: 0.6rem;
   color: var(--md-default-fg-color--light);
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   line-height: 1.5;
@@ -3666,7 +3679,7 @@ dialog.contact-card {
   border-radius: 0;
   background: none;
   color: var(--md-default-fg-color--light);
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 400;
   line-height: 1.4;
 }
@@ -3870,7 +3883,7 @@ dialog.contact-card {
     background: none;
     color: #f2f3f4;
     font: inherit;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     line-height: 1.1;
     cursor: pointer;
@@ -3912,7 +3925,7 @@ dialog.contact-card {
       0 0 0 3px var(--ap-vest),
       0 4px 10px rgba(0, 0, 0, 0.45);
     color: var(--ap-ink) !important;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.04em;
     line-height: 1;
