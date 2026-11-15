@@ -1,6 +1,7 @@
 ---
 description: 'What the law forbids at a protest and what you risk: weapons, face covering, group offences, penalties.'
-source_commit: 8a9025dfc5b91ab560488f80b95f2168b1c23b97
+source_hash: s1-b90efb3508d0
+source_sections: s1-aea04d.a2c469.9f9a43.e28132.fb3563.69edf9.d1dfc1.000aab
 review: juridique
 review_status: pending
 tags:

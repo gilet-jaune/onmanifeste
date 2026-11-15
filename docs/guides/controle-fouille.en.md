@@ -1,6 +1,7 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: f93088e7cc43a9335023081132eabf97ed28477c
+source_hash: s1-6d99283b98a0
+source_sections: s1-58f21e.2990da.2e1977.843193.5dfde2.71372f.5c7fb2.9b4967.f7e103.796004.d71d81.a9796c.000aab
 review: juridique
 review_status: pending
 tags:

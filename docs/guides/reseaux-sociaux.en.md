@@ -2,7 +2,8 @@
 description: 'Social media: do not feed hate, ignore the far right online, report and protect yourself.'
 review: juridique
 review_status: pending
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-3304e14eff0d
+source_sections: s1-36d25c.9acd0b.5a14eb.879f90.e23cd3.1258ab.31dc10.bacff9.90f4f6
 tags:
     - guides
     - réseaux sociaux

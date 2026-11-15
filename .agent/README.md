@@ -8,7 +8,7 @@ French-first toolkit for protesting in France: a sourced directory, guides, an S
 - **Every claim is sourced:** resources link to their official page (`url`, `sources`); guides and tips use footnotes (`[^id]`) listed under `## Sources`.
 - **Privacy:** no analytics, no external embeds, no third-party requests at runtime (fonts are self-hosted by the Material `privacy` plugin).
 - **Anonymity:** the project is published anonymously by "citron-oppresse" in the `gilet-jaune` GitHub organization. Never write a real name, personal e-mail or personal handle in files, commits or URLs.
-- **French first:** `page.md` is French; `page.en.md` is its English translation (every page has one). Sources stay in French and are marked "(in French)" in English pages when useful.
+- **French first:** `page.md` is French; `page.en.md` is its English translation (every page has one). Sources stay in French and are marked "(in French)" in English pages when useful. Each English page records a fingerprint of the French text it translates (`source_hash`, `source_sections`): after editing the French, `npm run validate:data` lists the English pages that lag and which sections changed; once the English is updated (or checked), run `npm run sync:en -- guides/page`. Never edit `source_hash` by hand.
 
 ## Map
 

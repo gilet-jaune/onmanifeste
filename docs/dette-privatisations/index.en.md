@@ -1,6 +1,7 @@
 ---
 description: 'State debt, public financing, privatisations and public spending: a sourced timeline of laws, rulings, Senate reports and investigations.'
-source_commit: 6ced2b7a25e948806e3de7a5d31cc162441f6ecc
+source_hash: s1-c256da94b0a8
+source_sections: s1-b9a93f.2b5db9.46c89a.00e00e.860743
 review: juridique
 review_status: pending
 tags:

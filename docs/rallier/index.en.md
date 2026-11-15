@@ -1,6 +1,7 @@
 ---
 description: 'Why join the mobilisations? For each profile (employee, retiree, nurse…), sourced stakes and common objections.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-e48eb223c5e8
+source_sections: s1-da4bfc.3027d8
 tags:
     - persuade
 hide:

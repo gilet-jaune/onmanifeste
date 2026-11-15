@@ -1,6 +1,7 @@
 ---
 description: 'Organising a protest: declaration at the town hall or prefecture, deadlines, stewarding, organiser risks.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-dfac723181b1
+source_sections: s1-7d9ead.707663.3369fc.a3bb99.9d50ea.c9b7ba.000aab
 review: juridique
 review_status: pending
 tags:

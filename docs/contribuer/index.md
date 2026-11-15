@@ -78,7 +78,7 @@ Pour vérifier : ouvrez la source, comparez avec ce qui est écrit, corrigez si 
 
 ## Traduire et faire relire
 
-- Chaque page anglaise (`page.en.md`) indique dans `source_commit` le commit de la page française qu'elle traduit. Si la page française change ensuite, la traduction est signalée comme en retard (CI, rapport hebdomadaire et avertissement sur la page). Après avoir mis à jour une traduction, remplacez `source_commit` par le dernier commit de la page française (`git log -1 --format=%H -- docs/…/page.md`).
+- Chaque page anglaise (`page.en.md`) porte une empreinte du texte de la page française qu'elle traduit (`source_hash`, avec `source_sections` pour savoir quelles sections ont changé). Si le texte français change ensuite, la traduction est signalée comme en retard (CI, rapport hebdomadaire, avertissement sur la page), avec le nom des sections modifiées. Les changements de mise en forme ou d'espaces ne comptent pas. Après avoir mis à jour une traduction, lancez `npm run sync:en -- guides/page` pour enregistrer qu'elle est à jour : modifier la traduction et la déclarer à jour sont deux gestes distincts.
 - Les pages juridiques ou médicales portent `review: juridique` ou `review: medical` et `review_status: pending`. Après relecture par un·e professionnel·le, passez à `review_status: reviewed` et ajoutez `reviewed_on: AAAA-MM-JJ` : le badge « pas encore relu » disparaît.
 
 ## Améliorer la recherche

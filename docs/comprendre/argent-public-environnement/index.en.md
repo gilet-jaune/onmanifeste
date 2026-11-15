@@ -1,6 +1,7 @@
 ---
 description: 'Debt, privatisations, public spending, tax evasion, environment and health: the dated, sourced files of this section.'
-source_commit: 37c2e395a77dffed5a89ed272656e21f67be2212
+source_hash: s1-e0109d9e64da
+source_sections: s1-7c38ae.44afba
 tags:
     - understand
     - public finances

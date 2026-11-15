@@ -1,6 +1,7 @@
 ---
 description: 'Emergency numbers, legal teams and helplines for protesting in France: one tap to call, available offline.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-377cff03ba6e
+source_sections: s1-a7e948.b0f4b0.5d0561.580f06.fed7a7.03b406.51abe0
 tags:
     - emergency
 hide:

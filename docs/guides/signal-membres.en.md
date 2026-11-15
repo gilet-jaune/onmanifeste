@@ -1,6 +1,7 @@
 ---
 description: 'Signal groups, member side: settings, good habits and what is expected of you in a trusted group.'
-source_commit: 8c023733f33fae4f875336a8514b4ec8d2e95247
+source_hash: s1-deb45da868d7
+source_sections: s1-f9ff75.cee6c9.99f0ee.7f8cd0.8ca918.3e32f3.830867.23aadb.bb28d3.000aab
 review: juridique
 review_status: pending
 tags:

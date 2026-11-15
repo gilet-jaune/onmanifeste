@@ -1,6 +1,7 @@
 ---
 description: 'Getting to and from a protest: return routes, transport, offline map, leaving without being isolated.'
-source_commit: d5992391168cdb35e0b29ea43e8f58e0bf1054f9
+source_hash: s1-90a09d6303f8
+source_sections: s1-fda710.7770e8.38ea8a.ba23e0.4d67e0.000aab
 tags:
     - guides
     - transport

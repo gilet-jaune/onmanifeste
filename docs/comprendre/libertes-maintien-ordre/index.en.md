@@ -1,6 +1,7 @@
 ---
 description: 'Security laws, policing, documented repression, people injured and killed at protests, and why property gets smashed: the files of this section.'
-source_commit: 37c2e395a77dffed5a89ed272656e21f67be2212
+source_hash: s1-ce26ff7034f5
+source_sections: s1-1b78da.e9edc8
 tags:
     - understand
     - freedoms

@@ -1,6 +1,7 @@
 ---
 description: 'How to contribute: add a resource, a guide or an event, review a page. Everything starts from a public, checked data registry.'
-source_commit: 427cc5852aa768f89dbb60a7afa993b25db40dbb
+source_hash: s1-8d5b9c1ce1c9
+source_sections: s1-fcfab6.bcc768.095b54.abc03b.31d060.62a7d2.3fa77b.fc08a2.21cd9c.647a82
 tags:
     - contributing
 ---
@@ -79,7 +80,7 @@ To check: open the source, compare it with what is written, fix it if needed, th
 
 ## Translate and get reviewed
 
-- Each English page (`page.en.md`) records in `source_commit` the commit of the French page it translates. If the French page changes afterwards, the translation is flagged as outdated (CI, weekly report and a notice on the page). After updating a translation, set `source_commit` to the French page's latest commit (`git log -1 --format=%H -- docs/…/page.md`).
+- Each English page (`page.en.md`) carries a fingerprint of the text of the French page it translates (`source_hash`, with `source_sections` to tell which sections changed). If the French text changes afterwards, the translation is flagged as outdated (CI, weekly report and a notice on the page), naming the sections that changed. Formatting and whitespace changes do not count. After updating a translation, run `npm run sync:en -- guides/page` to record that it is in step: editing the translation and declaring it up to date are two separate steps.
 - Legal or medical pages carry `review: juridique` or `review: medical` and `review_status: pending`. Once reviewed by a professional, switch to `review_status: reviewed` and add `reviewed_on: YYYY-MM-DD`: the "not yet reviewed" badge disappears.
 
 ## Improve search

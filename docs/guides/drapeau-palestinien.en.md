@@ -1,6 +1,7 @@
 ---
 description: 'Palestinian flag at a protest: what the law says, bans and remedies.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-c1664eae239f
+source_sections: s1-7f9338.df1c3c.a94570.051290.5aa5e5.b99d2c.2569a2.000aab
 review: juridique
 review_status: pending
 tags:

@@ -1,6 +1,7 @@
 ---
 description: 'Violence during policing and official statements later disproved by the facts: a dated, sourced timeline.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_hash: s1-12ea6c083db5
+source_sections: s1-155962.775874.3556e5.651b45.77fc3f
 tags:
     - repression
     - disinformation

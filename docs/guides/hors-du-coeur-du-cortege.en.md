@@ -1,6 +1,7 @@
 ---
 description: 'Protesting without being in the heart of the march: choosing your place, leaving in time, calm gatherings, child or animal, or supporting without going.'
-source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
+source_hash: s1-5c48b7d90e68
+source_sections: s1-bc037e.76754c.be1d7c.80d496.c8cd89.36af5d.67248a.000aab
 tags:
     - guides
     - safety

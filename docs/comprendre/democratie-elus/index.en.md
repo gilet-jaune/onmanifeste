@@ -1,6 +1,7 @@
 ---
 description: 'History of mobilisations, votes and voices ignored, court decisions on elected officials, their resources and conflicts of interest.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_hash: s1-33eae0346b91
+source_sections: s1-3dae74.42208d
 tags:
     - understand
     - democracy

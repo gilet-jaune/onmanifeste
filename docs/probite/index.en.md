@@ -1,6 +1,7 @@
 ---
 description: 'Court decisions concerning elected officials (Fillon, Sarkozy, Le Pen, Balkany): what is judged, what is final, sentences cut short, with sources.'
-source_commit: 6ced2b7a25e948806e3de7a5d31cc162441f6ecc
+source_hash: s1-a0b9885f4fa7
+source_sections: s1-25d689.706a1d.4fdda7.025d90.8ba689
 review: juridique
 review_status: pending
 tags:

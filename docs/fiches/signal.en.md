@@ -1,6 +1,7 @@
 ---
 description: 'Three A4 memo sheets to print on Signal groups: member, arrest or compromised group, and keeper roles.'
-source_commit: f8117637d66717ee6a6acddd6d50dc5c0282b765
+source_hash: s1-60e1ec0aa10f
+source_sections: s1-2a7369.1ae395.aa963f.ea9b07.d84bfb
 review: juridique
 review_status: pending
 tags:

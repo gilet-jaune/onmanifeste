@@ -1,6 +1,7 @@
 ---
 description: 'Protesting with a disability or chronic illness: preparation, accessible emergency services, equipment and help.'
-source_commit: 2e3c77bac8958034eb3641648ab0dd271849a936
+source_hash: s1-4f275f52263d
+source_sections: s1-f8f474.970360.125aa5.2e6037.43d7f6.000aab
 review: medical
 review_status: pending
 tags:

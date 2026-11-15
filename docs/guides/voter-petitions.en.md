@@ -1,6 +1,7 @@
 ---
 description: 'Voting, proxy, electoral register, petitions: act from home, and what each site does with your data.'
-source_commit: 863d36fbadd8594af6431619fb9e8d388bbeebea
+source_hash: s1-622f674f5b79
+source_sections: s1-1bfc54.14f1e6.bbe8b6.1d25f2.000aab
 tags:
     - guides
     - support

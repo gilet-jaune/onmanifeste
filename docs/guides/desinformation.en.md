@@ -1,6 +1,7 @@
 ---
 description: 'Checking information and avoiding disinformation: the SIFT method, fact-checking services, habits before sharing.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-8ee98d417de0
+source_sections: s1-8e888d.ba3bd6.581280.129040.839581.c66ff0.6ccc5f.316cff.000aab
 tags:
     - guides
     - disinformation

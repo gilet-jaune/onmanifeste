@@ -1,6 +1,7 @@
 ---
 description: 'DNA, fingerprints and photos in custody: what police can take, refusing and the consequences.'
-source_commit: 701ec37178b269a9c5da0287a36c395341cd6d95
+source_hash: s1-1ce830e9980c
+source_sections: s1-d9f111.53aaec.96d54a.0ceab9.a072fb.57f1eb.69ecb8.cdfb20.f5ae24.000aab
 review: juridique
 review_status: pending
 tags:

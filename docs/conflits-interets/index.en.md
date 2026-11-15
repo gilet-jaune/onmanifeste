@@ -1,6 +1,7 @@
 ---
 description: "Conflicts of interest: legal definition amended in 2025, HATVP powers and limits, Conseil d'État, consulting firms, the Epstein case: sourced facts."
-source_commit: 8adfdfe4ec93cd8e85b092914adbba83c2e2831e
+source_hash: s1-1ae6345962b6
+source_sections: s1-0c3d03.d74248.6938af.051b41.e645ad.89b0bc.315809.da542e.65eaac
 review: juridique
 review_status: pending
 tags:

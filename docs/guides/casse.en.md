@@ -1,6 +1,7 @@
 ---
 description: 'Why does property get damaged at protests? The facts on damage, targeted symbols and how the media cover it.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_hash: s1-655053eed54b
+source_sections: s1-e610cd.726f5d.72490d.22b593.33409a.ad4591.2faf9f.ee5865.cc53bc
 review: juridique
 review_status: pending
 tags:

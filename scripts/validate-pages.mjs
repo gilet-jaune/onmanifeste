@@ -4,12 +4,14 @@
 //   the title in the site search results)
 // - image: a guide illustration exists, is webp/avif/png/jpg (80 KB) or svg (40 KB, no script, link,
 //   live text or editor metadata), and has image_alt
-// - translations: every page.en.md records the commit of the French page it translates
-//   (source_commit, as MDN does); a French page changed since then makes the translation outdated.
+// - translations: every page.en.md records a fingerprint of the French page it translates
+//   (source_hash, see scripts/lib/translation-hash.mjs); a French page whose text changed since
+//   then makes the translation outdated (a warning that names the changed sections).
+//   `npm run sync:en -- <page>` records that a translation is in step again.
 // Usage: node scripts/validate-pages.mjs [--report file.md]   (outdated translations are warnings)
-import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { changedSections, fingerprint } from './lib/translation-hash.mjs';
 
 const MAX_IMAGE_BYTES = 80 * 1024;
 const MAX_SVG_BYTES = 40 * 1024;
@@ -46,17 +48,6 @@ const frontMatter = (file) => {
       .map(([, k, v]) => [k, v.trim()]),
   );
 };
-const git = (...args) => {
-  try {
-    return execFileSync('git', args, {
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'ignore'],
-    }).trim();
-  } catch {
-    return null;
-  }
-};
-
 for (const file of walk('docs')) {
   const fm = frontMatter(file);
   if (fm.review) {
@@ -100,15 +91,22 @@ for (const file of walk('docs')) {
   if (file.endsWith('.en.md')) {
     const fr = file.replace(/\.en\.md$/, '.md');
     if (!existsSync(fr)) errors.push(`${file}: no French page ${fr}`);
-    else if (!fm.source_commit)
-      errors.push(`${file}: missing source_commit (commit of ${fr} it translates)`);
-    else if (git('cat-file', '-e', `${fm.source_commit}^{commit}`) === null) {
-      // shallow clone or unknown commit: cannot tell, skip
-    } else if (git('diff', '--quiet', fm.source_commit, 'HEAD', '--', fr) === null) {
-      outdated.push({ file, fr, since: fm.source_commit.slice(0, 7) });
+    else if (!fm.source_hash)
+      errors.push(`${file}: missing source_hash (run: npm run sync:en -- ${file})`);
+    else {
+      const current = fingerprint(readFileSync(fr, 'utf8'));
+      if (current.hash !== fm.source_hash)
+        outdated.push({ file, fr, changed: changedSections(fm.source_sections, current) });
     }
   }
 }
+
+const describeChange = ({ changed }) =>
+  changed === null
+    ? 'français modifié, structure différente'
+    : changed.length
+      ? `français modifié : ${changed.join(', ')}`
+      : 'français modifié';
 
 const reportArg = process.argv.indexOf('--report');
 if (reportArg !== -1) {
@@ -116,20 +114,22 @@ if (reportArg !== -1) {
     ? [
         `${outdated.length} traduction(s) en retard sur la version française :`,
         '',
-        ...outdated.map((o) => `- \`${o.file}\` (français modifié depuis \`${o.since}\`)`),
+        ...outdated.map((o) => `- \`${o.file}\` (${describeChange(o)})`),
         '',
-        'Mettre à jour la traduction, puis `source_commit` avec le dernier commit de la page française.',
+        "Mettre à jour la traduction, puis `npm run sync:en -- <page>` pour enregistrer qu'elle est à jour.",
       ]
     : ['Toutes les traductions sont à jour.'];
   writeFileSync(process.argv[reportArg + 1], `${lines.join('\n')}\n`);
 }
 if (outdated.length) {
   console.warn(
-    `⚠️  ${outdated.length} outdated translation(s)\n- ${outdated.map((o) => o.file).join('\n- ')}`,
+    `⚠️  ${outdated.length} outdated translation(s)\n- ${outdated
+      .map((o) => `${o.file} (${describeChange(o)})`)
+      .join('\n- ')}`,
   );
 }
 if (errors.length) {
   console.error(`❌ pages: ${errors.length} error(s)\n- ${errors.join('\n- ')}`);
   process.exit(1);
 }
-console.log('✅ pages: review metadata valid, every translation records its source commit');
+console.log('✅ pages: review metadata valid, every translation records its source hash');

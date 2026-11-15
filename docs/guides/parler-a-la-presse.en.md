@@ -1,6 +1,7 @@
 ---
 description: 'Talking to the press at a protest: you do not have to answer, short message, what to avoid.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-67cd2af2760c
+source_sections: s1-4513a7.a8fb47.953ba5.db3980.50c2c7.1480d6
 tags:
     - guides
     - communication

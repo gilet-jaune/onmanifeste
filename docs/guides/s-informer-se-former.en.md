@@ -1,6 +1,7 @@
 ---
 description: 'Learning about non-violent action, your rights and following mobilisations: organisations and calendars.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-12f71a8f2f5a
+source_sections: s1-97d31e.1cbc51.4f329e.c703a9.fcb4bf.000aab
 tags:
     - guides
     - training

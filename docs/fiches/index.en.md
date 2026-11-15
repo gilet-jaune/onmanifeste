@@ -1,6 +1,7 @@
 ---
 description: 'Two one-page A4 memo sheets to print and fold: numbers, rights and reflexes at a protest, useful without a phone.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-946fc252d7dc
+source_sections: s1-aa8ec8.ac4dfd.9b85ab.8d7780
 review: juridique
 review_status: pending
 tags:

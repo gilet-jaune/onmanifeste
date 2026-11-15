@@ -1,6 +1,7 @@
 ---
 description: 'Signal groups: recruiting and meeting new people without exposing the group.'
-source_commit: 8c023733f33fae4f875336a8514b4ec8d2e95247
+source_hash: s1-7cd0b1fc902c
+source_sections: s1-10e3a0.8deff3.9e33a5.690549.43e4a6.0041c5.000aab
 review: juridique
 review_status: pending
 tags:

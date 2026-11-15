@@ -1,6 +1,7 @@
 ---
 description: 'High-school students: blockades, absences and sanctions. What you can do, what is forbidden and your remedies.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_hash: s1-35d262601d88
+source_sections: s1-5bd7aa.519497.7bf7fb.985f71.1cc0d7.f33651.000aab
 review: juridique
 review_status: pending
 tags:

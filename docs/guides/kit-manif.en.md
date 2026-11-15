@@ -1,6 +1,7 @@
 ---
 description: 'Protest kit and clothing: clothes, eye and respiratory protection, what to bring and what to leave at home.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_hash: s1-0428d95566b5
+source_sections: s1-7917f9.bda8bf.af07b2.991851.b1235f.fa8ddd.bbe929.000aab
 review: juridique
 review_status: pending
 tags:

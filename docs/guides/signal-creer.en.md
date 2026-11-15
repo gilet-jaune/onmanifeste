@@ -1,6 +1,7 @@
 ---
 description: 'Signal groups: creating and configuring groups with the right settings from the start.'
-source_commit: 701ec37178b269a9c5da0287a36c395341cd6d95
+source_hash: s1-4d55b0583d27
+source_sections: s1-879478.539cfc.4c3aaa.2aa9dd.000aab
 review: juridique
 review_status: pending
 tags:

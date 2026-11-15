@@ -1,6 +1,7 @@
 ---
 description: 'Photographing and filming for the press at protests: status, freedom to inform, image rights and good practice.'
-source_commit: 701ec37178b269a9c5da0287a36c395341cd6d95
+source_hash: s1-b501ed036943
+source_sections: s1-427a57.704034.770dd8.8be95f.3d9866.e84f08.e27604.000aab
 review: juridique
 review_status: pending
 tags:

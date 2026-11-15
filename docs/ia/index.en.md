@@ -1,6 +1,7 @@
 ---
 description: 'How and why this site uses AI: what it does, what it does not do, its limits, its cost, and what still needs human review.'
-source_commit: 27a2a47e5019fd3b976ebb178e7c4498627ed86c
+source_hash: s1-d827f6058afc
+source_sections: s1-a85272.9cb32f.0f7c8d.3ae7a4.9796b3.e8d37d.8bbf74.a8e617.6d80d9
 tags:
     - ai
     - transparency

@@ -1,6 +1,7 @@
 ---
 description: 'Security and counter-terrorism laws since 1935 (state of emergency, anti-rioters, algorithmic cameras, "casseurs-payeurs") and what they change for protesting.'
-source_commit: ab13ec2e771383258b1f9973b7c5f95872dd5c3a
+source_hash: s1-4184c5604a4c
+source_sections: s1-8a2350.062efe.090b2a.6bb276.246594.50de58.e05441.4eee90.5c82d0.4da129.a3f3ff.de9b3d.b18eb1.000aab
 review: juridique
 review_status: pending
 tags:

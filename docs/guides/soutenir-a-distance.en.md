@@ -1,6 +1,7 @@
 ---
 description: "Can't make it to a protest? Fund a solidarity fund, equip street medics, act as a relay: how to help from afar."
-source_commit: 863d36fbadd8594af6431619fb9e8d388bbeebea
+source_hash: s1-56d9dfa21e4c
+source_sections: s1-12cbe6.637dfc.71c34e.750bf7.a95eff.8e3c8a.559f9f.6fa7fa.1527a8.7c17cc.1c7b10.f4ebf7.000aab
 tags:
     - guides
     - support

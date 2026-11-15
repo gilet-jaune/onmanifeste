@@ -1,6 +1,7 @@
 ---
 description: 'Offline mode and app settings: everything stays on your device, nothing is sent to a server.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_hash: s1-7a9d8c98dd4f
+source_sections: s1-31d679.179b8d
 hide:
     - toc
 ---

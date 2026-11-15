@@ -1,6 +1,7 @@
 ---
 description: 'Review the sources of this site: open the source, give your verdict, export a batch. Pseudonym by default, nothing is sent automatically.'
-source_commit: 577592a89464c3ab32ada8aabaff84e5037ac7f6
+source_hash: s1-18eac2bfd367
+source_sections: s1-62102b.396c1c.995009.2a32da.744797
 tags:
     - contributing
 ---
