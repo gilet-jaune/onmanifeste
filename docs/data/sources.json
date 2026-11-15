@@ -8259,6 +8259,19 @@
         "by": "ai"
       }
     },
+    "iga-rapport-complementaire-fonds-marianne-2023": {
+      "title": {
+        "fr": "Inspection générale de l'administration — Rapport complémentaire relatif au fonds « Marianne » (synthèse, juillet 2023)",
+        "en": "General Inspectorate of Administration — Supplementary report on the Marianne fund (summary, July 2023; in French)"
+      },
+      "url": "https://www.interieur.gouv.fr/documentation/rapports/rapport-complementaire-de-liga-relatif-au-fonds-marianne.html",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Synthèse (pages 5 à 7 du PDF de 41 pages) lue ; reste du rapport et annexes (non communicables) non lus.",
+        "by": "ai"
+      }
+    },
     "cc-decision-2005-38-ref": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2005-38 REF du 1er juin 2005 (proclamation des résultats du référendum du 29 mai 2005)",
