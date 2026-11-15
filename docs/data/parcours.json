@@ -2072,7 +2072,7 @@
               }
             },
             {
-              "guide": "soutenir-a-distance",
+              "guide": "voter-petitions",
               "anchor": {
                 "fr": "signer-des-petitions",
                 "en": "sign-petitions"
@@ -3745,7 +3745,7 @@
               }
             },
             {
-              "guide": "soutenir-a-distance",
+              "guide": "voter-petitions",
               "anchor": {
                 "fr": "voter",
                 "en": "vote"
@@ -3756,7 +3756,7 @@
               }
             },
             {
-              "guide": "soutenir-a-distance",
+              "guide": "voter-petitions",
               "anchor": {
                 "fr": "signer-des-petitions",
                 "en": "sign-petitions"
@@ -4961,7 +4961,7 @@
               }
             },
             {
-              "guide": "soutenir-a-distance",
+              "guide": "voter-petitions",
               "anchor": {
                 "fr": "signer-des-petitions",
                 "en": "sign-petitions"
@@ -5145,7 +5145,7 @@
               }
             },
             {
-              "guide": "soutenir-a-distance",
+              "guide": "voter-petitions",
               "anchor": {
                 "fr": "signer-des-petitions",
                 "en": "sign-petitions"

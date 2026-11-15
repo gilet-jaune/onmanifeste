@@ -98,6 +98,7 @@
       "organiser": ["organiser"],
       "roles": ["organiser", "situation"],
       "soutenir-a-distance": ["organiser", "situation"],
+      "voter-petitions": ["organiser"],
       "parler-a-la-presse": ["image", "informer"],
       "photographier-pour-la-presse": ["image"],
       "premiers-secours": ["sante"],

@@ -1,6 +1,6 @@
 ---
 description: 'All the guides for protesting in France: before, during and after the protest, depending on your situation. Available offline.'
-source_commit: becc0479bfb0f6f3419daf37e6fc5677204fadfa
+source_commit: a14636bf604cc9e091a847b9dd826671f6eda3a1
 tags:
     - guides
 image: assets/covers/guides.svg
@@ -277,6 +277,14 @@ Guides to read before you go, **available offline** once the site has been opene
     Solidarity fund, supplies for street medics, a relay on the outside.
 
     [:octicons-arrow-right-24: Read](soutenir-a-distance.md)
+
+- **Vote and sign petitions** [:material-vote:](voter-petitions.md){ aria-label="Vote and sign petitions" }
+
+    ***
+
+    Registration, proxy, petitions: act from home, and what sites do with your data.
+
+    [:octicons-arrow-right-24: Read](voter-petitions.md)
 
 - **Signal groups: organising while limiting leaks** [:material-account-group:](groupes-signal.md){ aria-label="Signal groups: organising while limiting leaks" }
 

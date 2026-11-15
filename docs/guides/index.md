@@ -277,6 +277,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](soutenir-a-distance.md)
 
+- **Voter et signer des pétitions** [:material-vote:](voter-petitions.md){ aria-label="Voter et signer des pétitions" }
+
+    ***
+
+    Inscription, procuration, pétitions : agir de chez soi, et ce que les sites font de vos données.
+
+    [:octicons-arrow-right-24: Lire](voter-petitions.md)
+
 - **Groupes Signal : s'organiser en limitant les fuites** [:material-account-group:](groupes-signal.md){ aria-label="Groupes Signal : s'organiser en limitant les fuites" }
 
     ***

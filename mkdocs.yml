@@ -146,6 +146,7 @@ plugins:
             Organiser une manifestation: Organising a protest
             Les rôles dans une mobilisation: Roles in a mobilisation
             Soutenir sans aller en manif: Supporting without going to protests
+            Voter et signer des pétitions: Vote and sign petitions
             "Groupes Signal : s'organiser en limitant les fuites": "Signal groups: organising while limiting leaks"
             Vue d'ensemble: Overview
             Vous êtes membre: As a member
@@ -268,6 +269,7 @@ nav:
           - Organiser une manifestation: guides/organiser.md
           - Les rôles dans une mobilisation: guides/roles.md
           - Soutenir sans aller en manif: guides/soutenir-a-distance.md
+          - Voter et signer des pétitions: guides/voter-petitions.md
           - "Groupes Signal : s'organiser en limitant les fuites":
               - Vue d'ensemble: guides/groupes-signal.md
               - Vous êtes membre: guides/signal-membres.md
