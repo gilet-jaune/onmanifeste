@@ -1,6 +1,6 @@
 ---
 description: 'DNA, fingerprints and photos in custody: what police can take, refusing and the consequences.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 review: juridique
 review_status: pending
 tags:
@@ -55,7 +55,7 @@ That is why the question "accept or refuse?" is not settled alone in a police st
 The **TAJ** (_traitement d'antécédents judiciaires_, criminal records processing file) is a file shared by the police and the gendarmerie, which replaces the former STIC and JUDEX. It holds the data of people under investigation **and of victims**. It is separate from the criminal record: you can be in it without any conviction.[^cnil-taj] It is also used for administrative inquiries, for example for access to certain jobs.[^cnil-taj-droits]
 
 - The TAJ is fed by data collected **during investigations** (preliminary, flagrante delicto, letters rogatory) for **any crime or offence**, and for some fifth-class contraventions.[^cpp-230-6] The article does not tie registration to the photo: the procedure data is enough, so refusing to be photographed does not guarantee you will not be registered.
-- The prosecutor oversees the file. At your request, they can order **erasure**, **rectification** or a **note**, and must answer within **2 months**.[^cpp-230-8] After a **final acquittal**, the data is **erased**, unless the prosecutor orders it kept; after a **dismissal or a case closed without action**, it carries a **note** (so it can no longer be consulted for administrative inquiries), unless erasure is ordered.[^cpp-230-8] A refusal can be challenged before the president of the investigating chamber.[^cpp-230-8]
+- The prosecutor oversees the file. At your request, they can order **erasure**, **rectification** or a **note**, and must answer within **2 months**.[^cpp-230-8] After a **final acquittal**, the data is **erased**, unless the prosecutor orders it kept; after a **dismissal or a case closed without action**, it carries a **note** (so it can no longer be consulted for administrative inquiries), unless erasure is ordered. A refusal can be challenged before the president of the investigating chamber.
 
 - **What the Constitutional Council said (27 October 2017).** The file lists **everyone investigated** for a crime, an offence or certain fifth-class contraventions. It can hold a **photograph suitable for facial recognition**, and its data could then be kept **from five to forty years**, and also be consulted for administrative inquiries. The Council struck down the rule that denied any erasure to people investigated other than those acquitted, or benefiting from a dismissal or a case closed without action, as a **disproportionate infringement of privacy**.[^cc-2017-670] Current retention periods are in the section below.
 

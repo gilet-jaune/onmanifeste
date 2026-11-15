@@ -19,7 +19,7 @@ Remplacez ce qui est entre crochets.
 
 !!! warning "Pourquoi pas un simple message épinglé ?"
 
-    Dans Signal, un message éphémère est **automatiquement désépinglé et supprimé** quand son délai expire (1 jour, 1 semaine…).[^signal-messages-epingles] De plus, une personne qui rejoint le groupe après coup **ne voit pas les messages épinglés avant son arrivée**.[^signal-messages-epingles]
+    Dans Signal, un message éphémère est **automatiquement désépinglé et supprimé** quand son délai expire (1 jour, 1 semaine…).[^signal-messages-epingles] De plus, une personne qui rejoint le groupe après coup **ne voit pas les messages épinglés avant son arrivée**.
 
     C'est pourquoi la **description du groupe** (permanente, visible par tous et dès la demande d'entrée) doit contenir le *disclaimer* et les règles vitales. La charte détaillée, elle, est transmise et validée **dans le groupe sas** avant l'entrée dans le groupe de confiance.
 

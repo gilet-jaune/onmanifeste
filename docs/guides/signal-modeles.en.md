@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: message templates to copy and paste for common situations.'
-source_commit: 8c023733f33fae4f875336a8514b4ec8d2e95247
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 review: juridique
 review_status: pending
 tags:
@@ -20,7 +20,7 @@ Replace what is in square brackets.
 
 !!! warning "Why a pinned message is not enough"
 
-    In Signal, a disappearing message is **automatically unpinned and removed** when its timer expires (1 day, 1 week…).[^signal-messages-epingles] Moreover, someone who joins the group later **does not see messages pinned before they arrived**.[^signal-messages-epingles]
+    In Signal, a disappearing message is **automatically unpinned and removed** when its timer expires (1 day, 1 week…).[^signal-messages-epingles] Moreover, someone who joins the group later **does not see messages pinned before they arrived**.
 
     This is why the **group description** (permanent, visible to all members and upon join request) must contain the disclaimer and vital rules. The detailed charter is shared and validated **in the airlock group** before admission to the trusted group.
 

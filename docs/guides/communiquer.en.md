@@ -1,6 +1,6 @@
 ---
 description: 'Communicating during a protest: Signal with network, Briar without, disappearing messages and good practice.'
-source_commit: cb5ae65d827d2291933b32866de8568220e13315
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 tags:
     - guides
     - communication
@@ -43,7 +43,7 @@ The mobile network can saturate, be jammed or be cut. The government can also se
 
 - **If only social media are blocked by DNS filtering**: encrypted messengers like {{ res("signal") }} generally keep working, and an account-free VPN ({{ res("mullvad-vpn") }}) or the Tor network ({{ res("orbot") }}, {{ res("tor-browser") }}) bypasses a carrier DNS block.[^blast-coupure-reseaux-2026]
 - **Briar or Meshtastic**: see the comparison above, to install and test beforehand if all mobile Internet is cut.
-- **PMR446 walkie-talkies**: usable without a licence or subscription across the European Union, a few kilometres of range in town.[^wiki-pmr446] But **nothing is encrypted**: anyone tuned to the same channel hears everything, police included.[^wiki-pmr446] Keep them for non-sensitive instructions ("we're moving", "point B") and agree on the channel beforehand.
+- **PMR446 walkie-talkies**: usable without a licence or subscription across the European Union, a few kilometres of range in town.[^wiki-pmr446] But **nothing is encrypted**: anyone tuned to the same channel hears everything, police included. Keep them for non-sensitive instructions ("we're moving", "point B") and agree on the channel beforehand.
 - **Texts and calls**: if only mobile data is cut, they may still get through, but they are not encrypted.
 - **The paper plan**, which never breaks down:
     - [ ] a fixed **meeting point** away from the route, and a **fallback time**: if you get separated, go there at the agreed time, then at the next one;

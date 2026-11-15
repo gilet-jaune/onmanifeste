@@ -70,7 +70,7 @@ Retirer quelqu'un d'un groupe ne coûte rien et se répare en une minute. Attend
 <div class="flow" markdown>
 
 1. **Vous voyez quelqu'un se faire embarquer** → écrivez **une ligne**, là où c'est le plus rapide pour vous (le groupe, ou un·e RH en privé) : `Alerte : [nom de militant·e] embarqué·e`. Rien d'autre dans le groupe : ni lieu, ni détails, ni nom d'une autre personne. L'heure, le lieu et si le téléphone était sur la personne vont **en privé** à un·e RH ou à la [legal team](../annuaire/index.md?tags=antirepression).
-2. **Le ou la premier·e gardien·ne qui voit l'alerte retire la personne de ce groupe, tout de suite**, sans attendre de confirmation ni de vote. Si elle est gardien·ne, retirez-lui d'abord ce rôle.[^signal-gerer-groupe] Dans le groupe, **supprimez l'alerte pour tout le monde**[^signal-gerer-groupe] et postez la réponse toute prête (ci-dessous).
+2. **Le ou la premier·e gardien·ne qui voit l'alerte retire la personne de ce groupe, tout de suite**, sans attendre de confirmation ni de vote. Si elle est gardien·ne, retirez-lui d'abord ce rôle.[^signal-gerer-groupe] Dans le groupe, **supprimez l'alerte pour tout le monde** et postez la réponse toute prête (ci-dessous).
 3. **Un·e RH ou le ou la référent·e « groupe perdu » consulte le registre** → liste des autres groupes de la personne ; leurs gardien·nes la retirent aussi, tout de suite, et y postent la même réponse.
 4. **Messages sensibles des dernières 24 heures** → un·e gardien·ne peut les supprimer pour tout le monde ;[^signal-gerer-groupe] la suppression n'atteint le téléphone saisi que s'il se reconnecte : n'y comptez pas.
 5. **Le suivi passe par la legal team** ([garde à vue](garde-a-vue.md)), pas par le groupe : on n'y commente pas l'arrestation.

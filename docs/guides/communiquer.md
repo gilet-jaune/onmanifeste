@@ -42,7 +42,7 @@ Le réseau mobile peut saturer, être brouillé ou coupé. Le gouvernement peut 
 
 - **Si seuls les réseaux sociaux sont bloqués par filtrage DNS** : les messageries chiffrées comme {{ res("signal") }} continuent en général de fonctionner, et un VPN sans compte ({{ res("mullvad-vpn") }}) ou le réseau Tor ({{ res("orbot") }}, {{ res("tor-browser") }}) permet de contourner un blocage DNS opérateur.[^blast-coupure-reseaux-2026]
 - **Briar ou Meshtastic** : voir le comparatif ci-dessus, à installer et tester avant si tout Internet mobile est coupé.
-- **Talkies-walkies PMR446** : utilisables sans licence ni abonnement dans toute l'Union européenne, quelques kilomètres de portée en ville.[^wiki-pmr446] Mais **rien n'est chiffré** : n'importe qui réglé sur le même canal entend tout, forces de l'ordre comprises.[^wiki-pmr446] Réservez-les aux consignes non sensibles (« on bouge », « point B ») et convenez du canal à l'avance.
+- **Talkies-walkies PMR446** : utilisables sans licence ni abonnement dans toute l'Union européenne, quelques kilomètres de portée en ville.[^wiki-pmr446] Mais **rien n'est chiffré** : n'importe qui réglé sur le même canal entend tout, forces de l'ordre comprises. Réservez-les aux consignes non sensibles (« on bouge », « point B ») et convenez du canal à l'avance.
 - **SMS et appels** : si seules les données sont coupées, ils peuvent encore passer, mais ils ne sont pas chiffrés.
 - **Le plan papier**, qui ne tombe jamais en panne :
 

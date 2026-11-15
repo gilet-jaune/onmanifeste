@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups to organise while limiting leaks: public group, airlock group, trusted group. Overview.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 review: juridique
 review_status: pending
 tags:
@@ -48,7 +48,7 @@ Pick your role (new member, member, recruiter, secretary, HR, keyholder, liaison
 
 !!! warning "Encrypting is legal, but it can be turned against you"
 
-    Using Signal is not an offence. In the so-called "8 December" case, the DGSI describes the defendants as having adopted "clandestine behaviour" with encrypted applications, Tails and Tor, and that wording recurs very often in the file, according to La Quadrature du Net, which analysed it before the trial.[^lqdn-8-decembre] The seven defendants were convicted in December 2023 of terrorist criminal association.[^politis-8-decembre] Neither source says encryption was judged to be an offence: it is cited as an **indicator**. This is a serious case and very far from an ordinary demonstration, but it shows you can be read back: **write nothing you would not want quoted**, and do not count on encryption to protect you from a hostile reading.
+    Using Signal is not an offence. In the so-called "8 December" case, the DGSI describes the defendants as having adopted "clandestine behaviour" with encrypted applications, Tails and Tor, According to La Quadrature du Net, which analysed the file before the trial, that wording recurs very often in it.[^lqdn-8-decembre] The seven defendants were convicted in December 2023 of terrorist criminal association.[^politis-8-decembre] Neither source says encryption was judged to be an offence: it is cited as an **indicator**. This is a serious case and very far from an ordinary demonstration, but it shows you can be read back: **write nothing you would not want quoted**, and do not count on encryption to protect you from a hostile reading.
 
 !!! warning "Assume someone is reading"
 
@@ -56,7 +56,7 @@ Pick your role (new member, member, recruiter, secretary, HR, keyholder, liaison
 
 !!! tip "This guide is public: adapt it"
 
-    The police can read it too, and that is not a problem: your security does not rest on keeping the method secret, but on what is written nowhere here (who is in which group, your IDs, the register, meeting places, who your HR and keyholders are). **Change the role names, labels and group naming scheme** rather than copying the guide's: on a seized phone, they won't immediately point to your key people.
+    The police can read it too, and that is not a problem. Your security does not rest on keeping the method secret, but on what is written nowhere here: who is in which group, your IDs, the register, meeting places, who your HR and keyholders are. **Change the role names, labels and group naming scheme** rather than copying the guide's: on a seized phone, they won't immediately point to your key people.
 
 ## The groups
 

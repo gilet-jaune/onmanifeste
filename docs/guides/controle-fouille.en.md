@@ -1,6 +1,6 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_commit: 121f17310f7582882e0ec983138e80193d7b75f3
 review: juridique
 review_status: pending
 tags:
@@ -60,7 +60,7 @@ No law bans wearing protection as long as it does not hide your face, but seizur
 
 The sources we read provide for handing over an identity document only in a few specific cases:
 
-- **During the check**: you can prove your identity **by any means** (ID card, passport, licence, but also a birth certificate, a student card, or the word of someone with you). If you cannot or refuse to, you can be **held** for an identity verification, **4 hours at most**, with the right to have the prosecutor and a person of your choice informed, and a copy of the record is given to you at the end.[^sp-controle][^cpp-78-3]
+- **During the check**: you can prove your identity **by any means** (ID card, passport, licence, but also a birth certificate, a student card, or the word of someone with you). If you cannot or refuse to, you can be **held** for an identity verification, **4 hours at most**. You have the right to have the prosecutor and a person of your choice informed, and a copy of the record is given to you at the end.[^sp-controle][^cpp-78-3]
 - **Identity recording** (municipal police, customs, SNCF, RATP…): you are asked to justify your identity so a fine can be recorded. If you refuse, the officer must alert a judicial police officer (OPJ); if none can be reached, the officer **has no right to hold you**.[^sp-controle]
 - **Foreign nationals** without a residence document: taken to a police station to check their right to stay.[^sp-controle]
 - **Judicial supervision** (ordered by an investigating judge or a judge of liberties and detention, never by an officer on the street): the judge may require you to **hand over to the court registry, police or gendarmerie** all identity documents, notably the passport, **in exchange for a receipt that serves as proof of identity**.[^cpp-138]

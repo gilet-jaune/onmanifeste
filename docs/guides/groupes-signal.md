@@ -47,7 +47,7 @@ Choisissez votre rôle (nouveau membre, membre, recruteur·se, secrétaire, RH, 
 
 !!! warning "Chiffrer est légal, mais cela peut être retourné contre vous"
 
-    Utiliser Signal n'est pas une infraction. Dans l'affaire dite du 8 décembre, la DGSI décrit les mis en cause comme ayant adopté un « comportement clandestin » avec des applications chiffrées, Tails et Tor, et cette formule revient très souvent dans le dossier, selon La Quadrature du Net, qui l'a analysé avant le procès.[^lqdn-8-decembre] Les sept prévenus ont été condamnés en décembre 2023 pour association de malfaiteurs terroriste.[^politis-8-decembre] Aucune de ces deux sources ne dit que le chiffrement a été jugé comme une infraction : il est cité comme **indice**. Ce dossier est un cas grave et très éloigné d'une manifestation ordinaire, mais il montre qu'on peut vous relire : **n'écrivez rien que vous ne voudriez pas voir cité**, et ne comptez pas sur le chiffrement pour vous protéger d'une lecture hostile.
+    Utiliser Signal n'est pas une infraction. Dans l'affaire dite du 8 décembre, la DGSI décrit les mis en cause comme ayant adopté un « comportement clandestin » avec des applications chiffrées, Tails et Tor. Selon La Quadrature du Net, qui a analysé le dossier avant le procès, cette formule y revient très souvent.[^lqdn-8-decembre] Les sept prévenus ont été condamnés en décembre 2023 pour association de malfaiteurs terroriste.[^politis-8-decembre] Aucune de ces deux sources ne dit que le chiffrement a été jugé comme une infraction : il est cité comme **indice**. Ce dossier est un cas grave et très éloigné d'une manifestation ordinaire, mais il montre qu'on peut vous relire : **n'écrivez rien que vous ne voudriez pas voir cité**, et ne comptez pas sur le chiffrement pour vous protéger d'une lecture hostile.
 
 !!! warning "Partez du principe que quelqu'un lit"
 
@@ -55,7 +55,7 @@ Choisissez votre rôle (nouveau membre, membre, recruteur·se, secrétaire, RH, 
 
 !!! tip "Ce guide est public : adaptez-le"
 
-    La police peut le lire aussi, et ce n'est pas un problème : votre sécurité ne repose pas sur le secret de la méthode, mais sur ce qui n'est écrit nulle part ici (qui est dans quel groupe, vos identifiants, le registre, les lieux de rencontre, qui sont vos RH et vos gardien·nes). **Changez les noms de rôles, de libellés et la nomenclature des groupes** plutôt que de reprendre ceux du guide : sur un téléphone saisi, ils ne désigneront pas d'emblée vos personnes clés.
+    La police peut le lire aussi, et ce n'est pas un problème. Votre sécurité ne repose pas sur le secret de la méthode, mais sur ce qui n'est écrit nulle part ici : qui est dans quel groupe, vos identifiants, le registre, les lieux de rencontre, qui sont vos RH et vos gardien·nes. **Changez les noms de rôles, de libellés et la nomenclature des groupes** plutôt que de reprendre ceux du guide : sur un téléphone saisi, ils ne désigneront pas d'emblée vos personnes clés.
 
 ## Les groupes
 

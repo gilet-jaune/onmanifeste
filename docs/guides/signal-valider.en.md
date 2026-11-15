@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: building trust before admitting someone to a trusted group.'
-source_commit: 8c023733f33fae4f875336a8514b4ec8d2e95247
+source_commit: 97362284a9a77a862e641c20800ebcce6b12eb2a
 review: juridique
 review_status: pending
 tags:
@@ -150,7 +150,7 @@ With open-door recruitment, most people have no voucher. The preferred route is 
 
 ## Recruiting by co-option: a vetted member proposes
 
-When a vetted member **already knows** the person (friend, colleague, union, seen in action at several actions), they do not need to go through the public group or the airlock: it is the fastest route, often the same day or the next. These are organising rules, not law.
+When a vetted member **already knows** the person (friend, colleague, union, seen in action at several actions), they do not need to go through the public group or the airlock: it is the fastest route, often the same day or the next.
 
 {{ route("co-option") }}
 

@@ -149,7 +149,7 @@ Une personne entre par la **voie ouverte** (personne ne la connaît encore) ou p
 
 ## Recruter par cooptation : un membre vérifié propose
 
-Quand un membre vérifié **connaît déjà** la personne (ami·e, collègue, syndicat, vue agir sur plusieurs actions), elle n'a pas besoin de passer par le groupe public ni par le sas : c'est la voie la plus rapide, souvent le jour même ou le lendemain. Ce sont des règles d'organisation, pas du droit.
+Quand un membre vérifié **connaît déjà** la personne (ami·e, collègue, syndicat, vue agir sur plusieurs actions), elle n'a pas besoin de passer par le groupe public ni par le sas : c'est la voie la plus rapide, souvent le jour même ou le lendemain.
 
 {{ route("co-option") }}
 

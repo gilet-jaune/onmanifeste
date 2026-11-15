@@ -1,6 +1,6 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 review: medical
 review_status: pending
 tags:
@@ -83,7 +83,7 @@ See a doctor if breathing difficulty, eye pain or vomiting lasts several hours, 
 
     Better to call for nothing than too late. You can give **first aid** (chest compressions, recovery position, quick disinfection, pressure point): these are first-aider skills. **Medical procedures** (stitching, blood sampling, tracheotomy, removing fragments) are on the other hand **strongly discouraged**, and **do not give medication**. One exception: an asthmatic person in respiratory distress who asks for their inhaler. They know their treatment, **help them take it**, do not refuse it.[^medicaction-gestes][^pse-recueil]
 
-    According to Médic'Action, first aid given does not fall, in practice, under the offence of practising medicine illegally, and it knows of no prosecution for it.[^medicaction-touxtes] **Helping a person in danger**, when you can do so without risk to yourself or others, is not optional: deliberately failing to do so is an offence (5 years and €75,000).[^cp-223-6] Médic'Action adds that if you hold a first-aid diploma (PSE1/PSE2) or are a health professional, you are all the more bound to assist an injured person.[^medicaction-touxtes]
+    According to Médic'Action, first aid given does not fall, in practice, under the offence of practising medicine illegally, and it knows of no prosecution for it.[^medicaction-touxtes] **Helping a person in danger**, when you can do so without risk to yourself or others, is not optional: deliberately failing to do so is an offence (5 years and €75,000).[^cp-223-6] Médic'Action adds that if you hold a first-aid diploma (PSE1/PSE2) or are a health professional, you are all the more bound to assist an injured person.
 
 **First contact**: channel the crowd by speaking clearly and **assigning tasks to specific people** ("you in the red T-shirt, call 15"), to avoid the bystander effect. Priorities depend on the situation: form a **safety perimeter** if the area is dangerous, watch the surroundings, call the emergency services.[^medicaction-gestes]
 

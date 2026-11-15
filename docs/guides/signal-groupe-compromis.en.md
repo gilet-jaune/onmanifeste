@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: what to do when a group is compromised (seized phone, leak, arrest).'
-source_commit: 8c023733f33fae4f875336a8514b4ec8d2e95247
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 review: juridique
 review_status: pending
 tags:
@@ -71,7 +71,7 @@ Removing someone from a group costs nothing and is fixed in a minute. Waiting to
 <div class="flow" markdown>
 
 1. **You see someone being taken away** → write **one line**, wherever is fastest for you (the group, or HR in private): `Alert: [activist name] taken away`. Nothing else in the group: no place, no details, no other person's name. The time, the place and whether they had their phone go **in private** to HR or to the [legal team](../annuaire/index.md?tags=antirepression).
-2. **The first keyholder who sees the alert removes the person from that group straight away**, without waiting for confirmation or a vote. If they are a keyholder, remove that role first.[^signal-gerer-groupe] In the group, **delete the alert for everyone**[^signal-gerer-groupe] and post the ready-made reply (below).
+2. **The first keyholder who sees the alert removes the person from that group straight away**, without waiting for confirmation or a vote. If they are a keyholder, remove that role first.[^signal-gerer-groupe] In the group, **delete the alert for everyone** and post the ready-made reply (below).
 3. **HR or the "lost group" lead checks the register** → list of the person's other groups; their keyholders remove them too, straight away, and post the same reply there.
 4. **Sensitive messages from the last 24 hours** → a keyholder can delete them for everyone;[^signal-gerer-groupe] the deletion only reaches the seized phone if it reconnects: don't rely on it.
 5. **Follow-up goes through the legal team** ([police custody](garde-a-vue.md)), not the group: the arrest is not discussed there.

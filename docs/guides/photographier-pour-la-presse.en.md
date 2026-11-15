@@ -1,6 +1,6 @@
 ---
 description: 'Photographing and filming for the press at protests: status, freedom to inform, image rights and good practice.'
-source_commit: 6dd932c1af888540fd6739595476ea7751bd1073
+source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
 review: juridique
 review_status: pending
 tags:
@@ -42,7 +42,7 @@ This guide complements [Filming law enforcement](filmer.md), which covers backup
 
 - [ ] **A "PRESS" armband and distinctive signs are allowed, not mandatory.** This is what CFDT-Journalistes reports, citing the 2021 national policing doctrine (SNMO); we could not read the official text. To establish your status, you can show the French press card, the international press card or an employer's certificate.[^cfdt-journalistes-faq]
 - [ ] **Wearing it or not is a trade-off.** RSF advises keeping an armband easily accessible and putting it on only when the risk of being mistaken for a protester during a police charge is greater than the risk of being attacked because you are a journalist. Where applicable, it also recommends identifying yourself to law enforcement at the start of the protest.[^rsf-guide-2017]
-- [ ] **Helmet**: light, climbing or ski type, easy to put on and take off, preferably without ventilation holes.[^rsf-guide-2017] **Mask**: gas mask or, failing that, swimming goggles, a ski mask, even a paint mask with cartridges covering nose and mouth; a scarf helps against low concentrations of gas.[^rsf-guide-2017] For details on models: [Protest kit and outfit](kit-manif.md#protection).
+- [ ] **Helmet**: light, climbing or ski type, easy to put on and take off, preferably without ventilation holes.[^rsf-guide-2017] **Mask**: gas mask or, failing that, swimming goggles, a ski mask, even a paint mask with cartridges covering nose and mouth; a scarf helps against low concentrations of gas. For details on models: [Protest kit and outfit](kit-manif.md#protection).
 - [ ] **Take the gear out when the situation deteriorates**, not from the start: RSF notes that peaceful protesters may take it badly.[^rsf-guide-2017]
 - [ ] **Protective vest**: weigh the risks. Hidden, you may be mistaken for a plainclothes police officer; with "PRESS" displayed, you expose yourself to protesters hostile to journalists.[^rsf-guide-2017]
 - [ ] **The Interior Minister cannot impose conditions on journalists wearing protective gear**, any more than on anyone who protests or attends one (Conseil d'État, 2021).[^ce-snmo-actualite] This is no guarantee on the ground: equipment can be seized during a search and a prefectoral order can ban some protective gear (see [Protest kit and outfit](kit-manif.md#protection) and [identity checks and searches](controle-fouille.md)).
