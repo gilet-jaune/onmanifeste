@@ -1,6 +1,6 @@
 ---
 description: 'Security and counter-terrorism laws since 1935 (state of emergency, anti-rioters, algorithmic cameras, "casseurs-payeurs") and what they change for protesting.'
-source_commit: 8a5093c0f08d562f95b41f93b222df7115f5b3e8
+source_commit: c5a1f84ef8b8cd86c0474b18727907a1ce026d4e
 review: juridique
 review_status: pending
 tags:
@@ -88,6 +88,25 @@ To our knowledge, there is no single figure for the number of high-school and un
 - **Associations' figures.** A statement by the LDH, the FIDH and the OMCT (9 October) gives "6,629 arrests" as of 7 October and more than 5,000 police custodies, 87% of them minors. These figures match the official tallies above, but the statement does not cite its source.[^ldh-repression-lyceens] A joint statement by twelve organisations (5 October) announces "5,000 arrests" in under a week, 2,000 of them on 1 October, also without a source.[^ldh-communique-commun-jeunes-2026] A report by the Montpellier Public Liberties Observatory puts forward more than 6,000 arrests in under two weeks, 85% of them minors, without a source; it itself counts, in Montpellier, about fifteen arrests on 1 October and about ten on 2 October.[^olm-police-municipale-montpellier-2026] The LDH's 23 October op-ed mentions about 5,900 police custodies of minors, without stating where the figure comes from.[^ldh-tribune-casseurs-payeurs-2026]
 - **The Defender of Rights** gives no arrest figure, but speaks of an "unprecedented" scale and has received 55 complaints, 21 of them concerning minors.[^ddd-mobilisations-lyceennes-2026]
 - **Why they cannot be compared.** Cut-off dates differ, and so do the units: one outlet wrongly applies the 87% (which holds for police custodies) to arrests. Minors are about 87% in the high-school movement tallies and 30% in the one for the mobilisation since 17 October. We publish no total and found no separate figure for university students.
+
+## Injuries: law enforcement and demonstrators
+
+There is no common count. Law-enforcement injuries are counted daily by the administration, which itself grades their severity; for demonstrators, we found no published national tally, only an oral indication by the minister.
+
+| Date and source | Law enforcement | Demonstrators |
+| --- | --- | --- |
+| 13 October, Interior Minister, relayed by Libération | "nearly 900" since the start of the student movement | 215 students "reportedly injured"; the figure's origin does not appear in the readable part of the article[^liberation-checknews-900-blesses-2026] |
+| 17 October, ministry's consolidated tally (18 October) | 997 injured, 7 seriously[^bfmtv-bilan-17-octobre-2026] | no figure |
+| 24 October, ministry press release (provisional, 7:30) | 53; the same release gives 1,144 for 17 October, against 997 above[^interieur-bilan-24-octobre-2026] | no figure |
+| 24 October, minister on BFM TV and RMC (26 October) | "267 injured" | "about 250" "among demonstrators"[^bfmtv-nunez-blesses-24-octobre-2026] |
+| 14 November, 6 pm, ministry press release | 10 police officers "lightly injured"[^interieur-bilan-14-novembre-2026] | no figure |
+| October, internal CRS file (Mediapart, 13 November) | 1,233 CRS officers injured, 1,167 of them "lightly"[^mediapart-crs-fichier-interne-2026] | not applicable |
+
+- **What "light" means.** In the CRS file, it is the administration's own classification, not an independent measure. The minister cited 761 injured on 8 October, 937 on 14 October and 1,580 on 5 November; according to Mediapart, his office refuses to say how many are seriously injured and in what circumstances.[^mediapart-crs-fichier-interne-2026] Mediapart does not publish the file: we rely on what the investigation describes of it (read in full).
+- **What the file details, according to Mediapart.** Of the 1,233 injured, 599 were injured on 17 October (47 companies deployed), nearly half of the month. Injuries are mostly bruises; 117 officers mention tinnitus and only four fractures are listed. The origin of an injury is not a mandatory field: only about twenty officers state it, and twelve point to a third party. Of the 66 cases judged most serious, three officers were taken to hospital. The file also lists accidents (a wrist hurt closing a vehicle door, an ankle twisted getting out of a van): they count in the overall tally.[^mediapart-crs-fichier-interne-2026]
+- **A phrase not to repeat.** Some summaries write that 95% of police injuries are "light and self-inflicted". The investigation does not speak of "self-inflicted" injuries: it says 94.6% of those injured are classed "light" by the administration, and gives accidents as examples. We do not repeat the phrase.
+- **The figures are not comparable.** Periods differ (since the start of the movement, one day, one month), and so do scopes (police and gendarmes, or CRS only) and definitions. A single tally can also move: for 17 October, the ministry gives 997 then 1,144.
+- **For demonstrators**, serious injuries are documented case by case, along with independent counting databases: see [Injured and killed at protests](../victimes/index.md) and [Police weapons](../guides/armes-police.md).
 
 ## The example of the health crisis (Covid-19)
 

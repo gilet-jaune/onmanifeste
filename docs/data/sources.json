@@ -8360,6 +8360,84 @@
         "by": "ai"
       }
     },
+    "interieur-bilan-24-octobre-2026": {
+      "title": {
+        "fr": "Ministère de l'Intérieur — Bilan de la journée de mobilisation nationale du 24 octobre 2026 (communiqué du 25 octobre)",
+        "en": "Interior Ministry — Tally of the 24 October 2026 national mobilisation day (press release of 25 October; in French)"
+      },
+      "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/bilan-de-journee-de-mobilisation-nationale-du-24-octobre-2026",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Bilan provisoire de 7 h 30 ; le communiqué donne aussi un chiffre pour le 17 octobre.",
+        "by": "ai"
+      }
+    },
+    "interieur-bilan-14-novembre-2026": {
+      "title": {
+        "fr": "Ministère de l'Intérieur — Bilan de la mobilisation du 14 novembre 2026 (communiqué)",
+        "en": "Interior Ministry — Tally of the 14 November 2026 mobilisation (press release; in French)"
+      },
+      "url": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/bilan-de-mobilisation-du-14-novembre-2026-participation-en-baisse-des-incidents-violents-dans-de",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Bilan de 18 h, provisoire.",
+        "by": "ai"
+      }
+    },
+    "bfmtv-bilan-17-octobre-2026": {
+      "title": {
+        "fr": "BFM TV — Violences du 17 octobre : le ministère de l'Intérieur recense 2 397 interpellations, 997 policiers et gendarmes blessés dont 7 graves (18 octobre)",
+        "en": "BFM TV — Violence of 17 October: the Interior Ministry counts 2,397 arrests, 997 police and gendarmes injured, 7 seriously (18 October; in French)"
+      },
+      "url": "https://www.bfmtv.com/police-justice/violences-du-7-octobre-le-ministere-de-l-interieur-recense-2-397-interpellations-997-policiers-et-gendarmes-blesses-dont-7-graves_AD-202610180350.html",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Article lu en entier ; bilan présenté comme consolidé par le ministère.",
+        "by": "ai"
+      }
+    },
+    "bfmtv-nunez-blesses-24-octobre-2026": {
+      "title": {
+        "fr": "BFM TV — Manifestations du 24 octobre : Laurent Nuñez fait état de « 267 blessés » chez les forces de l'ordre et environ 250 blessés « parmi les manifestants » (26 octobre)",
+        "en": "BFM TV — 24 October demonstrations: Laurent Nuñez cites '267 injured' among law enforcement and about 250 injured 'among demonstrators' (26 October; in French)"
+      },
+      "url": "https://www.bfmtv.com/politique/video-manifestations-du-24-octobre-laurent-nunez-fait-etat-de-267-blesses-chez-les-forces-de-l-ordre-et-environ-250-blesses-parmi-les-manifestants_VN-202610260238.html",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Page vidéo : seuls le titre et le chapeau sont lisibles ; la définition de « blessé » n'est pas donnée.",
+        "by": "ai"
+      }
+    },
+    "liberation-checknews-900-blesses-2026": {
+      "title": {
+        "fr": "Libération (CheckNews) — Mobilisation lycéenne : que recouvre le chiffre de 900 policiers et gendarmes blessés annoncé par le ministre de l'Intérieur ? (14 octobre)",
+        "en": "Libération (CheckNews) — Student mobilisation: what does the figure of 900 police and gendarmes injured announced by the Interior Minister cover? (14 October; in French)"
+      },
+      "url": "https://www.liberation.fr/checknews/mobilisation-lyceenne-que-recouvre-le-chiffre-de-900-policiers-et-gendarmes-blesses-annonce-par-le-ministre-de-linterieur-20261014_PKSVVAJHORC4NNHQWDFHOXLRB4/",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Article payant : seul le début est lisible ; l'analyse du chiffre n'a pas pu être lue.",
+        "by": "ai"
+      }
+    },
+    "mediapart-crs-fichier-interne-2026": {
+      "title": {
+        "fr": "Mediapart — CRS blessés : le fichier interne qui dégonfle le bilan du ministre (13 novembre 2026)",
+        "en": "Mediapart — Injured riot police: the internal file that deflates the minister's tally (13 November 2026; paywalled, in French)"
+      },
+      "url": "https://www.mediapart.fr/journal/france/131126/crs-blesses-le-fichier-interne-qui-degonfle-le-bilan-du-ministre",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Article payant lu en entier le 15 novembre 2026. Le fichier des CRS n'est pas publié : les chiffres sont ceux que Mediapart en rapporte.",
+        "by": "ai"
+      }
+    },
     "cc-decision-2005-38-ref": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2005-38 REF du 1er juin 2005 (proclamation des résultats du référendum du 29 mai 2005)",
