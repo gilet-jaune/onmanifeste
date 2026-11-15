@@ -1,6 +1,6 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: 42feadcde99b7f9b1c26aef01ad7741e7d55d88a
+source_commit: 9a1f7ac100ef86634174a3cb21022faf312f07fd
 review: juridique
 review_status: pending
 tags:
@@ -23,6 +23,22 @@ tags:
 !!! warning "Disclaimer"
 
     General information about French law, not legal advice. If you face prosecution or want to contest a fine, ask a lawyer or a legal team.
+
+## Flowchart: you are being checked, what to do?
+
+<div class="flow" markdown>
+
+1. **Who is checking you?**
+    - **Police officer or gendarme** → prove your identity **by any means**; with no proof, or if you refuse, you can be held for **4 hours at most**, which is **not** police custody.[^sp-controle]
+    - **Private security agent** → we found no power to check identity or search people on the public road.[^csi-l613-1]
+2. **What do they want to examine?**
+    - **Your bag, looking only** → possible with your agreement; if you refuse, access can be refused or a judicial police officer (OPJ) called.[^sp-fouille]
+    - **The bag's contents** → reserved to an **OPJ**, in flagrante delicto, in case of serious threat or on the prosecutor's **written order**.[^sp-fouille][^sm-guide]
+    - **Your body, over clothing** → pat-down by a person of the **same sex**; private agent: only with your **express consent**.[^sp-fouille][^csi-l613-2] For trans people, see [the dedicated section](controle-fouille.md#trans-or-non-binary-people-pat-down-and-search).
+3. **An item is confiscated?** → do not resist physically, ask for a receipt, note the time, place and badge number.[^sm-guide]
+4. **€135 fine on the spot?** → do not pay right away if you want to contest: wait for the notice and file an exoneration request within **45 days**.[^sp-amende]
+
+</div>
 
 ## ID check and identity verification
 

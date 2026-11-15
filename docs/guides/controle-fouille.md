@@ -23,6 +23,22 @@ tags:
 
     Fiche générale, pas un conseil juridique. En cas de suite judiciaire ou d'amende à contester, demandez conseil à un·e avocat·e ou à une legal team.
 
+## Schéma : on vous contrôle, que faire ?
+
+<div class="flow" markdown>
+
+1. **Qui vous contrôle ?**
+    - **Policier ou gendarme** → justifiez de votre identité **par tout moyen** ; sans justificatif ou en cas de refus, vous pouvez être retenu·e **4 heures au plus**, ce qui n'est **pas** une garde à vue.[^sp-controle]
+    - **Agent de sécurité privée** → nous n'avons trouvé aucun pouvoir de contrôle d'identité ni de fouille sur la voie publique.[^csi-l613-1]
+2. **Que veut-on examiner ?**
+    - **Votre sac, regard seulement** → possible avec votre accord ; si vous refusez, l'accès peut être refusé ou un OPJ appelé.[^sp-fouille]
+    - **Le contenu du sac** → réservé à un **OPJ**, en flagrant délit, menace grave ou sur **réquisition écrite du procureur**.[^sp-fouille][^sm-guide]
+    - **Votre corps, par-dessus les vêtements** → palpation par une personne du **même sexe** ; agent privé : avec votre **consentement exprès** seulement.[^sp-fouille][^csi-l613-2] Pour les personnes trans, voir [la section dédiée](controle-fouille.md#personnes-trans-ou-non-binaires-palpation-et-fouille).
+3. **On vous confisque un objet ?** → ne vous opposez pas physiquement, demandez un justificatif, notez l'heure, le lieu et le matricule.[^sm-guide]
+4. **Amende de 135 € sur place ?** → ne payez pas tout de suite si vous voulez contester : attendez l'avis de contravention et formulez une requête en exonération dans les **45 jours**.[^sp-amende]
+
+</div>
+
 ## Contrôle et vérification d'identité
 
 - En France, vous n'avez pas l'obligation légale de porter une carte d'identité sur vous (sauf personnes étrangères qui doivent pouvoir justifier de leur droit au séjour), mais vous devez **justifier de votre identité** par tout moyen lors d'un contrôle régulier.[^sp-controle][^sp-retenue]

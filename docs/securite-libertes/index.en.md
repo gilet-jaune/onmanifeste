@@ -1,6 +1,6 @@
 ---
 description: 'Security and counter-terrorism laws since 1935 (state of emergency, anti-rioters, algorithmic cameras, "casseurs-payeurs") and what they change for protesting.'
-source_commit: 121f17310f7582882e0ec983138e80193d7b75f3
+source_commit: 8a5093c0f08d562f95b41f93b222df7115f5b3e8
 review: juridique
 review_status: pending
 tags:
@@ -69,6 +69,17 @@ The text targets knowingly taking part in a violent group, or staying in an unla
 ## Arrests: the autumn 2026 figures
 
 To our knowledge, there is no single figure for the number of high-school and university students arrested. The published tallies cover different periods and scopes, and "arrest", "police custody" and "brought before a court" are not the same stage.
+
+<figure class="stack-bars">
+<figcaption>Police custody by tally: share of minors and adults</figcaption>
+<p class="stack-bars__legend"><span class="stack-bars__key stack-bars__key--minor"></span> Minors <span class="stack-bars__key stack-bars__key--major"></span> Adults</p>
+<ul class="stack-bars__list">
+<li><p class="stack-bars__label">5 October, Ministry of Justice, since the violence began (student movement) : <strong>5,060</strong> police custody placements</p><div class="stack-bars__bar" role="img" aria-label="4,406 minors (87%), 654 adults (13%)"><span class="stack-bars__minor" style="width:87.1%">87%</span><span class="stack-bars__major" style="width:12.9%">13%</span></div></li>
+<li><p class="stack-bars__label">Mid-October, tally attributed to the Ministry of Justice (period not stated) : <strong>7,950</strong> police custody placements</p><div class="stack-bars__bar" role="img" aria-label="6,773 minors (85%), 1,177 adults (15%)"><span class="stack-bars__minor" style="width:85.2%">85%</span><span class="stack-bars__major" style="width:14.8%">15%</span></div></li>
+<li><p class="stack-bars__label">3 November, Justice Minister, "cost of living" mobilisation since 17 October : <strong>4,914</strong> police custody placements</p><div class="stack-bars__bar" role="img" aria-label="30% minors, 70% adults"><span class="stack-bars__minor" style="width:30.0%">30%</span><span class="stack-bars__major" style="width:70.0%">70%</span></div></li>
+</ul>
+<p class="stack-bars__note">Three tallies covering different periods and scopes: do not add them up. The figures and their sources are detailed in the bullets below.</p>
+</figure>
 
 - **Arrests, high-school movement (Interior Ministry).** 6,059 since 28 September according to a local paper (6 October, source not named), 6,547 before the 8 October demonstration according to media citing the Interior Ministry, and 6,629 as of 7 October according to a local news site.[^laclepublique-lyceens-justice-2026][^basta-interpellations-lyceens-2026][^brut-nunez-grenades-assourdissantes-2026][^pandore-nunez-grenades-assourdissantes-2026] On the law-enforcement side, 715 police and gendarmes injured since 28 September according to the Interior Ministry, 761 according to another relay.
 - **Police custody and follow-up (Justice Ministry, 5 October).** 5,060 police custodies since the start of the violence, 4,406 of them minors (87%) and 654 adults; 1,802 people prosecuted (1,483 minors, 319 adults), 1,376 alternative measures and 14 pre-trial detentions. The Justice Minister asked the chief prosecutors to bring, "as far as possible", the civil liability of the parents of arrested minors.[^actu17-justice-gav-lyceens-2026][^laclepublique-lyceens-justice-2026]

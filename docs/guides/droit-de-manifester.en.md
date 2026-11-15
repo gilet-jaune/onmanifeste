@@ -1,6 +1,6 @@
 ---
 description: 'The right to protest in France: declaration, undeclared or banned protests, what the law says.'
-source_commit: dcde73a8018f34220f86507b65014e92ebf692ef
+source_commit: 9a1f7ac100ef86634174a3cb21022faf312f07fd
 review: juridique
 review_status: pending
 tags:
@@ -23,6 +23,19 @@ In France, demonstrating is a **freedom**, not a permission you ask for. The Sta
 ## At a glance: the timeline
 
 {{ route("demonstration-calendar") }}
+
+## Flowchart: declared, undeclared, banned
+
+<div class="flow" markdown>
+
+1. **Has a ban order been published?** → check the prefecture's website and social media.[^ldh-manif-interdite]
+2. **No, but the demonstration is not declared** → taking part is **not** an offence; the risks (up to 6 months and €7,500) fall on the **organisers**.[^ldh-manif-interdite][^sp-declarer-manifestation]
+3. **Yes, it is banned** →
+    - **Taking part**: a **€135** fine, with no arrest or police custody for this contravention alone; you can contest it.[^ldh-manif-interdite]
+    - **Challenging the ban**: organisers, associations or unions apply to the administrative court for a **référé-liberté** (an answer within 48 hours if urgent).[^justice-refere-liberte]
+4. **Someone bans you from demonstrating personally?** → only a **judge** can (3 years at most); breaking it is an offence. If one is served on you, see a lawyer straight away.[^cc-2019-780][^cp-434-38-1]
+
+</div>
 
 ## What the law says
 

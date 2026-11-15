@@ -23,6 +23,19 @@ En France, manifester est une **liberté**, pas une autorisation qu'on demande. 
 
 {{ route("demonstration-calendar") }}
 
+## Schéma : déclarée, non déclarée, interdite
+
+<div class="flow" markdown>
+
+1. **Un arrêté d'interdiction est-il publié ?** → vérifiez le site et les réseaux de la préfecture.[^ldh-manif-interdite]
+2. **Non, mais la manifestation n'est pas déclarée** → participer n'est **pas** une infraction ; les risques (jusqu'à 6 mois et 7 500 €) pèsent sur les **organisateur·ices**.[^ldh-manif-interdite][^sp-declarer-manifestation]
+3. **Oui, elle est interdite** →
+    - **Participer** : amende de **135 €**, sans interpellation ni garde à vue pour cette seule contravention ; vous pouvez la contester.[^ldh-manif-interdite]
+    - **Contester l'interdiction** : organisateur·ices, associations ou syndicats saisissent le tribunal administratif en **référé-liberté** (réponse sous 48 heures en cas d'urgence).[^justice-refere-liberte]
+4. **Quelqu'un vous interdit de manifester à titre personnel ?** → seul un·e **juge** le peut (3 ans au plus) ; la désobéir est un délit. Si on vous en notifie une, voyez un·e avocat·e tout de suite.[^cc-2019-780][^cp-434-38-1]
+
+</div>
+
 ## Ce que dit le droit
 
 - La Constitution ne cite pas le mot « manifestation », mais le Conseil constitutionnel protège le **« droit d'expression collective des idées et des opinions »**, rattaché à la liberté d'expression de la Déclaration des droits de l'homme de 1789.[^cc-94-352]

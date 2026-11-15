@@ -69,6 +69,17 @@ Le texte vise la participation « sciemment » à un groupement violent, ou le m
 
 Il n'existe pas, à notre connaissance, de chiffre unique du nombre de lycéen·nes et d'étudiant·es interpellé·es. Les bilans publiés couvrent des périodes et des périmètres différents, et « interpellation », « garde à vue » et « déféré·e » ne désignent pas la même étape.
 
+<figure class="stack-bars">
+<figcaption>Gardes à vue par bilan : part de mineur·es et de majeur·es</figcaption>
+<p class="stack-bars__legend"><span class="stack-bars__key stack-bars__key--minor"></span> Mineur·es <span class="stack-bars__key stack-bars__key--major"></span> Majeur·es</p>
+<ul class="stack-bars__list">
+<li><p class="stack-bars__label">5 octobre, ministère de la Justice, depuis le début des violences (mouvement lycéen) : <strong>5 060</strong> gardes à vue</p><div class="stack-bars__bar" role="img" aria-label="4 406 mineur·es (87 %), 654 majeur·es (13 %)"><span class="stack-bars__minor" style="width:87.1%">87 %</span><span class="stack-bars__major" style="width:12.9%">13 %</span></div></li>
+<li><p class="stack-bars__label">Mi-octobre, bilan attribué au ministère de la Justice (période non précisée) : <strong>7 950</strong> gardes à vue</p><div class="stack-bars__bar" role="img" aria-label="6 773 mineur·es (85 %), 1 177 majeur·es (15 %)"><span class="stack-bars__minor" style="width:85.2%">85 %</span><span class="stack-bars__major" style="width:14.8%">15 %</span></div></li>
+<li><p class="stack-bars__label">3 novembre, garde des Sceaux, mobilisation « vie chère » depuis le 17 octobre : <strong>4 914</strong> gardes à vue</p><div class="stack-bars__bar" role="img" aria-label="30 % de mineur·es, 70 % de majeur·es"><span class="stack-bars__minor" style="width:30.0%">30 %</span><span class="stack-bars__major" style="width:70.0%">70 %</span></div></li>
+</ul>
+<p class="stack-bars__note">Trois bilans aux périodes et aux périmètres différents : ne les additionnez pas. Les chiffres et leurs sources sont détaillés dans les puces ci-dessous.</p>
+</figure>
+
 - **Interpellations, mouvement lycéen (ministère de l'Intérieur).** 6 059 depuis le 28 septembre selon un journal local (6 octobre, source non nommée), 6 547 avant la manifestation du 8 octobre selon des médias qui citent l'Intérieur, et 6 629 au 7 octobre selon un site d'information locale.[^laclepublique-lyceens-justice-2026][^basta-interpellations-lyceens-2026][^brut-nunez-grenades-assourdissantes-2026][^pandore-nunez-grenades-assourdissantes-2026] Du côté des forces de l'ordre, 715 policiers et gendarmes blessés depuis le 28 septembre selon l'Intérieur, 761 selon un autre relais.
 - **Gardes à vue et suites (ministère de la Justice, 5 octobre).** 5 060 gardes à vue depuis le début des violences, dont 4 406 mineur·es (87 %) et 654 majeur·es ; 1 802 personnes poursuivies (1 483 mineur·es, 319 majeur·es), 1 376 mesures alternatives et 14 détentions provisoires. Le garde des Sceaux a demandé aux procureurs généraux d'engager « autant que possible » la responsabilité civile des parents de mineur·es interpellé·es.[^actu17-justice-gav-lyceens-2026][^laclepublique-lyceens-justice-2026]
 - **Mi-octobre.** 7 950 gardes à vue, dont 6 773 mineur·es et 1 177 majeur·es, 2 735 poursuites, 2 225 alternatives aux poursuites et 1 263 classements sans suite, selon un bilan attribué au ministère de la Justice ; la période exacte n'est pas précisée.[^titrespresse-gav-lyceens-2026]

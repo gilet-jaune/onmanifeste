@@ -2932,6 +2932,98 @@ dialog.contact-card {
   font-weight: 800;
 }
 
+/* Stacked share bars (HTML/CSS, no script): text stays text, translatable, readable without colour. */
+.md-typeset .stack-bars {
+  margin: 1rem 0 1.5rem;
+  max-width: none;
+  text-align: left;
+}
+
+.md-typeset .stack-bars figcaption {
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  max-width: none;
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+
+.md-typeset .stack-bars__legend {
+  font-size: 0.75rem;
+  margin: 0 0 0.75rem;
+}
+
+.md-typeset .stack-bars__key {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  margin: 0 0.25rem 0 0.75rem;
+  vertical-align: -0.1rem;
+  border: 2px solid var(--ap-line);
+}
+
+.md-typeset .stack-bars__legend .stack-bars__key:first-child {
+  margin-left: 0;
+}
+
+.md-typeset .stack-bars__key--minor,
+.md-typeset .stack-bars__minor {
+  background: var(--ap-vest);
+}
+
+.md-typeset .stack-bars__key--major,
+.md-typeset .stack-bars__major {
+  background: var(--ap-silver);
+}
+
+.md-typeset .stack-bars__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.md-typeset .stack-bars__list li {
+  margin: 0 0 0.9rem;
+}
+
+.md-typeset .stack-bars__label {
+  font-size: 0.75rem;
+  margin: 0 0 0.25rem;
+  text-align: left;
+}
+
+.md-typeset .stack-bars__bar {
+  display: flex;
+  gap: 2px;
+}
+
+.md-typeset .stack-bars__minor,
+.md-typeset .stack-bars__major {
+  box-sizing: border-box;
+  min-width: 2.6rem;
+  padding: 0.3rem 0.4rem;
+  border: 2px solid var(--ap-line);
+  color: var(--ap-ink);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.md-typeset .stack-bars__note {
+  color: var(--ap-muted);
+  font-size: 0.75rem;
+  margin: 0;
+  text-align: left;
+}
+
+@media print {
+  .md-typeset .stack-bars__minor,
+  .md-typeset .stack-bars__major {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
 /* Open-door vetting schema (Signal guide): vertical, readable on a phone, follows the light/dark theme. */
 .md-typeset .route {
   max-width: 24rem;
