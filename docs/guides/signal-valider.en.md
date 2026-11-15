@@ -1,6 +1,6 @@
 ---
 description: 'Signal groups: building trust before admitting someone to a trusted group.'
-source_commit: 97362284a9a77a862e641c20800ebcce6b12eb2a
+source_commit: 701ec37178b269a9c5da0287a36c395341cd6d95
 review: juridique
 review_status: pending
 tags:

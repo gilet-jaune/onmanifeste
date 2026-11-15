@@ -1,6 +1,6 @@
 ---
 description: 'Making your sign, banner, flag or leaflet: message, materials and rules to know.'
-source_commit: 8a9025d
+source_commit: 8a9025dfc5b91ab560488f80b95f2168b1c23b97
 review: juridique
 review_status: pending
 tags:

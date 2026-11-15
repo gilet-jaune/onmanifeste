@@ -1,6 +1,6 @@
 ---
 description: "Roles in a mobilisation: on the ground, remote or both. What each does, what they don't do, and where to read more."
-source_commit: a14636bf604cc9e091a847b9dd826671f6eda3a1
+source_commit: 863d36fbadd8594af6431619fb9e8d388bbeebea
 tags:
     - guides
     - organising

@@ -1,6 +1,6 @@
 ---
 description: 'Communicating during a protest: Signal with network, Briar without, disappearing messages and good practice.'
-source_commit: 44b7f2d9fd7e15b945df04bbea48020a7a7eb83f
+source_commit: 701ec37178b269a9c5da0287a36c395341cd6d95
 tags:
     - guides
     - communication

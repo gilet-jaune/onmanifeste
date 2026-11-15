@@ -1,6 +1,6 @@
 ---
 description: 'Police weapons at protests: effects, injuries and debris, to adapt care and document evidence.'
-source_commit: 97362284a9a77a862e641c20800ebcce6b12eb2a
+source_commit: 701ec37178b269a9c5da0287a36c395341cd6d95
 review: medical
 review_status: pending
 tags:
