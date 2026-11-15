@@ -8272,6 +8272,94 @@
         "by": "ai"
       }
     },
+    "cglpl-avis-personnes-transgenres-2021": {
+      "title": {
+        "fr": "CGLPL — Avis du 25 mai 2021 relatif à la prise en charge des personnes transgenres dans les lieux de privation de liberté (Journal officiel)",
+        "en": "CGLPL — Opinion of 25 May 2021 on the treatment of transgender people in places of deprivation of liberty (Official Journal; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043760353",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Texte lu jusqu'au milieu de la section 2.3 ; le reste d'après un résumé, non cité ici.",
+        "by": "ai"
+      }
+    },
+    "ddd-decision-cadre-2025-112-identite-genre": {
+      "title": {
+        "fr": "Défenseur des droits — Décision-cadre 2025-112 du 16 juin 2025 relative au respect de l'identité de genre des personnes transgenres",
+        "en": "Defender of Rights — Framework decision 2025-112 of 16 June 2025 on respect for the gender identity of transgender people (in French)"
+      },
+      "url": "https://juridique.defenseurdesdroits.fr/index.php?lvl=notice_display&id=55224",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Texte intégral lu (neuvième partie, recommandation n°52, p. 60-61).",
+        "by": "ai"
+      }
+    },
+    "cp-132-77": {
+      "title": {
+        "fr": "Code pénal, art. 132-77 (circonstance aggravante : sexe, orientation sexuelle ou identité de genre)",
+        "en": "French Criminal Code, art. 132-77 (aggravating circumstance: sex, sexual orientation or gender identity)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045099330",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-l613-1": {
+      "title": {
+        "fr": "Code de la sécurité intérieure, art. L613-1 (agents de sécurité privée : lieux d'exercice)",
+        "en": "Internal Security Code, art. L613-1 (private security agents: where they may operate)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043540720",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "csi-l613-2": {
+      "title": {
+        "fr": "Code de la sécurité intérieure, art. L613-2 (agents de sécurité privée : bagages et palpations de sécurité)",
+        "en": "Internal Security Code, art. L613-2 (private security agents: bags and security pat-downs)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054725427",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Version en vigueur depuis le 20 août 2026 (loi 2026-798) ; version antérieure non comparée.",
+        "by": "ai"
+      }
+    },
+    "csi-l613-3": {
+      "title": {
+        "fr": "Code de la sécurité intérieure, art. L613-3 (agents de sécurité privée : accès aux enceintes de plus de 300 spectateurs)",
+        "en": "Internal Security Code, art. L613-3 (private security agents: access to venues of over 300 spectators)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047569772",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "ldh-entraves-observateurs-2025": {
+      "title": {
+        "fr": "LDH — Communiqué du 8 juillet 2025 : entraves aux missions des observatrices et observateurs indépendants",
+        "en": "LDH — Press release of 8 July 2025: obstruction of independent observers' missions (in French)"
+      },
+      "url": "https://www.ldh-france.org/wp-content/uploads/2025/07/CP-LDH-entraves-observations.pdf",
+      "check": {
+        "date": "2026-11-15",
+        "result": "confirmed",
+        "note": "Position d'une association, non un texte de loi. Communiqué de 2 pages lu.",
+        "by": "ai"
+      }
+    },
     "cc-decision-2005-38-ref": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2005-38 REF du 1er juin 2005 (proclamation des résultats du référendum du 29 mai 2005)",

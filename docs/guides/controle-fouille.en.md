@@ -1,6 +1,6 @@
 ---
 description: 'ID checks, bag searches and fines at a protest: your obligations, your rights and the limits of police powers.'
-source_commit: 121f17310f7582882e0ec983138e80193d7b75f3
+source_commit: 42feadcde99b7f9b1c26aef01ad7741e7d55d88a
 review: juridique
 review_status: pending
 tags:
@@ -42,6 +42,26 @@ Not all bag checks have the same legal basis:[^sp-fouille][^sm-guide]
 3. **Security pat-down (palpation de sécurité)** (over clothing, to look for dangerous objects): must be performed by an officer of the **same sex** as you.[^sp-fouille]
 
 - Stay calm and do not physically obstruct the search (risk of being charged with **resisting an officer / rébellion**), but if an item is confiscated without you being placed in custody, ask for a receipt or write down the time, place and badge number.[^sm-guide]
+
+## Trans or non-binary people: pat-down and search
+
+The law only says a pat-down or search is carried out by a person "of the same sex", without saying whether that means the sex on civil status documents or the gender a person lives in.[^cglpl-avis-personnes-transgenres-2021]
+
+- **National police**: an internal instruction gives gender priority over anatomical sex, but in 2021 the Inspector-General of Places of Deprivation of Liberty found it is applied unevenly.[^cglpl-avis-personnes-transgenres-2021]
+- **Gendarmerie**: in 2021, searches were carried out by a gendarme of the same sex as on the civil status documents.[^cglpl-avis-personnes-transgenres-2021] This may have changed since; we found no more recent text.
+- **What the Inspector-General recommends**: never search to identify anatomical sex, ask the person by which gender of officer they wish to be searched, and prefer a metal detector to a pat-down.[^cglpl-avis-personnes-transgenres-2021] This is a recommendation, not a right you can demand.
+- **In practice**: calmly say, from the start, by which gender of officer you ask to be patted down, and note the time, place and badge number if this is not respected. During an ID check, your papers may not match your appearance: the Defender of Rights has pointed out this risk and, in 2025, recommended training law enforcement and drawing up a practical sheet for respectful treatment of trans people.[^ddd-decision-cadre-2025-112-identite-genre] In custody, see [usual first name and cell](garde-a-vue.md#trans-people-in-custody).
+
+## Private security agents: what they can do
+
+At a demonstration, private security agents may guard a shop, a bank or an event. Their powers are more limited than the police's:
+
+- **Place**: they work inside buildings or places they guard. On the public road, only the prefect can exceptionally authorise them to watch the immediate surroundings of the property they guard.[^csi-l613-1] We found no power to check identity or search people on the public road in these articles.
+- **Bag**: they may look inside a bag, and search it only with the owner's agreement.[^csi-l613-2]
+- **Pat-down**: only with your **express consent**, by a person **of the same sex**, in case of serious threats to public safety recorded in a prefect's order, or inside a protection perimeter.[^csi-l613-2] To enter a venue of over 300 spectators, it is done under a judicial police officer's supervision and with your consent.[^csi-l613-3]
+- **If you refuse**: a private agent cannot force you, but you may be refused access to the place.
+
+These rules apply under the version of article L613-2 in force since 20 August 2026; we did not compare it with the previous version.
 
 ## Saline, goggles, mask: can they be confiscated?
 

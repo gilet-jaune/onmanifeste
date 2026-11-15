@@ -65,6 +65,14 @@ Durée : **24 heures**, renouvelable une fois (48 heures) pour la plupart des fa
 - **Photos et empreintes** peuvent alimenter les fichiers de police, dont le **TAJ** (traitement d'antécédents judiciaires) pour la photo.[^sp-gav] Refuser la photo **n'empêche pas** le fichage : le TAJ est alimenté par la procédure. Voir [ADN, empreintes et photos](adn-signalisation.md#le-taj-refuser-la-photo-nempeche-pas-le-fichage).
 - **Vos affaires** (téléphone, portefeuille) peuvent être retirées ; elles doivent vous être rendues ensuite, sauf si elles sont saisies.[^sp-gav]
 
+## Personnes trans en garde à vue
+
+- **Prénom d'usage** : une consigne de la direction générale de la police nationale de 2019 demande de respecter la civilité et le prénom d'usage et de les mentionner sur les procès-verbaux en plus de l'état civil, après accord de la personne. En pratique, le Contrôleur général des lieux de privation de liberté constatait en 2021 que seul l'état civil figure en général dans les procédures.[^cglpl-avis-personnes-transgenres-2021]
+- **Cellule** : le placement en cellule individuelle est encouragé par cette consigne ; en gendarmerie, en l'absence d'autres directives, les personnes sont seulement placées en cellule individuelle.[^cglpl-avis-personnes-transgenres-2021]
+- **Ne révélez pas, ni ne laissez révéler, votre transidentité sans votre accord** : le Contrôleur le recommande.[^cglpl-avis-personnes-transgenres-2021]
+- **Traitement hormonal** : dites-le à l'avocat·e et au médecin dès le début, pour que la prise ne soit pas interrompue (vous avez droit à un examen médical, voir [vos droits](garde-a-vue.md#vos-droits-des-le-debut)).
+- Pour la palpation et la fouille, voir [personnes trans ou non binaires](controle-fouille.md#personnes-trans-ou-non-binaires-palpation-et-fouille).
+
 ## Les réflexes
 
 1. **Demandez un·e avocat·e** et un médecin, dès la notification des droits.

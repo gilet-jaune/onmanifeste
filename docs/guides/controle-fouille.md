@@ -42,6 +42,26 @@ Tous les contrôles de sac ne se valent pas juridiquement :[^sp-fouille][^sm-gui
 
 - Restez calme et n'entravez pas physiquement la fouille (risque de poursuites pour **rébellion**), mais si un objet vous est confisqué sans placement en garde à vue, demandez un justificatif ou notez l'heure, le lieu et le matricule.[^sm-guide]
 
+## Personnes trans ou non binaires : palpation et fouille
+
+La loi dit seulement que la palpation ou la fouille est faite par une personne « du même sexe », sans préciser s'il s'agit du sexe de l'état civil ou du genre vécu.[^cglpl-avis-personnes-transgenres-2021]
+
+- **Police nationale** : une consigne interne fait primer le genre sur le sexe anatomique, mais le Contrôleur général des lieux de privation de liberté constatait en 2021 que cette consigne est respectée de façon inégale.[^cglpl-avis-personnes-transgenres-2021]
+- **Gendarmerie** : en 2021, les fouilles étaient faites par un·e militaire du même sexe que celui de l'état civil.[^cglpl-avis-personnes-transgenres-2021] Ces consignes ont pu changer depuis ; nous n'avons pas trouvé de texte plus récent.
+- **Ce que recommande le Contrôleur** : ne jamais fouiller pour identifier le sexe anatomique, demander à la personne par quel genre d'agent elle souhaite être fouillée, et préférer le détecteur de métaux à la palpation.[^cglpl-avis-personnes-transgenres-2021] C'est une recommandation, pas un droit que vous pouvez exiger.
+- **En pratique** : dites calmement, dès le début, par quel genre d'agent vous demandez à être palpé·e, et notez l'heure, le lieu et le matricule si cela n'est pas respecté. Lors d'un contrôle d'identité, vos papiers peuvent ne pas correspondre à votre apparence : la Défenseure des droits a signalé ce risque et, en 2025, recommandé de former les forces de l'ordre et d'élaborer une fiche pratique pour un accueil respectueux des personnes trans.[^ddd-decision-cadre-2025-112-identite-genre] En garde à vue, voir [prénom d'usage et cellule](garde-a-vue.md#personnes-trans-en-garde-a-vue).
+
+## Agents de sécurité privée : ce qu'ils peuvent faire
+
+Dans une manifestation, des agents de sécurité privée peuvent garder un magasin, une banque ou un événement. Leurs pouvoirs sont plus limités que ceux de la police :
+
+- **Lieu** : ils exercent à l'intérieur des bâtiments ou des lieux dont ils ont la garde. Sur la voie publique, seul le préfet peut exceptionnellement les autoriser à surveiller les abords immédiats des biens gardés.[^csi-l613-1] Nous n'avons trouvé dans ces articles aucun pouvoir de contrôle d'identité ni de fouille sur la voie publique.
+- **Sac** : ils peuvent regarder l'intérieur d'un sac, et ne le fouiller qu'avec l'accord de son ou sa propriétaire.[^csi-l613-2]
+- **Palpation** : seulement avec votre **consentement exprès**, par une personne du **même sexe**, en cas de menaces graves pour la sécurité publique constatées par un arrêté du préfet, ou dans un périmètre de protection.[^csi-l613-2] Pour accéder à une enceinte de plus de 300 spectateurs, elle se fait sous le contrôle d'un OPJ et avec votre consentement.[^csi-l613-3]
+- **Si vous refusez** : un agent privé ne peut pas vous contraindre, mais l'accès au lieu peut vous être refusé.
+
+Ces règles s'appliquent dans la version de l'article L613-2 en vigueur depuis le 20 août 2026 ; nous n'avons pas comparé avec la version précédente.
+
 ## Sérum physiologique, lunettes, masque : peut-on vous les confisquer ?
 
 Aucun texte n'interdit de porter des protections tant qu'elles ne dissimulent pas le visage, mais des saisies de **sérum physiologique**, **Maalox**, **ciseaux**, **lunettes de protection**, **masques** et **casques** sont fréquemment rapportées lors de fouilles de sacs, et du matériel trouvé dans un sac a déjà servi d'élément pour poursuivre des personnes pour « groupement en vue de commettre des violences » (article 222-14-2 du Code pénal).[^franceinfo-protections][^amnesty-force][^medicaction-gestes][^ldh-fiche-manif-2026]

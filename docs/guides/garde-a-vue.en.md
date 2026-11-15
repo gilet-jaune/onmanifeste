@@ -1,6 +1,6 @@
 ---
 description: 'Police custody: lawyer, doctor, right to remain silent, duration and rights to know from the moment of arrest.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_commit: 42feadcde99b7f9b1c26aef01ad7741e7d55d88a
 review: juridique
 review_status: pending
 tags:
@@ -65,6 +65,14 @@ Duration: **24 hours**, renewable once (48 hours) for most offences alleged at p
 - **Searches**: a pat-down is done by a person **of the same sex**. A **strip search** (you may have to undress) is only possible if **indispensable to the investigation**, decided by an OPJ, carried out by a person of the same sex in a closed room. An internal search can only be done by **a doctor**.[^sp-gav]
 - **Photos and fingerprints** can feed police files, including the **TAJ** (criminal records processing file) for the photo.[^sp-gav] Refusing the photo **does not prevent** registration: the TAJ is fed by the procedure. See [DNA, fingerprints and photos](adn-signalisation.md#the-taj-refusing-the-photo-does-not-prevent-registration).
 - **Your belongings** (phone, wallet) can be removed; they must be returned afterwards unless seized.[^sp-gav]
+
+## Trans people in custody
+
+- **Usual first name**: a 2019 instruction from the national police directorate asks officers to respect the title and usual first name and to record them in the reports alongside the civil status, with the person's agreement. In practice, in 2021 the Inspector-General of Places of Deprivation of Liberty found that only the civil status usually appears in the procedure.[^cglpl-avis-personnes-transgenres-2021]
+- **Cell**: that instruction encourages an individual cell; in the gendarmerie, absent other directives, people are simply placed in an individual cell.[^cglpl-avis-personnes-transgenres-2021]
+- **Do not reveal, or let anyone reveal, your trans identity without your agreement**: the Inspector-General recommends this.[^cglpl-avis-personnes-transgenres-2021]
+- **Hormone treatment**: tell your lawyer and the doctor from the start so that it is not interrupted (you have the right to a medical examination, see [your rights](garde-a-vue.md#your-rights-from-the-start)).
+- For pat-downs and searches, see [trans or non-binary people](controle-fouille.md#trans-or-non-binary-people-pat-down-and-search).
 
 ## Reflexes
 

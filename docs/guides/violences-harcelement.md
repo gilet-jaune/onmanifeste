@@ -24,6 +24,15 @@ Les foules, l'agitation et l'exposition sur les réseaux sociaux créent des ris
 - Si quelqu'un vous agresse ou vous touche : éloignez-vous, prévenez votre groupe, le service d'ordre ou des street medics.
 - Après : vous pouvez faire constater par un médecin, porter plainte, et appeler le **3919**, écoute gratuite et anonyme 24 h/24 pour les victimes de violences sexistes et sexuelles.[^3919]
 
+## Violences et insultes LGBTphobes
+
+- **La loi aggrave la peine** quand des violences, injures ou menaces visent une personne « à raison de son sexe, son orientation sexuelle ou identité de genre vraie ou supposée » : la peine maximale est relevée (par exemple doublée pour un délit puni de 3 ans au plus).[^cp-132-77] Certaines infractions, qui ont déjà leur propre aggravation, sont exclues.
+- **Gardez la preuve** : photos des blessures, certificat médical, noms des témoins, vidéo si elle est légale (voir [filmer](filmer.md)). Mentionnez à la police ou à la gendarmerie le caractère LGBTphobe, pour qu'il figure au dossier.
+- **Si votre plainte est mal reçue** : la Défenseure des droits relève que des personnes trans se heurtent à des refus de plainte, à des propos dégradants et à l'absence de prise en compte de la circonstance aggravante.[^ddd-decision-cadre-2025-112-identite-genre] Demandez que le caractère transphobe soit consigné, et saisissez le {{ res("defenseur-des-droits") }} si besoin.
+- **Écoute et soutien** : {{ res("sos-homophobie") }} accompagne les victimes d'agressions LGBTphobes.
+- **Contre l'extrême droite en cortège** : voir [agressions d'extrême droite](extreme-droite.md).
+- Pour les personnes trans face à la fouille et à la garde à vue : [palpation et fouille](controle-fouille.md#personnes-trans-ou-non-binaires-palpation-et-fouille) et [garde à vue](garde-a-vue.md#personnes-trans-en-garde-a-vue).
+
 ## En ligne : harcèlement et doxxing
 
 Publier vos photos de manif peut vous exposer à du harcèlement ou à la diffusion de vos informations personnelles (« doxxing »).

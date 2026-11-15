@@ -1,6 +1,6 @@
 ---
 description: 'Filming law enforcement: what the law allows, how to film, back up and publish without exposing anyone.'
-source_commit: b5d7c1f44c885a465a2e7e5810655b77bc8ee2e2
+source_commit: 42feadcde99b7f9b1c26aef01ad7741e7d55d88a
 review: juridique
 review_status: pending
 tags:
@@ -59,6 +59,14 @@ If your phone is seized, broken or stolen, footage that wasn't backed up is lost
 - [ ] **Images of violence**: knowingly recording images of certain violent acts can be treated as complicity, and sharing the recording is punished by 5 years and €75,000, except in the normal exercise of a profession of informing the public or if the recording is made **to serve as evidence in court**.[^cp-222-33-3] The LDH sums it up: you can be declared an accomplice, unless the images are meant for the justice system.[^ldh-fiche-manif-2026]
 - [ ] **No file on police officers**: the LDH reminds that creating a file of photos of law enforcement is forbidden; the text it cites (article 226-16-2 of the Criminal Code) more broadly punishes the processing of public officials' personal data because of their status, outside the legal frameworks (5 years and €300,000).[^cp-226-16-2][^ldh-fiche-manif-2026]
 - [ ] **Archive the post** (yours, or an official statement) with the Wayback Machine or archive.today: it stays available if deleted.[^wayback] Never upload raw footage showing faces to a public archive.
+
+## Observing for an observatory
+
+Citizen observatories of policing practices, set up notably by LDH branches with the Syndicat des avocats de France, send observers to demonstrations: {{ res("ldh-observatoires") }}.
+
+- **What the LDH says**: observers have the right to be physically present to observe a public demonstration, no limits may be imposed on them, and their equipment must not be confiscated or damaged.[^ldh-entraves-observateurs-2025] This is an association's position, not a statute: we found no legal status specific to observers.
+- **What happened**: on 4, 5 and 6 July 2025 near Toulouse, the LDH reports that an observer had equipment seized and that access to the demonstration with helmet and goggles was refused.[^ldh-entraves-observateurs-2025]
+- **Advice**: observe with an existing observatory rather than alone, be ready to leave protective gear behind if access is refused, and follow the same rules as for filming: without obstructing, without exposing protesters.
 
 ## Pass it on
 

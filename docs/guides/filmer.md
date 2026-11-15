@@ -59,6 +59,14 @@ Si votre téléphone est saisi, cassé ou volé, les vidéos non sauvegardées s
 - [ ] **Pas de fichier de policiers** : la LDH rappelle qu'il est interdit de constituer un fichier de photos de forces de l'ordre ; le texte qu'elle cite (article 226-16-2 du Code pénal) punit plus largement le traitement de données personnelles de fonctionnaires en raison de leur qualité, hors des cadres légaux (5 ans et 300 000 €).[^cp-226-16-2][^ldh-fiche-manif-2026]
 - [ ] **Archivez la publication** (la vôtre, ou une déclaration officielle) avec la Wayback Machine ou archive.today : elle restera consultable si elle est supprimée.[^wayback] N'envoyez pas de vidéo brute avec des visages sur une archive publique.
 
+## Observer pour un observatoire
+
+Des observatoires citoyens des pratiques policières, créés notamment par des sections de la LDH avec le Syndicat des avocats de France, envoient des observateurs et observatrices en manifestation : {{ res("ldh-observatoires") }}.
+
+- **Ce que dit la LDH** : les observateurs ont le droit d'être présents pour observer une manifestation publique, on ne peut pas leur imposer de limites, et leur matériel ne doit être ni confisqué ni endommagé.[^ldh-entraves-observateurs-2025] C'est la position d'une association, pas un texte de loi : nous n'avons pas trouvé de statut légal propre aux observateurs.
+- **Ce qui est arrivé** : les 4, 5 et 6 juillet 2025 près de Toulouse, la LDH rapporte qu'un observateur s'est fait saisir du matériel et que l'accès à la manifestation avec casque et lunettes a été refusé.[^ldh-entraves-observateurs-2025]
+- **Conseil** : observez plutôt avec un observatoire existant qu'en solitaire, soyez prêt·e à laisser le matériel de protection si l'accès est refusé, et appliquez les mêmes règles que pour filmer : sans entraver, sans exposer les manifestant·es.
+
 ## Transmettre
 
 - À la **legal team** et à l'avocat·e de la personne interpellée : la vidéo peut changer l'issue d'un procès.
