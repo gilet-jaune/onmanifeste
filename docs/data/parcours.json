@@ -3340,6 +3340,13 @@
               }
             },
             {
+              "guide": "desobeissance-civile",
+              "label": {
+                "fr": "La désobéissance civile : risques, préparation, formations",
+                "en": "Civil disobedience: risks, preparation, training"
+              }
+            },
+            {
               "resource": "anv-cop21-formations"
             },
             {
@@ -6664,6 +6671,13 @@
           },
           "results": [
             {
+              "guide": "desobeissance-civile",
+              "label": {
+                "fr": "La désobéissance civile : risques, préparation, formations",
+                "en": "Civil disobedience: risks, preparation, training"
+              }
+            },
+            {
               "resource": "anv-cop21-formations"
             },
             {
@@ -6673,6 +6687,172 @@
               "label": {
                 "fr": "Toutes les ressources écologie et climat",
                 "en": "All ecology and climate resources"
+              }
+            }
+          ]
+        }
+      ],
+      "group": "agir"
+    },
+    {
+      "id": "desobeissance",
+      "label": {
+        "fr": "je pense à une action de désobéissance civile",
+        "en": "considering a civil disobedience action"
+      },
+      "keywords": [
+        "desobeissance",
+        "desobeissance civile",
+        "blocage",
+        "bloquer",
+        "occupation",
+        "occuper",
+        "action directe",
+        "non violence",
+        "non-violence",
+        "anv",
+        "xr",
+        "extinction rebellion",
+        "greenpeace",
+        "l214",
+        "sea shepherd",
+        "activiste",
+        "civil disobedience",
+        "blockade",
+        "direct action",
+        "non-violent",
+        "activist"
+      ],
+      "needs": [
+        {
+          "id": "comprendre",
+          "label": {
+            "fr": "comprendre ce que c'est (et ce que ce n'est pas)",
+            "en": "understand what it is (and what it is not)"
+          },
+          "results": [
+            {
+              "guide": "desobeissance-civile",
+              "anchor": {
+                "fr": "reperes-trois-questions-pas-une-echelle",
+                "en": "landmarks-three-questions-not-a-ladder"
+              },
+              "label": {
+                "fr": "Repères : trois questions, pas une échelle",
+                "en": "Landmarks: three questions, not a ladder"
+              }
+            },
+            {
+              "guide": "desobeissance-civile",
+              "anchor": {
+                "fr": "comment-des-organisations-se-decrivent",
+                "en": "how-organisations-describe-themselves"
+              },
+              "label": {
+                "fr": "Comment des organisations se décrivent",
+                "en": "How organisations describe themselves"
+              }
+            }
+          ]
+        },
+        {
+          "id": "risques",
+          "label": {
+            "fr": "savoir ce que je risque",
+            "en": "know what I risk"
+          },
+          "results": [
+            {
+              "guide": "desobeissance-civile",
+              "anchor": {
+                "fr": "ce-que-la-loi-peut-punir",
+                "en": "what-the-law-can-punish"
+              },
+              "label": {
+                "fr": "Ce que la loi peut punir",
+                "en": "What the law can punish"
+              }
+            },
+            {
+              "guide": "risques-penaux",
+              "label": {
+                "fr": "Ce que la loi interdit en manifestation, et ce qu'on risque",
+                "en": "What the law forbids at a protest, and what you risk"
+              }
+            }
+          ]
+        },
+        {
+          "id": "preparer",
+          "label": {
+            "fr": "me préparer, avec un collectif",
+            "en": "prepare, with a group"
+          },
+          "results": [
+            {
+              "guide": "desobeissance-civile",
+              "anchor": {
+                "fr": "se-preparer",
+                "en": "preparing"
+              },
+              "label": {
+                "fr": "Se préparer",
+                "en": "Preparing"
+              }
+            },
+            {
+              "resource": "anv-cop21-formations"
+            },
+            {
+              "resource": "alternatiba"
+            },
+            {
+              "resource": "extinction-rebellion"
+            }
+          ]
+        },
+        {
+          "id": "interpelle",
+          "label": {
+            "fr": "savoir quoi faire si je suis interpellé·e",
+            "en": "know what to do if I am arrested"
+          },
+          "results": [
+            {
+              "guide": "garde-a-vue",
+              "label": {
+                "fr": "Garde à vue : ce qui se passe et ce qu'on peut faire",
+                "en": "Custody: what happens and what can be done"
+              }
+            },
+            {
+              "guide": "telephone",
+              "label": {
+                "fr": "Téléphone : verrouillage, code et saisie",
+                "en": "Phone: emergency lock, passcode and seizure"
+              }
+            },
+            {
+              "guide": "adn-signalisation",
+              "label": {
+                "fr": "ADN, empreintes et photos en garde à vue",
+                "en": "DNA, fingerprints and photos in police custody"
+              }
+            }
+          ]
+        },
+        {
+          "id": "soutenir",
+          "label": {
+            "fr": "soutenir une action sans y participer",
+            "en": "support an action without taking part"
+          },
+          "results": [
+            {
+              "guide": "soutenir-a-distance",
+              "label": {
+                "fr": "Soutenir sans aller en manif",
+                "en": "Supporting without going to protests"
               }
             }
           ]

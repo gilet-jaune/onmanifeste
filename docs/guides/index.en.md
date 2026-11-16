@@ -1,7 +1,7 @@
 ---
 description: 'All the guides for protesting in France: before, during and after the protest, depending on your situation. Available offline.'
-source_hash: s1-0fe7b9f5bd17
-source_sections: s1-2ace8c.bcacc9.911672.4de611.31ea28.70c2a8.f91d65
+source_hash: s1-380f5d3b2e45
+source_sections: s1-2ace8c.bcacc9.180117.4de611.31ea28.70c2a8.f91d65
 tags:
     - guides
 image: assets/covers/guides.svg
@@ -46,6 +46,14 @@ Guides to read before you go, **available offline** once the site has been opene
     Gatherings, weapons, hidden faces, violence: the penalties provided and what the text says.
 
     [:octicons-arrow-right-24: Read](risques-penaux.md)
+
+- **Civil disobedience** [:material-gavel:](desobeissance-civile.md){ aria-label="Civil disobedience" }
+
+    ***
+
+    What it is, what the law provides, state of necessity, preparing and getting trained.
+
+    [:octicons-arrow-right-24: Read](desobeissance-civile.md)
 
 - **Why property gets smashed at protests** [:material-comment-question:](casse.md){ aria-label="Why property gets smashed at protests" }
 

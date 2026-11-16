@@ -1189,6 +1189,150 @@
         "by": "ai"
       }
     },
+    "onu-forst-desobeissance-2024": {
+      "title": {
+        "fr": "ONU — Michel Forst, Rapporteur spécial (convention d'Aarhus) : répression des manifestations et de la désobéissance civile environnementales (février 2024)",
+        "en": "UN — Michel Forst, Special Rapporteur (Aarhus Convention): state repression of environmental protest and civil disobedience (February 2024, in French)"
+      },
+      "url": "https://fondationdaniellemitterrand.org/wp-content/uploads/2024/04/UNSR_EnvDefenders_Aarhus_Position_Paper_Civil_Disobedience_FR_1.pdf",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "amnesty-manuel-desobeissance-2024": {
+      "title": {
+        "fr": "Amnesty International — Manuel de désobéissance civile (2024, ACT 10/7471/2024)",
+        "en": "Amnesty International — Civil disobedience manual (2024, ACT 10/7471/2024; French edition)"
+      },
+      "url": "https://www.amnesty.fr/wp-content/uploads/2025/06/aApECfIqRLdaBlGE_Guide_desobeissance_civile_Amnesty.pdf",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "xr-france-principes": {
+      "title": {
+        "fr": "Extinction Rebellion France — Nos principes",
+        "en": "Extinction Rebellion France — Our principles (in French)"
+      },
+      "url": "https://extinctionrebellion.fr/principes-extinction-rebellion/",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "greenpeace-fr-non-violence": {
+      "title": {
+        "fr": "Greenpeace France — La non-violence, réponse à l'urgence d'agir",
+        "en": "Greenpeace France — Non-violence, the answer to the urgency to act (in French)"
+      },
+      "url": "https://www.greenpeace.fr/connaitre-greenpeace/la-non-violence-reponse-a-lurgence-dagir/",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "l214-modes-action": {
+      "title": {
+        "fr": "L214 — Nos modes d'action",
+        "en": "L214 — Our methods of action (in French)"
+      },
+      "url": "https://www.l214.com/qui-sommes-nous/nos-modes-action/",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "seashepherd-fr-qui-sommes-nous": {
+      "title": {
+        "fr": "Sea Shepherd France — Qui sommes-nous",
+        "en": "Sea Shepherd France — Who we are (in French)"
+      },
+      "url": "https://seashepherd.fr/qui-sommes-nous",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "seashepherd-org-approach-2025": {
+      "title": {
+        "fr": "Sea Shepherd — Sea Shepherd's Approach: Direct Action for Ocean Conservation (18 mars 2025, en anglais)",
+        "en": "Sea Shepherd — Sea Shepherd's Approach: Direct Action for Ocean Conservation (18 March 2025)"
+      },
+      "url": "https://seashepherd.org/2025/03/18/sea-shepherds-approach-direct-action-for-ocean-conservation/",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cass-crim-cattenom-2021": {
+      "title": {
+        "fr": "Cour de cassation — chambre criminelle, 15 juin 2021, n° 20-83.749 (intrusion dans la centrale de Cattenom, état de nécessité ; traduction anglaise, seule la version française fait foi)",
+        "en": "Court of Cassation — Criminal Chamber, 15 June 2021, no. 20-83.749 (Cattenom plant intrusion, state of necessity; English translation, only the French text is authentic)"
+      },
+      "url": "https://www.courdecassation.fr/en/toutes-les-actualites/2021/10/28/invocation-state-necessity-justify-offence-breaking-nuclear-power",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cedh-ludes-2025": {
+      "title": {
+        "fr": "CEDH — communiqué du greffier ECHR 166 (2025), Ludes et autres c. France (3 juillet 2025, en anglais)",
+        "en": "ECtHR — Registrar's press release ECHR 166 (2025), Ludes and Others v. France (3 July 2025)"
+      },
+      "url": "https://hudoc.echr.coe.int/app/conversion/pdf/?library=ECHR&id=003-8275174-11649368&filename=Judgment+Ludes+and+Others+v.+France+-+Applicants%27+conviction+for+taking+down+French+President%27s+official+portrait+in+town+halls.pdf",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cncdh-espace-civique-2025": {
+      "title": {
+        "fr": "CNCDH — Avis A-2025-7 sur la restriction de l'espace civique (17 juin 2025)",
+        "en": "CNCDH — Opinion A-2025-7 on the shrinking of civic space (17 June 2025, in French)"
+      },
+      "url": "https://www.cncdh.fr/sites/default/files/2025-06/A%20-%202025%20-%207%20-%20CNCDH%20-%20Avis%20R%C3%A9duction%20de%20l'espace%20civique_0.pdf",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-122-7": {
+      "title": {
+        "fr": "Légifrance — Code pénal, article 122-7 (état de nécessité)",
+        "en": "Légifrance — Criminal Code, article 122-7 (state of necessity; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006417220",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-226-4": {
+      "title": {
+        "fr": "Légifrance — Code pénal, article 226-4 (violation de domicile)",
+        "en": "Légifrance — Criminal Code, article 226-4 (unlawful entry into a home; in French)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047899987",
+      "check": {
+        "date": "2026-11-16",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cp-132-75": {
       "title": {
         "fr": "Code pénal, art. 132-75 (définition de l'arme et objets assimilés)",

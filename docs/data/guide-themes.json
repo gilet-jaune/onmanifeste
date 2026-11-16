@@ -111,6 +111,7 @@
       "venir-repartir": ["preparer"],
       "violences-harcelement": ["situation", "sante", "numerique"],
       "risques-penaux": ["droits"],
+      "desobeissance-civile": ["droits", "organiser"],
       "adn-signalisation": ["gav", "droits"]
     }
   }

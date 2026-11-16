@@ -45,6 +45,14 @@ Des fiches à lire avant de partir, **consultables hors ligne** une fois le site
 
     [:octicons-arrow-right-24: Lire](risques-penaux.md)
 
+- **La désobéissance civile** [:material-gavel:](desobeissance-civile.md){ aria-label="La désobéissance civile" }
+
+    ***
+
+    Ce que c'est, ce que la loi prévoit, l'état de nécessité, se préparer et se former.
+
+    [:octicons-arrow-right-24: Lire](desobeissance-civile.md)
+
 - **Pourquoi ça casse en manif ?** [:material-comment-question:](casse.md){ aria-label="Pourquoi ça casse en manif ?" }
 
     ***

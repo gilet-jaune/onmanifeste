@@ -118,6 +118,7 @@ plugins:
             Checklist avant la manif: Pre-protest checklist
             Le droit de manifester: The right to protest
             Ce que la loi interdit en manifestation, et ce qu'on risque: What the law forbids at a protest, and what you risk
+            "La désobéissance civile : risques, préparation, formations": "Civil disobedience: risks, preparation, training"
             ADN, empreintes et photos en garde à vue: DNA, fingerprints and photos in police custody
             Ne jamais rester seul·e: Never stay alone
             Kit et tenue de manif: Protest kit and outfit
@@ -240,6 +241,7 @@ nav:
           - Checklist avant la manif: guides/avant-de-partir.md
           - Le droit de manifester: guides/droit-de-manifester.md
           - Ce que la loi interdit en manifestation, et ce qu'on risque: guides/risques-penaux.md
+          - "La désobéissance civile : risques, préparation, formations": guides/desobeissance-civile.md
           - Kit et tenue de manif: guides/kit-manif.md
           - Pancartes, banderoles, drapeaux et tracts: guides/faire-sa-pancarte.md
           - Venir et repartir: guides/venir-repartir.md

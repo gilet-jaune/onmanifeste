@@ -22,6 +22,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Guide « La désobéissance civile » (FR/EN, legal review pending), with a « Je pense à une action de désobéissance civile » profile in the guided search.
 - Timeline schema of a demonstration (declaration, possible ban, appeal within 48 h, the day itself) in the right-to-protest guide, drawn from `docs/data/routes.json`.
 - Reusable schema component: `{{ route("id") }}` draws a vertical schema from `docs/data/routes.json` in French and English (validated by `npm run validate:data`); the two Signal vetting schemas now use it.
 - Settings page (`parametres`): offline mode on/off (turning it off deletes the offline copy and stops a new one being made), update check, reinstall, install help and an install-suggestions switch. Stored in the browser only.
