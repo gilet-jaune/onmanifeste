@@ -4397,6 +4397,23 @@
       }
     },
     {
+      "id": "monvote2027",
+      "name": "MonVote2027",
+      "url": "https://monvote2027.fr/",
+      "category": "democratie",
+      "tags": ["elections", "programmes", "comparatif", "gratuit"],
+      "description": {
+        "fr": "Quiz de 20 ou 100 questions pour situer ses opinions parmi 23 candidat·es à la présidentielle 2027, avec pages candidat·es, comparateur et méthodologie. Dit ne collecter aucune donnée ni aucun compte ; équipe bénévole anonyme, financée par les dons.",
+        "en": "A 20- or 100-question quiz to see where your views sit among 23 candidates for the 2027 presidential election, with candidate pages, a comparison tool and a methodology page. Says it collects no data and needs no account; anonymous volunteer team funded by donations. In French."
+      },
+      "check": {
+        "date": "2026-11-16",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Site joint (accueil, mentions légales, à propos). Éditeur non identifié (« à titre personnel et bénévole », équipe anonyme), hébergé chez OVH. Absence de collecte de données et neutralité politique affirmées par le site, code non inspecté ; méthodologie et sources des positions non vérifiées."
+      }
+    },
+    {
       "id": "deborder-bollore",
       "name": "Déborder Bolloré",
       "url": "https://deborderbollore.fr/",

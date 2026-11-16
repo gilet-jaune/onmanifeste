@@ -1,7 +1,7 @@
 ---
 description: 'Voting, proxy, electoral register, petitions: act from home, and what each site does with your data.'
-source_hash: s1-622f674f5b79
-source_sections: s1-1bfc54.14f1e6.bbe8b6.1d25f2.000aab
+source_hash: s1-d06a30bc7289
+source_sections: s1-1bfc54.14f1e6.b58077.1d25f2.000aab
 tags:
     - guides
     - support
@@ -25,6 +25,7 @@ Voting remains a tool, even though it does not replace the street.
 - **Register on the electoral rolls**: possible all year round, online with proof of identity and proof of address under 3 months old, or at the town hall.[^sp-inscription-electorale] For an election, the general rule is to register no later than the **6th Friday before the first round**; the deadline is the 10th day before the first round in some situations (young person turning 18, recent move, recently acquired French nationality…).[^sp-inscription-delais]
 - **Vote by proxy** if you cannot travel that day: anyone who is absent on voting day may give a proxy, with no proof of absence. The request is made online, then in person at a police station or gendarmerie. **If a disability or serious illness prevents you from travelling**, you can ask in writing, with a sworn statement, for an officer to come to your home (or hospital, care home…) to check your identity. At most one proxy made in France can be entrusted to the same person on voting day.[^sp-procuration]
 - **If you do not have French nationality**: a citizen of another EU country who lives in France, is 18 and enjoys civil and political rights may vote, but **only in municipal and European elections**, through a supplementary electoral list.[^sp-vote-citoyen-europeen] For other foreign nationals, we found no voting right in the pages we read: ask your town hall before doing anything.
+- **Getting your bearings before the 2027 presidential election**: {{ res("monvote2027") }} and {{ res("presidentielle-2027-comparatif") }} let you compare candidates or parties. Both are **anonymous** sites whose method we could not check: they help you get informed, they do not replace reading the manifestos themselves.
 
 ## Sign petitions
 

@@ -197,6 +197,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [E-pétitions du Sénat](https://petitions.senat.fr/) - Plateforme officielle des pétitions adressées au Sénat.
 - [Initiative citoyenne européenne](https://citizens-initiative.europa.eu/_fr) - Un million de signatures dans au moins sept pays de l'Union européenne pour demander à la Commission européenne de proposer une loi.
 - [Présidentielle 2027 : comparatif des propositions](https://presidentielle-2027-comparatif.netlify.app/) - Comparatif des propositions de neuf partis ou candidats pour 2027 sur onze thèmes, avec coûts annoncés, sources liées et votes à l'Assemblée depuis 2018. Les chiffres sont ceux des partis eux-mêmes ; éditeur non identifié. ⚠️ _Non confirmé._
+- [MonVote2027](https://monvote2027.fr/) - Quiz de 20 ou 100 questions pour situer ses opinions parmi 23 candidat·es à la présidentielle 2027, avec pages candidat·es, comparateur et méthodologie. Dit ne collecter aucune donnée ni aucun compte ; équipe bénévole anonyme, financée par les dons. ⚠️ _Non confirmé._
 
 ## Information & agenda
 
