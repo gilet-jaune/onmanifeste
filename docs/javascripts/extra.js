@@ -15,6 +15,15 @@ const EXTRA_SITE_ROOT_URL = new URL('../', document.currentScript.src);
   else run();
 })();
 
+// Search form: never let the browser submit it. Material only cancels the Enter key on desktop
+// keyboards; the Android on-screen "search" key submits the (action-less) form instead, which
+// reloads the page and wipes the results. We keep the results and just hide the keyboard.
+document.addEventListener('submit', (e) => {
+  if (!(e.target instanceof Element) || !e.target.matches('form.md-search__form')) return;
+  e.preventDefault();
+  document.querySelector('.md-search__input')?.blur();
+});
+
 document.addEventListener('DOMContentLoaded', function () {
   // Select all permalinks
   const headerLinks = document.querySelectorAll('.headerlink');

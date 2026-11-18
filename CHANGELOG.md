@@ -7,6 +7,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Fixed
+
+- Site search on phones: validating a search with the on-screen keyboard no longer reloads the page and wipes the results (the form submission is cancelled), and a bare `?h=` (empty highlight parameter) is no longer left in result links or in the address bar.
+
 ### Removed
 
 - The awesome-lint check (GitHub and GitLab CI, `lint:awesome` script): the project no longer aims at an "awesome" list listing.

@@ -307,7 +307,29 @@
     title.prepend(badge, ' ');
   }
 
+  // Material adds "?h=<matched words>" to every result link (search.highlight). When no typed word
+  // is found in the page (fuzzy or partial match), it leaves a bare "?h=": drop it.
+  function dropEmptyHighlight(url) {
+    if (!url.searchParams.has('h') || url.searchParams.get('h').trim()) return false;
+    url.searchParams.delete('h');
+    return true;
+  }
+
+  function cleanLinks(root) {
+    root.querySelectorAll('a.md-search-result__link[href*="h="]').forEach((link) => {
+      const url = new URL(link.getAttribute('href'), location.href);
+      if (dropEmptyHighlight(url)) link.setAttribute('href', url.href);
+    });
+  }
+
+  // A page opened with an empty "?h=" (older link, shared address): clean the address bar.
+  function cleanAddress() {
+    const url = new URL(location.href);
+    if (dropEmptyHighlight(url)) history.replaceState(history.state, '', url.href);
+  }
+
   function process(root) {
+    cleanLinks(root);
     filterBar(root);
     guidedSearchLink(root);
     groupMore(root);
@@ -321,6 +343,7 @@
   }
 
   function init() {
+    cleanAddress();
     const results = document.querySelector('[data-md-component="search-result"]');
     if (!results || results.dataset.snippetReady) return;
     results.dataset.snippetReady = '1';
