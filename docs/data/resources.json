@@ -659,6 +659,33 @@
       }
     },
     {
+      "id": "riseup",
+      "name": "Riseup",
+      "url": "https://riseup.net/fr",
+      "category": "securite-numerique",
+      "tags": ["email", "vpn", "anonymat", "gratuit"],
+      "description": {
+        "fr": "Collectif technique autonome (depuis 1999) : e-mail sans numéro de téléphone (par codes d'invitation), VPN, listes de discussion, pads et partage de fichiers, financé par des dons. Pas d'adresses IP conservées, mais l'e-mail n'est pas chiffré de bout en bout par défaut.",
+        "en": "Autonomous tech collective (since 1999): e-mail with no phone number (via invite codes), VPN, mailing lists, pads and file sharing, funded by donations. No IP addresses kept, but e-mail is not end-to-end encrypted by default."
+      },
+      "sources": [
+        {
+          "title": "Riseup — Politique de confidentialité",
+          "url": "https://riseup.net/fr/privacy-policy"
+        },
+        {
+          "title": "Riseup — Courriel (chiffrement de bout en bout, invitations)",
+          "url": "https://riseup.net/fr/email"
+        }
+      ],
+      "check": {
+        "date": "2026-11-18",
+        "result": "confirmed",
+        "by": "ai",
+        "note": "Pages d'accueil, à propos, confidentialité, e-mail et VPN lues ; canari, conditions d'utilisation et page sécurité non lues. Les conditions d'inscription actuelles (code d'invitation) ne sont pas confirmées."
+      }
+    },
+    {
       "id": "keepassxc",
       "name": "KeePassXC",
       "url": "https://keepassxc.org/",

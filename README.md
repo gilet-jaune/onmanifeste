@@ -66,6 +66,7 @@ Une version web, optimisée pour mobile et **utilisable hors ligne**, est publi�
 - [Tor Browser](https://www.torproject.org/fr/) - Navigateur qui masque votre adresse IP en faisant transiter le trafic par le réseau Tor.
 - [Orbot](https://orbot.app/fr/) - Fait passer le trafic des applications du téléphone par le réseau Tor (Android et iOS).
 - [Mullvad VPN](https://mullvad.net/fr) - VPN payant sans compte nominatif ni e-mail, paiement possible en espèces.
+- [Riseup](https://riseup.net/fr) - Collectif technique autonome (depuis 1999) : e-mail sans numéro de téléphone (par codes d'invitation), VPN, listes de discussion, pads et partage de fichiers, financé par des dons. Pas d'adresses IP conservées, mais l'e-mail n'est pas chiffré de bout en bout par défaut.
 - [KeePassXC](https://keepassxc.org/) - Gestionnaire de mots de passe local et chiffré.
 - [Surveillance Self-Defense (EFF)](https://ssd.eff.org/) - Guides de l'EFF (disponibles en français) pour protéger son téléphone et ses communications, dont un guide dédié aux manifestations.
 - [Technopolice](https://technopolice.fr/) - Campagne de La Quadrature du Net qui documente la surveillance policière (caméras, drones, reconnaissance faciale) en France.
