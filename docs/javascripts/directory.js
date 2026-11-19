@@ -396,6 +396,14 @@ async function initDirectory(root) {
             el('a', { href: `tel:${r.phone.replace(/\s/g, '')}` }, r.phone),
           )
         : '',
+      r.email
+        ? el(
+            'p',
+            { class: 'directory__phone' },
+            '✉ ',
+            el('a', { href: `mailto:${r.email}` }, r.email),
+          )
+        : '',
       r.stores
         ? el(
             'p',

@@ -35,7 +35,8 @@ const block = [
     `## ${s.title}`,
     '',
     ...s.items.map((r) => {
-      const phone = r.phone ? ` Tél. : ${r.phone}.` : '';
+      const phone =
+        (r.phone ? ` Tél. : ${r.phone}.` : '') + (r.email ? ` Courriel : ${r.email}.` : '');
       const badge =
         r.check.result === 'unconfirmed'
           ? ' ⚠️ _Non confirmé._'

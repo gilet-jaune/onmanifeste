@@ -64,6 +64,7 @@ Rules:
 - In guides and tips, every factual or legal statement carries a footnote (`[^id]`). Sources are centralised in `docs/data/sources.json` (FR/EN title, URL, check date): add a source once, then cite it by id from any page.
 - To mention a directory resource in a guide, use `{% raw %}{{ res("id") }}{% endraw %}` (or `{% raw %}{{ res("id", "link text") }}{% endraw %}`) instead of pasting its URL.
 - `phone` (optional): only an official public number (emergency line, helpline).
+- `email` (optional): a public contact address of the collective or service, never a personal one; none on an `unconfirmed` entry. Do not repeat it in the description.
 
 ## Check an entry
 

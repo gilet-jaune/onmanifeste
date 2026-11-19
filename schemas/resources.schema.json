@@ -116,6 +116,11 @@
             "pattern": "^\\+?[0-9 ]+$",
             "description": "Optional hotline number"
           },
+          "email": {
+            "type": "string",
+            "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+            "description": "Optional public contact e-mail of the collective or service (never a personal address)."
+          },
           "category": {
             "type": "string"
           },

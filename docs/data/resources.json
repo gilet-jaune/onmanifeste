@@ -1107,6 +1107,7 @@
       "name": "Legal Team Paris–IDF",
       "url": "https://paris-luttes.info/le-groupe-legal-paris-legal-team-12605?lang=fr",
       "phone": "07 52 95 71 11",
+      "email": "stoprepression@riseup.net",
       "category": "juridique",
       "tags": [
         "garde-a-vue",
@@ -1117,8 +1118,8 @@
         "urgence"
       ],
       "description": {
-        "fr": "Ligne antirépression de la Coordination contre la répression et les violences policières : signaler une interpellation, être orienté vers un·e avocat·e, suivi après la garde à vue. Contact par Signal de préférence, ou stoprepression@riseup.net.",
-        "en": "Anti-repression hotline of the Paris coordination against police repression: report an arrest, get referred to a lawyer, follow-up after custody. Signal preferred, or stoprepression@riseup.net."
+        "fr": "Ligne antirépression de la Coordination contre la répression et les violences policières : signaler une interpellation, être orienté vers un·e avocat·e, suivi après la garde à vue. Contact par Signal de préférence.",
+        "en": "Anti-repression hotline of the Paris coordination against police repression: report an arrest, get referred to a lawyer, follow-up after custody. Signal preferred."
       },
       "check": {
         "date": "2026-10-28",
@@ -1359,11 +1360,12 @@
       "name": "Legal Team Marseille",
       "url": "https://legalteammarseille.nublogs.org/contact/",
       "phone": "07 53 05 25 30",
+      "email": "legalteam-marseille@riseup.net",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "garde-a-vue", "marseille", "urgence"],
       "description": {
-        "fr": "Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès. Courriel : legalteam-marseille@riseup.net.",
-        "en": "Marseille anti-repression legal team: emergency line after arrests, lawyer referrals, trial follow-up. Email: legalteam-marseille@riseup.net."
+        "fr": "Legal team antirépression de Marseille : ligne d'urgence en cas d'interpellation, orientation vers des avocat·es, suivi des procès.",
+        "en": "Marseille anti-repression legal team: emergency line after arrests, lawyer referrals, trial follow-up."
       },
       "sources": [
         {
@@ -1417,11 +1419,12 @@
       "name": "CLAJ — Collectif lillois d'autodéfense juridique",
       "url": "https://clajlille.wordpress.com/",
       "phone": "07 53 65 49 52",
+      "email": "claj@riseup.net",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "avocat", "lille", "urgence"],
       "description": {
-        "fr": "Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence, ou claj@riseup.net.",
-        "en": "Lille legal self-defense collective: line to report an arrest, rights fact sheets, lawyer contacts. Signal preferred, or claj@riseup.net."
+        "fr": "Collectif lillois d'autodéfense juridique : ligne pour signaler une arrestation, fiches d'information sur vos droits, contacts d'avocat·es. Signal de préférence.",
+        "en": "Lille legal self-defense collective: line to report an arrest, rights fact sheets, lawyer contacts. Signal preferred."
       },
       "sources": [
         {
@@ -1714,11 +1717,12 @@
       "name": "Défense Collective Strasbourg",
       "url": "https://defensecollectivestrasbourg.wordpress.com/",
       "phone": "07 69 14 45 48",
+      "email": "dcs@riseup.net",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "strasbourg"],
       "description": {
-        "fr": "Collectif strasbourgeois d'autodéfense juridique : guides sur la manifestation, la garde à vue et la procédure, contact par téléphone, courriel (dcs@riseup.net) et Facebook. Site sans publication depuis 2016 : numéro à vérifier.",
-        "en": "Strasbourg legal self-defence collective: guides on protests, police custody and procedure, contact by phone, e-mail (dcs@riseup.net) and Facebook. No posts since 2016: check the number."
+        "fr": "Collectif strasbourgeois d'autodéfense juridique : guides sur la manifestation, la garde à vue et la procédure, contact par téléphone, courriel et Facebook. Site sans publication depuis 2016 : numéro à vérifier.",
+        "en": "Strasbourg legal self-defence collective: guides on protests, police custody and procedure, contact by phone, e-mail and Facebook. No posts since 2016: check the number."
       },
       "sources": [
         {
@@ -1737,11 +1741,12 @@
       "id": "cancre-besancon",
       "name": "CANCRE — caisse de solidarité contre la répression (Besançon, Franche-Comté)",
       "url": "https://rabasse.info/+-La-CANCRE-+",
+      "email": "cancre-antirep@riseup.net",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "besancon"],
       "description": {
-        "fr": "Caisse franc-comtoise de soutien contre la répression : frais d'avocat·es et de santé, accompagnement juridique, information sur l'appareil répressif. Contact par courriel (cancre-antirep@riseup.net) ; le numéro de téléphone est annoncé comme « bientôt disponible ».",
-        "en": "Franche-Comté solidarity fund against repression: lawyer and medical costs, legal support, information on the repressive apparatus. Contact by e-mail (cancre-antirep@riseup.net); a phone number is announced as “coming soon”."
+        "fr": "Caisse franc-comtoise de soutien contre la répression : frais d'avocat·es et de santé, accompagnement juridique, information sur l'appareil répressif. Contact par courriel ; le numéro de téléphone est annoncé comme « bientôt disponible ».",
+        "en": "Franche-Comté solidarity fund against repression: lawyer and medical costs, legal support, information on the repressive apparatus. Contact by e-mail; a phone number is announced as “coming soon”."
       },
       "sources": [
         {

@@ -86,6 +86,8 @@ const SOCIALS = {
   ids.add(r.id);
   if (r.url && !r.url.startsWith('https://')) errors.push(`${at}: url must use https`);
   if (r.phone !== undefined && !/^\+?[0-9 ]+$/.test(r.phone)) errors.push(`${at}: invalid phone`);
+  if (r.email !== undefined && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(r.email))
+    errors.push(`${at}: invalid email`);
   if (r.category && !categories.includes(r.category)) {
     errors.push(`${at}: unknown category "${r.category}"`);
   }
@@ -135,6 +137,9 @@ const SOCIALS = {
       errors.push(`${at}: check.by must be ai, volunteer, lawyer, medical or historian`);
     if (result === 'unconfirmed' && r.phone) {
       errors.push(`${at}: unconfirmed resources must not list a phone`);
+    }
+    if (result === 'unconfirmed' && r.email) {
+      errors.push(`${at}: unconfirmed resources must not list an email`);
     }
   }
 });

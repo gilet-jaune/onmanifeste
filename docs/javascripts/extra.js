@@ -554,6 +554,13 @@ document.addEventListener('DOMContentLoaded', function () {
               `📞 ${CARD_I18N.call} ${r.phone}`,
             )
           : null,
+        r.email
+          ? cardEl(
+              'a',
+              { class: 'contact-card__btn contact-card__btn--phone', href: `mailto:${r.email}` },
+              `✉ ${r.email}`,
+            )
+          : null,
         !onDirectoryPage
           ? cardEl(
               'a',

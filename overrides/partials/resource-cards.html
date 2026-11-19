@@ -19,6 +19,10 @@ cardFor() in directory.js. -#} {%- from 'overrides/partials/check.html' import c
     <p class="directory__phone">
       📞 <a href="tel:{{ r.phone | replace(' ', '') }}">{{ r.phone }}</a>
     </p>
+    {%- endif %} {%- if r.email %}
+    <p class="directory__phone">
+      ✉ <a href="mailto:{{ r.email }}">{{ r.email }}</a>
+    </p>
     {%- endif %} {%- if r.stores %}
     <p class="directory__stores">
       {{ 'Installer :' if lang == 'fr' else 'Install:' }} {% for key, label in [('android', 'Google Play'), ('fdroid', 'F-Droid'), ('ios', 'App Store')] if r.stores[key] %}{% if not loop.first %} · {% endif %}<a href="{{ r.stores[key] }}" target="_blank" rel="noopener">{{ label }}</a>{% endfor %}

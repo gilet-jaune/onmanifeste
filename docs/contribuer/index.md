@@ -62,6 +62,7 @@ Règles :
 - Dans les guides, chaque information factuelle ou juridique porte une note de bas de page (`[^id]`). Les sources sont centralisées dans `docs/data/sources.json` (titre FR/EN, URL, date de vérification) : ajoutez-y la source une seule fois, puis citez-la par son identifiant dans n'importe quelle page.
 - Pour mentionner une ressource de l'annuaire dans un guide, utilisez `{% raw %}{{ res("id") }}{% endraw %}` (ou `{% raw %}{{ res("id", "texte du lien") }}{% endraw %}`) au lieu de coller son URL.
 - `phone` (facultatif) : uniquement un numéro public officiel (ligne d'urgence, permanence).
+- `email` (facultatif) : adresse de contact publique du collectif ou du service, jamais une adresse personnelle ; pas d'adresse sur une fiche `unconfirmed`. Ne la répétez pas dans la description.
 
 ## Vérifier une information
 

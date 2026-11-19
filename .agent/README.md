@@ -66,6 +66,7 @@ Visitors read French (or English) words, never code names. Do not mix them.
 
 - `stores` (optional, apps only): copy the store links from the publisher's own download page, never from a store search (look-alike apps exist).
 - `check.by`: who checked it — `ai` (an agent found and sourced it: always use this when you are an AI agent), `volunteer`, `lawyer`, `medical` or `historian`. Never set a human level yourself. The wording and date format shown for each level live in `docs/data/check-levels.json` only (read by the footnote hook, the Jinja macros and the scripts); never write "checked on" text by hand.
+- `email` (optional): a public contact address of the collective or service, shown next to the phone (never a personal address; never on an `unconfirmed` entry). Do not repeat it in the description.
 - `phone` only for official public lines, and never when `check.result` is `unconfirmed`. A number the collective itself lists on an old or undated page uses `check.result: dated` (note required, page in `sources`): the phone is kept and shown with an « Old number, to be checked » badge. A number from a third-party directory, not cross-checked, stays out of `phone`.
 - `check.result: unconfirmed` or `dated` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry (it lists `confirmed` phones only).
 - After editing: `npm run validate:data` then `npm run readme` (the README list is generated).
