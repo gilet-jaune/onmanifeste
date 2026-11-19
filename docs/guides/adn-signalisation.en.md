@@ -1,7 +1,7 @@
 ---
 description: 'DNA, fingerprints and photos in custody: what police can take, refusing and the consequences.'
-source_hash: s1-1ce830e9980c
-source_sections: s1-d9f111.53aaec.96d54a.0ceab9.a072fb.57f1eb.69ecb8.cdfb20.f5ae24.000aab
+source_hash: s1-464b4c330cba
+source_sections: s1-d9f111.53aaec.c544d9.25d369.0ceab9.25e4dc.57f1eb.69ecb8.cdfb20.f5ae24.000aab
 review: juridique
 review_status: pending
 tags:
@@ -31,7 +31,14 @@ This guide complements [Police custody](garde-a-vue.md). It explains **what the 
 - **Flagrante delicto** (article 55-1) and **preliminary investigation** (article 76-2, with the prosecutor's authorisation): the judicial police officer can take **external samples** (mouth swab) and **identification records** (fingerprints or palm prints, photographs) from anyone against whom there are **one or more plausible reasons to suspect** that they committed or attempted the offence.[^cpp-55-1][^cpp-76-2]
 - The decision is **written and reasoned**.[^cpp-55-1]
 - **Photo and fingerprints** can feed police files: the photo, the **TAJ** (criminal records processing file), the fingerprints, the fingerprint file (FAED).[^sp-gav]
-- **Without your consent**, force is only possible for **identity signalisation**: if it is the only way to establish who you are, you refuse to prove your identity or give a manifestly inaccurate one, the offence carries at least 3 years, and the prosecutor authorises it in writing. Your lawyer is notified.[^cpp-55-1]
+- **Without your consent**, force is only possible for **identity signalisation**: if it is the only way to establish who you are, you refuse to prove your identity or give a manifestly inaccurate one, the offence carries at least 3 years, and the prosecutor authorises it in writing. Your lawyer is notified (see [Do you have to wait for the lawyer?](adn-signalisation.md#do-you-have-to-wait-for-the-lawyer)).[^cpp-55-1]
+
+## Do you have to wait for the lawyer?
+
+- **The statute provides no wait** before taking fingerprints, a photo or DNA. The lawyer's assistance you can ask for covers **questioning and confrontations**, not signalisation.[^cpp-63-4-2]
+- **Only one case sets a wait**: taking fingerprints or a photo **by force** (see above). If you asked for a lawyer, they are **notified by any means** and **may attend**; without them, the operation can only take place **after 2 hours** from the notice. A report is drawn up and you get a copy.[^cpp-55-1]
+- **Without force** (you agree), nothing requires waiting, but **nothing prevents you from asking**: say "I want to speak to my lawyer first". The confidential 30-minute meeting is a right from the start of custody.[^cpp-63-4] Refusal remains an offence (see below): if you are told not to wait, that is a decision you take knowingly. Never resist physically, object orally and ask for it to be noted in the report.
+- **The Constitutional Council is stricter than the statute.** On 10 February 2023 it ruled that taking fingerprints or a photo **without the person's consent**, adult or minor, **cannot be done without their lawyer present** (or legal representatives or an appropriate adult): an interpretive reservation that binds how article 55-1 is applied. It also struck down force during a **voluntary interview** (audition libre; the words "61-1 ou").[^cc-2023-1034] Between 2023 and July 2026, Légifrance kept them in the text with a censure note; **the version in force since 25 July 2026 still contains them, without that note** (the law of 23 July 2026 changed only a cross-reference in that paragraph). The exact effect is uncertain: **ask your lawyer** if you are threatened with force during a voluntary interview. The article as we read it only mentions notifying the lawyer and a 2-hour wait: **insist on the lawyer's presence and have it noted in the report**, and tell your lawyer if the police go ahead anyway.
 
 ## The DNA file (FNAEG)
 
@@ -48,6 +55,8 @@ The list in article 706-55 includes in particular: **intentional violence** (222
 - Refusing the sample or signalisation is punished by **1 year in prison and a €15,000 fine**.[^cpp-55-1][^cpp-706-56]
 - Refusing the fingerprints or photos authorised by the prosecutor during an **identity verification** is punished by 3 months and €3,750.[^cpp-78-5]
 - The Constitutional Council held that this penalty is "not manifestly disproportionate" and recalled that sampling implies **neither a declaration nor a presumption of guilt**.[^cc-2010-25]
+
+- **Judgment of the EU Court of Justice of 19 March 2026 (case C-371/24).** The Court rules that EU law **precludes** **systematic** collection of biometric data (fingerprints, photo) from anyone suspected, unless national law defines precise purposes **and** requires the authority to assess, **in each case**, whether collection is **absolutely necessary**; it also precludes a law that does not require **reasons** for that necessity. However, it **does not preclude** prosecuting a refusal, **provided** the collection met that absolute necessity and the penalty is **proportionate**, even if the person is cleared of the original facts. It is for the **French court** to check whether article 55-1 is applied systematically.[^cjue-c-371-24][^dalloz-comdribus-2026][^village-comdribus-2026] The paragraphs on fingerprinting and on refusal are **identical before and after the law of 23 July 2026**: **refusal remains an offence**, but your lawyer can raise this argument.
 
 That is why the question "accept or refuse?" is not settled alone in a police station: a refusal can add a prosecution to the one that led to custody.
 

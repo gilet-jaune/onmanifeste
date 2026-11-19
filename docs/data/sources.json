@@ -847,6 +847,59 @@
         "by": "ai"
       }
     },
+    "cjue-c-371-24": {
+      "title": {
+        "fr": "CJUE — Arrêt du 19 mars 2026, Comdribus, C-371/24 (EUR-Lex)",
+        "en": "CJEU — Judgment of 19 March 2026, Comdribus, C-371/24 (EUR-Lex; in French)"
+      },
+      "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62024CJ0371",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "village-comdribus-2026": {
+      "title": {
+        "fr": "Village de la Justice — L'arrêt Comdribus de la CJUE (C-371/24, 19 mars 2026), commentaire d'avocat",
+        "en": "Village de la Justice — The Comdribus judgment of the CJEU (C-371/24, 19 March 2026), lawyer's commentary (in French)"
+      },
+      "url": "https://www.village-justice.com/articles/cjue-mars-2026-comdribus-371-fin-releve-signaletique-biometrique-comme,56814.html",
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "note": "Commentaire d'avocat ou de revue juridique ; le texte officiel de l'arrêt C-371/24 n'a pas pu être lu.",
+        "by": "ai"
+      }
+    },
+    "dalloz-comdribus-2026": {
+      "title": {
+        "fr": "Dalloz Actualité — Collecte systématique des données biométriques du suspect retoquée par la CJUE (30 avril 2026)",
+        "en": "Dalloz Actualité — Systematic biometric collection of suspects struck down by the CJEU (30 April 2026; in French)"
+      },
+      "url": "https://www.dalloz-actualite.fr/flash/collecte-systematique-des-donnees-biometriques-du-suspect-par-droit-francais-retoquee-par-cjue",
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "note": "Commentaire d'avocat ou de revue juridique ; le texte officiel de l'arrêt C-371/24 n'a pas pu être lu.",
+        "by": "ai"
+      }
+    },
+    "cc-2023-1034": {
+      "title": {
+        "fr": "Conseil constitutionnel — Décision n° 2022-1034 QPC du 10 février 2023 (relevés signalétiques sous contrainte)",
+        "en": "Constitutional Council — Decision 2022-1034 QPC of 10 February 2023 (fingerprinting by force; in French)"
+      },
+      "url": {
+        "fr": "https://www.conseil-constitutionnel.fr/decision/2023/20221034QPC.htm",
+        "en": "https://www.conseil-constitutionnel.fr/decision/2023/20221034QPC.htm"
+      },
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cc-2010-25": {
       "title": {
         "fr": "Conseil constitutionnel — Décision n° 2010-25 QPC du 16 septembre 2010 (fichier d'empreintes génétiques)",
@@ -1660,6 +1713,18 @@
         "en": "Code de procédure pénale, article 63-1 (Légifrance)"
       },
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655471",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cpp-63-4-2": {
+      "title": {
+        "fr": "Code de procédure pénale, article 63-4-2 (Légifrance)",
+        "en": "Code de procédure pénale, article 63-4-2 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049461450",
       "check": {
         "date": "2026-11-19",
         "result": "confirmed",
