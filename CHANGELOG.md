@@ -26,6 +26,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Directory: anti-repression collectives of Grenoble, Caen, Dijon, Saint-Étienne and Rouen, from the RAJCOL network pages (check unconfirmed, no phone number published).
+- Directory: Toulouse and Montpellier anti-repression collectives (check unconfirmed, no phone number published).
 - Directory: CLAP33 (Legal Team Bordeaux, check unconfirmed, no phone number published).
 - Directory: Riseup (e-mail, VPN, lists and pads from an autonomous tech collective) in the digital-security category.
 - Directory: Illégal Team Nantes (anti-repression hotline for arrests at protests) in the legal-help category.

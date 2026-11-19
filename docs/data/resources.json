@@ -1502,6 +1502,167 @@
       }
     },
     {
+      "id": "antirep-toulouse",
+      "name": "Collectif antirépression de Toulouse",
+      "url": "https://toulouse.demosphere.net/rv/36395",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "toulouse"],
+      "description": {
+        "fr": "Collectif toulousain qui soutient les personnes touchées par la répression (garde à vue, procès, blessures) et leurs proches, avec une permanence et une assemblée générale le dimanche à la maison de quartier de Bagatelle. Pas de numéro d'urgence publié ici : voir l'agenda.",
+        "en": "Toulouse collective supporting people hit by repression (police custody, trials, injuries) and their families, with a drop-in session and general assembly on Sundays at the Bagatelle neighbourhood centre. No emergency number published here: see the agenda."
+      },
+      "sources": [
+        {
+          "title": "Démosphère Toulouse — Permanence du collectif antirépression (dimanche 8 novembre 2026, Bagatelle)",
+          "url": "https://toulouse.demosphere.net/rv/36395"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Seule source lue : l'annonce de la permanence du 8 novembre 2026 sur l'agenda Démosphère, sans téléphone ni contact. Un annuaire tiers (Cortège) donne 06 85 05 61 27 pour « Autodéfense Juridique Turbulente », non daté et non recoupé : numéro non reproduit. Les pages Infolibertaire n'ont pas pu être lues."
+      }
+    },
+    {
+      "id": "antirep-montpellier",
+      "name": "Assemblée de Montpellier contre les violences d'État et pour les libertés",
+      "url": "https://lepoing.net/lassemblee-de-montpellier-contre-les-violences-detat-lance-une-cagnotte-pour-soutenir-les-inculpes/",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "montpellier"],
+      "description": {
+        "fr": "Collectif montpelliérain d'aide aux personnes réprimées : soutien financier, suivi des audiences de comparution immédiate et réunions ouvertes. Pas de numéro d'urgence publié ici : à confirmer auprès du collectif.",
+        "en": "Montpellier collective helping people facing repression: financial support, monitoring of fast-track court hearings and open meetings. No emergency number published here: confirm with the collective."
+      },
+      "sources": [
+        {
+          "title": "Le Poing — L'assemblée de Montpellier contre les violences d'État lance une cagnotte pour soutenir les inculpés (27 février 2019)",
+          "url": "https://lepoing.net/lassemblee-de-montpellier-contre-les-violences-detat-lance-une-cagnotte-pour-soutenir-les-inculpes/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Source lue : un article de presse de février 2019, sans téléphone. Le numéro 07 73 99 82 32 de l'annuaire Cortège n'est pas recoupé et une autre source donne un numéro différent : aucun numéro reproduit. Lieu et horaire des réunions à revérifier."
+      }
+    },
+    {
+      "id": "antirep-grenoble",
+      "name": "Collectif antirépression de Grenoble (CAR 38)",
+      "url": "https://rajcollective.nublogs.org/index.html%3Fp=332.html",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "grenoble"],
+      "description": {
+        "fr": "Collectif grenoblois d'anti-répression militante (organisations diverses, de la LDH à Solidaires, et collectifs autonomes). Coordonnées sur la page du réseau RAJCOL ; à confirmer avant usage.",
+        "en": "Grenoble anti-repression collective (various organisations, from the LDH to Solidaires, plus autonomous groups). Contact details on the RAJCOL network page; confirm before use."
+      },
+      "sources": [
+        {
+          "title": "RAJCOL — (38) Grenoble (page non datée, époque des gilets jaunes)",
+          "url": "https://rajcollective.nublogs.org/index.html%3Fp=332.html"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Page RAJCOL non datée (collectif « né récemment » autour des gilets jaunes) : e-mail et téléphone listés mais non revérifiés, donc non reproduits. Page Facebook du collectif non lue."
+      }
+    },
+    {
+      "id": "antirep-caen",
+      "name": "Contre la Répression — Organisation Collective (Caen)",
+      "url": "https://rajcollective.nublogs.org/index.html%3Fp=276.html",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "caen"],
+      "description": {
+        "fr": "Collectif caennais né en 2017 (loi Travail) : soutien matériel, juridique et financier aux personnes réprimées, mise en relation avec des avocat·es, permanences mensuelles. Coordonnées sur la page du réseau RAJCOL ; à confirmer avant usage.",
+        "en": "Caen collective founded in 2017 (labour-law protests): material, legal and financial support for people facing repression, introductions to lawyers, monthly drop-in sessions. Contact details on the RAJCOL network page; confirm before use."
+      },
+      "sources": [
+        {
+          "title": "RAJCOL — (14) Caen (page non datée)",
+          "url": "https://rajcollective.nublogs.org/index.html%3Fp=276.html"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Page RAJCOL non datée ; le site du collectif (caenantirep.home.blog) ne montre que des articles de 2018. Ligne d'urgence et e-mail listés, non revérifiés, donc non reproduits."
+      }
+    },
+    {
+      "id": "caisse-solidarite-dijon",
+      "name": "Caisse de solidarité contre la répression (Dijon)",
+      "url": "https://rajcollective.nublogs.org/index.html%3Fp=57.html",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "dijon"],
+      "description": {
+        "fr": "Caisse de solidarité dijonnaise : trouver des avocat·es, financer collectivement les frais, préparer les défenses et soutenir les blessé·es par la police. Coordonnées sur la page du réseau RAJCOL ; à confirmer avant usage.",
+        "en": "Dijon solidarity fund: finding lawyers, pooling money to pay them, preparing defences and supporting people injured by police. Contact details on the RAJCOL network page; confirm before use."
+      },
+      "sources": [
+        {
+          "title": "RAJCOL — (21) Dijon (page non datée)",
+          "url": "https://rajcollective.nublogs.org/index.html%3Fp=57.html"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Page RAJCOL non datée ; téléphone et e-mail listés, non revérifiés, donc non reproduits. Événements de soutien relayés sur Dijoncter.info, non lus."
+      }
+    },
+    {
+      "id": "cassis-saint-etienne",
+      "name": "CASSIS — Collectif d'autodéfense et de solidarité (Saint-Étienne)",
+      "url": "https://rajcollective.nublogs.org/index.html%3Fp=279.html",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "saint-etienne"],
+      "description": {
+        "fr": "Caisse de solidarité stéphanoise en soutien aux inculpé·es : ligne d'urgence pour les manifs, flyers sur la garde à vue, permanences téléphoniques un mardi sur deux. Coordonnées sur la page du réseau RAJCOL ; à confirmer avant usage.",
+        "en": "Saint-Étienne solidarity fund supporting defendants: emergency line for protests, police-custody leaflets, phone sessions every other Tuesday. Contact details on the RAJCOL network page; confirm before use."
+      },
+      "sources": [
+        {
+          "title": "RAJCOL — (42) Saint-Étienne (page non datée)",
+          "url": "https://rajcollective.nublogs.org/index.html%3Fp=279.html"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Page RAJCOL non datée (suivi d'affaires « depuis fin 2018 ») ; téléphone, Signal et e-mail listés, non revérifiés, donc non reproduits."
+      }
+    },
+    {
+      "id": "legal-team-rouen",
+      "name": "Legal Team de Rouen (LTR)",
+      "url": "https://rajcollective.nublogs.org/index.html%3Fp=605.html",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "rouen", "legal-team"],
+      "description": {
+        "fr": "Legal Team rouennaise (depuis 2016) : conseils juridiques, formation à la garde à vue, caisse de solidarité, permanence téléphonique lors des mouvements. Coordonnées sur la page du réseau RAJCOL ; à confirmer avant usage.",
+        "en": "Rouen Legal Team (since 2016): legal advice, police-custody training, solidarity fund, phone line during movements. Contact details on the RAJCOL network page; confirm before use."
+      },
+      "sources": [
+        {
+          "title": "RAJCOL — (76) Rouen (page non datée)",
+          "url": "https://rajcollective.nublogs.org/index.html%3Fp=605.html"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Page RAJCOL non datée ; téléphone et e-mail listés, non revérifiés, donc non reproduits."
+      }
+    },
+    {
       "id": "legal-team-rennes",
       "name": "Antirep Rennes (Expansive.info)",
       "url": "https://expansive.info/Repression-Justice",
