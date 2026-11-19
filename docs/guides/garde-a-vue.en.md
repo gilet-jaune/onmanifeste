@@ -1,7 +1,7 @@
 ---
 description: 'Police custody: lawyer, doctor, right to remain silent, duration and rights to know from the moment of arrest.'
-source_hash: s1-f22d6147e490
-source_sections: s1-943d80.e8a103.ef8bc4.e3e35e.e5f96e.087439.1fc937.c0a899.567a6f.614f7c.000aab
+source_hash: s1-36114d253926
+source_sections: s1-943d80.e8a103.ef8bc4.0d96ff.e5f96e.087439.1fc937.c0a899.567a6f.614f7c.000aab
 review: juridique
 review_status: pending
 tags:
@@ -50,7 +50,7 @@ They must be notified to you immediately, in a language you understand:[^sp-gav]
 
 - **The right to remain silent.** You can give your identity ([what that covers](garde-a-vue.md#giving-your-identity-what-it-means)) and refuse to answer other questions.
 - **A lawyer**, of your choice or court-appointed (free depending on your income). Since 1 July 2024, you can ask that no questioning takes place without a lawyer.[^sp-gav-2024] The meeting with the lawyer is **confidential** and lasts **30 minutes at most**; you can ask for it again at the start of an extension.[^cpp-63-4] You can ask for a lawyer **from the start and at any time**, and if the lawyer finds a conflict of interest they have another one appointed.[^cpp-63-3-1] The texts we read neither cap nor expressly provide for repeated changes: **ask your lawyer** rather than assume.
-- **A doctor.** They rule in particular on whether custody is compatible with your condition, and their certificate goes in the file.[^sp-gav] **Talk to them only about your health** (pain, injuries, treatment), never about the facts: do not assume what you tell them stays confidential, since the certificate goes in the file.
+- **A doctor.** They rule in particular on whether custody is compatible with your condition, and their certificate goes in the file.[^sp-gav] They are **appointed by the prosecutor or the OPJ**, not chosen by you: the examination must be arranged within **3 hours** of your request, and you can ask for **a second examination** if custody is extended.[^cpp-63-3] **Talk to them only about your health** (pain, injuries, treatment), never about the facts: do not assume what you tell them stays confidential, since the certificate goes in the file.
 - **Have someone notified**: a relative and your employer. The police make the call (often from a hidden number), which is why you should write the **10 digits of a close contact on your skin under clothing** before the protest: since your phone is taken during the search, never ask to unlock it in front of officers to look up a number.[^sp-gav][^sm-guide]
 - **An interpreter** if needed.
 - Access to some case documents (notification report, medical certificate).

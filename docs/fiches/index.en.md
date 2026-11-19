@@ -1,7 +1,7 @@
 ---
 description: 'Two one-page A4 memo sheets to print and fold: numbers, rights and reflexes at a protest, useful without a phone.'
-source_hash: s1-9ab8b0a8f81c
-source_sections: s1-aa8ec8.ac4dfd.969b48.8d7780
+source_hash: s1-eedfbc1f6687
+source_sections: s1-aa8ec8.ac4dfd.78f578.b42fbb
 review: juridique
 review_status: pending
 tags:
@@ -24,9 +24,9 @@ Two **single A4 page** sheets to print and fold: they stay useful if your phone 
 
 **A.M.I.S**: Avocat (lawyer), Médecin (doctor), Informer (a relative), Silence.
 
-1. I ask for **a lawyer** and **a doctor**, from the start. Word for word: "Je veux voir un avocat.", "Je veux voir un médecin."
+1. I ask for **a lawyer** and **a doctor**, from the start. Word for word: "Je veux voir un avocat.", "Je veux voir un médecin." To the doctor: **health only**, never the facts.
 2. I give **my identity** (exact civil status, nothing else), then **stay silent** until the lawyer arrives. "I have nothing to say" is a right.
-3. I talk about **no one else**: no names, no descriptions.
+3. I talk about **no one else**: no names, no descriptions. Even to the lawyer: I say what serves my defence. I can **change lawyer** (conflict of interest).
 4. I **re-read** every statement. I do not sign anything inaccurate; I can refuse to sign.
 5. I **do not unlock** my phone without talking to the lawyer.
 6. **Photos, fingerprints, DNA**: refusing is an offence (1 year and €15,000). I talk to **the lawyer before deciding**. Refusing the photo does not avoid the **TAJ** (criminal records processing file; guide "DNA, fingerprints and photos").
@@ -61,7 +61,7 @@ Two **single A4 page** sheets to print and fold: they stay useful if your phone 
 
 **Never** give food or drink to a seriously injured or half-conscious person. **Do not** give medication (except the inhaler above).
 
-**Afterwards**: have any injury **documented** by a doctor (certificate with ITT), photograph the injuries.
+**Afterwards**: have any injury **documented** by a doctor (certificate with ITT), photograph the injuries. Periods triggered or pregnancy after tear gas: talk to a doctor or midwife (First aid guide).
 
 </section>
 

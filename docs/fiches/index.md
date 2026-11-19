@@ -22,9 +22,9 @@ Deux fiches d'**une page A4**, à imprimer et à plier : elles restent utiles si
 
 **A.M.I.S** : Avocat, Médecin, Informer un proche, Silence.
 
-1. Je demande **un·e avocat·e** et **un médecin**, dès le début. Mot pour mot : « Je veux voir un avocat. », « Je veux voir un médecin. »
+1. Je demande **un·e avocat·e** et **un médecin**, dès le début. Mot pour mot : « Je veux voir un avocat. », « Je veux voir un médecin. » Au médecin : **que la santé**, jamais les faits.
 2. Je donne **mon identité** (état civil exact, rien d'autre), puis je **garde le silence** jusqu'à l'avocat·e. « Je n'ai rien à déclarer » est un droit.
-3. Je ne parle **de personne** d'autre : ni noms, ni description.
+3. Je ne parle **de personne** d'autre : ni noms, ni description. Même à l'avocat·e : je dis ce qui sert ma défense. Je peux **changer d'avocat·e** (conflit d'intérêts).
 4. Je **relis** chaque procès-verbal. Je ne signe pas ce qui est inexact ; je peux refuser de signer.
 5. Je **ne déverrouille pas** mon téléphone sans en parler à l'avocat·e.
 6. **Photos, empreintes, ADN** : le refus est un délit (1 an et 15 000 €). J'en parle **à l'avocat·e avant de décider**. Refuser la photo n'évite pas le **TAJ** (traitement d'antécédents judiciaires ; guide « ADN, empreintes et photos »).
@@ -59,7 +59,7 @@ Deux fiches d'**une page A4**, à imprimer et à plier : elles restent utiles si
 
 **Ne jamais** donner à boire ni à manger à une personne gravement blessée ou à demi consciente. **Ne pas** donner de médicaments (sauf l'inhalateur ci-dessus).
 
-**Après** : faire **constater** toute blessure par un médecin (certificat avec ITT), photographier les lésions.
+**Après** : faire **constater** toute blessure par un médecin (certificat avec ITT), photographier les lésions. Règles déclenchées ou grossesse après des gaz : en parler à un médecin ou une sage-femme (guide Premiers secours).
 
 </section>
 
