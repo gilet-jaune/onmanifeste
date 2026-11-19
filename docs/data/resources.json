@@ -1678,6 +1678,88 @@
       }
     },
     {
+      "id": "antirep-nancy",
+      "name": "ASSAGI — Autodéfense et solidarité contre la répression (Nancy)",
+      "url": "https://nancy-luttes.net/assagi/perms.html",
+      "phone": "07 84 75 81 39",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "avocat", "nancy"],
+      "description": {
+        "fr": "Association nancéienne d'autodéfense juridique et de solidarité contre la répression : soutien financier, mise en relation avec un réseau d'avocat·es, page des permanences d'avocat·es du jour. Numéro issu de l'annuaire Cortège.",
+        "en": "Nancy association for legal self-defence and solidarity against repression: financial support, introductions to a network of lawyers, page of the day's duty lawyers. Number taken from the Cortège directory."
+      },
+      "sources": [
+        {
+          "title": "ASSAGI — Infos permanences (page des avocat·es de permanence)",
+          "url": "https://nancy-luttes.net/assagi/perms.html"
+        },
+        {
+          "title": "Manif'Est — Soutien à ASSAGI, solidarité face à la répression (27 septembre 2025)",
+          "url": "https://manif-est.info/Nancy-Samedi-27-septembre-soutien-a-ASSAGI-solidarite-face-a-la-repression-3545.html"
+        },
+        {
+          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers, non daté)",
+          "url": "https://cortege.neru.tv/legal-teams"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "dated",
+        "by": "ai",
+        "note": "Le numéro vient de l'annuaire Cortège (non daté) : la page d'ASSAGI lue (permanences d'avocat·es, mise à jour le 19 novembre 2026) n'affiche aucun téléphone. Les noms d'avocat·es de permanence ne sont pas repris."
+      }
+    },
+    {
+      "id": "defense-collective-strasbourg",
+      "name": "Défense Collective Strasbourg",
+      "url": "https://defensecollectivestrasbourg.wordpress.com/",
+      "phone": "07 69 14 45 48",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "strasbourg"],
+      "description": {
+        "fr": "Collectif strasbourgeois d'autodéfense juridique : guides sur la manifestation, la garde à vue et la procédure, contact par téléphone, courriel (dcs@riseup.net) et Facebook. Site sans publication depuis 2016 : numéro à vérifier.",
+        "en": "Strasbourg legal self-defence collective: guides on protests, police custody and procedure, contact by phone, e-mail (dcs@riseup.net) and Facebook. No posts since 2016: check the number."
+      },
+      "sources": [
+        {
+          "title": "Défense Collective Strasbourg — Contacts (dernier article : septembre 2016)",
+          "url": "https://defensecollectivestrasbourg.wordpress.com/contacts/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "dated",
+        "by": "ai",
+        "note": "Numéro lu sur la page Contacts du collectif lui-même, mais le site n'a aucun article depuis septembre 2016 : numéro très ancien, aucune activité récente trouvée. La caisse de solidarité associée (solidarite67) est injoignable (site disparu)."
+      }
+    },
+    {
+      "id": "cancre-besancon",
+      "name": "CANCRE — caisse de solidarité contre la répression (Besançon, Franche-Comté)",
+      "url": "https://rabasse.info/+-La-CANCRE-+",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "besancon"],
+      "description": {
+        "fr": "Caisse franc-comtoise de soutien contre la répression : frais d'avocat·es et de santé, accompagnement juridique, information sur l'appareil répressif. Contact par courriel (cancre-antirep@riseup.net) ; le numéro de téléphone est annoncé comme « bientôt disponible ».",
+        "en": "Franche-Comté solidarity fund against repression: lawyer and medical costs, legal support, information on the repressive apparatus. Contact by e-mail (cancre-antirep@riseup.net); a phone number is announced as “coming soon”."
+      },
+      "sources": [
+        {
+          "title": "Rabasse.info — La CANCRE (page du collectif, contacts)",
+          "url": "https://rabasse.info/+-La-CANCRE-+"
+        },
+        {
+          "title": "Rabasse.info — Quelques conseils en manif et action (4 octobre 2026)",
+          "url": "https://rabasse.info/Quelques-conseils-en-manif-et-action-1651"
+        }
+      ],
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "legal-team-rennes",
       "name": "Antirep Rennes (Expansive.info)",
       "url": "https://expansive.info/Repression-Justice",

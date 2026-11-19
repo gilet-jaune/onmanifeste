@@ -28,6 +28,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Directory: new check level `dated` (« Numéro ancien, à vérifier »): a phone the collective itself lists on an old or undated page is kept and shown with a warning badge (hidden from the SOS page); `unconfirmed` still forbids a phone.
 - Directory: anti-repression collectives of Grenoble, Caen, Dijon, Saint-Étienne and Rouen, from the RAJCOL network pages (phone shown with the old-number badge).
+- Directory: ASSAGI (Nancy), Défense Collective Strasbourg (very old number) and CANCRE (Besançon, e-mail only).
 - Directory: Toulouse and Montpellier anti-repression collectives, and the Rennes legal team number, from the Cortège directory (phone shown with the old-number badge).
 - Directory: CLAP33 (Legal Team Bordeaux, check unconfirmed, no phone number published).
 - Directory: Riseup (e-mail, VPN, lists and pads from an autonomous tech collective) in the digital-security category.
