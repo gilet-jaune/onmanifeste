@@ -28,6 +28,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 - Directory: new check level `dated` (« Numéro ancien, à vérifier »): a phone the collective itself lists on an old or undated page is kept and shown with a warning badge (hidden from the SOS page); `unconfirmed` still forbids a phone.
 - Directory: anti-repression collectives of Grenoble, Caen, Dijon, Saint-Étienne and Rouen, from the RAJCOL network pages (phone shown with the old-number badge).
+- Directory: Instagram cross-check for Marseille (number identical), Grenoble (number identical, now confirmed, e-mail added) and Montpellier (the collective's profile gives a third, different number, now listed and flagged).
+- Directory: Instagram profiles of Illégal Team Nantes and Legal Team Paris IDF checked against the listed phone numbers (identical); Instagram account added to both, e-mail added to Nantes; CLAP33 profile read (no number).
 - Directory: optional `email` field on resources (shown next to the phone on cards, in the contact card and in the README); the addresses that were in descriptions (Paris coordination, Marseille, Lille, Strasbourg, Besançon) moved into it.
 - Directory: ASSAGI (Nancy), Défense Collective Strasbourg (very old number) and CANCRE (Besançon, e-mail only).
 - Directory: Toulouse and Montpellier anti-repression collectives, and the Rennes legal team number, from the Cortège directory (phone shown with the old-number badge).

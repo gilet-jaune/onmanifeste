@@ -1121,8 +1121,17 @@
         "fr": "Ligne antirépression de la Coordination contre la répression et les violences policières : signaler une interpellation, être orienté vers un·e avocat·e, suivi après la garde à vue. Contact par Signal de préférence.",
         "en": "Anti-repression hotline of the Paris coordination against police repression: report an arrest, get referred to a lawyer, follow-up after custody. Signal preferred."
       },
+      "socials": {
+        "instagram": "https://www.instagram.com/legalteam.paris.idf/"
+      },
+      "sources": [
+        {
+          "title": "Instagram — Legal Team Paris IDF (profil : numéro et courriel, consulté le 19 novembre 2026)",
+          "url": "https://www.instagram.com/legalteam.paris.idf/"
+        }
+      ],
       "check": {
-        "date": "2026-10-28",
+        "date": "2026-11-19",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1375,10 +1384,17 @@
         {
           "title": "RAJCOL — Réseau d'autodéfense juridique collective",
           "url": "https://rajcollective.nublogs.org/les-collectifs-locaux/"
+        },
+        {
+          "title": "Instagram — Légal Team Marseille (profil : numéro, consulté le 19 novembre 2026)",
+          "url": "https://www.instagram.com/legalteam.mars/"
         }
       ],
+      "socials": {
+        "instagram": "https://www.instagram.com/legalteam.mars/"
+      },
       "check": {
-        "date": "2026-10-29",
+        "date": "2026-11-19",
         "result": "confirmed",
         "by": "ai"
       }
@@ -1472,13 +1488,17 @@
         {
           "title": "Collectif Bordeaux En Luttes — Manifestation du 1er mai 2024 (relais de l'appel de CLAP33 : Legal Team depuis 2009, canaux de contact)",
           "url": "https://www.facebook.com/share/p/18gGevjSGN/"
+        },
+        {
+          "title": "Instagram — CLAP33 (profil : « Legal Team. En place depuis mai 2009 à Bordeaux », consulté le 19 novembre 2026)",
+          "url": "https://www.instagram.com/c.l.a.p33/"
         }
       ],
       "check": {
         "date": "2026-11-18",
         "result": "unconfirmed",
         "by": "ai",
-        "note": "Source : un post du 30 avril 2024 (relais de l'appel de CLAP33), lu sans connexion ; la page Facebook du collectif n'a pas été ouverte et le numéro de permanence, publié en 2024, n'a pas été revérifié : il n'est donc pas reproduit."
+        "note": "Le profil Instagram du collectif (actif en novembre 2026) confirme qu'il se présente comme Legal Team à Bordeaux depuis mai 2009, mais n'affiche aucun numéro ; les contacts de la rubrique « Legal Team » (stories, liens) n'ont pas pu être lus. Le numéro publié en 2024 n'est pas reproduit."
       }
     },
     {
@@ -1486,16 +1506,24 @@
       "name": "Illégal Team Nantes",
       "url": "https://nantes.indymedia.org/groups/illegal-team-nantes/",
       "phone": "06 75 30 95 45",
+      "email": "illegalteamnantes@riseup.net",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "nantes", "urgence", "legal-team"],
       "description": {
         "fr": "Collectif antirépression nantais : signaler une interpellation en manifestation au numéro de la permanence, tract « antirep de manif » à imprimer et à diffuser.",
         "en": "Nantes anti-repression collective: report an arrest at a protest to its hotline, and print and share its “protest anti-repression” leaflet."
       },
+      "socials": {
+        "instagram": "https://www.instagram.com/illegalteam_nantes/"
+      },
       "sources": [
         {
           "title": "Indymedia Nantes — Le tract de l'Illegal Team pour l'antirep de manif (2 octobre 2026, numéro à appeler en cas d'interpellation)",
           "url": "https://nantes.indymedia.org/posts/169646/le-tract-de-l-illegal-team-pour-l-antirep-de-manif/"
+        },
+        {
+          "title": "Instagram — Illégal Team Nantes (profil : numéro et courriel, consulté le 19 novembre 2026)",
+          "url": "https://www.instagram.com/illegalteam_nantes/"
         }
       ],
       "check": {
@@ -1521,7 +1549,7 @@
           "url": "https://toulouse.demosphere.net/rv/36395"
         },
         {
-          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers, non daté)",
+          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers tenu à jour, consulté le 19 novembre 2026)",
           "url": "https://cortege.neru.tv/legal-teams"
         }
       ],
@@ -1529,7 +1557,7 @@
         "date": "2026-11-19",
         "result": "dated",
         "by": "ai",
-        "note": "Numéro de l'annuaire Cortège (non daté), retenu comme source : non recoupé par une page du collectif. Source principale de la fiche : annonce de la permanence du 8 novembre 2026 sur l'agenda Démosphère, sans contact. Pages Infolibertaire illisibles (403)."
+        "note": "Numéro de l'annuaire Cortège (site tenu à jour, numéros annoncés comme vérifiés auprès des collectifs), retenu comme source : non recoupé par une page du collectif. Source principale de la fiche : annonce de la permanence du 8 novembre 2026 sur l'agenda Démosphère, sans contact. Pages Infolibertaire illisibles (403)."
       }
     },
     {
@@ -1537,11 +1565,12 @@
       "name": "Assemblée de Montpellier contre les violences d'État et pour les libertés",
       "url": "https://lepoing.net/lassemblee-de-montpellier-contre-les-violences-detat-lance-une-cagnotte-pour-soutenir-les-inculpes/",
       "phone": "07 73 99 82 32",
+      "email": "antirep.mtp@proton.me",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "montpellier"],
       "description": {
-        "fr": "Collectif montpelliérain d'aide aux personnes réprimées : soutien financier, suivi des audiences de comparution immédiate et réunions ouvertes. Numéro issu de l'annuaire Cortège ; un autre numéro (07 73 74 61 07) circule dans un article plus ancien.",
-        "en": "Montpellier collective helping people facing repression: financial support, monitoring of fast-track court hearings and open meetings. Number taken from the Cortège directory; another number (07 73 74 61 07) appears in an older article."
+        "fr": "Collectif montpelliérain d'aide aux personnes réprimées : soutien financier, suivi des audiences de comparution immédiate et réunions ouvertes. Numéro de l'annuaire Cortège ; deux autres numéros circulent (profil Instagram de 2023, article plus ancien).",
+        "en": "Montpellier collective helping people facing repression: financial support, monitoring of fast-track court hearings and open meetings. Number taken from the Cortège directory; two other numbers circulate (2023 Instagram profile, older article)."
       },
       "sources": [
         {
@@ -1549,15 +1578,22 @@
           "url": "https://lepoing.net/lassemblee-de-montpellier-contre-les-violences-detat-lance-une-cagnotte-pour-soutenir-les-inculpes/"
         },
         {
-          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers, non daté)",
+          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers tenu à jour, consulté le 19 novembre 2026)",
           "url": "https://cortege.neru.tv/legal-teams"
+        },
+        {
+          "title": "Instagram — Antirep Montpellier (profil : numéro, courriel, consulté le 19 novembre 2026)",
+          "url": "https://www.instagram.com/antirep.mtp/"
         }
       ],
+      "socials": {
+        "instagram": "https://www.instagram.com/antirep.mtp/"
+      },
       "check": {
         "date": "2026-11-19",
         "result": "dated",
         "by": "ai",
-        "note": "Numéro de l'annuaire Cortège (non daté), retenu comme source ; un autre numéro (07 73 74 61 07) figure dans un article plus ancien : non tranché. Source principale de la fiche : article de presse de février 2019, sans téléphone. Lieu et horaire des réunions à revérifier."
+        "note": "Trois numéros discordants, retenu le plus récent : 07 73 99 82 32, de l'annuaire Cortège (site tenu à jour, agenda du 21 novembre 2026 ; il affirme vérifier chaque numéro auprès de la source publique du collectif). Les deux autres sont plus anciens : 07 73 69 78 60 (profil Instagram du collectif, unique publication du 11 avril 2023) et 07 73 74 61 07 (article de l'époque des gilets jaunes, 2018-2019). Source principale de la fiche : article de presse de février 2019. Lieu et horaire des réunions à revérifier."
       }
     },
     {
@@ -1565,23 +1601,30 @@
       "name": "Collectif antirépression de Grenoble (CAR 38)",
       "url": "https://rajcollective.nublogs.org/index.html%3Fp=332.html",
       "phone": "07 74 24 57 57",
+      "email": "car38@riseup.net",
       "category": "juridique",
       "tags": ["antirepression", "soutien-gav", "grenoble"],
       "description": {
-        "fr": "Collectif grenoblois d'anti-répression militante (organisations diverses, de la LDH à Solidaires, et collectifs autonomes). Coordonnées issues de la page du réseau RAJCOL.",
-        "en": "Grenoble anti-repression collective (various organisations, from the LDH to Solidaires, plus autonomous groups). Contact details taken from the RAJCOL network page."
+        "fr": "Collectif grenoblois d'anti-répression militante (organisations diverses, de la LDH à Solidaires, et collectifs autonomes). Contact (téléphone, courriel, Signal) sur le profil Instagram du collectif.",
+        "en": "Grenoble anti-repression collective (various organisations, from the LDH to Solidaires, plus autonomous groups). Contact (phone, e-mail, Signal) on the collective's Instagram profile."
       },
       "sources": [
         {
           "title": "RAJCOL — (38) Grenoble (page non datée, époque des gilets jaunes)",
           "url": "https://rajcollective.nublogs.org/index.html%3Fp=332.html"
+        },
+        {
+          "title": "Instagram — Collectif AntiRépression 38 (profil : numéro, courriel, Signal, consulté le 19 novembre 2026)",
+          "url": "https://www.instagram.com/car38.collectif.antirep/"
         }
       ],
+      "socials": {
+        "instagram": "https://www.instagram.com/car38.collectif.antirep/"
+      },
       "check": {
         "date": "2026-11-19",
-        "result": "dated",
-        "by": "ai",
-        "note": "Numéro listé par le collectif sur une page RAJCOL non datée (collectif « né récemment » autour des gilets jaunes) : non revérifié. Page Facebook du collectif non lue."
+        "result": "confirmed",
+        "by": "ai"
       }
     },
     {
@@ -1701,7 +1744,7 @@
           "url": "https://manif-est.info/Nancy-Samedi-27-septembre-soutien-a-ASSAGI-solidarite-face-a-la-repression-3545.html"
         },
         {
-          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers, non daté)",
+          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers tenu à jour, consulté le 19 novembre 2026)",
           "url": "https://cortege.neru.tv/legal-teams"
         }
       ],
@@ -1709,7 +1752,7 @@
         "date": "2026-11-19",
         "result": "dated",
         "by": "ai",
-        "note": "Le numéro vient de l'annuaire Cortège (non daté) : la page d'ASSAGI lue (permanences d'avocat·es, mise à jour le 19 novembre 2026) n'affiche aucun téléphone. Les noms d'avocat·es de permanence ne sont pas repris."
+        "note": "Le numéro vient de l'annuaire Cortège (site tenu à jour, numéros annoncés comme vérifiés auprès des collectifs) : la page d'ASSAGI lue (permanences d'avocat·es, mise à jour le 19 novembre 2026) n'affiche aucun téléphone. Les noms d'avocat·es de permanence ne sont pas repris."
       }
     },
     {
@@ -1785,7 +1828,7 @@
           "url": "https://expansive.info/SPARR"
         },
         {
-          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers, non daté)",
+          "title": "Cortège — Legal teams : les numéros, ville par ville (annuaire tiers tenu à jour, consulté le 19 novembre 2026)",
           "url": "https://cortege.neru.tv/legal-teams"
         }
       ],
@@ -1793,7 +1836,7 @@
         "date": "2026-10-29",
         "result": "dated",
         "by": "ai",
-        "note": "Page et informations contrôlées le 29 octobre 2026. Le numéro de la legal team vient de l'annuaire Cortège (non daté) : non recoupé par une page du collectif."
+        "note": "Page et informations contrôlées le 29 octobre 2026. Le numéro de la legal team vient de l'annuaire Cortège (site tenu à jour, numéros annoncés comme vérifiés auprès des collectifs) : non recoupé par une page du collectif."
       }
     },
     {
