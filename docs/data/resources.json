@@ -1425,6 +1425,56 @@
       }
     },
     {
+      "id": "clap33-bordeaux",
+      "name": "CLAP33 — Contre les abus policiers (Legal Team Bordeaux)",
+      "url": "https://www.facebook.com/clap33",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "bordeaux", "urgence", "legal-team"],
+      "description": {
+        "fr": "Collectif bordelais contre les abus policiers, qui se présente comme la Legal Team de Bordeaux depuis 2009 : à contacter en cas de problème avec la police en manifestation. Page Facebook ; numéro à confirmer sur la page avant de l'utiliser.",
+        "en": "Bordeaux collective against police abuse, which describes itself as Bordeaux's Legal Team since 2009: to contact if you have trouble with the police at a protest. Facebook page; check the number on the page before using it."
+      },
+      "socials": {
+        "instagram": "https://www.instagram.com/c.l.a.p33/",
+        "facebook": "https://www.facebook.com/clap33"
+      },
+      "sources": [
+        {
+          "title": "Collectif Bordeaux En Luttes — Manifestation du 1er mai 2024 (relais de l'appel de CLAP33 : Legal Team depuis 2009, canaux de contact)",
+          "url": "https://www.facebook.com/share/p/18gGevjSGN/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-18",
+        "result": "unconfirmed",
+        "by": "ai",
+        "note": "Source : un post du 30 avril 2024 (relais de l'appel de CLAP33), lu sans connexion ; la page Facebook du collectif n'a pas été ouverte et le numéro de permanence, publié en 2024, n'a pas été revérifié : il n'est donc pas reproduit."
+      }
+    },
+    {
+      "id": "illegal-team-nantes",
+      "name": "Illégal Team Nantes",
+      "url": "https://nantes.indymedia.org/groups/illegal-team-nantes/",
+      "phone": "06 75 30 95 45",
+      "category": "juridique",
+      "tags": ["antirepression", "soutien-gav", "nantes", "urgence", "legal-team"],
+      "description": {
+        "fr": "Collectif antirépression nantais : signaler une interpellation en manifestation au numéro de la permanence, tract « antirep de manif » à imprimer et à diffuser.",
+        "en": "Nantes anti-repression collective: report an arrest at a protest to its hotline, and print and share its “protest anti-repression” leaflet."
+      },
+      "sources": [
+        {
+          "title": "Indymedia Nantes — Le tract de l'Illegal Team pour l'antirep de manif (2 octobre 2026, numéro à appeler en cas d'interpellation)",
+          "url": "https://nantes.indymedia.org/posts/169646/le-tract-de-l-illegal-team-pour-l-antirep-de-manif/"
+        }
+      ],
+      "check": {
+        "date": "2026-11-18",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    {
       "id": "legal-team-rennes",
       "name": "Antirep Rennes (Expansive.info)",
       "url": "https://expansive.info/Repression-Justice",

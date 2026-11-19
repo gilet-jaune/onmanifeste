@@ -26,6 +26,8 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Directory: CLAP33 (Legal Team Bordeaux, check unconfirmed, no phone number published).
+- Directory: Illégal Team Nantes (anti-repression hotline for arrests at protests) in the legal-help category.
 - Directory: MonVote2027 (presidential 2027 voter quiz, anonymous volunteer publisher, check left as unconfirmed) in the democracy category.
 - Guide « La désobéissance civile » (FR/EN, legal review pending), with a « Je pense à une action de désobéissance civile » profile in the guided search.
 - Timeline schema of a demonstration (declaration, possible ban, appeal within 48 h, the day itself) in the right-to-protest guide, drawn from `docs/data/routes.json`.
