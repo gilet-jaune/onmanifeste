@@ -45,7 +45,7 @@ _(Sur le bras : **10 chiffres sous la manche, sans nom** — proche hors manif q
 ### En garde à vue
 
 1. Je demande **un·e avocat·e** et **un médecin**.
-2. Je donne mon identité, puis **je garde le silence** jusqu'à l'avocat·e.
+2. Je donne mon identité (**état civil exact, rien d'autre**), puis **je garde le silence** jusqu'à l'avocat·e.
 3. Je lis le numéro sur mon bras (**je ne déverrouille pas mon téléphone**).
 4. Je ne parle **de personne** d'autre.
 5. Je **relis** tout ; je ne signe rien d'inexact.

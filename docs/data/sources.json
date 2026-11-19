@@ -1654,6 +1654,30 @@
         "by": "ai"
       }
     },
+    "cpp-63-1": {
+      "title": {
+        "fr": "Code de procédure pénale, article 63-1 (Légifrance)",
+        "en": "Code de procédure pénale, article 63-1 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032655471",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "cp-434-23": {
+      "title": {
+        "fr": "Code pénal, article 434-23 (Légifrance)",
+        "en": "Code pénal, article 434-23 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006418661",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cpp-63": {
       "title": {
         "fr": "Légifrance — Code de procédure pénale, art. 63 (placement et durée de la garde à vue)",

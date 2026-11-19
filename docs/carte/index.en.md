@@ -1,7 +1,7 @@
 ---
 description: 'A pocket card to print, cut out and carry: useful numbers on the front, rights and reflexes on the back, even without a phone.'
-source_hash: s1-64f893004836
-source_sections: s1-25bd49.1f4ca0
+source_hash: s1-938484fb9a89
+source_sections: s1-25bd49.0b4570
 review: juridique
 review_status: pending
 tags:
@@ -47,7 +47,7 @@ _(On your arm: **10 digits under your sleeve, no name** — someone not protesti
 ### In custody
 
 1. I ask for **a lawyer** and **a doctor**.
-2. I give my identity, then **I remain silent** until the lawyer arrives.
+2. I give my identity (**exact civil status, nothing else**), then **I remain silent** until the lawyer arrives.
 3. I read the number on my arm (**I do not unlock my phone**).
 4. I talk **about no one** else.
 5. I **re-read** everything; I sign nothing inaccurate.

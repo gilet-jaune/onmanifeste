@@ -46,7 +46,7 @@ tags:
 
 On doit vous les notifier immédiatement, dans une langue que vous comprenez :[^sp-gav]
 
-- **Le droit de vous taire.** Vous pouvez donner votre identité et refuser de répondre aux autres questions.
+- **Le droit de vous taire.** Vous pouvez donner votre identité ([ce que cela recouvre](garde-a-vue.md#donner-son-identite-ce-que-cela-veut-dire)) et refuser de répondre aux autres questions.
 - **Un·e avocat·e**, choisi·e ou commis·e d'office (gratuit selon vos ressources). Depuis le 1er juillet 2024, vous pouvez demander qu'aucune audition n'ait lieu sans avocat·e.[^sp-gav-2024] L'entretien avec l'avocat·e est **confidentiel** et dure **30 minutes au maximum** ; vous pouvez le renouveler au début d'une prolongation.[^cpp-63-4]
 - **Un médecin.** Il se prononce notamment sur la compatibilité de la garde à vue avec votre état, et son certificat est versé au dossier.[^sp-gav]
 - **Faire prévenir** un proche et votre employeur. C'est la police qui passe l'appel (souvent en numéro masqué), d'où l'importance d'avoir écrit les **10 chiffres d'un·e proche sur votre peau sous un vêtement** avant la manif : votre téléphone étant mis à la fouille, ne demandez jamais à le déverrouiller devant les policier·es pour chercher un numéro.[^sp-gav][^sm-guide]
@@ -56,6 +56,16 @@ On doit vous les notifier immédiatement, dans une langue que vous comprenez :[^
 **Pour les retenir : A.M.I.S** = Avocat, Médecin, Informer un proche, Silence.
 
 Durée : **24 heures**, renouvelable une fois (48 heures) pour la plupart des faits reprochés en manifestation. Pour les infractions les plus graves, elle peut aller jusqu'à **72 heures** (96 pour certaines), et jusqu'à **144 heures** en cas de terrorisme.[^sp-gav] Si une autre mesure de contrainte a précédé pour les mêmes faits, la durée se compte **à partir de l'heure où vous avez été privé·e de liberté**, pas de l'arrivée au commissariat.[^cpp-63]
+
+## Donner son identité : ce que cela veut dire
+
+La seule chose que la loi vous demande de faire en garde à vue est de **décliner votre identité** : le droit de faire des déclarations, de répondre aux questions ou de se taire s'exerce « après avoir décliné son identité ».[^cpp-63-1][^sp-gav] Pour tout le reste, vous pouvez vous taire.
+
+- **À donner** : votre **état civil**, c'est-à-dire les informations de votre pièce d'identité (nom, prénoms, date et lieu de naissance). Donnez-le **exact**.
+- **Jamais de fausse identité** : prendre le nom d'un tiers, dans des circonstances qui pourraient entraîner des poursuites contre lui, est puni de **5 ans de prison et 75 000 €** ; une fausse déclaration d'état civil qui pourrait faire poursuivre un tiers l'est aussi.[^cp-434-23] Un état civil manifestement inexact ou un refus de justifier de son identité peut en outre permettre une prise d'empreintes ou de photo sous contrainte, sur autorisation du procureur (voir [ADN, empreintes et photos](adn-signalisation.md)).[^cpp-55-1]
+- **Autres questions** (profession, employeur, famille, amis, opinions, téléphone, activités, faits reprochés) : ce n'est **pas** de l'identité, vous pouvez dire « je n'ai rien à déclarer ». Ces réponses nourrissent le dossier et peuvent désigner d'autres personnes.
+- **Adresse** : les textes que nous avons lus (articles 61-1, 63-1, 63-3-1, 64 du Code de procédure pénale) ne parlent ni d'adresse ni de domicile élu, et aucun ne définit l'état civil à donner. **Demandez à l'avocat·e** ce que vous devez répondre, avant d'être interrogé·e sur ce point.
+- **Pseudo, nom de militant·e, prénom d'usage** : ce n'est pas votre identité légale ; pour un prénom d'usage, voir [personnes trans](garde-a-vue.md#personnes-trans-en-garde-a-vue).
 
 ## Pendant la garde à vue
 

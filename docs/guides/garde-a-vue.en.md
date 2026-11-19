@@ -1,7 +1,7 @@
 ---
 description: 'Police custody: lawyer, doctor, right to remain silent, duration and rights to know from the moment of arrest.'
-source_hash: s1-0984fcc2a05a
-source_sections: s1-943d80.e8a103.ef8bc4.58577c.087439.1fc937.9b657a.567a6f.614f7c.000aab
+source_hash: s1-73d074d93144
+source_sections: s1-943d80.e8a103.ef8bc4.9b2c42.e5f96e.087439.1fc937.9b657a.567a6f.614f7c.000aab
 review: juridique
 review_status: pending
 tags:
@@ -48,7 +48,7 @@ tags:
 
 They must be notified to you immediately, in a language you understand:[^sp-gav]
 
-- **The right to remain silent.** You can give your identity and refuse to answer other questions.
+- **The right to remain silent.** You can give your identity ([what that covers](garde-a-vue.md#giving-your-identity-what-it-means)) and refuse to answer other questions.
 - **A lawyer**, of your choice or court-appointed (free depending on your income). Since 1 July 2024, you can ask that no questioning takes place without a lawyer.[^sp-gav-2024] The meeting with the lawyer is **confidential** and lasts **30 minutes at most**; you can ask for it again at the start of an extension.[^cpp-63-4]
 - **A doctor.** They rule in particular on whether custody is compatible with your condition, and their certificate goes in the file.[^sp-gav]
 - **Have someone notified**: a relative and your employer. The police make the call (often from a hidden number), which is why you should write the **10 digits of a close contact on your skin under clothing** before the protest: since your phone is taken during the search, never ask to unlock it in front of officers to look up a number.[^sp-gav][^sm-guide]
@@ -58,6 +58,16 @@ They must be notified to you immediately, in a language you understand:[^sp-gav]
 **To remember them: A.M.I.S** = Avocat (lawyer), Médecin (doctor), Informer (a relative), Silence.
 
 Duration: **24 hours**, renewable once (48 hours) for most offences alleged at protests. For the most serious offences it can reach **72 hours** (96 for some), and **144 hours** for terrorism.[^sp-gav] If another coercive measure came first for the same facts, the clock runs **from the time you were deprived of liberty**, not from arrival at the station.[^cpp-63]
+
+## Giving your identity: what it means
+
+The only thing the law requires of you in custody is to **state your identity**: the right to make statements, answer questions or stay silent applies "after stating one's identity".[^cpp-63-1][^sp-gav] For everything else, you may stay silent.
+
+- **To give**: your **civil status** (état civil), meaning the details on your ID (surname, first names, date and place of birth). Give it **accurately**.
+- **Never a false identity**: taking a third party's name in circumstances that could lead to prosecution of that person is punished by **5 years in prison and €75,000**; a false statement about someone's civil status that could lead to a third party being prosecuted is punished the same way.[^cp-434-23] A manifestly inaccurate civil status or a refusal to prove your identity can also allow fingerprints or a photo to be taken by force, with the prosecutor's written authorisation (see [DNA, fingerprints and photos](adn-signalisation.md)).[^cpp-55-1]
+- **Other questions** (job, employer, family, friends, opinions, phone, activities, the alleged facts): this is **not** identity, you may say "I have nothing to declare". Answers feed the file and can point to other people.
+- **Address**: the texts we read (articles 61-1, 63-1, 63-3-1 and 64 of the Code of Criminal Procedure) mention neither an address nor an elected domicile, and none defines the civil status you must give. **Ask your lawyer** what to answer before being questioned on it.
+- **Nickname, activist name, name in use**: not your legal identity; for a name in use, see [trans people](garde-a-vue.md#trans-people-in-custody).
 
 ## During custody
 
