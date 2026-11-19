@@ -36,8 +36,13 @@ const block = [
     '',
     ...s.items.map((r) => {
       const phone = r.phone ? ` Tél. : ${r.phone}.` : '';
-      const unconfirmed = r.check.result === 'unconfirmed' ? ' ⚠️ _Non confirmé._' : '';
-      return `- [${r.name}](${r.url}) - ${r.description.fr}${phone}${unconfirmed}`;
+      const badge =
+        r.check.result === 'unconfirmed'
+          ? ' ⚠️ _Non confirmé._'
+          : r.check.result === 'dated'
+            ? ' ⚠️ _Numéro ancien, à vérifier._'
+            : '';
+      return `- [${r.name}](${r.url}) - ${r.description.fr}${phone}${badge}`;
     }),
     '',
   ]),

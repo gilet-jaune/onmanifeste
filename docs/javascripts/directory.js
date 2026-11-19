@@ -380,11 +380,11 @@ async function initDirectory(root) {
         ),
       ),
       el('span', { class: 'directory__badge' }, loc(data.categories[r.category])),
-      r.check.result === 'unconfirmed'
+      r.check.result === 'unconfirmed' || r.check.result === 'dated'
         ? el(
             'span',
             { class: 'directory__unconfirmed', title: r.check.note },
-            `⚠ ${checkLevels.unconfirmed[lang]}`,
+            `⚠ ${checkLevels[r.check.result][lang]}`,
           )
         : '',
       el('p', {}, ...highlight(loc(r.description), terms)),

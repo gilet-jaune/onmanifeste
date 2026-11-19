@@ -55,7 +55,8 @@ Règles :
 - `check` : la dernière vérification du lien et des informations (voir « Vérifier une information » ci-dessous).
     - `date` (AAAA-MM-JJ) : quand vous avez vérifié. Au-delà de 12 mois, la maintenance hebdomadaire signale la ressource.
     - `result` : `confirmed` (lien joignable, informations exactes) ou `unconfirmed` (impossible à confirmer : badge « Non confirmé » sur la carte, pas de numéro de téléphone autorisé).
-    - `note` : obligatoire si `unconfirmed`, pour expliquer ce qui n'a pas pu être confirmé.
+    - `dated` : le collectif publie lui-même ce numéro, mais sur une page ancienne ou non datée. Le numéro est conservé, avec le badge « Numéro ancien, à vérifier » (absent de la page SOS).
+    - `note` : obligatoire si `unconfirmed` ou `dated`, pour expliquer ce qui n'a pas pu être confirmé.
     - `by` : qui a vérifié (`ai`, `volunteer`, `lawyer`, `medical` ou `historian`).
 - `url` est aussi la **source principale** de la description. Si la description affirme quelque chose qui vient d'ailleurs, ajoutez `sources` : `[{ "title": "…", "url": "https://…" }]`.
 - Dans les guides, chaque information factuelle ou juridique porte une note de bas de page (`[^id]`). Les sources sont centralisées dans `docs/data/sources.json` (titre FR/EN, URL, date de vérification) : ajoutez-y la source une seule fois, puis citez-la par son identifiant dans n'importe quelle page.

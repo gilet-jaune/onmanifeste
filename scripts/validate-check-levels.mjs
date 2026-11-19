@@ -9,7 +9,7 @@ const levels = JSON.parse(readFileSync(FILE, 'utf8')).check_levels;
 for (const lang of ['fr', 'en']) {
   for (const by of ['ai', 'volunteer', 'lawyer', 'medical', 'historian'])
     if (!levels.by?.[by]?.[lang]) errors.push(`by.${by}.${lang} is missing`);
-  for (const key of ['ai_pending', 'unconfirmed', 'date_format'])
+  for (const key of ['ai_pending', 'unconfirmed', 'dated', 'date_format'])
     if (!levels[key]?.[lang]) errors.push(`${key}.${lang} is missing`);
   if (levels.months?.[lang]?.length !== 12) errors.push(`months.${lang} needs 12 entries`);
 }

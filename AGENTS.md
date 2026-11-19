@@ -31,7 +31,7 @@ Act as a **Senior Documentation Engineer**:
   share-alike).
 - **Verified sources only:** every entry must link to an official, reachable page. No legal claims
   without a source. Record the check in `check: { date, result }` (`result`: `confirmed` or
-  `unconfirmed` with a `note`).
+  `unconfirmed` with a `note`, or `dated` for a phone from an old or undated page).
 - **Anonymity:** published by "citron-oppresse" in the `gilet-jaune` organization; never write a
   real name, personal e-mail or personal handle in files, commits or URLs.
 - **Privacy:** no third-party requests at runtime (fonts are self-hosted by the `privacy` plugin);

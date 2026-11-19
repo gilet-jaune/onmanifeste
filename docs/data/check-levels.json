@@ -30,6 +30,10 @@
       "fr": "Non confirmé",
       "en": "Unconfirmed"
     },
+    "dated": {
+      "fr": "Numéro ancien, à vérifier",
+      "en": "Old number, to be checked"
+    },
     "date_format": {
       "fr": "{d} {m} {y}",
       "en": "{m} {d}, {y}"

@@ -57,7 +57,8 @@ Rules:
 - `check`: the last check of the link and the information (see "Check an entry" below).
     - `date` (YYYY-MM-DD): when you checked. After 12 months, the weekly maintenance flags the resource.
     - `result`: `confirmed` (link reachable, information accurate) or `unconfirmed` (could not be confirmed: "Unconfirmed" badge on the card, no phone number allowed).
-    - `note`: required when `unconfirmed`, to explain what could not be confirmed.
+    - `dated`: the collective itself publishes this number, but on an old or undated page. The number is kept, with an "Old number, to be checked" badge (not shown on the SOS page).
+    - `note`: required when `unconfirmed` or `dated`, to explain what could not be confirmed.
     - `by`: who checked (`ai`, `volunteer`, `lawyer`, `medical` or `historian`).
 - `url` is also the **primary source** of the description. If the description states something coming from elsewhere, add `sources`: `[{ "title": "…", "url": "https://…" }]`.
 - In guides and tips, every factual or legal statement carries a footnote (`[^id]`). Sources are centralised in `docs/data/sources.json` (FR/EN title, URL, check date): add a source once, then cite it by id from any page.

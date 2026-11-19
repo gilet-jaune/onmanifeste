@@ -11,8 +11,8 @@ cardFor() in directory.js. -#} {%- from 'overrides/partials/check.html' import c
     <span class="directory__badge"
       >{{ categories[r.category][lang] or categories[r.category].fr }}</span
     >
-    {%- if r.check.result == 'unconfirmed' %}
-    <span class="directory__unconfirmed" title="{{ r.check.note }}">⚠ {{ 'Non confirmé' if lang == 'fr' else 'Unconfirmed' }}</span>
+    {%- if r.check.result in ['unconfirmed', 'dated'] %}
+    <span class="directory__unconfirmed" title="{{ r.check.note }}">⚠ {{ check_levels[r.check.result][lang] }}</span>
     {%- endif %}
     <p>{{ r.description[lang] or r.description.fr }}</p>
     {%- if r.phone %}

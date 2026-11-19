@@ -202,12 +202,12 @@
                 "description": "Who did the check: ai (sourced by an AI, no human review yet), volunteer, lawyer, medical (health professional) or historian."
               },
               "result": {
-                "enum": ["confirmed", "unconfirmed"],
-                "description": "confirmed: link reachable and information matches; unconfirmed: could not be confirmed (shown as a warning badge)."
+                "enum": ["confirmed", "unconfirmed", "dated"],
+                "description": "confirmed: link reachable and information matches; unconfirmed: could not be confirmed (warning badge, no phone allowed); dated: the collective itself lists the phone but the source is old or undated (phone kept, shown with an old-number badge, hidden from the SOS page)."
               },
               "note": {
                 "type": "string",
-                "description": "Required when result is unconfirmed: what could not be confirmed and why."
+                "description": "Required when result is unconfirmed or dated: what could not be confirmed and why."
               }
             }
           }

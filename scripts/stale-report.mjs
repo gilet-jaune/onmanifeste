@@ -46,7 +46,7 @@ const stale = resources
     ...r,
     age: Math.floor((Date.now() - Date.parse(`${r.check.date}T00:00:00Z`)) / 86_400_000),
   }))
-  .filter((r) => r.age > STALE_DAYS || r.check.result === 'unconfirmed')
+  .filter((r) => r.age > STALE_DAYS || r.check.result !== 'confirmed')
   .sort((a, b) => b.age - a.age);
 
 const lines = stale.length
@@ -57,7 +57,7 @@ const lines = stale.length
       '| --- | --- | --- | --- |',
       ...stale.map(
         (r) =>
-          `| \`${r.id}\` — ${r.name} | ${r.check.date} (${r.check.result === 'unconfirmed' ? 'non confirmée' : 'confirmée'}) | ${r.url} | ${r.file ?? 'docs/data/resources.json / sources.json'} |`,
+          `| \`${r.id}\` — ${r.name} | ${r.check.date} (${{ unconfirmed: 'non confirmée', dated: 'numéro ancien' }[r.check.result] ?? 'confirmée'}) | ${r.url} | ${r.file ?? 'docs/data/resources.json / sources.json'} |`,
       ),
       '',
       'Pour chacune : ouvrir le lien, vérifier les informations (numéro, description), puis mettre à jour `check` (`date`, `result`, `by` : `volunteer`, `lawyer`, `medical` ou `historian`) dans le fichier indiqué (`docs/data/resources.json`, `sources.json`, `history.json` ou `victimes.json`).',

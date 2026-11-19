@@ -125,10 +125,12 @@ const SOCIALS = {
     } else if ((Date.now() - date) / 86_400_000 > STALE_DAYS) {
       warnings.push(`${at}: not checked for more than ${STALE_DAYS} days (${checked})`);
     }
-    if (!['confirmed', 'unconfirmed'].includes(result)) {
-      errors.push(`${at}: check.result must be "confirmed" or "unconfirmed"`);
+    if (!['confirmed', 'unconfirmed', 'dated'].includes(result)) {
+      errors.push(`${at}: check.result must be "confirmed", "unconfirmed" or "dated"`);
     }
-    if (result === 'unconfirmed' && !note) errors.push(`${at}: unconfirmed check needs a note`);
+    if ((result === 'unconfirmed' || result === 'dated') && !note)
+      errors.push(`${at}: ${result} check needs a note`);
+    if (result === 'dated' && !r.phone) errors.push(`${at}: a dated check only applies to a phone`);
     if (!['ai', 'volunteer', 'lawyer', 'medical', 'historian'].includes(r.check.by))
       errors.push(`${at}: check.by must be ai, volunteer, lawyer, medical or historian`);
     if (result === 'unconfirmed' && r.phone) {

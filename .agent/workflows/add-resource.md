@@ -1,7 +1,9 @@
 # Workflow: Add or Update a Resource
 
 1. Open the official page yourself and confirm it is reachable and current. If it is not, do not
-   invent details: use `check.result: "unconfirmed"` with a `note`, and no `phone`.
+   invent details: use `check.result: "unconfirmed"` with a `note`, and no `phone`. If the
+   collective itself lists a phone on an old or undated page, use `check.result: "dated"` (with a
+   `note` and the page in `sources`).
 2. Add the entry to `resources` in `docs/data/resources.json`, next to its category. Reuse existing
    tags (see the directory's tag list) before creating new ones.
 3. Set `check.date` to today. Add `sources` for any statement that does not come from `url`.

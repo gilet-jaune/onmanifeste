@@ -4,7 +4,7 @@ French-first toolkit for protesting in France: a sourced directory, guides, an S
 
 ## Ground rules
 
-- **Safety first:** readers may be in custody, injured or scared. Prefer short, actionable wording; never publish an unconfirmed phone number.
+- **Safety first:** readers may be in custody, injured or scared. Prefer short, actionable wording; never publish an unconfirmed phone number (a number the collective itself lists on an old or undated page uses `check.result: dated`).
 - **Every claim is sourced:** resources link to their official page (`url`, `sources`); guides and tips use footnotes (`[^id]`) listed under `## Sources`.
 - **Privacy:** no analytics, no external embeds, no third-party requests at runtime (fonts are self-hosted by the Material `privacy` plugin).
 - **Anonymity:** the project is published anonymously by "citron-oppresse" in the `gilet-jaune` GitHub organization. Never write a real name, personal e-mail or personal handle in files, commits or URLs.
@@ -66,8 +66,8 @@ Visitors read French (or English) words, never code names. Do not mix them.
 
 - `stores` (optional, apps only): copy the store links from the publisher's own download page, never from a store search (look-alike apps exist).
 - `check.by`: who checked it — `ai` (an agent found and sourced it: always use this when you are an AI agent), `volunteer`, `lawyer`, `medical` or `historian`. Never set a human level yourself. The wording and date format shown for each level live in `docs/data/check-levels.json` only (read by the footnote hook, the Jinja macros and the scripts); never write "checked on" text by hand.
-- `phone` only for official public lines, and never when `check.result` is `unconfirmed`.
-- `check.result: unconfirmed` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry.
+- `phone` only for official public lines, and never when `check.result` is `unconfirmed`. A number the collective itself lists on an old or undated page uses `check.result: dated` (note required, page in `sources`): the phone is kept and shown with an « Old number, to be checked » badge. A number from a third-party directory, not cross-checked, stays out of `phone`.
+- `check.result: unconfirmed` or `dated` requires a `note`; the card and README show a warning badge, and the SOS page hides the entry (it lists `confirmed` phones only).
 - After editing: `npm run validate:data` then `npm run readme` (the README list is generated).
 - Schemas: vertical diagrams (steps with a label, arrows or not, optional dashed notes) are data in `docs/data/routes.json`, drawn in French and English by `{{ route("id") }}` (`main.py`); `npm run validate:data` checks both languages, text length and that every route is used. A timeline puts the time in the label; a set of cases uses `"arrows": false` with the condition in the label.
 - Tunable thresholds of the Signal guide (how many actions are watched, how many members go along, how long a decision takes) live only in `docs/data/defaults.json` (example wording, public): pages use `{{ default("id") }}`, `routes.json` uses `[[id]]`, and `npm run validate:data` fails if one is typed again in a Signal page. A real group’s own values are never put in this repository.

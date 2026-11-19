@@ -318,11 +318,11 @@
               ]),
             )
           : null,
-        res.check?.result === 'unconfirmed'
+        res.check?.result === 'unconfirmed' || res.check?.result === 'dated'
           ? el(
               'p',
               { class: 'directory__unconfirmed', title: res.check.note },
-              `⚠ ${checkLevels.unconfirmed[lang]}`,
+              `⚠ ${checkLevels[res.check.result][lang]}`,
             )
           : null,
         res.check

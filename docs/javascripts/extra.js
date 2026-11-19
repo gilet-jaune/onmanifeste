@@ -523,11 +523,11 @@ document.addEventListener('DOMContentLoaded', function () {
         ),
       ),
       cardEl('h2', { id: 'contact-card-title', class: 'contact-card__title' }, r.name),
-      r.check?.result === 'unconfirmed'
+      r.check?.result === 'unconfirmed' || r.check?.result === 'dated'
         ? cardEl(
             'p',
             { class: 'directory__unconfirmed', title: r.check.note },
-            `⚠ ${checkLevels.unconfirmed[lang]}${r.check.note ? ` — ${r.check.note}` : ''}`,
+            `⚠ ${checkLevels[r.check.result][lang]}${r.check.note ? ` — ${r.check.note}` : ''}`,
           )
         : null,
       cardEl('p', { class: 'contact-card__desc' }, loc(r.description)),
