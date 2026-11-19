@@ -1,7 +1,7 @@
 ---
 description: 'First aid at a protest: gas, injuries, life-threatening emergencies, gestures to know and numbers to call.'
-source_hash: s1-dc23e81a5fc1
-source_sections: s1-8c7153.e32270.9718e2.646105.03fea4.d5d4cd.a41311.fed92e.47e2e4.41a8e4.000aab
+source_hash: s1-6bfdb530780f
+source_sections: s1-8c7153.e32270.9718e2.646105.03fea4.d5d4cd.a41311.fed92e.e419f3.41a8e4.000aab
 review: medical
 review_status: pending
 tags:
@@ -142,6 +142,13 @@ Effects don't always stop the same evening. Keep a record and see a doctor if ne
 
 - **Note** each exposure: date, place, duration, intensity (gas in an enclosed space, repeated firing), symptoms. This log helps the doctor and may be useful later.[^lacrymo-long]
 - **Tear gas**: cough, breathing difficulty, skin or eye irritation, headaches, digestive or **menstrual cycle** disorders lasting more than a few days → see a doctor and mention the exposure. Take particular care with asthma, pregnancy or chronic illness. The effects of repeated exposure are still poorly understood, but a 2023 study links several days of exposure to more cycle disorders; the participatory survey {{ res("lacrymos-de-sang") }} collects testimonies.[^lacrymo-long][^lacrymo-femmes][^etude-hassan-2023][^lacrymos-de-sang]
+- **Periods triggered or disrupted after exposure**: a link is **not proven** (self-reported accounts, no validated study), but here are possible steps.
+    - **Call the poison control centre** for your region: it can advise by phone.[^moniteur-pharmacies-lacrymo-2026]
+    - **Book an appointment** with a doctor or midwife, giving the date and intensity of the exposure.
+    - **You can ask for a blood test for cyanide**: this is an **unproven hypothesis** (CS might release it), no official protocol was found, and the doctor decides whether it is useful; note the date of the sample relative to the exposure.[^moniteur-pharmacies-lacrymo-2026][^afp-lacrymo-regles-2026]
+    - **Results from the {{ res("lacrymos-de-sang") }} collective, presented on 17 November 2026**: an online and at-protest self-reported survey (8 to 31 October, about 10,000 responses), **with no medical diagnosis and no value as a scientific study** according to the press. The collective says 94% of exposed respondents report gynaecological disorders, against 30% of unexposed women protesters; half of the disorders would start within 12 hours. Selection bias is likely (affected people answer more readily), the size of the "unexposed" group is not published, and we could not read the report. The Interior Ministry calls the link "not proven" and partly blames stress; no independent study or ANSES opinion exists so far.[^franceinfo-lacrymos-resultats-2026][^lcp-lacrymos-resultats-2026]
+    - Other explanations are put forward, such as **acute stress** (Paris poison control centre, midwives' council).[^afp-lacrymo-regles-2026] ANSES has been asked to assess it, with no opinion issued yet.[^moniteur-pharmacies-lacrymo-2026]
+- **Pregnancy and breastfeeding**: little research exists. The {{ res("lacrymos-de-sang") }} collective relays La Leche League's advice after exposure: undress and wash clothes as soon as you get home, shower rubbing the skin with water and soap, and **wait at least 1 hour after decontaminating the skin** before breastfeeding; there is no data on milk contamination. If pregnant, tell a doctor or midwife about the exposure.[^lacrymos-de-sang]
 - **Ears**: ringing (tinnitus), a "blocked" ear or hearing loss after an explosion → **ENT specialist or A&E within 24 hours**: early treatment improves the chances of recovery.[^acouphenes]
 - **Psychological**: nightmares, startling, avoiding places or crowds, sleep or concentration problems **more than a month** after the events → talk to a doctor. The {{ res("cn2r", "regional psychological trauma centres (Cn2r)") }} see adults and minors.[^cn2r]
 

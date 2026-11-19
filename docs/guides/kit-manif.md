@@ -63,6 +63,7 @@ Une tenue simple, couvrante, sans signe distinctif inutile, et un petit sac lég
 
 - [ ] **Pièce d'identité** (un contrôle sans papiers peut mener à une vérification d'identité de 4 h), un peu d'argent liquide, titre de transport.[^sp-controle]
 - [ ] **Eau** : une bouteille pour boire, une pour rincer.
+- [ ] **Protections menstruelles** de rechange : des personnes rapportent des règles déclenchées ou avancées après une exposition au gaz (lien non démontré, voir [suivi à long terme](premiers-secours.md#apres-suivi-a-long-terme)).[^lacrymos-de-sang]
 - [ ] **Sérum physiologique** en dosettes (rinçage des yeux), pansements, compresses ([trousse de soins détaillée](premiers-secours.md#trousse-de-soins)).
 - [ ] En-cas sucré, médicaments personnels avec **une copie de l'ordonnance** (utile en cas d'arrestation).[^medicaction-gestes]
 - [ ] Pour les personnes réglées : des **serviettes hygiéniques** plutôt que des tampons, jugés trop dangereux portés longtemps.[^medicaction-gestes]

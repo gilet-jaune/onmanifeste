@@ -3072,6 +3072,54 @@
         "by": "ai"
       }
     },
+    "moniteur-pharmacies-lacrymo-2026": {
+      "title": {
+        "fr": "Le Moniteur des pharmacies — Effets gynécologiques des gaz lacrymogènes : les femmes alertent, la science hésite (16 novembre 2026)",
+        "en": "Le Moniteur des pharmacies — Gynaecological effects of tear gas: women raise the alarm, science hesitates (16 November 2026; in French)"
+      },
+      "url": "https://www.lemoniteurdespharmacies.fr/conseils/premiers-soins/effets-gynecologiques-des-gaz-lacrymogenes-les-femmes-alertent-la-science-hesite",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "afp-lacrymo-regles-2026": {
+      "title": {
+        "fr": "AFP (Sud Radio) — Gaz lacrymogènes : des femmes témoignent de troubles menstruels après les manifestations (28 octobre 2026)",
+        "en": "AFP (Sud Radio) — Tear gas: women report menstrual disorders after protests (28 October 2026; in French)"
+      },
+      "url": "https://www.sudradio.fr/societe/gaz-lacrymogenes-des-femmes-temoignent-de-troubles-menstruels-apres-les-manifestations",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "franceinfo-lacrymos-resultats-2026": {
+      "title": {
+        "fr": "franceinfo — Plus de neuf manifestantes sur dix affirment avoir ressenti des troubles gynécologiques après une exposition au gaz lacrymogène, selon un collectif (17 novembre 2026)",
+        "en": "franceinfo — More than nine in ten women protesters say they had gynaecological disorders after tear gas exposure, according to a collective (17 November 2026; in French)"
+      },
+      "url": "https://www.franceinfo.fr/societe/manifestations/plus-de-neuf-manifestantes-sur-dix-affirment-avoir-ressenti-des-troubles-gynecologiques-apres-avoir-ete-exposees-au-gaz-lacrymogene-selon-un-collectif_8286335.html",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
+    "lcp-lacrymos-resultats-2026": {
+      "title": {
+        "fr": "LCP — Gaz lacrymogènes : un collectif alerte sur la santé des femmes, LFI veut les interdire en manifestation (17 novembre 2026)",
+        "en": "LCP — Tear gas: a collective raises the alarm on women's health, LFI wants it banned at protests (17 November 2026; in French)"
+      },
+      "url": "https://lcp.fr/actualites/gaz-lacrymogenes-un-collectif-alerte-sur-la-sante-des-femmes-lfi-veut-les-interdire-en",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "lacrymos-de-sang": {
       "title": {
         "fr": "Lacrymos de sang — Enquête sur les effets du gaz lacrymogène sur le cycle menstruel",

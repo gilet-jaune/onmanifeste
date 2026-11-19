@@ -1,7 +1,7 @@
 ---
 description: 'Protest kit and clothing: clothes, eye and respiratory protection, what to bring and what to leave at home.'
-source_hash: s1-0428d95566b5
-source_sections: s1-7917f9.bda8bf.af07b2.991851.b1235f.fa8ddd.bbe929.000aab
+source_hash: s1-740dbd07c709
+source_sections: s1-7917f9.bda8bf.af07b2.991851.3c321c.fa8ddd.bbe929.000aab
 review: juridique
 review_status: pending
 tags:
@@ -65,6 +65,7 @@ Simple, covering clothes with no unnecessary distinctive signs, and a small ligh
 
 - [ ] **ID** (a check without papers can lead to an identity verification of up to 4 hours), some cash, transport ticket.[^sp-controle]
 - [ ] **Water**: one bottle to drink, one to rinse.
+- [ ] **Spare menstrual products**: some people report periods triggered or brought forward after gas exposure (link not proven, see [long-term follow-up](premiers-secours.md#afterwards-long-term-follow-up)).[^lacrymos-de-sang]
 - [ ] **Saline** single doses (eye rinse), plasters, compresses ([detailed first-aid kit](premiers-secours.md#first-aid-kit)).
 - [ ] Sugary snack, personal medication with **a copy of the prescription** (useful if you are arrested).[^medicaction-gestes]
 - [ ] If you menstruate: **sanitary pads** rather than tampons, which are considered too risky when worn for a long time.[^medicaction-gestes]
