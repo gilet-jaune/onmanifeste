@@ -47,8 +47,8 @@ tags:
 On doit vous les notifier immédiatement, dans une langue que vous comprenez :[^sp-gav]
 
 - **Le droit de vous taire.** Vous pouvez donner votre identité ([ce que cela recouvre](garde-a-vue.md#donner-son-identite-ce-que-cela-veut-dire)) et refuser de répondre aux autres questions.
-- **Un·e avocat·e**, choisi·e ou commis·e d'office (gratuit selon vos ressources). Depuis le 1er juillet 2024, vous pouvez demander qu'aucune audition n'ait lieu sans avocat·e.[^sp-gav-2024] L'entretien avec l'avocat·e est **confidentiel** et dure **30 minutes au maximum** ; vous pouvez le renouveler au début d'une prolongation.[^cpp-63-4]
-- **Un médecin.** Il se prononce notamment sur la compatibilité de la garde à vue avec votre état, et son certificat est versé au dossier.[^sp-gav]
+- **Un·e avocat·e**, choisi·e ou commis·e d'office (gratuit selon vos ressources). Depuis le 1er juillet 2024, vous pouvez demander qu'aucune audition n'ait lieu sans avocat·e.[^sp-gav-2024] L'entretien avec l'avocat·e est **confidentiel** et dure **30 minutes au maximum** ; vous pouvez le renouveler au début d'une prolongation.[^cpp-63-4] Vous pouvez demander un·e avocat·e **dès le début et à tout moment**, et si l'avocat·e constate un conflit d'intérêts, il ou elle fait demander la désignation d'un autre.[^cpp-63-3-1] Les textes lus ne limitent pas le nombre de changements, mais ne les prévoient pas non plus expressément : **demandez-le à l'avocat·e** plutôt que de supposer.
+- **Un médecin.** Il se prononce notamment sur la compatibilité de la garde à vue avec votre état, et son certificat est versé au dossier.[^sp-gav] **Parlez-lui uniquement de votre santé** (douleurs, blessures, traitement), jamais des faits : ne partez pas du principe que ce que vous lui dites reste confidentiel, puisque le certificat va au dossier.
 - **Faire prévenir** un proche et votre employeur. C'est la police qui passe l'appel (souvent en numéro masqué), d'où l'importance d'avoir écrit les **10 chiffres d'un·e proche sur votre peau sous un vêtement** avant la manif : votre téléphone étant mis à la fouille, ne demandez jamais à le déverrouiller devant les policier·es pour chercher un numéro.[^sp-gav][^sm-guide]
 - **Un interprète** si nécessaire.
 - Consulter certains documents de la procédure (procès-verbal de notification, certificat médical).
@@ -87,7 +87,7 @@ La seule chose que la loi vous demande de faire en garde à vue est de **déclin
 
 1. **Demandez un·e avocat·e** et un médecin, dès la notification des droits.
 2. **Ne racontez rien** avant d'avoir parlé à l'avocat·e, même « pour vous expliquer » : tout ce que vous dites peut être utilisé. Dire « je n'ai rien à déclarer » est un droit. Cela vaut aussi **en cellule, aux toilettes et pendant les transferts** : ne parlez de l'affaire à personne d'autre qu'à l'avocat·e.
-3. **Ne parlez pas des autres** : ni noms, ni description, ni « qui était là ».
+3. **Ne parlez pas des autres** : ni noms, ni description, ni « qui était là », **y compris à l'avocat·e**. Avec lui ou elle, dites ce qui sert votre défense et restez sur ce qui vous concerne : vous n'avez pas à tout raconter dans un entretien de 30 minutes.
 4. **Relisez** chaque procès-verbal. Ne signez pas ce qui est inexact ; vous pouvez refuser de signer ou faire corriger.
 5. Restez calme : les provocations et pressions existent, ne vous laissez pas pousser à la faute.
 

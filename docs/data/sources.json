@@ -1719,6 +1719,18 @@
         "by": "ai"
       }
     },
+    "cpp-63-3-1": {
+      "title": {
+        "fr": "Code de procédure pénale, article 63-3-1 (Légifrance)",
+        "en": "Code de procédure pénale, article 63-3-1 (Légifrance)"
+      },
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049461462",
+      "check": {
+        "date": "2026-11-19",
+        "result": "confirmed",
+        "by": "ai"
+      }
+    },
     "cpp-63-4-2": {
       "title": {
         "fr": "Code de procédure pénale, article 63-4-2 (Légifrance)",
